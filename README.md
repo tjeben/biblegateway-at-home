@@ -1,6 +1,6 @@
 # BibleGateway at home
 
-A local Bible search app with Norwegian translations. Look up verses by reference, search full text, and compare multiple versions side by side.
+A local Bible search app with some Norwegian and English translations. Look up multiple verses by reference, search full text, and compare versions side by side.
 
 ## Usage
 
