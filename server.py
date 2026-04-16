@@ -870,7 +870,7 @@ def run_server():
 
     if not bible_data.versions:
         print("Error: No Bible versions found. Make sure bible_versions/ directory has version folders with JSON files.")
-        sys.exit(1)
+        print("The server will start, but searches will not work until Bible data is added.")
 
     server = http.server.HTTPServer((HOST, PORT), BibleHandler)
 
