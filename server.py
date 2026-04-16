@@ -11,7 +11,7 @@ import sys
 import urllib.parse
 from pathlib import Path
 
-PORT = int(os.environ.get("PORT", 8421))
+PORT = int(os.environ.get("PORT", 8421))h
 HOST = os.environ.get("HOST", "0.0.0.0")
 BASE_DIR = Path(__file__).parent
 BIBLE_DIR = BASE_DIR / "bible_versions"
@@ -870,7 +870,7 @@ def run_server():
 
     if not bible_data.versions:
         print("Error: No Bible versions found. Make sure bible_versions/ directory has version folders with JSON files.")
-        sys.exit(1)
+        print("The server will start, but searches will not work until Bible data is added.")
 
     server = http.server.HTTPServer((HOST, PORT), BibleHandler)
 
