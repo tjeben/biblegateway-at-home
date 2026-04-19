@@ -10,6 +10,7 @@ import re
 import sys
 import webbrowser
 import urllib.parse
+import urllib.request
 import threading
 import time
 from pathlib import Path
@@ -865,8 +866,78 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             last_heartbeat = time.time()
             self._send_json({"ok": True})
 
+        elif path == "/api/ai_parse":
+            query = params.get("q", [""])[0]
+            if not query:
+                self._send_json({"error": "No query"}, 400)
+                return
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            try:
+                result = gemini_request(
+                    api_key,
+                    query,
+                    "Du er en Bibel-referanseparser. Konverter uformelle norske bibelreferanser til standardformat som 'Joh 3:16' eller '1 Mos 15:10'. Returner KUN referansen, ingenting annet. Eksempler: 'første mosebok femten ti' → '1 Mos 15:10', 'johannes tre seksten' → 'Joh 3:16', 'salme tjuetre' → 'Sal 23', 'åpenbaringen siste kapittel' → 'Åp 22'.",
+                    max_tokens=50,
+                )
+                self._send_json({"result": result})
+            except Exception as e:
+                self._send_json({"error": str(e)}, 500)
+
         else:
             self.send_error(404)
+
+    def do_POST(self):
+        parsed = urllib.parse.urlparse(self.path)
+        path = parsed.path
+        length = int(self.headers.get("Content-Length", 0))
+        try:
+            body = json.loads(self.rfile.read(length)) if length else {}
+        except Exception:
+            self._send_json({"error": "Ugyldig JSON"}, 400)
+            return
+
+        if path == "/api/ai_diff":
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            text1 = body.get("text1", "")
+            text2 = body.get("text2", "")
+            v1 = body.get("version1", "Versjon 1")
+            v2 = body.get("version2", "Versjon 2")
+            label = body.get("label", "")
+            if not text1 or not text2:
+                self._send_json({"error": "Mangler tekst"}, 400)
+                return
+            try:
+                result = gemini_request(
+                    api_key,
+                    f"Sammenlign disse to oversettelsene av {label}:\n\n{v1}: {text1}\n\n{v2}: {text2}",
+                    "Du er en bibelforsker. Oppsummer KORT de viktigste forskjellene i ordvalg og formulering mellom de to oversettelsene. Svar på norsk. Maks 3 setninger. Vær konkret om hvilke ord som er forskjellige.",
+                    max_tokens=300,
+                )
+                self._send_json({"result": result})
+            except Exception as e:
+                self._send_json({"error": str(e)}, 500)
+        else:
+            self.send_error(404)
+
+
+def gemini_request(api_key, user_prompt, system_prompt, max_tokens=200):
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key={api_key}"
+    payload = {
+        "system_instruction": {"parts": [{"text": system_prompt}]},
+        "contents": [{"parts": [{"text": user_prompt}], "role": "user"}],
+        "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.1},
+    }
+    body = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        data = json.loads(resp.read())
+    return data["candidates"][0]["content"]["parts"][0]["text"].strip()
 
 
 def run_server():

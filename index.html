@@ -450,10 +450,71 @@
         }
         .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
+        .btn-ai {
+            background: #f5f0e0;
+            color: #8b6914;
+            border: 1px solid #d4b44a;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+        .btn-ai:hover { background: #ede3c0; }
+        .btn-ai:disabled { opacity: 0.6; cursor: wait; }
+        [data-theme="dark"] .btn-ai { background: #3a3010; color: #d4a84b; border-color: #6b5520; }
+        [data-theme="dark"] .btn-ai:hover { background: #4a3e14; }
+
+        .btn-diff {
+            padding: 6px 14px;
+            font-size: 0.85rem;
+            background: #fef3c7;
+            color: #92400e;
+            border: 1px solid #fbbf24;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .btn-diff:hover { background: #fde68a; }
+        .btn-diff:disabled { opacity: 0.6; cursor: wait; }
+        [data-theme="dark"] .btn-diff { background: #3b2200; color: #fbbf24; border-color: #7c4a00; }
+        [data-theme="dark"] .btn-diff:hover { background: #4a2d00; }
+
+        .diff-result-card {
+            background: #fffbeb;
+            border: 1px solid #fbbf24;
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin-top: 10px;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #78350f;
+        }
+        [data-theme="dark"] .diff-result-card { background: #2d1a00; color: #fde68a; border-color: #7c4a00; }
+
+        .controls-actions {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
         @media (max-width: 700px) {
-            .controls { flex-direction: column; }
+            .controls { flex-direction: column; gap: 8px; }
             .search-box { min-width: 100%; }
+            .controls-actions { width: 100%; }
+            .controls-actions select { flex: 1; min-width: 0; }
+            .controls-actions .btn-primary,
+            .controls-actions .btn-secondary,
+            .controls-actions .btn-ai { flex: 1; text-align: center; }
+            .browser-bar select { flex: 1; min-width: 0; }
+            #bookSelect { width: auto !important; }
+            .toggles { gap: 12px; }
             .verse-row { flex-direction: column; }
+            .compare-columns-header { flex-direction: column; gap: 6px; }
         }
     </style>
 </head>
@@ -469,12 +530,15 @@
 
 <div class="controls">
     <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Search... e.g. Johannes 3:16 or 1. Mosebok 1:1-3"
+        <input type="text" id="searchInput" placeholder="Søk... f.eks. Johannes 3:16 eller 1. Mosebok 1:1-3"
                autocomplete="off" autofocus>
     </div>
-    <select id="versionSelect"></select>
-    <button class="btn btn-primary" id="searchBtn">Search</button>
-    <button class="btn btn-secondary" id="compareBtn">Compare</button>
+    <div class="controls-actions">
+        <select id="versionSelect"></select>
+        <button class="btn btn-primary" id="searchBtn">Søk</button>
+        <button class="btn-ai" id="aiSearchBtn" title="La KI normalisere søket til riktig format">✨ AI</button>
+        <button class="btn btn-secondary" id="compareBtn">Sammenlign</button>
+    </div>
 </div>
 
 <div class="browser-bar">
@@ -519,6 +583,7 @@
     // ── State ──
     let compareMode = false;
     let lastQuery = '';
+    let aiDiffState = null; // null | {loading:true} | {text:'...'} | {error:'...'}
     let mainData = null;
     let compareData = null;
     let currentView = 'normal'; // 'normal', 'text_search', 'all_versions'
@@ -706,6 +771,7 @@
         lastQuery = query;
         previousState = null;
         currentView = 'normal';
+        aiDiffState = null;
 
         const version = versionSelect.value;
         try {
@@ -750,6 +816,7 @@
     // ── Compare toggle ──
     compareBtn.addEventListener('click', async () => {
         compareMode = !compareMode;
+        aiDiffState = null;
         compareBtn.classList.toggle('active', compareMode);
         if (compareMode && lastQuery && currentView === 'normal') {
             await fetchCompareData(lastQuery);
@@ -760,10 +827,69 @@
     });
 
     compareVersionSelect.addEventListener('change', async () => {
+        aiDiffState = null;
         if (compareMode && lastQuery && currentView === 'normal') {
             await fetchCompareData(lastQuery);
             renderAll();
         }
+    });
+
+    // ── AI: toggle diff ──
+    window.toggleDiff = async function() {
+        if (aiDiffState && aiDiffState.text) {
+            aiDiffState = null;
+            renderAll();
+            return;
+        }
+        if (aiDiffState && aiDiffState.loading) return;
+
+        const text1 = (mainData || []).flatMap(b => b.verses || []).map(v => v.text).join(' ');
+        const text2 = (compareData || []).flatMap(b => b.verses || []).map(v => v.text).join(' ');
+        if (!text1 || !text2) { showToast('Ingen tekst å sammenligne'); return; }
+
+        aiDiffState = { loading: true };
+        renderAll();
+
+        try {
+            const resp = await fetch('/api/ai_diff', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    text1, text2,
+                    label: (mainData[0] && mainData[0].label) || lastQuery,
+                    version1: versionLabel(versionSelect.value),
+                    version2: versionLabel(compareVersionSelect.value),
+                })
+            });
+            const data = await resp.json();
+            aiDiffState = data.error ? { error: data.error } : { text: data.result };
+        } catch {
+            aiDiffState = { error: 'Kunne ikke koble til serveren.' };
+        }
+        renderAll();
+    };
+
+    // ── AI: parse search query ──
+    const aiSearchBtn = document.getElementById('aiSearchBtn');
+    aiSearchBtn.addEventListener('click', async () => {
+        const query = searchInput.value.trim();
+        if (!query) return;
+        aiSearchBtn.disabled = true;
+        aiSearchBtn.textContent = '...';
+        try {
+            const resp = await fetch(`/api/ai_parse?q=${encodeURIComponent(query)}`);
+            const data = await resp.json();
+            if (data.result) {
+                searchInput.value = data.result;
+                doSearch();
+            } else {
+                showToast(data.error || 'KI klarte ikke å tolke søket');
+            }
+        } catch {
+            showToast('Kunne ikke koble til KI');
+        }
+        aiSearchBtn.disabled = false;
+        aiSearchBtn.textContent = '✨ AI';
     });
 
     // ── Re-render on toggle change ──
@@ -794,6 +920,13 @@
             html += `<div class="compare-columns-header">
                 <div class="column-label">${escHtml(versionLabel(versionSelect.value))}</div>
                 <div class="column-label"><select id="compareVersionInline"></select></div>
+            </div>
+            <div style="margin-bottom:12px;">
+                <button class="btn-diff" onclick="toggleDiff()" ${aiDiffState && aiDiffState.loading ? 'disabled' : ''}>
+                    ${aiDiffState && aiDiffState.text ? '✨ Skjul forskjeller' : aiDiffState && aiDiffState.loading ? 'Analyserer...' : '✨ Forskjeller?'}
+                </button>
+                ${aiDiffState && aiDiffState.text ? `<div class="diff-result-card">${escHtml(aiDiffState.text)}</div>` : ''}
+                ${aiDiffState && aiDiffState.error ? `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>` : ''}
             </div>`;
         }
 
