@@ -10,9 +10,16 @@ import re
 import sys
 import webbrowser
 import urllib.parse
-import urllib.request
 import threading
 import time
+
+try:
+    from google import genai as _genai
+    _genai_client = _genai.Client()
+    GENAI_AVAILABLE = True
+except Exception:
+    _genai_client = None
+    GENAI_AVAILABLE = False
 from pathlib import Path
 
 PORT = 8421
@@ -966,23 +973,13 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
 
 
 def gemini_request(api_key, user_prompt, system_prompt, max_tokens=200):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
-    payload = {
-        "system_instruction": {"parts": [{"text": system_prompt}]},
-        "contents": [{"parts": [{"text": user_prompt}], "role": "user"}],
-        "generationConfig": {"maxOutputTokens": max_tokens, "temperature": 0.1},
-    }
-    body = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        error_body = e.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"Gemini HTTP {e.code}: {error_body[:300]}")
-    except urllib.error.URLError as e:
-        raise RuntimeError(f"Gemini nettverksfeil: {e.reason}")
-    return data["candidates"][0]["content"]["parts"][0]["text"].strip()
+    if not GENAI_AVAILABLE:
+        raise RuntimeError("google-genai pakken er ikke installert")
+    response = _genai_client.models.generate_content(
+        model="gemini-2.5-flash-preview-04-17",
+        contents=f"{system_prompt}\n\n{user_prompt}",
+    )
+    return response.text.strip()
 
 
 def run_server():
@@ -1002,6 +999,7 @@ def run_server():
     print(f"Server running at http://{host}:{PORT}")
     print(f"Versjoner lastet: {list(bible_data.versions.keys())}")
     print(f"GEMINI_API_KEY: {'satt (' + str(len(gemini_key)) + ' tegn)' if gemini_key else 'MANGLER - KI-funksjoner deaktivert'}")
+    print(f"google-genai SDK: {'lastet' if GENAI_AVAILABLE else 'IKKE tilgjengelig - installer med: pip install google-genai'}")
     sys.stdout.flush()
     if host == "127.0.0.1":
         webbrowser.open(f"http://127.0.0.1:{PORT}")
