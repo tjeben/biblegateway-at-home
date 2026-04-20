@@ -911,13 +911,29 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                 return
             sys.stderr.write(f"[{self.log_date_time_string()}] ai_parse: spør Gemini om '{query[:80]}'\n")
             sys.stderr.flush()
+            system_prompt = """Du hjelper en bibelsøkemotor med å forstå brukerens søk. Søkemotoren har to moduser:
+
+1. REFERANSE-oppslag: f.eks. 'Joh 3:16', '1 Mos 1:1-3', 'Sal 23', 'Matt 5:1-10'. Bruk norske bokforkortelser: 1 Mos, 2 Mos, 3 Mos, 4 Mos, 5 Mos, Jos, Dom, Rut, 1 Sam, 2 Sam, 1 Kong, 2 Kong, 1 Krøn, 2 Krøn, Esra, Neh, Est, Job, Sal, Ordsp, Fork, Høys, Jes, Jer, Klag, Esek, Dan, Hos, Joel, Amos, Obad, Jona, Mika, Nah, Hab, Sef, Hag, Sak, Mal, Matt, Mark, Luk, Joh, Apg, Rom, 1 Kor, 2 Kor, Gal, Ef, Fil, Kol, 1 Tess, 2 Tess, 1 Tim, 2 Tim, Tit, Filem, Heb, Jak, 1 Pet, 2 Pet, 1 Joh, 2 Joh, 3 Joh, Jud, Åp.
+
+2. TEKSTSØK: hvilke som helst ord som finnes i bibelteksten (case-insensitive AND-match på alle ord).
+
+Brukerens søk gikk ikke gjennom. Din oppgave: returner EN KORRIGERT SØKESTRENG som søkemotoren kan forstå. Ikke forklar noe — KUN den korrigerte strengen.
+
+Regler:
+- Hvis input ligner en bibelreferanse (uformell, stavefeil, ordtall) → konverter til standard referanseformat (f.eks. 'johannes tre seksten' → 'Joh 3:16', 'første mosebok femten ti' → '1 Mos 15:10', 'salme tjuetre' → 'Sal 23').
+- Hvis input ser ut som et ord/uttrykk brukeren søker på i bibelteksten → rett stavefeil og returner det korrigerte ordet (f.eks. 'jesos' → 'Jesus', 'nåda' → 'nåde', 'frels' → 'frelse').
+- Bruk flere ord med mellomrom for AND-søk (f.eks. 'jesus betlehem').
+- ALDRI returner forklaringer, spørsmål eller setninger. KUN den ferdige søkestrengen.
+- Hvis du er usikker, gjør din beste gjetning og returner den direkte."""
             try:
-                result = gemini_request(
-                    api_key,
-                    query,
-                    "Du er en Bibel-referanseparser. Konverter uformelle norske bibelreferanser til standardformat som 'Joh 3:16' eller '1 Mos 15:10'. Returner KUN referansen, ingenting annet. Eksempler: 'første mosebok femten ti' → '1 Mos 15:10', 'johannes tre seksten' → 'Joh 3:16', 'salme tjuetre' → 'Sal 23', 'åpenbaringen siste kapittel' → 'Åp 22'.",
-                    max_tokens=50,
-                )
+                result = gemini_request(api_key, query, system_prompt, max_tokens=50)
+                # Filter out AI responses that contain explanatory language
+                bad_words = ["forstår", "vennligst", "hvilken", "mener du", "oppgi", "?", "beklager", "spesifiser"]
+                if len(result) > 60 or any(w in result.lower() for w in bad_words):
+                    sys.stderr.write(f"[{self.log_date_time_string()}] ai_parse: forkastet forklarings-svar '{result}'\n")
+                    sys.stderr.flush()
+                    self._send_json({"error": "KI kunne ikke tolke søket"}, 200)
+                    return
                 sys.stderr.write(f"[{self.log_date_time_string()}] ai_parse: svar '{result}'\n")
                 sys.stderr.flush()
                 self._send_json({"result": result})
