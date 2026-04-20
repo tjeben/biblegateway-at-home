@@ -520,19 +520,149 @@
             flex-wrap: wrap;
         }
 
+        /* Integrated search bar: input + version select + search btn in one row */
+        .search-bar-wrap {
+            display: flex;
+            align-items: stretch;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            background: var(--card-bg);
+            overflow: hidden;
+            transition: border-color 0.2s;
+            flex: 1;
+            min-width: 250px;
+        }
+        .search-bar-wrap:focus-within { border-color: var(--accent); }
+        .search-bar-wrap input {
+            flex: 1;
+            padding: 12px 14px;
+            font-size: 1rem;
+            border: none;
+            background: transparent;
+            color: var(--text);
+            outline: none;
+            min-width: 0;
+        }
+        .search-bar-wrap input::placeholder { color: #aaa; }
+        .search-bar-wrap .search-version-select {
+            padding: 8px 10px;
+            font-size: 0.85rem;
+            border: none;
+            border-left: 1px solid var(--border);
+            border-radius: 0;
+            background: var(--card-bg);
+            color: var(--text);
+            cursor: pointer;
+            outline: none;
+            min-width: 80px;
+        }
+        .search-bar-wrap .search-btn-inline {
+            padding: 10px 18px;
+            font-size: 0.95rem;
+            border: none;
+            border-left: 1px solid var(--border);
+            border-radius: 0;
+            background: var(--accent);
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+        .search-bar-wrap .search-btn-inline:hover { background: var(--accent-hover); }
+        .search-bar-wrap .search-btn-inline:active { transform: scale(0.97); }
+
+        /* Sort/browse toggle button */
+        .sort-toggle-btn {
+            padding: 10px 14px;
+            font-size: 1.1rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            background: var(--card-bg);
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .sort-toggle-btn:hover, .sort-toggle-btn.active { border-color: var(--accent); color: var(--accent); }
+
+        /* Highlighted verse when reading chapter */
+        .highlighted-verse {
+            background: rgba(168, 50, 50, 0.15);
+            border-radius: 3px;
+            padding: 1px 3px;
+        }
+        [data-theme="dark"] .highlighted-verse { background: rgba(201, 68, 68, 0.2); }
+
+        /* Inline verse expansion in text search */
+        .inline-verse-expand {
+            background: var(--bg);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 6px 6px 0;
+            padding: 12px 16px;
+            margin-top: 8px;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--text);
+        }
+        .inline-verse-expand-actions {
+            margin-top: 8px;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .search-result-item.expanded { border-color: var(--accent); background: var(--card-bg); }
+
+        /* AI loading indicator */
+        .ai-searching {
+            display: inline-block;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            padding: 4px 10px;
+            background: var(--card-bg);
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            margin-left: 8px;
+        }
+
         @media (max-width: 700px) {
             .controls { flex-direction: column; gap: 8px; }
-            .search-box { min-width: 100%; }
+            .search-bar-wrap { min-width: 100%; }
             .controls-actions { width: 100%; }
             .controls-actions select { flex: 1; min-width: 0; }
             .controls-actions .btn-primary,
-            .controls-actions .btn-secondary,
-            .controls-actions .btn-ai { flex: 1; text-align: center; }
+            .controls-actions .btn-secondary { flex: 1; text-align: center; }
             .browser-bar select { flex: 1; min-width: 0; }
             #bookSelect { width: auto !important; }
             .toggles { gap: 12px; }
             .verse-row { flex-direction: column; }
             .compare-columns-header { flex-direction: column; gap: 6px; }
+
+            /* Sticky bottom search bar on mobile */
+            .search-bottom-bar {
+                position: fixed;
+                bottom: 0; left: 0; right: 0;
+                background: var(--bg);
+                border-top: 1px solid var(--border);
+                padding: 10px 14px;
+                z-index: 100;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                box-shadow: 0 -2px 12px rgba(0,0,0,0.1);
+            }
+            .search-bottom-bar .search-bar-wrap { min-width: 0; }
+            .search-bottom-bar .controls-actions-row {
+                display: flex;
+                gap: 8px;
+                align-items: center;
+            }
+            .controls.desktop-only { display: none; }
+            .results-wrapper { padding-bottom: 140px; }
+        }
+        @media (min-width: 701px) {
+            .search-bottom-bar { display: none; }
         }
     </style>
 </head>
@@ -541,43 +671,41 @@
 <div class="header">
     <div class="header-left" onclick="goHome()">
         <img src="/logo_biblegateway.png" alt="BibleGateway logo" class="header-logo">
-        <h1>BibleGateway at home</h1>
+        <h1>Bibelsøk</h1>
     </div>
     <div style="display:flex;gap:8px;align-items:center;">
-        <button class="dark-toggle" id="langToggle" title="Toggle book name language">NO</button>
-        <button class="dark-toggle" id="darkToggle" title="Toggle dark mode">&#9790;</button>
+        <button class="dark-toggle" id="langToggle" title="Bytt språk på boknavn">NO</button>
+        <button class="dark-toggle" id="darkToggle" title="Mørk modus">&#9790;</button>
     </div>
 </div>
 
-<div class="controls">
-    <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Søk... f.eks. Johannes 3:16 eller 1. Mosebok 1:1-3"
+<!-- Desktop search controls -->
+<div class="controls desktop-only">
+    <div class="search-bar-wrap">
+        <input type="text" id="searchInput" placeholder="Søk… f.eks. Johannes 3:16 eller nåde"
                autocomplete="off" autofocus>
+        <select id="versionSelect" class="search-version-select"></select>
+        <button class="search-btn-inline" id="searchBtn">Søk</button>
     </div>
-    <div class="controls-actions">
-        <select id="versionSelect"></select>
-        <button class="btn btn-primary" id="searchBtn">Søk</button>
-        <button class="btn-ai" id="aiSearchBtn" title="La KI normalisere søket til riktig format">✨ AI</button>
-        <button class="btn btn-secondary" id="compareBtn">Sammenlign</button>
-    </div>
+    <button class="sort-toggle-btn" id="sortToggleBtn" title="Bla gjennom bøker">⇅</button>
+    <button class="btn btn-secondary" id="compareBtn" style="display:none;">Sammenlign</button>
 </div>
 
-<div class="browser-bar">
-    <label>Browse:</label>
-    <select id="bookSelect" style="width:230px"><option value="">-- Book --</option></select>
-    <select id="chapterSelect" disabled><option value="">-- Ch --</option></select>
+<div class="browser-bar" id="browserBar" style="display:none;">
+    <select id="bookSelect" style="width:230px"><option value="">-- Bok --</option></select>
+    <select id="chapterSelect" disabled><option value="">-- Kap --</option></select>
 </div>
 
 <div class="toggles">
     <label class="toggle-group">
-        <span>Verse numbers</span>
+        <span>Versnummer</span>
         <div class="toggle">
             <input type="checkbox" id="toggleVerseNums" checked>
             <span class="toggle-slider"></span>
         </div>
     </label>
-    <label class="toggle-group">
-        <span>New line per verse</span>
+    <label class="toggle-group" id="newlinesToggleGroup" style="display:none;">
+        <span>Ny linje per vers</span>
         <div class="toggle">
             <input type="checkbox" id="toggleNewlines">
             <span class="toggle-slider"></span>
@@ -588,13 +716,27 @@
 
 <div class="results-wrapper" id="resultsWrapper">
     <div class="empty-state" id="emptyState">
-        <h2>Search the Bible</h2>
+        <h2>Søk i Bibelen</h2>
         <p>
-            Look up verses by reference: <code>Johannes 3:16</code>, <code>1. Mosebok 1:1-3</code>, <code>Salme 23</code><br>
-            Use <code>;</code> to look up multiple passages: <code>Joh 3:16;17</code>, <code>1. Mos 1:1;Josva 1:8</code><br>
-            Abbreviations and English names work too: <code>joh</code>, <code>1. mos</code>, <code>rom</code>, <code>genesis</code><br>
-            Or just type any word to search the entire Bible.
+            Slå opp vers med referanse: <code>Johannes 3:16</code>, <code>1. Mosebok 1:1-3</code>, <code>Salme 23</code><br>
+            Bruk <code>;</code> for flere steder: <code>Joh 3:16;17</code>, <code>1. Mos 1:1;Josva 1:8</code><br>
+            Forkortelser og engelske navn fungerer også: <code>joh</code>, <code>1. mos</code>, <code>rom</code><br>
+            Eller skriv et hvilket som helst ord for å søke i hele Bibelen.
         </p>
+    </div>
+</div>
+
+<!-- Mobile sticky bottom search bar -->
+<div class="search-bottom-bar" id="searchBottomBar">
+    <div class="search-bar-wrap">
+        <input type="text" id="searchInputMobile" placeholder="Søk i Bibelen…"
+               autocomplete="off">
+        <select id="versionSelectMobile" class="search-version-select"></select>
+        <button class="search-btn-inline" id="searchBtnMobile">Søk</button>
+    </div>
+    <div class="controls-actions-row">
+        <button class="sort-toggle-btn" id="sortToggleBtnMobile" title="Bla gjennom bøker" style="flex:0 0 auto;">⇅</button>
+        <button class="btn btn-secondary" id="compareBtnMobile" style="display:none;flex:1;">Sammenlign</button>
     </div>
 </div>
 
@@ -614,6 +756,7 @@
     let textSearchCache = null; // {results, query} for re-rendering
     let bookLang = localStorage.getItem('bookLang') || 'no'; // 'no' or 'en'
     let collapsed = true; // default: search results grouped by book
+    let highlightVerse = null; // verse number to highlight when reading chapter
 
     // ── BibleHub interlinear URL mapping ──
     const BIBLEHUB_SLUGS = {
@@ -693,10 +836,45 @@
     }
 
     // ── Elements ──
-    const searchInput = document.getElementById('searchInput');
-    const versionSelect = document.getElementById('versionSelect');
-    const searchBtn = document.getElementById('searchBtn');
-    const compareBtn = document.getElementById('compareBtn');
+    // Desktop inputs
+    const searchInputDesktop = document.getElementById('searchInput');
+    const versionSelectDesktop = document.getElementById('versionSelect');
+    const searchBtnDesktop = document.getElementById('searchBtn');
+    const compareBtnDesktop = document.getElementById('compareBtn');
+    // Mobile inputs
+    const searchInputMobile = document.getElementById('searchInputMobile');
+    const versionSelectMobile = document.getElementById('versionSelectMobile');
+    const searchBtnMobile = document.getElementById('searchBtnMobile');
+    const compareBtnMobile = document.getElementById('compareBtnMobile');
+    // Shared helpers: always read active input
+    function getSearchInput() {
+        const mobile = document.getElementById('searchBottomBar');
+        if (mobile && getComputedStyle(mobile).display !== 'none') return searchInputMobile;
+        return searchInputDesktop;
+    }
+    function getVersionSelect() {
+        const mobile = document.getElementById('searchBottomBar');
+        if (mobile && getComputedStyle(mobile).display !== 'none') return versionSelectMobile;
+        return versionSelectDesktop;
+    }
+    // Proxy: versionSelect / searchInput / compareBtn used throughout code
+    // We create live proxies that delegate to the active element
+    const versionSelect = { get value() { return getVersionSelect().value; },
+                             set value(v) { versionSelectDesktop.value = v; versionSelectMobile.value = v; },
+                             add(opt) { versionSelectDesktop.add(opt); versionSelectMobile.add(new Option(opt.text, opt.value)); },
+                             addEventListener(evt, fn) { versionSelectDesktop.addEventListener(evt, fn); versionSelectMobile.addEventListener(evt, fn); } };
+    const searchInput = { get value() { return getSearchInput().value; },
+                           set value(v) { searchInputDesktop.value = v; searchInputMobile.value = v; } };
+    const compareBtn = { classList: { toggle(cls, force) {
+        [compareBtnDesktop, compareBtnMobile].forEach(b => b.classList.toggle(cls, force));
+    }}, show() {
+        compareBtnDesktop.style.display = '';
+        compareBtnMobile.style.display = '';
+    }, hide() {
+        compareBtnDesktop.style.display = 'none';
+        compareBtnMobile.style.display = 'none';
+    }};
+
     const toggleVerseNums = document.getElementById('toggleVerseNums');
     const toggleNewlines = document.getElementById('toggleNewlines');
     const resultsWrapper = document.getElementById('resultsWrapper');
@@ -712,6 +890,36 @@
         'NB88': 'NB88/07',
     };
     function versionLabel(v) { return VERSION_DISPLAY[v] || v; }
+
+    // ── Sort/browse toggle ──
+    function setupSortToggle(btn) {
+        if (!btn) return;
+        btn.addEventListener('click', () => {
+            const bar = document.getElementById('browserBar');
+            const visible = bar.style.display !== 'none';
+            bar.style.display = visible ? 'none' : '';
+            btn.classList.toggle('active', !visible);
+            document.getElementById('sortToggleBtn') && document.getElementById('sortToggleBtn').classList.toggle('active', !visible);
+            document.getElementById('sortToggleBtnMobile') && document.getElementById('sortToggleBtnMobile').classList.toggle('active', !visible);
+        });
+    }
+    setupSortToggle(document.getElementById('sortToggleBtn'));
+    setupSortToggle(document.getElementById('sortToggleBtnMobile'));
+
+    // ── Compare button wiring ──
+    function onCompareBtnClick() {
+        compareMode = !compareMode;
+        aiDiffState = null;
+        compareBtn.classList.toggle('active', compareMode);
+        if (compareMode && lastQuery && currentView === 'normal') {
+            fetchCompareData(lastQuery).then(() => { if (currentView === 'normal') renderAll(); });
+        } else {
+            compareData = null;
+        }
+        if (currentView === 'normal') renderAll();
+    }
+    compareBtnDesktop.addEventListener('click', onCompareBtnClick);
+    compareBtnMobile.addEventListener('click', onCompareBtnClick);
 
     // ── Init ──
     async function init() {
@@ -742,24 +950,30 @@
 
     function refreshBookDropdown() {
         const prev = bookSelect.value;
-        bookSelect.innerHTML = '<option value="">-- Book --</option>';
+        bookSelect.innerHTML = '<option value="">-- Bok --</option>';
         booksData.forEach(b => {
             const name = bookLang === 'en' ? b.name_en : b.name;
             bookSelect.add(new Option(name, b.code));
         });
         bookSelect.value = prev;
-        chapterSelect.innerHTML = '<option value="">-- Ch --</option>';
+        chapterSelect.innerHTML = '<option value="">-- Kap --</option>';
         chapterSelect.disabled = true;
     }
 
-    versionSelect.addEventListener('change', () => {
+    versionSelectDesktop.addEventListener('change', () => {
+        versionSelectMobile.value = versionSelectDesktop.value;
+        loadBooks();
+        if (lastQuery) doSearch();
+    });
+    versionSelectMobile.addEventListener('change', () => {
+        versionSelectDesktop.value = versionSelectMobile.value;
         loadBooks();
         if (lastQuery) doSearch();
     });
 
     bookSelect.addEventListener('change', () => {
         const code = bookSelect.value;
-        chapterSelect.innerHTML = '<option value="">-- Ch --</option>';
+        chapterSelect.innerHTML = '<option value="">-- Kap --</option>';
         if (!code) { chapterSelect.disabled = true; return; }
         const book = booksData.find(b => b.code === code);
         if (!book) return;
@@ -783,14 +997,19 @@
     setInterval(() => fetch('/api/heartbeat').catch(() => {}), 3000);
 
     // ── Search ──
-    searchBtn.addEventListener('click', doSearch);
-    searchInput.addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
+    searchBtnDesktop.addEventListener('click', () => doSearch());
+    searchBtnMobile.addEventListener('click', () => doSearch());
+    searchInputDesktop.addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
+    searchInputMobile.addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
 
-    async function doSearch() {
+    async function doSearch(isAiRetry = false) {
         const query = searchInput.value.trim();
         if (!query) return;
-        lastQuery = query;
-        previousState = null;
+        if (!isAiRetry) {
+            lastQuery = query;
+            previousState = null;
+            highlightVerse = null;
+        }
         currentView = 'normal';
         aiDiffState = null;
 
@@ -799,25 +1018,57 @@
             const resp = await fetch(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}`);
             const data = await resp.json();
             if (data.error) {
-                resultsWrapper.innerHTML = errorCardHtml('Error', data.error);
+                resultsWrapper.innerHTML = errorCardHtml('Feil', data.error);
                 return;
             }
 
             if (data.type === 'text_search') {
+                if (data.results.length === 0 && !isAiRetry) {
+                    // Auto AI fallback: try to reformulate query
+                    await tryAiFallback(query);
+                    return;
+                }
                 currentView = 'text_search';
                 renderTextSearch(data.results, data.query);
+                compareBtn.show();
                 return;
             }
 
             mainData = data.results;
+            // Check if reference search returned empty blocks
+            const hasContent = mainData.some(b => b.verses && b.verses.length > 0);
+            if (!hasContent && !isAiRetry) {
+                await tryAiFallback(query);
+                return;
+            }
+
             if (compareMode) {
                 await fetchCompareData(query);
             } else {
                 compareData = null;
             }
             renderAll();
+            compareBtn.show();
         } catch (err) {
-            resultsWrapper.innerHTML = errorCardHtml('Error', 'Failed to connect to server.');
+            resultsWrapper.innerHTML = errorCardHtml('Feil', 'Kunne ikke koble til serveren.');
+        }
+    }
+
+    async function tryAiFallback(originalQuery) {
+        resultsWrapper.innerHTML = `<div class="empty-state"><p><span class="ai-searching">✨ Prøver å reformulere med KI…</span></p></div>`;
+        try {
+            const aiResp = await fetch(`/api/ai_parse?q=${encodeURIComponent(originalQuery)}`);
+            const aiData = await aiResp.json();
+            if (aiData.result && aiData.result.trim() !== originalQuery.trim()) {
+                searchInput.value = aiData.result;
+                lastQuery = aiData.result;
+                await doSearch(true);
+            } else {
+                // Show empty results
+                resultsWrapper.innerHTML = `<div class="empty-state"><h2>Ingen resultater</h2><p>Ingen vers funnet for «${escHtml(originalQuery)}».</p></div>`;
+            }
+        } catch {
+            resultsWrapper.innerHTML = `<div class="empty-state"><h2>Ingen resultater</h2><p>Ingen vers funnet for «${escHtml(originalQuery)}».</p></div>`;
         }
     }
 
@@ -834,18 +1085,7 @@
         } catch { compareData = null; }
     }
 
-    // ── Compare toggle ──
-    compareBtn.addEventListener('click', async () => {
-        compareMode = !compareMode;
-        aiDiffState = null;
-        compareBtn.classList.toggle('active', compareMode);
-        if (compareMode && lastQuery && currentView === 'normal') {
-            await fetchCompareData(lastQuery);
-        } else {
-            compareData = null;
-        }
-        if (currentView === 'normal') renderAll();
-    });
+    // ── Compare toggle (handled via onCompareBtnClick above) ──
 
     compareVersionSelect.addEventListener('change', async () => {
         aiDiffState = null;
@@ -854,6 +1094,13 @@
             renderAll();
         }
     });
+
+    // ── Newlines toggle visibility ──
+    function updateNewlinesToggleVisibility() {
+        const hasMultiVerse = (mainData || []).some(b => b.verses && b.verses.length > 1);
+        document.getElementById('newlinesToggleGroup').style.display = hasMultiVerse ? '' : 'none';
+        if (!hasMultiVerse) toggleNewlines.checked = false;
+    }
 
     // ── AI: toggle diff ──
     window.toggleDiff = async function() {
@@ -890,28 +1137,7 @@
         renderAll();
     };
 
-    // ── AI: parse search query ──
-    const aiSearchBtn = document.getElementById('aiSearchBtn');
-    aiSearchBtn.addEventListener('click', async () => {
-        const query = searchInput.value.trim();
-        if (!query) return;
-        aiSearchBtn.disabled = true;
-        aiSearchBtn.textContent = '...';
-        try {
-            const resp = await fetch(`/api/ai_parse?q=${encodeURIComponent(query)}`);
-            const data = await resp.json();
-            if (data.result) {
-                searchInput.value = data.result;
-                doSearch();
-            } else {
-                showToast(data.error || 'KI klarte ikke å tolke søket');
-            }
-        } catch {
-            showToast('Kunne ikke koble til KI');
-        }
-        aiSearchBtn.disabled = false;
-        aiSearchBtn.textContent = '✨ AI';
-    });
+    // AI parse is now automatic (tryAiFallback) — no manual button needed
 
     // ── Re-render on toggle change ──
     function onToggleChange() {
@@ -933,8 +1159,10 @@
         const showCompare = compareMode && compareData;
         let html = '';
 
+        updateNewlinesToggleVisibility();
+
         if (previousState) {
-            html += '<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Back</button></div>';
+            html += '<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Tilbake</button></div>';
         }
 
         if (showCompare) {
@@ -944,7 +1172,7 @@
             </div>
             <div style="margin-bottom:12px;">
                 <button class="btn-diff" onclick="toggleDiff()" ${aiDiffState && aiDiffState.loading ? 'disabled' : ''}>
-                    ${aiDiffState && aiDiffState.text ? '✨ Skjul forskjeller' : aiDiffState && aiDiffState.loading ? 'Analyserer...' : '✨ Forskjeller?'}
+                    ${aiDiffState && aiDiffState.text ? '✨ Skjul analyse' : aiDiffState && aiDiffState.loading ? 'Analyserer…' : '✨ Sammenlign oversettelser'}
                 </button>
                 ${aiDiffState && aiDiffState.text ? `<div class="diff-result-card">${escHtml(aiDiffState.text)}</div>` : ''}
                 ${aiDiffState && aiDiffState.error ? `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>` : ''}
@@ -1002,11 +1230,11 @@
         let html = `<div class="verse-card" id="${cardId}">
             <div class="verse-card-header">
                 <span class="verse-card-label">${escHtml(displayLabel)}</span>
-                <button class="copy-btn" onclick="copyBlock(${idx}, ${isCompare})">Copy</button>
+                <button class="copy-btn" onclick="copyBlock(${idx}, ${isCompare})">Kopier</button>
             </div>
             <div class="verse-text">`;
 
-        html += renderVerseTextHtml(block.verses, showNums, showNewlines);
+        html += renderVerseTextHtml(block.verses, showNums, showNewlines, highlightVerse);
         html += '</div>';
 
         // Footer buttons
@@ -1015,10 +1243,11 @@
             const bName = bookName(block.book);
             const isSingleVerse = block.verses.length === 1;
             const ilUrl = interlinearUrl(block.book, ch, isSingleVerse ? block.verses[0].num : null);
+            const verseNum = isSingleVerse ? block.verses[0].num : null;
 
             html += `<div class="verse-card-footer">
-                <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}')">Read ${escHtml(bName)} ${ch}</button>
-                <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">All versions</button>`;
+                <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Les ${escHtml(bName)} ${ch}</button>
+                <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>`;
             if (ilUrl) {
                 html += `<a class="card-action-btn" href="${ilUrl}" target="_blank" rel="noopener" style="text-decoration:none;">Interlinear (biblehub.com)</a>`;
             }
@@ -1029,7 +1258,7 @@
         return html;
     }
 
-    function renderVerseTextHtml(verses, showNums, showNewlines) {
+    function renderVerseTextHtml(verses, showNums, showNewlines, hlVerse) {
         let html = '';
         let lastChapter = null;
         const isMultiChapter = verses.some(x => x.chapter !== verses[0]?.chapter);
@@ -1037,7 +1266,7 @@
         verses.forEach((v, vi) => {
             if (isMultiChapter && v.chapter !== lastChapter) {
                 if (vi > 0 && showNewlines) html += '<br>';
-                html += `<div class="chapter-heading">Chapter ${v.chapter}</div>`;
+                html += `<div class="chapter-heading">Kapittel ${v.chapter}</div>`;
                 lastChapter = v.chapter;
             } else if (lastChapter === null) {
                 lastChapter = v.chapter;
@@ -1045,7 +1274,12 @@
 
             if (showNewlines && vi > 0 && v.chapter === lastChapter) html += '<br>';
             if (showNums) html += `<span class="verse-num">${v.num}</span>`;
-            html += escHtml(v.text) + ' ';
+            const txt = escHtml(v.text) + ' ';
+            if (hlVerse != null && v.num === hlVerse) {
+                html += `<mark class="highlighted-verse">${txt}</mark>`;
+            } else {
+                html += txt;
+            }
             lastChapter = v.chapter;
         });
         return html;
@@ -1056,20 +1290,18 @@
         textSearchCache = { results, query };
         let html = '';
         if (results.length === 0) {
-            html = `<div class="empty-state"><h2>No results</h2><p>No verses found matching "${escHtml(query)}".</p></div>`;
+            html = `<div class="empty-state"><h2>Ingen resultater</h2><p>Ingen vers funnet for «${escHtml(query)}».</p></div>`;
             resultsWrapper.innerHTML = html;
             return;
         }
 
         const total = results.length >= 150 ? '150+' : results.length;
         html += `<div class="search-controls">
-            <div class="search-result-count" style="margin:0">${total} result${results.length !== 1 ? 's' : ''} for "${escHtml(query)}"</div>
-            <button class="card-action-btn" onclick="toggleCollapse()">${collapsed ? 'Expand all' : 'Collapse by book'}</button>
+            <div class="search-result-count" style="margin:0">${total} resultat${results.length !== 1 ? 'er' : ''} for «${escHtml(query)}»</div>
+            <button class="card-action-btn" onclick="toggleCollapse()">${collapsed ? 'Utvid alle' : 'Grupper etter bok'}</button>
         </div>`;
 
         if (collapsed) {
-            // Group by book
-            const groups = [];
             const bookOrder = [];
             const groupMap = {};
             results.forEach(r => {
@@ -1091,7 +1323,7 @@
                     <div class="book-group-items">`;
                 items.forEach(r => {
                     const ref = translateLabel(r.ref, r.book);
-                    html += `<div class="search-result-item" onclick="goToVerse('${escAttr(r.ref)}')">
+                    html += `<div class="search-result-item" onclick="expandVerse(this, '${escAttr(r.ref)}', '${escAttr(r.book)}')">
                         <div class="search-result-ref">${escHtml(ref)}</div>
                         <div class="search-result-text">${highlightWords(escHtml(r.text), query)}</div>
                     </div>`;
@@ -1101,7 +1333,7 @@
         } else {
             results.forEach(r => {
                 const ref = translateLabel(r.ref, r.book);
-                html += `<div class="search-result-item" onclick="goToVerse('${escAttr(r.ref)}')">
+                html += `<div class="search-result-item" onclick="expandVerse(this, '${escAttr(r.ref)}', '${escAttr(r.book)}')">
                     <div class="search-result-ref">${escHtml(ref)}</div>
                     <div class="search-result-text">${highlightWords(escHtml(r.text), query)}</div>
                 </div>`;
@@ -1109,6 +1341,10 @@
         }
 
         resultsWrapper.innerHTML = html;
+        if (previousState) {
+            // Add back button at top when drilling back from text search
+            resultsWrapper.insertAdjacentHTML('afterbegin', '<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Tilbake</button></div>');
+        }
     }
 
     window.toggleCollapse = function() {
@@ -1125,17 +1361,78 @@
         return htmlText;
     }
 
+    // Inline expansion in grouped/flat text search
+    window.expandVerse = async function(el, ref, bookCode) {
+        // If already expanded, toggle off
+        const existing = el.querySelector('.inline-verse-expand');
+        if (existing) {
+            existing.remove();
+            el.classList.remove('expanded');
+            return;
+        }
+        // Collapse any other expanded items
+        document.querySelectorAll('.search-result-item.expanded').forEach(item => {
+            item.querySelector('.inline-verse-expand')?.remove();
+            item.classList.remove('expanded');
+        });
+
+        el.classList.add('expanded');
+        const version = versionSelect.value;
+        try {
+            const resp = await fetch(`/api/search?q=${encodeURIComponent(ref)}&version=${encodeURIComponent(version)}`);
+            const data = await resp.json();
+            if (data.type === 'reference' && data.results && data.results[0]) {
+                const block = data.results[0];
+                const showNums = toggleVerseNums.checked;
+                const verseNum = block.verses && block.verses.length === 1 ? block.verses[0].num : null;
+                const ch = block.verses && block.verses[0] ? block.verses[0].chapter : null;
+                const bName = bookName(bookCode);
+                let actionsHtml = '';
+                if (ch) {
+                    actionsHtml = `<div class="inline-verse-expand-actions">
+                        <button class="card-action-btn" onclick="goToVerseFromExpand('${escAttr(ref)}', '${escAttr(bookCode)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Les ${escHtml(bName)} ${ch}</button>
+                    </div>`;
+                }
+                const verseHtml = renderVerseTextHtml(block.verses, showNums, false);
+                const expand = document.createElement('div');
+                expand.className = 'inline-verse-expand';
+                expand.innerHTML = verseHtml + actionsHtml;
+                el.appendChild(expand);
+            }
+        } catch {}
+    };
+
+    window.goToVerseFromExpand = function(ref, bookCode, chapter, bName, verseNum) {
+        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
+        searchInput.value = bName + ' ' + chapter;
+        lastQuery = searchInput.value;
+        highlightVerse = verseNum;
+        currentView = 'normal';
+        const version = versionSelect.value;
+        fetch(`/api/search?q=${encodeURIComponent(lastQuery)}&version=${encodeURIComponent(version)}`)
+            .then(r => r.json()).then(data => {
+                if (data.type === 'reference' && !data.error) {
+                    mainData = data.results;
+                    compareData = null;
+                    renderAll();
+                    compareBtn.show();
+                }
+            }).catch(() => {});
+    };
+
     window.goToVerse = function(ref) {
+        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         searchInput.value = ref;
         doSearch();
     };
 
     // ── Read chapter ──
-    window.readChapter = async function(bookCode, chapter, bookName) {
-        previousState = { query: lastQuery, mainData, compareData, view: currentView };
-        const query = `${bookName} ${chapter}`;
+    window.readChapter = async function(bookCode, chapter, bName, verseNum) {
+        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
+        const query = `${bName} ${chapter}`;
         searchInput.value = query;
         lastQuery = query;
+        highlightVerse = verseNum != null ? verseNum : null;
         currentView = 'normal';
 
         const version = versionSelect.value;
@@ -1147,6 +1444,7 @@
                 compareData = null;
                 if (compareMode) await fetchCompareData(query);
                 renderAll();
+                compareBtn.show();
             }
         } catch {}
     };
@@ -1165,7 +1463,7 @@
             }
             renderAllVersions(data.results, label);
         } catch {
-            resultsWrapper.innerHTML = errorCardHtml('Error', 'Failed to fetch versions.');
+            resultsWrapper.innerHTML = errorCardHtml('Feil', 'Kunne ikke hente versjoner.');
         }
     };
 
@@ -1179,7 +1477,7 @@
         const bCode = firstBlocks[0]?.book;
         const displayLabel = bCode ? translateLabel(label, bCode) : label;
 
-        let html = `<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Back</button></div>`;
+        let html = `<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Tilbake</button></div>`;
         html += `<div class="all-versions-block">
             <div class="verse-card-header" style="border-bottom:none;padding-bottom:0;margin-bottom:4px;">
                 <span class="verse-card-label" style="font-size:1.15rem;">${escHtml(displayLabel)}</span>
@@ -1207,19 +1505,32 @@
         currentView = 'normal';
         textSearchCache = null;
         allVersionsCache = null;
+        highlightVerse = null;
+        compareMode = false;
+        compareBtn.classList.toggle('active', false);
+        compareBtn.hide();
         searchInput.value = '';
+        document.getElementById('newlinesToggleGroup').style.display = 'none';
         resultsWrapper.innerHTML = emptyStateHtml;
     };
 
     window.goBack = function() {
-        if (previousState) {
-            lastQuery = previousState.query;
-            mainData = previousState.mainData;
-            compareData = previousState.compareData;
-            currentView = previousState.view || 'normal';
-            searchInput.value = lastQuery;
-            previousState = null;
-            if (currentView === 'normal') renderAll();
+        if (!previousState) return;
+        const ps = previousState;
+        previousState = null;
+        lastQuery = ps.query;
+        mainData = ps.mainData;
+        compareData = ps.compareData;
+        currentView = ps.view || 'normal';
+        searchInput.value = lastQuery;
+        highlightVerse = null;
+        if (currentView === 'text_search' && ps.textSearch) {
+            textSearchCache = ps.textSearch;
+            renderTextSearch(ps.textSearch.results, ps.textSearch.query);
+        } else if (currentView === 'all_versions' && allVersionsCache) {
+            renderAllVersions(allVersionsCache.results, allVersionsCache.label);
+        } else {
+            renderAll();
         }
     };
 
@@ -1238,7 +1549,7 @@
         block.verses.forEach((v, vi) => {
             if (isMultiChapter && v.chapter !== lastChapter) {
                 if (vi > 0) text += '\n';
-                text += `Chapter ${v.chapter}\n`;
+                text += `Kapittel ${v.chapter}\n`;
                 lastChapter = v.chapter;
             } else if (lastChapter === null) {
                 lastChapter = v.chapter;
@@ -1249,7 +1560,7 @@
             lastChapter = v.chapter;
         });
 
-        navigator.clipboard.writeText(text.trim()).then(() => showToast('Copied to clipboard!'));
+        navigator.clipboard.writeText(text.trim()).then(() => showToast('Kopiert!'));
     };
 
     function errorCardHtml(label, message) {

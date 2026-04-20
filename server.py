@@ -743,8 +743,9 @@ def is_reference_query(query):
     return False
 
 
-def search_text(bible_data, version, query, limit=150):
-    """Full-text search: find verses containing all query words (case insensitive, substring)."""
+def search_text(bible_data, version, query, limit=150, per_book=10):
+    """Full-text search: find verses containing all query words (case insensitive, substring).
+    Collects up to per_book results per book to ensure spread across the whole Bible."""
     words = query.lower().split()
     if not words:
         return []
@@ -753,6 +754,7 @@ def search_text(bible_data, version, query, limit=150):
     for book_code in bible_data.version_books.get(version, []):
         book_name = USFM_TO_NAME.get(book_code, book_code)
         data = bible_data.versions[version][book_code]
+        book_count = 0
         for key, text in data.items():
             text_lower = text.lower()
             if all(w in text_lower for w in words):
@@ -766,9 +768,10 @@ def search_text(bible_data, version, query, limit=150):
                     "verse": vs,
                     "text": text,
                 })
-                if len(results) >= limit:
-                    return results
-    return results
+                book_count += 1
+                if book_count >= per_book:
+                    break
+    return results[:limit]
 
 
 # ──────────────────────────────────────────────
@@ -781,7 +784,13 @@ last_heartbeat = time.time()
 
 class BibleHandler(http.server.BaseHTTPRequestHandler):
     def log_message(self, format, *args):
-        pass  # Suppress default logging
+        # Log to stderr so Coolify picks it up
+        sys.stderr.write(f"[{self.log_date_time_string()}] {format % args}\n")
+        sys.stderr.flush()
+
+    def log_error(self, format, *args):
+        sys.stderr.write(f"[{self.log_date_time_string()}] ERROR: {format % args}\n")
+        sys.stderr.flush()
 
     def _send_json(self, data, status=200):
         body = json.dumps(data, ensure_ascii=False).encode("utf-8")
@@ -873,8 +882,12 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                 return
             api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_parse: GEMINI_API_KEY mangler\n")
+                sys.stderr.flush()
                 self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
                 return
+            sys.stderr.write(f"[{self.log_date_time_string()}] ai_parse: spør Gemini om '{query[:80]}'\n")
+            sys.stderr.flush()
             try:
                 result = gemini_request(
                     api_key,
@@ -882,8 +895,12 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                     "Du er en Bibel-referanseparser. Konverter uformelle norske bibelreferanser til standardformat som 'Joh 3:16' eller '1 Mos 15:10'. Returner KUN referansen, ingenting annet. Eksempler: 'første mosebok femten ti' → '1 Mos 15:10', 'johannes tre seksten' → 'Joh 3:16', 'salme tjuetre' → 'Sal 23', 'åpenbaringen siste kapittel' → 'Åp 22'.",
                     max_tokens=50,
                 )
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_parse: svar '{result}'\n")
+                sys.stderr.flush()
                 self._send_json({"result": result})
             except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_parse FEIL: {e}\n")
+                sys.stderr.flush()
                 self._send_json({"error": str(e)}, 500)
 
         elif path in ("/logo_biblegateway.png", "/favicon.ico"):
@@ -899,6 +916,8 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                 self.send_error(404)
 
         else:
+            sys.stderr.write(f"[{self.log_date_time_string()}] 404 ukjent GET-sti: {path!r}\n")
+            sys.stderr.flush()
             self.send_error(404)
 
     def do_POST(self):
@@ -914,6 +933,8 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
         if path == "/api/ai_diff":
             api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_diff: GEMINI_API_KEY mangler\n")
+                sys.stderr.flush()
                 self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
                 return
             text1 = body.get("text1", "")
@@ -924,6 +945,8 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             if not text1 or not text2:
                 self._send_json({"error": "Mangler tekst"}, 400)
                 return
+            sys.stderr.write(f"[{self.log_date_time_string()}] ai_diff: sammenligner '{label}' ({v1} vs {v2})\n")
+            sys.stderr.flush()
             try:
                 result = gemini_request(
                     api_key,
@@ -933,8 +956,12 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                 )
                 self._send_json({"result": result})
             except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_diff FEIL: {e}\n")
+                sys.stderr.flush()
                 self._send_json({"error": str(e)}, 500)
         else:
+            sys.stderr.write(f"[{self.log_date_time_string()}] 404 ukjent POST-sti: {path!r}\n")
+            sys.stderr.flush()
             self.send_error(404)
 
 
@@ -947,8 +974,14 @@ def gemini_request(api_key, user_prompt, system_prompt, max_tokens=200):
     }
     body = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        data = json.loads(resp.read())
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        error_body = e.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"Gemini HTTP {e.code}: {error_body[:300]}")
+    except urllib.error.URLError as e:
+        raise RuntimeError(f"Gemini nettverksfeil: {e.reason}")
     return data["candidates"][0]["content"]["parts"][0]["text"].strip()
 
 
@@ -964,7 +997,12 @@ def run_server():
     server = http.server.HTTPServer((host, PORT), BibleHandler)
     server.timeout = 1
 
+    # Startup diagnostics
+    gemini_key = os.environ.get("GEMINI_API_KEY", "")
     print(f"Server running at http://{host}:{PORT}")
+    print(f"Versjoner lastet: {list(bible_data.versions.keys())}")
+    print(f"GEMINI_API_KEY: {'satt (' + str(len(gemini_key)) + ' tegn)' if gemini_key else 'MANGLER - KI-funksjoner deaktivert'}")
+    sys.stdout.flush()
     if host == "127.0.0.1":
         webbrowser.open(f"http://127.0.0.1:{PORT}")
 
