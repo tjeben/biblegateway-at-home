@@ -882,6 +882,22 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             last_heartbeat = time.time()
             self._send_json({"ok": True})
 
+        elif path == "/api/list_models":
+            if not GENAI_AVAILABLE:
+                self._send_json({"error": "google-genai ikke tilgjengelig"}, 500)
+                return
+            try:
+                models = []
+                for m in _genai_client.models.list():
+                    name = getattr(m, "name", str(m))
+                    supported = getattr(m, "supported_actions", None) or getattr(m, "supported_generation_methods", None)
+                    models.append({"name": name, "supported": list(supported) if supported else None})
+                self._send_json({"models": models, "current": GEMINI_MODEL})
+            except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] list_models FEIL: {e}\n")
+                sys.stderr.flush()
+                self._send_json({"error": str(e)}, 500)
+
         elif path == "/api/ai_parse":
             query = params.get("q", [""])[0]
             if not query:
@@ -972,11 +988,14 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             self.send_error(404)
 
 
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+
+
 def gemini_request(api_key, user_prompt, system_prompt, max_tokens=200):
     if not GENAI_AVAILABLE:
         raise RuntimeError("google-genai pakken er ikke installert")
     response = _genai_client.models.generate_content(
-        model="gemini-2.5-flash-preview-04-17",
+        model=GEMINI_MODEL,
         contents=f"{system_prompt}\n\n{user_prompt}",
     )
     return response.text.strip()
@@ -1000,6 +1019,7 @@ def run_server():
     print(f"Versjoner lastet: {list(bible_data.versions.keys())}")
     print(f"GEMINI_API_KEY: {'satt (' + str(len(gemini_key)) + ' tegn)' if gemini_key else 'MANGLER - KI-funksjoner deaktivert'}")
     print(f"google-genai SDK: {'lastet' if GENAI_AVAILABLE else 'IKKE tilgjengelig - installer med: pip install google-genai'}")
+    print(f"Gemini-modell: {GEMINI_MODEL}")
     sys.stdout.flush()
     if host == "127.0.0.1":
         webbrowser.open(f"http://127.0.0.1:{PORT}")
