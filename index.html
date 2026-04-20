@@ -892,16 +892,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     setupSortToggle(document.getElementById('sortToggleBtnMobile'));
 
     // ── Compare button wiring ──
-    function onCompareBtnClick() {
+    async function onCompareBtnClick() {
+        if (currentView !== 'normal' || !mainData) {
+            showToast('Sammenlign fungerer kun på vers-referanser');
+            return;
+        }
         compareMode = !compareMode;
         aiDiffState = null;
         compareBtn.classList.toggle('active', compareMode);
-        if (compareMode && lastQuery && currentView === 'normal') {
-            fetchCompareData(lastQuery).then(() => { if (currentView === 'normal') renderAll(); });
+        if (compareMode && lastQuery) {
+            await fetchCompareData(lastQuery);
         } else {
             compareData = null;
         }
-        if (currentView === 'normal') renderAll();
+        renderAll();
     }
     compareBtnDesktop.addEventListener('click', onCompareBtnClick);
     compareBtnMobile.addEventListener('click', onCompareBtnClick);
@@ -981,6 +985,34 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ── Heartbeat ──
     setInterval(() => fetch('/api/heartbeat').catch(() => {}), 3000);
 
+    // ── Fetch with retry for transient network errors ──
+    async function fetchWithRetry(url, options = {}, retries = 2) {
+        let lastErr;
+        for (let attempt = 0; attempt <= retries; attempt++) {
+            try {
+                const resp = await fetch(url, options);
+                return resp;
+            } catch (err) {
+                lastErr = err;
+                console.warn(`[fetch retry ${attempt + 1}/${retries + 1}] ${url}:`, err.message || err);
+                if (attempt < retries) {
+                    await new Promise(r => setTimeout(r, 300 * (attempt + 1)));
+                }
+            }
+        }
+        throw lastErr;
+    }
+
+    // ── Search in-flight tracking to prevent overlapping requests ──
+    let searchInFlight = false;
+    function setSearchLoading(loading) {
+        searchInFlight = loading;
+        [searchBtnDesktop, searchBtnMobile].forEach(b => {
+            b.disabled = loading;
+            b.style.opacity = loading ? '0.6' : '';
+        });
+    }
+
     // ── Search ──
     searchBtnDesktop.addEventListener('click', () => doSearch());
     searchBtnMobile.addEventListener('click', () => doSearch());
@@ -990,17 +1022,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     async function doSearch(isAiRetry = false) {
         const query = searchInput.value.trim();
         if (!query) return;
+        if (searchInFlight && !isAiRetry) return;  // Prevent overlapping searches
         if (!isAiRetry) {
             lastQuery = query;
             previousState = null;
             highlightVerse = null;
+            setSearchLoading(true);
         }
         currentView = 'normal';
         aiDiffState = null;
 
         const version = versionSelect.value;
         try {
-            const resp = await fetch(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}`);
+            const resp = await fetchWithRetry(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}`);
             const data = await resp.json();
             if (data.error) {
                 resultsWrapper.innerHTML = errorCardHtml('Feil', data.error);
@@ -1015,7 +1049,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 }
                 currentView = 'text_search';
                 renderTextSearch(data.results, data.query);
-                compareBtn.show();
+                compareBtn.hide();  // Sammenlign gir ikke mening for tekstsøk
                 return;
             }
 
@@ -1035,7 +1069,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             renderAll();
             compareBtn.show();
         } catch (err) {
-            resultsWrapper.innerHTML = errorCardHtml('Feil', 'Kunne ikke koble til serveren.');
+            console.error('[doSearch] feil:', err);
+            resultsWrapper.innerHTML = errorCardHtml('Feil', 'Kunne ikke koble til serveren: ' + (err.message || err));
+        } finally {
+            if (!isAiRetry) setSearchLoading(false);
         }
     }
 
