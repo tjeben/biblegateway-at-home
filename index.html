@@ -677,7 +677,6 @@
         <h1>Bibelsøk</h1>
     </div>
     <div style="display:flex;gap:8px;align-items:center;">
-        <button class="dark-toggle" id="langToggle" title="Bytt språk på boknavn">NO</button>
         <button class="dark-toggle" id="darkToggle" title="Mørk modus">&#9790;</button>
     </div>
 </div>
@@ -740,7 +739,6 @@
     let previousState = null; // for back button
     let allVersionsCache = null; // {results, label} for re-rendering
     let textSearchCache = null; // {results, query} for re-rendering
-    let bookLang = localStorage.getItem('bookLang') || 'no'; // 'no' or 'en'
     let collapsed = true; // default: search results grouped by book
     let highlightVerse = null; // verse number to highlight when reading chapter
 
@@ -766,49 +764,13 @@
         JUD:'jude',REV:'revelation'
     };
 
-    // ── Book name language helper ──
-    const ENG_NAMES = {
-        GEN:'Genesis',EXO:'Exodus',LEV:'Leviticus',NUM:'Numbers',DEU:'Deuteronomy',
-        JOS:'Joshua',JDG:'Judges',RUT:'Ruth',
-        '1SA':'1 Samuel','2SA':'2 Samuel','1KI':'1 Kings','2KI':'2 Kings',
-        '1CH':'1 Chronicles','2CH':'2 Chronicles',
-        EZR:'Ezra',NEH:'Nehemiah',EST:'Esther',JOB:'Job',PSA:'Psalms',
-        PRO:'Proverbs',ECC:'Ecclesiastes',SNG:'Song of Solomon',
-        ISA:'Isaiah',JER:'Jeremiah',LAM:'Lamentations',EZK:'Ezekiel',DAN:'Daniel',
-        HOS:'Hosea',JOL:'Joel',AMO:'Amos',OBA:'Obadiah',JON:'Jonah',MIC:'Micah',
-        NAM:'Nahum',HAB:'Habakkuk',ZEP:'Zephaniah',HAG:'Haggai',ZEC:'Zechariah',MAL:'Malachi',
-        MAT:'Matthew',MRK:'Mark',LUK:'Luke',JHN:'John',ACT:'Acts',ROM:'Romans',
-        '1CO':'1 Corinthians','2CO':'2 Corinthians',
-        GAL:'Galatians',EPH:'Ephesians',PHP:'Philippians',COL:'Colossians',
-        '1TH':'1 Thessalonians','2TH':'2 Thessalonians',
-        '1TI':'1 Timothy','2TI':'2 Timothy',TIT:'Titus',PHM:'Philemon',
-        HEB:'Hebrews',JAS:'James',
-        '1PE':'1 Peter','2PE':'2 Peter',
-        '1JN':'1 John','2JN':'2 John','3JN':'3 John',
-        JUD:'Jude',REV:'Revelation'
-    };
-
     function bookName(code) {
-        if (bookLang === 'en' && ENG_NAMES[code]) return ENG_NAMES[code];
         const b = booksData.find(x => x.code === code);
         return b ? b.name : code;
     }
 
-    // Translate a label like "Johannes 3:16" or "2. Samuelsbok 16:23" to current language
+    // Labels kommer allerede på norsk fra serveren — ingen oversettelse nødvendig
     function translateLabel(label, bookCode) {
-        if (!bookCode) return label;
-        const newName = bookName(bookCode);
-        // Find the Norwegian name for this book to strip it from the label
-        const b = booksData.find(x => x.code === bookCode);
-        const norwName = b ? b.name : null;
-        if (norwName && label.startsWith(norwName)) {
-            return newName + label.slice(norwName.length);
-        }
-        // Fallback: try English name
-        const engName = ENG_NAMES[bookCode];
-        if (engName && label.startsWith(engName)) {
-            return newName + label.slice(engName.length);
-        }
         return label;
     }
 
@@ -936,8 +898,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const prev = bookSelect.value;
         bookSelect.innerHTML = '<option value="">-- Bok --</option>';
         booksData.forEach(b => {
-            const name = bookLang === 'en' ? b.name_en : b.name;
-            bookSelect.add(new Option(name, b.code));
+            bookSelect.add(new Option(b.name, b.code));
         });
         bookSelect.value = prev;
         chapterSelect.innerHTML = '<option value="">-- Kap --</option>';
@@ -1565,23 +1526,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         toast.classList.add('show');
         setTimeout(() => toast.classList.remove('show'), 2000);
     }
-
-    // ── Language toggle ──
-    const langToggle = document.getElementById('langToggle');
-    function applyLang(lang) {
-        bookLang = lang;
-        langToggle.textContent = lang === 'en' ? 'EN' : 'NO';
-        localStorage.setItem('bookLang', lang);
-        refreshBookDropdown();
-        // Re-render current view with new names
-        if (currentView === 'normal' && mainData) renderAll();
-        else if (currentView === 'text_search' && textSearchCache) renderTextSearch(textSearchCache.results, textSearchCache.query);
-        else if (currentView === 'all_versions' && allVersionsCache) renderAllVersions(allVersionsCache.results, allVersionsCache.label);
-    }
-    langToggle.addEventListener('click', () => {
-        applyLang(bookLang === 'en' ? 'no' : 'en');
-    });
-    langToggle.textContent = bookLang === 'en' ? 'EN' : 'NO';
 
     // ── Dark mode ──
     const darkToggle = document.getElementById('darkToggle');
