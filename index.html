@@ -734,6 +734,110 @@
         .search-result-item:nth-child(6),
         .book-group:nth-child(6) { animation-delay: 150ms; }
 
+        /* ── Bibelkart ── */
+        .bible-map-wrap { margin-top: 12px; }
+        .bible-map-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: transparent;
+            border: 1.5px solid var(--border);
+            border-radius: 999px;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 0.82rem;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .bible-map-toggle:hover { border-color: var(--accent); color: var(--accent); }
+        .bible-map-toggle.open { background: var(--accent); color: white; border-color: var(--accent); }
+
+        .bible-map {
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.35s cubic-bezier(.4, 0, .2, 1);
+        }
+        .bible-map-inner { overflow: hidden; min-height: 0; }
+        .bible-map.open { grid-template-rows: 1fr; }
+        .bible-map-body {
+            margin-top: 12px;
+            padding: 16px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            opacity: 0;
+            transform: translateY(-6px);
+            transition: opacity 0.28s ease 0.08s, transform 0.28s ease 0.08s;
+        }
+        .bible-map.open .bible-map-body { opacity: 1; transform: translateY(0); }
+        .bible-map-section-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            margin: 4px 0 6px;
+        }
+        .bible-map-section-label:not(:first-child) { margin-top: 14px; }
+        .bible-map-grid {
+            display: grid;
+            gap: 3px;
+        }
+        .bible-map-grid.ot { grid-template-columns: repeat(13, minmax(0, 1fr)); }
+        .bible-map-grid.nt { grid-template-columns: repeat(9, minmax(0, 1fr)); }
+        @media (max-width: 700px) {
+            .bible-map-grid.ot { grid-template-columns: repeat(10, minmax(0, 1fr)); }
+            .bible-map-grid.nt { grid-template-columns: repeat(7, minmax(0, 1fr)); }
+            .bible-map-body { padding: 12px; border-radius: 16px; }
+        }
+        .bible-map-cell {
+            position: relative;
+            aspect-ratio: 1;
+            border-radius: 6px;
+            background: rgba(168, 50, 50, 0.05);
+            color: var(--text);
+            font-size: 0.66rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.12s cubic-bezier(.2,.8,.2,1);
+            user-select: none;
+            overflow: hidden;
+        }
+        [data-theme="dark"] .bible-map-cell { background: rgba(201, 68, 68, 0.08); }
+        .bible-map-cell:hover { transform: scale(1.18); z-index: 5; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+        .bible-map-cell.empty { opacity: 0.32; cursor: default; }
+        .bible-map-cell.empty:hover { transform: none; box-shadow: none; }
+        .bible-map-cell-count {
+            position: absolute;
+            top: 1px;
+            right: 2px;
+            font-size: 0.55rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.85);
+            text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+            pointer-events: none;
+        }
+        .bible-map-cell.strong { color: white; }
+        .bible-map-cell.strong .bible-map-cell-count { color: rgba(255,255,255,0.9); }
+        .bible-map-scale {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 12px;
+            font-size: 0.72rem;
+            color: var(--text-muted);
+        }
+        .bible-map-scale-bar {
+            flex: 0 0 100px;
+            height: 8px;
+            border-radius: 4px;
+            background: linear-gradient(to right, rgba(168,50,50,0.08), rgba(168,50,50,0.85));
+        }
+
         /* Forrige/neste kapittel-knapper */
         .nav-btn {
             position: fixed;
@@ -1498,6 +1602,113 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
     function versionLabel(v) { return VERSION_DISPLAY[v] || v; }
 
+    // ── Bibelkart (heatmap over 66 bøker) ──
+    const OT_CODES = ['GEN','EXO','LEV','NUM','DEU','JOS','JDG','RUT','1SA','2SA','1KI','2KI','1CH','2CH','EZR','NEH','EST','JOB','PSA','PRO','ECC','SNG','ISA','JER','LAM','EZK','DAN','HOS','JOL','AMO','OBA','JON','MIC','NAM','HAB','ZEP','HAG','ZEC','MAL'];
+    const NT_CODES = ['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV'];
+    const BOOK_SHORT = {
+        GEN:'1Mos', EXO:'2Mos', LEV:'3Mos', NUM:'4Mos', DEU:'5Mos',
+        JOS:'Jos', JDG:'Dom', RUT:'Rut', '1SA':'1Sam','2SA':'2Sam',
+        '1KI':'1Kng','2KI':'2Kng','1CH':'1Krø','2CH':'2Krø',
+        EZR:'Esr', NEH:'Neh', EST:'Est', JOB:'Job', PSA:'Sal',
+        PRO:'Ord', ECC:'Fork', SNG:'Høys', ISA:'Jes', JER:'Jer',
+        LAM:'Klag', EZK:'Esek', DAN:'Dan', HOS:'Hos', JOL:'Joel',
+        AMO:'Amos', OBA:'Obad', JON:'Jona', MIC:'Mika', NAM:'Nah',
+        HAB:'Hab', ZEP:'Sef', HAG:'Hag', ZEC:'Sak', MAL:'Mal',
+        MAT:'Matt', MRK:'Mark', LUK:'Luk', JHN:'Joh', ACT:'Apg',
+        ROM:'Rom', '1CO':'1Kor','2CO':'2Kor', GAL:'Gal', EPH:'Ef',
+        PHP:'Fil', COL:'Kol', '1TH':'1Tes','2TH':'2Tes',
+        '1TI':'1Tim','2TI':'2Tim', TIT:'Tit', PHM:'Film', HEB:'Heb',
+        JAS:'Jak', '1PE':'1Pet','2PE':'2Pet', '1JN':'1Joh','2JN':'2Joh','3JN':'3Joh',
+        JUD:'Jud', REV:'Åp',
+    };
+
+    // Ekstraher bokkode fra xref-ref som "JHN.1.1", "JHN.1.1-3", "JHN.1.1-ROM.1.1"
+    function extractBookFromRef(r) {
+        if (!r) return null;
+        const m = /^([A-Z0-9]+)\./.exec(r);
+        return m ? m[1] : null;
+    }
+
+    // Bygg count-dict for xrefs: {bookCode: antall}
+    function countXrefsPerBook(xrefs) {
+        const counts = {};
+        (xrefs || []).forEach(x => {
+            const code = extractBookFromRef(x.r);
+            if (code) counts[code] = (counts[code] || 0) + 1;
+        });
+        return counts;
+    }
+
+    // Bygg HTML for Bibelkartet
+    function buildBibleMapHtml(counts, onClickFn) {
+        const values = Object.values(counts).filter(v => v > 0);
+        if (values.length === 0) return '';
+        const maxCount = Math.max(...values);
+
+        function cell(code) {
+            const c = counts[code] || 0;
+            const short = BOOK_SHORT[code] || code;
+            if (c === 0) {
+                return `<div class="bible-map-cell empty" title="${escAttr((booksData.find(b=>b.code===code)||{}).name || code)} (0)">
+                    <span>${escHtml(short)}</span></div>`;
+            }
+            const intensity = c / maxCount;
+            const alpha = 0.15 + intensity * 0.7;
+            const strong = intensity > 0.55 ? ' strong' : '';
+            const name = (booksData.find(b=>b.code===code)||{}).name || code;
+            return `<div class="bible-map-cell${strong}" style="background:rgba(168,50,50,${alpha.toFixed(2)});"
+                onclick="${onClickFn}('${escAttr(code)}')" title="${escAttr(name)}: ${c}">
+                <span>${escHtml(short)}</span>
+                <span class="bible-map-cell-count">${c}</span>
+            </div>`;
+        }
+
+        return `<div class="bible-map-body">
+            <div class="bible-map-section-label">Gamle testamentet</div>
+            <div class="bible-map-grid ot">${OT_CODES.map(cell).join('')}</div>
+            <div class="bible-map-section-label">Nye testamentet</div>
+            <div class="bible-map-grid nt">${NT_CODES.map(cell).join('')}</div>
+            <div class="bible-map-scale">
+                <span>færre</span>
+                <div class="bible-map-scale-bar"></div>
+                <span>flere</span>
+            </div>
+        </div>`;
+    }
+
+    // Toggle åpning av kartet (fra knapp)
+    window.toggleBibleMap = function(btn) {
+        const wrap = btn.closest('.bible-map-wrap');
+        if (!wrap) return;
+        const map = wrap.querySelector('.bible-map');
+        const isOpen = map.classList.toggle('open');
+        btn.classList.toggle('open', isOpen);
+        btn.innerHTML = isOpen ? '🗺️ Skjul bibelkart' : '🗺️ Bibelkart';
+    };
+
+    // Hopp til en bok fra kartet (xref-kontext: søk på første vers)
+    window.mapJumpToBook = function(bookCode) {
+        const b = booksData.find(x => x.code === bookCode);
+        if (!b) return;
+        // Lukk popovers og naviger til bokens første kapittel
+        document.querySelectorAll('.note-popover:not(.closing)').forEach(p => closePopoverAnimated(p));
+        searchInput.value = `${b.name} 1`;
+        doSearch();
+    };
+
+    // Hopp til en bok fra kartet (tekstsøk-kontext: åpne bokgruppen)
+    window.mapJumpToSearchBook = function(bookCode) {
+        const group = document.querySelector(`.book-group[data-book="${bookCode}"]`);
+        if (!group) return;
+        const header = group.querySelector('.book-group-header');
+        const items = group.querySelector('.book-group-items');
+        if (header && !header.classList.contains('open')) {
+            header.classList.add('open');
+            items.classList.add('open');
+        }
+        group.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
     // ── Custom version picker (desktop) ──
     const versionPickerDesktop = document.getElementById('versionPickerDesktop');
     const versionPickerTrigger = document.getElementById('versionPickerTrigger');
@@ -2173,7 +2384,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     const bName = bookName(code);
                     const totalInBook = h.bookTotals[code] || items.length;
                     const countLabel = totalInBook > items.length ? `${items.length}+` : `${items.length}`;
-                    html += `<div class="book-group">
+                    html += `<div class="book-group" data-book="${escAttr(code)}">
                         <div class="book-group-header" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
                             <span>${escHtml(bName)}<span class="book-group-count">(${countLabel})</span></span>
                             <span class="chevron">&#9654;</span>
@@ -2552,6 +2763,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 const restEncoded = JSON.stringify(items.slice(initial)).replace(/"/g, '&quot;');
                 content += `<button class="xref-showmore" data-rest="${restEncoded}" onclick="event.stopPropagation(); showMoreXrefs(this)">Vis alle ${count} →</button>`;
             }
+            // Bibelkart (bare hvis minst 3 refs fordelt på minst 2 bøker)
+            if (count >= 3) {
+                const perBook = countXrefsPerBook(items);
+                if (Object.keys(perBook).length >= 2) {
+                    const mapHtml = buildBibleMapHtml(perBook, 'mapJumpToBook');
+                    if (mapHtml) {
+                        content += `<div class="bible-map-wrap">
+                            <button class="bible-map-toggle" onclick="event.stopPropagation(); toggleBibleMap(this)">🗺️ Bibelkart</button>
+                            <div class="bible-map"><div class="bible-map-inner">${mapHtml}</div></div>
+                        </div>`;
+                    }
+                }
+            }
         }
         pop.innerHTML = content + `<button class="note-popover-close" onclick="event.stopPropagation(); closePopoverAnimated(this.parentNode); document.querySelectorAll('.note-marker.active').forEach(n=>n.classList.remove('active'));">×</button>`;
         el.parentNode.insertBefore(pop, el.nextSibling);
@@ -2650,7 +2874,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 const bName = bookName(code);
                 const totalInBook = bookTotals[code] || items.length;
                 const countLabel = totalInBook > items.length ? `${items.length}+` : `${items.length}`;
-                html += `<div class="book-group">
+                html += `<div class="book-group" data-book="${escAttr(code)}">
                     <div class="book-group-header" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
                         <span>${escHtml(bName)}<span class="book-group-count">(${countLabel})</span></span>
                         <span class="chevron">&#9654;</span>
@@ -2683,8 +2907,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             });
         }
 
-        resultsWrapper.innerHTML = html;
+        // Bibelkart for tekstsøk — bare hvis minst 2 bøker har treff
+        const booksWithHits = Object.keys(bookTotals).filter(k => bookTotals[k] > 0);
+        if (booksWithHits.length >= 2) {
+            const mapHtml = buildBibleMapHtml(bookTotals, 'mapJumpToSearchBook');
+            if (mapHtml) {
+                html += `<div class="bible-map-wrap">
+                    <button class="bible-map-toggle" onclick="toggleBibleMap(this)">🗺️ Bibelkart</button>
+                    <div class="bible-map"><div class="bible-map-inner">${mapHtml}</div></div>
+                </div>`;
+            }
+        }
 
+        resultsWrapper.innerHTML = html;
+        updateNavButtons();
     }
 
     // Last inn flere treff i en spesifikk bok (inline, behold andre bøker)
