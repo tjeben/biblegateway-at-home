@@ -46,13 +46,20 @@
         }
 
         .app-header {
+            position: fixed;
+            top: 0; left: 0; right: 0;
             background: var(--accent);
             color: white;
-            padding: 10px 20px;
+            z-index: 200;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+        }
+        .app-header-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 10px 24px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            border-radius: 0;
         }
         .header-left {
             display: flex;
@@ -66,6 +73,7 @@
             display: block;
         }
         .app-header h1 { font-size: 1.2rem; font-weight: 600; letter-spacing: 0.5px; }
+        body { padding-top: 60px; }
 
         .search-area {
             padding: 0;
@@ -1112,13 +1120,7 @@
         @media (min-width: 701px) {
             .search-bottom-bar { display: none; }
 
-            .app-header {
-                border-radius: 24px;
-                box-shadow: 0 2px 12px rgba(0,0,0,0.12);
-                margin-bottom: 8px;
-            }
-
-            /* Sentrert oppstart: header + søkefelt sentrert midt på skjermen */
+            /* Sentrert oppstart: søkefelt midt på skjermen */
             .search-area {
                 max-width: 640px;
                 margin: 22vh auto 0;
@@ -1144,23 +1146,26 @@
             .page-top-mode.compare-active .results-wrapper { max-width: 1300px; }
         }
         @media (max-width: 700px) {
-            .app-header { padding: 10px 16px; }
+            .app-header-inner { padding: 10px 16px; }
             .app-header h1 { font-size: 1.1rem; }
             .header-logo { height: 30px; }
+            body { padding-top: 54px; }
         }
     </style>
 </head>
 <body class="page-center-mode">
 
-<div class="search-area">
-    <div class="app-header">
+<div class="app-header">
+    <div class="app-header-inner">
         <div class="header-left" onclick="goHome()">
             <img src="/logo_biblegateway.png" alt="BibleGateway logo" class="header-logo">
             <h1>Bibelsøk</h1>
         </div>
         <button class="dark-toggle" id="darkToggle" title="Mørk modus">&#9790;</button>
     </div>
+</div>
 
+<div class="search-area">
     <!-- Desktop search controls -->
     <div class="controls desktop-only">
         <div class="suggestions-wrap" style="flex:1;min-width:250px;">
