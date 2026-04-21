@@ -370,6 +370,16 @@
             letter-spacing: 0.6px;
             margin-bottom: 4px;
         }
+        .note-popover-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 6px;
+            padding-right: 24px;
+        }
+        .note-popover-header .note-popover-label { margin-bottom: 0; }
+        .note-popover-header .bible-map-toggle { flex-shrink: 0; padding: 4px 10px; font-size: 0.72rem; }
         .note-popover-text {
             color: var(--text);
         }
@@ -1678,12 +1688,48 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // Toggle åpning av kartet (fra knapp)
     window.toggleBibleMap = function(btn) {
-        const wrap = btn.closest('.bible-map-wrap');
+        let wrap = btn.closest('.bible-map-wrap');
+        if (!wrap) {
+            const allWraps = document.querySelectorAll('.bible-map-wrap');
+            for (const w of allWraps) {
+                if (btn.compareDocumentPosition(w) & Node.DOCUMENT_POSITION_FOLLOWING) {
+                    wrap = w;
+                    break;
+                }
+            }
+        }
         if (!wrap) return;
         const map = wrap.querySelector('.bible-map');
         const isOpen = map.classList.toggle('open');
         btn.classList.toggle('open', isOpen);
         btn.innerHTML = isOpen ? '🗺️ Skjul bibelkart' : '🗺️ Bibelkart';
+    };
+
+    // Åpne Bibelkartet under versene (xref-kontext) — fjerner eksisterende kart først
+    window.openXrefMap = function(btn) {
+        const encoded = btn.getAttribute('data-book-counts');
+        let counts;
+        try { counts = JSON.parse(encoded); } catch { return; }
+        // Lukk popover
+        document.querySelectorAll('.note-popover:not(.closing)').forEach(p => closePopoverAnimated(p));
+        document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
+        // Fjern evt. eksisterende xref-kart
+        const existing = document.getElementById('xrefMapHost');
+        if (existing) existing.remove();
+        const mapHtml = buildBibleMapHtml(counts, 'mapJumpToBook');
+        if (!mapHtml) return;
+        const host = document.createElement('div');
+        host.id = 'xrefMapHost';
+        host.className = 'bible-map-wrap';
+        host.style.marginTop = '20px';
+        host.innerHTML = `<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:8px;">
+                <span style="font-size:0.85rem;font-weight:600;color:var(--text-muted);">🗺️ Kryssreferanser fordelt i Bibelen</span>
+                <button class="card-action-btn" onclick="document.getElementById('xrefMapHost').remove()">Lukk</button>
+            </div>
+            <div class="bible-map open"><div class="bible-map-inner">${mapHtml}</div></div>`;
+        resultsWrapper.appendChild(host);
+        // Smooth scroll til kartet
+        setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
     };
 
     // Hopp til en bok fra kartet (xref-kontext: søk på første vers)
@@ -2751,7 +2797,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const items = data.items || [];
             const count = items.length;
             const initial = Math.min(count, 10);
-            content = `<div class="note-popover-label">Kryssreferanser (${count}) — sortert etter relevans</div>`;
+            // Header m/ label til venstre og evt. Bibelkart-knapp til høyre
+            let headerBtn = '';
+            if (count >= 3) {
+                const perBook = countXrefsPerBook(items);
+                if (Object.keys(perBook).length >= 2) {
+                    const encoded = JSON.stringify(perBook).replace(/"/g, '&quot;');
+                    headerBtn = `<button class="bible-map-toggle" data-book-counts="${encoded}" onclick="event.stopPropagation(); openXrefMap(this)">🗺️ Bibelkart</button>`;
+                }
+            }
+            content = `<div class="note-popover-header">
+                <div class="note-popover-label">Kryssreferanser (${count}) — sortert etter relevans</div>
+                ${headerBtn}
+            </div>`;
             content += `<div class="note-popover-refs" data-showing="${initial}" data-total="${count}">`;
             items.slice(0, initial).forEach(item => {
                 const display = formatUsfmRef(item.r);
@@ -2762,19 +2820,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (count > initial) {
                 const restEncoded = JSON.stringify(items.slice(initial)).replace(/"/g, '&quot;');
                 content += `<button class="xref-showmore" data-rest="${restEncoded}" onclick="event.stopPropagation(); showMoreXrefs(this)">Vis alle ${count} →</button>`;
-            }
-            // Bibelkart (bare hvis minst 3 refs fordelt på minst 2 bøker)
-            if (count >= 3) {
-                const perBook = countXrefsPerBook(items);
-                if (Object.keys(perBook).length >= 2) {
-                    const mapHtml = buildBibleMapHtml(perBook, 'mapJumpToBook');
-                    if (mapHtml) {
-                        content += `<div class="bible-map-wrap">
-                            <button class="bible-map-toggle" onclick="event.stopPropagation(); toggleBibleMap(this)">🗺️ Bibelkart</button>
-                            <div class="bible-map"><div class="bible-map-inner">${mapHtml}</div></div>
-                        </div>`;
-                    }
-                }
             }
         }
         pop.innerHTML = content + `<button class="note-popover-close" onclick="event.stopPropagation(); closePopoverAnimated(this.parentNode); document.querySelectorAll('.note-marker.active').forEach(n=>n.classList.remove('active'));">×</button>`;
@@ -2853,10 +2898,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         const total = totalMatches != null ? totalMatches : results.length;
+        // Vis bibelkart-knapp ved siden av når 2+ bøker har treff
+        const booksWithHits = Object.keys(bookTotals).filter(k => bookTotals[k] > 0);
+        const showMapBtn = booksWithHits.length >= 2;
         html += `<div class="search-controls">
             <div class="search-result-count" style="margin:0">${total} resultat${total !== 1 ? 'er' : ''} for «${escHtml(query)}»</div>
-            <button class="card-action-btn" onclick="toggleCollapse()">${collapsed ? 'Utvid alle' : 'Grupper etter bok'}</button>
+            <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+                <button class="card-action-btn" onclick="toggleCollapse()">${collapsed ? 'Utvid alle' : 'Grupper etter bok'}</button>
+                ${showMapBtn ? `<button class="card-action-btn bible-map-toggle-inline" onclick="toggleBibleMap(this)">🗺️ Bibelkart</button>` : ''}
+            </div>
         </div>`;
+        if (showMapBtn) {
+            const mapHtml = buildBibleMapHtml(bookTotals, 'mapJumpToSearchBook');
+            html += `<div class="bible-map-wrap" style="margin-top:-4px;margin-bottom:12px;"><div class="bible-map"><div class="bible-map-inner">${mapHtml}</div></div></div>`;
+        }
 
         if (collapsed) {
             const bookOrder = [];
@@ -2905,18 +2960,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     <div class="search-result-text">${highlightWords(escHtml(r.text), query)}</div>
                 </div>`;
             });
-        }
-
-        // Bibelkart for tekstsøk — bare hvis minst 2 bøker har treff
-        const booksWithHits = Object.keys(bookTotals).filter(k => bookTotals[k] > 0);
-        if (booksWithHits.length >= 2) {
-            const mapHtml = buildBibleMapHtml(bookTotals, 'mapJumpToSearchBook');
-            if (mapHtml) {
-                html += `<div class="bible-map-wrap">
-                    <button class="bible-map-toggle" onclick="toggleBibleMap(this)">🗺️ Bibelkart</button>
-                    <div class="bible-map"><div class="bible-map-inner">${mapHtml}</div></div>
-                </div>`;
-            }
         }
 
         resultsWrapper.innerHTML = html;
