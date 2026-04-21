@@ -1051,7 +1051,63 @@ Regler:
             self._send_json({"error": "Ugyldig JSON"}, 400)
             return
 
-        if path == "/api/ai_diff":
+        if path == "/api/ai_most_different":
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            label = body.get("label", "")
+            current = body.get("current_version", "")
+            if not label or not current:
+                self._send_json({"error": "Mangler label eller versjon"}, 400)
+                return
+            # Hent teksten for referansen i alle versjoner
+            all_texts = {}
+            for vname in bible_data.versions:
+                try:
+                    blocks = parse_query(label)
+                    resolved = [resolve_block(bible_data, vname, b) for b in blocks]
+                    parts = []
+                    for r in resolved:
+                        if r.get("error"):
+                            continue
+                        for v in r.get("verses", []):
+                            parts.append(v["text"])
+                    if parts:
+                        all_texts[vname] = " ".join(parts)
+                except Exception:
+                    pass
+            if current not in all_texts or len(all_texts) < 2:
+                self._send_json({"error": "Ikke nok versjoner å sammenligne"}, 400)
+                return
+
+            current_text = all_texts[current]
+            others_list = [f"{k}: {v}" for k, v in all_texts.items() if k != current]
+            user_prompt = (
+                f"REFERANSE: {label}\n\n"
+                f"VALGT VERSJON ({current}): {current_text}\n\n"
+                f"ANDRE VERSJONER:\n" + "\n".join(others_list)
+            )
+            system_prompt = (
+                f"Du er en bibelforsker. Sammenlign teksten i den valgte versjonen "
+                f"({current}) med alle andre versjoner, og identifiser hvilken "
+                f"versjon som er MEST ULIK.\n\n"
+                f"Returner svaret EKSAKT på dette formatet (én sammenhengende setning):\n"
+                f"Versjonen med de største ulikhetene fra {current} er {{versjonsnavn}}: "
+                f"{{kort beskrivelse av hovedforskjellene i 1-2 setninger, nevn konkrete ord eller uttrykk}}.\n\n"
+                f"Ikke skriv noe annet. Ingen innledning, ingen etterord. Bare denne ene setningen."
+            )
+            sys.stderr.write(f"[{self.log_date_time_string()}] ai_most_different: {label} (current={current})\n")
+            sys.stderr.flush()
+            try:
+                result = gemini_request(api_key, user_prompt, system_prompt, max_tokens=400)
+                self._send_json({"result": result})
+            except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_most_different FEIL: {e}\n")
+                sys.stderr.flush()
+                self._send_json({"error": str(e)}, 500)
+
+        elif path == "/api/ai_diff":
             api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
                 sys.stderr.write(f"[{self.log_date_time_string()}] ai_diff: GEMINI_API_KEY mangler\n")

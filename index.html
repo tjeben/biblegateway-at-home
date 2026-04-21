@@ -559,9 +559,12 @@
             flex-direction: column;
             gap: 10px;
         }
-        .ai-diff-section .btn-diff {
-            align-self: flex-start;
+        .ai-diff-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
         }
+        .ai-diff-buttons .btn-diff { flex: 1; min-width: 140px; }
 
         .btn-diff {
             padding: 10px 18px;
@@ -1826,6 +1829,30 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         renderAll();
     };
 
+    // ── AI: finn mest ulike versjon ──
+    window.findMostDifferent = async function() {
+        if (aiDiffState && (aiDiffState.loading || aiDiffState.text)) return;
+        const label = (mainData && mainData[0] && mainData[0].label) || lastQuery;
+        if (!label) { showToast('Ingen referanse å sammenligne'); return; }
+        aiDiffState = { loading: true };
+        renderAll();
+        try {
+            const resp = await fetch('/api/ai_most_different', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    label,
+                    current_version: versionLabel(versionSelect.value),
+                })
+            });
+            const data = await resp.json();
+            aiDiffState = data.error ? { error: data.error } : { text: data.result };
+        } catch {
+            aiDiffState = { error: 'Kunne ikke koble til serveren.' };
+        }
+        renderAll();
+    };
+
     // AI parse is now automatic (tryAiFallback) — no manual button needed
 
     // ── Re-render on toggle change ──
@@ -1863,9 +1890,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             } else if (aiDiffState && aiDiffState.error) {
                 html += `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>`;
             } else {
-                html += `<button class="btn-diff" onclick="toggleDiff()" ${aiDiffState && aiDiffState.loading ? 'disabled' : ''}>
-                    ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '✨ Sammenlign med KI'}
-                </button>`;
+                const disabled = aiDiffState && aiDiffState.loading ? 'disabled' : '';
+                html += `<div class="ai-diff-buttons">
+                    <button class="btn-diff" onclick="toggleDiff()" ${disabled}>
+                        ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '✨ Sammenlign'}
+                    </button>
+                    <button class="btn-diff" onclick="findMostDifferent()" ${disabled}>
+                        ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '🔍 Finn største ulikhet'}
+                    </button>
+                </div>`;
             }
             html += '</div>';
         }
