@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 *.pyd
+
+# Scraper output logs
+scraper/scrape_*.log

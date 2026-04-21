@@ -39,6 +39,8 @@ def main() -> None:
                         help="Kommaseparert liste med USFM-koder (f.eks. 'JHN,ROM') — kun disse bøkene scrapes.")
     parser.add_argument("--sleep", type=float, default=0.1,
                         help="Sekunder mellom kapittel-requests (standard 0.1).")
+    parser.add_argument("--force", action="store_true",
+                        help="Overskriv eksisterende JSON-filer i stedet for å hoppe over dem.")
     args = parser.parse_args()
 
     # Avgjør translation ID og versjonsnavn
@@ -81,8 +83,8 @@ def main() -> None:
         name = lang.get(book, book)
         filename = f"{idx:02d}_{book}_{name}.json"
 
-        if filename in existing:
-            print(f"[hoppet over] {filename} (finnes allerede)")
+        if filename in existing and not args.force:
+            print(f"[hoppet over] {filename} (finnes allerede — bruk --force for å overskrive)")
             continue
 
         print(f"[henter]      {name} ({book}, {CHAPTER_COUNT[book]} kapitler) ...")

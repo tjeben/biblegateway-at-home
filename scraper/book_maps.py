@@ -92,8 +92,8 @@ CHAPTER_COUNT = {
 TRANSLATION_IDS = {
     "NB88":       102,   # Bibelen 1988/2007 (Norsk Bibel)
     "Bibel2011":  29,    # Bibel 2011 (Bibelselskapet)
-    "Bibel1930":  87,    # Bibelen 1930 (antatt - verifiser før bruk)
-    "BGO":        1030,  # Bibelen Guds Ord 2017 (antatt - verifiser før bruk)
+    "Bibel1930":  121,   # Bibelen 1930 (DNB30)
+    "BGO":        2216,  # Bibelen Guds Ord 2017 (Hermon Forlag)
     "NASB1995":   100,
     "ESV":        59,
     "KJV":        1,
