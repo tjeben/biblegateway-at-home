@@ -921,10 +921,15 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
 
         elif path == "/api/versions":
             versions = list(bible_data.versions.keys())
+            if versions:
+                versions = ["Alle"] + versions  # Virtuell "Alle"-versjon øverst
             self._send_json({"versions": versions})
 
         elif path == "/api/books":
             version = params.get("version", [""])[0]
+            if version == "Alle":
+                # Bøker for Alle = union av alle versjoner (i praksis samme 66)
+                version = list(bible_data.versions.keys())[0] if bible_data.versions else ""
             if not version or version not in bible_data.versions:
                 version = list(bible_data.versions.keys())[0] if bible_data.versions else ""
             books_list = []
@@ -942,6 +947,49 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             version = params.get("version", [""])[0]
             if not query:
                 self._send_json({"error": "No search query provided"}, 400)
+                return
+            if version == "Alle":
+                # Virtuell versjon: søk på tvers av alle versjoner
+                if is_reference_query(query):
+                    # For referanser: returner samme form som /api/all_versions
+                    all_results = {}
+                    for vname in bible_data.versions:
+                        blocks = parse_query(query)
+                        resolved = [resolve_block(bible_data, vname, b) for b in blocks]
+                        all_results[vname] = resolved
+                    self._send_json({"type": "all_versions", "results": all_results, "query": query, "version": "Alle"})
+                    return
+                # Tekstsøk: slå sammen alle versjoner, dedupliser på USFM-nøkkel
+                book_filter = params.get("book", [""])[0] or None
+                search_query = query
+                prefix_book, rest = extract_book_prefix(query)
+                if prefix_book and not book_filter:
+                    book_filter = prefix_book
+                    search_query = rest
+                if not search_query.strip():
+                    self._send_json({
+                        "type": "text_search", "results": [], "book_totals": {},
+                        "total": 0, "query": query, "version": "Alle",
+                        "book_filter": book_filter, "has_operators": False,
+                    })
+                    return
+                merged = {}
+                book_totals = {}
+                for vname in bible_data.versions:
+                    results, bt = search_text(bible_data, vname, search_query, book_filter=book_filter)
+                    for r in results:
+                        key = f"{r['book']}.{r['chapter']}.{r['verse']}"
+                        if key not in merged:
+                            merged[key] = {**r, "matched_versions": [vname]}
+                            book_totals[r['book']] = book_totals.get(r['book'], 0) + 1
+                        else:
+                            merged[key]["matched_versions"].append(vname)
+                merged_list = list(merged.values())[:150]
+                self._send_json({
+                    "type": "text_search", "results": merged_list, "book_totals": book_totals,
+                    "total": len(merged), "query": query, "version": "Alle",
+                    "book_filter": book_filter, "has_operators": has_search_operators(search_query),
+                })
                 return
             if not version or version not in bible_data.versions:
                 version = list(bible_data.versions.keys())[0] if bible_data.versions else ""

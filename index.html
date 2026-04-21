@@ -1825,6 +1825,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         'NB88': 'NB88/07',
     };
     const VERSION_DESC = {
+        'Alle':     'Søk på tvers av alle versjoner (uten duplikater)',
         'NB88':     'Norsk Bibel 1988/2007',
         'Bibel2011':'Bibelen 2011',
         'Bibel1930':'Bibelen 1930',
@@ -2353,6 +2354,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ── Toggle compare mode (per-card Sammenlign-knapp kaller denne) ──
     window.toggleCompareMode = async function() {
         if (currentView !== 'normal' || !mainData) return;
+        if (versionSelect.value === 'Alle') { showToast('Velg en spesifikk versjon for å sammenligne'); return; }
         compareMode = !compareMode;
         aiDiffState = null;
         if (compareMode && lastQuery) {
@@ -2370,17 +2372,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const data = await resp.json();
         data.versions.forEach(v => {
             versionSelect.add(new Option(versionLabel(v), v));
-            compareVersionSelect.add(new Option(versionLabel(v), v));
+            // "Alle" gir ikke mening som sammenligningsversjon — kun ekte versjoner
+            if (v !== 'Alle') compareVersionSelect.add(new Option(versionLabel(v), v));
         });
-        // Default: husket versjon → Bibel2011 → første tilgjengelige
+        // Default: husket versjon → Bibel2011 → første ekte versjon (ikke "Alle" som default)
         const saved = localStorage.getItem(PREF_VERSION_KEY);
+        const realVersions = data.versions.filter(v => v !== 'Alle');
         let defaultV;
         if (saved && data.versions.includes(saved)) defaultV = saved;
-        else if (data.versions.includes('Bibel2011')) defaultV = 'Bibel2011';
-        else defaultV = data.versions[0];
+        else if (realVersions.includes('Bibel2011')) defaultV = 'Bibel2011';
+        else defaultV = realVersions[0] || data.versions[0];
         versionSelect.value = defaultV;
-        if (data.versions.length > 1) {
-            compareVersionSelect.value = data.versions.find(v => v !== defaultV) || data.versions[1];
+        if (realVersions.length > 1) {
+            compareVersionSelect.value = realVersions.find(v => v !== defaultV) || realVersions[1];
         }
         loadBooks();
         buildVersionPickerPanel();
@@ -2910,6 +2914,16 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 currentView = 'text_search';
                 renderTextSearch(data.results, data.query, data.book_totals || {}, data.total || data.results.length);
                 compareBtn.hide();
+                return;
+            }
+
+            // "Alle" på referansesøk → vis direkte som alle-versjoner-visning
+            if (data.type === 'all_versions') {
+                currentView = 'all_versions';
+                allVersionsCache = { results: data.results, label: query };
+                renderAllVersions(data.results, query);
+                compareBtn.hide();
+                pushHistoryState({ view: 'all_versions', label: query, version });
                 return;
             }
 
