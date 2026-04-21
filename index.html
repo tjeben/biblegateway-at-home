@@ -104,7 +104,7 @@
             padding: 10px 20px;
             font-size: 0.95rem;
             border: none;
-            border-radius: 8px;
+            border-radius: 999px;
             cursor: pointer;
             font-weight: 500;
             transition: background 0.2s, transform 0.1s;
@@ -237,7 +237,7 @@
             font-size: 0.85rem;
             background: var(--card-bg);
             border: 1px solid var(--border);
-            border-radius: 6px;
+            border-radius: 999px;
             cursor: pointer;
             color: var(--text-muted);
             transition: all 0.2s;
@@ -247,7 +247,7 @@
         /* Verse card */
         .verse-card {
             background: var(--card-bg);
-            border-radius: 10px;
+            border-radius: 24px;
             padding: 20px 24px;
             margin-bottom: 16px;
             box-shadow: var(--shadow);
@@ -265,11 +265,11 @@
         }
         .verse-card-label { font-weight: 700; font-size: 1rem; color: var(--accent); }
         .copy-btn {
-            padding: 5px 12px;
+            padding: 5px 14px;
             font-size: 0.8rem;
             background: transparent;
             border: 1px solid var(--border);
-            border-radius: 6px;
+            border-radius: 999px;
             cursor: pointer;
             color: var(--text-muted);
             transition: all 0.2s;
@@ -456,11 +456,11 @@
             flex-wrap: wrap;
         }
         .card-action-btn {
-            padding: 5px 12px;
+            padding: 6px 14px;
             font-size: 0.8rem;
             background: transparent;
             border: 1px solid var(--border);
-            border-radius: 6px;
+            border-radius: 999px;
             cursor: pointer;
             color: var(--text-muted);
             transition: all 0.2s;
@@ -476,7 +476,7 @@
         /* Text search results */
         .search-result-item {
             background: var(--card-bg);
-            border-radius: 8px;
+            border-radius: 24px;
             padding: 14px 18px;
             margin-bottom: 10px;
             box-shadow: var(--shadow);
@@ -506,7 +506,7 @@
         /* All-versions view */
         .all-versions-block {
             background: var(--card-bg);
-            border-radius: 10px;
+            border-radius: 24px;
             padding: 20px 24px;
             margin-bottom: 16px;
             box-shadow: var(--shadow);
@@ -527,7 +527,7 @@
             margin-bottom: 10px;
             background: var(--card-bg);
             border: 2px solid var(--border);
-            border-radius: 8px;
+            border-radius: 24px;
             overflow: hidden;
             transition: border-color 0.2s;
         }
@@ -626,7 +626,7 @@
             transform: translateX(-50%) translateY(80px);
             background: #333; color: white;
             padding: 10px 20px;
-            border-radius: 8px;
+            border-radius: 999px;
             font-size: 0.9rem;
             opacity: 0;
             transition: all 0.3s;
@@ -691,7 +691,7 @@
             background: #fef3c7;
             color: #92400e;
             border: 1px solid #fbbf24;
-            border-radius: 8px;
+            border-radius: 999px;
             cursor: pointer;
             font-weight: 600;
             transition: background 0.2s;
@@ -704,7 +704,7 @@
         .diff-result-card {
             background: #fffbeb;
             border: 1px solid #fbbf24;
-            border-radius: 8px;
+            border-radius: 24px;
             padding: 14px 18px;
             margin-top: 10px;
             font-size: 0.95rem;
@@ -2137,7 +2137,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const verseNum = isSingleVerse ? block.verses[0].num : null;
 
             html += `<div class="verse-card-footer">
-                <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Les ${escHtml(bName)} ${ch}</button>
+                <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Hele kapittelet</button>
                 <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>
                 <button class="card-action-btn" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>`;
             if (ilUrl) {
