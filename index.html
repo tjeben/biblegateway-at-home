@@ -849,6 +849,20 @@
             background: linear-gradient(to right, rgba(168,50,50,0.08), rgba(168,50,50,0.85));
         }
 
+        /* AI-utheving av forskjeller i sammenligning */
+        .ai-diff-highlight {
+            background: rgba(251, 191, 36, 0.42);
+            padding: 0 2px;
+            border-radius: 3px;
+            color: inherit;
+            animation: highlightPulse 500ms cubic-bezier(.2, .8, .2, 1);
+        }
+        [data-theme="dark"] .ai-diff-highlight { background: rgba(251, 191, 36, 0.32); }
+        @keyframes highlightPulse {
+            from { background: rgba(251, 191, 36, 0); }
+            to   { background: rgba(251, 191, 36, 0.42); }
+        }
+
         /* AI-paneler (Kontekst, Tema-kart) */
         .ai-panel {
             padding: 16px 18px;
@@ -1456,6 +1470,7 @@
     let compareMode = false;
     let lastQuery = '';
     let aiDiffState = null; // null | {loading:true} | {text:'...'} | {error:'...'}
+    let aiHighlights = null; // null | {loading:true} | {v1:[], v2:[]} | {error:'...'}
     let mainData = null;
     let compareData = null;
     let currentView = 'normal'; // 'normal', 'text_search', 'all_versions'
@@ -2885,6 +2900,52 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         renderAll();
     };
 
+    // ── AI: toggle frase-utheving av forskjeller i sammenligning ──
+    window.toggleHighlights = async function() {
+        // Toggle av hvis allerede aktiv
+        if (aiHighlights && (aiHighlights.v1 || aiHighlights.v2)) {
+            aiHighlights = null;
+            renderAll();
+            return;
+        }
+        if (aiHighlights && aiHighlights.loading) return;
+        if (!compareData || !mainData) { showToast('Ingen sammenligning å markere'); return; }
+
+        const text1 = (mainData || []).flatMap(b => b.verses || []).map(v => v.text).join(' ');
+        const text2 = (compareData || []).flatMap(b => b.verses || []).map(v => v.text).join(' ');
+        if (!text1 || !text2) { showToast('Ingen tekst å sammenligne'); return; }
+
+        aiHighlights = { loading: true };
+        renderAll();
+        try {
+            const resp = await fetch('/api/ai_highlight_diff', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    text1, text2,
+                    label: (mainData[0] && mainData[0].label) || lastQuery,
+                    version1: versionLabel(versionSelect.value),
+                    version2: versionLabel(compareVersionSelect.value),
+                })
+            });
+            const data = await resp.json();
+            if (data.error) {
+                showToast(data.error);
+                aiHighlights = null;
+            } else {
+                aiHighlights = { v1: data.v1 || [], v2: data.v2 || [] };
+                if (aiHighlights.v1.length === 0 && aiHighlights.v2.length === 0) {
+                    showToast('Ingen meningsforskjeller funnet');
+                    aiHighlights = null;
+                }
+            }
+        } catch {
+            showToast('Kunne ikke koble til serveren');
+            aiHighlights = null;
+        }
+        renderAll();
+    };
+
     // AI parse is now automatic (tryAiFallback) — no manual button needed
 
     // ── Re-render on toggle change ──
@@ -2916,9 +2977,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 aiSection += `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>`;
             } else {
                 const disabled = aiDiffState && aiDiffState.loading ? 'disabled' : '';
+                const hlLoading = aiHighlights && aiHighlights.loading;
+                const hlActive = aiHighlights && (aiHighlights.v1 || aiHighlights.v2);
+                const hlLabel = hlLoading ? 'Markerer…' : (hlActive ? '🖍️ Fjern markering' : '🖍️ Marker forskjeller');
                 aiSection += `<div class="ai-diff-buttons">
                     <button class="btn-diff" onclick="toggleDiff()" ${disabled}>
                         ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '✨ Sammenlign'}
+                    </button>
+                    <button class="btn-diff" onclick="toggleHighlights()" ${hlLoading ? 'disabled' : ''}>
+                        ${hlLabel}
                     </button>
                     <button class="btn-diff" onclick="findMostDifferent()" ${disabled}>
                         ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '🔍 Finn største ulikhet'}
@@ -2968,7 +3035,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             </div>
             <div class="verse-text">`;
 
-        html += renderVerseTextHtml(block.verses, highlightVerse, block.book);
+        html += renderVerseTextHtml(block.verses, highlightVerse, block.book, aiHighlights && aiHighlights.v1 ? aiHighlights.v1 : null);
         html += '</div>';
 
         // Footer buttons
@@ -3022,12 +3089,25 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 <button class="copy-btn" onclick="copyBlock(${idx}, true)">Kopier</button>
             </div>
             <div class="verse-text">`;
-        html += renderVerseTextHtml(block.verses, null, block.book);
+        html += renderVerseTextHtml(block.verses, null, block.book, aiHighlights && aiHighlights.v2 ? aiHighlights.v2 : null);
         html += '</div></div>';
         return html;
     }
 
-    function renderVerseTextHtml(verses, hlVerse, bookCode) {
+    function escapeRegExp(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+    function applyPhraseHighlights(escapedText, phrases) {
+        if (!phrases || !phrases.length) return escapedText;
+        const sorted = [...phrases].filter(p => p && p.trim().length > 1).sort((a, b) => b.length - a.length);
+        let result = escapedText;
+        sorted.forEach(phrase => {
+            const escPhrase = escapeRegExp(escHtml(phrase));
+            const re = new RegExp(`(${escPhrase})`, 'gi');
+            result = result.replace(re, '<mark class="ai-diff-highlight">$1</mark>');
+        });
+        return result;
+    }
+
+    function renderVerseTextHtml(verses, hlVerse, bookCode, hlPhrases) {
         let html = '';
         let lastChapter = null;
         const isMultiChapter = verses.some(x => x.chapter !== verses[0]?.chapter);
@@ -3046,7 +3126,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
 
             html += `<span class="verse-num">${v.num}</span>`;
-            const txt = escHtml(v.text) + ' ';
+            let txt = escHtml(v.text);
+            if (hlPhrases && hlPhrases.length) txt = applyPhraseHighlights(txt, hlPhrases);
+            txt += ' ';
             if (hlVerse != null && v.num === hlVerse) {
                 html += `<mark class="highlighted-verse">${txt}</mark>`;
             } else {
@@ -3498,6 +3580,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 compareData = null;
                 compareMode = true;
                 aiDiffState = null;
+                aiHighlights = null;
                 await fetchCompareData(ref);
                 renderAll();
                 pushHistoryState({ view: 'normal', query: ref, version });

@@ -1165,6 +1165,57 @@ Regler:
                 sys.stderr.write(f"[{self.log_date_time_string()}] ai_diff FEIL: {e}\n")
                 sys.stderr.flush()
                 self._send_json({"error": str(e)}, 500)
+        elif path == "/api/ai_highlight_diff":
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            text1 = body.get("text1", "")
+            text2 = body.get("text2", "")
+            v1 = body.get("version1", "Versjon 1")
+            v2 = body.get("version2", "Versjon 2")
+            label = body.get("label", "")
+            if not text1 or not text2:
+                self._send_json({"error": "Mangler tekst"}, 400)
+                return
+            sys.stderr.write(f"[{self.log_date_time_string()}] ai_highlight_diff: {label} ({v1} vs {v2})\n")
+            sys.stderr.flush()
+            try:
+                result = gemini_request(
+                    api_key,
+                    f"Vers: {label}\n\n{v1}:\n{text1}\n\n{v2}:\n{text2}",
+                    "Du er en bibelforsker. Finn fraser (1-4 ord) som er MENINGSFORSKJELLIG mellom "
+                    "de to oversettelsene — ikke synonymer eller små stilforskjeller, men ord/fraser "
+                    "med betydningsmessig forskjell som er nyttig å se.\n\n"
+                    "Frasene MÅ stå EKSAKT slik de er i teksten (samme bokstaver, samme bøyning). "
+                    "Maks 3 fraser per versjon. Hvis det ikke finnes meningsfulle forskjeller, "
+                    "returner tomme lister.\n\n"
+                    "Returner KUN gyldig JSON:\n"
+                    '{"v1_highlights": ["frase", ...], "v2_highlights": ["frase", ...]}\n\n'
+                    "Ingen innledning, ingen etterord.",
+                    max_tokens=250,
+                )
+                cleaned = result.strip()
+                if cleaned.startswith("```"):
+                    cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else cleaned
+                    if cleaned.endswith("```"):
+                        cleaned = cleaned.rsplit("\n", 1)[0]
+                    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+                try:
+                    parsed = json.loads(cleaned)
+                    self._send_json({
+                        "v1": parsed.get("v1_highlights", []),
+                        "v2": parsed.get("v2_highlights", []),
+                    })
+                except Exception as parse_err:
+                    sys.stderr.write(f"[{self.log_date_time_string()}] ai_highlight_diff parse-feil: {parse_err} — rå: {result[:200]}\n")
+                    sys.stderr.flush()
+                    self._send_json({"error": "KI returnerte ugyldig format"}, 500)
+            except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_highlight_diff FEIL: {e}\n")
+                sys.stderr.flush()
+                self._send_json({"error": str(e)}, 500)
+
         elif path == "/api/ai_context":
             api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
