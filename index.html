@@ -379,7 +379,8 @@
             padding-right: 24px;
         }
         .note-popover-header .note-popover-label { margin-bottom: 0; }
-        .note-popover-header .bible-map-toggle { flex-shrink: 0; padding: 4px 10px; font-size: 0.72rem; }
+        .note-popover-header-btns { display: flex; gap: 6px; flex-shrink: 0; flex-wrap: wrap; }
+        .note-popover-header .bible-map-toggle { padding: 4px 10px; font-size: 0.72rem; }
         .note-popover-text {
             color: var(--text);
         }
@@ -847,6 +848,25 @@
             border-radius: 4px;
             background: linear-gradient(to right, rgba(168,50,50,0.08), rgba(168,50,50,0.85));
         }
+
+        /* Bibel-tidslinje (SVG-buer) */
+        .bible-timeline {
+            width: 100%;
+            height: auto;
+            max-height: 260px;
+            display: block;
+        }
+        .bible-timeline .arc {
+            cursor: pointer;
+            transition: stroke-opacity 0.15s, stroke-width 0.15s;
+        }
+        .bible-timeline .arc:hover { stroke-opacity: 1 !important; stroke-width: 2.6; }
+        .bible-timeline .target-dot {
+            cursor: pointer;
+            transition: r 0.15s;
+        }
+        .bible-timeline .target-dot:hover { r: 5.5; }
+        .bible-timeline .source-dot { pointer-events: none; }
 
         /* Forrige/neste kapittel-knapper */
         .nav-btn {
@@ -1703,6 +1723,102 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const isOpen = map.classList.toggle('open');
         btn.classList.toggle('open', isOpen);
         btn.innerHTML = isOpen ? '🗺️ Skjul bibelkart' : '🗺️ Bibelkart';
+    };
+
+    // ── Bibel-tidslinje (SVG-buer fra kildeverset til refererte punkter) ──
+    function buildBibleTimelineSvg(sourceUsfm, xrefs) {
+        const srcMatch = /^([A-Z0-9]+)\.(\d+)(?:\.(\d+))?$/.exec(sourceUsfm);
+        if (!srcMatch) return '';
+        const srcBook = srcMatch[1];
+        const srcChapter = parseInt(srcMatch[2]);
+
+        const W = 1000, H = 200, timelineY = 170, padding = 14;
+        const totalChapters = booksData.reduce((s, b) => s + b.chapters, 0);
+        const cumByCode = {};
+        let cum = 0;
+        booksData.forEach(b => { cumByCode[b.code] = cum; cum += b.chapters; });
+        const usable = W - 2 * padding;
+        function posX(bookCode, chapter) {
+            const start = cumByCode[bookCode];
+            if (start == null) return null;
+            return padding + ((start + (chapter - 0.5)) / totalChapters) * usable;
+        }
+        const isNT = code => NT_CODES.indexOf(code) !== -1;
+
+        const srcX = posX(srcBook, srcChapter);
+        if (srcX == null) return '';
+        const boundaryX = padding + (cumByCode.MAT / totalChapters) * usable;
+
+        const targets = [];
+        (xrefs || []).forEach(x => {
+            const m = /^([A-Z0-9]+)\.(\d+)/.exec(x.r);
+            if (!m) return;
+            const tx = posX(m[1], parseInt(m[2]));
+            if (tx == null) return;
+            targets.push({ x: tx, ref: x.r, votes: x.v || 0, isNT: isNT(m[1]) });
+        });
+        const maxVotes = Math.max(1, ...targets.map(t => t.votes));
+
+        let svg = `<svg class="bible-timeline" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">`;
+        // Timeline base
+        svg += `<rect x="${padding}" y="${timelineY - 3}" width="${boundaryX - padding}" height="6" rx="3" fill="var(--border)" opacity="0.55"/>`;
+        svg += `<rect x="${boundaryX}" y="${timelineY - 3}" width="${W - padding - boundaryX}" height="6" rx="3" fill="#d4a84b" opacity="0.35"/>`;
+        // Testament labels
+        svg += `<text x="${(padding + boundaryX) / 2}" y="${timelineY + 22}" text-anchor="middle" fill="var(--text-muted)" font-size="11" font-weight="600" letter-spacing="0.5">GAMLE TESTAMENTET</text>`;
+        svg += `<text x="${(boundaryX + W - padding) / 2}" y="${timelineY + 22}" text-anchor="middle" fill="#b58730" font-size="11" font-weight="600" letter-spacing="0.5">NYE TESTAMENTET</text>`;
+
+        // Arcs (sortert: lave stemmer først, høye sist slik at viktige buer ligger over)
+        const sorted = [...targets].sort((a, b) => a.votes - b.votes);
+        sorted.forEach(t => {
+            const cx = (srcX + t.x) / 2;
+            const dist = Math.abs(t.x - srcX);
+            const cy = timelineY - Math.min(timelineY - 18, Math.max(24, dist * 0.45));
+            const rel = t.votes / maxVotes;
+            const opacity = (0.18 + rel * 0.55).toFixed(2);
+            const width = (1.1 + rel * 1.3).toFixed(2);
+            const color = t.isNT ? '#c9972e' : '#a83232';
+            const display = formatUsfmRef(t.ref) || t.ref;
+            svg += `<path class="arc${t.isNT ? ' nt' : ''}" d="M${srcX.toFixed(1)},${timelineY - 4} Q${cx.toFixed(1)},${cy.toFixed(1)} ${t.x.toFixed(1)},${timelineY - 4}" stroke="${color}" stroke-opacity="${opacity}" stroke-width="${width}" fill="none" onclick="navigateToRef('${escAttr(display)}')"><title>${escAttr(display)} — ${t.votes} stemmer</title></path>`;
+        });
+
+        // Målpunkter
+        targets.forEach(t => {
+            const color = t.isNT ? '#c9972e' : '#a83232';
+            const display = formatUsfmRef(t.ref) || t.ref;
+            svg += `<circle class="target-dot${t.isNT ? ' nt' : ''}" cx="${t.x.toFixed(1)}" cy="${timelineY}" r="3.2" fill="${color}" onclick="navigateToRef('${escAttr(display)}')"><title>${escAttr(display)}</title></circle>`;
+        });
+
+        // Kilde-punkt + label
+        svg += `<circle class="source-dot" cx="${srcX.toFixed(1)}" cy="${timelineY}" r="6.5" fill="#a83232" stroke="var(--card-bg)" stroke-width="2.5"/>`;
+        const srcLabel = `${bookName(srcBook)} ${srcChapter}`;
+        svg += `<text x="${srcX.toFixed(1)}" y="${timelineY - 18}" text-anchor="middle" fill="#a83232" font-size="12.5" font-weight="700">${escHtml(srcLabel)}</text>`;
+
+        svg += `</svg>`;
+        return svg;
+    }
+
+    // Åpne Bibel-tidslinjen under versene (xref-kontext)
+    window.openXrefTimeline = function(btn) {
+        const encoded = btn.getAttribute('data-xref-info');
+        let info;
+        try { info = JSON.parse(encoded); } catch { return; }
+        document.querySelectorAll('.note-popover:not(.closing)').forEach(p => closePopoverAnimated(p));
+        document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
+        const existing = document.getElementById('xrefMapHost');
+        if (existing) existing.remove();
+        const svg = buildBibleTimelineSvg(info.source, info.items);
+        if (!svg) return;
+        const host = document.createElement('div');
+        host.id = 'xrefMapHost';
+        host.className = 'bible-map-wrap';
+        host.style.marginTop = '20px';
+        host.innerHTML = `<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:8px;">
+                <span style="font-size:0.85rem;font-weight:600;color:var(--text-muted);">📈 Tidslinje: hvor peker kryssreferansene?</span>
+                <button class="card-action-btn" onclick="document.getElementById('xrefMapHost').remove()">Lukk</button>
+            </div>
+            <div class="bible-map open"><div class="bible-map-inner"><div class="bible-map-body" style="padding:18px 14px 14px;">${svg}</div></div></div>`;
+        resultsWrapper.appendChild(host);
+        setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
     };
 
     // Åpne Bibelkartet under versene (xref-kontext) — fjerner eksisterende kart først
@@ -2668,7 +2784,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             </div>
             <div class="verse-text">`;
 
-        html += renderVerseTextHtml(block.verses, highlightVerse);
+        html += renderVerseTextHtml(block.verses, highlightVerse, block.book);
         html += '</div>';
 
         // Footer buttons
@@ -2718,12 +2834,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 <button class="copy-btn" onclick="copyBlock(${idx}, true)">Kopier</button>
             </div>
             <div class="verse-text">`;
-        html += renderVerseTextHtml(block.verses);
+        html += renderVerseTextHtml(block.verses, null, block.book);
         html += '</div></div>';
         return html;
     }
 
-    function renderVerseTextHtml(verses, hlVerse) {
+    function renderVerseTextHtml(verses, hlVerse, bookCode) {
         let html = '';
         let lastChapter = null;
         const isMultiChapter = verses.some(x => x.chapter !== verses[0]?.chapter);
@@ -2758,7 +2874,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
             // Xrefs: samlet i én markør (viser alle referanser når man klikker)
             if (v.xrefs && v.xrefs.length) {
-                const dataAttr = escAttr(JSON.stringify({type: 'xref', items: v.xrefs}));
+                const source = bookCode ? `${bookCode}.${v.chapter}.${v.num}` : '';
+                const dataAttr = escAttr(JSON.stringify({type: 'xref', items: v.xrefs, source}));
                 html += `<sup class="note-marker note-xref" data-note='${dataAttr}' onclick="toggleNotePopover(this, event)" title="${v.xrefs.length} kryssreferanser">†</sup>`;
             }
 
@@ -2797,18 +2914,23 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const items = data.items || [];
             const count = items.length;
             const initial = Math.min(count, 10);
-            // Header m/ label til venstre og evt. Bibelkart-knapp til høyre
-            let headerBtn = '';
+            const source = data.source;
+            // Header m/ label til venstre og evt. visualiseringsknapper til høyre
+            let headerBtns = '';
             if (count >= 3) {
                 const perBook = countXrefsPerBook(items);
                 if (Object.keys(perBook).length >= 2) {
                     const encoded = JSON.stringify(perBook).replace(/"/g, '&quot;');
-                    headerBtn = `<button class="bible-map-toggle" data-book-counts="${encoded}" onclick="event.stopPropagation(); openXrefMap(this)">🗺️ Bibelkart</button>`;
+                    headerBtns += `<button class="bible-map-toggle" data-book-counts="${encoded}" onclick="event.stopPropagation(); openXrefMap(this)">🗺️ Kart</button>`;
+                }
+                if (source) {
+                    const info = JSON.stringify({ source, items }).replace(/"/g, '&quot;');
+                    headerBtns += `<button class="bible-map-toggle" data-xref-info="${info}" onclick="event.stopPropagation(); openXrefTimeline(this)">📈 Tidslinje</button>`;
                 }
             }
             content = `<div class="note-popover-header">
                 <div class="note-popover-label">Kryssreferanser (${count}) — sortert etter relevans</div>
-                ${headerBtn}
+                <div class="note-popover-header-btns">${headerBtns}</div>
             </div>`;
             content += `<div class="note-popover-refs" data-showing="${initial}" data-total="${count}">`;
             items.slice(0, initial).forEach(item => {
