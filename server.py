@@ -366,6 +366,24 @@ SORTED_ALIASES = sorted(ALIAS_MAP.keys(), key=len, reverse=True)
 # Bible data loading
 # ──────────────────────────────────────────────
 
+def _entry_text(value):
+    """Hent verstekst uansett om verdien er en string (gammelt format) eller et dict (nytt)."""
+    if isinstance(value, dict):
+        return value.get("text", "")
+    return value or ""
+
+
+def _entry_meta(value):
+    """Hent fotnoter/xrefs/seksjon fra et vers. Tomme lister/None for gammelt format."""
+    if isinstance(value, dict):
+        return {
+            "footnotes": value.get("footnotes") or [],
+            "xrefs": value.get("xrefs") or [],
+            "section": value.get("section"),
+        }
+    return {"footnotes": [], "xrefs": [], "section": None}
+
+
 class BibleData:
     def __init__(self):
         self.versions = {}  # version_name → { usfm_code → { "BOOK.CH.VS": text } }
@@ -418,10 +436,10 @@ class BibleData:
         if verse_start is None:
             # Whole chapter
             prefix = f"{book_code}.{chapter}."
-            for key, text in data.items():
+            for key, value in data.items():
                 if key.startswith(prefix):
                     vs_num = int(key.split(".")[-1])
-                    results.append((vs_num, text))
+                    results.append((vs_num, _entry_text(value), _entry_meta(value)))
             if not results:
                 return None, f"Chapter {chapter} not found in {USFM_TO_NAME.get(book_code, book_code)}"
             results.sort(key=lambda x: x[0])
@@ -430,7 +448,7 @@ class BibleData:
             for v in range(verse_start, end + 1):
                 key = f"{book_code}.{chapter}.{v}"
                 if key in data:
-                    results.append((v, data[key]))
+                    results.append((v, _entry_text(data[key]), _entry_meta(data[key])))
             if not results:
                 ref = f"{chapter}:{verse_start}" + (f"-{verse_end}" if verse_end and verse_end != verse_start else "")
                 return None, f"Verses {ref} not found in {USFM_TO_NAME.get(book_code, book_code)}"
@@ -450,19 +468,19 @@ class BibleData:
         for ch in range(ch_start, ch_end + 1):
             prefix = f"{book_code}.{ch}."
             chapter_verses = []
-            for key, text in data.items():
+            for key, value in data.items():
                 if key.startswith(prefix):
                     vs_num = int(key.split(".")[-1])
-                    chapter_verses.append((vs_num, text, ch))
+                    chapter_verses.append((vs_num, _entry_text(value), ch, _entry_meta(value)))
 
             chapter_verses.sort(key=lambda x: x[0])
 
-            for vs_num, text, ch_num in chapter_verses:
+            for vs_num, text, ch_num, meta in chapter_verses:
                 if ch_num == ch_start and vs_num < vs_start:
                     continue
                 if ch_num == ch_end and vs_num > vs_end:
                     continue
-                results.append((vs_num, text, ch_num))
+                results.append((vs_num, text, ch_num, meta))
 
         if not results:
             return None, f"Verses {ch_start}:{vs_start}-{ch_end}:{vs_end} not found"
@@ -481,10 +499,10 @@ class BibleData:
 
         for ch in range(ch_start, ch_end + 1):
             prefix = f"{book_code}.{ch}."
-            for key, text in data.items():
+            for key, value in data.items():
                 if key.startswith(prefix):
                     vs_num = int(key.split(".")[-1])
-                    results.append((vs_num, text, ch))
+                    results.append((vs_num, _entry_text(value), ch, _entry_meta(value)))
 
         if not results:
             return None, f"Chapters {ch_start}-{ch_end} not found in {USFM_TO_NAME.get(book_code, book_code)}"
@@ -689,13 +707,23 @@ def resolve_block(bible_data, version, block):
     btype = block["type"]
     base = {"label": block["label"], "book": book}
 
+    def _verse_obj(num, chapter, text, meta):
+        obj = {"num": num, "chapter": chapter, "text": text}
+        if meta.get("footnotes"):
+            obj["footnotes"] = meta["footnotes"]
+        if meta.get("xrefs"):
+            obj["xrefs"] = meta["xrefs"]
+        if meta.get("section"):
+            obj["section"] = meta["section"]
+        return obj
+
     if btype == "single_verse":
         verses, err = bible_data.get_verses(version, book, block["chapter"], block["verse"])
         if err:
             return {**base, "error": err, "verses": []}
         return {
             **base,
-            "verses": [{"num": v, "chapter": block["chapter"], "text": t} for v, t in verses],
+            "verses": [_verse_obj(v, block["chapter"], t, m) for v, t, m in verses],
         }
 
     elif btype == "verse_range":
@@ -704,7 +732,7 @@ def resolve_block(bible_data, version, block):
             return {**base, "error": err, "verses": []}
         return {
             **base,
-            "verses": [{"num": v, "chapter": block["chapter"], "text": t} for v, t in verses],
+            "verses": [_verse_obj(v, block["chapter"], t, m) for v, t, m in verses],
         }
 
     elif btype == "whole_chapter":
@@ -713,7 +741,7 @@ def resolve_block(bible_data, version, block):
             return {**base, "error": err, "verses": []}
         return {
             **base,
-            "verses": [{"num": v, "chapter": block["chapter"], "text": t} for v, t in verses],
+            "verses": [_verse_obj(v, block["chapter"], t, m) for v, t, m in verses],
         }
 
     elif btype == "chapter_range":
@@ -722,7 +750,7 @@ def resolve_block(bible_data, version, block):
             return {**base, "error": err, "verses": []}
         return {
             **base,
-            "verses": [{"num": v, "chapter": ch, "text": t} for v, t, ch in verses],
+            "verses": [_verse_obj(v, ch, t, m) for v, t, ch, m in verses],
         }
 
     elif btype == "cross_chapter":
@@ -733,7 +761,7 @@ def resolve_block(bible_data, version, block):
             return {**base, "error": err, "verses": []}
         return {
             **base,
-            "verses": [{"num": v, "chapter": ch, "text": t} for v, t, ch in verses],
+            "verses": [_verse_obj(v, ch, t, m) for v, t, ch, m in verses],
         }
 
     return {"label": block.get("label", "?"), "error": "Unknown block type", "verses": []}
@@ -818,7 +846,8 @@ def search_text(bible_data, version, query, per_book=10, book_filter=None):
         book_name = USFM_TO_NAME.get(book_code, book_code)
         data = bible_data.versions[version][book_code]
         total = 0
-        for key, text in data.items():
+        for key, value in data.items():
+            text = _entry_text(value)
             text_lower = text.lower()
             if not all(p in text_lower for p in phrases):
                 continue
