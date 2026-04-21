@@ -614,6 +614,36 @@
             min-width: 250px;
         }
         .search-bar-wrap:focus-within { border-color: var(--accent); }
+
+        /* KI-reformulert-indikasjon */
+        .search-bar-wrap .ai-badge {
+            display: none;
+            align-items: center;
+            padding-left: 14px;
+            font-size: 1.05rem;
+            color: #d4a84b;
+            pointer-events: none;
+            flex: 0 0 auto;
+        }
+        .search-bar-wrap.ai-reformulated .ai-badge { display: flex; }
+        .search-bar-wrap.ai-reformulated .search-ce { padding-left: 6px; }
+        .search-bar-wrap.ai-glow {
+            animation: aiGlow 2s ease-out forwards;
+        }
+        @keyframes aiGlow {
+            0% {
+                border-color: #fbbf24;
+                box-shadow: 0 0 14px rgba(251, 191, 36, 0.75);
+            }
+            60% {
+                border-color: #fbbf24;
+                box-shadow: 0 0 10px rgba(251, 191, 36, 0.4);
+            }
+            100% {
+                border-color: var(--border);
+                box-shadow: none;
+            }
+        }
         .search-bar-wrap input,
         .search-bar-wrap .search-ce {
             flex: 1;
@@ -831,7 +861,8 @@
 <!-- Desktop search controls -->
 <div class="controls desktop-only">
     <div class="suggestions-wrap" style="flex:1;min-width:250px;">
-        <div class="search-bar-wrap">
+        <div class="search-bar-wrap" id="searchBarWrapDesktop">
+            <span class="ai-badge" title="Reformulert av KI">✨</span>
             <div class="search-ce" id="searchInput" contenteditable="true" spellcheck="false"
                  data-placeholder='Søk… Johannes 3:16, nåde, "eksakt setning", ord -ikke-dette'></div>
             <select id="versionSelect" class="search-version-select"></select>
@@ -867,7 +898,8 @@
 <!-- Mobile sticky bottom search bar -->
 <div class="search-bottom-bar" id="searchBottomBar">
     <div class="suggestions-wrap">
-        <div class="search-bar-wrap">
+        <div class="search-bar-wrap" id="searchBarWrapMobile">
+            <span class="ai-badge" title="Reformulert av KI">✨</span>
             <div class="search-ce" id="searchInputMobile" contenteditable="true" spellcheck="false"
                  data-placeholder="Søk i Bibelen…"></div>
             <button class="search-btn-inline" id="searchBtnMobile">Søk</button>
@@ -1632,6 +1664,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             setSearchLoading(true);
             addRecentSearch(query);
             closeSuggestions();
+            clearAiReformulated();  // nytt bruker-initiert søk → fjern gammel KI-indikator
             pushHistoryState({
                 view: 'normal', query, version: versionSelect.value,
             });
@@ -1753,6 +1786,27 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
     }
 
+    function markAiReformulated() {
+        [document.getElementById('searchBarWrapDesktop'), document.getElementById('searchBarWrapMobile')].forEach(el => {
+            if (!el) return;
+            el.classList.add('ai-reformulated');
+            // Restart glow-animasjonen ved å fjerne og legge til klassen
+            el.classList.remove('ai-glow');
+            void el.offsetWidth;  // tvinger reflow slik at animasjonen starter på nytt
+            el.classList.add('ai-glow');
+            setTimeout(() => el.classList.remove('ai-glow'), 2100);
+        });
+    }
+    function clearAiReformulated() {
+        [document.getElementById('searchBarWrapDesktop'), document.getElementById('searchBarWrapMobile')].forEach(el => {
+            if (el) el.classList.remove('ai-reformulated');
+        });
+    }
+    // Skjul ✨-badge så snart brukeren redigerer søkefeltet
+    [searchInputDesktop, searchInputMobile].forEach(el => {
+        el.addEventListener('input', clearAiReformulated);
+    });
+
     async function tryAiFallback(originalQuery) {
         resultsWrapper.innerHTML = `<div class="empty-state"><p><span class="ai-searching">✨ Prøver å reformulere med KI…</span></p></div>`;
         try {
@@ -1761,6 +1815,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (aiData.result && aiData.result.trim() !== originalQuery.trim()) {
                 searchInput.value = aiData.result;
                 lastQuery = aiData.result;
+                markAiReformulated();
                 await doSearch(true);
             } else {
                 // Show empty results
