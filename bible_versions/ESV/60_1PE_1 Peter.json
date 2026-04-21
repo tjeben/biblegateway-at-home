@@ -1,107 +1,1991 @@
 {
-  "1PE.1.1": "Peter, an apostle of Jesus Christ, To those who are elect exiles of the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia,",
-  "1PE.1.2": "according to the foreknowledge of God the Father, in the sanctification of the Spirit, for obedience to Jesus Christ and for sprinkling with his blood: May grace and peace be multiplied to you.",
-  "1PE.1.3": "Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,",
-  "1PE.1.4": "to an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you,",
-  "1PE.1.5": "who by God’s power are being guarded through faith for a salvation ready to be revealed in the last time.",
-  "1PE.1.6": "In this you rejoice, though now for a little while, if necessary, you have been grieved by various trials,",
-  "1PE.1.7": "so that the tested genuineness of your faith—more precious than gold that perishes though it is tested by fire—may be found to result in praise and glory and honor at the revelation of Jesus Christ.",
-  "1PE.1.8": "Though you have not seen him, you love him. Though you do not now see him, you believe in him and rejoice with joy that is inexpressible and filled with glory,",
-  "1PE.1.9": "obtaining the outcome of your faith, the salvation of your souls.",
-  "1PE.1.10": "Concerning this salvation, the prophets who prophesied about the grace that was to be yours searched and inquired carefully,",
-  "1PE.1.11": "inquiring what person or time the Spirit of Christ in them was indicating when he predicted the sufferings of Christ and the subsequent glories.",
-  "1PE.1.12": "It was revealed to them that they were serving not themselves but you, in the things that have now been announced to you through those who preached the good news to you by the Holy Spirit sent from heaven, things into which angels long to look.",
-  "1PE.1.13": "Therefore, preparing your minds for action, and being sober-minded, set your hope fully on the grace that will be brought to you at the revelation of Jesus Christ.",
-  "1PE.1.14": "As obedient children, do not be conformed to the passions of your former ignorance,",
-  "1PE.1.15": "but as he who called you is holy, you also be holy in all your conduct,",
-  "1PE.1.16": "since it is written, “You shall be holy, for I am holy.”",
-  "1PE.1.17": "And if you call on him as Father who judges impartially according to each one’s deeds, conduct yourselves with fear throughout the time of your exile,",
-  "1PE.1.18": "knowing that you were ransomed from the futile ways inherited from your forefathers, not with perishable things such as silver or gold,",
-  "1PE.1.19": "but with the precious blood of Christ, like that of a lamb without blemish or spot.",
-  "1PE.1.20": "He was foreknown before the foundation of the world but was made manifest in the last times for the sake of you",
-  "1PE.1.21": "who through him are believers in God, who raised him from the dead and gave him glory, so that your faith and hope are in God.",
-  "1PE.1.22": "Having purified your souls by your obedience to the truth for a sincere brotherly love, love one another earnestly from a pure heart,",
-  "1PE.1.23": "since you have been born again, not of perishable seed but of imperishable, through the living and abiding word of God;",
-  "1PE.1.24": "for “All flesh is like grass and all its glory like the flower of grass. The grass withers, and the flower falls,",
-  "1PE.1.25": "but the word of the Lord remains forever.” And this word is the good news that was preached to you.",
-  "1PE.2.1": "So put away all malice and all deceit and hypocrisy and envy and all slander.",
-  "1PE.2.2": "Like newborn infants, long for the pure spiritual milk, that by it you may grow up into salvation—",
-  "1PE.2.3": "if indeed you have tasted that the Lord is good.",
-  "1PE.2.4": "As you come to him, a living stone rejected by men but in the sight of God chosen and precious,",
-  "1PE.2.5": "you yourselves like living stones are being built up as a spiritual house, to be a holy priesthood, to offer spiritual sacrifices acceptable to God through Jesus Christ.",
-  "1PE.2.6": "For it stands in Scripture: “Behold, I am laying in Zion a stone, a cornerstone chosen and precious, and whoever believes in him will not be put to shame.”",
-  "1PE.2.7": "So the honor is for you who believe, but for those who do not believe, “The stone that the builders rejected has become the cornerstone,”",
-  "1PE.2.8": "and “A stone of stumbling, and a rock of offense.” They stumble because they disobey the word, as they were destined to do.",
-  "1PE.2.9": "But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light.",
-  "1PE.2.10": "Once you were not a people, but now you are God’s people; once you had not received mercy, but now you have received mercy.",
-  "1PE.2.11": "Beloved, I urge you as sojourners and exiles to abstain from the passions of the flesh, which wage war against your soul.",
-  "1PE.2.12": "Keep your conduct among the Gentiles honorable, so that when they speak against you as evildoers, they may see your good deeds and glorify God on the day of visitation.",
-  "1PE.2.13": "Be subject for the Lord’s sake to every human institution, whether it be to the emperor as supreme,",
-  "1PE.2.14": "or to governors as sent by him to punish those who do evil and to praise those who do good.",
-  "1PE.2.15": "For this is the will of God, that by doing good you should put to silence the ignorance of foolish people.",
-  "1PE.2.16": "Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God.",
-  "1PE.2.17": "Honor everyone. Love the brotherhood. Fear God. Honor the emperor.",
-  "1PE.2.18": "Servants, be subject to your masters with all respect, not only to the good and gentle but also to the unjust.",
-  "1PE.2.19": "For this is a gracious thing, when, mindful of God, one endures sorrows while suffering unjustly.",
-  "1PE.2.20": "For what credit is it if, when you sin and are beaten for it, you endure? But if when you do good and suffer for it you endure, this is a gracious thing in the sight of God.",
-  "1PE.2.21": "For to this you have been called, because Christ also suffered for you, leaving you an example, so that you might follow in his steps.",
-  "1PE.2.22": "He committed no sin, neither was deceit found in his mouth.",
-  "1PE.2.23": "When he was reviled, he did not revile in return; when he suffered, he did not threaten, but continued entrusting himself to him who judges justly.",
-  "1PE.2.24": "He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness. By his wounds you have been healed.",
-  "1PE.2.25": "For you were straying like sheep, but have now returned to the Shepherd and Overseer of your souls.",
-  "1PE.3.1": "Likewise, wives, be subject to your own husbands, so that even if some do not obey the word, they may be won without a word by the conduct of their wives,",
-  "1PE.3.2": "when they see your respectful and pure conduct.",
-  "1PE.3.3": "Do not let your adorning be external—the braiding of hair and the putting on of gold jewelry, or the clothing you wear—",
-  "1PE.3.4": "but let your adorning be the hidden person of the heart with the imperishable beauty of a gentle and quiet spirit, which in God’s sight is very precious.",
-  "1PE.3.5": "For this is how the holy women who hoped in God used to adorn themselves, by submitting to their own husbands,",
-  "1PE.3.6": "as Sarah obeyed Abraham, calling him lord. And you are her children, if you do good and do not fear anything that is frightening.",
-  "1PE.3.7": "Likewise, husbands, live with your wives in an understanding way, showing honor to the woman as the weaker vessel, since they are heirs with you of the grace of life, so that your prayers may not be hindered.",
-  "1PE.3.8": "Finally, all of you, have unity of mind, sympathy, brotherly love, a tender heart, and a humble mind.",
-  "1PE.3.9": "Do not repay evil for evil or reviling for reviling, but on the contrary, bless, for to this you were called, that you may obtain a blessing.",
-  "1PE.3.10": "For “Whoever desires to love life and see good days, let him keep his tongue from evil and his lips from speaking deceit;",
-  "1PE.3.11": "let him turn away from evil and do good; let him seek peace and pursue it.",
-  "1PE.3.12": "For the eyes of the Lord are on the righteous, and his ears are open to their prayer. But the face of the Lord is against those who do evil.”",
-  "1PE.3.13": "Now who is there to harm you if you are zealous for what is good?",
-  "1PE.3.14": "But even if you should suffer for righteousness’ sake, you will be blessed. Have no fear of them, nor be troubled,",
-  "1PE.3.15": "but in your hearts honor Christ the Lord as holy, always being prepared to make a defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect,",
-  "1PE.3.16": "having a good conscience, so that, when you are slandered, those who revile your good behavior in Christ may be put to shame.",
-  "1PE.3.17": "For it is better to suffer for doing good, if that should be God’s will, than for doing evil.",
-  "1PE.3.18": "For Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God, being put to death in the flesh but made alive in the spirit,",
-  "1PE.3.19": "in which he went and proclaimed to the spirits in prison,",
-  "1PE.3.20": "because they formerly did not obey, when God’s patience waited in the days of Noah, while the ark was being prepared, in which a few, that is, eight persons, were brought safely through water.",
-  "1PE.3.21": "Baptism, which corresponds to this, now saves you, not as a removal of dirt from the body but as an appeal to God for a good conscience, through the resurrection of Jesus Christ,",
-  "1PE.3.22": "who has gone into heaven and is at the right hand of God, with angels, authorities, and powers having been subjected to him.",
-  "1PE.4.1": "Since therefore Christ suffered in the flesh, arm yourselves with the same way of thinking, for whoever has suffered in the flesh has ceased from sin,",
-  "1PE.4.2": "so as to live for the rest of the time in the flesh no longer for human passions but for the will of God.",
-  "1PE.4.3": "For the time that is past suffices for doing what the Gentiles want to do, living in sensuality, passions, drunkenness, orgies, drinking parties, and lawless idolatry.",
-  "1PE.4.4": "With respect to this they are surprised when you do not join them in the same flood of debauchery, and they malign you;",
-  "1PE.4.5": "but they will give account to him who is ready to judge the living and the dead.",
-  "1PE.4.6": "For this is why the gospel was preached even to those who are dead, that though judged in the flesh the way people are, they might live in the spirit the way God does.",
-  "1PE.4.7": "The end of all things is at hand; therefore be self-controlled and sober-minded for the sake of your prayers.",
-  "1PE.4.8": "Above all, keep loving one another earnestly, since love covers a multitude of sins.",
-  "1PE.4.9": "Show hospitality to one another without grumbling.",
-  "1PE.4.10": "As each has received a gift, use it to serve one another, as good stewards of God’s varied grace:",
-  "1PE.4.11": "whoever speaks, as one who speaks oracles of God; whoever serves, as one who serves by the strength that God supplies—in order that in everything God may be glorified through Jesus Christ. To him belong glory and dominion forever and ever. Amen.",
-  "1PE.4.12": "Beloved, do not be surprised at the fiery trial when it comes upon you to test you, as though something strange were happening to you.",
-  "1PE.4.13": "But rejoice insofar as you share Christ’s sufferings, that you may also rejoice and be glad when his glory is revealed.",
-  "1PE.4.14": "If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests upon you.",
-  "1PE.4.15": "But let none of you suffer as a murderer or a thief or an evildoer or as a meddler.",
-  "1PE.4.16": "Yet if anyone suffers as a Christian, let him not be ashamed, but let him glorify God in that name.",
-  "1PE.4.17": "For it is time for judgment to begin at the household of God; and if it begins with us, what will be the outcome for those who do not obey the gospel of God?",
-  "1PE.4.18": "And “If the righteous is scarcely saved, what will become of the ungodly and the sinner?”",
-  "1PE.4.19": "Therefore let those who suffer according to God’s will entrust their souls to a faithful Creator while doing good.",
-  "1PE.5.1": "So I exhort the elders among you, as a fellow elder and a witness of the sufferings of Christ, as well as a partaker in the glory that is going to be revealed:",
-  "1PE.5.2": "shepherd the flock of God that is among you, exercising oversight, not under compulsion, but willingly, as God would have you; not for shameful gain, but eagerly;",
-  "1PE.5.3": "not domineering over those in your charge, but being examples to the flock.",
-  "1PE.5.4": "And when the chief Shepherd appears, you will receive the unfading crown of glory.",
-  "1PE.5.5": "Likewise, you who are younger, be subject to the elders. Clothe yourselves, all of you, with humility toward one another, for “God opposes the proud but gives grace to the humble.”",
-  "1PE.5.6": "Humble yourselves, therefore, under the mighty hand of God so that at the proper time he may exalt you,",
-  "1PE.5.7": "casting all your anxieties on him, because he cares for you.",
-  "1PE.5.8": "Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour.",
-  "1PE.5.9": "Resist him, firm in your faith, knowing that the same kinds of suffering are being experienced by your brotherhood throughout the world.",
-  "1PE.5.10": "And after you have suffered a little while, the God of all grace, who has called you to his eternal glory in Christ, will himself restore, confirm, strengthen, and establish you.",
-  "1PE.5.11": "To him be the dominion forever and ever. Amen.",
-  "1PE.5.12": "By Silvanus, a faithful brother as I regard him, I have written briefly to you, exhorting and declaring that this is the true grace of God. Stand firm in it.",
-  "1PE.5.13": "She who is at Babylon, who is likewise chosen, sends you greetings, and so does Mark, my son.",
-  "1PE.5.14": "Greet one another with the kiss of love. Peace to all of you who are in Christ."
+  "1PE.1.1": {
+    "text": "Peter, an apostle of Jesus Christ, To those who are elect exiles of the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See James 1:1",
+        "refs": []
+      }
+    ],
+    "section": "Greeting"
+  },
+  "1PE.1.2": {
+    "text": "according to the foreknowledge of God the Father, in the sanctification of the Spirit, for obedience to Jesus Christ and for sprinkling with his blood: May grace and peace be multiplied to you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Acts 2:23; [Rom. 8:29; 11:2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See 1 Thess. 4:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 10:22; 12:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Pet. 1:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Dan. 4:1; Jude 2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.3": {
+    "text": "Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Cor. 1:3; Eph. 1:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Titus 3:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:21; [1 Cor. 15:20]",
+        "refs": []
+      }
+    ],
+    "section": "Born Again to a Living Hope"
+  },
+  "1PE.1.4": {
+    "text": "to an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 8:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 5:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Col. 1:5; 2 Tim. 4:8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.5": {
+    "text": "who by God’s power are being guarded through faith for a salvation ready to be revealed in the last time.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eph. 2:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 5:10; Rom. 8:18; 2 Cor. 4:17; Heb. 12:11]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.6": {
+    "text": "In this you rejoice, though now for a little while, if necessary, you have been grieved by various trials,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "James 1:2; [ch. 4:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.7": {
+    "text": "so that the tested genuineness of your faith—more precious than gold that perishes though it is tested by fire—may be found to result in praise and glory and honor at the revelation of Jesus Christ.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "James 1:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Job 23:10; Ps. 66:10; Prov. 17:3; Isa. 48:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 3:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 2:7, 10; 1 Cor. 4:5; [2 Thess. 1:7-12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.8": {
+    "text": "Though you have not seen him, you love him. Though you do not now see him, you believe in him and rejoice with joy that is inexpressible and filled with glory,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[1 John 4:20]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Heb. 11:27]; See John 20:29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.9": {
+    "text": "obtaining the outcome of your faith, the salvation of your souls.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 6:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.10": {
+    "text": "Concerning this salvation, the prophets who prophesied about the grace that was to be yours searched and inquired carefully,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Pet. 1:19; [Dan. 8:15; Matt. 13:17; Luke 10:24]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.11": {
+    "text": "inquiring what person or time the Spirit of Christ in them was indicating when he predicted the sufferings of Christ and the subsequent glories.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan. 9:24-26",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 8:9; [2 Pet. 1:21]; See Acts 16:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Matt. 26:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 52:13–53:12; Luke 24:26; Acts 3:18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.12": {
+    "text": "It was revealed to them that they were serving not themselves but you, in the things that have now been announced to you through those who preached the good news to you by the Holy Spirit sent from heaven, things into which angels long to look.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan. 12:4, 9, 13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Matt. 13:17; Heb. 11:39, 40]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Acts 2:2-4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Dan. 8:13; 12:5-7; Eph. 3:10]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.13": {
+    "text": "Therefore, preparing your minds for action, and being sober-minded, set your hope fully on the grace that will be brought to you at the revelation of Jesus Christ.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Greek"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Luke 12:35",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:7; 5:8; 1 Thess. 5:6, 8; 2 Tim. 4:5",
+        "refs": []
+      }
+    ],
+    "section": "Called to Be Holy"
+  },
+  "1PE.1.14": {
+    "text": "As obedient children, do not be conformed to the passions of your former ignorance,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:2, 3; Rom. 12:2; Titus 3:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Acts 17:30",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.15": {
+    "text": "but as he who called you is holy, you also be holy in all your conduct,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 John 3:3; [2 Cor. 7:1; 1 Thess. 4:7; Heb. 12:14]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "James 3:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.16": {
+    "text": "since it is written, “You shall be holy, for I am holy.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Cited from Lev. 11:44",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.17": {
+    "text": "And if you call on him as Father who judges impartially according to each one’s deeds, conduct yourselves with fear throughout the time of your exile,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 3:19; Mal. 1:6; 2 Cor. 6:18; [Matt. 6:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ps. 62:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See James 2:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:15; 2 Cor. 7:1; [Rom. 11:20]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.18": {
+    "text": "knowing that you were ransomed from the futile ways inherited from your forefathers, not with perishable things such as silver or gold,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ps. 49:8; 130:8; 1 Cor. 6:20; Titus 2:14; 2 Pet. 2:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Eph. 4:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.19": {
+    "text": "but with the precious blood of Christ, like that of a lamb without blemish or spot.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Acts 20:28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See John 1:29",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 9:14; [Ex. 12:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.20": {
+    "text": "He was foreknown before the foundation of the world but was made manifest in the last times for the sake of you",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Rom. 16:26",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 1:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.21": {
+    "text": "who through him are believers in God, who raised him from the dead and gave him glory, so that your faith and hope are in God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "John 12:44",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Rom. 10:9]; See Acts 2:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Acts 3:13; Heb. 2:9; [ch. 3:22]; See John 7:39",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.22": {
+    "text": "Having purified your souls by your obedience to the truth for a sincere brotherly love, love one another earnestly from a pure heart,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 12:9; See Heb. 13:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Tim. 1:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.23": {
+    "text": "since you have been born again, not of perishable seed but of imperishable, through the living and abiding word of God;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 3; [John 3:3; James 1:18]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "John 1:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 4:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.24": {
+    "text": "for “All flesh is like grass and all its glory like the flower of grass. The grass withers, and the flower falls,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "James 1:10, 11; Cited from Isa. 40:6, 8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.1.25": {
+    "text": "but the word of the Lord remains forever.” And this word is the good news that was preached to you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Matt. 24:35 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 40:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.1": {
+    "text": "So put away all malice and all deceit and hypocrisy and envy and all slander.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eph. 4:22, 25, 31; Col. 3:8",
+        "refs": []
+      }
+    ],
+    "section": "A Living Stone and a Holy People"
+  },
+  "1PE.2.2": {
+    "text": "Like newborn infants, long for the pure spiritual milk, that by it you may grow up into salvation—",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Matt. 18:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 3:2; Heb. 5:12, 13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.3": {
+    "text": "if indeed you have tasted that the Lord is good.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 34:8; Heb. 6:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.4": {
+    "text": "As you come to him, a living stone rejected by men but in the sight of God chosen and precious,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 6, 7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.5": {
+    "text": "you yourselves like living stones are being built up as a spiritual house, to be a holy priesthood, to offer spiritual sacrifices acceptable to God through Jesus Christ.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eph. 2:20-22; [1 Cor. 3:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 3:4, 6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 56:7; Mal. 1:11; Rom. 12:1; Heb. 13:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 15:16; Phil. 4:18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.6": {
+    "text": "For it stands in Scripture: “Behold, I am laying in Zion a stone, a cornerstone chosen and precious, and whoever believes in him will not be put to shame.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Cited from Isa. 28:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 9:33; 10:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.7": {
+    "text": "So the honor is for you who believe, but for those who do not believe, “The stone that the builders rejected has become the cornerstone,”",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Greek"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[2 Cor. 2:16]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Cor. 2:16]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Cited from Ps. 118:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.8": {
+    "text": "and “A stone of stumbling, and a rock of offense.” They stumble because they disobey the word, as they were destined to do.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 9:33; Cited from Isa. 8:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Rom. 9:22; Jude 4]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.9": {
+    "text": "But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 10:15; Isa. 43:20",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 19:6; Rev. 1:6; 5:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 61:6; 66:21",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 7:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 19:5; Deut. 7:6; Isa. 43:21; Mal. 3:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 42:16]; See Acts 26:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 36:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.10": {
+    "text": "Once you were not a people, but now you are God’s people; once you had not received mercy, but now you have received mercy.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hos. 1:6, 9, 10; 2:23; Rom. 9:25, 26; 10:19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.11": {
+    "text": "Beloved, I urge you as sojourners and exiles to abstain from the passions of the flesh, which wage war against your soul.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Lev. 25:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 13:14; Gal. 5:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "James 4:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.12": {
+    "text": "Keep your conduct among the Gentiles honorable, so that when they speak against you as evildoers, they may see your good deeds and glorify God on the day of visitation.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:16; 2 Cor. 8:21; Phil. 2:15; Titus 2:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Matt. 5:16; 2 Cor. 9:13; Gal. 1:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 10:3; Luke 19:44",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.13": {
+    "text": "Be subject for the Lord’s sake to every human institution, whether it be to the emperor as supreme,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 13:1; Titus 3:1",
+        "refs": []
+      }
+    ],
+    "section": "Submission to Authority"
+  },
+  "1PE.2.14": {
+    "text": "or to governors as sent by him to punish those who do evil and to praise those who do good.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 13:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 13:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.15": {
+    "text": "For this is the will of God, that by doing good you should put to silence the ignorance of foolish people.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.16": {
+    "text": "Live as people who are free, not using your freedom as a cover-up for evil, but living as servants of God.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "For the contextual rendering of the Greek word"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See James 1:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 7:22; [Rom. 6:22]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.17": {
+    "text": "Honor everyone. Love the brotherhood. Fear God. Honor the emperor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 12:10; 13:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Heb. 13:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 24:21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.18": {
+    "text": "Servants, be subject to your masters with all respect, not only to the good and gentle but also to the unjust.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eph. 6:5; Col. 3:22; 1 Tim. 6:1; Titus 2:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.19": {
+    "text": "For this is a gracious thing, when, mindful of God, one endures sorrows while suffering unjustly.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:14, 17; [ch. 4:16]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.20": {
+    "text": "For what credit is it if, when you sin and are beaten for it, you endure? But if when you do good and suffer for it you endure, this is a gracious thing in the sight of God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:17, 18; 4:13, 16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.21": {
+    "text": "For to this you have been called, because Christ also suffered for you, leaving you an example, so that you might follow in his steps.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:9; See Acts 14:22",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 20 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Matt. 11:29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.22": {
+    "text": "He committed no sin, neither was deceit found in his mouth.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 53:9; [2 Cor. 5:21; Heb. 4:15; 1 John 3:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.23": {
+    "text": "When he was reviled, he did not revile in return; when he suffered, he did not threaten, but continued entrusting himself to him who judges justly.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:9; Isa. 53:7; Heb. 12:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Luke 23:46",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.24": {
+    "text": "He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness. By his wounds you have been healed.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 53:4, 11; Matt. 8:17; Heb. 9:28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 6:2, 11; 7:4, 6; Col. 2:20; 3:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 6:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 53:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.2.25": {
+    "text": "For you were straying like sheep, but have now returned to the Shepherd and Overseer of your souls.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 53:6; [Ps. 119:176; Ezek. 34:6; Luke 15:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See John 10:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.1": {
+    "text": "Likewise, wives, be subject to your own husbands, so that even if some do not obey the word, they may be won without a word by the conduct of their wives,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Gen. 3:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 7:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Matt. 18:15; 1 Cor. 9:19-22",
+        "refs": []
+      }
+    ],
+    "section": "Wives and Husbands"
+  },
+  "1PE.3.2": {
+    "text": "when they see your respectful and pure conduct.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Titus 2:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.3": {
+    "text": "Do not let your adorning be external—the braiding of hair and the putting on of gold jewelry, or the clothing you wear—",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim. 2:9; [Isa. 3:18-23]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.4": {
+    "text": "but let your adorning be the hidden person of the heart with the imperishable beauty of a gentle and quiet spirit, which in God’s sight is very precious.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 2:29; [Rom. 7:22; 2 Cor. 4:16; Eph. 3:16]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.5": {
+    "text": "For this is how the holy women who hoped in God used to adorn themselves, by submitting to their own husbands,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1PE.3.6": {
+    "text": "as Sarah obeyed Abraham, calling him lord. And you are her children, if you do good and do not fear anything that is frightening.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gen. 18:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 3:25",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.7": {
+    "text": "Likewise, husbands, live with your wives in an understanding way, showing honor to the woman as the weaker vessel, since they are heirs with you of the grace of life, so that your prayers may not be hindered.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Some manuscripts"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eph. 5:25; Col. 3:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See 1 Thess. 4:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.8": {
+    "text": "Finally, all of you, have unity of mind, sympathy, brotherly love, a tender heart, and a humble mind.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Rom. 12:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Heb. 13:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Eph. 4:32",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Eph. 4:2",
+        "refs": []
+      }
+    ],
+    "section": "Suffering for Righteousness’ Sake"
+  },
+  "1PE.3.9": {
+    "text": "Do not repay evil for evil or reviling for reviling, but on the contrary, bless, for to this you were called, that you may obtain a blessing.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:23; See Rom. 12:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Luke 6:28; Rom. 12:14; 1 Cor. 4:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.10": {
+    "text": "For “Whoever desires to love life and see good days, let him keep his tongue from evil and his lips from speaking deceit;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Cited from Ps. 34:12-16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.11": {
+    "text": "let him turn away from evil and do good; let him seek peace and pursue it.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1PE.3.12": {
+    "text": "For the eyes of the Lord are on the righteous, and his ears are open to their prayer. But the face of the Lord is against those who do evil.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1PE.3.13": {
+    "text": "Now who is there to harm you if you are zealous for what is good?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 16:7]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.14": {
+    "text": "But even if you should suffer for righteousness’ sake, you will be blessed. Have no fear of them, nor be troubled,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:19, 20; 4:14, 16; Matt. 5:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 8:12, 13; [ver. 6; Matt. 10:28]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "John 14:1, 27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.15": {
+    "text": "but in your hearts honor Christ the Lord as holy, always being prepared to make a defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 29:23; Matt. 6:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Col. 4:6; [2 Tim. 2:25]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.16": {
+    "text": "having a good conscience, so that, when you are slandered, those who revile your good behavior in Christ may be put to shame.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Heb. 13:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.17": {
+    "text": "For it is better to suffer for doing good, if that should be God’s will, than for doing evil.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:20; [ch. 4:15, 16]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.18": {
+    "text": "For Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God, being put to death in the flesh but made alive in the spirit,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Some manuscripts"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:21; 4:1; See Rom. 4:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 9:26, 28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 5:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:1; Col. 1:22; [2 Cor. 13:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.19": {
+    "text": "in which he went and proclaimed to the spirits in prison,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 18 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.20": {
+    "text": "because they formerly did not obey, when God’s patience waited in the days of Noah, while the ark was being prepared, in which a few, that is, eight persons, were brought safely through water.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gen. 6:3, 5, 13, 14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 11:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gen. 7:1, 7, 23; 8:18; 2 Pet. 2:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.21": {
+    "text": "Baptism, which corresponds to this, now saves you, not as a removal of dirt from the body but as an appeal to God for a good conscience, through the resurrection of Jesus Christ,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mark 16:16; Acts 16:33; Rom. 6:3-6; Titus 3:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Rom. 10:10]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.3.22": {
+    "text": "who has gone into heaven and is at the right hand of God, with angels, authorities, and powers having been subjected to him.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Acts 2:33, 34; Rom. 8:34; Eph. 1:20; Col. 3:1; Heb. 1:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 8:38; 1 Cor. 15:24; Eph. 1:21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.1": {
+    "text": "Since therefore Christ suffered in the flesh, arm yourselves with the same way of thinking, for whoever has suffered in the flesh has ceased from sin,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Some manuscripts add"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Eph. 6:13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 6:2, 7; Gal. 5:24; Col. 3:3, 5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Pet. 2:14]",
+        "refs": []
+      }
+    ],
+    "section": "Stewards of God’s Grace"
+  },
+  "1PE.4.2": {
+    "text": "so as to live for the rest of the time in the flesh no longer for human passions but for the will of God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 6:14; 14:7; 2 Cor. 5:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Titus 2:12; 1 John 2:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 6:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.3": {
+    "text": "For the time that is past suffices for doing what the Gentiles want to do, living in sensuality, passions, drunkenness, orgies, drinking parties, and lawless idolatry.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 44:6; 45:9; Acts 17:30",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Eph. 4:17-19; 1 Thess. 4:5; [1 Cor. 12:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.4": {
+    "text": "With respect to this they are surprised when you do not join them in the same flood of debauchery, and they malign you;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Eph. 5:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:12; 3:16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.5": {
+    "text": "but they will give account to him who is ready to judge the living and the dead.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[James 5:9]; See Acts 10:42",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.6": {
+    "text": "For this is why the gospel was preached even to those who are dead, that though judged in the flesh the way people are, they might live in the spirit the way God does.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.7": {
+    "text": "The end of all things is at hand; therefore be self-controlled and sober-minded for the sake of your prayers.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See James 5:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Matt. 26:41; Luke 21:36",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.8": {
+    "text": "Above all, keep loving one another earnestly, since love covers a multitude of sins.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[1 Cor. 13:5, 6]; See James 5:20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.9": {
+    "text": "Show hospitality to one another without grumbling.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Heb. 13:2; [1 Tim. 3:2; Titus 1:8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.10": {
+    "text": "As each has received a gift, use it to serve one another, as good stewards of God’s varied grace:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 12:6, 7; 1 Cor. 4:7; [Matt. 25:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Luke 12:42; 1 Cor. 4:1, 2; Titus 1:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.11": {
+    "text": "whoever speaks, as one who speaks oracles of God; whoever serves, as one who serves by the strength that God supplies—in order that in everything God may be glorified through Jesus Christ. To him belong glory and dominion forever and ever. Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Acts 7:38; Rom. 3:2; Heb. 5:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 12:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 10:31",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Rom. 11:36",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:11; Jude 25; Rev. 1:6; 5:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.12": {
+    "text": "Beloved, do not be surprised at the fiery trial when it comes upon you to test you, as though something strange were happening to you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:7",
+        "refs": []
+      }
+    ],
+    "section": "Suffering as a Christian"
+  },
+  "1PE.4.13": {
+    "text": "But rejoice insofar as you share Christ’s sufferings, that you may also rejoice and be glad when his glory is revealed.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Phil. 3:10, 11; See Acts 5:41",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:5-7; 5:1; Rom. 8:17, 18; Jude 24]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.14": {
+    "text": "If you are insulted for the name of Christ, you are blessed, because the Spirit of glory and of God rests upon you.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Some manuscripts insert"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 89:51; Matt. 5:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "John 15:21; [Heb. 11:26]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.15": {
+    "text": "But let none of you suffer as a murderer or a thief or an evildoer or as a meddler.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:19, 20; 3:14, 17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Thess. 4:11; 2 Thess. 3:11; 1 Tim. 5:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.16": {
+    "text": "Yet if anyone suffers as a Christian, let him not be ashamed, but let him glorify God in that name.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 15 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Acts 26:28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 14 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.17": {
+    "text": "For it is time for judgment to begin at the household of God; and if it begins with us, what will be the outcome for those who do not obey the gospel of God?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 25:29; Ezek. 9:6; Amos 3:2; Rom. 2:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Luke 23:31]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Thess. 1:8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.18": {
+    "text": "And “If the righteous is scarcely saved, what will become of the ungodly and the sinner?”",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Greek"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 11:31",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.4.19": {
+    "text": "Therefore let those who suffer according to God’s will entrust their souls to a faithful Creator while doing good.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 31:5; Luke 23:46; [Ps. 10:14; 2 Tim. 1:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.1": {
+    "text": "So I exhort the elders among you, as a fellow elder and a witness of the sufferings of Christ, as well as a partaker in the glory that is going to be revealed:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[2 John 1; 3 John 1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Luke 24:48",
+        "refs": []
+      }
+    ],
+    "section": "Shepherd the Flock of God"
+  },
+  "1PE.5.2": {
+    "text": "shepherd the flock of God that is among you, exercising oversight, not under compulsion, but willingly, as God would have you; not for shameful gain, but eagerly;",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Some manuscripts omit"
+      },
+      {
+        "marker": "#",
+        "text": "Some manuscripts omit"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Jude 12]; See John 21:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Philem. 14]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Tim. 3:8; Titus 1:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.3": {
+    "text": "not domineering over those in your charge, but being examples to the flock.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 34:4; Matt. 20:25; Mark 10:42; 2 Cor. 1:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Phil. 3:17; 2 Thess. 3:9; 1 Tim. 4:12; Titus 2:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.4": {
+    "text": "And when the chief Shepherd appears, you will receive the unfading crown of glory.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Heb. 13:20",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 9:25; See James 1:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.5": {
+    "text": "Likewise, you who are younger, be subject to the elders. Clothe yourselves, all of you, with humility toward one another, for “God opposes the proud but gives grace to the humble.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Matt. 20:26, 27; John 13:4, 5, 14]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See James 4:6, 10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.6": {
+    "text": "Humble yourselves, therefore, under the mighty hand of God so that at the proper time he may exalt you,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 5 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.7": {
+    "text": "casting all your anxieties on him, because he cares for you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ps. 37:5; 55:22]; See Matt. 6:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 40:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.8": {
+    "text": "Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Matt. 24:42",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Eph. 4:27; 6:11; Rev. 12:9, 12; [Job 1:9-12; Luke 22:31; 2 Cor. 2:11]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Job 1:7; 2:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 22:21]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.9": {
+    "text": "Resist him, firm in your faith, knowing that the same kinds of suffering are being experienced by your brotherhood throughout the world.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "James 4:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Col. 2:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Acts 14:22; 1 Thess. 3:3; 2 Tim. 3:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.10": {
+    "text": "And after you have suffered a little while, the God of all grace, who has called you to his eternal glory in Christ, will himself restore, confirm, strengthen, and establish you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 1:9; 1 Thess. 2:12; 1 Tim. 6:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Tim. 2:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 13:21",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Luke 22:32; Rom. 16:25",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.11": {
+    "text": "To him be the dominion forever and ever. Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 4:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.12": {
+    "text": "By Silvanus, a faithful brother as I regard him, I have written briefly to you, exhorting and declaring that this is the true grace of God. Stand firm in it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Acts 15:22; 2 Cor. 1:19; 1 Thess. 1:1; 2 Thess. 1:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Heb. 13:22]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Acts 11:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See 1 Cor. 15:1",
+        "refs": []
+      }
+    ],
+    "section": "Final Greetings"
+  },
+  "1PE.5.13": {
+    "text": "She who is at Babylon, who is likewise chosen, sends you greetings, and so does Mark, my son.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Acts 12:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1PE.5.14": {
+    "text": "Greet one another with the kiss of love. Peace to all of you who are in Christ.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Rom. 16:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Eph. 6:23",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

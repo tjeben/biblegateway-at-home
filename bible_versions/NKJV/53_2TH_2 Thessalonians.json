@@ -1,49 +1,649 @@
 {
-  "2TH.1.1": "Paul, Silvanus, and Timothy, To the church of the Thessalonians in God our Father and the Lord Jesus Christ:",
-  "2TH.1.2": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
-  "2TH.1.3": "We are bound to thank God always for you, brethren, as it is fitting, because your faith grows exceedingly, and the love of every one of you all abounds toward each other,",
-  "2TH.1.4": "so that we ourselves boast of you among the churches of God for your patience and faith in all your persecutions and tribulations that you endure,",
-  "2TH.1.5": "which is manifest evidence of the righteous judgment of God, that you may be counted worthy of the kingdom of God, for which you also suffer;",
-  "2TH.1.6": "since it is a righteous thing with God to repay with tribulation those who trouble you,",
-  "2TH.1.7": "and to give you who are troubled rest with us when the Lord Jesus is revealed from heaven with His mighty angels,",
-  "2TH.1.8": "in flaming fire taking vengeance on those who do not know God, and on those who do not obey the gospel of our Lord Jesus Christ.",
-  "2TH.1.9": "These shall be punished with everlasting destruction from the presence of the Lord and from the glory of His power,",
-  "2TH.1.10": "when He comes, in that Day, to be glorified in His saints and to be admired among all those who believe, because our testimony among you was believed.",
-  "2TH.1.11": "Therefore we also pray always for you that our God would count you worthy of this calling, and fulfill all the good pleasure of His goodness and the work of faith with power,",
-  "2TH.1.12": "that the name of our Lord Jesus Christ may be glorified in you, and you in Him, according to the grace of our God and the Lord Jesus Christ.",
-  "2TH.2.1": "Now, brethren, concerning the coming of our Lord Jesus Christ and our gathering together to Him, we ask you,",
-  "2TH.2.2": "not to be soon shaken in mind or troubled, either by spirit or by word or by letter, as if from us, as though the day of Christ had come.",
-  "2TH.2.3": "Let no one deceive you by any means; for that Day will not come unless the falling away comes first, and the man of sin is revealed, the son of perdition,",
-  "2TH.2.4": "who opposes and exalts himself above all that is called God or that is worshiped, so that he sits as God in the temple of God, showing himself that he is God.",
-  "2TH.2.5": "Do you not remember that when I was still with you I told you these things?",
-  "2TH.2.6": "And now you know what is restraining, that he may be revealed in his own time.",
-  "2TH.2.7": "For the mystery of lawlessness is already at work; only He who now restrains will do so until He is taken out of the way.",
-  "2TH.2.8": "And then the lawless one will be revealed, whom the Lord will consume with the breath of His mouth and destroy with the brightness of His coming.",
-  "2TH.2.9": "The coming of the lawless one is according to the working of Satan, with all power, signs, and lying wonders,",
-  "2TH.2.10": "and with all unrighteous deception among those who perish, because they did not receive the love of the truth, that they might be saved.",
-  "2TH.2.11": "And for this reason God will send them strong delusion, that they should believe the lie,",
-  "2TH.2.12": "that they all may be condemned who did not believe the truth but had pleasure in unrighteousness.",
-  "2TH.2.13": "But we are bound to give thanks to God always for you, brethren beloved by the Lord, because God from the beginning chose you for salvation through sanctification by the Spirit and belief in the truth,",
-  "2TH.2.14": "to which He called you by our gospel, for the obtaining of the glory of our Lord Jesus Christ.",
-  "2TH.2.15": "Therefore, brethren, stand fast and hold the traditions which you were taught, whether by word or our epistle.",
-  "2TH.2.16": "Now may our Lord Jesus Christ Himself, and our God and Father, who has loved us and given us everlasting consolation and good hope by grace,",
-  "2TH.2.17": "comfort your hearts and establish you in every good word and work.",
-  "2TH.3.1": "Finally, brethren, pray for us, that the word of the Lord may run swiftly and be glorified, just as it is with you,",
-  "2TH.3.2": "and that we may be delivered from unreasonable and wicked men; for not all have faith.",
-  "2TH.3.3": "But the Lord is faithful, who will establish you and guard you from the evil one.",
-  "2TH.3.4": "And we have confidence in the Lord concerning you, both that you do and will do the things we command you.",
-  "2TH.3.5": "Now may the Lord direct your hearts into the love of God and into the patience of Christ.",
-  "2TH.3.6": "But we command you, brethren, in the name of our Lord Jesus Christ, that you withdraw from every brother who walks disorderly and not according to the tradition which he received from us.",
-  "2TH.3.7": "For you yourselves know how you ought to follow us, for we were not disorderly among you;",
-  "2TH.3.8": "nor did we eat anyone’s bread free of charge, but worked with labor and toil night and day, that we might not be a burden to any of you,",
-  "2TH.3.9": "not because we do not have authority, but to make ourselves an example of how you should follow us.",
-  "2TH.3.10": "For even when we were with you, we commanded you this: If anyone will not work, neither shall he eat.",
-  "2TH.3.11": "For we hear that there are some who walk among you in a disorderly manner, not working at all, but are busybodies.",
-  "2TH.3.12": "Now those who are such we command and exhort through our Lord Jesus Christ that they work in quietness and eat their own bread.",
-  "2TH.3.13": "But as for you, brethren, do not grow weary in doing good.",
-  "2TH.3.14": "And if anyone does not obey our word in this epistle, note that person and do not keep company with him, that he may be ashamed.",
-  "2TH.3.15": "Yet do not count him as an enemy, but admonish him as a brother.",
-  "2TH.3.16": "Now may the Lord of peace Himself give you peace always in every way. The Lord be with you all.",
-  "2TH.3.17": "The salutation of Paul with my own hand, which is a sign in every epistle; so I write.",
-  "2TH.3.18": "The grace of our Lord Jesus Christ be with you all. Amen."
+  "2TH.1.1": {
+    "text": "Paul, Silvanus, and Timothy, To the church of the Thessalonians in God our Father and the Lord Jesus Christ:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Greeting"
+  },
+  "2TH.1.2": {
+    "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Cor. 1:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.1.3": {
+    "text": "We are bound to thank God always for you, brethren, as it is fitting, because your faith grows exceedingly, and the love of every one of you all abounds toward each other,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "God’s Final Judgment and Glory"
+  },
+  "2TH.1.4": {
+    "text": "so that we ourselves boast of you among the churches of God for your patience and faith in all your persecutions and tribulations that you endure,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Cor. 7:4; (1 Thess. 2:19)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Thess. 1:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Thess. 2:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.1.5": {
+    "text": "which is manifest evidence of the righteous judgment of God, that you may be counted worthy of the kingdom of God, for which you also suffer;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Phil. 1:28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Thess. 2:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.1.6": {
+    "text": "since it is a righteous thing with God to repay with tribulation those who trouble you,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rev. 6:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.1.7": {
+    "text": "and to give you who are troubled rest with us when the Lord Jesus is revealed from heaven with His mighty angels,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rev. 14:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "(1 Thess. 4:16); Jude 14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.1.8": {
+    "text": "in flaming fire taking vengeance on those who do not know God, and on those who do not obey the gospel of our Lord Jesus Christ.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "2TH.1.9": {
+    "text": "These shall be punished with everlasting destruction from the presence of the Lord and from the glory of His power,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Phil. 3:19; 1 Thess. 5:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 33:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.1.10": {
+    "text": "when He comes, in that Day, to be glorified in His saints and to be admired among all those who believe, because our testimony among you was believed.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt. 25:31",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 49:3; John 17:10; 1 Thess. 2:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.1.11": {
+    "text": "Therefore we also pray always for you that our God would count you worthy of this calling, and fulfill all the good pleasure of His goodness and the work of faith with power,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Col. 1:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Thess. 1:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.1.12": {
+    "text": "that the name of our Lord Jesus Christ may be glorified in you, and you in Him, according to the grace of our God and the Lord Jesus Christ.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "(Col. 3:17)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.1": {
+    "text": "Now, brethren, concerning the coming of our Lord Jesus Christ and our gathering together to Him, we ask you,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mark 13:26; (1 Thess. 4:15–17)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Matt. 24:31",
+        "refs": []
+      }
+    ],
+    "section": "The Great Apostasy"
+  },
+  "2TH.2.2": {
+    "text": "not to be soon shaken in mind or troubled, either by spirit or by word or by letter, as if from us, as though the day of Christ had come.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt. 24:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.3": {
+    "text": "Let no one deceive you by any means; for that Day will not come unless the falling away comes first, and the man of sin is revealed, the son of perdition,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim. 4:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Dan. 7:25; 8:25; 11:36; 2 Thess. 2:8; Rev. 13:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "John 17:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.4": {
+    "text": "who opposes and exalts himself above all that is called God or that is worshiped, so that he sits as God in the temple of God, showing himself that he is God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Is. 14:13, 14; Ezek. 28:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 8:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.5": {
+    "text": "Do you not remember that when I was still with you I told you these things?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "2TH.2.6": {
+    "text": "And now you know what is restraining, that he may be revealed in his own time.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "2TH.2.7": {
+    "text": "For the mystery of lawlessness is already at work; only He who now restrains will do so until He is taken out of the way.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 John 2:18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.8": {
+    "text": "And then the lawless one will be revealed, whom the Lord will consume with the breath of His mouth and destroy with the brightness of His coming.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan. 7:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 11:4; Rev. 2:16; 19:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 10:27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.9": {
+    "text": "The coming of the lawless one is according to the working of Satan, with all power, signs, and lying wonders,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "John 8:41",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 13:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.10": {
+    "text": "and with all unrighteous deception among those who perish, because they did not receive the love of the truth, that they might be saved.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Cor. 2:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 16:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.11": {
+    "text": "And for this reason God will send them strong delusion, that they should believe the lie,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 1:28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Tim. 4:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.12": {
+    "text": "that they all may be condemned who did not believe the truth but had pleasure in unrighteousness.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 1:32; 1 Cor. 13:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.13": {
+    "text": "But we are bound to give thanks to God always for you, brethren beloved by the Lord, because God from the beginning chose you for salvation through sanctification by the Spirit and belief in the truth,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eph. 1:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Thess. 1:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Thess. 4:7; (1 Pet. 1:2)",
+        "refs": []
+      }
+    ],
+    "section": "Stand Fast"
+  },
+  "2TH.2.14": {
+    "text": "to which He called you by our gospel, for the obtaining of the glory of our Lord Jesus Christ.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Pet. 5:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.15": {
+    "text": "Therefore, brethren, stand fast and hold the traditions which you were taught, whether by word or our epistle.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Cor. 16:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 6:17; 1 Cor. 11:2; 2 Thess. 3:6; Jude 3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.16": {
+    "text": "Now may our Lord Jesus Christ Himself, and our God and Father, who has loved us and given us everlasting consolation and good hope by grace,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "(Rev. 1:5)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Titus 3:7; 1 Pet. 1:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.2.17": {
+    "text": "comfort your hearts and establish you in every good word and work.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Cor. 1:8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.1": {
+    "text": "Finally, brethren, pray for us, that the word of the Lord may run swiftly and be glorified, just as it is with you,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eph. 6:19",
+        "refs": []
+      }
+    ],
+    "section": "Pray for Us"
+  },
+  "2TH.3.2": {
+    "text": "and that we may be delivered from unreasonable and wicked men; for not all have faith.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 15:31",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Acts 28:24",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.3": {
+    "text": "But the Lord is faithful, who will establish you and guard you from the evil one.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Cor. 1:9; 1 Thess. 5:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "John 17:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.4": {
+    "text": "And we have confidence in the Lord concerning you, both that you do and will do the things we command you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Cor. 7:16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.5": {
+    "text": "Now may the Lord direct your hearts into the love of God and into the patience of Christ.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Chr. 29:18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.6": {
+    "text": "But we command you, brethren, in the name of our Lord Jesus Christ, that you withdraw from every brother who walks disorderly and not according to the tradition which he received from us.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 16:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Cor. 5:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Thess. 4:11",
+        "refs": []
+      }
+    ],
+    "section": "Warning Against Idleness"
+  },
+  "2TH.3.7": {
+    "text": "For you yourselves know how you ought to follow us, for we were not disorderly among you;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "2TH.3.8": {
+    "text": "nor did we eat anyone’s bread free of charge, but worked with labor and toil night and day, that we might not be a burden to any of you,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Thess. 2:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.9": {
+    "text": "not because we do not have authority, but to make ourselves an example of how you should follow us.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Cor. 9:4, 6–14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.10": {
+    "text": "For even when we were with you, we commanded you this: If anyone will not work, neither shall he eat.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "2TH.3.11": {
+    "text": "For we hear that there are some who walk among you in a disorderly manner, not working at all, but are busybodies.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim. 5:13; 1 Pet. 4:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.12": {
+    "text": "Now those who are such we command and exhort through our Lord Jesus Christ that they work in quietness and eat their own bread.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eph. 4:28; 1 Thess. 4:11, 12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.13": {
+    "text": "But as for you, brethren, do not grow weary in doing good.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Cor. 4:1; Gal. 6:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.14": {
+    "text": "And if anyone does not obey our word in this epistle, note that person and do not keep company with him, that he may be ashamed.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt. 18:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.15": {
+    "text": "Yet do not count him as an enemy, but admonish him as a brother.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Lev. 19:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Titus 3:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.16": {
+    "text": "Now may the Lord of peace Himself give you peace always in every way. The Lord be with you all.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "John 14:27; Rom. 15:33; Phil. 4:9",
+        "refs": []
+      }
+    ],
+    "section": "Benediction"
+  },
+  "2TH.3.17": {
+    "text": "The salutation of Paul with my own hand, which is a sign in every epistle; so I write.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Cor. 16:21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "2TH.3.18": {
+    "text": "The grace of our Lord Jesus Christ be with you all. Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 16:20, 24; 1 Thess. 5:28",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

@@ -1,27 +1,245 @@
 {
-  "PHM.1.1": "Paulus, Jesu Kristi fange, og vår bror Timoteus, til Filemon, vår kjære venn og medarbeider,",
-  "PHM.1.2": "til den kjære Appia og til vår kampfelle Arkippos og til menigheten i ditt hus:",
-  "PHM.1.3": "Nåde være med dere og fred fra Gud, vår Far, og Herren Jesus Kristus!",
-  "PHM.1.4": "Jeg takker min Gud og nevner deg alltid i mine bønner,",
-  "PHM.1.5": "når jeg hører om den kjærlighet som du viser mot alle de hellige, og den tro du har til Herren Jesus.",
-  "PHM.1.6": "Min bønn er at den del du har i troen, må være virksom og øke din innsikt i alt det gode som er gitt dere i Kristus Jesus.",
-  "PHM.1.7": "For vi har stor glede og trøst av din kjærlighet, for de helliges hjerter er blitt fornyet ved deg, bror.",
-  "PHM.1.8": "Derfor, selv om jeg kunne vært meget frimodig i Kristus og befalt deg å gjøre din plikt,",
-  "PHM.1.9": "så vil jeg likevel for kjærlighetens skyld heller oppmuntre deg, slik jeg er, Paulus, den aldrende, og nå også en Jesu Kristi fange.",
-  "PHM.1.10": "Jeg ber deg på vegne av min sønn Onesimos, som jeg er blitt åndelig far til mens jeg er i mine lenker.",
-  "PHM.1.11": "Før var han unyttig for deg, men nå er han nyttig både for deg og for meg.",
-  "PHM.1.12": "Jeg sender ham tilbake. Ta derfor imot ham, det vil si, mitt eget hjerte,",
-  "PHM.1.13": "som jeg ønsket å ha hos meg, slik at han på dine vegne kunne tjene meg i mine lenker for evangeliet.",
-  "PHM.1.14": "Men uten ditt samtykke ville jeg ikke gjøre noe, for at ikke din gode gjerning skulle være som den var av tvang, men frivillig.",
-  "PHM.1.15": "For kanskje dro han sin vei for en stund for at du skulle få ham igjen for evig,",
-  "PHM.1.16": "ikke lenger som en slave, men mer enn det, en elsket bror, både for meg og enda mer for deg, både i det naturlige og i Herren.",
-  "PHM.1.17": "Hvis du da har samfunn med meg, så ta imot ham slik du ville ha tatt imot meg.",
-  "PHM.1.18": "Men hvis han har gjort noe galt mot deg eller skylder deg noe, så sett det på min regning.",
-  "PHM.1.19": "Jeg, Paulus, skriver med min egen hånd: Jeg skal betale tilbake – for ikke å nevne at du skylder meg til og med deg selv.",
-  "PHM.1.20": "Ja, bror, la meg få glede av deg i Herren! Oppliv mitt hjerte i Herren!",
-  "PHM.1.21": "Siden jeg har tillit til din lydighet, skriver jeg til deg, og jeg vet at du vil gjøre mer enn jeg ber om.",
-  "PHM.1.22": "I mellomtiden kan du gjøre klart et gjesterom til meg, for jeg håper at jeg ved deres bønner skal bli gitt til dere.",
-  "PHM.1.23": "Epafras, min medfange i Kristus Jesus, hilser deg.",
-  "PHM.1.24": "Det samme gjør Markus, Aristarkos, Demas og Lukas, mine medarbeidere.",
-  "PHM.1.25": "Vår Herre Jesu Kristi nåde være med deres ånd! Amen."
+  "PHM.1.1": {
+    "text": "Paulus, Jesu Kristi fange, og vår bror Timoteus, til Filemon, vår kjære venn og medarbeider,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 3,1",
+        "refs": []
+      }
+    ],
+    "section": "Hilsen"
+  },
+  "PHM.1.2": {
+    "text": "til den kjære Appia og til vår kampfelle Arkippos og til menigheten i ditt hus:",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "UN:"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 4,17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "PHM.1.3": {
+    "text": "Nåde være med dere og fred fra Gud, vår Far, og Herren Jesus Kristus!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.4": {
+    "text": "Jeg takker min Gud og nevner deg alltid i mine bønner,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Filemons kjærlighet og tro"
+  },
+  "PHM.1.5": {
+    "text": "når jeg hører om den kjærlighet som du viser mot alle de hellige, og den tro du har til Herren Jesus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 1,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "PHM.1.6": {
+    "text": "Min bønn er at den del du har i troen, må være virksom og øke din innsikt i alt det gode som er gitt dere i Kristus Jesus.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "UN og F-tekst:"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 1,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "PHM.1.7": {
+    "text": "For vi har stor glede og trøst av din kjærlighet, for de helliges hjerter er blitt fornyet ved deg, bror.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "UN og F-tekst:"
+      },
+      {
+        "marker": "#",
+        "text": "F-tekst:"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.8": {
+    "text": "Derfor, selv om jeg kunne vært meget frimodig i Kristus og befalt deg å gjøre din plikt,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Bønn om å ta imot Onesimos"
+  },
+  "PHM.1.9": {
+    "text": "så vil jeg likevel for kjærlighetens skyld heller oppmuntre deg, slik jeg er, Paulus, den aldrende, og nå også en Jesu Kristi fange.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.10": {
+    "text": "Jeg ber deg på vegne av min sønn Onesimos, som jeg er blitt åndelig far til mens jeg er i mine lenker.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "har hjulpet til nytt åndelig liv"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 4,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "PHM.1.11": {
+    "text": "Før var han unyttig for deg, men nå er han nyttig både for deg og for meg.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Onesimos betyr: «Den nyttige»"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.12": {
+    "text": "Jeg sender ham tilbake. Ta derfor imot ham, det vil si, mitt eget hjerte,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "UN:"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.13": {
+    "text": "som jeg ønsket å ha hos meg, slik at han på dine vegne kunne tjene meg i mine lenker for evangeliet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.14": {
+    "text": "Men uten ditt samtykke ville jeg ikke gjøre noe, for at ikke din gode gjerning skulle være som den var av tvang, men frivillig.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 9,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "PHM.1.15": {
+    "text": "For kanskje dro han sin vei for en stund for at du skulle få ham igjen for evig,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.16": {
+    "text": "ikke lenger som en slave, men mer enn det, en elsket bror, både for meg og enda mer for deg, både i det naturlige og i Herren.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "i kjøtt"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.17": {
+    "text": "Hvis du da har samfunn med meg, så ta imot ham slik du ville ha tatt imot meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Paulus stoler på Filemon"
+  },
+  "PHM.1.18": {
+    "text": "Men hvis han har gjort noe galt mot deg eller skylder deg noe, så sett det på min regning.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.19": {
+    "text": "Jeg, Paulus, skriver med min egen hånd: Jeg skal betale tilbake – for ikke å nevne at du skylder meg til og med deg selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 16,21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "PHM.1.20": {
+    "text": "Ja, bror, la meg få glede av deg i Herren! Oppliv mitt hjerte i Herren!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.21": {
+    "text": "Siden jeg har tillit til din lydighet, skriver jeg til deg, og jeg vet at du vil gjøre mer enn jeg ber om.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.22": {
+    "text": "I mellomtiden kan du gjøre klart et gjesterom til meg, for jeg håper at jeg ved deres bønner skal bli gitt til dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 1,11; Fil 1,25",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "PHM.1.23": {
+    "text": "Epafras, min medfange i Kristus Jesus, hilser deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 1,7; 4,12",
+        "refs": []
+      }
+    ],
+    "section": "Farvel!"
+  },
+  "PHM.1.24": {
+    "text": "Det samme gjør Markus, Aristarkos, Demas og Lukas, mine medarbeidere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "PHM.1.25": {
+    "text": "Vår Herre Jesu Kristi nåde være med deres ånd! Amen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

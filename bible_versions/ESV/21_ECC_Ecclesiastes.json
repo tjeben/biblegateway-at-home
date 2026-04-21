@@ -1,224 +1,3498 @@
 {
-  "ECC.1.1": "The words of the Preacher, the son of David, king in Jerusalem.",
-  "ECC.1.2": "Vanity of vanities, says the Preacher, vanity of vanities! All is vanity.",
-  "ECC.1.3": "What does man gain by all the toil at which he toils under the sun?",
-  "ECC.1.4": "A generation goes, and a generation comes, but the earth remains forever.",
-  "ECC.1.5": "The sun rises, and the sun goes down, and hastens to the place where it rises.",
-  "ECC.1.6": "The wind blows to the south and goes around to the north; around and around goes the wind, and on its circuits the wind returns.",
-  "ECC.1.7": "All streams run to the sea, but the sea is not full; to the place where the streams flow, there they flow again.",
-  "ECC.1.8": "All things are full of weariness; a man cannot utter it; the eye is not satisfied with seeing, nor the ear filled with hearing.",
-  "ECC.1.9": "What has been is what will be, and what has been done is what will be done, and there is nothing new under the sun.",
-  "ECC.1.10": "Is there a thing of which it is said, “See, this is new”? It has been already in the ages before us.",
-  "ECC.1.11": "There is no remembrance of former things, nor will there be any remembrance of later things yet to be among those who come after.",
-  "ECC.1.12": "I the Preacher have been king over Israel in Jerusalem.",
-  "ECC.1.13": "And I applied my heart to seek and to search out by wisdom all that is done under heaven. It is an unhappy business that God has given to the children of man to be busy with.",
-  "ECC.1.14": "I have seen everything that is done under the sun, and behold, all is vanity and a striving after wind.",
-  "ECC.1.15": "What is crooked cannot be made straight, and what is lacking cannot be counted.",
-  "ECC.1.16": "I said in my heart, “I have acquired great wisdom, surpassing all who were over Jerusalem before me, and my heart has had great experience of wisdom and knowledge.”",
-  "ECC.1.17": "And I applied my heart to know wisdom and to know madness and folly. I perceived that this also is but a striving after wind.",
-  "ECC.1.18": "For in much wisdom is much vexation, and he who increases knowledge increases sorrow.",
-  "ECC.2.1": "I said in my heart, “Come now, I will test you with pleasure; enjoy yourself.” But behold, this also was vanity.",
-  "ECC.2.2": "I said of laughter, “It is mad,” and of pleasure, “What use is it?”",
-  "ECC.2.3": "I searched with my heart how to cheer my body with wine—my heart still guiding me with wisdom—and how to lay hold on folly, till I might see what was good for the children of man to do under heaven during the few days of their life.",
-  "ECC.2.4": "I made great works. I built houses and planted vineyards for myself.",
-  "ECC.2.5": "I made myself gardens and parks, and planted in them all kinds of fruit trees.",
-  "ECC.2.6": "I made myself pools from which to water the forest of growing trees.",
-  "ECC.2.7": "I bought male and female slaves, and had slaves who were born in my house. I had also great possessions of herds and flocks, more than any who had been before me in Jerusalem.",
-  "ECC.2.8": "I also gathered for myself silver and gold and the treasure of kings and provinces. I got singers, both men and women, and many concubines, the delight of the sons of man.",
-  "ECC.2.9": "So I became great and surpassed all who were before me in Jerusalem. Also my wisdom remained with me.",
-  "ECC.2.10": "And whatever my eyes desired I did not keep from them. I kept my heart from no pleasure, for my heart found pleasure in all my toil, and this was my reward for all my toil.",
-  "ECC.2.11": "Then I considered all that my hands had done and the toil I had expended in doing it, and behold, all was vanity and a striving after wind, and there was nothing to be gained under the sun.",
-  "ECC.2.12": "So I turned to consider wisdom and madness and folly. For what can the man do who comes after the king? Only what has already been done.",
-  "ECC.2.13": "Then I saw that there is more gain in wisdom than in folly, as there is more gain in light than in darkness.",
-  "ECC.2.14": "The wise person has his eyes in his head, but the fool walks in darkness. And yet I perceived that the same event happens to all of them.",
-  "ECC.2.15": "Then I said in my heart, “What happens to the fool will happen to me also. Why then have I been so very wise?” And I said in my heart that this also is vanity.",
-  "ECC.2.16": "For of the wise as of the fool there is no enduring remembrance, seeing that in the days to come all will have been long forgotten. How the wise dies just like the fool!",
-  "ECC.2.17": "So I hated life, because what is done under the sun was grievous to me, for all is vanity and a striving after wind.",
-  "ECC.2.18": "I hated all my toil in which I toil under the sun, seeing that I must leave it to the man who will come after me,",
-  "ECC.2.19": "and who knows whether he will be wise or a fool? Yet he will be master of all for which I toiled and used my wisdom under the sun. This also is vanity.",
-  "ECC.2.20": "So I turned about and gave my heart up to despair over all the toil of my labors under the sun,",
-  "ECC.2.21": "because sometimes a person who has toiled with wisdom and knowledge and skill must leave everything to be enjoyed by someone who did not toil for it. This also is vanity and a great evil.",
-  "ECC.2.22": "What has a man from all the toil and striving of heart with which he toils beneath the sun?",
-  "ECC.2.23": "For all his days are full of sorrow, and his work is a vexation. Even in the night his heart does not rest. This also is vanity.",
-  "ECC.2.24": "There is nothing better for a person than that he should eat and drink and find enjoyment in his toil. This also, I saw, is from the hand of God,",
-  "ECC.2.25": "for apart from him who can eat or who can have enjoyment?",
-  "ECC.2.26": "For to the one who pleases him God has given wisdom and knowledge and joy, but to the sinner he has given the business of gathering and collecting, only to give to one who pleases God. This also is vanity and a striving after wind.",
-  "ECC.3.1": "For everything there is a season, and a time for every matter under heaven:",
-  "ECC.3.2": "a time to be born, and a time to die; a time to plant, and a time to pluck up what is planted;",
-  "ECC.3.3": "a time to kill, and a time to heal; a time to break down, and a time to build up;",
-  "ECC.3.4": "a time to weep, and a time to laugh; a time to mourn, and a time to dance;",
-  "ECC.3.5": "a time to cast away stones, and a time to gather stones together; a time to embrace, and a time to refrain from embracing;",
-  "ECC.3.6": "a time to seek, and a time to lose; a time to keep, and a time to cast away;",
-  "ECC.3.7": "a time to tear, and a time to sew; a time to keep silence, and a time to speak;",
-  "ECC.3.8": "a time to love, and a time to hate; a time for war, and a time for peace.",
-  "ECC.3.9": "What gain has the worker from his toil?",
-  "ECC.3.10": "I have seen the business that God has given to the children of man to be busy with.",
-  "ECC.3.11": "He has made everything beautiful in its time. Also, he has put eternity into man’s heart, yet so that he cannot find out what God has done from the beginning to the end.",
-  "ECC.3.12": "I perceived that there is nothing better for them than to be joyful and to do good as long as they live;",
-  "ECC.3.13": "also that everyone should eat and drink and take pleasure in all his toil—this is God’s gift to man.",
-  "ECC.3.14": "I perceived that whatever God does endures forever; nothing can be added to it, nor anything taken from it. God has done it, so that people fear before him.",
-  "ECC.3.15": "That which is, already has been; that which is to be, already has been; and God seeks what has been driven away.",
-  "ECC.3.16": "Moreover, I saw under the sun that in the place of justice, even there was wickedness, and in the place of righteousness, even there was wickedness.",
-  "ECC.3.17": "I said in my heart, God will judge the righteous and the wicked, for there is a time for every matter and for every work.",
-  "ECC.3.18": "I said in my heart with regard to the children of man that God is testing them that they may see that they themselves are but beasts.",
-  "ECC.3.19": "For what happens to the children of man and what happens to the beasts is the same; as one dies, so dies the other. They all have the same breath, and man has no advantage over the beasts, for all is vanity.",
-  "ECC.3.20": "All go to one place. All are from the dust, and to dust all return.",
-  "ECC.3.21": "Who knows whether the spirit of man goes upward and the spirit of the beast goes down into the earth?",
-  "ECC.3.22": "So I saw that there is nothing better than that a man should rejoice in his work, for that is his lot. Who can bring him to see what will be after him?",
-  "ECC.4.1": "Again I saw all the oppressions that are done under the sun. And behold, the tears of the oppressed, and they had no one to comfort them! On the side of their oppressors there was power, and there was no one to comfort them.",
-  "ECC.4.2": "And I thought the dead who are already dead more fortunate than the living who are still alive.",
-  "ECC.4.3": "But better than both is he who has not yet been and has not seen the evil deeds that are done under the sun.",
-  "ECC.4.4": "Then I saw that all toil and all skill in work come from a man’s envy of his neighbor. This also is vanity and a striving after wind.",
-  "ECC.4.5": "The fool folds his hands and eats his own flesh.",
-  "ECC.4.6": "Better is a handful of quietness than two hands full of toil and a striving after wind.",
-  "ECC.4.7": "Again, I saw vanity under the sun:",
-  "ECC.4.8": "one person who has no other, either son or brother, yet there is no end to all his toil, and his eyes are never satisfied with riches, so that he never asks, “For whom am I toiling and depriving myself of pleasure?” This also is vanity and an unhappy business.",
-  "ECC.4.9": "Two are better than one, because they have a good reward for their toil.",
-  "ECC.4.10": "For if they fall, one will lift up his fellow. But woe to him who is alone when he falls and has not another to lift him up!",
-  "ECC.4.11": "Again, if two lie together, they keep warm, but how can one keep warm alone?",
-  "ECC.4.12": "And though a man might prevail against one who is alone, two will withstand him—a threefold cord is not quickly broken.",
-  "ECC.4.13": "Better was a poor and wise youth than an old and foolish king who no longer knew how to take advice.",
-  "ECC.4.14": "For he went from prison to the throne, though in his own kingdom he had been born poor.",
-  "ECC.4.15": "I saw all the living who move about under the sun, along with that youth who was to stand in the king’s place.",
-  "ECC.4.16": "There was no end of all the people, all of whom he led. Yet those who come later will not rejoice in him. Surely this also is vanity and a striving after wind.",
-  "ECC.5.1": "Guard your steps when you go to the house of God. To draw near to listen is better than to offer the sacrifice of fools, for they do not know that they are doing evil.",
-  "ECC.5.2": "Be not rash with your mouth, nor let your heart be hasty to utter a word before God, for God is in heaven and you are on earth. Therefore let your words be few.",
-  "ECC.5.3": "For a dream comes with much business, and a fool’s voice with many words.",
-  "ECC.5.4": "When you vow a vow to God, do not delay paying it, for he has no pleasure in fools. Pay what you vow.",
-  "ECC.5.5": "It is better that you should not vow than that you should vow and not pay.",
-  "ECC.5.6": "Let not your mouth lead you into sin, and do not say before the messenger that it was a mistake. Why should God be angry at your voice and destroy the work of your hands?",
-  "ECC.5.7": "For when dreams increase and words grow many, there is vanity; but God is the one you must fear.",
-  "ECC.5.8": "If you see in a province the oppression of the poor and the violation of justice and righteousness, do not be amazed at the matter, for the high official is watched by a higher, and there are yet higher ones over them.",
-  "ECC.5.9": "But this is gain for a land in every way: a king committed to cultivated fields.",
-  "ECC.5.10": "He who loves money will not be satisfied with money, nor he who loves wealth with his income; this also is vanity.",
-  "ECC.5.11": "When goods increase, they increase who eat them, and what advantage has their owner but to see them with his eyes?",
-  "ECC.5.12": "Sweet is the sleep of a laborer, whether he eats little or much, but the full stomach of the rich will not let him sleep.",
-  "ECC.5.13": "There is a grievous evil that I have seen under the sun: riches were kept by their owner to his hurt,",
-  "ECC.5.14": "and those riches were lost in a bad venture. And he is father of a son, but he has nothing in his hand.",
-  "ECC.5.15": "As he came from his mother’s womb he shall go again, naked as he came, and shall take nothing for his toil that he may carry away in his hand.",
-  "ECC.5.16": "This also is a grievous evil: just as he came, so shall he go, and what gain is there to him who toils for the wind?",
-  "ECC.5.17": "Moreover, all his days he eats in darkness in much vexation and sickness and anger.",
-  "ECC.5.18": "Behold, what I have seen to be good and fitting is to eat and drink and find enjoyment in all the toil with which one toils under the sun the few days of his life that God has given him, for this is his lot.",
-  "ECC.5.19": "Everyone also to whom God has given wealth and possessions and power to enjoy them, and to accept his lot and rejoice in his toil—this is the gift of God.",
-  "ECC.5.20": "For he will not much remember the days of his life because God keeps him occupied with joy in his heart.",
-  "ECC.6.1": "There is an evil that I have seen under the sun, and it lies heavy on mankind:",
-  "ECC.6.2": "a man to whom God gives wealth, possessions, and honor, so that he lacks nothing of all that he desires, yet God does not give him power to enjoy them, but a stranger enjoys them. This is vanity; it is a grievous evil.",
-  "ECC.6.3": "If a man fathers a hundred children and lives many years, so that the days of his years are many, but his soul is not satisfied with life’s good things, and he also has no burial, I say that a stillborn child is better off than he.",
-  "ECC.6.4": "For it comes in vanity and goes in darkness, and in darkness its name is covered.",
-  "ECC.6.5": "Moreover, it has not seen the sun or known anything, yet it finds rest rather than he.",
-  "ECC.6.6": "Even though he should live a thousand years twice over, yet enjoy no good—do not all go to the one place?",
-  "ECC.6.7": "All the toil of man is for his mouth, yet his appetite is not satisfied.",
-  "ECC.6.8": "For what advantage has the wise man over the fool? And what does the poor man have who knows how to conduct himself before the living?",
-  "ECC.6.9": "Better is the sight of the eyes than the wandering of the appetite: this also is vanity and a striving after wind.",
-  "ECC.6.10": "Whatever has come to be has already been named, and it is known what man is, and that he is not able to dispute with one stronger than he.",
-  "ECC.6.11": "The more words, the more vanity, and what is the advantage to man?",
-  "ECC.6.12": "For who knows what is good for man while he lives the few days of his vain life, which he passes like a shadow? For who can tell man what will be after him under the sun?",
-  "ECC.7.1": "A good name is better than precious ointment, and the day of death than the day of birth.",
-  "ECC.7.2": "It is better to go to the house of mourning than to go to the house of feasting, for this is the end of all mankind, and the living will lay it to heart.",
-  "ECC.7.3": "Sorrow is better than laughter, for by sadness of face the heart is made glad.",
-  "ECC.7.4": "The heart of the wise is in the house of mourning, but the heart of fools is in the house of mirth.",
-  "ECC.7.5": "It is better for a man to hear the rebuke of the wise than to hear the song of fools.",
-  "ECC.7.6": "For as the crackling of thorns under a pot, so is the laughter of the fools; this also is vanity.",
-  "ECC.7.7": "Surely oppression drives the wise into madness, and a bribe corrupts the heart.",
-  "ECC.7.8": "Better is the end of a thing than its beginning, and the patient in spirit is better than the proud in spirit.",
-  "ECC.7.9": "Be not quick in your spirit to become angry, for anger lodges in the heart of fools.",
-  "ECC.7.10": "Say not, “Why were the former days better than these?” For it is not from wisdom that you ask this.",
-  "ECC.7.11": "Wisdom is good with an inheritance, an advantage to those who see the sun.",
-  "ECC.7.12": "For the protection of wisdom is like the protection of money, and the advantage of knowledge is that wisdom preserves the life of him who has it.",
-  "ECC.7.13": "Consider the work of God: who can make straight what he has made crooked?",
-  "ECC.7.14": "In the day of prosperity be joyful, and in the day of adversity consider: God has made the one as well as the other, so that man may not find out anything that will be after him.",
-  "ECC.7.15": "In my vain life I have seen everything. There is a righteous man who perishes in his righteousness, and there is a wicked man who prolongs his life in his evildoing.",
-  "ECC.7.16": "Be not overly righteous, and do not make yourself too wise. Why should you destroy yourself?",
-  "ECC.7.17": "Be not overly wicked, neither be a fool. Why should you die before your time?",
-  "ECC.7.18": "It is good that you should take hold of this, and from that withhold not your hand, for the one who fears God shall come out from both of them.",
-  "ECC.7.19": "Wisdom gives strength to the wise man more than ten rulers who are in a city.",
-  "ECC.7.20": "Surely there is not a righteous man on earth who does good and never sins.",
-  "ECC.7.21": "Do not take to heart all the things that people say, lest you hear your servant cursing you.",
-  "ECC.7.22": "Your heart knows that many times you yourself have cursed others.",
-  "ECC.7.23": "All this I have tested by wisdom. I said, “I will be wise,” but it was far from me.",
-  "ECC.7.24": "That which has been is far off, and deep, very deep; who can find it out?",
-  "ECC.7.25": "I turned my heart to know and to search out and to seek wisdom and the scheme of things, and to know the wickedness of folly and the foolishness that is madness.",
-  "ECC.7.26": "And I find something more bitter than death: the woman whose heart is snares and nets, and whose hands are fetters. He who pleases God escapes her, but the sinner is taken by her.",
-  "ECC.7.27": "Behold, this is what I found, says the Preacher, while adding one thing to another to find the scheme of things—",
-  "ECC.7.28": "which my soul has sought repeatedly, but I have not found. One man among a thousand I found, but a woman among all these I have not found.",
-  "ECC.7.29": "See, this alone I found, that God made man upright, but they have sought out many schemes.",
-  "ECC.8.1": "Who is like the wise? And who knows the interpretation of a thing? A man’s wisdom makes his face shine, and the hardness of his face is changed.",
-  "ECC.8.2": "I say: Keep the king’s command, because of God’s oath to him.",
-  "ECC.8.3": "Be not hasty to go from his presence. Do not take your stand in an evil cause, for he does whatever he pleases.",
-  "ECC.8.4": "For the word of the king is supreme, and who may say to him, “What are you doing?”",
-  "ECC.8.5": "Whoever keeps a command will know no evil thing, and the wise heart will know the proper time and the just way.",
-  "ECC.8.6": "For there is a time and a way for everything, although man’s trouble lies heavy on him.",
-  "ECC.8.7": "For he does not know what is to be, for who can tell him how it will be?",
-  "ECC.8.8": "No man has power to retain the spirit, or power over the day of death. There is no discharge from war, nor will wickedness deliver those who are given to it.",
-  "ECC.8.9": "All this I observed while applying my heart to all that is done under the sun, when man had power over man to his hurt.",
-  "ECC.8.10": "Then I saw the wicked buried. They used to go in and out of the holy place and were praised in the city where they had done such things. This also is vanity.",
-  "ECC.8.11": "Because the sentence against an evil deed is not executed speedily, the heart of the children of man is fully set to do evil.",
-  "ECC.8.12": "Though a sinner does evil a hundred times and prolongs his life, yet I know that it will be well with those who fear God, because they fear before him.",
-  "ECC.8.13": "But it will not be well with the wicked, neither will he prolong his days like a shadow, because he does not fear before God.",
-  "ECC.8.14": "There is a vanity that takes place on earth, that there are righteous people to whom it happens according to the deeds of the wicked, and there are wicked people to whom it happens according to the deeds of the righteous. I said that this also is vanity.",
-  "ECC.8.15": "And I commend joy, for man has nothing better under the sun but to eat and drink and be joyful, for this will go with him in his toil through the days of his life that God has given him under the sun.",
-  "ECC.8.16": "When I applied my heart to know wisdom, and to see the business that is done on earth, how neither day nor night do one’s eyes see sleep,",
-  "ECC.8.17": "then I saw all the work of God, that man cannot find out the work that is done under the sun. However much man may toil in seeking, he will not find it out. Even though a wise man claims to know, he cannot find it out.",
-  "ECC.9.1": "But all this I laid to heart, examining it all, how the righteous and the wise and their deeds are in the hand of God. Whether it is love or hate, man does not know; both are before him.",
-  "ECC.9.2": "It is the same for all, since the same event happens to the righteous and the wicked, to the good and the evil, to the clean and the unclean, to him who sacrifices and him who does not sacrifice. As the good one is, so is the sinner, and he who swears is as he who shuns an oath.",
-  "ECC.9.3": "This is an evil in all that is done under the sun, that the same event happens to all. Also, the hearts of the children of man are full of evil, and madness is in their hearts while they live, and after that they go to the dead.",
-  "ECC.9.4": "But he who is joined with all the living has hope, for a living dog is better than a dead lion.",
-  "ECC.9.5": "For the living know that they will die, but the dead know nothing, and they have no more reward, for the memory of them is forgotten.",
-  "ECC.9.6": "Their love and their hate and their envy have already perished, and forever they have no more share in all that is done under the sun.",
-  "ECC.9.7": "Go, eat your bread with joy, and drink your wine with a merry heart, for God has already approved what you do.",
-  "ECC.9.8": "Let your garments be always white. Let not oil be lacking on your head.",
-  "ECC.9.9": "Enjoy life with the wife whom you love, all the days of your vain life that he has given you under the sun, because that is your portion in life and in your toil at which you toil under the sun.",
-  "ECC.9.10": "Whatever your hand finds to do, do it with your might, for there is no work or thought or knowledge or wisdom in Sheol, to which you are going.",
-  "ECC.9.11": "Again I saw that under the sun the race is not to the swift, nor the battle to the strong, nor bread to the wise, nor riches to the intelligent, nor favor to those with knowledge, but time and chance happen to them all.",
-  "ECC.9.12": "For man does not know his time. Like fish that are taken in an evil net, and like birds that are caught in a snare, so the children of man are snared at an evil time, when it suddenly falls upon them.",
-  "ECC.9.13": "I have also seen this example of wisdom under the sun, and it seemed great to me.",
-  "ECC.9.14": "There was a little city with few men in it, and a great king came against it and besieged it, building great siegeworks against it.",
-  "ECC.9.15": "But there was found in it a poor, wise man, and he by his wisdom delivered the city. Yet no one remembered that poor man.",
-  "ECC.9.16": "But I say that wisdom is better than might, though the poor man’s wisdom is despised and his words are not heard.",
-  "ECC.9.17": "The words of the wise heard in quiet are better than the shouting of a ruler among fools.",
-  "ECC.9.18": "Wisdom is better than weapons of war, but one sinner destroys much good.",
-  "ECC.10.1": "Dead flies make the perfumer’s ointment give off a stench; so a little folly outweighs wisdom and honor.",
-  "ECC.10.2": "A wise man’s heart inclines him to the right, but a fool’s heart to the left.",
-  "ECC.10.3": "Even when the fool walks on the road, he lacks sense, and he says to everyone that he is a fool.",
-  "ECC.10.4": "If the anger of the ruler rises against you, do not leave your place, for calmness will lay great offenses to rest.",
-  "ECC.10.5": "There is an evil that I have seen under the sun, as it were an error proceeding from the ruler:",
-  "ECC.10.6": "folly is set in many high places, and the rich sit in a low place.",
-  "ECC.10.7": "I have seen slaves on horses, and princes walking on the ground like slaves.",
-  "ECC.10.8": "He who digs a pit will fall into it, and a serpent will bite him who breaks through a wall.",
-  "ECC.10.9": "He who quarries stones is hurt by them, and he who splits logs is endangered by them.",
-  "ECC.10.10": "If the iron is blunt, and one does not sharpen the edge, he must use more strength, but wisdom helps one to succeed.",
-  "ECC.10.11": "If the serpent bites before it is charmed, there is no advantage to the charmer.",
-  "ECC.10.12": "The words of a wise man’s mouth win him favor, but the lips of a fool consume him.",
-  "ECC.10.13": "The beginning of the words of his mouth is foolishness, and the end of his talk is evil madness.",
-  "ECC.10.14": "A fool multiplies words, though no man knows what is to be, and who can tell him what will be after him?",
-  "ECC.10.15": "The toil of a fool wearies him, for he does not know the way to the city.",
-  "ECC.10.16": "Woe to you, O land, when your king is a child, and your princes feast in the morning!",
-  "ECC.10.17": "Happy are you, O land, when your king is the son of the nobility, and your princes feast at the proper time, for strength, and not for drunkenness!",
-  "ECC.10.18": "Through sloth the roof sinks in, and through indolence the house leaks.",
-  "ECC.10.19": "Bread is made for laughter, and wine gladdens life, and money answers everything.",
-  "ECC.10.20": "Even in your thoughts, do not curse the king, nor in your bedroom curse the rich, for a bird of the air will carry your voice, or some winged creature tell the matter.",
-  "ECC.11.1": "Cast your bread upon the waters, for you will find it after many days.",
-  "ECC.11.2": "Give a portion to seven, or even to eight, for you know not what disaster may happen on earth.",
-  "ECC.11.3": "If the clouds are full of rain, they empty themselves on the earth, and if a tree falls to the south or to the north, in the place where the tree falls, there it will lie.",
-  "ECC.11.4": "He who observes the wind will not sow, and he who regards the clouds will not reap.",
-  "ECC.11.5": "As you do not know the way the spirit comes to the bones in the womb of a woman with child, so you do not know the work of God who makes everything.",
-  "ECC.11.6": "In the morning sow your seed, and at evening withhold not your hand, for you do not know which will prosper, this or that, or whether both alike will be good.",
-  "ECC.11.7": "Light is sweet, and it is pleasant for the eyes to see the sun.",
-  "ECC.11.8": "So if a person lives many years, let him rejoice in them all; but let him remember that the days of darkness will be many. All that comes is vanity.",
-  "ECC.11.9": "Rejoice, O young man, in your youth, and let your heart cheer you in the days of your youth. Walk in the ways of your heart and the sight of your eyes. But know that for all these things God will bring you into judgment.",
-  "ECC.11.10": "Remove vexation from your heart, and put away pain from your body, for youth and the dawn of life are vanity.",
-  "ECC.12.1": "Remember also your Creator in the days of your youth, before the evil days come and the years draw near of which you will say, “I have no pleasure in them”;",
-  "ECC.12.2": "before the sun and the light and the moon and the stars are darkened and the clouds return after the rain,",
-  "ECC.12.3": "in the day when the keepers of the house tremble, and the strong men are bent, and the grinders cease because they are few, and those who look through the windows are dimmed,",
-  "ECC.12.4": "and the doors on the street are shut—when the sound of the grinding is low, and one rises up at the sound of a bird, and all the daughters of song are brought low—",
-  "ECC.12.5": "they are afraid also of what is high, and terrors are in the way; the almond tree blossoms, the grasshopper drags itself along, and desire fails, because man is going to his eternal home, and the mourners go about the streets—",
-  "ECC.12.6": "before the silver cord is snapped, or the golden bowl is broken, or the pitcher is shattered at the fountain, or the wheel broken at the cistern,",
-  "ECC.12.7": "and the dust returns to the earth as it was, and the spirit returns to God who gave it.",
-  "ECC.12.8": "Vanity of vanities, says the Preacher; all is vanity.",
-  "ECC.12.9": "Besides being wise, the Preacher also taught the people knowledge, weighing and studying and arranging many proverbs with great care.",
-  "ECC.12.10": "The Preacher sought to find words of delight, and uprightly he wrote words of truth.",
-  "ECC.12.11": "The words of the wise are like goads, and like nails firmly fixed are the collected sayings; they are given by one Shepherd.",
-  "ECC.12.12": "My son, beware of anything beyond these. Of making many books there is no end, and much study is a weariness of the flesh.",
-  "ECC.12.13": "The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man.",
-  "ECC.12.14": "For God will bring every deed into judgment, with every secret thing, whether good or evil."
+  "ECC.1.1": {
+    "text": "The words of the Preacher, the son of David, king in Jerusalem.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 12; ch. 7:27; 12:8-10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 12",
+        "refs": []
+      }
+    ],
+    "section": "All Is Vanity"
+  },
+  "ECC.1.2": {
+    "text": "Vanity of vanities, says the Preacher, vanity of vanities! All is vanity.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 12:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 1 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 12:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Rom. 8:20]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.3": {
+    "text": "What does man gain by all the toil at which he toils under the sun?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 14 ; Ps. 144:4; See Job 7:16; Ps. 39:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:11, 22; 3:9; 5:16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.4": {
+    "text": "A generation goes, and a generation comes, but the earth remains forever.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 104:5; 119:90",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.5": {
+    "text": "The sun rises, and the sun goes down, and hastens to the place where it rises.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ps. 19:4-6 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.6": {
+    "text": "The wind blows to the south and goes around to the north; around and around goes the wind, and on its circuits the wind returns.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 11:5; John 3:8 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.7": {
+    "text": "All streams run to the sea, but the sea is not full; to the place where the streams flow, there they flow again.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 104:8, 9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.8": {
+    "text": "All things are full of weariness; a man cannot utter it; the eye is not satisfied with seeing, nor the ear filled with hearing.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:8; Prov. 27:20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.9": {
+    "text": "What has been is what will be, and what has been done is what will be done, and there is nothing new under the sun.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:15; 6:10; [ch. 2:12 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.10": {
+    "text": "Is there a thing of which it is said, “See, this is new”? It has been already in the ages before us.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.11": {
+    "text": "There is no remembrance of former things, nor will there be any remembrance of later things yet to be among those who come after.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:16; See ch. 9:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.12": {
+    "text": "I the Preacher have been king over Israel in Jerusalem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 1",
+        "refs": []
+      }
+    ],
+    "section": "The Vanity of Wisdom"
+  },
+  "ECC.1.13": {
+    "text": "And I applied my heart to seek and to search out by wisdom all that is done under heaven. It is an unhappy business that God has given to the children of man to be busy with.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term denotes the center of one’s inner life, including mind, will, and emotions"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 17; [1 Kgs. 4:33]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:23, 26; 3:10; [Gen. 3:19]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.14": {
+    "text": "I have seen everything that is done under the sun, and behold, all is vanity and a striving after wind.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 2; ch. 2:11, 17, 26; 4:4; 6:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.15": {
+    "text": "What is crooked cannot be made straight, and what is lacking cannot be counted.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 7:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.16": {
+    "text": "I said in my heart, “I have acquired great wisdom, surpassing all who were over Jerusalem before me, and my heart has had great experience of wisdom and knowledge.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:9; [1 Kgs. 3:12, 13; 4:30; 10:7, 23]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.17": {
+    "text": "And I applied my heart to know wisdom and to know madness and folly. I perceived that this also is but a striving after wind.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 13; [ch. 2:3, 12; 7:23, 25]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 9:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 14 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.1.18": {
+    "text": "For in much wisdom is much vexation, and he who increases knowledge increases sorrow.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 12:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.1": {
+    "text": "I said in my heart, “Come now, I will test you with pleasure; enjoy yourself.” But behold, this also was vanity.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luke 12:19",
+        "refs": []
+      }
+    ],
+    "section": "The Vanity of Self-Indulgence"
+  },
+  "ECC.2.2": {
+    "text": "I said of laughter, “It is mad,” and of pleasure, “What use is it?”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 14:13]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.3": {
+    "text": "I searched with my heart how to cheer my body with wine—my heart still guiding me with wisdom—and how to lay hold on folly, till I might see what was good for the children of man to do under heaven during the few days of their life.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:17]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 7:25",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.4": {
+    "text": "I made great works. I built houses and planted vineyards for myself.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See 1 Kgs. 7:1-12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Song 8:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.5": {
+    "text": "I made myself gardens and parks, and planted in them all kinds of fruit trees.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Song 4:16; 5:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.6": {
+    "text": "I made myself pools from which to water the forest of growing trees.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.2.7": {
+    "text": "I bought male and female slaves, and had slaves who were born in my house. I had also great possessions of herds and flocks, more than any who had been before me in Jerusalem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gen. 14:14; 15:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 4:23]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.8": {
+    "text": "I also gathered for myself silver and gold and the treasure of kings and provinces. I got singers, both men and women, and many concubines, the delight of the sons of man.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The meaning of the Hebrew word is uncertain"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kgs. 9:28; 10:10, 14, 21",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 4:21; 10:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Kgs. 20:14; Ezek. 19:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Sam. 19:35; 2 Chr. 35:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Kgs. 11:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.9": {
+    "text": "So I became great and surpassed all who were before me in Jerusalem. Also my wisdom remained with me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Chr. 29:25; See ch. 1:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Chr. 29:25; See ch. 1:16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.10": {
+    "text": "And whatever my eyes desired I did not keep from them. I kept my heart from no pleasure, for my heart found pleasure in all my toil, and this was my reward for all my toil.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 8:31]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:22; 5:18; 9:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.11": {
+    "text": "Then I considered all that my hands had done and the toil I had expended in doing it, and behold, all was vanity and a striving after wind, and there was nothing to be gained under the sun.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.12": {
+    "text": "So I turned to consider wisdom and madness and folly. For what can the man do who comes after the king? Only what has already been done.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 7:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:9, 10",
+        "refs": []
+      }
+    ],
+    "section": "The Vanity of Living Wisely"
+  },
+  "ECC.2.13": {
+    "text": "Then I saw that there is more gain in wisdom than in folly, as there is more gain in light than in darkness.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.2.14": {
+    "text": "The wise person has his eyes in his head, but the fool walks in darkness. And yet I perceived that the same event happens to all of them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 17:24]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:19; 9:2, 3; Ps. 49:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.15": {
+    "text": "Then I said in my heart, “What happens to the fool will happen to me also. Why then have I been so very wise?” And I said in my heart that this also is vanity.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 16; ch. 6:8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.16": {
+    "text": "For of the wise as of the fool there is no enduring remembrance, seeing that in the days to come all will have been long forgotten. How the wise dies just like the fool!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:11; See ch. 9:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ver. 14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.17": {
+    "text": "So I hated life, because what is done under the sun was grievous to me, for all is vanity and a striving after wind.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 11 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.18": {
+    "text": "I hated all my toil in which I toil under the sun, seeing that I must leave it to the man who will come after me,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 39:6; 49:10",
+        "refs": []
+      }
+    ],
+    "section": "The Vanity of Toil"
+  },
+  "ECC.2.19": {
+    "text": "and who knows whether he will be wise or a fool? Yet he will be master of all for which I toiled and used my wisdom under the sun. This also is vanity.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.2.20": {
+    "text": "So I turned about and gave my heart up to despair over all the toil of my labors under the sun,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 7:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.21": {
+    "text": "because sometimes a person who has toiled with wisdom and knowledge and skill must leave everything to be enjoyed by someone who did not toil for it. This also is vanity and a great evil.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.2.22": {
+    "text": "What has a man from all the toil and striving of heart with which he toils beneath the sun?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.23": {
+    "text": "For all his days are full of sorrow, and his work is a vexation. Even in the night his heart does not rest. This also is vanity.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 5:7; 14:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.24": {
+    "text": "There is nothing better for a person than that he should eat and drink and find enjoyment in his toil. This also, I saw, is from the hand of God,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:12, 13, 22; 5:18; 8:15; [ 1 Tim. 6:17 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 9:7; Luke 12:19; 1 Cor. 15:32]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 3:13; 5:19]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.2.25": {
+    "text": "for apart from him who can eat or who can have enjoyment?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Some Hebrew manuscripts, Septuagint, Syriac; most Hebrew manuscripts"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.2.26": {
+    "text": "For to the one who pleases him God has given wisdom and knowledge and joy, but to the sinner he has given the business of gathering and collecting, only to give to one who pleases God. This also is vanity and a striving after wind.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 32:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 7 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Job 27:16, 17; Prov. 13:22]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.1": {
+    "text": "For everything there is a season, and a time for every matter under heaven:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 17; ch. 8:6",
+        "refs": []
+      }
+    ],
+    "section": "A Time for Everything"
+  },
+  "ECC.3.2": {
+    "text": "a time to be born, and a time to die; a time to plant, and a time to pluck up what is planted;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Heb. 9:27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.3": {
+    "text": "a time to kill, and a time to heal; a time to break down, and a time to build up;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.3.4": {
+    "text": "a time to weep, and a time to laugh; a time to mourn, and a time to dance;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Rom. 12:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Sam. 6:14]; See Ex. 15:20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.5": {
+    "text": "a time to cast away stones, and a time to gather stones together; a time to embrace, and a time to refrain from embracing;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[2 Kgs. 3:25]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 5:2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Joel 2:16]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.6": {
+    "text": "a time to seek, and a time to lose; a time to keep, and a time to cast away;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Matt. 10:39]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 11:24]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.7": {
+    "text": "a time to tear, and a time to sew; a time to keep silence, and a time to speak;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Gen. 37:29",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 5:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.8": {
+    "text": "a time to love, and a time to hate; a time for war, and a time for peace.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Luke 14:26]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.9": {
+    "text": "What gain has the worker from his toil?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:3",
+        "refs": []
+      }
+    ],
+    "section": "The God-Given Task"
+  },
+  "ECC.3.10": {
+    "text": "I have seen the business that God has given to the children of man to be busy with.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Gen. 3:17-19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.11": {
+    "text": "He has made everything beautiful in its time. Also, he has put eternity into man’s heart, yet so that he cannot find out what God has done from the beginning to the end.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Gen. 1:31]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:17; [Job 5:9; Rom. 11:33]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.12": {
+    "text": "I perceived that there is nothing better for them than to be joyful and to do good as long as they live;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 22]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 34:14; 37:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.13": {
+    "text": "also that everyone should eat and drink and take pleasure in all his toil—this is God’s gift to man.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:24; 5:19]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.14": {
+    "text": "I perceived that whatever God does endures forever; nothing can be added to it, nor anything taken from it. God has done it, so that people fear before him.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[James 1:17]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.15": {
+    "text": "That which is, already has been; that which is to be, already has been; and God seeks what has been driven away.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 12:14]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.16": {
+    "text": "Moreover, I saw under the sun that in the place of justice, even there was wickedness, and in the place of righteousness, even there was wickedness.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:8; [ch. 4:1]",
+        "refs": []
+      }
+    ],
+    "section": "From Dust to Dust"
+  },
+  "ECC.3.17": {
+    "text": "I said in my heart, God will judge the righteous and the wicked, for there is a time for every matter and for every work.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt. 16:27; 2 Cor. 5:10; See Rom. 2:6-11; 2 Thess. 1:6-10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 1; ch. 8:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.18": {
+    "text": "I said in my heart with regard to the children of man that God is testing them that they may see that they themselves are but beasts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 49:12, 20; 73:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.19": {
+    "text": "For what happens to the children of man and what happens to the beasts is the same; as one dies, so dies the other. They all have the same breath, and man has no advantage over the beasts, for all is vanity.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.20": {
+    "text": "All go to one place. All are from the dust, and to dust all return.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 12:7; Gen. 3:19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.21": {
+    "text": "Who knows whether the spirit of man goes upward and the spirit of the beast goes down into the earth?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 12:7]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.3.22": {
+    "text": "So I saw that there is nothing better than that a man should rejoice in his work, for that is his lot. Who can bring him to see what will be after him?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 2:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:19; 6:12; 8:7; 10:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.1": {
+    "text": "Again I saw all the oppressions that are done under the sun. And behold, the tears of the oppressed, and they had no one to comfort them! On the side of their oppressors there was power, and there was no one to comfort them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 9:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:8; Job 35:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Lam. 1:2",
+        "refs": []
+      }
+    ],
+    "section": "Evil Under the Sun"
+  },
+  "ECC.4.2": {
+    "text": "And I thought the dead who are already dead more fortunate than the living who are still alive.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Job 3:11-26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.3": {
+    "text": "But better than both is he who has not yet been and has not seen the evil deeds that are done under the sun.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.4": {
+    "text": "Then I saw that all toil and all skill in work come from a man’s envy of his neighbor. This also is vanity and a striving after wind.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.5": {
+    "text": "The fool folds his hands and eats his own flesh.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 6:10; 24:33",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 9:20]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.6": {
+    "text": "Better is a handful of quietness than two hands full of toil and a striving after wind.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Prov. 15:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.7": {
+    "text": "Again, I saw vanity under the sun:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 1 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.8": {
+    "text": "one person who has no other, either son or brother, yet there is no end to all his toil, and his eyes are never satisfied with riches, so that he never asks, “For whom am I toiling and depriving myself of pleasure?” This also is vanity and an unhappy business.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:8; [Prov. 27:20; 1 John 2:16]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:18; Ps. 39:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.9": {
+    "text": "Two are better than one, because they have a good reward for their toil.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.4.10": {
+    "text": "For if they fall, one will lift up his fellow. But woe to him who is alone when he falls and has not another to lift him up!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.4.11": {
+    "text": "Again, if two lie together, they keep warm, but how can one keep warm alone?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See 1 Kgs. 1:1-4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.12": {
+    "text": "And though a man might prevail against one who is alone, two will withstand him—a threefold cord is not quickly broken.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.4.13": {
+    "text": "Better was a poor and wise youth than an old and foolish king who no longer knew how to take advice.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 9:15, 16]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 12:15]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.14": {
+    "text": "For he went from prison to the throne, though in his own kingdom he had been born poor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Gen. 41:14, 41-43",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.4.15": {
+    "text": "I saw all the living who move about under the sun, along with that youth who was to stand in the king’s place.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.4.16": {
+    "text": "There was no end of all the people, all of whom he led. Yet those who come later will not rejoice in him. Surely this also is vanity and a striving after wind.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.1": {
+    "text": "Guard your steps when you go to the house of God. To draw near to listen is better than to offer the sacrifice of fools, for they do not know that they are doing evil.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ex. 3:5; Isa. 1:12]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Gen. 28:17]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 15:8; See 1 Sam. 15:22",
+        "refs": []
+      }
+    ],
+    "section": "Fear God"
+  },
+  "ECC.5.2": {
+    "text": "Be not rash with your mouth, nor let your heart be hasty to utter a word before God, for God is in heaven and you are on earth. Therefore let your words be few.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Ch 5:1 in Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Matt. 6:7]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.3": {
+    "text": "For a dream comes with much business, and a fool’s voice with many words.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 10:19; [Job 11:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.4": {
+    "text": "When you vow a vow to God, do not delay paying it, for he has no pleasure in fools. Pay what you vow.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Num. 30:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 23:21; Ps. 50:14; 76:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 66:13, 14]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.5": {
+    "text": "It is better that you should not vow than that you should vow and not pay.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 20:25; Acts 5:4]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.6": {
+    "text": "Let not your mouth lead you into sin, and do not say before the messenger that it was a mistake. Why should God be angry at your voice and destroy the work of your hands?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[1 Cor. 11:10]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 10:5; Num. 15:25, 26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.7": {
+    "text": "For when dreams increase and words grow many, there is vanity; but God is the one you must fear.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 12:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.8": {
+    "text": "If you see in a province the oppression of the poor and the violation of justice and righteousness, do not be amazed at the matter, for the high official is watched by a higher, and there are yet higher ones over them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:16; 4:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Pet. 4:12]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 12:5; 58:11; 82:1]",
+        "refs": []
+      }
+    ],
+    "section": "The Vanity of Wealth and Honor"
+  },
+  "ECC.5.9": {
+    "text": "But this is gain for a land in every way: a king committed to cultivated fields.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The meaning of the Hebrew verse is uncertain"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.5.10": {
+    "text": "He who loves money will not be satisfied with money, nor he who loves wealth with his income; this also is vanity.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.5.11": {
+    "text": "When goods increase, they increase who eat them, and what advantage has their owner but to see them with his eyes?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.5.12": {
+    "text": "Sweet is the sleep of a laborer, whether he eats little or much, but the full stomach of the rich will not let him sleep.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.5.13": {
+    "text": "There is a grievous evil that I have seen under the sun: riches were kept by their owner to his hurt,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.14": {
+    "text": "and those riches were lost in a bad venture. And he is father of a son, but he has nothing in his hand.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.5.15": {
+    "text": "As he came from his mother’s womb he shall go again, naked as he came, and shall take nothing for his toil that he may carry away in his hand.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Job 1:21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.16": {
+    "text": "This also is a grievous evil: just as he came, so shall he go, and what gain is there to him who toils for the wind?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 11:29]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.17": {
+    "text": "Moreover, all his days he eats in darkness in much vexation and sickness and anger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ps. 127:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.18": {
+    "text": "Behold, what I have seen to be good and fitting is to eat and drink and find enjoyment in all the toil with which one toils under the sun the few days of his life that God has given him, for this is his lot.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 2:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.19": {
+    "text": "Everyone also to whom God has given wealth and possessions and power to enjoy them, and to accept his lot and rejoice in his toil—this is the gift of God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:2; [ch. 2:24]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Chr. 1:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 6:2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 3:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.5.20": {
+    "text": "For he will not much remember the days of his life because God keeps him occupied with joy in his heart.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.6.1": {
+    "text": "There is an evil that I have seen under the sun, and it lies heavy on mankind:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.6.2": {
+    "text": "a man to whom God gives wealth, possessions, and honor, so that he lacks nothing of all that he desires, yet God does not give him power to enjoy them, but a stranger enjoys them. This is vanity; it is a grievous evil.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 3:13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 17:14; 73:7; See Job 21:7-13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 5:19; Luke 12:20]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.6.3": {
+    "text": "If a man fathers a hundred children and lives many years, so that the days of his years are many, but his soul is not satisfied with life’s good things, and he also has no burial, I say that a stillborn child is better off than he.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gen. 47:8, 9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 14:20; Jer. 8:2; 22:19; [2 Kgs. 9:35]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:3; Job 3:16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.6.4": {
+    "text": "For it comes in vanity and goes in darkness, and in darkness its name is covered.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.6.5": {
+    "text": "Moreover, it has not seen the sun or known anything, yet it finds rest rather than he.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 7:11; 11:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.6.6": {
+    "text": "Even though he should live a thousand years twice over, yet enjoy no good—do not all go to the one place?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.6.7": {
+    "text": "All the toil of man is for his mouth, yet his appetite is not satisfied.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Prov. 16:26 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.6.8": {
+    "text": "For what advantage has the wise man over the fool? And what does the poor man have who knows how to conduct himself before the living?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 2:15]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.6.9": {
+    "text": "Better is the sight of the eyes than the wandering of the appetite: this also is vanity and a striving after wind.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 11:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.6.10": {
+    "text": "Whatever has come to be has already been named, and it is known what man is, and that he is not able to dispute with one stronger than he.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:10; 3:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Job 9:32; Isa. 45:9; [1 Cor. 10:22]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.6.11": {
+    "text": "The more words, the more vanity, and what is the advantage to man?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.6.12": {
+    "text": "For who knows what is good for man while he lives the few days of his vain life, which he passes like a shadow? For who can tell man what will be after him under the sun?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 7:15; 9:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:13; See Job 14:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:18; 3:22]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.1": {
+    "text": "A good name is better than precious ointment, and the day of death than the day of birth.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 22:1; [ Song 1:3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:2",
+        "refs": []
+      }
+    ],
+    "section": "The Contrast of Wisdom and Folly"
+  },
+  "ECC.7.2": {
+    "text": "It is better to go to the house of mourning than to go to the house of feasting, for this is the end of all mankind, and the living will lay it to heart.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ps. 90:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.3": {
+    "text": "Sorrow is better than laughter, for by sadness of face the heart is made glad.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ 2 Cor. 7:10 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.4": {
+    "text": "The heart of the wise is in the house of mourning, but the heart of fools is in the house of mirth.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.7.5": {
+    "text": "It is better for a man to hear the rebuke of the wise than to hear the song of fools.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 13:18; 15:31, 32; [Ps. 141:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.6": {
+    "text": "For as the crackling of thorns under a pot, so is the laughter of the fools; this also is vanity.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Joel 2:5 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 58:9; 118:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.7": {
+    "text": "Surely oppression drives the wise into madness, and a bribe corrupts the heart.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 4:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 16:19; See Prov. 17:8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.8": {
+    "text": "Better is the end of a thing than its beginning, and the patient in spirit is better than the proud in spirit.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Prov. 14:29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.9": {
+    "text": "Be not quick in your spirit to become angry, for anger lodges in the heart of fools.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Prov. 14:17; 16:32; James 1:19 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Eph. 4:26 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.10": {
+    "text": "Say not, “Why were the former days better than these?” For it is not from wisdom that you ask this.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.7.11": {
+    "text": "Wisdom is good with an inheritance, an advantage to those who see the sun.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:5; 11:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.12": {
+    "text": "For the protection of wisdom is like the protection of money, and the advantage of knowledge is that wisdom preserves the life of him who has it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 10:19]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 3:18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.13": {
+    "text": "Consider the work of God: who can make straight what he has made crooked?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:11]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:15; Job 12:14; Isa. 14:27 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.14": {
+    "text": "In the day of prosperity be joyful, and in the day of adversity consider: God has made the one as well as the other, so that man may not find out anything that will be after him.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:4, 22; Deut. 28:47 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 3:22; 6:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.15": {
+    "text": "In my vain life I have seen everything. There is a righteous man who perishes in his righteousness, and there is a wicked man who prolongs his life in his evildoing.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:12; 9:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 8:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:12, 13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.16": {
+    "text": "Be not overly righteous, and do not make yourself too wise. Why should you destroy yourself?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Rom. 12:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.17": {
+    "text": "Be not overly wicked, neither be a fool. Why should you die before your time?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 10:27]; See Job 22:16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.18": {
+    "text": "It is good that you should take hold of this, and from that withhold not your hand, for the one who fears God shall come out from both of them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 17]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 16]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 11:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.19": {
+    "text": "Wisdom gives strength to the wise man more than ten rulers who are in a city.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 9:16, 18; Prov. 21:22; 24:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.20": {
+    "text": "Surely there is not a righteous man on earth who does good and never sins.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See 1 Kgs. 8:46",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.21": {
+    "text": "Do not take to heart all the things that people say, lest you hear your servant cursing you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 30:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.22": {
+    "text": "Your heart knows that many times you yourself have cursed others.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Gal. 6:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.23": {
+    "text": "All this I have tested by wisdom. I said, “I will be wise,” but it was far from me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Rom. 1:22]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.24": {
+    "text": "That which has been is far off, and deep, very deep; who can find it out?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Rom. 11:33]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Job 28:12, 20; [1 Tim. 6:16]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.25": {
+    "text": "I turned my heart to know and to search out and to seek wisdom and the scheme of things, and to know the wickedness of folly and the foolishness that is madness.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.26": {
+    "text": "And I find something more bitter than death: the woman whose heart is snares and nets, and whose hands are fetters. He who pleases God escapes her, but the sinner is taken by her.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 5:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Prov. 2:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 12:12; [Prov. 23:28]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 22:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.27": {
+    "text": "Behold, this is what I found, says the Preacher, while adding one thing to another to find the scheme of things—",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.28": {
+    "text": "which my soul has sought repeatedly, but I have not found. One man among a thousand I found, but a woman among all these I have not found.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 33:23; [ver. 20]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 11:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.7.29": {
+    "text": "See, this alone I found, that God made man upright, but they have sought out many schemes.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Gen. 1:27]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Gen. 3:6, 7]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.1": {
+    "text": "Who is like the wise? And who knows the interpretation of a thing? A man’s wisdom makes his face shine, and the hardness of his face is changed.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 4:8, 9; [ Acts 6:15 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 21:29; [Deut. 28:50]",
+        "refs": []
+      }
+    ],
+    "section": "Keep the King’s Command"
+  },
+  "ECC.8.2": {
+    "text": "I say: Keep the king’s command, because of God’s oath to him.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew lacks"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ex. 22:11; 2 Sam. 21:7; 1 Kgs. 2:43; [2 Chr. 36:13; Ezek. 17:18]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.3": {
+    "text": "Be not hasty to go from his presence. Do not take your stand in an evil cause, for he does whatever he pleases.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 10:4]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.4": {
+    "text": "For the word of the king is supreme, and who may say to him, “What are you doing?”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan. 4:35; See Job 9:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.5": {
+    "text": "Whoever keeps a command will know no evil thing, and the wise heart will know the proper time and the just way.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.8.6": {
+    "text": "For there is a time and a way for everything, although man’s trouble lies heavy on him.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:1, 17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.7": {
+    "text": "For he does not know what is to be, for who can tell him how it will be?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 24:22]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:22; 6:12; 9:12; 10:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.8": {
+    "text": "No man has power to retain the spirit, or power over the day of death. There is no discharge from war, nor will wickedness deliver those who are given to it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Job 14:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 3:19; 9:11]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Deut. 20:5-8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.9": {
+    "text": "All this I observed while applying my heart to all that is done under the sun, when man had power over man to his hurt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:13]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.10": {
+    "text": "Then I saw the wicked buried. They used to go in and out of the holy place and were praised in the city where they had done such things. This also is vanity.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Some Hebrew manuscripts, Septuagint, Vulgate; most Hebrew manuscripts"
+      },
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Neh. 11:1; Matt. 24:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 9:5; Prov. 10:7]",
+        "refs": []
+      }
+    ],
+    "section": "Those Who Fear God Will Do Well"
+  },
+  "ECC.8.11": {
+    "text": "Because the sentence against an evil deed is not executed speedily, the heart of the children of man is fully set to do evil.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ps. 10:6; 50:21; Isa. 26:10; Rom. 2:4, 5; 2 Pet. 3:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Esth. 7:5; Acts 5:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.12": {
+    "text": "Though a sinner does evil a hundred times and prolongs his life, yet I know that it will be well with those who fear God, because they fear before him.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 7:15; Isa. 65:20",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Deut. 12:25; Isa. 3:10]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 37:11, 18, 19; Prov. 1:33; Matt. 25:34]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.13": {
+    "text": "But it will not be well with the wicked, neither will he prolong his days like a shadow, because he does not fear before God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 3:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:12; See Job 14:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.14": {
+    "text": "There is a vanity that takes place on earth, that there are righteous people to whom it happens according to the deeds of the wicked, and there are wicked people to whom it happens according to the deeds of the righteous. I said that this also is vanity.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 7:15; [Ps. 73:3]; See ch. 2:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Job 21:7; Ps. 17:9, 10; 73:12; Jer. 12:1]",
+        "refs": []
+      }
+    ],
+    "section": "Man Cannot Know God’s Ways"
+  },
+  "ECC.8.15": {
+    "text": "And I commend joy, for man has nothing better under the sun but to eat and drink and be joyful, for this will go with him in his toil through the days of his life that God has given him under the sun.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Kgs. 4:20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.16": {
+    "text": "When I applied my heart to know wisdom, and to see the business that is done on earth, how neither day nor night do one’s eyes see sleep,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:13; 3:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 127:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.8.17": {
+    "text": "then I saw all the work of God, that man cannot find out the work that is done under the sun. However much man may toil in seeking, he will not find it out. Even though a wise man claims to know, he cannot find it out.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 25:2]; See ch. 3:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 73:16]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.1": {
+    "text": "But all this I laid to heart, examining it all, how the righteous and the wise and their deeds are in the hand of God. Whether it is love or hate, man does not know; both are before him.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 8:14]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 33:3",
+        "refs": []
+      }
+    ],
+    "section": "Death Comes to All"
+  },
+  "ECC.9.2": {
+    "text": "It is the same for all, since the same event happens to the righteous and the wicked, to the good and the evil, to the clean and the unclean, to him who sacrifices and him who does not sacrifice. As the good one is, so is the sinner, and he who swears is as he who shuns an oath.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Septuagint, Syriac, Vulgate; Hebrew lacks"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 9:22",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 2:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Zech. 5:3; [Mal. 3:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.3": {
+    "text": "This is an evil in all that is done under the sun, that the same event happens to all. Also, the hearts of the children of man are full of evil, and madness is in their hearts while they live, and after that they go to the dead.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 2 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.4": {
+    "text": "But he who is joined with all the living has hope, for a living dog is better than a dead lion.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.9.5": {
+    "text": "For the living know that they will die, but the dead know nothing, and they have no more reward, for the memory of them is forgotten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 14:21",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:11; 8:10; Ps. 31:12; 88:5, 12; Isa. 26:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.6": {
+    "text": "Their love and their hate and their envy have already perished, and forever they have no more share in all that is done under the sun.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.9.7": {
+    "text": "Go, eat your bread with joy, and drink your wine with a merry heart, for God has already approved what you do.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:24",
+        "refs": []
+      }
+    ],
+    "section": "Enjoy Life with the One You Love"
+  },
+  "ECC.9.8": {
+    "text": "Let your garments be always white. Let not oil be lacking on your head.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Rev. 3:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 23:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.9": {
+    "text": "Enjoy life with the wife whom you love, all the days of your vain life that he has given you under the sun, because that is your portion in life and in your toil at which you toil under the sun.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:12; 7:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 2:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.10": {
+    "text": "Whatever your hand finds to do, do it with your might, for there is no work or thought or knowledge or wisdom in Sheol, to which you are going.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom. 12:11; Col. 3:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.11": {
+    "text": "Again I saw that under the sun the race is not to the swift, nor the battle to the strong, nor bread to the wise, nor riches to the intelligent, nor favor to those with knowledge, but time and chance happen to them all.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:1, 7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 2:14, 15; [Rom. 9:16]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Chr. 20:15; Jer. 9:23]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 22:34]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 2:14",
+        "refs": []
+      }
+    ],
+    "section": "Wisdom Better Than Folly"
+  },
+  "ECC.9.12": {
+    "text": "For man does not know his time. Like fish that are taken in an evil net, and like birds that are caught in a snare, so the children of man are snared at an evil time, when it suddenly falls upon them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 8:7]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 7:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 29:6; Ezek. 12:13; Hos. 7:12; Luke 21:34, 35; 1 Thess. 5:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.13": {
+    "text": "I have also seen this example of wisdom under the sun, and it seemed great to me.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.9.14": {
+    "text": "There was a little city with few men in it, and a great king came against it and besieged it, building great siegeworks against it.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.9.15": {
+    "text": "But there was found in it a poor, wise man, and he by his wisdom delivered the city. Yet no one remembered that poor man.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 4:13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 18; [2 Sam. 20:22]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.16": {
+    "text": "But I say that wisdom is better than might, though the poor man’s wisdom is despised and his words are not heard.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 7:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Mark 6:2, 3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.17": {
+    "text": "The words of the wise heard in quiet are better than the shouting of a ruler among fools.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.9.18": {
+    "text": "Wisdom is better than weapons of war, but one sinner destroys much good.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Josh. 7:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.1": {
+    "text": "Dead flies make the perfumer’s ointment give off a stench; so a little folly outweighs wisdom and honor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ex. 30:25",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.2": {
+    "text": "A wise man’s heart inclines him to the right, but a fool’s heart to the left.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 2:14 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.3": {
+    "text": "Even when the fool walks on the road, he lacks sense, and he says to everyone that he is a fool.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 13:16; 18:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.4": {
+    "text": "If the anger of the ruler rises against you, do not leave your place, for calmness will lay great offenses to rest.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 8:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 1 Sam. 25:24, 32, 33 ]; See Prov. 25:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.5": {
+    "text": "There is an evil that I have seen under the sun, as it were an error proceeding from the ruler:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.6": {
+    "text": "folly is set in many high places, and the rich sit in a low place.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Esth. 3:1; Prov. 28:12; 29:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.7": {
+    "text": "I have seen slaves on horses, and princes walking on the ground like slaves.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 19:10; [Prov. 30:22]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Esth. 6:8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.8": {
+    "text": "He who digs a pit will fall into it, and a serpent will bite him who breaks through a wall.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Ps. 7:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 5:19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.9": {
+    "text": "He who quarries stones is hurt by them, and he who splits logs is endangered by them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ 1 Chr. 22:2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Deut. 19:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.10": {
+    "text": "If the iron is blunt, and one does not sharpen the edge, he must use more strength, but wisdom helps one to succeed.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.10.11": {
+    "text": "If the serpent bites before it is charmed, there is no advantage to the charmer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Jer. 8:17]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.12": {
+    "text": "The words of a wise man’s mouth win him favor, but the lips of a fool consume him.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 10:32; 22:11; [Luke 4:22]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Prov. 18:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.13": {
+    "text": "The beginning of the words of his mouth is foolishness, and the end of his talk is evil madness.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.10.14": {
+    "text": "A fool multiplies words, though no man knows what is to be, and who can tell him what will be after him?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Prov. 15:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 3:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.15": {
+    "text": "The toil of a fool wearies him, for he does not know the way to the city.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 35:8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.16": {
+    "text": "Woe to you, O land, when your king is a child, and your princes feast in the morning!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 3:4, 12; [ 2 Chr. 13:7 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.17": {
+    "text": "Happy are you, O land, when your king is the son of the nobility, and your princes feast at the proper time, for strength, and not for drunkenness!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 31:4; Isa. 5:11]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.18": {
+    "text": "Through sloth the roof sinks in, and through indolence the house leaks.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.10.19": {
+    "text": "Bread is made for laughter, and wine gladdens life, and money answers everything.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Ps. 104:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 7:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.10.20": {
+    "text": "Even in your thoughts, do not curse the king, nor in your bedroom curse the rich, for a bird of the air will carry your voice, or some winged creature tell the matter.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ex. 22:28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See 2 Kgs. 6:12; Luke 12:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.11.1": {
+    "text": "Cast your bread upon the waters, for you will find it after many days.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 32:20 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Deut. 15:10; Prov. 19:17; Matt. 10:42; Luke 14:14; 2 Cor. 9:8; Gal. 6:9, 10; Heb. 6:10 ]",
+        "refs": []
+      }
+    ],
+    "section": "Cast Your Bread upon the Waters"
+  },
+  "ECC.11.2": {
+    "text": "Give a portion to seven, or even to eight, for you know not what disaster may happen on earth.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ps. 112:9; Matt. 5:42; Luke 6:30; 1 Tim. 6:18, 19 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mic. 5:5; See Job 5:19; Prov. 6:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Luke 16:9; Eph. 5:16 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.11.3": {
+    "text": "If the clouds are full of rain, they empty themselves on the earth, and if a tree falls to the south or to the north, in the place where the tree falls, there it will lie.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.11.4": {
+    "text": "He who observes the wind will not sow, and he who regards the clouds will not reap.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ECC.11.5": {
+    "text": "As you do not know the way the spirit comes to the bones in the womb of a woman with child, so you do not know the work of God who makes everything.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Some Hebrew manuscripts, Targum; most Hebrew manuscripts"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:6; John 3:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ps. 139:13-16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.11.6": {
+    "text": "In the morning sow your seed, and at evening withhold not your hand, for you do not know which will prosper, this or that, or whether both alike will be good.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 7:18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.11.7": {
+    "text": "Light is sweet, and it is pleasant for the eyes to see the sun.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:5; 7:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.11.8": {
+    "text": "So if a person lives many years, let him rejoice in them all; but let him remember that the days of darkness will be many. All that comes is vanity.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 12:1, 2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:23; See ch. 1:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.11.9": {
+    "text": "Rejoice, O young man, in your youth, and let your heart cheer you in the days of your youth. Walk in the ways of your heart and the sight of your eyes. But know that for all these things God will bring you into judgment.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 2:10; 9:7 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Num. 15:39; Job 31:7]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 12:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.11.10": {
+    "text": "Remove vexation from your heart, and put away pain from your body, for youth and the dawn of life are vanity.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Cor. 7:1; 2 Tim. 2:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.1": {
+    "text": "Remember also your Creator in the days of your youth, before the evil days come and the years draw near of which you will say, “I have no pleasure in them”;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Lam. 3:27]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 11:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Sam. 19:35]",
+        "refs": []
+      }
+    ],
+    "section": "Remember Your Creator in Your Youth"
+  },
+  "ECC.12.2": {
+    "text": "before the sun and the light and the moon and the stars are darkened and the clouds return after the rain,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Job 3:9; Isa. 5:30; Ezek. 32:7, 8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.3": {
+    "text": "in the day when the keepers of the house tremble, and the strong men are bent, and the grinders cease because they are few, and those who look through the windows are dimmed,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Gen. 27:1; 48:10; 1 Sam. 3:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.4": {
+    "text": "and the doors on the street are shut—when the sound of the grinding is low, and one rises up at the sound of a bird, and all the daughters of song are brought low—",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ps. 141:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Jer. 25:10; Rev. 18:22]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.5": {
+    "text": "they are afraid also of what is high, and terrors are in the way; the almond tree blossoms, the grasshopper drags itself along, and desire fails, because man is going to his eternal home, and the mourners go about the streets—",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 26:13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 143:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Job 17:13; 30:23; Isa. 14:18]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Chr. 35:25; Jer. 9:17; Matt. 9:23]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.6": {
+    "text": "before the silver cord is snapped, or the golden bowl is broken, or the pitcher is shattered at the fountain, or the wheel broken at the cistern,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Zech. 4:2, 3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 30:14]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.7": {
+    "text": "and the dust returns to the earth as it was, and the spirit returns to God who gave it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 90:3; 103:14; See ch. 3:20; Job 34:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 3:21]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Job 34:14; Isa. 57:16; Zech. 12:1]; See Gen. 2:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.8": {
+    "text": "Vanity of vanities, says the Preacher; all is vanity.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew term"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.9": {
+    "text": "Besides being wise, the Preacher also taught the people knowledge, weighing and studying and arranging many proverbs with great care.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 8 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Prov. 1:1",
+        "refs": []
+      }
+    ],
+    "section": "Fear God and Keep His Commandments"
+  },
+  "ECC.12.10": {
+    "text": "The Preacher sought to find words of delight, and uprightly he wrote words of truth.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 8 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.11": {
+    "text": "The words of the wise are like goads, and like nails firmly fixed are the collected sayings; they are given by one Shepherd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 22:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezra 9:8; Isa. 22:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 1:6; 2:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 80:1; Ezek. 34:23; John 10:11, 16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.12": {
+    "text": "My son, beware of anything beyond these. Of making many books there is no end, and much study is a weariness of the flesh.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 4:32, 33]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:18]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.13": {
+    "text": "The end of the matter; all has been heard. Fear God and keep his commandments, for this is the whole duty of man.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:7; Deut. 6:2; 10:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ECC.12.14": {
+    "text": "For God will bring every deed into judgment, with every secret thing, whether good or evil.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 11:9; Job 19:29; Matt. 12:36; Acts 17:31; Rom. 2:16; 14:10, 12; 1 Cor. 4:5; [ch. 3:15, 17; Gen. 18:25; Ps. 58:11]",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

@@ -1,55 +1,1106 @@
 {
-  "ZEP.1.1": "The word of the Lord that came to Zephaniah the son of Cushi, son of Gedaliah, son of Amariah, son of Hezekiah, in the days of Josiah the son of Amon, king of Judah.",
-  "ZEP.1.2": "“I will utterly sweep away everything from the face of the earth,” declares the Lord.",
-  "ZEP.1.3": "“I will sweep away man and beast; I will sweep away the birds of the heavens and the fish of the sea, and the rubble with the wicked. I will cut off mankind from the face of the earth,” declares the Lord.",
-  "ZEP.1.4": "“I will stretch out my hand against Judah and against all the inhabitants of Jerusalem; and I will cut off from this place the remnant of Baal and the name of the idolatrous priests along with the priests,",
-  "ZEP.1.5": "those who bow down on the roofs to the host of the heavens, those who bow down and swear to the Lord and yet swear by Milcom,",
-  "ZEP.1.6": "those who have turned back from following the Lord, who do not seek the Lord or inquire of him.”",
-  "ZEP.1.7": "Be silent before the Lord God! For the day of the Lord is near; the Lord has prepared a sacrifice and consecrated his guests.",
-  "ZEP.1.8": "And on the day of the Lord’s sacrifice— “I will punish the officials and the king’s sons and all who array themselves in foreign attire.",
-  "ZEP.1.9": "On that day I will punish everyone who leaps over the threshold, and those who fill their master’s house with violence and fraud.",
-  "ZEP.1.10": "“On that day,” declares the Lord, “a cry will be heard from the Fish Gate, a wail from the Second Quarter, a loud crash from the hills.",
-  "ZEP.1.11": "Wail, O inhabitants of the Mortar! For all the traders are no more; all who weigh out silver are cut off.",
-  "ZEP.1.12": "At that time I will search Jerusalem with lamps, and I will punish the men who are complacent, those who say in their hearts, ‘The Lord will not do good, nor will he do ill.’",
-  "ZEP.1.13": "Their goods shall be plundered, and their houses laid waste. Though they build houses, they shall not inhabit them; though they plant vineyards, they shall not drink wine from them.”",
-  "ZEP.1.14": "The great day of the Lord is near, near and hastening fast; the sound of the day of the Lord is bitter; the mighty man cries aloud there.",
-  "ZEP.1.15": "A day of wrath is that day, a day of distress and anguish, a day of ruin and devastation, a day of darkness and gloom, a day of clouds and thick darkness,",
-  "ZEP.1.16": "a day of trumpet blast and battle cry against the fortified cities and against the lofty battlements.",
-  "ZEP.1.17": "I will bring distress on mankind, so that they shall walk like the blind, because they have sinned against the Lord; their blood shall be poured out like dust, and their flesh like dung.",
-  "ZEP.1.18": "Neither their silver nor their gold shall be able to deliver them on the day of the wrath of the Lord. In the fire of his jealousy, all the earth shall be consumed; for a full and sudden end he will make of all the inhabitants of the earth.",
-  "ZEP.2.1": "Gather together, yes, gather, O shameless nation,",
-  "ZEP.2.2": "before the decree takes effect —before the day passes away like chaff— before there comes upon you the burning anger of the Lord, before there comes upon you the day of the anger of the Lord.",
-  "ZEP.2.3": "Seek the Lord, all you humble of the land, who do his just commands; seek righteousness; seek humility; perhaps you may be hidden on the day of the anger of the Lord.",
-  "ZEP.2.4": "For Gaza shall be deserted, and Ashkelon shall become a desolation; Ashdod’s people shall be driven out at noon, and Ekron shall be uprooted.",
-  "ZEP.2.5": "Woe to you inhabitants of the seacoast, you nation of the Cherethites! The word of the Lord is against you, O Canaan, land of the Philistines; and I will destroy you until no inhabitant is left.",
-  "ZEP.2.6": "And you, O seacoast, shall be pastures, with meadows for shepherds and folds for flocks.",
-  "ZEP.2.7": "The seacoast shall become the possession of the remnant of the house of Judah, on which they shall graze, and in the houses of Ashkelon they shall lie down at evening. For the Lord their God will be mindful of them and restore their fortunes.",
-  "ZEP.2.8": "“I have heard the taunts of Moab and the revilings of the Ammonites, how they have taunted my people and made boasts against their territory.",
-  "ZEP.2.9": "Therefore, as I live,” declares the Lord of hosts, the God of Israel, “Moab shall become like Sodom, and the Ammonites like Gomorrah, a land possessed by nettles and salt pits, and a waste forever. The remnant of my people shall plunder them, and the survivors of my nation shall possess them.”",
-  "ZEP.2.10": "This shall be their lot in return for their pride, because they taunted and boasted against the people of the Lord of hosts.",
-  "ZEP.2.11": "The Lord will be awesome against them; for he will famish all the gods of the earth, and to him shall bow down, each in its place, all the lands of the nations.",
-  "ZEP.2.12": "You also, O Cushites, shall be slain by my sword.",
-  "ZEP.2.13": "And he will stretch out his hand against the north and destroy Assyria, and he will make Nineveh a desolation, a dry waste like the desert.",
-  "ZEP.2.14": "Herds shall lie down in her midst, all kinds of beasts; even the owl and the hedgehog shall lodge in her capitals; a voice shall hoot in the window; devastation will be on the threshold; for her cedar work will be laid bare.",
-  "ZEP.2.15": "This is the exultant city that lived securely, that said in her heart, “I am, and there is no one else.” What a desolation she has become, a lair for wild beasts! Everyone who passes by her hisses and shakes his fist.",
-  "ZEP.3.1": "Woe to her who is rebellious and defiled, the oppressing city!",
-  "ZEP.3.2": "She listens to no voice; she accepts no correction. She does not trust in the Lord; she does not draw near to her God.",
-  "ZEP.3.3": "Her officials within her are roaring lions; her judges are evening wolves that leave nothing till the morning.",
-  "ZEP.3.4": "Her prophets are fickle, treacherous men; her priests profane what is holy; they do violence to the law.",
-  "ZEP.3.5": "The Lord within her is righteous; he does no injustice; every morning he shows forth his justice; each dawn he does not fail; but the unjust knows no shame.",
-  "ZEP.3.6": "“I have cut off nations; their battlements are in ruins; I have laid waste their streets so that no one walks in them; their cities have been made desolate, without a man, without an inhabitant.",
-  "ZEP.3.7": "I said, ‘Surely you will fear me; you will accept correction. Then your dwelling would not be cut off according to all that I have appointed against you.’ But all the more they were eager to make all their deeds corrupt.",
-  "ZEP.3.8": "“Therefore wait for me,” declares the Lord, “for the day when I rise up to seize the prey. For my decision is to gather nations, to assemble kingdoms, to pour out upon them my indignation, all my burning anger; for in the fire of my jealousy all the earth shall be consumed.",
-  "ZEP.3.9": "“For at that time I will change the speech of the peoples to a pure speech, that all of them may call upon the name of the Lord and serve him with one accord.",
-  "ZEP.3.10": "From beyond the rivers of Cush my worshipers, the daughter of my dispersed ones, shall bring my offering.",
-  "ZEP.3.11": "“On that day you shall not be put to shame because of the deeds by which you have rebelled against me; for then I will remove from your midst your proudly exultant ones, and you shall no longer be haughty in my holy mountain.",
-  "ZEP.3.12": "But I will leave in your midst a people humble and lowly. They shall seek refuge in the name of the Lord,",
-  "ZEP.3.13": "those who are left in Israel; they shall do no injustice and speak no lies, nor shall there be found in their mouth a deceitful tongue. For they shall graze and lie down, and none shall make them afraid.”",
-  "ZEP.3.14": "Sing aloud, O daughter of Zion; shout, O Israel! Rejoice and exult with all your heart, O daughter of Jerusalem!",
-  "ZEP.3.15": "The Lord has taken away the judgments against you; he has cleared away your enemies. The King of Israel, the Lord, is in your midst; you shall never again fear evil.",
-  "ZEP.3.16": "On that day it shall be said to Jerusalem: “Fear not, O Zion; let not your hands grow weak.",
-  "ZEP.3.17": "The Lord your God is in your midst, a mighty one who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing.",
-  "ZEP.3.18": "I will gather those of you who mourn for the festival, so that you will no longer suffer reproach.",
-  "ZEP.3.19": "Behold, at that time I will deal with all your oppressors. And I will save the lame and gather the outcast, and I will change their shame into praise and renown in all the earth.",
-  "ZEP.3.20": "At that time I will bring you in, at the time when I gather you together; for I will make you renowned and praised among all the peoples of the earth, when I restore your fortunes before your eyes,” says the Lord."
+  "ZEP.1.1": {
+    "text": "The word of the Lord that came to Zephaniah the son of Cushi, son of Gedaliah, son of Amariah, son of Hezekiah, in the days of Josiah the son of Amon, king of Judah.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 1:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Kgs. 22:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.2": {
+    "text": "“I will utterly sweep away everything from the face of the earth,” declares the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 8:13; [ver. 18; 2 Kgs. 22:16, 17 ]",
+        "refs": []
+      }
+    ],
+    "section": "The Coming Judgment on Judah"
+  },
+  "ZEP.1.3": {
+    "text": "“I will sweep away man and beast; I will sweep away the birds of the heavens and the fish of the sea, and the rubble with the wicked. I will cut off mankind from the face of the earth,” declares the Lord.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hos. 4:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Hos. 4:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ezek. 7:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 14:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.4": {
+    "text": "“I will stretch out my hand against Judah and against all the inhabitants of Jerusalem; and I will cut off from this place the remnant of Baal and the name of the idolatrous priests along with the priests,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See 2 Kgs. 23:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.5": {
+    "text": "those who bow down on the roofs to the host of the heavens, those who bow down and swear to the Lord and yet swear by Milcom,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 19:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 1 Kgs. 18:21; 2 Kgs. 17:33, 41 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Kgs. 11:5, 33",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.6": {
+    "text": "those who have turned back from following the Lord, who do not seek the Lord or inquire of him.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 2:13, 17; 15:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 5:24; Heb. 11:6 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.7": {
+    "text": "Be silent before the Lord God! For the day of the Lord is near; the Lord has prepared a sacrifice and consecrated his guests.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Hab. 2:20 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 14]; See Joel 1:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 34:6; Jer. 46:10; Ezek. 39:17, 19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Sam. 16:5",
+        "refs": []
+      }
+    ],
+    "section": "The Day of the"
+  },
+  "ZEP.1.8": {
+    "text": "And on the day of the Lord’s sacrifice— “I will punish the officials and the king’s sons and all who array themselves in foreign attire.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kgs. 24:12, 14; 25:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Matt. 22:11]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.9": {
+    "text": "On that day I will punish everyone who leaps over the threshold, and those who fill their master’s house with violence and fraud.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[1 Sam. 5:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.10": {
+    "text": "“On that day,” declares the Lord, “a cry will be heard from the Fish Gate, a wail from the Second Quarter, a loud crash from the hills.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See 2 Chr. 33:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Zech. 11:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Kgs. 22:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.11": {
+    "text": "Wail, O inhabitants of the Mortar! For all the traders are no more; all who weigh out silver are cut off.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Zech. 11:2; James 5:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.12": {
+    "text": "At that time I will search Jerusalem with lamps, and I will punish the men who are complacent, those who say in their hearts, ‘The Lord will not do good, nor will he do ill.’",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Amos 9:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 48:11; [ Amos 6:1 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 94:7; Ezek. 8:12; Mal. 2:17; 3:14, 15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.13": {
+    "text": "Their goods shall be plundered, and their houses laid waste. Though they build houses, they shall not inhabit them; though they plant vineyards, they shall not drink wine from them.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 42:22",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Amos 5:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Mic. 6:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.14": {
+    "text": "The great day of the Lord is near, near and hastening fast; the sound of the day of the Lord is bitter; the mighty man cries aloud there.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 7; Ezek. 7:7, 12 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 33:7 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.15": {
+    "text": "A day of wrath is that day, a day of distress and anguish, a day of ruin and devastation, a day of darkness and gloom, a day of clouds and thick darkness,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Joel 1:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Job 30:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Joel 2:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Joel 2:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.16": {
+    "text": "a day of trumpet blast and battle cry against the fortified cities and against the lofty battlements.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Jer. 4:19 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 2:15 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.17": {
+    "text": "I will bring distress on mankind, so that they shall walk like the blind, because they have sinned against the Lord; their blood shall be poured out like dust, and their flesh like dung.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 10:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 28:29; Isa. 59:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 79:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 83:10]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.18": {
+    "text": "Neither their silver nor their gold shall be able to deliver them on the day of the wrath of the Lord. In the fire of his jealousy, all the earth shall be consumed; for a full and sudden end he will make of all the inhabitants of the earth.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 7:19; [ Prov. 11:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 3:8 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 36:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 2, 3 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.1": {
+    "text": "Gather together, yes, gather, O shameless nation,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 6:15",
+        "refs": []
+      }
+    ],
+    "section": "Judgment on Judah’s Enemies"
+  },
+  "ZEP.2.2": {
+    "text": "before the decree takes effect —before the day passes away like chaff— before there comes upon you the burning anger of the Lord, before there comes upon you the day of the anger of the Lord.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:8 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 1:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 2 Kgs. 23:26 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.3": {
+    "text": "Seek the Lord, all you humble of the land, who do his just commands; seek righteousness; seek humility; perhaps you may be hidden on the day of the anger of the Lord.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Amos 5:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 76:9; Isa. 11:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Amos 5:14, 15 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Amos 5:14, 15 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 2:10; 26:20, 21]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.4": {
+    "text": "For Gaza shall be deserted, and Ashkelon shall become a desolation; Ashdod’s people shall be driven out at noon, and Ekron shall be uprooted.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Zech. 9:5, 6; [ Jer. 47:5 ]; See Amos 1:6-8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.5": {
+    "text": "Woe to you inhabitants of the seacoast, you nation of the Cherethites! The word of the Lord is against you, O Canaan, land of the Philistines; and I will destroy you until no inhabitant is left.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 47:7; Ezek. 25:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See 1 Sam. 30:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Nah. 2:13 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Josh. 13:3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.6": {
+    "text": "And you, O seacoast, shall be pastures, with meadows for shepherds and folds for flocks.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 65:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.7": {
+    "text": "The seacoast shall become the possession of the remnant of the house of Judah, on which they shall graze, and in the houses of Ashkelon they shall lie down at evening. For the Lord their God will be mindful of them and restore their fortunes.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Josh. 19:29 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 3:13; Obad. 19]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 6 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Zech. 10:3; Luke 1:68",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.8": {
+    "text": "“I have heard the taunts of Moab and the revilings of the Ammonites, how they have taunted my people and made boasts against their territory.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Jer. 48:27]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 25:3, 6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Jer. 49:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.9": {
+    "text": "Therefore, as I live,” declares the Lord of hosts, the God of Israel, “Moab shall become like Sodom, and the Ammonites like Gomorrah, a land possessed by nettles and salt pits, and a waste forever. The remnant of my people shall plunder them, and the survivors of my nation shall possess them.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 49:18; See Ezek. 16:48",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 29:23; See Isa. 13:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 29:23; See Isa. 13:19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.10": {
+    "text": "This shall be their lot in return for their pride, because they taunted and boasted against the people of the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 16:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.11": {
+    "text": "The Lord will be awesome against them; for he will famish all the gods of the earth, and to him shall bow down, each in its place, all the lands of the nations.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 17:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 22:27",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Gen. 10:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.12": {
+    "text": "You also, O Cushites, shall be slain by my sword.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:10 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.13": {
+    "text": "And he will stretch out his hand against the north and destroy Assyria, and he will make Nineveh a desolation, a dry waste like the desert.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 10:12 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Nah. 3:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.14": {
+    "text": "Herds shall lie down in her midst, all kinds of beasts; even the owl and the hedgehog shall lodge in her capitals; a voice shall hoot in the window; devastation will be on the threshold; for her cedar work will be laid bare.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      },
+      {
+        "marker": "#",
+        "text": "The identity of the animals rendered"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 13:21, 22; 34:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 34:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Jer. 22:14, 15]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.15": {
+    "text": "This is the exultant city that lived securely, that said in her heart, “I am, and there is no one else.” What a desolation she has become, a lair for wild beasts! Everyone who passes by her hisses and shakes his fist.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 47:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ezek. 25:5 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 19:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Nah. 3:19]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.1": {
+    "text": "Woe to her who is rebellious and defiled, the oppressing city!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 6:6",
+        "refs": []
+      }
+    ],
+    "section": "Judgment on Jerusalem and the Nations"
+  },
+  "ZEP.3.2": {
+    "text": "She listens to no voice; she accepts no correction. She does not trust in the Lord; she does not draw near to her God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 5:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 12 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.3": {
+    "text": "Her officials within her are roaring lions; her judges are evening wolves that leave nothing till the morning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 22:27; [ Mic. 3:9, 10 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Hab. 1:8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.4": {
+    "text": "Her prophets are fickle, treacherous men; her priests profane what is holy; they do violence to the law.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 23:11; Hos. 9:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 23:11; Hos. 9:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 22:26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.5": {
+    "text": "The Lord within her is righteous; he does no injustice; every morning he shows forth his justice; each dawn he does not fail; but the unjust knows no shame.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Jer. 12:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.6": {
+    "text": "“I have cut off nations; their battlements are in ruins; I have laid waste their streets so that no one walks in them; their cities have been made desolate, without a man, without an inhabitant.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:4-15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Zech. 7:14; 9:8 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.7": {
+    "text": "I said, ‘Surely you will fear me; you will accept correction. Then your dwelling would not be cut off according to all that I have appointed against you.’ But all the more they were eager to make all their deeds corrupt.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Jer. 36:3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Mic. 7:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.8": {
+    "text": "“Therefore wait for me,” declares the Lord, “for the day when I rise up to seize the prey. For my decision is to gather nations, to assemble kingdoms, to pour out upon them my indignation, all my burning anger; for in the fire of my jealousy all the earth shall be consumed.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hab. 2:3; See Isa. 8:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Joel 3:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:18 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.9": {
+    "text": "“For at that time I will change the speech of the peoples to a pure speech, that all of them may call upon the name of the Lord and serve him with one accord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 19:18",
+        "refs": []
+      }
+    ],
+    "section": "The Conversion of the Nations"
+  },
+  "ZEP.3.10": {
+    "text": "From beyond the rivers of Cush my worshipers, the daughter of my dispersed ones, shall bring my offering.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 68:31; Isa. 11:11; 60:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.11": {
+    "text": "“On that day you shall not be put to shame because of the deeds by which you have rebelled against me; for then I will remove from your midst your proudly exultant ones, and you shall no longer be haughty in my holy mountain.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 2:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 54:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Mal. 4:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 7:4; [Matt. 3:9]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.12": {
+    "text": "But I will leave in your midst a people humble and lowly. They shall seek refuge in the name of the Lord,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 14:32; [Matt. 5:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 2 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.13": {
+    "text": "those who are left in Israel; they shall do no injustice and speak no lies, nor shall there be found in their mouth a deceitful tongue. For they shall graze and lie down, and none shall make them afraid.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 2:7 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 60:21",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Rev. 14:5 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Mic. 5:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.14": {
+    "text": "Sing aloud, O daughter of Zion; shout, O Israel! Rejoice and exult with all your heart, O daughter of Jerusalem!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 12:6; 54:1; Zech. 2:10; 9:9",
+        "refs": []
+      }
+    ],
+    "section": "Israel’s Joy and Restoration"
+  },
+  "ZEP.3.15": {
+    "text": "The Lord has taken away the judgments against you; he has cleared away your enemies. The King of Israel, the Lord, is in your midst; you shall never again fear evil.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt. 27:42; John 1:49",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 46:5; Zech. 2:10; [Rev. 21:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.16": {
+    "text": "On that day it shall be said to Jerusalem: “Fear not, O Zion; let not your hands grow weak.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 11 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 35:3; Heb. 12:12 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.17": {
+    "text": "The Lord your God is in your midst, a mighty one who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 15 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 63:1 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 62:5; Jer. 32:41",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.18": {
+    "text": "I will gather those of you who mourn for the festival, so that you will no longer suffer reproach.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The meaning of the Hebrew is uncertain"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Lam. 1:4; 2:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.19": {
+    "text": "Behold, at that time I will deal with all your oppressors. And I will save the lame and gather the outcast, and I will change their shame into praise and renown in all the earth.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 60:14]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mic. 4:6, 7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 61:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Jer. 13:11; 33:9]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.20": {
+    "text": "At that time I will bring you in, at the time when I gather you together; for I will make you renowned and praised among all the peoples of the earth, when I restore your fortunes before your eyes,” says the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 11:12; Jer. 32:37; Ezek. 11:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

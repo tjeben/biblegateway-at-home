@@ -1,282 +1,2067 @@
 {
-  "EZR.1.1": "Det var i perserkongen Kyros’ første år. For at Herrens ord gjennom Jeremias munn skulle oppfylles, vakte Herren slike tanker i perserkongen Kyros’ ånd at han lot utrope i hele sitt rike og dessuten kunngjøre ved en skrivelse:",
-  "EZR.1.2": "Så sier Kyros, kongen i Persia: Herren, himmelens Gud, har gitt meg alle jordens riker. Og han har pålagt meg å bygge et hus for ham i Jerusalem i Juda.",
-  "EZR.1.3": "Er det noen blant dere som hører til hans folk, må så hans Gud være med ham! Han kan dra opp til Jerusalem i Juda og bygge Herrens, Israels Guds hus! Han er den Gud som bor i Jerusalem.",
-  "EZR.1.4": "Alle de overlevende skal få hjelp av befolkningen på det stedet hvor de oppholder seg som fremmede. En skal gi dem sølv og gull, gods og buskap, og dessuten frivillige gaver til Guds hus i Jerusalem.",
-  "EZR.1.5": "Og Judas og Benjamins familieoverhoder, likesom prestene og levittene, alle de som hadde fått sin ånd vakt av Gud, gjorde seg da klar til å dra opp for å bygge Herrens hus i Jerusalem.",
-  "EZR.1.6": "Alle naboene hjalp dem med sølvkar og gull og gods og buskap og verdifulle ting, i tillegg til alle frivillige gaver.",
-  "EZR.1.7": "Kong Kyros lot hente fram de hellige karene som hadde tilhørt Herrens hus, men som Nebukadnesar hadde ført bort fra Jerusalem og satt inn i sin guds hus.",
-  "EZR.1.8": "Kongen i Persia, Kyros, lot nå disse tingene hente fram under tilsyn av skattmesteren Mitredat. Han talte dem opp og overga dem til Sjesbassar, Judas fyrste.",
-  "EZR.1.9": "Tallet på dem var: tretti gullfat, tusen sølvfat, tjueni offerkniver,",
-  "EZR.1.10": "tretti gullbeger, fire hundre og ti sølvbeger av nest beste slag, og tusen andre kar.",
-  "EZR.1.11": "Karene av gull og sølv var i alt fem tusen fire hundre. Alt dette førte Sjesbassar med seg da de bortførte dro opp fra Babel til Jerusalem.",
-  "EZR.2.1": "Dette er de menn fra landskapet Juda som dro hjem fra fangenskapet i det fremmede landet, de som kongen i Babel, Nebukadnesar, hadde bortført til Babel. Nå vendte de tilbake til Jerusalem og Juda, hver til sin by.",
-  "EZR.2.2": "De fulgte med Serubabel, Josva, Nehemja, Seraja, Re’elaja, Mordekai, Bilsjan, Mispar, Bigvai, Rehum og Ba’ana. - Dette er tallet på Israels menn:",
-  "EZR.2.3": "Parosjs barn, to tusen ett hundre og syttito.",
-  "EZR.2.4": "Sefatjas barn, tre hundre og syttito.",
-  "EZR.2.5": "Arahs barn, sju hundre og syttifem.",
-  "EZR.2.6": "Pahat-Moabs barn av Josvas og Joabs etterkommere, to tusen åtte hundre og tolv.",
-  "EZR.2.7": "Elams barn, ett tusen to hundre og femtifire.",
-  "EZR.2.8": "Sattus barn, ni hundre og førtifem.",
-  "EZR.2.9": "Sakkais barn, sju hundre og seksti.",
-  "EZR.2.10": "Banis barn, seks hundre og førtito.",
-  "EZR.2.11": "Bebais barn, seks hundre og tjuetre.",
-  "EZR.2.12": "Asgads barn, ett tusen to hundre og tjueto.",
-  "EZR.2.13": "Adonikams barn, seks hundre og sekstiseks.",
-  "EZR.2.14": "Bigvais barn, to tusen og femtiseks.",
-  "EZR.2.15": "Adins barn, fire hundre og femtifire.",
-  "EZR.2.16": "Aters barn av Hiskias ætt, nittiåtte.",
-  "EZR.2.17": "Besais barn, tre hundre og tjuetre.",
-  "EZR.2.18": "Joras barn, ett hundre og tolv.",
-  "EZR.2.19": "Hasjums barn, to hundre og tjuetre.",
-  "EZR.2.20": "Gibbars barn, nittifem.",
-  "EZR.2.21": "Betlehems barn, ett hundre og tjuetre.",
-  "EZR.2.22": "Netofas menn, femtiseks.",
-  "EZR.2.23": "Anatots menn, ett hundre og tjueåtte.",
-  "EZR.2.24": "Asmavets barn, førtito.",
-  "EZR.2.25": "Kirjat-Arims, Kefiras og Be’erots barn, sju hundre og førtitre.",
-  "EZR.2.26": "Ramas og Gebas barn, seks hundre og tjueen.",
-  "EZR.2.27": "Mikmas’ menn, ett hundre og tjueto.",
-  "EZR.2.28": "Betels og Ais menn, to hundre og tjuetre.",
-  "EZR.2.29": "Nebos barn, femtito.",
-  "EZR.2.30": "Magbis’ barn, ett hundre og femtiseks.",
-  "EZR.2.31": "Den andre Elams barn, ett tusen to hundre og femtifire.",
-  "EZR.2.32": "Harims barn, tre hundre og tjue.",
-  "EZR.2.33": "Lods, Hadids og Onos barn, sju hundre og tjuefem.",
-  "EZR.2.34": "Jerikos barn, tre hundre og førtifem.",
-  "EZR.2.35": "Sena’as barn, tre tusen seks hundre og tretti.",
-  "EZR.2.36": "Av prestene: Jedajas barn av Josvas hus, ni hundre og syttitre.",
-  "EZR.2.37": "Immers barn, ett tusen og femtito.",
-  "EZR.2.38": "Pasjhurs barn, ett tusen to hundre og førtisju.",
-  "EZR.2.39": "Harims barn, ett tusen og sytten.",
-  "EZR.2.40": "Av levittene: Josvas og Kadmiels barn av Hodavjas etterkommere, syttifire.",
-  "EZR.2.41": "Av sangerne: Asafs barn, ett hundre og tjueåtte.",
-  "EZR.2.42": "Av dørvaktenes barn: Sjallums barn, Aters barn, Talmons barn, Akkubs barn, Hatitas barn, Sobais barn - i alt ett hundre og trettini.",
-  "EZR.2.43": "Av tempeltjenerne: Sihas barn, Hasufas barn, Tabbaots barn,",
-  "EZR.2.44": "Keros’ barn, Siahas barn, Padons barn,",
-  "EZR.2.45": "Lebanas barn, Hagabas barn, Akkubs barn,",
-  "EZR.2.46": "Hagabs barn, Sjamlais barn, Hanans barn,",
-  "EZR.2.47": "Giddels barn, Gahars barn, Reajas barn,",
-  "EZR.2.48": "Resins barn, Nekodas barn, Gassams barn,",
-  "EZR.2.49": "Ussas barn, Paseahs barn, Besais barn,",
-  "EZR.2.50": "Asjnas barn, Me’unims barn, Nefisims barn,",
-  "EZR.2.51": "Bakbuks barn, Hakufas barn, Harhurs barn,",
-  "EZR.2.52": "Basluts barn, Mehidas barn, Harsjas barn,",
-  "EZR.2.53": "Barkos’ barn, Siseras barn, Tamahs barn,",
-  "EZR.2.54": "Nesiahs barn, Hatifas barn,",
-  "EZR.2.55": "Av Salomos tjeneres barn: Sotais barn, Hassoferets barn, Perudas barn,",
-  "EZR.2.56": "Ja’alas barn, Darkons barn, Giddels barn,",
-  "EZR.2.57": "Sefatjas barn, Hattils barn, Pokeret-Hassebajims barn, Amis barn.",
-  "EZR.2.58": "Alle tempeltjenerne og Salomos tjeneres barn var til sammen tre hundre og nittito.",
-  "EZR.2.59": "Dette er de som dro hjem fra Tel-Melah, Tel-Harsja, Kerub, Addan og Immer, men ikke kunne oppgi sin familie og sin ætt, eller om de var av Israel:",
-  "EZR.2.60": "Delajas barn, Tobias’ barn, Nekodas barn, seks hundre og femtito.",
-  "EZR.2.61": "Og av prestenes barn: Habajas barn, Hakkos’ barn, Barsillais barn, han som hadde tatt en av gileaditten Barsillais døtre til ektefelle og var blitt oppkalt etter dem.",
-  "EZR.2.62": "Disse lette etter ættelistene sine, men de fantes ikke. De ble da utelukket fra prestedømmet som uverdige til det.",
-  "EZR.2.63": "Stattholderen sa til dem at de ikke skulle ete av det høyhellige, før det sto fram en prest med urim og tummim.",
-  "EZR.2.64": "Hele menigheten var i alt førtito tusen tre hundre og seksti,",
-  "EZR.2.65": "i tillegg til deres tjenere og tjenestepiker, som var sju tusen tre hundre og trettisju. De hadde også med seg to hundre sangere og sangerinner.",
-  "EZR.2.66": "De hadde sju hundre og trettiseks hester, to hundre og førtifem muldyr,",
-  "EZR.2.67": "fire hundre og trettifem kameler og seks tusen sju hundre og tjue esler.",
-  "EZR.2.68": "Da de kom til Herrens hus i Jerusalem, var det noen av familieoverhodene som ga frivillige gaver til Guds hus, så det kunne bli gjenreist på sitt gamle sted.",
-  "EZR.2.69": "Etter evne ga de til arbeidskassen: sekstien tusen dariker i gull og fem tusen miner i sølv, dessuten ett hundre prestekapper.",
-  "EZR.2.70": "Både prestene og levittene og noen av det menige folket, og sangerne og dørvaktene og tempeltjenerne bosatte seg i sine egne byer, og hele det øvrige Israel bosatte seg i sine byer.",
-  "EZR.3.1": "Da den sjuende måneden kom, og Israels barn hadde slått seg ned i sine byer, samlet folket seg som én mann i Jerusalem.",
-  "EZR.3.2": "Og Josva, Josadaks sønn, og hans brødre prestene og Serubabel, Sjealtiels sønn, og hans brødre tok til å bygge alteret for Israels Gud for å ofre brennoffer på det, slik det står skrevet i Guds mann Mose lov.",
-  "EZR.3.3": "Så reiste de alteret på dets gamle sted, enda de var redde for de folkene som bodde der i landet. Og de ofret på det brennoffer til Herren, både morgen-brennoffer og kvelds-brennoffer.",
-  "EZR.3.4": "Så feiret de løvhyttefesten, slik som det er foreskrevet, og ofret brennoffer hver dag etter det fastsatte tall og på den måte loven befaler, hver dag de offer som var foreskrevet for den dagen.",
-  "EZR.3.5": "Siden ofret de det daglige brennoffer og de ofrene som hørte til nymånedagene og alle Herrens hellige høytider, og likeså hver gang noen kom med et frivillig offer til Herren.",
-  "EZR.3.6": "Fra den første dagen i den sjuende måneden begynte de å ofre brennoffer til Herren, alt før grunnvollen til Herrens tempel var lagt.",
-  "EZR.3.7": "Så ga de penger til steinhoggerne og tømmermennene, og de ga mat og drikke og olje til sidonierne og tyrierne for at de skulle føre sedertømmer fra Libanon sjøveien til Jaffa, etter den fullmakt som kongen i Persia, Kyros, hadde gitt dem.",
-  "EZR.3.8": "I det andre året etter at de var kommet til Guds hus i Jerusalem, i den andre måneden, tok de fatt på verket - Serubabel, Sjealtiels sønn, og Josva, Josadaks sønn, med deres andre brødre, prestene og levittene, og alle de som var kommet hjem til Jerusalem fra fangenskapet. De satte levittene fra tjueårsalderen og oppover til å føre tilsyn med arbeidet på Herrens hus.",
-  "EZR.3.9": "Josva med sine sønner og brødre og Kadmiel med sine sønner, Hodavjas etterkommere, sto alle som én og hadde tilsyn med dem som utførte arbeidet på Guds hus. Det samme gjorde Henadads etterkommere med sine sønner og brødre. De hørte også til levittene.",
-  "EZR.3.10": "Da bygningsmennene la grunnvollen til Herrens tempel, ble prestene stilt opp i fullt skrud med trompeter, og de levittene som var Asafs etterkommere, med cymbler. De skulle lovprise Herren, slik som Israels konge David hadde foreskrevet.",
-  "EZR.3.11": "De sang lov og pris for Herren, fordi han er god, og hans miskunnhet mot Israel varer til evig tid. Og alt folket brøt ut i et stort fryderop og priste Herren fordi grunnvollen var lagt til Herrens hus.",
-  "EZR.3.12": "Men mange av prestene og levittene og familieoverhodene - de gamle som hadde sett det første huset, gråt høyt da de så dette huset bli grunnlagt. Men mange jublet høyt av glede.",
-  "EZR.3.13": "Folket kunne ikke skjelne lyden av gledesjubelen fra lyden av folkets gråt, for folket jublet så høyt at det hørtes lang vei.",
-  "EZR.4.1": "Judas og Benjamins motstandere fikk nå høre at de som var kommet hjem, var i ferd med å bygge et tempel for Herren, Israels Gud.",
-  "EZR.4.2": "De kom da til Serubabel og til slektenes overhoder og sa til dem: La oss få være med dere og bygge! For vi søker deres Gud likesom dere selv, og vi har ofret til ham helt fra syrerkongen Asarhaddons dager, han som førte oss hit!",
-  "EZR.4.3": "Da svarte Serubabel og Josva og de andre overhodene i Israel: Det er ikke sammen med dere vi skal bygge et hus for vår Gud. Men vi alene skal bygge huset for Herren, Israels Gud, slik som kong Kyros, kongen av Persia, har befalt oss.",
-  "EZR.4.4": "Men de andre folkene som bodde der i landet, gjorde Judas folk motløse og skremte dem fra å bygge.",
-  "EZR.4.5": "De leide rådgivere for å motarbeide dem, og slik fikk de hindret tiltakene deres så lenge perserkongen Kyros levde, og siden helt til perserkongen Darius tiltrådte regjeringen.",
-  "EZR.4.6": "Da Ahasverus var konge, i begynnelsen av hans regjeringstid, skrev folket i landet en klage mot innbyggerne i Juda og Jerusalem.",
-  "EZR.4.7": "Og i Artaxerxes’ dager skrev Bisjlam, Mitredat, Tabe’el og hans andre embetsbrødre et brev til Artaxerxes, kongen i Persia. Brevet var skrevet med arameisk skrift og oversatt til arameisk.",
-  "EZR.4.8": "Rådsherren Rehum og statsskriveren Sjimsjai skrev et brev mot Jerusalem til Artaxerxes, og brevet hadde følgende innhold.",
-  "EZR.4.9": "De som skrev den gang, var rådsherren Rehum og statsskriveren Sjimsjai og deres andre embetsbrødre, de fra Dina og Afarsatka, Tarpela, Persia, Erek, Babel, Susan, Deha og Elam,",
-  "EZR.4.10": "og de andre folkene som den store og navngjetne Osnappar førte bort og lot bo i byen Samaria og ellers i landet på den andre siden av elven.",
-  "EZR.4.11": "Dette er en avskrift av det brevet som de sendte til ham, til kong Artaxerxes: Dine tjenere, mennene på den andre siden av elven. Og nå,",
-  "EZR.4.12": "la det være kongen vitterlig at jødene som dro bort fra det stedet hvor du bor, er kommet hit til oss, til Jerusalem. Og nå holder de på å bygge opp igjen den opprørske og onde byen og fullføre murene og utbedre grunnvollene.",
-  "EZR.4.13": "Nå skal kongen vite at dersom denne byen blir bygd opp igjen og murene fullført, så vil de verken betale skatt eller toll eller veipenger, og det vil til sist bli til skade for kongene.",
-  "EZR.4.14": "Ettersom vi eter palassets salt, og det ikke sømmer seg for oss å se rolig på at det blir gjort noe til skade for kongen, så sender vi nå bud og lar kongen få vite dette,",
-  "EZR.4.15": "så du kan la noen granske i dine fedres krønike. Da vil du finne i opptegnelsene at denne byen har vært en opprørsk by, som har voldt skade for konger og land. Fra gammel tid har de gjort opprør der, derfor er også denne byen blitt ødelagt.",
-  "EZR.4.16": "Kongen skal vite at dersom denne byen blir bygd opp igjen og murene fullført, så vil følgen av dette bli at du ikke lenger har noe igjen av landet på den andre siden av elven.",
-  "EZR.4.17": "Da sendte kongen svar til rådsherren Rehum og statsskriveren Sjimsjai og deres andre embetsbrødre, som bodde i Samaria og ellers i landet på den andre siden av elven: Fred! Og nå",
-  "EZR.4.18": "er det brevet dere har sendt til oss, blitt nøyaktig opplest for meg.",
-  "EZR.4.19": "Jeg har gitt befaling om å granske saken, og vi har funnet at denne byen fra gammel tid har satt seg opp mot kongene, og at det har vært uro og opprør der.",
-  "EZR.4.20": "Mektige konger har rådd over Jerusalem, og de har hersket over alt landet på den andre siden av elven. Det ble gitt dem skatt, toll og veipenger.",
-  "EZR.4.21": "Så gi nå ordre om at disse mennene blir stanset i arbeidet sitt, og at byen ikke blir bygd opp igjen før det kommer befaling fra meg.",
-  "EZR.4.22": "Vær forsiktige, så dere ikke gjør noe feilgrep i denne saken, så skaden ikke skal bli verre og kongene lide tap.",
-  "EZR.4.23": "Så snart avskriften av brevet fra kong Artaxerxes var blitt opplest for Rehum og statsskriveren Sjimsjai og embetsbrødrene deres, dro de straks til jødene i Jerusalem og hindret dem med vold og makt.",
-  "EZR.4.24": "Da stanset arbeidet på Guds hus i Jerusalem. Det ble ikke gjort noe med det før i det andre året av perserkongen Darius’ regjering.",
-  "EZR.5.1": "Profeten Haggai og Sakarja, sønnesønn av Iddo, som også var profet, profeterte for jødene i Juda og Jerusalem. I Israels Guds navn profeterte de for dem.",
-  "EZR.5.2": "Serubabel, Sjealtiels sønn, og Josva, Josadaks sønn, begynte da å bygge på Guds hus i Jerusalem. Og Guds profeter var med dem og støttet dem.",
-  "EZR.5.3": "På den tiden kom Tatnai, som var stattholder på den andre siden av elven, og Setar-Bosnai og embetsbrødrene deres til dem. De sa til dem: Hvem har gitt dere befaling om å bygge dette huset og sette i stand denne muren?",
-  "EZR.5.4": "Da sa vi til dem hva navn de menn hadde som bygget denne bygningen.",
-  "EZR.5.5": "Men Guds øye våket over jødenes eldste, slik at de ikke hindret dem i å bygge. De ville vente til saken var kommet inn for Darius, og de hadde fått brev fra ham om dette.",
-  "EZR.5.6": "Dette er en avskrift av det brevet som Tatnai, stattholderen på den andre siden av elven, og Setar-Bosnai og embetsbrødrene hans, myndighetene på den andre siden av elven, sendte til kong Darius;",
-  "EZR.5.7": "slik sto det skrevet i meldingen de sendte til ham: Kong Darius ønsker vi alt godt!",
-  "EZR.5.8": "Kongen skal vite at vi har gjort en reise til landskapet Juda, til den store Guds hus. Det blir nå bygd opp av store steiner, det blir lagt bjelker i veggene, og arbeidet blir gjort med iver og har god fremgang under deres hender.",
-  "EZR.5.9": "Så spurte vi de eldste der og sa til dem: Hvem har gitt dere befaling om å bygge dette huset og fullføre denne muren?",
-  "EZR.5.10": "Vi spurte dem også hva de hette, så vi kunne la deg få vite det, og vi kunne skrive opp navnene på de mennene som er deres overhoder.",
-  "EZR.5.11": "Dette var det svaret de ga oss: Vi er tjenere for himmelens og jordens Gud, og vi bygger opp igjen det huset som allerede for mange år siden var bygd her. Det var en stor konge i Israel som bygde det og fullførte det.",
-  "EZR.5.12": "Men fordi våre fedre hadde vakt himmelens Guds vrede, ga han dem i kaldeeren Nebukadnesars, kongen i Babels, hånd. Og han ødela dette huset og førte folket bort til Babel.",
-  "EZR.5.13": "Men i Kyros’, kongen i Babels første år ga kong Kyros befaling om å bygge opp igjen dette Guds hus.",
-  "EZR.5.14": "Kong Kyros tok endog ut av templet i Babel de karene av gull og sølv som hadde tilhørt Guds hus, og som Nebukadnesar hadde tatt ut av templet i Jerusalem og brakt til templet i Babel. Karene ble overgitt til en mann som hette Sjesbassar, som han hadde satt til stattholder.",
-  "EZR.5.15": "Og han sa til ham: Ta disse karene og dra av sted og sett dem inn i templet i Jerusalem. La Guds hus bli bygd opp igjen på sitt sted!",
-  "EZR.5.16": "Så kom da denne Sjesbassar og la grunnvollene til Guds hus i Jerusalem. Fra den tid og til nå har vi bygd på det, men det er ennå ikke fullført.",
-  "EZR.5.17": "Dersom nå kongen så synes, da la noen undersøke i de kongelige skattkamrene der i Babel om kong Kyros virkelig har gitt befaling om å bygge opp igjen dette Guds hus i Jerusalem. La oss så få vite hva som er kongens vilje i denne saken.",
-  "EZR.6.1": "Da ga kong Darius en befaling, og så gransket de arkivet som var lagt ned i skattkammeret i Babel.",
-  "EZR.6.2": "Og i borgen Ahmeta, som ligger i landskapet Media, ble det funnet en bokrull, og i den sto det skrevet så til minne:",
-  "EZR.6.3": "I kong Kyros’ første år ga kong Kyros dette påbud om Guds hus i Jerusalem: Huset skal bygges opp igjen, så det blir et sted hvor folk kan bære fram offer. Grunnvollene skal legges på ny. Det skal være seksti alen høyt og seksti alen bredt,",
-  "EZR.6.4": "med tre lag store steiner og ett lag nytt tømmer. Utgiftene skal betales av kongens hus.",
-  "EZR.6.5": "De karene av gull og sølv som tilhørte Guds hus, men som Nebukadnesar tok ut av templet i Jerusalem og førte til Babel, skal også gis tilbake, så de igjen kommer til sitt sted i templet i Jerusalem. De skal settes i Guds hus.",
-  "EZR.6.6": "Så skal da du, Tatnai, stattholder på den andre siden av elven, og du, Setar-Bosnai, og embetsbrødrene deres, myndighetene på den andre siden av elven, holde dere borte fra dette stedet.",
-  "EZR.6.7": "La arbeidet på dette Guds hus foregå uhindret! La jødenes stattholder og deres eldste bygge dette Guds hus på dets rette sted!",
-  "EZR.6.8": "Jeg gir nå befaling om hvordan dere skal gå fram mot disse jødenes eldste, så dette Guds hus kan bli bygd: Av de inntektene som kongen har av skatten fra landet på den andre siden av elven, skal omkostningene fullt ut betales til disse men-nene, så arbeidet ikke skal bli hindret.",
-  "EZR.6.9": "Og det som trengs, både kalver og værer og lam til brennoffer for himmelens Gud, hvete, salt, vin og olje, det skal bli gitt dem uavkortet dag for dag, etter oppgave fra prestene i Jerusalem,",
-  "EZR.6.10": "slik at de kan bære fram offer til en velbehagelig duft for himmelens Gud, og be for kongens og hans barns liv.",
-  "EZR.6.11": "Jeg gir også befaling om at dersom noen forandrer dette påbudet, så skal en bjelke rives ut av hans hus, og på den skal han henges opp og nagles fast. Huset hans skal gjøres til en skraphaug, fordi han har båret seg slik at.",
-  "EZR.6.12": "Måtte så den Gud som har latt sitt navn bo der, slå ned alle konger og folk som strekker ut sin hånd for å forandre dette påbudet og for å ødelegge dette Guds hus i Jerusalem! Jeg, Darius, har gitt denne befalingen, den skal utføres nøyaktig.",
-  "EZR.6.13": "- Så gjorde da Tatnai, stattholderen på den andre siden av elven, og Setar-Bosnai og embetsbrødrene deres nøyaktig slik som kong Darius hadde foreskrevet.",
-  "EZR.6.14": "Og jødenes eldste fortsatte å bygge og gjorde god fremgang, mens profeten Haggai og Sakarja, Iddos sønnesønn, støttet dem med sin profetiske tale. De bygde og fullførte arbeidet etter Israels Guds befaling, og etter Kyros’ og Darius’ og perserkongen Artaxerxes’ befaling.",
-  "EZR.6.15": "Så ble da huset fullt ferdig til den tredje dagen i måneden addar i det sjette året av kong Darius’ regjering.",
-  "EZR.6.16": "Og Israels barn, prestene og levittene og de andre som var kommet hjem fra fangenskapet, holdt høytid og innviet dette Guds hus med glede.",
-  "EZR.6.17": "Ved innvielsen av dette Guds hus ofret de hundre okser, to hundre værer, fire hundre lam og til syndoffer for hele Israel, tolv geitebukker, etter tallet på Israels stammer.",
-  "EZR.6.18": "De innsatte prestene etter deres skift og levittene etter deres avdelinger til å utføre gudstjenesten i Jerusalem, slik som det var foreskrevet i Moseboken.",
-  "EZR.6.19": "De som var kommet hjem fra fangenskapet, holdt så påske på den fjortende dagen i den første måneden.",
-  "EZR.6.20": "For prestene og levittene hadde renset seg og var alle som én rene. De slaktet påskelammet for alle som var kommet hjem og for sine brødre prestene og for seg selv.",
-  "EZR.6.21": "Så åt Israels barn påskelammet, både de som var kommet tilbake fra fangenskapet, og alle de som hadde skilt seg fra urenheten hos landets folk og hadde gitt seg i lag med dem for å søke Herren, Israels Gud.",
-  "EZR.6.22": "De holdt de usyrede brøds høytid i sju dager med glede. For Herren hadde gledet dem og vendt assyrerkongens hjerte til dem, så han støttet dem i arbeidet med Guds hus, Israels Guds hus.",
-  "EZR.7.1": "En tid senere, under perserkongen Artaxerxes’ regjering, dro Esra, sønn av Seraja, sønn av Asarja, sønn av Hilkia,",
-  "EZR.7.2": "sønn av Sjallum, sønn av Sadok, sønn av Akitub,",
-  "EZR.7.3": "sønn av Amarja, sønn av Asarja, sønn av Merajot,",
-  "EZR.7.4": "sønn av Serahja, sønn av Ussi, sønn av Bukki,",
-  "EZR.7.5": "sønn av Abisjua, sønn av Pinehas, sønn av Eleasar, sønn av ypperstepresten Aron -",
-  "EZR.7.6": "denne Esra dro opp fra Babel. Han var en skriftlærd mann, vel kjent med Mose lov, den som Herren, Israels Gud, hadde gitt. Kongen ga ham alt det han ba om, for Herren hans Gud holdt sin hånd over ham.",
-  "EZR.7.7": "Noen av Israels barn, og av prestene, levittene, sangerne, dørvaktene og tempeltjenerne dro med ham opp til Jerusalem i kong Artaxerxes’ sjuende år.",
-  "EZR.7.8": "Han kom til Jerusalem i den femte måneden, det var i kongens sjuende år.",
-  "EZR.7.9": "På den første dagen i den første måneden begynte han å ordne alt til ferden fra Babel, og på den første dagen i den femte måneden kom han til Jerusalem. For hans Gud holdt sin gode hånd over ham.",
-  "EZR.7.10": "For Esra hadde vendt sitt hjerte til å granske Herrens lov og gjøre etter den, og til å lære folk lov og rett i Israel.",
-  "EZR.7.11": "Dette er en avskrift av det brevet som kong Artaxerxes ga presten Esra, den skriftlærde, han som var kyndig i de bud og lover som Herren hadde gitt Israel:",
-  "EZR.7.12": "Artaxerxes, kongenes konge, til presten Esra, han som er fullært i himmelens Guds lov, og så videre.",
-  "EZR.7.13": "Jeg har gitt den befaling at alle de av Israels folk og av dets prester og levitter i riket mitt, som har lyst til å dra til Jerusalem, kan følge med deg.",
-  "EZR.7.14": "For kongen og hans sju rådgivere sender deg for å undersøke om forholdene i Juda og Jerusalem er i samsvar med din Guds lov, som du har i din hånd.",
-  "EZR.7.15": "Du skal føre dit det sølvet og gullet som kongen og rådgiverne hans frivillig har gitt Israels Gud, han som har sin bolig i Jerusalem.",
-  "EZR.7.16": "Likeså skal du ta med deg alt det sølv og gull som du kan få i hele Babels landskap, og de frivillige gaver som folket og prestene vil gi til sin Guds hus i Jerusalem.",
-  "EZR.7.17": "Disse pengene skal du bruke samvittighetsfullt og kjøpe okser, værer og lam sammen med de matoffer og drikkoffer som hører til. Og du skal ofre dem på alteret i deres Guds hus i Jerusalem.",
-  "EZR.7.18": "Og hva du og brødrene dine finner det riktig å gjøre med det sølvet og gullet som blir til overs, det kan dere gjøre etter deres Guds vilje.",
-  "EZR.7.19": "De kar som du har fått til tjenesten i din Guds hus, skal du gi fra deg for Jerusalems Guds åsyn.",
-  "EZR.7.20": "Og det som ellers trengs til din Guds hus, og som du må betale, det skal du ta av kongens skattkammer.",
-  "EZR.7.21": "Og jeg, kong Artaxerxes, gir den befaling til alle skattmestrene på den andre siden av elven, at alt det presten Esra, han som er kyndig i himmelens Guds lov, krever av dere, det skal dere la ham få fullt ut,",
-  "EZR.7.22": "inntil ett hundre talenter sølv, hundre kor hvete, hundre bat vin og hundre bat olje, og så mye salt som det trengs.",
-  "EZR.7.23": "Alt det himmelens Gud befaler, det skal nøyaktig utføres for himmelens Guds hus, så det ikke skal komme vrede over kongens og hans søn-ners rike.",
-  "EZR.7.24": "Dere skal vite at ingen skal ha myndighet til å legge skatt, toll eller veipenger på noen av prestene, levittene, sangerne, dørvaktene, tempeltjenerne eller noen annen som har en tjeneste ved dette Guds hus.",
-  "EZR.7.25": "Og du, Esra, skal etter den visdom du har fått av din Gud, oppnevne dommere og lovkyndige til å dømme alt folket på den andre siden av elven, alle dem som kjenner din Guds lover. Og om noen ikke kjenner dem, da skal dere lære ham å kjenne dem.",
-  "EZR.7.26": "Enhver som ikke gjør etter din Guds lov og etter kongens lov, skal straks stilles for retten, enten det nå fører til døden eller til landflyktighet eller til bøter eller til fengsel.",
-  "EZR.7.27": "Lovet være Herren, våre fedres Gud, som ga kongen noe slikt i sinne, så Herrens hus i Jerusalem kunne bli prydet.",
-  "EZR.7.28": "Han lot meg finne nåde hos kongen og rådgiverne hans og hos alle kongens mektige høvdinger. Jeg fattet mot, fordi Herren min Gud holdt sin hånd over meg. Og jeg fikk samlet noen av Israels overhoder til å dra opp sammen med meg.",
-  "EZR.8.1": "Dette er de familieoverhoder som under kong Artaxerxes’ regjering dro opp med meg fra Babylon, og som her skal nevnes etter sine ætter.",
-  "EZR.8.2": "Av Pinehas’ barn Gersjom. Av Itamars barn Daniel. Av Davids barn Hattusj.",
-  "EZR.8.3": "Av Sjekanjas barn - av Parosjs barn - Sakarja, og med ham førtes inn i ættetavlen ett hundre og femti menn.",
-  "EZR.8.4": "Av Pahat-Moabs barn Eljoenai, Serahjas sønn, og med ham to hundre menn.",
-  "EZR.8.5": "Av Sjekanjas barn Jahasiels sønn, og med ham tre hundre menn.",
-  "EZR.8.6": "Av Adins barn Ebed, Jonatans sønn, og med ham femti menn.",
-  "EZR.8.7": "Av Elams barn Jesaja, Ataljas sønn, og med ham sytti menn.",
-  "EZR.8.8": "Av Sefatjas barn Sebadja, Mikaels sønn, og med ham åtti menn.",
-  "EZR.8.9": "Av Joabs barn Obadja, Jehiels sønn, og med ham to hundre og atten menn.",
-  "EZR.8.10": "Av Sjelomits barn Josifjas sønn, og med ham ett hundre og seksti menn.",
-  "EZR.8.11": "Av Bebais barn Sakarja, Bebais sønn, og med ham tjueåtte menn.",
-  "EZR.8.12": "Av Asgads barn Johanan, Hakkatans sønn, og med ham ett hundre og ti menn.",
-  "EZR.8.13": "Av Adonikams barn noen som kom senere - de hette Elifelet, Je’uel og Sjemaja, og med dem seksti menn.",
-  "EZR.8.14": "Av Bigvais barn Utai og Sabbub, og med dem sytti menn.",
-  "EZR.8.15": "Jeg samlet dem ved den elven som løper ut i Ahava. Der lå vi i leir i tre dager. Men da jeg ga nøyere akt på folket og på prestene, fant jeg ingen av Levis barn der.",
-  "EZR.8.16": "Da sendte jeg bud etter overhodene Elieser og Ariel og Sjemaja og Elnatan og Jarib og Elnatan og Natan og Sakarja og Mesjullam og lærerne Jojarib og Elnatan.",
-  "EZR.8.17": "Jeg sendte dem ut til Iddo, overhodet i Kasifja. Jeg la dem ord i munnen så de kunne overtale Iddo og hans bror, tempeltjenerne i Kasifja, til å sende oss tjenere for vår Guds hus.",
-  "EZR.8.18": "Og da Gud holdt sin gode hånd over oss, sendte de oss en forstandig mann som hette Sjerebja, en etterkommer av Mahli, som var sønn av Israels sønn Levi, og hans sønner og hans brødre, atten i tallet.",
-  "EZR.8.19": "De sendte oss også Hasjabja og med ham Jesaja av Meraris barn, brødrene hans og deres sønner, tjue i tallet.",
-  "EZR.8.20": "Og av de tempeltjenerne som David og høvdingene hans hadde gitt levittene til tjenere, sendte de oss to hundre og tjue menn, som alle var nevnt ved navn.",
-  "EZR.8.21": "Der ved Ahava-kanalen lot jeg så utrope en faste, for at vi skulle ydmyke oss for vår Guds åsyn og be ham om en lykkelig reise for oss og våre barn og all vår eiendom.",
-  "EZR.8.22": "For jeg unnså meg for å be kongen om krigsmakt og hestfolk til å hjelpe oss mot fiender på veien. Vi hadde jo sagt til kongen: Vår Gud holder sin hånd over alle dem som søker ham, og lar det gå dem vel, men hans makt og hans vrede er over alle dem som forlater ham.",
-  "EZR.8.23": "Så fastet vi og ba vår Gud om hjelp, og han bønnhørte oss.",
-  "EZR.8.24": "Siden tok jeg ut tolv av de øverste prestene og Sjerebja og Hasjabja, og med dem ti av deres brødre.",
-  "EZR.8.25": "Jeg veide opp for dem sølvet og gullet og karene, den gaven til vår Guds hus som kongen og hans rådgivere og høvdinger og alle de israelittene som bodde der, hadde gitt.",
-  "EZR.8.26": "Jeg veide opp for dem seks hundre og femti talenter sølv, og sølvkar til en verdi av hundre talenter, dertil hundre talenter gull",
-  "EZR.8.27": "og tjue gullbeger til en verdi av tusen dariker, og to kar av fint skinnende kobber, kostelige som gull.",
-  "EZR.8.28": "Og jeg sa til dem: Dere er helliget til Herren, og karene er helliget til ham, og sølvet og gullet er en frivillig gave til Herren, deres fedres Gud.",
-  "EZR.8.29": "Våk nå over det og ta vare på det til dere kan veie det ut i Jerusalem for de øverste prestene og levittene og for Israels familieoverhoder, i kamrene i Herrens hus.",
-  "EZR.8.30": "Så tok prestene og levittene imot sølvet og gullet og karene for å føre det til Jerusalem, til vår Guds hus.",
-  "EZR.8.31": "Vi brøt opp fra Ahava-kanalen på den tolvte dagen i den første måneden for å dra til Jerusalem. Og vår Gud holdt sin hånd over oss og fridde oss underveis fra fiender og folk som lå i bakhold mot oss.",
-  "EZR.8.32": "Da vi kom til Jerusalem, hvilte vi der i tre dager.",
-  "EZR.8.33": "Men på den fjerde dagen ble sølvet og gullet og karene veid i vår Guds hus og overgitt til presten Meremot, Urias sønn. Sammen med ham var Eleasar, sønn av Pinehas, til stede og tok imot, og likeså levittene Josabad, sønn av Josva, og Noadja, sønn av Binnui.",
-  "EZR.8.34": "Det ble alt overgitt etter tall og vekt, og hele vekten ble på samme tid opptegnet.",
-  "EZR.8.35": "De bortførte som var kommet hjem fra fangenskapet, ofret brennoffer til Israels Gud. De ofret tolv okser for hele Israel, nittiseks værer, syttisju lam og tolv syndofferbukker, alt ble ofret som brennoffer til Herren.",
-  "EZR.8.36": "Så overbrakte de kongens befalinger til kongens satraper og landshøvdinger på den andre siden av elven, og de ga hjelp og støtte både til folket og til Guds hus.",
-  "EZR.9.1": "Da alt dette var fullført, kom høvdingene til meg og sa: Verken Israels folk eller prestene eller levittene har skilt seg fra folkene rundt om i landene, og de avskyelige skikkene deres - fra kana’aneerne, hetittene, ferisittene, jebusittene, ammonittene, moabittene, egypterne og amorittene.",
-  "EZR.9.2": "De har tatt koner for seg og sønnene sine blant deres døtre, så den hellige ætt har blandet seg med folkene i landene. Og høvdingene og forstanderne har vært de første til å gjøre seg skyldig i denne utroskapen.",
-  "EZR.9.3": "Da jeg hørte dette, flerret jeg klærne og ytterkappen min, og jeg rev hår ut av hodet og skjegget og satt i stum sorg.",
-  "EZR.9.4": "Da kom alle de som fryktet Israels Guds ord, og de samlet seg omkring meg på grunn av utroskapen hos dem som var kommet hjem. Jeg satt i stum sorg helt til kveldsofferet skulle bæres fram.",
-  "EZR.9.5": "Men ved tiden for kveldsofferet reiste jeg meg fra min ydmyke stilling, i mine flerrede klær og ytterkappe. Og jeg kastet meg på kne og rakte ut mine hender til Herren min Gud,",
-  "EZR.9.6": "og jeg sa: Min Gud! Jeg er så skamfull og ydmyket at jeg ikke kan løfte mitt ansikt opp mot deg, min Gud! For våre misgjerninger har vokst oss over hodet, og vår skyld er blitt så stor at den når til himmelen.",
-  "EZR.9.7": "Fra våre fedres dager har vi vært i stor skyld like til denne dagen. På grunn av våre misgjerninger har vi - sammen med våre konger og prester - vært overgitt i fremmede kongers hånd, under sverdet, i fangen-skap, til plyndring og vanære, som det viser seg på denne dagen.",
-  "EZR.9.8": "Men nå, for et lite øyeblikk, er nåde blitt oss til del fra Herren vår Gud, så han har spart og frelst en rest av oss og gitt oss et fotfeste på sitt hellige sted, for at vår Gud kunne la våre øyne lyse og gi oss litt ny livskraft i vår trelldom.",
-  "EZR.9.9": "For treller er vi! Men vår Gud har ikke forlatt oss i vår trelldom. Han har latt oss finne nåde hos Persias konger, så de ga oss ny livskraft til å bygge opp vår Guds hus og gjenreise det som lå i ruiner. Og de ga oss et trygt bosted i Juda og i Jerusalem.",
-  "EZR.9.10": "Men, vår Gud! Hva skal vi si etter alt dette? For vi har forlatt dine bud,",
-  "EZR.9.11": "dem som du ga ved dine tjenere profetene da du sa: Det landet som dere drar inn i for å ta i eie, er et land som er blitt urent ved de fremmede folks urenhet og ved de avskyelige ting som de i sin urenhet har fylt landet med fra ende til annen.",
-  "EZR.9.12": "Derfor skal dere ikke gi døtrene deres til disse folks sønner eller ta koner til sønnene deres blant disse folks døtre. Dere skal aldri søke deres velferd og lykke. Da skal dere bli sterke og få ete av landets gode ting og la deres barn få det til eie for all tid.",
-  "EZR.9.13": "Etter alt det som er kommet over oss på grunn av våre onde gjerninger og vår store skyld, og etter at du, vår Gud, har spart oss og straffet oss langt mindre enn vi fortjente for vår misgjerning, og latt en rest av oss som denne her bli frelst -",
-  "EZR.9.14": "skulle vi da nå igjen bryte dine bud og ta oss ektefeller blant folk som gjør seg skyldig i slike avskyelige ting? Ville du ikke da bli vred på oss, og gjøre ende på oss, så det ikke var noen som ble frelst eller slapp unna?",
-  "EZR.9.15": "Herre, Israels Gud! Du er rettferdig. Vi er bare en levning, en rest som er blitt frelst, som det kan bli sett på denne dag. Se, vi er nå her for ditt åsyn i vår syndeskyld. For etter det som nå har hendt, kan ingen bli stående for deg.",
-  "EZR.10.1": "Mens nå Esra lå gråtende foran Guds hus og ba og bekjente, samlet det seg om ham en meget stor skare av Israels folk, både menn og kvinner og barn. Og folket gråt sårt.",
-  "EZR.10.2": "Da tok Sjekanja, Jehiels sønn, av Olams barn, til orde og sa til Esra: Vi har vært troløse mot vår Gud og tatt fremmede kvinner av de andre folk her i landet til koner. Men ennå er det håp for Israel i denne saken.",
-  "EZR.10.3": "Så la oss nå gjøre en pakt med vår Gud at vi skal sende fra oss alle disse kvinner og barna deres, for dette rådet er fra Herren og fra de menn som har ærefrykt for vår Guds bud. La oss gå fram etter loven!",
-  "EZR.10.4": "Stå opp! For det er du som må sørge for dette. Vi skal hjelpe deg. Vær frimodig og sett det i verk!",
-  "EZR.10.5": "Da sto Esra opp og lot de øverste prestene og levittene og alle Israels høvdinger sverge på at de ville gjøre som det var sagt. Og de sverget på det.",
-  "EZR.10.6": "Så gikk Esra bort fra plassen foran Guds hus, og han gikk inn i Johanans, Eljasjibs sønns kammer. Da han var kommet dit, kunne han verken ete eller drikke, så dypt sørget han over utroskapen hos dem som var kommet hjem.",
-  "EZR.10.7": "Deretter sendte de ut en melding i Juda og Jerusalem til alle dem som var kommet hjem, at de skulle samles i Jerusalem.",
-  "EZR.10.8": "Den som ikke kom innen tre dager, slik som høvdingene og de eldste hadde fastsatt, skulle få alt sitt gods bannlyst, og han selv skulle bli utelukket fra de hjemkomnes menighet.",
-  "EZR.10.9": "Og alle Judas og Benjamins menn samlet seg i Jerusalem innen tre dager var gått. Det var den tjuende dagen i den niende måneden. Hele folket satt på plassen ved Guds hus og skalv både for sakens skyld og på grunn av regnbygene.",
-  "EZR.10.10": "Da sto presten Esra opp og sa til dem: Dere har vært troløse og tatt fremmede kvinner til koner. Dermed har dere økt Israels skyld.",
-  "EZR.10.11": "Så bekjenn det nå for Herren, fedrenes Gud, og gjør hans vilje! Skill dere fra de andre folk her i landet og fra de fremmede kvinnene!",
-  "EZR.10.12": "Da svarte hele folket og sa med høy røst: Ja, som du har sagt, så er vi skyldige til å gjøre.",
-  "EZR.10.13": "Men folket er tallrikt, og nå er det regntid, så vi er ikke i stand til å stå her ute. Dette er et arbeid som ikke kan utføres på en dag eller to. For det er mange av oss som har syndet i denne saken.",
-  "EZR.10.14": "La derfor høvdingene våre handle på hele folkets vegne. Og la alle dem i byene våre som har tatt fremmede kvinner til koner, møte til fastsatte tider sammen med de eldste og dommerne i hver by, til vi får vendt vår Guds brennende vrede bort fra oss, og denne saken er avgjort.",
-  "EZR.10.15": "Bare Jonatan, Asaels sønn, og Jahseja, Tikvas sønn, satte seg imot dette, og Mesjullam og levitten Sjabbetai støttet dem.",
-  "EZR.10.16": "De som var kommet hjem fra fangenskapet, gjorde da som det ble sagt. De valgte presten Esra og noen menn som var overhoder for sine familier, og som alle var nevnt ved navn. De trådte sammen på den første dagen i den tiende måneden for å granske saken.",
-  "EZR.10.17": "Og de ble ferdige med alle de menn som hadde tatt fremmede kvinner til koner, til den første dagen i den første måneden.",
-  "EZR.10.18": "Blant prestenes sønner fant de noen som hadde tatt fremmede kvinner til koner. Det var: av Josvas, Josadaks sønns sønner og hans brødre: Ma’aseja og Elieser og Jarib og Gedalja.",
-  "EZR.10.19": "De ga sin hånd på at de ville sende fra seg disse sine koner, og ofre en vær av buskapen som skyldoffer for den skyld de hadde pådratt seg.",
-  "EZR.10.20": "Av Immers barn var det Hanani og Sebadja.",
-  "EZR.10.21": "Av Harims barn var det Ma’aseja og Elia og Sjemaja og Jehiel og Ussia.",
-  "EZR.10.22": "Av Pasjhurs barn var det Eljoenai, Ma’aseja, Ismael, Netanel, Josabad og Elasa.",
-  "EZR.10.23": "Av levittene var det Josabad og Sjime’i og Kelaja, det er Kelita, Petaja, Juda og Elieser.",
-  "EZR.10.24": "Av sangerne var det Eljasjib. Av dørvokterne var det Sjallum og Telem og Uri.",
-  "EZR.10.25": "Av Israel ellers var det: Av Parosjs barn Ramja og Jissija og Malkija og Mijamin og Eleasar og Malkija og Benaja.",
-  "EZR.10.26": "Av Elams barn var det: Mattanja, Sakarja, Jehiel, Abdi, Jeremot og Elia.",
-  "EZR.10.27": "Av Sattus barn var det: Eljoenai, Eljasjib, Mattanja og Jeremot og Sabad og Asisa.",
-  "EZR.10.28": "Av Bebais barn var det Johanan, Hananja, Sabbai og Atlai.",
-  "EZR.10.29": "Av Banis barn var det Mesjullam, Malluk og Adaja og Jasjub og Sjeal og Jeremot.",
-  "EZR.10.30": "Av Pahat-Moabs barn var det Adna og Kelal, Benaja, Ma’aseja, Mattanja, Besalel og Binnui og Manasse.",
-  "EZR.10.31": "Videre av Harims barn: Elieser, Jissija, Malkija, Sjemaja, Simeon,",
-  "EZR.10.32": "Benjamin, Malluk og Sjemarja.",
-  "EZR.10.33": "Av Hasjums barn var det Mattenai, Mattatta, Sabad, Elifelet, Jeremai, Manasse og Sjime’i.",
-  "EZR.10.34": "Av Banis barn var det Ma’adai, Amram, Uel,",
-  "EZR.10.35": "Benaja, Bedeja, Keluhi,",
-  "EZR.10.36": "Vanja, Meremot, Eljasjib,",
-  "EZR.10.37": "Mattanja, Mattenai, Ja’asu,",
-  "EZR.10.38": "Bani, Binnui, Sjime’i,",
-  "EZR.10.39": "Sjelemja, Natan, Adaja,",
-  "EZR.10.40": "Maknadbai, Sjasjai, Sjarai,",
-  "EZR.10.41": "Asarel, Sjelemja, Sjemarja,",
-  "EZR.10.42": "Sjallum, Amarja og Josef.",
-  "EZR.10.43": "Av Nebos barn var det Je’iel, Mattitja, Sabad, Sebina, Jaddu, Joel og Benaja.",
-  "EZR.10.44": "Alle disse hadde tatt fremmede kvinner til koner, og blant dem var det noen som hadde fått barn."
+  "EZR.1.1": {
+    "text": "Det var i perserkongen Kyros’ første år. For at Herrens ord gjennom Jeremias munn skulle oppfylles, vakte Herren slike tanker i perserkongen Kyros’ ånd at han lot utrope i hele sitt rike og dessuten kunngjøre ved en skrivelse:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:13. 2Krøn 36:22,23. Jer 25:11 ff. 29:10.",
+        "refs": []
+      }
+    ],
+    "section": "Jødene får vende tilbake til landet sitt"
+  },
+  "EZR.1.2": {
+    "text": "Så sier Kyros, kongen i Persia: Herren, himmelens Gud, har gitt meg alle jordens riker. Og han har pålagt meg å bygge et hus for ham i Jerusalem i Juda.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.1.3": {
+    "text": "Er det noen blant dere som hører til hans folk, må så hans Gud være med ham! Han kan dra opp til Jerusalem i Juda og bygge Herrens, Israels Guds hus! Han er den Gud som bor i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.1.4": {
+    "text": "Alle de overlevende skal få hjelp av befolkningen på det stedet hvor de oppholder seg som fremmede. En skal gi dem sølv og gull, gods og buskap, og dessuten frivillige gaver til Guds hus i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.1.5": {
+    "text": "Og Judas og Benjamins familieoverhoder, likesom prestene og levittene, alle de som hadde fått sin ånd vakt av Gud, gjorde seg da klar til å dra opp for å bygge Herrens hus i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Templets hellige kar blir gitt tilbake"
+  },
+  "EZR.1.6": {
+    "text": "Alle naboene hjalp dem med sølvkar og gull og gods og buskap og verdifulle ting, i tillegg til alle frivillige gaver.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.1.7": {
+    "text": "Kong Kyros lot hente fram de hellige karene som hadde tilhørt Herrens hus, men som Nebukadnesar hadde ført bort fra Jerusalem og satt inn i sin guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:14. 2Krøn 36:7,18. Jer 27:19-22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.1.8": {
+    "text": "Kongen i Persia, Kyros, lot nå disse tingene hente fram under tilsyn av skattmesteren Mitredat. Han talte dem opp og overga dem til Sjesbassar, Judas fyrste.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:8. 5:2,16.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*mest sannsynlig et annet navn på Serubabel.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.1.9": {
+    "text": "Tallet på dem var: tretti gullfat, tusen sølvfat, tjueni offerkniver,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.1.10": {
+    "text": "tretti gullbeger, fire hundre og ti sølvbeger av nest beste slag, og tusen andre kar.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.1.11": {
+    "text": "Karene av gull og sølv var i alt fem tusen fire hundre. Alt dette førte Sjesbassar med seg da de bortførte dro opp fra Babel til Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.1": {
+    "text": "Dette er de menn fra landskapet Juda som dro hjem fra fangenskapet i det fremmede landet, de som kongen i Babel, Nebukadnesar, hadde bortført til Babel. Nå vendte de tilbake til Jerusalem og Juda, hver til sin by.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Neh 7:6 ff. *Juda var på denne tiden",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "et landskap eller provins i det persiske riket.",
+        "refs": []
+      }
+    ],
+    "section": "Oversikt over dem som vendte tilbake"
+  },
+  "EZR.2.2": {
+    "text": "De fulgte med Serubabel, Josva, Nehemja, Seraja, Re’elaja, Mordekai, Bilsjan, Mispar, Bigvai, Rehum og Ba’ana. - Dette er tallet på Israels menn:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*Serubabel, sønnesønn av kong Jojakin.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.2.3": {
+    "text": "Parosjs barn, to tusen ett hundre og syttito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.4": {
+    "text": "Sefatjas barn, tre hundre og syttito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.5": {
+    "text": "Arahs barn, sju hundre og syttifem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.6": {
+    "text": "Pahat-Moabs barn av Josvas og Joabs etterkommere, to tusen åtte hundre og tolv.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.7": {
+    "text": "Elams barn, ett tusen to hundre og femtifire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.8": {
+    "text": "Sattus barn, ni hundre og førtifem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.9": {
+    "text": "Sakkais barn, sju hundre og seksti.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.10": {
+    "text": "Banis barn, seks hundre og førtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.11": {
+    "text": "Bebais barn, seks hundre og tjuetre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.12": {
+    "text": "Asgads barn, ett tusen to hundre og tjueto.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.13": {
+    "text": "Adonikams barn, seks hundre og sekstiseks.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.14": {
+    "text": "Bigvais barn, to tusen og femtiseks.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.15": {
+    "text": "Adins barn, fire hundre og femtifire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.16": {
+    "text": "Aters barn av Hiskias ætt, nittiåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.17": {
+    "text": "Besais barn, tre hundre og tjuetre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.18": {
+    "text": "Joras barn, ett hundre og tolv.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.19": {
+    "text": "Hasjums barn, to hundre og tjuetre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.20": {
+    "text": "Gibbars barn, nittifem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.21": {
+    "text": "Betlehems barn, ett hundre og tjuetre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.22": {
+    "text": "Netofas menn, femtiseks.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.23": {
+    "text": "Anatots menn, ett hundre og tjueåtte.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 1:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.2.24": {
+    "text": "Asmavets barn, førtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.25": {
+    "text": "Kirjat-Arims, Kefiras og Be’erots barn, sju hundre og førtitre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.26": {
+    "text": "Ramas og Gebas barn, seks hundre og tjueen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.27": {
+    "text": "Mikmas’ menn, ett hundre og tjueto.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.28": {
+    "text": "Betels og Ais menn, to hundre og tjuetre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.29": {
+    "text": "Nebos barn, femtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.30": {
+    "text": "Magbis’ barn, ett hundre og femtiseks.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.31": {
+    "text": "Den andre Elams barn, ett tusen to hundre og femtifire.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.2.32": {
+    "text": "Harims barn, tre hundre og tjue.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.33": {
+    "text": "Lods, Hadids og Onos barn, sju hundre og tjuefem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.34": {
+    "text": "Jerikos barn, tre hundre og førtifem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.35": {
+    "text": "Sena’as barn, tre tusen seks hundre og tretti.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.36": {
+    "text": "Av prestene: Jedajas barn av Josvas hus, ni hundre og syttitre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.37": {
+    "text": "Immers barn, ett tusen og femtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.38": {
+    "text": "Pasjhurs barn, ett tusen to hundre og førtisju.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.39": {
+    "text": "Harims barn, ett tusen og sytten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.40": {
+    "text": "Av levittene: Josvas og Kadmiels barn av Hodavjas etterkommere, syttifire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.41": {
+    "text": "Av sangerne: Asafs barn, ett hundre og tjueåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.42": {
+    "text": "Av dørvaktenes barn: Sjallums barn, Aters barn, Talmons barn, Akkubs barn, Hatitas barn, Sobais barn - i alt ett hundre og trettini.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.43": {
+    "text": "Av tempeltjenerne: Sihas barn, Hasufas barn, Tabbaots barn,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Krøn 9:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.2.44": {
+    "text": "Keros’ barn, Siahas barn, Padons barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.45": {
+    "text": "Lebanas barn, Hagabas barn, Akkubs barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.46": {
+    "text": "Hagabs barn, Sjamlais barn, Hanans barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.47": {
+    "text": "Giddels barn, Gahars barn, Reajas barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.48": {
+    "text": "Resins barn, Nekodas barn, Gassams barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.49": {
+    "text": "Ussas barn, Paseahs barn, Besais barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.50": {
+    "text": "Asjnas barn, Me’unims barn, Nefisims barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.51": {
+    "text": "Bakbuks barn, Hakufas barn, Harhurs barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.52": {
+    "text": "Basluts barn, Mehidas barn, Harsjas barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.53": {
+    "text": "Barkos’ barn, Siseras barn, Tamahs barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.54": {
+    "text": "Nesiahs barn, Hatifas barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.55": {
+    "text": "Av Salomos tjeneres barn: Sotais barn, Hassoferets barn, Perudas barn,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 9:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.2.56": {
+    "text": "Ja’alas barn, Darkons barn, Giddels barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.57": {
+    "text": "Sefatjas barn, Hattils barn, Pokeret-Hassebajims barn, Amis barn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.58": {
+    "text": "Alle tempeltjenerne og Salomos tjeneres barn var til sammen tre hundre og nittito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.59": {
+    "text": "Dette er de som dro hjem fra Tel-Melah, Tel-Harsja, Kerub, Addan og Immer, men ikke kunne oppgi sin familie og sin ætt, eller om de var av Israel:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.60": {
+    "text": "Delajas barn, Tobias’ barn, Nekodas barn, seks hundre og femtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.61": {
+    "text": "Og av prestenes barn: Habajas barn, Hakkos’ barn, Barsillais barn, han som hadde tatt en av gileaditten Barsillais døtre til ektefelle og var blitt oppkalt etter dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Sam 19:31.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.2.62": {
+    "text": "Disse lette etter ættelistene sine, men de fantes ikke. De ble da utelukket fra prestedømmet som uverdige til det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.63": {
+    "text": "Stattholderen sa til dem at de ikke skulle ete av det høyhellige, før det sto fram en prest med urim og tummim.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 8:8. 4Mos 27:21.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*Serubabel, Hag 1:1. 2:2. **Se Ordforklaringer",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.2.64": {
+    "text": "Hele menigheten var i alt førtito tusen tre hundre og seksti,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.65": {
+    "text": "i tillegg til deres tjenere og tjenestepiker, som var sju tusen tre hundre og trettisju. De hadde også med seg to hundre sangere og sangerinner.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.66": {
+    "text": "De hadde sju hundre og trettiseks hester, to hundre og førtifem muldyr,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.67": {
+    "text": "fire hundre og trettifem kameler og seks tusen sju hundre og tjue esler.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.68": {
+    "text": "Da de kom til Herrens hus i Jerusalem, var det noen av familieoverhodene som ga frivillige gaver til Guds hus, så det kunne bli gjenreist på sitt gamle sted.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.69": {
+    "text": "Etter evne ga de til arbeidskassen: sekstien tusen dariker i gull og fem tusen miner i sølv, dessuten ett hundre prestekapper.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.2.70": {
+    "text": "Både prestene og levittene og noen av det menige folket, og sangerne og dørvaktene og tempeltjenerne bosatte seg i sine egne byer, og hele det øvrige Israel bosatte seg i sine byer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.3.1": {
+    "text": "Da den sjuende måneden kom, og Israels barn hadde slått seg ned i sine byer, samlet folket seg som én mann i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Josva og Serubabel bygger alteret, og gjenreiser offertjenesten"
+  },
+  "EZR.3.2": {
+    "text": "Og Josva, Josadaks sønn, og hans brødre prestene og Serubabel, Sjealtiels sønn, og hans brødre tok til å bygge alteret for Israels Gud for å ofre brennoffer på det, slik det står skrevet i Guds mann Mose lov.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:2. 3Mos 6:2 ff. 5Mos 12:13,14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.3.3": {
+    "text": "Så reiste de alteret på dets gamle sted, enda de var redde for de folkene som bodde der i landet. Og de ofret på det brennoffer til Herren, både morgen-brennoffer og kvelds-brennoffer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 28:4. 1Krøn 16:40.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.3.4": {
+    "text": "Så feiret de løvhyttefesten, slik som det er foreskrevet, og ofret brennoffer hver dag etter det fastsatte tall og på den måte loven befaler, hver dag de offer som var foreskrevet for den dagen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 23:34 ff. 4Mos 29:12 ff. Neh 8:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.3.5": {
+    "text": "Siden ofret de det daglige brennoffer og de ofrene som hørte til nymånedagene og alle Herrens hellige høytider, og likeså hver gang noen kom med et frivillig offer til Herren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.3.6": {
+    "text": "Fra den første dagen i den sjuende måneden begynte de å ofre brennoffer til Herren, alt før grunnvollen til Herrens tempel var lagt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.3.7": {
+    "text": "Så ga de penger til steinhoggerne og tømmermennene, og de ga mat og drikke og olje til sidonierne og tyrierne for at de skulle føre sedertømmer fra Libanon sjøveien til Jaffa, etter den fullmakt som kongen i Persia, Kyros, hadde gitt dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 2:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.3.8": {
+    "text": "I det andre året etter at de var kommet til Guds hus i Jerusalem, i den andre måneden, tok de fatt på verket - Serubabel, Sjealtiels sønn, og Josva, Josadaks sønn, med deres andre brødre, prestene og levittene, og alle de som var kommet hjem til Jerusalem fra fangenskapet. De satte levittene fra tjueårsalderen og oppover til å føre tilsyn med arbeidet på Herrens hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Grunnvollen for templet blir lagt"
+  },
+  "EZR.3.9": {
+    "text": "Josva med sine sønner og brødre og Kadmiel med sine sønner, Hodavjas etterkommere, sto alle som én og hadde tilsyn med dem som utførte arbeidet på Guds hus. Det samme gjorde Henadads etterkommere med sine sønner og brødre. De hørte også til levittene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:40.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.3.10": {
+    "text": "Da bygningsmennene la grunnvollen til Herrens tempel, ble prestene stilt opp i fullt skrud med trompeter, og de levittene som var Asafs etterkommere, med cymbler. De skulle lovprise Herren, slik som Israels konge David hadde foreskrevet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 29:25,26.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.3.11": {
+    "text": "De sang lov og pris for Herren, fordi han er god, og hans miskunnhet mot Israel varer til evig tid. Og alt folket brøt ut i et stort fryderop og priste Herren fordi grunnvollen var lagt til Herrens hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 5:13. 7:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.3.12": {
+    "text": "Men mange av prestene og levittene og familieoverhodene - de gamle som hadde sett det første huset, gråt høyt da de så dette huset bli grunnlagt. Men mange jublet høyt av glede.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hag 2:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.3.13": {
+    "text": "Folket kunne ikke skjelne lyden av gledesjubelen fra lyden av folkets gråt, for folket jublet så høyt at det hørtes lang vei.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.1": {
+    "text": "Judas og Benjamins motstandere fikk nå høre at de som var kommet hjem, var i ferd med å bygge et tempel for Herren, Israels Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Hindringer i arbeidet med templet"
+  },
+  "EZR.4.2": {
+    "text": "De kom da til Serubabel og til slektenes overhoder og sa til dem: La oss få være med dere og bygge! For vi søker deres Gud likesom dere selv, og vi har ofret til ham helt fra syrerkongen Asarhaddons dager, han som førte oss hit!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 17:24,32,41.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.4.3": {
+    "text": "Da svarte Serubabel og Josva og de andre overhodene i Israel: Det er ikke sammen med dere vi skal bygge et hus for vår Gud. Men vi alene skal bygge huset for Herren, Israels Gud, slik som kong Kyros, kongen av Persia, har befalt oss.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.4": {
+    "text": "Men de andre folkene som bodde der i landet, gjorde Judas folk motløse og skremte dem fra å bygge.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.5": {
+    "text": "De leide rådgivere for å motarbeide dem, og slik fikk de hindret tiltakene deres så lenge perserkongen Kyros levde, og siden helt til perserkongen Darius tiltrådte regjeringen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.6": {
+    "text": "Da Ahasverus var konge, i begynnelsen av hans regjeringstid, skrev folket i landet en klage mot innbyggerne i Juda og Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.7": {
+    "text": "Og i Artaxerxes’ dager skrev Bisjlam, Mitredat, Tabe’el og hans andre embetsbrødre et brev til Artaxerxes, kongen i Persia. Brevet var skrevet med arameisk skrift og oversatt til arameisk.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.8": {
+    "text": "Rådsherren Rehum og statsskriveren Sjimsjai skrev et brev mot Jerusalem til Artaxerxes, og brevet hadde følgende innhold.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.9": {
+    "text": "De som skrev den gang, var rådsherren Rehum og statsskriveren Sjimsjai og deres andre embetsbrødre, de fra Dina og Afarsatka, Tarpela, Persia, Erek, Babel, Susan, Deha og Elam,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.10": {
+    "text": "og de andre folkene som den store og navngjetne Osnappar førte bort og lot bo i byen Samaria og ellers i landet på den andre siden av elven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*vestafor.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.4.11": {
+    "text": "Dette er en avskrift av det brevet som de sendte til ham, til kong Artaxerxes: Dine tjenere, mennene på den andre siden av elven. Og nå,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.12": {
+    "text": "la det være kongen vitterlig at jødene som dro bort fra det stedet hvor du bor, er kommet hit til oss, til Jerusalem. Og nå holder de på å bygge opp igjen den opprørske og onde byen og fullføre murene og utbedre grunnvollene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.13": {
+    "text": "Nå skal kongen vite at dersom denne byen blir bygd opp igjen og murene fullført, så vil de verken betale skatt eller toll eller veipenger, og det vil til sist bli til skade for kongene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.14": {
+    "text": "Ettersom vi eter palassets salt, og det ikke sømmer seg for oss å se rolig på at det blir gjort noe til skade for kongen, så sender vi nå bud og lar kongen få vite dette,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.15": {
+    "text": "så du kan la noen granske i dine fedres krønike. Da vil du finne i opptegnelsene at denne byen har vært en opprørsk by, som har voldt skade for konger og land. Fra gammel tid har de gjort opprør der, derfor er også denne byen blitt ødelagt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.16": {
+    "text": "Kongen skal vite at dersom denne byen blir bygd opp igjen og murene fullført, så vil følgen av dette bli at du ikke lenger har noe igjen av landet på den andre siden av elven.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.17": {
+    "text": "Da sendte kongen svar til rådsherren Rehum og statsskriveren Sjimsjai og deres andre embetsbrødre, som bodde i Samaria og ellers i landet på den andre siden av elven: Fred! Og nå",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.18": {
+    "text": "er det brevet dere har sendt til oss, blitt nøyaktig opplest for meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.19": {
+    "text": "Jeg har gitt befaling om å granske saken, og vi har funnet at denne byen fra gammel tid har satt seg opp mot kongene, og at det har vært uro og opprør der.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.20": {
+    "text": "Mektige konger har rådd over Jerusalem, og de har hersket over alt landet på den andre siden av elven. Det ble gitt dem skatt, toll og veipenger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 4:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.4.21": {
+    "text": "Så gi nå ordre om at disse mennene blir stanset i arbeidet sitt, og at byen ikke blir bygd opp igjen før det kommer befaling fra meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.22": {
+    "text": "Vær forsiktige, så dere ikke gjør noe feilgrep i denne saken, så skaden ikke skal bli verre og kongene lide tap.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.23": {
+    "text": "Så snart avskriften av brevet fra kong Artaxerxes var blitt opplest for Rehum og statsskriveren Sjimsjai og embetsbrødrene deres, dro de straks til jødene i Jerusalem og hindret dem med vold og makt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.4.24": {
+    "text": "Da stanset arbeidet på Guds hus i Jerusalem. Det ble ikke gjort noe med det før i det andre året av perserkongen Darius’ regjering.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.5.1": {
+    "text": "Profeten Haggai og Sakarja, sønnesønn av Iddo, som også var profet, profeterte for jødene i Juda og Jerusalem. I Israels Guds navn profeterte de for dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hag 1:1. Sak 1:1.",
+        "refs": []
+      }
+    ],
+    "section": "Arbeidet med templet starter opp igjen"
+  },
+  "EZR.5.2": {
+    "text": "Serubabel, Sjealtiels sønn, og Josva, Josadaks sønn, begynte da å bygge på Guds hus i Jerusalem. Og Guds profeter var med dem og støttet dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.5.3": {
+    "text": "På den tiden kom Tatnai, som var stattholder på den andre siden av elven, og Setar-Bosnai og embetsbrødrene deres til dem. De sa til dem: Hvem har gitt dere befaling om å bygge dette huset og sette i stand denne muren?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.5.4": {
+    "text": "Da sa vi til dem hva navn de menn hadde som bygget denne bygningen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.5.5": {
+    "text": "Men Guds øye våket over jødenes eldste, slik at de ikke hindret dem i å bygge. De ville vente til saken var kommet inn for Darius, og de hadde fått brev fra ham om dette.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:6,28. Sal 33:18. 34:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.5.6": {
+    "text": "Dette er en avskrift av det brevet som Tatnai, stattholderen på den andre siden av elven, og Setar-Bosnai og embetsbrødrene hans, myndighetene på den andre siden av elven, sendte til kong Darius;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Brev til kong Darius"
+  },
+  "EZR.5.7": {
+    "text": "slik sto det skrevet i meldingen de sendte til ham: Kong Darius ønsker vi alt godt!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.5.8": {
+    "text": "Kongen skal vite at vi har gjort en reise til landskapet Juda, til den store Guds hus. Det blir nå bygd opp av store steiner, det blir lagt bjelker i veggene, og arbeidet blir gjort med iver og har god fremgang under deres hender.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.5.9": {
+    "text": "Så spurte vi de eldste der og sa til dem: Hvem har gitt dere befaling om å bygge dette huset og fullføre denne muren?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.5.10": {
+    "text": "Vi spurte dem også hva de hette, så vi kunne la deg få vite det, og vi kunne skrive opp navnene på de mennene som er deres overhoder.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.5.11": {
+    "text": "Dette var det svaret de ga oss: Vi er tjenere for himmelens og jordens Gud, og vi bygger opp igjen det huset som allerede for mange år siden var bygd her. Det var en stor konge i Israel som bygde det og fullførte det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 6:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.5.12": {
+    "text": "Men fordi våre fedre hadde vakt himmelens Guds vrede, ga han dem i kaldeeren Nebukadnesars, kongen i Babels, hånd. Og han ødela dette huset og førte folket bort til Babel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 25:9 ff. 2Krøn 36:16,17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.5.13": {
+    "text": "Men i Kyros’, kongen i Babels første år ga kong Kyros befaling om å bygge opp igjen dette Guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:1 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.5.14": {
+    "text": "Kong Kyros tok endog ut av templet i Babel de karene av gull og sølv som hadde tilhørt Guds hus, og som Nebukadnesar hadde tatt ut av templet i Jerusalem og brakt til templet i Babel. Karene ble overgitt til en mann som hette Sjesbassar, som han hadde satt til stattholder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:8. Dan 5:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.5.15": {
+    "text": "Og han sa til ham: Ta disse karene og dra av sted og sett dem inn i templet i Jerusalem. La Guds hus bli bygd opp igjen på sitt sted!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.5.16": {
+    "text": "Så kom da denne Sjesbassar og la grunnvollene til Guds hus i Jerusalem. Fra den tid og til nå har vi bygd på det, men det er ennå ikke fullført.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.5.17": {
+    "text": "Dersom nå kongen så synes, da la noen undersøke i de kongelige skattkamrene der i Babel om kong Kyros virkelig har gitt befaling om å bygge opp igjen dette Guds hus i Jerusalem. La oss så få vite hva som er kongens vilje i denne saken.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.1": {
+    "text": "Da ga kong Darius en befaling, og så gransket de arkivet som var lagt ned i skattkammeret i Babel.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Kong Kyros’ påbud om templet"
+  },
+  "EZR.6.2": {
+    "text": "Og i borgen Ahmeta, som ligger i landskapet Media, ble det funnet en bokrull, og i den sto det skrevet så til minne:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.3": {
+    "text": "I kong Kyros’ første år ga kong Kyros dette påbud om Guds hus i Jerusalem: Huset skal bygges opp igjen, så det blir et sted hvor folk kan bære fram offer. Grunnvollene skal legges på ny. Det skal være seksti alen høyt og seksti alen bredt,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:1 ff. 5:13. 2Krøn 36:22 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.6.4": {
+    "text": "med tre lag store steiner og ett lag nytt tømmer. Utgiftene skal betales av kongens hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.5": {
+    "text": "De karene av gull og sølv som tilhørte Guds hus, men som Nebukadnesar tok ut av templet i Jerusalem og førte til Babel, skal også gis tilbake, så de igjen kommer til sitt sted i templet i Jerusalem. De skal settes i Guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:7. 5:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.6.6": {
+    "text": "Så skal da du, Tatnai, stattholder på den andre siden av elven, og du, Setar-Bosnai, og embetsbrødrene deres, myndighetene på den andre siden av elven, holde dere borte fra dette stedet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.6.7": {
+    "text": "La arbeidet på dette Guds hus foregå uhindret! La jødenes stattholder og deres eldste bygge dette Guds hus på dets rette sted!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.8": {
+    "text": "Jeg gir nå befaling om hvordan dere skal gå fram mot disse jødenes eldste, så dette Guds hus kan bli bygd: Av de inntektene som kongen har av skatten fra landet på den andre siden av elven, skal omkostningene fullt ut betales til disse men-nene, så arbeidet ikke skal bli hindret.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.9": {
+    "text": "Og det som trengs, både kalver og værer og lam til brennoffer for himmelens Gud, hvete, salt, vin og olje, det skal bli gitt dem uavkortet dag for dag, etter oppgave fra prestene i Jerusalem,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.10": {
+    "text": "slik at de kan bære fram offer til en velbehagelig duft for himmelens Gud, og be for kongens og hans barns liv.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.11": {
+    "text": "Jeg gir også befaling om at dersom noen forandrer dette påbudet, så skal en bjelke rives ut av hans hus, og på den skal han henges opp og nagles fast. Huset hans skal gjøres til en skraphaug, fordi han har båret seg slik at.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 3:29.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.6.12": {
+    "text": "Måtte så den Gud som har latt sitt navn bo der, slå ned alle konger og folk som strekker ut sin hånd for å forandre dette påbudet og for å ødelegge dette Guds hus i Jerusalem! Jeg, Darius, har gitt denne befalingen, den skal utføres nøyaktig.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.13": {
+    "text": "- Så gjorde da Tatnai, stattholderen på den andre siden av elven, og Setar-Bosnai og embetsbrødrene deres nøyaktig slik som kong Darius hadde foreskrevet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Templet blir ferdig"
+  },
+  "EZR.6.14": {
+    "text": "Og jødenes eldste fortsatte å bygge og gjorde god fremgang, mens profeten Haggai og Sakarja, Iddos sønnesønn, støttet dem med sin profetiske tale. De bygde og fullførte arbeidet etter Israels Guds befaling, og etter Kyros’ og Darius’ og perserkongen Artaxerxes’ befaling.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:1. 7:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.6.15": {
+    "text": "Så ble da huset fullt ferdig til den tredje dagen i måneden addar i det sjette året av kong Darius’ regjering.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:24. Est 3:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.6.16": {
+    "text": "Og Israels barn, prestene og levittene og de andre som var kommet hjem fra fangenskapet, holdt høytid og innviet dette Guds hus med glede.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.17": {
+    "text": "Ved innvielsen av dette Guds hus ofret de hundre okser, to hundre værer, fire hundre lam og til syndoffer for hele Israel, tolv geitebukker, etter tallet på Israels stammer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:35. 4Mos 7:10 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.6.18": {
+    "text": "De innsatte prestene etter deres skift og levittene etter deres avdelinger til å utføre gudstjenesten i Jerusalem, slik som det var foreskrevet i Moseboken.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 3:6 ff. 8:9,14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.6.19": {
+    "text": "De som var kommet hjem fra fangenskapet, holdt så påske på den fjortende dagen i den første måneden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 12:6 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.6.20": {
+    "text": "For prestene og levittene hadde renset seg og var alle som én rene. De slaktet påskelammet for alle som var kommet hjem og for sine brødre prestene og for seg selv.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.21": {
+    "text": "Så åt Israels barn påskelammet, både de som var kommet tilbake fra fangenskapet, og alle de som hadde skilt seg fra urenheten hos landets folk og hadde gitt seg i lag med dem for å søke Herren, Israels Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.6.22": {
+    "text": "De holdt de usyrede brøds høytid i sju dager med glede. For Herren hadde gledet dem og vendt assyrerkongens hjerte til dem, så han støttet dem i arbeidet med Guds hus, Israels Guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 30:21.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*den persiske kongen, som rådde over de tidligere",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "assyriske og babyloniske land.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.7.1": {
+    "text": "En tid senere, under perserkongen Artaxerxes’ regjering, dro Esra, sønn av Seraja, sønn av Asarja, sønn av Hilkia,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Esra reiser til Jerusalem"
+  },
+  "EZR.7.2": {
+    "text": "sønn av Sjallum, sønn av Sadok, sønn av Akitub,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.3": {
+    "text": "sønn av Amarja, sønn av Asarja, sønn av Merajot,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.4": {
+    "text": "sønn av Serahja, sønn av Ussi, sønn av Bukki,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.5": {
+    "text": "sønn av Abisjua, sønn av Pinehas, sønn av Eleasar, sønn av ypperstepresten Aron -",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.6": {
+    "text": "denne Esra dro opp fra Babel. Han var en skriftlærd mann, vel kjent med Mose lov, den som Herren, Israels Gud, hadde gitt. Kongen ga ham alt det han ba om, for Herren hans Gud holdt sin hånd over ham.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.7": {
+    "text": "Noen av Israels barn, og av prestene, levittene, sangerne, dørvaktene og tempeltjenerne dro med ham opp til Jerusalem i kong Artaxerxes’ sjuende år.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.8": {
+    "text": "Han kom til Jerusalem i den femte måneden, det var i kongens sjuende år.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.9": {
+    "text": "På den første dagen i den første måneden begynte han å ordne alt til ferden fra Babel, og på den første dagen i den femte måneden kom han til Jerusalem. For hans Gud holdt sin gode hånd over ham.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.10": {
+    "text": "For Esra hadde vendt sitt hjerte til å granske Herrens lov og gjøre etter den, og til å lære folk lov og rett i Israel.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.11": {
+    "text": "Dette er en avskrift av det brevet som kong Artaxerxes ga presten Esra, den skriftlærde, han som var kyndig i de bud og lover som Herren hadde gitt Israel:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.12": {
+    "text": "Artaxerxes, kongenes konge, til presten Esra, han som er fullært i himmelens Guds lov, og så videre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 26:7. Dan 2:37.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.7.13": {
+    "text": "Jeg har gitt den befaling at alle de av Israels folk og av dets prester og levitter i riket mitt, som har lyst til å dra til Jerusalem, kan følge med deg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.14": {
+    "text": "For kongen og hans sju rådgivere sender deg for å undersøke om forholdene i Juda og Jerusalem er i samsvar med din Guds lov, som du har i din hånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Est 1:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.7.15": {
+    "text": "Du skal føre dit det sølvet og gullet som kongen og rådgiverne hans frivillig har gitt Israels Gud, han som har sin bolig i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.16": {
+    "text": "Likeså skal du ta med deg alt det sølv og gull som du kan få i hele Babels landskap, og de frivillige gaver som folket og prestene vil gi til sin Guds hus i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.17": {
+    "text": "Disse pengene skal du bruke samvittighetsfullt og kjøpe okser, værer og lam sammen med de matoffer og drikkoffer som hører til. Og du skal ofre dem på alteret i deres Guds hus i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:9. 5Mos 12:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.7.18": {
+    "text": "Og hva du og brødrene dine finner det riktig å gjøre med det sølvet og gullet som blir til overs, det kan dere gjøre etter deres Guds vilje.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.19": {
+    "text": "De kar som du har fått til tjenesten i din Guds hus, skal du gi fra deg for Jerusalems Guds åsyn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.20": {
+    "text": "Og det som ellers trengs til din Guds hus, og som du må betale, det skal du ta av kongens skattkammer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.21": {
+    "text": "Og jeg, kong Artaxerxes, gir den befaling til alle skattmestrene på den andre siden av elven, at alt det presten Esra, han som er kyndig i himmelens Guds lov, krever av dere, det skal dere la ham få fullt ut,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.22": {
+    "text": "inntil ett hundre talenter sølv, hundre kor hvete, hundre bat vin og hundre bat olje, og så mye salt som det trengs.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.23": {
+    "text": "Alt det himmelens Gud befaler, det skal nøyaktig utføres for himmelens Guds hus, så det ikke skal komme vrede over kongens og hans søn-ners rike.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.24": {
+    "text": "Dere skal vite at ingen skal ha myndighet til å legge skatt, toll eller veipenger på noen av prestene, levittene, sangerne, dørvaktene, tempeltjenerne eller noen annen som har en tjeneste ved dette Guds hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.25": {
+    "text": "Og du, Esra, skal etter den visdom du har fått av din Gud, oppnevne dommere og lovkyndige til å dømme alt folket på den andre siden av elven, alle dem som kjenner din Guds lover. Og om noen ikke kjenner dem, da skal dere lære ham å kjenne dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.26": {
+    "text": "Enhver som ikke gjør etter din Guds lov og etter kongens lov, skal straks stilles for retten, enten det nå fører til døden eller til landflyktighet eller til bøter eller til fengsel.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.27": {
+    "text": "Lovet være Herren, våre fedres Gud, som ga kongen noe slikt i sinne, så Herrens hus i Jerusalem kunne bli prydet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.7.28": {
+    "text": "Han lot meg finne nåde hos kongen og rådgiverne hans og hos alle kongens mektige høvdinger. Jeg fattet mot, fordi Herren min Gud holdt sin hånd over meg. Og jeg fikk samlet noen av Israels overhoder til å dra opp sammen med meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.1": {
+    "text": "Dette er de familieoverhoder som under kong Artaxerxes’ regjering dro opp med meg fra Babylon, og som her skal nevnes etter sine ætter.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Esras medarbeidere"
+  },
+  "EZR.8.2": {
+    "text": "Av Pinehas’ barn Gersjom. Av Itamars barn Daniel. Av Davids barn Hattusj.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.3": {
+    "text": "Av Sjekanjas barn - av Parosjs barn - Sakarja, og med ham førtes inn i ættetavlen ett hundre og femti menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.4": {
+    "text": "Av Pahat-Moabs barn Eljoenai, Serahjas sønn, og med ham to hundre menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.5": {
+    "text": "Av Sjekanjas barn Jahasiels sønn, og med ham tre hundre menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.6": {
+    "text": "Av Adins barn Ebed, Jonatans sønn, og med ham femti menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.7": {
+    "text": "Av Elams barn Jesaja, Ataljas sønn, og med ham sytti menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.8": {
+    "text": "Av Sefatjas barn Sebadja, Mikaels sønn, og med ham åtti menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.9": {
+    "text": "Av Joabs barn Obadja, Jehiels sønn, og med ham to hundre og atten menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.10": {
+    "text": "Av Sjelomits barn Josifjas sønn, og med ham ett hundre og seksti menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.11": {
+    "text": "Av Bebais barn Sakarja, Bebais sønn, og med ham tjueåtte menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.12": {
+    "text": "Av Asgads barn Johanan, Hakkatans sønn, og med ham ett hundre og ti menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.13": {
+    "text": "Av Adonikams barn noen som kom senere - de hette Elifelet, Je’uel og Sjemaja, og med dem seksti menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.14": {
+    "text": "Av Bigvais barn Utai og Sabbub, og med dem sytti menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.15": {
+    "text": "Jeg samlet dem ved den elven som løper ut i Ahava. Der lå vi i leir i tre dager. Men da jeg ga nøyere akt på folket og på prestene, fant jeg ingen av Levis barn der.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.21,31.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.8.16": {
+    "text": "Da sendte jeg bud etter overhodene Elieser og Ariel og Sjemaja og Elnatan og Jarib og Elnatan og Natan og Sakarja og Mesjullam og lærerne Jojarib og Elnatan.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.17": {
+    "text": "Jeg sendte dem ut til Iddo, overhodet i Kasifja. Jeg la dem ord i munnen så de kunne overtale Iddo og hans bror, tempeltjenerne i Kasifja, til å sende oss tjenere for vår Guds hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.18": {
+    "text": "Og da Gud holdt sin gode hånd over oss, sendte de oss en forstandig mann som hette Sjerebja, en etterkommer av Mahli, som var sønn av Israels sønn Levi, og hans sønner og hans brødre, atten i tallet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.8.19": {
+    "text": "De sendte oss også Hasjabja og med ham Jesaja av Meraris barn, brødrene hans og deres sønner, tjue i tallet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.20": {
+    "text": "Og av de tempeltjenerne som David og høvdingene hans hadde gitt levittene til tjenere, sendte de oss to hundre og tjue menn, som alle var nevnt ved navn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:43. 7:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.8.21": {
+    "text": "Der ved Ahava-kanalen lot jeg så utrope en faste, for at vi skulle ydmyke oss for vår Guds åsyn og be ham om en lykkelig reise for oss og våre barn og all vår eiendom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 20:3.",
+        "refs": []
+      }
+    ],
+    "section": "Esra leder folket"
+  },
+  "EZR.8.22": {
+    "text": "For jeg unnså meg for å be kongen om krigsmakt og hestfolk til å hjelpe oss mot fiender på veien. Vi hadde jo sagt til kongen: Vår Gud holder sin hånd over alle dem som søker ham, og lar det gå dem vel, men hans makt og hans vrede er over alle dem som forlater ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:6,9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.8.23": {
+    "text": "Så fastet vi og ba vår Gud om hjelp, og han bønnhørte oss.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.24": {
+    "text": "Siden tok jeg ut tolv av de øverste prestene og Sjerebja og Hasjabja, og med dem ti av deres brødre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.25": {
+    "text": "Jeg veide opp for dem sølvet og gullet og karene, den gaven til vår Guds hus som kongen og hans rådgivere og høvdinger og alle de israelittene som bodde der, hadde gitt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.26": {
+    "text": "Jeg veide opp for dem seks hundre og femti talenter sølv, og sølvkar til en verdi av hundre talenter, dertil hundre talenter gull",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.27": {
+    "text": "og tjue gullbeger til en verdi av tusen dariker, og to kar av fint skinnende kobber, kostelige som gull.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.28": {
+    "text": "Og jeg sa til dem: Dere er helliget til Herren, og karene er helliget til ham, og sølvet og gullet er en frivillig gave til Herren, deres fedres Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.29": {
+    "text": "Våk nå over det og ta vare på det til dere kan veie det ut i Jerusalem for de øverste prestene og levittene og for Israels familieoverhoder, i kamrene i Herrens hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Neh 10:39.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.8.30": {
+    "text": "Så tok prestene og levittene imot sølvet og gullet og karene for å føre det til Jerusalem, til vår Guds hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.31": {
+    "text": "Vi brøt opp fra Ahava-kanalen på den tolvte dagen i den første måneden for å dra til Jerusalem. Og vår Gud holdt sin hånd over oss og fridde oss underveis fra fiender og folk som lå i bakhold mot oss.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:9. Sal 18:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.8.32": {
+    "text": "Da vi kom til Jerusalem, hvilte vi der i tre dager.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.33": {
+    "text": "Men på den fjerde dagen ble sølvet og gullet og karene veid i vår Guds hus og overgitt til presten Meremot, Urias sønn. Sammen med ham var Eleasar, sønn av Pinehas, til stede og tok imot, og likeså levittene Josabad, sønn av Josva, og Noadja, sønn av Binnui.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.34": {
+    "text": "Det ble alt overgitt etter tall og vekt, og hele vekten ble på samme tid opptegnet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.8.35": {
+    "text": "De bortførte som var kommet hjem fra fangenskapet, ofret brennoffer til Israels Gud. De ofret tolv okser for hele Israel, nittiseks værer, syttisju lam og tolv syndofferbukker, alt ble ofret som brennoffer til Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.8.36": {
+    "text": "Så overbrakte de kongens befalinger til kongens satraper og landshøvdinger på den andre siden av elven, og de ga hjelp og støtte både til folket og til Guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:10. 5:6. 7:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.9.1": {
+    "text": "Da alt dette var fullført, kom høvdingene til meg og sa: Verken Israels folk eller prestene eller levittene har skilt seg fra folkene rundt om i landene, og de avskyelige skikkene deres - fra kana’aneerne, hetittene, ferisittene, jebusittene, ammonittene, moabittene, egypterne og amorittene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Guds folk har ikke skilt seg fra de hedenske naboer"
+  },
+  "EZR.9.2": {
+    "text": "De har tatt koner for seg og sønnene sine blant deres døtre, så den hellige ætt har blandet seg med folkene i landene. Og høvdingene og forstanderne har vært de første til å gjøre seg skyldig i denne utroskapen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:2,18 ff. 2Mos 34:15,16. 5Mos 7:3. Dom 3:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.9.3": {
+    "text": "Da jeg hørte dette, flerret jeg klærne og ytterkappen min, og jeg rev hår ut av hodet og skjegget og satt i stum sorg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 14:6. Jos 7:6. Neh 1:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.9.4": {
+    "text": "Da kom alle de som fryktet Israels Guds ord, og de samlet seg omkring meg på grunn av utroskapen hos dem som var kommet hjem. Jeg satt i stum sorg helt til kveldsofferet skulle bæres fram.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.9.5": {
+    "text": "Men ved tiden for kveldsofferet reiste jeg meg fra min ydmyke stilling, i mine flerrede klær og ytterkappe. Og jeg kastet meg på kne og rakte ut mine hender til Herren min Gud,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Esra bekjenner folkets synd"
+  },
+  "EZR.9.6": {
+    "text": "og jeg sa: Min Gud! Jeg er så skamfull og ydmyket at jeg ikke kan løfte mitt ansikt opp mot deg, min Gud! For våre misgjerninger har vokst oss over hodet, og vår skyld er blitt så stor at den når til himmelen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 38:5. Dan 9:7 ff. Åp 18:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.9.7": {
+    "text": "Fra våre fedres dager har vi vært i stor skyld like til denne dagen. På grunn av våre misgjerninger har vi - sammen med våre konger og prester - vært overgitt i fremmede kongers hånd, under sverdet, i fangen-skap, til plyndring og vanære, som det viser seg på denne dagen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.9.8": {
+    "text": "Men nå, for et lite øyeblikk, er nåde blitt oss til del fra Herren vår Gud, så han har spart og frelst en rest av oss og gitt oss et fotfeste på sitt hellige sted, for at vår Gud kunne la våre øyne lyse og gi oss litt ny livskraft i vår trelldom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 22:23. 33:20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.9.9": {
+    "text": "For treller er vi! Men vår Gud har ikke forlatt oss i vår trelldom. Han har latt oss finne nåde hos Persias konger, så de ga oss ny livskraft til å bygge opp vår Guds hus og gjenreise det som lå i ruiner. Og de ga oss et trygt bosted i Juda og i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.9.10": {
+    "text": "Men, vår Gud! Hva skal vi si etter alt dette? For vi har forlatt dine bud,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.9.11": {
+    "text": "dem som du ga ved dine tjenere profetene da du sa: Det landet som dere drar inn i for å ta i eie, er et land som er blitt urent ved de fremmede folks urenhet og ved de avskyelige ting som de i sin urenhet har fylt landet med fra ende til annen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:21. 3Mos 18:24 ff. 20:23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.9.12": {
+    "text": "Derfor skal dere ikke gi døtrene deres til disse folks sønner eller ta koner til sønnene deres blant disse folks døtre. Dere skal aldri søke deres velferd og lykke. Da skal dere bli sterke og få ete av landets gode ting og la deres barn få det til eie for all tid.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 7:3. 23:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.9.13": {
+    "text": "Etter alt det som er kommet over oss på grunn av våre onde gjerninger og vår store skyld, og etter at du, vår Gud, har spart oss og straffet oss langt mindre enn vi fortjente for vår misgjerning, og latt en rest av oss som denne her bli frelst -",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.9.14": {
+    "text": "skulle vi da nå igjen bryte dine bud og ta oss ektefeller blant folk som gjør seg skyldig i slike avskyelige ting? Ville du ikke da bli vred på oss, og gjøre ende på oss, så det ikke var noen som ble frelst eller slapp unna?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.9.15": {
+    "text": "Herre, Israels Gud! Du er rettferdig. Vi er bare en levning, en rest som er blitt frelst, som det kan bli sett på denne dag. Se, vi er nå her for ditt åsyn i vår syndeskyld. For etter det som nå har hendt, kan ingen bli stående for deg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.1": {
+    "text": "Mens nå Esra lå gråtende foran Guds hus og ba og bekjente, samlet det seg om ham en meget stor skare av Israels folk, både menn og kvinner og barn. Og folket gråt sårt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Folket gjør bot"
+  },
+  "EZR.10.2": {
+    "text": "Da tok Sjekanja, Jehiels sønn, av Olams barn, til orde og sa til Esra: Vi har vært troløse mot vår Gud og tatt fremmede kvinner av de andre folk her i landet til koner. Men ennå er det håp for Israel i denne saken.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.3": {
+    "text": "Så la oss nå gjøre en pakt med vår Gud at vi skal sende fra oss alle disse kvinner og barna deres, for dette rådet er fra Herren og fra de menn som har ærefrykt for vår Guds bud. La oss gå fram etter loven!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.4": {
+    "text": "Stå opp! For det er du som må sørge for dette. Vi skal hjelpe deg. Vær frimodig og sett det i verk!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.5": {
+    "text": "Da sto Esra opp og lot de øverste prestene og levittene og alle Israels høvdinger sverge på at de ville gjøre som det var sagt. Og de sverget på det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.6": {
+    "text": "Så gikk Esra bort fra plassen foran Guds hus, og han gikk inn i Johanans, Eljasjibs sønns kammer. Da han var kommet dit, kunne han verken ete eller drikke, så dypt sørget han over utroskapen hos dem som var kommet hjem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.7": {
+    "text": "Deretter sendte de ut en melding i Juda og Jerusalem til alle dem som var kommet hjem, at de skulle samles i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.8": {
+    "text": "Den som ikke kom innen tre dager, slik som høvdingene og de eldste hadde fastsatt, skulle få alt sitt gods bannlyst, og han selv skulle bli utelukket fra de hjemkomnes menighet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.9": {
+    "text": "Og alle Judas og Benjamins menn samlet seg i Jerusalem innen tre dager var gått. Det var den tjuende dagen i den niende måneden. Hele folket satt på plassen ved Guds hus og skalv både for sakens skyld og på grunn av regnbygene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.10": {
+    "text": "Da sto presten Esra opp og sa til dem: Dere har vært troløse og tatt fremmede kvinner til koner. Dermed har dere økt Israels skyld.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:1,2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.10.11": {
+    "text": "Så bekjenn det nå for Herren, fedrenes Gud, og gjør hans vilje! Skill dere fra de andre folk her i landet og fra de fremmede kvinnene!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.12": {
+    "text": "Da svarte hele folket og sa med høy røst: Ja, som du har sagt, så er vi skyldige til å gjøre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.13": {
+    "text": "Men folket er tallrikt, og nå er det regntid, så vi er ikke i stand til å stå her ute. Dette er et arbeid som ikke kan utføres på en dag eller to. For det er mange av oss som har syndet i denne saken.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.14": {
+    "text": "La derfor høvdingene våre handle på hele folkets vegne. Og la alle dem i byene våre som har tatt fremmede kvinner til koner, møte til fastsatte tider sammen med de eldste og dommerne i hver by, til vi får vendt vår Guds brennende vrede bort fra oss, og denne saken er avgjort.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 29:10. 36:22 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "EZR.10.15": {
+    "text": "Bare Jonatan, Asaels sønn, og Jahseja, Tikvas sønn, satte seg imot dette, og Mesjullam og levitten Sjabbetai støttet dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.16": {
+    "text": "De som var kommet hjem fra fangenskapet, gjorde da som det ble sagt. De valgte presten Esra og noen menn som var overhoder for sine familier, og som alle var nevnt ved navn. De trådte sammen på den første dagen i den tiende måneden for å granske saken.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.17": {
+    "text": "Og de ble ferdige med alle de menn som hadde tatt fremmede kvinner til koner, til den første dagen i den første måneden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.18": {
+    "text": "Blant prestenes sønner fant de noen som hadde tatt fremmede kvinner til koner. Det var: av Josvas, Josadaks sønns sønner og hans brødre: Ma’aseja og Elieser og Jarib og Gedalja.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "De som hadde giftet seg med hedenske kvinner"
+  },
+  "EZR.10.19": {
+    "text": "De ga sin hånd på at de ville sende fra seg disse sine koner, og ofre en vær av buskapen som skyldoffer for den skyld de hadde pådratt seg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.20": {
+    "text": "Av Immers barn var det Hanani og Sebadja.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.21": {
+    "text": "Av Harims barn var det Ma’aseja og Elia og Sjemaja og Jehiel og Ussia.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.22": {
+    "text": "Av Pasjhurs barn var det Eljoenai, Ma’aseja, Ismael, Netanel, Josabad og Elasa.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.23": {
+    "text": "Av levittene var det Josabad og Sjime’i og Kelaja, det er Kelita, Petaja, Juda og Elieser.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.24": {
+    "text": "Av sangerne var det Eljasjib. Av dørvokterne var det Sjallum og Telem og Uri.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.25": {
+    "text": "Av Israel ellers var det: Av Parosjs barn Ramja og Jissija og Malkija og Mijamin og Eleasar og Malkija og Benaja.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.26": {
+    "text": "Av Elams barn var det: Mattanja, Sakarja, Jehiel, Abdi, Jeremot og Elia.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.27": {
+    "text": "Av Sattus barn var det: Eljoenai, Eljasjib, Mattanja og Jeremot og Sabad og Asisa.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.28": {
+    "text": "Av Bebais barn var det Johanan, Hananja, Sabbai og Atlai.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.29": {
+    "text": "Av Banis barn var det Mesjullam, Malluk og Adaja og Jasjub og Sjeal og Jeremot.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.30": {
+    "text": "Av Pahat-Moabs barn var det Adna og Kelal, Benaja, Ma’aseja, Mattanja, Besalel og Binnui og Manasse.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.31": {
+    "text": "Videre av Harims barn: Elieser, Jissija, Malkija, Sjemaja, Simeon,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.32": {
+    "text": "Benjamin, Malluk og Sjemarja.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.33": {
+    "text": "Av Hasjums barn var det Mattenai, Mattatta, Sabad, Elifelet, Jeremai, Manasse og Sjime’i.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.34": {
+    "text": "Av Banis barn var det Ma’adai, Amram, Uel,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.35": {
+    "text": "Benaja, Bedeja, Keluhi,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.36": {
+    "text": "Vanja, Meremot, Eljasjib,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.37": {
+    "text": "Mattanja, Mattenai, Ja’asu,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.38": {
+    "text": "Bani, Binnui, Sjime’i,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.39": {
+    "text": "Sjelemja, Natan, Adaja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.40": {
+    "text": "Maknadbai, Sjasjai, Sjarai,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.41": {
+    "text": "Asarel, Sjelemja, Sjemarja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.42": {
+    "text": "Sjallum, Amarja og Josef.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.43": {
+    "text": "Av Nebos barn var det Je’iel, Mattitja, Sabad, Sebina, Jaddu, Joel og Benaja.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "EZR.10.44": {
+    "text": "Alle disse hadde tatt fremmede kvinner til koner, og blant dem var det noen som hadde fått barn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

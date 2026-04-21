@@ -1,17 +1,143 @@
 {
-  "3JN.1.1": "Den eldste hilser den kjære Gaius, som jeg i sannhet elsker.",
-  "3JN.1.2": "Min kjære, jeg ønsker at du på alle vis får være frisk og ha det godt, like godt som du har det åndelig.",
-  "3JN.1.3": "For jeg ble svært glad da noen søsken kom og fortalte om din troskap mot sannheten, hvordan du lever i den.",
-  "3JN.1.4": "Ikke noe gleder meg mer enn å høre at mine barn lever i sannheten.",
-  "3JN.1.5": "Min kjære, du er trofast i alt du gjør for våre søsken, også de som er fremmede.",
-  "3JN.1.6": "De har vitnet her i menigheten om din kjærlighet. Du gjør en velgjerning, verdifull for Gud, om du hjelper dem videre på reisen.",
-  "3JN.1.7": "Det var jo for å forkynne Navnet de dro ut, og de tar ikke imot hjelp fra hedningene.",
-  "3JN.1.8": "Derfor må vi ta oss av dem, så vi kan være medarbeidere for sannheten.",
-  "3JN.1.9": "Jeg har skrevet noen ord til menigheten. Men Diotrefes, som gjerne vil være den fremste der, vil ikke ha noe med oss å gjøre.",
-  "3JN.1.10": "Når jeg kommer, skal jeg sørge for at han blir minnet om hva han har gjort! For det onde han sier om oss, er tåpelig. Men han nøyer seg ikke med det. Selv nekter han å ta imot våre søsken, og når andre vil gjøre det, hindrer han dem og støter dem ut av menigheten.",
-  "3JN.1.11": "Min kjære, ta ikke det onde til forbilde, men det gode! Den som gjør det gode, er av Gud. Den som gjør det onde, har ikke sett Gud.",
-  "3JN.1.12": "Om Demetrios har alle bare godt å si, ja, sannheten selv vitner for ham. Det samme gjør vi, og du vet at vi vitner sant.",
-  "3JN.1.13": "Jeg har ennå mye å si deg, men vil ikke gjøre det med penn og blekk.",
-  "3JN.1.14": "For jeg håper å besøke deg snart, så vi kan snakke sammen ansikt til ansikt.",
-  "3JN.1.15": "Fred være med deg! Vennene her sender deg sin hilsen. Hils selv vennene, hver enkelt av dem."
+  "3JN.1.1": {
+    "text": "Den eldste hilser den kjære Gaius, som jeg i sannhet elsker.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Joh 1",
+        "refs": []
+      }
+    ],
+    "section": "Hilsen"
+  },
+  "3JN.1.2": {
+    "text": "Min kjære, jeg ønsker at du på alle vis får være frisk og ha det godt, like godt som du har det åndelig.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "3JN.1.3": {
+    "text": "For jeg ble svært glad da noen søsken kom og fortalte om din troskap mot sannheten, hvordan du lever i den.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Joh 4",
+        "refs": []
+      }
+    ],
+    "section": "Hjelp til utsendingene"
+  },
+  "3JN.1.4": {
+    "text": "Ikke noe gleder meg mer enn å høre at mine barn lever i sannheten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "3JN.1.5": {
+    "text": "Min kjære, du er trofast i alt du gjør for våre søsken, også de som er fremmede.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "3JN.1.6": {
+    "text": "De har vitnet her i menigheten om din kjærlighet. Du gjør en velgjerning, verdifull for Gud, om du hjelper dem videre på reisen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "3JN.1.7": {
+    "text": "Det var jo for å forkynne Navnet de dro ut, og de tar ikke imot hjelp fra hedningene.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Jesus."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "3JN.1.8": {
+    "text": "Derfor må vi ta oss av dem, så vi kan være medarbeidere for sannheten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 10,10.41; Hebr 13,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "3JN.1.9": {
+    "text": "Jeg har skrevet noen ord til menigheten. Men Diotrefes, som gjerne vil være den fremste der, vil ikke ha noe med oss å gjøre.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Diotrefes og Demetrios"
+  },
+  "3JN.1.10": {
+    "text": "Når jeg kommer, skal jeg sørge for at han blir minnet om hva han har gjort! For det onde han sier om oss, er tåpelig. Men han nøyer seg ikke med det. Selv nekter han å ta imot våre søsken, og når andre vil gjøre det, hindrer han dem og støter dem ut av menigheten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "3JN.1.11": {
+    "text": "Min kjære, ta ikke det onde til forbilde, men det gode! Den som gjør det gode, er av Gud. Den som gjør det onde, har ikke sett Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Joh 3,6.9f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "3JN.1.12": {
+    "text": "Om Demetrios har alle bare godt å si, ja, sannheten selv vitner for ham. Det samme gjør vi, og du vet at vi vitner sant.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 19,35",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "3JN.1.13": {
+    "text": "Jeg har ennå mye å si deg, men vil ikke gjøre det med penn og blekk.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Joh 12",
+        "refs": []
+      }
+    ],
+    "section": "Sluttord"
+  },
+  "3JN.1.14": {
+    "text": "For jeg håper å besøke deg snart, så vi kan snakke sammen ansikt til ansikt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "3JN.1.15": {
+    "text": "Fred være med deg! Vennene her sender deg sin hilsen. Hils selv vennene, hver enkelt av dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

@@ -1,199 +1,3902 @@
 {
-  "HOS.1.1": "The word of the Lord that came to Hosea, the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel.",
-  "HOS.1.2": "When the Lord first spoke through Hosea, the Lord said to Hosea, “Go, take to yourself a wife of whoredom and have children of whoredom, for the land commits great whoredom by forsaking the Lord.”",
-  "HOS.1.3": "So he went and took Gomer, the daughter of Diblaim, and she conceived and bore him a son.",
-  "HOS.1.4": "And the Lord said to him, “Call his name Jezreel, for in just a little while I will punish the house of Jehu for the blood of Jezreel, and I will put an end to the kingdom of the house of Israel.",
-  "HOS.1.5": "And on that day I will break the bow of Israel in the Valley of Jezreel.”",
-  "HOS.1.6": "She conceived again and bore a daughter. And the Lord said to him, “Call her name No Mercy, for I will no more have mercy on the house of Israel, to forgive them at all.",
-  "HOS.1.7": "But I will have mercy on the house of Judah, and I will save them by the Lord their God. I will not save them by bow or by sword or by war or by horses or by horsemen.”",
-  "HOS.1.8": "When she had weaned No Mercy, she conceived and bore a son.",
-  "HOS.1.9": "And the Lord said, “Call his name Not My People, for you are not my people, and I am not your God.”",
-  "HOS.1.10": "Yet the number of the children of Israel shall be like the sand of the sea, which cannot be measured or numbered. And in the place where it was said to them, “You are not my people,” it shall be said to them, “Children of the living God.”",
-  "HOS.1.11": "And the children of Judah and the children of Israel shall be gathered together, and they shall appoint for themselves one head. And they shall go up from the land, for great shall be the day of Jezreel.",
-  "HOS.2.1": "Say to your brothers, “You are my people,” and to your sisters, “You have received mercy.”",
-  "HOS.2.2": "“Plead with your mother, plead— for she is not my wife, and I am not her husband— that she put away her whoring from her face, and her adultery from between her breasts;",
-  "HOS.2.3": "lest I strip her naked and make her as in the day she was born, and make her like a wilderness, and make her like a parched land, and kill her with thirst.",
-  "HOS.2.4": "Upon her children also I will have no mercy, because they are children of whoredom.",
-  "HOS.2.5": "For their mother has played the whore; she who conceived them has acted shamefully. For she said, ‘I will go after my lovers, who give me my bread and my water, my wool and my flax, my oil and my drink.’",
-  "HOS.2.6": "Therefore I will hedge up her way with thorns, and I will build a wall against her, so that she cannot find her paths.",
-  "HOS.2.7": "She shall pursue her lovers but not overtake them, and she shall seek them but shall not find them. Then she shall say, ‘I will go and return to my first husband, for it was better for me then than now.’",
-  "HOS.2.8": "And she did not know that it was I who gave her the grain, the wine, and the oil, and who lavished on her silver and gold, which they used for Baal.",
-  "HOS.2.9": "Therefore I will take back my grain in its time, and my wine in its season, and I will take away my wool and my flax, which were to cover her nakedness.",
-  "HOS.2.10": "Now I will uncover her lewdness in the sight of her lovers, and no one shall rescue her out of my hand.",
-  "HOS.2.11": "And I will put an end to all her mirth, her feasts, her new moons, her Sabbaths, and all her appointed feasts.",
-  "HOS.2.12": "And I will lay waste her vines and her fig trees, of which she said, ‘These are my wages, which my lovers have given me.’ I will make them a forest, and the beasts of the field shall devour them.",
-  "HOS.2.13": "And I will punish her for the feast days of the Baals when she burned offerings to them and adorned herself with her ring and jewelry, and went after her lovers and forgot me, declares the Lord.",
-  "HOS.2.14": "“Therefore, behold, I will allure her, and bring her into the wilderness, and speak tenderly to her.",
-  "HOS.2.15": "And there I will give her her vineyards and make the Valley of Achor a door of hope. And there she shall answer as in the days of her youth, as at the time when she came out of the land of Egypt.",
-  "HOS.2.16": "“And in that day, declares the Lord, you will call me ‘My Husband,’ and no longer will you call me ‘My Baal.’",
-  "HOS.2.17": "For I will remove the names of the Baals from her mouth, and they shall be remembered by name no more.",
-  "HOS.2.18": "And I will make for them a covenant on that day with the beasts of the field, the birds of the heavens, and the creeping things of the ground. And I will abolish the bow, the sword, and war from the land, and I will make you lie down in safety.",
-  "HOS.2.19": "And I will betroth you to me forever. I will betroth you to me in righteousness and in justice, in steadfast love and in mercy.",
-  "HOS.2.20": "I will betroth you to me in faithfulness. And you shall know the Lord.",
-  "HOS.2.21": "“And in that day I will answer, declares the Lord, I will answer the heavens, and they shall answer the earth,",
-  "HOS.2.22": "and the earth shall answer the grain, the wine, and the oil, and they shall answer Jezreel,",
-  "HOS.2.23": "and I will sow her for myself in the land. And I will have mercy on No Mercy, and I will say to Not My People, ‘You are my people’; and he shall say, ‘You are my God.’”",
-  "HOS.3.1": "And the Lord said to me, “Go again, love a woman who is loved by another man and is an adulteress, even as the Lord loves the children of Israel, though they turn to other gods and love cakes of raisins.”",
-  "HOS.3.2": "So I bought her for fifteen shekels of silver and a homer and a lethech of barley.",
-  "HOS.3.3": "And I said to her, “You must dwell as mine for many days. You shall not play the whore, or belong to another man; so will I also be to you.”",
-  "HOS.3.4": "For the children of Israel shall dwell many days without king or prince, without sacrifice or pillar, without ephod or household gods.",
-  "HOS.3.5": "Afterward the children of Israel shall return and seek the Lord their God, and David their king, and they shall come in fear to the Lord and to his goodness in the latter days.",
-  "HOS.4.1": "Hear the word of the Lord, O children of Israel, for the Lord has a controversy with the inhabitants of the land. There is no faithfulness or steadfast love, and no knowledge of God in the land;",
-  "HOS.4.2": "there is swearing, lying, murder, stealing, and committing adultery; they break all bounds, and bloodshed follows bloodshed.",
-  "HOS.4.3": "Therefore the land mourns, and all who dwell in it languish, and also the beasts of the field and the birds of the heavens, and even the fish of the sea are taken away.",
-  "HOS.4.4": "Yet let no one contend, and let none accuse, for with you is my contention, O priest.",
-  "HOS.4.5": "You shall stumble by day; the prophet also shall stumble with you by night; and I will destroy your mother.",
-  "HOS.4.6": "My people are destroyed for lack of knowledge; because you have rejected knowledge, I reject you from being a priest to me. And since you have forgotten the law of your God, I also will forget your children.",
-  "HOS.4.7": "The more they increased, the more they sinned against me; I will change their glory into shame.",
-  "HOS.4.8": "They feed on the sin of my people; they are greedy for their iniquity.",
-  "HOS.4.9": "And it shall be like people, like priest; I will punish them for their ways and repay them for their deeds.",
-  "HOS.4.10": "They shall eat, but not be satisfied; they shall play the whore, but not multiply, because they have forsaken the Lord to cherish",
-  "HOS.4.11": "whoredom, wine, and new wine, which take away the understanding.",
-  "HOS.4.12": "My people inquire of a piece of wood, and their walking staff gives them oracles. For a spirit of whoredom has led them astray, and they have left their God to play the whore.",
-  "HOS.4.13": "They sacrifice on the tops of the mountains and burn offerings on the hills, under oak, poplar, and terebinth, because their shade is good. Therefore your daughters play the whore, and your brides commit adultery.",
-  "HOS.4.14": "I will not punish your daughters when they play the whore, nor your brides when they commit adultery; for the men themselves go aside with prostitutes and sacrifice with cult prostitutes, and a people without understanding shall come to ruin.",
-  "HOS.4.15": "Though you play the whore, O Israel, let not Judah become guilty. Enter not into Gilgal, nor go up to Beth-aven, and swear not, “As the Lord lives.”",
-  "HOS.4.16": "Like a stubborn heifer, Israel is stubborn; can the Lord now feed them like a lamb in a broad pasture?",
-  "HOS.4.17": "Ephraim is joined to idols; leave him alone.",
-  "HOS.4.18": "When their drink is gone, they give themselves to whoring; their rulers dearly love shame.",
-  "HOS.4.19": "A wind has wrapped them in its wings, and they shall be ashamed because of their sacrifices.",
-  "HOS.5.1": "Hear this, O priests! Pay attention, O house of Israel! Give ear, O house of the king! For the judgment is for you; for you have been a snare at Mizpah and a net spread upon Tabor.",
-  "HOS.5.2": "And the revolters have gone deep into slaughter, but I will discipline all of them.",
-  "HOS.5.3": "I know Ephraim, and Israel is not hidden from me; for now, O Ephraim, you have played the whore; Israel is defiled.",
-  "HOS.5.4": "Their deeds do not permit them to return to their God. For the spirit of whoredom is within them, and they know not the Lord.",
-  "HOS.5.5": "The pride of Israel testifies to his face; Israel and Ephraim shall stumble in his guilt; Judah also shall stumble with them.",
-  "HOS.5.6": "With their flocks and herds they shall go to seek the Lord, but they will not find him; he has withdrawn from them.",
-  "HOS.5.7": "They have dealt faithlessly with the Lord; for they have borne alien children. Now the new moon shall devour them with their fields.",
-  "HOS.5.8": "Blow the horn in Gibeah, the trumpet in Ramah. Sound the alarm at Beth-aven; we follow you, O Benjamin!",
-  "HOS.5.9": "Ephraim shall become a desolation in the day of punishment; among the tribes of Israel I make known what is sure.",
-  "HOS.5.10": "The princes of Judah have become like those who move the landmark; upon them I will pour out my wrath like water.",
-  "HOS.5.11": "Ephraim is oppressed, crushed in judgment, because he was determined to go after filth.",
-  "HOS.5.12": "But I am like a moth to Ephraim, and like dry rot to the house of Judah.",
-  "HOS.5.13": "When Ephraim saw his sickness, and Judah his wound, then Ephraim went to Assyria, and sent to the great king. But he is not able to cure you or heal your wound.",
-  "HOS.5.14": "For I will be like a lion to Ephraim, and like a young lion to the house of Judah. I, even I, will tear and go away; I will carry off, and no one shall rescue.",
-  "HOS.5.15": "I will return again to my place, until they acknowledge their guilt and seek my face, and in their distress earnestly seek me.",
-  "HOS.6.1": "“Come, let us return to the Lord; for he has torn us, that he may heal us; he has struck us down, and he will bind us up.",
-  "HOS.6.2": "After two days he will revive us; on the third day he will raise us up, that we may live before him.",
-  "HOS.6.3": "Let us know; let us press on to know the Lord; his going out is sure as the dawn; he will come to us as the showers, as the spring rains that water the earth.”",
-  "HOS.6.4": "What shall I do with you, O Ephraim? What shall I do with you, O Judah? Your love is like a morning cloud, like the dew that goes early away.",
-  "HOS.6.5": "Therefore I have hewn them by the prophets; I have slain them by the words of my mouth, and my judgment goes forth as the light.",
-  "HOS.6.6": "For I desire steadfast love and not sacrifice, the knowledge of God rather than burnt offerings.",
-  "HOS.6.7": "But like Adam they transgressed the covenant; there they dealt faithlessly with me.",
-  "HOS.6.8": "Gilead is a city of evildoers, tracked with blood.",
-  "HOS.6.9": "As robbers lie in wait for a man, so the priests band together; they murder on the way to Shechem; they commit villainy.",
-  "HOS.6.10": "In the house of Israel I have seen a horrible thing; Ephraim’s whoredom is there; Israel is defiled.",
-  "HOS.6.11": "For you also, O Judah, a harvest is appointed. When I restore the fortunes of my people,",
-  "HOS.7.1": "when I would heal Israel, the iniquity of Ephraim is revealed, and the evil deeds of Samaria, for they deal falsely; the thief breaks in, and the bandits raid outside.",
-  "HOS.7.2": "But they do not consider that I remember all their evil. Now their deeds surround them; they are before my face.",
-  "HOS.7.3": "By their evil they make the king glad, and the princes by their treachery.",
-  "HOS.7.4": "They are all adulterers; they are like a heated oven whose baker ceases to stir the fire, from the kneading of the dough until it is leavened.",
-  "HOS.7.5": "On the day of our king, the princes became sick with the heat of wine; he stretched out his hand with mockers.",
-  "HOS.7.6": "For with hearts like an oven they approach their intrigue; all night their anger smolders; in the morning it blazes like a flaming fire.",
-  "HOS.7.7": "All of them are hot as an oven, and they devour their rulers. All their kings have fallen, and none of them calls upon me.",
-  "HOS.7.8": "Ephraim mixes himself with the peoples; Ephraim is a cake not turned.",
-  "HOS.7.9": "Strangers devour his strength, and he knows it not; gray hairs are sprinkled upon him, and he knows it not.",
-  "HOS.7.10": "The pride of Israel testifies to his face; yet they do not return to the Lord their God, nor seek him, for all this.",
-  "HOS.7.11": "Ephraim is like a dove, silly and without sense, calling to Egypt, going to Assyria.",
-  "HOS.7.12": "As they go, I will spread over them my net; I will bring them down like birds of the heavens; I will discipline them according to the report made to their congregation.",
-  "HOS.7.13": "Woe to them, for they have strayed from me! Destruction to them, for they have rebelled against me! I would redeem them, but they speak lies against me.",
-  "HOS.7.14": "They do not cry to me from the heart, but they wail upon their beds; for grain and wine they gash themselves; they rebel against me.",
-  "HOS.7.15": "Although I trained and strengthened their arms, yet they devise evil against me.",
-  "HOS.7.16": "They return, but not upward; they are like a treacherous bow; their princes shall fall by the sword because of the insolence of their tongue. This shall be their derision in the land of Egypt.",
-  "HOS.8.1": "Set the trumpet to your lips! One like a vulture is over the house of the Lord, because they have transgressed my covenant and rebelled against my law.",
-  "HOS.8.2": "To me they cry, “My God, we—Israel—know you.”",
-  "HOS.8.3": "Israel has spurned the good; the enemy shall pursue him.",
-  "HOS.8.4": "They made kings, but not through me. They set up princes, but I knew it not. With their silver and gold they made idols for their own destruction.",
-  "HOS.8.5": "I have spurned your calf, O Samaria. My anger burns against them. How long will they be incapable of innocence?",
-  "HOS.8.6": "For it is from Israel; a craftsman made it; it is not God. The calf of Samaria shall be broken to pieces.",
-  "HOS.8.7": "For they sow the wind, and they shall reap the whirlwind. The standing grain has no heads; it shall yield no flour; if it were to yield, strangers would devour it.",
-  "HOS.8.8": "Israel is swallowed up; already they are among the nations as a useless vessel.",
-  "HOS.8.9": "For they have gone up to Assyria, a wild donkey wandering alone; Ephraim has hired lovers.",
-  "HOS.8.10": "Though they hire allies among the nations, I will soon gather them up. And the king and princes shall soon writhe because of the tribute.",
-  "HOS.8.11": "Because Ephraim has multiplied altars for sinning, they have become to him altars for sinning.",
-  "HOS.8.12": "Were I to write for him my laws by the ten thousands, they would be regarded as a strange thing.",
-  "HOS.8.13": "As for my sacrificial offerings, they sacrifice meat and eat it, but the Lord does not accept them. Now he will remember their iniquity and punish their sins; they shall return to Egypt.",
-  "HOS.8.14": "For Israel has forgotten his Maker and built palaces, and Judah has multiplied fortified cities; so I will send a fire upon his cities, and it shall devour her strongholds.",
-  "HOS.9.1": "Rejoice not, O Israel! Exult not like the peoples; for you have played the whore, forsaking your God. You have loved a prostitute’s wages on all threshing floors.",
-  "HOS.9.2": "Threshing floor and wine vat shall not feed them, and the new wine shall fail them.",
-  "HOS.9.3": "They shall not remain in the land of the Lord, but Ephraim shall return to Egypt, and they shall eat unclean food in Assyria.",
-  "HOS.9.4": "They shall not pour drink offerings of wine to the Lord, and their sacrifices shall not please him. It shall be like mourners’ bread to them; all who eat of it shall be defiled; for their bread shall be for their hunger only; it shall not come to the house of the Lord.",
-  "HOS.9.5": "What will you do on the day of the appointed festival, and on the day of the feast of the Lord?",
-  "HOS.9.6": "For behold, they are going away from destruction; but Egypt shall gather them; Memphis shall bury them. Nettles shall possess their precious things of silver; thorns shall be in their tents.",
-  "HOS.9.7": "The days of punishment have come; the days of recompense have come; Israel shall know it. The prophet is a fool; the man of the spirit is mad, because of your great iniquity and great hatred.",
-  "HOS.9.8": "The prophet is the watchman of Ephraim with my God; yet a fowler’s snare is on all his ways, and hatred in the house of his God.",
-  "HOS.9.9": "They have deeply corrupted themselves as in the days of Gibeah: he will remember their iniquity; he will punish their sins.",
-  "HOS.9.10": "Like grapes in the wilderness, I found Israel. Like the first fruit on the fig tree in its first season, I saw your fathers. But they came to Baal-peor and consecrated themselves to the thing of shame, and became detestable like the thing they loved.",
-  "HOS.9.11": "Ephraim’s glory shall fly away like a bird— no birth, no pregnancy, no conception!",
-  "HOS.9.12": "Even if they bring up children, I will bereave them till none is left. Woe to them when I depart from them!",
-  "HOS.9.13": "Ephraim, as I have seen, was like a young palm planted in a meadow; but Ephraim must lead his children out to slaughter.",
-  "HOS.9.14": "Give them, O Lord— what will you give? Give them a miscarrying womb and dry breasts.",
-  "HOS.9.15": "Every evil of theirs is in Gilgal; there I began to hate them. Because of the wickedness of their deeds I will drive them out of my house. I will love them no more; all their princes are rebels.",
-  "HOS.9.16": "Ephraim is stricken; their root is dried up; they shall bear no fruit. Even though they give birth, I will put their beloved children to death.",
-  "HOS.9.17": "My God will reject them because they have not listened to him; they shall be wanderers among the nations.",
-  "HOS.10.1": "Israel is a luxuriant vine that yields its fruit. The more his fruit increased, the more altars he built; as his country improved, he improved his pillars.",
-  "HOS.10.2": "Their heart is false; now they must bear their guilt. The Lord will break down their altars and destroy their pillars.",
-  "HOS.10.3": "For now they will say: “We have no king, for we do not fear the Lord; and a king—what could he do for us?”",
-  "HOS.10.4": "They utter mere words; with empty oaths they make covenants; so judgment springs up like poisonous weeds in the furrows of the field.",
-  "HOS.10.5": "The inhabitants of Samaria tremble for the calf of Beth-aven. Its people mourn for it, and so do its idolatrous priests— those who rejoiced over it and over its glory— for it has departed from them.",
-  "HOS.10.6": "The thing itself shall be carried to Assyria as tribute to the great king. Ephraim shall be put to shame, and Israel shall be ashamed of his idol.",
-  "HOS.10.7": "Samaria’s king shall perish like a twig on the face of the waters.",
-  "HOS.10.8": "The high places of Aven, the sin of Israel, shall be destroyed. Thorn and thistle shall grow up on their altars, and they shall say to the mountains, “Cover us,” and to the hills, “Fall on us.”",
-  "HOS.10.9": "From the days of Gibeah, you have sinned, O Israel; there they have continued. Shall not the war against the unjust overtake them in Gibeah?",
-  "HOS.10.10": "When I please, I will discipline them, and nations shall be gathered against them when they are bound up for their double iniquity.",
-  "HOS.10.11": "Ephraim was a trained calf that loved to thresh, and I spared her fair neck; but I will put Ephraim to the yoke; Judah must plow; Jacob must harrow for himself.",
-  "HOS.10.12": "Sow for yourselves righteousness; reap steadfast love; break up your fallow ground, for it is the time to seek the Lord, that he may come and rain righteousness upon you.",
-  "HOS.10.13": "You have plowed iniquity; you have reaped injustice; you have eaten the fruit of lies. Because you have trusted in your own way and in the multitude of your warriors,",
-  "HOS.10.14": "therefore the tumult of war shall arise among your people, and all your fortresses shall be destroyed, as Shalman destroyed Beth-arbel on the day of battle; mothers were dashed in pieces with their children.",
-  "HOS.10.15": "Thus it shall be done to you, O Bethel, because of your great evil. At dawn the king of Israel shall be utterly cut off.",
-  "HOS.11.1": "When Israel was a child, I loved him, and out of Egypt I called my son.",
-  "HOS.11.2": "The more they were called, the more they went away; they kept sacrificing to the Baals and burning offerings to idols.",
-  "HOS.11.3": "Yet it was I who taught Ephraim to walk; I took them up by their arms, but they did not know that I healed them.",
-  "HOS.11.4": "I led them with cords of kindness, with the bands of love, and I became to them as one who eases the yoke on their jaws, and I bent down to them and fed them.",
-  "HOS.11.5": "They shall not return to the land of Egypt, but Assyria shall be their king, because they have refused to return to me.",
-  "HOS.11.6": "The sword shall rage against their cities, consume the bars of their gates, and devour them because of their own counsels.",
-  "HOS.11.7": "My people are bent on turning away from me, and though they call out to the Most High, he shall not raise them up at all.",
-  "HOS.11.8": "How can I give you up, O Ephraim? How can I hand you over, O Israel? How can I make you like Admah? How can I treat you like Zeboiim? My heart recoils within me; my compassion grows warm and tender.",
-  "HOS.11.9": "I will not execute my burning anger; I will not again destroy Ephraim; for I am God and not a man, the Holy One in your midst, and I will not come in wrath.",
-  "HOS.11.10": "They shall go after the Lord; he will roar like a lion; when he roars, his children shall come trembling from the west;",
-  "HOS.11.11": "they shall come trembling like birds from Egypt, and like doves from the land of Assyria, and I will return them to their homes, declares the Lord.",
-  "HOS.11.12": "Ephraim has surrounded me with lies, and the house of Israel with deceit, but Judah still walks with God and is faithful to the Holy One.",
-  "HOS.12.1": "Ephraim feeds on the wind and pursues the east wind all day long; they multiply falsehood and violence; they make a covenant with Assyria, and oil is carried to Egypt.",
-  "HOS.12.2": "The Lord has an indictment against Judah and will punish Jacob according to his ways; he will repay him according to his deeds.",
-  "HOS.12.3": "In the womb he took his brother by the heel, and in his manhood he strove with God.",
-  "HOS.12.4": "He strove with the angel and prevailed; he wept and sought his favor. He met God at Bethel, and there God spoke with us—",
-  "HOS.12.5": "the Lord, the God of hosts, the Lord is his memorial name:",
-  "HOS.12.6": "“So you, by the help of your God, return, hold fast to love and justice, and wait continually for your God.”",
-  "HOS.12.7": "A merchant, in whose hands are false balances, he loves to oppress.",
-  "HOS.12.8": "Ephraim has said, “Ah, but I am rich; I have found wealth for myself; in all my labors they cannot find in me iniquity or sin.”",
-  "HOS.12.9": "I am the Lord your God from the land of Egypt; I will again make you dwell in tents, as in the days of the appointed feast.",
-  "HOS.12.10": "I spoke to the prophets; it was I who multiplied visions, and through the prophets gave parables.",
-  "HOS.12.11": "If there is iniquity in Gilead, they shall surely come to nothing: in Gilgal they sacrifice bulls; their altars also are like stone heaps on the furrows of the field.",
-  "HOS.12.12": "Jacob fled to the land of Aram; there Israel served for a wife, and for a wife he guarded sheep.",
-  "HOS.12.13": "By a prophet the Lord brought Israel up from Egypt, and by a prophet he was guarded.",
-  "HOS.12.14": "Ephraim has given bitter provocation; so his Lord will leave his bloodguilt on him and will repay him for his disgraceful deeds.",
-  "HOS.13.1": "When Ephraim spoke, there was trembling; he was exalted in Israel, but he incurred guilt through Baal and died.",
-  "HOS.13.2": "And now they sin more and more, and make for themselves metal images, idols skillfully made of their silver, all of them the work of craftsmen. It is said of them, “Those who offer human sacrifice kiss calves!”",
-  "HOS.13.3": "Therefore they shall be like the morning mist or like the dew that goes early away, like the chaff that swirls from the threshing floor or like smoke from a window.",
-  "HOS.13.4": "But I am the Lord your God from the land of Egypt; you know no God but me, and besides me there is no savior.",
-  "HOS.13.5": "It was I who knew you in the wilderness, in the land of drought;",
-  "HOS.13.6": "but when they had grazed, they became full, they were filled, and their heart was lifted up; therefore they forgot me.",
-  "HOS.13.7": "So I am to them like a lion; like a leopard I will lurk beside the way.",
-  "HOS.13.8": "I will fall upon them like a bear robbed of her cubs; I will tear open their breast, and there I will devour them like a lion, as a wild beast would rip them open.",
-  "HOS.13.9": "He destroys you, O Israel, for you are against me, against your helper.",
-  "HOS.13.10": "Where now is your king, to save you in all your cities? Where are all your rulers— those of whom you said, “Give me a king and princes”?",
-  "HOS.13.11": "I gave you a king in my anger, and I took him away in my wrath.",
-  "HOS.13.12": "The iniquity of Ephraim is bound up; his sin is kept in store.",
-  "HOS.13.13": "The pangs of childbirth come for him, but he is an unwise son, for at the right time he does not present himself at the opening of the womb.",
-  "HOS.13.14": "I shall ransom them from the power of Sheol; I shall redeem them from Death. O Death, where are your plagues? O Sheol, where is your sting? Compassion is hidden from my eyes.",
-  "HOS.13.15": "Though he may flourish among his brothers, the east wind, the wind of the Lord, shall come, rising from the wilderness, and his fountain shall dry up; his spring shall be parched; it shall strip his treasury of every precious thing.",
-  "HOS.13.16": "Samaria shall bear her guilt, because she has rebelled against her God; they shall fall by the sword; their little ones shall be dashed in pieces, and their pregnant women ripped open.",
-  "HOS.14.1": "Return, O Israel, to the Lord your God, for you have stumbled because of your iniquity.",
-  "HOS.14.2": "Take with you words and return to the Lord; say to him, “Take away all iniquity; accept what is good, and we will pay with bulls the vows of our lips.",
-  "HOS.14.3": "Assyria shall not save us; we will not ride on horses; and we will say no more, ‘Our God,’ to the work of our hands. In you the orphan finds mercy.”",
-  "HOS.14.4": "I will heal their apostasy; I will love them freely, for my anger has turned from them.",
-  "HOS.14.5": "I will be like the dew to Israel; he shall blossom like the lily; he shall take root like the trees of Lebanon;",
-  "HOS.14.6": "his shoots shall spread out; his beauty shall be like the olive, and his fragrance like Lebanon.",
-  "HOS.14.7": "They shall return and dwell beneath my shadow; they shall flourish like the grain; they shall blossom like the vine; their fame shall be like the wine of Lebanon.",
-  "HOS.14.8": "O Ephraim, what have I to do with idols? It is I who answer and look after you. I am like an evergreen cypress; from me comes your fruit.",
-  "HOS.14.9": "Whoever is wise, let him understand these things; whoever is discerning, let him know them; for the ways of the Lord are right, and the upright walk in them, but transgressors stumble in them."
+  "HOS.1.1": {
+    "text": "The word of the Lord that came to Hosea, the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 1:1; Amos 1:1; Mic. 1:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Kgs. 14:23; 15:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.2": {
+    "text": "When the Lord first spoke through Hosea, the Lord said to Hosea, “Go, take to yourself a wife of whoredom and have children of whoredom, for the land commits great whoredom by forsaking the Lord.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:5]; See Ezek. 16:15",
+        "refs": []
+      }
+    ],
+    "section": "Hosea’s Wife and Children"
+  },
+  "HOS.1.3": {
+    "text": "So he went and took Gomer, the daughter of Diblaim, and she conceived and bore him a son.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.1.4": {
+    "text": "And the Lord said to him, “Call his name Jezreel, for in just a little while I will punish the house of Jehu for the blood of Jezreel, and I will put an end to the kingdom of the house of Israel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[2 Kgs. 10:11]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Amos 7:9]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.5": {
+    "text": "And on that day I will break the bow of Israel in the Valley of Jezreel.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[2 Kgs. 15:29]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Josh. 17:16; Judg. 6:33",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.6": {
+    "text": "She conceived again and bore a daughter. And the Lord said to him, “Call her name No Mercy, for I will no more have mercy on the house of Israel, to forgive them at all.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 9; ch. 2:1, 23; Rom. 9:25; 1 Pet. 2:10]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:4; 2 Kgs. 17:6, 23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.7": {
+    "text": "But I will have mercy on the house of Judah, and I will save them by the Lord their God. I will not save them by bow or by sword or by war or by horses or by horsemen.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 11:12; 2 Kgs. 19:35]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:18; Zech. 4:6; 9:10]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.8": {
+    "text": "When she had weaned No Mercy, she conceived and bore a son.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.1.9": {
+    "text": "And the Lord said, “Call his name Not My People, for you are not my people, and I am not your God.”",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 4, 6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:23; [Lev. 26:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.10": {
+    "text": "Yet the number of the children of Israel shall be like the sand of the sea, which cannot be measured or numbered. And in the place where it was said to them, “You are not my people,” it shall be said to them, “Children of the living God.”",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ezek. 36:10, 37]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gen. 22:17; See Gen. 13:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Cited Rom. 9:26",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 62:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 9 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 14:1; [2 Cor. 6:18]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 42:2; See Josh. 3:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.11": {
+    "text": "And the children of Judah and the children of Israel shall be gathered together, and they shall appoint for themselves one head. And they shall go up from the land, for great shall be the day of Jezreel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 11:12, 13; Jer. 3:18; 50:4; Ezek. 34:23; Zech. 10:6; See Ezek. 37:16-24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 3:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.1": {
+    "text": "Say to your brothers, “You are my people,” and to your sisters, “You have received mercy.”",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:6]",
+        "refs": []
+      }
+    ],
+    "section": "Israel’s Unfaithfulness Punished"
+  },
+  "HOS.2.2": {
+    "text": "“Plead with your mother, plead— for she is not my wife, and I am not her husband— that she put away her whoring from her face, and her adultery from between her breasts;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 50:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 4:12; Ezek. 16:25]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.3": {
+    "text": "lest I strip her naked and make her as in the day she was born, and make her like a wilderness, and make her like a parched land, and kill her with thirst.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ezek. 16:39]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ezek. 16:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 9; Ezek. 19:13]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.4": {
+    "text": "Upon her children also I will have no mercy, because they are children of whoredom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.5": {
+    "text": "For their mother has played the whore; she who conceived them has acted shamefully. For she said, ‘I will go after my lovers, who give me my bread and my water, my wool and my flax, my oil and my drink.’",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 12, 13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 8, 9; Jer. 44:17]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.6": {
+    "text": "Therefore I will hedge up her way with thorns, and I will build a wall against her, so that she cannot find her paths.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 3:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Job 19:8; Lam. 3:7, 9]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.7": {
+    "text": "She shall pursue her lovers but not overtake them, and she shall seek them but shall not find them. Then she shall say, ‘I will go and return to my first husband, for it was better for me then than now.’",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Luke 15:17, 18 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 54:5, 6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Luke 15:17, 18 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.8": {
+    "text": "And she did not know that it was I who gave her the grain, the wine, and the oil, and who lavished on her silver and gold, which they used for Baal.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 20; Isa. 1:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ezek. 16:19]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 7:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 13:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ezek. 16:17, 18 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.9": {
+    "text": "Therefore I will take back my grain in its time, and my wine in its season, and I will take away my wool and my flax, which were to cover her nakedness.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 3; Joel 1:10]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 3; Joel 1:10]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.10": {
+    "text": "Now I will uncover her lewdness in the sight of her lovers, and no one shall rescue her out of my hand.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Lam. 1:8; Ezek. 16:37; 23:29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.11": {
+    "text": "And I will put an end to all her mirth, her feasts, her new moons, her Sabbaths, and all her appointed feasts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Jer. 7:34; Amos 8:10 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Amos 8:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Amos 8:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 9:5; Isa. 1:13, 14]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.12": {
+    "text": "And I will lay waste her vines and her fig trees, of which she said, ‘These are my wages, which my lovers have given me.’ I will make them a forest, and the beasts of the field shall devour them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 5:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 5 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Mic. 1:7]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 13:8 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.13": {
+    "text": "And I will punish her for the feast days of the Baals when she burned offerings to them and adorned herself with her ring and jewelry, and went after her lovers and forgot me, declares the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 4:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 11:2; 13:1, 2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 23:40; [Isa. 61:10]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.14": {
+    "text": "“Therefore, behold, I will allure her, and bring her into the wilderness, and speak tenderly to her.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ezek. 20:35]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 40:2",
+        "refs": []
+      }
+    ],
+    "section": "The"
+  },
+  "HOS.2.15": {
+    "text": "And there I will give her her vineyards and make the Valley of Achor a door of hope. And there she shall answer as in the days of her youth, as at the time when she came out of the land of Egypt.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "means"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 9:10; 11:1; Jer. 2:2; Ezek. 16:22, 60]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.16": {
+    "text": "“And in that day, declares the Lord, you will call me ‘My Husband,’ and no longer will you call me ‘My Baal.’",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 18, 21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.17": {
+    "text": "For I will remove the names of the Baals from her mouth, and they shall be remembered by name no more.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Zeph. 1:4; Zech. 13:2; [Ex. 23:13]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.18": {
+    "text": "And I will make for them a covenant on that day with the beasts of the field, the birds of the heavens, and the creeping things of the ground. And I will abolish the bow, the sword, and war from the land, and I will make you lie down in safety.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 34:25; [Job 5:23]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 46:9; Isa. 2:4; 9:5; Ezek. 39:9, 10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Lev. 26:5; Jer. 23:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.19": {
+    "text": "And I will betroth you to me forever. I will betroth you to me in righteousness and in justice, in steadfast love and in mercy.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ezek. 43:7]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 7, 16; Jer. 3:14, 15; 2 Cor. 11:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.20": {
+    "text": "I will betroth you to me in faithfulness. And you shall know the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 19 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 31:34; John 17:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.21": {
+    "text": "“And in that day I will answer, declares the Lord, I will answer the heavens, and they shall answer the earth,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Zech. 8:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.22": {
+    "text": "and the earth shall answer the grain, the wine, and the oil, and they shall answer Jezreel,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "means"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:4, 11]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.23": {
+    "text": "and I will sow her for myself in the land. And I will have mercy on No Mercy, and I will say to Not My People, ‘You are my people’; and he shall say, ‘You are my God.’”",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:10]; See Ezek. 36:9-11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Cited Rom. 9:25, 26",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:9; 1 Pet. 2:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 1; Zech. 13:9; See Lev. 26:12; Jer. 31:33",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.3.1": {
+    "text": "And the Lord said to me, “Go again, love a woman who is loved by another man and is an adulteress, even as the Lord loves the children of Israel, though they turn to other gods and love cakes of raisins.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:2, 3]",
+        "refs": []
+      }
+    ],
+    "section": "Hosea Redeems His Wife"
+  },
+  "HOS.3.2": {
+    "text": "So I bought her for fifteen shekels of silver and a homer and a lethech of barley.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "A"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Lev. 27:16; [Ezek. 45:11]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.3.3": {
+    "text": "And I said to her, “You must dwell as mine for many days. You shall not play the whore, or belong to another man; so will I also be to you.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 21:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.3.4": {
+    "text": "For the children of Israel shall dwell many days without king or prince, without sacrifice or pillar, without ephod or household gods.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 3 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 10:3, 7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 9:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 10:1, 2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Judg. 8:27",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Gen. 31:19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.3.5": {
+    "text": "Afterward the children of Israel shall return and seek the Lord their God, and David their king, and they shall come in fear to the Lord and to his goodness in the latter days.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 14:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 29:13; 50:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 34:23; [ch. 1:11]; See Jer. 23:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Mic. 7:17]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 2:2; See Mic. 4:1-3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.1": {
+    "text": "Hear the word of the Lord, O children of Israel, for the Lord has a controversy with the inhabitants of the land. There is no faithfulness or steadfast love, and no knowledge of God in the land;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 5:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 3:13, 14; Jer. 25:31; Mic. 6:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 6, 14; Jer. 4:22; 5:4]",
+        "refs": []
+      }
+    ],
+    "section": "The"
+  },
+  "HOS.4.2": {
+    "text": "there is swearing, lying, murder, stealing, and committing adultery; they break all bounds, and bloodshed follows bloodshed.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 7:1 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 6:9; 12:14; Mic. 3:10; 7:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.3": {
+    "text": "Therefore the land mourns, and all who dwell in it languish, and also the beasts of the field and the birds of the heavens, and even the fish of the sea are taken away.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 24:4; Jer. 4:28; Joel 1:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Joel 1:18; Zeph. 1:3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ezek. 38:20 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.4": {
+    "text": "Yet let no one contend, and let none accuse, for with you is my contention, O priest.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 17 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Deut. 17:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.5": {
+    "text": "You shall stumble by day; the prophet also shall stumble with you by night; and I will destroy your mother.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.6": {
+    "text": "My people are destroyed for lack of knowledge; because you have rejected knowledge, I reject you from being a priest to me. And since you have forgotten the law of your God, I also will forget your children.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 1; Isa. 5:13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Prov. 1:29 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ex. 19:6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 23:39 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.7": {
+    "text": "The more they increased, the more they sinned against me; I will change their glory into shame.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 13:6 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Sam. 2:30; Mal. 2:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.8": {
+    "text": "They feed on the sin of my people; they are greedy for their iniquity.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Lev. 6:25, 26; 10:17 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.9": {
+    "text": "And it shall be like people, like priest; I will punish them for their ways and repay them for their deeds.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 24:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.10": {
+    "text": "They shall eat, but not be satisfied; they shall play the whore, but not multiply, because they have forsaken the Lord to cherish",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Lev. 26:26; Mic. 6:14; Hag. 1:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.11": {
+    "text": "whoredom, wine, and new wine, which take away the understanding.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 11:4; Prov. 20:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.12": {
+    "text": "My people inquire of a piece of wood, and their walking staff gives them oracles. For a spirit of whoredom has led them astray, and they have left their God to play the whore.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Judg. 18:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:4; [ch. 2:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.13": {
+    "text": "They sacrifice on the tops of the mountains and burn offerings on the hills, under oak, poplar, and terebinth, because their shade is good. Therefore your daughters play the whore, and your brides commit adultery.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 6:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 1:29 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.14": {
+    "text": "I will not punish your daughters when they play the whore, nor your brides when they commit adultery; for the men themselves go aside with prostitutes and sacrifice with cult prostitutes, and a people without understanding shall come to ruin.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 9:10]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 23:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 1, 6]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.15": {
+    "text": "Though you play the whore, O Israel, let not Judah become guilty. Enter not into Gilgal, nor go up to Beth-aven, and swear not, “As the Lord lives.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 4:4, 5; 5:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 9:15; 12:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:8; 10:5; [ch. 10:8; 1 Kgs. 12:29; Amos 1:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.16": {
+    "text": "Like a stubborn heifer, Israel is stubborn; can the Lord now feed them like a lamb in a broad pasture?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.4.17": {
+    "text": "Ephraim is joined to idols; leave him alone.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 12; ch. 5:3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Matt. 15:14 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.18": {
+    "text": "When their drink is gone, they give themselves to whoring; their rulers dearly love shame.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 9:10 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.19": {
+    "text": "A wind has wrapped them in its wings, and they shall be ashamed because of their sacrifices.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 13:15; Jer. 4:11; 51:1; [ Zech. 5:9 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 1:29]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.1": {
+    "text": "Hear this, O priests! Pay attention, O house of Israel! Give ear, O house of the king! For the judgment is for you; for you have been a snare at Mizpah and a net spread upon Tabor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:1; Joel 1:2; Amos 3:1; Mic. 1:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 6:9; 9:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Judg. 4:6",
+        "refs": []
+      }
+    ],
+    "section": "Punishment Coming for Israel and Judah"
+  },
+  "HOS.5.2": {
+    "text": "And the revolters have gone deep into slaughter, but I will discipline all of them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 9:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 9:9; Isa. 29:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 50:21]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.3": {
+    "text": "I know Ephraim, and Israel is not hidden from me; for now, O Ephraim, you have played the whore; Israel is defiled.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Amos 3:2; 5:12 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.4": {
+    "text": "Their deeds do not permit them to return to their God. For the spirit of whoredom is within them, and they know not the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 59:2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.5": {
+    "text": "The pride of Israel testifies to his face; Israel and Ephraim shall stumble in his guilt; Judah also shall stumble with them.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 7:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.6": {
+    "text": "With their flocks and herds they shall go to seek the Lord, but they will not find him; he has withdrawn from them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:6; Isa. 1:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:6; Isa. 1:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 9:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.7": {
+    "text": "They have dealt faithlessly with the Lord; for they have borne alien children. Now the new moon shall devour them with their fields.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.8": {
+    "text": "Blow the horn in Gibeah, the trumpet in Ramah. Sound the alarm at Beth-aven; we follow you, O Benjamin!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 8:1; Jer. 4:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 9:9; 10:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Josh. 18:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 4:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.9": {
+    "text": "Ephraim shall become a desolation in the day of punishment; among the tribes of Israel I make known what is sure.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.5.10": {
+    "text": "The princes of Judah have become like those who move the landmark; upon them I will pour out my wrath like water.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 19:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.11": {
+    "text": "Ephraim is oppressed, crushed in judgment, because he was determined to go after filth.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 28:33; Amos 4:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.12": {
+    "text": "But I am like a moth to Ephraim, and like dry rot to the house of Judah.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Job 13:28]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Job 13:28]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.13": {
+    "text": "When Ephraim saw his sickness, and Judah his wound, then Ephraim went to Assyria, and sent to the great king. But he is not able to cure you or heal your wound.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 1:5, 6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 7:11; 8:9; 12:1; 2 Kgs. 15:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 14:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 1:5, 6]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.14": {
+    "text": "For I will be like a lion to Ephraim, and like a young lion to the house of Judah. I, even I, will tear and go away; I will carry off, and no one shall rescue.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 13:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Mic. 5:8 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.15": {
+    "text": "I will return again to my place, until they acknowledge their guilt and seek my face, and in their distress earnestly seek me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Jer. 29:10-12; Ezek. 6:9 ]; See Lev. 26:40-42",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 26:16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.1": {
+    "text": "“Come, let us return to the Lord; for he has torn us, that he may heal us; he has struck us down, and he will bind us up.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 14:1; [ch. 3:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:14; [ch. 13:7, 8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 30:26]",
+        "refs": []
+      }
+    ],
+    "section": "Israel and Judah Are Unrepentant"
+  },
+  "HOS.6.2": {
+    "text": "After two days he will revive us; on the third day he will raise us up, that we may live before him.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 71:20; [Luke 24:27, 44; John 2:22; 20:9; 1 Cor. 15:4]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.3": {
+    "text": "Let us know; let us press on to know the Lord; his going out is sure as the dawn; he will come to us as the showers, as the spring rains that water the earth.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 4:6 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 4:6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mic. 5:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 14:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Joel 2:23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.4": {
+    "text": "What shall I do with you, O Ephraim? What shall I do with you, O Judah? Your love is like a morning cloud, like the dew that goes early away.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 11:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 10, 11; ch. 4:15; 5:5; 8:14; 10:11; 11:12; 12:1, 2; See ch. 5:9-14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 6:10, 11; ch. 4:15; 5:5; 8:14; 10:11; 11:12; 12:1, 2; See ch. 5:9-14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 13:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 13:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.5": {
+    "text": "Therefore I have hewn them by the prophets; I have slain them by the words of my mouth, and my judgment goes forth as the light.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 23:29; [Heb. 4:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.6": {
+    "text": "For I desire steadfast love and not sacrifice, the knowledge of God rather than burnt offerings.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Septuagint"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Cited Matt. 9:13; 12:7; [1 Sam. 15:22]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:20 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.7": {
+    "text": "But like Adam they transgressed the covenant; there they dealt faithlessly with me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Gen. 3:11; Job 31:33; Rom. 5:14]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:1; Deut. 17:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.8": {
+    "text": "Gilead is a city of evildoers, tracked with blood.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 12:11 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 4:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.9": {
+    "text": "As robbers lie in wait for a man, so the priests band together; they murder on the way to Shechem; they commit villainy.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 5:1; 7:6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Josh. 24:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.10": {
+    "text": "In the house of Israel I have seen a horrible thing; Ephraim’s whoredom is there; Israel is defiled.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:3; 7:4; [ch. 4:2, 12, 14; 9:10 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ver. 4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.11": {
+    "text": "For you also, O Judah, a harvest is appointed. When I restore the fortunes of my people,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 10 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Joel 3:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 126:1; [Job 42:10]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.1": {
+    "text": "when I would heal Israel, the iniquity of Ephraim is revealed, and the evil deeds of Samaria, for they deal falsely; the thief breaks in, and the bandits raid outside.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 6:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Jer. 23:13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 4:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.2": {
+    "text": "But they do not consider that I remember all their evil. Now their deeds surround them; they are before my face.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 5:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 9:16; Prov. 5:22",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 90:8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.3": {
+    "text": "By their evil they make the king glad, and the princes by their treachery.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 5; [Rom. 1:32]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 5; [Rom. 1:32]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.4": {
+    "text": "They are all adulterers; they are like a heated oven whose baker ceases to stir the fire, from the kneading of the dough until it is leavened.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 6:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.5": {
+    "text": "On the day of our king, the princes became sick with the heat of wine; he stretched out his hand with mockers.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.6": {
+    "text": "For with hearts like an oven they approach their intrigue; all night their anger smolders; in the morning it blazes like a flaming fire.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.7": {
+    "text": "All of them are hot as an oven, and they devour their rulers. All their kings have fallen, and none of them calls upon me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 8:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Kgs. 15:10, 14, 25, 30",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.8": {
+    "text": "Ephraim mixes himself with the peoples; Ephraim is a cake not turned.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 106:35",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.9": {
+    "text": "Strangers devour his strength, and he knows it not; gray hairs are sprinkled upon him, and he knows it not.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 8:7 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 42:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 42:25",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.10": {
+    "text": "The pride of Israel testifies to his face; yet they do not return to the Lord their God, nor seek him, for all this.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 9:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.11": {
+    "text": "Ephraim is like a dove, silly and without sense, calling to Egypt, going to Assyria.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 12:1; 2 Kgs. 17:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 5:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.12": {
+    "text": "As they go, I will spread over them my net; I will bring them down like birds of the heavens; I will discipline them according to the report made to their congregation.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Ezek. 12:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 10:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Lev. 26:14-39; Deut. 28:15-68",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.13": {
+    "text": "Woe to them, for they have strayed from me! Destruction to them, for they have rebelled against me! I would redeem them, but they speak lies against me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 9:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 13:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 11:12; 12:1; Mic. 6:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.14": {
+    "text": "They do not cry to me from the heart, but they wail upon their beds; for grain and wine they gash themselves; they rebel against me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 78:36, 37",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Amos 6:4, 5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.15": {
+    "text": "Although I trained and strengthened their arms, yet they devise evil against me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 11:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.16": {
+    "text": "They return, but not upward; they are like a treacherous bow; their princes shall fall by the sword because of the insolence of their tongue. This shall be their derision in the land of Egypt.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 6:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 78:57",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 73:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 9:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.1": {
+    "text": "Set the trumpet to your lips! One like a vulture is over the house of the Lord, because they have transgressed my covenant and rebelled against my law.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Deut. 28:49",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:7",
+        "refs": []
+      }
+    ],
+    "section": "Israel Will Reap the Whirlwind"
+  },
+  "HOS.8.2": {
+    "text": "To me they cry, “My God, we—Israel—know you.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Matt. 7:21-23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.3": {
+    "text": "Israel has spurned the good; the enemy shall pursue him.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.8.4": {
+    "text": "They made kings, but not through me. They set up princes, but I knew it not. With their silver and gold they made idols for their own destruction.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 7:7; 1 Kgs. 12:20",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Chr. 13:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.5": {
+    "text": "I have spurned your calf, O Samaria. My anger burns against them. How long will they be incapable of innocence?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 10:5, 6; [ 1 Kgs. 12:28 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 13:27 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.6": {
+    "text": "For it is from Israel; a craftsman made it; it is not God. The calf of Samaria shall be broken to pieces.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 5 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Mic. 1:6, 7 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.7": {
+    "text": "For they sow the wind, and they shall reap the whirlwind. The standing grain has no heads; it shall yield no flour; if it were to yield, strangers would devour it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 10:12, 13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 7:9 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.8": {
+    "text": "Israel is swallowed up; already they are among the nations as a useless vessel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kgs. 17:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 22:28",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.9": {
+    "text": "For they have gone up to Assyria, a wild donkey wandering alone; Ephraim has hired lovers.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 5:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 2:24 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.10": {
+    "text": "Though they hire allies among the nations, I will soon gather them up. And the king and princes shall soon writhe because of the tribute.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Ezek. 26:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 4:7, 10]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.11": {
+    "text": "Because Ephraim has multiplied altars for sinning, they have become to him altars for sinning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 10:1; 12:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.12": {
+    "text": "Were I to write for him my laws by the ten thousands, they would be regarded as a strange thing.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Deut. 4:6, 8 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.13": {
+    "text": "As for my sacrificial offerings, they sacrifice meat and eat it, but the Lord does not accept them. Now he will remember their iniquity and punish their sins; they shall return to Egypt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 7:21; [ Amos 4:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 9:9; Amos 8:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 9:3; Deut. 28:68; [ch. 11:5 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.14": {
+    "text": "For Israel has forgotten his Maker and built palaces, and Judah has multiplied fortified cities; so I will send a fire upon his cities, and it shall devour her strongholds.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 17:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Amos 5:11]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 2:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.1": {
+    "text": "Rejoice not, O Israel! Exult not like the peoples; for you have played the whore, forsaking your God. You have loved a prostitute’s wages on all threshing floors.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:5; Jer. 44:17",
+        "refs": []
+      }
+    ],
+    "section": "The"
+  },
+  "HOS.9.2": {
+    "text": "Threshing floor and wine vat shall not feed them, and the new wine shall fail them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 2:9 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:9]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.3": {
+    "text": "They shall not remain in the land of the Lord, but Ephraim shall return to Egypt, and they shall eat unclean food in Assyria.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 2:7; 16:18; See Lev. 25:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 8:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 4:13; Dan. 1:8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.4": {
+    "text": "They shall not pour drink offerings of wine to the Lord, and their sacrifices shall not please him. It shall be like mourners’ bread to them; all who eat of it shall be defiled; for their bread shall be for their hunger only; it shall not come to the house of the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 8:13 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 26:14; Ezek. 24:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Hag. 2:13 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.5": {
+    "text": "What will you do on the day of the appointed festival, and on the day of the feast of the Lord?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 10:3 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.6": {
+    "text": "For behold, they are going away from destruction; but Egypt shall gather them; Memphis shall bury them. Nettles shall possess their precious things of silver; thorns shall be in their tents.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 8:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 10:8; Isa. 2:20]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 10:8 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.7": {
+    "text": "The days of punishment have come; the days of recompense have come; Israel shall know it. The prophet is a fool; the man of the spirit is mad, because of your great iniquity and great hatred.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Isa. 10:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 13:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.8": {
+    "text": "The prophet is the watchman of Ephraim with my God; yet a fowler’s snare is on all his ways, and hatred in the house of his God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 3:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 91:3; [ch. 5:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.9": {
+    "text": "They have deeply corrupted themselves as in the days of Gibeah: he will remember their iniquity; he will punish their sins.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 5:2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 10:9; Judg. 19:22",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 5:2 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.10": {
+    "text": "Like grapes in the wilderness, I found Israel. Like the first fruit on the fig tree in its first season, I saw your fathers. But they came to Baal-peor and consecrated themselves to the thing of shame, and became detestable like the thing they loved.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ps. 80:8; Isa. 5:1 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Num. 25:3; Ps. 106:28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 4:14]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Rom. 1:28, 29]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.11": {
+    "text": "Ephraim’s glory shall fly away like a bird— no birth, no pregnancy, no conception!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 10:5; [ch. 4:7]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 26:18 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.12": {
+    "text": "Even if they bring up children, I will bereave them till none is left. Woe to them when I depart from them!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 13:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 7:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:6; 1 Sam. 28:15, 16; Ezek. 10:18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.13": {
+    "text": "Ephraim, as I have seen, was like a young palm planted in a meadow; but Ephraim must lead his children out to slaughter.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ezek. 27:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 12 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.14": {
+    "text": "Give them, O Lord— what will you give? Give them a miscarrying womb and dry breasts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Luke 23:29]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.15": {
+    "text": "Every evil of theirs is in Gilgal; there I began to hate them. Because of the wickedness of their deeds I will drive them out of my house. I will love them no more; all their princes are rebels.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:15; 12:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 5:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.16": {
+    "text": "Ephraim is stricken; their root is dried up; they shall bear no fruit. Even though they give birth, I will put their beloved children to death.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 11 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 12, 13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 12 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.17": {
+    "text": "My God will reject them because they have not listened to him; they shall be wanderers among the nations.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 8:5 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 28:64, 65",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.1": {
+    "text": "Israel is a luxuriant vine that yields its fruit. The more his fruit increased, the more altars he built; as his country improved, he improved his pillars.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Ps. 80:8-11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.2": {
+    "text": "Their heart is false; now they must bear their guilt. The Lord will break down their altars and destroy their pillars.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.10.3": {
+    "text": "For now they will say: “We have no king, for we do not fear the Lord; and a king—what could he do for us?”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 7, 15; 1 Sam. 12:12 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.4": {
+    "text": "They utter mere words; with empty oaths they make covenants; so judgment springs up like poisonous weeds in the furrows of the field.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 4:2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 5:7; 6:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 12:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.5": {
+    "text": "The inhabitants of Samaria tremble for the calf of Beth-aven. Its people mourn for it, and so do its idolatrous priests— those who rejoiced over it and over its glory— for it has departed from them.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See 1 Kgs. 12:28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 4:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 9:11; [1 Sam. 4:21, 22]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.6": {
+    "text": "The thing itself shall be carried to Assyria as tribute to the great king. Ephraim shall be put to shame, and Israel shall be ashamed of his idol.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 46:2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 11:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.7": {
+    "text": "Samaria’s king shall perish like a twig on the face of the waters.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 3 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.8": {
+    "text": "The high places of Aven, the sin of Israel, shall be destroyed. Thorn and thistle shall grow up on their altars, and they shall say to the mountains, “Cover us,” and to the hills, “Fall on us.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 5 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Kgs. 12:30; Amos 8:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 9:6 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Luke 23:30; Rev. 6:16; [Isa. 2:19]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.9": {
+    "text": "From the days of Gibeah, you have sinned, O Israel; there they have continued. Shall not the war against the unjust overtake them in Gibeah?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 9:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.10": {
+    "text": "When I please, I will discipline them, and nations shall be gathered against them when they are bound up for their double iniquity.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ex. 32:34 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 7:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 12:28]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.11": {
+    "text": "Ephraim was a trained calf that loved to thresh, and I spared her fair neck; but I will put Ephraim to the yoke; Judah must plow; Jacob must harrow for himself.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Deut. 25:4; 1 Cor. 9:9; 1 Tim. 5:18]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 6:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.12": {
+    "text": "Sow for yourselves righteousness; reap steadfast love; break up your fallow ground, for it is the time to seek the Lord, that he may come and rain righteousness upon you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 8:7; Gal. 6:8 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 4:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 45:8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.13": {
+    "text": "You have plowed iniquity; you have reaped injustice; you have eaten the fruit of lies. Because you have trusted in your own way and in the multitude of your warriors,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 8:7 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.14": {
+    "text": "therefore the tumult of war shall arise among your people, and all your fortresses shall be destroyed, as Shalman destroyed Beth-arbel on the day of battle; mothers were dashed in pieces with their children.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Kgs. 17:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 13:16 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.15": {
+    "text": "Thus it shall be done to you, O Bethel, because of your great evil. At dawn the king of Israel shall be utterly cut off.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 6 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.1": {
+    "text": "When Israel was a child, I loved him, and out of Egypt I called my son.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 2:15 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 7:8; [ch. 14:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Cited Matt. 2:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 4:22; [Mal. 1:6]",
+        "refs": []
+      }
+    ],
+    "section": "The"
+  },
+  "HOS.11.2": {
+    "text": "The more they were called, the more they went away; they kept sacrificing to the Baals and burning offerings to idols.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 7 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:13; 13:1, 2 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.3": {
+    "text": "Yet it was I who taught Ephraim to walk; I took them up by their arms, but they did not know that I healed them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 7:15; Deut. 1:31]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 15:26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.4": {
+    "text": "I led them with cords of kindness, with the bands of love, and I became to them as one who eases the yoke on their jaws, and I bent down to them and fed them.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 31:3; [ John 6:44; 12:32 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Lev. 26:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ps. 78:24-29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.5": {
+    "text": "They shall not return to the land of Egypt, but Assyria shall be their king, because they have refused to return to me.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 8:13 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 10:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 2 Kgs. 17:13, 14 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 4:16; 7:16]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.6": {
+    "text": "The sword shall rage against their cities, consume the bars of their gates, and devour them because of their own counsels.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 10:14 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 10:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.7": {
+    "text": "My people are bent on turning away from me, and though they call out to the Most High, he shall not raise them up at all.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 14:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.8": {
+    "text": "How can I give you up, O Ephraim? How can I hand you over, O Israel? How can I make you like Admah? How can I treat you like Zeboiim? My heart recoils within me; my compassion grows warm and tender.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Gen. 19:24, 25; Jer. 49:18; 50:40; Amos 4:11; Jude 7 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gen. 14:8; Deut. 29:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gen. 14:8; Deut. 29:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Deut. 32:36 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.9": {
+    "text": "I will not execute my burning anger; I will not again destroy Ephraim; for I am God and not a man, the Holy One in your midst, and I will not come in wrath.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Num. 23:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Isa. 12:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.10": {
+    "text": "They shall go after the Lord; he will roar like a lion; when he roars, his children shall come trembling from the west;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:5 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 31:4; Jer. 25:30; Joel 3:16; Amos 1:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 11:11; Zech. 8:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.11": {
+    "text": "they shall come trembling like birds from Egypt, and like doves from the land of Assyria, and I will return them to their homes, declares the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 8:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 60:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Zech. 10:6, 10; [ch. 9:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.12": {
+    "text": "Ephraim has surrounded me with lies, and the house of Israel with deceit, but Judah still walks with God and is faithful to the Holy One.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 7:13]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.1": {
+    "text": "Ephraim feeds on the wind and pursues the east wind all day long; they multiply falsehood and violence; they make a covenant with Assyria, and oil is carried to Egypt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 13:15; Jer. 18:17]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ch. 11:12 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 5:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 7:11; 2 Kgs. 17:4]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.2": {
+    "text": "The Lord has an indictment against Judah and will punish Jacob according to his ways; he will repay him according to his deeds.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 4:1",
+        "refs": []
+      }
+    ],
+    "section": "The"
+  },
+  "HOS.12.3": {
+    "text": "In the womb he took his brother by the heel, and in his manhood he strove with God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gen. 25:26; [ Gen. 27:36 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.4": {
+    "text": "He strove with the angel and prevailed; he wept and sought his favor. He met God at Bethel, and there God spoke with us—",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gen. 28:12, 19; 35:9, 10, 15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.5": {
+    "text": "the Lord, the God of hosts, the Lord is his memorial name:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ex. 3:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.6": {
+    "text": "“So you, by the help of your God, return, hold fast to love and justice, and wait continually for your God.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 14:1, 2; Joel 2:12, 13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Mic. 6:8 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.7": {
+    "text": "A merchant, in whose hands are false balances, he loves to oppress.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Amos 8:5; Mic. 6:11; [Prov. 11:1; 20:23]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mic. 2:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.8": {
+    "text": "Ephraim has said, “Ah, but I am rich; I have found wealth for myself; in all my labors they cannot find in me iniquity or sin.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Zech. 11:5; Rev. 3:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Deut. 29:19]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.9": {
+    "text": "I am the Lord your God from the land of Egypt; I will again make you dwell in tents, as in the days of the appointed feast.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 13:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Lev. 23:39-43; Neh. 8:14-18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.10": {
+    "text": "I spoke to the prophets; it was I who multiplied visions, and through the prophets gave parables.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ 2 Kgs. 17:13 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Joel 2:28]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.11": {
+    "text": "If there is iniquity in Gilead, they shall surely come to nothing: in Gilgal they sacrifice bulls; their altars also are like stone heaps on the furrows of the field.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:15; 9:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 10:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.12": {
+    "text": "Jacob fled to the land of Aram; there Israel served for a wife, and for a wife he guarded sheep.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gen. 28:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gen. 29:20, 28",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.13": {
+    "text": "By a prophet the Lord brought Israel up from Egypt, and by a prophet he was guarded.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Deut. 18:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 12:50, 51; Ps. 77:20; See Isa. 63:11-14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.14": {
+    "text": "Ephraim has given bitter provocation; so his Lord will leave his bloodguilt on him and will repay him for his disgraceful deeds.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kgs. 17:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 4:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.1": {
+    "text": "When Ephraim spoke, there was trembling; he was exalted in Israel, but he incurred guilt through Baal and died.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Amos 6:13 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 11:2",
+        "refs": []
+      }
+    ],
+    "section": "The"
+  },
+  "HOS.13.2": {
+    "text": "And now they sin more and more, and make for themselves metal images, idols skillfully made of their silver, all of them the work of craftsmen. It is said of them, “Those who offer human sacrifice kiss calves!”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ps. 115:4; Isa. 40:19, 20 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 19:18; Job 31:26, 27]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.3": {
+    "text": "Therefore they shall be like the morning mist or like the dew that goes early away, like the chaff that swirls from the threshing floor or like smoke from a window.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ps. 1:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ps. 68:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.4": {
+    "text": "But I am the Lord your God from the land of Egypt; you know no God but me, and besides me there is no savior.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 12:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ex. 20:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 43:11; 45:21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.5": {
+    "text": "It was I who knew you in the wilderness, in the land of drought;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 2:7; Amos 3:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.6": {
+    "text": "but when they had grazed, they became full, they were filled, and their heart was lifted up; therefore they forgot me.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 4:7 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 8:12, 14; [ Deut. 32:15 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 8:12, 14; [ Deut. 32:15 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.7": {
+    "text": "So I am to them like a lion; like a leopard I will lurk beside the way.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 5:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.8": {
+    "text": "I will fall upon them like a bear robbed of her cubs; I will tear open their breast, and there I will devour them like a lion, as a wild beast would rip them open.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Sam. 17:8; Prov. 17:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:12 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.9": {
+    "text": "He destroys you, O Israel, for you are against me, against your helper.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Deut. 33:26]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.10": {
+    "text": "Where now is your king, to save you in all your cities? Where are all your rulers— those of whom you said, “Give me a king and princes”?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 8:4; 10:3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Sam. 8:5, 19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.11": {
+    "text": "I gave you a king in my anger, and I took him away in my wrath.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ 1 Sam. 8:22 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Sam. 15:23]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.12": {
+    "text": "The iniquity of Ephraim is bound up; his sin is kept in store.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 14:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Job 14:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.13": {
+    "text": "The pangs of childbirth come for him, but he is an unwise son, for at the right time he does not present himself at the opening of the womb.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 13:8; 1 Thess. 5:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 2 Kgs. 19:3 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.14": {
+    "text": "I shall ransom them from the power of Sheol; I shall redeem them from Death. O Death, where are your plagues? O Sheol, where is your sting? Compassion is hidden from my eyes.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 25:8; 26:19; Ezek. 37:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 25:8; 26:19; Ezek. 37:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 1 Cor. 15:55 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ezek. 14:21]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 1 Cor. 15:55 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ezek. 14:21]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ezek. 9:10 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.15": {
+    "text": "Though he may flourish among his brothers, the east wind, the wind of the Lord, shall come, rising from the wilderness, and his fountain shall dry up; his spring shall be parched; it shall strip his treasury of every precious thing.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Gen. 41:52]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ezek. 19:12; Jonah 4:8; Hab. 1:9 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ezek. 17:10 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 12:8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.16": {
+    "text": "Samaria shall bear her guilt, because she has rebelled against her God; they shall fall by the sword; their little ones shall be dashed in pieces, and their pregnant women ripped open.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Hab. 1:11]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Kgs. 18:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 9:12; 10:14 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Kgs. 8:12; 15:16; Amos 1:13]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.1": {
+    "text": "Return, O Israel, to the Lord your God, for you have stumbled because of your iniquity.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:1; 12:6; [ch. 3:5 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 13:9]",
+        "refs": []
+      }
+    ],
+    "section": "A Plea to Return to the"
+  },
+  "HOS.14.2": {
+    "text": "Take with you words and return to the Lord; say to him, “Take away all iniquity; accept what is good, and we will pay with bulls the vows of our lips.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Septuagint, Syriac"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 5:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 13:15; [ Ps. 50:13, 14; 69:30, 31 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.3": {
+    "text": "Assyria shall not save us; we will not ride on horses; and we will say no more, ‘Our God,’ to the work of our hands. In you the orphan finds mercy.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 30:16; 31:1 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ps. 10:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.4": {
+    "text": "I will heal their apostasy; I will love them freely, for my anger has turned from them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 3:22; [ch. 6:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 11:1 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.5": {
+    "text": "I will be like the dew to Israel; he shall blossom like the lily; he shall take root like the trees of Lebanon;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 6:3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 27:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 92:12; Isa. 35:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.6": {
+    "text": "his shoots shall spread out; his beauty shall be like the olive, and his fragrance like Lebanon.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 52:8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.7": {
+    "text": "They shall return and dwell beneath my shadow; they shall flourish like the grain; they shall blossom like the vine; their fame shall be like the wine of Lebanon.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 91:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.8": {
+    "text": "O Ephraim, what have I to do with idols? It is I who answer and look after you. I am like an evergreen cypress; from me comes your fruit.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 3; Isa. 30:22]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:8, 23; John 15:4, 5 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.9": {
+    "text": "Whoever is wise, let him understand these things; whoever is discerning, let him know them; for the ways of the Lord are right, and the upright walk in them, but transgressors stumble in them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 107:43; Jer. 9:12; Dan. 12:10; John 8:47; 18:37",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 10:29; Luke 2:34; 2 Cor. 2:16]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Prov. 10:29; Luke 2:34; 2 Cor. 2:16 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

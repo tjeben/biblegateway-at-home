@@ -1,87 +1,654 @@
 {
-  "RUT.1.1": "I de dager da dommerne styrte, ble det en gang hungersnød i landet. Da dro en mann av sted fra Betlehem i Juda for å slå seg ned i Moabs sletteland sammen med sin kone og sine to sønner.",
-  "RUT.1.2": "Mannen het Elimelek, hans kone Noomi og de to sønnene Mahlon og Kiljon. De var av Efrat-slekten, fra Betlehem i Juda. Nå kom de til Moab og slo seg til der.",
-  "RUT.1.3": "Så døde Elimelek, Noomis mann, og hun satt igjen med de to sønnene sine.",
-  "RUT.1.4": "De tok seg moabittiske koner. Den ene het Orpa, den andre het Rut. De ble boende der i omtrent ti år.",
-  "RUT.1.5": "Så døde også de to sønnene, Mahlon og Kiljon, og Noomi satt igjen alene, uten sønner og uten mann.",
-  "RUT.1.6": "Da brøt hun opp sammen med svigerdøtrene sine for å vende hjem fra Moabs sletteland. For hun hadde hørt i Moab at Herren hadde tatt seg av sitt folk og gitt det brød.",
-  "RUT.1.7": "Hun dro bort fra stedet hvor hun hadde bodd, og begge svigerdøtrene fulgte henne. De ga seg i vei for å vende tilbake til Juda.",
-  "RUT.1.8": "Men Noomi sa til sine to svigerdøtre: «Snu og gå tilbake, hver til sin mors hus! Måtte Herren vise godhet mot dere, slik dere har vist godhet mot de døde og mot meg!",
-  "RUT.1.9": "Måtte Herren gi dere begge trygghet og la dere finne et hjem, hver i sin manns hus!» Så kysset hun dem. Men de brast i gråt",
-  "RUT.1.10": "og sa til henne: «Nei, vi vil følge deg tilbake til ditt folk.»",
-  "RUT.1.11": "Men Noomi sa: «Vend tilbake, mine døtre! Hvorfor skulle dere følge med meg? Skulle jeg ennå føde sønner som dere kan få til menn?",
-  "RUT.1.12": "Vend tilbake, mine døtre, gå nå! Jeg er for gammel til å bli gift. Og selv om jeg tenkte at det ennå er håp for meg, ja, om jeg allerede i natt fikk en mann og til og med fødte sønner,",
-  "RUT.1.13": "skulle så dere vente til de ble voksne? Skulle dere stenge dere inne og leve uten menn? Nei, mine døtre! Dette er mer bittert for meg enn for dere, for Herrens hånd har rammet meg.»",
-  "RUT.1.14": "Da brast de igjen i gråt. Orpa kysset sin svigermor til avskjed, men Rut klynget seg til henne.",
-  "RUT.1.15": "Da sa Noomi: «Se, nå vender din svigerinne tilbake til sitt folk og sin gud. Vend tilbake, du også. Følg henne!»",
-  "RUT.1.16": "Men Rut svarte: «Ikke tving meg til å forlate deg og vende tilbake, for: Dit du går, vil jeg gå, og hvor du bor, vil jeg bo. Ditt folk er mitt folk, og din Gud er min Gud.",
-  "RUT.1.17": "Der du dør, vil jeg dø, og der vil jeg begraves. Måtte Herren la det gå meg ille både nå og siden hvis noe annet enn døden skal skille meg fra deg!»",
-  "RUT.1.18": "Da Noomi så at hun sto fast på sitt og ville følge med henne, sa hun ikke mer til henne.",
-  "RUT.1.19": "Så gikk de begge videre til de kom til Betlehem. Da de kom fram dit, ble det stort oppstyr i byen på grunn av dem, og kvinnene sa: «Er dette Noomi?»",
-  "RUT.1.20": "Men hun sa til dem: «Kall meg ikke Noomi! Kall meg heller Mara! For Den veldige har gjort livet meget bittert for meg.",
-  "RUT.1.21": "Rik dro jeg bort, fattig har Herren latt meg vende tilbake. Hvorfor kaller dere meg Noomi når Herren har vitnet mot meg, og når Den veldige har latt det gå så ille med meg?»",
-  "RUT.1.22": "Slik vendte Noomi hjem, og svigerdatteren, moabittkvinnen Rut, fulgte med henne tilbake fra Moabs sletteland. De kom til Betlehem da bygghøsten tok til.",
-  "RUT.2.1": "Noomi hadde en slektning på sin manns side, en mektig og velstående mann av Elimeleks slekt. Han het Boas.",
-  "RUT.2.2": "En dag sa Rut, moabittkvinnen, til Noomi: «La meg få gå ut på åkeren og sanke kornaks hos en som vil vise meg velvilje.» Hun svarte: «Gå du, min datter!»",
-  "RUT.2.3": "Så gikk hun ut på åkeren og sanket aks etter onnefolkene. Det traff seg slik at åkerstykket tilhørte Boas, som var av Elimeleks slekt.",
-  "RUT.2.4": "Nettopp da kom Boas fra Betlehem. Han sa til onnefolkene: «Herren være med dere!» De svarte ham: «Herren velsigne deg!»",
-  "RUT.2.5": "Boas spurte oppsynsmannen over onnefolkene: «Hvem hører denne unge kvinnen til?»",
-  "RUT.2.6": "Oppsynsmannen svarte: «Det er den unge moabittkvinnen som fulgte med Noomi hit fra Moab.",
-  "RUT.2.7": "Hun ba: La meg få plukke og sanke aks mellom kornbåndene etter onnefolkene! Hun kom i dag tidlig og har stått her helt til nå. Bare en liten stund har hun vært inne og hvilt.»",
-  "RUT.2.8": "Da sa Boas til Rut: «Hør, min datter! Gå ikke for å sanke aks på noen annen åker. Gå ikke herfra, men hold deg til tjenestejentene mine.",
-  "RUT.2.9": "Hold øye med hvor på åkeren onnefolkene arbeider, og følg etter dem! Jeg vil si fra til karene at de ikke skal røre deg. Og blir du tørst, så gå bort til krukkene og drikk av det som tjenestefolkene øser opp.»",
-  "RUT.2.10": "Da kastet hun seg ned med ansiktet mot jorden og sa til ham: «Hvorfor ser du på meg med velvilje og tar imot meg, enda jeg er en fremmed?»",
-  "RUT.2.11": "Boas svarte henne: «Mer enn én gang har de fortalt meg om alt du har gjort for din svigermor etter at mannen din døde. Du forlot din far og din mor og ditt fedreland og dro til et folk du ikke kjente fra før.",
-  "RUT.2.12": "Herren skal lønne deg for det du har gjort! Måtte du få fullt vederlag fra Herren, Israels Gud, når du nå er kommet for å søke ly under hans vinger.»",
-  "RUT.2.13": "Hun sa: «Måtte du fortsatt se på meg med velvilje, herre, for du har trøstet meg og snakket vennlig til din tjenestekvinne, enda jeg ikke engang er som en av kvinnene i din tjeneste.»",
-  "RUT.2.14": "Da det ble tid for å spise, sa Boas til henne: «Kom hit og spis av brødet, og dypp stykket ditt i vineddiken!» Så satte hun seg ved siden av onnefolkene, og Boas rakte henne ristet korn. Hun spiste seg mett og hadde enda noe igjen.",
-  "RUT.2.15": "Da hun reiste seg for å sanke, ga Boas denne beskjeden til tjenestefolkene: «La henne også sanke mellom kornbåndene. Plag henne ikke!",
-  "RUT.2.16": "Ja, dere skal til og med dra aks ut av kornbåndene og la dem ligge igjen, så hun kan plukke dem opp. Ingen må true henne.»",
-  "RUT.2.17": "Så sanket Rut aks på åkeren helt til kvelden. Da hun banket kornet ut av aksene, ble det omkring en efa bygg.",
-  "RUT.2.18": "Hun bar det inn til byen, og hennes svigermor fikk se det hun hadde sanket. Rut tok også fram det som var til overs etter at hun hadde spist seg mett, og ga det til henne.",
-  "RUT.2.19": "Da sa svigermoren til henne: «Hvor har du sanket i dag, og hvor har du arbeidet? Velsignet er han som ville kjennes ved deg!» Så fortalte hun svigermoren hvem hun hadde arbeidet hos. Hun sa: «Den mannen jeg har arbeidet hos i dag, heter Boas.»",
-  "RUT.2.20": "Da sa Noomi til svigerdatteren: «Han skal være velsignet av Herren, som ikke har sluttet å vise godhet, verken mot de levende eller de døde!» Og Noomi la til: «Den mannen er i slekt med oss. Han er en av våre løsningsmenn.»",
-  "RUT.2.21": "Rut, moabittkvinnen, fortsatte: «Han sa også til meg at jeg skulle holde meg til folkene hans til de var ferdige med hele kornskurden.»",
-  "RUT.2.22": "Da sa Noomi til Rut, sin svigerdatter: «Det er godt, min datter, at du går sammen med tjenestejentene hans. På en annen åker kunne de komme til å gjøre deg noe ondt.»",
-  "RUT.2.23": "Så holdt hun seg nær tjenestejentene til Boas og sanket aks til bygghøsten og hvetehøsten var over, og hun ble boende hos sin svigermor.",
-  "RUT.3.1": "Noomi, Ruts svigermor, sa til henne: «Min datter, skulle jeg ikke forsøke å skaffe deg et hjem, så du kan få det godt?",
-  "RUT.3.2": "Hør, Boas er jo vår slektning, og det var hans tjenestejenter du var sammen med. Nå i natt kaster han bygg på treskeplassen.",
-  "RUT.3.3": "Du skal vaske deg og salve deg. Ta så på deg fine klær og gå ned til treskeplassen. Men gi deg ikke til kjenne for ham før han er ferdig med å spise og drikke.",
-  "RUT.3.4": "Når han legger seg, skal du merke deg stedet hvor han ligger. Gå så bort, ta teppet vekk fra føttene hans og legg deg der! Så vil han selv si deg hva du skal gjøre.»",
-  "RUT.3.5": "Da svarte hun: «Jeg skal gjøre alt det du sier.»",
-  "RUT.3.6": "Hun gikk ned til treskeplassen og gjorde alt slik som hennes svigermor hadde sagt henne.",
-  "RUT.3.7": "Boas spiste og drakk og ble glad til sinns. Så gikk han og la seg ved kanten av kornhaugen. Da smøg hun seg fram, tok teppet vekk fra føttene hans og la seg der.",
-  "RUT.3.8": "Ved midnattstid kvakk mannen til. Han bøyde seg fram og så at det lå en kvinne ved føttene hans.",
-  "RUT.3.9": "«Hvem er du?» spurte han. «Jeg er Rut, tjenestekvinnen din», svarte hun. «Bre kappen din over meg, for du er løsningsmann.»",
-  "RUT.3.10": "«Velsignet er du av Herren, min datter! Du har vist enda større trofasthet enn før ved ikke å gå etter de unge mennene, verken de fattige eller de rike.",
-  "RUT.3.11": "Og nå, min datter, vær ikke redd! Alt det du sier, vil jeg gjøre for deg. For alle som bor i byen, vet at du er en hederlig kvinne.",
-  "RUT.3.12": "Det er sant at jeg er løsningsmann, men det er en annen løsningsmann som er nærmere enn jeg.",
-  "RUT.3.13": "Sov her i natt, og hvis han i morgen vil løse deg ut, så la ham det. Men hvis han ikke vil løse deg ut, skal jeg gjøre det selv, så sant Herren lever! Bli bare liggende til i morgen tidlig!»",
-  "RUT.3.14": "Hun ble liggende ved føttene hans til om morgenen. Men hun sto opp før folk kunne dra kjensel på hverandre. For han sa til seg selv: «Det må ikke bli kjent at kvinnen kom hit til treskeplassen.»",
-  "RUT.3.15": "Så sa han: «Kom hit med sjalet du har på deg, og hold det fram!» Og da hun holdt sjalet fram, målte han opp seks mål bygg og la det på henne. Deretter gikk han inn i byen.",
-  "RUT.3.16": "Da Rut kom til sin svigermor, spurte hun: «Hvordan gikk det med deg, min datter?» Og hun fortalte henne alt det mannen hadde gjort mot henne,",
-  "RUT.3.17": "og la til: «Disse seks mål bygg ga han meg, for han sa: Du skal ikke komme tomhendt hjem til din svigermor.»",
-  "RUT.3.18": "Da sa Noomi: «Hold deg nå i ro, min datter, til du får vite hvordan saken faller ut. For den mannen unner seg ikke ro før han får saken ordnet, og det allerede i dag.»",
-  "RUT.4.1": "Boas gikk opp til byporten og satte seg der. Da kom den løsningsmannen forbi som han hadde snakket om. Boas kalte ham ved navn og sa: «Kom hit og sett deg!» Så gikk han dit og satte seg.",
-  "RUT.4.2": "Boas så seg ut ti menn av byens eldste og sa: «Sett dere her!» Og de satte seg.",
-  "RUT.4.3": "Så sa han til løsningsmannen: «Noomi, som er kommet tilbake fra Moab, vil selge det jordstykket som tilhørte vår slektning Elimelek.",
-  "RUT.4.4": "Jeg tenkte at jeg ville gjøre deg kjent med dette og si: Kjøp det i nærvær av dem som sitter her, og i nærvær av mitt folks eldste. Vil du innløse det, så innløs det. Men hvis du ikke vil, så si det til meg, så jeg vet det. For det er ingen ved siden av deg til å innløse det, men jeg har retten nest etter deg.» Han svarte: «Jeg vil innløse det.»",
-  "RUT.4.5": "Da sa Boas: «Den dagen du kjøper åkeren av Noomis hånd, må du også ta Rut, den moabittiske enken, slik at den dødes navn kan bevares og jordstykket gå videre i arv.»",
-  "RUT.4.6": "Løsningsmannen svarte: «Da kan jeg ikke løse, for i så fall forringer jeg arven for mine egne barn. Løs du det som jeg skulle ha løst, for jeg kan ikke gjøre det!»",
-  "RUT.4.7": "Før i tiden var det slik i Israel når det gjaldt innløsning og byttehandel, at for å bekrefte en sak skulle man dra av seg sandalen og gi den til den andre parten. Slik ble en sak vitnefast i Israel.",
-  "RUT.4.8": "Løsningsmannen sa til Boas: «Kjøp det du!» Og så dro han av seg sandalen.",
-  "RUT.4.9": "Da sa Boas til de eldste og til hele folket: «Dere er i dag vitner på at jeg kjøper av Noomis hånd alt som har tilhørt Elimelek, og alt som har tilhørt Kiljon og Mahlon.",
-  "RUT.4.10": "Jeg tar også moabittkvinnen Rut, Mahlons kone, til ekte, slik at den dødes navn kan leve videre og jordstykket gå i arv. Slik vil den dødes navn ikke bli utslettet av hans slekt og glemt i porten på hans hjemsted. Dere er i dag vitner på dette.»",
-  "RUT.4.11": "Alt folket og de eldste som var i byporten, svarte: «Ja, vi er vitner. Måtte Herren la den kvinnen som nå kommer inn i ditt hus, bli som Rakel og som Lea, de to som bygde Israels hus! Vis din kraft i Efrata og vinn deg et navn i Betlehem!",
-  "RUT.4.12": "Måtte de etterkommere som Herren gir deg med denne unge kvinnen, gi deg en ætt som ætten til Peres, han som Tamar fødte til Juda!»",
-  "RUT.4.13": "Boas tok Rut hjem til seg, og hun ble hans kone. Da han kom sammen med henne, lot Herren henne bli med barn, og hun fødte en sønn.",
-  "RUT.4.14": "Da sa kvinnene til Noomi: «Velsignet er Herren som lot deg få en løsningsmann i dag! Hans navn skal bli stort i Israel.",
-  "RUT.4.15": "Han skal gi deg nytt livsmot og sørge for deg i din alderdom. For din svigerdatter, som er så glad i deg, har født ham. Hun er mer for deg enn sju sønner.»",
-  "RUT.4.16": "Så tok Noomi gutten og la ham på fanget sitt, og hun ble hans fostermor.",
-  "RUT.4.17": "Nabokonene ga ham navn og sa: «Noomi har fått en sønn!» De kalte ham Obed. Han fikk sønnen Isai, som ble far til David.",
-  "RUT.4.18": "Dette er Peres' etterkommere: Peres fikk sønnen Hesron,",
-  "RUT.4.19": "Hesron fikk sønnen Ram, og Ram fikk sønnen Amminadab,",
-  "RUT.4.20": "Amminadab fikk sønnen Nahsjon, og Nahsjon fikk sønnen Salma,",
-  "RUT.4.21": "Salma fikk sønnen Boas, og Boas fikk sønnen Obed,",
-  "RUT.4.22": "Obed fikk sønnen Isai, og Isai fikk sønnen David."
+  "RUT.1.1": {
+    "text": "I de dager da dommerne styrte, ble det en gang hungersnød i landet. Da dro en mann av sted fra Betlehem i Juda for å slå seg ned i Moabs sletteland sammen med sin kone og sine to sønner.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mi 5,1",
+        "refs": []
+      }
+    ],
+    "section": "Rut og Noomi"
+  },
+  "RUT.1.2": {
+    "text": "Mannen het Elimelek, hans kone Noomi og de to sønnene Mahlon og Kiljon. De var av Efrat-slekten, fra Betlehem i Juda. Nå kom de til Moab og slo seg til der.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Navnene finnes bare her i hele GT. Mahlon betyr «sykdom», og Kiljon betyr «tæring»."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.3": {
+    "text": "Så døde Elimelek, Noomis mann, og hun satt igjen med de to sønnene sine.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.4": {
+    "text": "De tok seg moabittiske koner. Den ene het Orpa, den andre het Rut. De ble boende der i omtrent ti år.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.5": {
+    "text": "Så døde også de to sønnene, Mahlon og Kiljon, og Noomi satt igjen alene, uten sønner og uten mann.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.6": {
+    "text": "Da brøt hun opp sammen med svigerdøtrene sine for å vende hjem fra Moabs sletteland. For hun hadde hørt i Moab at Herren hadde tatt seg av sitt folk og gitt det brød.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.7": {
+    "text": "Hun dro bort fra stedet hvor hun hadde bodd, og begge svigerdøtrene fulgte henne. De ga seg i vei for å vende tilbake til Juda.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.8": {
+    "text": "Men Noomi sa til sine to svigerdøtre: «Snu og gå tilbake, hver til sin mors hus! Måtte Herren vise godhet mot dere, slik dere har vist godhet mot de døde og mot meg!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Sam 2,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.1.9": {
+    "text": "Måtte Herren gi dere begge trygghet og la dere finne et hjem, hver i sin manns hus!» Så kysset hun dem. Men de brast i gråt",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.10": {
+    "text": "og sa til henne: «Nei, vi vil følge deg tilbake til ditt folk.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.11": {
+    "text": "Men Noomi sa: «Vend tilbake, mine døtre! Hvorfor skulle dere følge med meg? Skulle jeg ennå føde sønner som dere kan få til menn?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "som kunne oppfylle kravet om svogerekteskap. Jf. 5 Mos 25,5. =slektssamfunn og justis."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.12": {
+    "text": "Vend tilbake, mine døtre, gå nå! Jeg er for gammel til å bli gift. Og selv om jeg tenkte at det ennå er håp for meg, ja, om jeg allerede i natt fikk en mann og til og med fødte sønner,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.13": {
+    "text": "skulle så dere vente til de ble voksne? Skulle dere stenge dere inne og leve uten menn? Nei, mine døtre! Dette er mer bittert for meg enn for dere, for Herrens hånd har rammet meg.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.14": {
+    "text": "Da brast de igjen i gråt. Orpa kysset sin svigermor til avskjed, men Rut klynget seg til henne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.15": {
+    "text": "Da sa Noomi: «Se, nå vender din svigerinne tilbake til sitt folk og sin gud. Vend tilbake, du også. Følg henne!»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.16": {
+    "text": "Men Rut svarte: «Ikke tving meg til å forlate deg og vende tilbake, for: Dit du går, vil jeg gå, og hvor du bor, vil jeg bo. Ditt folk er mitt folk, og din Gud er min Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Sam 15,21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.1.17": {
+    "text": "Der du dør, vil jeg dø, og der vil jeg begraves. Måtte Herren la det gå meg ille både nå og siden hvis noe annet enn døden skal skille meg fra deg!»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.18": {
+    "text": "Da Noomi så at hun sto fast på sitt og ville følge med henne, sa hun ikke mer til henne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.19": {
+    "text": "Så gikk de begge videre til de kom til Betlehem. Da de kom fram dit, ble det stort oppstyr i byen på grunn av dem, og kvinnene sa: «Er dette Noomi?»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.20": {
+    "text": "Men hun sa til dem: «Kall meg ikke Noomi! Kall meg heller Mara! For Den veldige har gjort livet meget bittert for meg.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ","
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.21": {
+    "text": "Rik dro jeg bort, fattig har Herren latt meg vende tilbake. Hvorfor kaller dere meg Noomi når Herren har vitnet mot meg, og når Den veldige har latt det gå så ille med meg?»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.1.22": {
+    "text": "Slik vendte Noomi hjem, og svigerdatteren, moabittkvinnen Rut, fulgte med henne tilbake fra Moabs sletteland. De kom til Betlehem da bygghøsten tok til.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.1": {
+    "text": "Noomi hadde en slektning på sin manns side, en mektig og velstående mann av Elimeleks slekt. Han het Boas.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Rut møter Boas"
+  },
+  "RUT.2.2": {
+    "text": "En dag sa Rut, moabittkvinnen, til Noomi: «La meg få gå ut på åkeren og sanke kornaks hos en som vil vise meg velvilje.» Hun svarte: «Gå du, min datter!»",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3 Mos 19,9f; 23,22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.2.3": {
+    "text": "Så gikk hun ut på åkeren og sanket aks etter onnefolkene. Det traff seg slik at åkerstykket tilhørte Boas, som var av Elimeleks slekt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.4": {
+    "text": "Nettopp da kom Boas fra Betlehem. Han sa til onnefolkene: «Herren være med dere!» De svarte ham: «Herren velsigne deg!»",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 129,7f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.2.5": {
+    "text": "Boas spurte oppsynsmannen over onnefolkene: «Hvem hører denne unge kvinnen til?»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.6": {
+    "text": "Oppsynsmannen svarte: «Det er den unge moabittkvinnen som fulgte med Noomi hit fra Moab.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.7": {
+    "text": "Hun ba: La meg få plukke og sanke aks mellom kornbåndene etter onnefolkene! Hun kom i dag tidlig og har stått her helt til nå. Bare en liten stund har hun vært inne og hvilt.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.8": {
+    "text": "Da sa Boas til Rut: «Hør, min datter! Gå ikke for å sanke aks på noen annen åker. Gå ikke herfra, men hold deg til tjenestejentene mine.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.9": {
+    "text": "Hold øye med hvor på åkeren onnefolkene arbeider, og følg etter dem! Jeg vil si fra til karene at de ikke skal røre deg. Og blir du tørst, så gå bort til krukkene og drikk av det som tjenestefolkene øser opp.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.10": {
+    "text": "Da kastet hun seg ned med ansiktet mot jorden og sa til ham: «Hvorfor ser du på meg med velvilje og tar imot meg, enda jeg er en fremmed?»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.11": {
+    "text": "Boas svarte henne: «Mer enn én gang har de fortalt meg om alt du har gjort for din svigermor etter at mannen din døde. Du forlot din far og din mor og ditt fedreland og dro til et folk du ikke kjente fra før.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.12": {
+    "text": "Herren skal lønne deg for det du har gjort! Måtte du få fullt vederlag fra Herren, Israels Gud, når du nå er kommet for å søke ly under hans vinger.»",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 36,8f; 91,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.2.13": {
+    "text": "Hun sa: «Måtte du fortsatt se på meg med velvilje, herre, for du har trøstet meg og snakket vennlig til din tjenestekvinne, enda jeg ikke engang er som en av kvinnene i din tjeneste.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.14": {
+    "text": "Da det ble tid for å spise, sa Boas til henne: «Kom hit og spis av brødet, og dypp stykket ditt i vineddiken!» Så satte hun seg ved siden av onnefolkene, og Boas rakte henne ristet korn. Hun spiste seg mett og hadde enda noe igjen.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.15": {
+    "text": "Da hun reiste seg for å sanke, ga Boas denne beskjeden til tjenestefolkene: «La henne også sanke mellom kornbåndene. Plag henne ikke!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.16": {
+    "text": "Ja, dere skal til og med dra aks ut av kornbåndene og la dem ligge igjen, så hun kan plukke dem opp. Ingen må true henne.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.17": {
+    "text": "Så sanket Rut aks på åkeren helt til kvelden. Da hun banket kornet ut av aksene, ble det omkring en efa bygg.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.18": {
+    "text": "Hun bar det inn til byen, og hennes svigermor fikk se det hun hadde sanket. Rut tok også fram det som var til overs etter at hun hadde spist seg mett, og ga det til henne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.19": {
+    "text": "Da sa svigermoren til henne: «Hvor har du sanket i dag, og hvor har du arbeidet? Velsignet er han som ville kjennes ved deg!» Så fortalte hun svigermoren hvem hun hadde arbeidet hos. Hun sa: «Den mannen jeg har arbeidet hos i dag, heter Boas.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.20": {
+    "text": "Da sa Noomi til svigerdatteren: «Han skal være velsignet av Herren, som ikke har sluttet å vise godhet, verken mot de levende eller de døde!» Og Noomi la til: «Den mannen er i slekt med oss. Han er en av våre løsningsmenn.»",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Om en mann døde barnløs, skulle en av de nærmeste slektningene være løsningsmann og gifte seg med enken for å gi mannen etterkommere. Jf. 5 Mos 25,5ff. =slektssamfunn og justis."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.21": {
+    "text": "Rut, moabittkvinnen, fortsatte: «Han sa også til meg at jeg skulle holde meg til folkene hans til de var ferdige med hele kornskurden.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.22": {
+    "text": "Da sa Noomi til Rut, sin svigerdatter: «Det er godt, min datter, at du går sammen med tjenestejentene hans. På en annen åker kunne de komme til å gjøre deg noe ondt.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.2.23": {
+    "text": "Så holdt hun seg nær tjenestejentene til Boas og sanket aks til bygghøsten og hvetehøsten var over, og hun ble boende hos sin svigermor.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.1": {
+    "text": "Noomi, Ruts svigermor, sa til henne: «Min datter, skulle jeg ikke forsøke å skaffe deg et hjem, så du kan få det godt?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Rut og Boas på treskeplassen"
+  },
+  "RUT.3.2": {
+    "text": "Hør, Boas er jo vår slektning, og det var hans tjenestejenter du var sammen med. Nå i natt kaster han bygg på treskeplassen.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "…"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.3": {
+    "text": "Du skal vaske deg og salve deg. Ta så på deg fine klær og gå ned til treskeplassen. Men gi deg ikke til kjenne for ham før han er ferdig med å spise og drikke.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.4": {
+    "text": "Når han legger seg, skal du merke deg stedet hvor han ligger. Gå så bort, ta teppet vekk fra føttene hans og legg deg der! Så vil han selv si deg hva du skal gjøre.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.5": {
+    "text": "Da svarte hun: «Jeg skal gjøre alt det du sier.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.6": {
+    "text": "Hun gikk ned til treskeplassen og gjorde alt slik som hennes svigermor hadde sagt henne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.7": {
+    "text": "Boas spiste og drakk og ble glad til sinns. Så gikk han og la seg ved kanten av kornhaugen. Da smøg hun seg fram, tok teppet vekk fra føttene hans og la seg der.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.8": {
+    "text": "Ved midnattstid kvakk mannen til. Han bøyde seg fram og så at det lå en kvinne ved føttene hans.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.9": {
+    "text": "«Hvem er du?» spurte han. «Jeg er Rut, tjenestekvinnen din», svarte hun. «Bre kappen din over meg, for du er løsningsmann.»",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "…"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 16,8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.3.10": {
+    "text": "«Velsignet er du av Herren, min datter! Du har vist enda større trofasthet enn før ved ikke å gå etter de unge mennene, verken de fattige eller de rike.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.11": {
+    "text": "Og nå, min datter, vær ikke redd! Alt det du sier, vil jeg gjøre for deg. For alle som bor i byen, vet at du er en hederlig kvinne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.12": {
+    "text": "Det er sant at jeg er løsningsmann, men det er en annen løsningsmann som er nærmere enn jeg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.3.13": {
+    "text": "Sov her i natt, og hvis han i morgen vil løse deg ut, så la ham det. Men hvis han ikke vil løse deg ut, skal jeg gjøre det selv, så sant Herren lever! Bli bare liggende til i morgen tidlig!»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.14": {
+    "text": "Hun ble liggende ved føttene hans til om morgenen. Men hun sto opp før folk kunne dra kjensel på hverandre. For han sa til seg selv: «Det må ikke bli kjent at kvinnen kom hit til treskeplassen.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.15": {
+    "text": "Så sa han: «Kom hit med sjalet du har på deg, og hold det fram!» Og da hun holdt sjalet fram, målte han opp seks mål bygg og la det på henne. Deretter gikk han inn i byen.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Her nevner ikke den hebr. teksten hvilket mål som er brukt. Trolig er det snakk om omer. Seks omer er ca. 21,6 l."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.16": {
+    "text": "Da Rut kom til sin svigermor, spurte hun: «Hvordan gikk det med deg, min datter?» Og hun fortalte henne alt det mannen hadde gjort mot henne,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.17": {
+    "text": "og la til: «Disse seks mål bygg ga han meg, for han sa: Du skal ikke komme tomhendt hjem til din svigermor.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.3.18": {
+    "text": "Da sa Noomi: «Hold deg nå i ro, min datter, til du får vite hvordan saken faller ut. For den mannen unner seg ikke ro før han får saken ordnet, og det allerede i dag.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.1": {
+    "text": "Boas gikk opp til byporten og satte seg der. Da kom den løsningsmannen forbi som han hadde snakket om. Boas kalte ham ved navn og sa: «Kom hit og sett deg!» Så gikk han dit og satte seg.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Boas tar Rut til ekte"
+  },
+  "RUT.4.2": {
+    "text": "Boas så seg ut ti menn av byens eldste og sa: «Sett dere her!» Og de satte seg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.3": {
+    "text": "Så sa han til løsningsmannen: «Noomi, som er kommet tilbake fra Moab, vil selge det jordstykket som tilhørte vår slektning Elimelek.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.4": {
+    "text": "Jeg tenkte at jeg ville gjøre deg kjent med dette og si: Kjøp det i nærvær av dem som sitter her, og i nærvær av mitt folks eldste. Vil du innløse det, så innløs det. Men hvis du ikke vil, så si det til meg, så jeg vet det. For det er ingen ved siden av deg til å innløse det, men jeg har retten nest etter deg.» Han svarte: «Jeg vil innløse det.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.5": {
+    "text": "Da sa Boas: «Den dagen du kjøper åkeren av Noomis hånd, må du også ta Rut, den moabittiske enken, slik at den dødes navn kan bevares og jordstykket gå videre i arv.»",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 25,5f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.4.6": {
+    "text": "Løsningsmannen svarte: «Da kan jeg ikke løse, for i så fall forringer jeg arven for mine egne barn. Løs du det som jeg skulle ha løst, for jeg kan ikke gjøre det!»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.7": {
+    "text": "Før i tiden var det slik i Israel når det gjaldt innløsning og byttehandel, at for å bekrefte en sak skulle man dra av seg sandalen og gi den til den andre parten. Slik ble en sak vitnefast i Israel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 25,9f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.4.8": {
+    "text": "Løsningsmannen sa til Boas: «Kjøp det du!» Og så dro han av seg sandalen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.9": {
+    "text": "Da sa Boas til de eldste og til hele folket: «Dere er i dag vitner på at jeg kjøper av Noomis hånd alt som har tilhørt Elimelek, og alt som har tilhørt Kiljon og Mahlon.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.10": {
+    "text": "Jeg tar også moabittkvinnen Rut, Mahlons kone, til ekte, slik at den dødes navn kan leve videre og jordstykket gå i arv. Slik vil den dødes navn ikke bli utslettet av hans slekt og glemt i porten på hans hjemsted. Dere er i dag vitner på dette.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.11": {
+    "text": "Alt folket og de eldste som var i byporten, svarte: «Ja, vi er vitner. Måtte Herren la den kvinnen som nå kommer inn i ditt hus, bli som Rakel og som Lea, de to som bygde Israels hus! Vis din kraft i Efrata og vinn deg et navn i Betlehem!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.12": {
+    "text": "Måtte de etterkommere som Herren gir deg med denne unge kvinnen, gi deg en ætt som ætten til Peres, han som Tamar fødte til Juda!»",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "sønn av Juda og Tamar (1 Mos 38,29); regnes som stamfar til Boas, v. 18ff."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.13": {
+    "text": "Boas tok Rut hjem til seg, og hun ble hans kone. Da han kom sammen med henne, lot Herren henne bli med barn, og hun fødte en sønn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 127,3",
+        "refs": []
+      }
+    ],
+    "section": "Rut blir stammor til David"
+  },
+  "RUT.4.14": {
+    "text": "Da sa kvinnene til Noomi: «Velsignet er Herren som lot deg få en løsningsmann i dag! Hans navn skal bli stort i Israel.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.15": {
+    "text": "Han skal gi deg nytt livsmot og sørge for deg i din alderdom. For din svigerdatter, som er så glad i deg, har født ham. Hun er mer for deg enn sju sønner.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.16": {
+    "text": "Så tok Noomi gutten og la ham på fanget sitt, og hun ble hans fostermor.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.17": {
+    "text": "Nabokonene ga ham navn og sa: «Noomi har fått en sønn!» De kalte ham Obed. Han fikk sønnen Isai, som ble far til David.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Navnet betyr «tjener». Kanskje kortform av Obadja, «Herrens tjener»."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.18": {
+    "text": "Dette er Peres' etterkommere: Peres fikk sønnen Hesron,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Krøn 2,5–15; Matt 1,3–5; Luk 3,31–33",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "RUT.4.19": {
+    "text": "Hesron fikk sønnen Ram, og Ram fikk sønnen Amminadab,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.20": {
+    "text": "Amminadab fikk sønnen Nahsjon, og Nahsjon fikk sønnen Salma,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.21": {
+    "text": "Salma fikk sønnen Boas, og Boas fikk sønnen Obed,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "RUT.4.22": {
+    "text": "Obed fikk sønnen Isai, og Isai fikk sønnen David.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

@@ -1,75 +1,726 @@
 {
-  "JOL.1.1": "Herrens ord som kom til Joel, Petuels sønn.",
-  "JOL.1.2": "Hør dette, dere gamle! Lytt, alle som bor i landet! Har slikt skjedd i deres dager eller i deres fedres dager?",
-  "JOL.1.3": "Fortell deres barn om det. De skal fortelle det til sine barn, og deres barn igjen til en kommende slekt.",
-  "JOL.1.4": "Det gnageren har levnet, åt vrimleren opp. Det vrimleren levnet, åt slikkeren opp. Det slikkeren levnet, åt ødeleggeren opp.",
-  "JOL.1.5": "Våkn opp, dere drukne, og gråt! Jamre dere, alle vindrikkere, fordi mosten er revet bort fra munnen deres!",
-  "JOL.1.6": "For et folk er dratt opp mot mitt land, mektig og talløst. Dets tenner er løvetenner, det har jeksler som en løvinne.",
-  "JOL.1.7": "Mine vintrær har de ødelagt, mine fikentrær har de knekket - de er avplukket og bare, deres greiner er hvite.",
-  "JOL.1.8": "Klag som en jomfru som bærer sørgedrakt for sin ungdoms brudgom!",
-  "JOL.1.9": "Matoffer og drikkoffer er revet bort fra Herrens hus. Prestene, Herrens tjenere, sørger.",
-  "JOL.1.10": "Marken er lagt øde, jorden sørger. For kornet er ødelagt, mosten er tørket inn, oljen er svunnet bort.",
-  "JOL.1.11": "Bøndene er skuffet, vindyrkerne klager. For hvete og bygg, markens grøde, er gått tapt.",
-  "JOL.1.12": "Vintreet er tørket, fikentreet er visnet, granatepletreet og palmen og epletreet, hvert tre på marken er tørket bort. Ja, all fryd er forsvunnet fra menneskenes barn.",
-  "JOL.1.13": "Kle dere i sørgeklær og klag, dere prester! Skrik, dere som gjør tjeneste ved alteret! Gå inn og sitt hele natten i sørgedrakt, dere min Guds tjenere! For matoffer og drikkoffer blir holdt tilbake fra deres Guds hus.",
-  "JOL.1.14": "Tillys en hellig faste, utrop en høytidssamling. Samle de eldste, ja, alle som bor i landet, til Herrens, deres Guds hus, og rop til Herren!",
-  "JOL.1.15": "Ve oss, for en dag! For nær er Herrens dag. Den kommer med ødeleggelse fra Den Allmektige.",
-  "JOL.1.16": "Er ikke maten blitt borte for våre øyne, glede og fryd fra vår Guds hus?",
-  "JOL.1.17": "Såkornet er tørket bort under mulden som dekker det. Forrådshusene er ødelagt. Låvene er revet ned, for kornet er utskjemt.",
-  "JOL.1.18": "Hvor buskapen rauter! Bølingene streifer skremt omkring, for det finnes ikke beite. Også saueflokken må lide.",
-  "JOL.1.19": "Til deg, Herre, roper jeg! For ild har fortært beitene i ødemarken, flammer har forbrent alle markens trær.",
-  "JOL.1.20": "Også markens ville dyr stønner opp til deg, for bekkene er uttørket. Og ild har fortært beitene i ødemarken.",
-  "JOL.2.1": "Blås i horn på Sion! Blås alarm på mitt hellige berg! La alle som er i landet beve. For Herrens dag kommer - den er nær.",
-  "JOL.2.2": "En dag med mørke og mulm, en dag med skyer og skodde som folder seg ut over fjellene som morgenrøde - et stort og mektig folk. Det har ikke hatt sin like i svunnen tid, og skal heller ikke få sin like i år som kommer, fra slekt til slekt.",
-  "JOL.2.3": "Foran dem fortærer ild, etter dem brenner flammen. Som Edens hage er landet foran dem, bakom er det en øde ørken. Ingen slipper unna dem.",
-  "JOL.2.4": "De er å se til som hester, som ryttere farer de av sted.",
-  "JOL.2.5": "Som larm av vogner lyder det når de hopper over fjelltoppene, det lyder som når flammene fortærer halm. De er et sterkt folk, rustet til krig.",
-  "JOL.2.6": "Folkeslag skjelver for dem. Alle ansikter blir blussende røde.",
-  "JOL.2.7": "Som helter løper de av sted. Som krigsmenn stiger de opp på murene. Hver av dem drar fram sin vei og bøyer ikke av fra sine stier.",
-  "JOL.2.8": "De trenger ikke hverandre til side, de går fram hver på sin egen vei. Mellom kastespyd styrter de fram og stanser ikke i sitt løp.",
-  "JOL.2.9": "De farer omkring i byen, de løper på muren. De trenger inn i husene, som tyver stiger de inn gjennom vinduene.",
-  "JOL.2.10": "Foran dem skjelver jorden, og himmelen rister. Sol og måne sortner og stjernene slutter å skinne.",
-  "JOL.2.11": "Herren lar sin røst høre foran sin fylking. For hans hær er veldig stor, og sterk er den som fullbyrder hans ord. Stor og forferdelig er Herrens dag - hvem kan utholde den?",
-  "JOL.2.12": "Men selv nå, sier Herren, vend om til meg av hele deres hjerte, med faste og gråt og klage.",
-  "JOL.2.13": "Riv hjertet i stykker, ikke klærne! Vend om til Herren deres Gud! For han er nådig og barmhjertig, langmodig og rik på miskunn, og han angrer det onde.",
-  "JOL.2.14": "Hvem vet? Han kunne vende om og angre, og la en velsignelse bli igjen etter seg, til matoffer og drikkoffer for Herren deres Gud.",
-  "JOL.2.15": "Blås i horn på Sion! Lys ut en hellig faste! Rop ut en høytidssamling!",
-  "JOL.2.16": "Samle folket, innvi forsamlingen! Kall de gamle sammen! Samle de små barna, også de som dier mors bryst! La brudgommen gå ut av sitt rom og bruden av sitt kammer!",
-  "JOL.2.17": "Mellom forhallen og alteret skal prestene, Herrens tjenere, stå gråtende og si: Herre, spar ditt folk! Overgi ikke din arv til vanære, så hedninger får herske over den! Hvorfor skal de si blant folkene: Hvor er deres Gud?",
-  "JOL.2.18": "Da blir Herren nidkjær for sitt land, og han sparer sitt folk.",
-  "JOL.2.19": "Og Herren svarer og sier til sitt folk: Se, jeg sender dere korn og most og olje så dere blir mette. Og jeg vil ikke mer overgi dere til vanære blant hedningene.",
-  "JOL.2.20": "Fienden fra Norden vil jeg drive langt bort fra dere, og jage ham til et tørt og øde land - hans fortropp til havet i øst, hans baktropp til havet i vest. Stank skal stige opp fra ham, en motbydelig lukt. Altfor store ting har han satt seg fore.",
-  "JOL.2.21": "Frykt ikke, du åkerjord! Fryd deg og vær glad! For store ting har Herren gjort.",
-  "JOL.2.22": "Frykt ikke, dere markens dyr! For beitene i ødemarken grønnes. Trærne bærer frukt, fikentreet og vintreet gir av sin rikdom.",
-  "JOL.2.23": "Og dere Sions barn, fryd og gled dere i Herren deres Gud! For han gir dere læreren til rettferdighet, og så sender han regn ned til dere, tidligregn og senregn, som før.",
-  "JOL.2.24": "Treskeplassene blir fulle av korn, og pressekarene flyter over av most og olje.",
-  "JOL.2.25": "Jeg godtgjør dere de årene da vrimleren åt opp alt - og slikkeren og ødeleggeren og gnageren, min store hær, som jeg sendte mot dere.",
-  "JOL.2.26": "Dere skal ete og bli mette og prise Herrens, deres Guds navn, han som har handlet så underfullt med dere. Og mitt folk skal aldri i evighet bli til skamme.",
-  "JOL.2.27": "Og dere skal kjenne at jeg bor midt i Israel. Jeg er Herren deres Gud, og ingen annen. Og mitt folk skal aldri i evighet bli til skamme.",
-  "JOL.3.1": "Og deretter skal det skje at jeg vil utgyte min Ånd over alt kjød. Deres sønner og døtre skal tale profetiske ord. Deres gamle menn skal ha drømmer, og deres unge menn skal se syner.",
-  "JOL.3.2": "Ja, også over treller og trellkvinner vil jeg utgyte min Ånd i de dager.",
-  "JOL.3.3": "Og jeg vil gjøre underfulle tegn på himmelen og på jorden: blod og ild og røksøyler.",
-  "JOL.3.4": "Solen skal forvandles til mørke og månen til blod, før Herrens dag kommer, den store og forferdelige.",
-  "JOL.3.5": "Og det skal skje: Hver den som påkaller Herrens navn, skal bli frelst. For på Sions berg og i Jerusalem skal det være en flokk som har sluppet unna, slik som Herren har sagt. Og blant de overlevende skal de være som Herren kaller.",
-  "JOL.3.6": "For se, i de dager og på den tid, når jeg gjør ende på Judas og Jerusalems fangenskap,",
-  "JOL.3.7": "da vil jeg samle alle hedningefolk og føre dem ned til Josjafats dal. Der vil jeg holde rettergang med dem på grunn av Israel, mitt folk og min arv, fordi de spredte dem blant hedningefolkene og delte mitt land.",
-  "JOL.3.8": "De kastet lodd om mitt folk. De ga en gutt for en horkvinne. De solgte en pike for vin - og den drakk de opp.",
-  "JOL.3.9": "Og dere, Tyrus og Sidon og alle Filisterlands bygder! Hva vil dere meg? Er det noe dere vil gjengjelde meg, eller vil dere gjøre meg noe? Snart, i hast, skal jeg la deres gjerninger falle tilbake på deres eget hode.",
-  "JOL.3.10": "Dere tok mitt sølv og gull, og førte mine dyreste skatter bort til deres templer.",
-  "JOL.3.11": "Judas barn og Jerusalems barn solgte dere til grekerne for å få dem langt bort fra sitt land.",
-  "JOL.3.12": "Se, jeg kaller dem til oppbrudd fra hvert sted som dere har solgt dem til. Og det som dere har gjort, lar jeg komme tilbake på deres eget hode.",
-  "JOL.3.13": "Deres sønner og døtre vil jeg selge til Judas barn, og de skal selge dem til sabeerne, et folk som bor langt borte, for Herren har talt.",
-  "JOL.3.14": "Rop dette ut blant hedningefolkene: Rust dere til en hellig krig! Kall på krigsheltene! La alle stridsmenn stige fram og dra ut!",
-  "JOL.3.15": "Smi plogskjærene om til sverd og vingårdsknivene til spyd! Han som er veik, skal si: Jeg er en helt!",
-  "JOL.3.16": "Skynd dere og kom, alle hedningefolk fra alle kanter, samle dere! - Herre, la dine mektige helter stige ned!",
-  "JOL.3.17": "Hedningefolkene skal våkne opp og dra til Josjafats dal. For der vil jeg sitte og dømme alle hedningefolk fra alle kanter.",
-  "JOL.3.18": "Send sigden ut, for høsten er moden! Kom og tråkk vinpressen, for den er full, pressekarene flyter over - deres ondskap er stor.",
-  "JOL.3.19": "Skare på skare samler seg i avgjørelsens dal. For nær er Herrens dag i avgjørelsens dal.",
-  "JOL.3.20": "Sol og måne sortner, og stjernene slutter å skinne.",
-  "JOL.3.21": "Herren skal brøle fra Sion, han lar sin røst høre fra Jerusalem. Himmel og jord skal skjelve. Men Herren er en tilflukt for sitt folk og et vern for Israels barn.",
-  "JOL.3.22": "Dere skal kjenne at jeg er Herren deres Gud, som bor på Sion, mitt hellige berg. Og Jerusalem skal være et hellig sted. Fremmede skal aldri mer trenge inn der.",
-  "JOL.3.23": "Det skal skje på den dagen at fjellene skal dryppe av most, og haugene skal flyte over av melk. Alle bekker i Juda renner fulle av vann, og en kilde veller fram fra Herrens hus og vanner Sjittims dal.",
-  "JOL.3.24": "Egypt skal bli til en ødemark og Edom til en øde ørken, på grunn av deres voldsverk mot Judas barn. For i deres land har de utøst uskyldig blod.",
-  "JOL.3.25": "Men det skal bo folk i Juda til evig tid, og i Jerusalem fra slekt til slekt.",
-  "JOL.3.26": "Jeg vil hevne deres blod, det som jeg ikke før har hevnet. Og Herren bor på Sion."
+  "JOL.1.1": {
+    "text": "Herrens ord som kom til Joel, Petuels sønn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Gresshopper ødelegger landet"
+  },
+  "JOL.1.2": {
+    "text": "Hør dette, dere gamle! Lytt, alle som bor i landet! Har slikt skjedd i deres dager eller i deres fedres dager?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.3": {
+    "text": "Fortell deres barn om det. De skal fortelle det til sine barn, og deres barn igjen til en kommende slekt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.4": {
+    "text": "Det gnageren har levnet, åt vrimleren opp. Det vrimleren levnet, åt slikkeren opp. Det slikkeren levnet, åt ødeleggeren opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:25. 2Mos 10:4.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jes 33:4. Amos 4:9. Nah 3:15,16.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*forskjellige navn på gresshopper.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.5": {
+    "text": "Våkn opp, dere drukne, og gråt! Jamre dere, alle vindrikkere, fordi mosten er revet bort fra munnen deres!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.6": {
+    "text": "For et folk er dratt opp mot mitt land, mektig og talløst. Dets tenner er løvetenner, det har jeksler som en løvinne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.7": {
+    "text": "Mine vintrær har de ødelagt, mine fikentrær har de knekket - de er avplukket og bare, deres greiner er hvite.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.8": {
+    "text": "Klag som en jomfru som bærer sørgedrakt for sin ungdoms brudgom!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Søk Herren med bønn og faste"
+  },
+  "JOL.1.9": {
+    "text": "Matoffer og drikkoffer er revet bort fra Herrens hus. Prestene, Herrens tjenere, sørger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.13. 2:14,17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.10": {
+    "text": "Marken er lagt øde, jorden sørger. For kornet er ødelagt, mosten er tørket inn, oljen er svunnet bort.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 24:4,7. Amos 1:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.11": {
+    "text": "Bøndene er skuffet, vindyrkerne klager. For hvete og bygg, markens grøde, er gått tapt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 17:11. Jer 9:12. 14:4. Amos 5:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.12": {
+    "text": "Vintreet er tørket, fikentreet er visnet, granatepletreet og palmen og epletreet, hvert tre på marken er tørket bort. Ja, all fryd er forsvunnet fra menneskenes barn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Amos 4:7. 5:17. Hab 3:17. Hag 2:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.13": {
+    "text": "Kle dere i sørgeklær og klag, dere prester! Skrik, dere som gjør tjeneste ved alteret! Gå inn og sitt hele natten i sørgedrakt, dere min Guds tjenere! For matoffer og drikkoffer blir holdt tilbake fra deres Guds hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.14": {
+    "text": "Tillys en hellig faste, utrop en høytidssamling. Samle de eldste, ja, alle som bor i landet, til Herrens, deres Guds hus, og rop til Herren!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:15 ff. 2Krøn 20:3. Esr 8:21. Jon 3:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.15": {
+    "text": "Ve oss, for en dag! For nær er Herrens dag. Den kommer med ødeleggelse fra Den Allmektige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:1. 3:19. Jes 13:6. Esek 30:3. Sef 1:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.16": {
+    "text": "Er ikke maten blitt borte for våre øyne, glede og fryd fra vår Guds hus?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.17": {
+    "text": "Såkornet er tørket bort under mulden som dekker det. Forrådshusene er ødelagt. Låvene er revet ned, for kornet er utskjemt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.18": {
+    "text": "Hvor buskapen rauter! Bølingene streifer skremt omkring, for det finnes ikke beite. Også saueflokken må lide.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 18:5. Jer 14:5. Hos 4:3. Rom 8:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.19": {
+    "text": "Til deg, Herre, roper jeg! For ild har fortært beitene i ødemarken, flammer har forbrent alle markens trær.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.20": {
+    "text": "Også markens ville dyr stønner opp til deg, for bekkene er uttørket. Og ild har fortært beitene i ødemarken.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 17:7. Sal 104:11. Jer 14:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.1": {
+    "text": "Blås i horn på Sion! Blås alarm på mitt hellige berg! La alle som er i landet beve. For Herrens dag kommer - den er nær.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:15. Hos 5:8. Sef 1:16.",
+        "refs": []
+      }
+    ],
+    "section": "Herrens dag er nær"
+  },
+  "JOL.2.2": {
+    "text": "En dag med mørke og mulm, en dag med skyer og skodde som folder seg ut over fjellene som morgenrøde - et stort og mektig folk. Det har ikke hatt sin like i svunnen tid, og skal heller ikke få sin like i år som kommer, fra slekt til slekt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:6. 2Mos 10:14. 11:6. Amos 5:18,20. Sef 1:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.3": {
+    "text": "Foran dem fortærer ild, etter dem brenner flammen. Som Edens hage er landet foran dem, bakom er det en øde ørken. Ingen slipper unna dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.4": {
+    "text": "De er å se til som hester, som ryttere farer de av sted.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.5": {
+    "text": "Som larm av vogner lyder det når de hopper over fjelltoppene, det lyder som når flammene fortærer halm. De er et sterkt folk, rustet til krig.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.6": {
+    "text": "Folkeslag skjelver for dem. Alle ansikter blir blussende røde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 13:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.7": {
+    "text": "Som helter løper de av sted. Som krigsmenn stiger de opp på murene. Hver av dem drar fram sin vei og bøyer ikke av fra sine stier.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.8": {
+    "text": "De trenger ikke hverandre til side, de går fram hver på sin egen vei. Mellom kastespyd styrter de fram og stanser ikke i sitt løp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.9": {
+    "text": "De farer omkring i byen, de løper på muren. De trenger inn i husene, som tyver stiger de inn gjennom vinduene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 9:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.10": {
+    "text": "Foran dem skjelver jorden, og himmelen rister. Sol og måne sortner og stjernene slutter å skinne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 13:10. Jer 10:10. Esek 32:7. Matt 24:29.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Luk 21:25. Åp 6:12. *Se 3:4,20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.11": {
+    "text": "Herren lar sin røst høre foran sin fylking. For hans hær er veldig stor, og sterk er den som fullbyrder hans ord. Stor og forferdelig er Herrens dag - hvem kan utholde den?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 103:20,21. Jer 30:7. Sef 1:14,15. Mal 3:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.12": {
+    "text": "Men selv nå, sier Herren, vend om til meg av hele deres hjerte, med faste og gråt og klage.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 33:11. Hos 12:7. 14:2. Mal 3:7.",
+        "refs": []
+      }
+    ],
+    "section": "Riv hjertet i stykker, ikke klærne"
+  },
+  "JOL.2.13": {
+    "text": "Riv hjertet i stykker, ikke klærne! Vend om til Herren deres Gud! For han er nådig og barmhjertig, langmodig og rik på miskunn, og han angrer det onde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 34:6 ff. Sal 86:5,15. 103:8 ff. 145:8 ff. Jon 4:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.14": {
+    "text": "Hvem vet? Han kunne vende om og angre, og la en velsignelse bli igjen etter seg, til matoffer og drikkoffer for Herren deres Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:9,13. Jon 3:9. Hag 2:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.15": {
+    "text": "Blås i horn på Sion! Lys ut en hellig faste! Rop ut en høytidssamling!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.16": {
+    "text": "Samle folket, innvi forsamlingen! Kall de gamle sammen! Samle de små barna, også de som dier mors bryst! La brudgommen gå ut av sitt rom og bruden av sitt kammer!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.17": {
+    "text": "Mellom forhallen og alteret skal prestene, Herrens tjenere, stå gråtende og si: Herre, spar ditt folk! Overgi ikke din arv til vanære, så hedninger får herske over den! Hvorfor skal de si blant folkene: Hvor er deres Gud?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:9. Sal 42:4,11. 79:10. 115:2. Mika 7:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.18": {
+    "text": "Da blir Herren nidkjær for sitt land, og han sparer sitt folk.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Herren vil spare sitt folk"
+  },
+  "JOL.2.19": {
+    "text": "Og Herren svarer og sier til sitt folk: Se, jeg sender dere korn og most og olje så dere blir mette. Og jeg vil ikke mer overgi dere til vanære blant hedningene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.20": {
+    "text": "Fienden fra Norden vil jeg drive langt bort fra dere, og jage ham til et tørt og øde land - hans fortropp til havet i øst, hans baktropp til havet i vest. Stank skal stige opp fra ham, en motbydelig lukt. Altfor store ting har han satt seg fore.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 1:13 ff. 4:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.21": {
+    "text": "Frykt ikke, du åkerjord! Fryd deg og vær glad! For store ting har Herren gjort.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.22": {
+    "text": "Frykt ikke, dere markens dyr! For beitene i ødemarken grønnes. Trærne bærer frukt, fikentreet og vintreet gir av sin rikdom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:12,20. 3Mos 26:4,20. Sak 8:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.23": {
+    "text": "Og dere Sions barn, fryd og gled dere i Herren deres Gud! For han gir dere læreren til rettferdighet, og så sender han regn ned til dere, tidligregn og senregn, som før.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:1. 3Mos 26:4.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "5Mos 11:14. 18:15 ff. Jes 42:1 ff. Rom 3:21 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.24": {
+    "text": "Treskeplassene blir fulle av korn, og pressekarene flyter over av most og olje.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 3:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.25": {
+    "text": "Jeg godtgjør dere de årene da vrimleren åt opp alt - og slikkeren og ødeleggeren og gnageren, min store hær, som jeg sendte mot dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.26": {
+    "text": "Dere skal ete og bli mette og prise Herrens, deres Guds navn, han som har handlet så underfullt med dere. Og mitt folk skal aldri i evighet bli til skamme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 31:22. Jes 45:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.27": {
+    "text": "Og dere skal kjenne at jeg bor midt i Israel. Jeg er Herren deres Gud, og ingen annen. Og mitt folk skal aldri i evighet bli til skamme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 46:9. 49:23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.1": {
+    "text": "Og deretter skal det skje at jeg vil utgyte min Ånd over alt kjød. Deres sønner og døtre skal tale profetiske ord. Deres gamle menn skal ha drømmer, og deres unge menn skal se syner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 44:3.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Esek 39:29. Sak 12:10. Apg 2:16,17. 10:44.",
+        "refs": []
+      }
+    ],
+    "section": "Herren vil utgyte sin Ånd over alt kjød"
+  },
+  "JOL.3.2": {
+    "text": "Ja, også over treller og trellkvinner vil jeg utgyte min Ånd i de dager.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.3": {
+    "text": "Og jeg vil gjøre underfulle tegn på himmelen og på jorden: blod og ild og røksøyler.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Den som påkaller Herrens navn skal bli frelst"
+  },
+  "JOL.3.4": {
+    "text": "Solen skal forvandles til mørke og månen til blod, før Herrens dag kommer, den store og forferdelige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:10,11. Jes 13:10 ff. Esek 32:7. Matt 24:29. Apg 2:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.5": {
+    "text": "Og det skal skje: Hver den som påkaller Herrens navn, skal bli frelst. For på Sions berg og i Jerusalem skal det være en flokk som har sluppet unna, slik som Herren har sagt. Og blant de overlevende skal de være som Herren kaller.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Obad 17. Apg 2:21,39. Rom 10:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.6": {
+    "text": "For se, i de dager og på den tid, når jeg gjør ende på Judas og Jerusalems fangenskap,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 30:3. Jer 33:26. Esek 16:53. Hos 6:11.",
+        "refs": []
+      }
+    ],
+    "section": "Dommen over Herrens fiender"
+  },
+  "JOL.3.7": {
+    "text": "da vil jeg samle alle hedningefolk og føre dem ned til Josjafats dal. Der vil jeg holde rettergang med dem på grunn av Israel, mitt folk og min arv, fordi de spredte dem blant hedningefolkene og delte mitt land.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mika 4:11,12. *Josjafat betyr Herren dømmer.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Se v.17,19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.8": {
+    "text": "De kastet lodd om mitt folk. De ga en gutt for en horkvinne. De solgte en pike for vin - og den drakk de opp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.9": {
+    "text": "Og dere, Tyrus og Sidon og alle Filisterlands bygder! Hva vil dere meg? Er det noe dere vil gjengjelde meg, eller vil dere gjøre meg noe? Snart, i hast, skal jeg la deres gjerninger falle tilbake på deres eget hode.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.10": {
+    "text": "Dere tok mitt sølv og gull, og førte mine dyreste skatter bort til deres templer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.11": {
+    "text": "Judas barn og Jerusalems barn solgte dere til grekerne for å få dem langt bort fra sitt land.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.12": {
+    "text": "Se, jeg kaller dem til oppbrudd fra hvert sted som dere har solgt dem til. Og det som dere har gjort, lar jeg komme tilbake på deres eget hode.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.13": {
+    "text": "Deres sønner og døtre vil jeg selge til Judas barn, og de skal selge dem til sabeerne, et folk som bor langt borte, for Herren har talt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.14": {
+    "text": "Rop dette ut blant hedningefolkene: Rust dere til en hellig krig! Kall på krigsheltene! La alle stridsmenn stige fram og dra ut!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.15": {
+    "text": "Smi plogskjærene om til sverd og vingårdsknivene til spyd! Han som er veik, skal si: Jeg er en helt!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 2:4. Mika 4:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.16": {
+    "text": "Skynd dere og kom, alle hedningefolk fra alle kanter, samle dere! - Herre, la dine mektige helter stige ned!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 103:20. Jes 13:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.17": {
+    "text": "Hedningefolkene skal våkne opp og dra til Josjafats dal. For der vil jeg sitte og dømme alle hedningefolk fra alle kanter.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.18": {
+    "text": "Send sigden ut, for høsten er moden! Kom og tråkk vinpressen, for den er full, pressekarene flyter over - deres ondskap er stor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 13:39. Mark 4:29. Åp 14:15,18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.19": {
+    "text": "Skare på skare samler seg i avgjørelsens dal. For nær er Herrens dag i avgjørelsens dal.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:15. 2:1. Jes 34:2 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.20": {
+    "text": "Sol og måne sortner, og stjernene slutter å skinne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.21": {
+    "text": "Herren skal brøle fra Sion, han lar sin røst høre fra Jerusalem. Himmel og jord skal skjelve. Men Herren er en tilflukt for sitt folk og et vern for Israels barn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 25:30.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ord 18:10. Hos 11:10. Amos 1:2 ff. 3:8.",
+        "refs": []
+      }
+    ],
+    "section": "Herren skal samle sitt folk i Jerusalem"
+  },
+  "JOL.3.22": {
+    "text": "Dere skal kjenne at jeg er Herren deres Gud, som bor på Sion, mitt hellige berg. Og Jerusalem skal være et hellig sted. Fremmede skal aldri mer trenge inn der.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 68:17.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer 2:3. Esek 34:30. Obad 17. Åp 21:27.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.23": {
+    "text": "Det skal skje på den dagen at fjellene skal dryppe av most, og haugene skal flyte over av melk. Alle bekker i Juda renner fulle av vann, og en kilde veller fram fra Herrens hus og vanner Sjittims dal.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 47:1. Amos 9:13. Sak 14:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.24": {
+    "text": "Egypt skal bli til en ødemark og Edom til en øde ørken, på grunn av deres voldsverk mot Judas barn. For i deres land har de utøst uskyldig blod.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.25": {
+    "text": "Men det skal bo folk i Juda til evig tid, og i Jerusalem fra slekt til slekt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.3.26": {
+    "text": "Jeg vil hevne deres blod, det som jeg ikke før har hevnet. Og Herren bor på Sion.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 9:12. 74:2. Åp 6:10. 19:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

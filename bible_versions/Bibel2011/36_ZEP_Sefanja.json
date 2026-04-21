@@ -1,55 +1,536 @@
 {
-  "ZEP.1.1": "Herrens ord som kom til Sefanja, sønn av Kusji, sønn av Gedalja, sønn av Amarja, sønn av Hiskia, i de dager da Josjia, sønn av Amon, var konge i Juda.",
-  "ZEP.1.2": "Jeg river bort, alt river jeg bort fra jorden, sier Herren.",
-  "ZEP.1.3": "Jeg river bort mennesker og dyr, fuglene under himmelen, fiskene i havet, jeg lar de urettferdige snuble. Jeg utrydder menneskene fra jorden, sier Herren.",
-  "ZEP.1.4": "Jeg løfter hånden mot Juda, mot alle som bor i Jerusalem. Jeg utrydder fra dette stedet den siste rest av Baal, og avgudsprestenes navn sammen med prestene.",
-  "ZEP.1.5": "Jeg utrydder dem som tilber himmelhæren på takene, dem som tilber og sverger ved Herren og samtidig sverger ved Milkom,",
-  "ZEP.1.6": "og dem som vender Herren ryggen, som ikke søker Herren og ikke spør ham til råds.",
-  "ZEP.1.7": "Vær stille for Herren Gud, for Herrens dag er nær! Herren har gjort i stand et slaktoffer, han har helliget dem han har innbudt.",
-  "ZEP.1.8": "På dagen for Herrens slaktoffer skal jeg straffe fyrster og kongssønner og alle som kler seg i fremmed drakt.",
-  "ZEP.1.9": "Jeg skal straffe alle som springer over dørterskelen den dagen, de som fyller sin Herres hus med vold og svik.",
-  "ZEP.1.10": "Den dagen, sier Herren, skal det høres skrik fra Fiskeporten, jammer fra Nybyen og et høyt klagerop fra høydene.",
-  "ZEP.1.11": "Hyl, dere som bor i Nedrebyen, for hele kremmerfolket er tilintetgjort, utryddet er alle som veide opp sølv.",
-  "ZEP.1.12": "På den tiden skal jeg gjennomsøke Jerusalem med lys og straffe mennene der, de som sitter sløve i sin vinrus og sier i sitt hjerte: «Herren gjør verken godt eller ondt.»",
-  "ZEP.1.13": "Det de eier, skal plyndres, husene bli ødelagt. Bygger de hus, får de ikke bo i dem, planter de vinmarker, får de ikke drikke av vinen.",
-  "ZEP.1.14": "Nær er Herrens store dag; den er nær og kommer med hast! Hør, bitter er Herrens dag, da roper krigeren høyt.",
-  "ZEP.1.15": "En vredens dag er den dagen, en dag med nød og trengsel, en dag med tilintetgjørelse og herjing, en dag med mulm og mørke, en dag med skyer og skodde,",
-  "ZEP.1.16": "en dag med hornlåt og hærskrik mot festningsbyer, mot høye borgtårn.",
-  "ZEP.1.17": "Da vil jeg sende trengsel så folk går som i blinde, for de har syndet mot Herren. Blodet deres skal tømmes ut som slam og innvollene deres som møkk.",
-  "ZEP.1.18": "Sølv og gull kan ikke berge dem på Herrens vredesdag. Ilden fra hans lidenskap skal fortære hele jorden. For han utrydder, ja, han gjør brått ende på alle som bor på jorden.",
-  "ZEP.2.1": "Samle dere! Kom sammen, du skamløse folk,",
-  "ZEP.2.2": "før det som er fastsatt, trer i kraft og dagen fyker bort som agner, før Herrens brennende vrede kommer over dere, før Herrens vredesdag kommer over dere!",
-  "ZEP.2.3": "Søk Herren, alle ydmyke i landet, dere som følger hans bud! Søk rettferd, vær ydmyke, så finner dere kanskje ly på Herrens vredesdag.",
-  "ZEP.2.4": "Gaza skal ligge forlatt og Asjkalon bli til en ødemark. Asjdod skal drives bort ved høylys dag og Ekron rykkes opp.",
-  "ZEP.2.5": "Ve dere kretere som bor ved kysten! Dette er Herrens ord mot dere: «Kanaan, du filisternes land, jeg legger deg øde så ingen kan bo der.",
-  "ZEP.2.6": "Kysten skal bli til beitemark med brønner for gjeterne og innhegninger for småfeet.»",
-  "ZEP.2.7": "De som er igjen av Judas hus, skal ha kysten som beiteland. Om kvelden skal de legge seg til hvile i husene i Asjkalon. For Herren deres Gud skal se til dem, han skal vende deres skjebne.",
-  "ZEP.2.8": "Jeg hørte spott fra Moab og hån fra ammonittene da de spottet folket mitt og viste hovmod mot landet.",
-  "ZEP.2.9": "Derfor sier Herren over hærskarene, Israels Gud: Så sant jeg lever, skal det gå Moab som Sodoma og ammonittene som Gomorra; de skal bli et tistelkratt, en saltgruve, en ødemark for alltid. De som er igjen av mitt folk, skal plyndre dem, en rest av folket skal ta dem i eie.",
-  "ZEP.2.10": "Dette får de igjen for sitt overmot, fordi de spottet og så ned på folket til Herren over hærskarene.",
-  "ZEP.2.11": "Herren vekker frykt hos dem når han utrydder alle jordens guder. Alle folkeslag fra fjerne kyster skal komme og tilbe ham, hvert fra sitt sted.",
-  "ZEP.2.12": "Også dere, kusjitter, skal gjennombores av mitt sverd.",
-  "ZEP.2.13": "Han løfter hånden mot nord og ødelegger Assur. Han gjør Ninive til ødemark, tørr som en ørken.",
-  "ZEP.2.14": "Midt i henne skal buskaper hvile og alle slags ville dyr. Pelikan og hegre skal sove på søylehodene og uglen tute fra vinduene, på terskelen skal ravnen sitte. Sederpanelet rives av.",
-  "ZEP.2.15": "Dette er den jublende byen, hun som lå så trygt og sa i sitt hjerte: «Jeg – og ingen annen!» Hvor øde hun er blitt, en hvileplass for ville dyr! Alle som drar forbi, plystrer hånlig til henne og slår ut med hendene.",
-  "ZEP.3.1": "Ve den trassige, tilsølte byen, hun som undertrykker!",
-  "ZEP.3.2": "Hun adlyder ingen, tar ikke imot formaning, stoler ikke på Herren, holder seg ikke nær til sin Gud.",
-  "ZEP.3.3": "Hos henne er fyrstene som brølende løver, dommerne som ulver om natten, de sparer ingenting til det blir morgen.",
-  "ZEP.3.4": "Profetene er skrytende, troløse menn, prestene krenker det hellige, de gjør vold mot loven.",
-  "ZEP.3.5": "Herren rår med rettferd der, han gjør ingen urett. Hver morgen feller han sin dom, den mangler ikke når dagen gryr. Men den som gjør urett, kjenner ikke skam.",
-  "ZEP.3.6": "Jeg har utryddet folkeslag, borgtårnene deres ligger i grus. Jeg har lagt gatene øde, ingen ferdes på dem. Byene deres er herjet og folketomme, ingen bor der lenger.",
-  "ZEP.3.7": "Jeg sa: «Om du ville frykte meg og ta imot formaning!» Da ble ikke bostedene utryddet, all min straff skulle ikke ramme byen. Men de handlet bare ondt, sent og tidlig, med alt de gjorde.",
-  "ZEP.3.8": "Derfor, vent på meg, sier Herren, til den dagen jeg står fram som vitne. For det er min rett å samle folkeslag og føre kongeriker sammen for å øse ut min harme over dem, all min brennende vrede. For i ilden fra min lidenskap skal hele jorden fortæres.",
-  "ZEP.3.9": "Da skal jeg igjen gi folkene et rent tungemål så de alle kan påkalle Herrens navn og tjene ham skulder ved skulder.",
-  "ZEP.3.10": "Fra landet bortenfor elvene i Kusj skal min datter, mitt spredte folk som tilber meg, komme med offergaver til meg.",
-  "ZEP.3.11": "Den dagen skal du ikke skamme deg over alle ugjerningene du gjorde mot meg. For da tar jeg skrythalsene bort fra deg. Du skal ikke mer være stolt på mitt hellige fjell.",
-  "ZEP.3.12": "Jeg lar det bli igjen hos deg et ydmykt og fattig folk. De skal ta sin tilflukt til Herrens navn.",
-  "ZEP.3.13": "De som er igjen av Israel, gjør ingen urett og taler ikke løgn, ingen svikefull tale finnes i deres munn. Når de går på beite, kan de hvile trygt, ingen skremmer dem.",
-  "ZEP.3.14": "Bryt ut i jubel, datter Sion! Rop av fryd, Israel! Gled deg, datter Jerusalem, juble av hele ditt hjerte!",
-  "ZEP.3.15": "Herren har fridd deg fra dommen, drevet dine fiender bort. Herren, Israels konge, er hos deg, du skal ikke lenger frykte noe ondt.",
-  "ZEP.3.16": "Den dagen skal det sies til Jerusalem: Sion, vær ikke redd! La ikke hendene synke!",
-  "ZEP.3.17": "Herren din Gud er hos deg, en helt som frelser. Han fryder og gleder seg over deg og viser deg på ny sin kjærlighet. Han jubler over deg med fryd",
-  "ZEP.3.18": "som på en høytidsdag. Jeg frir deg fra den dagen du måtte tåle spott.",
-  "ZEP.3.19": "Se, på den tiden griper jeg inn mot alle som plager deg, jeg berger de haltende, og de bortdrevne samler jeg. Jeg gir dem et godt navn og rykte i alle land hvor de var blitt til skamme.",
-  "ZEP.3.20": "På den tiden leder jeg dere, da samler jeg dere. For jeg vil gi dere et godt navn og rykte blant alle folk på jorden når jeg for øynene på dere vender deres skjebne, sier Herren."
+  "ZEP.1.1": {
+    "text": "Herrens ord som kom til Sefanja, sønn av Kusji, sønn av Gedalja, sønn av Amarja, sønn av Hiskia, i de dager da Josjia, sønn av Amon, var konge i Juda.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kong 22,1f; Jer 1,1f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.2": {
+    "text": "Jeg river bort, alt river jeg bort fra jorden, sier Herren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Dommen over Jerusalem"
+  },
+  "ZEP.1.3": {
+    "text": "Jeg river bort mennesker og dyr, fuglene under himmelen, fiskene i havet, jeg lar de urettferdige snuble. Jeg utrydder menneskene fra jorden, sier Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 4,23ff; 12,4; Hos 4,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.4": {
+    "text": "Jeg løfter hånden mot Juda, mot alle som bor i Jerusalem. Jeg utrydder fra dette stedet den siste rest av Baal, og avgudsprestenes navn sammen med prestene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kong 23,4f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.5": {
+    "text": "Jeg utrydder dem som tilber himmelhæren på takene, dem som tilber og sverger ved Herren og samtidig sverger ved Milkom,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 4,19; 2 Kong 21,3; Jer 8,2; 19,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.6": {
+    "text": "og dem som vender Herren ryggen, som ikke søker Herren og ikke spør ham til råds.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 1,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.7": {
+    "text": "Vær stille for Herren Gud, for Herrens dag er nær! Herren har gjort i stand et slaktoffer, han har helliget dem han har innbudt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 34,6; Hab 2,20; Åp 19,17f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.8": {
+    "text": "På dagen for Herrens slaktoffer skal jeg straffe fyrster og kongssønner og alle som kler seg i fremmed drakt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.1.9": {
+    "text": "Jeg skal straffe alle som springer over dørterskelen den dagen, de som fyller sin Herres hus med vold og svik.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.1.10": {
+    "text": "Den dagen, sier Herren, skal det høres skrik fra Fiskeporten, jammer fra Nybyen og et høyt klagerop fra høydene.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kong 22,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.11": {
+    "text": "Hyl, dere som bor i Nedrebyen, for hele kremmerfolket er tilintetgjort, utryddet er alle som veide opp sølv.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.1.12": {
+    "text": "På den tiden skal jeg gjennomsøke Jerusalem med lys og straffe mennene der, de som sitter sløve i sin vinrus og sier i sitt hjerte: «Herren gjør verken godt eller ondt.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.1.13": {
+    "text": "Det de eier, skal plyndres, husene bli ødelagt. Bygger de hus, får de ikke bo i dem, planter de vinmarker, får de ikke drikke av vinen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 28,30f; Am 5,11; Mi 6,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.14": {
+    "text": "Nær er Herrens store dag; den er nær og kommer med hast! Hør, bitter er Herrens dag, da roper krigeren høyt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 13,9ff; Esek 30,3; Joel 1,15; 3,19",
+        "refs": []
+      }
+    ],
+    "section": "Herrens dag er nær"
+  },
+  "ZEP.1.15": {
+    "text": "En vredens dag er den dagen, en dag med nød og trengsel, en dag med tilintetgjørelse og herjing, en dag med mulm og mørke, en dag med skyer og skodde,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 30,7; Joel 2,2.10f; Am 5,18ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.1.16": {
+    "text": "en dag med hornlåt og hærskrik mot festningsbyer, mot høye borgtårn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.1.17": {
+    "text": "Da vil jeg sende trengsel så folk går som i blinde, for de har syndet mot Herren. Blodet deres skal tømmes ut som slam og innvollene deres som møkk.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.1.18": {
+    "text": "Sølv og gull kan ikke berge dem på Herrens vredesdag. Ilden fra hans lidenskap skal fortære hele jorden. For han utrydder, ja, han gjør brått ende på alle som bor på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 20,20; Ordsp 11,4; Esek 7,2ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.1": {
+    "text": "Samle dere! Kom sammen, du skamløse folk,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Søk Herren"
+  },
+  "ZEP.2.2": {
+    "text": "før det som er fastsatt, trer i kraft og dagen fyker bort som agner, før Herrens brennende vrede kommer over dere, før Herrens vredesdag kommer over dere!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,7+.14f+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.3": {
+    "text": "Søk Herren, alle ydmyke i landet, dere som følger hans bud! Søk rettferd, vær ydmyke, så finner dere kanskje ly på Herrens vredesdag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 55,6; Joel 2,14; Am 5,4.6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.4": {
+    "text": "Gaza skal ligge forlatt og Asjkalon bli til en ødemark. Asjdod skal drives bort ved høylys dag og Ekron rykkes opp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Dom over andre folkeslag"
+  },
+  "ZEP.2.5": {
+    "text": "Ve dere kretere som bor ved kysten! Dette er Herrens ord mot dere: «Kanaan, du filisternes land, jeg legger deg øde så ingen kan bo der.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.2.6": {
+    "text": "Kysten skal bli til beitemark med brønner for gjeterne og innhegninger for småfeet.»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.2.7": {
+    "text": "De som er igjen av Judas hus, skal ha kysten som beiteland. Om kvelden skal de legge seg til hvile i husene i Asjkalon. For Herren deres Gud skal se til dem, han skal vende deres skjebne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 30,3; Jer 29,14; Sef 3,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.8": {
+    "text": "Jeg hørte spott fra Moab og hån fra ammonittene da de spottet folket mitt og viste hovmod mot landet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.2.9": {
+    "text": "Derfor sier Herren over hærskarene, Israels Gud: Så sant jeg lever, skal det gå Moab som Sodoma og ammonittene som Gomorra; de skal bli et tistelkratt, en saltgruve, en ødemark for alltid. De som er igjen av mitt folk, skal plyndre dem, en rest av folket skal ta dem i eie.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 19,24ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.10": {
+    "text": "Dette får de igjen for sitt overmot, fordi de spottet og så ned på folket til Herren over hærskarene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.2.11": {
+    "text": "Herren vekker frykt hos dem når han utrydder alle jordens guder. Alle folkeslag fra fjerne kyster skal komme og tilbe ham, hvert fra sitt sted.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mi 5,12; Sak 13,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.12": {
+    "text": "Også dere, kusjitter, skal gjennombores av mitt sverd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.2.13": {
+    "text": "Han løfter hånden mot nord og ødelegger Assur. Han gjør Ninive til ødemark, tørr som en ørken.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.2.14": {
+    "text": "Midt i henne skal buskaper hvile og alle slags ville dyr. Pelikan og hegre skal sove på søylehodene og uglen tute fra vinduene, på terskelen skal ravnen sitte. Sederpanelet rives av.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 13,21f; 34,11.13; Jer 50,39",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.2.15": {
+    "text": "Dette er den jublende byen, hun som lå så trygt og sa i sitt hjerte: «Jeg – og ingen annen!» Hvor øde hun er blitt, en hvileplass for ville dyr! Alle som drar forbi, plystrer hånlig til henne og slår ut med hendene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 47,8; Klag 2,15; Nah 3,19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.1": {
+    "text": "Ve den trassige, tilsølte byen, hun som undertrykker!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Jerusalems synd og straff"
+  },
+  "ZEP.3.2": {
+    "text": "Hun adlyder ingen, tar ikke imot formaning, stoler ikke på Herren, holder seg ikke nær til sin Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.3.3": {
+    "text": "Hos henne er fyrstene som brølende løver, dommerne som ulver om natten, de sparer ingenting til det blir morgen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 22,25.27; Mi 3,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.4": {
+    "text": "Profetene er skrytende, troløse menn, prestene krenker det hellige, de gjør vold mot loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 23,11.16; Esek 22,26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.5": {
+    "text": "Herren rår med rettferd der, han gjør ingen urett. Hver morgen feller han sin dom, den mangler ikke når dagen gryr. Men den som gjør urett, kjenner ikke skam.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 32,4; Jer 25,3ff; Hos 6,3.5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.6": {
+    "text": "Jeg har utryddet folkeslag, borgtårnene deres ligger i grus. Jeg har lagt gatene øde, ingen ferdes på dem. Byene deres er herjet og folketomme, ingen bor der lenger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.3.7": {
+    "text": "Jeg sa: «Om du ville frykte meg og ta imot formaning!» Da ble ikke bostedene utryddet, all min straff skulle ikke ramme byen. Men de handlet bare ondt, sent og tidlig, med alt de gjorde.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.3.8": {
+    "text": "Derfor, vent på meg, sier Herren, til den dagen jeg står fram som vitne. For det er min rett å samle folkeslag og føre kongeriker sammen for å øse ut min harme over dem, all min brennende vrede. For i ilden fra min lidenskap skal hele jorden fortæres.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.3.9": {
+    "text": "Da skal jeg igjen gi folkene et rent tungemål så de alle kan påkalle Herrens navn og tjene ham skulder ved skulder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 6,5",
+        "refs": []
+      }
+    ],
+    "section": "Frelse for Israels rest"
+  },
+  "ZEP.3.10": {
+    "text": "Fra landet bortenfor elvene i Kusj skal min datter, mitt spredte folk som tilber meg, komme med offergaver til meg.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 68,32; Jes 18,7; 60,5f; 66,20; Mi 4,1ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.11": {
+    "text": "Den dagen skal du ikke skamme deg over alle ugjerningene du gjorde mot meg. For da tar jeg skrythalsene bort fra deg. Du skal ikke mer være stolt på mitt hellige fjell.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 16,50",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.12": {
+    "text": "Jeg lar det bli igjen hos deg et ydmykt og fattig folk. De skal ta sin tilflukt til Herrens navn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 57,15; Matt 5,3f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.13": {
+    "text": "De som er igjen av Israel, gjør ingen urett og taler ikke løgn, ingen svikefull tale finnes i deres munn. Når de går på beite, kan de hvile trygt, ingen skremmer dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3 Mos 26,5f; Jes 11,9; Mi 7,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.14": {
+    "text": "Bryt ut i jubel, datter Sion! Rop av fryd, Israel! Gled deg, datter Jerusalem, juble av hele ditt hjerte!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sak 9,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.15": {
+    "text": "Herren har fridd deg fra dommen, drevet dine fiender bort. Herren, Israels konge, er hos deg, du skal ikke lenger frykte noe ondt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 40,1f; 41,10; 43,1; Esek 48,35",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.16": {
+    "text": "Den dagen skal det sies til Jerusalem: Sion, vær ikke redd! La ikke hendene synke!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.3.17": {
+    "text": "Herren din Gud er hos deg, en helt som frelser. Han fryder og gleder seg over deg og viser deg på ny sin kjærlighet. Han jubler over deg med fryd",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 12,6; Sak 2,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.18": {
+    "text": "som på en høytidsdag. Jeg frir deg fra den dagen du måtte tåle spott.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "ZEP.3.19": {
+    "text": "Se, på den tiden griper jeg inn mot alle som plager deg, jeg berger de haltende, og de bortdrevne samler jeg. Jeg gir dem et godt navn og rykte i alle land hvor de var blitt til skamme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 26,19; Mi 4,6f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ZEP.3.20": {
+    "text": "På den tiden leder jeg dere, da samler jeg dere. For jeg vil gi dere et godt navn og rykte blant alle folk på jorden når jeg for øynene på dere vender deres skjebne, sier Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 30,3ff; Jer 29,14; Hos 6,11; Sef 2,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

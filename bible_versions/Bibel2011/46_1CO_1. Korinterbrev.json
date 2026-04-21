@@ -1,439 +1,4378 @@
 {
-  "1CO.1.1": "Paulus, som etter Guds vilje er kalt til Kristi Jesu apostel, og vår bror Sostenes",
-  "1CO.1.2": "hilser Guds menighet i Korint, dere som er helliget i Kristus Jesus og kalt til å være hellige sammen med alle som hver på sitt sted påkaller vår Herre Jesu Kristi navn – han som er deres og vår Herre:",
-  "1CO.1.3": "Nåde være med dere og fred fra Gud, vår Far, og Herren Jesus Kristus!",
-  "1CO.1.4": "Jeg takker alltid min Gud for dere, for den nåde han har gitt dere i Kristus Jesus.",
-  "1CO.1.5": "I ham er dere blitt rike på alt, på all lære og all kunnskap;",
-  "1CO.1.6": "vitnesbyrdet om Kristus har da også fått sikkert feste hos dere.",
-  "1CO.1.7": "Derfor mangler dere ikke noen nådegave mens dere venter på at vår Herre Jesus Kristus skal åpenbare seg.",
-  "1CO.1.8": "Han skal også grunnfeste dere helt til enden kommer, så dere kan stå uten å bli anklaget på vår Herre Jesu Kristi dag.",
-  "1CO.1.9": "Gud er trofast, han som har kalt dere til fellesskap med sin Sønn, Jesus Kristus, vår Herre.",
-  "1CO.1.10": "Jeg formaner dere, søsken, ved vår Herre Jesu Kristi navn, at dere må være enige. La det ikke være splittelse blant dere, men stå sammen i syn og tanke.",
-  "1CO.1.11": "For noen av Kloes folk har fortalt meg, søsken, at det er stridigheter blant dere.",
-  "1CO.1.12": "Jeg sikter til dette at noen av dere sier: «Jeg holder meg til Paulus», mens andre sier «til Apollos», «til Kefas» eller «til Kristus».",
-  "1CO.1.13": "Er da Kristus blitt delt? Var det kanskje Paulus som ble korsfestet for dere? Eller ble dere døpt til Paulus' navn?",
-  "1CO.1.14": "Jeg takker Gud for at jeg ikke har døpt noen av dere, bortsett fra Krispus og Gaius,",
-  "1CO.1.15": "slik at ingen kan si at dere ble døpt til mitt navn.",
-  "1CO.1.16": "Riktignok har jeg også døpt Stefanas og hans familie, men ellers vet jeg ikke om at jeg har døpt noen.",
-  "1CO.1.17": "For Kristus har ikke sendt meg ut for å døpe, men for å forkynne evangeliet, og det ikke med talekunst og visdom, så Kristi kors ikke skal miste sin kraft.",
-  "1CO.1.18": "For ordet om korset er dårskap for dem som går fortapt, men for oss som blir frelst, er det Guds kraft.",
-  "1CO.1.19": "Det står jo skrevet: Jeg vil ødelegge de vises visdom, og de klokes klokskap vil jeg gjøre til intet.",
-  "1CO.1.20": "Hvor er da de vise, hvor er de skriftlærde, hvor er denne verdens kloke hoder? Har ikke Gud vist at verdens visdom er dårskap?",
-  "1CO.1.21": "For da verden ikke brukte visdommen til å kjenne Gud i hans visdom, besluttet Gud å frelse dem som tror, ved den dårskapen som vi forkynner.",
-  "1CO.1.22": "For jøder spør etter tegn, og grekere søker visdom,",
-  "1CO.1.23": "men vi forkynner en korsfestet Kristus. Han er en snublestein for jøder og dårskap for hedninger,",
-  "1CO.1.24": "men for dem som er kalt, både jøder og grekere, er Kristus Guds kraft og Guds visdom.",
-  "1CO.1.25": "For Guds dårskap er visere enn menneskene, og Guds svakhet er sterkere enn menneskene.",
-  "1CO.1.26": "Se på dere selv, søsken, dere som ble kalt: ikke mange vise etter menneskelige mål og ikke mange med makt eller av fornem slekt.",
-  "1CO.1.27": "Men det som i verdens øyne er dårskap, det utvalgte Gud for å gjøre de vise til skamme, og det som i verdens øyne er svakt, det utvalgte Gud for å gjøre det sterke til skamme.",
-  "1CO.1.28": "Ja, det som i verdens øyne står lavt, det som blir foraktet, det som ikke er noe, det utvalgte Gud for å gjøre til intet det som er noe,",
-  "1CO.1.29": "for at ingen mennesker skal ha noe å være stolt av overfor Gud.",
-  "1CO.1.30": "Dere er hans verk i Kristus Jesus, han som er blitt vår visdom fra Gud, vår rettferdighet, helliggjørelse og forløsning,",
-  "1CO.1.31": "for at den som er stolt, skal være stolt av Herren, slik det står skrevet.",
-  "1CO.2.1": "Da jeg kom til dere, søsken, var det ikke med fremragende talekunst eller visdom jeg forkynte Guds mysterium.",
-  "1CO.2.2": "For jeg hadde bestemt at jeg ikke ville vite av noe annet hos dere enn Jesus Kristus og ham korsfestet.",
-  "1CO.2.3": "Svak, redd og skjelvende opptrådte jeg hos dere.",
-  "1CO.2.4": "Jeg forkynte ikke mitt budskap med overtalende visdomsord, men med Ånd og kraft som bevis.",
-  "1CO.2.5": "For deres tro skulle ikke bygge på menneskelig visdom, men på Guds kraft.",
-  "1CO.2.6": "Likevel forkynner vi en visdom for dem som er modne. Men det er ikke en visdom som tilhører denne verden og denne verdens herskere, de som går til grunne.",
-  "1CO.2.7": "Nei, vi forkynner et mysterium, Guds skjulte visdom. Før tidenes begynnelse hadde Gud bestemt at den skulle føre oss fram til herligheten.",
-  "1CO.2.8": "Denne visdommen har ingen av verdens herskere kjent. Hadde de kjent den, ville de ikke ha korsfestet herlighetens Herre.",
-  "1CO.2.9": "Men som det står skrevet: Det intet øye så og intet øre hørte, det som ikke kom opp i noe menneskehjerte, det som Gud har gjort ferdig for dem som elsker ham,",
-  "1CO.2.10": "det har Gud åpenbart for oss ved sin Ånd. For Ånden utforsker alle ting, også dybdene i Gud.",
-  "1CO.2.11": "Hvem andre enn menneskets egen ånd vet hva som bor i et menneske? Slik vet heller ingen annen enn Guds Ånd hva som bor i Gud.",
-  "1CO.2.12": "Vi har ikke fått verdens ånd, men den Ånd som er fra Gud, for at vi skal forstå hva Gud i sin nåde har gitt oss.",
-  "1CO.2.13": "Om dette taler vi med ord som Ånden har lært oss, ikke med ord som menneskelig visdom har lært oss. Det åndelige tolker vi med ord som hører Ånden til.",
-  "1CO.2.14": "Slik menneskene er i seg selv, tar de ikke imot det som hører Guds Ånd til. Det er dårskap for dem, og de kan ikke fatte det, for det kan bedømmes bare på åndelig vis.",
-  "1CO.2.15": "Men det mennesket som har Ånden, kan dømme om alt, og selv kan det ikke bedømmes av noen.",
-  "1CO.2.16": "For hvem kjente Herrens sinn så han kan gi ham råd? Men vi har Kristi sinn!",
-  "1CO.3.1": "Likevel, søsken, kunne jeg ikke tale til dere som til mennesker som har Ånden. Jeg måtte tale til dere som til mennesker styrt av kjøtt og blod, som til spedbarn i Kristus.",
-  "1CO.3.2": "Melk ga jeg dere, ikke fast føde, for det tålte dere ikke. Ja, dere tåler det ennå ikke,",
-  "1CO.3.3": "for det er jo fremdeles kjøtt og blod som rår i dere. Når det hersker misunnelse og strid blant dere, er dere ikke da styrt av kjøttet og går fram på menneskers vis?",
-  "1CO.3.4": "Når én sier: «Jeg holder meg til Paulus» og en annen: «Jeg til Apollos», er dere ikke da som alle andre mennesker?",
-  "1CO.3.5": "Hva er vel Apollos? Og hva er Paulus? Tjenere som hjalp dere til tro! Begge gjorde vi det Herren hadde satt oss til.",
-  "1CO.3.6": "Jeg plantet, Apollos vannet, men Gud ga vekst.",
-  "1CO.3.7": "Derfor er de ikke noe, verken den som planter eller den som vanner. Bare Gud er noe, han som gir vekst.",
-  "1CO.3.8": "Den som planter og den som vanner, er ett, men de skal få lønn hver etter sitt eget arbeid.",
-  "1CO.3.9": "For vi er Guds medarbeidere, og dere er Guds åkerland, Guds bygning.",
-  "1CO.3.10": "I kraft av den nåde Gud har gitt meg, la jeg grunnvollen som en klok byggmester; en annen bygger videre. Men hver enkelt må være nøye med hvordan han bygger.",
-  "1CO.3.11": "Ingen kan legge noen annen grunnvoll enn den som alt er lagt, Jesus Kristus.",
-  "1CO.3.12": "Men om noen bygger på grunnvollen med gull, sølv eller edelstener, med tre, høy eller halm,",
-  "1CO.3.13": "skal det en gang vise seg hva slags arbeid den enkelte har gjort. Herrens dag skal gjøre det klart, for den åpenbarer seg med ild, og ilden skal prøve hvordan den enkeltes verk er.",
-  "1CO.3.14": "Om det byggverket noen har reist, blir stående, skal han få sin lønn.",
-  "1CO.3.15": "Dersom det brenner opp, må han lide tapet. Selv skal han bli frelst, men bare som gjennom ild.",
-  "1CO.3.16": "Vet dere ikke at dere er Guds tempel, og at Guds Ånd bor i dere?",
-  "1CO.3.17": "Dersom noen ødelegger Guds tempel, skal Gud ødelegge ham. For Guds tempel er hellig, og dette tempelet er dere.",
-  "1CO.3.18": "Ingen må narre seg selv! Hvis noen av dere regner seg som vis i denne verden, la ham da bli en dåre, så han kan bli virkelig vis.",
-  "1CO.3.19": "For denne verdens visdom er dårskap i Guds øyne. For det står skrevet: Han fanger de vise i deres list,",
-  "1CO.3.20": "og et annet sted: Herren kjenner de vises tanker, han vet at de er tomme.",
-  "1CO.3.21": "Derfor må ingen skryte av å være tilhenger av mennesker. For alt hører dere til,",
-  "1CO.3.22": "enten det er Paulus, Apollos eller Kefas, enten det er verden, livet eller døden, det som er nå, eller det som skal komme. Alt hører dere til,",
-  "1CO.3.23": "men dere hører Kristus til, og Kristus hører Gud til.",
-  "1CO.4.1": "Så skal dere se på oss som Kristi tjenere og forvaltere av Guds mysterier.",
-  "1CO.4.2": "Av forvaltere kreves det at de viser troskap.",
-  "1CO.4.3": "Men for meg betyr det ingenting om jeg blir dømt av dere eller av noen menneskelig domstol. Jeg er heller ikke min egen dommer.",
-  "1CO.4.4": "For jeg vet ikke om noe galt jeg har gjort. Men jeg er ikke dermed frikjent, for Herren er den som dømmer meg.",
-  "1CO.4.5": "Døm derfor ikke før tiden, før Herren kommer. Han skal få fram i lyset det som er skjult i mørket, og avsløre hjertets tanker. Da skal Gud gi enhver den ros han har fortjent.",
-  "1CO.4.6": "Her har jeg brukt meg selv og Apollos som eksempel for dere, søsken. Av oss skal dere lære å «ikke gå ut over det som står skrevet», så ingen skal blåse seg opp og holde med den ene framfor den andre.",
-  "1CO.4.7": "Hvem har satt deg høyere enn andre? Hva annet har du enn det du har fått? Og har du fått noe, hvorfor skryter du som om det ikke var en gave?",
-  "1CO.4.8": "Men dere er allerede så mette! Dere er alt blitt så rike! Dere er blitt konger, men uten oss! Ja, var dere bare blitt konger, så kunne også vi hersket sammen med dere!",
-  "1CO.4.9": "Men for meg ser det ut som om Gud har satt oss apostler aller nederst. Vi er som dødsdømte, stilt fram som et skuespill for verden, både for engler og for mennesker.",
-  "1CO.4.10": "Vi er dårer for Kristi skyld, dere er kloke i Kristus. Vi er svake, dere er sterke. Dere får ære, vi får skam.",
-  "1CO.4.11": "Helt fram til nå har vi både sultet og tørstet; vi mangler klær, blir mishandlet, er hjemløse",
-  "1CO.4.12": "og må streve for å livberge oss med våre egne hender. Når vi blir utskjelt, velsigner vi. Når vi blir forfulgt, holder vi ut.",
-  "1CO.4.13": "Når noen håner oss, svarer vi med vennlighet. Vi er blitt som utskudd i verden, som avfall for alle – til denne dag.",
-  "1CO.4.14": "Jeg skriver ikke dette for å gjøre dere skamfulle, men for å vise dere til rette som mine elskede barn.",
-  "1CO.4.15": "For om dere har tusen lærere i Kristus, har dere ikke mange fedre. Det var jeg som ble deres far i Kristus Jesus da jeg ga dere evangeliet.",
-  "1CO.4.16": "Så legger jeg dere på hjertet: Ha meg som forbilde!",
-  "1CO.4.17": "Derfor sender jeg Timoteus til dere, mitt kjære og trofaste barn i Herren; han skal minne dere om mine veier i Kristus Jesus, slik jeg lærer overalt, i alle menigheter.",
-  "1CO.4.18": "Noen har blåst seg opp fordi de tror at jeg ikke kommer tilbake til dere.",
-  "1CO.4.19": "Men jeg kommer snart, hvis Herren vil. Da får jeg virkelig kjenne, ikke ordene, men kraften disse oppblåste folkene har.",
-  "1CO.4.20": "For Guds rike består ikke i ord, men i kraft.",
-  "1CO.4.21": "Hva vil dere? Skal jeg komme til dere med pisken eller med kjærlighet og mildhet?",
-  "1CO.5.1": "Rett ut sagt: En hører om hor blant dere, og det i en form som ikke engang hedningene tåler, nemlig at en mann lever med sin fars kone.",
-  "1CO.5.2": "Og likevel er dere stolte! Dere burde ha kjent sorg og vist bort fra dere den som har gjort dette.",
-  "1CO.5.3": "For jeg, som er fysisk fraværende, men nærværende i ånden, har alt felt min dom over den som har gjort dette, som om jeg selv var til stede.",
-  "1CO.5.4": "Når dere samles i vår Herre Jesu navn, når jeg er til stede i ånden og vår Herre Jesu kraft er med oss,",
-  "1CO.5.5": "da skal dette mennesket overgis til Satan slik at kroppen hans blir ødelagt, men ånden kan bli frelst på Herrens dag.",
-  "1CO.5.6": "Dere har sannelig ikke mye å være stolte av! Vet dere ikke at litt surdeig gjennomsyrer hele deigen?",
-  "1CO.5.7": "Rens ut den gamle surdeigen så dere kan være en ny deig! Dere er jo som usyret brød. For vårt påskelam er slaktet, Kristus.",
-  "1CO.5.8": "Så la oss holde høytid, ikke med gammel surdeig av ondskap og synd, men med renhetens og sannhetens usyrede brød.",
-  "1CO.5.9": "Jeg skrev i brevet til dere at dere ikke skal ha noe å gjøre med folk som lever i hor.",
-  "1CO.5.10": "Jeg mente ikke alle i denne verden som driver hor eller er grådige, eller er ransmenn og avgudsdyrkere. Da måtte dere jo gå ut av verden.",
-  "1CO.5.11": "Det jeg mente med det jeg skrev, var at dere ikke skal omgås en som kalles bror, og som likevel lever i hor eller er grådig, eller som er en avgudsdyrker, spotter, drukkenbolt eller ransmann. Slike skal dere heller ikke spise sammen med.",
-  "1CO.5.12": "Hva har jeg med å dømme dem som står utenfor? Er det ikke dem som er innenfor, dere skal dømme?",
-  "1CO.5.13": "Dem som står utenfor, skal Gud dømme. Få da den onde bort fra dere!",
-  "1CO.6.1": "Når en av dere har en sak mot en annen, hvordan kan han da våge å legge den fram for de urettferdige og ikke for de hellige?",
-  "1CO.6.2": "Vet dere ikke at de hellige skal dømme verden? Men når dere skal dømme verden, hvorfor duger dere ikke da til å dømme i småsaker?",
-  "1CO.6.3": "Vet dere ikke at vi skal dømme engler? Kan dere ikke da dømme i jordiske saker?",
-  "1CO.6.4": "Og når dere har slike saker, hvorfor setter dere til dommere folk som ikke har tillit i menigheten?",
-  "1CO.6.5": "Dette er en skam for dere! Finnes det ikke en eneste forstandig blant dere som kan ordne opp i saker mellom brødre?",
-  "1CO.6.6": "Nei, bror fører sak mot bror, og det for dommere som ikke er troende.",
-  "1CO.6.7": "At dere har rettssaker mot hverandre, er i seg selv et nederlag for dere. Hvorfor lider dere ikke heller urett? Hvorfor ikke heller lide tap?",
-  "1CO.6.8": "Men dere gjør urett og lar andre lide tap – til og med søsken.",
-  "1CO.6.9": "Vet dere ikke at de som gjør urett, ikke skal arve Guds rike? La dere ikke føre vill! Verken de som driver hor, de som dyrker avguder eller de som bryter ekteskapet, verken menn som ligger med menn eller som lar seg ligge med,",
-  "1CO.6.10": "verken tyver, grådige, drukkenbolter, spottere eller ransmenn skal arve Guds rike.",
-  "1CO.6.11": "Slik var noen av dere før. Men nå er dere vasket rene, dere er gjort hellige, dere er gjort rettferdige i Herren Jesu Kristi navn og ved vår Guds Ånd.",
-  "1CO.6.12": "Jeg har lov til alt, men ikke alt tjener til det gode. Jeg har lov til alt, men jeg skal ikke la noe få makt over meg.",
-  "1CO.6.13": "Maten er til for magen, og magen for maten, men Gud skal gjøre slutt på dem begge. Kroppen er ikke til for hor; den er for Herren, og Herren er for kroppen.",
-  "1CO.6.14": "Gud reiste opp Herren, og ved sin kraft skal han også reise oss opp.",
-  "1CO.6.15": "Vet dere ikke at kroppene deres er Kristi lemmer? Skal jeg da ta Kristi lemmer og gjøre dem til en hores lemmer? Det må ikke skje!",
-  "1CO.6.16": "Eller vet dere ikke at når noen holder seg til en hore, blir de én kropp? For det står: De to skal være én kropp.",
-  "1CO.6.17": "Men den som holder seg til Kristus, blir én ånd med ham.",
-  "1CO.6.18": "Hold dere langt borte fra hor! All synd som et menneske gjør, er utenfor kroppen. Men den som driver hor, synder mot sin egen kropp.",
-  "1CO.6.19": "Vet dere ikke at kroppen deres er et tempel for Den hellige ånd som bor i dere, og som er fra Gud? Dere tilhører ikke lenger dere selv.",
-  "1CO.6.20": "Dere er kjøpt, og prisen betalt. Bruk da kroppen til Guds ære!",
-  "1CO.7.1": "Når det gjelder det dere skrev om, så er det godt for en mann ikke å røre en kvinne.",
-  "1CO.7.2": "Men for å unngå hor skal hver mann ha sin kone og hver kvinne sin ektemann.",
-  "1CO.7.3": "Mannen skal oppfylle sin forpliktelse overfor kvinnen, og hun overfor ham.",
-  "1CO.7.4": "Kvinnen rår ikke over sin egen kropp, det gjør mannen. På samme måte rår ikke mannen over sin egen kropp, det gjør kvinnen.",
-  "1CO.7.5": "Dere skal ikke nekte hverandre samliv hvis dere ikke er blitt enige om det for en tid, for å leve i bønn. Kom så sammen igjen, for at ikke Satan skal sette avholdenheten deres på prøve.",
-  "1CO.7.6": "Dette er ment som en tillatelse, ikke som et påbud.",
-  "1CO.7.7": "Jeg skulle ønske at alle var som jeg. Men enhver har sin egen nådegave fra Gud, den ene slik, den andre slik.",
-  "1CO.7.8": "Til de ugifte og enkene sier jeg: Det er godt for dem om de fortsetter å være som jeg.",
-  "1CO.7.9": "Men dersom de ikke kan være avholdende, må de gifte seg. For det er bedre å gifte seg enn å brenne av begjær.",
-  "1CO.7.10": "Til de gifte har jeg dette påbudet, ikke fra meg selv, men fra Herren: En kvinne skal ikke skille seg fra mannen sin.",
-  "1CO.7.11": "Men hvis hun likevel skiller seg, skal hun leve ugift eller forlike seg med mannen. Og en mann skal ikke skille seg fra sin kone.",
-  "1CO.7.12": "Til de andre sier jeg – dette er mine ord, ikke Herrens: Dersom en bror har en kone som ikke er troende, og hun gjerne vil bli hos ham, skal han ikke skille seg fra henne.",
-  "1CO.7.13": "Og dersom en kvinne har en ikke-troende mann og han gjerne vil bli hos henne, skal hun ikke skille seg fra mannen.",
-  "1CO.7.14": "For den ikke-troende mannen blir regnet som hellig på grunn av sin kone, og den ikke-troende kvinnen blir regnet som hellig fordi mannen er en troende bror. Ellers ville jo barna deres være urene, men nå er de hellige.",
-  "1CO.7.15": "Men hvis den ikke-troende vil skilles, så la ham gjøre det. I slike tilfeller er ikke den troende broren eller søsteren bundet. Gud har kalt dere til fred.",
-  "1CO.7.16": "For vet vel du, kvinne, om du kan redde din mann? Og vet vel du, mann, om du kan redde din kone?",
-  "1CO.7.17": "Derfor skal enhver leve sitt liv der Herren har satt ham, der han var da Gud kalte ham. Dette gir jeg pålegg om i alle menighetene.",
-  "1CO.7.18": "Om noen ble kalt som omskåret, skal han ikke prøve å forandre det. Om noen er blitt kalt som uomskåret, skal han ikke la seg omskjære.",
-  "1CO.7.19": "For det som betyr noe, er ikke å være omskåret eller uomskåret, men å holde Guds bud.",
-  "1CO.7.20": "Enhver skal forbli der han var da han ble kalt.",
-  "1CO.7.21": "Ble du kalt som slave? La ikke det bekymre deg! Men kan du bli fri, så velg heller det.",
-  "1CO.7.22": "For den som var slave da Herren kalte ham, er Herrens frigitte, og den som var fri da han ble kalt, er Kristi slave.",
-  "1CO.7.23": "Dere er kjøpt, og prisen betalt. Så bli ikke slaver av mennesker.",
-  "1CO.7.24": "Mine søsken, enhver skal forbli der han var da han ble kalt, og være der for Gud.",
-  "1CO.7.25": "Når det gjelder de unge jentene, har jeg ikke noe påbud fra Herren. Men jeg sier min mening, siden Herren i sin godhet lar meg være troverdig.",
-  "1CO.7.26": "På grunn av den nødstid vi lever i, mener jeg det er godt for et menneske å bli værende som det er.",
-  "1CO.7.27": "Er du bundet til en kvinne, så prøv ikke å bli fri. Er du ikke bundet, så finn deg ingen kone.",
-  "1CO.7.28": "Om du likevel gifter deg, synder du ikke, og om en ung jente gifter seg, synder hun ikke. Men de gifte kommer til å møte vansker i livet, og det vil jeg gjerne spare dere for.",
-  "1CO.7.29": "For det sier jeg, brødre: Det er stadig kortere tid igjen. Fra nå av skal de som har kone, være som om de ingen hadde,",
-  "1CO.7.30": "de gråtende som om de ikke gråt, de glade som om de ikke gledet seg, de som kjøper noe, som om de ikke eide det,",
-  "1CO.7.31": "og de som bruker verdens goder, som om de ikke brukte dem. For verden slik den nå er, går under.",
-  "1CO.7.32": "Jeg vil at dere skal slippe bekymringer. Den ugifte er opptatt av det som hører Herren til, hvordan han kan være til glede for Herren.",
-  "1CO.7.33": "Men den som er gift, er opptatt av det som hører verden til, hvordan han kan glede sin kone,",
-  "1CO.7.34": "og så blir sinnet delt. Den ugifte kvinnen og den unge jenta er opptatt av det som hører Herren til, så de kan være hellige både på kropp og sjel. Men den gifte kvinnen er opptatt av det som hører verden til, hvordan hun kan glede sin mann.",
-  "1CO.7.35": "Jeg sier dette til deres eget beste, ikke for å legge bånd på dere, men for at dere skal leve sømmelig og holde dere trofast og helhjertet til Herren.",
-  "1CO.7.36": "Om noen mener at han kommer inn i et usømmelig forhold til kjæresten sin fordi han er i sin fulle kraft, og det må så være, da skal han gjøre som han vil: La dem gifte seg, han synder ikke med det.",
-  "1CO.7.37": "Men den som står fast i sitt forsett og ikke er under tvang, men har herredømme over sin egen vilje og i sitt hjerte har bestemt seg til å la kjæresten forbli jomfru, han gjør vel i det.",
-  "1CO.7.38": "Så gjør altså den rett som gifter seg med kjæresten sin, og den som ikke gifter seg, gjør bedre.",
-  "1CO.7.39": "En kvinne er bundet så lenge mannen hennes lever. Dersom mannen dør, er hun fri til å gifte seg med hvem hun vil, bare det skjer i Herren.",
-  "1CO.7.40": "Men hun vil være lykkeligere om hun lever alene, etter min mening. Og jeg mener at også jeg har Guds Ånd.",
-  "1CO.8.1": "Når det gjelder kjøtt som har vært ofret til avgudene, er det nok slik at vi alle har kunnskap. Men kunnskap gjør hovmodig; det er kjærligheten som bygger opp.",
-  "1CO.8.2": "Om noen mener å ha forstått noe, da har han ennå ikke forstått det slik han burde.",
-  "1CO.8.3": "Men den som elsker Gud, er kjent av ham.",
-  "1CO.8.4": "Når det gjelder det å spise slike avgudsoffer, vet vi at det ikke finnes noen avgud i verden og ingen Gud uten én.",
-  "1CO.8.5": "Det finnes nok såkalte guder i himmelen eller på jorden, ja, det er mange guder og mange herrer.",
-  "1CO.8.6": "Men for oss er det én Gud, vår Far. Alt er fra ham, og til ham er vi skapt. Og det er én Herre, Jesus Kristus. Alt er til ved ham, og ved ham lever vi.",
-  "1CO.8.7": "Men ikke alle har denne kunnskapen. Noen spiser fortsatt dette kjøttet som avgudsoffer fordi de pleide å dyrke avguder. Så blir deres samvittighet skitnet til fordi den er svak.",
-  "1CO.8.8": "Men mat fører oss ikke nærmere Gud. Vi oppnår ikke noe om vi spiser, og vi taper ikke noe om vi lar være.",
-  "1CO.8.9": "Men pass på at friheten deres ikke fører de svake til fall!",
-  "1CO.8.10": "Om noen ser at du som har denne kunnskapen, ligger til bords i et avgudshus, vil ikke da samvittigheten hans, svak som den er, liksom bli oppbygd slik at han spiser offerkjøtt?",
-  "1CO.8.11": "Da går den svake fortapt som følge av din kunnskap, den bror som Kristus døde for.",
-  "1CO.8.12": "Når dere synder mot deres søsken på denne måten og sårer deres svake samvittighet, synder dere mot Kristus selv.",
-  "1CO.8.13": "Dersom mat fører min bror eller søster til fall, vil jeg aldri i evighet spise kjøtt! For jeg vil ikke føre dem til fall.",
-  "1CO.9.1": "Er jeg ikke fri? Er jeg ikke apostel? Har jeg ikke sett Jesus, vår Herre? Er ikke dere mitt verk i Herren?",
-  "1CO.9.2": "Om jeg ikke er apostel for andre, er jeg det i alle fall for dere! Ja, dere er seglet på mitt apostelkall i Herren.",
-  "1CO.9.3": "Mitt forsvar mot dem som dømmer meg, er dette:",
-  "1CO.9.4": "Har ikke også vi rett til å få mat og drikke?",
-  "1CO.9.5": "Har ikke også vi rett til å ha med oss en troende søster som ektefelle, slik som de andre apostlene og Herrens brødre og Kefas?",
-  "1CO.9.6": "Er det bare jeg og Barnabas som ikke har retten til å slippe å arbeide?",
-  "1CO.9.7": "Hvem er soldat og betaler lønnen selv? Hvem planter en vinmark uten å få spise av frukten? Eller hvem er gjeter uten å drikke av melken fra buskapen?",
-  "1CO.9.8": "Taler jeg bare rent menneskelig her? Eller sier ikke loven det samme?",
-  "1CO.9.9": "Jo, for i Moseloven står det skrevet: Du skal ikke binde for mulen på en okse som tresker. Men er det oksene Gud tenker på?",
-  "1CO.9.10": "Er ikke dette sagt fullt og helt med tanke på oss? Jo, dette er skrevet for vår skyld. For den som pløyer og den som tresker, skal gjøre det i håp om å få sin del.",
-  "1CO.9.11": "Når vi har sådd det åndelige blant dere, er det da for mye at vi får høste av det materielle?",
-  "1CO.9.12": "Om nå andre har rett til dette hos dere, skulle ikke vi ha det enda mer? Likevel har vi ikke gjort bruk av vår rett. I stedet tåler vi alt for ikke å legge hindringer i veien for Kristi evangelium.",
-  "1CO.9.13": "Vet dere ikke at de som gjør tjeneste i tempelet, lever av tempelets inntekter, og at de som tjener ved alteret, får sin del av det som ofres på alteret?",
-  "1CO.9.14": "På samme måte har Herren bestemt at de som forkynner evangeliet, skal leve av evangeliet.",
-  "1CO.9.15": "Men jeg har ikke gjort bruk av noe av dette. Jeg skriver heller ikke nå for å gjøre krav på det. Heller ville jeg dø – ingen skal ta fra meg dette som jeg er så stolt av.",
-  "1CO.9.16": "Men det at jeg forkynner evangeliet, er ikke noe jeg skryter av. Det ligger på meg som en tvang. Ve meg om jeg ikke forkynner evangeliet!",
-  "1CO.9.17": "Gjør jeg det frivillig, har jeg jo krav på lønn. Men gjør jeg det fordi jeg må, er det en forvalteroppgave som er betrodd meg.",
-  "1CO.9.18": "Og hva er så min lønn? Jo, at jeg forkynner evangeliet uten kostnad for noen og gir avkall på den rett som evangeliet gir meg.",
-  "1CO.9.19": "Enda jeg er fri og ikke underlagt noen, har jeg gjort meg til tjener for alle, så jeg kan vinne så mange som mulig.",
-  "1CO.9.20": "For jøder har jeg vært som en jøde, for å vinne jøder. For dem som er under loven, lever jeg som om jeg var under loven, for å vinne dem, enda jeg selv ikke er under loven.",
-  "1CO.9.21": "For dem som ikke har noen lov, lever jeg som om jeg var uten lov, for å vinne dem, enda jeg ikke er uten lov for Gud, men er bundet av Kristi lov.",
-  "1CO.9.22": "For de svake er jeg blitt svak, for å vinne de svake. For alle er jeg blitt alt, for på alle mulige måter å frelse noen.",
-  "1CO.9.23": "Men alt gjør jeg for evangeliets skyld, så jeg selv kan få del i det.",
-  "1CO.9.24": "Vet dere ikke at på stadion deltar alle i løpet, men bare én får seiersprisen? Løp da slik at dere vinner den!",
-  "1CO.9.25": "Alle som deltar i kamplekene, må nekte seg alt. De gjør det for å vinne en seierskrans som visner, vi for å vinne en som aldri visner.",
-  "1CO.9.26": "Jeg løper derfor ikke uten å ha et mål. Jeg er heller ikke lik en nevekjemper som slår i løse luften.",
-  "1CO.9.27": "Nei, jeg kjemper mot meg selv og tvinger kroppen til å lystre, for at ikke jeg som har forkynt for andre, selv skal komme til kort.",
-  "1CO.10.1": "Jeg vil at dere skal vite dette, søsken: Våre fedre i ørkenen var alle under skyen, og alle gikk de gjennom havet.",
-  "1CO.10.2": "Alle ble døpt til Moses i skyen og i havet,",
-  "1CO.10.3": "og alle spiste de den samme åndelige mat",
-  "1CO.10.4": "og drakk den samme åndelige drikk. For de drakk av den åndelige klippe som fulgte dem, og denne klippen var Kristus.",
-  "1CO.10.5": "Likevel forkastet Gud de fleste av dem, for de ble slått ned der i ørkenen.",
-  "1CO.10.6": "Disse hendelsene er advarende eksempler for oss. De skal lære oss ikke å ha lyst til det onde, slik de hadde.",
-  "1CO.10.7": "Bli ikke avgudsdyrkere slik som noen av dem! For det står skrevet: Folket satte seg ned for å spise og drikke, og så sto de opp for å danse.",
-  "1CO.10.8": "La oss heller ikke drive hor, slik som noen av dem gjorde, så tjuetre tusen mennesker falt på én dag.",
-  "1CO.10.9": "La oss heller ikke sette Kristus på prøve, slik noen av dem gjorde, de som ble drept av slangene.",
-  "1CO.10.10": "Og la oss ikke være misfornøyde og murre, slik noen av dem gjorde, de som ble drept av ødeleggeren.",
-  "1CO.10.11": "Det som hendte med dem, skulle være til advarsel. Det ble skrevet til rettledning for oss, og til oss er de siste tider kommet.",
-  "1CO.10.12": "Derfor må den som tror han står, passe seg så han ikke faller!",
-  "1CO.10.13": "Dere har ikke møtt noen overmenneskelig fristelse. Og Gud er trofast, han vil ikke la dere bli fristet over evne. Nei, når dere blir fristet, vil han vise en utvei, slik at dere kan holde ut.",
-  "1CO.10.14": "Derfor, mine kjære, hold dere langt borte fra avgudsdyrkelsen!",
-  "1CO.10.15": "Jeg taler til dere som til forstandige mennesker. Bedøm selv det jeg sier!",
-  "1CO.10.16": "Velsignelsens beger som vi velsigner, gir det ikke del i Kristi blod? Brødet som vi bryter, gir det ikke del i Kristi kropp?",
-  "1CO.10.17": "Fordi det er ett brød, er vi alle én kropp. For vi har alle del i det ene brød.",
-  "1CO.10.18": "Se på Israels folk! Har ikke de som spiser av offeret, del i det som skjer på alteret?",
-  "1CO.10.19": "Sier jeg med dette at avgudsoffer betyr noe, eller at en avgud virkelig er noe?",
-  "1CO.10.20": "Nei, slike offer blir ofret til onde ånder og ikke til Gud. Og jeg vil ikke at dere skal ha fellesskap med de onde åndene.",
-  "1CO.10.21": "Dere kan ikke drikke både Herrens beger og onde ånders beger. Dere kan ikke delta både ved Herrens bord og ved onde ånders bord.",
-  "1CO.10.22": "Eller våger vi å utfordre Herren til harme? Er vi sterkere enn han?",
-  "1CO.10.23": "Jeg har lov til alt, men ikke alt tjener til det gode. Jeg har lov til alt, men ikke alt bygger opp.",
-  "1CO.10.24": "Ingen må søke sitt eget beste, men den andres beste.",
-  "1CO.10.25": "Alt kjøtt som selges på torget, kan dere spise med god samvittighet og uten å spørre hva det er.",
-  "1CO.10.26": "For jorden og det som fyller den, hører Herren til.",
-  "1CO.10.27": "Hvis en ikke-troende inviterer dere og dere sier ja til å komme, så spis også da med god samvittighet alt som blir satt fram, uten spørsmål.",
-  "1CO.10.28": "Men om noen sier: «Dette er offerkjøtt», så spis det ikke, av hensyn til den som sa det, og for samvittighetens skyld.",
-  "1CO.10.29": "Jeg mener da den andres samvittighet, ikke din! For hvorfor skal min frihet bli dømt av en annens samvittighet?",
-  "1CO.10.30": "Hvis jeg tar imot dette med takk, hvorfor skal jeg da klandres for det jeg takker Gud for?",
-  "1CO.10.31": "Men enten dere spiser eller drikker, eller hva dere enn gjør, gjør alt til Guds ære!",
-  "1CO.10.32": "La verken jøder, grekere eller Guds kirke få noe å utsette på dere!",
-  "1CO.10.33": "Selv prøver jeg på alle måter å komme alle i møte. Jeg søker ikke mitt eget beste, men alle de andres, så de kan bli frelst.",
-  "1CO.11.1": "Ha meg til forbilde slik jeg har Kristus til forbilde!",
-  "1CO.11.2": "Dere skal ha ros for at dere husker på meg i alt og holder fast på de overleveringene jeg har gitt videre til dere.",
-  "1CO.11.3": "Jeg vil dere skal vite at Kristus er enhver manns hode, mannen er kvinnens hode, og Kristi hode er Gud.",
-  "1CO.11.4": "En mann som ber eller taler profetisk med noe på hodet, fører skam over sitt hode.",
-  "1CO.11.5": "Men en kvinne som ber eller taler profetisk med utildekket hode, fører skam over sitt hode. Det er jo akkurat det samme som å være snauklipt.",
-  "1CO.11.6": "Hvis en kvinne ikke vil ha noe på hodet, kan hun like godt klippe av seg håret! Men når det nå er en skam for en kvinne å klippe eller barbere av seg håret, da må hun ha noe på hodet.",
-  "1CO.11.7": "Mannen skal ikke dekke hodet, for han er Guds bilde og ære. Men kvinnen er mannens ære.",
-  "1CO.11.8": "For mannen ble ikke til av kvinnen, men kvinnen av mannen.",
-  "1CO.11.9": "Mannen ble heller ikke skapt for kvinnens skyld, men kvinnen for mannens.",
-  "1CO.11.10": "Derfor skal kvinnen for englenes skyld ha noe på hodet, som et myndighetstegn.",
-  "1CO.11.11": "Men i Herren er ikke kvinnen uavhengig av mannen, og mannen er ikke uavhengig av kvinnen.",
-  "1CO.11.12": "For som kvinnen ble til av mannen, blir mannen født av kvinnen, men alt er fra Gud.",
-  "1CO.11.13": "Bedøm selv! Sømmer det seg for en kvinne å be til Gud uten noe på hodet?",
-  "1CO.11.14": "Lærer ikke selve naturen dere at det er en skam for mannen å ha langt hår,",
-  "1CO.11.15": "mens det for kvinnen er en ære? For håret er gitt henne som slør.",
-  "1CO.11.16": "Hvis noen vil lage strid om dette, så husk at en slik skikk har ikke vi, og heller ikke Guds menigheter.",
-  "1CO.11.17": "Når jeg her gir dere mine påbud, er det én ting jeg ikke kan rose dere for: Dere samles på en måte som ikke er til nytte, men til skade.",
-  "1CO.11.18": "For det første hører jeg at det er splittelse blant dere når dere kommer sammen som menighet, og jeg tror det kan være noe i det.",
-  "1CO.11.19": "For det må vel være oppsplitting i grupper blant dere, så det kan bli klart hvem som holder mål.",
-  "1CO.11.20": "Når dere da kommer sammen og er samlet, er det ikke Herrens måltid dere holder.",
-  "1CO.11.21": "For når dere spiser, holder hver og en av dere måltid for seg selv. Den ene er sulten, den andre drikker seg full.",
-  "1CO.11.22": "Har dere ikke hus så dere kan spise og drikke hjemme? Eller forakter dere Guds menighet og lar dem som ikke har noe, sitte med skam? Hva skal jeg si til dette? Skal jeg rose dere? Nei, slikt kan jeg ikke gi ros!",
-  "1CO.11.23": "For jeg har mottatt fra Herren det jeg også har gitt videre til dere: I den natt da Herren Jesus ble forrådt, tok han et brød,",
-  "1CO.11.24": "takket, brøt det og sa: «Dette er min kropp, som er for dere. Gjør dette til minne om meg!»",
-  "1CO.11.25": "På samme måte tok han begeret etter måltidet og sa: «Dette begeret er den nye pakt i mitt blod. Hver gang dere drikker av det, gjør det til minne om meg!»",
-  "1CO.11.26": "For hver gang dere spiser dette brødet og drikker av begeret, forkynner dere Herrens død helt til han kommer.",
-  "1CO.11.27": "Den som spiser brødet eller drikker av Herrens beger på urett vis, gjør derfor urett mot Herrens kropp og blod.",
-  "1CO.11.28": "Enhver må prøve seg selv og så spise av brødet og drikke av begeret.",
-  "1CO.11.29": "For den som spiser og drikker uten å tenke på at det er Herrens kropp, spiser og drikker seg selv til doms.",
-  "1CO.11.30": "Derfor er det mange svake og skrøpelige hos dere, og noen er sovnet inn.",
-  "1CO.11.31": "Hadde vi bedømt oss selv, hadde vi unngått å bli dømt.",
-  "1CO.11.32": "Men når vi blir dømt av Herren, blir vi irettesatt, for at vi ikke skal bli fordømt sammen med verden.",
-  "1CO.11.33": "Derfor, mine søsken: Når dere kommer sammen for å holde måltid, så vent på hverandre!",
-  "1CO.11.34": "Hvis noen er sulten, får han spise hjemme, så ikke sammenkomstene deres skal føre dom over dere. Om de andre tingene skal jeg gi retningslinjer når jeg kommer.",
-  "1CO.12.1": "Når det gjelder Åndens gaver, søsken, vil jeg at dere skal ha kunnskap om dem.",
-  "1CO.12.2": "Dere vet at da dere var hedninger, ble dere viljeløst revet med til de stumme avgudene.",
-  "1CO.12.3": "Derfor kunngjør jeg for dere at ingen som taler i Guds Ånd, sier: «Forbannet er Jesus!» Og ingen kan si: «Jesus er Herre!» uten i Den hellige ånd.",
-  "1CO.12.4": "Det er forskjellige nådegaver, men Ånden er den samme.",
-  "1CO.12.5": "Det er forskjellige tjenester, men Herren er den samme.",
-  "1CO.12.6": "Det er forskjellige kraftige virkninger, men Gud er den samme, han som er virksom og gjør alt i alle.",
-  "1CO.12.7": "Hos hver enkelt gir Ånden seg til kjenne slik at det tjener til det gode.",
-  "1CO.12.8": "For ved én og samme Ånd blir det gitt én å tale visdom, en annen å formidle kunnskap,",
-  "1CO.12.9": "én får ved den ene Ånd en spesiell trosgave, en annen får nådegaver til å helbrede,",
-  "1CO.12.10": "og én får kraft til å gjøre under. Én får den gave å tale profetisk, en annen å bedømme ånder, én får ulike slag av tungetale, og en annen kan tyde tungetale.",
-  "1CO.12.11": "Alt dette gjør den ene og samme Ånd, som deler ut sine gaver til hver enkelt slik han vil.",
-  "1CO.12.12": "Slik kroppen er én selv om den har mange lemmer, og alle lemmene utgjør én kropp enda de er mange, slik er det også med Kristus.",
-  "1CO.12.13": "For med én Ånd ble vi alle døpt til å være én kropp, enten vi er jøder eller grekere, slaver eller frie, og alle fikk vi én Ånd å drikke.",
-  "1CO.12.14": "For kroppen består ikke av én kroppsdel, men av mange.",
-  "1CO.12.15": "Om nå foten sier: «Fordi jeg ikke er hånd, hører jeg ikke med til kroppen», så er den like fullt en del av den.",
-  "1CO.12.16": "Om øret sier: «Fordi jeg ikke er øye, hører jeg ikke med til kroppen», så er det like fullt en del av den.",
-  "1CO.12.17": "Hvis hele kroppen var øye, hvor ble det da av hørselen? Hvis det hele var hørsel, hvor ble det av luktesansen?",
-  "1CO.12.18": "Men nå har Gud gitt hvert enkelt lem sin plass på kroppen slik han ville det.",
-  "1CO.12.19": "Hvis det hele var én kroppsdel, hvor ble det da av kroppen?",
-  "1CO.12.20": "Men nå er det mange kroppsdeler, men bare én kropp.",
-  "1CO.12.21": "Øyet kan ikke si til hånden: «Jeg trenger deg ikke», eller hodet til føttene: «Jeg har ikke bruk for dere».",
-  "1CO.12.22": "Tvert imot! De delene av kroppen som synes å være svakest, nettopp de er nødvendige.",
-  "1CO.12.23": "De kroppsdelene som vi synes er mindre ære verdt, dem gir vi desto større ære. Og de delene vi føler skam ved, kler vi desto mer sømmelig;",
-  "1CO.12.24": "de andre trenger det ikke. Men nå har Gud satt sammen kroppen slik at det som mangler ære, får mye ære,",
-  "1CO.12.25": "for at det ikke skal bli splittelse i kroppen, men alle lemmene ha samme omsorg for hverandre.",
-  "1CO.12.26": "For om ett lem lider, lider alle de andre med. Og om ett lem blir hedret, gleder alle de andre seg.",
-  "1CO.12.27": "Dere er Kristi kropp, og hver av dere et lem på ham.",
-  "1CO.12.28": "I kirken har Gud for det første satt noen til apostler, for det andre profeter, for det tredje lærere, deretter mektige gjerninger, deretter nådegaver til å helbrede, til å hjelpe, til å lede og til ulike slag tungetale.",
-  "1CO.12.29": "Er vel alle apostler? Er alle profeter? Er alle lærere? Gjør vel alle under?",
-  "1CO.12.30": "Har alle nådegaver til å helbrede? Taler alle i tunger? Kan alle tyde tungetale?",
-  "1CO.12.31": "Men vær ivrige etter å få de største nådegavene! Og jeg vil vise dere en enda bedre vei:",
-  "1CO.13.1": "Om jeg taler med menneskers og englers tunger, men ikke har kjærlighet, da er jeg bare drønnende malm eller en klingende bjelle.",
-  "1CO.13.2": "Om jeg har profetisk gave, kjenner alle hemmeligheter og eier all kunnskap, om jeg har all tro så jeg kan flytte fjell, men ikke har kjærlighet, da er jeg intet.",
-  "1CO.13.3": "Om jeg gir alt jeg eier til brød for de fattige, ja, om jeg gir meg selv til å brennes, men ikke har kjærlighet, da har jeg ingen ting vunnet.",
-  "1CO.13.4": "Kjærligheten er tålmodig, kjærligheten er velvillig, den misunner ikke, skryter ikke, er ikke hovmodig.",
-  "1CO.13.5": "Kjærligheten krenker ikke, søker ikke sitt eget, er ikke oppfarende og gjemmer ikke på det onde.",
-  "1CO.13.6": "Den gleder seg ikke over urett, men har sin glede i sannheten.",
-  "1CO.13.7": "Kjærligheten utholder alt, tror alt, håper alt, tåler alt.",
-  "1CO.13.8": "Kjærligheten tar aldri slutt. Profetgavene skal bli borte, tungene skal tie og kunnskapen forgå.",
-  "1CO.13.9": "For vi forstår stykkevis og taler profetisk stykkevis.",
-  "1CO.13.10": "Men når det fullkomne kommer, skal det som er stykkevis, ta slutt.",
-  "1CO.13.11": "Da jeg var barn, talte jeg som et barn, tenkte jeg som et barn, forsto jeg som et barn. Men da jeg ble voksen, la jeg av det barnslige.",
-  "1CO.13.12": "Nå ser vi i et speil, i en gåte, da skal vi se ansikt til ansikt. Nå forstår jeg stykkevis, da skal jeg erkjenne fullt ut, slik Gud kjenner meg fullt ut.",
-  "1CO.13.13": "Så blir de stående, disse tre: tro, håp og kjærlighet. Men størst blant dem er kjærligheten.",
-  "1CO.14.1": "Jag etter kjærligheten, søk åndsgavene med iver, særlig det å tale profetisk.",
-  "1CO.14.2": "For den som taler i tunger, taler ikke for mennesker, men for Gud. Ingen kan forstå ham, for han taler hemmeligheter ved Ånden.",
-  "1CO.14.3": "Men den som taler profetisk, taler for menneskene, til oppbyggelse, formaning og trøst.",
-  "1CO.14.4": "Den som taler i tunger, oppbygger seg selv, men den som taler profetisk, bygger opp menigheten.",
-  "1CO.14.5": "Jeg skulle ønske at dere alle talte i tunger, men enda mer at dere talte profetisk. For den som taler profetisk, er større enn den som taler i tunger, hvis han da ikke tyder det han sier, så menigheten kan bli bygd opp.",
-  "1CO.14.6": "Sett nå, søsken, at jeg kommer til dere og taler i tunger. Hvilken nytte har dere av det, hvis jeg ikke samtidig gir dere åpenbaring, kunnskap, profeti eller lære?",
-  "1CO.14.7": "På samme måte er det med livløse instrumenter som fløyte eller harpe. Hvis det ikke er forskjell på tonene deres, hvordan kan en da oppfatte hva som blir spilt?",
-  "1CO.14.8": "Og gir trompeten et utydelig signal, hvem gjør seg da klar til kamp?",
-  "1CO.14.9": "Slik er det også med dere: Bruker dere ikke tungen til å tale tydelig, hvordan kan en da oppfatte hva som blir sagt? Da snakker dere bare ut i luften!",
-  "1CO.14.10": "Ingen vet hvor mange språk det finnes i verden, og alle språk har sin mening.",
-  "1CO.14.11": "Men dersom jeg ikke kan språket, blir jeg en fremmed for den som snakker det, og han blir en fremmed for meg.",
-  "1CO.14.12": "Slik er det også med dere. Når dere nå legger så stor vekt på åndsgavene, så søk å bli rike på gaver som bygger opp menigheten!",
-  "1CO.14.13": "Derfor må den som taler i tunger, også be om å kunne tyde det.",
-  "1CO.14.14": "For hvis jeg ber og taler i tunger, er det ånden min som ber, men forstanden har ingen nytte av det.",
-  "1CO.14.15": "Hva skal jeg så gjøre? Jo, jeg skal be med ånden, men også med forstanden; jeg skal lovsynge med ånden, men også med forstanden.",
-  "1CO.14.16": "Hvis du holder takkebønn i din ånd, hvordan kan da den som ikke er fortrolig med dette, si «amen» til din bønn? Han skjønner jo ikke hva du sier.",
-  "1CO.14.17": "Du holder nok en god takkebønn, men ingen andre blir oppbygd av det.",
-  "1CO.14.18": "Jeg takker Gud for at jeg taler mer i tunger enn noen av dere.",
-  "1CO.14.19": "Men når menigheten er samlet, vil jeg heller si fem ord med forstanden så jeg også kan lære andre noe, enn tale tusenvis av ord i tunger.",
-  "1CO.14.20": "Mine søsken, vær ikke uforstandige som barn! Vær små i ondskap, men fullvoksne i forstand.",
-  "1CO.14.21": "Det står skrevet i loven: På andre språk og med fremmede tungemål skal jeg tale til dette folket, men enda vil de ikke høre på meg, sier Herren.",
-  "1CO.14.22": "Derfor er tungetalen et tegn, ikke for de troende, men for dem som ikke tror. Og den profetiske tale er ikke for dem som ikke tror, men for de troende.",
-  "1CO.14.23": "Om nå hele menigheten kommer og er samlet og alle taler i tunger, og utenforstående eller ikke-troende kommer inn, vil de ikke da si at dere er gått fra forstanden?",
-  "1CO.14.24": "Men hvis alle taler profetisk når en av disse kommer inn, da vil han kjenne seg avslørt og dømt av alle;",
-  "1CO.14.25": "hans innerste tanker kommer for dagen. Han vil kaste seg ned med ansiktet mot jorden, tilbe Gud og bekjenne: Gud er sannelig blant dere!",
-  "1CO.14.26": "Hva mener jeg da, søsken? Jo, når dere kommer sammen, har én en salme, en annen et ord til lærdom, én har en åpenbaring, én har tungetale, en annen har tydningen. Men la alt tjene til å bygge opp.",
-  "1CO.14.27": "Taler noen i tunger, skal det ikke være mer enn to eller i høyden tre hver gang. De skal tale én om gangen, og det skal være én som tyder.",
-  "1CO.14.28": "Hvis det ikke er noen til å tyde, skal den som taler i tunger, tie når menigheten er samlet. La ham tale for seg selv og for Gud.",
-  "1CO.14.29": "La to eller tre tale profetisk, og la de andre prøve det de sier.",
-  "1CO.14.30": "Men hvis en annen får en åpenbaring mens han sitter der, skal den første tie.",
-  "1CO.14.31": "For dere kan alle tale profetisk, men én om gangen, slik at alle kan lære og alle bli oppmuntret.",
-  "1CO.14.32": "Enhver profet har herredømme over sin profetånd,",
-  "1CO.14.33": "for Gud vil ikke uorden, men fred. Som i alle de helliges menigheter",
-  "1CO.14.34": "skal kvinnene tie når menigheten samles. Det er ikke tillatt for dem å tale; de skal underordne seg, slik også loven sier.",
-  "1CO.14.35": "Hvis det er noe de vil lære, så la dem spørre sine menn hjemme. For det er en skam for en kvinne å tale i menigheten.",
-  "1CO.14.36": "Var det kanskje fra dere Guds ord gikk ut? Er det bare til dere ordet er kommet?",
-  "1CO.14.37": "Hvis noen mener seg å være profet eller ha åndsgaver, så skal han vite at det jeg skriver, er et Herrens bud.",
-  "1CO.14.38": "Den som ikke godtar dette, blir selv ikke godtatt.",
-  "1CO.14.39": "Derfor, mine søsken: Vær ivrige etter å tale profetisk, og hindre ikke tungetale.",
-  "1CO.14.40": "Men la alt gå sømmelig og ordentlig for seg!",
-  "1CO.15.1": "Jeg kunngjør for dere, søsken, det evangelium jeg forkynte dere, det dere også tok imot, det dere også står på.",
-  "1CO.15.2": "Gjennom det blir dere også frelst, når dere holder fast på ordet slik jeg forkynte det, ellers blir det forgjeves at dere kom til tro.",
-  "1CO.15.3": "For først og fremst overga jeg til dere det jeg selv har tatt imot, at Kristus døde for våre synder etter skriftene,",
-  "1CO.15.4": "at han ble begravet, at han sto opp den tredje dagen etter skriftene,",
-  "1CO.15.5": "og at han viste seg for Kefas og deretter for de tolv.",
-  "1CO.15.6": "Deretter viste han seg for mer enn fem hundre søsken på én gang. Av dem lever de fleste ennå, men noen er sovnet inn.",
-  "1CO.15.7": "Deretter viste han seg for Jakob, deretter for alle apostlene.",
-  "1CO.15.8": "Aller sist viste han seg for meg, jeg som bare er et ufullbåret foster.",
-  "1CO.15.9": "For jeg er den minste av apostlene, jeg er ikke verdig til å kalles apostel, for jeg har forfulgt Guds kirke.",
-  "1CO.15.10": "Men ved Guds nåde er jeg det jeg er, og hans nåde mot meg har ikke vært bortkastet. For jeg har arbeidet mer enn noen av dem, det vil si ikke jeg, men Guds nåde som er med meg.",
-  "1CO.15.11": "Men enten det er jeg eller de andre – dette forkynner vi, og dette har dere tatt imot i tro.",
-  "1CO.15.12": "Men når det blir forkynt at Kristus er stått opp fra de døde, hvordan kan noen blant dere da si at det ikke finnes noen oppstandelse fra de døde?",
-  "1CO.15.13": "For hvis de døde ikke står opp, er heller ikke Kristus stått opp.",
-  "1CO.15.14": "Men er ikke Kristus stått opp, da er vårt budskap tomt, og deres tro er også tom.",
-  "1CO.15.15": "Da står vi som falske vitner om Gud. For da har vi vitnet imot Gud når vi sier at han har oppreist Kristus, noe han ikke har gjort hvis døde ikke står opp.",
-  "1CO.15.16": "For hvis døde ikke står opp, er jo heller ikke Kristus stått opp.",
-  "1CO.15.17": "Men hvis Kristus ikke er stått opp, da er deres tro uten mening, og dere er fremdeles i deres synder.",
-  "1CO.15.18": "Da er også de fortapt som har sovnet inn i Kristus.",
-  "1CO.15.19": "Hvis vårt håp til Kristus gjelder bare for dette livet, er vi de ynkeligste av alle mennesker.",
-  "1CO.15.20": "Men nå er jo Kristus stått opp fra de døde, som førstegrøden av dem som er sovnet inn.",
-  "1CO.15.21": "Fordi døden kom ved et menneske, er også de dødes oppstandelse kommet ved et menneske.",
-  "1CO.15.22": "For slik alle dør på grunn av Adam, skal alle få liv ved Kristus.",
-  "1CO.15.23": "Men hver i sin tur: Kristus er førstegrøden. Deretter, ved hans gjenkomst, følger de som hører Kristus til.",
-  "1CO.15.24": "Så kommer slutten, når han overgir sin kongsmakt til Gud, sin Far, etter at han har tilintetgjort alle makter, myndigheter og krefter.",
-  "1CO.15.25": "For han skal være konge helt til Gud har lagt alle fiender under hans føtter.",
-  "1CO.15.26": "Den siste fienden som blir tilintetgjort, er døden.",
-  "1CO.15.27": "For alt la han under hans føtter. Når det står alt, er det klart at Gud er unntatt. Det er jo Gud som legger alt under ham.",
-  "1CO.15.28": "Men når alt er underlagt ham, skal også Sønnen selv underordne seg Gud, som har lagt alt under ham, og Gud skal være alt i alle.",
-  "1CO.15.29": "Hvorfor lar noen seg døpe for de døde? Hvis de døde ikke står opp, hvorfor lar de seg da døpe for dem?",
-  "1CO.15.30": "Og hvorfor utsetter vi oss da for fare hver time på dagen?",
-  "1CO.15.31": "Ja, mine søsken, jeg dør hver dag, det er like sant som at jeg er stolt av dere i Kristus Jesus.",
-  "1CO.15.32": "Var det bare med et rent menneskelig håp jeg kjempet mot ville dyr i Efesos, hva godt hadde det tjent til for meg? Hvis de døde ikke står opp, så la oss spise og drikke, for i morgen dør vi!",
-  "1CO.15.33": "La dere ikke føre vill! «Dårlig selskap ødelegger gode vaner.»",
-  "1CO.15.34": "Våkn opp av rusen for alvor, og synd ikke! Noen av dere kjenner ikke Gud. Det er en skam for dere at jeg må si det.",
-  "1CO.15.35": "Men nå vil vel noen si: «Hvordan står de døde opp? Hva slags kropp har de?»",
-  "1CO.15.36": "Du uforstandige menneske! Det du sår, får da ikke liv igjen uten at det dør.",
-  "1CO.15.37": "Og det du sår, er jo ikke den planten som kommer opp, men et nakent korn, av hvete eller et annet slag.",
-  "1CO.15.38": "Gud lar det få den skikkelse som han vil, hvert enkelt slag får sin egen skikkelse.",
-  "1CO.15.39": "Ikke alt kjøtt er av samme slag. Det er ett slag hos mennesker, ett hos fe, ett hos fugl og ett hos fisk.",
-  "1CO.15.40": "Og det finnes himmelske kropper og jordiske kropper; de himmelske har én glans, de jordiske en annen.",
-  "1CO.15.41": "Én glans har solen, en annen har månen og en annen igjen har stjernene. Ja, én stjerne skiller seg fra en annen i glans.",
-  "1CO.15.42": "Slik er det også med de dødes oppstandelse. Det blir sådd i forgjengelighet, det står opp i uforgjengelighet.",
-  "1CO.15.43": "Det blir sådd i vanære, det står opp i herlig glans. Det blir sådd i svakhet, det står opp i kraft.",
-  "1CO.15.44": "Det blir sådd en kropp som hadde sjel, det står opp en åndelig kropp. Om det finnes en kropp med sjel, finnes det også en åndelig kropp. For slik står det skrevet:",
-  "1CO.15.45": "Det første mennesket, Adam, ble en levende sjel. Den siste Adam ble en ånd som gir liv.",
-  "1CO.15.46": "Det åndelige var altså ikke det første, men det sjelelige. Deretter kom det åndelige.",
-  "1CO.15.47": "Det første mennesket var fra jorden og skapt av jord, det andre mennesket er fra himmelen.",
-  "1CO.15.48": "Slik det første jordiske mennesket var, slik er også de andre jordiske. Og slik den himmelske er, slik skal også de himmelske være.",
-  "1CO.15.49": "På samme måte som vi har båret det jordiske menneskets bilde, skal vi også bære den himmelskes bilde.",
-  "1CO.15.50": "Men det sier jeg, søsken: Kjøtt og blod kan ikke arve Guds rike, og det forgjengelige skal ikke arve uforgjengelighet.",
-  "1CO.15.51": "Se, jeg sier dere en hemmelighet: Vi skal ikke alle sovne inn, men vi skal alle forvandles,",
-  "1CO.15.52": "brått, på et øyeblikk, ved det siste basunstøt. For basunen skal lyde, de døde skal stå opp i uforgjengelighet, og vi skal bli forvandlet.",
-  "1CO.15.53": "For det forgjengelige må bli kledd i uforgjengelighet, og det dødelige må bli kledd i udødelighet.",
-  "1CO.15.54": "Og når dette forgjengelige er kledd i uforgjengelighet og dette dødelige er kledd i udødelighet, da oppfylles det som står skrevet: Døden er oppslukt, seieren vunnet.",
-  "1CO.15.55": "Død, hvor er din brodd? Død, hvor er din seier?",
-  "1CO.15.56": "Dødens brodd er synden, og syndens kraft er loven.",
-  "1CO.15.57": "Men Gud være takk som gir oss seier ved vår Herre Jesus Kristus!",
-  "1CO.15.58": "Derfor, mine kjære søsken, stå fast og urokkelig. Arbeid raust og rikelig for Herren! For dere vet at i Herren er ikke deres strev forgjeves.",
-  "1CO.16.1": "Når det gjelder innsamlingen til de hellige, skal også dere gjøre slik jeg har pålagt menighetene i Galatia.",
-  "1CO.16.2": "Første dag i uken skal hver enkelt av dere hjemme hos seg selv legge til side så mye som dere er i stand til, for at innsamlingen ikke først skal begynne når jeg kommer.",
-  "1CO.16.3": "Når jeg er kommet, skal jeg gi anbefalingsbrev til dem dere finner skikket, og sende dem til Jerusalem med gaven.",
-  "1CO.16.4": "Om det er nødvendig at også jeg reiser, kan de dra sammen med meg.",
-  "1CO.16.5": "Jeg kommer til dere når jeg har vært i Makedonia. Der reiser jeg bare igjennom,",
-  "1CO.16.6": "men hos dere vil jeg nok bli en stund, kanskje vinteren over. Så kan dere utruste meg for reisen videre, hvor den nå går.",
-  "1CO.16.7": "Denne gangen besøker jeg dere ikke bare på gjennomreise. Jeg håper å kunne bli en tid hvis Herren tillater det.",
-  "1CO.16.8": "I Efesos blir jeg til pinse.",
-  "1CO.16.9": "For her er det åpne dører og rike muligheter for meg, og motstanderne er mange.",
-  "1CO.16.10": "Dersom Timoteus kommer, så sørg for at han kan kjenne seg trygg hos dere. For han gjør Herrens gjerning akkurat som jeg selv.",
-  "1CO.16.11": "Derfor skal ingen se ned på ham. Hjelp ham videre på reisen og la ham fare med fred, så han kan komme tilbake. For jeg og våre søsken venter på ham.",
-  "1CO.16.12": "Når det gjelder vår bror Apollos, har jeg bedt ham inntrengende om å reise til dere sammen med brødrene. Men han er slett ikke villig til å reise nå; han kommer så snart han får anledning.",
-  "1CO.16.13": "Vær våkne, stå fast i troen, vær modige og sterke!",
-  "1CO.16.14": "La alt dere gjør, skje i kjærlighet.",
-  "1CO.16.15": "Enda en ting ber jeg dere om, søsken. Dere vet at familien til Stefanas var en første frukt i Akaia, og at de har viet seg til tjenesten for de hellige.",
-  "1CO.16.16": "Også dere må underordne dere under slike som dem og under enhver som strever og arbeider sammen med meg.",
-  "1CO.16.17": "Jeg er glad for at Stefanas, Fortunatus og Akaikos er kommet. De har oppveid savnet av dere",
-  "1CO.16.18": "og beroliget både meg og dere. Ha respekt for slike som dem.",
-  "1CO.16.19": "Menighetene i Asia hilser dere. Akvilas og Priska og menigheten som samles i deres hus, hilser dere hjertelig i Herrens navn.",
-  "1CO.16.20": "Alle våre søsken her sender sin hilsen. Hils hverandre med et hellig kyss!",
-  "1CO.16.21": "Jeg, Paulus, skriver min hilsen med egen hånd.",
-  "1CO.16.22": "Den som ikke elsker Herren, forbannet være han! Marana ta!",
-  "1CO.16.23": "Herren Jesu nåde være med dere!",
-  "1CO.16.24": "Min kjærlighet er med dere alle i Kristus Jesus."
+  "1CO.1.1": {
+    "text": "Paulus, som etter Guds vilje er kalt til Kristi Jesu apostel, og vår bror Sostenes",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Hilsen"
+  },
+  "1CO.1.2": {
+    "text": "hilser Guds menighet i Korint, dere som er helliget i Kristus Jesus og kalt til å være hellige sammen med alle som hver på sitt sted påkaller vår Herre Jesu Kristi navn – han som er deres og vår Herre:",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "romersk koloni og hovedstad i den romerske provinsen Akaia, åtte mil vest for Aten. Viktig by politisk og handelsmessig, religiøst og etnisk sammensatt. =byer."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 9,14; 22,16; 2 Tim 2,22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.3": {
+    "text": "Nåde være med dere og fred fra Gud, vår Far, og Herren Jesus Kristus!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 1,7; 2 Kor 1,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.4": {
+    "text": "Jeg takker alltid min Gud for dere, for den nåde han har gitt dere i Kristus Jesus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 1,8",
+        "refs": []
+      }
+    ],
+    "section": "Takk til Gud"
+  },
+  "1CO.1.5": {
+    "text": "I ham er dere blitt rike på alt, på all lære og all kunnskap;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 8,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.6": {
+    "text": "vitnesbyrdet om Kristus har da også fått sikkert feste hos dere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.1.7": {
+    "text": "Derfor mangler dere ikke noen nådegave mens dere venter på at vår Herre Jesus Kristus skal åpenbare seg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 17,30; 2 Tess 1,7; Tit 2,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.8": {
+    "text": "Han skal også grunnfeste dere helt til enden kommer, så dere kan stå uten å bli anklaget på vår Herre Jesu Kristi dag.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "den dagen Herren kommer igjen til frelse og til dom. Jf. Rom 13,12; 1 Kor 5,5; Fil 1,6. =Herrens dag."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 1,6; 1 Tess 3,13; 5,23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.9": {
+    "text": "Gud er trofast, han som har kalt dere til fellesskap med sin Sønn, Jesus Kristus, vår Herre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10,13; 1 Tess 5,24",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.10": {
+    "text": "Jeg formaner dere, søsken, ved vår Herre Jesu Kristi navn, at dere må være enige. La det ikke være splittelse blant dere, men stå sammen i syn og tanke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 15,5+; 1 Kor 11,18f",
+        "refs": []
+      }
+    ],
+    "section": "Advarsel mot splittelse"
+  },
+  "1CO.1.11": {
+    "text": "For noen av Kloes folk har fortalt meg, søsken, at det er stridigheter blant dere.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Kloe drev trolig handel mellom Korint og Efesos, der 1 Kor ble skrevet. Paulus har gjennom hennes familiemedlemmer eller tjenere fått informasjon om situasjonen blant de kristne i Korint."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.1.12": {
+    "text": "Jeg sikter til dette at noen av dere sier: «Jeg holder meg til Paulus», mens andre sier «til Apollos», «til Kefas» eller «til Kristus».",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "sentral lærer og forkynner i den tidlige kirke, også omtalt i 3,4–6.22; 4,6; 16,12."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 16,18+; Apg 18,24ff; 1 Kor 3,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.13": {
+    "text": "Er da Kristus blitt delt? Var det kanskje Paulus som ble korsfestet for dere? Eller ble dere døpt til Paulus' navn?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.1.14": {
+    "text": "Jeg takker Gud for at jeg ikke har døpt noen av dere, bortsett fra Krispus og Gaius,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 18,8; Rom 16,23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.15": {
+    "text": "slik at ingen kan si at dere ble døpt til mitt navn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.1.16": {
+    "text": "Riktignok har jeg også døpt Stefanas og hans familie, men ellers vet jeg ikke om at jeg har døpt noen.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Ordet i den gr. teksten betyr «hus», ofte i betydningen «husstand», «husfellesskap». Det omfattet husfaren, hans kone og barn og kanskje barnebarn og svigerbarn, slaver og frigitte. Jf. 16,15; Apg 16,15.33."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.17": {
+    "text": "For Kristus har ikke sendt meg ut for å døpe, men for å forkynne evangeliet, og det ikke med talekunst og visdom, så Kristi kors ikke skal miste sin kraft.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "«gledelig budskap», «god nyhet». =evangelium."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.1.18": {
+    "text": "For ordet om korset er dårskap for dem som går fortapt, men for oss som blir frelst, er det Guds kraft.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 1,16; 2 Kor 4,3",
+        "refs": []
+      }
+    ],
+    "section": "Guds og menneskers visdom"
+  },
+  "1CO.1.19": {
+    "text": "Det står jo skrevet: Jeg vil ødelegge de vises visdom, og de klokes klokskap vil jeg gjøre til intet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 29,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.20": {
+    "text": "Hvor er da de vise, hvor er de skriftlærde, hvor er denne verdens kloke hoder? Har ikke Gud vist at verdens visdom er dårskap?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 19,12; 33,18; 44,25",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.21": {
+    "text": "For da verden ikke brukte visdommen til å kjenne Gud i hans visdom, besluttet Gud å frelse dem som tror, ved den dårskapen som vi forkynner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 11,25; Rom 1,21f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.22": {
+    "text": "For jøder spør etter tegn, og grekere søker visdom,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 12,38; 16,1ff; Joh 2,18+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.23": {
+    "text": "men vi forkynner en korsfestet Kristus. Han er en snublestein for jøder og dårskap for hedninger,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 2,34; Rom 9,32; 1 Kor 2,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.24": {
+    "text": "men for dem som er kalt, både jøder og grekere, er Kristus Guds kraft og Guds visdom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 2,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.25": {
+    "text": "For Guds dårskap er visere enn menneskene, og Guds svakhet er sterkere enn menneskene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.1.26": {
+    "text": "Se på dere selv, søsken, dere som ble kalt: ikke mange vise etter menneskelige mål og ikke mange med makt eller av fornem slekt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 7,48",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.27": {
+    "text": "Men det som i verdens øyne er dårskap, det utvalgte Gud for å gjøre de vise til skamme, og det som i verdens øyne er svakt, det utvalgte Gud for å gjøre det sterke til skamme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 14,21; Jak 2,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.28": {
+    "text": "Ja, det som i verdens øyne står lavt, det som blir foraktet, det som ikke er noe, det utvalgte Gud for å gjøre til intet det som er noe,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.1.29": {
+    "text": "for at ingen mennesker skal ha noe å være stolt av overfor Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 3,27; Ef 2,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.30": {
+    "text": "Dere er hans verk i Kristus Jesus, han som er blitt vår visdom fra Gud, vår rettferdighet, helliggjørelse og forløsning,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 23,5f; 2 Kor 5,21; Ef 1,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.1.31": {
+    "text": "for at den som er stolt, skal være stolt av Herren, slik det står skrevet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 9,23f; 2 Kor 10,17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.1": {
+    "text": "Da jeg kom til dere, søsken, var det ikke med fremragende talekunst eller visdom jeg forkynte Guds mysterium.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 18,1; 1 Kor 1,17",
+        "refs": []
+      }
+    ],
+    "section": "Guds mysterium er åpenbart"
+  },
+  "1CO.2.2": {
+    "text": "For jeg hadde bestemt at jeg ikke ville vite av noe annet hos dere enn Jesus Kristus og ham korsfestet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 3,1; 6,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.3": {
+    "text": "Svak, redd og skjelvende opptrådte jeg hos dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 18,9; 2 Kor 10,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.4": {
+    "text": "Jeg forkynte ikke mitt budskap med overtalende visdomsord, men med Ånd og kraft som bevis.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 12,12; 1 Tess 1,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.5": {
+    "text": "For deres tro skulle ikke bygge på menneskelig visdom, men på Guds kraft.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.2.6": {
+    "text": "Likevel forkynner vi en visdom for dem som er modne. Men det er ikke en visdom som tilhører denne verden og denne verdens herskere, de som går til grunne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.2.7": {
+    "text": "Nei, vi forkynner et mysterium, Guds skjulte visdom. Før tidenes begynnelse hadde Gud bestemt at den skulle føre oss fram til herligheten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 11,25; 13,11; Rom 16,25; 1 Kor 4,1; Ef 1,9; 3,3f; Kol 1,26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.8": {
+    "text": "Denne visdommen har ingen av verdens herskere kjent. Hadde de kjent den, ville de ikke ha korsfestet herlighetens Herre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 13,27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.9": {
+    "text": "Men som det står skrevet: Det intet øye så og intet øre hørte, det som ikke kom opp i noe menneskehjerte, det som Gud har gjort ferdig for dem som elsker ham,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Ordene som siteres, finnes ikke i GT. De kan stamme fra Elia-apokalypsen, et skrift som er gått tapt, men som siteres av kirkefedre."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 64,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.10": {
+    "text": "det har Gud åpenbart for oss ved sin Ånd. For Ånden utforsker alle ting, også dybdene i Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 13,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.11": {
+    "text": "Hvem andre enn menneskets egen ånd vet hva som bor i et menneske? Slik vet heller ingen annen enn Guds Ånd hva som bor i Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ordsp 20,27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.12": {
+    "text": "Vi har ikke fått verdens ånd, men den Ånd som er fra Gud, for at vi skal forstå hva Gud i sin nåde har gitt oss.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 16,13f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.13": {
+    "text": "Om dette taler vi med ord som Ånden har lært oss, ikke med ord som menneskelig visdom har lært oss. Det åndelige tolker vi med ord som hører Ånden til.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 14,16.26; 1 Joh 2,20.27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.14": {
+    "text": "Slik menneskene er i seg selv, tar de ikke imot det som hører Guds Ånd til. Det er dårskap for dem, og de kan ikke fatte det, for det kan bedømmes bare på åndelig vis.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.2.15": {
+    "text": "Men det mennesket som har Ånden, kan dømme om alt, og selv kan det ikke bedømmes av noen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Joh 2,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.2.16": {
+    "text": "For hvem kjente Herrens sinn så han kan gi ham råd? Men vi har Kristi sinn!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 40,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.1": {
+    "text": "Likevel, søsken, kunne jeg ikke tale til dere som til mennesker som har Ånden. Jeg måtte tale til dere som til mennesker styrt av kjøtt og blod, som til spedbarn i Kristus.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Guds medarbeidere og"
+  },
+  "1CO.3.2": {
+    "text": "Melk ga jeg dere, ikke fast føde, for det tålte dere ikke. Ja, dere tåler det ennå ikke,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hebr 5,12f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.3": {
+    "text": "for det er jo fremdeles kjøtt og blod som rår i dere. Når det hersker misunnelse og strid blant dere, er dere ikke da styrt av kjøttet og går fram på menneskers vis?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ">v. 1."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,10f; 11,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.4": {
+    "text": "Når én sier: «Jeg holder meg til Paulus» og en annen: «Jeg til Apollos», er dere ikke da som alle andre mennesker?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.5": {
+    "text": "Hva er vel Apollos? Og hva er Paulus? Tjenere som hjalp dere til tro! Begge gjorde vi det Herren hadde satt oss til.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.3.6": {
+    "text": "Jeg plantet, Apollos vannet, men Gud ga vekst.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 18,4.11.24ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.7": {
+    "text": "Derfor er de ikke noe, verken den som planter eller den som vanner. Bare Gud er noe, han som gir vekst.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.3.8": {
+    "text": "Den som planter og den som vanner, er ett, men de skal få lønn hver etter sitt eget arbeid.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 16,27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.9": {
+    "text": "For vi er Guds medarbeidere, og dere er Guds åkerland, Guds bygning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 13,3ff; Ef 2,20ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.10": {
+    "text": "I kraft av den nåde Gud har gitt meg, la jeg grunnvollen som en klok byggmester; en annen bygger videre. Men hver enkelt må være nøye med hvordan han bygger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.11": {
+    "text": "Ingen kan legge noen annen grunnvoll enn den som alt er lagt, Jesus Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 28,16; 1 Pet 2,4ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.12": {
+    "text": "Men om noen bygger på grunnvollen med gull, sølv eller edelstener, med tre, høy eller halm,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.3.13": {
+    "text": "skal det en gang vise seg hva slags arbeid den enkelte har gjort. Herrens dag skal gjøre det klart, for den åpenbarer seg med ild, og ilden skal prøve hvordan den enkeltes verk er.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Den gr. teksten har bare «dagen». =Herrens dag."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal 3,2; 4,1; 1 Kor 4,5; 2 Tess 1,7ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.14": {
+    "text": "Om det byggverket noen har reist, blir stående, skal han få sin lønn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.3.15": {
+    "text": "Dersom det brenner opp, må han lide tapet. Selv skal han bli frelst, men bare som gjennom ild.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.3.16": {
+    "text": "Vet dere ikke at dere er Guds tempel, og at Guds Ånd bor i dere?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6,19; 2 Kor 6,16; Ef 2,21f; Hebr 3,6; 1 Pet 2,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.17": {
+    "text": "Dersom noen ødelegger Guds tempel, skal Gud ødelegge ham. For Guds tempel er hellig, og dette tempelet er dere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.3.18": {
+    "text": "Ingen må narre seg selv! Hvis noen av dere regner seg som vis i denne verden, la ham da bli en dåre, så han kan bli virkelig vis.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,17; 4,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.19": {
+    "text": "For denne verdens visdom er dårskap i Guds øyne. For det står skrevet: Han fanger de vise i deres list,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 5,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.20": {
+    "text": "og et annet sted: Herren kjenner de vises tanker, han vet at de er tomme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 94,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.21": {
+    "text": "Derfor må ingen skryte av å være tilhenger av mennesker. For alt hører dere til,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.3.22": {
+    "text": "enten det er Paulus, Apollos eller Kefas, enten det er verden, livet eller døden, det som er nå, eller det som skal komme. Alt hører dere til,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 16,18+; Rom 8,38; 1 Kor 1,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.3.23": {
+    "text": "men dere hører Kristus til, og Kristus hører Gud til.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.4.1": {
+    "text": "Så skal dere se på oss som Kristi tjenere og forvaltere av Guds mysterier.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 3,2ff",
+        "refs": []
+      }
+    ],
+    "section": "Apostlenes tjeneste"
+  },
+  "1CO.4.2": {
+    "text": "Av forvaltere kreves det at de viser troskap.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 12,42ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.3": {
+    "text": "Men for meg betyr det ingenting om jeg blir dømt av dere eller av noen menneskelig domstol. Jeg er heller ikke min egen dommer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.4.4": {
+    "text": "For jeg vet ikke om noe galt jeg har gjort. Men jeg er ikke dermed frikjent, for Herren er den som dømmer meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.4.5": {
+    "text": "Døm derfor ikke før tiden, før Herren kommer. Han skal få fram i lyset det som er skjult i mørket, og avsløre hjertets tanker. Da skal Gud gi enhver den ros han har fortjent.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 8,17; Rom 2,16; 2 Kor 10,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.6": {
+    "text": "Her har jeg brukt meg selv og Apollos som eksempel for dere, søsken. Av oss skal dere lære å «ikke gå ut over det som står skrevet», så ingen skal blåse seg opp og holde med den ene framfor den andre.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.4.7": {
+    "text": "Hvem har satt deg høyere enn andre? Hva annet har du enn det du har fått? Og har du fått noe, hvorfor skryter du som om det ikke var en gave?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 3,27; Rom 12,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.8": {
+    "text": "Men dere er allerede så mette! Dere er alt blitt så rike! Dere er blitt konger, men uten oss! Ja, var dere bare blitt konger, så kunne også vi hersket sammen med dere!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Åp 3,17.21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.9": {
+    "text": "Men for meg ser det ut som om Gud har satt oss apostler aller nederst. Vi er som dødsdømte, stilt fram som et skuespill for verden, både for engler og for mennesker.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "…"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 4,8ff; 6,4ff; 11,23ff; 2 Tim 3,10f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.10": {
+    "text": "Vi er dårer for Kristi skyld, dere er kloke i Kristus. Vi er svake, dere er sterke. Dere får ære, vi får skam.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.11": {
+    "text": "Helt fram til nå har vi både sultet og tørstet; vi mangler klær, blir mishandlet, er hjemløse",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Versene inneholder en lidelseskatalog. =kataloger."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.4.12": {
+    "text": "og må streve for å livberge oss med våre egne hender. Når vi blir utskjelt, velsigner vi. Når vi blir forfulgt, holder vi ut.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 5,44; Apg 18,3+; Rom 12,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.13": {
+    "text": "Når noen håner oss, svarer vi med vennlighet. Vi er blitt som utskudd i verden, som avfall for alle – til denne dag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Klag 3,45",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.14": {
+    "text": "Jeg skriver ikke dette for å gjøre dere skamfulle, men for å vise dere til rette som mine elskede barn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tess 2,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.15": {
+    "text": "For om dere har tusen lærere i Kristus, har dere ikke mange fedre. Det var jeg som ble deres far i Kristus Jesus da jeg ga dere evangeliet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 4,19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.16": {
+    "text": "Så legger jeg dere på hjertet: Ha meg som forbilde!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11,1; Fil 3,17; 1 Tess 1,6; 2 Tess 3,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.17": {
+    "text": "Derfor sender jeg Timoteus til dere, mitt kjære og trofaste barn i Herren; han skal minne dere om mine veier i Kristus Jesus, slik jeg lærer overalt, i alle menigheter.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 1,2+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.18": {
+    "text": "Noen har blåst seg opp fordi de tror at jeg ikke kommer tilbake til dere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.4.19": {
+    "text": "Men jeg kommer snart, hvis Herren vil. Da får jeg virkelig kjenne, ikke ordene, men kraften disse oppblåste folkene har.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jak 4,15+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.20": {
+    "text": "For Guds rike består ikke i ord, men i kraft.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.4.21": {
+    "text": "Hva vil dere? Skal jeg komme til dere med pisken eller med kjærlighet og mildhet?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 10,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.5.1": {
+    "text": "Rett ut sagt: En hører om hor blant dere, og det i en form som ikke engang hedningene tåler, nemlig at en mann lever med sin fars kone.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3 Mos 18,8; 5 Mos 27,20",
+        "refs": []
+      }
+    ],
+    "section": "Blodskam og hor"
+  },
+  "1CO.5.2": {
+    "text": "Og likevel er dere stolte! Dere burde ha kjent sorg og vist bort fra dere den som har gjort dette.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.5.3": {
+    "text": "For jeg, som er fysisk fraværende, men nærværende i ånden, har alt felt min dom over den som har gjort dette, som om jeg selv var til stede.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 2,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.5.4": {
+    "text": "Når dere samles i vår Herre Jesu navn, når jeg er til stede i ånden og vår Herre Jesu kraft er med oss,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.5.5": {
+    "text": "da skal dette mennesket overgis til Satan slik at kroppen hans blir ødelagt, men ånden kan bli frelst på Herrens dag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 1,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.5.6": {
+    "text": "Dere har sannelig ikke mye å være stolte av! Vet dere ikke at litt surdeig gjennomsyrer hele deigen?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Ved baking tok man vare på en liten klump av den gjærede deigen (surdeig). Neste gang man skulle bake, ble klumpen knadd inn i den nye deigen for å få den til å heve seg."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 5,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.5.7": {
+    "text": "Rens ut den gamle surdeigen så dere kan være en ny deig! Dere er jo som usyret brød. For vårt påskelam er slaktet, Kristus.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "skulle ikke være iblandet gammel surdeig. =fester og høytider."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Mos 12,21; 13,7; Joh 1,29+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.5.8": {
+    "text": "Så la oss holde høytid, ikke med gammel surdeig av ondskap og synd, men med renhetens og sannhetens usyrede brød.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.5.9": {
+    "text": "Jeg skrev i brevet til dere at dere ikke skal ha noe å gjøre med folk som lever i hor.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.5.10": {
+    "text": "Jeg mente ikke alle i denne verden som driver hor eller er grådige, eller er ransmenn og avgudsdyrkere. Da måtte dere jo gå ut av verden.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Versene inneholder en lastekatalog, en oppregning av holdninger og handlinger som strider mot kristen tro og liv. =kataloger."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 1,29ff+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.5.11": {
+    "text": "Det jeg mente med det jeg skrev, var at dere ikke skal omgås en som kalles bror, og som likevel lever i hor eller er grådig, eller som er en avgudsdyrker, spotter, drukkenbolt eller ransmann. Slike skal dere heller ikke spise sammen med.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tess 3,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.5.12": {
+    "text": "Hva har jeg med å dømme dem som står utenfor? Er det ikke dem som er innenfor, dere skal dømme?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mark 4,11; Kol 4,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.5.13": {
+    "text": "Dem som står utenfor, skal Gud dømme. Få da den onde bort fra dere!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 17,7; 22,21f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.1": {
+    "text": "Når en av dere har en sak mot en annen, hvordan kan han da våge å legge den fram for de urettferdige og ikke for de hellige?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Rettssaker mellom kristne"
+  },
+  "1CO.6.2": {
+    "text": "Vet dere ikke at de hellige skal dømme verden? Men når dere skal dømme verden, hvorfor duger dere ikke da til å dømme i småsaker?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 7,22; Matt 19,28",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.3": {
+    "text": "Vet dere ikke at vi skal dømme engler? Kan dere ikke da dømme i jordiske saker?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.6.4": {
+    "text": "Og når dere har slike saker, hvorfor setter dere til dommere folk som ikke har tillit i menigheten?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.6.5": {
+    "text": "Dette er en skam for dere! Finnes det ikke en eneste forstandig blant dere som kan ordne opp i saker mellom brødre?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.6.6": {
+    "text": "Nei, bror fører sak mot bror, og det for dommere som ikke er troende.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.6.7": {
+    "text": "At dere har rettssaker mot hverandre, er i seg selv et nederlag for dere. Hvorfor lider dere ikke heller urett? Hvorfor ikke heller lide tap?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 5,38ff+; 1 Tess 5,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.8": {
+    "text": "Men dere gjør urett og lar andre lide tap – til og med søsken.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.6.9": {
+    "text": "Vet dere ikke at de som gjør urett, ikke skal arve Guds rike? La dere ikke føre vill! Verken de som driver hor, de som dyrker avguder eller de som bryter ekteskapet, verken menn som ligger med menn eller som lar seg ligge med,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Versene inneholder en lastekatalog, jf. 5,10. =kataloger."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 1,29ff+; Åp 22,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.10": {
+    "text": "verken tyver, grådige, drukkenbolter, spottere eller ransmenn skal arve Guds rike.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.6.11": {
+    "text": "Slik var noen av dere før. Men nå er dere vasket rene, dere er gjort hellige, dere er gjort rettferdige i Herren Jesu Kristi navn og ved vår Guds Ånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Tit 3,3–7+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.12": {
+    "text": "Jeg har lov til alt, men ikke alt tjener til det gode. Jeg har lov til alt, men jeg skal ikke la noe få makt over meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10,23",
+        "refs": []
+      }
+    ],
+    "section": "Kroppen tilhører Herren"
+  },
+  "1CO.6.13": {
+    "text": "Maten er til for magen, og magen for maten, men Gud skal gjøre slutt på dem begge. Kroppen er ikke til for hor; den er for Herren, og Herren er for kroppen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.6.14": {
+    "text": "Gud reiste opp Herren, og ved sin kraft skal han også reise oss opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 8,11+; 1 Kor 15,12ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.15": {
+    "text": "Vet dere ikke at kroppene deres er Kristi lemmer? Skal jeg da ta Kristi lemmer og gjøre dem til en hores lemmer? Det må ikke skje!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12,27+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.16": {
+    "text": "Eller vet dere ikke at når noen holder seg til en hore, blir de én kropp? For det står: De to skal være én kropp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 2,24; Matt 19,5; Ef 5,31",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.17": {
+    "text": "Men den som holder seg til Kristus, blir én ånd med ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 17,21ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.18": {
+    "text": "Hold dere langt borte fra hor! All synd som et menneske gjør, er utenfor kroppen. Men den som driver hor, synder mot sin egen kropp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.6.19": {
+    "text": "Vet dere ikke at kroppen deres er et tempel for Den hellige ånd som bor i dere, og som er fra Gud? Dere tilhører ikke lenger dere selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 2,21; Rom 3,16+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.6.20": {
+    "text": "Dere er kjøpt, og prisen betalt. Bruk da kroppen til Guds ære!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "et bilde fra slavehandelen. Slaver tilhørte ikke seg selv. På torget ble de kjøpt for å tilhøre en herre."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 20,28; Fil 2,5ff; 1 Tim 2,6; 1 Pet 1,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.1": {
+    "text": "Når det gjelder det dere skrev om, så er det godt for en mann ikke å røre en kvinne.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Ekteskap og ugift stand"
+  },
+  "1CO.7.2": {
+    "text": "Men for å unngå hor skal hver mann ha sin kone og hver kvinne sin ektemann.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tess 4,3f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.3": {
+    "text": "Mannen skal oppfylle sin forpliktelse overfor kvinnen, og hun overfor ham.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.4": {
+    "text": "Kvinnen rår ikke over sin egen kropp, det gjør mannen. På samme måte rår ikke mannen over sin egen kropp, det gjør kvinnen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.5": {
+    "text": "Dere skal ikke nekte hverandre samliv hvis dere ikke er blitt enige om det for en tid, for å leve i bønn. Kom så sammen igjen, for at ikke Satan skal sette avholdenheten deres på prøve.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.6": {
+    "text": "Dette er ment som en tillatelse, ikke som et påbud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.7": {
+    "text": "Jeg skulle ønske at alle var som jeg. Men enhver har sin egen nådegave fra Gud, den ene slik, den andre slik.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 19,11f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.8": {
+    "text": "Til de ugifte og enkene sier jeg: Det er godt for dem om de fortsetter å være som jeg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.9": {
+    "text": "Men dersom de ikke kan være avholdende, må de gifte seg. For det er bedre å gifte seg enn å brenne av begjær.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 5,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.10": {
+    "text": "Til de gifte har jeg dette påbudet, ikke fra meg selv, men fra Herren: En kvinne skal ikke skille seg fra mannen sin.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 5,32; Mark 10,4.11f; Luk 16,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.11": {
+    "text": "Men hvis hun likevel skiller seg, skal hun leve ugift eller forlike seg med mannen. Og en mann skal ikke skille seg fra sin kone.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.12": {
+    "text": "Til de andre sier jeg – dette er mine ord, ikke Herrens: Dersom en bror har en kone som ikke er troende, og hun gjerne vil bli hos ham, skal han ikke skille seg fra henne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.13": {
+    "text": "Og dersom en kvinne har en ikke-troende mann og han gjerne vil bli hos henne, skal hun ikke skille seg fra mannen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.14": {
+    "text": "For den ikke-troende mannen blir regnet som hellig på grunn av sin kone, og den ikke-troende kvinnen blir regnet som hellig fordi mannen er en troende bror. Ellers ville jo barna deres være urene, men nå er de hellige.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.15": {
+    "text": "Men hvis den ikke-troende vil skilles, så la ham gjøre det. I slike tilfeller er ikke den troende broren eller søsteren bundet. Gud har kalt dere til fred.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.16": {
+    "text": "For vet vel du, kvinne, om du kan redde din mann? Og vet vel du, mann, om du kan redde din kone?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Pet 3,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.17": {
+    "text": "Derfor skal enhver leve sitt liv der Herren har satt ham, der han var da Gud kalte ham. Dette gir jeg pålegg om i alle menighetene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7,20.24",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.18": {
+    "text": "Om noen ble kalt som omskåret, skal han ikke prøve å forandre det. Om noen er blitt kalt som uomskåret, skal han ikke la seg omskjære.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.19": {
+    "text": "For det som betyr noe, er ikke å være omskåret eller uomskåret, men å holde Guds bud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 2,25ff; Gal 5,6; 6,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.20": {
+    "text": "Enhver skal forbli der han var da han ble kalt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.21": {
+    "text": "Ble du kalt som slave? La ikke det bekymre deg! Men kan du bli fri, så velg heller det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.22": {
+    "text": "For den som var slave da Herren kalte ham, er Herrens frigitte, og den som var fri da han ble kalt, er Kristi slave.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 6,18.22; Ef 6,6; Filem 16; 1 Pet 2,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.23": {
+    "text": "Dere er kjøpt, og prisen betalt. Så bli ikke slaver av mennesker.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.24": {
+    "text": "Mine søsken, enhver skal forbli der han var da han ble kalt, og være der for Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.25": {
+    "text": "Når det gjelder de unge jentene, har jeg ikke noe påbud fra Herren. Men jeg sier min mening, siden Herren i sin godhet lar meg være troverdig.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.26": {
+    "text": "På grunn av den nødstid vi lever i, mener jeg det er godt for et menneske å bli værende som det er.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 21,23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.27": {
+    "text": "Er du bundet til en kvinne, så prøv ikke å bli fri. Er du ikke bundet, så finn deg ingen kone.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.28": {
+    "text": "Om du likevel gifter deg, synder du ikke, og om en ung jente gifter seg, synder hun ikke. Men de gifte kommer til å møte vansker i livet, og det vil jeg gjerne spare dere for.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.29": {
+    "text": "For det sier jeg, brødre: Det er stadig kortere tid igjen. Fra nå av skal de som har kone, være som om de ingen hadde,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 13,11f; 1 Kor 10,11; 1 Pet 4,7; 1 Joh 2,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.30": {
+    "text": "de gråtende som om de ikke gråt, de glade som om de ikke gledet seg, de som kjøper noe, som om de ikke eide det,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.31": {
+    "text": "og de som bruker verdens goder, som om de ikke brukte dem. For verden slik den nå er, går under.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Joh 2,15ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.32": {
+    "text": "Jeg vil at dere skal slippe bekymringer. Den ugifte er opptatt av det som hører Herren til, hvordan han kan være til glede for Herren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.33": {
+    "text": "Men den som er gift, er opptatt av det som hører verden til, hvordan han kan glede sin kone,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 14,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.34": {
+    "text": "og så blir sinnet delt. Den ugifte kvinnen og den unge jenta er opptatt av det som hører Herren til, så de kan være hellige både på kropp og sjel. Men den gifte kvinnen er opptatt av det som hører verden til, hvordan hun kan glede sin mann.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.35": {
+    "text": "Jeg sier dette til deres eget beste, ikke for å legge bånd på dere, men for at dere skal leve sømmelig og holde dere trofast og helhjertet til Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 10,41f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.36": {
+    "text": "Om noen mener at han kommer inn i et usømmelig forhold til kjæresten sin fordi han er i sin fulle kraft, og det må så være, da skal han gjøre som han vil: La dem gifte seg, han synder ikke med det.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.37": {
+    "text": "Men den som står fast i sitt forsett og ikke er under tvang, men har herredømme over sin egen vilje og i sitt hjerte har bestemt seg til å la kjæresten forbli jomfru, han gjør vel i det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.38": {
+    "text": "Så gjør altså den rett som gifter seg med kjæresten sin, og den som ikke gifter seg, gjør bedre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.7.39": {
+    "text": "En kvinne er bundet så lenge mannen hennes lever. Dersom mannen dør, er hun fri til å gifte seg med hvem hun vil, bare det skjer i Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 7,2f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.7.40": {
+    "text": "Men hun vil være lykkeligere om hun lever alene, etter min mening. Og jeg mener at også jeg har Guds Ånd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.8.1": {
+    "text": "Når det gjelder kjøtt som har vært ofret til avgudene, er det nok slik at vi alle har kunnskap. Men kunnskap gjør hovmodig; det er kjærligheten som bygger opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 15,29",
+        "refs": []
+      }
+    ],
+    "section": "Kristen frihet og hensynet"
+  },
+  "1CO.8.2": {
+    "text": "Om noen mener å ha forstått noe, da har han ennå ikke forstått det slik han burde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 6,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.8.3": {
+    "text": "Men den som elsker Gud, er kjent av ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13,12; Gal 4,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.8.4": {
+    "text": "Når det gjelder det å spise slike avgudsoffer, vet vi at det ikke finnes noen avgud i verden og ingen Gud uten én.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Kjøtt som kunne kjøpes på torget, kom ofte fra dyr som var blitt ofret i hedenske templer."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 6,4; 1 Kor 10,19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.8.5": {
+    "text": "Det finnes nok såkalte guder i himmelen eller på jorden, ja, det er mange guder og mange herrer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.8.6": {
+    "text": "Men for oss er det én Gud, vår Far. Alt er fra ham, og til ham er vi skapt. Og det er én Herre, Jesus Kristus. Alt er til ved ham, og ved ham lever vi.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 13,13; Ef 4,5f; Kol 1,16+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.8.7": {
+    "text": "Men ikke alle har denne kunnskapen. Noen spiser fortsatt dette kjøttet som avgudsoffer fordi de pleide å dyrke avguder. Så blir deres samvittighet skitnet til fordi den er svak.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 14,1ff; 1 Kor 10,27ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.8.8": {
+    "text": "Men mat fører oss ikke nærmere Gud. Vi oppnår ikke noe om vi spiser, og vi taper ikke noe om vi lar være.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 14,17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.8.9": {
+    "text": "Men pass på at friheten deres ikke fører de svake til fall!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 5,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.8.10": {
+    "text": "Om noen ser at du som har denne kunnskapen, ligger til bords i et avgudshus, vil ikke da samvittigheten hans, svak som den er, liksom bli oppbygd slik at han spiser offerkjøtt?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Ved festmåltider lå de mannlige gjestene til bords på lave, teppebelagte benker. =bordskikker."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.8.11": {
+    "text": "Da går den svake fortapt som følge av din kunnskap, den bror som Kristus døde for.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 14,15.20f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.8.12": {
+    "text": "Når dere synder mot deres søsken på denne måten og sårer deres svake samvittighet, synder dere mot Kristus selv.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.8.13": {
+    "text": "Dersom mat fører min bror eller søster til fall, vil jeg aldri i evighet spise kjøtt! For jeg vil ikke føre dem til fall.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 14,13.21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.1": {
+    "text": "Er jeg ikke fri? Er jeg ikke apostel? Har jeg ikke sett Jesus, vår Herre? Er ikke dere mitt verk i Herren?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 9,3ff; 1 Kor 15,8",
+        "refs": []
+      }
+    ],
+    "section": "Apostlenes rettigheter"
+  },
+  "1CO.9.2": {
+    "text": "Om jeg ikke er apostel for andre, er jeg det i alle fall for dere! Ja, dere er seglet på mitt apostelkall i Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 3,2f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.3": {
+    "text": "Mitt forsvar mot dem som dømmer meg, er dette:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.9.4": {
+    "text": "Har ikke også vi rett til å få mat og drikke?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 10,7f; 1 Kor 9,13f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.5": {
+    "text": "Har ikke også vi rett til å ha med oss en troende søster som ektefelle, slik som de andre apostlene og Herrens brødre og Kefas?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ">1,12."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 8,14; 16,18+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.6": {
+    "text": "Er det bare jeg og Barnabas som ikke har retten til å slippe å arbeide?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tess 3,8f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.7": {
+    "text": "Hvem er soldat og betaler lønnen selv? Hvem planter en vinmark uten å få spise av frukten? Eller hvem er gjeter uten å drikke av melken fra buskapen?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tim 2,4.6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.8": {
+    "text": "Taler jeg bare rent menneskelig her? Eller sier ikke loven det samme?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.9.9": {
+    "text": "Jo, for i Moseloven står det skrevet: Du skal ikke binde for mulen på en okse som tresker. Men er det oksene Gud tenker på?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Under treskingen trakk oksen en treskeslede over kornaksene og fikk spise av kornet."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 25,4; 1 Tim 5,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.10": {
+    "text": "Er ikke dette sagt fullt og helt med tanke på oss? Jo, dette er skrevet for vår skyld. For den som pløyer og den som tresker, skal gjøre det i håp om å få sin del.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "…"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tim 2,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.11": {
+    "text": "Når vi har sådd det åndelige blant dere, er det da for mye at vi får høste av det materielle?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 15,27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.12": {
+    "text": "Om nå andre har rett til dette hos dere, skulle ikke vi ha det enda mer? Likevel har vi ikke gjort bruk av vår rett. I stedet tåler vi alt for ikke å legge hindringer i veien for Kristi evangelium.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 20,33f; 2 Kor 11,7ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.13": {
+    "text": "Vet dere ikke at de som gjør tjeneste i tempelet, lever av tempelets inntekter, og at de som tjener ved alteret, får sin del av det som ofres på alteret?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3 Mos 6,9.19; 5 Mos 18,1ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.14": {
+    "text": "På samme måte har Herren bestemt at de som forkynner evangeliet, skal leve av evangeliet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 10,10; Gal 6,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.15": {
+    "text": "Men jeg har ikke gjort bruk av noe av dette. Jeg skriver heller ikke nå for å gjøre krav på det. Heller ville jeg dø – ingen skal ta fra meg dette som jeg er så stolt av.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.9.16": {
+    "text": "Men det at jeg forkynner evangeliet, er ikke noe jeg skryter av. Det ligger på meg som en tvang. Ve meg om jeg ikke forkynner evangeliet!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 20,9; Luk 17,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.17": {
+    "text": "Gjør jeg det frivillig, har jeg jo krav på lønn. Men gjør jeg det fordi jeg må, er det en forvalteroppgave som er betrodd meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.18": {
+    "text": "Og hva er så min lønn? Jo, at jeg forkynner evangeliet uten kostnad for noen og gir avkall på den rett som evangeliet gir meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.9.19": {
+    "text": "Enda jeg er fri og ikke underlagt noen, har jeg gjort meg til tjener for alle, så jeg kan vinne så mange som mulig.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 20,26f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.20": {
+    "text": "For jøder har jeg vært som en jøde, for å vinne jøder. For dem som er under loven, lever jeg som om jeg var under loven, for å vinne dem, enda jeg selv ikke er under loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 16,3; 21,20ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.21": {
+    "text": "For dem som ikke har noen lov, lever jeg som om jeg var uten lov, for å vinne dem, enda jeg ikke er uten lov for Gud, men er bundet av Kristi lov.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.9.22": {
+    "text": "For de svake er jeg blitt svak, for å vinne de svake. For alle er jeg blitt alt, for på alle mulige måter å frelse noen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 11,29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.23": {
+    "text": "Men alt gjør jeg for evangeliets skyld, så jeg selv kan få del i det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.9.24": {
+    "text": "Vet dere ikke at på stadion deltar alle i løpet, men bare én får seiersprisen? Løp da slik at dere vinner den!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 3,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.25": {
+    "text": "Alle som deltar i kamplekene, må nekte seg alt. De gjør det for å vinne en seierskrans som visner, vi for å vinne en som aldri visner.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "laget av olivengreiner eller laurbær. Vinnerne av idrettskonkurranser fikk en slik lagt på hodet."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tim 2,5; 4,7f; Jak 1,12; 1 Pet 5,4; Åp 2,10; 3,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.9.26": {
+    "text": "Jeg løper derfor ikke uten å ha et mål. Jeg er heller ikke lik en nevekjemper som slår i løse luften.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.9.27": {
+    "text": "Nei, jeg kjemper mot meg selv og tvinger kroppen til å lystre, for at ikke jeg som har forkynt for andre, selv skal komme til kort.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.10.1": {
+    "text": "Jeg vil at dere skal vite dette, søsken: Våre fedre i ørkenen var alle under skyen, og alle gikk de gjennom havet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Mos 13,21f; 14,22ff",
+        "refs": []
+      }
+    ],
+    "section": "Israel i ørkenen som"
+  },
+  "1CO.10.2": {
+    "text": "Alle ble døpt til Moses i skyen og i havet,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.10.3": {
+    "text": "og alle spiste de den samme åndelige mat",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Mos 16,4.35; Sal 78,24ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.4": {
+    "text": "og drakk den samme åndelige drikk. For de drakk av den åndelige klippe som fulgte dem, og denne klippen var Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Mos 17,5; Sal 78,15f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.5": {
+    "text": "Likevel forkastet Gud de fleste av dem, for de ble slått ned der i ørkenen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4 Mos 14,29ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.6": {
+    "text": "Disse hendelsene er advarende eksempler for oss. De skal lære oss ikke å ha lyst til det onde, slik de hadde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4 Mos 11,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.7": {
+    "text": "Bli ikke avgudsdyrkere slik som noen av dem! For det står skrevet: Folket satte seg ned for å spise og drikke, og så sto de opp for å danse.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "dans om gullkalven. Jf. 2 Mos 32,6.19."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.10.8": {
+    "text": "La oss heller ikke drive hor, slik som noen av dem gjorde, så tjuetre tusen mennesker falt på én dag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4 Mos 25,1ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.9": {
+    "text": "La oss heller ikke sette Kristus på prøve, slik noen av dem gjorde, de som ble drept av slangene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4 Mos 21,5f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.10": {
+    "text": "Og la oss ikke være misfornøyde og murre, slik noen av dem gjorde, de som ble drept av ødeleggeren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Mos 12,23; 4 Mos 14,2ff; 16,41ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.11": {
+    "text": "Det som hendte med dem, skulle være til advarsel. Det ble skrevet til rettledning for oss, og til oss er de siste tider kommet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7,29+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.12": {
+    "text": "Derfor må den som tror han står, passe seg så han ikke faller!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 11,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.13": {
+    "text": "Dere har ikke møtt noen overmenneskelig fristelse. Og Gud er trofast, han vil ikke la dere bli fristet over evne. Nei, når dere blir fristet, vil han vise en utvei, slik at dere kan holde ut.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 6,13+; 1 Kor 1,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.14": {
+    "text": "Derfor, mine kjære, hold dere langt borte fra avgudsdyrkelsen!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Joh 5,21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.15": {
+    "text": "Jeg taler til dere som til forstandige mennesker. Bedøm selv det jeg sier!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.10.16": {
+    "text": "Velsignelsens beger som vi velsigner, gir det ikke del i Kristi blod? Brødet som vi bryter, gir det ikke del i Kristi kropp?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "betegnelse på et av begrene som drikkes ved det jødiske påskemåltidet. Jf. 11,25."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 22,17ff; 1 Kor 11,23ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.17": {
+    "text": "Fordi det er ett brød, er vi alle én kropp. For vi har alle del i det ene brød.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12,12+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.18": {
+    "text": "Se på Israels folk! Har ikke de som spiser av offeret, del i det som skjer på alteret?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3 Mos 7,6.15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.19": {
+    "text": "Sier jeg med dette at avgudsoffer betyr noe, eller at en avgud virkelig er noe?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.20": {
+    "text": "Nei, slike offer blir ofret til onde ånder og ikke til Gud. Og jeg vil ikke at dere skal ha fellesskap med de onde åndene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3 Mos 17,7; 5 Mos 32,17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.21": {
+    "text": "Dere kan ikke drikke både Herrens beger og onde ånders beger. Dere kan ikke delta både ved Herrens bord og ved onde ånders bord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 6,15f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.22": {
+    "text": "Eller våger vi å utfordre Herren til harme? Er vi sterkere enn han?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 32,21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.23": {
+    "text": "Jeg har lov til alt, men ikke alt tjener til det gode. Jeg har lov til alt, men ikke alt bygger opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6,12",
+        "refs": []
+      }
+    ],
+    "section": "Samvittighet og frihet"
+  },
+  "1CO.10.24": {
+    "text": "Ingen må søke sitt eget beste, men den andres beste.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 15,2; Fil 2,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.25": {
+    "text": "Alt kjøtt som selges på torget, kan dere spise med god samvittighet og uten å spørre hva det er.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.10.26": {
+    "text": "For jorden og det som fyller den, hører Herren til.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 24,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.27": {
+    "text": "Hvis en ikke-troende inviterer dere og dere sier ja til å komme, så spis også da med god samvittighet alt som blir satt fram, uten spørsmål.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.10.28": {
+    "text": "Men om noen sier: «Dette er offerkjøtt», så spis det ikke, av hensyn til den som sa det, og for samvittighetens skyld.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8,7ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.29": {
+    "text": "Jeg mener da den andres samvittighet, ikke din! For hvorfor skal min frihet bli dømt av en annens samvittighet?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.10.30": {
+    "text": "Hvis jeg tar imot dette med takk, hvorfor skal jeg da klandres for det jeg takker Gud for?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 4,3f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.31": {
+    "text": "Men enten dere spiser eller drikker, eller hva dere enn gjør, gjør alt til Guds ære!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 3,17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.10.32": {
+    "text": "La verken jøder, grekere eller Guds kirke få noe å utsette på dere!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.10.33": {
+    "text": "Selv prøver jeg på alle måter å komme alle i møte. Jeg søker ikke mitt eget beste, men alle de andres, så de kan bli frelst.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 15,2; 1 Kor 9,19f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.1": {
+    "text": "Ha meg til forbilde slik jeg har Kristus til forbilde!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4,16; Fil 3,17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.2": {
+    "text": "Dere skal ha ros for at dere husker på meg i alt og holder fast på de overleveringene jeg har gitt videre til dere.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Kvinnene i menigheten"
+  },
+  "1CO.11.3": {
+    "text": "Jeg vil dere skal vite at Kristus er enhver manns hode, mannen er kvinnens hode, og Kristi hode er Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3,23; Ef 5,23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.4": {
+    "text": "En mann som ber eller taler profetisk med noe på hodet, fører skam over sitt hode.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.5": {
+    "text": "Men en kvinne som ber eller taler profetisk med utildekket hode, fører skam over sitt hode. Det er jo akkurat det samme som å være snauklipt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.6": {
+    "text": "Hvis en kvinne ikke vil ha noe på hodet, kan hun like godt klippe av seg håret! Men når det nå er en skam for en kvinne å klippe eller barbere av seg håret, da må hun ha noe på hodet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.7": {
+    "text": "Mannen skal ikke dekke hodet, for han er Guds bilde og ære. Men kvinnen er mannens ære.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 1,27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.8": {
+    "text": "For mannen ble ikke til av kvinnen, men kvinnen av mannen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 2,21ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.9": {
+    "text": "Mannen ble heller ikke skapt for kvinnens skyld, men kvinnen for mannens.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 2,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.10": {
+    "text": "Derfor skal kvinnen for englenes skyld ha noe på hodet, som et myndighetstegn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.11": {
+    "text": "Men i Herren er ikke kvinnen uavhengig av mannen, og mannen er ikke uavhengig av kvinnen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.12": {
+    "text": "For som kvinnen ble til av mannen, blir mannen født av kvinnen, men alt er fra Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.13": {
+    "text": "Bedøm selv! Sømmer det seg for en kvinne å be til Gud uten noe på hodet?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.14": {
+    "text": "Lærer ikke selve naturen dere at det er en skam for mannen å ha langt hår,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.15": {
+    "text": "mens det for kvinnen er en ære? For håret er gitt henne som slør.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Det gr. ordet har grunnbetydningen «kappe», jf. Hebr 1,12, eller «dekke». Jf. 11,5."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.16": {
+    "text": "Hvis noen vil lage strid om dette, så husk at en slik skikk har ikke vi, og heller ikke Guds menigheter.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.17": {
+    "text": "Når jeg her gir dere mine påbud, er det én ting jeg ikke kan rose dere for: Dere samles på en måte som ikke er til nytte, men til skade.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Herrens måltid"
+  },
+  "1CO.11.18": {
+    "text": "For det første hører jeg at det er splittelse blant dere når dere kommer sammen som menighet, og jeg tror det kan være noe i det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,10ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.19": {
+    "text": "For det må vel være oppsplitting i grupper blant dere, så det kan bli klart hvem som holder mål.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Joh 2,19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.20": {
+    "text": "Når dere da kommer sammen og er samlet, er det ikke Herrens måltid dere holder.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.21": {
+    "text": "For når dere spiser, holder hver og en av dere måltid for seg selv. Den ene er sulten, den andre drikker seg full.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Nattverden ble feiret i forbindelse med et vanlig måltid, der alle skulle få ta del."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.22": {
+    "text": "Har dere ikke hus så dere kan spise og drikke hjemme? Eller forakter dere Guds menighet og lar dem som ikke har noe, sitte med skam? Hva skal jeg si til dette? Skal jeg rose dere? Nei, slikt kan jeg ikke gi ros!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jak 2,5f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.23": {
+    "text": "For jeg har mottatt fra Herren det jeg også har gitt videre til dere: I den natt da Herren Jesus ble forrådt, tok han et brød,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "…"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 26,26ff+; Luk 22,19f; 1 Kor 15,1+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.24": {
+    "text": "takket, brøt det og sa: «Dette er min kropp, som er for dere. Gjør dette til minne om meg!»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.25": {
+    "text": "På samme måte tok han begeret etter måltidet og sa: «Dette begeret er den nye pakt i mitt blod. Hver gang dere drikker av det, gjør det til minne om meg!»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.26": {
+    "text": "For hver gang dere spiser dette brødet og drikker av begeret, forkynner dere Herrens død helt til han kommer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 26,29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.27": {
+    "text": "Den som spiser brødet eller drikker av Herrens beger på urett vis, gjør derfor urett mot Herrens kropp og blod.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hebr 10,29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.28": {
+    "text": "Enhver må prøve seg selv og så spise av brødet og drikke av begeret.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 13,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.29": {
+    "text": "For den som spiser og drikker uten å tenke på at det er Herrens kropp, spiser og drikker seg selv til doms.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.30": {
+    "text": "Derfor er det mange svake og skrøpelige hos dere, og noen er sovnet inn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.31": {
+    "text": "Hadde vi bedømt oss selv, hadde vi unngått å bli dømt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.32": {
+    "text": "Men når vi blir dømt av Herren, blir vi irettesatt, for at vi ikke skal bli fordømt sammen med verden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hebr 12,5ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.11.33": {
+    "text": "Derfor, mine søsken: Når dere kommer sammen for å holde måltid, så vent på hverandre!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.11.34": {
+    "text": "Hvis noen er sulten, får han spise hjemme, så ikke sammenkomstene deres skal føre dom over dere. Om de andre tingene skal jeg gi retningslinjer når jeg kommer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.1": {
+    "text": "Når det gjelder Åndens gaver, søsken, vil jeg at dere skal ha kunnskap om dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Nådegavene"
+  },
+  "1CO.12.2": {
+    "text": "Dere vet at da dere var hedninger, ble dere viljeløst revet med til de stumme avgudene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hab 2,18f; Gal 4,8; 1 Tess 1,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.3": {
+    "text": "Derfor kunngjør jeg for dere at ingen som taler i Guds Ånd, sier: «Forbannet er Jesus!» Og ingen kan si: «Jesus er Herre!» uten i Den hellige ånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 2,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.4": {
+    "text": "Det er forskjellige nådegaver, men Ånden er den samme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 12,6ff; 1 Kor 12,28ff; Ef 4,7ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.5": {
+    "text": "Det er forskjellige tjenester, men Herren er den samme.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.6": {
+    "text": "Det er forskjellige kraftige virkninger, men Gud er den samme, han som er virksom og gjør alt i alle.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.7": {
+    "text": "Hos hver enkelt gir Ånden seg til kjenne slik at det tjener til det gode.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14,26; Ef 4,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.8": {
+    "text": "For ved én og samme Ånd blir det gitt én å tale visdom, en annen å formidle kunnskap,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.9": {
+    "text": "én får ved den ene Ånd en spesiell trosgave, en annen får nådegaver til å helbrede,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.10": {
+    "text": "og én får kraft til å gjøre under. Én får den gave å tale profetisk, en annen å bedømme ånder, én får ulike slag av tungetale, og en annen kan tyde tungetale.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 2,4; 1 Joh 4,1ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.11": {
+    "text": "Alt dette gjør den ene og samme Ånd, som deler ut sine gaver til hver enkelt slik han vil.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 12,3.6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.12": {
+    "text": "Slik kroppen er én selv om den har mange lemmer, og alle lemmene utgjør én kropp enda de er mange, slik er det også med Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 2,21; Rom 12,4f; 1 Kor 10,16; Ef 1,23; 4,16; Kol 1,18; 3,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.13": {
+    "text": "For med én Ånd ble vi alle døpt til å være én kropp, enten vi er jøder eller grekere, slaver eller frie, og alle fikk vi én Ånd å drikke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 3,28+; Ef 2,14ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.14": {
+    "text": "For kroppen består ikke av én kroppsdel, men av mange.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.15": {
+    "text": "Om nå foten sier: «Fordi jeg ikke er hånd, hører jeg ikke med til kroppen», så er den like fullt en del av den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.16": {
+    "text": "Om øret sier: «Fordi jeg ikke er øye, hører jeg ikke med til kroppen», så er det like fullt en del av den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.17": {
+    "text": "Hvis hele kroppen var øye, hvor ble det da av hørselen? Hvis det hele var hørsel, hvor ble det av luktesansen?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.18": {
+    "text": "Men nå har Gud gitt hvert enkelt lem sin plass på kroppen slik han ville det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.19": {
+    "text": "Hvis det hele var én kroppsdel, hvor ble det da av kroppen?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.20": {
+    "text": "Men nå er det mange kroppsdeler, men bare én kropp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.21": {
+    "text": "Øyet kan ikke si til hånden: «Jeg trenger deg ikke», eller hodet til føttene: «Jeg har ikke bruk for dere».",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.22": {
+    "text": "Tvert imot! De delene av kroppen som synes å være svakest, nettopp de er nødvendige.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.23": {
+    "text": "De kroppsdelene som vi synes er mindre ære verdt, dem gir vi desto større ære. Og de delene vi føler skam ved, kler vi desto mer sømmelig;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.24": {
+    "text": "de andre trenger det ikke. Men nå har Gud satt sammen kroppen slik at det som mangler ære, får mye ære,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.25": {
+    "text": "for at det ikke skal bli splittelse i kroppen, men alle lemmene ha samme omsorg for hverandre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.26": {
+    "text": "For om ett lem lider, lider alle de andre med. Og om ett lem blir hedret, gleder alle de andre seg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 12,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.27": {
+    "text": "Dere er Kristi kropp, og hver av dere et lem på ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 12,5; 1 Kor 6,15; Ef 5,30",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.28": {
+    "text": "I kirken har Gud for det første satt noen til apostler, for det andre profeter, for det tredje lærere, deretter mektige gjerninger, deretter nådegaver til å helbrede, til å hjelpe, til å lede og til ulike slag tungetale.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12,4; Ef 4,11f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.12.29": {
+    "text": "Er vel alle apostler? Er alle profeter? Er alle lærere? Gjør vel alle under?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.30": {
+    "text": "Har alle nådegaver til å helbrede? Taler alle i tunger? Kan alle tyde tungetale?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.12.31": {
+    "text": "Men vær ivrige etter å få de største nådegavene! Og jeg vil vise dere en enda bedre vei:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.13.1": {
+    "text": "Om jeg taler med menneskers og englers tunger, men ikke har kjærlighet, da er jeg bare drønnende malm eller en klingende bjelle.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.13.2": {
+    "text": "Om jeg har profetisk gave, kjenner alle hemmeligheter og eier all kunnskap, om jeg har all tro så jeg kan flytte fjell, men ikke har kjærlighet, da er jeg intet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 7,22; 17,20+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.13.3": {
+    "text": "Om jeg gir alt jeg eier til brød for de fattige, ja, om jeg gir meg selv til å brennes, men ikke har kjærlighet, da har jeg ingen ting vunnet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 6,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.13.4": {
+    "text": "Kjærligheten er tålmodig, kjærligheten er velvillig, den misunner ikke, skryter ikke, er ikke hovmodig.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.13.5": {
+    "text": "Kjærligheten krenker ikke, søker ikke sitt eget, er ikke oppfarende og gjemmer ikke på det onde.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.13.6": {
+    "text": "Den gleder seg ikke over urett, men har sin glede i sannheten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 12,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.13.7": {
+    "text": "Kjærligheten utholder alt, tror alt, håper alt, tåler alt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ordsp 10,12; 1 Pet 4,8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.13.8": {
+    "text": "Kjærligheten tar aldri slutt. Profetgavene skal bli borte, tungene skal tie og kunnskapen forgå.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.13.9": {
+    "text": "For vi forstår stykkevis og taler profetisk stykkevis.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.13.10": {
+    "text": "Men når det fullkomne kommer, skal det som er stykkevis, ta slutt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.13.11": {
+    "text": "Da jeg var barn, talte jeg som et barn, tenkte jeg som et barn, forsto jeg som et barn. Men da jeg ble voksen, la jeg av det barnslige.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.13.12": {
+    "text": "Nå ser vi i et speil, i en gåte, da skal vi se ansikt til ansikt. Nå forstår jeg stykkevis, da skal jeg erkjenne fullt ut, slik Gud kjenner meg fullt ut.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 5,7; 1 Joh 3,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.13.13": {
+    "text": "Så blir de stående, disse tre: tro, håp og kjærlighet. Men størst blant dem er kjærligheten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.1": {
+    "text": "Jag etter kjærligheten, søk åndsgavene med iver, særlig det å tale profetisk.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12,31; 14,39",
+        "refs": []
+      }
+    ],
+    "section": "Rettledning om gudstjenesten"
+  },
+  "1CO.14.2": {
+    "text": "For den som taler i tunger, taler ikke for mennesker, men for Gud. Ingen kan forstå ham, for han taler hemmeligheter ved Ånden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.3": {
+    "text": "Men den som taler profetisk, taler for menneskene, til oppbyggelse, formaning og trøst.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.4": {
+    "text": "Den som taler i tunger, oppbygger seg selv, men den som taler profetisk, bygger opp menigheten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.5": {
+    "text": "Jeg skulle ønske at dere alle talte i tunger, men enda mer at dere talte profetisk. For den som taler profetisk, er større enn den som taler i tunger, hvis han da ikke tyder det han sier, så menigheten kan bli bygd opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4 Mos 11,29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.6": {
+    "text": "Sett nå, søsken, at jeg kommer til dere og taler i tunger. Hvilken nytte har dere av det, hvis jeg ikke samtidig gir dere åpenbaring, kunnskap, profeti eller lære?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.7": {
+    "text": "På samme måte er det med livløse instrumenter som fløyte eller harpe. Hvis det ikke er forskjell på tonene deres, hvordan kan en da oppfatte hva som blir spilt?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.8": {
+    "text": "Og gir trompeten et utydelig signal, hvem gjør seg da klar til kamp?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.9": {
+    "text": "Slik er det også med dere: Bruker dere ikke tungen til å tale tydelig, hvordan kan en da oppfatte hva som blir sagt? Da snakker dere bare ut i luften!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.10": {
+    "text": "Ingen vet hvor mange språk det finnes i verden, og alle språk har sin mening.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.11": {
+    "text": "Men dersom jeg ikke kan språket, blir jeg en fremmed for den som snakker det, og han blir en fremmed for meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.12": {
+    "text": "Slik er det også med dere. Når dere nå legger så stor vekt på åndsgavene, så søk å bli rike på gaver som bygger opp menigheten!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.13": {
+    "text": "Derfor må den som taler i tunger, også be om å kunne tyde det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.14": {
+    "text": "For hvis jeg ber og taler i tunger, er det ånden min som ber, men forstanden har ingen nytte av det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.15": {
+    "text": "Hva skal jeg så gjøre? Jo, jeg skal be med ånden, men også med forstanden; jeg skal lovsynge med ånden, men også med forstanden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 5,19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.16": {
+    "text": "Hvis du holder takkebønn i din ånd, hvordan kan da den som ikke er fortrolig med dette, si «amen» til din bønn? Han skjønner jo ikke hva du sier.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "hebr. for «det står fast», «det er sikkert og sant». =amen."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.17": {
+    "text": "Du holder nok en god takkebønn, men ingen andre blir oppbygd av det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.18": {
+    "text": "Jeg takker Gud for at jeg taler mer i tunger enn noen av dere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.19": {
+    "text": "Men når menigheten er samlet, vil jeg heller si fem ord med forstanden så jeg også kan lære andre noe, enn tale tusenvis av ord i tunger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.20": {
+    "text": "Mine søsken, vær ikke uforstandige som barn! Vær små i ondskap, men fullvoksne i forstand.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 4,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.21": {
+    "text": "Det står skrevet i loven: På andre språk og med fremmede tungemål skal jeg tale til dette folket, men enda vil de ikke høre på meg, sier Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 28,11f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.22": {
+    "text": "Derfor er tungetalen et tegn, ikke for de troende, men for dem som ikke tror. Og den profetiske tale er ikke for dem som ikke tror, men for de troende.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.23": {
+    "text": "Om nå hele menigheten kommer og er samlet og alle taler i tunger, og utenforstående eller ikke-troende kommer inn, vil de ikke da si at dere er gått fra forstanden?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 2,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.24": {
+    "text": "Men hvis alle taler profetisk når en av disse kommer inn, da vil han kjenne seg avslørt og dømt av alle;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 16,8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.25": {
+    "text": "hans innerste tanker kommer for dagen. Han vil kaste seg ned med ansiktet mot jorden, tilbe Gud og bekjenne: Gud er sannelig blant dere!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sak 8,23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.26": {
+    "text": "Hva mener jeg da, søsken? Jo, når dere kommer sammen, har én en salme, en annen et ord til lærdom, én har en åpenbaring, én har tungetale, en annen har tydningen. Men la alt tjene til å bygge opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12,7ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.27": {
+    "text": "Taler noen i tunger, skal det ikke være mer enn to eller i høyden tre hver gang. De skal tale én om gangen, og det skal være én som tyder.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.28": {
+    "text": "Hvis det ikke er noen til å tyde, skal den som taler i tunger, tie når menigheten er samlet. La ham tale for seg selv og for Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.29": {
+    "text": "La to eller tre tale profetisk, og la de andre prøve det de sier.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tess 5,19ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.30": {
+    "text": "Men hvis en annen får en åpenbaring mens han sitter der, skal den første tie.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.31": {
+    "text": "For dere kan alle tale profetisk, men én om gangen, slik at alle kan lære og alle bli oppmuntret.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.32": {
+    "text": "Enhver profet har herredømme over sin profetånd,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.33": {
+    "text": "for Gud vil ikke uorden, men fred. Som i alle de helliges menigheter",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 15,33",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.34": {
+    "text": "skal kvinnene tie når menigheten samles. Det er ikke tillatt for dem å tale; de skal underordne seg, slik også loven sier.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 3,16; 1 Kor 11,3; Ef 5,22; 1 Tim 2,11f; Tit 2,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.35": {
+    "text": "Hvis det er noe de vil lære, så la dem spørre sine menn hjemme. For det er en skam for en kvinne å tale i menigheten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.36": {
+    "text": "Var det kanskje fra dere Guds ord gikk ut? Er det bare til dere ordet er kommet?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.37": {
+    "text": "Hvis noen mener seg å være profet eller ha åndsgaver, så skal han vite at det jeg skriver, er et Herrens bud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Joh 4,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.38": {
+    "text": "Den som ikke godtar dette, blir selv ikke godtatt.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Mange gamle håndskrifter har «Om noen ikke forstår, får han la det være»."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.14.39": {
+    "text": "Derfor, mine søsken: Vær ivrige etter å tale profetisk, og hindre ikke tungetale.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tess 5,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.14.40": {
+    "text": "Men la alt gå sømmelig og ordentlig for seg!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14,33; Kol 2,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.1": {
+    "text": "Jeg kunngjør for dere, søsken, det evangelium jeg forkynte dere, det dere også tok imot, det dere også står på.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11,23; Gal 1,9; Fil 4,9; 1 Tess 2,13; 2 Tess 3,6",
+        "refs": []
+      }
+    ],
+    "section": "Oppstandelsen"
+  },
+  "1CO.15.2": {
+    "text": "Gjennom det blir dere også frelst, når dere holder fast på ordet slik jeg forkynte det, ellers blir det forgjeves at dere kom til tro.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.3": {
+    "text": "For først og fremst overga jeg til dere det jeg selv har tatt imot, at Kristus døde for våre synder etter skriftene,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 24,45f+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.4": {
+    "text": "at han ble begravet, at han sto opp den tredje dagen etter skriftene,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hos 6,2; Matt 16,21+; Apg 2,24+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.5": {
+    "text": "og at han viste seg for Kefas og deretter for de tolv.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 24,34.36; Joh 20,19ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.6": {
+    "text": "Deretter viste han seg for mer enn fem hundre søsken på én gang. Av dem lever de fleste ennå, men noen er sovnet inn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.7": {
+    "text": "Deretter viste han seg for Jakob, deretter for alle apostlene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.8": {
+    "text": "Aller sist viste han seg for meg, jeg som bare er et ufullbåret foster.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Uttrykket sier at det var noe uvanlig ved Paulus' apostelkall. Han ble kalt til apostel etter Jesu død og oppstandelse og på en helt annen måte enn de andre apostlene. Jf. Apg 9,3ff."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.9": {
+    "text": "For jeg er den minste av apostlene, jeg er ikke verdig til å kalles apostel, for jeg har forfulgt Guds kirke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 8,3; Ef 3,8; 1 Tim 1,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.10": {
+    "text": "Men ved Guds nåde er jeg det jeg er, og hans nåde mot meg har ikke vært bortkastet. For jeg har arbeidet mer enn noen av dem, det vil si ikke jeg, men Guds nåde som er med meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3,10; 2 Kor 11,5.23; Ef 3,7f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.11": {
+    "text": "Men enten det er jeg eller de andre – dette forkynner vi, og dette har dere tatt imot i tro.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.12": {
+    "text": "Men når det blir forkynt at Kristus er stått opp fra de døde, hvordan kan noen blant dere da si at det ikke finnes noen oppstandelse fra de døde?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.13": {
+    "text": "For hvis de døde ikke står opp, er heller ikke Kristus stått opp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.14": {
+    "text": "Men er ikke Kristus stått opp, da er vårt budskap tomt, og deres tro er også tom.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.15": {
+    "text": "Da står vi som falske vitner om Gud. For da har vi vitnet imot Gud når vi sier at han har oppreist Kristus, noe han ikke har gjort hvis døde ikke står opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 2,24+; 4,33+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.16": {
+    "text": "For hvis døde ikke står opp, er jo heller ikke Kristus stått opp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.17": {
+    "text": "Men hvis Kristus ikke er stått opp, da er deres tro uten mening, og dere er fremdeles i deres synder.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.18": {
+    "text": "Da er også de fortapt som har sovnet inn i Kristus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.19": {
+    "text": "Hvis vårt håp til Kristus gjelder bare for dette livet, er vi de ynkeligste av alle mennesker.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.20": {
+    "text": "Men nå er jo Kristus stått opp fra de døde, som førstegrøden av dem som er sovnet inn.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 26,23; Kol 1,18; Åp 1,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.21": {
+    "text": "Fordi døden kom ved et menneske, er også de dødes oppstandelse kommet ved et menneske.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 5,12–18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.22": {
+    "text": "For slik alle dør på grunn av Adam, skal alle få liv ved Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 3,19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.23": {
+    "text": "Men hver i sin tur: Kristus er førstegrøden. Deretter, ved hans gjenkomst, følger de som hører Kristus til.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tess 4,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.24": {
+    "text": "Så kommer slutten, når han overgir sin kongsmakt til Gud, sin Far, etter at han har tilintetgjort alle makter, myndigheter og krefter.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 2,44",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.25": {
+    "text": "For han skal være konge helt til Gud har lagt alle fiender under hans føtter.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 110,1; Apg 2,34f+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.26": {
+    "text": "Den siste fienden som blir tilintetgjort, er døden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Åp 21,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.27": {
+    "text": "For alt la han under hans føtter. Når det står alt, er det klart at Gud er unntatt. Det er jo Gud som legger alt under ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 8,7; Hebr 2,8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.28": {
+    "text": "Men når alt er underlagt ham, skal også Sønnen selv underordne seg Gud, som har lagt alt under ham, og Gud skal være alt i alle.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.29": {
+    "text": "Hvorfor lar noen seg døpe for de døde? Hvis de døde ikke står opp, hvorfor lar de seg da døpe for dem?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.30": {
+    "text": "Og hvorfor utsetter vi oss da for fare hver time på dagen?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.31": {
+    "text": "Ja, mine søsken, jeg dør hver dag, det er like sant som at jeg er stolt av dere i Kristus Jesus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 8,36; 1 Kor 4,9; 2 Kor 4,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.32": {
+    "text": "Var det bare med et rent menneskelig håp jeg kjempet mot ville dyr i Efesos, hva godt hadde det tjent til for meg? Hvis de døde ikke står opp, så la oss spise og drikke, for i morgen dør vi!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 22,13; 2 Kor 1,8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.33": {
+    "text": "La dere ikke føre vill! «Dårlig selskap ødelegger gode vaner.»",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.34": {
+    "text": "Våkn opp av rusen for alvor, og synd ikke! Noen av dere kjenner ikke Gud. Det er en skam for dere at jeg må si det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 13,11; 1 Kor 6,5; Ef 5,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.35": {
+    "text": "Men nå vil vel noen si: «Hvordan står de døde opp? Hva slags kropp har de?»",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.36": {
+    "text": "Du uforstandige menneske! Det du sår, får da ikke liv igjen uten at det dør.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 12,24",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.37": {
+    "text": "Og det du sår, er jo ikke den planten som kommer opp, men et nakent korn, av hvete eller et annet slag.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.38": {
+    "text": "Gud lar det få den skikkelse som han vil, hvert enkelt slag får sin egen skikkelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 1,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.39": {
+    "text": "Ikke alt kjøtt er av samme slag. Det er ett slag hos mennesker, ett hos fe, ett hos fugl og ett hos fisk.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.40": {
+    "text": "Og det finnes himmelske kropper og jordiske kropper; de himmelske har én glans, de jordiske en annen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.41": {
+    "text": "Én glans har solen, en annen har månen og en annen igjen har stjernene. Ja, én stjerne skiller seg fra en annen i glans.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.42": {
+    "text": "Slik er det også med de dødes oppstandelse. Det blir sådd i forgjengelighet, det står opp i uforgjengelighet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.43": {
+    "text": "Det blir sådd i vanære, det står opp i herlig glans. Det blir sådd i svakhet, det står opp i kraft.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 3,21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.44": {
+    "text": "Det blir sådd en kropp som hadde sjel, det står opp en åndelig kropp. Om det finnes en kropp med sjel, finnes det også en åndelig kropp. For slik står det skrevet:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.45": {
+    "text": "Det første mennesket, Adam, ble en levende sjel. Den siste Adam ble en ånd som gir liv.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "kan også oversettes «levende skapning», jf. 1 Mos 2,7. Uttrykket betegner mennesket som helhet. Samme uttrykk brukes også om dyr og fisker i 1 Mos 1,20f.24.30."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.46": {
+    "text": "Det åndelige var altså ikke det første, men det sjelelige. Deretter kom det åndelige.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.47": {
+    "text": "Det første mennesket var fra jorden og skapt av jord, det andre mennesket er fra himmelen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 2,7; Joh 3,31",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.48": {
+    "text": "Slik det første jordiske mennesket var, slik er også de andre jordiske. Og slik den himmelske er, slik skal også de himmelske være.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.49": {
+    "text": "På samme måte som vi har båret det jordiske menneskets bilde, skal vi også bære den himmelskes bilde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 5,3; Rom 8,29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.50": {
+    "text": "Men det sier jeg, søsken: Kjøtt og blod kan ikke arve Guds rike, og det forgjengelige skal ikke arve uforgjengelighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 3,5f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.51": {
+    "text": "Se, jeg sier dere en hemmelighet: Vi skal ikke alle sovne inn, men vi skal alle forvandles,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.15.52": {
+    "text": "brått, på et øyeblikk, ved det siste basunstøt. For basunen skal lyde, de døde skal stå opp i uforgjengelighet, og vi skal bli forvandlet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 24,31+; 1 Tess 4,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.53": {
+    "text": "For det forgjengelige må bli kledd i uforgjengelighet, og det dødelige må bli kledd i udødelighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 5,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.54": {
+    "text": "Og når dette forgjengelige er kledd i uforgjengelighet og dette dødelige er kledd i udødelighet, da oppfylles det som står skrevet: Døden er oppslukt, seieren vunnet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 25,8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.55": {
+    "text": "Død, hvor er din brodd? Død, hvor er din seier?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hos 13,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.56": {
+    "text": "Dødens brodd er synden, og syndens kraft er loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 7,7ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.57": {
+    "text": "Men Gud være takk som gir oss seier ved vår Herre Jesus Kristus!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Joh 5,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.15.58": {
+    "text": "Derfor, mine kjære søsken, stå fast og urokkelig. Arbeid raust og rikelig for Herren! For dere vet at i Herren er ikke deres strev forgjeves.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.16.1": {
+    "text": "Når det gjelder innsamlingen til de hellige, skal også dere gjøre slik jeg har pålagt menighetene i Galatia.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Innsamlingen til de hellige"
+  },
+  "1CO.16.2": {
+    "text": "Første dag i uken skal hver enkelt av dere hjemme hos seg selv legge til side så mye som dere er i stand til, for at innsamlingen ikke først skal begynne når jeg kommer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 28,1; Apg 20,7; Åp 1,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.3": {
+    "text": "Når jeg er kommet, skal jeg gi anbefalingsbrev til dem dere finner skikket, og sende dem til Jerusalem med gaven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 8,19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.4": {
+    "text": "Om det er nødvendig at også jeg reiser, kan de dra sammen med meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.16.5": {
+    "text": "Jeg kommer til dere når jeg har vært i Makedonia. Der reiser jeg bare igjennom,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 19,21",
+        "refs": []
+      }
+    ],
+    "section": "Hilsener og sluttord"
+  },
+  "1CO.16.6": {
+    "text": "men hos dere vil jeg nok bli en stund, kanskje vinteren over. Så kan dere utruste meg for reisen videre, hvor den nå går.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.16.7": {
+    "text": "Denne gangen besøker jeg dere ikke bare på gjennomreise. Jeg håper å kunne bli en tid hvis Herren tillater det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.16.8": {
+    "text": "I Efesos blir jeg til pinse.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Paulus skriver 1 Kor i Efesos. =byer."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.9": {
+    "text": "For her er det åpne dører og rike muligheter for meg, og motstanderne er mange.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "et bilde på at folk er åpne for evangeliet. Jf. Apg 14,27; 2 Kor 2,12; Kol 4,3; Åp 3,8."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.16.10": {
+    "text": "Dersom Timoteus kommer, så sørg for at han kan kjenne seg trygg hos dere. For han gjør Herrens gjerning akkurat som jeg selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4,17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.11": {
+    "text": "Derfor skal ingen se ned på ham. Hjelp ham videre på reisen og la ham fare med fred, så han kan komme tilbake. For jeg og våre søsken venter på ham.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Paulus bruker ofte dette ordet når han tiltaler og omtaler sine medkristne. =søsken."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 4,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.12": {
+    "text": "Når det gjelder vår bror Apollos, har jeg bedt ham inntrengende om å reise til dere sammen med brødrene. Men han er slett ikke villig til å reise nå; han kommer så snart han får anledning.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.13": {
+    "text": "Vær våkne, stå fast i troen, vær modige og sterke!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 6,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.14": {
+    "text": "La alt dere gjør, skje i kjærlighet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.16.15": {
+    "text": "Enda en ting ber jeg dere om, søsken. Dere vet at familien til Stefanas var en første frukt i Akaia, og at de har viet seg til tjenesten for de hellige.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.16": {
+    "text": "Også dere må underordne dere under slike som dem og under enhver som strever og arbeider sammen med meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tess 5,12f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.17": {
+    "text": "Jeg er glad for at Stefanas, Fortunatus og Akaikos er kommet. De har oppveid savnet av dere",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.16.18": {
+    "text": "og beroliget både meg og dere. Ha respekt for slike som dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.16.19": {
+    "text": "Menighetene i Asia hilser dere. Akvilas og Priska og menigheten som samles i deres hus, hilser dere hjertelig i Herrens navn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 18,2f; Rom 16,3ff; 2 Tim 4,19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.20": {
+    "text": "Alle våre søsken her sender sin hilsen. Hils hverandre med et hellig kyss!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 16,16; 2 Kor 13,12; 1 Tess 5,26; 1 Pet 5,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.21": {
+    "text": "Jeg, Paulus, skriver min hilsen med egen hånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 6,11; Kol 4,18; 2 Tess 3,17; Filem 19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.22": {
+    "text": "Den som ikke elsker Herren, forbannet være han! Marana ta!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "aram. bønnerop som betyr «Kom, Herre!» Jf. Åp 22,20. Ordene kan også deles på en annen måte: maran ata, «Herren er kommet» eller «Herren kommer»."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 1,8f; Åp 22,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "1CO.16.23": {
+    "text": "Herren Jesu nåde være med dere!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "1CO.16.24": {
+    "text": "Min kjærlighet er med dere alle i Kristus Jesus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

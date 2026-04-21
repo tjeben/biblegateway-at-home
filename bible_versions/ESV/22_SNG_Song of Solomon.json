@@ -1,119 +1,2312 @@
 {
-  "SNG.1.1": "The Song of Songs, which is Solomon’s.",
-  "SNG.1.2": "Let him kiss me with the kisses of his mouth! For your love is better than wine;",
-  "SNG.1.3": "your anointing oils are fragrant; your name is oil poured out; therefore virgins love you.",
-  "SNG.1.4": "Draw me after you; let us run. The king has brought me into his chambers. We will exult and rejoice in you; we will extol your love more than wine; rightly do they love you.",
-  "SNG.1.5": "I am very dark, but lovely, O daughters of Jerusalem, like the tents of Kedar, like the curtains of Solomon.",
-  "SNG.1.6": "Do not gaze at me because I am dark, because the sun has looked upon me. My mother’s sons were angry with me; they made me keeper of the vineyards, but my own vineyard I have not kept!",
-  "SNG.1.7": "Tell me, you whom my soul loves, where you pasture your flock, where you make it lie down at noon; for why should I be like one who veils herself beside the flocks of your companions?",
-  "SNG.1.8": "If you do not know, O most beautiful among women, follow in the tracks of the flock, and pasture your young goats beside the shepherds’ tents.",
-  "SNG.1.9": "I compare you, my love, to a mare among Pharaoh’s chariots.",
-  "SNG.1.10": "Your cheeks are lovely with ornaments, your neck with strings of jewels.",
-  "SNG.1.11": "We will make for you ornaments of gold, studded with silver.",
-  "SNG.1.12": "While the king was on his couch, my nard gave forth its fragrance.",
-  "SNG.1.13": "My beloved is to me a sachet of myrrh that lies between my breasts.",
-  "SNG.1.14": "My beloved is to me a cluster of henna blossoms in the vineyards of Engedi.",
-  "SNG.1.15": "Behold, you are beautiful, my love; behold, you are beautiful; your eyes are doves.",
-  "SNG.1.16": "Behold, you are beautiful, my beloved, truly delightful. Our couch is green;",
-  "SNG.1.17": "the beams of our house are cedar; our rafters are pine.",
-  "SNG.2.1": "I am a rose of Sharon, a lily of the valleys.",
-  "SNG.2.2": "As a lily among brambles, so is my love among the young women.",
-  "SNG.2.3": "As an apple tree among the trees of the forest, so is my beloved among the young men. With great delight I sat in his shadow, and his fruit was sweet to my taste.",
-  "SNG.2.4": "He brought me to the banqueting house, and his banner over me was love.",
-  "SNG.2.5": "Sustain me with raisins; refresh me with apples, for I am sick with love.",
-  "SNG.2.6": "His left hand is under my head, and his right hand embraces me!",
-  "SNG.2.7": "I adjure you, O daughters of Jerusalem, by the gazelles or the does of the field, that you not stir up or awaken love until it pleases.",
-  "SNG.2.8": "The voice of my beloved! Behold, he comes, leaping over the mountains, bounding over the hills.",
-  "SNG.2.9": "My beloved is like a gazelle or a young stag. Behold, there he stands behind our wall, gazing through the windows, looking through the lattice.",
-  "SNG.2.10": "My beloved speaks and says to me: “Arise, my love, my beautiful one, and come away,",
-  "SNG.2.11": "for behold, the winter is past; the rain is over and gone.",
-  "SNG.2.12": "The flowers appear on the earth, the time of singing has come, and the voice of the turtledove is heard in our land.",
-  "SNG.2.13": "The fig tree ripens its figs, and the vines are in blossom; they give forth fragrance. Arise, my love, my beautiful one, and come away.",
-  "SNG.2.14": "O my dove, in the clefts of the rock, in the crannies of the cliff, let me see your face, let me hear your voice, for your voice is sweet, and your face is lovely.",
-  "SNG.2.15": "Catch the foxes for us, the little foxes that spoil the vineyards, for our vineyards are in blossom.”",
-  "SNG.2.16": "My beloved is mine, and I am his; he grazes among the lilies.",
-  "SNG.2.17": "Until the day breathes and the shadows flee, turn, my beloved, be like a gazelle or a young stag on cleft mountains.",
-  "SNG.3.1": "On my bed by night I sought him whom my soul loves; I sought him, but found him not.",
-  "SNG.3.2": "I will rise now and go about the city, in the streets and in the squares; I will seek him whom my soul loves. I sought him, but found him not.",
-  "SNG.3.3": "The watchmen found me as they went about in the city. “Have you seen him whom my soul loves?”",
-  "SNG.3.4": "Scarcely had I passed them when I found him whom my soul loves. I held him, and would not let him go until I had brought him into my mother’s house, and into the chamber of her who conceived me.",
-  "SNG.3.5": "I adjure you, O daughters of Jerusalem, by the gazelles or the does of the field, that you not stir up or awaken love until it pleases.",
-  "SNG.3.6": "What is that coming up from the wilderness like columns of smoke, perfumed with myrrh and frankincense, with all the fragrant powders of a merchant?",
-  "SNG.3.7": "Behold, it is the litter of Solomon! Around it are sixty mighty men, some of the mighty men of Israel,",
-  "SNG.3.8": "all of them wearing swords and expert in war, each with his sword at his thigh, against terror by night.",
-  "SNG.3.9": "King Solomon made himself a carriage from the wood of Lebanon.",
-  "SNG.3.10": "He made its posts of silver, its back of gold, its seat of purple; its interior was inlaid with love by the daughters of Jerusalem.",
-  "SNG.3.11": "Go out, O daughters of Zion, and look upon King Solomon, with the crown with which his mother crowned him on the day of his wedding, on the day of the gladness of his heart.",
-  "SNG.4.1": "Behold, you are beautiful, my love, behold, you are beautiful! Your eyes are doves behind your veil. Your hair is like a flock of goats leaping down the slopes of Gilead.",
-  "SNG.4.2": "Your teeth are like a flock of shorn ewes that have come up from the washing, all of which bear twins, and not one among them has lost its young.",
-  "SNG.4.3": "Your lips are like a scarlet thread, and your mouth is lovely. Your cheeks are like halves of a pomegranate behind your veil.",
-  "SNG.4.4": "Your neck is like the tower of David, built in rows of stone; on it hang a thousand shields, all of them shields of warriors.",
-  "SNG.4.5": "Your two breasts are like two fawns, twins of a gazelle, that graze among the lilies.",
-  "SNG.4.6": "Until the day breathes and the shadows flee, I will go away to the mountain of myrrh and the hill of frankincense.",
-  "SNG.4.7": "You are altogether beautiful, my love; there is no flaw in you.",
-  "SNG.4.8": "Come with me from Lebanon, my bride; come with me from Lebanon. Depart from the peak of Amana, from the peak of Senir and Hermon, from the dens of lions, from the mountains of leopards.",
-  "SNG.4.9": "You have captivated my heart, my sister, my bride; you have captivated my heart with one glance of your eyes, with one jewel of your necklace.",
-  "SNG.4.10": "How beautiful is your love, my sister, my bride! How much better is your love than wine, and the fragrance of your oils than any spice!",
-  "SNG.4.11": "Your lips drip nectar, my bride; honey and milk are under your tongue; the fragrance of your garments is like the fragrance of Lebanon.",
-  "SNG.4.12": "A garden locked is my sister, my bride, a spring locked, a fountain sealed.",
-  "SNG.4.13": "Your shoots are an orchard of pomegranates with all choicest fruits, henna with nard,",
-  "SNG.4.14": "nard and saffron, calamus and cinnamon, with all trees of frankincense, myrrh and aloes, with all choice spices—",
-  "SNG.4.15": "a garden fountain, a well of living water, and flowing streams from Lebanon.",
-  "SNG.4.16": "Awake, O north wind, and come, O south wind! Blow upon my garden, let its spices flow. Let my beloved come to his garden, and eat its choicest fruits.",
-  "SNG.5.1": "I came to my garden, my sister, my bride, I gathered my myrrh with my spice, I ate my honeycomb with my honey, I drank my wine with my milk. Eat, friends, drink, and be drunk with love!",
-  "SNG.5.2": "I slept, but my heart was awake. A sound! My beloved is knocking. “Open to me, my sister, my love, my dove, my perfect one, for my head is wet with dew, my locks with the drops of the night.”",
-  "SNG.5.3": "I had put off my garment; how could I put it on? I had bathed my feet; how could I soil them?",
-  "SNG.5.4": "My beloved put his hand to the latch, and my heart was thrilled within me.",
-  "SNG.5.5": "I arose to open to my beloved, and my hands dripped with myrrh, my fingers with liquid myrrh, on the handles of the bolt.",
-  "SNG.5.6": "I opened to my beloved, but my beloved had turned and gone. My soul failed me when he spoke. I sought him, but found him not; I called him, but he gave no answer.",
-  "SNG.5.7": "The watchmen found me as they went about in the city; they beat me, they bruised me, they took away my veil, those watchmen of the walls.",
-  "SNG.5.8": "I adjure you, O daughters of Jerusalem, if you find my beloved, that you tell him I am sick with love.",
-  "SNG.5.9": "What is your beloved more than another beloved, O most beautiful among women? What is your beloved more than another beloved, that you thus adjure us?",
-  "SNG.5.10": "My beloved is radiant and ruddy, distinguished among ten thousand.",
-  "SNG.5.11": "His head is the finest gold; his locks are wavy, black as a raven.",
-  "SNG.5.12": "His eyes are like doves beside streams of water, bathed in milk, sitting beside a full pool.",
-  "SNG.5.13": "His cheeks are like beds of spices, mounds of sweet-smelling herbs. His lips are lilies, dripping liquid myrrh.",
-  "SNG.5.14": "His arms are rods of gold, set with jewels. His body is polished ivory, bedecked with sapphires.",
-  "SNG.5.15": "His legs are alabaster columns, set on bases of gold. His appearance is like Lebanon, choice as the cedars.",
-  "SNG.5.16": "His mouth is most sweet, and he is altogether desirable. This is my beloved and this is my friend, O daughters of Jerusalem.",
-  "SNG.6.1": "Where has your beloved gone, O most beautiful among women? Where has your beloved turned, that we may seek him with you?",
-  "SNG.6.2": "My beloved has gone down to his garden to the beds of spices, to graze in the gardens and to gather lilies.",
-  "SNG.6.3": "I am my beloved’s and my beloved is mine; he grazes among the lilies.",
-  "SNG.6.4": "You are beautiful as Tirzah, my love, lovely as Jerusalem, awesome as an army with banners.",
-  "SNG.6.5": "Turn away your eyes from me, for they overwhelm me— Your hair is like a flock of goats leaping down the slopes of Gilead.",
-  "SNG.6.6": "Your teeth are like a flock of ewes that have come up from the washing; all of them bear twins; not one among them has lost its young.",
-  "SNG.6.7": "Your cheeks are like halves of a pomegranate behind your veil.",
-  "SNG.6.8": "There are sixty queens and eighty concubines, and virgins without number.",
-  "SNG.6.9": "My dove, my perfect one, is the only one, the only one of her mother, pure to her who bore her. The young women saw her and called her blessed; the queens and concubines also, and they praised her.",
-  "SNG.6.10": "“Who is this who looks down like the dawn, beautiful as the moon, bright as the sun, awesome as an army with banners?”",
-  "SNG.6.11": "I went down to the nut orchard to look at the blossoms of the valley, to see whether the vines had budded, whether the pomegranates were in bloom.",
-  "SNG.6.12": "Before I was aware, my desire set me among the chariots of my kinsman, a prince.",
-  "SNG.6.13": "Return, return, O Shulammite, return, return, that we may look upon you. Why should you look upon the Shulammite, as upon a dance before two armies?",
-  "SNG.7.1": "How beautiful are your feet in sandals, O noble daughter! Your rounded thighs are like jewels, the work of a master hand.",
-  "SNG.7.2": "Your navel is a rounded bowl that never lacks mixed wine. Your belly is a heap of wheat, encircled with lilies.",
-  "SNG.7.3": "Your two breasts are like two fawns, twins of a gazelle.",
-  "SNG.7.4": "Your neck is like an ivory tower. Your eyes are pools in Heshbon, by the gate of Bath-rabbim. Your nose is like a tower of Lebanon, which looks toward Damascus.",
-  "SNG.7.5": "Your head crowns you like Carmel, and your flowing locks are like purple; a king is held captive in the tresses.",
-  "SNG.7.6": "How beautiful and pleasant you are, O loved one, with all your delights!",
-  "SNG.7.7": "Your stature is like a palm tree, and your breasts are like its clusters.",
-  "SNG.7.8": "I say I will climb the palm tree and lay hold of its fruit. Oh may your breasts be like clusters of the vine, and the scent of your breath like apples,",
-  "SNG.7.9": "and your mouth like the best wine. It goes down smoothly for my beloved, gliding over lips and teeth.",
-  "SNG.7.10": "I am my beloved’s, and his desire is for me.",
-  "SNG.7.11": "Come, my beloved, let us go out into the fields and lodge in the villages;",
-  "SNG.7.12": "let us go out early to the vineyards and see whether the vines have budded, whether the grape blossoms have opened and the pomegranates are in bloom. There I will give you my love.",
-  "SNG.7.13": "The mandrakes give forth fragrance, and beside our doors are all choice fruits, new as well as old, which I have laid up for you, O my beloved.",
-  "SNG.8.1": "Oh that you were like a brother to me who nursed at my mother’s breasts! If I found you outside, I would kiss you, and none would despise me.",
-  "SNG.8.2": "I would lead you and bring you into the house of my mother— she who used to teach me. I would give you spiced wine to drink, the juice of my pomegranate.",
-  "SNG.8.3": "His left hand is under my head, and his right hand embraces me!",
-  "SNG.8.4": "I adjure you, O daughters of Jerusalem, that you not stir up or awaken love until it pleases.",
-  "SNG.8.5": "Who is that coming up from the wilderness, leaning on her beloved? Under the apple tree I awakened you. There your mother was in labor with you; there she who bore you was in labor.",
-  "SNG.8.6": "Set me as a seal upon your heart, as a seal upon your arm, for love is strong as death, jealousy is fierce as the grave. Its flashes are flashes of fire, the very flame of the Lord.",
-  "SNG.8.7": "Many waters cannot quench love, neither can floods drown it. If a man offered for love all the wealth of his house, he would be utterly despised.",
-  "SNG.8.8": "We have a little sister, and she has no breasts. What shall we do for our sister on the day when she is spoken for?",
-  "SNG.8.9": "If she is a wall, we will build on her a battlement of silver, but if she is a door, we will enclose her with boards of cedar.",
-  "SNG.8.10": "I was a wall, and my breasts were like towers; then I was in his eyes as one who finds peace.",
-  "SNG.8.11": "Solomon had a vineyard at Baal-hamon; he let out the vineyard to keepers; each one was to bring for its fruit a thousand pieces of silver.",
-  "SNG.8.12": "My vineyard, my very own, is before me; you, O Solomon, may have the thousand, and the keepers of the fruit two hundred.",
-  "SNG.8.13": "O you who dwell in the gardens, with companions listening for your voice; let me hear it.",
-  "SNG.8.14": "Make haste, my beloved, and be like a gazelle or a young stag on the mountains of spices."
+  "SNG.1.1": {
+    "text": "The Song of Songs, which is Solomon’s.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kgs. 4:32",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.2": {
+    "text": "Let him kiss me with the kisses of his mouth! For your love is better than wine;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:10",
+        "refs": []
+      }
+    ],
+    "section": "The Bride Confesses Her Love"
+  },
+  "SNG.1.3": {
+    "text": "your anointing oils are fragrant; your name is oil poured out; therefore virgins love you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Luke 7:46; John 12:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Eccles. 7:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.4": {
+    "text": "Draw me after you; let us run. The king has brought me into his chambers. We will exult and rejoice in you; we will extol your love more than wine; rightly do they love you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Hos. 11:4; John 6:44; 12:32 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 119:32; See Phil. 3:12-14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 45:14, 15; [ch. 2:4; John 14:2; Eph. 2:6 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 9:2; 45:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 2 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.5": {
+    "text": "I am very dark, but lovely, O daughters of Jerusalem, like the tents of Kedar, like the curtains of Solomon.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:14; 4:3; 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:7; 3:5, 10, 11; 5:8, 16; 8:4; Luke 23:28",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 120:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 60:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.6": {
+    "text": "Do not gaze at me because I am dark, because the sun has looked upon me. My mother’s sons were angry with me; they made me keeper of the vineyards, but my own vineyard I have not kept!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ps. 69:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Job 27:18; Prov. 27:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:11, 12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Cor. 9:27]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.7": {
+    "text": "Tell me, you whom my soul loves, where you pasture your flock, where you make it lie down at noon; for why should I be like one who veils herself beside the flocks of your companions?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 3:1-4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:16; 6:3; [Ps. 23:1-3; Ezek. 34:14, 15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 13:20; Jer. 33:12]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.8": {
+    "text": "If you do not know, O most beautiful among women, follow in the tracks of the flock, and pasture your young goats beside the shepherds’ tents.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:9; 6:1",
+        "refs": []
+      }
+    ],
+    "section": "Solomon and His Bride Delight in Each Other"
+  },
+  "SNG.1.9": {
+    "text": "I compare you, my love, to a mare among Pharaoh’s chariots.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ver. 15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Chr. 1:16, 17]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.10": {
+    "text": "Your cheeks are lovely with ornaments, your neck with strings of jewels.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 5:13 ]; See Ezek. 16:11-14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.11": {
+    "text": "We will make for you ornaments of gold, studded with silver.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew for"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.12": {
+    "text": "While the king was on his couch, my nard gave forth its fragrance.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:13, 14; [Mark 14:3; John 12:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.13": {
+    "text": "My beloved is to me a sachet of myrrh that lies between my breasts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 45:8; [John 19:39]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.14": {
+    "text": "My beloved is to me a cluster of henna blossoms in the vineyards of Engedi.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Sam. 23:29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.15": {
+    "text": "Behold, you are beautiful, my love; behold, you are beautiful; your eyes are doves.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ezek. 16:13]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 9; ch. 2:2, 10, 13; 4:1, 7; 5:2; 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:1; 5:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.16": {
+    "text": "Behold, you are beautiful, my beloved, truly delightful. Our couch is green;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Sam. 1:23, 26]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.17": {
+    "text": "the beams of our house are cedar; our rafters are pine.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 37:24; 60:13; Ezek. 31:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 37:24; 60:13; Ezek. 31:8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.1": {
+    "text": "I am a rose of Sharon, a lily of the valleys.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Probably a bulb, such as a crocus, asphodel, or narcissus"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hos. 14:5; [ch. 5:13 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.2": {
+    "text": "As a lily among brambles, so is my love among the young women.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.3": {
+    "text": "As an apple tree among the trees of the forest, so is my beloved among the young men. With great delight I sat in his shadow, and his fruit was sweet to my taste.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 25:4; 32:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Rev. 22:2]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.4": {
+    "text": "He brought me to the banqueting house, and his banner over me was love.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 20:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.5": {
+    "text": "Sustain me with raisins; refresh me with apples, for I am sick with love.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Sam. 6:19; 1 Chr. 16:3; Hos. 3:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.6": {
+    "text": "His left hand is under my head, and his right hand embraces me!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 8:3; [Deut. 33:27]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 4:8]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.7": {
+    "text": "I adjure you, O daughters of Jerusalem, by the gazelles or the does of the field, that you not stir up or awaken love until it pleases.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "That is, I put you on oath; so throughout the Song"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:5; 5:8, 9; 8:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ver. 9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.8": {
+    "text": "The voice of my beloved! Behold, he comes, leaping over the mountains, bounding over the hills.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 52:7]",
+        "refs": []
+      }
+    ],
+    "section": "The Bride Adores Her Beloved"
+  },
+  "SNG.2.9": {
+    "text": "My beloved is like a gazelle or a young stag. Behold, there he stands behind our wall, gazing through the windows, looking through the lattice.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:5; 7:3; 8:14; 2 Sam. 2:18; 1 Chr. 12:8; [Ps. 18:33; Hab. 3:19]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.10": {
+    "text": "My beloved speaks and says to me: “Arise, my love, my beautiful one, and come away,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.11": {
+    "text": "for behold, the winter is past; the rain is over and gone.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Joel 2:23 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.12": {
+    "text": "The flowers appear on the earth, the time of singing has come, and the voice of the turtledove is heard in our land.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ 2 Sam. 23:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Jer. 8:7]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.13": {
+    "text": "The fig tree ripens its figs, and the vines are in blossom; they give forth fragrance. Arise, my love, my beautiful one, and come away.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Matt. 24:32 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 7:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.14": {
+    "text": "O my dove, in the clefts of the rock, in the crannies of the cliff, let me see your face, let me hear your voice, for your voice is sweet, and your face is lovely.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:2; 6:9; [ch. 1:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 48:28; 49:16; Obad. 3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:5; 4:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.15": {
+    "text": "Catch the foxes for us, the little foxes that spoil the vineyards, for our vineyards are in blossom.”",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ezek. 13:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 13 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.16": {
+    "text": "My beloved is mine, and I am his; he grazes among the lilies.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:3; 7:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:5; 6:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.17": {
+    "text": "Until the day breathes and the shadows flee, turn, my beloved, be like a gazelle or a young stag on cleft mountains.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:6; [Gen. 3:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 6:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ver. 9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.1": {
+    "text": "On my bed by night I sought him whom my soul loves; I sought him, but found him not.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 26:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:6; [ John 7:34 ]",
+        "refs": []
+      }
+    ],
+    "section": "The Bride’s Dream"
+  },
+  "SNG.3.2": {
+    "text": "I will rise now and go about the city, in the streets and in the squares; I will seek him whom my soul loves. I sought him, but found him not.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 5:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 1 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.3": {
+    "text": "The watchmen found me as they went about in the city. “Have you seen him whom my soul loves?”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.4": {
+    "text": "Scarcely had I passed them when I found him whom my soul loves. I held him, and would not let him go until I had brought him into my mother’s house, and into the chamber of her who conceived me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 1 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Job 27:6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 8:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Hos. 2:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.5": {
+    "text": "I adjure you, O daughters of Jerusalem, by the gazelles or the does of the field, that you not stir up or awaken love until it pleases.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 2:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.6": {
+    "text": "What is that coming up from the wilderness like columns of smoke, perfumed with myrrh and frankincense, with all the fragrant powders of a merchant?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 8:5; [ch. 6:10; Isa. 60:8 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 13:21; Joel 2:30",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:6, 14; Matt. 2:11; John 19:39",
+        "refs": []
+      }
+    ],
+    "section": "Solomon Arrives for the Wedding"
+  },
+  "SNG.3.7": {
+    "text": "Behold, it is the litter of Solomon! Around it are sixty mighty men, some of the mighty men of Israel,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "That is, the couch on which servants carry a king"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Sam. 23:8; 1 Chr. 11:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.8": {
+    "text": "all of them wearing swords and expert in war, each with his sword at his thigh, against terror by night.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 45:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 91:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.9": {
+    "text": "King Solomon made himself a carriage from the wood of Lebanon.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.3.10": {
+    "text": "He made its posts of silver, its back of gold, its seat of purple; its interior was inlaid with love by the daughters of Jerusalem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.11": {
+    "text": "Go out, O daughters of Zion, and look upon King Solomon, with the crown with which his mother crowned him on the day of his wedding, on the day of the gladness of his heart.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 3:16, 17; 4:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 62:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.1": {
+    "text": "Behold, you are beautiful, my love, behold, you are beautiful! Your eyes are doves behind your veil. Your hair is like a flock of goats leaping down the slopes of Gilead.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:15; 5:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:5; [ch. 7:5 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mic. 7:14",
+        "refs": []
+      }
+    ],
+    "section": "Solomon Admires His Bride’s Beauty"
+  },
+  "SNG.4.2": {
+    "text": "Your teeth are like a flock of shorn ewes that have come up from the washing, all of which bear twins, and not one among them has lost its young.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.3": {
+    "text": "Your lips are like a scarlet thread, and your mouth is lovely. Your cheeks are like halves of a pomegranate behind your veil.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Josh. 2:18]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:5; 2:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 1 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.4": {
+    "text": "Your neck is like the tower of David, built in rows of stone; on it hang a thousand shields, all of them shields of warriors.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The meaning of the Hebrew word is uncertain"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 7:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Neh. 3:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ezek. 27:10, 11]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Sam. 1:21]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.5": {
+    "text": "Your two breasts are like two fawns, twins of a gazelle, that graze among the lilies.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 7:3; [ch. 8:10; Prov. 5:19]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 2:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:16; 6:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.6": {
+    "text": "Until the day breathes and the shadows flee, I will go away to the mountain of myrrh and the hill of frankincense.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 14; [ch. 3:6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 14; [ch. 3:6]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.7": {
+    "text": "You are altogether beautiful, my love; there is no flaw in you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:2; [Eph. 5:27]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.8": {
+    "text": "Come with me from Lebanon, my bride; come with me from Lebanon. Depart from the peak of Amana, from the peak of Senir and Hermon, from the dens of lions, from the mountains of leopards.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ps. 45:10, 11 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 7:4; See 1 Kgs. 4:33",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 62:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 7:4; See 1 Kgs. 4:33",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 3:9; 1 Chr. 5:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 89:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.9": {
+    "text": "You have captivated my heart, my sister, my bride; you have captivated my heart with one glance of your eyes, with one jewel of your necklace.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 5:1, 2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Judg. 8:26]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.10": {
+    "text": "How beautiful is your love, my sister, my bride! How much better is your love than wine, and the fragrance of your oils than any spice!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 9 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:2, 4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.11": {
+    "text": "Your lips drip nectar, my bride; honey and milk are under your tongue; the fragrance of your garments is like the fragrance of Lebanon.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Prov. 5:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 24:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Hos. 14:6; [Gen. 27:27]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 8 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.12": {
+    "text": "A garden locked is my sister, my bride, a spring locked, a fountain sealed.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 9 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Gen. 29:3; Dan. 6:17]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 5:15]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.13": {
+    "text": "Your shoots are an orchard of pomegranates with all choicest fruits, henna with nard,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eccles. 2:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 7:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.14": {
+    "text": "nard and saffron, calamus and cinnamon, with all trees of frankincense, myrrh and aloes, with all choice spices—",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ex. 30:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 30:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 3:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "John 19:39",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 30:23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.15": {
+    "text": "a garden fountain, a well of living water, and flowing streams from Lebanon.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 2:13; [John 4:10; 7:38]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 8 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.16": {
+    "text": "Awake, O north wind, and come, O south wind! Blow upon my garden, let its spices flow. Let my beloved come to his garden, and eat its choicest fruits.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 5:1; 6:2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 6:2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 13 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.1": {
+    "text": "I came to my garden, my sister, my bride, I gathered my myrrh with my spice, I ate my honeycomb with my honey, I drank my wine with my milk. Eat, friends, drink, and be drunk with love!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 4:16; 6:2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:9, 10, 12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 5, 13; ch. 4:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 9:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[John 15:14, 15]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.2": {
+    "text": "I slept, but my heart was awake. A sound! My beloved is knocking. “Open to me, my sister, my love, my dove, my perfect one, for my head is wet with dew, my locks with the drops of the night.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Rev. 3:20]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:9, 10, 12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 2:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:9; [ch. 4:7]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 11",
+        "refs": []
+      }
+    ],
+    "section": "The Bride Searches for Her Beloved"
+  },
+  "SNG.5.3": {
+    "text": "I had put off my garment; how could I put it on? I had bathed my feet; how could I soil them?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Luke 11:7 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Gen. 18:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.4": {
+    "text": "My beloved put his hand to the latch, and my heart was thrilled within me.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.5.5": {
+    "text": "I arose to open to my beloved, and my hands dripped with myrrh, my fingers with liquid myrrh, on the handles of the bolt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.6": {
+    "text": "I opened to my beloved, but my beloved had turned and gone. My soul failed me when he spoke. I sought him, but found him not; I called him, but he gave no answer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Prov. 1:28 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.7": {
+    "text": "The watchmen found me as they went about in the city; they beat me, they bruised me, they took away my veil, those watchmen of the walls.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.8": {
+    "text": "I adjure you, O daughters of Jerusalem, if you find my beloved, that you tell him I am sick with love.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.9": {
+    "text": "What is your beloved more than another beloved, O most beautiful among women? What is your beloved more than another beloved, that you thus adjure us?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:8; 6:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 8 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.10": {
+    "text": "My beloved is radiant and ruddy, distinguished among ten thousand.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[1 Sam. 16:12]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ps. 45:2 ]",
+        "refs": []
+      }
+    ],
+    "section": "The Bride Praises Her Beloved"
+  },
+  "SNG.5.11": {
+    "text": "His head is the finest gold; his locks are wavy, black as a raven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.12": {
+    "text": "His eyes are like doves beside streams of water, bathed in milk, sitting beside a full pool.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The meaning of the Hebrew is uncertain"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:15; 4:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.13": {
+    "text": "His cheeks are like beds of spices, mounds of sweet-smelling herbs. His lips are lilies, dripping liquid myrrh.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:10]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 6:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:1]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 5 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.14": {
+    "text": "His arms are rods of gold, set with jewels. His body is polished ivory, bedecked with sapphires.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The meaning of the Hebrew word is uncertain"
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ex. 28:20; 39:13; Ezek. 1:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 24:10; Ezek. 1:26; 10:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.15": {
+    "text": "His legs are alabaster columns, set on bases of gold. His appearance is like Lebanon, choice as the cedars.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See 1 Kgs. 4:33",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.16": {
+    "text": "His mouth is most sweet, and he is altogether desirable. This is my beloved and this is my friend, O daughters of Jerusalem.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 7:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 8 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.1": {
+    "text": "Where has your beloved gone, O most beautiful among women? Where has your beloved turned, that we may seek him with you?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ch. 5:9 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.2": {
+    "text": "My beloved has gone down to his garden to the beds of spices, to graze in the gardens and to gather lilies.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:16; 5:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:1]",
+        "refs": []
+      }
+    ],
+    "section": "Together in the Garden of Love"
+  },
+  "SNG.6.3": {
+    "text": "I am my beloved’s and my beloved is mine; he grazes among the lilies.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:16; 7:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.4": {
+    "text": "You are beautiful as Tirzah, my love, lovely as Jerusalem, awesome as an army with banners.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See 1 Kgs. 14:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 48:2; 50:2; Lam. 2:15; [Rev. 21:2]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 10",
+        "refs": []
+      }
+    ],
+    "section": "Solomon and His Bride Delight in Each Other"
+  },
+  "SNG.6.5": {
+    "text": "Turn away your eyes from me, for they overwhelm me— Your hair is like a flock of goats leaping down the slopes of Gilead.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.6": {
+    "text": "Your teeth are like a flock of ewes that have come up from the washing; all of them bear twins; not one among them has lost its young.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.7": {
+    "text": "Your cheeks are like halves of a pomegranate behind your veil.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.8": {
+    "text": "There are sixty queens and eighty concubines, and virgins without number.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:7]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 11:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 11:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 45:9, 14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.9": {
+    "text": "My dove, my perfect one, is the only one, the only one of her mother, pure to her who bore her. The young women saw her and called her blessed; the queens and concubines also, and they praised her.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 5:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 17:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Gen. 30:13 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 8 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 8 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.10": {
+    "text": "“Who is this who looks down like the dawn, beautiful as the moon, bright as the sun, awesome as an army with banners?”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 3:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.11": {
+    "text": "I went down to the nut orchard to look at the blossoms of the valley, to see whether the vines had budded, whether the pomegranates were in bloom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Job 8:11, 12]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 7:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.12": {
+    "text": "Before I was aware, my desire set me among the chariots of my kinsman, a prince.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ps. 35:8; Prov. 5:6 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Kgs. 2:12; 13:14]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.13": {
+    "text": "Return, return, O Shulammite, return, return, that we may look upon you. Why should you look upon the Shulammite, as upon a dance before two armies?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 1:3; 2 Kgs. 4:12]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 1:3; 2 Kgs. 4:12]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Judg. 21:21]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gen. 32:2; 2 Sam. 17:24",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.1": {
+    "text": "How beautiful are your feet in sandals, O noble daughter! Your rounded thighs are like jewels, the work of a master hand.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 45:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 25:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 8:30]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.2": {
+    "text": "Your navel is a rounded bowl that never lacks mixed wine. Your belly is a heap of wheat, encircled with lilies.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.3": {
+    "text": "Your two breasts are like two fawns, twins of a gazelle.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 4:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.4": {
+    "text": "Your neck is like an ivory tower. Your eyes are pools in Heshbon, by the gate of Bath-rabbim. Your nose is like a tower of Lebanon, which looks toward Damascus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 4:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 5:12]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Num. 21:26",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 4:8; See 1 Kgs. 4:33",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Kgs. 11:24; 2 Kgs. 5:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.5": {
+    "text": "Your head crowns you like Carmel, and your flowing locks are like purple; a king is held captive in the tresses.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Josh. 19:26",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 4:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.6": {
+    "text": "How beautiful and pleasant you are, O loved one, with all your delights!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:15, 16 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Sam. 1:23, 26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.7": {
+    "text": "Your stature is like a palm tree, and your breasts are like its clusters.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.7.8": {
+    "text": "I say I will climb the palm tree and lay hold of its fruit. Oh may your breasts be like clusters of the vine, and the scent of your breath like apples,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:14; Mic. 7:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.9": {
+    "text": "and your mouth like the best wine. It goes down smoothly for my beloved, gliding over lips and teeth.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      },
+      {
+        "marker": "#",
+        "text": "Septuagint, Syriac, Vulgate; Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 5:16]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.10": {
+    "text": "I am my beloved’s, and his desire is for me.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:16; 6:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ps. 45:11 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.11": {
+    "text": "Come, my beloved, let us go out into the fields and lodge in the villages;",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 2:10; 4:8 ]",
+        "refs": []
+      }
+    ],
+    "section": "The Bride Gives Her Love"
+  },
+  "SNG.7.12": {
+    "text": "let us go out early to the vineyards and see whether the vines have budded, whether the grape blossoms have opened and the pomegranates are in bloom. There I will give you my love.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 6:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:13, 15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.13": {
+    "text": "The mandrakes give forth fragrance, and beside our doors are all choice fruits, new as well as old, which I have laid up for you, O my beloved.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gen. 30:14; ch. 4:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Matt. 13:52 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.1": {
+    "text": "Oh that you were like a brother to me who nursed at my mother’s breasts! If I found you outside, I would kiss you, and none would despise me.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Longing for Her Beloved"
+  },
+  "SNG.8.2": {
+    "text": "I would lead you and bring you into the house of my mother— she who used to teach me. I would give you spiced wine to drink, the juice of my pomegranate.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Prov. 9:2, 5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.3": {
+    "text": "His left hand is under my head, and his right hand embraces me!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:6, 7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.4": {
+    "text": "I adjure you, O daughters of Jerusalem, that you not stir up or awaken love until it pleases.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:7 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.5": {
+    "text": "Who is that coming up from the wilderness, leaning on her beloved? Under the apple tree I awakened you. There your mother was in labor with you; there she who bore you was in labor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 3:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.6": {
+    "text": "Set me as a seal upon your heart, as a seal upon your arm, for love is strong as death, jealousy is fierce as the grave. Its flashes are flashes of fire, the very flame of the Lord.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 49:16; Jer. 22:24; Hag. 2:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Rom. 8:35]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ex. 34:14 ]; Deut. 4:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Job 1:16]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.7": {
+    "text": "Many waters cannot quench love, neither can floods drown it. If a man offered for love all the wealth of his house, he would be utterly despised.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 6:35",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.8": {
+    "text": "We have a little sister, and she has no breasts. What shall we do for our sister on the day when she is spoken for?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ezek. 16:7]",
+        "refs": []
+      }
+    ],
+    "section": "Final Advice"
+  },
+  "SNG.8.9": {
+    "text": "If she is a wall, we will build on her a battlement of silver, but if she is a door, we will enclose her with boards of cedar.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 6:15]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.10": {
+    "text": "I was a wall, and my breasts were like towers; then I was in his eyes as one who finds peace.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 4:12, 13 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 4:5; 7:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.11": {
+    "text": "Solomon had a vineyard at Baal-hamon; he let out the vineyard to keepers; each one was to bring for its fruit a thousand pieces of silver.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Eccles. 2:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Matt. 21:33]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 7:23]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.12": {
+    "text": "My vineyard, my very own, is before me; you, O Solomon, may have the thousand, and the keepers of the fruit two hundred.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Prov. 27:18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.13": {
+    "text": "O you who dwell in the gardens, with companions listening for your voice; let me hear it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 5:1 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.14": {
+    "text": "Make haste, my beloved, and be like a gazelle or a young stag on the mountains of spices.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Rev. 22:17, 20 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 2:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 4:6]",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

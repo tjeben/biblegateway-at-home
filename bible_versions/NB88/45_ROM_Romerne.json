@@ -1,435 +1,4786 @@
 {
-  "ROM.1.1": "Paulus, Jesu Kristi tjener, kalt til apostel, utskilt for Guds evangelium,",
-  "ROM.1.2": "det som han forut har gitt løfte om ved sine profeter i hellige skrifter,",
-  "ROM.1.3": "om hans Sønn, han som etter kjødet er kommet av Davids ætt,",
-  "ROM.1.4": "og som etter hellighets Ånd er godtgjort å være Guds veldige Sønn ved oppstandelsen fra de døde, Jesus Kristus, vår Herre.",
-  "ROM.1.5": "Ved ham har vi fått nåde og apostelembete for å virke troens lydighet blant alle hedningefolkene, for hans navns skyld.",
-  "ROM.1.6": "Blant dem er også dere kalt til Jesus Kristus.",
-  "ROM.1.7": "- Til alle Guds elskede, kalte og hellige som er i Roma: Nåde være med dere og fred fra Gud, vår Far, og Herren Jesus Kristus.",
-  "ROM.1.8": "Først takker jeg min Gud ved Jesus Kristus for dere alle, for i hele verden blir det talt om deres tro.",
-  "ROM.1.9": "For Gud selv, som jeg tjener i min ånd i hans Sønns evangelium, han er mitt vitne på hvordan jeg stadig minnes dere i bønnene mine,",
-  "ROM.1.10": "og ber om at det endelig en gang ved Guds vilje må lykkes for meg å komme til dere.",
-  "ROM.1.11": "For jeg lengter etter å se dere, så jeg kunne la dere få del med meg i noen åndelig gave, slik at dere kan bli styrket.",
-  "ROM.1.12": "Det vil si: at vi kunne oppmuntres sammen med dere ved vår felles tro, deres og min.",
-  "ROM.1.13": "Jeg vil ikke, brødre, at dere skal være uvitende om at jeg ofte har satt meg fore å komme til dere, men helt til nå er jeg blitt hindret. Også hos dere ville jeg gjerne høste noen frukt av mitt arbeid, likesom blant de øvrige hedningefolk.",
-  "ROM.1.14": "Jeg står i gjeld både til grekere og barbarer, både til vise og uvise.",
-  "ROM.1.15": "Derfor er jeg for min del rede til å forkynne evangeliet også for dere i Roma.",
-  "ROM.1.16": "For jeg skammer meg ikke ved evangeliet, for det er en Guds kraft til frelse for hver den som tror, både for jøde først og så for greker.",
-  "ROM.1.17": "For i det åpenbares Guds rettferdighet av tro til tro. Som det står skrevet: Den rettferdige av tro, skal leve.",
-  "ROM.1.18": "For Guds vrede åpenbares fra himmelen over all ugudelighet og urettferdighet hos mennesker som holder sannheten nede i urettferdighet.",
-  "ROM.1.19": "For det en kan vite om Gud, ligger åpent for dem, for Gud har åpenbart det for dem.",
-  "ROM.1.20": "For hans usynlige vesen, både hans evige kraft og hans guddommelighet, har vært synlig fra verdens skapelse av. Det kjennes av hans gjerninger, for at de skal være uten unnskyldning.",
-  "ROM.1.21": "For enda de kjente Gud, æret eller takket de ham ikke som Gud. I stedet ble de tomme i sine tanker, og deres uforstandige hjerter ble formørket.",
-  "ROM.1.22": "Mens de ga seg ut for å være vise, ble de dårer.",
-  "ROM.1.23": "Og de byttet bort den uforgjengelige Guds herlighet mot et bilde, en avbildning av et forgjengelig menneske og av fugler og firbente dyr og krypdyr.",
-  "ROM.1.24": "Derfor overga også Gud dem i deres hjerters lyster til urenhet, til å vanære sine legemer seg imellom.",
-  "ROM.1.25": "De byttet bort Guds sannhet mot løgnen og æret og dyrket skapningen fremfor Skaperen, han som er lovprist i evighet. Amen.",
-  "ROM.1.26": "Derfor overga Gud dem til skammelige lidenskaper. Kvinnene deres byttet om det naturlige samliv med et som er mot naturen.",
-  "ROM.1.27": "På samme vis forlot også mennene den naturlige omgang med kvinnen og brant i sitt begjær etter hverandre. Menn drev skammelig utukt med menn, og fikk på sin egen kropp den straffen som var uunngåelig på grunn av deres forvillelse.",
-  "ROM.1.28": "Og ettersom de ikke brydde seg om å eie Gud i kunnskap, overga Gud dem til et udugelig sinn, så de gjør slikt som ikke sømmer seg.",
-  "ROM.1.29": "De er fulle av all slags urett, umoral, griskhet, ondskap, fulle av misunnelse, mordlyst og strid, svik og falskhet. De ble ryktemakere,",
-  "ROM.1.30": "baktalere, gudshatere, voldsmenn, overmodige, storskrytere, oppfinnsomme til ondt, ulydige mot foreldre,",
-  "ROM.1.31": "uforstandige, upålitelige, uten naturlig kjærlighet, ubarmhjertige.",
-  "ROM.1.32": "De kjenner godt til Guds rettferdige dom, at de som gjør slikt, fortjener døden. Likevel gjør de ikke bare slikt selv, men de holder også med dem som gjør det.",
-  "ROM.2.1": "Derfor er du uten unnskyldning, du menneske, hvem du så er som dømmer. For idet du dømmer en annen, fordømmer du deg selv. Du som dømmer, gjør jo selv det samme.",
-  "ROM.2.2": "Vi vet at Guds dom, i samsvar med sannheten, er over dem som gjør slikt.",
-  "ROM.2.3": "Men du, menneske, som dømmer disse som gjør slikt, og selv gjør det samme - mener du at du skal unnfly Guds dom?",
-  "ROM.2.4": "Eller forakter du hans rikdom på godhet og overbærenhet og tålmodighet? Vet du ikke at Guds godhet driver deg til omvendelse?",
-  "ROM.2.5": "Med din hardhet og ditt ubotferdige hjerte hoper du deg opp vrede til vredens dag, den dagen når Guds rettferdige dom skal bli åpenbart.",
-  "ROM.2.6": "For han skal gi enhver igjen etter hans gjerninger.",
-  "ROM.2.7": "Til dem som med utholdenhet i god gjerning søker herlighet og ære og uforgjengelighet, skal han gi evig liv.",
-  "ROM.2.8": "Men over dem som er gjenstridige og ulydige mot sannheten, men lydige mot urettferdigheten - over dem skal komme vrede og harme.",
-  "ROM.2.9": "Trengsel og angst skal komme over hver menneskesjel som gjør det onde, både jøde først og så greker.",
-  "ROM.2.10": "Men herlighet og ære og fred skal hver den få som gjør det gode, både jøde først og så greker.",
-  "ROM.2.11": "For Gud gjør ikke forskjell på folk,",
-  "ROM.2.12": "alle som syndet uten å ha loven, skal gå fortapt uten loven, og alle som har syndet under loven, skal dømmes ved loven.",
-  "ROM.2.13": "For ikke de som hører loven, er rettferdige for Gud, men de som gjør etter loven, skal bli rettferdiggjort.",
-  "ROM.2.14": "For når hedninger, som ikke har loven, av naturen gjør det loven byr, da er disse, som ikke har loven, seg selv en lov.",
-  "ROM.2.15": "De viser at den gjerning loven krever, er skrevet i deres hjerter. Om det vitner også deres samvittighet og deres tanker, som innbyrdes anklager dem eller også forsvarer dem -",
-  "ROM.2.16": "på den dagen når Gud skal dømme det skjulte hos menneskene, etter mitt evangelium, ved Jesus Kristus.",
-  "ROM.2.17": "Men om du kaller deg jøde, og du setter din lit til loven og roser deg av Gud,",
-  "ROM.2.18": "og kjenner hans vilje og dømmer om de forskjellige ting, fordi du er opplært i loven,",
-  "ROM.2.19": "og regner deg selv å være en veiviser for blinde, et lys for dem som er i mørket,",
-  "ROM.2.20": "en oppdrager for uforstandige, en lærer for umyndige, siden du har den rette form for kunnskap og sannhet i loven:",
-  "ROM.2.21": "Du som altså lærer en annen, lærer du deg selv? Du som forkynner at en ikke skal stjele, stjeler du?",
-  "ROM.2.22": "Du som sier at en ikke skal bryte ekteskapet, bryter du ekteskapet? Du som har avsky for avgudene, raner du templene deres?",
-  "ROM.2.23": "Du som roser deg av loven, du vanærer Gud ved å bryte loven!",
-  "ROM.2.24": "For på grunn av dere blir Guds navn spottet blant hedningene, slik det står skrevet.",
-  "ROM.2.25": "For omskjærelsen er nok til nytte dersom du holder loven. Men er du en lovbryter, da er din omskjærelse blitt til forhud.",
-  "ROM.2.26": "Om nå en uomskåren oppfyller lovens rettferdskrav, skulle ikke da denne uomskårne regnes som omskåret?",
-  "ROM.2.27": "Og den som i ytre forstand ikke er omskåret, men oppfyller loven, skal dømme deg, du som med bokstav og omskjærelse er en lovbryter.",
-  "ROM.2.28": "For ikke den er jøde som er det i det ytre. Heller ikke er det omskjærelse, det som gjøres i det åpenbare, på kjødet.",
-  "ROM.2.29": "Men den som er jøde i det skjulte, han er jøde. Og omskjærelsen er hjertets omskjærelse i Ånden, ikke i bokstaven. En slik har sin ros, ikke av mennesker, men av Gud.",
-  "ROM.3.1": "Hva fortrinn har da jøden? Eller hva gagn er det i omskjærelsen?",
-  "ROM.3.2": "Mye på alle vis! Først og fremst at Guds ord ble betrodd dem.",
-  "ROM.3.3": "Hva så om noen var utro? Skulle vel deres utroskap gjøre Guds troskap til intet?",
-  "ROM.3.4": "Langt derifra! La det stå fast at Gud er sannferdig, men hvert menneske er en løgner! Som det står skrevet: For at du må kjennes rettferdig i dine ord og vinne når du fører din sak.",
-  "ROM.3.5": "Men dersom vår urettferdighet fremhever Guds rettferdighet, hva skal vi da si? Er kanskje Gud urettferdig når han fører sin vrede over oss? - Jeg taler på menneskelig vis.",
-  "ROM.3.6": "Langt derifra! Hvordan skulle da Gud kunne dømme verden?",
-  "ROM.3.7": "Men hvis Guds sannferdighet ved min løgn viser seg større til hans ære, hvorfor blir jeg da likevel dømt som synder?",
-  "ROM.3.8": "Skal vi ikke da like gjerne gjøre det onde for at det gode kan komme av det - slik vi spottes for og som noen sier at vi lærer? Rettferdig er den dommen som rammer slike!",
-  "ROM.3.9": "Hva da? Har vi noe fortrinn? Nei, slett ikke! Vi har jo allerede anklaget både jøder og grekere for at de alle er under synd,",
-  "ROM.3.10": "som det står skrevet: Det er ikke én rettferdig, ikke en eneste.",
-  "ROM.3.11": "Det er ikke én som er forstandig, det er ikke én som søker Gud.",
-  "ROM.3.12": "Alle er veket av, alle sammen er blitt udugelige. Det er ikke noen som gjør det gode, ikke en eneste.",
-  "ROM.3.13": "Deres strupe er en åpnet grav, de bruker sin tunge til svik, ormegift er under deres lepper.",
-  "ROM.3.14": "Deres munn er full av forbannelse og bitterhet.",
-  "ROM.3.15": "Raske er deres føtter til å utøse blod.",
-  "ROM.3.16": "Ødeleggelse og elendighet er det på deres veier.",
-  "ROM.3.17": "Freds vei kjenner de ikke.",
-  "ROM.3.18": "Gudsfrykt er det ikke for deres øyne.",
-  "ROM.3.19": "Men vi vet at alt det loven sier, det taler den til dem som er under loven, for at hver munn skal lukkes og hele verden bli skyldig for Gud.",
-  "ROM.3.20": "Derfor blir intet kjød rettferdiggjort for ham ved lovgjerninger. For ved loven kommer erkjennelse av synd.",
-  "ROM.3.21": "Men nå er Guds rettferdighet, som loven og profetene vitner om, blitt åpenbart uten loven,",
-  "ROM.3.22": "det er Guds rettferdighet ved tro på Jesus Kristus, til alle og over alle som tror. - For det er ingen forskjell,",
-  "ROM.3.23": "alle har syndet og mangler Guds herlighet.",
-  "ROM.3.24": "Og de blir rettferdiggjort for intet av hans nåde ved forløsningen i Kristus Jesus.",
-  "ROM.3.25": "Ham stilte Gud til skue i hans blod som en nådestol ved troen, for å vise sin rettferdighet, fordi han i sin langmodighet hadde båret over med de syndene som før var gjort.",
-  "ROM.3.26": "Ved dette ville Gud vise sin rettferdighet i den tiden som nå er, så han kunne være rettferdig og rettferdiggjøre den som har troen på Jesus.",
-  "ROM.3.27": "Hvor er så vår ros? Den er utelukket. Ved hvilken lov? Gjerningenes lov? Nei, ved troens lov.",
-  "ROM.3.28": "For vi er overbevist om at mennesket blir rettferdiggjort ved tro, uten lovgjerninger.",
-  "ROM.3.29": "Eller er Gud bare jøders Gud? Er han ikke også hedningers? Jo, han er også hedningers Gud,",
-  "ROM.3.30": "så sant Gud er én, han som rettferdiggjør de omskårne av troen og de uomskårne ved troen.",
-  "ROM.3.31": "Opphever vi så loven ved troen? Langt derifra! Vi stadfester loven.",
-  "ROM.4.1": "Hva skal vi da si at vår far Abraham oppnådde etter kjødet?",
-  "ROM.4.2": "Dersom Abraham ble rettferdiggjort på grunn av gjerninger, da har han jo noe å rose seg av. Men det har han ikke for Gud.",
-  "ROM.4.3": "For hva sier Skriften: Abraham trodde Gud, og det ble tilregnet ham som rettferdighet.",
-  "ROM.4.4": "Den som har gjerninger, får ikke lønnen av nåde, men som noe han har fortjent.",
-  "ROM.4.5": "Den derimot som ikke har gjerninger, men tror på ham som rettferdiggjør den ugudelige, han får sin tro tilregnet som rettferdighet.",
-  "ROM.4.6": "Slik priser også David det menneske salig som Gud tilregner rettferdighet uten gjerninger:",
-  "ROM.4.7": "Salige er de som har fått sine overtredelser tilgitt og sine synder skjult.",
-  "ROM.4.8": "Salig er den mann som Herren ikke tilregner synd.",
-  "ROM.4.9": "Gjelder nå denne saligprisningen de omskårne, eller gjelder den også de uomskårne? Vi sier jo at troen ble regnet Abraham til rettferdighet.",
-  "ROM.4.10": "Hvordan ble den så tilregnet ham? Skjedde det etter at han var blitt omskåret, eller da han var uomskåret? Ikke da han var omskåret, men da han var uomskåret.",
-  "ROM.4.11": "Og han fikk omskjærelsens tegn til segl på den rettferdighet av tro som han hadde fått da han var uomskåret. Slik skulle han være far til alle de troende som er uomskårne, så rettferdigheten kunne bli tilregnet også dem,",
-  "ROM.4.12": "og likeså far til de omskårne som ikke bare har omskjærelsen, men også følger i fotsporene av den tro som vår far Abraham hadde da han var uomskåret.",
-  "ROM.4.13": "For det var ikke ved loven Abraham eller hans ætt fikk det løftet at han skulle være arving til verden, men ved troens rettferdighet.",
-  "ROM.4.14": "For dersom de som holder seg til loven, er arvinger, da er troen blitt unyttig og løftet satt ut av kraft.",
-  "ROM.4.15": "For loven virker vrede. Men der det ikke er noen lov, der er det heller ikke noe lovbrudd.",
-  "ROM.4.16": "Derfor fikk han løftet ved tro, for at det kunne være av nåde, slik at løftet kunne stå fast for hele ætten, ikke bare for dem som har loven, men også for dem som har Abrahams tro. Han er jo far til oss alle,",
-  "ROM.4.17": "slik det står skrevet: Til far for mange folkeslag har jeg satt deg. Han er vår far i Guds øyne - den Gud som han trodde på, han som gjør de døde levende og kaller på det som ikke er til, som om det var til.",
-  "ROM.4.18": "Mot håp trodde han med håp, for at han skulle bli mange folks far, etter det som var sagt: Slik skal din ætt bli.",
-  "ROM.4.19": "Uten å bli svak i troen tenkte han på sitt eget legeme, som alt var utlevd - han var jo snart hundre år - og på at Saras morsliv var utdødd.",
-  "ROM.4.20": "Men på Guds løfte tvilte han ikke i vantro, men han ble sterk i sin tro, idet han ga Gud ære.",
-  "ROM.4.21": "Han var fullt viss på at det Gud hadde lovt, det var han òg mektig til å gjøre.",
-  "ROM.4.22": "Derfor ble det også regnet ham til rettferdighet.",
-  "ROM.4.23": "Men ikke bare for hans skyld er det skrevet at det ble tilregnet ham.",
-  "ROM.4.24": "Det er skrevet også for vår skyld som skal få rettferdigheten tilregnet, vi som tror på ham som reiste Jesus, vår Herre, opp fra de døde,",
-  "ROM.4.25": "han som ble gitt for våre overtredelser og reist opp til vår rettferdiggjørelse.",
-  "ROM.5.1": "Da vi nå er rettferdiggjort av tro, har vi fred med Gud ved vår Herre Jesus Kristus.",
-  "ROM.5.2": "Ved ham har vi også ved troen fått adgang til denne nåden som vi står i. Og vi roser oss av håp om Guds herlighet.",
-  "ROM.5.3": "Ikke bare det, men vi roser oss også av trengslene. For vi vet at trengselen virker tålmodighet,",
-  "ROM.5.4": "tålmodigheten virker et prøvet sinn, og det prøvede sinn håp.",
-  "ROM.5.5": "Og håpet gjør ikke til skamme, for Guds kjærlighet er utøst i våre hjerter ved Den Hellige Ånd som er oss gitt.",
-  "ROM.5.6": "For mens vi ennå var skrøpelige, døde Kristus til fastsatt tid for ugudelige.",
-  "ROM.5.7": "For knapt nok vil noen gå i døden for en rettferdig - skjønt for en som er god, kunne kanskje noen ta på seg å dø.",
-  "ROM.5.8": "Men Gud viser sin kjærlighet til oss ved at Kristus døde for oss mens vi ennå var syndere.",
-  "ROM.5.9": "Hvor mye mer skal vi da, etter at vi er rettferdiggjort ved hans blod, ved ham bli frelst fra vreden.",
-  "ROM.5.10": "For ble vi forlikt med Gud ved hans Sønns død, da vi var fiender, skal vi så mye mer bli frelst ved hans liv, etter at vi er blitt forlikt.",
-  "ROM.5.11": "Ja, ikke bare det, men vi roser oss også av Gud ved vår Herre Jesus Kristus. Ved ham har vi fått forlikelsen.",
-  "ROM.5.12": "Derfor, likesom synden kom inn i verden ved ett menneske, og døden på grunn av synden, og døden slik trengte gjennom til alle mennesker, fordi de syndet alle -",
-  "ROM.5.13": "for vel var det synd i verden før loven kom, men der det ikke er noen lov, blir synden ikke tilregnet.",
-  "ROM.5.14": "Likevel hersket døden fra Adam til Moses, også over dem som ikke hadde syndet ved et lovbrudd, slik som Adam - han som er et forbilde på den som skulle komme.",
-  "ROM.5.15": "Men med nådegaven er det ikke som med fallet. For er de mange døde på grunn av den enes fall, så er mye mer Guds nåde og nådens gave i det ene mennesket Jesus Kristus, blitt overmåte rik for de mange.",
-  "ROM.5.16": "Og med gaven er det ikke som da den ene syndet. For dommen kom etter den enes synd og ble til fordømmelse, men nådegaven kom etter manges overtredelser og ble til frifinnelse.",
-  "ROM.5.17": "For om døden kom til å herske ved den ene, fordi denne ene falt, hvor mye mer skal da de som mottar nådens og rettferdighetsgavens overstrømmende rikdom, leve og herske ved den ene, Jesus Kristus.",
-  "ROM.5.18": "Altså, likesom én manns overtredelse ble til fordømmelse for alle mennesker, slik blir også én manns rettferdige gjerning til livsens rettferdiggjørelse for alle mennesker.",
-  "ROM.5.19": "For likesom de mange ble stilt fram som syndere ved det ene menneskets ulydighet, så skal også de mange stilles fram som rettferdige ved den enes lydighet.",
-  "ROM.5.20": "Men loven kom til for at fallet skulle bli stort. Men der synden ble stor, ble nåden enda større!",
-  "ROM.5.21": "Og likesom synden hersket ved døden, så skal også nåden herske ved rettferdighet til evig liv ved Jesus Kristus, vår Herre.",
-  "ROM.6.1": "Hva skal vi da si? Skal vi forbli i synden for at nåden kan bli dess større?",
-  "ROM.6.2": "Langt derifra! Vi som er døde fra synden, hvordan skulle vi ennå leve i den?",
-  "ROM.6.3": "Eller vet dere ikke at alle vi som ble døpt til Kristus Jesus, ble døpt til hans død?",
-  "ROM.6.4": "Vi ble altså begravet med ham ved dåpen til døden, for at likesom Kristus ble reist opp fra de døde ved Faderens herlighet, så skal også vi vandre i et nytt liv.",
-  "ROM.6.5": "For er vi blitt forenet med ham ved en død som er lik hans død, så skal vi også bli det ved en oppstandelse som er lik hans oppstandelse.",
-  "ROM.6.6": "Vi vet at vårt gamle menneske ble korsfestet med ham for at syndelegemet skulle bli tilintetgjort, så vi ikke lenger skal være slaver under synden.",
-  "ROM.6.7": "For den som er død, er rettferdiggjort fra synden.",
-  "ROM.6.8": "Men døde vi med Kristus, da tror vi at vi også skal leve med ham.",
-  "ROM.6.9": "For vi vet at etter at Kristus er reist opp fra de døde, dør han ikke mer. Døden har ikke lenger noen makt over ham.",
-  "ROM.6.10": "For sin død, den døde han én gang for synden, men sitt liv, det lever han for Gud.",
-  "ROM.6.11": "Slik skal også dere regne dere som døde for synden, men levende for Gud i Kristus Jesus.",
-  "ROM.6.12": "La derfor ikke synden herske i deres dødelige legeme, så dere lyder dets lyster.",
-  "ROM.6.13": "Still heller ikke lemmene deres til rådighet for synden, som våpen for urettferdighet. Men fremstill dere selv for Gud som de som av døde er blitt levende, og by deres lemmer fram som rettferdighetens våpen for Gud.",
-  "ROM.6.14": "For synden skal ikke få herske over dere, for dere er ikke under loven, men under nåden.",
-  "ROM.6.15": "Hva så? Skal vi synde siden vi ikke er under loven, men under nåden? Langt derifra!",
-  "ROM.6.16": "Vet dere ikke, at når dere byr dere fram for å lyde noen som tjenere, så er dere dermed tjenere under den som dere lyder. Dere blir enten tjenere under synden til død, eller under lydigheten til rettferdighet.",
-  "ROM.6.17": "Men Gud være takk at dere som var syndens tjenere, av hjertet er blitt lydige mot den læreform dere er overgitt til.",
-  "ROM.6.18": "Og når dere nå er frigjort fra synden, er dere blitt tjenere for rettferdigheten.",
-  "ROM.6.19": "Jeg taler på menneskelig vis, på grunn av deres kjødelige skrøpelighet. For likesom dere før bød fram lemmene deres til tjeneste for urenheten og lovløsheten som førte til lovløshet - så by nå deres lemmer fram til tjeneste for rettferdigheten - det fører til helliggjørelse - .",
-  "ROM.6.20": "For da dere var syndens tjenere, var dere fri fra rettferdigheten.",
-  "ROM.6.21": "Hva slags frukt høstet dere så den gangen? Slikt som dere nå skammer dere over, for det ender med død.",
-  "ROM.6.22": "Men nå, når dere er frigjort fra synden og er blitt tjenere for Gud, har dere helliggjørelse som frukt, og til slutt evig liv.",
-  "ROM.6.23": "For syndens lønn er døden, men Guds nådegave er evig liv i Kristus Jesus, vår Herre.",
-  "ROM.7.1": "Eller vet dere ikke, brødre - jeg taler jo til slike som kjenner loven - at loven hersker over mennesket bare så lenge det lever?",
-  "ROM.7.2": "For den gifte kvinne er ved loven bundet til mannen sin så lenge han lever. Men dersom mannen dør, er hun løst fra loven som bandt henne til mannen.",
-  "ROM.7.3": "Derfor skal hun kalles en horkvinne dersom hun, mens mannen ennå lever, blir en annen manns kone. Men dersom mannen dør, er hun fri fra loven, og er ingen horkvinne om hun gifter seg med en annen mann.",
-  "ROM.7.4": "Mine brødre! Slik døde også dere fra loven ved Kristi legeme, for at dere skal tilhøre en annen, ham som ble reist opp fra de døde, så vi kan bære frukt for Gud.",
-  "ROM.7.5": "For da vi var i kjødet, ble de syndige lystene vekket ved loven, og de virket slik i våre lemmer at vi bar frukt for døden.",
-  "ROM.7.6": "Men nå er vi løst fra loven, ettersom vi er døde fra det vi var fanget under, slik at vi tjener i Åndens nye vesen, ikke i bokstavens gamle vesen.",
-  "ROM.7.7": "Hva skal vi da si? Er loven synd? Langt derifra! Men jeg kjente ikke synden uten ved loven. For begjæret hadde jeg ikke kjent dersom ikke loven hadde sagt: Du skal ikke begjære!",
-  "ROM.7.8": "Men synden benyttet seg av budet og vakte alle slags begjær i meg. For uten lov er synden død.",
-  "ROM.7.9": "Jeg levde en gang uten lov. Men da budet kom, våknet synden til live.",
-  "ROM.7.10": "Jeg derimot døde. Og det viste seg at budet, som skulle være til liv, ble til død for meg.",
-  "ROM.7.11": "For synden benyttet seg av budet og dåret meg og drepte meg ved det.",
-  "ROM.7.12": "Så er da loven hellig, og budet hellig og rettferdig og godt.",
-  "ROM.7.13": "Har da altså det som er godt, voldt meg døden? Langt derifra! Men synden gjorde det, for at den skulle vise seg som synd, ved at den benyttet det som er godt, til å føre død over meg. Ved budet skulle synden bli overmåte syndig.",
-  "ROM.7.14": "For vi vet at loven er åndelig, jeg derimot er kjødelig, solgt til trell under synden.",
-  "ROM.7.15": "Jeg skjønner ikke det jeg gjør. For det jeg vil, det gjør jeg ikke. Men det jeg hater, det gjør jeg.",
-  "ROM.7.16": "Men gjør jeg det jeg ikke vil, da gir jeg jo loven medhold i at den er god.",
-  "ROM.7.17": "Så er det ikke lenger jeg som gjør det, men synden som bor i meg.",
-  "ROM.7.18": "For jeg vet at i meg, det er i mitt kjød, bor ikke noe godt. For viljen har jeg, men å gjøre det gode, makter jeg ikke.",
-  "ROM.7.19": "Det gode som jeg vil, gjør jeg ikke. Men det onde som jeg ikke vil, det gjør jeg.",
-  "ROM.7.20": "Men gjør jeg det jeg ikke vil, da er det ikke lenger jeg som gjør det, men synden som bor i meg.",
-  "ROM.7.21": "Jeg finner altså den lov for meg, jeg som vil gjøre det gode, at det onde ligger meg for hånden.",
-  "ROM.7.22": "For etter mitt indre menneske slutter jeg meg med glede til Guds lov.",
-  "ROM.7.23": "Men i lemmene mine ser jeg en annen lov, som strider mot loven i mitt sinn, og som tar meg til fange under syndens lov, som er i mine lemmer.",
-  "ROM.7.24": "Jeg elendige menneske! Hvem skal fri meg fra dette dødens legeme?",
-  "ROM.7.25": "Gud være takk, ved Jesus Kristus, vår Herre! Jeg, som jeg er, tjener da Guds lov med mitt sinn, men syndens lov med mitt kjød.",
-  "ROM.8.1": "Så er det da ingen fordømmelse for dem som er i Kristus Jesus.",
-  "ROM.8.2": "For livets Ånds lov har i Kristus Jesus frigjort meg fra syndens og dødens lov.",
-  "ROM.8.3": "For det som var umulig for loven, fordi den var maktesløs på grunn av kjødet, det gjorde Gud, da han sendte sin egen Sønn i syndig kjøds lignelse, for syndens skyld, og fordømte synden i kjødet,",
-  "ROM.8.4": "for at lovens krav om rettferdighet skulle bli oppfylt i oss, vi som ikke vandrer etter kjødet, men etter Ånden.",
-  "ROM.8.5": "For de som er etter kjødet, attrår det som hører kjødet til. Men de som er etter Ånden, attrår det som hører Ånden til.",
-  "ROM.8.6": "For kjødets attrå er død, men Åndens attrå er liv og fred.",
-  "ROM.8.7": "Kjødets attrå er jo fiendskap mot Gud, for det er ikke Guds lov lydig, kan heller ikke være det.",
-  "ROM.8.8": "For de som er i kjødet, kan ikke være Gud til behag.",
-  "ROM.8.9": "Men dere er ikke i kjødet, dere er i Ånden, så sant Guds Ånd bor i dere. Men om noen ikke har Kristi Ånd, da hører han ikke Kristus til.",
-  "ROM.8.10": "Dersom Kristus bor i dere, da er nok legemet dødt på grunn av synd, men ånden er liv på grunn av rettferdighet.",
-  "ROM.8.11": "Men dersom hans Ånd som reiste Jesus opp fra de døde, bor i dere, da skal han som reiste Kristus opp fra de døde, også levendegjøre deres dødelige legemer ved sin Ånd, som bor i dere.",
-  "ROM.8.12": "Derfor, brødre, skylder vi ikke kjødet noe, så vi skulle leve etter kjødet.",
-  "ROM.8.13": "For dersom dere lever etter kjødet, da skal dere dø. Men dersom dere ved Ånden tar livet av legemets gjerninger, skal dere leve.",
-  "ROM.8.14": "For så mange som drives av Guds Ånd, de er Guds barn.",
-  "ROM.8.15": "Dere fikk jo ikke trelldommens ånd, så dere igjen skulle frykte. Men dere fikk barnekårets Ånd som gjør at vi roper: Abba, Far!",
-  "ROM.8.16": "Ånden selv vitner sammen med vår ånd at vi er Guds barn.",
-  "ROM.8.17": "Men er vi barn, da er vi også arvinger. Vi er Guds arvinger og Kristi medarvinger, så sant vi lider med ham, for at vi også skal herliggjøres med ham.",
-  "ROM.8.18": "For jeg er overbevist om at den nåværende tids lidelser ikke er for noe å regne mot den herlighet som skal åpenbares på oss.",
-  "ROM.8.19": "For skapningen venter og lengter etter at Guds barn skal åpenbares.",
-  "ROM.8.20": "Skapningen ble jo lagt under forgjengelighet, ikke frivillig, men etter hans vilje som la den under forgjengelighet,",
-  "ROM.8.21": "i håp om at også skapningen skal bli frigjort fra trelldommen under forgjengeligheten, og nå fram til Guds barns frihet i herligheten.",
-  "ROM.8.22": "For vi vet at hele skapningen til denne stund sukker sammen og stønner sammen som i veer.",
-  "ROM.8.23": "Ja, ikke bare det, men også vi som har fått Ånden som førstegrøde, også vi sukker med oss selv, mens vi lengter etter vårt barnekår, vårt legemes forløsning.",
-  "ROM.8.24": "For i håpet er vi frelst. Men et håp som en kan se, er ikke lenger noe håp - hvorfor skulle en håpe på det en allerede ser?",
-  "ROM.8.25": "Men dersom vi håper på det vi ikke ser, da lengter vi etter det med tålmodighet.",
-  "ROM.8.26": "Og her kommer også Ånden oss til hjelp i vår skrøpelighet. For vi vet ikke hva vi skal be om slik vi burde. Men Ånden selv går i forbønn for oss med sukk som ikke rommes i ord.",
-  "ROM.8.27": "Men han som gransker hjertene, vet hva Ånden trakter etter. For det er etter Guds vilje han går i forbønn for de hellige.",
-  "ROM.8.28": "For vi vet at alle ting samvirker til gode for dem som elsker Gud, dem som etter hans råd er kalt.",
-  "ROM.8.29": "For dem som han forut kjente, dem har han også forut bestemt til å bli likedannet med hans Sønns bilde, for at han skulle være den førstefødte blant mange brødre.",
-  "ROM.8.30": "Og dem som han forut bestemte til dette, dem har han også kalt. Og dem som han har kalt, dem har han også rettferdiggjort. Og dem som han har rettferdiggjort, dem har han også herliggjort.",
-  "ROM.8.31": "Hva skal vi da si til dette? Er Gud for oss, hvem er da imot oss?",
-  "ROM.8.32": "Han som ikke sparte sin egen Sønn, men ga ham for oss alle, hvordan skulle han kunne annet enn å gi oss alle ting med ham?",
-  "ROM.8.33": "Hvem vil anklage Guds utvalgte? Gud er den som rettferdiggjør.",
-  "ROM.8.34": "Hvem er den som fordømmer? Kristus er den som er død, ja, mer enn det: som også er blitt reist opp, som også er ved Guds høyre hånd, som også går i forbønn for oss.",
-  "ROM.8.35": "Hvem kan skille oss fra Kristi kjærlighet? Trengsel eller angst eller forfølgelse eller sult eller nakenhet eller fare eller sverd?",
-  "ROM.8.36": "Som skrevet står: For din skyld drepes vi hele dagen, vi blir regnet som slaktefår.",
-  "ROM.8.37": "Men i alt dette vinner vi mer enn seier ved ham som elsket oss.",
-  "ROM.8.38": "For jeg er viss på at verken død eller liv, verken engler eller krefter, verken det som nå er, eller det som komme skal, eller noen makt,",
-  "ROM.8.39": "verken høyde eller dybde eller noen annen skapning skal kunne skille oss fra Guds kjærlighet i Kristus Jesus, vår Herre.",
-  "ROM.9.1": "Jeg sier sannhet i Kristus, jeg lyver ikke - min samvittighet vitner med meg i Den Hellige Ånd,",
-  "ROM.9.2": "at jeg har en stor sorg og en stadig nød i mitt hjerte.",
-  "ROM.9.3": "For jeg skulle ønske at jeg selv var forbannet bort fra Kristus for mine brødres skyld, mine slektninger etter kjødet.",
-  "ROM.9.4": "De er jo israelitter. Dem tilhører barnekåret og herligheten og paktene og lovgivningen og gudstjenesten og løftene.",
-  "ROM.9.5": "Dem tilhører fedrene, og fra dem er Kristus kommet etter kjødet, han som er Gud over alle ting, velsignet i evighet. Amen.",
-  "ROM.9.6": "Men ikke så at Guds ord skulle ha slått feil. For ikke alle som stammer fra Israel, er virkelig Israel.",
-  "ROM.9.7": "Heller ikke alle Abrahams etterkommere er derfor Abrahams barn, for: I Isak skal det nevnes deg en ætt.",
-  "ROM.9.8": "Det vil si: Ikke kjødets barn er Guds barn, men løftets barn regnes til ætten.",
-  "ROM.9.9": "For et løftesord er dette: Ved denne tiden neste år skal jeg komme, og da skal Sara ha en sønn!",
-  "ROM.9.10": "Ikke bare dette, men slik hendte det også med Rebekka. Hun ble med barn ved én mann, vår far Isak.",
-  "ROM.9.11": "Og da de ennå ikke var født, og ennå ikke hadde gjort verken godt eller ondt - for at Guds råd etter hans utvelgelse skulle stå fast,",
-  "ROM.9.12": "ikke på grunn av gjerninger, men ved ham som kaller - da ble det sagt til henne: Den eldste skal tjene den yngste.",
-  "ROM.9.13": "Som skrevet står: Jakob elsket jeg, men Esau hatet jeg.",
-  "ROM.9.14": "Hva skal vi da si? Er det da urettferdighet hos Gud? Langt derifra!",
-  "ROM.9.15": "For til Moses sier han: Jeg vil vise miskunn mot den jeg miskunner meg over, og være barmhjertig mot den jeg forbarmer meg over.",
-  "ROM.9.16": "Så beror det altså ikke på den som vil eller på den som løper, men på Gud, som viser miskunn.",
-  "ROM.9.17": "For Skriften sier til farao: Nettopp til dette reiste jeg deg opp: At jeg kunne vise min makt på deg og at mitt navn skulle bli forkynt over hele jorden.",
-  "ROM.9.18": "Altså: Hvem han vil, den viser han miskunn, og hvem han vil, den forherder han.",
-  "ROM.9.19": "Du vil da si til meg: Hva er det da han klager over? Hvem kan stå imot hans vilje?",
-  "ROM.9.20": "Men hvem er da du, menneske, som tar til gjenmæle mot Gud? Kan vel verket si til ham som formet det: Hvorfor gjorde du meg slik?",
-  "ROM.9.21": "Eller har ikke pottemakeren makt over leiren, så han av samme deig kan lage et kar til ære og et annet til vanære?",
-  "ROM.9.22": "Men om nå Gud - enda han ville vise sin vrede og gjøre sin makt kjent - likevel i stor langmodighet bar over med vredens kar, som var gjort ferdige til undergang?",
-  "ROM.9.23": "Og om han nå gjorde dette for å kunngjøre hvor rik hans herlighet er over miskunnhetens kar, som han forut hadde gjort i stand til herlighet?",
-  "ROM.9.24": "Til å være slike kar har han også kalt oss, ikke bare av jøder, men også av hedninger.",
-  "ROM.9.25": "Slik sier han det også hos Hosea: Det som ikke er mitt folk, vil jeg kalle mitt folk, og henne som ikke er elsket, vil jeg kalle min elskede.",
-  "ROM.9.26": "Og det skal skje: På det stedet hvor det ble sagt til dem: Dere er ikke mitt folk! - der skal de bli kalt den levende Guds barn.",
-  "ROM.9.27": "Og Jesaja roper ut over Israel: Om tallet på Israels barn er som havets sand, så skal bare en rest bli frelst.",
-  "ROM.9.28": "For sitt ord skal Herren sette i verk og hastig fullføre på jorden.",
-  "ROM.9.29": "Og som Jesaja forut har sagt: Hadde ikke Herren Sebaot latt en ætt bli igjen for oss, da var vi blitt som Sodoma, vi var blitt lik Gomorra.",
-  "ROM.9.30": "Hva skal vi da si? Jo, at hedningene, som ikke jaget etter rettferdighet, de har funnet rettferdighet, men det er rettferdigheten av tro.",
-  "ROM.9.31": "Israel derimot, som søkte rettferdighetens lov, kom ikke fram til denne lov.",
-  "ROM.9.32": "Hvorfor? Fordi de ikke søkte den ved tro, men ved gjerninger. De støtte mot snublesteinen,",
-  "ROM.9.33": "som det står skrevet: Se, jeg legger i Sion en snublestein og en anstøtsklippe. Den som tror på ham, skal ikke bli til skamme.",
-  "ROM.10.1": "Brødre, mitt hjertes ønske og min bønn til Gud for dem er at de må bli frelst.",
-  "ROM.10.2": "For det vitnesbyrdet gir jeg dem at de har nidkjærhet for Gud, men uten den rette forstand.",
-  "ROM.10.3": "Da de ikke kjente Guds rettferdighet, men søkte å grunnlegge sin egen rettferdighet, ga de seg ikke inn under Guds rettferdighet.",
-  "ROM.10.4": "For Kristus er lovens endemål, til rettferdighet for hver den som tror.",
-  "ROM.10.5": "Moses skriver jo om rettferdigheten av loven: Det menneske som gjør disse ting, skal leve ved dem.",
-  "ROM.10.6": "Men rettferdigheten av tro sier: Si ikke i ditt hjerte: Hvem skal fare opp til himmelen? - det vil si, for å hente Kristus ned.",
-  "ROM.10.7": "Eller: Hvem skal fare ned i avgrunnen? - det vil si, for å hente Kristus opp fra de døde.",
-  "ROM.10.8": "Men hva sier den? Ordet er deg nær, i din munn og i ditt hjerte. Det er troens ord, det som vi forkynner.",
-  "ROM.10.9": "For dersom du med din munn bekjenner at Jesus er Herre, og i ditt hjerte tror at Gud reiste ham opp fra de døde, da skal du bli frelst.",
-  "ROM.10.10": "Med hjertet tror en til rettferdighet, og med munnen bekjenner en til frelse.",
-  "ROM.10.11": "For Skriften sier: Hver den som tror på ham, skal ikke bli til skamme.",
-  "ROM.10.12": "Her er ikke forskjell på jøde og greker. Alle har de samme Herre, som er rik nok for alle som påkaller ham.",
-  "ROM.10.13": "For hver den som påkaller Herrens navn, skal bli frelst.",
-  "ROM.10.14": "Men hvordan kan de påkalle en som de ikke er kommet til tro på? Og hvordan kan de tro på en som de ikke har hørt om? Og hvordan kan de høre uten at det er noen som forkynner?",
-  "ROM.10.15": "Og hvordan kan de forkynne, uten at de blir utsendt? Som skrevet står: Hvor fagre deres føtter er som bringer fred, som bringer et godt budskap!",
-  "ROM.10.16": "Men ikke alle var lydige mot evangeliet. For Jesaja sier: Herre, hvem trodde vel det han hørte av oss?",
-  "ROM.10.17": "Så kommer da troen av forkynnelsen som en hører, og forkynnelsen som en hører, kommer ved Kristi ord.",
-  "ROM.10.18": "Men jeg sier: Har de da ikke fått høre? Jo visst! Over hele jorden har deres røst nådd ut, og deres ord til jorderikes ender.",
-  "ROM.10.19": "Men jeg sier: Har da Israel ikke forstått? Først sier Moses: Jeg vil gjøre dere nidkjære på et folk som ikke er et folk, på et uforstandig folk skal jeg gjøre dere harme.",
-  "ROM.10.20": "Og Jesaja drister seg til å si: Jeg ble funnet av dem som ikke søkte meg, og jeg trådte synlig fram for dem som ikke spurte etter meg.",
-  "ROM.10.21": "Men til Israel sier han: Hele dagen rakte jeg mine hender ut til et ulydig og gjenstridig folk.",
-  "ROM.11.1": "Jeg sier altså: Har da Gud forkastet sitt folk? Langt derifra! Også jeg er jo en israelitt, av Abrahams ætt, av Benjamins stamme.",
-  "ROM.11.2": "Gud har ikke forkastet sitt folk, som han forut kjente. Eller vet dere ikke hva Skriften sier i avsnittet om Elia? - hvordan han står fram for Gud og anklager Israel:",
-  "ROM.11.3": "Herre, dine profeter drepte de, og dine altere rev de ned. Jeg ble alene tilbake, og meg står de etter livet.",
-  "ROM.11.4": "Men hva er Guds svar til ham? Jeg har latt det bli tilbake en rest for meg, sju tusen mann som ikke har bøyd kne for Ba’al.",
-  "ROM.11.5": "På samme vis er det også i den tiden som nå er, blitt igjen en rest i kraft av Guds nådes utvelgelse.",
-  "ROM.11.6": "Men er det av nåde, da er det ikke mer av gjerninger. Ellers blir nåden ikke lenger nåde.",
-  "ROM.11.7": "Hva så? Det som Israel søker etter, har de ikke nådd. Men de utvalgte har nådd det. De andre er blitt forherdet,",
-  "ROM.11.8": "som det står skrevet: Gud ga dem en sløvhets ånd, øyne som ikke ser, ører som ikke hører, helt til denne dag.",
-  "ROM.11.9": "Og David sier: La deres bord bli til en snare og en felle, til et anstøt og til gjengjeldelse for dem!",
-  "ROM.11.10": "La deres øyne formørkes så de ikke kan se, og bøy alltid deres rygg.",
-  "ROM.11.11": "Jeg sier da: Har de snublet for at de skulle falle? Langt derifra! Men ved deres fall er frelsen kommet til hedningene for å vekke Israel til nidkjærhet.",
-  "ROM.11.12": "Men hvis deres fall er blitt til en rikdom for verden, og er deres fåtallighet blitt til en rikdom for hedningene, hvor mye mer da deres fulltallighet!",
-  "ROM.11.13": "Til dere hedninger vil jeg si: Så sant jeg er hedningenes apostel, priser jeg min tjeneste -",
-  "ROM.11.14": "kunne jeg bare vekke mitt folk etter kjødet til nidkjærhet og få frelst noen av dem.",
-  "ROM.11.15": "For er verden blitt forlikt med Gud ved deres forkastelse, hva annet vil da deres antakelse bli enn liv av døde?",
-  "ROM.11.16": "Men er førstegrøden hellig, da er også deigen hellig. Og er roten hellig, da er greinene det også.",
-  "ROM.11.17": "Men om nå noen av greinene ble brutt av, og du som er en vill oljekvist, ble podet inn blant dem og fikk del med dem i sevjen fra roten,",
-  "ROM.11.18": "så ros deg ikke mot greinene! Roser du deg, så vit at det er ikke du som bærer roten, men roten som bærer deg!",
-  "ROM.11.19": "Du vil da si: Greinene ble brukket av for at jeg skulle bli podet inn.",
-  "ROM.11.20": "Nåvel! På grunn av vantro ble de avbrutt. Men du står ved din tro. Vær ikke overmodig, men frykt!",
-  "ROM.11.21": "For sparte ikke Gud de naturlige greinene, vil han heller ikke spare deg.",
-  "ROM.11.22": "Se derfor Guds godhet og strenghet - strenghet mot dem som falt, men over deg er Guds godhet, så sant du holder fast ved hans godhet. Ellers skal også du bli hogd av.",
-  "ROM.11.23": "Men også de andre skal bli innpodet, hvis de ikke holder fast ved sin vantro. For Gud er mektig til å pode dem inn igjen.",
-  "ROM.11.24": "Du ble avhogd av det oljetreet som av naturen er vilt, og mot naturen innpodet i et edelt oljetre. Hvor mye mer skal da de naturlige greinene bli innpodet i sitt eget oljetre, som de etter naturen tilhører!",
-  "ROM.11.25": "For jeg vil ikke, brødre, at dere skal være uvitende om dette mysteriet - for at dere ikke skal anse dere selv for kloke: Forherdelse er for en del kommet over Israel, inntil hedningenes fylde er kommet inn.",
-  "ROM.11.26": "Og slik skal hele Israel bli frelst, som det står skrevet: Fra Sion skal befrieren komme. Han skal rydde bort ugudelighet fra Jakob.",
-  "ROM.11.27": "Og dette skal være min pakt med dem, når jeg tar bort deres synder.",
-  "ROM.11.28": "Når det gjelder evangeliet, er de blitt fiender for deres skyld. Men når det gjelder utvelgelsen, er de elsket for fedrenes skyld.",
-  "ROM.11.29": "For Gud angrer ikke sine nådegaver og sitt kall.",
-  "ROM.11.30": "Dere var jo en gang ulydige mot Gud, men nå har dere fått miskunn, fordi de andre var ulydige.",
-  "ROM.11.31": "På samme måte har nå de vært ulydige, men ved den miskunn dere har fått, skal også de få miskunn.",
-  "ROM.11.32": "For Gud har innesluttet dem alle under ulydigheten, for at han kunne vise miskunn mot dem alle.",
-  "ROM.11.33": "Å dyp av rikdom og visdom og kunnskap hos Gud! Hvor uransakelige hans dommer er, og hvor usporlige hans veier.",
-  "ROM.11.34": "For hvem kjente vel Herrens sinn? Eller hvem var hans rådgiver?",
-  "ROM.11.35": "Eller hvem ga ham noe først så han skulle få vederlag?",
-  "ROM.11.36": "For av ham og ved ham og til ham er alle ting. Ham tilhører æren i all evighet. Amen.",
-  "ROM.12.1": "Jeg formaner dere altså, brødre, ved Guds miskunn, at dere fremstiller deres legemer som et levende og hellig offer til Guds behag. Dette er deres åndelige gudstjeneste.",
-  "ROM.12.2": "Og skikk dere ikke lik denne verden, men bli forvandlet ved at deres sinn fornyes, så dere kan dømme om hva som er Guds vilje: det gode, det som han har behag i, det fullkomne.",
-  "ROM.12.3": "For ved den nåde som er meg gitt, sier jeg til hver og en blant dere, at en ikke skal gjøre seg høyere tanker enn en bør. Men en skal tenke sindig, i forhold til det mål av tro som Gud har tilmålt hver enkelt.",
-  "ROM.12.4": "For på ett legeme har vi mange lemmer, men ikke alle lemmer har samme gjerning.",
-  "ROM.12.5": "Slik er vi også ett legeme i Kristus, enda vi er mange. Men hver for oss er vi hverandres lemmer.",
-  "ROM.12.6": "Alt etter den nåde som er oss gitt, har vi ulike nådegaver. Om noen har profetisk gave, skal han bruke den i samsvar med troen.",
-  "ROM.12.7": "La den som har en tjeneste, ta vare på tjenesten. Den som er lærer, må ta vare på lærdommen,",
-  "ROM.12.8": "den som formaner, på formaningen. Den som deler ut gaver, må gjøre det med redelig sinn. Den som er forstander, må være det med iver. Den som øver barmhjertighet, må gjøre det med glede.",
-  "ROM.12.9": "La kjærligheten være uten hykleri! Avsky det onde, hold fast ved det gode.",
-  "ROM.12.10": "Vær varmhjertet mot hverandre i broderkjærlighet! Kappes om å hedre hverandre!",
-  "ROM.12.11": "Vær ikke lunkne i iveren! Vær brennende i ånden, tjen Herren!",
-  "ROM.12.12": "Vær glade i håpet, tålmodige i trengselen, vedholdende i bønnen!",
-  "ROM.12.13": "Kom de hellige til hjelp i deres nød. Legg vinn på gjestfrihet!",
-  "ROM.12.14": "Velsign dem som forfølger dere, velsign, og forbann ikke!",
-  "ROM.12.15": "Gled dere med de glade, og gråt med de gråtende!",
-  "ROM.12.16": "Ha ett sinn innbyrdes! Trakt ikke etter det høye, men hold dere gjerne til det lave! Vær ikke selvkloke!",
-  "ROM.12.17": "Gjengjeld ikke noen ondt med ondt! Legg vinn på det som godt er for alle menneskers øyne!",
-  "ROM.12.18": "Om det er mulig, da hold fred med alle mennesker, så langt det står til dere!",
-  "ROM.12.19": "Hevn dere ikke selv, mine kjære, men gi rom for vreden. For det står skrevet: Hevnen hører meg til, jeg vil gjengjelde, sier Herren.",
-  "ROM.12.20": "Om din fiende er sulten, så gi ham å ete. Om han er tørst, så gi ham å drikke. For når du gjør det, samler du glødende kull på hans hode.",
-  "ROM.12.21": "La deg ikke overvinne av det onde, men overvinn det onde med det gode.",
-  "ROM.13.1": "Hver og en skal underordne seg de myndigheter han har over seg. For det er ikke øvrighet uten av Gud, men de som finnes, er innsatt av Gud.",
-  "ROM.13.2": "Den som setter seg opp mot øvrigheten, står Guds ordning imot. Men de som står imot, skal få sin dom.",
-  "ROM.13.3": "For de som styrer, er ikke til skrekk for dem som gjør godt, men for dem som gjør ondt. Vil du slippe å være redd for øvrigheten, så gjør det gode. Da skal du få ros av den.",
-  "ROM.13.4": "For den er Guds tjener, til gagn for deg. Men gjør du det som er ondt, da frykt! Den bærer jo ikke sverdet for ingenting. For den er Guds tjener, en hevner til straff over den som gjør det onde.",
-  "ROM.13.5": "Derfor er det nødvendig å underordne seg, ikke bare av frykt for straffen, men også for samvittighetens skyld.",
-  "ROM.13.6": "Derfor betaler dere jo også skatt, for de er Guds tjenere som nettopp tar vare på dette.",
-  "ROM.13.7": "Gi alle det dere skylder dem: skatt til dem som har krav på skatt, toll til dem som har rett til toll, frykt til dem som skal fryktes, ære til dem som bør æres.",
-  "ROM.13.8": "Bli ingen noe skyldig, annet enn det å elske hverandre! For den som elsker sin neste, har oppfylt loven.",
-  "ROM.13.9": "For disse budene: Du skal ikke bryte ekteskapet, du skal ikke slå i hjel, du skal ikke stjele, du skal ikke begjære, og hvilket som helst annet bud, de sammenfattes i dette ordet: Du skal elske din neste som deg selv.",
-  "ROM.13.10": "Kjærligheten gjør ikke nesten noe ondt. Derfor er kjærligheten lovens oppfyllelse.",
-  "ROM.13.11": "Og dette må vi gjøre, da vi kjenner tiden, at timen er inne da vi må våkne opp av søvne, for frelsen er oss nærmere nå enn da vi kom til troen.",
-  "ROM.13.12": "Det lir med natten, det stunder til dag. La oss derfor avlegge mørkets gjerninger, men iføre oss lysets våpen.",
-  "ROM.13.13": "La oss ferdes sømmelig, som om dagen - ikke i svir og drikk, ikke i utukt og skamløshet, ikke i strid og misunnelse.",
-  "ROM.13.14": "Men ikle dere Herren Jesus Kristus. Og ha ikke en slik omsorg for kjødet at det vekkes begjær!",
-  "ROM.14.1": "Ta dere av den som er svak i troen uten å gjøre dere til dommere over hans tanker.",
-  "ROM.14.2": "Den ene har tro til å ete alt, men den som er svak, eter bare grønnsaker.",
-  "ROM.14.3": "Den som eter, må ikke forakte den som ikke eter. Og den som ikke eter, må ikke dømme den som eter. Gud har jo tatt seg av ham.",
-  "ROM.14.4": "Hvem er vel du som dømmer en annens tjener? Han står eller faller for sin egen herre. Men han skal bli stående, for Herren er mektig til å holde ham oppe.",
-  "ROM.14.5": "Den ene setter én dag høyere enn en annen dag. Den andre holder alle dager for å være like. Enhver må bare være fullt viss i sitt eget sinn!",
-  "ROM.14.6": "Den som akter på dagen, gjør det for Herren. Og den som ikke akter på dagen, han gjør det for Herren. Den som eter, gjør det for Herren - han takker jo Gud. Og den som lar være å ete, gjør det for Herren og takker Gud.",
-  "ROM.14.7": "For ingen av oss lever for seg selv, og ingen dør for seg selv.",
-  "ROM.14.8": "For om vi lever, så lever vi for Herren, og om vi dør, så dør vi for Herren. Enten vi da lever eller dør, så hører vi Herren til.",
-  "ROM.14.9": "Derfor døde jo Kristus og ble levende igjen, for at han skulle være Herre over både levende og døde.",
-  "ROM.14.10": "Men du, hvorfor dømmer du din bror? Eller du, hvorfor forakter du din bror? Vi skal jo alle stilles fram for Guds domstol.",
-  "ROM.14.11": "For det står skrevet: Så sant jeg lever, sier Herren, for meg skal hvert kne bøye seg, og hver tunge skal prise Gud.",
-  "ROM.14.12": "Så skal da hver og en av oss gjøre Gud regnskap for seg selv.",
-  "ROM.14.13": "Derfor bør vi ikke lenger dømme hverandre. Fell heller den dom at ingen må legge noen anstøtsstein eller felle for sin bror.",
-  "ROM.14.14": "Jeg vet og er overbevist i Herren Jesus om at ingenting er urent i seg selv. Men for den som holder noe for urent, for ham er det urent.",
-  "ROM.14.15": "Og dersom du med din mat volder din bror sorg, da vandrer du ikke i kjærlighet. Du må ikke med din mat føre den i fortapelse som Kristus er død for!",
-  "ROM.14.16": "La da ikke det gode dere har, bli spottet.",
-  "ROM.14.17": "Guds rike består jo ikke i mat og drikke, men i rettferdighet og fred og glede i Den Hellige Ånd.",
-  "ROM.14.18": "For den som i dette tjener Kristus, er til behag for Gud og står sin prøve for mennesker.",
-  "ROM.14.19": "La oss da jage etter det som tjener til fred og til innbyrdes oppbyggelse.",
-  "ROM.14.20": "Bryt ikke ned Guds verk på grunn av mat! Ganske visst er alt rent, men det er ondt for det mennesket som eter det når det er til anstøt.",
-  "ROM.14.21": "Det er godt å la være å ete kjøtt eller drikke vin eller gjøre noe annet som er til anstøt for din bror.",
-  "ROM.14.22": "Har du tro? Ha den for deg selv, for Guds åsyn! Salig er den som ikke dømmer seg selv i det han velger.",
-  "ROM.14.23": "Men den som tviler, er dømt dersom han eter, fordi han ikke gjør det i tro. Alt som ikke er av tro, er synd.",
-  "ROM.15.1": "Vi som er sterke, skylder å bære skrøpelighetene hos dem som er svake, og ikke være oss selv til behag.",
-  "ROM.15.2": "Enhver av oss skal være til behag for sin neste, til gagn og oppbyggelse for ham.",
-  "ROM.15.3": "For heller ikke Kristus levde seg selv til behag, men som det står skrevet: Hånsordene fra dem som håner deg, falt på meg.",
-  "ROM.15.4": "Og alt som før er skrevet, det er skrevet til lærdom for oss, for at vi skal ha håp ved det tålmodet og den trøsten som Skriftene gir.",
-  "ROM.15.5": "Må så tålmodets og trøstens Gud gi dere å ha ett sinn innbyrdes, etter Jesu Kristi forbilde,",
-  "ROM.15.6": "for at dere samstemmig og med én munn kan prise Gud, vår Herre Jesu Kristi Far.",
-  "ROM.15.7": "Ta dere derfor av hverandre, likesom også Kristus tok seg av oss, til Guds ære.",
-  "ROM.15.8": "For jeg sier: Kristus er blitt en tjener for de omskårne for Guds sannferdighets skyld, for å stadfeste løftene til fedrene.",
-  "ROM.15.9": "Men hedningene skal prise Gud for hans miskunn, som det står skrevet: Derfor vil jeg prise deg blant hedningene og lovsynge ditt navn!",
-  "ROM.15.10": "Og igjen sier han: Gled dere, hedninger, sammen med hans folk!",
-  "ROM.15.11": "Og igjen: Lov Herren, alle hedninger, og pris ham, alle folk!",
-  "ROM.15.12": "Og igjen sier Jesaja: Isais rotskudd skal komme, han som skal stå fram og herske over hedningefolkene. Til ham skal hedningene sette sitt håp.",
-  "ROM.15.13": "Må så håpets Gud fylle dere med all glede og fred i troen, så dere kan være rike på håp ved Den Hellige Ånds kraft.",
-  "ROM.15.14": "Mine brødre, for min del er jeg overbevist om at dere selv er fulle av godhet, fylt med all kunnskap, i stand til også å formane hverandre.",
-  "ROM.15.15": "Likevel har jeg til dels skrevet noe djervt til dere, for å påminne dere ved den nåde som er gitt meg av Gud,",
-  "ROM.15.16": "at jeg skal være Kristi Jesu offerprest for hedningene. Jeg gjør hellig tjeneste med Guds evangelium for at hedningene kan bli et offer til behag for Gud, helliget ved Den Hellige Ånd.",
-  "ROM.15.17": "Det er altså i Kristus Jesus jeg har min ros i tjenesten for Gud.",
-  "ROM.15.18": "For jeg vil ikke våge å tale om noe annet enn det som Kristus har utført gjennom meg for å føre hedningene til lydighet, ved ord og gjerning,",
-  "ROM.15.19": "ved kraften i tegn og under, ved Åndens kraft. Slik har jeg fullt ut kunngjort Kristi evangelium fra Jerusalem og rundt om like til Illyria.",
-  "ROM.15.20": "Men jeg har satt min ære i å forkynne evangeliet der hvor Kristi navn ikke før var nevnt, for at jeg ikke skulle bygge på en grunnvoll andre hadde lagt,",
-  "ROM.15.21": "men som det står skrevet: De som ikke har fått budskap om ham, skal se, og de som ikke har hørt, skal forstå.",
-  "ROM.15.22": "På grunn av dette er jeg gang på gang blitt hindret fra å komme til dere.",
-  "ROM.15.23": "Men nå, når jeg ikke lenger har virkerom i disse traktene, og da jeg alt i mange år har lengtet etter å komme til dere,",
-  "ROM.15.24": "håper jeg å få se dere på gjennomreisen når jeg drar til Spania, og få følge av dere på reisen videre, når jeg først har fått glede meg en tid over samværet med dere.",
-  "ROM.15.25": "Men nå drar jeg til Jerusalem i tjeneste for de hellige.",
-  "ROM.15.26": "For Makedonia og Akaia har villet samle inn en gave til de fattige blant de hellige i Jerusalem.",
-  "ROM.15.27": "De har selv villet dette, og de står også i gjeld til dem. For har hedningene fått del i deres åndelige goder, da er de også skyldige til å tjene dem med de timelige.",
-  "ROM.15.28": "Når jeg har fullført dette og lagt denne frukt trygt i deres hender, vil jeg dra veien om dere til Spania.",
-  "ROM.15.29": "Og jeg vet at når jeg kommer til dere, skal jeg komme med en fylde av Kristi velsignelse.",
-  "ROM.15.30": "Jeg formaner dere, brødre, ved vår Herre Jesus Kristus og ved Åndens kjærlighet: Strid sammen med meg i deres bønner for meg til Gud,",
-  "ROM.15.31": "for at jeg må bli fridd fra de vantro i Judea, og at min tjeneste i Jerusalem må bli godt mottatt av de hellige.",
-  "ROM.15.32": "Da vil jeg kunne komme til dere med glede, om Gud vil, og få hvile ut hos dere.",
-  "ROM.15.33": "Fredens Gud være med dere alle! Amen.",
-  "ROM.16.1": "Jeg anbefaler dere Føbe, vår søster, som er menighetstjenerinne i Kenkreæ.",
-  "ROM.16.2": "Ta imot henne i Herren, slik det sømmer seg for de hellige, og støtt henne i alle saker der hun kan trenge hjelp fra dere. For også hun har vært til hjelp for mange, også for meg.",
-  "ROM.16.3": "Hils Priska og Akvilas, mine medarbeidere i Kristus Jesus.",
-  "ROM.16.4": "De har våget sitt eget liv for mitt. Ikke bare jeg, men også alle menigheter av hedningene takker dem.",
-  "ROM.16.5": "Hils også menigheten i deres hus. Hils min kjære Epenetus, han som er Asias førstegrøde for Kristus.",
-  "ROM.16.6": "Hils Maria, som har arbeidet meget for dere.",
-  "ROM.16.7": "Hils Andronikus og Junias, mine slektninger og mine medfanger. De har et godt navn blant apostlene, de er også før meg kommet til Kristus.",
-  "ROM.16.8": "Hils Ampliatus, min kjære venn i Herren.",
-  "ROM.16.9": "Hils Urbanus, vår medarbeider i Kristus, og min kjære Stakys.",
-  "ROM.16.10": "Hils Apelles, den prøvede i Kristus. Hils dem som hører til Aristobulus’ hus.",
-  "ROM.16.11": "Hils Herodion, min slektning. Hils dem av Narkissus’ hus som er i Herren.",
-  "ROM.16.12": "Hils Tryfena og Tryfosa, som har arbeidet i Herren. Hils den kjære Persis, som har arbeidet så mye i Herren.",
-  "ROM.16.13": "Hils Rufus, den utvalgte i Herren, og hans og min mor.",
-  "ROM.16.14": "Hils Asynkritus, Flegon, Hermes, Patrobas, Hermas, og brødrene hos dem.",
-  "ROM.16.15": "Hils Filologus og Julia, Nereus og hans søster og Olympas, og alle de hellige hos dem.",
-  "ROM.16.16": "Hils hverandre med et hellig kyss! Alle Kristi menigheter hilser dere.",
-  "ROM.16.17": "Men jeg formaner dere, brødre: Hold øye med dem som volder splittelse og anstøt imot den lære som dere har lært. Vend dere fra dem!",
-  "ROM.16.18": "For disse tjener ikke vår Herre Jesus Kristus, men sin egen buk. Og ved sine fagre og smigrende ord dårer de hjertene til de godtroende.",
-  "ROM.16.19": "For ordet om den lydighet dere viser, er kommet ut til alle. Derfor gleder jeg meg over dere. Men jeg ønsker at dere skal være vise til det gode og rene for det onde.",
-  "ROM.16.20": "Men fredens Gud skal i hast knuse Satan under deres føtter. Vår Herre Jesu Kristi nåde være med dere!",
-  "ROM.16.21": "Timoteus, min medarbeider, og Lukius og Jason og Sosipater, mine slektninger, hilser dere.",
-  "ROM.16.22": "Jeg, Tertius, som har skrevet ned brevet, hilser dere i Herren.",
-  "ROM.16.23": "Gajus, min og hele menighetens vert, hilser dere. Erastus, byens regnskapsfører, og vår bror Kvartus hilser dere.",
-  "ROM.16.24": "Vår Herre Jesu Kristi nåde være med dere alle! Amen.",
-  "ROM.16.25": "Men ham som er mektig til å styrke dere etter mitt evangelium og forkynnelsen av Jesus Kristus, etter åpenbaringen av det mysteriet som det har vært tiet om i evige tider,",
-  "ROM.16.26": "men som nå er kommet for lyset og etter den evige Guds befaling ved profetiske skrifter er blitt kunngjort for alle folk for å virke troens lydighet -",
-  "ROM.16.27": "ham, den eneste vise Gud ved Jesus Kristus, tilhører æren i all evighet! Amen."
+  "ROM.1.1": {
+    "text": "Paulus, Jesu Kristi tjener, kalt til apostel, utskilt for Guds evangelium,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 9:15. Gal 1:15.",
+        "refs": []
+      }
+    ],
+    "section": "Evangeliets kraft og herlighet"
+  },
+  "ROM.1.2": {
+    "text": "det som han forut har gitt løfte om ved sine profeter i hellige skrifter,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 40:1,2,9. Luk 1:70.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.3": {
+    "text": "om hans Sønn, han som etter kjødet er kommet av Davids ætt,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Sam 7:12 ff. Jes 11:1. Matt 1:1. 2Tim 2:8. Åp 22:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.4": {
+    "text": "og som etter hellighets Ånd er godtgjort å være Guds veldige Sønn ved oppstandelsen fra de døde, Jesus Kristus, vår Herre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 13:32 ff. 17:31. Heb 1:5. 5:5. Åp 1:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.5": {
+    "text": "Ved ham har vi fått nåde og apostelembete for å virke troens lydighet blant alle hedningefolkene, for hans navns skyld.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:16. 15:18. Apg 6:7. Gal 2:7,8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.6": {
+    "text": "Blant dem er også dere kalt til Jesus Kristus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.1.7": {
+    "text": "- Til alle Guds elskede, kalte og hellige som er i Roma: Nåde være med dere og fred fra Gud, vår Far, og Herren Jesus Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 1:2,3. 2Kor 1:2. Ef 1:1. Fil 1:2. 2Tess 1:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.8": {
+    "text": "Først takker jeg min Gud ved Jesus Kristus for dere alle, for i hele verden blir det talt om deres tro.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:19. 1Tess 1:8. 1Joh 5:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.9": {
+    "text": "For Gud selv, som jeg tjener i min ånd i hans Sønns evangelium, han er mitt vitne på hvordan jeg stadig minnes dere i bønnene mine,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kor 1:23. Ef 1:15,16. Fil 1:8. 2Tim 1:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.10": {
+    "text": "og ber om at det endelig en gang ved Guds vilje må lykkes for meg å komme til dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 18:21. 1Tess 3:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.11": {
+    "text": "For jeg lengter etter å se dere, så jeg kunne la dere få del med meg i noen åndelig gave, slik at dere kan bli styrket.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:23. 15:23,29. 1Pet 4:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.12": {
+    "text": "Det vil si: at vi kunne oppmuntres sammen med dere ved vår felles tro, deres og min.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.1.13": {
+    "text": "Jeg vil ikke, brødre, at dere skal være uvitende om at jeg ofte har satt meg fore å komme til dere, men helt til nå er jeg blitt hindret. Også hos dere ville jeg gjerne høste noen frukt av mitt arbeid, likesom blant de øvrige hedningefolk.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:22,23. Apg 19:21. Fil 1:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.14": {
+    "text": "Jeg står i gjeld både til grekere og barbarer, både til vise og uvise.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:27. 1Kor 9:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.15": {
+    "text": "Derfor er jeg for min del rede til å forkynne evangeliet også for dere i Roma.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 28:31.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.16": {
+    "text": "For jeg skammer meg ikke ved evangeliet, for det er en Guds kraft til frelse for hver den som tror, både for jøde først og så for greker.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 119:46.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Apg 13:46. 1Kor 1:18. 15:2. 2Tim 1:8. Tit 2:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.17": {
+    "text": "For i det åpenbares Guds rettferdighet av tro til tro. Som det står skrevet: Den rettferdige av tro, skal leve.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:21. 4:11,13. 9:30.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Hab 2:4. Joh 3:36. Gal 3:11. Fil 3:9. Heb 10:38.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.18": {
+    "text": "For Guds vrede åpenbares fra himmelen over all ugudelighet og urettferdighet hos mennesker som holder sannheten nede i urettferdighet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Guds vrede over urettferdighet"
+  },
+  "ROM.1.19": {
+    "text": "For det en kan vite om Gud, ligger åpent for dem, for Gud har åpenbart det for dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 14:15-17. 17:24-28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.20": {
+    "text": "For hans usynlige vesen, både hans evige kraft og hans guddommelighet, har vært synlig fra verdens skapelse av. Det kjennes av hans gjerninger, for at de skal være uten unnskyldning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 12:7-9. Sal 19:2. Jes 40:26,28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.21": {
+    "text": "For enda de kjente Gud, æret eller takket de ham ikke som Gud. I stedet ble de tomme i sine tanker, og deres uforstandige hjerter ble formørket.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 4:17-19. 1Pet 4:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.22": {
+    "text": "Mens de ga seg ut for å være vise, ble de dårer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 10:14. 1Kor 1:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.23": {
+    "text": "Og de byttet bort den uforgjengelige Guds herlighet mot et bilde, en avbildning av et forgjengelig menneske og av fugler og firbente dyr og krypdyr.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 4:15-18. Sal 106:20. Jes 40:18. 46:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.24": {
+    "text": "Derfor overga også Gud dem i deres hjerters lyster til urenhet, til å vanære sine legemer seg imellom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 81:13. Apg 14:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.25": {
+    "text": "De byttet bort Guds sannhet mot løgnen og æret og dyrket skapningen fremfor Skaperen, han som er lovprist i evighet. Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 44:20. Jer 10:14. 16:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.26": {
+    "text": "Derfor overga Gud dem til skammelige lidenskaper. Kvinnene deres byttet om det naturlige samliv med et som er mot naturen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*Se Ordforklaringer: Mann og kvinne",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.27": {
+    "text": "På samme vis forlot også mennene den naturlige omgang med kvinnen og brant i sitt begjær etter hverandre. Menn drev skammelig utukt med menn, og fikk på sin egen kropp den straffen som var uunngåelig på grunn av deres forvillelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 18:22. 20:13.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Kor 6:9. Gal 5:19-21. 1Tim 1:9,10.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*Se Ordforklaringer: Mann og kvinne",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.28": {
+    "text": "Og ettersom de ikke brydde seg om å eie Gud i kunnskap, overga Gud dem til et udugelig sinn, så de gjør slikt som ikke sømmer seg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.1.29": {
+    "text": "De er fulle av all slags urett, umoral, griskhet, ondskap, fulle av misunnelse, mordlyst og strid, svik og falskhet. De ble ryktemakere,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:13. Matt 15:19. 1Kor 5:10,11. 6:9,10. 2Kor 12:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.30": {
+    "text": "baktalere, gudshatere, voldsmenn, overmodige, storskrytere, oppfinnsomme til ondt, ulydige mot foreldre,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 5:3-5. Kol 3:5. 1Tim 1:9-10. 2Tim 3:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.31": {
+    "text": "uforstandige, upålitelige, uten naturlig kjærlighet, ubarmhjertige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Tim 3:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.1.32": {
+    "text": "De kjenner godt til Guds rettferdige dom, at de som gjør slikt, fortjener døden. Likevel gjør de ikke bare slikt selv, men de holder også med dem som gjør det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.1": {
+    "text": "Derfor er du uten unnskyldning, du menneske, hvem du så er som dømmer. For idet du dømmer en annen, fordømmer du deg selv. Du som dømmer, gjør jo selv det samme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 7:1. Luk 6:37. 1Kor 4:5.",
+        "refs": []
+      }
+    ],
+    "section": "Også jødene er uten unnskyldning"
+  },
+  "ROM.2.2": {
+    "text": "Vi vet at Guds dom, i samsvar med sannheten, er over dem som gjør slikt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.3": {
+    "text": "Men du, menneske, som dømmer disse som gjør slikt, og selv gjør det samme - mener du at du skal unnfly Guds dom?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.4": {
+    "text": "Eller forakter du hans rikdom på godhet og overbærenhet og tålmodighet? Vet du ikke at Guds godhet driver deg til omvendelse?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 24:47. 2Pet 3:9,15. Åp 2:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.5": {
+    "text": "Med din hardhet og ditt ubotferdige hjerte hoper du deg opp vrede til vredens dag, den dagen når Guds rettferdige dom skal bli åpenbart.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.6": {
+    "text": "For han skal gi enhver igjen etter hans gjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 62:13.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ord 24:12. Matt 16:27. 2Kor 5:10. Gal 6:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.7": {
+    "text": "Til dem som med utholdenhet i god gjerning søker herlighet og ære og uforgjengelighet, skal han gi evig liv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 6:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.8": {
+    "text": "Men over dem som er gjenstridige og ulydige mot sannheten, men lydige mot urettferdigheten - over dem skal komme vrede og harme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 5:19-21. 2Tess 1:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.9": {
+    "text": "Trengsel og angst skal komme over hver menneskesjel som gjør det onde, både jøde først og så greker.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.10": {
+    "text": "Men herlighet og ære og fred skal hver den få som gjør det gode, både jøde først og så greker.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.11": {
+    "text": "For Gud gjør ikke forskjell på folk,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 10:17. 1Sam 16:7.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2Krøn 19:7. Job 34:19. Apg 10:34. Gal 2:6. Ef 6:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.12": {
+    "text": "alle som syndet uten å ha loven, skal gå fortapt uten loven, og alle som har syndet under loven, skal dømmes ved loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 12:47,48.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.13": {
+    "text": "For ikke de som hører loven, er rettferdige for Gud, men de som gjør etter loven, skal bli rettferdiggjort.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 7:21-27. Joh 12:48. Jak 1:22. 4:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.14": {
+    "text": "For når hedninger, som ikke har loven, av naturen gjør det loven byr, da er disse, som ikke har loven, seg selv en lov.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 10:35.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.15": {
+    "text": "De viser at den gjerning loven krever, er skrevet i deres hjerter. Om det vitner også deres samvittighet og deres tanker, som innbyrdes anklager dem eller også forsvarer dem -",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.16": {
+    "text": "på den dagen når Gud skal dømme det skjulte hos menneskene, etter mitt evangelium, ved Jesus Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:10. Fork 12:14. Matt 25:31 ff. Joh 12:48.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Apg 17:31. 1Kor 4:5. Åp 20:12,13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.17": {
+    "text": "Men om du kaller deg jøde, og du setter din lit til loven og roser deg av Gud,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:4. Mika 3:11. Luk 18:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.18": {
+    "text": "og kjenner hans vilje og dømmer om de forskjellige ting, fordi du er opplært i loven,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.19": {
+    "text": "og regner deg selv å være en veiviser for blinde, et lys for dem som er i mørket,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.20": {
+    "text": "en oppdrager for uforstandige, en lærer for umyndige, siden du har den rette form for kunnskap og sannhet i loven:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.21": {
+    "text": "Du som altså lærer en annen, lærer du deg selv? Du som forkynner at en ikke skal stjele, stjeler du?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 23:3 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.22": {
+    "text": "Du som sier at en ikke skal bryte ekteskapet, bryter du ekteskapet? Du som har avsky for avgudene, raner du templene deres?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.23": {
+    "text": "Du som roser deg av loven, du vanærer Gud ved å bryte loven!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.24": {
+    "text": "For på grunn av dere blir Guds navn spottet blant hedningene, slik det står skrevet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Sam 12:14. Jes 52:5. Esek 36:20 ff. 2Pet 2:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.25": {
+    "text": "For omskjærelsen er nok til nytte dersom du holder loven. Men er du en lovbryter, da er din omskjærelse blitt til forhud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 4:4. 9:25. 1Kor 7:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.26": {
+    "text": "Om nå en uomskåren oppfyller lovens rettferdskrav, skulle ikke da denne uomskårne regnes som omskåret?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.27": {
+    "text": "Og den som i ytre forstand ikke er omskåret, men oppfyller loven, skal dømme deg, du som med bokstav og omskjærelse er en lovbryter.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.2.28": {
+    "text": "For ikke den er jøde som er det i det ytre. Heller ikke er det omskjærelse, det som gjøres i det åpenbare, på kjødet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:7,8. Joh 8:39. Gal 6:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.2.29": {
+    "text": "Men den som er jøde i det skjulte, han er jøde. Og omskjærelsen er hjertets omskjærelse i Ånden, ikke i bokstaven. En slik har sin ros, ikke av mennesker, men av Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 10:16. 30:6. Jer 4:4. Gal 5:3. Fil 3:3. Kol 2:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.1": {
+    "text": "Hva fortrinn har da jøden? Eller hva gagn er det i omskjærelsen?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Hedninger og jøder står skyldige for Gud"
+  },
+  "ROM.3.2": {
+    "text": "Mye på alle vis! Først og fremst at Guds ord ble betrodd dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:4. 5Mos 4:7,8. Sal 147:19,20. 2Tess 2:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.3": {
+    "text": "Hva så om noen var utro? Skulle vel deres utroskap gjøre Guds troskap til intet?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Tim 2:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.4": {
+    "text": "Langt derifra! La det stå fast at Gud er sannferdig, men hvert menneske er en løgner! Som det står skrevet: For at du må kjennes rettferdig i dine ord og vinne når du fører din sak.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 51:6. 116:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.5": {
+    "text": "Men dersom vår urettferdighet fremhever Guds rettferdighet, hva skal vi da si? Er kanskje Gud urettferdig når han fører sin vrede over oss? - Jeg taler på menneskelig vis.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:14. Job 8:3. 34:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.6": {
+    "text": "Langt derifra! Hvordan skulle da Gud kunne dømme verden?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 18:25.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.7": {
+    "text": "Men hvis Guds sannferdighet ved min løgn viser seg større til hans ære, hvorfor blir jeg da likevel dømt som synder?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.3.8": {
+    "text": "Skal vi ikke da like gjerne gjøre det onde for at det gode kan komme av det - slik vi spottes for og som noen sier at vi lærer? Rettferdig er den dommen som rammer slike!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.9": {
+    "text": "Hva da? Har vi noe fortrinn? Nei, slett ikke! Vi har jo allerede anklaget både jøder og grekere for at de alle er under synd,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.1. Gal 3:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.10": {
+    "text": "som det står skrevet: Det er ikke én rettferdig, ikke en eneste.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 14:1-3. 53:1-4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.11": {
+    "text": "Det er ikke én som er forstandig, det er ikke én som søker Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 9:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.12": {
+    "text": "Alle er veket av, alle sammen er blitt udugelige. Det er ikke noen som gjør det gode, ikke en eneste.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.3.13": {
+    "text": "Deres strupe er en åpnet grav, de bruker sin tunge til svik, ormegift er under deres lepper.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 5:10. 140:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.14": {
+    "text": "Deres munn er full av forbannelse og bitterhet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 10:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.15": {
+    "text": "Raske er deres føtter til å utøse blod.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 59:7,8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.16": {
+    "text": "Ødeleggelse og elendighet er det på deres veier.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.3.17": {
+    "text": "Freds vei kjenner de ikke.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.3.18": {
+    "text": "Gudsfrykt er det ikke for deres øyne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 36:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.19": {
+    "text": "Men vi vet at alt det loven sier, det taler den til dem som er under loven, for at hver munn skal lukkes og hele verden bli skyldig for Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:12. Gal 3:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.20": {
+    "text": "Derfor blir intet kjød rettferdiggjort for ham ved lovgjerninger. For ved loven kommer erkjennelse av synd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:7. Sal 143:2. Gal 2:16.",
+        "refs": []
+      }
+    ],
+    "section": "Frelse bare ved troen på Jesus"
+  },
+  "ROM.3.21": {
+    "text": "Men nå er Guds rettferdighet, som loven og profetene vitner om, blitt åpenbart uten loven,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:17. Fil 3:9. Joh 5:46.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.22": {
+    "text": "det er Guds rettferdighet ved tro på Jesus Kristus, til alle og over alle som tror. - For det er ingen forskjell,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:12. Gal 2:16. 3:28. Kol 3:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.23": {
+    "text": "alle har syndet og mangler Guds herlighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.9. 11:32.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.24": {
+    "text": "Og de blir rettferdiggjort for intet av hans nåde ved forløsningen i Kristus Jesus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:4. Matt 10:8. 20:28.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ef 1:7. 2:8. 1Tim 2:6. Tit 3:5-7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.25": {
+    "text": "Ham stilte Gud til skue i hans blod som en nådestol ved troen, for å vise sin rettferdighet, fordi han i sin langmodighet hadde båret over med de syndene som før var gjort.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 16:14 ff. Apg 13:38,39. Heb 9:13.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Joh 2:2. 4:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.26": {
+    "text": "Ved dette ville Gud vise sin rettferdighet i den tiden som nå er, så han kunne være rettferdig og rettferdiggjøre den som har troen på Jesus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.3.27": {
+    "text": "Hvor er så vår ros? Den er utelukket. Ved hvilken lov? Gjerningenes lov? Nei, ved troens lov.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.3.28": {
+    "text": "For vi er overbevist om at mennesket blir rettferdiggjort ved tro, uten lovgjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:5. Gal 2:16. Ef 2:8,9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.29": {
+    "text": "Eller er Gud bare jøders Gud? Er han ikke også hedningers? Jo, han er også hedningers Gud,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.3.30": {
+    "text": "så sant Gud er én, han som rettferdiggjør de omskårne av troen og de uomskårne ved troen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 15:9,11. Gal 3:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.3.31": {
+    "text": "Opphever vi så loven ved troen? Langt derifra! Vi stadfester loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:15 ff. 8:4. Matt 5:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.1": {
+    "text": "Hva skal vi da si at vår far Abraham oppnådde etter kjødet?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Rettferdiggjørelse ved tro er bevitnet i Det gamle testamente"
+  },
+  "ROM.4.2": {
+    "text": "Dersom Abraham ble rettferdiggjort på grunn av gjerninger, da har han jo noe å rose seg av. Men det har han ikke for Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 1:31. Ef 2:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.3": {
+    "text": "For hva sier Skriften: Abraham trodde Gud, og det ble tilregnet ham som rettferdighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 15:6. Gal 3:6. Jak 2:23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.4": {
+    "text": "Den som har gjerninger, får ikke lønnen av nåde, men som noe han har fortjent.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.4.5": {
+    "text": "Den derimot som ikke har gjerninger, men tror på ham som rettferdiggjør den ugudelige, han får sin tro tilregnet som rettferdighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:28. Gal 2:16. Fil 3:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.6": {
+    "text": "Slik priser også David det menneske salig som Gud tilregner rettferdighet uten gjerninger:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.4.7": {
+    "text": "Salige er de som har fått sine overtredelser tilgitt og sine synder skjult.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 32:1,2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.8": {
+    "text": "Salig er den mann som Herren ikke tilregner synd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.4.9": {
+    "text": "Gjelder nå denne saligprisningen de omskårne, eller gjelder den også de uomskårne? Vi sier jo at troen ble regnet Abraham til rettferdighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:30. 1Mos 15:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.10": {
+    "text": "Hvordan ble den så tilregnet ham? Skjedde det etter at han var blitt omskåret, eller da han var uomskåret? Ikke da han var omskåret, men da han var uomskåret.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 17:9,10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.11": {
+    "text": "Og han fikk omskjærelsens tegn til segl på den rettferdighet av tro som han hadde fått da han var uomskåret. Slik skulle han være far til alle de troende som er uomskårne, så rettferdigheten kunne bli tilregnet også dem,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 3:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.12": {
+    "text": "og likeså far til de omskårne som ikke bare har omskjærelsen, men også følger i fotsporene av den tro som vår far Abraham hadde da han var uomskåret.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.4.13": {
+    "text": "For det var ikke ved loven Abraham eller hans ætt fikk det løftet at han skulle være arving til verden, men ved troens rettferdighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:8.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Mos 12:7. 13:15,17. 15:18. 17:8. Heb 11:10,14,16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.14": {
+    "text": "For dersom de som holder seg til loven, er arvinger, da er troen blitt unyttig og løftet satt ut av kraft.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.4.15": {
+    "text": "For loven virker vrede. Men der det ikke er noen lov, der er det heller ikke noe lovbrudd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:20. 5:13,20. 7:8 ff. Gal 3:10,19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.16": {
+    "text": "Derfor fikk han løftet ved tro, for at det kunne være av nåde, slik at løftet kunne stå fast for hele ætten, ikke bare for dem som har loven, men også for dem som har Abrahams tro. Han er jo far til oss alle,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 19:9. Gal 3:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.17": {
+    "text": "slik det står skrevet: Til far for mange folkeslag har jeg satt deg. Han er vår far i Guds øyne - den Gud som han trodde på, han som gjør de døde levende og kaller på det som ikke er til, som om det var til.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 17:4,5. Joh 5:21. 2Kor 1:9. Heb 11:3,19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.18": {
+    "text": "Mot håp trodde han med håp, for at han skulle bli mange folks far, etter det som var sagt: Slik skal din ætt bli.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 15:5,6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.19": {
+    "text": "Uten å bli svak i troen tenkte han på sitt eget legeme, som alt var utlevd - han var jo snart hundre år - og på at Saras morsliv var utdødd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 17:17. Heb 11:11,12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.20": {
+    "text": "Men på Guds løfte tvilte han ikke i vantro, men han ble sterk i sin tro, idet han ga Gud ære.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Heb 11:8 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.21": {
+    "text": "Han var fullt viss på at det Gud hadde lovt, det var han òg mektig til å gjøre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 18:14. Sal 115:3. Jer 32:17. Luk 1:37.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.22": {
+    "text": "Derfor ble det også regnet ham til rettferdighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.3. 1Mos 15:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.23": {
+    "text": "Men ikke bare for hans skyld er det skrevet at det ble tilregnet ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:4. 1Kor 10:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.24": {
+    "text": "Det er skrevet også for vår skyld som skal få rettferdigheten tilregnet, vi som tror på ham som reiste Jesus, vår Herre, opp fra de døde,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 2:24,32. 1Pet 1:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.4.25": {
+    "text": "han som ble gitt for våre overtredelser og reist opp til vår rettferdiggjørelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:32. Jes 53:4. 1Kor 15:3. 2Kor 5:19. 1Joh 2:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.1": {
+    "text": "Da vi nå er rettferdiggjort av tro, har vi fred med Gud ved vår Herre Jesus Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 9:6. Apg 10:36. Ef 2:14.",
+        "refs": []
+      }
+    ],
+    "section": "Ved rettferdiggjørelsen av tro har vi en full frelse"
+  },
+  "ROM.5.2": {
+    "text": "Ved ham har vi også ved troen fått adgang til denne nåden som vi står i. Og vi roser oss av håp om Guds herlighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 10:9. 14:6. Ef 2:18. 3:12. Heb 10:19. 1Pet 3:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.3": {
+    "text": "Ikke bare det, men vi roser oss også av trengslene. For vi vet at trengselen virker tålmodighet,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 1:29. Jak 1:2,3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.4": {
+    "text": "tålmodigheten virker et prøvet sinn, og det prøvede sinn håp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.5.5": {
+    "text": "Og håpet gjør ikke til skamme, for Guds kjærlighet er utøst i våre hjerter ved Den Hellige Ånd som er oss gitt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 119:116. Heb 6:18,19. 1Joh 4:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.6": {
+    "text": "For mens vi ennå var skrøpelige, døde Kristus til fastsatt tid for ugudelige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.8. Ef 2:1. Kol 2:13. Heb 9:15. 1Pet 3:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.7": {
+    "text": "For knapt nok vil noen gå i døden for en rettferdig - skjønt for en som er god, kunne kanskje noen ta på seg å dø.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.5.8": {
+    "text": "Men Gud viser sin kjærlighet til oss ved at Kristus døde for oss mens vi ennå var syndere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.6. Joh 3:16. 1Joh 3:16. 4:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.9": {
+    "text": "Hvor mye mer skal vi da, etter at vi er rettferdiggjort ved hans blod, ved ham bli frelst fra vreden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.5.10": {
+    "text": "For ble vi forlikt med Gud ved hans Sønns død, da vi var fiender, skal vi så mye mer bli frelst ved hans liv, etter at vi er blitt forlikt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kor 5:18. Kol 1:21,22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.11": {
+    "text": "Ja, ikke bare det, men vi roser oss også av Gud ved vår Herre Jesus Kristus. Ved ham har vi fått forlikelsen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 34:3. Jer 9:24. 1Kor 1:31.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.12": {
+    "text": "Derfor, likesom synden kom inn i verden ved ett menneske, og døden på grunn av synden, og døden slik trengte gjennom til alle mennesker, fordi de syndet alle -",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:23. 1Mos 2:17. 3:6. 1Kor 15:21,22. Jak 1:15.",
+        "refs": []
+      }
+    ],
+    "section": "Adam og Jesus Kristus"
+  },
+  "ROM.5.13": {
+    "text": "for vel var det synd i verden før loven kom, men der det ikke er noen lov, blir synden ikke tilregnet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.14": {
+    "text": "Likevel hersket døden fra Adam til Moses, også over dem som ikke hadde syndet ved et lovbrudd, slik som Adam - han som er et forbilde på den som skulle komme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 15:21,45.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.15": {
+    "text": "Men med nådegaven er det ikke som med fallet. For er de mange døde på grunn av den enes fall, så er mye mer Guds nåde og nådens gave i det ene mennesket Jesus Kristus, blitt overmåte rik for de mange.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 1:16,17. 1Kor 15:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.16": {
+    "text": "Og med gaven er det ikke som da den ene syndet. For dommen kom etter den enes synd og ble til fordømmelse, men nådegaven kom etter manges overtredelser og ble til frifinnelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.17": {
+    "text": "For om døden kom til å herske ved den ene, fordi denne ene falt, hvor mye mer skal da de som mottar nådens og rettferdighetsgavens overstrømmende rikdom, leve og herske ved den ene, Jesus Kristus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.5.18": {
+    "text": "Altså, likesom én manns overtredelse ble til fordømmelse for alle mennesker, slik blir også én manns rettferdige gjerning til livsens rettferdiggjørelse for alle mennesker.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.21. Rom 8:10. 1Kor 15:21,22. Kol 2:13. 1Joh 2:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.19": {
+    "text": "For likesom de mange ble stilt fram som syndere ved det ene menneskets ulydighet, så skal også de mange stilles fram som rettferdige ved den enes lydighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 53:11. Fil 2:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.20": {
+    "text": "Men loven kom til for at fallet skulle bli stort. Men der synden ble stor, ble nåden enda større!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:15. 7:8.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Luk 7:47. 1Kor 15:56. Gal 3:19. 1Tim 1:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.5.21": {
+    "text": "Og likesom synden hersket ved døden, så skal også nåden herske ved rettferdighet til evig liv ved Jesus Kristus, vår Herre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.17. Joh 1:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.1": {
+    "text": "Hva skal vi da si? Skal vi forbli i synden for at nåden kan bli dess større?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:8. Gal 2:17.",
+        "refs": []
+      }
+    ],
+    "section": "Døde for synden, men levende for Gud"
+  },
+  "ROM.6.2": {
+    "text": "Langt derifra! Vi som er døde fra synden, hvordan skulle vi ennå leve i den?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Pet 2:24. 4:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.3": {
+    "text": "Eller vet dere ikke at alle vi som ble døpt til Kristus Jesus, ble døpt til hans død?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 3:27.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.4": {
+    "text": "Vi ble altså begravet med ham ved dåpen til døden, for at likesom Kristus ble reist opp fra de døde ved Faderens herlighet, så skal også vi vandre i et nytt liv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:10,11. Ef 4:22-24. Kol 2:12. 3:1. 1Pet 1:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.5": {
+    "text": "For er vi blitt forenet med ham ved en død som er lik hans død, så skal vi også bli det ved en oppstandelse som er lik hans oppstandelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 3:10,11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.6": {
+    "text": "Vi vet at vårt gamle menneske ble korsfestet med ham for at syndelegemet skulle bli tilintetgjort, så vi ikke lenger skal være slaver under synden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 2:20. 5:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.7": {
+    "text": "For den som er død, er rettferdiggjort fra synden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Pet 4:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.8": {
+    "text": "Men døde vi med Kristus, da tror vi at vi også skal leve med ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Tim 2:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.9": {
+    "text": "For vi vet at etter at Kristus er reist opp fra de døde, dør han ikke mer. Døden har ikke lenger noen makt over ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Åp 1:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.10": {
+    "text": "For sin død, den døde han én gang for synden, men sitt liv, det lever han for Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Heb 7:27. 9:28. 1Pet 3:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.11": {
+    "text": "Slik skal også dere regne dere som døde for synden, men levende for Gud i Kristus Jesus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 2:19. 1Pet 2:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.12": {
+    "text": "La derfor ikke synden herske i deres dødelige legeme, så dere lyder dets lyster.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.6.13": {
+    "text": "Still heller ikke lemmene deres til rådighet for synden, som våpen for urettferdighet. Men fremstill dere selv for Gud som de som av døde er blitt levende, og by deres lemmer fram som rettferdighetens våpen for Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:1. Kol 3:5. 1Tess 4:4,5. Heb 9:14. 1Pet 4:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.14": {
+    "text": "For synden skal ikke få herske over dere, for dere er ikke under loven, men under nåden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 5:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.15": {
+    "text": "Hva så? Skal vi synde siden vi ikke er under loven, men under nåden? Langt derifra!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.16": {
+    "text": "Vet dere ikke, at når dere byr dere fram for å lyde noen som tjenere, så er dere dermed tjenere under den som dere lyder. Dere blir enten tjenere under synden til død, eller under lydigheten til rettferdighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 8:34. 2Pet 2:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.17": {
+    "text": "Men Gud være takk at dere som var syndens tjenere, av hjertet er blitt lydige mot den læreform dere er overgitt til.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.6.18": {
+    "text": "Og når dere nå er frigjort fra synden, er dere blitt tjenere for rettferdigheten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 8:32,36. Gal 5:1,13. 1Pet 2:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.19": {
+    "text": "Jeg taler på menneskelig vis, på grunn av deres kjødelige skrøpelighet. For likesom dere før bød fram lemmene deres til tjeneste for urenheten og lovløsheten som førte til lovløshet - så by nå deres lemmer fram til tjeneste for rettferdigheten - det fører til helliggjørelse - .",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.20": {
+    "text": "For da dere var syndens tjenere, var dere fri fra rettferdigheten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.16,18. Joh 8:34.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.21": {
+    "text": "Hva slags frukt høstet dere så den gangen? Slikt som dere nå skammer dere over, for det ender med død.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:5. 8:6,13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.22": {
+    "text": "Men nå, når dere er frigjort fra synden og er blitt tjenere for Gud, har dere helliggjørelse som frukt, og til slutt evig liv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.18. Joh 8:32. 1Pet 1:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.6.23": {
+    "text": "For syndens lønn er døden, men Guds nådegave er evig liv i Kristus Jesus, vår Herre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:12,21.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Matt 25:46. Joh 10:10,28. 11:25. Jak 1:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.1": {
+    "text": "Eller vet dere ikke, brødre - jeg taler jo til slike som kjenner loven - at loven hersker over mennesket bare så lenge det lever?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Fri fra loven og fra syndens makt"
+  },
+  "ROM.7.2": {
+    "text": "For den gifte kvinne er ved loven bundet til mannen sin så lenge han lever. Men dersom mannen dør, er hun løst fra loven som bandt henne til mannen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 7:10,39.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.3": {
+    "text": "Derfor skal hun kalles en horkvinne dersom hun, mens mannen ennå lever, blir en annen manns kone. Men dersom mannen dør, er hun fri fra loven, og er ingen horkvinne om hun gifter seg med en annen mann.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.7.4": {
+    "text": "Mine brødre! Slik døde også dere fra loven ved Kristi legeme, for at dere skal tilhøre en annen, ham som ble reist opp fra de døde, så vi kan bære frukt for Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 2:19,20. 5:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.5": {
+    "text": "For da vi var i kjødet, ble de syndige lystene vekket ved loven, og de virket slik i våre lemmer at vi bar frukt for døden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.6": {
+    "text": "Men nå er vi løst fra loven, ettersom vi er døde fra det vi var fanget under, slik at vi tjener i Åndens nye vesen, ikke i bokstavens gamle vesen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 31:31. 2Kor 3:6,14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.7": {
+    "text": "Hva skal vi da si? Er loven synd? Langt derifra! Men jeg kjente ikke synden uten ved loven. For begjæret hadde jeg ikke kjent dersom ikke loven hadde sagt: Du skal ikke begjære!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:20. 4:15. 2Mos 20:17,18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.8": {
+    "text": "Men synden benyttet seg av budet og vakte alle slags begjær i meg. For uten lov er synden død.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:15. 5:20. Gal 3:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.9": {
+    "text": "Jeg levde en gang uten lov. Men da budet kom, våknet synden til live.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.7.10": {
+    "text": "Jeg derimot døde. Og det viste seg at budet, som skulle være til liv, ble til død for meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 18:5. Esek 20:11,13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.11": {
+    "text": "For synden benyttet seg av budet og dåret meg og drepte meg ved det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 3:13. 1Kor 15:56. 2Kor 11:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.12": {
+    "text": "Så er da loven hellig, og budet hellig og rettferdig og godt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Tim 1:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.13": {
+    "text": "Har da altså det som er godt, voldt meg døden? Langt derifra! Men synden gjorde det, for at den skulle vise seg som synd, ved at den benyttet det som er godt, til å føre død over meg. Ved budet skulle synden bli overmåte syndig.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.7.14": {
+    "text": "For vi vet at loven er åndelig, jeg derimot er kjødelig, solgt til trell under synden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Loven er hellig og god, men den kan ikke overvinne synden"
+  },
+  "ROM.7.15": {
+    "text": "Jeg skjønner ikke det jeg gjør. For det jeg vil, det gjør jeg ikke. Men det jeg hater, det gjør jeg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 5:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.16": {
+    "text": "Men gjør jeg det jeg ikke vil, da gir jeg jo loven medhold i at den er god.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.17": {
+    "text": "Så er det ikke lenger jeg som gjør det, men synden som bor i meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.18": {
+    "text": "For jeg vet at i meg, det er i mitt kjød, bor ikke noe godt. For viljen har jeg, men å gjøre det gode, makter jeg ikke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:3. Gal 5:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.19": {
+    "text": "Det gode som jeg vil, gjør jeg ikke. Men det onde som jeg ikke vil, det gjør jeg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.7.20": {
+    "text": "Men gjør jeg det jeg ikke vil, da er det ikke lenger jeg som gjør det, men synden som bor i meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.21": {
+    "text": "Jeg finner altså den lov for meg, jeg som vil gjøre det gode, at det onde ligger meg for hånden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 14:4. Sal 51:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.22": {
+    "text": "For etter mitt indre menneske slutter jeg meg med glede til Guds lov.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 1:2. 2Kor 4:16. Ef 3:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.23": {
+    "text": "Men i lemmene mine ser jeg en annen lov, som strider mot loven i mitt sinn, og som tar meg til fange under syndens lov, som er i mine lemmer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.7.24": {
+    "text": "Jeg elendige menneske! Hvem skal fri meg fra dette dødens legeme?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.7.25": {
+    "text": "Gud være takk, ved Jesus Kristus, vår Herre! Jeg, som jeg er, tjener da Guds lov med mitt sinn, men syndens lov med mitt kjød.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 15:57. 2Kor 9:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.1": {
+    "text": "Så er det da ingen fordømmelse for dem som er i Kristus Jesus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Frigjort fra synden og født til liv med Kristus"
+  },
+  "ROM.8.2": {
+    "text": "For livets Ånds lov har i Kristus Jesus frigjort meg fra syndens og dødens lov.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:18. 7:23. Joh 8:36.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.3": {
+    "text": "For det som var umulig for loven, fordi den var maktesløs på grunn av kjødet, det gjorde Gud, da han sendte sin egen Sønn i syndig kjøds lignelse, for syndens skyld, og fordømte synden i kjødet,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kor 5:21. Gal 3:13. Heb 7:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.4": {
+    "text": "for at lovens krav om rettferdighet skulle bli oppfylt i oss, vi som ikke vandrer etter kjødet, men etter Ånden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.8.5": {
+    "text": "For de som er etter kjødet, attrår det som hører kjødet til. Men de som er etter Ånden, attrår det som hører Ånden til.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.8.6": {
+    "text": "For kjødets attrå er død, men Åndens attrå er liv og fred.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:21. Gal 6:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.7": {
+    "text": "Kjødets attrå er jo fiendskap mot Gud, for det er ikke Guds lov lydig, kan heller ikke være det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 1:21. Jak 4:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.8": {
+    "text": "For de som er i kjødet, kan ikke være Gud til behag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.5. 7:5,14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.9": {
+    "text": "Men dere er ikke i kjødet, dere er i Ånden, så sant Guds Ånd bor i dere. Men om noen ikke har Kristi Ånd, da hører han ikke Kristus til.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 2:12.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "3:16. 12:3. Gal 4:6. 2Tim 1:14. 1Joh 3:24. 4:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.10": {
+    "text": "Dersom Kristus bor i dere, da er nok legemet dødt på grunn av synd, men ånden er liv på grunn av rettferdighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:18. 2Kor 13:5. Gal 2:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.11": {
+    "text": "Men dersom hans Ånd som reiste Jesus opp fra de døde, bor i dere, da skal han som reiste Kristus opp fra de døde, også levendegjøre deres dødelige legemer ved sin Ånd, som bor i dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 5:21. Apg 2:24. 1Kor 6:14. 2Kor 4:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.12": {
+    "text": "Derfor, brødre, skylder vi ikke kjødet noe, så vi skulle leve etter kjødet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:6,18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.13": {
+    "text": "For dersom dere lever etter kjødet, da skal dere dø. Men dersom dere ved Ånden tar livet av legemets gjerninger, skal dere leve.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 18:21. Gal 6:8. Ef 4:22. Kol 3:5,6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.14": {
+    "text": "For så mange som drives av Guds Ånd, de er Guds barn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.9. Gal 5:18. 1Joh 3:1,24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.15": {
+    "text": "Dere fikk jo ikke trelldommens ånd, så dere igjen skulle frykte. Men dere fikk barnekårets Ånd som gjør at vi roper: Abba, Far!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.9. Mark 14:36. Joh 1:12. 1Kor 2:12. 2Kor 6:18.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gal 3:26. 4:6. 2Tim 1:7. Heb 2:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.16": {
+    "text": "Ånden selv vitner sammen med vår ånd at vi er Guds barn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 5:32. 2Kor 1:22. 5:5. Gal 3:26,29. Ef 1:13. 4:30.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.17": {
+    "text": "Men er vi barn, da er vi også arvinger. Vi er Guds arvinger og Kristi medarvinger, så sant vi lider med ham, for at vi også skal herliggjøres med ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 14:22.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gal 4:7. 2Tim 2:11,12. 1Pet 4:13. 5:1. Åp 21:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.18": {
+    "text": "For jeg er overbevist om at den nåværende tids lidelser ikke er for noe å regne mot den herlighet som skal åpenbares på oss.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 5:12.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2Kor 4:17. Kol 3:4. 1Pet 1:6. 1Joh 3:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.19": {
+    "text": "For skapningen venter og lengter etter at Guds barn skal åpenbares.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.8.20": {
+    "text": "Skapningen ble jo lagt under forgjengelighet, ikke frivillig, men etter hans vilje som la den under forgjengelighet,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.8.21": {
+    "text": "i håp om at også skapningen skal bli frigjort fra trelldommen under forgjengeligheten, og nå fram til Guds barns frihet i herligheten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 3:21. 2Pet 3:13. Åp 21:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.22": {
+    "text": "For vi vet at hele skapningen til denne stund sukker sammen og stønner sammen som i veer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.8.23": {
+    "text": "Ja, ikke bare det, men også vi som har fått Ånden som førstegrøde, også vi sukker med oss selv, mens vi lengter etter vårt barnekår, vårt legemes forløsning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 21:28. 2Kor 1:22. 3:18. 5:2,4. Gal 4:5. Ef 1:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.24": {
+    "text": "For i håpet er vi frelst. Men et håp som en kan se, er ikke lenger noe håp - hvorfor skulle en håpe på det en allerede ser?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kor 4:18. 5:6,7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.25": {
+    "text": "Men dersom vi håper på det vi ikke ser, da lengter vi etter det med tålmodighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 5:5. Heb 11:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.26": {
+    "text": "Og her kommer også Ånden oss til hjelp i vår skrøpelighet. For vi vet ikke hva vi skal be om slik vi burde. Men Ånden selv går i forbønn for oss med sukk som ikke rommes i ord.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.8.27": {
+    "text": "Men han som gransker hjertene, vet hva Ånden trakter etter. For det er etter Guds vilje han går i forbønn for de hellige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Krøn 28:9.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Sal 7:10. 139:1. Jer 11:20. 17:10. Apg 1:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.28": {
+    "text": "For vi vet at alle ting samvirker til gode for dem som elsker Gud, dem som etter hans råd er kalt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 1:11. 3:11. 2Tim 1:9. Jak 1:12. 2:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.29": {
+    "text": "For dem som han forut kjente, dem har han også forut bestemt til å bli likedannet med hans Sønns bilde, for at han skulle være den førstefødte blant mange brødre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:2.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2Kor 3:18. Ef 1:5,11. Fil 3:20,21. Kol 1:18. 1Joh 3:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.30": {
+    "text": "Og dem som han forut bestemte til dette, dem har han også kalt. Og dem som han har kalt, dem har han også rettferdiggjort. Og dem som han har rettferdiggjort, dem har han også herliggjort.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.8.31": {
+    "text": "Hva skal vi da si til dette? Er Gud for oss, hvem er da imot oss?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 14:9. Sal 56:12. 118:6. Matt 1:23.",
+        "refs": []
+      }
+    ],
+    "section": "Ikke noe kan skille den troende fra Guds kjærlighet"
+  },
+  "ROM.8.32": {
+    "text": "Han som ikke sparte sin egen Sønn, men ga ham for oss alle, hvordan skulle han kunne annet enn å gi oss alle ting med ham?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:25. Jes 53:5. Joh 3:16. 2Pet 1:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.33": {
+    "text": "Hvem vil anklage Guds utvalgte? Gud er den som rettferdiggjør.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 50:8. Heb 7:25.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.34": {
+    "text": "Hvem er den som fordømmer? Kristus er den som er død, ja, mer enn det: som også er blitt reist opp, som også er ved Guds høyre hånd, som også går i forbønn for oss.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 16:19-21. Sal 110:1. Jes 50:9. Apg 2:24,34.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb 1:3. 7:25. 8:1. 9:24. 12:2. 1Pet 3:22. 1Joh 2:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.35": {
+    "text": "Hvem kan skille oss fra Kristi kjærlighet? Trengsel eller angst eller forfølgelse eller sult eller nakenhet eller fare eller sverd?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.8.36": {
+    "text": "Som skrevet står: For din skyld drepes vi hele dagen, vi blir regnet som slaktefår.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 44:23. 1Kor 4:9. 15:31. 2Kor 4:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.37": {
+    "text": "Men i alt dette vinner vi mer enn seier ved ham som elsket oss.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 16:33. 1Kor 15:57. Fil 4:13. 1Joh 5:4,5. Åp 12:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.38": {
+    "text": "For jeg er viss på at verken død eller liv, verken engler eller krefter, verken det som nå er, eller det som komme skal, eller noen makt,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 3:21. Ef 6:12. Kol 2:15. 2Tim 1:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.8.39": {
+    "text": "verken høyde eller dybde eller noen annen skapning skal kunne skille oss fra Guds kjærlighet i Kristus Jesus, vår Herre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.1": {
+    "text": "Jeg sier sannhet i Kristus, jeg lyver ikke - min samvittighet vitner med meg i Den Hellige Ånd,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kor 11:31. Gal 1:20. 1Tim 2:7.",
+        "refs": []
+      }
+    ],
+    "section": "Apostelen sørger over sitt folk"
+  },
+  "ROM.9.2": {
+    "text": "at jeg har en stor sorg og en stadig nød i mitt hjerte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.9.3": {
+    "text": "For jeg skulle ønske at jeg selv var forbannet bort fra Kristus for mine brødres skyld, mine slektninger etter kjødet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:1. 2Mos 32:32. 1Joh 3:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.4": {
+    "text": "De er jo israelitter. Dem tilhører barnekåret og herligheten og paktene og lovgivningen og gudstjenesten og løftene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 4:22.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "5Mos 7:6. Sal 147:19. Jer 31:9. Apg 2:39. Ef 2:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.5": {
+    "text": "Dem tilhører fedrene, og fra dem er Kristus kommet etter kjødet, han som er Gud over alle ting, velsignet i evighet. Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 1:1 ff. Joh 1:1. Kol 2:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.6": {
+    "text": "Men ikke så at Guds ord skulle ha slått feil. For ikke alle som stammer fra Israel, er virkelig Israel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:28. 4Mos 23:19. Joh 8:39. Åp 2:9.",
+        "refs": []
+      }
+    ],
+    "section": "Guds løfter til Israel står fast"
+  },
+  "ROM.9.7": {
+    "text": "Heller ikke alle Abrahams etterkommere er derfor Abrahams barn, for: I Isak skal det nevnes deg en ætt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 21:12. Joh 8:33-37. Gal 4:23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.8": {
+    "text": "Det vil si: Ikke kjødets barn er Guds barn, men løftets barn regnes til ætten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 3:29. 4:28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.9": {
+    "text": "For et løftesord er dette: Ved denne tiden neste år skal jeg komme, og da skal Sara ha en sønn!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 18:10,14. Heb 11:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.10": {
+    "text": "Ikke bare dette, men slik hendte det også med Rebekka. Hun ble med barn ved én mann, vår far Isak.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 25:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.11": {
+    "text": "Og da de ennå ikke var født, og ennå ikke hadde gjort verken godt eller ondt - for at Guds råd etter hans utvelgelse skulle stå fast,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.9.12": {
+    "text": "ikke på grunn av gjerninger, men ved ham som kaller - da ble det sagt til henne: Den eldste skal tjene den yngste.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 25:23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.13": {
+    "text": "Som skrevet står: Jakob elsket jeg, men Esau hatet jeg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal 1:2,3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.14": {
+    "text": "Hva skal vi da si? Er det da urettferdighet hos Gud? Langt derifra!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. 5Mos 32:4. Job 34:10.",
+        "refs": []
+      }
+    ],
+    "section": "Ingen kan kreve nåde av Gud"
+  },
+  "ROM.9.15": {
+    "text": "For til Moses sier han: Jeg vil vise miskunn mot den jeg miskunner meg over, og være barmhjertig mot den jeg forbarmer meg over.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 33:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.16": {
+    "text": "Så beror det altså ikke på den som vil eller på den som løper, men på Gud, som viser miskunn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.9.17": {
+    "text": "For Skriften sier til farao: Nettopp til dette reiste jeg deg opp: At jeg kunne vise min makt på deg og at mitt navn skulle bli forkynt over hele jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 9:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.18": {
+    "text": "Altså: Hvem han vil, den viser han miskunn, og hvem han vil, den forherder han.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.9.19": {
+    "text": "Du vil da si til meg: Hva er det da han klager over? Hvem kan stå imot hans vilje?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.9.20": {
+    "text": "Men hvem er da du, menneske, som tar til gjenmæle mot Gud? Kan vel verket si til ham som formet det: Hvorfor gjorde du meg slik?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 29:16. 45:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.21": {
+    "text": "Eller har ikke pottemakeren makt over leiren, så han av samme deig kan lage et kar til ære og et annet til vanære?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 64:7. Jer 18:6. Mal 2:10. 2Tim 2:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.22": {
+    "text": "Men om nå Gud - enda han ville vise sin vrede og gjøre sin makt kjent - likevel i stor langmodighet bar over med vredens kar, som var gjort ferdige til undergang?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:4. Ord 16:4.",
+        "refs": []
+      }
+    ],
+    "section": "Hedningenes frelse er bevitnet i Skriften"
+  },
+  "ROM.9.23": {
+    "text": "Og om han nå gjorde dette for å kunngjøre hvor rik hans herlighet er over miskunnhetens kar, som han forut hadde gjort i stand til herlighet?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.9.24": {
+    "text": "Til å være slike kar har han også kalt oss, ikke bare av jøder, men også av hedninger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.9.25": {
+    "text": "Slik sier han det også hos Hosea: Det som ikke er mitt folk, vil jeg kalle mitt folk, og henne som ikke er elsket, vil jeg kalle min elskede.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hos 2:23. 1Pet 2:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.26": {
+    "text": "Og det skal skje: På det stedet hvor det ble sagt til dem: Dere er ikke mitt folk! - der skal de bli kalt den levende Guds barn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hos 1:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.27": {
+    "text": "Og Jesaja roper ut over Israel: Om tallet på Israels barn er som havets sand, så skal bare en rest bli frelst.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 10:22,23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.28": {
+    "text": "For sitt ord skal Herren sette i verk og hastig fullføre på jorden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.9.29": {
+    "text": "Og som Jesaja forut har sagt: Hadde ikke Herren Sebaot latt en ætt bli igjen for oss, da var vi blitt som Sodoma, vi var blitt lik Gomorra.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 19:24,25. Jes 1:9. Matt 10:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.30": {
+    "text": "Hva skal vi da si? Jo, at hedningene, som ikke jaget etter rettferdighet, de har funnet rettferdighet, men det er rettferdigheten av tro.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:20. Ord 15:9. Jes 65:1.",
+        "refs": []
+      }
+    ],
+    "section": "Israel må søke frelse i tro på Kristus"
+  },
+  "ROM.9.31": {
+    "text": "Israel derimot, som søkte rettferdighetens lov, kom ikke fram til denne lov.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:3. 11:7. Jes 51:1. 65:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.32": {
+    "text": "Hvorfor? Fordi de ikke søkte den ved tro, men ved gjerninger. De støtte mot snublesteinen,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 2:34. 1Kor 1:21,23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.9.33": {
+    "text": "som det står skrevet: Se, jeg legger i Sion en snublestein og en anstøtsklippe. Den som tror på ham, skal ikke bli til skamme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 2:12. 25:3. Jes 8:14. 28:16. Matt 21:42-44.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.1": {
+    "text": "Brødre, mitt hjertes ønske og min bønn til Gud for dem er at de må bli frelst.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.10.2": {
+    "text": "For det vitnesbyrdet gir jeg dem at de har nidkjærhet for Gud, men uten den rette forstand.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 21:20. 22:3. Gal 1:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.3": {
+    "text": "Da de ikke kjente Guds rettferdighet, men søkte å grunnlegge sin egen rettferdighet, ga de seg ikke inn under Guds rettferdighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:30,31.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.4": {
+    "text": "For Kristus er lovens endemål, til rettferdighet for hver den som tror.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 16:16. Joh 1:17. 3:18. Apg 13:39. Gal 3:23,24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.5": {
+    "text": "Moses skriver jo om rettferdigheten av loven: Det menneske som gjør disse ting, skal leve ved dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 18:5. Gal 3:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.6": {
+    "text": "Men rettferdigheten av tro sier: Si ikke i ditt hjerte: Hvem skal fare opp til himmelen? - det vil si, for å hente Kristus ned.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 30:12,13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.7": {
+    "text": "Eller: Hvem skal fare ned i avgrunnen? - det vil si, for å hente Kristus opp fra de døde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Heb 13:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.8": {
+    "text": "Men hva sier den? Ordet er deg nær, i din munn og i ditt hjerte. Det er troens ord, det som vi forkynner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 30:14. Gal 3:2,5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.9": {
+    "text": "For dersom du med din munn bekjenner at Jesus er Herre, og i ditt hjerte tror at Gud reiste ham opp fra de døde, da skal du bli frelst.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 3:14f. Matt 10:32. Fil 2:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.10": {
+    "text": "Med hjertet tror en til rettferdighet, og med munnen bekjenner en til frelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kor 4:13. 1Pet 3:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.11": {
+    "text": "For Skriften sier: Hver den som tror på ham, skal ikke bli til skamme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:33. Jes 28:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.12": {
+    "text": "Her er ikke forskjell på jøde og greker. Alle har de samme Herre, som er rik nok for alle som påkaller ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:22,29.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Apg 10:34. Gal 3:28. Fil 4:19. 1Tim 2:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.13": {
+    "text": "For hver den som påkaller Herrens navn, skal bli frelst.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joel 3:5. Apg 2:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.14": {
+    "text": "Men hvordan kan de påkalle en som de ikke er kommet til tro på? Og hvordan kan de tro på en som de ikke har hørt om? Og hvordan kan de høre uten at det er noen som forkynner?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.10.15": {
+    "text": "Og hvordan kan de forkynne, uten at de blir utsendt? Som skrevet står: Hvor fagre deres føtter er som bringer fred, som bringer et godt budskap!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 52:7. Jer 28:15. Nah 2:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.16": {
+    "text": "Men ikke alle var lydige mot evangeliet. For Jesaja sier: Herre, hvem trodde vel det han hørte av oss?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 53:1. Joh 12:38.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.17": {
+    "text": "Så kommer da troen av forkynnelsen som en hører, og forkynnelsen som en hører, kommer ved Kristi ord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 3:2,5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.18": {
+    "text": "Men jeg sier: Har de da ikke fått høre? Jo visst! Over hele jorden har deres røst nådd ut, og deres ord til jorderikes ender.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 19:5. Jes 49:6. Matt 24:14. Kol 1:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.19": {
+    "text": "Men jeg sier: Har da Israel ikke forstått? Først sier Moses: Jeg vil gjøre dere nidkjære på et folk som ikke er et folk, på et uforstandig folk skal jeg gjøre dere harme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 32:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.20": {
+    "text": "Og Jesaja drister seg til å si: Jeg ble funnet av dem som ikke søkte meg, og jeg trådte synlig fram for dem som ikke spurte etter meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 65:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.10.21": {
+    "text": "Men til Israel sier han: Hele dagen rakte jeg mine hender ut til et ulydig og gjenstridig folk.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 65:2. Jer 7:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.1": {
+    "text": "Jeg sier altså: Har da Gud forkastet sitt folk? Langt derifra! Også jeg er jo en israelitt, av Abrahams ætt, av Benjamins stamme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 31:37. 2Kor 11:22. Fil 3:5.",
+        "refs": []
+      }
+    ],
+    "section": "Gud har ikke forkastet Israel"
+  },
+  "ROM.11.2": {
+    "text": "Gud har ikke forkastet sitt folk, som han forut kjente. Eller vet dere ikke hva Skriften sier i avsnittet om Elia? - hvordan han står fram for Gud og anklager Israel:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Sam 12:22. 1Kong 19:10. Sal 94:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.3": {
+    "text": "Herre, dine profeter drepte de, og dine altere rev de ned. Jeg ble alene tilbake, og meg står de etter livet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 5:12. Apg 7:52.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.4": {
+    "text": "Men hva er Guds svar til ham? Jeg har latt det bli tilbake en rest for meg, sju tusen mann som ikke har bøyd kne for Ba’al.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 19:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.5": {
+    "text": "På samme vis er det også i den tiden som nå er, blitt igjen en rest i kraft av Guds nådes utvelgelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:27.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.6": {
+    "text": "Men er det av nåde, da er det ikke mer av gjerninger. Ellers blir nåden ikke lenger nåde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:28. Ef 2:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.7": {
+    "text": "Hva så? Det som Israel søker etter, har de ikke nådd. Men de utvalgte har nådd det. De andre er blitt forherdet,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:31. 2Kor 3:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.8": {
+    "text": "som det står skrevet: Gud ga dem en sløvhets ånd, øyne som ikke ser, ører som ikke hører, helt til denne dag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 29:4. Jes 29:10. Mark 3:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.9": {
+    "text": "Og David sier: La deres bord bli til en snare og en felle, til et anstøt og til gjengjeldelse for dem!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 69:23,24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.10": {
+    "text": "La deres øyne formørkes så de ikke kan se, og bøy alltid deres rygg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.11.11": {
+    "text": "Jeg sier da: Har de snublet for at de skulle falle? Langt derifra! Men ved deres fall er frelsen kommet til hedningene for å vekke Israel til nidkjærhet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.1. Matt 21:43. Apg 13:46. 18:6.",
+        "refs": []
+      }
+    ],
+    "section": "Ved Israels fall er frelsen kommet til hedningene"
+  },
+  "ROM.11.12": {
+    "text": "Men hvis deres fall er blitt til en rikdom for verden, og er deres fåtallighet blitt til en rikdom for hedningene, hvor mye mer da deres fulltallighet!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.11.13": {
+    "text": "Til dere hedninger vil jeg si: Så sant jeg er hedningenes apostel, priser jeg min tjeneste -",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:5. Apg 9:15. 1Tim 2:7.",
+        "refs": []
+      }
+    ],
+    "section": "Israel skal en gang omvende seg"
+  },
+  "ROM.11.14": {
+    "text": "kunne jeg bare vekke mitt folk etter kjødet til nidkjærhet og få frelst noen av dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.11. 10:19. 1Tim 2:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.15": {
+    "text": "For er verden blitt forlikt med Gud ved deres forkastelse, hva annet vil da deres antakelse bli enn liv av døde?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*av Kristus.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.16": {
+    "text": "Men er førstegrøden hellig, da er også deigen hellig. Og er roten hellig, da er greinene det også.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 15:17-21. Esek 44:30.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.17": {
+    "text": "Men om nå noen av greinene ble brutt av, og du som er en vill oljekvist, ble podet inn blant dem og fikk del med dem i sevjen fra roten,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 11:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.18": {
+    "text": "så ros deg ikke mot greinene! Roser du deg, så vit at det er ikke du som bærer roten, men roten som bærer deg!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.11.19": {
+    "text": "Du vil da si: Greinene ble brukket av for at jeg skulle bli podet inn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.20": {
+    "text": "Nåvel! På grunn av vantro ble de avbrutt. Men du står ved din tro. Vær ikke overmodig, men frykt!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 28:14. 1Kor 10:12. Fil 2:12. 1Pet 1:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.21": {
+    "text": "For sparte ikke Gud de naturlige greinene, vil han heller ikke spare deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Pet 2:4,5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.22": {
+    "text": "Se derfor Guds godhet og strenghet - strenghet mot dem som falt, men over deg er Guds godhet, så sant du holder fast ved hans godhet. Ellers skal også du bli hogd av.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 15:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.23": {
+    "text": "Men også de andre skal bli innpodet, hvis de ikke holder fast ved sin vantro. For Gud er mektig til å pode dem inn igjen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.26. 2Kor 3:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.24": {
+    "text": "Du ble avhogd av det oljetreet som av naturen er vilt, og mot naturen innpodet i et edelt oljetre. Hvor mye mer skal da de naturlige greinene bli innpodet i sitt eget oljetre, som de etter naturen tilhører!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.11.25": {
+    "text": "For jeg vil ikke, brødre, at dere skal være uvitende om dette mysteriet - for at dere ikke skal anse dere selv for kloke: Forherdelse er for en del kommet over Israel, inntil hedningenes fylde er kommet inn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "* Se Matt 13:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.26": {
+    "text": "Og slik skal hele Israel bli frelst, som det står skrevet: Fra Sion skal befrieren komme. Han skal rydde bort ugudelighet fra Jakob.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 59:20,21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.27": {
+    "text": "Og dette skal være min pakt med dem, når jeg tar bort deres synder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 27:9. Jer 31:33. Heb 8:10,12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.28": {
+    "text": "Når det gjelder evangeliet, er de blitt fiender for deres skyld. Men når det gjelder utvelgelsen, er de elsket for fedrenes skyld.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.11.29": {
+    "text": "For Gud angrer ikke sine nådegaver og sitt kall.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 23:19. Sal 110:4. 2Tim 2:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.30": {
+    "text": "Dere var jo en gang ulydige mot Gud, men nå har dere fått miskunn, fordi de andre var ulydige.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.11.31": {
+    "text": "På samme måte har nå de vært ulydige, men ved den miskunn dere har fått, skal også de få miskunn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.11.32": {
+    "text": "For Gud har innesluttet dem alle under ulydigheten, for at han kunne vise miskunn mot dem alle.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.7 ff. Gal 3:22. 1Tim 2:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.33": {
+    "text": "Å dyp av rikdom og visdom og kunnskap hos Gud! Hvor uransakelige hans dommer er, og hvor usporlige hans veier.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 11:7. Sal 36:7. 139:7. Jes 55:8,9. Ef 3:8.",
+        "refs": []
+      }
+    ],
+    "section": "Apostelen priser Guds visdom"
+  },
+  "ROM.11.34": {
+    "text": "For hvem kjente vel Herrens sinn? Eller hvem var hans rådgiver?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 92:6. Jes 40:13. Jer 23:18. 1Kor 2:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.35": {
+    "text": "Eller hvem ga ham noe først så han skulle få vederlag?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 41:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.11.36": {
+    "text": "For av ham og ved ham og til ham er alle ting. Ham tilhører æren i all evighet. Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 8:6. Kol 1:16. Heb 2:10. Åp 1:6. 5:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.1": {
+    "text": "Jeg formaner dere altså, brødre, ved Guds miskunn, at dere fremstiller deres legemer som et levende og hellig offer til Guds behag. Dette er deres åndelige gudstjeneste.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:13-16. Heb 13:15. 1Pet 2:5.",
+        "refs": []
+      }
+    ],
+    "section": "Et hellig liv - ikke lik verden"
+  },
+  "ROM.12.2": {
+    "text": "Og skikk dere ikke lik denne verden, men bli forvandlet ved at deres sinn fornyes, så dere kan dømme om hva som er Guds vilje: det gode, det som han har behag i, det fullkomne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 4:23. 5:10,17. Kol 1:9. 1Pet 1:4. 1Joh 2:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.3": {
+    "text": "For ved den nåde som er meg gitt, sier jeg til hver og en blant dere, at en ikke skal gjøre seg høyere tanker enn en bør. Men en skal tenke sindig, i forhold til det mål av tro som Gud har tilmålt hver enkelt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:5. 15:15. 1Kor 4:6. Ef 4:7,16.",
+        "refs": []
+      }
+    ],
+    "section": "De troende skal tjene hverandre med sine nådegaver"
+  },
+  "ROM.12.4": {
+    "text": "For på ett legeme har vi mange lemmer, men ikke alle lemmer har samme gjerning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 12:12-14. Ef 1:22,23. 4:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.5": {
+    "text": "Slik er vi også ett legeme i Kristus, enda vi er mange. Men hver for oss er vi hverandres lemmer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 12:27. Ef 4:25.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.6": {
+    "text": "Alt etter den nåde som er oss gitt, har vi ulike nådegaver. Om noen har profetisk gave, skal han bruke den i samsvar med troen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 12:4. 1Pet 4:10,11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.7": {
+    "text": "La den som har en tjeneste, ta vare på tjenesten. Den som er lærer, må ta vare på lærdommen,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 12:28. Ef 4:11. 1Tim 3:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.8": {
+    "text": "den som formaner, på formaningen. Den som deler ut gaver, må gjøre det med redelig sinn. Den som er forstander, må være det med iver. Den som øver barmhjertighet, må gjøre det med glede.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 6:1-3. 20:28. 2Kor 9:7. 1Tim 5:17. 1Pet 5:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.9": {
+    "text": "La kjærligheten være uten hykleri! Avsky det onde, hold fast ved det gode.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 97:10.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 5:15. 1Tess 5:21. 1Tim 1:5. 1Pet 1:22.",
+        "refs": []
+      }
+    ],
+    "section": "Vis kjærlighet mot alle"
+  },
+  "ROM.12.10": {
+    "text": "Vær varmhjertet mot hverandre i broderkjærlighet! Kappes om å hedre hverandre!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 4:2. Fil 2:3. 1Tess 4:9. Heb 13:1. 1Pet 2:17. 5:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.11": {
+    "text": "Vær ikke lunkne i iveren! Vær brennende i ånden, tjen Herren!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 18:25. Åp 3:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.12": {
+    "text": "Vær glade i håpet, tålmodige i trengselen, vedholdende i bønnen!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:13. Luk 18:1. Ef 6:18. 1Tess 5:16,17.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb 10:35,36.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.13": {
+    "text": "Kom de hellige til hjelp i deres nød. Legg vinn på gjestfrihet!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:25. Heb 6:10. 13:2. 1Pet 4:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.14": {
+    "text": "Velsign dem som forfølger dere, velsign, og forbann ikke!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 5:44. Luk 6:28. 1Kor 4:12. 1Pet 3:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.15": {
+    "text": "Gled dere med de glade, og gråt med de gråtende!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 30:25. Sal 35:13,14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.16": {
+    "text": "Ha ett sinn innbyrdes! Trakt ikke etter det høye, men hold dere gjerne til det lave! Vær ikke selvkloke!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:5. Sal 131:1. Ord 3:7. 26:12,16. Jes 5:21. Fil 2:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.17": {
+    "text": "Gjengjeld ikke noen ondt med ondt! Legg vinn på det som godt er for alle menneskers øyne!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 20:22. Matt 5:38,39. 1Tess 5:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.18": {
+    "text": "Om det er mulig, da hold fred med alle mennesker, så langt det står til dere!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Tess 5:13. Heb 12:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.19": {
+    "text": "Hevn dere ikke selv, mine kjære, men gi rom for vreden. For det står skrevet: Hevnen hører meg til, jeg vil gjengjelde, sier Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 19:18. 5Mos 32:35. Ef 4:26,31. Heb 10:30.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*overlat saken til Guds vredes dom.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.20": {
+    "text": "Om din fiende er sulten, så gi ham å ete. Om han er tørst, så gi ham å drikke. For når du gjør det, samler du glødende kull på hans hode.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 25:21,22. Matt 5:44. 25:35,44.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.12.21": {
+    "text": "La deg ikke overvinne av det onde, men overvinn det onde med det gode.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 4:7. 1Sam 24:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.13.1": {
+    "text": "Hver og en skal underordne seg de myndigheter han har over seg. For det er ikke øvrighet uten av Gud, men de som finnes, er innsatt av Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 8:15. Dan 4:32. Joh 19:11. Tit 3:1. 1Pet 2:13.",
+        "refs": []
+      }
+    ],
+    "section": "Vær lydige mot øvrigheten"
+  },
+  "ROM.13.2": {
+    "text": "Den som setter seg opp mot øvrigheten, står Guds ordning imot. Men de som står imot, skal få sin dom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 24:21,22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.13.3": {
+    "text": "For de som styrer, er ikke til skrekk for dem som gjør godt, men for dem som gjør ondt. Vil du slippe å være redd for øvrigheten, så gjør det gode. Da skal du få ros av den.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Pet 2:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.13.4": {
+    "text": "For den er Guds tjener, til gagn for deg. Men gjør du det som er ondt, da frykt! Den bærer jo ikke sverdet for ingenting. For den er Guds tjener, en hevner til straff over den som gjør det onde.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.13.5": {
+    "text": "Derfor er det nødvendig å underordne seg, ikke bare av frykt for straffen, men også for samvittighetens skyld.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.13.6": {
+    "text": "Derfor betaler dere jo også skatt, for de er Guds tjenere som nettopp tar vare på dette.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.13.7": {
+    "text": "Gi alle det dere skylder dem: skatt til dem som har krav på skatt, toll til dem som har rett til toll, frykt til dem som skal fryktes, ære til dem som bør æres.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 22:21. Luk 19:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.13.8": {
+    "text": "Bli ingen noe skyldig, annet enn det å elske hverandre! For den som elsker sin neste, har oppfylt loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 5:14. 1Tim 1:5. Jak 2:8. 1Joh 4:11.",
+        "refs": []
+      }
+    ],
+    "section": "De troende skal være kjærlige mot alle"
+  },
+  "ROM.13.9": {
+    "text": "For disse budene: Du skal ikke bryte ekteskapet, du skal ikke slå i hjel, du skal ikke stjele, du skal ikke begjære, og hvilket som helst annet bud, de sammenfattes i dette ordet: Du skal elske din neste som deg selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 20:14 ff. 3Mos 19:18. Matt 19:19. 22:37-40. Jak 2:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.13.10": {
+    "text": "Kjærligheten gjør ikke nesten noe ondt. Derfor er kjærligheten lovens oppfyllelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 7:12. 1Kor 13:1 ff. Gal 5:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.13.11": {
+    "text": "Og dette må vi gjøre, da vi kjenner tiden, at timen er inne da vi må våkne opp av søvne, for frelsen er oss nærmere nå enn da vi kom til troen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 21:36. Ef 5:14. 1Tess 5:6-8.",
+        "refs": []
+      }
+    ],
+    "section": "Kristus kommer snart"
+  },
+  "ROM.13.12": {
+    "text": "Det lir med natten, det stunder til dag. La oss derfor avlegge mørkets gjerninger, men iføre oss lysets våpen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 5:11. 6:10,11. 1Joh 2:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.13.13": {
+    "text": "La oss ferdes sømmelig, som om dagen - ikke i svir og drikk, ikke i utukt og skamløshet, ikke i strid og misunnelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 21:34.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Kor 6:9. Gal 5:19-21. Ef 5:5. Fil 4:8. Jak 3:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.13.14": {
+    "text": "Men ikle dere Herren Jesus Kristus. Og ha ikke en slik omsorg for kjødet at det vekkes begjær!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 3:27. Ef 4:24. Kol 3:12. 1Pet 2:11. 1Joh 2:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.1": {
+    "text": "Ta dere av den som er svak i troen uten å gjøre dere til dommere over hans tanker.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:1,7. 1Kor 8:9. 9:21,22. 1Tess 5:14.",
+        "refs": []
+      }
+    ],
+    "section": "Ingen må dømme sin bror"
+  },
+  "ROM.14.2": {
+    "text": "Den ene har tro til å ete alt, men den som er svak, eter bare grønnsaker.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 1:29. 9:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.3": {
+    "text": "Den som eter, må ikke forakte den som ikke eter. Og den som ikke eter, må ikke dømme den som eter. Gud har jo tatt seg av ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 10:25-27. Kol 2:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.4": {
+    "text": "Hvem er vel du som dømmer en annens tjener? Han står eller faller for sin egen herre. Men han skal bli stående, for Herren er mektig til å holde ham oppe.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 7:1. Luk 6:37. Jak 4:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.5": {
+    "text": "Den ene setter én dag høyere enn en annen dag. Den andre holder alle dager for å være like. Enhver må bare være fullt viss i sitt eget sinn!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 4:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.6": {
+    "text": "Den som akter på dagen, gjør det for Herren. Og den som ikke akter på dagen, han gjør det for Herren. Den som eter, gjør det for Herren - han takker jo Gud. Og den som lar være å ete, gjør det for Herren og takker Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 14:19. 1Kor 10:30. 1Tim 4:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.7": {
+    "text": "For ingen av oss lever for seg selv, og ingen dør for seg selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kor 5:15. Gal 2:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.8": {
+    "text": "For om vi lever, så lever vi for Herren, og om vi dør, så dør vi for Herren. Enten vi da lever eller dør, så hører vi Herren til.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 20:38. 1Kor 6:20. 1Tess 5:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.9": {
+    "text": "Derfor døde jo Kristus og ble levende igjen, for at han skulle være Herre over både levende og døde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 12:24. Åp 1:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.10": {
+    "text": "Men du, hvorfor dømmer du din bror? Eller du, hvorfor forakter du din bror? Vi skal jo alle stilles fram for Guds domstol.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:16. Matt 25:31 ff. Luk 6:37. 2Kor 5:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.11": {
+    "text": "For det står skrevet: Så sant jeg lever, sier Herren, for meg skal hvert kne bøye seg, og hver tunge skal prise Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 45:23. Apg 10:42. Fil 2:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.12": {
+    "text": "Så skal da hver og en av oss gjøre Gud regnskap for seg selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:6,16. Matt 12:36. 16:27. 1Pet 4:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.13": {
+    "text": "Derfor bør vi ikke lenger dømme hverandre. Fell heller den dom at ingen må legge noen anstøtsstein eller felle for sin bror.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 18:7. 1Kor 8:9,13. 10:32. 2Kor 6:3.",
+        "refs": []
+      }
+    ],
+    "section": "Vær ikke til anstøt"
+  },
+  "ROM.14.14": {
+    "text": "Jeg vet og er overbevist i Herren Jesus om at ingenting er urent i seg selv. Men for den som holder noe for urent, for ham er det urent.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 15:11. Apg 10:15. 1Kor 10:25-27. Tit 1:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.15": {
+    "text": "Og dersom du med din mat volder din bror sorg, da vandrer du ikke i kjærlighet. Du må ikke med din mat føre den i fortapelse som Kristus er død for!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 8:11-13. Ef 5:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.16": {
+    "text": "La da ikke det gode dere har, bli spottet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.14.17": {
+    "text": "Guds rike består jo ikke i mat og drikke, men i rettferdighet og fred og glede i Den Hellige Ånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 4:20. 8:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.18": {
+    "text": "For den som i dette tjener Kristus, er til behag for Gud og står sin prøve for mennesker.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.14.19": {
+    "text": "La oss da jage etter det som tjener til fred og til innbyrdes oppbyggelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:18. 15:2. Sal 34:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.20": {
+    "text": "Bryt ikke ned Guds verk på grunn av mat! Ganske visst er alt rent, men det er ondt for det mennesket som eter det når det er til anstøt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 15:11. Tit 1:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.14.21": {
+    "text": "Det er godt å la være å ete kjøtt eller drikke vin eller gjøre noe annet som er til anstøt for din bror.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.14.22": {
+    "text": "Har du tro? Ha den for deg selv, for Guds åsyn! Salig er den som ikke dømmer seg selv i det han velger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.14.23": {
+    "text": "Men den som tviler, er dømt dersom han eter, fordi han ikke gjør det i tro. Alt som ikke er av tro, er synd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.1": {
+    "text": "Vi som er sterke, skylder å bære skrøpelighetene hos dem som er svake, og ikke være oss selv til behag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:1. Gal 6:2. 1Tess 5:14.",
+        "refs": []
+      }
+    ],
+    "section": "En kristen skal være til behag for sin neste"
+  },
+  "ROM.15.2": {
+    "text": "Enhver av oss skal være til behag for sin neste, til gagn og oppbyggelse for ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 9:19. 10:24,33. Ef 4:11,12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.3": {
+    "text": "For heller ikke Kristus levde seg selv til behag, men som det står skrevet: Hånsordene fra dem som håner deg, falt på meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 69:10. 2Kor 8:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.4": {
+    "text": "Og alt som før er skrevet, det er skrevet til lærdom for oss, for at vi skal ha håp ved det tålmodet og den trøsten som Skriftene gir.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:23,24. 5:2. 1Kor 10:11. 2Tim 3:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.5": {
+    "text": "Må så tålmodets og trøstens Gud gi dere å ha ett sinn innbyrdes, etter Jesu Kristi forbilde,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:16. Sal 133:1.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Joh 17:21. 1Kor 1:10. 2Kor 13:11. Fil 2:2. 4:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.6": {
+    "text": "for at dere samstemmig og med én munn kan prise Gud, vår Herre Jesu Kristi Far.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 1:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.7": {
+    "text": "Ta dere derfor av hverandre, likesom også Kristus tok seg av oss, til Guds ære.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Evangeliet er for alle"
+  },
+  "ROM.15.8": {
+    "text": "For jeg sier: Kristus er blitt en tjener for de omskårne for Guds sannferdighets skyld, for å stadfeste løftene til fedrene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 3:25,26. 2Kor 1:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.9": {
+    "text": "Men hedningene skal prise Gud for hans miskunn, som det står skrevet: Derfor vil jeg prise deg blant hedningene og lovsynge ditt navn!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Sam 22:50. Sal 18:50.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.10": {
+    "text": "Og igjen sier han: Gled dere, hedninger, sammen med hans folk!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 32:43. Sal 67:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.11": {
+    "text": "Og igjen: Lov Herren, alle hedninger, og pris ham, alle folk!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 117:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.12": {
+    "text": "Og igjen sier Jesaja: Isais rotskudd skal komme, han som skal stå fram og herske over hedningefolkene. Til ham skal hedningene sette sitt håp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 11:10. Åp 5:5. 22:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.13": {
+    "text": "Må så håpets Gud fylle dere med all glede og fred i troen, så dere kan være rike på håp ved Den Hellige Ånds kraft.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.14": {
+    "text": "Mine brødre, for min del er jeg overbevist om at dere selv er fulle av godhet, fylt med all kunnskap, i stand til også å formane hverandre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 1:5. 1Tess 4:9. 5:11. 2Pet 1:12. 1Joh 2:21.",
+        "refs": []
+      }
+    ],
+    "section": "Paulus’ oppgave som apostel"
+  },
+  "ROM.15.15": {
+    "text": "Likevel har jeg til dels skrevet noe djervt til dere, for å påminne dere ved den nåde som er gitt meg av Gud,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:5. 12:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.16": {
+    "text": "at jeg skal være Kristi Jesu offerprest for hedningene. Jeg gjør hellig tjeneste med Guds evangelium for at hedningene kan bli et offer til behag for Gud, helliget ved Den Hellige Ånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:13. 12:1. Fil 2:17. 2Tim 1:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.17": {
+    "text": "Det er altså i Kristus Jesus jeg har min ros i tjenesten for Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 1:31. 2Kor 10:8,13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.18": {
+    "text": "For jeg vil ikke våge å tale om noe annet enn det som Kristus har utført gjennom meg for å føre hedningene til lydighet, ved ord og gjerning,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:5. Apg 15:12. 21:19. 2Kor 3:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.19": {
+    "text": "ved kraften i tegn og under, ved Åndens kraft. Slik har jeg fullt ut kunngjort Kristi evangelium fra Jerusalem og rundt om like til Illyria.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mark 16:17. 2Kor 12:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.20": {
+    "text": "Men jeg har satt min ære i å forkynne evangeliet der hvor Kristi navn ikke før var nevnt, for at jeg ikke skulle bygge på en grunnvoll andre hadde lagt,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kor 10:13-16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.21": {
+    "text": "men som det står skrevet: De som ikke har fått budskap om ham, skal se, og de som ikke har hørt, skal forstå.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 52:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.22": {
+    "text": "På grunn av dette er jeg gang på gang blitt hindret fra å komme til dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:13. 1Tess 2:18.",
+        "refs": []
+      }
+    ],
+    "section": "Paulus’ reiseplaner"
+  },
+  "ROM.15.23": {
+    "text": "Men nå, når jeg ikke lenger har virkerom i disse traktene, og da jeg alt i mange år har lengtet etter å komme til dere,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.15.24": {
+    "text": "håper jeg å få se dere på gjennomreisen når jeg drar til Spania, og få følge av dere på reisen videre, når jeg først har fått glede meg en tid over samværet med dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 15:3. 1Kor 16:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.25": {
+    "text": "Men nå drar jeg til Jerusalem i tjeneste for de hellige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 19:21. 24:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.26": {
+    "text": "For Makedonia og Akaia har villet samle inn en gave til de fattige blant de hellige i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 16:1. 2Kor 8:1,2. Gal 2:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.27": {
+    "text": "De har selv villet dette, og de står også i gjeld til dem. For har hedningene fått del i deres åndelige goder, da er de også skyldige til å tjene dem med de timelige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:17. 1Kor 9:11. Gal 6:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.28": {
+    "text": "Når jeg har fullført dette og lagt denne frukt trygt i deres hender, vil jeg dra veien om dere til Spania.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.15.29": {
+    "text": "Og jeg vet at når jeg kommer til dere, skal jeg komme med en fylde av Kristi velsignelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:11. Apg 19:21. Ef 1:3-6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.30": {
+    "text": "Jeg formaner dere, brødre, ved vår Herre Jesus Kristus og ved Åndens kjærlighet: Strid sammen med meg i deres bønner for meg til Gud,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kor 1:11. Ef 6:18,19. Fil 1:27. 2:1. Kol 4:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.31": {
+    "text": "for at jeg må bli fridd fra de vantro i Judea, og at min tjeneste i Jerusalem må bli godt mottatt av de hellige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Tess 3:1,2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.32": {
+    "text": "Da vil jeg kunne komme til dere med glede, om Gud vil, og få hvile ut hos dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:10. Apg 18:21. Jak 4:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.15.33": {
+    "text": "Fredens Gud være med dere alle! Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:20. 1Kor 14:33. 2Kor 13:11. Fil 4:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.1": {
+    "text": "Jeg anbefaler dere Føbe, vår søster, som er menighetstjenerinne i Kenkreæ.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Personlige hilsener"
+  },
+  "ROM.16.2": {
+    "text": "Ta imot henne i Herren, slik det sømmer seg for de hellige, og støtt henne i alle saker der hun kan trenge hjelp fra dere. For også hun har vært til hjelp for mange, også for meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Joh 6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.3": {
+    "text": "Hils Priska og Akvilas, mine medarbeidere i Kristus Jesus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 18:2,26. 1Kor 16:19. 2Tim 4:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.4": {
+    "text": "De har våget sitt eget liv for mitt. Ikke bare jeg, men også alle menigheter av hedningene takker dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.5": {
+    "text": "Hils også menigheten i deres hus. Hils min kjære Epenetus, han som er Asias førstegrøde for Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 16:19. Kol 4:15. Filem 2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.6": {
+    "text": "Hils Maria, som har arbeidet meget for dere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.7": {
+    "text": "Hils Andronikus og Junias, mine slektninger og mine medfanger. De har et godt navn blant apostlene, de er også før meg kommet til Kristus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.8": {
+    "text": "Hils Ampliatus, min kjære venn i Herren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.9": {
+    "text": "Hils Urbanus, vår medarbeider i Kristus, og min kjære Stakys.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.10": {
+    "text": "Hils Apelles, den prøvede i Kristus. Hils dem som hører til Aristobulus’ hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.11": {
+    "text": "Hils Herodion, min slektning. Hils dem av Narkissus’ hus som er i Herren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.12": {
+    "text": "Hils Tryfena og Tryfosa, som har arbeidet i Herren. Hils den kjære Persis, som har arbeidet så mye i Herren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.13": {
+    "text": "Hils Rufus, den utvalgte i Herren, og hans og min mor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mark 15:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.14": {
+    "text": "Hils Asynkritus, Flegon, Hermes, Patrobas, Hermas, og brødrene hos dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.15": {
+    "text": "Hils Filologus og Julia, Nereus og hans søster og Olympas, og alle de hellige hos dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.16": {
+    "text": "Hils hverandre med et hellig kyss! Alle Kristi menigheter hilser dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 16:20. 2Kor 13:12. 1Tess 5:26. 1Pet 5:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.17": {
+    "text": "Men jeg formaner dere, brødre: Hold øye med dem som volder splittelse og anstøt imot den lære som dere har lært. Vend dere fra dem!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 7:15. 18:17. 1Kor 5:9,11. Fil 3:2. Kol 2:8,18.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2Tess 3:6,14. Tit 3:9,10. 1Joh 4:1. 2Joh 10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.18": {
+    "text": "For disse tjener ikke vår Herre Jesus Kristus, men sin egen buk. Og ved sine fagre og smigrende ord dårer de hjertene til de godtroende.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 13:10,18. Fil 3:19. Kol 2:4. 2Pet 2:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.19": {
+    "text": "For ordet om den lydighet dere viser, er kommet ut til alle. Derfor gleder jeg meg over dere. Men jeg ønsker at dere skal være vise til det gode og rene for det onde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:8. Jer 4:22. Matt 10:16. 1Kor 14:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.20": {
+    "text": "Men fredens Gud skal i hast knuse Satan under deres føtter. Vår Herre Jesu Kristi nåde være med dere!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 3:15. Åp 20:2,3,10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.21": {
+    "text": "Timoteus, min medarbeider, og Lukius og Jason og Sosipater, mine slektninger, hilser dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 16:1,2. Fil 2:19,22. 1Tim 1:2. 2Tim 1:2. Tit 1:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.22": {
+    "text": "Jeg, Tertius, som har skrevet ned brevet, hilser dere i Herren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "ROM.16.23": {
+    "text": "Gajus, min og hele menighetens vert, hilser dere. Erastus, byens regnskapsfører, og vår bror Kvartus hilser dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 20:4. 1Kor 1:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.24": {
+    "text": "Vår Herre Jesu Kristi nåde være med dere alle! Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 16:23. 1Tess 5:28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.25": {
+    "text": "Men ham som er mektig til å styrke dere etter mitt evangelium og forkynnelsen av Jesus Kristus, etter åpenbaringen av det mysteriet som det har vært tiet om i evige tider,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 13:17. Ef 1:9 ff. 3:18. * Se Matt 13:11",
+        "refs": []
+      }
+    ],
+    "section": "Åpenbaringen av evangeliets mysterium"
+  },
+  "ROM.16.26": {
+    "text": "men som nå er kommet for lyset og etter den evige Guds befaling ved profetiske skrifter er blitt kunngjort for alle folk for å virke troens lydighet -",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:5. 2Tim 1:10. Tit 1:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "ROM.16.27": {
+    "text": "ham, den eneste vise Gud ved Jesus Kristus, tilhører æren i all evighet! Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 1:5. Ef 3:21.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Tim 1:17. 6:16. 2Tim 4:18. Heb 13:21. Jud 25.",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

@@ -1,27 +1,157 @@
 {
-  "JUD.1.1": "Jude, a bond-servant of Jesus Christ, and brother of James, To those who are the called, beloved in God the Father, and kept for Jesus Christ:",
-  "JUD.1.2": "May mercy and peace and love be multiplied to you.",
-  "JUD.1.3": "Beloved, while I was making every effort to write you about our common salvation, I felt the necessity to write to you appealing that you contend earnestly for the faith which was once for all handed down to the saints.",
-  "JUD.1.4": "For certain persons have crept in unnoticed, those who were long beforehand marked out for this condemnation, ungodly persons who turn the grace of our God into licentiousness and deny our only Master and Lord, Jesus Christ.",
-  "JUD.1.5": "Now I desire to remind you, though you know all things once for all, that the Lord, after saving a people out of the land of Egypt, subsequently destroyed those who did not believe.",
-  "JUD.1.6": "And angels who did not keep their own domain, but abandoned their proper abode, He has kept in eternal bonds under darkness for the judgment of the great day,",
-  "JUD.1.7": "just as Sodom and Gomorrah and the cities around them, since they in the same way as these indulged in gross immorality and went after strange flesh, are exhibited as an example in undergoing the punishment of eternal fire.",
-  "JUD.1.8": "Yet in the same way these men, also by dreaming, defile the flesh, and reject authority, and revile angelic majesties.",
-  "JUD.1.9": "But Michael the archangel, when he disputed with the devil and argued about the body of Moses, did not dare pronounce against him a railing judgment, but said, “The Lord rebuke you!”",
-  "JUD.1.10": "But these men revile the things which they do not understand; and the things which they know by instinct, like unreasoning animals, by these things they are destroyed.",
-  "JUD.1.11": "Woe to them! For they have gone the way of Cain, and for pay they have rushed headlong into the error of Balaam, and perished in the rebellion of Korah.",
-  "JUD.1.12": "These are the men who are hidden reefs in your love feasts when they feast with you without fear, caring for themselves; clouds without water, carried along by winds; autumn trees without fruit, doubly dead, uprooted;",
-  "JUD.1.13": "wild waves of the sea, casting up their own shame like foam; wandering stars, for whom the black darkness has been reserved forever.",
-  "JUD.1.14": "It was also about these men that Enoch, in the seventh generation from Adam, prophesied, saying, “Behold, the Lord came with many thousands of His holy ones,",
-  "JUD.1.15": "to execute judgment upon all, and to convict all the ungodly of all their ungodly deeds which they have done in an ungodly way, and of all the harsh things which ungodly sinners have spoken against Him.”",
-  "JUD.1.16": "These are grumblers, finding fault, following after their own lusts; they speak arrogantly, flattering people for the sake of gaining an advantage.",
-  "JUD.1.17": "But you, beloved, ought to remember the words that were spoken beforehand by the apostles of our Lord Jesus Christ,",
-  "JUD.1.18": "that they were saying to you, “In the last time there will be mockers, following after their own ungodly lusts.”",
-  "JUD.1.19": "These are the ones who cause divisions, worldly-minded, devoid of the Spirit.",
-  "JUD.1.20": "But you, beloved, building yourselves up on your most holy faith, praying in the Holy Spirit,",
-  "JUD.1.21": "keep yourselves in the love of God, waiting anxiously for the mercy of our Lord Jesus Christ to eternal life.",
-  "JUD.1.22": "And have mercy on some, who are doubting;",
-  "JUD.1.23": "save others, snatching them out of the fire; and on some have mercy with fear, hating even the garment polluted by the flesh.",
-  "JUD.1.24": "Now to Him who is able to keep you from stumbling, and to make you stand in the presence of His glory blameless with great joy,",
-  "JUD.1.25": "to the only God our Savior, through Jesus Christ our Lord, be glory, majesty, dominion and authority, before all time and now and forever. Amen."
+  "JUD.1.1": {
+    "text": "Jude, a bond-servant of Jesus Christ, and brother of James, To those who are the called, beloved in God the Father, and kept for Jesus Christ:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "The Warnings of History to the Ungodly"
+  },
+  "JUD.1.2": {
+    "text": "May mercy and peace and love be multiplied to you.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.3": {
+    "text": "Beloved, while I was making every effort to write you about our common salvation, I felt the necessity to write to you appealing that you contend earnestly for the faith which was once for all handed down to the saints.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.4": {
+    "text": "For certain persons have crept in unnoticed, those who were long beforehand marked out for this condemnation, ungodly persons who turn the grace of our God into licentiousness and deny our only Master and Lord, Jesus Christ.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.5": {
+    "text": "Now I desire to remind you, though you know all things once for all, that the Lord, after saving a people out of the land of Egypt, subsequently destroyed those who did not believe.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Two early mss read Jesus"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.6": {
+    "text": "And angels who did not keep their own domain, but abandoned their proper abode, He has kept in eternal bonds under darkness for the judgment of the great day,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.7": {
+    "text": "just as Sodom and Gomorrah and the cities around them, since they in the same way as these indulged in gross immorality and went after strange flesh, are exhibited as an example in undergoing the punishment of eternal fire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.8": {
+    "text": "Yet in the same way these men, also by dreaming, defile the flesh, and reject authority, and revile angelic majesties.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.9": {
+    "text": "But Michael the archangel, when he disputed with the devil and argued about the body of Moses, did not dare pronounce against him a railing judgment, but said, “The Lord rebuke you!”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.10": {
+    "text": "But these men revile the things which they do not understand; and the things which they know by instinct, like unreasoning animals, by these things they are destroyed.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.11": {
+    "text": "Woe to them! For they have gone the way of Cain, and for pay they have rushed headlong into the error of Balaam, and perished in the rebellion of Korah.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.12": {
+    "text": "These are the men who are hidden reefs in your love feasts when they feast with you without fear, caring for themselves; clouds without water, carried along by winds; autumn trees without fruit, doubly dead, uprooted;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.13": {
+    "text": "wild waves of the sea, casting up their own shame like foam; wandering stars, for whom the black darkness has been reserved forever.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.14": {
+    "text": "It was also about these men that Enoch, in the seventh generation from Adam, prophesied, saying, “Behold, the Lord came with many thousands of His holy ones,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.15": {
+    "text": "to execute judgment upon all, and to convict all the ungodly of all their ungodly deeds which they have done in an ungodly way, and of all the harsh things which ungodly sinners have spoken against Him.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.16": {
+    "text": "These are grumblers, finding fault, following after their own lusts; they speak arrogantly, flattering people for the sake of gaining an advantage.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.17": {
+    "text": "But you, beloved, ought to remember the words that were spoken beforehand by the apostles of our Lord Jesus Christ,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Keep Yourselves in the Love of God"
+  },
+  "JUD.1.18": {
+    "text": "that they were saying to you, “In the last time there will be mockers, following after their own ungodly lusts.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.19": {
+    "text": "These are the ones who cause divisions, worldly-minded, devoid of the Spirit.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.20": {
+    "text": "But you, beloved, building yourselves up on your most holy faith, praying in the Holy Spirit,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.21": {
+    "text": "keep yourselves in the love of God, waiting anxiously for the mercy of our Lord Jesus Christ to eternal life.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.22": {
+    "text": "And have mercy on some, who are doubting;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.23": {
+    "text": "save others, snatching them out of the fire; and on some have mercy with fear, hating even the garment polluted by the flesh.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.24": {
+    "text": "Now to Him who is able to keep you from stumbling, and to make you stand in the presence of His glory blameless with great joy,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.25": {
+    "text": "to the only God our Savior, through Jesus Christ our Lord, be glory, majesty, dominion and authority, before all time and now and forever. Amen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

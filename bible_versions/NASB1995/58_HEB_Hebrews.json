@@ -1,305 +1,1855 @@
 {
-  "HEB.1.1": "God, after He spoke long ago to the fathers in the prophets in many portions and in many ways,",
-  "HEB.1.2": "in these last days has spoken to us in His Son, whom He appointed heir of all things, through whom also He made the world.",
-  "HEB.1.3": "And He is the radiance of His glory and the exact representation of His nature, and upholds all things by the word of His power. When He had made purification of sins, He sat down at the right hand of the Majesty on high,",
-  "HEB.1.4": "having become as much better than the angels, as He has inherited a more excellent name than they.",
-  "HEB.1.5": "For to which of the angels did He ever say, “You are My Son, Today I have begotten You”? And again, “I will be a Father to Him And He shall be a Son to Me”?",
-  "HEB.1.6": "And when He again brings the firstborn into the world, He says, “And let all the angels of God worship Him.”",
-  "HEB.1.7": "And of the angels He says, “Who makes His angels winds, And His ministers a flame of fire.”",
-  "HEB.1.8": "But of the Son He says, “Your throne, O God, is forever and ever, And the righteous scepter is the scepter of His kingdom.",
-  "HEB.1.9": "You have loved righteousness and hated lawlessness; Therefore God, Your God, has anointed You With the oil of gladness above Your companions.”",
-  "HEB.1.10": "And, “You, Lord, in the beginning laid the foundation of the earth, And the heavens are the works of Your hands;",
-  "HEB.1.11": "They will perish, but You remain; And they all will become old like a garment,",
-  "HEB.1.12": "And like a mantle You will roll them up; Like a garment they will also be changed. But You are the same, And Your years will not come to an end.”",
-  "HEB.1.13": "But to which of the angels has He ever said, “Sit at My right hand, Until I make Your enemies A footstool for Your feet”?",
-  "HEB.1.14": "Are they not all ministering spirits, sent out to render service for the sake of those who will inherit salvation?",
-  "HEB.2.1": "For this reason we must pay much closer attention to what we have heard, so that we do not drift away from it.",
-  "HEB.2.2": "For if the word spoken through angels proved unalterable, and every transgression and disobedience received a just penalty,",
-  "HEB.2.3": "how will we escape if we neglect so great a salvation? After it was at the first spoken through the Lord, it was confirmed to us by those who heard,",
-  "HEB.2.4": "God also testifying with them, both by signs and wonders and by various miracles and by gifts of the Holy Spirit according to His own will.",
-  "HEB.2.5": "For He did not subject to angels the world to come, concerning which we are speaking.",
-  "HEB.2.6": "But one has testified somewhere, saying, “What is man, that You remember him? Or the son of man, that You are concerned about him?",
-  "HEB.2.7": "You have made him for a little while lower than the angels; You have crowned him with glory and honor, And have appointed him over the works of Your hands;",
-  "HEB.2.8": "You have put all things in subjection under his feet.” For in subjecting all things to him, He left nothing that is not subject to him. But now we do not yet see all things subjected to him.",
-  "HEB.2.9": "But we do see Him who was made for a little while lower than the angels, namely, Jesus, because of the suffering of death crowned with glory and honor, so that by the grace of God He might taste death for everyone.",
-  "HEB.2.10": "For it was fitting for Him, for whom are all things, and through whom are all things, in bringing many sons to glory, to perfect the author of their salvation through sufferings.",
-  "HEB.2.11": "For both He who sanctifies and those who are sanctified are all from one Father; for which reason He is not ashamed to call them brethren,",
-  "HEB.2.12": "saying, “I will proclaim Your name to My brethren, In the midst of the congregation I will sing Your praise.”",
-  "HEB.2.13": "And again, “I will put My trust in Him.” And again, “Behold, I and the children whom God has given Me.”",
-  "HEB.2.14": "Therefore, since the children share in flesh and blood, He Himself likewise also partook of the same, that through death He might render powerless him who had the power of death, that is, the devil,",
-  "HEB.2.15": "and might free those who through fear of death were subject to slavery all their lives.",
-  "HEB.2.16": "For assuredly He does not give help to angels, but He gives help to the descendant of Abraham.",
-  "HEB.2.17": "Therefore, He had to be made like His brethren in all things, so that He might become a merciful and faithful high priest in things pertaining to God, to make propitiation for the sins of the people.",
-  "HEB.2.18": "For since He Himself was tempted in that which He has suffered, He is able to come to the aid of those who are tempted.",
-  "HEB.3.1": "Therefore, holy brethren, partakers of a heavenly calling, consider Jesus, the Apostle and High Priest of our confession;",
-  "HEB.3.2": "He was faithful to Him who appointed Him, as Moses also was in all His house.",
-  "HEB.3.3": "For He has been counted worthy of more glory than Moses, by just so much as the builder of the house has more honor than the house.",
-  "HEB.3.4": "For every house is built by someone, but the builder of all things is God.",
-  "HEB.3.5": "Now Moses was faithful in all His house as a servant, for a testimony of those things which were to be spoken later;",
-  "HEB.3.6": "but Christ was faithful as a Son over His house—whose house we are, if we hold fast our confidence and the boast of our hope firm until the end.",
-  "HEB.3.7": "Therefore, just as the Holy Spirit says, “Today if you hear His voice,",
-  "HEB.3.8": "Do not harden your hearts as when they provoked Me, As in the day of trial in the wilderness,",
-  "HEB.3.9": "Where your fathers tried Me by testing Me, And saw My works for forty years.",
-  "HEB.3.10": "Therefore I was angry with this generation, And said, ‘They always go astray in their heart, And they did not know My ways’;",
-  "HEB.3.11": "As I swore in My wrath, ‘They shall not enter My rest.’ ”",
-  "HEB.3.12": "Take care, brethren, that there not be in any one of you an evil, unbelieving heart that falls away from the living God.",
-  "HEB.3.13": "But encourage one another day after day, as long as it is still called “Today,” so that none of you will be hardened by the deceitfulness of sin.",
-  "HEB.3.14": "For we have become partakers of Christ, if we hold fast the beginning of our assurance firm until the end,",
-  "HEB.3.15": "while it is said, “Today if you hear His voice, Do not harden your hearts, as when they provoked Me.”",
-  "HEB.3.16": "For who provoked Him when they had heard? Indeed, did not all those who came out of Egypt led by Moses?",
-  "HEB.3.17": "And with whom was He angry for forty years? Was it not with those who sinned, whose bodies fell in the wilderness?",
-  "HEB.3.18": "And to whom did He swear that they would not enter His rest, but to those who were disobedient?",
-  "HEB.3.19": "So we see that they were not able to enter because of unbelief.",
-  "HEB.4.1": "Therefore, let us fear if, while a promise remains of entering His rest, any one of you may seem to have come short of it.",
-  "HEB.4.2": "For indeed we have had good news preached to us, just as they also; but the word they heard did not profit them, because it was not united by faith in those who heard.",
-  "HEB.4.3": "For we who have believed enter that rest, just as He has said, “As I swore in My wrath, They shall not enter My rest,” although His works were finished from the foundation of the world.",
-  "HEB.4.4": "For He has said somewhere concerning the seventh day: “And God rested on the seventh day from all His works”;",
-  "HEB.4.5": "and again in this passage, “They shall not enter My rest.”",
-  "HEB.4.6": "Therefore, since it remains for some to enter it, and those who formerly had good news preached to them failed to enter because of disobedience,",
-  "HEB.4.7": "He again fixes a certain day, “Today,” saying through David after so long a time just as has been said before, “Today if you hear His voice, Do not harden your hearts.”",
-  "HEB.4.8": "For if Joshua had given them rest, He would not have spoken of another day after that.",
-  "HEB.4.9": "So there remains a Sabbath rest for the people of God.",
-  "HEB.4.10": "For the one who has entered His rest has himself also rested from his works, as God did from His.",
-  "HEB.4.11": "Therefore let us be diligent to enter that rest, so that no one will fall, through following the same example of disobedience.",
-  "HEB.4.12": "For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.",
-  "HEB.4.13": "And there is no creature hidden from His sight, but all things are open and laid bare to the eyes of Him with whom we have to do.",
-  "HEB.4.14": "Therefore, since we have a great high priest who has passed through the heavens, Jesus the Son of God, let us hold fast our confession.",
-  "HEB.4.15": "For we do not have a high priest who cannot sympathize with our weaknesses, but One who has been tempted in all things as we are, yet without sin.",
-  "HEB.4.16": "Therefore let us draw near with confidence to the throne of grace, so that we may receive mercy and find grace to help in time of need.",
-  "HEB.5.1": "For every high priest taken from among men is appointed on behalf of men in things pertaining to God, in order to offer both gifts and sacrifices for sins;",
-  "HEB.5.2": "he can deal gently with the ignorant and misguided, since he himself also is beset with weakness;",
-  "HEB.5.3": "and because of it he is obligated to offer sacrifices for sins, as for the people, so also for himself.",
-  "HEB.5.4": "And no one takes the honor to himself, but receives it when he is called by God, even as Aaron was.",
-  "HEB.5.5": "So also Christ did not glorify Himself so as to become a high priest, but He who said to Him, “You are My Son, Today I have begotten You”;",
-  "HEB.5.6": "just as He says also in another passage, “You are a priest forever According to the order of Melchizedek.”",
-  "HEB.5.7": "In the days of His flesh, He offered up both prayers and supplications with loud crying and tears to the One able to save Him from death, and He was heard because of His piety.",
-  "HEB.5.8": "Although He was a Son, He learned obedience from the things which He suffered.",
-  "HEB.5.9": "And having been made perfect, He became to all those who obey Him the source of eternal salvation,",
-  "HEB.5.10": "being designated by God as a high priest according to the order of Melchizedek.",
-  "HEB.5.11": "Concerning him we have much to say, and it is hard to explain, since you have become dull of hearing.",
-  "HEB.5.12": "For though by this time you ought to be teachers, you have need again for someone to teach you the elementary principles of the oracles of God, and you have come to need milk and not solid food.",
-  "HEB.5.13": "For everyone who partakes only of milk is not accustomed to the word of righteousness, for he is an infant.",
-  "HEB.5.14": "But solid food is for the mature, who because of practice have their senses trained to discern good and evil.",
-  "HEB.6.1": "Therefore leaving the elementary teaching about the Christ, let us press on to maturity, not laying again a foundation of repentance from dead works and of faith toward God,",
-  "HEB.6.2": "of instruction about washings and laying on of hands, and the resurrection of the dead and eternal judgment.",
-  "HEB.6.3": "And this we will do, if God permits.",
-  "HEB.6.4": "For in the case of those who have once been enlightened and have tasted of the heavenly gift and have been made partakers of the Holy Spirit,",
-  "HEB.6.5": "and have tasted the good word of God and the powers of the age to come,",
-  "HEB.6.6": "and then have fallen away, it is impossible to renew them again to repentance, since they again crucify to themselves the Son of God and put Him to open shame.",
-  "HEB.6.7": "For ground that drinks the rain which often falls on it and brings forth vegetation useful to those for whose sake it is also tilled, receives a blessing from God;",
-  "HEB.6.8": "but if it yields thorns and thistles, it is worthless and close to being cursed, and it ends up being burned.",
-  "HEB.6.9": "But, beloved, we are convinced of better things concerning you, and things that accompany salvation, though we are speaking in this way.",
-  "HEB.6.10": "For God is not unjust so as to forget your work and the love which you have shown toward His name, in having ministered and in still ministering to the saints.",
-  "HEB.6.11": "And we desire that each one of you show the same diligence so as to realize the full assurance of hope until the end,",
-  "HEB.6.12": "so that you will not be sluggish, but imitators of those who through faith and patience inherit the promises.",
-  "HEB.6.13": "For when God made the promise to Abraham, since He could swear by no one greater, He swore by Himself,",
-  "HEB.6.14": "saying, “I will surely bless you and I will surely multiply you.”",
-  "HEB.6.15": "And so, having patiently waited, he obtained the promise.",
-  "HEB.6.16": "For men swear by one greater than themselves, and with them an oath given as confirmation is an end of every dispute.",
-  "HEB.6.17": "In the same way God, desiring even more to show to the heirs of the promise the unchangeableness of His purpose, interposed with an oath,",
-  "HEB.6.18": "so that by two unchangeable things in which it is impossible for God to lie, we who have taken refuge would have strong encouragement to take hold of the hope set before us.",
-  "HEB.6.19": "This hope we have as an anchor of the soul, a hope both sure and steadfast and one which enters within the veil,",
-  "HEB.6.20": "where Jesus has entered as a forerunner for us, having become a high priest forever according to the order of Melchizedek.",
-  "HEB.7.1": "For this Melchizedek, king of Salem, priest of the Most High God, who met Abraham as he was returning from the slaughter of the kings and blessed him,",
-  "HEB.7.2": "to whom also Abraham apportioned a tenth part of all the spoils, was first of all, by the translation of his name, king of righteousness, and then also king of Salem, which is king of peace.",
-  "HEB.7.3": "Without father, without mother, without genealogy, having neither beginning of days nor end of life, but made like the Son of God, he remains a priest perpetually.",
-  "HEB.7.4": "Now observe how great this man was to whom Abraham, the patriarch, gave a tenth of the choicest spoils.",
-  "HEB.7.5": "And those indeed of the sons of Levi who receive the priest’s office have commandment in the Law to collect a tenth from the people, that is, from their brethren, although these are descended from Abraham.",
-  "HEB.7.6": "But the one whose genealogy is not traced from them collected a tenth from Abraham and blessed the one who had the promises.",
-  "HEB.7.7": "But without any dispute the lesser is blessed by the greater.",
-  "HEB.7.8": "In this case mortal men receive tithes, but in that case one receives them, of whom it is witnessed that he lives on.",
-  "HEB.7.9": "And, so to speak, through Abraham even Levi, who received tithes, paid tithes,",
-  "HEB.7.10": "for he was still in the loins of his father when Melchizedek met him.",
-  "HEB.7.11": "Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron?",
-  "HEB.7.12": "For when the priesthood is changed, of necessity there takes place a change of law also.",
-  "HEB.7.13": "For the one concerning whom these things are spoken belongs to another tribe, from which no one has officiated at the altar.",
-  "HEB.7.14": "For it is evident that our Lord was descended from Judah, a tribe with reference to which Moses spoke nothing concerning priests.",
-  "HEB.7.15": "And this is clearer still, if another priest arises according to the likeness of Melchizedek,",
-  "HEB.7.16": "who has become such not on the basis of a law of physical requirement, but according to the power of an indestructible life.",
-  "HEB.7.17": "For it is attested of Him, “You are a priest forever According to the order of Melchizedek.”",
-  "HEB.7.18": "For, on the one hand, there is a setting aside of a former commandment because of its weakness and uselessness",
-  "HEB.7.19": "(for the Law made nothing perfect), and on the other hand there is a bringing in of a better hope, through which we draw near to God.",
-  "HEB.7.20": "And inasmuch as it was not without an oath",
-  "HEB.7.21": "(for they indeed became priests without an oath, but He with an oath through the One who said to Him, “The Lord has sworn And will not change His mind, ‘You are a priest forever’ ”);",
-  "HEB.7.22": "so much the more also Jesus has become the guarantee of a better covenant.",
-  "HEB.7.23": "The former priests, on the one hand, existed in greater numbers because they were prevented by death from continuing,",
-  "HEB.7.24": "but Jesus, on the other hand, because He continues forever, holds His priesthood permanently.",
-  "HEB.7.25": "Therefore He is able also to save forever those who draw near to God through Him, since He always lives to make intercession for them.",
-  "HEB.7.26": "For it was fitting for us to have such a high priest, holy, innocent, undefiled, separated from sinners and exalted above the heavens;",
-  "HEB.7.27": "who does not need daily, like those high priests, to offer up sacrifices, first for His own sins and then for the sins of the people, because this He did once for all when He offered up Himself.",
-  "HEB.7.28": "For the Law appoints men as high priests who are weak, but the word of the oath, which came after the Law, appoints a Son, made perfect forever.",
-  "HEB.8.1": "Now the main point in what has been said is this: we have such a high priest, who has taken His seat at the right hand of the throne of the Majesty in the heavens,",
-  "HEB.8.2": "a minister in the sanctuary and in the true tabernacle, which the Lord pitched, not man.",
-  "HEB.8.3": "For every high priest is appointed to offer both gifts and sacrifices; so it is necessary that this high priest also have something to offer.",
-  "HEB.8.4": "Now if He were on earth, He would not be a priest at all, since there are those who offer the gifts according to the Law;",
-  "HEB.8.5": "who serve a copy and shadow of the heavenly things, just as Moses was warned by God when he was about to erect the tabernacle; for, “See,” He says, “that you make all things according to the pattern which was shown you on the mountain.”",
-  "HEB.8.6": "But now He has obtained a more excellent ministry, by as much as He is also the mediator of a better covenant, which has been enacted on better promises.",
-  "HEB.8.7": "For if that first covenant had been faultless, there would have been no occasion sought for a second.",
-  "HEB.8.8": "For finding fault with them, He says, “Behold, days are coming, says the Lord, When I will effect a new covenant With the house of Israel and with the house of Judah;",
-  "HEB.8.9": "Not like the covenant which I made with their fathers On the day when I took them by the hand To lead them out of the land of Egypt; For they did not continue in My covenant, And I did not care for them, says the Lord.",
-  "HEB.8.10": "For this is the covenant that I will make with the house of Israel After those days, says the Lord: I will put My laws into their minds, And I will write them on their hearts. And I will be their God, And they shall be My people.",
-  "HEB.8.11": "And they shall not teach everyone his fellow citizen, And everyone his brother, saying, ‘Know the Lord,’ For all will know Me, From the least to the greatest of them.",
-  "HEB.8.12": "For I will be merciful to their iniquities, And I will remember their sins no more.”",
-  "HEB.8.13": "When He said, “A new covenant,” He has made the first obsolete. But whatever is becoming obsolete and growing old is ready to disappear.",
-  "HEB.9.1": "Now even the first covenant had regulations of divine worship and the earthly sanctuary.",
-  "HEB.9.2": "For there was a tabernacle prepared, the outer one, in which were the lampstand and the table and the sacred bread; this is called the holy place.",
-  "HEB.9.3": "Behind the second veil there was a tabernacle which is called the Holy of Holies,",
-  "HEB.9.4": "having a golden altar of incense and the ark of the covenant covered on all sides with gold, in which was a golden jar holding the manna, and Aaron’s rod which budded, and the tables of the covenant;",
-  "HEB.9.5": "and above it were the cherubim of glory overshadowing the mercy seat; but of these things we cannot now speak in detail.",
-  "HEB.9.6": "Now when these things have been so prepared, the priests are continually entering the outer tabernacle performing the divine worship,",
-  "HEB.9.7": "but into the second, only the high priest enters once a year, not without taking blood, which he offers for himself and for the sins of the people committed in ignorance.",
-  "HEB.9.8": "The Holy Spirit is signifying this, that the way into the holy place has not yet been disclosed while the outer tabernacle is still standing,",
-  "HEB.9.9": "which is a symbol for the present time. Accordingly both gifts and sacrifices are offered which cannot make the worshiper perfect in conscience,",
-  "HEB.9.10": "since they relate only to food and drink and various washings, regulations for the body imposed until a time of reformation.",
-  "HEB.9.11": "But when Christ appeared as a high priest of the good things to come, He entered through the greater and more perfect tabernacle, not made with hands, that is to say, not of this creation;",
-  "HEB.9.12": "and not through the blood of goats and calves, but through His own blood, He entered the holy place once for all, having obtained eternal redemption.",
-  "HEB.9.13": "For if the blood of goats and bulls and the ashes of a heifer sprinkling those who have been defiled sanctify for the cleansing of the flesh,",
-  "HEB.9.14": "how much more will the blood of Christ, who through the eternal Spirit offered Himself without blemish to God, cleanse your conscience from dead works to serve the living God?",
-  "HEB.9.15": "For this reason He is the mediator of a new covenant, so that, since a death has taken place for the redemption of the transgressions that were committed under the first covenant, those who have been called may receive the promise of the eternal inheritance.",
-  "HEB.9.16": "For where a covenant is, there must of necessity be the death of the one who made it.",
-  "HEB.9.17": "For a covenant is valid only when men are dead, for it is never in force while the one who made it lives.",
-  "HEB.9.18": "Therefore even the first covenant was not inaugurated without blood.",
-  "HEB.9.19": "For when every commandment had been spoken by Moses to all the people according to the Law, he took the blood of the calves and the goats, with water and scarlet wool and hyssop, and sprinkled both the book itself and all the people,",
-  "HEB.9.20": "saying, “This is the blood of the covenant which God commanded you.”",
-  "HEB.9.21": "And in the same way he sprinkled both the tabernacle and all the vessels of the ministry with the blood.",
-  "HEB.9.22": "And according to the Law, one may almost say, all things are cleansed with blood, and without shedding of blood there is no forgiveness.",
-  "HEB.9.23": "Therefore it was necessary for the copies of the things in the heavens to be cleansed with these, but the heavenly things themselves with better sacrifices than these.",
-  "HEB.9.24": "For Christ did not enter a holy place made with hands, a mere copy of the true one, but into heaven itself, now to appear in the presence of God for us;",
-  "HEB.9.25": "nor was it that He would offer Himself often, as the high priest enters the holy place year by year with blood that is not his own.",
-  "HEB.9.26": "Otherwise, He would have needed to suffer often since the foundation of the world; but now once at the consummation of the ages He has been manifested to put away sin by the sacrifice of Himself.",
-  "HEB.9.27": "And inasmuch as it is appointed for men to die once and after this comes judgment,",
-  "HEB.9.28": "so Christ also, having been offered once to bear the sins of many, will appear a second time for salvation without reference to sin, to those who eagerly await Him.",
-  "HEB.10.1": "For the Law, since it has only a shadow of the good things to come and not the very form of things, can never, by the same sacrifices which they offer continually year by year, make perfect those who draw near.",
-  "HEB.10.2": "Otherwise, would they not have ceased to be offered, because the worshipers, having once been cleansed, would no longer have had consciousness of sins?",
-  "HEB.10.3": "But in those sacrifices there is a reminder of sins year by year.",
-  "HEB.10.4": "For it is impossible for the blood of bulls and goats to take away sins.",
-  "HEB.10.5": "Therefore, when He comes into the world, He says, “Sacrifice and offering You have not desired, But a body You have prepared for Me;",
-  "HEB.10.6": "In whole burnt offerings and sacrifices for sin You have taken no pleasure.",
-  "HEB.10.7": "Then I said, ‘Behold, I have come (In the scroll of the book it is written of Me) To do Your will, O God.’ ”",
-  "HEB.10.8": "After saying above, “Sacrifices and offerings and whole burnt offerings and sacrifices for sin You have not desired, nor have You taken pleasure in them” (which are offered according to the Law),",
-  "HEB.10.9": "then He said, “Behold, I have come to do Your will.” He takes away the first in order to establish the second.",
-  "HEB.10.10": "By this will we have been sanctified through the offering of the body of Jesus Christ once for all.",
-  "HEB.10.11": "Every priest stands daily ministering and offering time after time the same sacrifices, which can never take away sins;",
-  "HEB.10.12": "but He, having offered one sacrifice for sins for all time, sat down at the right hand of God,",
-  "HEB.10.13": "waiting from that time onward until His enemies be made a footstool for His feet.",
-  "HEB.10.14": "For by one offering He has perfected for all time those who are sanctified.",
-  "HEB.10.15": "And the Holy Spirit also testifies to us; for after saying,",
-  "HEB.10.16": "“This is the covenant that I will make with them After those days, says the Lord: I will put My laws upon their heart, And on their mind I will write them,” He then says,",
-  "HEB.10.17": "“And their sins and their lawless deeds I will remember no more.”",
-  "HEB.10.18": "Now where there is forgiveness of these things, there is no longer any offering for sin.",
-  "HEB.10.19": "Therefore, brethren, since we have confidence to enter the holy place by the blood of Jesus,",
-  "HEB.10.20": "by a new and living way which He inaugurated for us through the veil, that is, His flesh,",
-  "HEB.10.21": "and since we have a great priest over the house of God,",
-  "HEB.10.22": "let us draw near with a sincere heart in full assurance of faith, having our hearts sprinkled clean from an evil conscience and our bodies washed with pure water.",
-  "HEB.10.23": "Let us hold fast the confession of our hope without wavering, for He who promised is faithful;",
-  "HEB.10.24": "and let us consider how to stimulate one another to love and good deeds,",
-  "HEB.10.25": "not forsaking our own assembling together, as is the habit of some, but encouraging one another; and all the more as you see the day drawing near.",
-  "HEB.10.26": "For if we go on sinning willfully after receiving the knowledge of the truth, there no longer remains a sacrifice for sins,",
-  "HEB.10.27": "but a terrifying expectation of judgment and the fury of a fire which will consume the adversaries.",
-  "HEB.10.28": "Anyone who has set aside the Law of Moses dies without mercy on the testimony of two or three witnesses.",
-  "HEB.10.29": "How much severer punishment do you think he will deserve who has trampled under foot the Son of God, and has regarded as unclean the blood of the covenant by which he was sanctified, and has insulted the Spirit of grace?",
-  "HEB.10.30": "For we know Him who said, “Vengeance is Mine, I will repay.” And again, “The Lord will judge His people.”",
-  "HEB.10.31": "It is a terrifying thing to fall into the hands of the living God.",
-  "HEB.10.32": "But remember the former days, when, after being enlightened, you endured a great conflict of sufferings,",
-  "HEB.10.33": "partly by being made a public spectacle through reproaches and tribulations, and partly by becoming sharers with those who were so treated.",
-  "HEB.10.34": "For you showed sympathy to the prisoners and accepted joyfully the seizure of your property, knowing that you have for yourselves a better possession and a lasting one.",
-  "HEB.10.35": "Therefore, do not throw away your confidence, which has a great reward.",
-  "HEB.10.36": "For you have need of endurance, so that when you have done the will of God, you may receive what was promised.",
-  "HEB.10.37": "For yet in a very little while, He who is coming will come, and will not delay.",
-  "HEB.10.38": "But My righteous one shall live by faith; And if he shrinks back, My soul has no pleasure in him.",
-  "HEB.10.39": "But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
-  "HEB.11.1": "Now faith is the assurance of things hoped for, the conviction of things not seen.",
-  "HEB.11.2": "For by it the men of old gained approval.",
-  "HEB.11.3": "By faith we understand that the worlds were prepared by the word of God, so that what is seen was not made out of things which are visible.",
-  "HEB.11.4": "By faith Abel offered to God a better sacrifice than Cain, through which he obtained the testimony that he was righteous, God testifying about his gifts, and through faith, though he is dead, he still speaks.",
-  "HEB.11.5": "By faith Enoch was taken up so that he would not see death; and he was not found because God took him up; for he obtained the witness that before his being taken up he was pleasing to God.",
-  "HEB.11.6": "And without faith it is impossible to please Him, for he who comes to God must believe that He is and that He is a rewarder of those who seek Him.",
-  "HEB.11.7": "By faith Noah, being warned by God about things not yet seen, in reverence prepared an ark for the salvation of his household, by which he condemned the world, and became an heir of the righteousness which is according to faith.",
-  "HEB.11.8": "By faith Abraham, when he was called, obeyed by going out to a place which he was to receive for an inheritance; and he went out, not knowing where he was going.",
-  "HEB.11.9": "By faith he lived as an alien in the land of promise, as in a foreign land, dwelling in tents with Isaac and Jacob, fellow heirs of the same promise;",
-  "HEB.11.10": "for he was looking for the city which has foundations, whose architect and builder is God.",
-  "HEB.11.11": "By faith even Sarah herself received ability to conceive, even beyond the proper time of life, since she considered Him faithful who had promised.",
-  "HEB.11.12": "Therefore there was born even of one man, and him as good as dead at that, as many descendants as the stars of heaven in number, and innumerable as the sand which is by the seashore.",
-  "HEB.11.13": "All these died in faith, without receiving the promises, but having seen them and having welcomed them from a distance, and having confessed that they were strangers and exiles on the earth.",
-  "HEB.11.14": "For those who say such things make it clear that they are seeking a country of their own.",
-  "HEB.11.15": "And indeed if they had been thinking of that country from which they went out, they would have had opportunity to return.",
-  "HEB.11.16": "But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God; for He has prepared a city for them.",
-  "HEB.11.17": "By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises was offering up his only begotten son;",
-  "HEB.11.18": "it was he to whom it was said, “In Isaac your descendants shall be called.”",
-  "HEB.11.19": "He considered that God is able to raise people even from the dead, from which he also received him back as a type.",
-  "HEB.11.20": "By faith Isaac blessed Jacob and Esau, even regarding things to come.",
-  "HEB.11.21": "By faith Jacob, as he was dying, blessed each of the sons of Joseph, and worshiped, leaning on the top of his staff.",
-  "HEB.11.22": "By faith Joseph, when he was dying, made mention of the exodus of the sons of Israel, and gave orders concerning his bones.",
-  "HEB.11.23": "By faith Moses, when he was born, was hidden for three months by his parents, because they saw he was a beautiful child; and they were not afraid of the king’s edict.",
-  "HEB.11.24": "By faith Moses, when he had grown up, refused to be called the son of Pharaoh’s daughter,",
-  "HEB.11.25": "choosing rather to endure ill-treatment with the people of God than to enjoy the passing pleasures of sin,",
-  "HEB.11.26": "considering the reproach of Christ greater riches than the treasures of Egypt; for he was looking to the reward.",
-  "HEB.11.27": "By faith he left Egypt, not fearing the wrath of the king; for he endured, as seeing Him who is unseen.",
-  "HEB.11.28": "By faith he kept the Passover and the sprinkling of the blood, so that he who destroyed the firstborn would not touch them.",
-  "HEB.11.29": "By faith they passed through the Red Sea as though they were passing through dry land; and the Egyptians, when they attempted it, were drowned.",
-  "HEB.11.30": "By faith the walls of Jericho fell down after they had been encircled for seven days.",
-  "HEB.11.31": "By faith Rahab the harlot did not perish along with those who were disobedient, after she had welcomed the spies in peace.",
-  "HEB.11.32": "And what more shall I say? For time will fail me if I tell of Gideon, Barak, Samson, Jephthah, of David and Samuel and the prophets,",
-  "HEB.11.33": "who by faith conquered kingdoms, performed acts of righteousness, obtained promises, shut the mouths of lions,",
-  "HEB.11.34": "quenched the power of fire, escaped the edge of the sword, from weakness were made strong, became mighty in war, put foreign armies to flight.",
-  "HEB.11.35": "Women received back their dead by resurrection; and others were tortured, not accepting their release, so that they might obtain a better resurrection;",
-  "HEB.11.36": "and others experienced mockings and scourgings, yes, also chains and imprisonment.",
-  "HEB.11.37": "They were stoned, they were sawn in two, they were tempted, they were put to death with the sword; they went about in sheepskins, in goatskins, being destitute, afflicted, ill-treated",
-  "HEB.11.38": "(men of whom the world was not worthy), wandering in deserts and mountains and caves and holes in the ground.",
-  "HEB.11.39": "And all these, having gained approval through their faith, did not receive what was promised,",
-  "HEB.11.40": "because God had provided something better for us, so that apart from us they would not be made perfect.",
-  "HEB.12.1": "Therefore, since we have so great a cloud of witnesses surrounding us, let us also lay aside every encumbrance and the sin which so easily entangles us, and let us run with endurance the race that is set before us,",
-  "HEB.12.2": "fixing our eyes on Jesus, the author and perfecter of faith, who for the joy set before Him endured the cross, despising the shame, and has sat down at the right hand of the throne of God.",
-  "HEB.12.3": "For consider Him who has endured such hostility by sinners against Himself, so that you will not grow weary and lose heart.",
-  "HEB.12.4": "You have not yet resisted to the point of shedding blood in your striving against sin;",
-  "HEB.12.5": "and you have forgotten the exhortation which is addressed to you as sons, “My son, do not regard lightly the discipline of the Lord, Nor faint when you are reproved by Him;",
-  "HEB.12.6": "For those whom the Lord loves He disciplines, And He scourges every son whom He receives.”",
-  "HEB.12.7": "It is for discipline that you endure; God deals with you as with sons; for what son is there whom his father does not discipline?",
-  "HEB.12.8": "But if you are without discipline, of which all have become partakers, then you are illegitimate children and not sons.",
-  "HEB.12.9": "Furthermore, we had earthly fathers to discipline us, and we respected them; shall we not much rather be subject to the Father of spirits, and live?",
-  "HEB.12.10": "For they disciplined us for a short time as seemed best to them, but He disciplines us for our good, so that we may share His holiness.",
-  "HEB.12.11": "All discipline for the moment seems not to be joyful, but sorrowful; yet to those who have been trained by it, afterwards it yields the peaceful fruit of righteousness.",
-  "HEB.12.12": "Therefore, strengthen the hands that are weak and the knees that are feeble,",
-  "HEB.12.13": "and make straight paths for your feet, so that the limb which is lame may not be put out of joint, but rather be healed.",
-  "HEB.12.14": "Pursue peace with all men, and the sanctification without which no one will see the Lord.",
-  "HEB.12.15": "See to it that no one comes short of the grace of God; that no root of bitterness springing up causes trouble, and by it many be defiled;",
-  "HEB.12.16": "that there be no immoral or godless person like Esau, who sold his own birthright for a single meal.",
-  "HEB.12.17": "For you know that even afterwards, when he desired to inherit the blessing, he was rejected, for he found no place for repentance, though he sought for it with tears.",
-  "HEB.12.18": "For you have not come to a mountain that can be touched and to a blazing fire, and to darkness and gloom and whirlwind,",
-  "HEB.12.19": "and to the blast of a trumpet and the sound of words which sound was such that those who heard begged that no further word be spoken to them.",
-  "HEB.12.20": "For they could not bear the command, “If even a beast touches the mountain, it will be stoned.”",
-  "HEB.12.21": "And so terrible was the sight, that Moses said, “I am full of fear and trembling.”",
-  "HEB.12.22": "But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to myriads of angels,",
-  "HEB.12.23": "to the general assembly and church of the firstborn who are enrolled in heaven, and to God, the Judge of all, and to the spirits of the righteous made perfect,",
-  "HEB.12.24": "and to Jesus, the mediator of a new covenant, and to the sprinkled blood, which speaks better than the blood of Abel.",
-  "HEB.12.25": "See to it that you do not refuse Him who is speaking. For if those did not escape when they refused him who warned them on earth, much less will we escape who turn away from Him who warns from heaven.",
-  "HEB.12.26": "And His voice shook the earth then, but now He has promised, saying, “Yet once more I will shake not only the earth, but also the heaven.”",
-  "HEB.12.27": "This expression, “Yet once more,” denotes the removing of those things which can be shaken, as of created things, so that those things which cannot be shaken may remain.",
-  "HEB.12.28": "Therefore, since we receive a kingdom which cannot be shaken, let us show gratitude, by which we may offer to God an acceptable service with reverence and awe;",
-  "HEB.12.29": "for our God is a consuming fire.",
-  "HEB.13.1": "Let love of the brethren continue.",
-  "HEB.13.2": "Do not neglect to show hospitality to strangers, for by this some have entertained angels without knowing it.",
-  "HEB.13.3": "Remember the prisoners, as though in prison with them, and those who are ill-treated, since you yourselves also are in the body.",
-  "HEB.13.4": "Marriage is to be held in honor among all, and the marriage bed is to be undefiled; for fornicators and adulterers God will judge.",
-  "HEB.13.5": "Make sure that your character is free from the love of money, being content with what you have; for He Himself has said, “I will never desert you, nor will I ever forsake you,”",
-  "HEB.13.6": "so that we confidently say, “The Lord is my helper, I will not be afraid. What will man do to me?”",
-  "HEB.13.7": "Remember those who led you, who spoke the word of God to you; and considering the result of their conduct, imitate their faith.",
-  "HEB.13.8": "Jesus Christ is the same yesterday and today and forever.",
-  "HEB.13.9": "Do not be carried away by varied and strange teachings; for it is good for the heart to be strengthened by grace, not by foods, through which those who were so occupied were not benefited.",
-  "HEB.13.10": "We have an altar from which those who serve the tabernacle have no right to eat.",
-  "HEB.13.11": "For the bodies of those animals whose blood is brought into the holy place by the high priest as an offering for sin, are burned outside the camp.",
-  "HEB.13.12": "Therefore Jesus also, that He might sanctify the people through His own blood, suffered outside the gate.",
-  "HEB.13.13": "So, let us go out to Him outside the camp, bearing His reproach.",
-  "HEB.13.14": "For here we do not have a lasting city, but we are seeking the city which is to come.",
-  "HEB.13.15": "Through Him then, let us continually offer up a sacrifice of praise to God, that is, the fruit of lips that give thanks to His name.",
-  "HEB.13.16": "And do not neglect doing good and sharing, for with such sacrifices God is pleased.",
-  "HEB.13.17": "Obey your leaders and submit to them, for they keep watch over your souls as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
-  "HEB.13.18": "Pray for us, for we are sure that we have a good conscience, desiring to conduct ourselves honorably in all things.",
-  "HEB.13.19": "And I urge you all the more to do this, so that I may be restored to you the sooner.",
-  "HEB.13.20": "Now the God of peace, who brought up from the dead the great Shepherd of the sheep through the blood of the eternal covenant, even Jesus our Lord,",
-  "HEB.13.21": "equip you in every good thing to do His will, working in us that which is pleasing in His sight, through Jesus Christ, to whom be the glory forever and ever. Amen.",
-  "HEB.13.22": "But I urge you, brethren, bear with this word of exhortation, for I have written to you briefly.",
-  "HEB.13.23": "Take notice that our brother Timothy has been released, with whom, if he comes soon, I will see you.",
-  "HEB.13.24": "Greet all of your leaders and all the saints. Those from Italy greet you.",
-  "HEB.13.25": "Grace be with you all."
+  "HEB.1.1": {
+    "text": "God, after He spoke long ago to the fathers in the prophets in many portions and in many ways,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "God’s Final Word in His Son"
+  },
+  "HEB.1.2": {
+    "text": "in these last days has spoken to us in His Son, whom He appointed heir of all things, through whom also He made the world.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.3": {
+    "text": "And He is the radiance of His glory and the exact representation of His nature, and upholds all things by the word of His power. When He had made purification of sins, He sat down at the right hand of the Majesty on high,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.4": {
+    "text": "having become as much better than the angels, as He has inherited a more excellent name than they.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.5": {
+    "text": "For to which of the angels did He ever say, “You are My Son, Today I have begotten You”? And again, “I will be a Father to Him And He shall be a Son to Me”?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.6": {
+    "text": "And when He again brings the firstborn into the world, He says, “And let all the angels of God worship Him.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.7": {
+    "text": "And of the angels He says, “Who makes His angels winds, And His ministers a flame of fire.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.8": {
+    "text": "But of the Son He says, “Your throne, O God, is forever and ever, And the righteous scepter is the scepter of His kingdom.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Late mss read Your"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.9": {
+    "text": "You have loved righteousness and hated lawlessness; Therefore God, Your God, has anointed You With the oil of gladness above Your companions.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.10": {
+    "text": "And, “You, Lord, in the beginning laid the foundation of the earth, And the heavens are the works of Your hands;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.11": {
+    "text": "They will perish, but You remain; And they all will become old like a garment,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.12": {
+    "text": "And like a mantle You will roll them up; Like a garment they will also be changed. But You are the same, And Your years will not come to an end.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.13": {
+    "text": "But to which of the angels has He ever said, “Sit at My right hand, Until I make Your enemies A footstool for Your feet”?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.1.14": {
+    "text": "Are they not all ministering spirits, sent out to render service for the sake of those who will inherit salvation?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.1": {
+    "text": "For this reason we must pay much closer attention to what we have heard, so that we do not drift away from it.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Give Heed"
+  },
+  "HEB.2.2": {
+    "text": "For if the word spoken through angels proved unalterable, and every transgression and disobedience received a just penalty,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.3": {
+    "text": "how will we escape if we neglect so great a salvation? After it was at the first spoken through the Lord, it was confirmed to us by those who heard,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.4": {
+    "text": "God also testifying with them, both by signs and wonders and by various miracles and by gifts of the Holy Spirit according to His own will.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.5": {
+    "text": "For He did not subject to angels the world to come, concerning which we are speaking.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Earth Subject to Man"
+  },
+  "HEB.2.6": {
+    "text": "But one has testified somewhere, saying, “What is man, that You remember him? Or the son of man, that You are concerned about him?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.7": {
+    "text": "You have made him for a little while lower than the angels; You have crowned him with glory and honor, And have appointed him over the works of Your hands;",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.8": {
+    "text": "You have put all things in subjection under his feet.” For in subjecting all things to him, He left nothing that is not subject to him. But now we do not yet see all things subjected to him.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.9": {
+    "text": "But we do see Him who was made for a little while lower than the angels, namely, Jesus, because of the suffering of death crowned with glory and honor, so that by the grace of God He might taste death for everyone.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Jesus Briefly Humbled"
+  },
+  "HEB.2.10": {
+    "text": "For it was fitting for Him, for whom are all things, and through whom are all things, in bringing many sons to glory, to perfect the author of their salvation through sufferings.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.11": {
+    "text": "For both He who sanctifies and those who are sanctified are all from one Father; for which reason He is not ashamed to call them brethren,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.12": {
+    "text": "saying, “I will proclaim Your name to My brethren, In the midst of the congregation I will sing Your praise.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.13": {
+    "text": "And again, “I will put My trust in Him.” And again, “Behold, I and the children whom God has given Me.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.14": {
+    "text": "Therefore, since the children share in flesh and blood, He Himself likewise also partook of the same, that through death He might render powerless him who had the power of death, that is, the devil,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.15": {
+    "text": "and might free those who through fear of death were subject to slavery all their lives.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.16": {
+    "text": "For assuredly He does not give help to angels, but He gives help to the descendant of Abraham.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.17": {
+    "text": "Therefore, He had to be made like His brethren in all things, so that He might become a merciful and faithful high priest in things pertaining to God, to make propitiation for the sins of the people.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.2.18": {
+    "text": "For since He Himself was tempted in that which He has suffered, He is able to come to the aid of those who are tempted.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.1": {
+    "text": "Therefore, holy brethren, partakers of a heavenly calling, consider Jesus, the Apostle and High Priest of our confession;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Jesus Our High Priest"
+  },
+  "HEB.3.2": {
+    "text": "He was faithful to Him who appointed Him, as Moses also was in all His house.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.3": {
+    "text": "For He has been counted worthy of more glory than Moses, by just so much as the builder of the house has more honor than the house.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.4": {
+    "text": "For every house is built by someone, but the builder of all things is God.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.5": {
+    "text": "Now Moses was faithful in all His house as a servant, for a testimony of those things which were to be spoken later;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.6": {
+    "text": "but Christ was faithful as a Son over His house—whose house we are, if we hold fast our confidence and the boast of our hope firm until the end.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.7": {
+    "text": "Therefore, just as the Holy Spirit says, “Today if you hear His voice,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.8": {
+    "text": "Do not harden your hearts as when they provoked Me, As in the day of trial in the wilderness,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.9": {
+    "text": "Where your fathers tried Me by testing Me, And saw My works for forty years.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.10": {
+    "text": "Therefore I was angry with this generation, And said, ‘They always go astray in their heart, And they did not know My ways’;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.11": {
+    "text": "As I swore in My wrath, ‘They shall not enter My rest.’ ”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.12": {
+    "text": "Take care, brethren, that there not be in any one of you an evil, unbelieving heart that falls away from the living God.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "The Peril of Unbelief"
+  },
+  "HEB.3.13": {
+    "text": "But encourage one another day after day, as long as it is still called “Today,” so that none of you will be hardened by the deceitfulness of sin.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.14": {
+    "text": "For we have become partakers of Christ, if we hold fast the beginning of our assurance firm until the end,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.15": {
+    "text": "while it is said, “Today if you hear His voice, Do not harden your hearts, as when they provoked Me.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.16": {
+    "text": "For who provoked Him when they had heard? Indeed, did not all those who came out of Egypt led by Moses?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.17": {
+    "text": "And with whom was He angry for forty years? Was it not with those who sinned, whose bodies fell in the wilderness?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.18": {
+    "text": "And to whom did He swear that they would not enter His rest, but to those who were disobedient?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.3.19": {
+    "text": "So we see that they were not able to enter because of unbelief.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.1": {
+    "text": "Therefore, let us fear if, while a promise remains of entering His rest, any one of you may seem to have come short of it.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "The Believer’s Rest"
+  },
+  "HEB.4.2": {
+    "text": "For indeed we have had good news preached to us, just as they also; but the word they heard did not profit them, because it was not united by faith in those who heard.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.3": {
+    "text": "For we who have believed enter that rest, just as He has said, “As I swore in My wrath, They shall not enter My rest,” although His works were finished from the foundation of the world.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.4": {
+    "text": "For He has said somewhere concerning the seventh day: “And God rested on the seventh day from all His works”;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.5": {
+    "text": "and again in this passage, “They shall not enter My rest.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.6": {
+    "text": "Therefore, since it remains for some to enter it, and those who formerly had good news preached to them failed to enter because of disobedience,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.7": {
+    "text": "He again fixes a certain day, “Today,” saying through David after so long a time just as has been said before, “Today if you hear His voice, Do not harden your hearts.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.8": {
+    "text": "For if Joshua had given them rest, He would not have spoken of another day after that.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.9": {
+    "text": "So there remains a Sabbath rest for the people of God.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.10": {
+    "text": "For the one who has entered His rest has himself also rested from his works, as God did from His.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.11": {
+    "text": "Therefore let us be diligent to enter that rest, so that no one will fall, through following the same example of disobedience.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.12": {
+    "text": "For the word of God is living and active and sharper than any two-edged sword, and piercing as far as the division of soul and spirit, of both joints and marrow, and able to judge the thoughts and intentions of the heart.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.13": {
+    "text": "And there is no creature hidden from His sight, but all things are open and laid bare to the eyes of Him with whom we have to do.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.14": {
+    "text": "Therefore, since we have a great high priest who has passed through the heavens, Jesus the Son of God, let us hold fast our confession.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.15": {
+    "text": "For we do not have a high priest who cannot sympathize with our weaknesses, but One who has been tempted in all things as we are, yet without sin.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.4.16": {
+    "text": "Therefore let us draw near with confidence to the throne of grace, so that we may receive mercy and find grace to help in time of need.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.1": {
+    "text": "For every high priest taken from among men is appointed on behalf of men in things pertaining to God, in order to offer both gifts and sacrifices for sins;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "The Perfect High Priest"
+  },
+  "HEB.5.2": {
+    "text": "he can deal gently with the ignorant and misguided, since he himself also is beset with weakness;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.3": {
+    "text": "and because of it he is obligated to offer sacrifices for sins, as for the people, so also for himself.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.4": {
+    "text": "And no one takes the honor to himself, but receives it when he is called by God, even as Aaron was.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.5": {
+    "text": "So also Christ did not glorify Himself so as to become a high priest, but He who said to Him, “You are My Son, Today I have begotten You”;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.6": {
+    "text": "just as He says also in another passage, “You are a priest forever According to the order of Melchizedek.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.7": {
+    "text": "In the days of His flesh, He offered up both prayers and supplications with loud crying and tears to the One able to save Him from death, and He was heard because of His piety.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.8": {
+    "text": "Although He was a Son, He learned obedience from the things which He suffered.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.9": {
+    "text": "And having been made perfect, He became to all those who obey Him the source of eternal salvation,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.10": {
+    "text": "being designated by God as a high priest according to the order of Melchizedek.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.11": {
+    "text": "Concerning him we have much to say, and it is hard to explain, since you have become dull of hearing.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Lit whom or which"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.12": {
+    "text": "For though by this time you ought to be teachers, you have need again for someone to teach you the elementary principles of the oracles of God, and you have come to need milk and not solid food.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.13": {
+    "text": "For everyone who partakes only of milk is not accustomed to the word of righteousness, for he is an infant.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.5.14": {
+    "text": "But solid food is for the mature, who because of practice have their senses trained to discern good and evil.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.1": {
+    "text": "Therefore leaving the elementary teaching about the Christ, let us press on to maturity, not laying again a foundation of repentance from dead works and of faith toward God,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "The Peril of Falling Away"
+  },
+  "HEB.6.2": {
+    "text": "of instruction about washings and laying on of hands, and the resurrection of the dead and eternal judgment.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.3": {
+    "text": "And this we will do, if God permits.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.4": {
+    "text": "For in the case of those who have once been enlightened and have tasted of the heavenly gift and have been made partakers of the Holy Spirit,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.5": {
+    "text": "and have tasted the good word of God and the powers of the age to come,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.6": {
+    "text": "and then have fallen away, it is impossible to renew them again to repentance, since they again crucify to themselves the Son of God and put Him to open shame.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.7": {
+    "text": "For ground that drinks the rain which often falls on it and brings forth vegetation useful to those for whose sake it is also tilled, receives a blessing from God;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.8": {
+    "text": "but if it yields thorns and thistles, it is worthless and close to being cursed, and it ends up being burned.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.9": {
+    "text": "But, beloved, we are convinced of better things concerning you, and things that accompany salvation, though we are speaking in this way.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Better Things for You"
+  },
+  "HEB.6.10": {
+    "text": "For God is not unjust so as to forget your work and the love which you have shown toward His name, in having ministered and in still ministering to the saints.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.11": {
+    "text": "And we desire that each one of you show the same diligence so as to realize the full assurance of hope until the end,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.12": {
+    "text": "so that you will not be sluggish, but imitators of those who through faith and patience inherit the promises.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.13": {
+    "text": "For when God made the promise to Abraham, since He could swear by no one greater, He swore by Himself,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.14": {
+    "text": "saying, “I will surely bless you and I will surely multiply you.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.15": {
+    "text": "And so, having patiently waited, he obtained the promise.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.16": {
+    "text": "For men swear by one greater than themselves, and with them an oath given as confirmation is an end of every dispute.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.17": {
+    "text": "In the same way God, desiring even more to show to the heirs of the promise the unchangeableness of His purpose, interposed with an oath,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.18": {
+    "text": "so that by two unchangeable things in which it is impossible for God to lie, we who have taken refuge would have strong encouragement to take hold of the hope set before us.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.19": {
+    "text": "This hope we have as an anchor of the soul, a hope both sure and steadfast and one which enters within the veil,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.6.20": {
+    "text": "where Jesus has entered as a forerunner for us, having become a high priest forever according to the order of Melchizedek.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.1": {
+    "text": "For this Melchizedek, king of Salem, priest of the Most High God, who met Abraham as he was returning from the slaughter of the kings and blessed him,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Melchizedek’s Priesthood Like Christ’s"
+  },
+  "HEB.7.2": {
+    "text": "to whom also Abraham apportioned a tenth part of all the spoils, was first of all, by the translation of his name, king of righteousness, and then also king of Salem, which is king of peace.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.3": {
+    "text": "Without father, without mother, without genealogy, having neither beginning of days nor end of life, but made like the Son of God, he remains a priest perpetually.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.4": {
+    "text": "Now observe how great this man was to whom Abraham, the patriarch, gave a tenth of the choicest spoils.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.5": {
+    "text": "And those indeed of the sons of Levi who receive the priest’s office have commandment in the Law to collect a tenth from the people, that is, from their brethren, although these are descended from Abraham.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.6": {
+    "text": "But the one whose genealogy is not traced from them collected a tenth from Abraham and blessed the one who had the promises.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.7": {
+    "text": "But without any dispute the lesser is blessed by the greater.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.8": {
+    "text": "In this case mortal men receive tithes, but in that case one receives them, of whom it is witnessed that he lives on.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.9": {
+    "text": "And, so to speak, through Abraham even Levi, who received tithes, paid tithes,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.10": {
+    "text": "for he was still in the loins of his father when Melchizedek met him.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.11": {
+    "text": "Now if perfection was through the Levitical priesthood (for on the basis of it the people received the Law), what further need was there for another priest to arise according to the order of Melchizedek, and not be designated according to the order of Aaron?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.12": {
+    "text": "For when the priesthood is changed, of necessity there takes place a change of law also.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.13": {
+    "text": "For the one concerning whom these things are spoken belongs to another tribe, from which no one has officiated at the altar.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.14": {
+    "text": "For it is evident that our Lord was descended from Judah, a tribe with reference to which Moses spoke nothing concerning priests.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.15": {
+    "text": "And this is clearer still, if another priest arises according to the likeness of Melchizedek,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.16": {
+    "text": "who has become such not on the basis of a law of physical requirement, but according to the power of an indestructible life.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.17": {
+    "text": "For it is attested of Him, “You are a priest forever According to the order of Melchizedek.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.18": {
+    "text": "For, on the one hand, there is a setting aside of a former commandment because of its weakness and uselessness",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.19": {
+    "text": "(for the Law made nothing perfect), and on the other hand there is a bringing in of a better hope, through which we draw near to God.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.20": {
+    "text": "And inasmuch as it was not without an oath",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.21": {
+    "text": "(for they indeed became priests without an oath, but He with an oath through the One who said to Him, “The Lord has sworn And will not change His mind, ‘You are a priest forever’ ”);",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.22": {
+    "text": "so much the more also Jesus has become the guarantee of a better covenant.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.23": {
+    "text": "The former priests, on the one hand, existed in greater numbers because they were prevented by death from continuing,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.24": {
+    "text": "but Jesus, on the other hand, because He continues forever, holds His priesthood permanently.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.25": {
+    "text": "Therefore He is able also to save forever those who draw near to God through Him, since He always lives to make intercession for them.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.26": {
+    "text": "For it was fitting for us to have such a high priest, holy, innocent, undefiled, separated from sinners and exalted above the heavens;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.27": {
+    "text": "who does not need daily, like those high priests, to offer up sacrifices, first for His own sins and then for the sins of the people, because this He did once for all when He offered up Himself.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.7.28": {
+    "text": "For the Law appoints men as high priests who are weak, but the word of the oath, which came after the Law, appoints a Son, made perfect forever.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.1": {
+    "text": "Now the main point in what has been said is this: we have such a high priest, who has taken His seat at the right hand of the throne of the Majesty in the heavens,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "A Better Ministry"
+  },
+  "HEB.8.2": {
+    "text": "a minister in the sanctuary and in the true tabernacle, which the Lord pitched, not man.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.3": {
+    "text": "For every high priest is appointed to offer both gifts and sacrifices; so it is necessary that this high priest also have something to offer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.4": {
+    "text": "Now if He were on earth, He would not be a priest at all, since there are those who offer the gifts according to the Law;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.5": {
+    "text": "who serve a copy and shadow of the heavenly things, just as Moses was warned by God when he was about to erect the tabernacle; for, “See,” He says, “that you make all things according to the pattern which was shown you on the mountain.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.6": {
+    "text": "But now He has obtained a more excellent ministry, by as much as He is also the mediator of a better covenant, which has been enacted on better promises.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.7": {
+    "text": "For if that first covenant had been faultless, there would have been no occasion sought for a second.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "A New Covenant"
+  },
+  "HEB.8.8": {
+    "text": "For finding fault with them, He says, “Behold, days are coming, says the Lord, When I will effect a new covenant With the house of Israel and with the house of Judah;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.9": {
+    "text": "Not like the covenant which I made with their fathers On the day when I took them by the hand To lead them out of the land of Egypt; For they did not continue in My covenant, And I did not care for them, says the Lord.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.10": {
+    "text": "For this is the covenant that I will make with the house of Israel After those days, says the Lord: I will put My laws into their minds, And I will write them on their hearts. And I will be their God, And they shall be My people.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.11": {
+    "text": "And they shall not teach everyone his fellow citizen, And everyone his brother, saying, ‘Know the Lord,’ For all will know Me, From the least to the greatest of them.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.12": {
+    "text": "For I will be merciful to their iniquities, And I will remember their sins no more.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.8.13": {
+    "text": "When He said, “A new covenant,” He has made the first obsolete. But whatever is becoming obsolete and growing old is ready to disappear.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.1": {
+    "text": "Now even the first covenant had regulations of divine worship and the earthly sanctuary.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "The Old and the New"
+  },
+  "HEB.9.2": {
+    "text": "For there was a tabernacle prepared, the outer one, in which were the lampstand and the table and the sacred bread; this is called the holy place.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.3": {
+    "text": "Behind the second veil there was a tabernacle which is called the Holy of Holies,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.4": {
+    "text": "having a golden altar of incense and the ark of the covenant covered on all sides with gold, in which was a golden jar holding the manna, and Aaron’s rod which budded, and the tables of the covenant;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.5": {
+    "text": "and above it were the cherubim of glory overshadowing the mercy seat; but of these things we cannot now speak in detail.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.6": {
+    "text": "Now when these things have been so prepared, the priests are continually entering the outer tabernacle performing the divine worship,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.7": {
+    "text": "but into the second, only the high priest enters once a year, not without taking blood, which he offers for himself and for the sins of the people committed in ignorance.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.8": {
+    "text": "The Holy Spirit is signifying this, that the way into the holy place has not yet been disclosed while the outer tabernacle is still standing,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.9": {
+    "text": "which is a symbol for the present time. Accordingly both gifts and sacrifices are offered which cannot make the worshiper perfect in conscience,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.10": {
+    "text": "since they relate only to food and drink and various washings, regulations for the body imposed until a time of reformation.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.11": {
+    "text": "But when Christ appeared as a high priest of the good things to come, He entered through the greater and more perfect tabernacle, not made with hands, that is to say, not of this creation;",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Two early mss read that have come"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.12": {
+    "text": "and not through the blood of goats and calves, but through His own blood, He entered the holy place once for all, having obtained eternal redemption.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.13": {
+    "text": "For if the blood of goats and bulls and the ashes of a heifer sprinkling those who have been defiled sanctify for the cleansing of the flesh,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.14": {
+    "text": "how much more will the blood of Christ, who through the eternal Spirit offered Himself without blemish to God, cleanse your conscience from dead works to serve the living God?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.15": {
+    "text": "For this reason He is the mediator of a new covenant, so that, since a death has taken place for the redemption of the transgressions that were committed under the first covenant, those who have been called may receive the promise of the eternal inheritance.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.16": {
+    "text": "For where a covenant is, there must of necessity be the death of the one who made it.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.17": {
+    "text": "For a covenant is valid only when men are dead, for it is never in force while the one who made it lives.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Two early mss read for is it then...lives?"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.18": {
+    "text": "Therefore even the first covenant was not inaugurated without blood.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.19": {
+    "text": "For when every commandment had been spoken by Moses to all the people according to the Law, he took the blood of the calves and the goats, with water and scarlet wool and hyssop, and sprinkled both the book itself and all the people,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.20": {
+    "text": "saying, “This is the blood of the covenant which God commanded you.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.21": {
+    "text": "And in the same way he sprinkled both the tabernacle and all the vessels of the ministry with the blood.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.22": {
+    "text": "And according to the Law, one may almost say, all things are cleansed with blood, and without shedding of blood there is no forgiveness.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.23": {
+    "text": "Therefore it was necessary for the copies of the things in the heavens to be cleansed with these, but the heavenly things themselves with better sacrifices than these.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.24": {
+    "text": "For Christ did not enter a holy place made with hands, a mere copy of the true one, but into heaven itself, now to appear in the presence of God for us;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.25": {
+    "text": "nor was it that He would offer Himself often, as the high priest enters the holy place year by year with blood that is not his own.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.26": {
+    "text": "Otherwise, He would have needed to suffer often since the foundation of the world; but now once at the consummation of the ages He has been manifested to put away sin by the sacrifice of Himself.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.27": {
+    "text": "And inasmuch as it is appointed for men to die once and after this comes judgment,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.9.28": {
+    "text": "so Christ also, having been offered once to bear the sins of many, will appear a second time for salvation without reference to sin, to those who eagerly await Him.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.1": {
+    "text": "For the Law, since it has only a shadow of the good things to come and not the very form of things, can never, by the same sacrifices which they offer continually year by year, make perfect those who draw near.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Two early mss read they can"
+      }
+    ],
+    "xrefs": [],
+    "section": "One Sacrifice of Christ Is Sufficient"
+  },
+  "HEB.10.2": {
+    "text": "Otherwise, would they not have ceased to be offered, because the worshipers, having once been cleansed, would no longer have had consciousness of sins?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.3": {
+    "text": "But in those sacrifices there is a reminder of sins year by year.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.4": {
+    "text": "For it is impossible for the blood of bulls and goats to take away sins.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.5": {
+    "text": "Therefore, when He comes into the world, He says, “Sacrifice and offering You have not desired, But a body You have prepared for Me;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.6": {
+    "text": "In whole burnt offerings and sacrifices for sin You have taken no pleasure.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.7": {
+    "text": "Then I said, ‘Behold, I have come (In the scroll of the book it is written of Me) To do Your will, O God.’ ”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.8": {
+    "text": "After saying above, “Sacrifices and offerings and whole burnt offerings and sacrifices for sin You have not desired, nor have You taken pleasure in them” (which are offered according to the Law),",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.9": {
+    "text": "then He said, “Behold, I have come to do Your will.” He takes away the first in order to establish the second.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.10": {
+    "text": "By this will we have been sanctified through the offering of the body of Jesus Christ once for all.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.11": {
+    "text": "Every priest stands daily ministering and offering time after time the same sacrifices, which can never take away sins;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.12": {
+    "text": "but He, having offered one sacrifice for sins for all time, sat down at the right hand of God,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.13": {
+    "text": "waiting from that time onward until His enemies be made a footstool for His feet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.14": {
+    "text": "For by one offering He has perfected for all time those who are sanctified.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.15": {
+    "text": "And the Holy Spirit also testifies to us; for after saying,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.16": {
+    "text": "“This is the covenant that I will make with them After those days, says the Lord: I will put My laws upon their heart, And on their mind I will write them,” He then says,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.17": {
+    "text": "“And their sins and their lawless deeds I will remember no more.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.18": {
+    "text": "Now where there is forgiveness of these things, there is no longer any offering for sin.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.19": {
+    "text": "Therefore, brethren, since we have confidence to enter the holy place by the blood of Jesus,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "A New and Living Way"
+  },
+  "HEB.10.20": {
+    "text": "by a new and living way which He inaugurated for us through the veil, that is, His flesh,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.21": {
+    "text": "and since we have a great priest over the house of God,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.22": {
+    "text": "let us draw near with a sincere heart in full assurance of faith, having our hearts sprinkled clean from an evil conscience and our bodies washed with pure water.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.23": {
+    "text": "Let us hold fast the confession of our hope without wavering, for He who promised is faithful;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.24": {
+    "text": "and let us consider how to stimulate one another to love and good deeds,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.25": {
+    "text": "not forsaking our own assembling together, as is the habit of some, but encouraging one another; and all the more as you see the day drawing near.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.26": {
+    "text": "For if we go on sinning willfully after receiving the knowledge of the truth, there no longer remains a sacrifice for sins,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Christ or Judgment"
+  },
+  "HEB.10.27": {
+    "text": "but a terrifying expectation of judgment and the fury of a fire which will consume the adversaries.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.28": {
+    "text": "Anyone who has set aside the Law of Moses dies without mercy on the testimony of two or three witnesses.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.29": {
+    "text": "How much severer punishment do you think he will deserve who has trampled under foot the Son of God, and has regarded as unclean the blood of the covenant by which he was sanctified, and has insulted the Spirit of grace?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.30": {
+    "text": "For we know Him who said, “Vengeance is Mine, I will repay.” And again, “The Lord will judge His people.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.31": {
+    "text": "It is a terrifying thing to fall into the hands of the living God.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.32": {
+    "text": "But remember the former days, when, after being enlightened, you endured a great conflict of sufferings,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.33": {
+    "text": "partly by being made a public spectacle through reproaches and tribulations, and partly by becoming sharers with those who were so treated.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.34": {
+    "text": "For you showed sympathy to the prisoners and accepted joyfully the seizure of your property, knowing that you have for yourselves a better possession and a lasting one.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.35": {
+    "text": "Therefore, do not throw away your confidence, which has a great reward.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.36": {
+    "text": "For you have need of endurance, so that when you have done the will of God, you may receive what was promised.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.37": {
+    "text": "For yet in a very little while, He who is coming will come, and will not delay.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.38": {
+    "text": "But My righteous one shall live by faith; And if he shrinks back, My soul has no pleasure in him.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.10.39": {
+    "text": "But we are not of those who shrink back to destruction, but of those who have faith to the preserving of the soul.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.1": {
+    "text": "Now faith is the assurance of things hoped for, the conviction of things not seen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "The Triumphs of Faith"
+  },
+  "HEB.11.2": {
+    "text": "For by it the men of old gained approval.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.3": {
+    "text": "By faith we understand that the worlds were prepared by the word of God, so that what is seen was not made out of things which are visible.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.4": {
+    "text": "By faith Abel offered to God a better sacrifice than Cain, through which he obtained the testimony that he was righteous, God testifying about his gifts, and through faith, though he is dead, he still speaks.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.5": {
+    "text": "By faith Enoch was taken up so that he would not see death; and he was not found because God took him up; for he obtained the witness that before his being taken up he was pleasing to God.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.6": {
+    "text": "And without faith it is impossible to please Him, for he who comes to God must believe that He is and that He is a rewarder of those who seek Him.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.7": {
+    "text": "By faith Noah, being warned by God about things not yet seen, in reverence prepared an ark for the salvation of his household, by which he condemned the world, and became an heir of the righteousness which is according to faith.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.8": {
+    "text": "By faith Abraham, when he was called, obeyed by going out to a place which he was to receive for an inheritance; and he went out, not knowing where he was going.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.9": {
+    "text": "By faith he lived as an alien in the land of promise, as in a foreign land, dwelling in tents with Isaac and Jacob, fellow heirs of the same promise;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.10": {
+    "text": "for he was looking for the city which has foundations, whose architect and builder is God.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.11": {
+    "text": "By faith even Sarah herself received ability to conceive, even beyond the proper time of life, since she considered Him faithful who had promised.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.12": {
+    "text": "Therefore there was born even of one man, and him as good as dead at that, as many descendants as the stars of heaven in number, and innumerable as the sand which is by the seashore.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.13": {
+    "text": "All these died in faith, without receiving the promises, but having seen them and having welcomed them from a distance, and having confessed that they were strangers and exiles on the earth.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.14": {
+    "text": "For those who say such things make it clear that they are seeking a country of their own.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.15": {
+    "text": "And indeed if they had been thinking of that country from which they went out, they would have had opportunity to return.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.16": {
+    "text": "But as it is, they desire a better country, that is, a heavenly one. Therefore God is not ashamed to be called their God; for He has prepared a city for them.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.17": {
+    "text": "By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises was offering up his only begotten son;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.18": {
+    "text": "it was he to whom it was said, “In Isaac your descendants shall be called.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.19": {
+    "text": "He considered that God is able to raise people even from the dead, from which he also received him back as a type.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.20": {
+    "text": "By faith Isaac blessed Jacob and Esau, even regarding things to come.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.21": {
+    "text": "By faith Jacob, as he was dying, blessed each of the sons of Joseph, and worshiped, leaning on the top of his staff.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.22": {
+    "text": "By faith Joseph, when he was dying, made mention of the exodus of the sons of Israel, and gave orders concerning his bones.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.23": {
+    "text": "By faith Moses, when he was born, was hidden for three months by his parents, because they saw he was a beautiful child; and they were not afraid of the king’s edict.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.24": {
+    "text": "By faith Moses, when he had grown up, refused to be called the son of Pharaoh’s daughter,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.25": {
+    "text": "choosing rather to endure ill-treatment with the people of God than to enjoy the passing pleasures of sin,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.26": {
+    "text": "considering the reproach of Christ greater riches than the treasures of Egypt; for he was looking to the reward.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.27": {
+    "text": "By faith he left Egypt, not fearing the wrath of the king; for he endured, as seeing Him who is unseen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.28": {
+    "text": "By faith he kept the Passover and the sprinkling of the blood, so that he who destroyed the firstborn would not touch them.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.29": {
+    "text": "By faith they passed through the Red Sea as though they were passing through dry land; and the Egyptians, when they attempted it, were drowned.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.30": {
+    "text": "By faith the walls of Jericho fell down after they had been encircled for seven days.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.31": {
+    "text": "By faith Rahab the harlot did not perish along with those who were disobedient, after she had welcomed the spies in peace.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.32": {
+    "text": "And what more shall I say? For time will fail me if I tell of Gideon, Barak, Samson, Jephthah, of David and Samuel and the prophets,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.33": {
+    "text": "who by faith conquered kingdoms, performed acts of righteousness, obtained promises, shut the mouths of lions,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.34": {
+    "text": "quenched the power of fire, escaped the edge of the sword, from weakness were made strong, became mighty in war, put foreign armies to flight.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.35": {
+    "text": "Women received back their dead by resurrection; and others were tortured, not accepting their release, so that they might obtain a better resurrection;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.36": {
+    "text": "and others experienced mockings and scourgings, yes, also chains and imprisonment.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.37": {
+    "text": "They were stoned, they were sawn in two, they were tempted, they were put to death with the sword; they went about in sheepskins, in goatskins, being destitute, afflicted, ill-treated",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "One early ms does not contain they were tempted"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.38": {
+    "text": "(men of whom the world was not worthy), wandering in deserts and mountains and caves and holes in the ground.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.39": {
+    "text": "And all these, having gained approval through their faith, did not receive what was promised,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.11.40": {
+    "text": "because God had provided something better for us, so that apart from us they would not be made perfect.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.1": {
+    "text": "Therefore, since we have so great a cloud of witnesses surrounding us, let us also lay aside every encumbrance and the sin which so easily entangles us, and let us run with endurance the race that is set before us,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Jesus, the Example"
+  },
+  "HEB.12.2": {
+    "text": "fixing our eyes on Jesus, the author and perfecter of faith, who for the joy set before Him endured the cross, despising the shame, and has sat down at the right hand of the throne of God.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.3": {
+    "text": "For consider Him who has endured such hostility by sinners against Himself, so that you will not grow weary and lose heart.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.4": {
+    "text": "You have not yet resisted to the point of shedding blood in your striving against sin;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "A Father’s Discipline"
+  },
+  "HEB.12.5": {
+    "text": "and you have forgotten the exhortation which is addressed to you as sons, “My son, do not regard lightly the discipline of the Lord, Nor faint when you are reproved by Him;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.6": {
+    "text": "For those whom the Lord loves He disciplines, And He scourges every son whom He receives.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.7": {
+    "text": "It is for discipline that you endure; God deals with you as with sons; for what son is there whom his father does not discipline?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.8": {
+    "text": "But if you are without discipline, of which all have become partakers, then you are illegitimate children and not sons.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.9": {
+    "text": "Furthermore, we had earthly fathers to discipline us, and we respected them; shall we not much rather be subject to the Father of spirits, and live?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.10": {
+    "text": "For they disciplined us for a short time as seemed best to them, but He disciplines us for our good, so that we may share His holiness.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.11": {
+    "text": "All discipline for the moment seems not to be joyful, but sorrowful; yet to those who have been trained by it, afterwards it yields the peaceful fruit of righteousness.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.12": {
+    "text": "Therefore, strengthen the hands that are weak and the knees that are feeble,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.13": {
+    "text": "and make straight paths for your feet, so that the limb which is lame may not be put out of joint, but rather be healed.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.14": {
+    "text": "Pursue peace with all men, and the sanctification without which no one will see the Lord.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.15": {
+    "text": "See to it that no one comes short of the grace of God; that no root of bitterness springing up causes trouble, and by it many be defiled;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.16": {
+    "text": "that there be no immoral or godless person like Esau, who sold his own birthright for a single meal.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.17": {
+    "text": "For you know that even afterwards, when he desired to inherit the blessing, he was rejected, for he found no place for repentance, though he sought for it with tears.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.18": {
+    "text": "For you have not come to a mountain that can be touched and to a blazing fire, and to darkness and gloom and whirlwind,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Contrast of Sinai and Zion"
+  },
+  "HEB.12.19": {
+    "text": "and to the blast of a trumpet and the sound of words which sound was such that those who heard begged that no further word be spoken to them.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.20": {
+    "text": "For they could not bear the command, “If even a beast touches the mountain, it will be stoned.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.21": {
+    "text": "And so terrible was the sight, that Moses said, “I am full of fear and trembling.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.22": {
+    "text": "But you have come to Mount Zion and to the city of the living God, the heavenly Jerusalem, and to myriads of angels,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.23": {
+    "text": "to the general assembly and church of the firstborn who are enrolled in heaven, and to God, the Judge of all, and to the spirits of the righteous made perfect,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.24": {
+    "text": "and to Jesus, the mediator of a new covenant, and to the sprinkled blood, which speaks better than the blood of Abel.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.25": {
+    "text": "See to it that you do not refuse Him who is speaking. For if those did not escape when they refused him who warned them on earth, much less will we escape who turn away from Him who warns from heaven.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "The Unshaken Kingdom"
+  },
+  "HEB.12.26": {
+    "text": "And His voice shook the earth then, but now He has promised, saying, “Yet once more I will shake not only the earth, but also the heaven.”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.27": {
+    "text": "This expression, “Yet once more,” denotes the removing of those things which can be shaken, as of created things, so that those things which cannot be shaken may remain.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.28": {
+    "text": "Therefore, since we receive a kingdom which cannot be shaken, let us show gratitude, by which we may offer to God an acceptable service with reverence and awe;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.12.29": {
+    "text": "for our God is a consuming fire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.1": {
+    "text": "Let love of the brethren continue.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "The Changeless Christ"
+  },
+  "HEB.13.2": {
+    "text": "Do not neglect to show hospitality to strangers, for by this some have entertained angels without knowing it.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.3": {
+    "text": "Remember the prisoners, as though in prison with them, and those who are ill-treated, since you yourselves also are in the body.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.4": {
+    "text": "Marriage is to be held in honor among all, and the marriage bed is to be undefiled; for fornicators and adulterers God will judge.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.5": {
+    "text": "Make sure that your character is free from the love of money, being content with what you have; for He Himself has said, “I will never desert you, nor will I ever forsake you,”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.6": {
+    "text": "so that we confidently say, “The Lord is my helper, I will not be afraid. What will man do to me?”",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.7": {
+    "text": "Remember those who led you, who spoke the word of God to you; and considering the result of their conduct, imitate their faith.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.8": {
+    "text": "Jesus Christ is the same yesterday and today and forever.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.9": {
+    "text": "Do not be carried away by varied and strange teachings; for it is good for the heart to be strengthened by grace, not by foods, through which those who were so occupied were not benefited.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.10": {
+    "text": "We have an altar from which those who serve the tabernacle have no right to eat.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.11": {
+    "text": "For the bodies of those animals whose blood is brought into the holy place by the high priest as an offering for sin, are burned outside the camp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.12": {
+    "text": "Therefore Jesus also, that He might sanctify the people through His own blood, suffered outside the gate.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.13": {
+    "text": "So, let us go out to Him outside the camp, bearing His reproach.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.14": {
+    "text": "For here we do not have a lasting city, but we are seeking the city which is to come.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.15": {
+    "text": "Through Him then, let us continually offer up a sacrifice of praise to God, that is, the fruit of lips that give thanks to His name.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "God-pleasing Sacrifices"
+  },
+  "HEB.13.16": {
+    "text": "And do not neglect doing good and sharing, for with such sacrifices God is pleased.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.17": {
+    "text": "Obey your leaders and submit to them, for they keep watch over your souls as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.18": {
+    "text": "Pray for us, for we are sure that we have a good conscience, desiring to conduct ourselves honorably in all things.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.19": {
+    "text": "And I urge you all the more to do this, so that I may be restored to you the sooner.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.20": {
+    "text": "Now the God of peace, who brought up from the dead the great Shepherd of the sheep through the blood of the eternal covenant, even Jesus our Lord,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Benediction"
+  },
+  "HEB.13.21": {
+    "text": "equip you in every good thing to do His will, working in us that which is pleasing in His sight, through Jesus Christ, to whom be the glory forever and ever. Amen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.22": {
+    "text": "But I urge you, brethren, bear with this word of exhortation, for I have written to you briefly.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.23": {
+    "text": "Take notice that our brother Timothy has been released, with whom, if he comes soon, I will see you.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.24": {
+    "text": "Greet all of your leaders and all the saints. Those from Italy greet you.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HEB.13.25": {
+    "text": "Grace be with you all.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

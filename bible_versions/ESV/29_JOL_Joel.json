@@ -1,75 +1,1469 @@
 {
-  "JOL.1.1": "The word of the Lord that came to Joel, the son of Pethuel:",
-  "JOL.1.2": "Hear this, you elders; give ear, all inhabitants of the land! Has such a thing happened in your days, or in the days of your fathers?",
-  "JOL.1.3": "Tell your children of it, and let your children tell their children, and their children to another generation.",
-  "JOL.1.4": "What the cutting locust left, the swarming locust has eaten. What the swarming locust left, the hopping locust has eaten, and what the hopping locust left, the destroying locust has eaten.",
-  "JOL.1.5": "Awake, you drunkards, and weep, and wail, all you drinkers of wine, because of the sweet wine, for it is cut off from your mouth.",
-  "JOL.1.6": "For a nation has come up against my land, powerful and beyond number; its teeth are lions’ teeth, and it has the fangs of a lioness.",
-  "JOL.1.7": "It has laid waste my vine and splintered my fig tree; it has stripped off their bark and thrown it down; their branches are made white.",
-  "JOL.1.8": "Lament like a virgin wearing sackcloth for the bridegroom of her youth.",
-  "JOL.1.9": "The grain offering and the drink offering are cut off from the house of the Lord. The priests mourn, the ministers of the Lord.",
-  "JOL.1.10": "The fields are destroyed, the ground mourns, because the grain is destroyed, the wine dries up, the oil languishes.",
-  "JOL.1.11": "Be ashamed, O tillers of the soil; wail, O vinedressers, for the wheat and the barley, because the harvest of the field has perished.",
-  "JOL.1.12": "The vine dries up; the fig tree languishes. Pomegranate, palm, and apple, all the trees of the field are dried up, and gladness dries up from the children of man.",
-  "JOL.1.13": "Put on sackcloth and lament, O priests; wail, O ministers of the altar. Go in, pass the night in sackcloth, O ministers of my God! Because grain offering and drink offering are withheld from the house of your God.",
-  "JOL.1.14": "Consecrate a fast; call a solemn assembly. Gather the elders and all the inhabitants of the land to the house of the Lord your God, and cry out to the Lord.",
-  "JOL.1.15": "Alas for the day! For the day of the Lord is near, and as destruction from the Almighty it comes.",
-  "JOL.1.16": "Is not the food cut off before our eyes, joy and gladness from the house of our God?",
-  "JOL.1.17": "The seed shrivels under the clods; the storehouses are desolate; the granaries are torn down because the grain has dried up.",
-  "JOL.1.18": "How the beasts groan! The herds of cattle are perplexed because there is no pasture for them; even the flocks of sheep suffer.",
-  "JOL.1.19": "To you, O Lord, I call. For fire has devoured the pastures of the wilderness, and flame has burned all the trees of the field.",
-  "JOL.1.20": "Even the beasts of the field pant for you because the water brooks are dried up, and fire has devoured the pastures of the wilderness.",
-  "JOL.2.1": "Blow a trumpet in Zion; sound an alarm on my holy mountain! Let all the inhabitants of the land tremble, for the day of the Lord is coming; it is near,",
-  "JOL.2.2": "a day of darkness and gloom, a day of clouds and thick darkness! Like blackness there is spread upon the mountains a great and powerful people; their like has never been before, nor will be again after them through the years of all generations.",
-  "JOL.2.3": "Fire devours before them, and behind them a flame burns. The land is like the garden of Eden before them, but behind them a desolate wilderness, and nothing escapes them.",
-  "JOL.2.4": "Their appearance is like the appearance of horses, and like war horses they run.",
-  "JOL.2.5": "As with the rumbling of chariots, they leap on the tops of the mountains, like the crackling of a flame of fire devouring the stubble, like a powerful army drawn up for battle.",
-  "JOL.2.6": "Before them peoples are in anguish; all faces grow pale.",
-  "JOL.2.7": "Like warriors they charge; like soldiers they scale the wall. They march each on his way; they do not swerve from their paths.",
-  "JOL.2.8": "They do not jostle one another; each marches in his path; they burst through the weapons and are not halted.",
-  "JOL.2.9": "They leap upon the city, they run upon the walls, they climb up into the houses, they enter through the windows like a thief.",
-  "JOL.2.10": "The earth quakes before them; the heavens tremble. The sun and the moon are darkened, and the stars withdraw their shining.",
-  "JOL.2.11": "The Lord utters his voice before his army, for his camp is exceedingly great; he who executes his word is powerful. For the day of the Lord is great and very awesome; who can endure it?",
-  "JOL.2.12": "“Yet even now,” declares the Lord, “return to me with all your heart, with fasting, with weeping, and with mourning;",
-  "JOL.2.13": "and rend your hearts and not your garments.” Return to the Lord your God, for he is gracious and merciful, slow to anger, and abounding in steadfast love; and he relents over disaster.",
-  "JOL.2.14": "Who knows whether he will not turn and relent, and leave a blessing behind him, a grain offering and a drink offering for the Lord your God?",
-  "JOL.2.15": "Blow the trumpet in Zion; consecrate a fast; call a solemn assembly;",
-  "JOL.2.16": "gather the people. Consecrate the congregation; assemble the elders; gather the children, even nursing infants. Let the bridegroom leave his room, and the bride her chamber.",
-  "JOL.2.17": "Between the vestibule and the altar let the priests, the ministers of the Lord, weep and say, “Spare your people, O Lord, and make not your heritage a reproach, a byword among the nations. Why should they say among the peoples, ‘Where is their God?’”",
-  "JOL.2.18": "Then the Lord became jealous for his land and had pity on his people.",
-  "JOL.2.19": "The Lord answered and said to his people, “Behold, I am sending to you grain, wine, and oil, and you will be satisfied; and I will no more make you a reproach among the nations.",
-  "JOL.2.20": "“I will remove the northerner far from you, and drive him into a parched and desolate land, his vanguard into the eastern sea, and his rear guard into the western sea; the stench and foul smell of him will rise, for he has done great things.",
-  "JOL.2.21": "“Fear not, O land; be glad and rejoice, for the Lord has done great things!",
-  "JOL.2.22": "Fear not, you beasts of the field, for the pastures of the wilderness are green; the tree bears its fruit; the fig tree and vine give their full yield.",
-  "JOL.2.23": "“Be glad, O children of Zion, and rejoice in the Lord your God, for he has given the early rain for your vindication; he has poured down for you abundant rain, the early and the latter rain, as before.",
-  "JOL.2.24": "“The threshing floors shall be full of grain; the vats shall overflow with wine and oil.",
-  "JOL.2.25": "I will restore to you the years that the swarming locust has eaten, the hopper, the destroyer, and the cutter, my great army, which I sent among you.",
-  "JOL.2.26": "“You shall eat in plenty and be satisfied, and praise the name of the Lord your God, who has dealt wondrously with you. And my people shall never again be put to shame.",
-  "JOL.2.27": "You shall know that I am in the midst of Israel, and that I am the Lord your God and there is none else. And my people shall never again be put to shame.",
-  "JOL.2.28": "“And it shall come to pass afterward, that I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy, your old men shall dream dreams, and your young men shall see visions.",
-  "JOL.2.29": "Even on the male and female servants in those days I will pour out my Spirit.",
-  "JOL.2.30": "“And I will show wonders in the heavens and on the earth, blood and fire and columns of smoke.",
-  "JOL.2.31": "The sun shall be turned to darkness, and the moon to blood, before the great and awesome day of the Lord comes.",
-  "JOL.2.32": "And it shall come to pass that everyone who calls on the name of the Lord shall be saved. For in Mount Zion and in Jerusalem there shall be those who escape, as the Lord has said, and among the survivors shall be those whom the Lord calls.",
-  "JOL.3.1": "“For behold, in those days and at that time, when I restore the fortunes of Judah and Jerusalem,",
-  "JOL.3.2": "I will gather all the nations and bring them down to the Valley of Jehoshaphat. And I will enter into judgment with them there, on behalf of my people and my heritage Israel, because they have scattered them among the nations and have divided up my land,",
-  "JOL.3.3": "and have cast lots for my people, and have traded a boy for a prostitute, and have sold a girl for wine and have drunk it.",
-  "JOL.3.4": "“What are you to me, O Tyre and Sidon, and all the regions of Philistia? Are you paying me back for something? If you are paying me back, I will return your payment on your own head swiftly and speedily.",
-  "JOL.3.5": "For you have taken my silver and my gold, and have carried my rich treasures into your temples.",
-  "JOL.3.6": "You have sold the people of Judah and Jerusalem to the Greeks in order to remove them far from their own border.",
-  "JOL.3.7": "Behold, I will stir them up from the place to which you have sold them, and I will return your payment on your own head.",
-  "JOL.3.8": "I will sell your sons and your daughters into the hand of the people of Judah, and they will sell them to the Sabeans, to a nation far away, for the Lord has spoken.”",
-  "JOL.3.9": "Proclaim this among the nations: Consecrate for war; stir up the mighty men. Let all the men of war draw near; let them come up.",
-  "JOL.3.10": "Beat your plowshares into swords, and your pruning hooks into spears; let the weak say, “I am a warrior.”",
-  "JOL.3.11": "Hasten and come, all you surrounding nations, and gather yourselves there. Bring down your warriors, O Lord.",
-  "JOL.3.12": "Let the nations stir themselves up and come up to the Valley of Jehoshaphat; for there I will sit to judge all the surrounding nations.",
-  "JOL.3.13": "Put in the sickle, for the harvest is ripe. Go in, tread, for the winepress is full. The vats overflow, for their evil is great.",
-  "JOL.3.14": "Multitudes, multitudes, in the valley of decision! For the day of the Lord is near in the valley of decision.",
-  "JOL.3.15": "The sun and the moon are darkened, and the stars withdraw their shining.",
-  "JOL.3.16": "The Lord roars from Zion, and utters his voice from Jerusalem, and the heavens and the earth quake. But the Lord is a refuge to his people, a stronghold to the people of Israel.",
-  "JOL.3.17": "“So you shall know that I am the Lord your God, who dwells in Zion, my holy mountain. And Jerusalem shall be holy, and strangers shall never again pass through it.",
-  "JOL.3.18": "“And in that day the mountains shall drip sweet wine, and the hills shall flow with milk, and all the streambeds of Judah shall flow with water; and a fountain shall come forth from the house of the Lord and water the Valley of Shittim.",
-  "JOL.3.19": "“Egypt shall become a desolation and Edom a desolate wilderness, for the violence done to the people of Judah, because they have shed innocent blood in their land.",
-  "JOL.3.20": "But Judah shall be inhabited forever, and Jerusalem to all generations.",
-  "JOL.3.21": "I will avenge their blood, blood I have not avenged, for the Lord dwells in Zion.”"
+  "JOL.1.1": {
+    "text": "The word of the Lord that came to Joel, the son of Pethuel:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.1.2": {
+    "text": "Hear this, you elders; give ear, all inhabitants of the land! Has such a thing happened in your days, or in the days of your fathers?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Hos. 5:1 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:2 ]",
+        "refs": []
+      }
+    ],
+    "section": "An Invasion of Locusts"
+  },
+  "JOL.1.3": {
+    "text": "Tell your children of it, and let your children tell their children, and their children to another generation.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ps. 78:4 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.4": {
+    "text": "What the cutting locust left, the swarming locust has eaten. What the swarming locust left, the hopping locust has eaten, and what the hopping locust left, the destroying locust has eaten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:25; Amos 4:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Amos 7:1 ]; See Ex. 10:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:25; Ps. 105:34; Nah. 3:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:25; Ps. 78:46",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.5": {
+    "text": "Awake, you drunkards, and weep, and wail, all you drinkers of wine, because of the sweet wine, for it is cut off from your mouth.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 24:11]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:18; Isa. 49:26; Amos 9:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.6": {
+    "text": "For a nation has come up against my land, powerful and beyond number; its teeth are lions’ teeth, and it has the fangs of a lioness.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Rev. 9:7, 8 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.7": {
+    "text": "It has laid waste my vine and splintered my fig tree; it has stripped off their bark and thrown it down; their branches are made white.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.8": {
+    "text": "Lament like a virgin wearing sackcloth for the bridegroom of her youth.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 13]; See 2 Sam. 3:31",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.9": {
+    "text": "The grain offering and the drink offering are cut off from the house of the Lord. The priests mourn, the ministers of the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 13 ; ch. 2:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:17; [ Isa. 61:6; Ezek. 45:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:17; [ Isa. 61:6; Ezek. 45:4 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.10": {
+    "text": "The fields are destroyed, the ground mourns, because the grain is destroyed, the wine dries up, the oil languishes.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Hos. 4:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Hos. 2:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Hos. 2:9 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.11": {
+    "text": "Be ashamed, O tillers of the soil; wail, O vinedressers, for the wheat and the barley, because the harvest of the field has perished.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The Hebrew words for"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Jer. 14:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.12": {
+    "text": "The vine dries up; the fig tree languishes. Pomegranate, palm, and apple, all the trees of the field are dried up, and gladness dries up from the children of man.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 7 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 24:11; Jer. 48:33",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.13": {
+    "text": "Put on sackcloth and lament, O priests; wail, O ministers of the altar. Go in, pass the night in sackcloth, O ministers of my God! Because grain offering and drink offering are withheld from the house of your God.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 8; Jer. 4:8 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 9above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 8; Mic. 1:8 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 8; Jer. 4:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 9 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 9 ; ch. 2:14",
+        "refs": []
+      }
+    ],
+    "section": "A Call to Repentance"
+  },
+  "JOL.1.14": {
+    "text": "Consecrate a fast; call a solemn assembly. Gather the elders and all the inhabitants of the land to the house of the Lord your God, and cry out to the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:15, 16; See 2 Chr. 20:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:15, 16; See 2 Chr. 20:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.15": {
+    "text": "Alas for the day! For the day of the Lord is near, and as destruction from the Almighty it comes.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "sounds like the Hebrew for"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:1, 11, 31; 3:14; Isa. 13:6, 9; Jer. 46:10; Ezek. 30:2, 3; Amos 5:18; Obad. 15; Zeph. 1:14, 15; Zech. 14:1; 2 Pet. 3:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.16": {
+    "text": "Is not the food cut off before our eyes, joy and gladness from the house of our God?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Deut. 12:6, 7; 16:14, 15 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.17": {
+    "text": "The seed shrivels under the clods; the storehouses are desolate; the granaries are torn down because the grain has dried up.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The meaning of the Hebrew line is uncertain"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Mal. 2:3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.18": {
+    "text": "How the beasts groan! The herds of cattle are perplexed because there is no pasture for them; even the flocks of sheep suffer.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:22; [Jer. 12:4; Hos. 4:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.19": {
+    "text": "To you, O Lord, I call. For fire has devoured the pastures of the wilderness, and flame has burned all the trees of the field.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 50:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 9:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 9:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.1.20": {
+    "text": "Even the beasts of the field pant for you because the water brooks are dried up, and fire has devoured the pastures of the wilderness.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Job 38:41; Ps. 104:21; 145:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 19 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.1": {
+    "text": "Blow a trumpet in Zion; sound an alarm on my holy mountain! Let all the inhabitants of the land tremble, for the day of the Lord is coming; it is near,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 15 ; Isa. 58:1; Hos. 5:8; Amos 3:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 3:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 3:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:15",
+        "refs": []
+      }
+    ],
+    "section": "The Day of the"
+  },
+  "JOL.2.2": {
+    "text": "a day of darkness and gloom, a day of clouds and thick darkness! Like blackness there is spread upon the mountains a great and powerful people; their like has never been before, nor will be again after them through the years of all generations.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Amos 5:18, 20; Zeph. 1:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 5:18, 20; Zeph. 1:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:6; [ver. 11, 25 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:2 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.3": {
+    "text": "Fire devours before them, and behind them a flame burns. The land is like the garden of Eden before them, but behind them a desolate wilderness, and nothing escapes them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:19, 20",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gen. 2:8, 9; See Isa. 51:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Zech. 7:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.4": {
+    "text": "Their appearance is like the appearance of horses, and like war horses they run.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rev. 9:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.5": {
+    "text": "As with the rumbling of chariots, they leap on the tops of the mountains, like the crackling of a flame of fire devouring the stubble, like a powerful army drawn up for battle.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rev. 9:9; [ Nah. 3:2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 5:24; 47:14; Obad. 18; Nah. 1:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 2 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.6": {
+    "text": "Before them peoples are in anguish; all faces grow pale.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Nah. 2:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.7": {
+    "text": "Like warriors they charge; like soldiers they scale the wall. They march each on his way; they do not swerve from their paths.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.8": {
+    "text": "They do not jostle one another; each marches in his path; they burst through the weapons and are not halted.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 30:27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.9": {
+    "text": "They leap upon the city, they run upon the walls, they climb up into the houses, they enter through the windows like a thief.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 33:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 9:21 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 9:21 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[John 10:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.10": {
+    "text": "The earth quakes before them; the heavens tremble. The sun and the moon are darkened, and the stars withdraw their shining.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:16; [ Ps. 18:7; Amos 8:8 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 3:15; Isa. 13:10; Ezek. 32:7; Matt. 24:29; [ Rev. 9:2 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.11": {
+    "text": "The Lord utters his voice before his army, for his camp is exceedingly great; he who executes his word is powerful. For the day of the Lord is great and very awesome; who can endure it?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:16; [ 1 Thess. 4:16 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rev. 18:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 31",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mal. 3:2; [ Num. 24:23 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.12": {
+    "text": "“Yet even now,” declares the Lord, “return to me with all your heart, with fasting, with weeping, and with mourning;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 4:30; 1 Sam. 7:3; Jer. 4:1; Hos. 12:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 1 Sam. 7:6 ]",
+        "refs": []
+      }
+    ],
+    "section": "Return to the"
+  },
+  "JOL.2.13": {
+    "text": "and rend your hearts and not your garments.” Return to the Lord your God, for he is gracious and merciful, slow to anger, and abounding in steadfast love; and he relents over disaster.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ps. 34:18]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Gen. 37:29",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 34:6; Ps. 86:5, 15; Jonah 4:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Num. 23:19; Ezek. 24:14 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.14": {
+    "text": "Who knows whether he will not turn and relent, and leave a blessing behind him, a grain offering and a drink offering for the Lord your God?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jonah 3:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Hag. 2:19; Mal. 3:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:9, 13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.15": {
+    "text": "Blow the trumpet in Zion; consecrate a fast; call a solemn assembly;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ver. 1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.16": {
+    "text": "gather the people. Consecrate the congregation; assemble the elders; gather the children, even nursing infants. Let the bridegroom leave his room, and the bride her chamber.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Josh. 3:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 2 Chr. 20:13 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Deut. 24:5; Eccles. 3:5; Zech. 12:12-14; 1 Cor. 7:5 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.17": {
+    "text": "Between the vestibule and the altar let the priests, the ministers of the Lord, weep and say, “Spare your people, O Lord, and make not your heritage a reproach, a byword among the nations. Why should they say among the peoples, ‘Where is their God?’”",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 8:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Kgs. 6:3; 2 Chr. 3:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Chr. 4:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See ch. 1:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 42:3; 79:10; 115:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.18": {
+    "text": "Then the Lord became jealous for his land and had pity on his people.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Zech. 1:14; 8:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ps. 103:13 ]",
+        "refs": []
+      }
+    ],
+    "section": "The"
+  },
+  "JOL.2.19": {
+    "text": "The Lord answered and said to his people, “Behold, I am sending to you grain, wine, and oil, and you will be satisfied; and I will no more make you a reproach among the nations.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 1:10; Ps. 4:7]; See Mal. 3:10-12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:10; Ps. 4:7 ]; See Mal. 3:10-12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.20": {
+    "text": "“I will remove the northerner far from you, and drive him into a parched and desolate land, his vanguard into the eastern sea, and his rear guard into the western sea; the stench and foul smell of him will rise, for he has done great things.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      },
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 47:18; Zech. 14:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Zech. 14:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 34:3; [ Amos 4:10 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.21": {
+    "text": "“Fear not, O land; be glad and rejoice, for the Lord has done great things!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 126:2, 3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.22": {
+    "text": "Fear not, you beasts of the field, for the pastures of the wilderness are green; the tree bears its fruit; the fig tree and vine give their full yield.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 1:19]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Zech. 8:12 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Zech. 8:12]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.23": {
+    "text": "“Be glad, O children of Zion, and rejoice in the Lord your God, for he has given the early rain for your vindication; he has poured down for you abundant rain, the early and the latter rain, as before.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 100:1, 2; Hab. 3:18; Zech. 10:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 100:1, 2; Hab. 3:18; Zech. 10:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 11:14; Jer. 5:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 11:14; Jer. 5:24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Hos. 6:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.24": {
+    "text": "“The threshing floors shall be full of grain; the vats shall overflow with wine and oil.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JOL.2.25": {
+    "text": "I will restore to you the years that the swarming locust has eaten, the hopper, the destroyer, and the cutter, my great army, which I sent among you.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 1:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 1:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.26": {
+    "text": "“You shall eat in plenty and be satisfied, and praise the name of the Lord your God, who has dealt wondrously with you. And my people shall never again be put to shame.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Lev. 25:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 49:23]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.27": {
+    "text": "You shall know that I am in the midst of Israel, and that I am the Lord your God and there is none else. And my people shall never again be put to shame.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Hos. 11:9; See Ezek. 37:26",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ex. 20:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 44:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 26 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.28": {
+    "text": "“And it shall come to pass afterward, that I will pour out my Spirit on all flesh; your sons and your daughters shall prophesy, your old men shall dream dreams, and your young men shall see visions.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 28-32, cited Acts 2:17-21",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 32:15; Ezek. 39:29; Zech. 12:10; John 7:39",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Acts 2:39 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Acts 21:9]",
+        "refs": []
+      }
+    ],
+    "section": "The"
+  },
+  "JOL.2.29": {
+    "text": "Even on the male and female servants in those days I will pour out my Spirit.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ 1 Cor. 12:13 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.30": {
+    "text": "“And I will show wonders in the heavens and on the earth, blood and fire and columns of smoke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Matt. 24:30; Luke 21:11]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Matt. 24:30; Luke 21:11]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.31": {
+    "text": "The sun shall be turned to darkness, and the moon to blood, before the great and awesome day of the Lord comes.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ver. 10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rev. 6:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mal. 4:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.2.32": {
+    "text": "And it shall come to pass that everyone who calls on the name of the Lord shall be saved. For in Mount Zion and in Jerusalem there shall be those who escape, as the Lord has said, and among the survivors shall be those whom the Lord calls.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Cited Rom. 10:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 46:13; 59:20; Obad. 17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 31:7; Mic. 4:7; Zech. 8:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.1": {
+    "text": "“For behold, in those days and at that time, when I restore the fortunes of Judah and Jerusalem,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 30:3",
+        "refs": []
+      }
+    ],
+    "section": "The"
+  },
+  "JOL.3.2": {
+    "text": "I will gather all the nations and bring them down to the Valley of Jehoshaphat. And I will enter into judgment with them there, on behalf of my people and my heritage Israel, because they have scattered them among the nations and have divided up my land,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Zeph. 3:8]; See Zech. 14:2-4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 66:16; Jer. 25:31",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.3": {
+    "text": "and have cast lots for my people, and have traded a boy for a prostitute, and have sold a girl for wine and have drunk it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Obad. 11; Nah. 3:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.4": {
+    "text": "“What are you to me, O Tyre and Sidon, and all the regions of Philistia? Are you paying me back for something? If you are paying me back, I will return your payment on your own head swiftly and speedily.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 23:1, 2; Jer. 47:4; Amos 1:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ezek. 25:15, 16]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Obad. 15]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.5": {
+    "text": "For you have taken my silver and my gold, and have carried my rich treasures into your temples.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[2 Chr. 21:16, 17]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.6": {
+    "text": "You have sold the people of Judah and Jerusalem to the Greeks in order to remove them far from their own border.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.7": {
+    "text": "Behold, I will stir them up from the place to which you have sold them, and I will return your payment on your own head.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ver. 4above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.8": {
+    "text": "I will sell your sons and your daughters into the hand of the people of Judah, and they will sell them to the Sabeans, to a nation far away, for the Lord has spoken.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See 1 Kgs. 10:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.9": {
+    "text": "Proclaim this among the nations: Consecrate for war; stir up the mighty men. Let all the men of war draw near; let them come up.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Mic. 3:5 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.10": {
+    "text": "Beat your plowshares into swords, and your pruning hooks into spears; let the weak say, “I am a warrior.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 2:4 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 2:4]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.11": {
+    "text": "Hasten and come, all you surrounding nations, and gather yourselves there. Bring down your warriors, O Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 54:15 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Zech. 14:5 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.12": {
+    "text": "Let the nations stir themselves up and come up to the Valley of Jehoshaphat; for there I will sit to judge all the surrounding nations.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ver. 2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 96:13; 98:9; 110:6; Isa. 2:4; 3:13; Mic. 4:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.13": {
+    "text": "Put in the sickle, for the harvest is ripe. Go in, tread, for the winepress is full. The vats overflow, for their evil is great.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rev. 14:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 51:33; Hos. 6:11; Matt. 13:30, 39; Mark 4:29; John 4:35; Rev. 14:15, 18 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rev. 14:20; [ Isa. 63:2, 3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rev. 14:20; [ Isa. 63:2, 3 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.14": {
+    "text": "Multitudes, multitudes, in the valley of decision! For the day of the Lord is near in the valley of decision.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.15": {
+    "text": "The sun and the moon are darkened, and the stars withdraw their shining.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 2:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.16": {
+    "text": "The Lord roars from Zion, and utters his voice from Jerusalem, and the heavens and the earth quake. But the Lord is a refuge to his people, a stronghold to the people of Israel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:11; Amos 1:2; [ Jer. 25:30 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:11; Amos 1:2; [Jer. 25:30]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 4:6; 25:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.17": {
+    "text": "“So you shall know that I am the Lord your God, who dwells in Zion, my holy mountain. And Jerusalem shall be holy, and strangers shall never again pass through it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 2:27; [ Ezek. 6:7 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 21 ; [Ezek. 43:7]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:1; Ps. 48:1; Isa. 65:11; Jer. 31:23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 52:1; Nah. 1:15; Zech. 14:21; [Rev. 21:27; 22:15]",
+        "refs": []
+      }
+    ],
+    "section": "The Glorious Future of Judah"
+  },
+  "JOL.3.18": {
+    "text": "“And in that day the mountains shall drip sweet wine, and the hills shall flow with milk, and all the streambeds of Judah shall flow with water; and a fountain shall come forth from the house of the Lord and water the Valley of Shittim.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 31:12; Amos 9:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 30:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 47:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Num. 25:1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.19": {
+    "text": "“Egypt shall become a desolation and Edom a desolate wilderness, for the violence done to the people of Judah, because they have shed innocent blood in their land.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Isa. 19:1-17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Isa. 34:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Obad. 10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.20": {
+    "text": "But Judah shall be inhabited forever, and Jerusalem to all generations.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 125:1, 2; Ezek. 37:25",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JOL.3.21": {
+    "text": "I will avenge their blood, blood I have not avenged, for the Lord dwells in Zion.”",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 4:4; Ezek. 36:25, 29",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 17 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

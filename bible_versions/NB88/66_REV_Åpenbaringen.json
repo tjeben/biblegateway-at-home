@@ -1,407 +1,4600 @@
 {
-  "REV.1.1": "Jesu Kristi åpenbaring, som Gud ga ham for at han skulle vise sine tjenere det som må skje i hast. Han sendte bud ved sin engel og kunngjorde det i tegn for sin tjener Johannes,",
-  "REV.1.2": "som har vitnet om Guds ord og Jesu Kristi vitnesbyrd, alt det han så.",
-  "REV.1.3": "Salig er den som leser og de som hører det profetiske ord og holder fast på det som der står skrevet. For tiden er nær.",
-  "REV.1.4": "Johannes, til de sju menighetene i Asia: Nåde være med dere og fred fra ham som er og som var og som kommer, og fra de sju ånder som er for hans trone,",
-  "REV.1.5": "og fra Jesus Kristus, det troverdige vitne, den førstefødte av de døde og herskeren over kongene på jorden. Han som elsker oss og løste oss fra våre synder med sitt blod,",
-  "REV.1.6": "og som gjorde oss til et kongerike, til prester for Gud, sin Far - ham være æren og makten i all evighet. Amen.",
-  "REV.1.7": "Se, han kommer med skyene, og hvert øye skal se ham, også de som har gjennomstunget ham. Og alle jordens slekter skal gråte sårt over ham. Ja, amen.",
-  "REV.1.8": "Jeg er Alfa og Omega, sier Gud Herren, han som er og som var og som kommer, Den Allmektige.",
-  "REV.1.9": "Jeg, Johannes, som er deres bror, og har del med dere i trengselen og riket og tålmodet i Jesus, jeg var på den øya som kalles Patmos, for Guds ords og Jesu vitnesbyrds skyld.",
-  "REV.1.10": "Jeg var bortrykket i Ånden på Herrens dag. Og jeg hørte bak meg en veldig røst, likesom av en basun,",
-  "REV.1.11": "som sa: Det du ser, skriv det i en bok og send det til de sju menighetene, til Efesus og til Smyrna og til Pergamum og til Tyatira og til Sardes og til Filadelfia og til Laodikea.",
-  "REV.1.12": "Jeg vendte meg om for å se røsten som talte til meg, og da jeg vendte meg, fikk jeg øye på sju lysestaker av gull.",
-  "REV.1.13": "Og midt mellom lysestakene var det en som lignet en menneskesønn. Han var kledd i en fotsid kappe, ombundet med et gullbelte under brystet.",
-  "REV.1.14": "Hans hode og hår var hvitt som hvit ull, som snø, og øynene hans som en ildslue.",
-  "REV.1.15": "Føttene hans var lik skinnende kobber, som om de var glødet i en ovn. Og røsten hans var som bruset av vannmasser.",
-  "REV.1.16": "I sin høyre hånd hadde han sju stjerner og av munnen hans gikk det ut et tveegget, skarpt sverd. Og ansiktet hans var som solen når den skinner i sin kraft.",
-  "REV.1.17": "Da jeg fikk se ham, falt jeg ned for hans føtter som død. Men han la sin høyre hånd på meg og sa: Frykt ikke! Jeg er den første og den siste",
-  "REV.1.18": "og den levende. Jeg var død, og se, jeg er levende i all evighet. Og jeg har nøklene til døden og dødsriket.",
-  "REV.1.19": "Skriv det du så, det som nå er, og det som skal komme etter dette,",
-  "REV.1.20": "og hemmeligheten med de sju stjernene som du så i min høyre hånd, og de sju gullysestakene: De sju stjernene er engler for de sju menighetene, og de sju lysestakene er sju menighetene.",
-  "REV.2.1": "Skriv til engelen for menigheten i Efesus: Dette sier han som holder de sju stjernene i sin høyre hånd, han som går midt mellom de sju lysestaker av gull:",
-  "REV.2.2": "Jeg vet om dine gjerninger og ditt arbeid og din utholdenhet, og at du ikke kan tåle de onde. Du har prøvd dem som kaller seg selv apostler, og ikke er det, og du har funnet at de er løgnere.",
-  "REV.2.3": "Du har tålmodighet, du har hatt mye å bære for mitt navns skyld, og du er ikke gått trett.",
-  "REV.2.4": "Men jeg har imot deg at du har forlatt din første kjærlighet.",
-  "REV.2.5": "Husk derfor hva du er falt fra. Omvend deg, og gjør de første gjerninger! Men hvis ikke, så kommer jeg brått over deg og jeg vil flytte din lysestake bort fra sitt sted - hvis du ikke omvender deg.",
-  "REV.2.6": "Men du har dette: Du hater nikolaittenes gjerninger, som jeg òg hater.",
-  "REV.2.7": "Den som har øre, han høre hva Ånden sier til menighetene: Den som seirer, ham vil jeg gi å ete av livets tre, som er i Guds Paradis!",
-  "REV.2.8": "Og skriv til engelen for menigheten i Smyrna: Dette sier den første og den siste, han som var død og er blitt levende:",
-  "REV.2.9": "Jeg vet om din trengsel og din fattigdom - men du er rik - og om spotten fra dem som sier de er jøder, men ikke er det, men er Satans synagoge.",
-  "REV.2.10": "Frykt ikke for det du skal lide! Se, djevelen skal kaste noen av dere i fengsel, for at dere skal bli satt på prøve, og dere skal ha trengsel i ti dager. Vær tro inntil døden, så vil jeg gi deg livets krone.",
-  "REV.2.11": "Den som har øre, han høre hva Ånden sier til menighetene: Den som seirer, skal slett ikke rammes av den annen død.",
-  "REV.2.12": "Og skriv til engelen for menigheten i Pergamum: Dette sier han som har det tveeggede skarpe sverd:",
-  "REV.2.13": "Jeg vet hvor du bor, der hvor Satan har sin trone. Og du holder fast ved mitt navn. Du fornektet ikke min tro, heller ikke i de dager da Antipas var mitt trofaste vitne, han som ble slått i hjel hos dere, der hvor Satan bor.",
-  "REV.2.14": "Men jeg har noen få ting imot deg: Du har noen der som holder fast ved Bileams lære, han som lærte Balak å legge anstøt for Israels barn - å ete avgudsoffer og drive hor.",
-  "REV.2.15": "Slik har også du noen som på samme vis holder fast ved nikolaittenes lære.",
-  "REV.2.16": "Omvend deg! Ellers kommer jeg snart over deg og vil kjempe mot dem med min munns sverd.",
-  "REV.2.17": "Den som har øre, han høre hva Ånden sier til menighetene: Den som seirer, ham vil jeg gi av den skjulte manna. Og jeg vil gi ham en hvit stein, og på steinen er et nytt navn skrevet som ingen kjenner uten den som får det.",
-  "REV.2.18": "Og skriv til engelen for menigheten i Tyatira: Dette sier Guds Sønn, han som har øyne som ildslue og føtter som skinnende kobber:",
-  "REV.2.19": "Jeg vet om dine gjerninger og din kjærlighet og din tjeneste, din tro og tålmodighet, og dine siste gjerninger, som er flere enn de første.",
-  "REV.2.20": "Men jeg har imot deg at du tåler kvinnen Jesabel, hun som sier at hun er en profetinne, og som lærer og forfører mine tjenere til å drive hor og ete avgudsoffer.",
-  "REV.2.21": "Jeg ga henne tid til å omvende seg, men hun ville ikke omvende seg fra sitt horeliv.",
-  "REV.2.22": "Se, jeg kaster henne på sykeseng. Og de som begår ekteskapsbrudd med henne, skal komme i stor trengsel, hvis de ikke omvender seg fra hennes gjerninger.",
-  "REV.2.23": "Hennes barn vil jeg rykke bort ved død. Og alle menighetene skal kjenne at jeg er den som gransker nyrer og hjerter, og jeg vil gi hver av dere etter hans gjerninger.",
-  "REV.2.24": "Men dere andre i Tyatira, alle de som ikke har denne læren og ikke kjenner Satans dybder, som de sier - til dere sier jeg: Jeg legger ikke noen annen byrde på dere.",
-  "REV.2.25": "Hold bare fast på det dere har, inntil jeg kommer.",
-  "REV.2.26": "Den som seirer, og som tar vare på mine gjerninger inntil enden, ham vil jeg gi makt over folkeslagene.",
-  "REV.2.27": "Han skal styre dem med jernstav og knuse dem som leirkar, slik som også jeg har fått det av min Far.",
-  "REV.2.28": "Og jeg vil gi ham morgenstjernen.",
-  "REV.2.29": "Den som har øre, han høre hva Ånden sier til menighetene!",
-  "REV.3.1": "Og skriv til engelen for menigheten i Sardes: Dette sier han som har de sju Guds ånder og de sju stjernene: Jeg vet om dine gjerninger, at du har navn av at du lever, men du er død.",
-  "REV.3.2": "Våkn opp, og styrk det andre som var i ferd med å dø. For jeg har ikke funnet dine gjerninger fullkomne for min Gud.",
-  "REV.3.3": "Husk derfor hvordan du har mottatt og hørt. Hold fast på det og omvend deg! Dersom du ikke våker, skal jeg komme som en tyv, og du skal slett ikke vite hvilken time jeg kommer over deg.",
-  "REV.3.4": "Men du har noen få navn i Sardes som ikke har sølt til klærne sine. De skal gå med meg i hvite klær, for de er verdige til det.",
-  "REV.3.5": "Den som seirer skal på samme vis bli kledd i hvite klær. Jeg skal så visst ikke utslette hans navn av livets bok, og jeg vil kjennes ved hans navn for min Far og for hans engler.",
-  "REV.3.6": "Den som har øre, han høre hva Ånden sier til menighetene!",
-  "REV.3.7": "Og skriv til engelen for menigheten i Filadelfia: Dette sier Den Hellige, Den Sannferdige, han som har Davids nøkkel, han som lukker opp og ingen lukker igjen, og som lukker igjen og ingen lukker opp:",
-  "REV.3.8": "Jeg vet om dine gjerninger: Se, jeg har satt foran deg en åpnet dør, og ingen kan lukke den igjen. For du har liten styrke, og har holdt fast på mitt ord og ikke fornektet mitt navn.",
-  "REV.3.9": "Se, jeg lar noen av Satans synagoge komme, de som kaller seg selv jøder og ikke er det, men lyver. Jeg vil gjøre det så at de skal komme og falle ned for dine føtter, og de skal forstå at jeg har elsket deg.",
-  "REV.3.10": "Fordi du har bevart mitt ord om tålmodighet, vil jeg bevare deg fra den prøvelsens time som skal komme over hele verden, for å prøve dem som bor på jorden.",
-  "REV.3.11": "Jeg kommer snart! Hold fast på det du har, for at ingen skal ta din krone.",
-  "REV.3.12": "Den som seirer, ham vil jeg gjøre til en støtte i min Guds tempel, og han skal aldri mer gå ut derfra. Og jeg vil skrive på ham min Guds navn, og navnet på min Guds by - det nye Jerusalem, som kommer ned fra himmelen fra min Gud - og mitt eget navn, det nye.",
-  "REV.3.13": "Den som har øre, han høre hva Ånden sier til menighetene!",
-  "REV.3.14": "Og skriv til engelen for menigheten i Laodikea: Dette sier han som er Amen, det trofaste og sannferdige vitne, opphavet til Guds skaperverk:",
-  "REV.3.15": "Jeg vet om dine gjerninger, at du verken er kald eller varm. Det hadde vært godt om du var kald eller varm.",
-  "REV.3.16": "Men fordi du er lunken, og verken kald eller varm, vil jeg spy deg ut av min munn.",
-  "REV.3.17": "Fordi du sier: Jeg er rik, jeg har overflod og har ingen nød - og du vet ikke at du er ussel og ynkelig og fattig og blind og naken,",
-  "REV.3.18": "så råder jeg deg at du kjøper av meg: Gull, lutret i ild, for at du kan bli rik, og hvite klær, for at du kan være kledd i dem og din nakenhets skam ikke skal bli stilt til skue, og øyensalve til å salve dine øyne med, for at du kan se.",
-  "REV.3.19": "Alle dem jeg elsker, dem refser og tukter jeg. Derfor, ta det alvorlig og omvend deg!",
-  "REV.3.20": "Se, jeg står for døren og banker. Om noen hører min røst og åpner døren, da vil jeg gå inn til ham og holde nattverd med ham, og han med meg.",
-  "REV.3.21": "Den som seirer, ham vil jeg gi å sitte med meg på min trone, likesom jeg òg har seiret og har satt meg med min Far på hans trone.",
-  "REV.3.22": "Den som har øre, han høre hva Ånden sier til menighetene!",
-  "REV.4.1": "Deretter så jeg - og se, en dør var åpnet i himmelen. Og den første røsten som jeg hadde hørt tale til meg som en basun, sa: Kom opp her, og jeg vil vise deg det som skal skje etter dette.",
-  "REV.4.2": "Straks ble jeg rykket bort i Ånden. Og se, en trone var satt i himmelen, og det satt en på tronen.",
-  "REV.4.3": "Han som satt der, var å se til som jaspis-stein og sarder-stein. Og rundt tronen var det en regnbue, som en smaragd å se til.",
-  "REV.4.4": "Rundt omkring tronen var det tjuefire troner, og på tronene satt det tjuefire eldste, kledd i hvite klær og med kroner av gull på sine hoder.",
-  "REV.4.5": "Fra tronen går det ut lyn og røster og tordendrønn, og sju ildfakler brenner foran tronen, det er de sju Guds ånder.",
-  "REV.4.6": "Og foran tronen er det likesom et glasshav, likt krystall. Og midt for tronen og omkring den, er det fire livsvesener, fulle av øyne foran og bak.",
-  "REV.4.7": "Det første livsvesen er likt en løve, det andre livsvesen er likt en okse, det tredje livsvesen har ansikt som på et menneske, og det fjerde livsvesen er likt en ørn i flukt.",
-  "REV.4.8": "De fire livsvesener, hvert enkelt av dem, har seks vinger. Og de er fullsatt av øyne, både rundt om og under vingene. Natt og dag sier de uten opphold: Hellig, hellig, hellig er Herren Gud, Den Allmektige, han som var og som er og som kommer!",
-  "REV.4.9": "Og når de fire livsvesener gir pris og ære og takk til ham som sitter på tronen, han som lever i all evighet,",
-  "REV.4.10": "da faller de tjuefire eldste ned for ham som sitter på tronen, og tilber ham som lever i all evighet, og kaster sine kroner ned for tronen og sier:",
-  "REV.4.11": "Verdig er du, vår Herre og Gud, til å få lovprisningen og æren og makten. For du har skapt alle ting, og på grunn av din vilje ble de til og ble de skapt.",
-  "REV.5.1": "Og jeg så at han som satt på tronen hadde en bokrull i sin høyre hånd. Det var skrevet både inne i den og utenpå, og den var forseglet med sju segl.",
-  "REV.5.2": "Og jeg så en mektig engel som ropte med høy røst: Hvem er verdig til å åpne boken og bryte seglene på den?",
-  "REV.5.3": "Og det var ingen i himmelen eller på jorden eller under jorden som kunne åpne boken eller se i den.",
-  "REV.5.4": "Da gråt jeg sårt fordi ingen var funnet verdig til å åpne boken eller se i den.",
-  "REV.5.5": "Men en av de eldste sier til meg: Gråt ikke! Se, løven av Judas stamme, Davids rot, har seiret. Han kan åpne boken og de sju seglene på den.",
-  "REV.5.6": "Og jeg så - og se: Midt mellom tronen og de fire livsvesener og de eldste, sto det et lam, likesom det hadde vært slaktet. Det hadde sju horn og sju øyne, det er de sju Guds ånder som er sendt ut over hele jorden.",
-  "REV.5.7": "Lammet kom bort til ham som satt på tronen, og tok boken av hans høyre hånd.",
-  "REV.5.8": "Da det tok boken, falt de fire livsvesener og de tjuefire eldste ned for Lammet. Hver av dem hadde en harpe, og gullskåler fulle av røkelse, - det er de helliges bønner.",
-  "REV.5.9": "Og de synger en ny sang og sier: Verdig er du til å ta imot boken og åpne seglene på den, fordi du ble slaktet og med ditt blod kjøpte oss til Gud av hver stamme og tunge og folk og ætt,",
-  "REV.5.10": "og gjorde dem til et kongerike og til prester for vår Gud. Og de skal herske som konger på jorden.",
-  "REV.5.11": "Og jeg så, og jeg hørte røsten av mange engler omkring tronen og de fire livsvesener og de eldste - tallet på dem var ti tusen ganger ti tusen og tusen ganger tusen.",
-  "REV.5.12": "De sa med høy røst: Verdig er Lammet, som ble slaktet, til å få makt og rikdom og visdom og styrke og ære og pris og velsignelse!",
-  "REV.5.13": "Og hver skapning som er i himmelen og på jorden og under jorden og på havet, og alt det som er i dem, hørte jeg si: Ham som sitter på tronen, og Lammet, tilhører velsignelsen og æren og lovprisningen og makten i all evighet!",
-  "REV.5.14": "Og de fire livsvesener sa: Amen! Og de eldste falt ned og tilba.",
-  "REV.6.1": "Og jeg så at Lammet åpnet det første av de sju seglene, og jeg hørte et av de fire livsvesener si som med tordenrøst: Kom!",
-  "REV.6.2": "Og jeg så - og se: En hvit hest, og han som satt på den, hadde en bue, og det ble gitt ham en krone, og han dro ut med seier og for å seire.",
-  "REV.6.3": "Da Lammet åpnet det andre seglet, hørte jeg det andre livsvesen si: Kom!",
-  "REV.6.4": "Og en annen hest dro ut, som var rød. Han som satt på den, ble det gitt å ta freden bort fra jorden, så de skulle slakte hverandre. Og det ble gitt ham et stort sverd.",
-  "REV.6.5": "Da Lammet åpnet det tredje seglet, hørte jeg det tredje livsvesen si: Kom! Og jeg så - og se: En svart hest, og han som satt på den, hadde en vekt i hånden.",
-  "REV.6.6": "Og jeg hørte likesom en røst midt iblant de fire livsvesener, og den sa: Et mål hvete for en denar, og tre mål bygg for en denar. Men oljen og vinen skal du ikke skade.",
-  "REV.6.7": "Da Lammet åpnet det fjerde seglet, hørte jeg røsten av det fjerde livsvesen, som sa: Kom!",
-  "REV.6.8": "Da så jeg - og se: En gulblek hest. Han som satt på den, hans navn var Døden, og dødsriket fulgte med ham. Og det ble gitt dem makt over fjerdedelen av jorden, til å drepe med sverd og med hungersnød og med pest, og ved villdyrene på jorden.",
-  "REV.6.9": "Og da Lammet åpnet det femte seglet, så jeg under alteret deres sjeler som var blitt slått i hjel for Guds ords skyld og på grunn av det vitnesbyrd som de hadde.",
-  "REV.6.10": "De ropte med høy røst og sa: Herre, du hellige og sannferdige! Hvor lenge skal det vare før du holder dom og hevner vårt blod på dem som bor på jorden?",
-  "REV.6.11": "Og det ble gitt hver av dem en lang, hvit kappe. Og det ble sagt til dem at de skulle slå seg til tåls ennå en liten stund, inntil tallet på deres medtjenere og brødre var fullt, de som skulle bli slått i hjel likesom de selv.",
-  "REV.6.12": "Og jeg så da Lammet åpnet det sjette seglet - og se: Det ble et stort jordskjelv, og solen ble svart som en sekk av hår, og hele månen ble som blod.",
-  "REV.6.13": "Og himmelens stjerner falt ned på jorden, som et fikentre kaster ned sine umodne fiken når det ristes av sterk vind.",
-  "REV.6.14": "Og himmelen vek bort, likesom en bokrull som rulles sammen. Og hvert fjell og hver øy ble flyttet fra sitt sted.",
-  "REV.6.15": "Kongene på jorden og stormennene og hærførerne og de rike og de mektige, hver trell og hver fri mann, gjemte seg i hulene og mellom berghamrene.",
-  "REV.6.16": "Og de sier til fjell og klipper: Fall over oss og skjul oss for hans åsyn som sitter på tronen, og for Lammets vrede.",
-  "REV.6.17": "For deres store vredesdag er kommet, og hvem kan da bli stående?",
-  "REV.7.1": "Deretter så jeg fire englene som sto ved jordens fire hjørner og holdt på jordens fire vinder, for at det ikke skulle blåse noen vind over jorden eller over havet eller på noe tre.",
-  "REV.7.2": "Og jeg så en annen engel, som steg opp fra soloppgangen, og som hadde den levende Guds segl. Han ropte med høy røst til de fire engler som det var gitt å skade jorden og havet,",
-  "REV.7.3": "og sa: Skad ikke jorden eller havet eller trærne før vi har satt et segl på vår Guds tjenere i deres panner.",
-  "REV.7.4": "Og jeg hørte tallet på dem som var beseglet. Det var hundre og førtifire tusen av alle Israels barns stammer.",
-  "REV.7.5": "Av Judas stamme tolv tusen beseglede, av Rubens stamme tolv tusen, av Gads stamme tolv tusen,",
-  "REV.7.6": "av Asjers stamme tolv tusen, av Naftalis stamme tolv tusen, av Manasses stamme tolv tusen,",
-  "REV.7.7": "av Simeons stamme tolv tusen, av Levis stamme tolv tusen, av Issakars stamme tolv tusen,",
-  "REV.7.8": "av Sebulons stamme tolv tusen, av Josefs stamme tolv tusen, av Benjamins stamme tolv tusen beseglede.",
-  "REV.7.9": "Deretter så jeg - og se: En stor skare som ingen kunne telle, av alle folkeslag og stammer og folk og tungemål. De sto for tronen og for Lammet, kledd i lange, hvite kapper, og med palmegreiner i sine hender.",
-  "REV.7.10": "Og de ropte med høy røst og sa: Frelsen tilhører vår Gud, han som sitter på tronen, og Lammet.",
-  "REV.7.11": "Alle englene sto omkring tronen og om de eldste og om de fire livsvesener, og de falt ned for tronen på sitt ansikt og tilba Gud,",
-  "REV.7.12": "og sa: Amen! Velsignelsen og herligheten og visdommen og takken og æren og makten og styrken tilhører vår Gud i all evighet! Amen.",
-  "REV.7.13": "Og en av de eldste tok til orde og sa til meg: Disse som er kledd i de lange hvite kappene - hvem er de? Og hvor er de kommet fra?",
-  "REV.7.14": "Jeg sa til ham: Herre, du vet det! Og han sa til meg: Dette er de som kommer ut av den store trengsel, og de har vasket sine kapper og gjort dem hvite i Lammets blod.",
-  "REV.7.15": "Derfor er de for Guds trone og tjener ham dag og natt i hans tempel, og han som sitter på tronen, skal reise sin bolig over dem.",
-  "REV.7.16": "De skal ikke hungre mer, heller ikke tørste mer. Solen skal ikke falle på dem, eller noen hete.",
-  "REV.7.17": "For Lammet, som er midt for tronen, skal vokte dem og føre dem til livets vannkilder. Og Gud skal tørke bort hver tåre fra deres øyne.",
-  "REV.8.1": "Da Lammet åpnet det sjuende seglet, ble det stillhet i himmelen omkring en halv time.",
-  "REV.8.2": "Og jeg så de sju englene som står for Gud, og det ble gitt dem sju basuner.",
-  "REV.8.3": "En annen engel kom og sto ved alteret. Han hadde et røkelseskar av gull. Og det ble gitt ham en stor mengde røkelse for at han skulle legge den til de helliges bønner på gullalteret foran tronen.",
-  "REV.8.4": "Og røken av røkelsen steg fra engelens hånd opp for Gud sammen med de helliges bønner.",
-  "REV.8.5": "Og engelen tok røkelseskaret og fylte det med ild fra alteret, og kastet den på jorden. Da kom det tordendrønn og røster og lyn og jordskjelv.",
-  "REV.8.6": "Og de sju englene som hadde de sju basunene, gjorde seg klar til å blåse.",
-  "REV.8.7": "Den første engelen blåste i basunen, og det kom hagl og ild, blandet med blod, og det ble kastet ned på jorden. Tredjedelen av jorden ble oppbrent, og tredjedelen av trærne ble oppbrent, og alt grønt gress ble oppbrent.",
-  "REV.8.8": "Den andre engelen blåste i basunen, og noe som lignet et stort, brennende fjell ble kastet i havet. Og tredjedelen av havet ble til blod.",
-  "REV.8.9": "Og tredjedelen av de levende skapninger i havet døde, og tredjedelen av skipene ble ødelagt.",
-  "REV.8.10": "Den tredje engelen blåste i basunen, og en stor stjerne falt ned fra himmelen, flammende som en fakkel, og den falt på tredjedelen av elvene og på vannkildene.",
-  "REV.8.11": "Stjernens navn var Malurt, og tredjedelen av vannet ble til malurt. Og mange mennesker døde av vannet fordi det var blitt forgiftet.",
-  "REV.8.12": "Den fjerde engelen blåste i basunen, og tredjedelen av solen ble slått, og tredjedelen av månen og tredjedelen av stjernene, for at tredjedelen av dem skulle bli formørket, og tredjedelen av dagen miste sitt lys, og natten likeså.",
-  "REV.8.13": "Og jeg så, og jeg hørte en ørn som fløy under det høyeste av himmelen og sa med høy røst: Ve, ve, ve over dem som bor på jorden, for de andre basunrøstene av de tre englene som ennå skal blåse!",
-  "REV.9.1": "Den femte engelen blåste i basun. Jeg så da en stjerne som var falt fra himmelen ned på jorden. Nøkkelen til avgrunnens brønn ble gitt til den.",
-  "REV.9.2": "Den åpnet avgrunnens brønn, og en røk steg opp av brønnen som røken av en stor ovn. Solen og luften ble formørket av røken fra brønnen.",
-  "REV.9.3": "Ut av røken kom det gresshopper på jorden. Det ble gitt dem makt, slik som skorpionene på jorden har.",
-  "REV.9.4": "Det ble sagt til dem at de ikke skulle skade gresset på jorden eller noe annet grønt, heller ikke noe tre, men bare de menneskene som ikke hadde Guds segl på sine panner.",
-  "REV.9.5": "Det ble ikke gitt gresshoppene å drepe dem, men å pine dem i fem måneder. Og pinen de voldte, var som pinen av en skorpion når den stikker et menneske.",
-  "REV.9.6": "I de dager skal folk søke døden, men de skal ikke finne den. De skal lengte etter å få dø, men døden skal fly fra dem.",
-  "REV.9.7": "Gresshoppene var av utseende lik hester, som var gjort klare til kamp. På hodene deres var det kroner av noe som lignet gull, og ansiktene deres var som menneskers ansikter.",
-  "REV.9.8": "De hadde hår som kvinnehår, og tennene deres var som løvers tenner.",
-  "REV.9.9": "De hadde brynjer likesom jernbrynjer. Og lyden av vingene deres var som lyden av vogner når mange hester løper til strid.",
-  "REV.9.10": "De har haler med brodder som skorpioner, og i halene ligger deres makt til å skade menneskene i fem måneder.",
-  "REV.9.11": "Til konge over seg har de avgrunnens engel. Hans navn er på hebraisk Abaddon, på gresk har han navnet Apollyon.",
-  "REV.9.12": "Det første ve er over. Se, ennå kommer det to ve-rop etter dette.",
-  "REV.9.13": "Den sjette engelen blåste i basunen. Og jeg hørte en røst fra de fire hornene på gullalteret som står for Gud.",
-  "REV.9.14": "Røsten sa til den sjette engelen, han som hadde basunen: Løs de fire englene som er bundet ved den store elven Eufrat!",
-  "REV.9.15": "Og de ble løst, de fire englene som var blitt forberedt for timen og dagen og måneden og året, til å drepe tredjedelen av menneskene.",
-  "REV.9.16": "Tallet på rytterhæren var to ganger ti tusen ganger ti tusen. Jeg hørte tallet på dem.",
-  "REV.9.17": "Slik så jeg hestene i mitt syn, og de som satt på dem: De hadde ildrøde og mørkeblå og svovelgule brynjer. Hestenes hoder var som løve-hoder, og av munnen på dem gikk det ut ild og røk og svovel.",
-  "REV.9.18": "Av disse tre plager ble tredjedelen av menneskene drept: av ilden og av røken og av svovelen som kom ut av munnen på dem.",
-  "REV.9.19": "For hestenes makt ligger i munnen deres og i halen, for halene på dem er lik slanger og har hoder, og med dem gjør de skade.",
-  "REV.9.20": "Men resten av menneskene, de som ikke ble drept ved disse plagene, omvendte seg likevel ikke fra sine henders verk, så de sluttet å tilbe de onde åndene og avgudsbildene av gull og sølv og kobber, av stein og tre - de som verken kan se eller høre eller gå.",
-  "REV.9.21": "Og de omvendte seg ikke fra sine mord eller fra sine trolldomskunster eller fra sitt horeliv eller fra sine tyverier.",
-  "REV.10.1": "Og jeg så en annen mektig engel stige ned fra himmelen. Han var kledd i en sky, og regnbuen var over hodet hans. Hans ansikt var som solen, og føttene hans som ildsøyler.",
-  "REV.10.2": "I hånden hadde han en liten, åpnet bok. Han satte den høyre foten på havet og den venstre på jorden.",
-  "REV.10.3": "Og han ropte med veldig røst, som når en løve brøler. Da han hadde ropt ut, talte de sju tordnene med sine røster.",
-  "REV.10.4": "Og da de sju tordnene hadde talt, ville jeg til å skrive. Men jeg hørte en røst fra himmelen som sa: Sett segl for det som de sju tordnene talte, og skriv det ikke!",
-  "REV.10.5": "Og engelen som jeg så, som sto på havet og på jorden, løftet sin høyre hånd mot himmelen,",
-  "REV.10.6": "og han sverget ved ham som lever i all evighet, han som skapte himmelen og det som er i den, og jorden og det som er på den, og havet og det som er i det: Nå er tiden omme!",
-  "REV.10.7": "Men i de dager når den sjuende engelens røst blir hørt, når han skal blåse i basunen, da skal også Guds mysterium bli fullbyrdet, slik som han forkynte for sine tjenere profetene.",
-  "REV.10.8": "Og den røsten som jeg hadde hørt fra himmelen, talte nå igjen til meg: Gå og ta den lille åpne boken av engelens hånd, han som står på havet og på jorden.",
-  "REV.10.9": "Jeg gikk da bort til engelen og sa til ham at han skulle gi meg den lille boken. Han sier til meg: Ta boken og sluk den! Og den skal være bitter i din buk, men i din munn skal den være søt som honning.",
-  "REV.10.10": "Og jeg tok den lille boken av engelens hånd og slukte den. I min munn var den søt som honning. Men da jeg hadde ett den, sved den i min buk.",
-  "REV.10.11": "Og det ble sagt til meg: Igjen skal du profetere om mange folk og nasjoner og tungemål og konger.",
-  "REV.11.1": "Og det ble gitt meg et rør, likesom en stav, med de ordene: Stå opp og mål Guds tempel og alteret og dem som tilber der!",
-  "REV.11.2": "Men forgården utenfor templet, la den være, og mål den ikke. For den er gitt til hedningefolkene, og de skal tråkke ned den hellige by i førtito måneder.",
-  "REV.11.3": "Og jeg vil gi mine to vitner å profetere i ett tusen to hundre og seksti dager, kledd i sekk.",
-  "REV.11.4": "Dette er de to oljetrærne og de to lysestakene som står for jordens Herre.",
-  "REV.11.5": "Dersom noen vil skade dem, da går det ild ut fra munnen deres og fortærer fiendene deres. Ja, om noen vil skade dem, skal han drepes på den måten.",
-  "REV.11.6": "De har makt til å lukke himmelen, så det ikke faller regn i de dagene de er profeter. Og de har makt over vannene, til å gjøre dem til blod, og til å slå jorden med alle slags plager, så ofte de vil.",
-  "REV.11.7": "Og når de har fullført sitt vitnesbyrd, da skal dyret som stiger opp fra avgrunnen, føre krig mot dem og seire over dem og drepe dem.",
-  "REV.11.8": "Og likene deres skal ligge på gaten i den store byen, den som i åndelig mening kalles Sodoma og Egypt, der hvor deres Herre ble korsfestet.",
-  "REV.11.9": "I tre dager og en halv ser mennesker fra alle folk, stammer og tungemål på likene deres, og de tillater ikke at likene blir lagt i grav.",
-  "REV.11.10": "Og de som bor på jorden, skal glede seg over dem og fryde seg, og de skal sende gaver til hverandre, fordi disse to profetene var til plage for dem som bor på jorden.",
-  "REV.11.11": "Og etter tre dager og en halv kom det livsånde fra Gud i dem, og de reiste seg opp på sine føtter. Og stor frykt falt på dem som så dem.",
-  "REV.11.12": "Og de hørte en høy røst fra himmelen som sa til dem: Stig opp hit! Og de steg opp til himmelen i skyen, mens deres fiender så dem.",
-  "REV.11.13": "I samme stund kom det et stort jordskjelv. Tiendedelen av byen falt i grus, og sju tusen mennesker ble drept i jordskjelvet. Resten av folket ble forferdet og ga himmelens Gud ære.",
-  "REV.11.14": "Det annet ve er over. Se, det tredje ve kommer snart.",
-  "REV.11.15": "Og den sjuende engelen blåste i basunen. Og høye røster ble hørt i himmelen, som sa: Kongedømmet over verden tilhører nå vår Herre og hans Salvede, og han skal være konge i all evighet.",
-  "REV.11.16": "Og de tjuefire eldste, som sitter for Guds åsyn på sine troner, falt på sitt ansikt og tilba Gud",
-  "REV.11.17": "og sa: Vi takker deg, Herre Gud, du Allmektige, du som er og som var, fordi du har tatt i bruk din store makt og regjerer som konge.",
-  "REV.11.18": "Hedningefolkene raste, men nå er din vrede kommet - tiden da de døde skal dømmes, og da du skal lønne dine tjenere profetene og de hellige og dem som frykter ditt navn, de små og de store, og da du skal ødelegge dem som ødelegger jorden.",
-  "REV.11.19": "Guds tempel i himmelen ble åpnet og hans paktsark ble sett i hans tempel. Og det kom lyn og røster, tordendrønn og jordskjelv og store hagl.",
-  "REV.12.1": "Et stort tegn ble sett i himmelen: En kvinne, kledd med solen, og månen under hennes føtter, og på hennes hode en krone av tolv stjerner.",
-  "REV.12.2": "Hun var med barn og skrek i barnsnød og fødselsveer.",
-  "REV.12.3": "Og et annet tegn ble sett i himmelen - og se: En stor ildrød drage som hadde sju hoder og ti horn, og på sine hoder sju kroner.",
-  "REV.12.4": "Med sin hale dro den med seg tredjedelen av himmelens stjerner og kastet dem til jorden. Og den stilte seg foran kvinnen som skulle føde, for å sluke barnet hennes så snart hun hadde født.",
-  "REV.12.5": "Hun fødte en sønn, et guttebarn, som skal styre alle hedningefolkene med jernstav. Og hennes barn ble rykket bort til Gud og hans trone.",
-  "REV.12.6": "Og kvinnen flyktet ut i ørkenen, hvor hun hadde et sted som er gjort i stand for henne av Gud, for at de der skal sørge for henne i ett tusen to hundre og seksti dager.",
-  "REV.12.7": "Det ble en strid i himmelen: Mikael og hans engler tok til å stride mot dragen. Og dragen stred, og dens engler.",
-  "REV.12.8": "Og de kunne ikke stå seg, og det ble ikke lenger funnet sted for dem i himmelen.",
-  "REV.12.9": "Den store dragen ble kastet ned, den gamle slangen, han som kalles djevelen og Satan, han som forfører hele verden. Han ble kastet ned på jorden, og hans engler ble kastet ned med ham.",
-  "REV.12.10": "Og jeg hørte en høy røst i himmelen si: Fra nå av tilhører frelsen og kraften og riket vår Gud, og makten hans Salvede. For våre brødres anklager er kastet ned, han som anklaget dem for vår Gud dag og natt.",
-  "REV.12.11": "De har seiret over ham i kraft av Lammets blod og det ordet de vitnet. Og de hadde ikke sitt liv kjært, like til døden.",
-  "REV.12.12": "Derfor fryd dere, himler, og dere som bor i dem! Men ve jorden og havet! For djevelen er steget ned til dere i stor vrede, fordi han vet at han bare har en liten tid.",
-  "REV.12.13": "Og da dragen så at den var kastet ned på jorden, forfulgte den kvinnen som hadde født guttebarnet.",
-  "REV.12.14": "Og den store ørnens to vinger ble gitt til kvinnen for at hun skulle fly ut til sitt sted i ørkenen, der hun blir sørget for i en tid og tider og en halv tid, borte fra slangens ansikt.",
-  "REV.12.15": "Slangen sprutet av sin munn vann som en elv etter kvinnen, for å rive henne bort med elven.",
-  "REV.12.16": "Men jorden kom kvinnen til hjelp, og jorden åpnet sin munn og slukte elven som dragen sprutet av sin munn.",
-  "REV.12.17": "Dragen ble vred på kvinnen, og dro av sted for å føre krig mot de andre av hennes ætt, mot dem som holder fast på Guds bud og har Jesu vitnesbyrd.",
-  "REV.12.18": "Og jeg sto på sanden ved havet.",
-  "REV.13.1": "Og jeg så et dyr stige opp av havet. Det hadde ti horn og sju hoder. På sine horn hadde det ti kroner. Og på sine hoder hadde det spottenavn.",
-  "REV.13.2": "Dyret som jeg så, lignet en leopard, og det hadde føtter som en bjørn, og munnen var som munnen på en løve. Og dragen ga det sin kraft og sin trone og stor makt.",
-  "REV.13.3": "Og jeg så et av dyrets hoder likesom såret til døden, men det dødelige såret ble legt. Og all jorden undret seg og fulgte etter dyret.",
-  "REV.13.4": "De tilba dragen, fordi den hadde gitt dyret makt. Og de tilba dyret og sa: Hvem er lik dyret og hvem kan stride mot det?",
-  "REV.13.5": "Det ble gitt det en munn som talte store og bespottelige ord. Og det ble gitt det makt til å holde på i førtito måneder.",
-  "REV.13.6": "Det åpnet sin munn til spott mot Gud - til å spotte hans navn og bolig og dem som bor i himmelen.",
-  "REV.13.7": "Og det ble gitt det å føre krig mot de hellige og seire over dem. Det ble gitt det makt over hver stamme og hvert folk og hvert tungemål og hvert folkeslag.",
-  "REV.13.8": "Alle som bor på jorden, skal tilbe det, hver den som ikke har fått sitt navn skrevet i livets bok hos Lammet som er slaktet, fra verdens grunnvoll ble lagt.",
-  "REV.13.9": "Dersom noen har øre, han høre!",
-  "REV.13.10": "Om noen fører i fangenskap, han går i fangenskap. Om noen dreper med sverd, han skal drepes med sverd. Her er de helliges tålmodighet og tro.",
-  "REV.13.11": "Og jeg så et annet dyr stige opp av jorden. Det hadde to horn, likesom et lam, men talte som en drage.",
-  "REV.13.12": "Det bruker hele det første dyrets makt for dets øyne. Og det gjør slik at jorden og de som bor på den, tilber det første dyret - det som fikk sitt dødelige sår legt.",
-  "REV.13.13": "Og det gjør store tegn. Til og med får det ild til å falle ned fra himmelen på jorden for menneskenes øyne.",
-  "REV.13.14": "Det forfører dem som bor på jorden, på grunn av de tegnene som ble gitt det å gjøre for dyrets øyne. Og det sier til dem som bor på jorden, at de skal gjøre et bilde av det dyret som fikk sverdhogget og ble levende igjen.",
-  "REV.13.15": "Og det fikk makt til å gi dyrets bilde livsånde, så at dyrets bilde til og med kunne tale, og gjøre så at alle de som ikke ville tilbe dyrets bilde, skulle drepes.",
-  "REV.13.16": "Det utvirker at det blir gitt alle, små og store, rike og fattige, frie og treller, et merke i sin høyre hånd eller på sin panne,",
-  "REV.13.17": "og at ingen kan kjøpe eller selge uten den som har merket: dyrets navn eller tallet for dets navn.",
-  "REV.13.18": "Heri består visdommen. Den som har forstand, la ham regne ut dyrets tall! For det er et menneskes tall. Og dets tall er seks hundre og sekstiseks.",
-  "REV.14.1": "Og jeg så, og se: Lammet sto på Sions berg. Sammen med det var de hundre og førtifire tusen, som hadde Lammets navn og dets Fars navn skrevet på sine panner.",
-  "REV.14.2": "Fra himmelen hørte jeg en røst som lyden av mange vann og som lyden av sterk torden. Røsten jeg hørte, var som av harpespillere som spilte på sine harper.",
-  "REV.14.3": "Og de sang en ny sang foran tronen og foran de fire livsvesener og de eldste. Og ingen kunne lære sangen uten de hundre og førtifire tusen, de som er kjøpt fra jorden.",
-  "REV.14.4": "Det er de som ikke har gjort seg urene med kvinner, for de er som jomfruer. Det er de som følger Lammet hvor det går. De er kjøpt fra menneskene til en førstegrøde for Gud og Lammet.",
-  "REV.14.5": "I deres munn er ikke funnet løgn. De er uten lyte.",
-  "REV.14.6": "Jeg så en annen engel, som fløy under det høyeste av himmelen. Han hadde et evig evangelium å forkynne for dem som bor på jorden, for alle nasjoner og stammer, tungemål og folk.",
-  "REV.14.7": "Og han sa med høy røst: Frykt Gud og gi ham ære! For timen for hans dom er kommet. Tilbe ham som skapte himmelen og jorden, havet og vannkildene!",
-  "REV.14.8": "En annen engel, den andre, fulgte etter og sa: Falt, falt, er Babylon den store, som har gitt alle folkeslag å drikke av sitt horelivs vredesvin.",
-  "REV.14.9": "En annen engel, den tredje, fulgte etter dem og sa med høy røst: Dersom noen tilber dyret og dets bilde, og tar merket på sin panne eller sin hånd,",
-  "REV.14.10": "da skal han også drikke av Guds vredesvin, som er skjenket ublandet i hans harmes beger. Og han skal pines med ild og svovel for de hellige englers og for Lammets øyne.",
-  "REV.14.11": "Røken av deres pine stiger opp i all evighet. De har ikke hvile dag eller natt, de som tilber dyret og dets bilde, og hver den som tar imot merket med dets navn.",
-  "REV.14.12": "Heri består de helliges tålmodighet, de som holder fast ved Guds bud og Jesu tro.",
-  "REV.14.13": "Og jeg hørte en røst fra himmelen si: Skriv: Salige er de døde som dør i Herren fra nå av. Ja, sier Ånden, de skal hvile fra sitt besvær, for deres gjerninger følger dem.",
-  "REV.14.14": "Og jeg så - og se: En hvit sky, og på skyen satt en som var lik en menneskesønn. På sitt hode hadde han en krone av gull, og i sin hånd en skarp sigd.",
-  "REV.14.15": "Og en annen engel kom ut fra templet og ropte med høy røst til ham som satt på skyen: Send ut din sigd og høst! Timen til å høste er kommet, for høsten på jorden er fullmoden.",
-  "REV.14.16": "Og han som satt på skyen, lot sin sigd gå over jorden, og jorden ble høstet.",
-  "REV.14.17": "En annen engel kom ut av templet i himmelen og hadde en skarp sigd, han også.",
-  "REV.14.18": "Og enda en annen engel kom ut, fra alteret. Han hadde makt over ilden. Og han ropte med høy røst til engelen som hadde den skarpe sigden: Send ut din skarpe sigd og høst drueklasene av jordens vintre! For druene er modne.",
-  "REV.14.19": "Engelen lot sin sigd gå over jorden og høstet jordens vintre, og han kastet frukten i Guds vredes vinpresse, den store.",
-  "REV.14.20": "Og vinpressen ble tråkket utenfor byen, og det kom blod ut av vinpressen like til bisselet på hestene så langt som ett tusen seks hundre stadier.",
-  "REV.15.1": "Og jeg så et annet tegn i himmelen, stort og underfullt: Sju engler med sju plager, de siste, for med dem er Guds vrede fullbyrdet.",
-  "REV.15.2": "Og jeg så noe som lignet et hav av glass, blandet med ild. De som hadde seiret over dyret og dyrets bilde og over tallet for dyrets navn, så jeg stå ved glasshavet, med Guds harper i hånd.",
-  "REV.15.3": "De synger Guds tjener Moses’ sang og Lammets sang, og sier: Store og underfulle er dine gjerninger, Herre Gud, du Allmektige! Rettferdige og sanne er dine veier, du folkenes konge.",
-  "REV.15.4": "Hvem skulle ikke frykte deg, Herre, og ære ditt navn? For du alene er hellig. Alle folkene skal komme og tilbe for ditt åsyn, for dine rettferdige dommer er blitt åpenbare.",
-  "REV.15.5": "Etter dette så jeg at templet, vitnesbyrdets telt i himmelen, ble åpnet,",
-  "REV.15.6": "og ut fra templet kom de sju englene som hadde de sju plagene. De var kledd i rent og skinnende lin og hadde gullbelter spent om brystet.",
-  "REV.15.7": "Ett av de fire livsvesener ga de sju englene sju gullskåler fylt med Guds vrede - hans som lever i all evighet.",
-  "REV.15.8": "Og templet ble fylt med røk fra Guds herlighet og fra hans makt, så ingen kunne gå inn i templet før de sju plagene fra de sju englene var fullbyrdet.",
-  "REV.16.1": "Og jeg hørte en høy røst fra templet, og den sa til de sju englene: Gå av sted og tøm de sju Guds vredesskålene ut på jorden.",
-  "REV.16.2": "Og den første gikk av sted og tømte sin skål ut over jorden. Da kom en ond og farlig byll på de menneskene som hadde dyrets merke og som tilba dets bilde.",
-  "REV.16.3": "Den andre engelen tømte sin skål ut i havet. Det ble til blod som av en død mann, og alt liv i havet døde.",
-  "REV.16.4": "Den tredje engelen tømte sin skål ut i elvene og vannkildene, og de ble til blod.",
-  "REV.16.5": "Og jeg hørte vannenes engel si: Rettferdig er du fordi du har dømt slik, du som er og som var, du hellige.",
-  "REV.16.6": "For blod av hellige og av profeter har de utøst, og blod ga du dem å drikke. De er det verd.",
-  "REV.16.7": "Og jeg hørte alteret si: Ja, Herre Gud, du Allmektige. Sanne og rettferdige er dine dommer.",
-  "REV.16.8": "Den fjerde engelen tømte sin skål ut på solen, og det ble den gitt å brenne menneskene med ild.",
-  "REV.16.9": "Og menneskene brant i svær hete, og spottet Guds navn, han som har makt over disse plagene. Og de omvendte seg ikke til å gi ham ære.",
-  "REV.16.10": "Den femte engelen tømte sin skål ut over dyrets trone. Og dets rike ble formørket, og de tygget sine tunger i pine.",
-  "REV.16.11": "De spottet himmelens Gud for sine piner og for sine byller, men de omvendte seg ikke fra sine gjerninger.",
-  "REV.16.12": "Den sjette engelen tømte sin skål ut i den store elven Eufrat. Og vannet i den tørket bort, for at det skulle ryddes vei for kongene fra Østen.",
-  "REV.16.13": "Og jeg så at det av dragens munn og av dyrets munn og av den falske profetens munn kom ut tre urene ånder som lignet padder.",
-  "REV.16.14": "Det er djevleånder som gjør tegn. De går ut til kongene i hele verden for å samle dem til krigen på Guds, Den Allmektiges store dag.",
-  "REV.16.15": "Se, jeg kommer som en tyv! Salig er den som våker og tar vare på klærne sine, så han ikke skal gå naken og de skal se hans skam.",
-  "REV.16.16": "Og han samlet dem på det stedet som på hebraisk heter Harmageddon.",
-  "REV.16.17": "Den sjuende engelen tømte sin skål ut i luften. Og en veldig røst kom fra tronen i templet i himmelen, og sa: Det er skjedd!",
-  "REV.16.18": "Det kom lyn og røster og tordendrønn. Og det kom et stort jordskjelv, et slikt som ikke har vært fra den tiden menneskene ble til på jorden - et slikt jordskjelv, så stort.",
-  "REV.16.19": "Den store byen ble delt i tre deler, og folkenes byer falt i grus og Babylon den store, ble husket for Guds åsyn, så han skulle gi den begeret med hans strenge vredes vin.",
-  "REV.16.20": "Hver en øy vek bort, og fjell ble ikke funnet.",
-  "REV.16.21": "Og fra himmelen falt hagl så svært som hundre pund ned på menneskene. Men de spottet Gud for haglets plage, for plagen var meget stor.",
-  "REV.17.1": "En av de sju englene med de sju skålene kom og talte med meg og sa: Kom, jeg skal vise deg dommen over den store horen, hun som sitter over de mange vann.",
-  "REV.17.2": "Med henne har jordens konger drevet hor. De som bor på jorden, er blitt drukne av hennes horelivs vin.",
-  "REV.17.3": "Og han førte meg i ånden ut i ørkenen. Der så jeg en kvinne sitte på et skarlagenrødt dyr, som var fullt av spottenavn. Dyret hadde sju hoder og ti horn.",
-  "REV.17.4": "Kvinnen var kledd i purpur og skarlagen, og smykket med gull og edelsteiner og perler. I sin hånd hadde hun et gullbeger, fullt av styggedommer og av hennes horelivs urenheter.",
-  "REV.17.5": "På hennes panne var skrevet et navn, en hemmelighet: Babylon, den store, mor til horene og avskyelighetene på jorden.",
-  "REV.17.6": "Jeg så kvinnen drukken av de helliges blod og av Jesu vitners blod. Og jeg undret meg storlig da jeg så henne.",
-  "REV.17.7": "Engelen sa da til meg: Hvorfor undrer du deg? Jeg skal si deg hemmeligheten med kvinnen og med dyret som bærer henne, det som har sju hoder og ti horn.",
-  "REV.17.8": "Dyret som du så, det var og er ikke, og det skal stige opp, ut av avgrunnen, og gå til undergang. Og de som bor på jorden, de som ikke, fra verdens grunnvoll ble lagt, har sitt navn skrevet i livets bok, - de skal undre seg når de ser at dyret var, og ikke er, og skal komme igjen.",
-  "REV.17.9": "Her er den forstand som har visdom: De sju hodene er sju fjell, som kvinnen sitter på.",
-  "REV.17.10": "De er også sju konger. De fem er falt. Den ene er nå. Den andre er ennå ikke kommet. Og når han kommer, skal han bare bli en kort tid.",
-  "REV.17.11": "Dyret som var og ikke er, det er selv den åttende, og også en av de sju, og farer bort til undergang.",
-  "REV.17.12": "De ti hornene som du så, er ti konger som ennå ikke har fått rike. Men de får makt som konger i én time sammen med dyret.",
-  "REV.17.13": "Disse har én tanke, og sin kraft og sin makt gir de til dyret.",
-  "REV.17.14": "Disse skal føre krig mot Lammet. Men Lammet skal seire over dem, fordi han er herrers herre og kongers konge - seire sammen med dem som er med Lammet, de kalte og utvalgte og trofaste.",
-  "REV.17.15": "Og han sier til meg: De vannene som du så, der horen sitter, er folk og skarer og nasjoner og tungemål.",
-  "REV.17.16": "De ti hornene som du så, og dyret, de skal hate horen, og de vil gjøre henne øde og naken. Hennes kjøtt skal de ete, og brenne henne opp med ild.",
-  "REV.17.17": "For Gud innga dem i hjertet å utføre hans plan, og å fullføre én og samme tanke, og å gi dyret sitt rike inntil Guds ord er blitt fullbyrdet.",
-  "REV.17.18": "Og kvinnen som du så, er den store byen som har kongedømme over kongene på jorden.",
-  "REV.18.1": "Deretter så jeg en annen engel stige ned fra himmelen. Han hadde stor makt, og jorden ble opplyst av hans herlighet.",
-  "REV.18.2": "Han ropte med sterk røst og sa: Falt, falt er Babylon den store! Den er blitt et tilholdssted for onde ånder - et fengsel for hver uren ånd, og et fengsel for hver uren og hatet fugl.",
-  "REV.18.3": "For av hennes horelivs vredesvin har alle folk drukket. Kongene på jorden har drevet hor med henne, og kjøpmennene på jorden er blitt rike av hennes overdådige vellevnet.",
-  "REV.18.4": "Og jeg hørte en annen røst fra himmelen si: Kom ut fra henne, mitt folk, for at dere ikke skal ha del i hennes synder, og for at dere ikke skal få del i hennes plager!",
-  "REV.18.5": "For hennes synder når like til himmelen, og Gud har kommet i hu hennes urettferdige gjerninger.",
-  "REV.18.6": "Gi henne igjen som hun har gitt! Gjengjeld henne dobbelt etter hennes gjerninger! Skjenk henne dobbelt i det begeret hun selv har fylt!",
-  "REV.18.7": "Så mye som hun har opphøyet seg selv og levd i overflod, så mye skal dere gi henne av pine og sorg. Fordi hun sier i sitt hjerte: Jeg sitter som dronning og er ikke enke, sorg skal jeg aldri se! -",
-  "REV.18.8": "derfor skal hennes plager komme på én dag: død og sorg og hungersnød. Hun skal bli oppbrent med ild. For sterk er Gud Herren, som dømte henne.",
-  "REV.18.9": "Kongene på jorden, de som har drevet hor med henne og levd i overdådighet med henne, skal gråte og jamre seg over henne, når de ser røken fra hennes brann.",
-  "REV.18.10": "Av frykt for hennes pine står de langt borte, og de skal si: Ve, ve du store by Babylon, du mektige by! På én time er din dom kommet.",
-  "REV.18.11": "Og kjøpmennene på jorden skal gråte og sørge over henne, fordi ingen mer kjøper deres skipslaster,",
-  "REV.18.12": "skipslaster av gull og sølv og edelsteiner og perler, av fint lin og purpur og silke og skarlagen, all slags velluktende tre og all slags kar av elfenben og all slags kar av kostelig tre og av kobber og jern og marmor,",
-  "REV.18.13": "og kanel og salveolje og røkelse og myrra og virak, og vin og olje, fint mel og hvete, storfe og sauer, hester og vogner, treller og menneskesjeler.",
-  "REV.18.14": "Og den frukten som din sjel hadde lyst til, er blitt borte for deg. All glans og glitter er blitt borte for deg. Og aldri mer skal det finnes.",
-  "REV.18.15": "De som handler med slikt, de som er blitt rike ved henne, skal stå langt borte i redsel for hennes pine, gråtende og sørgende, og si:",
-  "REV.18.16": "Ve, ve den store byen! Du som var kledd i fint lin og purpur og skarlagen, og som lyste av gull og edelsteiner og perler",
-  "REV.18.17": "- at så stor en rikdom er ødelagt på én time! Hver styrmann og hver skipsfører og alle sjøfolk, og hver den som ferdes på havet, sto langt borte,",
-  "REV.18.18": "og de ropte da de så røken av hennes brann, og sa: Hvem er lik den store byen?",
-  "REV.18.19": "De strødde støv på sine hoder og ropte med gråt og sorg, og sa: Ve, ve den store byen, hvor alle som har skip i sjøen, er blitt rike av hennes kostbarheter. For på én time er den lagt øde!",
-  "REV.18.20": "Fryd deg over den, du himmel, og dere hellige, og dere apostler og profeter, fordi Gud har holdt dom over den for dere!",
-  "REV.18.21": "Og en mektig engel løftet en stein, som en stor kvernstein, og kastet den i havet og sa: Slik skal Babylon, den store byen, med ett styrtes ned og aldri finnes mer.",
-  "REV.18.22": "Lyd av harpespillere og sangere og fløytespillere og basunblåsere - aldri mer skal det høres i deg. Håndverkere av alle slag skal aldri bli funnet i deg mer, og lyd av kvern skal aldri mer bli hørt i deg.",
-  "REV.18.23": "Lys av lampe skal ikke mer skinne i deg. Røst av brudgom og brud skal aldri mer høres i deg. For dine kjøpmenn var jordens stormenn, og alle folk ble ført vill ved din trolldom.",
-  "REV.18.24": "I denne byen ble funnet blod av profeter og hellige og av alle dem som er blitt myrdet på jorden.",
-  "REV.19.1": "Deretter hørte jeg likesom en mektig lyd av en stor skare i himmelen, som sa: Halleluja! Frelsen og æren og makten tilhører vår Gud!",
-  "REV.19.2": "For sanne og rettferdige er hans dommer. For han har dømt den store horen, hun som ødela jorden med sitt horeliv, og han har krevd sine tjeneres blod av hennes hånd.",
-  "REV.19.3": "Og de sa annen gang: Halleluja! Røken av henne stiger opp i all evighet.",
-  "REV.19.4": "De tjuefire eldste og de fire livsvesener falt ned og tilba Gud, han som sitter på tronen, og sa: Amen! Halleluja!",
-  "REV.19.5": "Og fra tronen gikk det ut en røst som sa: Pris vår Gud, alle hans tjenere, dere som frykter ham, både små og store!",
-  "REV.19.6": "Og jeg hørte likesom en lyd av en stor skare, og som en lyd av mange vann, og som en lyd av sterke tordendrønn, som sa: Halleluja! For Gud Herren, Den Allmektige regjerer som konge!",
-  "REV.19.7": "La oss glede oss og fryde oss og gi ham æren! For Lammets bryllup er kommet, og hans brud har gjort seg rede.",
-  "REV.19.8": "Det er henne gitt å kle seg i rent og skinnende fint lin. For det fine linet er de helliges rettferdige gjerninger.",
-  "REV.19.9": "Og han sier til meg: Skriv: Salige er de som er innbudt til Lammets bryllupsmåltid! Han sier til meg: Dette er Guds sanne ord.",
-  "REV.19.10": "Da falt jeg ned for hans føtter for å tilbe ham, men han sier til meg: Vokt deg for det! Jeg er din og dine brødres medtjener, de som har Jesu vitnesbyrd. Gud skal du tilbe! For Jesu vitnesbyrd er profetordets ånd.",
-  "REV.19.11": "Og jeg så himmelen åpnet - og se: En hvit hest. Og han som sitter på den, heter Trofast og Sannferdig, og han dømmer og strider med rettferdighet.",
-  "REV.19.12": "Hans øyne er som ildslue. På hans hode er det mange kroner. Han har en innskrift med et navn som ingen kjenner uten han selv.",
-  "REV.19.13": "Han er iført en kledning som er dyppet i blod, og hans navn er Guds Ord.",
-  "REV.19.14": "Hærene i himmelen fulgte ham på hvite hester, kledd i fint lin, hvitt og rent.",
-  "REV.19.15": "Ut av hans munn går det et skarpt sverd, for at han med det skal slå hedningefolkene. Og han skal styre dem med jernstav. Han tråkker vinpressen med Guds, Den Allmektiges strenge vredes vin.",
-  "REV.19.16": "På sin kledning og på sin hofte har han et navn skrevet: Kongers konge og herrers herre.",
-  "REV.19.17": "Og jeg så en engel som sto i solen. Han ropte med høy røst til alle fuglene som flyr under himmelen: Kom hit og samle dere til Guds store måltid!",
-  "REV.19.18": "Dere skal få ete kjøtt av konger og kjøtt av hærførere og kjøtt av helter, og kjøtt av hester og dem som sitter på dem, og kjøtt av alle - både frie menn og treller, både små og store.",
-  "REV.19.19": "Jeg så dyret og jordens konger med sine hærer samlet til krig mot ham som satt på hesten, og mot hans hær.",
-  "REV.19.20": "Og dyret ble grepet, og sammen med det den falske profeten, han som hadde gjort tegn for dyrets øyne, og med disse tegnene hadde forført dem som tok dyrets merke og tilba dets bilde. Disse to ble kastet levende i ildsjøen som brenner med svovel.",
-  "REV.19.21": "De andre ble drept med sverdet som gikk ut fra hans munn som satt på hesten. Og alle fuglene ble mettet av deres kjøtt.",
-  "REV.20.1": "Og jeg så en engel stige ned fra himmelen med nøkkelen til avgrunnen og en stor lenke i sin hånd.",
-  "REV.20.2": "Han grep dragen, den gamle slangen, som er djevelen og Satan, og bandt ham for tusen år,",
-  "REV.20.3": "og kastet ham i avgrunnen, lukket til og satte segl over ham, for at han ikke lenger skulle forføre folkeslagene - ikke før de tusen år var til ende. Deretter må han slippes løs en kort tid.",
-  "REV.20.4": "Jeg så troner, og de satte seg på dem, og det ble gitt dem makt til å holde dom. Og jeg så deres sjeler som var blitt halshogd for Jesu vitnesbyrds skyld og for Guds ords skyld, og de som ikke hadde tilbedt dyret eller dets bilde, og som ikke hadde tatt merket på sin panne eller hånd. Og de ble levende og hersket sammen med Kristus i tusen år.",
-  "REV.20.5": "Men de andre døde ble ikke levende før de tusen år var gått. Dette er den første oppstandelsen.",
-  "REV.20.6": "Salig og hellig er den som har del i den første oppstandelsen. Over dem har den annen død ingen makt. De skal være Guds og Kristi prester, og regjere med ham i tusen år.",
-  "REV.20.7": "Og når de tusen år er til ende, skal Satan løses fra sitt fengsel.",
-  "REV.20.8": "Og han skal gå ut og forføre folkeslagene ved jordens fire hjørner, Gog og Magog, for å samle dem til strid. Og tallet på dem er som havets sand.",
-  "REV.20.9": "Og de dro opp over den vide jord og omringet de helliges leir og den elskede byen. Men ild falt ned fra himmelen og fortærte dem.",
-  "REV.20.10": "Og djevelen som forførte dem, ble kastet i sjøen med ild og svovel, hvor også dyret og den falske profeten var. Og de skal pines dag og natt i all evighet.",
-  "REV.20.11": "Jeg så en stor, hvit trone, og ham som satt på den. For hans åsyn vek jorden og himmelen bort, og det ble ikke funnet sted for dem.",
-  "REV.20.12": "Og jeg så de døde, små og store, stå for Gud, og bøker ble åpnet. Og en annen bok ble åpnet, som er livets bok. De døde ble dømt etter det som var skrevet i bøkene, etter sine gjerninger.",
-  "REV.20.13": "Havet ga tilbake de døde som var i det, og døden og dødsriket ga fra seg de døde som var i dem. Og de ble dømt, hver etter sine gjerninger.",
-  "REV.20.14": "Og døden og dødsriket ble kastet i ildsjøen. Dette er den annen død: ildsjøen.",
-  "REV.20.15": "Og hvis noen ikke ble funnet innskrevet i livets bok, ble han kastet i ildsjøen.",
-  "REV.21.1": "Og jeg så en ny himmel og en ny jord. For den første himmel og den første jord var veket bort, og havet er ikke mer.",
-  "REV.21.2": "Og jeg så den hellige by, det nye Jerusalem, stige ned ut av himmelen fra Gud, gjort i stand som en brud som er prydet for sin brudgom.",
-  "REV.21.3": "Fra tronen hørte jeg en høy røst som sa: Se, Guds bolig er hos menneskene. Han skal bo hos dem, og de skal være hans folk, og Gud selv skal være hos dem og være deres Gud.",
-  "REV.21.4": "Han skal tørke bort hver tåre fra deres øyne. Og døden skal ikke være mer, og ikke sorg, og ikke skrik, og ikke pine skal være mer. For de første ting er veket bort.",
-  "REV.21.5": "Og han som satt på tronen sa: Se, jeg gjør alle ting nye! Og han sier til meg: Skriv! For disse ordene er troverdige og sanne.",
-  "REV.21.6": "Så sa han til meg: Det er skjedd! Jeg er Alfa og Omega, begynnelsen og enden. Jeg vil gi den tørste å drikke av livets vannkilde for intet.",
-  "REV.21.7": "Den som seirer, skal arve alle ting. Jeg vil være hans Gud, og han skal være min sønn.",
-  "REV.21.8": "Men de feige og vantro og vanhellige og morderne og horkarene og trollmennene og avgudsdyrkerne og alle løgnere - deres del skal være i sjøen som brenner med ild og svovel. Det er den annen død.",
-  "REV.21.9": "Og en av de sju englene som hadde de sju skålene, fylt av de sju siste plagene, kom bort til meg og talte med meg, og han sa: Kom, jeg vil vise deg bruden, Lammets hustru.",
-  "REV.21.10": "Og han førte meg i ånden opp på et stort, høyt fjell. Og han viste meg den hellige by Jerusalem, som kom ned fra himmelen, fra Gud.",
-  "REV.21.11": "Den hadde Guds herlighet. Den strålte som den mest kostbare edelstein, som krystallklar jaspis.",
-  "REV.21.12": "Den hadde en stor og høy mur med tolv porter. Ved portene var det tolv engler. Der var skrevet navnene på Israels barns tolv stammer.",
-  "REV.21.13": "Mot øst var det tre porter, mot nord tre porter, mot sør tre porter, mot vest tre porter.",
-  "REV.21.14": "Og byens mur hadde tolv grunnsteiner, og på dem navnene på Lammets tolv apostler.",
-  "REV.21.15": "Han som talte med meg, hadde en målestav av gull for at han skulle måle byen og dens porter og dens mur.",
-  "REV.21.16": "Byen ligger i en firkant, lengden er så stor som bredden. Han målte byen med målestaven: Tolv tusen stadier - lengden og bredden og høyden av den er like.",
-  "REV.21.17": "Og han målte muren: Hundre og førtifire alen, etter menneskemål, som også er englemål.",
-  "REV.21.18": "Muren var bygd av jaspis, og byen var av rent gull, lik klart glass.",
-  "REV.21.19": "Grunnsteinene i byens mur var prydet med alle slags kostbare edelsteiner. Den første grunnsteinen var jaspis, den andre safir, den tredje kalkedon, den fjerde smaragd,",
-  "REV.21.20": "den femte sardonyks, den sjette sarder, den sjuende krysolitt, den åttende beryll, den niende topas, den tiende krysopras, den ellevte hyasint, den tolvte ametyst.",
-  "REV.21.21": "De tolv portene var tolv perler, hver av portene var én perle. Og byens gate var rent gull, som gjennomsiktig glass.",
-  "REV.21.22": "Noe tempel så jeg ikke i byen, for dens tempel er Gud Herren, Den Allmektige, og Lammet.",
-  "REV.21.23": "Byen trenger ikke lys fra solen eller månen. For Guds herlighet opplyser byen, og Lammet er dens lys.",
-  "REV.21.24": "Folkeslagene skal vandre i byens lys, og kongene på jorden bærer sin herlighet inn i den.",
-  "REV.21.25": "Dens porter skal aldri stenges om dagen, for natt skal ikke være der.",
-  "REV.21.26": "De skal bære folkeslagenes herlighet og ære inn i den.",
-  "REV.21.27": "Og ikke noe urent skal komme inn i byen, og ingen som farer med styggedom og løgn, men bare de som er innskrevet i livets bok hos Lammet.",
-  "REV.22.1": "Og han viste meg en elv med livets vann, klar som krystall, som strømmet ut fra Guds og Lammets trone,",
-  "REV.22.2": "midt i byens gate. På begge sider av elven sto livets tre, som bærer frukt tolv ganger og gir sin frukt hver måned. Og bladene på treet tjener til helse for folkeslagene.",
-  "REV.22.3": "Det skal ikke lenger være noen forbannelse. Guds og Lammets trone skal være i byen, og hans tjenere skal tjene ham.",
-  "REV.22.4": "De skal se hans åsyn, og hans navn skal være på deres panner.",
-  "REV.22.5": "Natt skal ikke være mer, og de trenger ikke lys av lampe og lys av sol, for Gud Herren skal lyse over dem. Og de skal være konger i all evighet.",
-  "REV.22.6": "Og han sa til meg: Disse ordene er troverdige og sanne. Og Herren, den Gud som gir profetene sin Ånd, har sendt sin engel for å vise sine tjenere det som snart skal skje.",
-  "REV.22.7": "Se, jeg kommer snart! Salig er den som holder fast på de profetiske ordene i denne boken.",
-  "REV.22.8": "Og jeg, Johannes, er den som hørte og så disse tingene. Da jeg hadde hørt og sett, falt jeg ned for å tilbe ved føttene til den engelen som hadde vist meg alt dette.",
-  "REV.22.9": "Men han sa til meg: Vokt deg for det! Jeg er medtjener med deg og dine brødre profetene, og med dem som holder fast på ordene i denne boken. Gud skal du tilbe!",
-  "REV.22.10": "Og han sier til meg: Sett ikke segl for de profetiske ordene i denne boken! For tiden er nær.",
-  "REV.22.11": "La den som gjør urett, fortsatt gjøre urett, og la den urene fortsatt bli uren! Og la den rettferdige fortsatt gjøre rettferdighet, og la den hellige fortsatt bli helliggjort!",
-  "REV.22.12": "Se, jeg kommer snart, og min lønn er med meg, for å gi enhver igjen etter som hans gjerning er.",
-  "REV.22.13": "Jeg er Alfa og Omega, den første og den siste, begynnelsen og enden.",
-  "REV.22.14": "Salige er de som vasker sine kapper, så de må få rett til livets tre, og til å gå gjennom portene inn i byen.",
-  "REV.22.15": "Men utenfor er hundene og trollmennene og de som driver hor og drapsmennene og avgudsdyrkerne og hver den som elsker og gjør løgn.",
-  "REV.22.16": "Jeg, Jesus, har sendt min engel for å vitne om dette for dere i menighetene. Jeg er Davids rot og ætt, den klare morgenstjerne.",
-  "REV.22.17": "Og Ånden og bruden sier: Kom! Og den som hører det, la ham si: Kom! Og den som tørster, han får komme! Og den som vil, han får ta livets vann for intet!",
-  "REV.22.18": "Jeg vitner for enhver som hører de profetiske ordene i denne boken: Dersom noen legger noe til dette, da skal Gud legge på ham de plagene som det er skrevet om i denne boken.",
-  "REV.22.19": "Og dersom noen tar noe bort fra ordene i denne profetiske boken, da skal Gud ta bort hans del fra livets tre og fra den hellige byen, som det er skrevet om i denne boken.",
-  "REV.22.20": "Han som vitner dette, sier: Ja, jeg kommer snart! Amen, ja kom, Herre Jesus!",
-  "REV.22.21": "Vår Herre Jesu Kristi nåde være med dere alle! Amen!"
+  "REV.1.1": {
+    "text": "Jesu Kristi åpenbaring, som Gud ga ham for at han skulle vise sine tjenere det som må skje i hast. Han sendte bud ved sin engel og kunngjorde det i tegn for sin tjener Johannes,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.19. 22:6,7,16. Dan 2:28,30.",
+        "refs": []
+      }
+    ],
+    "section": "Åpenbaring om det som må skje i hast"
+  },
+  "REV.1.2": {
+    "text": "som har vitnet om Guds ord og Jesu Kristi vitnesbyrd, alt det han så.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Joh 1:1-3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.3": {
+    "text": "Salig er den som leser og de som hører det profetiske ord og holder fast på det som der står skrevet. For tiden er nær.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "22:7,10. Luk 11:28. Jak 5:8. 1Pet 4:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.4": {
+    "text": "Johannes, til de sju menighetene i Asia: Nåde være med dere og fred fra ham som er og som var og som kommer, og fra de sju ånder som er for hans trone,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.8,11. 3:1. 4:8. 11:17. 16:5. 2Mos 3:14. Heb 13:8.",
+        "refs": []
+      }
+    ],
+    "section": "Hilsen til de sju menighetene i Asia"
+  },
+  "REV.1.5": {
+    "text": "og fra Jesus Kristus, det troverdige vitne, den førstefødte av de døde og herskeren over kongene på jorden. Han som elsker oss og løste oss fra våre synder med sitt blod,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:14. 17:14. 19:11,16. Jes 55:4. Joh 8:14.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Kor 15:20. Kol 1:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.6": {
+    "text": "og som gjorde oss til et kongerike, til prester for Gud, sin Far - ham være æren og makten i all evighet. Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:10. Jes 61:6. Rom 11:36. 12:1. 1Pet 2:5,9. Jud 25.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.7": {
+    "text": "Se, han kommer med skyene, og hvert øye skal se ham, også de som har gjennomstunget ham. Og alle jordens slekter skal gråte sårt over ham. Ja, amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 7:13. Sak 12:10.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Matt 24:30. 26:64. Luk 23:38. Joh 19:37. Apg 1:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.8": {
+    "text": "Jeg er Alfa og Omega, sier Gud Herren, han som er og som var og som kommer, Den Allmektige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:4. 2:8. 21:6. 22:13. Jes 41:4. 44:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.9": {
+    "text": "Jeg, Johannes, som er deres bror, og har del med dere i trengselen og riket og tålmodet i Jesus, jeg var på den øya som kalles Patmos, for Guds ords og Jesu vitnesbyrds skyld.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:9. Rom 8:17. 2Tim 2:12.",
+        "refs": []
+      }
+    ],
+    "section": "Johannes møter Jesus"
+  },
+  "REV.1.10": {
+    "text": "Jeg var bortrykket i Ånden på Herrens dag. Og jeg hørte bak meg en veldig røst, likesom av en basun,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:2. 10:3,8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.11": {
+    "text": "som sa: Det du ser, skriv det i en bok og send det til de sju menighetene, til Efesus og til Smyrna og til Pergamum og til Tyatira og til Sardes og til Filadelfia og til Laodikea.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:1,8,12,18. 3:1,7,14. Jes 30:8. Kol 2:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.12": {
+    "text": "Jeg vendte meg om for å se røsten som talte til meg, og da jeg vendte meg, fikk jeg øye på sju lysestaker av gull.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.20. Sak 4:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.13": {
+    "text": "Og midt mellom lysestakene var det en som lignet en menneskesønn. Han var kledd i en fotsid kappe, ombundet med et gullbelte under brystet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:1. 15:6. Dan 7:13. 10:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.14": {
+    "text": "Hans hode og hår var hvitt som hvit ull, som snø, og øynene hans som en ildslue.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:18. 19:12. Dan 7:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.15": {
+    "text": "Føttene hans var lik skinnende kobber, som om de var glødet i en ovn. Og røsten hans var som bruset av vannmasser.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:18. 14:2. 19:6. Esek 1:7,24. 43:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.16": {
+    "text": "I sin høyre hånd hadde han sju stjerner og av munnen hans gikk det ut et tveegget, skarpt sverd. Og ansiktet hans var som solen når den skinner i sin kraft.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:20. 2:1,12,16. 3:1.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "19:15. Jes 49:2. Matt 17:2. Ef 6:17. Heb 4:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.17": {
+    "text": "Da jeg fikk se ham, falt jeg ned for hans føtter som død. Men han la sin høyre hånd på meg og sa: Frykt ikke! Jeg er den første og den siste",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 8:17. 10:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.18": {
+    "text": "og den levende. Jeg var død, og se, jeg er levende i all evighet. Og jeg har nøklene til døden og dødsriket.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:8. 20:1. Job 12:14. Sal 68:21. Jes 41:4. 44:6.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Matt 14:27. Rom 6:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.19": {
+    "text": "Skriv det du så, det som nå er, og det som skal komme etter dette,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.11. 4:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.1.20": {
+    "text": "og hemmeligheten med de sju stjernene som du så i min høyre hånd, og de sju gullysestakene: De sju stjernene er engler for de sju menighetene, og de sju lysestakene er sju menighetene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.12,16. 2:1. Mal 2:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.1": {
+    "text": "Skriv til engelen for menigheten i Efesus: Dette sier han som holder de sju stjernene i sin høyre hånd, han som går midt mellom de sju lysestaker av gull:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:13,16,20.",
+        "refs": []
+      }
+    ],
+    "section": "Til menigheten i Efesus"
+  },
+  "REV.2.2": {
+    "text": "Jeg vet om dine gjerninger og ditt arbeid og din utholdenhet, og at du ikke kan tåle de onde. Du har prøvd dem som kaller seg selv apostler, og ikke er det, og du har funnet at de er løgnere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:13,19. 3:1,8,15.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2Kor 11:13. 1Tess 1:3. 1Joh 4:1,2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.3": {
+    "text": "Du har tålmodighet, du har hatt mye å bære for mitt navns skyld, og du er ikke gått trett.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Heb 6:12. 10:36.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.4": {
+    "text": "Men jeg har imot deg at du har forlatt din første kjærlighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.14,20. Matt 24:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.5": {
+    "text": "Husk derfor hva du er falt fra. Omvend deg, og gjør de første gjerninger! Men hvis ikke, så kommer jeg brått over deg og jeg vil flytte din lysestake bort fra sitt sted - hvis du ikke omvender deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:16,22. 3:3,19. Mark 1:15. Heb 10:32.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.6": {
+    "text": "Men du har dette: Du hater nikolaittenes gjerninger, som jeg òg hater.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.7": {
+    "text": "Den som har øre, han høre hva Ånden sier til menighetene: Den som seirer, ham vil jeg gi å ete av livets tre, som er i Guds Paradis!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:17,26. 3:6,12. 22:2. 1Mos 2:9. 3:3,22.Matt 11:15. 13:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.8": {
+    "text": "Og skriv til engelen for menigheten i Smyrna: Dette sier den første og den siste, han som var død og er blitt levende:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:11,18. Jes 41:4. 44:6. 48:12.",
+        "refs": []
+      }
+    ],
+    "section": "Til menigheten i Smyrna"
+  },
+  "REV.2.9": {
+    "text": "Jeg vet om din trengsel og din fattigdom - men du er rik - og om spotten fra dem som sier de er jøder, men ikke er det, men er Satans synagoge.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:9. Joh 8:39,44. Rom 2:28. Jak 2:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.10": {
+    "text": "Frykt ikke for det du skal lide! Se, djevelen skal kaste noen av dere i fengsel, for at dere skal bli satt på prøve, og dere skal ha trengsel i ti dager. Vær tro inntil døden, så vil jeg gi deg livets krone.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:11. Matt 10:22,28.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Kor 9:25. 2Tim 4:7,8. Heb 3:14. Jak 1:12. 1Pet 3:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.11": {
+    "text": "Den som har øre, han høre hva Ånden sier til menighetene: Den som seirer, skal slett ikke rammes av den annen død.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.7. 20:6,14. 21:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.12": {
+    "text": "Og skriv til engelen for menigheten i Pergamum: Dette sier han som har det tveeggede skarpe sverd:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:16. Jes 49:2.",
+        "refs": []
+      }
+    ],
+    "section": "Til menigheten i Pergamum"
+  },
+  "REV.2.13": {
+    "text": "Jeg vet hvor du bor, der hvor Satan har sin trone. Og du holder fast ved mitt navn. Du fornektet ikke min tro, heller ikke i de dager da Antipas var mitt trofaste vitne, han som ble slått i hjel hos dere, der hvor Satan bor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.14": {
+    "text": "Men jeg har noen få ting imot deg: Du har noen der som holder fast ved Bileams lære, han som lærte Balak å legge anstøt for Israels barn - å ete avgudsoffer og drive hor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.4. 4Mos 25:1. 31:16. 2Pet 2:15. Jud 11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.15": {
+    "text": "Slik har også du noen som på samme vis holder fast ved nikolaittenes lære.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.16": {
+    "text": "Omvend deg! Ellers kommer jeg snart over deg og vil kjempe mot dem med min munns sverd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:16. 19:15,21. Jes 11:4. Ef 6:17. 2Tess 2:8. Heb 4:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.17": {
+    "text": "Den som har øre, han høre hva Ånden sier til menighetene: Den som seirer, ham vil jeg gi av den skjulte manna. Og jeg vil gi ham en hvit stein, og på steinen er et nytt navn skrevet som ingen kjenner uten den som får det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.7,11. 3:12. 19:12.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2Mos 16:4,32. Jes 62:2. 65:15. Joh 6:50,51.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.18": {
+    "text": "Og skriv til engelen for menigheten i Tyatira: Dette sier Guds Sønn, han som har øyne som ildslue og føtter som skinnende kobber:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:14,15. Apg 16:14.",
+        "refs": []
+      }
+    ],
+    "section": "Til menigheten i Tyatira"
+  },
+  "REV.2.19": {
+    "text": "Jeg vet om dine gjerninger og din kjærlighet og din tjeneste, din tro og tålmodighet, og dine siste gjerninger, som er flere enn de første.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.2,9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.20": {
+    "text": "Men jeg har imot deg at du tåler kvinnen Jesabel, hun som sier at hun er en profetinne, og som lærer og forfører mine tjenere til å drive hor og ete avgudsoffer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.14. 1Kong 16:31.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2Kong 9:7,22. Apg 15:20. 1Kor 10:19,20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.21": {
+    "text": "Jeg ga henne tid til å omvende seg, men hun ville ikke omvende seg fra sitt horeliv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 2:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.22": {
+    "text": "Se, jeg kaster henne på sykeseng. Og de som begår ekteskapsbrudd med henne, skal komme i stor trengsel, hvis de ikke omvender seg fra hennes gjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "18:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.23": {
+    "text": "Hennes barn vil jeg rykke bort ved død. Og alle menighetene skal kjenne at jeg er den som gransker nyrer og hjerter, og jeg vil gi hver av dere etter hans gjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 7:10.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "62:13. Jer 11:20. 17:10. Matt 16:27. Rom 2:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.24": {
+    "text": "Men dere andre i Tyatira, alle de som ikke har denne læren og ikke kjenner Satans dybder, som de sier - til dere sier jeg: Jeg legger ikke noen annen byrde på dere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.2.25": {
+    "text": "Hold bare fast på det dere har, inntil jeg kommer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.26": {
+    "text": "Den som seirer, og som tar vare på mine gjerninger inntil enden, ham vil jeg gi makt over folkeslagene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.17. Sal 2:8,9. 1Kor 6:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.27": {
+    "text": "Han skal styre dem med jernstav og knuse dem som leirkar, slik som også jeg har fått det av min Far.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:21. 12:5. 19:15. Luk 22:29.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.28": {
+    "text": "Og jeg vil gi ham morgenstjernen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "22:16. 2Pet 1:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.2.29": {
+    "text": "Den som har øre, han høre hva Ånden sier til menighetene!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.7,11,17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.1": {
+    "text": "Og skriv til engelen for menigheten i Sardes: Dette sier han som har de sju Guds ånder og de sju stjernene: Jeg vet om dine gjerninger, at du har navn av at du lever, men du er død.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:4,16. 4:5. Matt 8:22. Luk 15:24. 1Tim 5:6.",
+        "refs": []
+      }
+    ],
+    "section": "Til menigheten i Sardes"
+  },
+  "REV.3.2": {
+    "text": "Våkn opp, og styrk det andre som var i ferd med å dø. For jeg har ikke funnet dine gjerninger fullkomne for min Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 22:32. 1Kor 15:34. Ef 5:14. 1Tim 5:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.3": {
+    "text": "Husk derfor hvordan du har mottatt og hørt. Hold fast på det og omvend deg! Dersom du ikke våker, skal jeg komme som en tyv, og du skal slett ikke vite hvilken time jeg kommer over deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:5. 3:19. 16:15. Matt 24:43. 1Tess 5:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.4": {
+    "text": "Men du har noen få navn i Sardes som ikke har sølt til klærne sine. De skal gå med meg i hvite klær, for de er verdige til det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.18. 4:4. 6:11. 7:9,13. 19:14. Jud 23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.5": {
+    "text": "Den som seirer skal på samme vis bli kledd i hvite klær. Jeg skal så visst ikke utslette hans navn av livets bok, og jeg vil kjennes ved hans navn for min Far og for hans engler.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:8. 17:8. 20:12,15. 21:27.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2Mos 32:32. Matt 10:32. Fil 4:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.6": {
+    "text": "Den som har øre, han høre hva Ånden sier til menighetene!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.3.7": {
+    "text": "Og skriv til engelen for menigheten i Filadelfia: Dette sier Den Hellige, Den Sannferdige, han som har Davids nøkkel, han som lukker opp og ingen lukker igjen, og som lukker igjen og ingen lukker opp:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:18. Job 12:14. Jes 22:22. 1Joh 5:20.",
+        "refs": []
+      }
+    ],
+    "section": "Til menigheten i Filadelfia"
+  },
+  "REV.3.8": {
+    "text": "Jeg vet om dine gjerninger: Se, jeg har satt foran deg en åpnet dør, og ingen kan lukke den igjen. For du har liten styrke, og har holdt fast på mitt ord og ikke fornektet mitt navn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 14:27.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.9": {
+    "text": "Se, jeg lar noen av Satans synagoge komme, de som kaller seg selv jøder og ikke er det, men lyver. Jeg vil gjøre det så at de skal komme og falle ned for dine føtter, og de skal forstå at jeg har elsket deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:9. Jes 60:14. Rom 2:28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.10": {
+    "text": "Fordi du har bevart mitt ord om tålmodighet, vil jeg bevare deg fra den prøvelsens time som skal komme over hele verden, for å prøve dem som bor på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 24:21 f. Joh 17:15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.11": {
+    "text": "Jeg kommer snart! Hold fast på det du har, for at ingen skal ta din krone.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "22:7,12. 1Kor 9:25. Fil 4:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.12": {
+    "text": "Den som seirer, ham vil jeg gjøre til en støtte i min Guds tempel, og han skal aldri mer gå ut derfra. Og jeg vil skrive på ham min Guds navn, og navnet på min Guds by - det nye Jerusalem, som kommer ned fra himmelen fra min Gud - og mitt eget navn, det nye.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:1. 21:2,10. 22:4. Gal 2:9. 4:26. Heb 12:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.13": {
+    "text": "Den som har øre, han høre hva Ånden sier til menighetene!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.3.14": {
+    "text": "Og skriv til engelen for menigheten i Laodikea: Dette sier han som er Amen, det trofaste og sannferdige vitne, opphavet til Guds skaperverk:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.7. Kol 1:15,16. 2:1. 4:13,15,16.",
+        "refs": []
+      }
+    ],
+    "section": "Til menigheten i Laodikea"
+  },
+  "REV.3.15": {
+    "text": "Jeg vet om dine gjerninger, at du verken er kald eller varm. Det hadde vært godt om du var kald eller varm.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.3.16": {
+    "text": "Men fordi du er lunken, og verken kald eller varm, vil jeg spy deg ut av min munn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 12:30.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.17": {
+    "text": "Fordi du sier: Jeg er rik, jeg har overflod og har ingen nød - og du vet ikke at du er ussel og ynkelig og fattig og blind og naken,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:15. 1Kor 4:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.18": {
+    "text": "så råder jeg deg at du kjøper av meg: Gull, lutret i ild, for at du kan bli rik, og hvite klær, for at du kan være kledd i dem og din nakenhets skam ikke skal bli stilt til skue, og øyensalve til å salve dine øyne med, for at du kan se.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:15. 19:8. Jes 55:1. 1Pet 1:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.19": {
+    "text": "Alle dem jeg elsker, dem refser og tukter jeg. Derfor, ta det alvorlig og omvend deg!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:5,16. Job 5:17.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ord 3:12. 1Kor 11:32. Heb 12:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.20": {
+    "text": "Se, jeg står for døren og banker. Om noen hører min røst og åpner døren, da vil jeg gå inn til ham og holde nattverd med ham, og han med meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 12:36. 22:29,30. Joh 14:21,23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.21": {
+    "text": "Den som seirer, ham vil jeg gi å sitte med meg på min trone, likesom jeg òg har seiret og har satt meg med min Far på hans trone.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "20:4. Matt 19:28. Joh 17:24. 1Kor 6:2. 2Tim 2:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.3.22": {
+    "text": "Den som har øre, han høre hva Ånden sier til menighetene!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.4.1": {
+    "text": "Deretter så jeg - og se, en dør var åpnet i himmelen. Og den første røsten som jeg hadde hørt tale til meg som en basun, sa: Kom opp her, og jeg vil vise deg det som skal skje etter dette.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:10. Apg 10:11.",
+        "refs": []
+      }
+    ],
+    "section": "For Guds trone i himmelen"
+  },
+  "REV.4.2": {
+    "text": "Straks ble jeg rykket bort i Ånden. Og se, en trone var satt i himmelen, og det satt en på tronen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:10. 5:1.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Kong 22:19. Sal 47:9. Jes 6:1. Esek 1:26 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.4.3": {
+    "text": "Han som satt der, var å se til som jaspis-stein og sarder-stein. Og rundt tronen var det en regnbue, som en smaragd å se til.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.4.4": {
+    "text": "Rundt omkring tronen var det tjuefire troner, og på tronene satt det tjuefire eldste, kledd i hvite klær og med kroner av gull på sine hoder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:4. 11:16. Matt 19:28. 2Tim 2:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.4.5": {
+    "text": "Fra tronen går det ut lyn og røster og tordendrønn, og sju ildfakler brenner foran tronen, det er de sju Guds ånder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:4. 3:1. 5:6. 2Mos 19:16. Sak 4:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.4.6": {
+    "text": "Og foran tronen er det likesom et glasshav, likt krystall. Og midt for tronen og omkring den, er det fire livsvesener, fulle av øyne foran og bak.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:2. 2Mos 24:10. Esek 1:5 ff. 10:14 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.4.7": {
+    "text": "Det første livsvesen er likt en løve, det andre livsvesen er likt en okse, det tredje livsvesen har ansikt som på et menneske, og det fjerde livsvesen er likt en ørn i flukt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 1:10. 10:14.",
+        "refs": []
+      }
+    ],
+    "section": "De fire livsvesener"
+  },
+  "REV.4.8": {
+    "text": "De fire livsvesener, hvert enkelt av dem, har seks vinger. Og de er fullsatt av øyne, både rundt om og under vingene. Natt og dag sier de uten opphold: Hellig, hellig, hellig er Herren Gud, Den Allmektige, han som var og som er og som kommer!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:4,8. 11:7. Jes 6:2,3. Esek 10:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.4.9": {
+    "text": "Og når de fire livsvesener gir pris og ære og takk til ham som sitter på tronen, han som lever i all evighet,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.4.10": {
+    "text": "da faller de tjuefire eldste ned for ham som sitter på tronen, og tilber ham som lever i all evighet, og kaster sine kroner ned for tronen og sier:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 4:34. 6:27. 12:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.4.11": {
+    "text": "Verdig er du, vår Herre og Gud, til å få lovprisningen og æren og makten. For du har skapt alle ting, og på grunn av din vilje ble de til og ble de skapt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:12. 10:6. 14:7. Apg 14:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.1": {
+    "text": "Og jeg så at han som satt på tronen hadde en bokrull i sin høyre hånd. Det var skrevet både inne i den og utenpå, og den var forseglet med sju segl.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:2. Jes 29:11. Esek 2:9,10.",
+        "refs": []
+      }
+    ],
+    "section": "Boken med de sju seglene"
+  },
+  "REV.5.2": {
+    "text": "Og jeg så en mektig engel som ropte med høy røst: Hvem er verdig til å åpne boken og bryte seglene på den?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:1. 18:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.3": {
+    "text": "Og det var ingen i himmelen eller på jorden eller under jorden som kunne åpne boken eller se i den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.5.4": {
+    "text": "Da gråt jeg sårt fordi ingen var funnet verdig til å åpne boken eller se i den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.5.5": {
+    "text": "Men en av de eldste sier til meg: Gråt ikke! Se, løven av Judas stamme, Davids rot, har seiret. Han kan åpne boken og de sju seglene på den.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "22:16. 1Mos 49:9,10.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jes 11:1,10. Rom 15:12. Heb 7:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.6": {
+    "text": "Og jeg så - og se: Midt mellom tronen og de fire livsvesener og de eldste, sto det et lam, likesom det hadde vært slaktet. Det hadde sju horn og sju øyne, det er de sju Guds ånder som er sendt ut over hele jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:4. 13:3. 14:1. Sak 3:9. 4:10. Joh 1:29. 1Pet 1:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.7": {
+    "text": "Lammet kom bort til ham som satt på tronen, og tok boken av hans høyre hånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.1. 4:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.8": {
+    "text": "Da det tok boken, falt de fire livsvesener og de tjuefire eldste ned for Lammet. Hver av dem hadde en harpe, og gullskåler fulle av røkelse, - det er de helliges bønner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:3,4. Sal 141:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.9": {
+    "text": "Og de synger en ny sang og sier: Verdig er du til å ta imot boken og åpne seglene på den, fordi du ble slaktet og med ditt blod kjøpte oss til Gud av hver stamme og tunge og folk og ætt,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:3. Sal 96:1. 98:1. Jes 42:10.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Apg 20:28. 1Kor 6:20. 7:23. Ef 1:7. Heb 9:12. 10:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.10": {
+    "text": "og gjorde dem til et kongerike og til prester for vår Gud. Og de skal herske som konger på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:6. 20:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.11": {
+    "text": "Og jeg så, og jeg hørte røsten av mange engler omkring tronen og de fire livsvesener og de eldste - tallet på dem var ti tusen ganger ti tusen og tusen ganger tusen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 7:10. Heb 12:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.12": {
+    "text": "De sa med høy røst: Verdig er Lammet, som ble slaktet, til å få makt og rikdom og visdom og styrke og ære og pris og velsignelse!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:11. 7:10,12. 13:8. 1Krøn 29:11. Joh 1:29.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.13": {
+    "text": "Og hver skapning som er i himmelen og på jorden og under jorden og på havet, og alt det som er i dem, hørte jeg si: Ham som sitter på tronen, og Lammet, tilhører velsignelsen og æren og lovprisningen og makten i all evighet!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.3. Sal 148:1. Fil 2:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.5.14": {
+    "text": "Og de fire livsvesener sa: Amen! Og de eldste falt ned og tilba.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:10. 7:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.1": {
+    "text": "Og jeg så at Lammet åpnet det første av de sju seglene, og jeg hørte et av de fire livsvesener si som med tordenrøst: Kom!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:6,7. 5:1.",
+        "refs": []
+      }
+    ],
+    "section": "De seks første seglene blir åpnet"
+  },
+  "REV.6.2": {
+    "text": "Og jeg så - og se: En hvit hest, og han som satt på den, hadde en bue, og det ble gitt ham en krone, og han dro ut med seier og for å seire.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "19:11. Sak 1:8. 6:3,6,11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.3": {
+    "text": "Da Lammet åpnet det andre seglet, hørte jeg det andre livsvesen si: Kom!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.6.4": {
+    "text": "Og en annen hest dro ut, som var rød. Han som satt på den, ble det gitt å ta freden bort fra jorden, så de skulle slakte hverandre. Og det ble gitt ham et stort sverd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sak 1:8. 6:2. Matt 24:6,7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.5": {
+    "text": "Da Lammet åpnet det tredje seglet, hørte jeg det tredje livsvesen si: Kom! Og jeg så - og se: En svart hest, og han som satt på den, hadde en vekt i hånden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sak 6:2,6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.6": {
+    "text": "Og jeg hørte likesom en røst midt iblant de fire livsvesener, og den sa: Et mål hvete for en denar, og tre mål bygg for en denar. Men oljen og vinen skal du ikke skade.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.6.7": {
+    "text": "Da Lammet åpnet det fjerde seglet, hørte jeg røsten av det fjerde livsvesen, som sa: Kom!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.6.8": {
+    "text": "Da så jeg - og se: En gulblek hest. Han som satt på den, hans navn var Døden, og dødsriket fulgte med ham. Og det ble gitt dem makt over fjerdedelen av jorden, til å drepe med sverd og med hungersnød og med pest, og ved villdyrene på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 14:13 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.9": {
+    "text": "Og da Lammet åpnet det femte seglet, så jeg under alteret deres sjeler som var blitt slått i hjel for Guds ords skyld og på grunn av det vitnesbyrd som de hadde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:9. 8:3. 9:13. 14:18. 19:10. 20:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.10": {
+    "text": "De ropte med høy røst og sa: Herre, du hellige og sannferdige! Hvor lenge skal det vare før du holder dom og hevner vårt blod på dem som bor på jorden?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 79:5. Sak 1:12. Luk 18:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.11": {
+    "text": "Og det ble gitt hver av dem en lang, hvit kappe. Og det ble sagt til dem at de skulle slå seg til tåls ennå en liten stund, inntil tallet på deres medtjenere og brødre var fullt, de som skulle bli slått i hjel likesom de selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:4,5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.12": {
+    "text": "Og jeg så da Lammet åpnet det sjette seglet - og se: Det ble et stort jordskjelv, og solen ble svart som en sekk av hår, og hele månen ble som blod.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:18. Jes 50:3. Joel 2:3. Luk 21:25. Apg 2:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.13": {
+    "text": "Og himmelens stjerner falt ned på jorden, som et fikentre kaster ned sine umodne fiken når det ristes av sterk vind.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 34:4. Matt 24:29.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.14": {
+    "text": "Og himmelen vek bort, likesom en bokrull som rulles sammen. Og hvert fjell og hver øy ble flyttet fra sitt sted.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:20. Sal 102:27. Luk 21:33. Heb 1:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.15": {
+    "text": "Kongene på jorden og stormennene og hærførerne og de rike og de mektige, hver trell og hver fri mann, gjemte seg i hulene og mellom berghamrene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "19:18,19. Jes 2:10,19,21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.16": {
+    "text": "Og de sier til fjell og klipper: Fall over oss og skjul oss for hans åsyn som sitter på tronen, og for Lammets vrede.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:6. Hos 10:8. Luk 23:30.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.6.17": {
+    "text": "For deres store vredesdag er kommet, og hvem kan da bli stående?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 13:9. Jer 30:7. Joel 2:11. Mal 3:2. Rom 2:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.1": {
+    "text": "Deretter så jeg fire englene som sto ved jordens fire hjørner og holdt på jordens fire vinder, for at det ikke skulle blåse noen vind over jorden eller over havet eller på noe tre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:14. Esek 37:9. Dan 7:2. Sak 6:5.",
+        "refs": []
+      }
+    ],
+    "section": "De hundre og førtifire tusen blir beseglet"
+  },
+  "REV.7.2": {
+    "text": "Og jeg så en annen engel, som steg opp fra soloppgangen, og som hadde den levende Guds segl. Han ropte med høy røst til de fire engler som det var gitt å skade jorden og havet,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.7.3": {
+    "text": "og sa: Skad ikke jorden eller havet eller trærne før vi har satt et segl på vår Guds tjenere i deres panner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:4. Esek 9:4,6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.4": {
+    "text": "Og jeg hørte tallet på dem som var beseglet. Det var hundre og førtifire tusen av alle Israels barns stammer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:1,3. 21:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.5": {
+    "text": "Av Judas stamme tolv tusen beseglede, av Rubens stamme tolv tusen, av Gads stamme tolv tusen,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.7.6": {
+    "text": "av Asjers stamme tolv tusen, av Naftalis stamme tolv tusen, av Manasses stamme tolv tusen,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.7.7": {
+    "text": "av Simeons stamme tolv tusen, av Levis stamme tolv tusen, av Issakars stamme tolv tusen,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.7.8": {
+    "text": "av Sebulons stamme tolv tusen, av Josefs stamme tolv tusen, av Benjamins stamme tolv tusen beseglede.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.7.9": {
+    "text": "Deretter så jeg - og se: En stor skare som ingen kunne telle, av alle folkeslag og stammer og folk og tungemål. De sto for tronen og for Lammet, kledd i lange, hvite kapper, og med palmegreiner i sine hender.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5,18. 5:9. 19:8.",
+        "refs": []
+      }
+    ],
+    "section": "Den store, hvite flokk"
+  },
+  "REV.7.10": {
+    "text": "Og de ropte med høy røst og sa: Frelsen tilhører vår Gud, han som sitter på tronen, og Lammet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:13. 12:10. 19:1. Sal 3:9. Jes 43:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.11": {
+    "text": "Alle englene sto omkring tronen og om de eldste og om de fire livsvesener, og de falt ned for tronen på sitt ansikt og tilba Gud,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:4,6,10. 5:11,12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.12": {
+    "text": "og sa: Amen! Velsignelsen og herligheten og visdommen og takken og æren og makten og styrken tilhører vår Gud i all evighet! Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:12,14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.13": {
+    "text": "Og en av de eldste tok til orde og sa til meg: Disse som er kledd i de lange hvite kappene - hvem er de? Og hvor er de kommet fra?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.9. 3:4. 6:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.14": {
+    "text": "Jeg sa til ham: Herre, du vet det! Og han sa til meg: Dette er de som kommer ut av den store trengsel, og de har vasket sine kapper og gjort dem hvite i Lammets blod.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:5. 22:14.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Dan 12:10. Matt 24:21,22. Heb 9:14. 1Joh 1:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.15": {
+    "text": "Derfor er de for Guds trone og tjener ham dag og natt i hans tempel, og han som sitter på tronen, skal reise sin bolig over dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:2. 21:3. 22:3. Jes 4:5,6. Esek 37:27.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.16": {
+    "text": "De skal ikke hungre mer, heller ikke tørste mer. Solen skal ikke falle på dem, eller noen hete.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 121:6. Jes 49:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.7.17": {
+    "text": "For Lammet, som er midt for tronen, skal vokte dem og føre dem til livets vannkilder. Og Gud skal tørke bort hver tåre fra deres øyne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:6. 21:4,6. 22:17. Sal 23:2. Jes 25:8. Joh 10:10,11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.8.1": {
+    "text": "Da Lammet åpnet det sjuende seglet, ble det stillhet i himmelen omkring en halv time.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:1.",
+        "refs": []
+      }
+    ],
+    "section": "Det sjuende seglet blir åpnet"
+  },
+  "REV.8.2": {
+    "text": "Og jeg så de sju englene som står for Gud, og det ble gitt dem sju basuner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 24:31. 1Kor 15:52. 1Tess 4:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.8.3": {
+    "text": "En annen engel kom og sto ved alteret. Han hadde et røkelseskar av gull. Og det ble gitt ham en stor mengde røkelse for at han skulle legge den til de helliges bønner på gullalteret foran tronen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:8. 6:9. 9:13.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2Mos 30:7. Sal 141:2. Luk 1:9 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.8.4": {
+    "text": "Og røken av røkelsen steg fra engelens hånd opp for Gud sammen med de helliges bønner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 10:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.8.5": {
+    "text": "Og engelen tok røkelseskaret og fylte det med ild fra alteret, og kastet den på jorden. Da kom det tordendrønn og røster og lyn og jordskjelv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 16:12,13. Esek 10:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.8.6": {
+    "text": "Og de sju englene som hadde de sju basunene, gjorde seg klar til å blåse.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.8.7": {
+    "text": "Den første engelen blåste i basunen, og det kom hagl og ild, blandet med blod, og det ble kastet ned på jorden. Tredjedelen av jorden ble oppbrent, og tredjedelen av trærne ble oppbrent, og alt grønt gress ble oppbrent.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 9:23-25. Esek 38:22.",
+        "refs": []
+      }
+    ],
+    "section": "De fire første englene blåser i basun"
+  },
+  "REV.8.8": {
+    "text": "Den andre engelen blåste i basunen, og noe som lignet et stort, brennende fjell ble kastet i havet. Og tredjedelen av havet ble til blod.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.8.9": {
+    "text": "Og tredjedelen av de levende skapninger i havet døde, og tredjedelen av skipene ble ødelagt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.8.10": {
+    "text": "Den tredje engelen blåste i basunen, og en stor stjerne falt ned fra himmelen, flammende som en fakkel, og den falt på tredjedelen av elvene og på vannkildene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.8.11": {
+    "text": "Stjernens navn var Malurt, og tredjedelen av vannet ble til malurt. Og mange mennesker døde av vannet fordi det var blitt forgiftet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 9:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.8.12": {
+    "text": "Den fjerde engelen blåste i basunen, og tredjedelen av solen ble slått, og tredjedelen av månen og tredjedelen av stjernene, for at tredjedelen av dem skulle bli formørket, og tredjedelen av dagen miste sitt lys, og natten likeså.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joel 2:10. 3:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.8.13": {
+    "text": "Og jeg så, og jeg hørte en ørn som fløy under det høyeste av himmelen og sa med høy røst: Ve, ve, ve over dem som bor på jorden, for de andre basunrøstene av de tre englene som ennå skal blåse!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:1,13. 11:15. 12:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.1": {
+    "text": "Den femte engelen blåste i basun. Jeg så da en stjerne som var falt fra himmelen ned på jorden. Nøkkelen til avgrunnens brønn ble gitt til den.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:10. 20:1. Luk 8:31. 2Pet 2:4.",
+        "refs": []
+      }
+    ],
+    "section": "Den femte og den sjette engelen blåser i basun"
+  },
+  "REV.9.2": {
+    "text": "Den åpnet avgrunnens brønn, og en røk steg opp av brønnen som røken av en stor ovn. Solen og luften ble formørket av røken fra brønnen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.9.3": {
+    "text": "Ut av røken kom det gresshopper på jorden. Det ble gitt dem makt, slik som skorpionene på jorden har.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.7. 2Mos 10:12-15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.4": {
+    "text": "Det ble sagt til dem at de ikke skulle skade gresset på jorden eller noe annet grønt, heller ikke noe tre, men bare de menneskene som ikke hadde Guds segl på sine panner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.5": {
+    "text": "Det ble ikke gitt gresshoppene å drepe dem, men å pine dem i fem måneder. Og pinen de voldte, var som pinen av en skorpion når den stikker et menneske.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.9.6": {
+    "text": "I de dager skal folk søke døden, men de skal ikke finne den. De skal lengte etter å få dø, men døden skal fly fra dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:16. Job 3:21. Jer 8:3. Hos 10:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.7": {
+    "text": "Gresshoppene var av utseende lik hester, som var gjort klare til kamp. På hodene deres var det kroner av noe som lignet gull, og ansiktene deres var som menneskers ansikter.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joel 2:4,5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.8": {
+    "text": "De hadde hår som kvinnehår, og tennene deres var som løvers tenner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joel 1:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.9": {
+    "text": "De hadde brynjer likesom jernbrynjer. Og lyden av vingene deres var som lyden av vogner når mange hester løper til strid.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.9.10": {
+    "text": "De har haler med brodder som skorpioner, og i halene ligger deres makt til å skade menneskene i fem måneder.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.9.11": {
+    "text": "Til konge over seg har de avgrunnens engel. Hans navn er på hebraisk Abaddon, på gresk har han navnet Apollyon.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.9.12": {
+    "text": "Det første ve er over. Se, ennå kommer det to ve-rop etter dette.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.13": {
+    "text": "Den sjette engelen blåste i basunen. Og jeg hørte en røst fra de fire hornene på gullalteret som står for Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:3. 2Mos 30:1-3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.14": {
+    "text": "Røsten sa til den sjette engelen, han som hadde basunen: Løs de fire englene som er bundet ved den store elven Eufrat!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.9.15": {
+    "text": "Og de ble løst, de fire englene som var blitt forberedt for timen og dagen og måneden og året, til å drepe tredjedelen av menneskene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.9.16": {
+    "text": "Tallet på rytterhæren var to ganger ti tusen ganger ti tusen. Jeg hørte tallet på dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 68:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.17": {
+    "text": "Slik så jeg hestene i mitt syn, og de som satt på dem: De hadde ildrøde og mørkeblå og svovelgule brynjer. Hestenes hoder var som løve-hoder, og av munnen på dem gikk det ut ild og røk og svovel.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.9.18": {
+    "text": "Av disse tre plager ble tredjedelen av menneskene drept: av ilden og av røken og av svovelen som kom ut av munnen på dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.9.19": {
+    "text": "For hestenes makt ligger i munnen deres og i halen, for halene på dem er lik slanger og har hoder, og med dem gjør de skade.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.20": {
+    "text": "Men resten av menneskene, de som ikke ble drept ved disse plagene, omvendte seg likevel ikke fra sine henders verk, så de sluttet å tilbe de onde åndene og avgudsbildene av gull og sølv og kobber, av stein og tre - de som verken kan se eller høre eller gå.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:9,11. Sal 135:15-17. Dan 5:4,23. 1Kor 10:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.9.21": {
+    "text": "Og de omvendte seg ikke fra sine mord eller fra sine trolldomskunster eller fra sitt horeliv eller fra sine tyverier.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.10.1": {
+    "text": "Og jeg så en annen mektig engel stige ned fra himmelen. Han var kledd i en sky, og regnbuen var over hodet hans. Hans ansikt var som solen, og føttene hans som ildsøyler.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:16. 4:3. 5:2. Matt 17:2.",
+        "refs": []
+      }
+    ],
+    "section": "En engel med en liten bok"
+  },
+  "REV.10.2": {
+    "text": "I hånden hadde han en liten, åpnet bok. Han satte den høyre foten på havet og den venstre på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.10.3": {
+    "text": "Og han ropte med veldig røst, som når en løve brøler. Da han hadde ropt ut, talte de sju tordnene med sine røster.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hos 11:10. Amos 1:2. 3:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.10.4": {
+    "text": "Og da de sju tordnene hadde talt, ville jeg til å skrive. Men jeg hørte en røst fra himmelen som sa: Sett segl for det som de sju tordnene talte, og skriv det ikke!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 8:26. 12:4,9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.10.5": {
+    "text": "Og engelen som jeg så, som sto på havet og på jorden, løftet sin høyre hånd mot himmelen,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 14:22. 5Mos 32:40. Dan 12:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.10.6": {
+    "text": "og han sverget ved ham som lever i all evighet, han som skapte himmelen og det som er i den, og jorden og det som er på den, og havet og det som er i det: Nå er tiden omme!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:9. Sal 146:6. Apg 4:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.10.7": {
+    "text": "Men i de dager når den sjuende engelens røst blir hørt, når han skal blåse i basunen, da skal også Guds mysterium bli fullbyrdet, slik som han forkynte for sine tjenere profetene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:15. Amos 3:7. *Se Matt 13:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.10.8": {
+    "text": "Og den røsten som jeg hadde hørt fra himmelen, talte nå igjen til meg: Gå og ta den lille åpne boken av engelens hånd, han som står på havet og på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.2,4.",
+        "refs": []
+      }
+    ],
+    "section": "Johannes blir bedt om å ete den lille boken"
+  },
+  "REV.10.9": {
+    "text": "Jeg gikk da bort til engelen og sa til ham at han skulle gi meg den lille boken. Han sier til meg: Ta boken og sluk den! Og den skal være bitter i din buk, men i din munn skal den være søt som honning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 119:103. Esek 2:8. 3:1-3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.10.10": {
+    "text": "Og jeg tok den lille boken av engelens hånd og slukte den. I min munn var den søt som honning. Men da jeg hadde ett den, sved den i min buk.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.10.11": {
+    "text": "Og det ble sagt til meg: Igjen skal du profetere om mange folk og nasjoner og tungemål og konger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:11,19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.1": {
+    "text": "Og det ble gitt meg et rør, likesom en stav, med de ordene: Stå opp og mål Guds tempel og alteret og dem som tilber der!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "21:15. Esek 40:3.",
+        "refs": []
+      }
+    ],
+    "section": "Guds tempel og de to vitnene"
+  },
+  "REV.11.2": {
+    "text": "Men forgården utenfor templet, la den være, og mål den ikke. For den er gitt til hedningefolkene, og de skal tråkke ned den hellige by i førtito måneder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:5. Luk 21:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.3": {
+    "text": "Og jeg vil gi mine to vitner å profetere i ett tusen to hundre og seksti dager, kledd i sekk.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:6. 13:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.4": {
+    "text": "Dette er de to oljetrærne og de to lysestakene som står for jordens Herre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sak 4:3,11,14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.5": {
+    "text": "Dersom noen vil skade dem, da går det ild ut fra munnen deres og fortærer fiendene deres. Ja, om noen vil skade dem, skal han drepes på den måten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 1:10,12. Sal 97:3. Jer 5:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.6": {
+    "text": "De har makt til å lukke himmelen, så det ikke faller regn i de dagene de er profeter. Og de har makt over vannene, til å gjøre dem til blod, og til å slå jorden med alle slags plager, så ofte de vil.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 7:17,19. 1Kong 17:1. 18:1. Luk 4:25.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.7": {
+    "text": "Og når de har fullført sitt vitnesbyrd, da skal dyret som stiger opp fra avgrunnen, føre krig mot dem og seire over dem og drepe dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:1,7. Dan 7:3,21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.8": {
+    "text": "Og likene deres skal ligge på gaten i den store byen, den som i åndelig mening kalles Sodoma og Egypt, der hvor deres Herre ble korsfestet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.11.9": {
+    "text": "I tre dager og en halv ser mennesker fra alle folk, stammer og tungemål på likene deres, og de tillater ikke at likene blir lagt i grav.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.11.10": {
+    "text": "Og de som bor på jorden, skal glede seg over dem og fryde seg, og de skal sende gaver til hverandre, fordi disse to profetene var til plage for dem som bor på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 16:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.11": {
+    "text": "Og etter tre dager og en halv kom det livsånde fra Gud i dem, og de reiste seg opp på sine føtter. Og stor frykt falt på dem som så dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.9. Esek 37:5,10. Luk 7:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.12": {
+    "text": "Og de hørte en høy røst fra himmelen som sa til dem: Stig opp hit! Og de steg opp til himmelen i skyen, mens deres fiender så dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:1. 2Kong 2:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.13": {
+    "text": "I samme stund kom det et stort jordskjelv. Tiendedelen av byen falt i grus, og sju tusen mennesker ble drept i jordskjelvet. Resten av folket ble forferdet og ga himmelens Gud ære.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:18. Esek 38:19. Matt 27:54.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.14": {
+    "text": "Det annet ve er over. Se, det tredje ve kommer snart.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:13. 9:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.15": {
+    "text": "Og den sjuende engelen blåste i basunen. Og høye røster ble hørt i himmelen, som sa: Kongedømmet over verden tilhører nå vår Herre og hans Salvede, og han skal være konge i all evighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:7. 12:10. 19:6.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Sal 10:16. 22:29. Dan 7:14,27. Luk 1:33.",
+        "refs": []
+      }
+    ],
+    "section": "Den sjuende engelen blåser i basunen"
+  },
+  "REV.11.16": {
+    "text": "Og de tjuefire eldste, som sitter for Guds åsyn på sine troner, falt på sitt ansikt og tilba Gud",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:4. 7:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.17": {
+    "text": "og sa: Vi takker deg, Herre Gud, du Allmektige, du som er og som var, fordi du har tatt i bruk din store makt og regjerer som konge.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:4. 19:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.18": {
+    "text": "Hedningefolkene raste, men nå er din vrede kommet - tiden da de døde skal dømmes, og da du skal lønne dine tjenere profetene og de hellige og dem som frykter ditt navn, de små og de store, og da du skal ødelegge dem som ødelegger jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:17. Matt 20:8. 2Tess 1:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.11.19": {
+    "text": "Guds tempel i himmelen ble åpnet og hans paktsark ble sett i hans tempel. Og det kom lyn og røster, tordendrønn og jordskjelv og store hagl.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:5. 8:5. 15:5. 16:21. 2Mos 25:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.1": {
+    "text": "Et stort tegn ble sett i himmelen: En kvinne, kledd med solen, og månen under hennes føtter, og på hennes hode en krone av tolv stjerner.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Kvinnen og dragen"
+  },
+  "REV.12.2": {
+    "text": "Hun var med barn og skrek i barnsnød og fødselsveer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 26:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.3": {
+    "text": "Og et annet tegn ble sett i himmelen - og se: En stor ildrød drage som hadde sju hoder og ti horn, og på sine hoder sju kroner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 7:7,20,24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.4": {
+    "text": "Med sin hale dro den med seg tredjedelen av himmelens stjerner og kastet dem til jorden. Og den stilte seg foran kvinnen som skulle føde, for å sluke barnet hennes så snart hun hadde født.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 8:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.5": {
+    "text": "Hun fødte en sønn, et guttebarn, som skal styre alle hedningefolkene med jernstav. Og hennes barn ble rykket bort til Gud og hans trone.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:27. 19:5. Sal 2:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.6": {
+    "text": "Og kvinnen flyktet ut i ørkenen, hvor hun hadde et sted som er gjort i stand for henne av Gud, for at de der skal sørge for henne i ett tusen to hundre og seksti dager.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.7": {
+    "text": "Det ble en strid i himmelen: Mikael og hans engler tok til å stride mot dragen. Og dragen stred, og dens engler.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 10:13,20. 12:1. Jud 9.",
+        "refs": []
+      }
+    ],
+    "section": "Engelen Mikael seirer over dragen"
+  },
+  "REV.12.8": {
+    "text": "Og de kunne ikke stå seg, og det ble ikke lenger funnet sted for dem i himmelen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.12.9": {
+    "text": "Den store dragen ble kastet ned, den gamle slangen, han som kalles djevelen og Satan, han som forfører hele verden. Han ble kastet ned på jorden, og hans engler ble kastet ned med ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "20:2. 1Mos 3:1.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Luk 10:18. Joh 12:31. 2Kor 11:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.10": {
+    "text": "Og jeg hørte en høy røst i himmelen si: Fra nå av tilhører frelsen og kraften og riket vår Gud, og makten hans Salvede. For våre brødres anklager er kastet ned, han som anklaget dem for vår Gud dag og natt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:15. Job 1:9-11. 2:4,5. Sak 3:1. Ef 5:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.11": {
+    "text": "De har seiret over ham i kraft av Lammets blod og det ordet de vitnet. Og de hadde ikke sitt liv kjært, like til døden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.12.12": {
+    "text": "Derfor fryd dere, himler, og dere som bor i dem! Men ve jorden og havet! For djevelen er steget ned til dere i stor vrede, fordi han vet at han bare har en liten tid.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 49:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.13": {
+    "text": "Og da dragen så at den var kastet ned på jorden, forfulgte den kvinnen som hadde født guttebarnet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Dragen forfølger kvinnen"
+  },
+  "REV.12.14": {
+    "text": "Og den store ørnens to vinger ble gitt til kvinnen for at hun skulle fly ut til sitt sted i ørkenen, der hun blir sørget for i en tid og tider og en halv tid, borte fra slangens ansikt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 40:31. Dan 7:25. 12:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.15": {
+    "text": "Slangen sprutet av sin munn vann som en elv etter kvinnen, for å rive henne bort med elven.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.12.16": {
+    "text": "Men jorden kom kvinnen til hjelp, og jorden åpnet sin munn og slukte elven som dragen sprutet av sin munn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.12.17": {
+    "text": "Dragen ble vred på kvinnen, og dro av sted for å føre krig mot de andre av hennes ætt, mot dem som holder fast på Guds bud og har Jesu vitnesbyrd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:7. 13:7. 14:12. 19:10. 1Mos 13:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.12.18": {
+    "text": "Og jeg sto på sanden ved havet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.13.1": {
+    "text": "Og jeg så et dyr stige opp av havet. Det hadde ti horn og sju hoder. På sine horn hadde det ti kroner. Og på sine hoder hadde det spottenavn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:7. 17:3,8,9,12. Dan 7:3,7.",
+        "refs": []
+      }
+    ],
+    "section": "Dyret fra havet får makt av dragen og forfølger de hellige"
+  },
+  "REV.13.2": {
+    "text": "Dyret som jeg så, lignet en leopard, og det hadde føtter som en bjørn, og munnen var som munnen på en løve. Og dragen ga det sin kraft og sin trone og stor makt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:13. 12:9. Dan 7:4-6. Hos 13:7,8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.3": {
+    "text": "Og jeg så et av dyrets hoder likesom såret til døden, men det dødelige såret ble legt. Og all jorden undret seg og fulgte etter dyret.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.4": {
+    "text": "De tilba dragen, fordi den hadde gitt dyret makt. Og de tilba dyret og sa: Hvem er lik dyret og hvem kan stride mot det?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "18:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.5": {
+    "text": "Det ble gitt det en munn som talte store og bespottelige ord. Og det ble gitt det makt til å holde på i førtito måneder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:2,3. 12:6. Dan 7:8,11,25. 11:36. 12:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.6": {
+    "text": "Det åpnet sin munn til spott mot Gud - til å spotte hans navn og bolig og dem som bor i himmelen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:9,11. 21:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.7": {
+    "text": "Og det ble gitt det å føre krig mot de hellige og seire over dem. Det ble gitt det makt over hver stamme og hvert folk og hvert tungemål og hvert folkeslag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:7. Dan 7:21,23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.8": {
+    "text": "Alle som bor på jorden, skal tilbe det, hver den som ikke har fått sitt navn skrevet i livets bok hos Lammet som er slaktet, fra verdens grunnvoll ble lagt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. 5:6. 17:8. Matt 25:34. 1Pet 1:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.9": {
+    "text": "Dersom noen har øre, han høre!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.13.10": {
+    "text": "Om noen fører i fangenskap, han går i fangenskap. Om noen dreper med sverd, han skal drepes med sverd. Her er de helliges tålmodighet og tro.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:18. 14:12. 18:6.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Mos 9:6. Jes 33:1. Jer 15:2. Matt 26:52.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.11": {
+    "text": "Og jeg så et annet dyr stige opp av jorden. Det hadde to horn, likesom et lam, men talte som en drage.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:13. 19:20. Dan 8:3. Matt 7:15. 24:11,24.",
+        "refs": []
+      }
+    ],
+    "section": "Et annet dyr forfører mange, så de tilber det første dyret"
+  },
+  "REV.13.12": {
+    "text": "Det bruker hele det første dyrets makt for dets øyne. Og det gjør slik at jorden og de som bor på den, tilber det første dyret - det som fikk sitt dødelige sår legt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.13.13": {
+    "text": "Og det gjør store tegn. Til og med får det ild til å falle ned fra himmelen på jorden for menneskenes øyne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:14. Matt 24:24. 2Tess 2:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.14": {
+    "text": "Det forfører dem som bor på jorden, på grunn av de tegnene som ble gitt det å gjøre for dyrets øyne. Og det sier til dem som bor på jorden, at de skal gjøre et bilde av det dyret som fikk sverdhogget og ble levende igjen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.13.15": {
+    "text": "Og det fikk makt til å gi dyrets bilde livsånde, så at dyrets bilde til og med kunne tale, og gjøre så at alle de som ikke ville tilbe dyrets bilde, skulle drepes.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:11. 19:20. Dan 3:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.16": {
+    "text": "Det utvirker at det blir gitt alle, små og store, rike og fattige, frie og treller, et merke i sin høyre hånd eller på sin panne,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:9,11. 16:2. 19:20. 20:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.17": {
+    "text": "og at ingen kan kjøpe eller selge uten den som har merket: dyrets navn eller tallet for dets navn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:9,11. 15:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.13.18": {
+    "text": "Heri består visdommen. Den som har forstand, la ham regne ut dyrets tall! For det er et menneskes tall. Og dets tall er seks hundre og sekstiseks.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.14.1": {
+    "text": "Og jeg så, og se: Lammet sto på Sions berg. Sammen med det var de hundre og førtifire tusen, som hadde Lammets navn og dets Fars navn skrevet på sine panner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:12. 5:6. Joel 3:5.",
+        "refs": []
+      }
+    ],
+    "section": "De hundre og førtifire tusen på Sions berg"
+  },
+  "REV.14.2": {
+    "text": "Fra himmelen hørte jeg en røst som lyden av mange vann og som lyden av sterk torden. Røsten jeg hørte, var som av harpespillere som spilte på sine harper.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:10,15. 5:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.3": {
+    "text": "Og de sang en ny sang foran tronen og foran de fire livsvesener og de eldste. Og ingen kunne lære sangen uten de hundre og førtifire tusen, de som er kjøpt fra jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:9. 7:4. 14:1. Jes 42:10. 1Kor 6:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.4": {
+    "text": "Det er de som ikke har gjort seg urene med kvinner, for de er som jomfruer. Det er de som følger Lammet hvor det går. De er kjøpt fra menneskene til en førstegrøde for Gud og Lammet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:4. 1Kor 6:15. 2Kor 11:2. Heb 12:23. Jak 1:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.5": {
+    "text": "I deres munn er ikke funnet løgn. De er uten lyte.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 32:2. Sef 3:13. Ef 5:27. Kol 1:22. Jud 24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.6": {
+    "text": "Jeg så en annen engel, som fløy under det høyeste av himmelen. Han hadde et evig evangelium å forkynne for dem som bor på jorden, for alle nasjoner og stammer, tungemål og folk.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Babylon faller"
+  },
+  "REV.14.7": {
+    "text": "Og han sa med høy røst: Frykt Gud og gi ham ære! For timen for hans dom er kommet. Tilbe ham som skapte himmelen og jorden, havet og vannkildene!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:11. 5Mos 32:3. Sal 33:6. 146:6. Fork 12:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.8": {
+    "text": "En annen engel, den andre, fulgte etter og sa: Falt, falt, er Babylon den store, som har gitt alle folkeslag å drikke av sitt horelivs vredesvin.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:19. 17:5. 18:2. Jes 21:9. Jer 51:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.9": {
+    "text": "En annen engel, den tredje, fulgte etter dem og sa med høy røst: Dersom noen tilber dyret og dets bilde, og tar merket på sin panne eller sin hånd,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.10": {
+    "text": "da skal han også drikke av Guds vredesvin, som er skjenket ublandet i hans harmes beger. Og han skal pines med ild og svovel for de hellige englers og for Lammets øyne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:19. 19:20. 20:10. 21:8. Jes 51:17. Jer 25:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.11": {
+    "text": "Røken av deres pine stiger opp i all evighet. De har ikke hvile dag eller natt, de som tilber dyret og dets bilde, og hver den som tar imot merket med dets navn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:16,17. 16:2. 19:3. Jes 34:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.12": {
+    "text": "Heri består de helliges tålmodighet, de som holder fast ved Guds bud og Jesu tro.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:13. 12:17. 13:10.",
+        "refs": []
+      }
+    ],
+    "section": "Guds vredes høst over jorden"
+  },
+  "REV.14.13": {
+    "text": "Og jeg hørte en røst fra himmelen si: Skriv: Salige er de døde som dør i Herren fra nå av. Ja, sier Ånden, de skal hvile fra sitt besvær, for deres gjerninger følger dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:11,19. 1Tess 4:14. 1Tim 5:25. Heb 4:9,10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.14": {
+    "text": "Og jeg så - og se: En hvit sky, og på skyen satt en som var lik en menneskesønn. På sitt hode hadde han en krone av gull, og i sin hånd en skarp sigd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:13. Dan 7:13. Matt 24:30.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.15": {
+    "text": "Og en annen engel kom ut fra templet og ropte med høy røst til ham som satt på skyen: Send ut din sigd og høst! Timen til å høste er kommet, for høsten på jorden er fullmoden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:17. Joel 3:18. Matt 13:39. Mark 4:29.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.16": {
+    "text": "Og han som satt på skyen, lot sin sigd gå over jorden, og jorden ble høstet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.14.17": {
+    "text": "En annen engel kom ut av templet i himmelen og hadde en skarp sigd, han også.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.14.18": {
+    "text": "Og enda en annen engel kom ut, fra alteret. Han hadde makt over ilden. Og han ropte med høy røst til engelen som hadde den skarpe sigden: Send ut din skarpe sigd og høst drueklasene av jordens vintre! For druene er modne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.14.19": {
+    "text": "Engelen lot sin sigd gå over jorden og høstet jordens vintre, og han kastet frukten i Guds vredes vinpresse, den store.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "19:15. Joel 3:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.14.20": {
+    "text": "Og vinpressen ble tråkket utenfor byen, og det kom blod ut av vinpressen like til bisselet på hestene så langt som ett tusen seks hundre stadier.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 63:2. Heb 13:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.15.1": {
+    "text": "Og jeg så et annet tegn i himmelen, stort og underfullt: Sju engler med sju plager, de siste, for med dem er Guds vrede fullbyrdet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "De som har seiret, synger Moses’ og Lammets sang"
+  },
+  "REV.15.2": {
+    "text": "Og jeg så noe som lignet et hav av glass, blandet med ild. De som hadde seiret over dyret og dyrets bilde og over tallet for dyrets navn, så jeg stå ved glasshavet, med Guds harper i hånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:6. 5:8. 12:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.15.3": {
+    "text": "De synger Guds tjener Moses’ sang og Lammets sang, og sier: Store og underfulle er dine gjerninger, Herre Gud, du Allmektige! Rettferdige og sanne er dine veier, du folkenes konge.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 15:2,11.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "5Mos 32:1,4. Sal 111:2. 145:17. 1Tim 1:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.15.4": {
+    "text": "Hvem skulle ikke frykte deg, Herre, og ære ditt navn? For du alene er hellig. Alle folkene skal komme og tilbe for ditt åsyn, for dine rettferdige dommer er blitt åpenbare.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:7. Sal 86:9. Jes 66:23. Jer 10:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.15.5": {
+    "text": "Etter dette så jeg at templet, vitnesbyrdets telt i himmelen, ble åpnet,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:19. 4Mos 1:50. Heb 8:5.",
+        "refs": []
+      }
+    ],
+    "section": "De sju vredesskålene"
+  },
+  "REV.15.6": {
+    "text": "og ut fra templet kom de sju englene som hadde de sju plagene. De var kledd i rent og skinnende lin og hadde gullbelter spent om brystet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.15.7": {
+    "text": "Ett av de fire livsvesener ga de sju englene sju gullskåler fylt med Guds vrede - hans som lever i all evighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:6-9. 14:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.15.8": {
+    "text": "Og templet ble fylt med røk fra Guds herlighet og fra hans makt, så ingen kunne gå inn i templet før de sju plagene fra de sju englene var fullbyrdet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 40:34. 1Kong 8:10. 2Krøn 5:14. Jes 6:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.1": {
+    "text": "Og jeg hørte en høy røst fra templet, og den sa til de sju englene: Gå av sted og tøm de sju Guds vredesskålene ut på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:7. Sal 69:25. 79:6.",
+        "refs": []
+      }
+    ],
+    "section": "De sju englene tømmer de sju skålene"
+  },
+  "REV.16.2": {
+    "text": "Og den første gikk av sted og tømte sin skål ut over jorden. Da kom en ond og farlig byll på de menneskene som hadde dyrets merke og som tilba dets bilde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:16,17. 14:9,10. 2Mos 9:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.3": {
+    "text": "Den andre engelen tømte sin skål ut i havet. Det ble til blod som av en død mann, og alt liv i havet døde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:6. 2Mos 7:17-21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.4": {
+    "text": "Den tredje engelen tømte sin skål ut i elvene og vannkildene, og de ble til blod.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.16.5": {
+    "text": "Og jeg hørte vannenes engel si: Rettferdig er du fordi du har dømt slik, du som er og som var, du hellige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:4,8. 6:10. Sal 119:137.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.6": {
+    "text": "For blod av hellige og av profeter har de utøst, og blod ga du dem å drikke. De er det verd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "18:24. Jes 49:26. Matt 23:34. Luk 11:49-51.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.7": {
+    "text": "Og jeg hørte alteret si: Ja, Herre Gud, du Allmektige. Sanne og rettferdige er dine dommer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:3. 19:2. Sal 119:137.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.8": {
+    "text": "Den fjerde engelen tømte sin skål ut på solen, og det ble den gitt å brenne menneskene med ild.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.16.9": {
+    "text": "Og menneskene brant i svær hete, og spottet Guds navn, han som har makt over disse plagene. Og de omvendte seg ikke til å gi ham ære.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:20,21. 13:6. Jes 52:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.10": {
+    "text": "Den femte engelen tømte sin skål ut over dyrets trone. Og dets rike ble formørket, og de tygget sine tunger i pine.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 10:21. Jes 8:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.11": {
+    "text": "De spottet himmelens Gud for sine piner og for sine byller, men de omvendte seg ikke fra sine gjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.2,9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.12": {
+    "text": "Den sjette engelen tømte sin skål ut i den store elven Eufrat. Og vannet i den tørket bort, for at det skulle ryddes vei for kongene fra Østen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:14. Jes 11:15. 44:27.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.13": {
+    "text": "Og jeg så at det av dragens munn og av dyrets munn og av den falske profetens munn kom ut tre urene ånder som lignet padder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:3,9. 13:1,11-17. 20:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.14": {
+    "text": "Det er djevleånder som gjør tegn. De går ut til kongene i hele verden for å samle dem til krigen på Guds, Den Allmektiges store dag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:13.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "17:14. 19:19. 20:9. Matt 24:24. 2Tess 2:9. 1Tim 4:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.15": {
+    "text": "Se, jeg kommer som en tyv! Salig er den som våker og tar vare på klærne sine, så han ikke skal gå naken og de skal se hans skam.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:3,18. Matt 24:42. Luk 12:39. 1Tess 5:2,3. 2Pet 3:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.16": {
+    "text": "Og han samlet dem på det stedet som på hebraisk heter Harmageddon.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 35:22. Sak 12:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.17": {
+    "text": "Den sjuende engelen tømte sin skål ut i luften. Og en veldig røst kom fra tronen i templet i himmelen, og sa: Det er skjedd!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "21:6. Jes 66:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.18": {
+    "text": "Det kom lyn og røster og tordendrønn. Og det kom et stort jordskjelv, et slikt som ikke har vært fra den tiden menneskene ble til på jorden - et slikt jordskjelv, så stort.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:5. 6:12. 8:5. 11:13,19. Dan 12:1. Matt 24:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.19": {
+    "text": "Den store byen ble delt i tre deler, og folkenes byer falt i grus og Babylon den store, ble husket for Guds åsyn, så han skulle gi den begeret med hans strenge vredes vin.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:8,10. 15:7. Sal 60:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.20": {
+    "text": "Hver en øy vek bort, og fjell ble ikke funnet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:14. 20:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.16.21": {
+    "text": "Og fra himmelen falt hagl så svært som hundre pund ned på menneskene. Men de spottet Gud for haglets plage, for plagen var meget stor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:19. 2Mos 9:23. Jos 10:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.1": {
+    "text": "En av de sju englene med de sju skålene kom og talte med meg og sa: Kom, jeg skal vise deg dommen over den store horen, hun som sitter over de mange vann.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:1. 21:9. Jer 51:13. Nah 3:4.",
+        "refs": []
+      }
+    ],
+    "section": "Babylon, den store horen"
+  },
+  "REV.17.2": {
+    "text": "Med henne har jordens konger drevet hor. De som bor på jorden, er blitt drukne av hennes horelivs vin.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:8. 18:3,9. Jer 51:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.3": {
+    "text": "Og han førte meg i ånden ut i ørkenen. Der så jeg en kvinne sitte på et skarlagenrødt dyr, som var fullt av spottenavn. Dyret hadde sju hoder og ti horn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:1. Jes 21:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.4": {
+    "text": "Kvinnen var kledd i purpur og skarlagen, og smykket med gull og edelsteiner og perler. I sin hånd hadde hun et gullbeger, fullt av styggedommer og av hennes horelivs urenheter.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "18:16. Jer 51:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.5": {
+    "text": "På hennes panne var skrevet et navn, en hemmelighet: Babylon, den store, mor til horene og avskyelighetene på jorden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.17.6": {
+    "text": "Jeg så kvinnen drukken av de helliges blod og av Jesu vitners blod. Og jeg undret meg storlig da jeg så henne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:6. 18:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.7": {
+    "text": "Engelen sa da til meg: Hvorfor undrer du deg? Jeg skal si deg hemmeligheten med kvinnen og med dyret som bærer henne, det som har sju hoder og ti horn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.8": {
+    "text": "Dyret som du så, det var og er ikke, og det skal stige opp, ut av avgrunnen, og gå til undergang. Og de som bor på jorden, de som ikke, fra verdens grunnvoll ble lagt, har sitt navn skrevet i livets bok, - de skal undre seg når de ser at dyret var, og ikke er, og skal komme igjen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. 11:7. 13:8. Matt 25:34.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.9": {
+    "text": "Her er den forstand som har visdom: De sju hodene er sju fjell, som kvinnen sitter på.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.10": {
+    "text": "De er også sju konger. De fem er falt. Den ene er nå. Den andre er ennå ikke kommet. Og når han kommer, skal han bare bli en kort tid.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.17.11": {
+    "text": "Dyret som var og ikke er, det er selv den åttende, og også en av de sju, og farer bort til undergang.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "19:19,20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.12": {
+    "text": "De ti hornene som du så, er ti konger som ennå ikke har fått rike. Men de får makt som konger i én time sammen med dyret.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:1. Dan 7:20,24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.13": {
+    "text": "Disse har én tanke, og sin kraft og sin makt gir de til dyret.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.17.14": {
+    "text": "Disse skal føre krig mot Lammet. Men Lammet skal seire over dem, fordi han er herrers herre og kongers konge - seire sammen med dem som er med Lammet, de kalte og utvalgte og trofaste.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:7. 19:16. 5Mos 10:17. Dan 2:47. 1Tim 6:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.15": {
+    "text": "Og han sier til meg: De vannene som du så, der horen sitter, er folk og skarer og nasjoner og tungemål.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.1. 5:9. Jes 8:7. Jer 47:2. 51:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.16": {
+    "text": "De ti hornene som du så, og dyret, de skal hate horen, og de vil gjøre henne øde og naken. Hennes kjøtt skal de ete, og brenne henne opp med ild.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.12. Esek 16:37,39.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.17.17": {
+    "text": "For Gud innga dem i hjertet å utføre hans plan, og å fullføre én og samme tanke, og å gi dyret sitt rike inntil Guds ord er blitt fullbyrdet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.17.18": {
+    "text": "Og kvinnen som du så, er den store byen som har kongedømme over kongene på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:8. 18:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.1": {
+    "text": "Deretter så jeg en annen engel stige ned fra himmelen. Han hadde stor makt, og jorden ble opplyst av hans herlighet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Babylon er falt"
+  },
+  "REV.18.2": {
+    "text": "Han ropte med sterk røst og sa: Falt, falt er Babylon den store! Den er blitt et tilholdssted for onde ånder - et fengsel for hver uren ånd, og et fengsel for hver uren og hatet fugl.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:3. 14:8. Jes 13:21. Jer 50:39. 51:37.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.3": {
+    "text": "For av hennes horelivs vredesvin har alle folk drukket. Kongene på jorden har drevet hor med henne, og kjøpmennene på jorden er blitt rike av hennes overdådige vellevnet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:8. 17:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.4": {
+    "text": "Og jeg hørte en annen røst fra himmelen si: Kom ut fra henne, mitt folk, for at dere ikke skal ha del i hennes synder, og for at dere ikke skal få del i hennes plager!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 48:20. Jer 50:8. 51:6. 2Kor 6:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.5": {
+    "text": "For hennes synder når like til himmelen, og Gud har kommet i hu hennes urettferdige gjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:19. 1Mos 18:20. Jer 51:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.6": {
+    "text": "Gi henne igjen som hun har gitt! Gjengjeld henne dobbelt etter hennes gjerninger! Skjenk henne dobbelt i det begeret hun selv har fylt!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 137:8. Jer 50:15,29.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.7": {
+    "text": "Så mye som hun har opphøyet seg selv og levd i overflod, så mye skal dere gi henne av pine og sorg. Fordi hun sier i sitt hjerte: Jeg sitter som dronning og er ikke enke, sorg skal jeg aldri se! -",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 47:5,7,8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.8": {
+    "text": "derfor skal hennes plager komme på én dag: død og sorg og hungersnød. Hun skal bli oppbrent med ild. For sterk er Gud Herren, som dømte henne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "17:16. Jes 47:9. Jer 50:34. 2Tess 2:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.9": {
+    "text": "Kongene på jorden, de som har drevet hor med henne og levd i overdådighet med henne, skal gråte og jamre seg over henne, når de ser røken fra hennes brann.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "17:2. Esek 26:16,17. 27:30-32.",
+        "refs": []
+      }
+    ],
+    "section": "Alle mektige på jorden klager over Babylon"
+  },
+  "REV.18.10": {
+    "text": "Av frykt for hennes pine står de langt borte, og de skal si: Ve, ve du store by Babylon, du mektige by! På én time er din dom kommet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:8. Jes 21:9. Jer 51:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.11": {
+    "text": "Og kjøpmennene på jorden skal gråte og sørge over henne, fordi ingen mer kjøper deres skipslaster,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.15. Esek 27:36.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.12": {
+    "text": "skipslaster av gull og sølv og edelsteiner og perler, av fint lin og purpur og silke og skarlagen, all slags velluktende tre og all slags kar av elfenben og all slags kar av kostelig tre og av kobber og jern og marmor,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 27:12-22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.13": {
+    "text": "og kanel og salveolje og røkelse og myrra og virak, og vin og olje, fint mel og hvete, storfe og sauer, hester og vogner, treller og menneskesjeler.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.18.14": {
+    "text": "Og den frukten som din sjel hadde lyst til, er blitt borte for deg. All glans og glitter er blitt borte for deg. Og aldri mer skal det finnes.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.18.15": {
+    "text": "De som handler med slikt, de som er blitt rike ved henne, skal stå langt borte i redsel for hennes pine, gråtende og sørgende, og si:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 27:36.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.16": {
+    "text": "Ve, ve den store byen! Du som var kledd i fint lin og purpur og skarlagen, og som lyste av gull og edelsteiner og perler",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "17:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.17": {
+    "text": "- at så stor en rikdom er ødelagt på én time! Hver styrmann og hver skipsfører og alle sjøfolk, og hver den som ferdes på havet, sto langt borte,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.10. Esek 27:29.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.18": {
+    "text": "og de ropte da de så røken av hennes brann, og sa: Hvem er lik den store byen?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.9. Jes 34:10. Esek 27:32.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.19": {
+    "text": "De strødde støv på sine hoder og ropte med gråt og sorg, og sa: Ve, ve den store byen, hvor alle som har skip i sjøen, er blitt rike av hennes kostbarheter. For på én time er den lagt øde!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jos 7:6. Job 2:12. Esek 27:30-34.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.20": {
+    "text": "Fryd deg over den, du himmel, og dere hellige, og dere apostler og profeter, fordi Gud har holdt dom over den for dere!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "19:2. Jes 44:23. 49:13. Jer 51:48.",
+        "refs": []
+      }
+    ],
+    "section": "Himmelen gleder seg fordi Babylon er falt"
+  },
+  "REV.18.21": {
+    "text": "Og en mektig engel løftet en stein, som en stor kvernstein, og kastet den i havet og sa: Slik skal Babylon, den store byen, med ett styrtes ned og aldri finnes mer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:2. 10:1. Jer 51:63,64. Esek 26:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.22": {
+    "text": "Lyd av harpespillere og sangere og fløytespillere og basunblåsere - aldri mer skal det høres i deg. Håndverkere av alle slag skal aldri bli funnet i deg mer, og lyd av kvern skal aldri mer bli hørt i deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 24:8. Jer 25:10. Esek 26:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.23": {
+    "text": "Lys av lampe skal ikke mer skinne i deg. Røst av brudgom og brud skal aldri mer høres i deg. For dine kjøpmenn var jordens stormenn, og alle folk ble ført vill ved din trolldom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 23:8. Jer 7:34. 16:9. 25:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.18.24": {
+    "text": "I denne byen ble funnet blod av profeter og hellige og av alle dem som er blitt myrdet på jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:6. 17:6. Jer 51:49.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.1": {
+    "text": "Deretter hørte jeg likesom en mektig lyd av en stor skare i himmelen, som sa: Halleluja! Frelsen og æren og makten tilhører vår Gud!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:10. 11:15. 12:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.2": {
+    "text": "For sanne og rettferdige er hans dommer. For han har dømt den store horen, hun som ødela jorden med sitt horeliv, og han har krevd sine tjeneres blod av hennes hånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:3. 16:7. 17:18. 5Mos 32:43. Sal 19:10. 119:137.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.3": {
+    "text": "Og de sa annen gang: Halleluja! Røken av henne stiger opp i all evighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:11. 18:9,18. Sal 104:35. Jes 34:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.4": {
+    "text": "De tjuefire eldste og de fire livsvesener falt ned og tilba Gud, han som sitter på tronen, og sa: Amen! Halleluja!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:4,6. 5:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.5": {
+    "text": "Og fra tronen gikk det ut en røst som sa: Pris vår Gud, alle hans tjenere, dere som frykter ham, både små og store!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 22:24. 113:1. 115:13. 134:1. 135:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.6": {
+    "text": "Og jeg hørte likesom en lyd av en stor skare, og som en lyd av mange vann, og som en lyd av sterke tordendrønn, som sa: Halleluja! For Gud Herren, Den Allmektige regjerer som konge!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:15,17. 12:10. 14:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.7": {
+    "text": "La oss glede oss og fryde oss og gi ham æren! For Lammets bryllup er kommet, og hans brud har gjort seg rede.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "21:9. Matt 22:2. 25:10. Joh 3:29.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.8": {
+    "text": "Det er henne gitt å kle seg i rent og skinnende fint lin. For det fine linet er de helliges rettferdige gjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. Jes 61:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.9": {
+    "text": "Og han sier til meg: Skriv: Salige er de som er innbudt til Lammets bryllupsmåltid! Han sier til meg: Dette er Guds sanne ord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "17:1. 21:5. Luk 14:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.10": {
+    "text": "Da falt jeg ned for hans føtter for å tilbe ham, men han sier til meg: Vokt deg for det! Jeg er din og dine brødres medtjener, de som har Jesu vitnesbyrd. Gud skal du tilbe! For Jesu vitnesbyrd er profetordets ånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:17. 22:8. Matt 4:10. Apg 10:25,26.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.11": {
+    "text": "Og jeg så himmelen åpnet - og se: En hvit hest. Og han som sitter på den, heter Trofast og Sannferdig, og han dømmer og strider med rettferdighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:14. 6:2. Jes 11:4. Joh 1:51.",
+        "refs": []
+      }
+    ],
+    "section": "Kristus på den hvite hesten"
+  },
+  "REV.19.12": {
+    "text": "Hans øyne er som ildslue. På hans hode er det mange kroner. Han har en innskrift med et navn som ingen kjenner uten han selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:14. 2:17. Dan 10:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.13": {
+    "text": "Han er iført en kledning som er dyppet i blod, og hans navn er Guds Ord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 63:1-3. Joh 1:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.14": {
+    "text": "Hærene i himmelen fulgte ham på hvite hester, kledd i fint lin, hvitt og rent.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:4. 7:9,11. Luk 2:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.15": {
+    "text": "Ut av hans munn går det et skarpt sverd, for at han med det skal slå hedningefolkene. Og han skal styre dem med jernstav. Han tråkker vinpressen med Guds, Den Allmektiges strenge vredes vin.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:16. 2:27. 12:5.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "14:19,20. Sal 2:8,9. Jes 11:4. 49:2. 63:3. 2Tess 2:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.16": {
+    "text": "På sin kledning og på sin hofte har han et navn skrevet: Kongers konge og herrers herre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.12. 17:14. 5Mos 10:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.17": {
+    "text": "Og jeg så en engel som sto i solen. Han ropte med høy røst til alle fuglene som flyr under himmelen: Kom hit og samle dere til Guds store måltid!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 46:10. Esek 39:17-20.",
+        "refs": []
+      }
+    ],
+    "section": "Kristus seirer over dyret og kongene på jorden"
+  },
+  "REV.19.18": {
+    "text": "Dere skal få ete kjøtt av konger og kjøtt av hærførere og kjøtt av helter, og kjøtt av hester og dem som sitter på dem, og kjøtt av alle - både frie menn og treller, både små og store.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.19.19": {
+    "text": "Jeg så dyret og jordens konger med sine hærer samlet til krig mot ham som satt på hesten, og mot hans hær.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:14,16. 17:14. Sal 2:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.20": {
+    "text": "Og dyret ble grepet, og sammen med det den falske profeten, han som hadde gjort tegn for dyrets øyne, og med disse tegnene hadde forført dem som tok dyrets merke og tilba dets bilde. Disse to ble kastet levende i ildsjøen som brenner med svovel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:11,12. 14:10. 20:10. Jes 30:33. Dan 7:11,26.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.19.21": {
+    "text": "De andre ble drept med sverdet som gikk ut fra hans munn som satt på hesten. Og alle fuglene ble mettet av deres kjøtt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 11:4. Esek 39:4,17,20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.1": {
+    "text": "Og jeg så en engel stige ned fra himmelen med nøkkelen til avgrunnen og en stor lenke i sin hånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:18. 9:1. 10:1.",
+        "refs": []
+      }
+    ],
+    "section": "Djevelen blir bundet i tusen år"
+  },
+  "REV.20.2": {
+    "text": "Han grep dragen, den gamle slangen, som er djevelen og Satan, og bandt ham for tusen år,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:9. Jes 27:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.3": {
+    "text": "og kastet ham i avgrunnen, lukket til og satte segl over ham, for at han ikke lenger skulle forføre folkeslagene - ikke før de tusen år var til ende. Deretter må han slippes løs en kort tid.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "16:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.4": {
+    "text": "Jeg så troner, og de satte seg på dem, og det ble gitt dem makt til å holde dom. Og jeg så deres sjeler som var blitt halshogd for Jesu vitnesbyrds skyld og for Guds ords skyld, og de som ikke hadde tilbedt dyret eller dets bilde, og som ikke hadde tatt merket på sin panne eller hånd. Og de ble levende og hersket sammen med Kristus i tusen år.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:21. 5:10. 6:9,10. 13:15,16. Dan 7:9,22,27.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Matt 19:28. 1Kor 6:2,3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.5": {
+    "text": "Men de andre døde ble ikke levende før de tusen år var gått. Dette er den første oppstandelsen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.20.6": {
+    "text": "Salig og hellig er den som har del i den første oppstandelsen. Over dem har den annen død ingen makt. De skal være Guds og Kristi prester, og regjere med ham i tusen år.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:6. 2:11. 5:10. 21:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.7": {
+    "text": "Og når de tusen år er til ende, skal Satan løses fra sitt fengsel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.3,5.",
+        "refs": []
+      }
+    ],
+    "section": "Djevelen blir beseiret og kastet i ildsjøen"
+  },
+  "REV.20.8": {
+    "text": "Og han skal gå ut og forføre folkeslagene ved jordens fire hjørner, Gog og Magog, for å samle dem til strid. Og tallet på dem er som havets sand.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.3. 16:14. Esek 38:2. 39:1,2. Heb 11:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.9": {
+    "text": "Og de dro opp over den vide jord og omringet de helliges leir og den elskede byen. Men ild falt ned fra himmelen og fortærte dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:13. 2Kong 1:10 ff. Esek 38:22. 39:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.10": {
+    "text": "Og djevelen som forførte dem, ble kastet i sjøen med ild og svovel, hvor også dyret og den falske profeten var. Og de skal pines dag og natt i all evighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:10,11. 16:13. 19:20. Dan 7:11. Matt 25:41.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.11": {
+    "text": "Jeg så en stor, hvit trone, og ham som satt på den. For hans åsyn vek jorden og himmelen bort, og det ble ikke funnet sted for dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "21:5. Dan 2:35. Matt 25:31 ff. 2Pet 3:7,10,12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.12": {
+    "text": "Og jeg så de døde, små og store, stå for Gud, og bøker ble åpnet. Og en annen bok ble åpnet, som er livets bok. De døde ble dømt etter det som var skrevet i bøkene, etter sine gjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. 11:18.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Dan 7:10. 12:1,2. Joh 5:28,29. Rom 2:6. 2Kor 5:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.13": {
+    "text": "Havet ga tilbake de døde som var i det, og døden og dødsriket ga fra seg de døde som var i dem. Og de ble dømt, hver etter sine gjerninger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.20.14": {
+    "text": "Og døden og dødsriket ble kastet i ildsjøen. Dette er den annen død: ildsjøen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:11. 21:8. 1Kor 15:26,54,55.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.20.15": {
+    "text": "Og hvis noen ikke ble funnet innskrevet i livets bok, ble han kastet i ildsjøen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. Matt 25:41.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.1": {
+    "text": "Og jeg så en ny himmel og en ny jord. For den første himmel og den første jord var veket bort, og havet er ikke mer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "20:11. Jes 65:17. 66:22. 2Pet 3:13.",
+        "refs": []
+      }
+    ],
+    "section": "Den nye himmel og den nye jord"
+  },
+  "REV.21.2": {
+    "text": "Og jeg så den hellige by, det nye Jerusalem, stige ned ut av himmelen fra Gud, gjort i stand som en brud som er prydet for sin brudgom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.10. 3:12. Gal 4:26. Heb 11:10. 12:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.3": {
+    "text": "Fra tronen hørte jeg en høy røst som sa: Se, Guds bolig er hos menneskene. Han skal bo hos dem, og de skal være hans folk, og Gud selv skal være hos dem og være deres Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:15. Esek 37:27. Sak 2:14,15. Joh 14:23. 2Kor 6:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.4": {
+    "text": "Han skal tørke bort hver tåre fra deres øyne. Og døden skal ikke være mer, og ikke sorg, og ikke skrik, og ikke pine skal være mer. For de første ting er veket bort.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:17. Jes 25:8. 35:10.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "65:17,19. 1Kor 15:26,54. 2Kor 5:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.5": {
+    "text": "Og han som satt på tronen sa: Se, jeg gjør alle ting nye! Og han sier til meg: Skriv! For disse ordene er troverdige og sanne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:2. 19:9. 20:11. 22:6. Jes 43:19. 2Kor 5:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.6": {
+    "text": "Så sa han til meg: Det er skjedd! Jeg er Alfa og Omega, begynnelsen og enden. Jeg vil gi den tørste å drikke av livets vannkilde for intet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:8. 7:17. 16:17. 22:1,17. Jes 12:3. 55:1.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Joh 4:10,14. 7:37.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.7": {
+    "text": "Den som seirer, skal arve alle ting. Jeg vil være hans Gud, og han skal være min sønn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:26. 2Sam 7:14. 2Kor 6:16,18. Heb 8:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.8": {
+    "text": "Men de feige og vantro og vanhellige og morderne og horkarene og trollmennene og avgudsdyrkerne og alle løgnere - deres del skal være i sjøen som brenner med ild og svovel. Det er den annen død.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:11. 14:10.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "20:14,15. 22:15. 1Kor 6:9. Gal 5:19. Ef 5:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.9": {
+    "text": "Og en av de sju englene som hadde de sju skålene, fylt av de sju siste plagene, kom bort til meg og talte med meg, og han sa: Kom, jeg vil vise deg bruden, Lammets hustru.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "15:1,6. 17:1. 19:7.",
+        "refs": []
+      }
+    ],
+    "section": "Det nye Jerusalems herlighet"
+  },
+  "REV.21.10": {
+    "text": "Og han førte meg i ånden opp på et stort, høyt fjell. Og han viste meg den hellige by Jerusalem, som kom ned fra himmelen, fra Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:10. 21:2. Esek 40:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.11": {
+    "text": "Den hadde Guds herlighet. Den strålte som den mest kostbare edelstein, som krystallklar jaspis.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 60:1. Esek 43:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.12": {
+    "text": "Den hadde en stor og høy mur med tolv porter. Ved portene var det tolv engler. Der var skrevet navnene på Israels barns tolv stammer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 48:31-35.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.13": {
+    "text": "Mot øst var det tre porter, mot nord tre porter, mot sør tre porter, mot vest tre porter.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.21.14": {
+    "text": "Og byens mur hadde tolv grunnsteiner, og på dem navnene på Lammets tolv apostler.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 16:18. Ef 2:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.15": {
+    "text": "Han som talte med meg, hadde en målestav av gull for at han skulle måle byen og dens porter og dens mur.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:1. Esek 40:3,5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.16": {
+    "text": "Byen ligger i en firkant, lengden er så stor som bredden. Han målte byen med målestaven: Tolv tusen stadier - lengden og bredden og høyden av den er like.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 48:16,17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.17": {
+    "text": "Og han målte muren: Hundre og førtifire alen, etter menneskemål, som også er englemål.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.21.18": {
+    "text": "Muren var bygd av jaspis, og byen var av rent gull, lik klart glass.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.21.19": {
+    "text": "Grunnsteinene i byens mur var prydet med alle slags kostbare edelsteiner. Den første grunnsteinen var jaspis, den andre safir, den tredje kalkedon, den fjerde smaragd,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 28:17-20. Jes 54:11,12. Esek 28:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.20": {
+    "text": "den femte sardonyks, den sjette sarder, den sjuende krysolitt, den åttende beryll, den niende topas, den tiende krysopras, den ellevte hyasint, den tolvte ametyst.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.21.21": {
+    "text": "De tolv portene var tolv perler, hver av portene var én perle. Og byens gate var rent gull, som gjennomsiktig glass.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "22:2. Jes 54:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.22": {
+    "text": "Noe tempel så jeg ikke i byen, for dens tempel er Gud Herren, Den Allmektige, og Lammet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.21.23": {
+    "text": "Byen trenger ikke lys fra solen eller månen. For Guds herlighet opplyser byen, og Lammet er dens lys.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 60:19,20. Sak 14:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.24": {
+    "text": "Folkeslagene skal vandre i byens lys, og kongene på jorden bærer sin herlighet inn i den.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 68:30. 72:10,11. Jes 60:3,5. 66:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.25": {
+    "text": "Dens porter skal aldri stenges om dagen, for natt skal ikke være der.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "22:5. Jes 60:11,20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.21.26": {
+    "text": "De skal bære folkeslagenes herlighet og ære inn i den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.21.27": {
+    "text": "Og ikke noe urent skal komme inn i byen, og ingen som farer med styggedom og løgn, men bare de som er innskrevet i livets bok hos Lammet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. 13:8. 22:14,15. Jes 35:8. 52:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.1": {
+    "text": "Og han viste meg en elv med livets vann, klar som krystall, som strømmet ut fra Guds og Lammets trone,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "21:6. Sal 46:5. Esek 47:1. Sak 14:8.",
+        "refs": []
+      }
+    ],
+    "section": "Livets vann og livets tre"
+  },
+  "REV.22.2": {
+    "text": "midt i byens gate. På begge sider av elven sto livets tre, som bærer frukt tolv ganger og gir sin frukt hver måned. Og bladene på treet tjener til helse for folkeslagene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.14. 2:7. 21:24,26. 1Mos 2:9. Esek 47:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.3": {
+    "text": "Det skal ikke lenger være noen forbannelse. Guds og Lammets trone skal være i byen, og hans tjenere skal tjene ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sak 14:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.4": {
+    "text": "De skal se hans åsyn, og hans navn skal være på deres panner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:12. 14:1. Matt 5:8. 1Kor 13:12. 1Joh 3:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.5": {
+    "text": "Natt skal ikke være mer, og de trenger ikke lys av lampe og lys av sol, for Gud Herren skal lyse over dem. Og de skal være konger i all evighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "21:23,25.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Sal 36:10. Jes 60:19. Dan 7:18,27. Sak 14:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.6": {
+    "text": "Og han sa til meg: Disse ordene er troverdige og sanne. Og Herren, den Gud som gir profetene sin Ånd, har sendt sin engel for å vise sine tjenere det som snart skal skje.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:1. 19:9. 21:5.",
+        "refs": []
+      }
+    ],
+    "section": "Salig er den som tror Guds ord"
+  },
+  "REV.22.7": {
+    "text": "Se, jeg kommer snart! Salig er den som holder fast på de profetiske ordene i denne boken.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:3. 3:11. Jes 40:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.8": {
+    "text": "Og jeg, Johannes, er den som hørte og så disse tingene. Da jeg hadde hørt og sett, falt jeg ned for å tilbe ved føttene til den engelen som hadde vist meg alt dette.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "19:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.9": {
+    "text": "Men han sa til meg: Vokt deg for det! Jeg er medtjener med deg og dine brødre profetene, og med dem som holder fast på ordene i denne boken. Gud skal du tilbe!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "19:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.10": {
+    "text": "Og han sier til meg: Sett ikke segl for de profetiske ordene i denne boken! For tiden er nær.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:3. Dan 8:26. 12:4. Fil 4:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.11": {
+    "text": "La den som gjør urett, fortsatt gjøre urett, og la den urene fortsatt bli uren! Og la den rettferdige fortsatt gjøre rettferdighet, og la den hellige fortsatt bli helliggjort!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 56:1. Esek 3:27. Dan 12:10. 2Tim 3:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.12": {
+    "text": "Se, jeg kommer snart, og min lønn er med meg, for å gi enhver igjen etter som hans gjerning er.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "20:12. Jes 40:10.",
+        "refs": []
+      }
+    ],
+    "section": "Se, jeg kommer snart"
+  },
+  "REV.22.13": {
+    "text": "Jeg er Alfa og Omega, den første og den siste, begynnelsen og enden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:8,11. 21:6. Jes 48:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.14": {
+    "text": "Salige er de som vasker sine kapper, så de må få rett til livets tre, og til å gå gjennom portene inn i byen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.15": {
+    "text": "Men utenfor er hundene og trollmennene og de som driver hor og drapsmennene og avgudsdyrkerne og hver den som elsker og gjør løgn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kor 6:9-10. Ef 5:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.16": {
+    "text": "Jeg, Jesus, har sendt min engel for å vitne om dette for dere i menighetene. Jeg er Davids rot og ætt, den klare morgenstjerne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:1,2. 4Mos 24:17. Jes 11:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.17": {
+    "text": "Og Ånden og bruden sier: Kom! Og den som hører det, la ham si: Kom! Og den som tørster, han får komme! Og den som vil, han får ta livets vann for intet!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "21:6.",
+        "refs": []
+      }
+    ],
+    "section": "Kom, Herre Jesus"
+  },
+  "REV.22.18": {
+    "text": "Jeg vitner for enhver som hører de profetiske ordene i denne boken: Dersom noen legger noe til dette, da skal Gud legge på ham de plagene som det er skrevet om i denne boken.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "REV.22.19": {
+    "text": "Og dersom noen tar noe bort fra ordene i denne profetiske boken, da skal Gud ta bort hans del fra livets tre og fra den hellige byen, som det er skrevet om i denne boken.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. 5Mos 4:2. Ord 30:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.20": {
+    "text": "Han som vitner dette, sier: Ja, jeg kommer snart! Amen, ja kom, Herre Jesus!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "REV.22.21": {
+    "text": "Vår Herre Jesu Kristi nåde være med dere alle! Amen!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Heb 13:25.",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

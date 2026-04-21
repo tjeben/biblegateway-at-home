@@ -1,27 +1,308 @@
 {
-  "JUD.1.1": "Judas, Jesu Kristi tjener og Jakobs bror, hilser dem som er kalt, dem som er elsket av Gud, vår Far, og bevart for Jesus Kristus.",
-  "JUD.1.2": "Barmhjertighet, fred og kjærlighet være med dere i rikt mål!",
-  "JUD.1.3": "Mine kjære! Jeg har hatt et inderlig ønske om å skrive til dere om frelsen vi har sammen. Men nå ser jeg meg tvunget til å sende dere noen formanende ord om å kjempe for den tro som de hellige én gang for alle har fått overlevert.",
-  "JUD.1.4": "For det har sneket seg inn visse folk blant dere, ugudelige mennesker som for lengst er oppskrevet til dom. De misbruker vår Guds nåde til et utsvevende liv, og de fornekter vår eneste hersker og Herre, Jesus Kristus.",
-  "JUD.1.5": "Jeg vil minne dere om noe, enda dere allerede vet alt dette: Herren berget folket ut av Egypt, men senere utryddet han dem som ikke ville tro.",
-  "JUD.1.6": "Og de englene som ikke tok vare på sitt høye verv, men forlot sin egen bolig, dem holder han bundet i mørket med evige lenker til dommen på den store dagen.",
-  "JUD.1.7": "På samme måte var det med Sodoma og Gomorra og nabobyene deres, hvor de levde i hor slik som disse englene, og i unaturlige lyster. De ble straffet med evig ild og er blitt et advarende eksempel.",
-  "JUD.1.8": "Likevel gjør disse menneskene det samme. Drevet av sine syner gjør de kroppen uren, forakter den myndighet som er over dem, og spotter høyere makter.",
-  "JUD.1.9": "Erkeengelen Mikael våget ikke å spotte og dømme djevelen den gang han lå i strid med ham om kroppen til Moses. Han sa bare: Må Herren refse deg!",
-  "JUD.1.10": "Men disse menneskene spotter det de ikke kjenner, og det de forstår ut fra naturen, i likhet med dyr uten fornuft, det tjener til å ødelegge dem.",
-  "JUD.1.11": "Ve dem! De har slått inn på Kains vei og har kastet seg ut i samme villfarelse som Bileam, som var ute etter egen vinning. De har gjort opprør som Korah og gått til grunne.",
-  "JUD.1.12": "De er skamflekker ved kjærlighetsmåltidene deres, der de uten frykt eller skam spiser sammen med dere. De er gjetere som bare passer seg selv, skyer som driver for vinden uten å gi regn. De er trær uten frukt om høsten, dobbelt døde, ja, revet opp med rot.",
-  "JUD.1.13": "De er bølger på opprørt hav, som skummer opp sin egen skamløshet. De er forvillede stjerner som det evige nattemørket venter på.",
-  "JUD.1.14": "Det var også om dem Henok, Adams etterkommer i sjuende ledd, profeterte da han sa: «Se, Herren kommer med sine hellige engler i tusentall",
-  "JUD.1.15": "for å holde dom over alle og kreve hvert menneske til regnskap for alle ugudelige gjerninger de har gjort, og for alle trassige ord de har rettet mot ham, disse gudløse synderne.»",
-  "JUD.1.16": "Dette er folk som murrer og klager over sin skjebne, men som lever etter sine egne lyster. Med munnen taler de store ord, og de smigrer andre når de har nytte av det.",
-  "JUD.1.17": "Men dere, mine kjære, må huske det som er forutsagt av vår Herre Jesu Kristi apostler",
-  "JUD.1.18": "da de sa til dere: «I den siste tid skal det komme spottere som følger sine egne ugudelige lyster.»",
-  "JUD.1.19": "Dette er de som skaper splid. De er rent menneskelige og har ikke Ånden.",
-  "JUD.1.20": "Men dere, mine kjære, må bygge dere selv opp ved deres høyhellige tro under stadig bønn i Den hellige ånd.",
-  "JUD.1.21": "Bli værende i Guds kjærlighet mens dere venter på at vår Herre Jesu Kristi barmhjertighet skal føre dere til evig liv.",
-  "JUD.1.22": "Mot dem som tviler, skal dere være barmhjertige.",
-  "JUD.1.23": "Andre skal dere berge ved å rive dem ut av ilden. Og mot andre igjen skal dere vise barmhjertighet med frykt, så dere til og med skyr kappen som er flekket til av kroppens begjær.",
-  "JUD.1.24": "Han som har makt til å bevare dere fra fall og føre dere fram for sin herlighet, jublende og uten feil,",
-  "JUD.1.25": "han, den eneste Gud, vår frelser ved Jesus Kristus, vår Herre: Ham tilhører ære og majestet, velde og makt før alle tider, nå og i alle evigheter! Amen."
+  "JUD.1.1": {
+    "text": "Judas, Jesu Kristi tjener og Jakobs bror, hilser dem som er kalt, dem som er elsket av Gud, vår Far, og bevart for Jesus Kristus.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Hilsen"
+  },
+  "JUD.1.2": {
+    "text": "Barmhjertighet, fred og kjærlighet være med dere i rikt mål!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Pet 1,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.3": {
+    "text": "Mine kjære! Jeg har hatt et inderlig ønske om å skrive til dere om frelsen vi har sammen. Men nå ser jeg meg tvunget til å sende dere noen formanende ord om å kjempe for den tro som de hellige én gang for alle har fått overlevert.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 13,24; 1 Tim 1,18; 6,12; 2 Tim 4,7",
+        "refs": []
+      }
+    ],
+    "section": "Vranglærerne og dommen over dem"
+  },
+  "JUD.1.4": {
+    "text": "For det har sneket seg inn visse folk blant dere, ugudelige mennesker som for lengst er oppskrevet til dom. De misbruker vår Guds nåde til et utsvevende liv, og de fornekter vår eneste hersker og Herre, Jesus Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gal 2,4; 2 Pet 2,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.5": {
+    "text": "Jeg vil minne dere om noe, enda dere allerede vet alt dette: Herren berget folket ut av Egypt, men senere utryddet han dem som ikke ville tro.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Mos 12,51; 4 Mos 14,26ff; 1 Kor 10,5; 2 Pet 1,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.6": {
+    "text": "Og de englene som ikke tok vare på sitt høye verv, men forlot sin egen bolig, dem holder han bundet i mørket med evige lenker til dommen på den store dagen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Pet 2,4.9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.7": {
+    "text": "På samme måte var det med Sodoma og Gomorra og nabobyene deres, hvor de levde i hor slik som disse englene, og i unaturlige lyster. De ble straffet med evig ild og er blitt et advarende eksempel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 19; Matt 10,15; 25,41; 2 Pet 2,6.10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.8": {
+    "text": "Likevel gjør disse menneskene det samme. Drevet av sine syner gjør de kroppen uren, forakter den myndighet som er over dem, og spotter høyere makter.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Pet 2,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.9": {
+    "text": "Erkeengelen Mikael våget ikke å spotte og dømme djevelen den gang han lå i strid med ham om kroppen til Moses. Han sa bare: Må Herren refse deg!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "en engel som verner Guds folk. Jf. Dan 10,13. =himmelske vesener."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sak 3,2; 2 Pet 2,11; Åp 12,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.10": {
+    "text": "Men disse menneskene spotter det de ikke kjenner, og det de forstår ut fra naturen, i likhet med dyr uten fornuft, det tjener til å ødelegge dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Pet 2,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.11": {
+    "text": "Ve dem! De har slått inn på Kains vei og har kastet seg ut i samme villfarelse som Bileam, som var ute etter egen vinning. De har gjort opprør som Korah og gått til grunne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 4,8; 4 Mos 16; 31,16; 2 Pet 2,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.12": {
+    "text": "De er skamflekker ved kjærlighetsmåltidene deres, der de uten frykt eller skam spiser sammen med dere. De er gjetere som bare passer seg selv, skyer som driver for vinden uten å gi regn. De er trær uten frukt om høsten, dobbelt døde, ja, revet opp med rot.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 34,8; 1 Kor 11,20f; 2 Pet 2,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.13": {
+    "text": "De er bølger på opprørt hav, som skummer opp sin egen skamløshet. De er forvillede stjerner som det evige nattemørket venter på.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 57,20; 2 Pet 2,17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.14": {
+    "text": "Det var også om dem Henok, Adams etterkommer i sjuende ledd, profeterte da han sa: «Se, Herren kommer med sine hellige engler i tusentall",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "…"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 5,3.18; 5 Mos 33,2; Matt 25,31",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.15": {
+    "text": "for å holde dom over alle og kreve hvert menneske til regnskap for alle ugudelige gjerninger de har gjort, og for alle trassige ord de har rettet mot ham, disse gudløse synderne.»",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 12,36",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.16": {
+    "text": "Dette er folk som murrer og klager over sin skjebne, men som lever etter sine egne lyster. Med munnen taler de store ord, og de smigrer andre når de har nytte av det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.17": {
+    "text": "Men dere, mine kjære, må huske det som er forutsagt av vår Herre Jesu Kristi apostler",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Pet 3,2",
+        "refs": []
+      }
+    ],
+    "section": "Bønn og omsorg"
+  },
+  "JUD.1.18": {
+    "text": "da de sa til dere: «I den siste tid skal det komme spottere som følger sine egne ugudelige lyster.»",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tim 3,1ff; 2 Pet 3,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.19": {
+    "text": "Dette er de som skaper splid. De er rent menneskelige og har ikke Ånden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.20": {
+    "text": "Men dere, mine kjære, må bygge dere selv opp ved deres høyhellige tro under stadig bønn i Den hellige ånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 2,7; 1 Tess 5,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.21": {
+    "text": "Bli værende i Guds kjærlighet mens dere venter på at vår Herre Jesu Kristi barmhjertighet skal føre dere til evig liv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 1,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.22": {
+    "text": "Mot dem som tviler, skal dere være barmhjertige.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "JUD.1.23": {
+    "text": "Andre skal dere berge ved å rive dem ut av ilden. Og mot andre igjen skal dere vise barmhjertighet med frykt, så dere til og med skyr kappen som er flekket til av kroppens begjær.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sak 3,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "JUD.1.24": {
+    "text": "Han som har makt til å bevare dere fra fall og føre dere fram for sin herlighet, jublende og uten feil,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tess 5,23",
+        "refs": []
+      }
+    ],
+    "section": "Lovprisning"
+  },
+  "JUD.1.25": {
+    "text": "han, den eneste Gud, vår frelser ved Jesus Kristus, vår Herre: Ham tilhører ære og majestet, velde og makt før alle tider, nå og i alle evigheter! Amen.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "hebr. for «det står fast», «det er sikkert og sant». =amen."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 16,27; Gal 1,5; Ef 3,21; 1 Tim 1,17; 2 Tim 4,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

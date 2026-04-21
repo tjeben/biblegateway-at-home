@@ -1,57 +1,888 @@
 {
-  "MAL.1.1": "The burden of the word of the Lord to Israel by Malachi.",
-  "MAL.1.2": "“I have loved you,” says the Lord. “Yet you say, ‘In what way have You loved us?’ Was not Esau Jacob’s brother?” Says the Lord. “Yet Jacob I have loved;",
-  "MAL.1.3": "But Esau I have hated, And laid waste his mountains and his heritage For the jackals of the wilderness.”",
-  "MAL.1.4": "Even though Edom has said, “We have been impoverished, But we will return and build the desolate places,” Thus says the Lord of hosts: “They may build, but I will throw down; They shall be called the Territory of Wickedness, And the people against whom the Lord will have indignation forever.",
-  "MAL.1.5": "Your eyes shall see, And you shall say, ‘The Lord is magnified beyond the border of Israel.’",
-  "MAL.1.6": "“A son honors his father, And a servant his master. If then I am the Father, Where is My honor? And if I am a Master, Where is My reverence? Says the Lord of hosts To you priests who despise My name. Yet you say, ‘In what way have we despised Your name?’",
-  "MAL.1.7": "“You offer defiled food on My altar, But say, ‘In what way have we defiled You?’ By saying, ‘The table of the Lord is contemptible.’",
-  "MAL.1.8": "And when you offer the blind as a sacrifice, Is it not evil? And when you offer the lame and sick, Is it not evil? Offer it then to your governor! Would he be pleased with you? Would he accept you favorably?” Says the Lord of hosts.",
-  "MAL.1.9": "“But now entreat God’s favor, That He may be gracious to us. While this is being done by your hands, Will He accept you favorably?” Says the Lord of hosts.",
-  "MAL.1.10": "“Who is there even among you who would shut the doors, So that you would not kindle fire on My altar in vain? I have no pleasure in you,” Says the Lord of hosts, “Nor will I accept an offering from your hands.",
-  "MAL.1.11": "For from the rising of the sun, even to its going down, My name shall be great among the Gentiles; In every place incense shall be offered to My name, And a pure offering; For My name shall be great among the nations,” Says the Lord of hosts.",
-  "MAL.1.12": "“But you profane it, In that you say, ‘The table of the Lord is defiled; And its fruit, its food, is contemptible.’",
-  "MAL.1.13": "You also say, ‘Oh, what a weariness!’ And you sneer at it,” Says the Lord of hosts. “And you bring the stolen, the lame, and the sick; Thus you bring an offering! Should I accept this from your hand?” Says the Lord.",
-  "MAL.1.14": "“But cursed be the deceiver Who has in his flock a male, And takes a vow, But sacrifices to the Lord what is blemished— For I am a great King,” Says the Lord of hosts, “And My name is to be feared among the nations.",
-  "MAL.2.1": "“And now, O priests, this commandment is for you.",
-  "MAL.2.2": "If you will not hear, And if you will not take it to heart, To give glory to My name,” Says the Lord of hosts, “I will send a curse upon you, And I will curse your blessings. Yes, I have cursed them already, Because you do not take it to heart.",
-  "MAL.2.3": "“Behold, I will rebuke your descendants And spread refuse on your faces, The refuse of your solemn feasts; And one will take you away with it.",
-  "MAL.2.4": "Then you shall know that I have sent this commandment to you, That My covenant with Levi may continue,” Says the Lord of hosts.",
-  "MAL.2.5": "“My covenant was with him, one of life and peace, And I gave them to him that he might fear Me; So he feared Me And was reverent before My name.",
-  "MAL.2.6": "The law of truth was in his mouth, And injustice was not found on his lips. He walked with Me in peace and equity, And turned many away from iniquity.",
-  "MAL.2.7": "“For the lips of a priest should keep knowledge, And people should seek the law from his mouth; For he is the messenger of the Lord of hosts.",
-  "MAL.2.8": "But you have departed from the way; You have caused many to stumble at the law. You have corrupted the covenant of Levi,” Says the Lord of hosts.",
-  "MAL.2.9": "“Therefore I also have made you contemptible and base Before all the people, Because you have not kept My ways But have shown partiality in the law.”",
-  "MAL.2.10": "Have we not all one Father? Has not one God created us? Why do we deal treacherously with one another By profaning the covenant of the fathers?",
-  "MAL.2.11": "Judah has dealt treacherously, And an abomination has been committed in Israel and in Jerusalem, For Judah has profaned The Lord’s holy institution which He loves: He has married the daughter of a foreign god.",
-  "MAL.2.12": "May the Lord cut off from the tents of Jacob The man who does this, being awake and aware, Yet who brings an offering to the Lord of hosts!",
-  "MAL.2.13": "And this is the second thing you do: You cover the altar of the Lord with tears, With weeping and crying; So He does not regard the offering anymore, Nor receive it with goodwill from your hands.",
-  "MAL.2.14": "Yet you say, “For what reason?” Because the Lord has been witness Between you and the wife of your youth, With whom you have dealt treacherously; Yet she is your companion And your wife by covenant.",
-  "MAL.2.15": "But did He not make them one, Having a remnant of the Spirit? And why one? He seeks godly offspring. Therefore take heed to your spirit, And let none deal treacherously with the wife of his youth.",
-  "MAL.2.16": "“For the Lord God of Israel says That He hates divorce, For it covers one’s garment with violence,” Says the Lord of hosts. “Therefore take heed to your spirit, That you do not deal treacherously.”",
-  "MAL.2.17": "You have wearied the Lord with your words; Yet you say, “In what way have we wearied Him?” In that you say, “Everyone who does evil Is good in the sight of the Lord, And He delights in them,” Or, “Where is the God of justice?”",
-  "MAL.3.1": "“Behold, I send My messenger, And he will prepare the way before Me. And the Lord, whom you seek, Will suddenly come to His temple, Even the Messenger of the covenant, In whom you delight. Behold, He is coming,” Says the Lord of hosts.",
-  "MAL.3.2": "“But who can endure the day of His coming? And who can stand when He appears? For He is like a refiner’s fire And like launderers’ soap.",
-  "MAL.3.3": "He will sit as a refiner and a purifier of silver; He will purify the sons of Levi, And purge them as gold and silver, That they may offer to the Lord An offering in righteousness.",
-  "MAL.3.4": "“Then the offering of Judah and Jerusalem Will be pleasant to the Lord, As in the days of old, As in former years.",
-  "MAL.3.5": "And I will come near you for judgment; I will be a swift witness Against sorcerers, Against adulterers, Against perjurers, Against those who exploit wage earners and widows and orphans, And against those who turn away an alien— Because they do not fear Me,” Says the Lord of hosts.",
-  "MAL.3.6": "“For I am the Lord, I do not change; Therefore you are not consumed, O sons of Jacob.",
-  "MAL.3.7": "Yet from the days of your fathers You have gone away from My ordinances And have not kept them. Return to Me, and I will return to you,” Says the Lord of hosts. “But you said, ‘In what way shall we return?’",
-  "MAL.3.8": "“Will a man rob God? Yet you have robbed Me! But you say, ‘In what way have we robbed You?’ In tithes and offerings.",
-  "MAL.3.9": "You are cursed with a curse, For you have robbed Me, Even this whole nation.",
-  "MAL.3.10": "Bring all the tithes into the storehouse, That there may be food in My house, And try Me now in this,” Says the Lord of hosts, “If I will not open for you the windows of heaven And pour out for you such blessing That there will not be room enough to receive it.",
-  "MAL.3.11": "“And I will rebuke the devourer for your sakes, So that he will not destroy the fruit of your ground, Nor shall the vine fail to bear fruit for you in the field,” Says the Lord of hosts;",
-  "MAL.3.12": "“And all nations will call you blessed, For you will be a delightful land,” Says the Lord of hosts.",
-  "MAL.3.13": "“Your words have been harsh against Me,” Says the Lord, “Yet you say, ‘What have we spoken against You?’",
-  "MAL.3.14": "You have said, ‘It is useless to serve God; What profit is it that we have kept His ordinance, And that we have walked as mourners Before the Lord of hosts?",
-  "MAL.3.15": "So now we call the proud blessed, For those who do wickedness are raised up; They even tempt God and go free.’ ”",
-  "MAL.3.16": "Then those who feared the Lord spoke to one another, And the Lord listened and heard them; So a book of remembrance was written before Him For those who fear the Lord And who meditate on His name.",
-  "MAL.3.17": "“They shall be Mine,” says the Lord of hosts, “On the day that I make them My jewels. And I will spare them As a man spares his own son who serves him.”",
-  "MAL.3.18": "Then you shall again discern Between the righteous and the wicked, Between one who serves God And one who does not serve Him.",
-  "MAL.4.1": "“For behold, the day is coming, Burning like an oven, And all the proud, yes, all who do wickedly will be stubble. And the day which is coming shall burn them up,” Says the Lord of hosts, “That will leave them neither root nor branch.",
-  "MAL.4.2": "But to you who fear My name The Sun of Righteousness shall arise With healing in His wings; And you shall go out And grow fat like stall-fed calves.",
-  "MAL.4.3": "You shall trample the wicked, For they shall be ashes under the soles of your feet On the day that I do this,” Says the Lord of hosts.",
-  "MAL.4.4": "“Remember the Law of Moses, My servant, Which I commanded him in Horeb for all Israel, With the statutes and judgments.",
-  "MAL.4.5": "Behold, I will send you Elijah the prophet Before the coming of the great and dreadful day of the Lord.",
-  "MAL.4.6": "And he will turn The hearts of the fathers to the children, And the hearts of the children to their fathers, Lest I come and strike the earth with a curse.”"
+  "MAL.1.1": {
+    "text": "The burden of the word of the Lord to Israel by Malachi.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "MAL.1.2": {
+    "text": "“I have loved you,” says the Lord. “Yet you say, ‘In what way have You loved us?’ Was not Esau Jacob’s brother?” Says the Lord. “Yet Jacob I have loved;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 4:37; 7:8; 23:5; Is. 41:8, 9; (Jer. 31:3); John 15:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom. 9:13",
+        "refs": []
+      }
+    ],
+    "section": "Israel Beloved of God"
+  },
+  "MAL.1.3": {
+    "text": "But Esau I have hated, And laid waste his mountains and his heritage For the jackals of the wilderness.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 49:18; Ezek. 35:9, 15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.4": {
+    "text": "Even though Edom has said, “We have been impoverished, But we will return and build the desolate places,” Thus says the Lord of hosts: “They may build, but I will throw down; They shall be called the Territory of Wickedness, And the people against whom the Lord will have indignation forever.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 49:16–18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.5": {
+    "text": "Your eyes shall see, And you shall say, ‘The Lord is magnified beyond the border of Israel.’",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 35:27; Mic. 5:4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.6": {
+    "text": "“A son honors his father, And a servant his master. If then I am the Father, Where is My honor? And if I am a Master, Where is My reverence? Says the Lord of hosts To you priests who despise My name. Yet you say, ‘In what way have we despised Your name?’",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "(Ex. 20:12); Prov. 30:11, 17; (Matt. 15:4–8; Eph. 6:2, 3)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "(Is. 63:16; 64:8); Jer. 31:9; Luke 6:46",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mal. 2:14",
+        "refs": []
+      }
+    ],
+    "section": "Polluted Offerings"
+  },
+  "MAL.1.7": {
+    "text": "“You offer defiled food on My altar, But say, ‘In what way have we defiled You?’ By saying, ‘The table of the Lord is contemptible.’",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 15:21",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 41:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.8": {
+    "text": "And when you offer the blind as a sacrifice, Is it not evil? And when you offer the lame and sick, Is it not evil? Offer it then to your governor! Would he be pleased with you? Would he accept you favorably?” Says the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Lev. 22:22; Deut. 15:19–23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "(Job 42:8)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.9": {
+    "text": "“But now entreat God’s favor, That He may be gracious to us. While this is being done by your hands, Will He accept you favorably?” Says the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hos. 13:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.10": {
+    "text": "“Who is there even among you who would shut the doors, So that you would not kindle fire on My altar in vain? I have no pleasure in you,” Says the Lord of hosts, “Nor will I accept an offering from your hands.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Cor. 9:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 1:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.11": {
+    "text": "For from the rising of the sun, even to its going down, My name shall be great among the Gentiles; In every place incense shall be offered to My name, And a pure offering; For My name shall be great among the nations,” Says the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Is. 59:19",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 60:3, 5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Tim. 2:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rev. 8:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 66:18, 19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.12": {
+    "text": "“But you profane it, In that you say, ‘The table of the Lord is defiled; And its fruit, its food, is contemptible.’",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal. 1:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.13": {
+    "text": "You also say, ‘Oh, what a weariness!’ And you sneer at it,” Says the Lord of hosts. “And you bring the stolen, the lame, and the sick; Thus you bring an offering! Should I accept this from your hand?” Says the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Is. 43:22",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Lev. 22:20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.1.14": {
+    "text": "“But cursed be the deceiver Who has in his flock a male, And takes a vow, But sacrifices to the Lord what is blemished— For I am a great King,” Says the Lord of hosts, “And My name is to be feared among the nations.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal. 1:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Lev. 22:18–20",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 47:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.1": {
+    "text": "“And now, O priests, this commandment is for you.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal. 1:6",
+        "refs": []
+      }
+    ],
+    "section": "Corrupt Priests"
+  },
+  "MAL.2.2": {
+    "text": "If you will not hear, And if you will not take it to heart, To give glory to My name,” Says the Lord of hosts, “I will send a curse upon you, And I will curse your blessings. Yes, I have cursed them already, Because you do not take it to heart.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "(Lev. 26:14, 15; Deut. 28:15)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mal. 3:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.3": {
+    "text": "“Behold, I will rebuke your descendants And spread refuse on your faces, The refuse of your solemn feasts; And one will take you away with it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ex. 29:14",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Kin. 14:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.4": {
+    "text": "Then you shall know that I have sent this commandment to you, That My covenant with Levi may continue,” Says the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "MAL.2.5": {
+    "text": "“My covenant was with him, one of life and peace, And I gave them to him that he might fear Me; So he feared Me And was reverent before My name.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Num. 25:12; Ezek. 34:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 33:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.6": {
+    "text": "The law of truth was in his mouth, And injustice was not found on his lips. He walked with Me in peace and equity, And turned many away from iniquity.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 33:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 23:22; (James 5:20)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.7": {
+    "text": "“For the lips of a priest should keep knowledge, And people should seek the law from his mouth; For he is the messenger of the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Num. 27:21; Deut. 17:8–11; Jer. 18:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "(Gal. 4:14)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.8": {
+    "text": "But you have departed from the way; You have caused many to stumble at the law. You have corrupted the covenant of Levi,” Says the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 18:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Num. 25:12, 13; Neh. 13:29; Ezek. 44:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.9": {
+    "text": "“Therefore I also have made you contemptible and base Before all the people, Because you have not kept My ways But have shown partiality in the law.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Sam. 2:30",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 1:17; Mic. 3:11; 1 Tim. 5:21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.10": {
+    "text": "Have we not all one Father? Has not one God created us? Why do we deal treacherously with one another By profaning the covenant of the fathers?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 31:9; 1 Cor. 8:6; (Eph. 4:6)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Job 31:15",
+        "refs": []
+      }
+    ],
+    "section": "Treachery of Infidelity"
+  },
+  "MAL.2.11": {
+    "text": "Judah has dealt treacherously, And an abomination has been committed in Israel and in Jerusalem, For Judah has profaned The Lord’s holy institution which He loves: He has married the daughter of a foreign god.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezra 9:1, 2; Neh. 13:23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.12": {
+    "text": "May the Lord cut off from the tents of Jacob The man who does this, being awake and aware, Yet who brings an offering to the Lord of hosts!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Neh. 13:29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.13": {
+    "text": "And this is the second thing you do: You cover the altar of the Lord with tears, With weeping and crying; So He does not regard the offering anymore, Nor receive it with goodwill from your hands.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "MAL.2.14": {
+    "text": "Yet you say, “For what reason?” Because the Lord has been witness Between you and the wife of your youth, With whom you have dealt treacherously; Yet she is your companion And your wife by covenant.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 5:18; Jer. 9:2; Mal. 3:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Prov. 2:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.15": {
+    "text": "But did He not make them one, Having a remnant of the Spirit? And why one? He seeks godly offspring. Therefore take heed to your spirit, And let none deal treacherously with the wife of his youth.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Gen. 2:24; Matt. 19:4, 5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezra 9:2; (1 Cor. 7:14)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.16": {
+    "text": "“For the Lord God of Israel says That He hates divorce, For it covers one’s garment with violence,” Says the Lord of hosts. “Therefore take heed to your spirit, That you do not deal treacherously.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Deut. 24:1; (Matt. 5:31; 19:6–8)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.2.17": {
+    "text": "You have wearied the Lord with your words; Yet you say, “In what way have we wearied Him?” In that you say, “Everyone who does evil Is good in the sight of the Lord, And He delights in them,” Or, “Where is the God of justice?”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Is. 43:22, 24",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 5:20; Zeph. 1:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.1": {
+    "text": "“Behold, I send My messenger, And he will prepare the way before Me. And the Lord, whom you seek, Will suddenly come to His temple, Even the Messenger of the covenant, In whom you delight. Behold, He is coming,” Says the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt. 11:10; Mark 1:2; Luke 1:76; 7:27; John 1:23; 2:14, 15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "(Is. 40:3)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 63:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Hab. 2:7",
+        "refs": []
+      }
+    ],
+    "section": "The Coming Messenger"
+  },
+  "MAL.3.2": {
+    "text": "“But who can endure the day of His coming? And who can stand when He appears? For He is like a refiner’s fire And like launderers’ soap.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 10:10; Joel 2:11; Nah. 1:6; (Mal. 4:1)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 33:14; Ezek. 22:14; Rev. 6:17",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 4:4; Zech. 13:9; (Matt. 3:10–12; 1 Cor. 3:13–15)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.3": {
+    "text": "He will sit as a refiner and a purifier of silver; He will purify the sons of Levi, And purge them as gold and silver, That they may offer to the Lord An offering in righteousness.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Is. 1:25; Dan. 12:10; Zech. 13:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "(1 Pet. 2:5)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.4": {
+    "text": "“Then the offering of Judah and Jerusalem Will be pleasant to the Lord, As in the days of old, As in former years.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal. 1:11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.5": {
+    "text": "And I will come near you for judgment; I will be a swift witness Against sorcerers, Against adulterers, Against perjurers, Against those who exploit wage earners and widows and orphans, And against those who turn away an alien— Because they do not fear Me,” Says the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Lev. 19:12; Zech. 5:4; (James 5:12)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Lev. 19:13; James 5:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ex. 22:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.6": {
+    "text": "“For I am the Lord, I do not change; Therefore you are not consumed, O sons of Jacob.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "(Num. 23:19; Rom. 11:29; James 1:17)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "(Lam. 3:22)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.7": {
+    "text": "Yet from the days of your fathers You have gone away from My ordinances And have not kept them. Return to Me, and I will return to you,” Says the Lord of hosts. “But you said, ‘In what way shall we return?’",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Acts 7:51",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Zech. 1:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mal. 1:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.8": {
+    "text": "“Will a man rob God? Yet you have robbed Me! But you say, ‘In what way have we robbed You?’ In tithes and offerings.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Neh. 13:10–12",
+        "refs": []
+      }
+    ],
+    "section": "Do Not Rob God"
+  },
+  "MAL.3.9": {
+    "text": "You are cursed with a curse, For you have robbed Me, Even this whole nation.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "MAL.3.10": {
+    "text": "Bring all the tithes into the storehouse, That there may be food in My house, And try Me now in this,” Says the Lord of hosts, “If I will not open for you the windows of heaven And pour out for you such blessing That there will not be room enough to receive it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Prov. 3:9, 10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1 Chr. 26:20",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gen. 7:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Chr. 31:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.11": {
+    "text": "“And I will rebuke the devourer for your sakes, So that he will not destroy the fruit of your ground, Nor shall the vine fail to bear fruit for you in the field,” Says the Lord of hosts;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Amos 4:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.12": {
+    "text": "“And all nations will call you blessed, For you will be a delightful land,” Says the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan. 8:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.13": {
+    "text": "“Your words have been harsh against Me,” Says the Lord, “Yet you say, ‘What have we spoken against You?’",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal. 2:17",
+        "refs": []
+      }
+    ],
+    "section": "The People Complain Harshly"
+  },
+  "MAL.3.14": {
+    "text": "You have said, ‘It is useless to serve God; What profit is it that we have kept His ordinance, And that we have walked as mourners Before the Lord of hosts?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 21:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.15": {
+    "text": "So now we call the proud blessed, For those who do wickedness are raised up; They even tempt God and go free.’ ”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 73:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 95:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.16": {
+    "text": "Then those who feared the Lord spoke to one another, And the Lord listened and heard them; So a book of remembrance was written before Him For those who fear the Lord And who meditate on His name.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 66:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 3:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 56:8",
+        "refs": []
+      }
+    ],
+    "section": "A Book of Remembrance"
+  },
+  "MAL.3.17": {
+    "text": "“They shall be Mine,” says the Lord of hosts, “On the day that I make them My jewels. And I will spare them As a man spares his own son who serves him.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ex. 19:5; Deut. 7:6; Is. 43:21; (1 Pet. 2:9)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 62:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 103:13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.3.18": {
+    "text": "Then you shall again discern Between the righteous and the wicked, Between one who serves God And one who does not serve Him.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "(Ps. 58:11)",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.4.1": {
+    "text": "“For behold, the day is coming, Burning like an oven, And all the proud, yes, all who do wickedly will be stubble. And the day which is coming shall burn them up,” Says the Lord of hosts, “That will leave them neither root nor branch.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 21:9; (Nah. 1:5, 6; Mal. 3:2, 3; 2 Pet. 3:7)",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Mal. 3:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Is. 5:24; Obad. 18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 2:9",
+        "refs": []
+      }
+    ],
+    "section": "The Great Day of God"
+  },
+  "MAL.4.2": {
+    "text": "But to you who fear My name The Sun of Righteousness shall arise With healing in His wings; And you shall go out And grow fat like stall-fed calves.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal. 3:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Matt. 4:16; Luke 1:78; Acts 10:43; 2 Cor. 4:6; Eph. 5:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.4.3": {
+    "text": "You shall trample the wicked, For they shall be ashes under the soles of your feet On the day that I do this,” Says the Lord of hosts.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mic. 7:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.4.4": {
+    "text": "“Remember the Law of Moses, My servant, Which I commanded him in Horeb for all Israel, With the statutes and judgments.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ex. 20:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Deut. 4:10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.4.5": {
+    "text": "Behold, I will send you Elijah the prophet Before the coming of the great and dreadful day of the Lord.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "(Matt. 11:14; 17:10–13; Mark 9:11–13; Luke 1:17); John 1:21",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Joel 2:31",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "MAL.4.6": {
+    "text": "And he will turn The hearts of the fathers to the children, And the hearts of the children to their fathers, Lest I come and strike the earth with a curse.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Zech. 14:12",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Zech. 5:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

@@ -1,199 +1,2103 @@
 {
-  "HOS.1.1": "Dette er Herrens ord som kom til Hosea, Be’eris sønn, i de dager da Ussia, Jotam, Akas og Hiskia var konger i Juda, og da Jeroboam, Joasjs sønn, var konge i Israel.",
-  "HOS.1.2": "Da Herren begynte å tale til Hosea, sa Herren til ham: Gå og få deg en horkvinne og horebarn! For landet driver hor og følger ikke Herren.",
-  "HOS.1.3": "Da gikk han og tok til ekte Gomer, Diblajims datter, og hun ble med barn og fødte ham en sønn.",
-  "HOS.1.4": "Og Herren sa til ham: Kall ham Jisre’el! For om kort tid vil jeg hjemsøke Israels blodskyld på Jehus hus og gjøre ende på kongedømmet i Israels hus.",
-  "HOS.1.5": "Det skal skje på den dagen at jeg bryter Israels bue i Jisre’els dal.",
-  "HOS.1.6": "Hun ble igjen med barn og fødte en datter, og han sa til ham: Kall henne Lo-Ruhama! For jeg vil ikke mer miskunne meg over Israels hus, så jeg skulle tilgi dem.",
-  "HOS.1.7": "Men over Judas hus vil jeg miskunne meg. Jeg vil frelse dem ved Herren deres Gud. Jeg vil ikke frelse dem ved bue eller sverd eller krig, ved hester eller ryttere.",
-  "HOS.1.8": "Da hun hadde avvent Lo-Ruhama, ble hun igjen med barn og fødte en sønn.",
-  "HOS.1.9": "Og han sa: Kall ham Lo-Ammi! For dere er ikke mitt folk, og jeg vil ikke være JEG ER for dere.",
-  "HOS.1.10": "Men likevel skal tallet på Israels barn bli som havets sand, som ikke lar seg måle eller telle. Og det skal skje: På det stedet hvor det ble sagt til dem: Dere er ikke mitt folk! - skal det bli sagt til dem: Den levende Guds barn!",
-  "HOS.1.11": "Og Judas barn og Israels barn skal fylke seg sammen og ta seg én høvding og dra opp over landet. For stor er Jisre’els dag.",
-  "HOS.2.1": "Si da til brødrene deres: Ammi! Og til søstrene: Ruhama!",
-  "HOS.2.2": "Strid mot deres mor! Gå i strid med henne! For hun er ikke min kone, og jeg er ikke hennes mann. Få henne til å ta bort sine horeminer fra ansiktet og sine utroskaps tegn mellom brystene,",
-  "HOS.2.3": "for at jeg ikke skal kle henne naken og stille henne fram som hun var den dagen hun ble født, og gjøre henne lik en ørken, et tørt land, og la henne dø av tørst!",
-  "HOS.2.4": "Og hennes barn vil jeg ikke miskunne meg over, for de er horebarn.",
-  "HOS.2.5": "For deres mor har drevet hor, hun som fødte dem har båret seg skammelig at - hun sa: Jeg vil gå etter mine elskere, de som gir meg brød og vann, ull og lin, olje og vin.",
-  "HOS.2.6": "Se, derfor stenger jeg veien for deg med torner. Jeg reiser en mur foran henne, så hun ikke finner sine stier.",
-  "HOS.2.7": "Når hun løper etter sine elskere, skal hun ikke nå dem. Når hun søker dem, skal hun ikke finne dem. Da skal hun si: Jeg vil vende tilbake til min første mann. For den gang hadde jeg det bedre enn nå.",
-  "HOS.2.8": "Hun skjønte ikke at det var jeg som ga henne kornet og mosten og oljen, og at det var jeg som ga henne sølv og gull i mengdevis - som de brukte til Ba’al.",
-  "HOS.2.9": "Derfor vil jeg ta tilbake mitt korn i skurdtiden, og min most i frukthøstens tid. Jeg vil ta bort min ull og mitt lin, som tjener til å skjule hennes nakenhet.",
-  "HOS.2.10": "Ja, nå vil jeg blotte hennes skam for hennes elskeres øyne, og ingen skal rive henne ut av min hånd.",
-  "HOS.2.11": "Jeg vil gjøre ende på all hennes glede, hennes fester, hennes nymåner og sabbater og alle hennes høytider.",
-  "HOS.2.12": "Jeg vil ødelegge hennes vintre og hennes fikentre, som hun har talt om og sagt: De er min horelønn, som mine elskere har gitt meg! Og jeg vil gjøre dem til skog, og markens dyr skal ete dem.",
-  "HOS.2.13": "Jeg vil straffe henne for de dagene da hun brente røkelse for Ba’alene og prydet seg med nesering og halssmykke og gikk etter sine elskere, men glemte meg, sier Herren.",
-  "HOS.2.14": "Se, derfor vil jeg lokke henne og føre henne ut i ørkenen og tale vennlig til henne,",
-  "HOS.2.15": "og så snart hun kommer derfra, vil jeg gi henne vingårdene tilbake og gjøre Akors dal til en håpets dør for henne. Hun skal takke der, som i sin ungdoms dager, som den dagen hun dro opp fra landet Egypt.",
-  "HOS.2.16": "Og det skal skje på den dagen, sier Herren, at du skal rope: Min mann! Du skal ikke mer rope til meg: Min Ba’al!",
-  "HOS.2.17": "Jeg vil ta Ba’alenes navn bort fra hennes munn, og de skal ikke mer nevnes ved navn.",
-  "HOS.2.18": "På den dagen vil jeg gjøre en pakt for dem med markens dyr og med himmelens fugler og med jordens kryp. Bue og sverd og krig vil jeg ødelegge og utrydde av landet. Jeg vil la dem bo i trygghet.",
-  "HOS.2.19": "Jeg vil forlove meg med deg for evig tid. Jeg vil forlove meg med deg i rettferdighet og rett, i miskunnhet og barmhjertighet.",
-  "HOS.2.20": "Og jeg vil forlove meg med deg i troskap, og du skal kjenne Herren.",
-  "HOS.2.21": "Det skal skje på den dagen at jeg vil bønnhøre, sier Herren. Jeg vil bønnhøre himmelen, og den skal bønnhøre jorden.",
-  "HOS.2.22": "Jorden skal bønnhøre kornet og mosten og oljen, og de skal bønnhøre Jisre’el.",
-  "HOS.2.23": "Jeg vil plante henne for meg i landet. Jeg vil miskunne meg over Lo-Ruhama, og jeg vil si til Lo-Ammi: Du er mitt folk! - og det skal svare: Min Gud!",
-  "HOS.3.1": "Og Herren sa til meg: Gå igjen bort og elsk en kvinne som er elsket av sin venn og likevel bryter ekteskapet, likesom Herren elsker Israels barn, men de vender seg til andre guder og elsker rosinkaker!",
-  "HOS.3.2": "Da kjøpte jeg meg en slik kvinne for femten sekel sølv og en homer bygg og en letek bygg.",
-  "HOS.3.3": "Og jeg sa til henne: I mange dager skal du få sitte alene her hos meg. Du skal ikke få drive hor. Du skal ikke ha med noen mann å gjøre. På samme vis skal jeg bære meg at mot deg.",
-  "HOS.3.4": "For i mange dager skal Israels barn sitte uten konge og fyrste, uten offer og billedstøtte, uten efod og husguder.",
-  "HOS.3.5": "Deretter skal Israels barn vende om og søke Herren sin Gud og David, sin konge. Bevende skal de søke Herren og hans gaver i de siste dager.",
-  "HOS.4.1": "Hør Herrens ord, dere Israels barn! For Herren har sak med dem som bor i landet, fordi det ingen sannhet og ingen kjærlighet og ingen gudskunnskap finnes i landet.",
-  "HOS.4.2": "De sverger og lyver, myrder og stjeler og bryter ekteskapet. De farer fram med vold, og mord følger på mord.",
-  "HOS.4.3": "Derfor skal landet sørge, og alle som bor der, skal tæres bort, både markens dyr og himmelens fugler, ja, også havets fisker skal utryddes.",
-  "HOS.4.4": "Likevel må ingen gå i rette med noen eller refse ham. For ditt folk er lik dem som tretter med en prest.",
-  "HOS.4.5": "Du skal omkomme om dagen, og profeten skal omkomme med deg om natten, og jeg vil tilintetgjøre din mor.",
-  "HOS.4.6": "Mitt folk går til grunne fordi det ikke har kunnskap. Fordi du har forkastet kunnskapen, forkaster jeg deg, så du ikke skal tjene meg som prest. Du glemte din Guds lov, derfor vil også jeg glemme dine barn.",
-  "HOS.4.7": "Jo flere de ble, dess mer syndet de mot meg. Deres ære vil jeg skifte om til skam.",
-  "HOS.4.8": "De lever av mitt folks synd, og lengter etter deres misgjerning.",
-  "HOS.4.9": "Derfor skal det gå med presten som med folket. Jeg vil straffe ham for hans ferd og gi ham gjengjeld for hans gjerninger.",
-  "HOS.4.10": "De skal ete og ikke bli mette. De skal drive hor og ikke utbre seg. For de har holdt opp å akte på Herren.",
-  "HOS.4.11": "Hor og vin og most tar forstanden bort.",
-  "HOS.4.12": "Mitt folk spør sitt trestykke til råds, og dets kjepp gir det svar. For en horeånd har ført dem vill, så de driver hor og går bort fra sin Gud.",
-  "HOS.4.13": "På fjelltoppene ofrer de, og på haugene brenner de røkelse under eiketrær og popler og terebinter, fordi skyggen der er god. Derfor driver døtrene deres hor, og deres svigerdøtre gjør seg skyldige i ekteskapsbrudd.",
-  "HOS.4.14": "Jeg vil ikke hjemsøke deres døtre for deres hor, eller deres svigerdøtre for deres ekteskapsbrudd. For mennene går selv avsides med horkvinnene og ofrer med tempelhorene. Slik går et uforstandig folk til grunne.",
-  "HOS.4.15": "Selv om du, Israel, driver hor, så må ikke Juda gjøre seg skyldig i slikt! Gå ikke til Gilgal og dra ikke opp til Bet-Aven og sverg ikke: Så sant Herren lever!",
-  "HOS.4.16": "For Israel er som en ustyrlig ku. Vil Herren da la dem beite som lam på vide marker?",
-  "HOS.4.17": "Efra’im er bundet til avgudsbilder. La ham fare!",
-  "HOS.4.18": "Rusen deres er forbi. Vilt har skjoldene deres horet. Voldsomt har de elsket det som skammelig er.",
-  "HOS.4.19": "Et stormvær griper dem med sine vinger, og de skal bli til skamme med sine offer.",
-  "HOS.5.1": "Hør dette, dere prester! Gi akt, du Israels hus! Og du kongehus, vend øret til! For dommen gjelder dere. For en snare har dere vært på Mispa og et utspent nett på Tabor.",
-  "HOS.5.2": "Deres opprørere er falt dypt i synd. Men jeg skal tukte dem alle.",
-  "HOS.5.3": "Jeg kjenner Efra’im, og Israel er ikke skjult for meg. For nå har du drevet hor, Efra’im! Israel er blitt urent.",
-  "HOS.5.4": "Deres gjerninger hindrer dem fra å vende om til sin Gud. For de har en horeånd i sitt indre, og Herren kjenner de ikke.",
-  "HOS.5.5": "Israels stolthet skal vitne mot ham like i ansiktet. Israel og Efra’im skal omkomme for sin misgjernings skyld, og også Juda skal omkomme med dem.",
-  "HOS.5.6": "De skal gå med sine sauer og okser for å søke Herren, men ikke finne ham. Han har dratt seg bort fra dem.",
-  "HOS.5.7": "De har båret seg troløst at mot Herren, for de har født uekte barn. Nå skal nymånen fortære både dem og alt det de eier.",
-  "HOS.5.8": "La hornet lyde i Gibea, og trompeten i Rama! Blås alarm i Bet-Aven! Fienden er etter deg, Benjamin!",
-  "HOS.5.9": "Efra’im skal bli til en ørken på straffens dag. Blant Israels stammer har jeg kunngjort det som sikkert vil skje.",
-  "HOS.5.10": "Judas fyrster er blitt lik dem som flytter grensesteiner. Over dem vil jeg utøse min harme som vann.",
-  "HOS.5.11": "Efra’im blir undertrykt, knust ved dom. For han fant for godt å følge menneskers bud.",
-  "HOS.5.12": "Og jeg er som møll for Efra’im og som råttenhet for Judas hus.",
-  "HOS.5.13": "Da Efra’im så sin sykdom og Juda sitt sår, da gikk Efra’im til Assur og sendte bud til kong Jareb. Men han skal ikke kunne helbrede dere, og deres sår skal ikke bli legt.",
-  "HOS.5.14": "For jeg er som en løve mot Efra’im og som en ung løve mot Judas hus. Jeg river i stykker og går min vei. Jeg sleper byttet bort, og det er ingen som frelser.",
-  "HOS.5.15": "Jeg vil gå min vei, jeg vil vende tilbake til mitt sted, inntil de erkjenner seg skyldige og søker mitt åsyn. I sin trengsel skal de søke meg med alvor.",
-  "HOS.6.1": "Kom, la oss vende om til Herren! For det er han som har revet i stykker, men han vil også lege oss. Han slo, men han vil også forbinde oss.",
-  "HOS.6.2": "Han vil gjøre oss levende etter to dager. På den tredje dagen vil han reise oss opp, og vi skal leve for hans åsyn.",
-  "HOS.6.3": "Så la oss lære å kjenne Herren! La oss søke med iver å lære ham å kjenne! Hans oppgang er så viss som morgenrøden, og han kommer til oss som regnet, som et senregn som væter jorden.",
-  "HOS.6.4": "Hva skal jeg gjøre med deg, Efra’im? Hva skal jeg gjøre med deg, Juda? For deres kjærlighet er som en morgensky, lik duggen som tidlig går bort.",
-  "HOS.6.5": "Derfor har jeg hogd løs på dem ved profetene, drept dem ved min munns ord. Dommene over deg for ut som lyn.",
-  "HOS.6.6": "For jeg har lyst til kjærlighet og ikke til slaktoffer, til gudskunnskap mer enn til brennoffer.",
-  "HOS.6.7": "Men de har brutt pakten, likesom Adam. Der har de vært troløse mot meg.",
-  "HOS.6.8": "Gilead er en by med ugjerningsmenn, full av blodspor.",
-  "HOS.6.9": "Lik en røverskare som lurer på folk, er hele presteflokken. De myrder på veien til Sikem. Ja, skammelige ting har de gjort.",
-  "HOS.6.10": "I Israels hus har jeg sett grufulle ting. Der er Efra’im hengitt til hor, der er Israel blitt urent.",
-  "HOS.6.11": "Også for deg, Juda, er det fastsatt en høst, når jeg gjør ende på mitt folks fangenskap.",
-  "HOS.7.1": "Når jeg vil lege Israel, da åpenbares Efra’ims misgjerning og Samarias ondskap. For de farer med svik. Tyver bryter seg inn, og røverskarer plyndrer utenfor.",
-  "HOS.7.2": "De tenker ikke på at jeg husker all deres ondskap. Nå har deres gjerninger omringet dem, de er kommet for mitt åsyn.",
-  "HOS.7.3": "De gleder kongen med sin ondskap, og høvdingene med sine løgner.",
-  "HOS.7.4": "Alle sammen er de ekteskapsbrytere. De ligner en ovn som bakeren har hetet opp. Han holder bare opp med å fyre fra deigen eltes til den er syret.",
-  "HOS.7.5": "På vår konges dag drikker fyrstene seg syke av den hete vinen. Han rekker spottere hånden.",
-  "HOS.7.6": "De gjør sitt hjerte så hett som en ovn mens de ligger på lur. Hele natten sover deres vrede, men om morgenen brenner den som luende ild.",
-  "HOS.7.7": "Alle sammen blir de hete som en ovn og fortærer sine dommere. Alle deres konger er falt. Det er ingen iblant dem som kaller på meg.",
-  "HOS.7.8": "Efra’im blander seg med folkene. Efra’im er blitt en kake som ikke er vendt.",
-  "HOS.7.9": "Fremmede har fortært hans kraft, men han vet det ikke. Hans hår er alt gråsprengt, men han vet det ikke.",
-  "HOS.7.10": "Israels stolthet vitner mot ham like i hans ansikt. Men han vender ikke om til Herren sin Gud og søker ham ikke tross alt dette.",
-  "HOS.7.11": "Efra’im er blitt som en enfoldig due, uten forstand. De kaller på Egypt, de går til Assur.",
-  "HOS.7.12": "Så snart de går, vil jeg spenne nettet mitt over dem. Jeg drar dem ned som himmelens fugler. Jeg vil tukte dem, som det allerede er forkynt for deres menighet.",
-  "HOS.7.13": "Ve dem, at de flyktet bort fra meg! Ødeleggelse over dem, fordi de er falt fra meg! Jeg ville forløse dem, men de talte løgn mot meg.",
-  "HOS.7.14": "De roper ikke til meg fra hjertet, men de ligger og hyler på sitt leie. De trenger seg sammen for å få korn og most, men de vender seg bort fra meg.",
-  "HOS.7.15": "Det er jeg som har lært dem opp, og som har styrket deres armer. Men mot meg har de ondt i sinne.",
-  "HOS.7.16": "De vender seg, men ikke mot det høye. De er blitt som en sviktende bue. Deres høvdinger faller for sverdet for sin rasende tunges skyld. Dette blir for dem til spott i landet Egypt.",
-  "HOS.8.1": "Sett hornet for munnen! - Som en ørn kommer fienden over Herrens hus, fordi de har brutt pakten med meg og syndet mot min lov.",
-  "HOS.8.2": "De skal rope til meg: Min Gud! Vi israelitter kjenner deg!",
-  "HOS.8.3": "Israel har støtt det gode fra seg. Fienden skal forfølge ham.",
-  "HOS.8.4": "De har valgt seg konger som ikke kom fra meg. De valgte høvdinger uten at jeg visste om det. Av sitt sølv og gull har de gjort seg avgudsbilder, så de skulle bli utryddet.",
-  "HOS.8.5": "Motbydelig er din kalv, Samaria! Min vrede er opptent mot dem. Hvor lenge skal renhet være umulig å finne?",
-  "HOS.8.6": "Et verk av Israel er den. En kunstner har gjort den. Den er ikke noen gud. Ja, til splinter skal den bli, Samarias kalv!",
-  "HOS.8.7": "For de sår vind og skal høste storm. Deres korn får ikke aks, deres grøde gir ikke føde. Om den gir noe, skal fremmede sluke det.",
-  "HOS.8.8": "Israel er oppslukt. Nå er de blant folkene lik et kar som ingen bryr seg om.",
-  "HOS.8.9": "De dro opp til Assur lik et villesel som går sine egne veier. Efra’im kjøper seg elskere.",
-  "HOS.8.10": "Men om de så kjøpslår med folkene, vil jeg nå samle dem dit, og de skal begynne å bli færre under storkongens byrder.",
-  "HOS.8.11": "Fordi Efra’im har gjort seg så mange altere til å synde med, er de blitt ham altere til synd.",
-  "HOS.8.12": "Om jeg skriver ham mine lover i tusentall, så blir de likevel aktet for noe fremmed.",
-  "HOS.8.13": "Som offergaver til meg ofrer de kjøtt som de selv eter. Herren har ikke behag i dem. Nå vil han minnes deres misgjerninger og straffe dem for deres synder - de skal vende tilbake til Egypt.",
-  "HOS.8.14": "Israel glemte sin skaper. Han bygde seg palasser, Juda bygde seg mange befestede byer. Men jeg vil sende ild mot hans byer, og den skal fortære palassene.",
-  "HOS.9.1": "Gled deg ikke, Israel! Juble ikke, likesom folkene! For du har forlatt din Gud i hor. Du har elsket horelønn på hvert sted hvor de tresker korn.",
-  "HOS.9.2": "Treskeplassen og vinpressen skal ikke kunne fø dem, mosten skal slå feil for dem.",
-  "HOS.9.3": "De skal ikke bli boende i Herrens land. Men Efra’im skal vende tilbake til Egypt, i Assur skal de ete det som er urent.",
-  "HOS.9.4": "De skal ikke ofre vin til drikkoffer for Herren, og deres slaktoffer skal ikke behage ham. Som sorgens brød skal det være for dem. Alle som spiser det, skal bli urene. For sitt brød har de for seg selv, det kommer ikke i Herrens hus.",
-  "HOS.9.5": "Hva vil dere gjøre på høytidsdagen, på Herrens festdag?",
-  "HOS.9.6": "For de drar bort for ødeleggelsens skyld. Egypt skal samle dem, Memfis begrave dem. Deres sølvsmykker skal nesler ta i eie. Torner skal vokse i deres telt.",
-  "HOS.9.7": "Kommet er straffedommens dager! Kommet er gjengjeldelsens dager! Israel skal få merke det: En dåre er profeten, vanvittig er Åndens mann! - fordi din misgjerning er så stor og ditt fiendskap så sterkt.",
-  "HOS.9.8": "Profeten er en vokter for Gud over Efra’im. Profeten er en fuglefangersnare på alle sine veier, og det er fiendskap i hans Guds hus.",
-  "HOS.9.9": "De er sunket dypt i fordervelse, som i Gibeas dager. Han vil minnes deres misgjerning, han vil hjemsøke deres synder.",
-  "HOS.9.10": "Som druer i ørkenen fant jeg Israel, som den tidligste frukt på et fikentre i dets første tid så jeg deres fedre. Men da de kom til Ba’al-Peor, viet de seg til avgudsdyrkelse og ble avskyelige likesom den de elsket.",
-  "HOS.9.11": "Efra’ims herlighet skal fly bort som en fugl. Ingen fødsel, intet fruktsommelig morsliv, ingen unnfangelse!",
-  "HOS.9.12": "Ja, selv om de fostrer fram sine barn, vil jeg gjøre dem barnløse, så ikke noe menneske blir tilbake. Ve dem når jeg forlater dem!",
-  "HOS.9.13": "Efra’im er, som jeg har sett, plantet på en eng som Tyrus. Men Efra’im må føre sine barn ut til bøddelen.",
-  "HOS.9.14": "Gi dem, Herre! - Ja, hva skal du gi dem? Gi dem morsliv som føder i utide, og bryster som er uttørket.",
-  "HOS.9.15": "All deres ondskap er samlet i Gilgal. Ja, der har jeg fattet hat til dem. For deres onde gjerningers skyld vil jeg drive dem ut av mitt hus. Jeg vil ikke elske dem mer. Alle deres førere er opprørere.",
-  "HOS.9.16": "Efra’im er slått ned. Deres rot er blitt tørr. Frukt skal de ikke bære. Om de så føder, vil jeg drepe deres dyre livsfrukt.",
-  "HOS.9.17": "Min Gud skal forkaste dem, fordi de ikke har hørt på ham. De skal vanke om blant folkene som flyktninger.",
-  "HOS.10.1": "Israel er et frodig vintre, som bærer frukt. Jo mer frukt han fikk, dess flere altere bygde han. Jo bedre det gikk med landet hans, dess vakrere billedstøtter gjorde han seg.",
-  "HOS.10.2": "Deres hjerte er delt. Nå skal de bøte. Han skal bryte ned deres altere og ødelegge billedstøttene.",
-  "HOS.10.3": "Ja, nå skal de si: Vi har ingen konge! For vi har ikke fryktet Herren - og kongen, hva kan vel han gjøre for oss?",
-  "HOS.10.4": "De har talt tomme ord, sverget falskt, inngått forbund. Og retten skyter opp som giftige vekster på markens furer.",
-  "HOS.10.5": "For Bet-Avens kalv er Samarias innbyggere i angst. Ja, dens folk sørger over den, og dens avgudsprester skjelver for den - for dens herlighet, fordi den er ført bort fra dem.",
-  "HOS.10.6": "Også den skal bli ført til Assur, som en gave til kong Jareb. Skam skal Efra’im høste. Israel skal bli til skamme over sine planer.",
-  "HOS.10.7": "Samarias konge skal bli borte som en treflis på vannet.",
-  "HOS.10.8": "Avens offerhauger, Israels synd, skal tilintetgjøres. Torner og tistler skal skyte opp på deres altere. De skal si til fjellene: Skjul oss! - og til haugene: Fall over oss!",
-  "HOS.10.9": "Fra Gibeas dager har du syndet, Israel! De har bare fortsatt. Skal ikke krigen mot de onde nå dem i Gibea?",
-  "HOS.10.10": "Jeg vil tukte dem når jeg så ønsker. Folkeslag skal samles imot dem, når jeg tukter dem for deres dobbelte synd.",
-  "HOS.10.11": "Efra’im er en temmet kvige, som gjerne vil treske. Men jeg legger et åk på hennes fagre hals. Jeg vil spenne Efra’im for, Juda skal pløye, Jakob skal harve.",
-  "HOS.10.12": "Så dere en sæd, som rettferdigheten krever! Få dere en høst etter kjærlighetens bud! Bryt dere nytt land! For nå er det tiden til å søke Herren, til han kommer og lar rettferdighet regne over dere.",
-  "HOS.10.13": "Dere har pløyd ugudelighet, dere har høstet urett. Dere har spist løgnens frukt. For du har satt din lit til din ferd og til dine mange helter.",
-  "HOS.10.14": "Derfor skal det reise seg krigslarm blant dine stammer. Alle dine festninger skal bli ødelagt, likesom Sjalman ødela Bet-Arbel på stridens dag, da både mor og barn ble knust.",
-  "HOS.10.15": "Slik skal han gjøre med deg, Betel, for din store ondskaps skyld! Når det lysner til dag, er det ute med - ja, helt ute med Israels konge.",
-  "HOS.11.1": "Da Israel var ung, hadde jeg ham kjær. Fra Egypt kalte jeg min sønn.",
-  "HOS.11.2": "Jo mer de kalte på dem, dess mer gikk de bort fra dem. De ofrer til Ba’alene og brenner røkelse for de utskårne bildene.",
-  "HOS.11.3": "Og det var da jeg som lærte Efra’im å gå og tok dem på mine armer. Men de skjønte ikke at jeg helbredet dem.",
-  "HOS.11.4": "Med menneskebånd dro jeg dem, med kjærlighetens rep. Jeg var for dem som de som letter åket over kjevene, og jeg ga ham føde.",
-  "HOS.11.5": "Han skal ikke vende tilbake til landet Egypt, men Assur skal være hans konge. For de ville ikke vende om.",
-  "HOS.11.6": "Sverdet skal fare om i hans byer og tilintetgjøre hans bommer og ete om seg - for deres onde råds skyld.",
-  "HOS.11.7": "For mitt folk henger fast ved sitt frafall fra meg. Selv om de kaller på Den Høyeste, vil han ikke reise dem opp.",
-  "HOS.11.8": "Hvordan skal jeg kunne oppgi deg, Efra’im? Hvordan skal jeg kunne gi deg til pris, Israel? Hvordan skal jeg kunne gi deg opp som Adma, gjøre med deg som med Sebojim? Mitt hjerte vender seg i meg, all min medynk våkner.",
-  "HOS.11.9": "Jeg vil ikke fullbyrde min brennende vrede, jeg vil ikke igjen ødelegge Efra’im. For jeg er Gud og ikke et menneske, Den Hellige i din midte. Jeg kommer ikke med glødende harme.",
-  "HOS.11.10": "De skal følge Herren. Han skal brøle som en løve. Ja, han skal brøle. Og bevende skal hans barn komme fra havet.",
-  "HOS.11.11": "Bevende skal de komme som en fugl fra Egypt, som en due fra Assurs land, og jeg vil la dem bo i sine hus, sier Herren.",
-  "HOS.12.1": "Efra’im har omringet meg med løgn, og Israels hus med svik. Juda er ennå gjenstridig mot Gud, mot Den Hellige, han som er trofast.",
-  "HOS.12.2": "Efra’im lengter etter vind, han jager etter østavær. Hele dagen dynger han opp løgn og ødeleggelse. De inngår pakt med Assur, de fører olje til Egypt.",
-  "HOS.12.3": "Herren har trette med Juda. Han skal hjemsøke Jakob for hans ferd og betale ham etter hans gjerninger.",
-  "HOS.12.4": "I mors liv holdt han sin bror i hælen, og i sin manndomskraft kjempet han med Gud.",
-  "HOS.12.5": "Han kjempet med engelen og vant, han gråt og ba om nåde. I Betel møtte han ham, der talte han med oss.",
-  "HOS.12.6": "Og Herren, hærskarenes Gud - Herren er det navnet han skal kalles med.",
-  "HOS.12.7": "Og du - til din Gud skal du vende om. Hold fast ved miskunnhet og rett, og vent stadig på din Gud!",
-  "HOS.12.8": "I kremmerfolkets hånd er det falsk vekt. Det er hans lyst å gjøre urett.",
-  "HOS.12.9": "Og Efra’im sier: Ja, jeg er blitt rik, jeg har vunnet meg gods. Men i alt mitt strev skal ingen kunne finne noen urett, noen synd.",
-  "HOS.12.10": "Men jeg er Herren din Gud fra landet Egypt. Jeg vil ennå la deg bo i telt likesom i høytidsdagene.",
-  "HOS.12.11": "Jeg har talt til profetene, og har latt dem se syner i mengde. Og gjennom profetene har jeg talt i lignelser.",
-  "HOS.12.12": "Er Gilead fullt av misgjerninger, så skal de også bli helt til intet. Har de ofret okser i Gilgal, så skal også deres altere bli som steinrøyser langsmed markens furer.",
-  "HOS.12.13": "Jakob flyktet til Arams land, Israel tjente for å vinne en hustru - for å vinne en hustru voktet han sauer.",
-  "HOS.12.14": "Men ved en profet førte Herren Israel opp fra Egypt, og ved en profet voktet han det.",
-  "HOS.12.15": "Efra’im har vakt bitter harme. Derfor skal hans Herre la hans blodskyld komme over ham, og hans hån skal han gjengjelde ham.",
-  "HOS.13.1": "Når Efra’im talte, ble alle redde. Han raget høyt opp i Israel. Da førte han skyld over seg ved å dyrke Ba’al, og døde.",
-  "HOS.13.2": "Og nå blir de ved å synde og gjøre seg støpte bilder av sitt sølv, avguder etter sin egen forstand, alle sammen håndverkeres arbeid. Folk sier om dem: De ofrer mennesker og kysser kalver!",
-  "HOS.13.3": "Derfor skal de bli som en morgensky, lik duggen som tidlig svinner bort, lik agner som vinden fører bort fra treskeplassen, og som røk fra skorsteinen.",
-  "HOS.13.4": "Men jeg er Herren din Gud fra landet Egypt. Noen annen Gud enn meg kjenner du ikke. Noen annen frelser finnes det ikke.",
-  "HOS.13.5": "Det var jeg som sørget for deg i ørkenen, i det brennhete landet.",
-  "HOS.13.6": "Fordi beitet deres var godt, ble de mette. Og da de ble mette, opphøyet de seg i sitt hjerte, så de glemte meg.",
-  "HOS.13.7": "Da ble jeg mot dem som en løve. Som en leopard lurer jeg ved veien.",
-  "HOS.13.8": "Jeg vil møte dem som en bjørn som ungene er tatt fra, og rive opp brystet deres. Jeg vil fortære dem som en løvinne. Markens ville dyr skal slite dem i stykker.",
-  "HOS.13.9": "Israel, det er blitt til din ødeleggelse at du har satt deg opp mot meg, jeg som er din hjelp.",
-  "HOS.13.10": "Hvor er da din konge, at han skulle kunne frelse deg i alle dine byer? Og hvor er dine dommere, de du talte om da du sa: Gi meg en konge og høvdinger?",
-  "HOS.13.11": "Jeg gir deg en konge i min vrede, og tar ham bort igjen i min harme.",
-  "HOS.13.12": "Efra’ims misgjerning er samlet opp, hans synd er tatt vare på.",
-  "HOS.13.13": "Veer som hos den fødende kvinne skal komme over ham. Han er en uforstandig sønn. Når tiden er der, kommer han ikke fram fra mors liv.",
-  "HOS.13.14": "Av dødsrikets vold vil jeg frelse dem ut. Fra døden vil jeg forløse dem. Død, hvor er din pest? Dødsrike, hvor er din sott? - Anger er skjult for mine øyne.",
-  "HOS.13.15": "For han bærer frukt, der han står blant sine brødre. Men det kommer en østavind, et Herrens vær, som drar opp fra ørkenen. Brønnen blir tom, og kilden tørkes ut. Den røver hele skattkammeret med alle dets kostbare ting.",
-  "HOS.14.1": "Samaria skal bøte fordi det har vært gjenstridig mot sin Gud. For sverdet skal de falle. Deres små barn skal bli knust, og de kvinnene som er med barn, skal skjæres opp.",
-  "HOS.14.2": "Vend om, Israel, til Herren din Gud! For du er falt ved din misgjerning.",
-  "HOS.14.3": "Kom med ord og vend om til Herren! Si til ham: Forlat all misgjerning og ta imot det gode vi kan yte - så skal vi gi deg våre leppers offergaver!",
-  "HOS.14.4": "Assur skal ikke hjelpe oss! På hester vil vi ikke ride! Vi vil ikke mer si til våre henders verk: Vår Gud! - For det er hos deg den farløse finner miskunn.",
-  "HOS.14.5": "Jeg vil lege deres frafall. Jeg vil elske dem av hjertet, for min vrede har vendt seg fra dem.",
-  "HOS.14.6": "Jeg vil være som dugg for Israel. Han skal blomstre som en lilje, og han skal slå røtter som skogen på Libanon.",
-  "HOS.14.7": "Hans skudd skal bre seg vidt utover. Hans løv skal skinne som oljetreet, og han skal dufte som Libanon.",
-  "HOS.14.8": "De som sitter i hans skygge, skal igjen dyrke korn og blomstre som vintreet. Minnet om ham skal være som Libanons vin.",
-  "HOS.14.9": "Efra’im! Hva har jeg mer med avguder å gjøre? Jeg vil bønnhøre ham og se til ham. Jeg er som en grønn sypress, din frukt kommer fra meg.",
-  "HOS.14.10": "Hvem er vis, så han skjønner dette, forstandig, så han merker seg det? For Herrens veier er rette. De rettferdige ferdes på dem, men overtrederne snubler der."
+  "HOS.1.1": {
+    "text": "Dette er Herrens ord som kom til Hosea, Be’eris sønn, i de dager da Ussia, Jotam, Akas og Hiskia var konger i Juda, og da Jeroboam, Joasjs sønn, var konge i Israel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 14:23 ff. Amos 1:1. Mika 1:1.",
+        "refs": []
+      }
+    ],
+    "section": "Hoseas giftemål"
+  },
+  "HOS.1.2": {
+    "text": "Da Herren begynte å tale til Hosea, sa Herren til ham: Gå og få deg en horkvinne og horebarn! For landet driver hor og følger ikke Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:1. 5Mos 31:16. Dom 2:17. Esek 16:15 ff. *profetens",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ekteskap skal være et bilde på Herrens forhold til",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "det troløse Israel.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.3": {
+    "text": "Da gikk han og tok til ekte Gomer, Diblajims datter, og hun ble med barn og fødte ham en sønn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.1.4": {
+    "text": "Og Herren sa til ham: Kall ham Jisre’el! For om kort tid vil jeg hjemsøke Israels blodskyld på Jehus hus og gjøre ende på kongedømmet i Israels hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 9:16 ff. 10:1 ff. 21:1.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Sak 10:9. *Gud sår, sml. 1Kong 9:16 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.5": {
+    "text": "Det skal skje på den dagen at jeg bryter Israels bue i Jisre’els dal.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.1.6": {
+    "text": "Hun ble igjen med barn og fødte en datter, og han sa til ham: Kall henne Lo-Ruhama! For jeg vil ikke mer miskunne meg over Israels hus, så jeg skulle tilgi dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:1 ff. Jes 27:11.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*den som ikke får miskunn.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.7": {
+    "text": "Men over Judas hus vil jeg miskunne meg. Jeg vil frelse dem ved Herren deres Gud. Jeg vil ikke frelse dem ved bue eller sverd eller krig, ved hester eller ryttere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 33:16 ff. Jes 30:15 ff. 35:4. 40:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.8": {
+    "text": "Da hun hadde avvent Lo-Ruhama, ble hun igjen med barn og fødte en sønn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.1.9": {
+    "text": "Og han sa: Kall ham Lo-Ammi! For dere er ikke mitt folk, og jeg vil ikke være JEG ER for dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*ikke mitt folk. 2:1 ff. **Se 2Mos 3:14 f. Jer 31:33. Joh 8:28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.1.10": {
+    "text": "Men likevel skal tallet på Israels barn bli som havets sand, som ikke lar seg måle eller telle. Og det skal skje: På det stedet hvor det ble sagt til dem: Dere er ikke mitt folk! - skal det bli sagt til dem: Den levende Guds barn!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:23. 1Mos 13:16. 15:5. 22:17.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Rom 9:25,26. 1Pet 2:10.",
+        "refs": []
+      }
+    ],
+    "section": "Israel skal få nåde"
+  },
+  "HOS.1.11": {
+    "text": "Og Judas barn og Israels barn skal fylke seg sammen og ta seg én høvding og dra opp over landet. For stor er Jisre’els dag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 11:12. Jer 3:18. Esek 37:22. Mika 2:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.1": {
+    "text": "Si da til brødrene deres: Ammi! Og til søstrene: Ruhama!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:23. 6:1,9. 1Pet 2:10. *mitt folk.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "**du som har fått miskunn.",
+        "refs": []
+      }
+    ],
+    "section": "Herren vil straffe Israel for den avgudsdyrkelsen det har drevet"
+  },
+  "HOS.2.2": {
+    "text": "Strid mot deres mor! Gå i strid med henne! For hun er ikke min kone, og jeg er ikke hennes mann. Få henne til å ta bort sine horeminer fra ansiktet og sine utroskaps tegn mellom brystene,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.3": {
+    "text": "for at jeg ikke skal kle henne naken og stille henne fram som hun var den dagen hun ble født, og gjøre henne lik en ørken, et tørt land, og la henne dø av tørst!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 16:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.4": {
+    "text": "Og hennes barn vil jeg ikke miskunne meg over, for de er horebarn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.2.5": {
+    "text": "For deres mor har drevet hor, hun som fødte dem har båret seg skammelig at - hun sa: Jeg vil gå etter mine elskere, de som gir meg brød og vann, ull og lin, olje og vin.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 2:25. Mika 1:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.6": {
+    "text": "Se, derfor stenger jeg veien for deg med torner. Jeg reiser en mur foran henne, så hun ikke finner sine stier.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 3:23. Klag 3:7,9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.7": {
+    "text": "Når hun løper etter sine elskere, skal hun ikke nå dem. Når hun søker dem, skal hun ikke finne dem. Da skal hun si: Jeg vil vende tilbake til min første mann. For den gang hadde jeg det bedre enn nå.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.2.8": {
+    "text": "Hun skjønte ikke at det var jeg som ga henne kornet og mosten og oljen, og at det var jeg som ga henne sølv og gull i mengdevis - som de brukte til Ba’al.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 16:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.9": {
+    "text": "Derfor vil jeg ta tilbake mitt korn i skurdtiden, og min most i frukthøstens tid. Jeg vil ta bort min ull og mitt lin, som tjener til å skjule hennes nakenhet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.2.10": {
+    "text": "Ja, nå vil jeg blotte hennes skam for hennes elskeres øyne, og ingen skal rive henne ut av min hånd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.2.11": {
+    "text": "Jeg vil gjøre ende på all hennes glede, hennes fester, hennes nymåner og sabbater og alle hennes høytider.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.2.12": {
+    "text": "Jeg vil ødelegge hennes vintre og hennes fikentre, som hun har talt om og sagt: De er min horelønn, som mine elskere har gitt meg! Og jeg vil gjøre dem til skog, og markens dyr skal ete dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 26:22. Sal 80:14. Jes 7:23. Mika 1:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.13": {
+    "text": "Jeg vil straffe henne for de dagene da hun brente røkelse for Ba’alene og prydet seg med nesering og halssmykke og gikk etter sine elskere, men glemte meg, sier Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:14. Sal 106:21. Jes 17:10. Jer 2:32. 7:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.14": {
+    "text": "Se, derfor vil jeg lokke henne og føre henne ut i ørkenen og tale vennlig til henne,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 40:2. Esek 20:35 ff.",
+        "refs": []
+      }
+    ],
+    "section": "Herren elsker sitt troløse folk"
+  },
+  "HOS.2.15": {
+    "text": "og så snart hun kommer derfra, vil jeg gi henne vingårdene tilbake og gjøre Akors dal til en håpets dør for henne. Hun skal takke der, som i sin ungdoms dager, som den dagen hun dro opp fra landet Egypt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*Se Jos 7:24 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.16": {
+    "text": "Og det skal skje på den dagen, sier Herren, at du skal rope: Min mann! Du skal ikke mer rope til meg: Min Ba’al!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.2.17": {
+    "text": "Jeg vil ta Ba’alenes navn bort fra hennes munn, og de skal ikke mer nevnes ved navn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 23:13. 5Mos 12:3. Sal 16:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.18": {
+    "text": "På den dagen vil jeg gjøre en pakt for dem med markens dyr og med himmelens fugler og med jordens kryp. Bue og sverd og krig vil jeg ødelegge og utrydde av landet. Jeg vil la dem bo i trygghet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 5:23.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Sal 46:10. Jes 11:6 ff. 65:25. Esek 34:25. Mika 4:3,4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.19": {
+    "text": "Jeg vil forlove meg med deg for evig tid. Jeg vil forlove meg med deg i rettferdighet og rett, i miskunnhet og barmhjertighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 16:8. Ef 5:25.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.2.20": {
+    "text": "Og jeg vil forlove meg med deg i troskap, og du skal kjenne Herren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.2.21": {
+    "text": "Det skal skje på den dagen at jeg vil bønnhøre, sier Herren. Jeg vil bønnhøre himmelen, og den skal bønnhøre jorden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.2.22": {
+    "text": "Jorden skal bønnhøre kornet og mosten og oljen, og de skal bønnhøre Jisre’el.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.2.23": {
+    "text": "Jeg vil plante henne for meg i landet. Jeg vil miskunne meg over Lo-Ruhama, og jeg vil si til Lo-Ammi: Du er mitt folk! - og det skal svare: Min Gud!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:6,9,10. Rom 9:25. 1Pet 2:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.3.1": {
+    "text": "Og Herren sa til meg: Gå igjen bort og elsk en kvinne som er elsket av sin venn og likevel bryter ekteskapet, likesom Herren elsker Israels barn, men de vender seg til andre guder og elsker rosinkaker!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:2. *ble brukt i Ba’al-dyrkelsen.",
+        "refs": []
+      }
+    ],
+    "section": "Herren vil for en tid ikke ha samfunn med sitt folk"
+  },
+  "HOS.3.2": {
+    "text": "Da kjøpte jeg meg en slik kvinne for femten sekel sølv og en homer bygg og en letek bygg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.3.3": {
+    "text": "Og jeg sa til henne: I mange dager skal du få sitte alene her hos meg. Du skal ikke få drive hor. Du skal ikke ha med noen mann å gjøre. På samme vis skal jeg bære meg at mot deg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.3.4": {
+    "text": "For i mange dager skal Israels barn sitte uten konge og fyrste, uten offer og billedstøtte, uten efod og husguder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 31:19. 2Krøn 15:3. *2Mos 28:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.3.5": {
+    "text": "Deretter skal Israels barn vende om og søke Herren sin Gud og David, sin konge. Bevende skal de søke Herren og hans gaver i de siste dager.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 49:1. 3Mos 26:40 ff.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "5Mos 4:29. Jer 30:9,21 ff. 31:12. Esek 34:23 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.1": {
+    "text": "Hør Herrens ord, dere Israels barn! For Herren har sak med dem som bor i landet, fordi det ingen sannhet og ingen kjærlighet og ingen gudskunnskap finnes i landet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 1:18. 3:13,14. Mika 6:2.",
+        "refs": []
+      }
+    ],
+    "section": "Herren refser Israel"
+  },
+  "HOS.4.2": {
+    "text": "De sverger og lyver, myrder og stjeler og bryter ekteskapet. De farer fram med vold, og mord følger på mord.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.4.3": {
+    "text": "Derfor skal landet sørge, og alle som bor der, skal tæres bort, både markens dyr og himmelens fugler, ja, også havets fisker skal utryddes.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 24:4. 33:9. Jer 4:25. Sef 1:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.4": {
+    "text": "Likevel må ingen gå i rette med noen eller refse ham. For ditt folk er lik dem som tretter med en prest.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 16:3 ff. 5Mos 17:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.5": {
+    "text": "Du skal omkomme om dagen, og profeten skal omkomme med deg om natten, og jeg vil tilintetgjøre din mor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:2. 5:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.6": {
+    "text": "Mitt folk går til grunne fordi det ikke har kunnskap. Fordi du har forkastet kunnskapen, forkaster jeg deg, så du ikke skal tjene meg som prest. Du glemte din Guds lov, derfor vil også jeg glemme dine barn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Sam 15:26. Amos 2:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.7": {
+    "text": "Jo flere de ble, dess mer syndet de mot meg. Deres ære vil jeg skifte om til skam.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.4.8": {
+    "text": "De lever av mitt folks synd, og lengter etter deres misgjerning.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.4.9": {
+    "text": "Derfor skal det gå med presten som med folket. Jeg vil straffe ham for hans ferd og gi ham gjengjeld for hans gjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 24:2. Matt 15:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.10": {
+    "text": "De skal ete og ikke bli mette. De skal drive hor og ikke utbre seg. For de har holdt opp å akte på Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 26:26. Mika 6:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.11": {
+    "text": "Hor og vin og most tar forstanden bort.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.4.12": {
+    "text": "Mitt folk spør sitt trestykke til råds, og dets kjepp gir det svar. For en horeånd har ført dem vill, så de driver hor og går bort fra sin Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:4. Jes 44:19. Jer 2:27.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.13": {
+    "text": "På fjelltoppene ofrer de, og på haugene brenner de røkelse under eiketrær og popler og terebinter, fordi skyggen der er god. Derfor driver døtrene deres hor, og deres svigerdøtre gjør seg skyldige i ekteskapsbrudd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 57:5,7. Esek 6:13. 20:28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.14": {
+    "text": "Jeg vil ikke hjemsøke deres døtre for deres hor, eller deres svigerdøtre for deres ekteskapsbrudd. For mennene går selv avsides med horkvinnene og ofrer med tempelhorene. Slik går et uforstandig folk til grunne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.4.15": {
+    "text": "Selv om du, Israel, driver hor, så må ikke Juda gjøre seg skyldig i slikt! Gå ikke til Gilgal og dra ikke opp til Bet-Aven og sverg ikke: Så sant Herren lever!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:15. 10:5,15.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Kong 12:29. Amos 5:5. 8:14. Sef 1:5. *Betel, se Jos 7:2.",
+        "refs": []
+      }
+    ],
+    "section": "Profeten formaner Juda"
+  },
+  "HOS.4.16": {
+    "text": "For Israel er som en ustyrlig ku. Vil Herren da la dem beite som lam på vide marker?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.4.17": {
+    "text": "Efra’im er bundet til avgudsbilder. La ham fare!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.4.18": {
+    "text": "Rusen deres er forbi. Vilt har skjoldene deres horet. Voldsomt har de elsket det som skammelig er.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 47:10. *høvdinger.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.4.19": {
+    "text": "Et stormvær griper dem med sine vinger, og de skal bli til skamme med sine offer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sak 5:9 ff.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*den assyriske kongen skal bortføre dem.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.1": {
+    "text": "Hør dette, dere prester! Gi akt, du Israels hus! Og du kongehus, vend øret til! For dommen gjelder dere. For en snare har dere vært på Mispa og et utspent nett på Tabor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:9. 9:8.",
+        "refs": []
+      }
+    ],
+    "section": "Israel og Juda skal straffes for sin avgudsdyrkelse"
+  },
+  "HOS.5.2": {
+    "text": "Deres opprørere er falt dypt i synd. Men jeg skal tukte dem alle.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.3": {
+    "text": "Jeg kjenner Efra’im, og Israel er ikke skjult for meg. For nå har du drevet hor, Efra’im! Israel er blitt urent.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:10. 7:2. Jer 16:17. Amos 3:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.4": {
+    "text": "Deres gjerninger hindrer dem fra å vende om til sin Gud. For de har en horeånd i sitt indre, og Herren kjenner de ikke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:12. Jer 4:22. 9:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.5": {
+    "text": "Israels stolthet skal vitne mot ham like i ansiktet. Israel og Efra’im skal omkomme for sin misgjernings skyld, og også Juda skal omkomme med dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:10. Esek 23:31.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.6": {
+    "text": "De skal gå med sine sauer og okser for å søke Herren, men ikke finne ham. Han har dratt seg bort fra dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 1:28. Esek 10:18 ff. Mika 3:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.7": {
+    "text": "De har båret seg troløst at mot Herren, for de har født uekte barn. Nå skal nymånen fortære både dem og alt det de eier.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 3:20 ff. *den hedenske nymånefeiringen skal",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "bringe dem ulykke.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.8": {
+    "text": "La hornet lyde i Gibea, og trompeten i Rama! Blås alarm i Bet-Aven! Fienden er etter deg, Benjamin!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:15. 10:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.9": {
+    "text": "Efra’im skal bli til en ørken på straffens dag. Blant Israels stammer har jeg kunngjort det som sikkert vil skje.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:6. Sak 1:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.10": {
+    "text": "Judas fyrster er blitt lik dem som flytter grensesteiner. Over dem vil jeg utøse min harme som vann.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 19:14. 27:17. Ord 22:28. Mika 3:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.11": {
+    "text": "Efra’im blir undertrykt, knust ved dom. For han fant for godt å følge menneskers bud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 12:28. 16:32.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.12": {
+    "text": "Og jeg er som møll for Efra’im og som råttenhet for Judas hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.5.13": {
+    "text": "Da Efra’im så sin sykdom og Juda sitt sår, da gikk Efra’im til Assur og sendte bud til kong Jareb. Men han skal ikke kunne helbrede dere, og deres sår skal ikke bli legt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:11. 8:9. *den stridbare, kongen i Assyria, 10:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.14": {
+    "text": "For jeg er som en løve mot Efra’im og som en ung løve mot Judas hus. Jeg river i stykker og går min vei. Jeg sleper byttet bort, og det er ingen som frelser.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:7. 5Mos 32:39.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.5.15": {
+    "text": "Jeg vil gå min vei, jeg vil vende tilbake til mitt sted, inntil de erkjenner seg skyldige og søker mitt åsyn. I sin trengsel skal de søke meg med alvor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 26:40. Sal 32:5. 78:34.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.1": {
+    "text": "Kom, la oss vende om til Herren! For det er han som har revet i stykker, men han vil også lege oss. Han slo, men han vil også forbinde oss.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 32:39. Job 5:18. Jer 3:22. 17:14.",
+        "refs": []
+      }
+    ],
+    "section": "Mangel på sann kjærlighet og gudskunnskap"
+  },
+  "HOS.6.2": {
+    "text": "Han vil gjøre oss levende etter to dager. På den tredje dagen vil han reise oss opp, og vi skal leve for hans åsyn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Sam 2:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.3": {
+    "text": "Så la oss lære å kjenne Herren! La oss søke med iver å lære ham å kjenne! Hans oppgang er så viss som morgenrøden, og han kommer til oss som regnet, som et senregn som væter jorden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:6. 5Mos 11:14. Jes 44:3,4. 55:10,11. 58:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.4": {
+    "text": "Hva skal jeg gjøre med deg, Efra’im? Hva skal jeg gjøre med deg, Juda? For deres kjærlighet er som en morgensky, lik duggen som tidlig går bort.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.6.5": {
+    "text": "Derfor har jeg hogd løs på dem ved profetene, drept dem ved min munns ord. Dommene over deg for ut som lyn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 11:4. 49:2. Jer 5:14. Heb 4:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.6": {
+    "text": "For jeg har lyst til kjærlighet og ikke til slaktoffer, til gudskunnskap mer enn til brennoffer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:1. 1Sam 15:22. Jes 1:11. Mika 6:8. Matt 9:13. 12:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.7": {
+    "text": "Men de har brutt pakten, likesom Adam. Der har de vært troløse mot meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 3:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.8": {
+    "text": "Gilead er en by med ugjerningsmenn, full av blodspor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.9": {
+    "text": "Lik en røverskare som lurer på folk, er hele presteflokken. De myrder på veien til Sikem. Ja, skammelige ting har de gjort.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.6.10": {
+    "text": "I Israels hus har jeg sett grufulle ting. Der er Efra’im hengitt til hor, der er Israel blitt urent.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:3. Jer 18:13. 23:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.6.11": {
+    "text": "Også for deg, Juda, er det fastsatt en høst, når jeg gjør ende på mitt folks fangenskap.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:7. 5Mos 30:3.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer 33:26. 51:33. Esek 16:53. 39:25. Joel 3:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.1": {
+    "text": "Når jeg vil lege Israel, da åpenbares Efra’ims misgjerning og Samarias ondskap. For de farer med svik. Tyver bryter seg inn, og røverskarer plyndrer utenfor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:1.",
+        "refs": []
+      }
+    ],
+    "section": "Herren vil lege, men folket farer med svik"
+  },
+  "HOS.7.2": {
+    "text": "De tenker ikke på at jeg husker all deres ondskap. Nå har deres gjerninger omringet dem, de er kommet for mitt åsyn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:3. 8:13. 9:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.3": {
+    "text": "De gleder kongen med sin ondskap, og høvdingene med sine løgner.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.7.4": {
+    "text": "Alle sammen er de ekteskapsbrytere. De ligner en ovn som bakeren har hetet opp. Han holder bare opp med å fyre fra deigen eltes til den er syret.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.7.5": {
+    "text": "På vår konges dag drikker fyrstene seg syke av den hete vinen. Han rekker spottere hånden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 20:1. Hab 2:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.6": {
+    "text": "De gjør sitt hjerte så hett som en ovn mens de ligger på lur. Hele natten sover deres vrede, men om morgenen brenner den som luende ild.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.7.7": {
+    "text": "Alle sammen blir de hete som en ovn og fortærer sine dommere. Alle deres konger er falt. Det er ingen iblant dem som kaller på meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 27:10. Sal 14:4. Jes 64:6. Sef 1:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.8": {
+    "text": "Efra’im blander seg med folkene. Efra’im er blitt en kake som ikke er vendt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Israel stoler ikke på Herren"
+  },
+  "HOS.7.9": {
+    "text": "Fremmede har fortært hans kraft, men han vet det ikke. Hans hår er alt gråsprengt, men han vet det ikke.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.7.10": {
+    "text": "Israels stolthet vitner mot ham like i hans ansikt. Men han vender ikke om til Herren sin Gud og søker ham ikke tross alt dette.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:5. Amos 4:6. Hag 2:17. Rom 3:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.11": {
+    "text": "Efra’im er blitt som en enfoldig due, uten forstand. De kaller på Egypt, de går til Assur.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:13. 8:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.12": {
+    "text": "Så snart de går, vil jeg spenne nettet mitt over dem. Jeg drar dem ned som himmelens fugler. Jeg vil tukte dem, som det allerede er forkynt for deres menighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:9. 3Mos 26:14 ff.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "5Mos 28:15 ff. 2Kong 17:4 ff. Esek 12:13. 17:20. 32:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.13": {
+    "text": "Ve dem, at de flyktet bort fra meg! Ødeleggelse over dem, fordi de er falt fra meg! Jeg ville forløse dem, men de talte løgn mot meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 81:12 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.14": {
+    "text": "De roper ikke til meg fra hjertet, men de ligger og hyler på sitt leie. De trenger seg sammen for å få korn og most, men de vender seg bort fra meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 14:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.7.15": {
+    "text": "Det er jeg som har lært dem opp, og som har styrket deres armer. Men mot meg har de ondt i sinne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.7.16": {
+    "text": "De vender seg, men ikke mot det høye. De er blitt som en sviktende bue. Deres høvdinger faller for sverdet for sin rasende tunges skyld. Dette blir for dem til spott i landet Egypt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 73:8,9. 78:57",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.1": {
+    "text": "Sett hornet for munnen! - Som en ørn kommer fienden over Herrens hus, fordi de har brutt pakten med meg og syndet mot min lov.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 28:49. Jes 58:1. Hab 1:8.",
+        "refs": []
+      }
+    ],
+    "section": "Israel fortsetter sin avgudsdyrkelse"
+  },
+  "HOS.8.2": {
+    "text": "De skal rope til meg: Min Gud! Vi israelitter kjenner deg!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.8.3": {
+    "text": "Israel har støtt det gode fra seg. Fienden skal forfølge ham.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.8.4": {
+    "text": "De har valgt seg konger som ikke kom fra meg. De valgte høvdinger uten at jeg visste om det. Av sitt sølv og gull har de gjort seg avgudsbilder, så de skulle bli utryddet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:2,11. 5Mos 4:25 ff. 8:19. 11:16 ff. 30:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.5": {
+    "text": "Motbydelig er din kalv, Samaria! Min vrede er opptent mot dem. Hvor lenge skal renhet være umulig å finne?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 13:27.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*kong Jeroboams avgudsbilde, 1Kong 12:28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.6": {
+    "text": "Et verk av Israel er den. En kunstner har gjort den. Den er ikke noen gud. Ja, til splinter skal den bli, Samarias kalv!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 32:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.7": {
+    "text": "For de sår vind og skal høste storm. Deres korn får ikke aks, deres grøde gir ikke føde. Om den gir noe, skal fremmede sluke det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:13.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "5Mos 28:33. Jes 65:22. Jer 12:13. Mika 6:15. Hag 1:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.8": {
+    "text": "Israel er oppslukt. Nå er de blant folkene lik et kar som ingen bryr seg om.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.8.9": {
+    "text": "De dro opp til Assur lik et villesel som går sine egne veier. Efra’im kjøper seg elskere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:13. 7:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.10": {
+    "text": "Men om de så kjøpslår med folkene, vil jeg nå samle dem dit, og de skal begynne å bli færre under storkongens byrder.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.8.11": {
+    "text": "Fordi Efra’im har gjort seg så mange altere til å synde med, er de blitt ham altere til synd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:1. 12:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.12": {
+    "text": "Om jeg skriver ham mine lover i tusentall, så blir de likevel aktet for noe fremmed.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.8.13": {
+    "text": "Som offergaver til meg ofrer de kjøtt som de selv eter. Herren har ikke behag i dem. Nå vil han minnes deres misgjerninger og straffe dem for deres synder - de skal vende tilbake til Egypt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 1:11. Jer 7:21. 14:12. Amos 5:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.8.14": {
+    "text": "Israel glemte sin skaper. Han bygde seg palasser, Juda bygde seg mange befestede byer. Men jeg vil sende ild mot hans byer, og den skal fortære palassene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:13. 13:6. Jer 17:27. Esek 20:47. Amos 5:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.1": {
+    "text": "Gled deg ikke, Israel! Juble ikke, likesom folkene! For du har forlatt din Gud i hor. Du har elsket horelønn på hvert sted hvor de tresker korn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 73:27. Esek 20:30.",
+        "refs": []
+      }
+    ],
+    "section": "Straffens dager er kommet"
+  },
+  "HOS.9.2": {
+    "text": "Treskeplassen og vinpressen skal ikke kunne fø dem, mosten skal slå feil for dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.9.3": {
+    "text": "De skal ikke bli boende i Herrens land. Men Efra’im skal vende tilbake til Egypt, i Assur skal de ete det som er urent.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 4:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.4": {
+    "text": "De skal ikke ofre vin til drikkoffer for Herren, og deres slaktoffer skal ikke behage ham. Som sorgens brød skal det være for dem. Alle som spiser det, skal bli urene. For sitt brød har de for seg selv, det kommer ikke i Herrens hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:13. 5Mos 26:14. Hag 2:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.5": {
+    "text": "Hva vil dere gjøre på høytidsdagen, på Herrens festdag?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.9.6": {
+    "text": "For de drar bort for ødeleggelsens skyld. Egypt skal samle dem, Memfis begrave dem. Deres sølvsmykker skal nesler ta i eie. Torner skal vokse i deres telt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.9.7": {
+    "text": "Kommet er straffedommens dager! Kommet er gjengjeldelsens dager! Israel skal få merke det: En dåre er profeten, vanvittig er Åndens mann! - fordi din misgjerning er så stor og ditt fiendskap så sterkt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.9.8": {
+    "text": "Profeten er en vokter for Gud over Efra’im. Profeten er en fuglefangersnare på alle sine veier, og det er fiendskap i hans Guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:1. 2Mos 20:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.9": {
+    "text": "De er sunket dypt i fordervelse, som i Gibeas dager. Han vil minnes deres misgjerning, han vil hjemsøke deres synder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dom 19:15 ff, 22. 20:13. Jes 31:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.10": {
+    "text": "Som druer i ørkenen fant jeg Israel, som den tidligste frukt på et fikentre i dets første tid så jeg deres fedre. Men da de kom til Ba’al-Peor, viet de seg til avgudsdyrkelse og ble avskyelige likesom den de elsket.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 25:3. Jer 3:24. 11:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.11": {
+    "text": "Efra’ims herlighet skal fly bort som en fugl. Ingen fødsel, intet fruktsommelig morsliv, ingen unnfangelse!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.9.12": {
+    "text": "Ja, selv om de fostrer fram sine barn, vil jeg gjøre dem barnløse, så ikke noe menneske blir tilbake. Ve dem når jeg forlater dem!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.9.13": {
+    "text": "Efra’im er, som jeg har sett, plantet på en eng som Tyrus. Men Efra’im må føre sine barn ut til bøddelen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 27:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.14": {
+    "text": "Gi dem, Herre! - Ja, hva skal du gi dem? Gi dem morsliv som føder i utide, og bryster som er uttørket.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.9.15": {
+    "text": "All deres ondskap er samlet i Gilgal. Ja, der har jeg fattet hat til dem. For deres onde gjerningers skyld vil jeg drive dem ut av mitt hus. Jeg vil ikke elske dem mer. Alle deres førere er opprørere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:15. 12:10. Jes 1:23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.16": {
+    "text": "Efra’im er slått ned. Deres rot er blitt tørr. Frukt skal de ikke bære. Om de så føder, vil jeg drepe deres dyre livsfrukt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 102:5. Jon 4:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.9.17": {
+    "text": "Min Gud skal forkaste dem, fordi de ikke har hørt på ham. De skal vanke om blant folkene som flyktninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 28:65.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.1": {
+    "text": "Israel er et frodig vintre, som bærer frukt. Jo mer frukt han fikk, dess flere altere bygde han. Jo bedre det gikk med landet hans, dess vakrere billedstøtter gjorde han seg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:11. 12:12. Sal 80:9.",
+        "refs": []
+      }
+    ],
+    "section": "Israel har lønnet Herrens godhet med avgudsdyrkelse"
+  },
+  "HOS.10.2": {
+    "text": "Deres hjerte er delt. Nå skal de bøte. Han skal bryte ned deres altere og ødelegge billedstøttene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 17:6 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.3": {
+    "text": "Ja, nå skal de si: Vi har ingen konge! For vi har ikke fryktet Herren - og kongen, hva kan vel han gjøre for oss?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.10.4": {
+    "text": "De har talt tomme ord, sverget falskt, inngått forbund. Og retten skyter opp som giftige vekster på markens furer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Amos 5:7. 6:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.5": {
+    "text": "For Bet-Avens kalv er Samarias innbyggere i angst. Ja, dens folk sørger over den, og dens avgudsprester skjelver for den - for dens herlighet, fordi den er ført bort fra dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*Se 4:15 og 8:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.6": {
+    "text": "Også den skal bli ført til Assur, som en gave til kong Jareb. Skam skal Efra’im høste. Israel skal bli til skamme over sine planer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*den stridbare, kongen i Assyria.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.7": {
+    "text": "Samarias konge skal bli borte som en treflis på vannet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.10.8": {
+    "text": "Avens offerhauger, Israels synd, skal tilintetgjøres. Torner og tistler skal skyte opp på deres altere. De skal si til fjellene: Skjul oss! - og til haugene: Fall over oss!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 23:30. Åp 6:15,16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.9": {
+    "text": "Fra Gibeas dager har du syndet, Israel! De har bare fortsatt. Skal ikke krigen mot de onde nå dem i Gibea?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dom 19:12 ff. 20:9 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.10": {
+    "text": "Jeg vil tukte dem når jeg så ønsker. Folkeslag skal samles imot dem, når jeg tukter dem for deres dobbelte synd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.10.11": {
+    "text": "Efra’im er en temmet kvige, som gjerne vil treske. Men jeg legger et åk på hennes fagre hals. Jeg vil spenne Efra’im for, Juda skal pløye, Jakob skal harve.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.10.12": {
+    "text": "Så dere en sæd, som rettferdigheten krever! Få dere en høst etter kjærlighetens bud! Bryt dere nytt land! For nå er det tiden til å søke Herren, til han kommer og lar rettferdighet regne over dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 11:18. 22:8. Jes 45:8. 55:6. Jer 4:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.13": {
+    "text": "Dere har pløyd ugudelighet, dere har høstet urett. Dere har spist løgnens frukt. For du har satt din lit til din ferd og til dine mange helter.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:7. Job 4:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.14": {
+    "text": "Derfor skal det reise seg krigslarm blant dine stammer. Alle dine festninger skal bli ødelagt, likesom Sjalman ødela Bet-Arbel på stridens dag, da både mor og barn ble knust.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*assyrerkongen Salmanassar.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.10.15": {
+    "text": "Slik skal han gjøre med deg, Betel, for din store ondskaps skyld! Når det lysner til dag, er det ute med - ja, helt ute med Israels konge.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 17:6 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.1": {
+    "text": "Da Israel var ung, hadde jeg ham kjær. Fra Egypt kalte jeg min sønn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 2:15.",
+        "refs": []
+      }
+    ],
+    "section": "Fremdeles elsker Herren Israel"
+  },
+  "HOS.11.2": {
+    "text": "Jo mer de kalte på dem, dess mer gikk de bort fra dem. De ofrer til Ba’alene og brenner røkelse for de utskårne bildene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*profetene.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.3": {
+    "text": "Og det var da jeg som lærte Efra’im å gå og tok dem på mine armer. Men de skjønte ikke at jeg helbredet dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 19:4. 5Mos 1:31. 32:11,12. Jes 63:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.4": {
+    "text": "Med menneskebånd dro jeg dem, med kjærlighetens rep. Jeg var for dem som de som letter åket over kjevene, og jeg ga ham føde.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.11.5": {
+    "text": "Han skal ikke vende tilbake til landet Egypt, men Assur skal være hans konge. For de ville ikke vende om.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.11.6": {
+    "text": "Sverdet skal fare om i hans byer og tilintetgjøre hans bommer og ete om seg - for deres onde råds skyld.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:6. 14:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.7": {
+    "text": "For mitt folk henger fast ved sitt frafall fra meg. Selv om de kaller på Den Høyeste, vil han ikke reise dem opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:16. Jer 8:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.8": {
+    "text": "Hvordan skal jeg kunne oppgi deg, Efra’im? Hvordan skal jeg kunne gi deg til pris, Israel? Hvordan skal jeg kunne gi deg opp som Adma, gjøre med deg som med Sebojim? Mitt hjerte vender seg i meg, all min medynk våkner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 19:24,25. 5Mos 29:23. Jer 31:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.9": {
+    "text": "Jeg vil ikke fullbyrde min brennende vrede, jeg vil ikke igjen ødelegge Efra’im. For jeg er Gud og ikke et menneske, Den Hellige i din midte. Jeg kommer ikke med glødende harme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 23:19. 1Sam 15:29. Mika 7:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.10": {
+    "text": "De skal følge Herren. Han skal brøle som en løve. Ja, han skal brøle. Og bevende skal hans barn komme fra havet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. 5:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.11.11": {
+    "text": "Bevende skal de komme som en fugl fra Egypt, som en due fra Assurs land, og jeg vil la dem bo i sine hus, sier Herren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.12.1": {
+    "text": "Efra’im har omringet meg med løgn, og Israels hus med svik. Juda er ennå gjenstridig mot Gud, mot Den Hellige, han som er trofast.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 2:31.",
+        "refs": []
+      }
+    ],
+    "section": "Efra’im har omringet meg med løgn"
+  },
+  "HOS.12.2": {
+    "text": "Efra’im lengter etter vind, han jager etter østavær. Hele dagen dynger han opp løgn og ødeleggelse. De inngår pakt med Assur, de fører olje til Egypt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.12.3": {
+    "text": "Herren har trette med Juda. Han skal hjemsøke Jakob for hans ferd og betale ham etter hans gjerninger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.12.4": {
+    "text": "I mors liv holdt han sin bror i hælen, og i sin manndomskraft kjempet han med Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 25:22,26. 32:24 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.5": {
+    "text": "Han kjempet med engelen og vant, han gråt og ba om nåde. I Betel møtte han ham, der talte han med oss.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 28:13. 35:9 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.6": {
+    "text": "Og Herren, hærskarenes Gud - Herren er det navnet han skal kalles med.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 3:15. 15:3. Sal 68:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.7": {
+    "text": "Og du - til din Gud skal du vende om. Hold fast ved miskunnhet og rett, og vent stadig på din Gud!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "14:2. Sal 37:3,5. 62:9. Joel 2:12. Sak 7:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.8": {
+    "text": "I kremmerfolkets hånd er det falsk vekt. Det er hans lyst å gjøre urett.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.12.9": {
+    "text": "Og Efra’im sier: Ja, jeg er blitt rik, jeg har vunnet meg gods. Men i alt mitt strev skal ingen kunne finne noen urett, noen synd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.12.10": {
+    "text": "Men jeg er Herren din Gud fra landet Egypt. Jeg vil ennå la deg bo i telt likesom i høytidsdagene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.12.11": {
+    "text": "Jeg har talt til profetene, og har latt dem se syner i mengde. Og gjennom profetene har jeg talt i lignelser.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.12.12": {
+    "text": "Er Gilead fullt av misgjerninger, så skal de også bli helt til intet. Har de ofret okser i Gilgal, så skal også deres altere bli som steinrøyser langsmed markens furer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:8. 8:11. 10:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.13": {
+    "text": "Jakob flyktet til Arams land, Israel tjente for å vinne en hustru - for å vinne en hustru voktet han sauer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 29:20. *Mesopotamia, 1Mos 28:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.14": {
+    "text": "Men ved en profet førte Herren Israel opp fra Egypt, og ved en profet voktet han det.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 3:10. 12:37. Sal 77:21. Jes 63:11 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.12.15": {
+    "text": "Efra’im har vakt bitter harme. Derfor skal hans Herre la hans blodskyld komme over ham, og hans hån skal han gjengjelde ham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 65:6,7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.1": {
+    "text": "Når Efra’im talte, ble alle redde. Han raget høyt opp i Israel. Da førte han skyld over seg ved å dyrke Ba’al, og døde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 16:31,32.",
+        "refs": []
+      }
+    ],
+    "section": "Efra’im har vakt Herrens vrede"
+  },
+  "HOS.13.2": {
+    "text": "Og nå blir de ved å synde og gjøre seg støpte bilder av sitt sølv, avguder etter sin egen forstand, alle sammen håndverkeres arbeid. Folk sier om dem: De ofrer mennesker og kysser kalver!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 19:18. 2Kong 17:16. Job 31:27. Jes 46:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.3": {
+    "text": "Derfor skal de bli som en morgensky, lik duggen som tidlig svinner bort, lik agner som vinden fører bort fra treskeplassen, og som røk fra skorsteinen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:4. Sal 1:4. 68:2. Jes 17:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.4": {
+    "text": "Men jeg er Herren din Gud fra landet Egypt. Noen annen Gud enn meg kjenner du ikke. Noen annen frelser finnes det ikke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:10. 2Mos 20:2. 5Mos 5:6 ff. 1Kor 8:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.5": {
+    "text": "Det var jeg som sørget for deg i ørkenen, i det brennhete landet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 8:2. 32:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.6": {
+    "text": "Fordi beitet deres var godt, ble de mette. Og da de ble mette, opphøyet de seg i sitt hjerte, så de glemte meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:13. 8:14. 5Mos 8:11 ff. 31:20. 32:15. Jer 18:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.7": {
+    "text": "Da ble jeg mot dem som en løve. Som en leopard lurer jeg ved veien.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:14. Jer 5:6. Klag 3:10. Hab 1:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.8": {
+    "text": "Jeg vil møte dem som en bjørn som ungene er tatt fra, og rive opp brystet deres. Jeg vil fortære dem som en løvinne. Markens ville dyr skal slite dem i stykker.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.13.9": {
+    "text": "Israel, det er blitt til din ødeleggelse at du har satt deg opp mot meg, jeg som er din hjelp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 3:9. Jer 2:17. 25:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.10": {
+    "text": "Hvor er da din konge, at han skulle kunne frelse deg i alle dine byer? Og hvor er dine dommere, de du talte om da du sa: Gi meg en konge og høvdinger?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:4. 1Sam 8:5,6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.11": {
+    "text": "Jeg gir deg en konge i min vrede, og tar ham bort igjen i min harme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:4. 10:7. 1Sam 8:9,22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.12": {
+    "text": "Efra’ims misgjerning er samlet opp, hans synd er tatt vare på.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 32:23. 5Mos 32:34 ff. Job 14:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.13": {
+    "text": "Veer som hos den fødende kvinne skal komme over ham. Han er en uforstandig sønn. Når tiden er der, kommer han ikke fram fra mors liv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 48:7. Jes 13:8. Jer 30:6. Mika 4:9,10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.14": {
+    "text": "Av dødsrikets vold vil jeg frelse dem ut. Fra døden vil jeg forløse dem. Død, hvor er din pest? Dødsrike, hvor er din sott? - Anger er skjult for mine øyne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 23:19.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "1Sam 15:29. Jes 25:8. 1Kor 15:54,55. 2Tim 1:10.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb 2:14. *jeg angrer ikke det jeg har lovt.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.13.15": {
+    "text": "For han bærer frukt, der han står blant sine brødre. Men det kommer en østavind, et Herrens vær, som drar opp fra ørkenen. Brønnen blir tom, og kilden tørkes ut. Den røver hele skattkammeret med alle dets kostbare ting.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:19. 1Mos 48:19. 49:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.1": {
+    "text": "Samaria skal bøte fordi det har vært gjenstridig mot sin Gud. For sverdet skal de falle. Deres små barn skal bli knust, og de kvinnene som er med barn, skal skjæres opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 15:16. Amos 1:13.",
+        "refs": []
+      }
+    ],
+    "section": "Vend om, Israel"
+  },
+  "HOS.14.2": {
+    "text": "Vend om, Israel, til Herren din Gud! For du er falt ved din misgjerning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "12:7. Joel 2:12. Sak 1:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.3": {
+    "text": "Kom med ord og vend om til Herren! Si til ham: Forlat all misgjerning og ta imot det gode vi kan yte - så skal vi gi deg våre leppers offergaver!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 51:19. 119:108. Mika 7:18,19. Heb 13:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.4": {
+    "text": "Assur skal ikke hjelpe oss! På hester vil vi ikke ride! Vi vil ikke mer si til våre henders verk: Vår Gud! - For det er hos deg den farløse finner miskunn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 10:14,18. 68:6. 146:9. Jes 10:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.5": {
+    "text": "Jeg vil lege deres frafall. Jeg vil elske dem av hjertet, for min vrede har vendt seg fra dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:1. Jes 53:5. Jer 31:20.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.6": {
+    "text": "Jeg vil være som dugg for Israel. Han skal blomstre som en lilje, og han skal slå røtter som skogen på Libanon.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.14.7": {
+    "text": "Hans skudd skal bre seg vidt utover. Hans løv skal skinne som oljetreet, og han skal dufte som Libanon.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 80:10 ff. Esek 17:23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.8": {
+    "text": "De som sitter i hans skygge, skal igjen dyrke korn og blomstre som vintreet. Minnet om ham skal være som Libanons vin.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HOS.14.9": {
+    "text": "Efra’im! Hva har jeg mer med avguder å gjøre? Jeg vil bønnhøre ham og se til ham. Jeg er som en grønn sypress, din frukt kommer fra meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 20:2,10. Jes 19:22. Joh 15:1 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "HOS.14.10": {
+    "text": "Hvem er vis, så han skjønner dette, forstandig, så han merker seg det? For Herrens veier er rette. De rettferdige ferdes på dem, men overtrederne snubler der.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 25:10. 107:43. Jes 8:14. Jer 9:12. Sef 3:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

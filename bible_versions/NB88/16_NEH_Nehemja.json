@@ -1,408 +1,3044 @@
 {
-  "NEH.1.1": "Nehemjas, Hakaljas sønns ord. - I måneden kislev, i det tjuende året, da jeg var i borgen Susan,",
-  "NEH.1.2": "kom Hanani, en av brødrene mine, og noen andre menn fra Juda. Jeg spurte dem da om jødene - den resten som var blitt frelst fra fangenskapet - og om Jerusalem.",
-  "NEH.1.3": "De svarte meg: De som er blitt befridd fra fangenskapet og nå bor der i landskapet, er i stor ulykke og vanære. Jerusalems mur er revet ned og portene er oppbrent.",
-  "NEH.1.4": "Da jeg hørte dette, satte jeg meg ned og gråt og sørget dag etter dag. Jeg fastet og ba for himmelens Guds åsyn.",
-  "NEH.1.5": "Og jeg sa: Å, Herre, himmelens Gud! Du store og forferdelige Gud, som holder din pakt og bevarer din miskunnhet mot dem som elsker deg og holder dine bud!",
-  "NEH.1.6": "La ditt øre være åpent og dine øyne opplatt, så du hører på din tjeners bønn! Både dag og natt ber jeg nå for ditt åsyn for dine tjenere Israels barn, idet jeg bekjenner Israels barns synder, som vi har gjort mot deg! Både jeg og min fars hus har syndet.",
-  "NEH.1.7": "Vi har båret oss ille at mot deg og ikke holdt de bud og forskrifter og lover som du ga din tjener Moses.",
-  "NEH.1.8": "Kom i hu det ordet som du talte til din tjener Moses da du sa: Om dere er troløse, så vil jeg spre dere blant folkene.",
-  "NEH.1.9": "Men dersom dere omvender dere til meg og holder mine bud og lever etter dem, da vil jeg, selv om de bortdrevne blant dere er ved himmelens ende, samle dem derfra og føre dem til det stedet jeg har utvalgt til bolig for mitt navn.",
-  "NEH.1.10": "De er dine tjenere og ditt folk, som du har forløst med din store kraft og din sterke hånd.",
-  "NEH.1.11": "Å Herre! La ditt øre gi akt på din tjeners og dine tjeneres bønn, de som gjerne vil frykte ditt navn! La det i dag lykkes for din tjener, og la ham finne barmhjertighet hos denne mannen! - Jeg var den gang munnskjenk hos kongen.",
-  "NEH.2.1": "I måneden nisan i kong Artaxerxes’ tjuende år traff det seg en gang slik at det var satt fram vin for ham. Jeg tok da vinen og rakte den til kongen. Jeg hadde aldri før vært sorgfull når jeg sto for hans ansikt.",
-  "NEH.2.2": "Da sa kongen til meg: Hvorfor ser du så bedrøvet ut? Du er jo ikke syk. Det kan ikke være annet enn hjertesorg! Da ble jeg meget redd.",
-  "NEH.2.3": "Og jeg sa til kongen: Kongen leve for evig! Skulle ikke jeg se bedrøvet ut når byen hvor mine fedres graver er, ligger øde, og dens porter er fortært av ild!",
-  "NEH.2.4": "Da sa kongen til meg: Hva er det da du ønsker? Da ba jeg til himmelens Gud,",
-  "NEH.2.5": "og så sa jeg til kongen: Om kongen så synes, og dersom du har godhet for din tjener, så ber jeg at du vil la meg reise til Juda, til den byen hvor mine fedres graver er, så jeg kan bygge den opp igjen.",
-  "NEH.2.6": "Da spurte kongen meg, mens dronningen satt ved hans side: Hvor lenge vil reisen vare? Når kommer du tilbake? - Kongen syntes godt om dette, og ga meg lov til å reise. Og jeg nevnte da en bestemt tid for ham.",
-  "NEH.2.7": "Så sa jeg til kongen: Om kongen så synes, så la meg få brev med til stattholderne på den andre siden av elven, så de lar meg dra gjennom sitt land til jeg kommer til Juda,",
-  "NEH.2.8": "og likeså et brev til Asaf, han som har oppsynet over kongens skoger, at han skal gi meg tømmer til bjelker i portene til tempelborgen og til portene i bymuren, og til det huset jeg skal bo i. Og kongen ga meg det, fordi min Gud holdt sin gode hånd over meg.",
-  "NEH.2.9": "Da jeg kom til stattholderne på den andre siden av elven, ga jeg dem kongens brev. Kongen hadde også sendt krigshøvedsmenn og hestfolk med meg.",
-  "NEH.2.10": "Men da horonitten Sanballat og den ammonittiske tjeneren Tobias hørte dette, syntes de meget ille om at det var kommet en som ville arbeide for Israels barns vel.",
-  "NEH.2.11": "Da jeg så kom til Jerusalem, var jeg der i tre dager.",
-  "NEH.2.12": "Men så brøt jeg opp om natten og tok med meg noen få menn. Jeg hadde ikke nevnt for noe menneske det min Gud hadde gitt meg i sinne å gjøre for Jerusalem. Jeg tok heller ikke med meg andre dyr enn det jeg red på.",
-  "NEH.2.13": "Så dro jeg om natten ut gjennom Dalporten og bort imot Dragekilden og kom til Møkkporten. Jeg så på Jerusalems murer som var revet ned, og på portene som var fortært av ilden.",
-  "NEH.2.14": "Så red jeg over til Kildeporten og til Kongedammen, men der var det ikke rom for dyret som jeg red på, til å komme fram.",
-  "NEH.2.15": "Så dro jeg opp i dalen om natten og så på muren og gikk igjen inn gjennom Dalporten, og så vendte jeg tilbake igjen.",
-  "NEH.2.16": "Forstanderne visste ikke hvor jeg hadde vært eller hva jeg tok meg fore. For jeg hadde ennå ikke nevnt noe om det for jødene eller prestene eller stormennene eller forstanderne eller de andre, som skulle utføre arbeidet.",
-  "NEH.2.17": "Men nå sa jeg til dem: Dere ser selv den ulykke vi er i, at Jerusalem ligger øde og portene er oppbrent. Kom og la oss bygge opp igjen Jerusalems mur, så vi ikke skal være til spott lenger.",
-  "NEH.2.18": "Og jeg fortalte dem hvordan min Gud hadde holdt sin gode hånd over meg, og likeså det kongen hadde sagt til meg. Da sa de: La oss gå i gang og bygge! Og de styrket seg til det gode verket.",
-  "NEH.2.19": "Men da horonitten Sanballat og den ammonittiske tjeneren Tobias og araberen Gesjem hørte det, spottet de oss og foraktet oss og sa: Hva er det dere gjør der? Vil dere sette dere opp mot kongen?",
-  "NEH.2.20": "Da svarte jeg dem: Himmelens Gud, han vil la det lykkes for oss, og vi, hans tjenere, vil gå i gang og bygge. Men dere har verken del eller rett eller ettermæle i Jerusalem.",
-  "NEH.3.1": "Ypperstepresten Eljasjib og hans brødre prestene gikk i gang med å bygge Saueporten. De helliget den og satte inn dørene. Så bygde de videre til Mea-tårnet og helliget det, og videre fram til Hananel-tårnet.",
-  "NEH.3.2": "Ved siden av dem bygde mennene fra Jeriko og ved siden av dem Sakkur, Imris sønn.",
-  "NEH.3.3": "Fiskeporten ble bygd av Sena’as barn, de tømret den opp og satte inn dører, låser og slåer.",
-  "NEH.3.4": "Ved siden av dem arbeidet Meremot, sønn av Uria, Hakkos’ sønn. Ved siden av ham arbeidet Mesjullam, sønn av Berekja, Mesjesabels sønn. Ved siden av ham arbeidet Sadok, Ba’anas sønn.",
-  "NEH.3.5": "Ved siden av ham arbeidet folkene fra Tekoa. Men storkarene blant dem bøyde ikke sin nakke under arbeidet for sin Herre.",
-  "NEH.3.6": "Den gamle porten ble satt i stand av Jojada, Paseahs sønn, og Mesjullam, Besodjas sønn. De tømret den opp og satte inn dører og låser og slåer.",
-  "NEH.3.7": "Ved siden av dem arbeidet Melatja fra Gibeon og Jadon fra Meronot sammen med mennene fra Gibeon og Mispa. De hørte under stattholderens domstol på den andre siden av elven.",
-  "NEH.3.8": "Ved siden av dem arbeidet Ussiel, Harhajas sønn, en gullsmed. Og ved siden av ham arbeidet Hananja, en av salveblanderne. Det neste stykke av Jerusalems mur lot de være som det var helt fram til den brede muren.",
-  "NEH.3.9": "Ved siden av dem arbeidet Refaja, Hurs sønn, høvdingen over den ene halvdelen av Jerusalems distrikt.",
-  "NEH.3.10": "Ved siden av ham arbeidet Jedaja, Harumafs sønn, rett imot sitt eget hus. Ved siden av ham arbeidet Hattusj, Hasjabnejas sønn.",
-  "NEH.3.11": "Et annet stykke, og dessuten Ovnstårnet, ble satt i stand av Malkia, Harims sønn, og Hasjub, Pahat-Moabs sønn.",
-  "NEH.3.12": "Ved siden av ham arbeidet Sjallum, sønn av Hallohesj, høvdingen over den andre halvdelen av Jerusalems distrikt, og sammen med ham døtrene hans.",
-  "NEH.3.13": "Dalporten ble satt i stand av Hanun og innbyggerne i Sanoah. De bygde den og satte inn dører, låser og slåer. De bygde også tusen alen av muren, til Møkkporten.",
-  "NEH.3.14": "Og Møkkporten ble satt i stand av Malkia, Rekabs sønn, høvdingen over Bet-Hakkerems distrikt. Han bygde den opp og satte inn dører og låser og slåer.",
-  "NEH.3.15": "Kildeporten ble satt i stand av Salun, Kol-Hoses sønn, høvdingen over Mispas distrikt. Han bygde den, la tak på den og satte inn dører, låser og slåer. Likeså bygde han muren ved Sjelah-dammen ved kongens hage, helt fram til de trappene som går ned fra Davids by.",
-  "NEH.3.16": "Etter ham arbeidet Nehemja, Asbuks sønn, høvdingen over den ene halvdelen av Bet-Surs distrikt. Han satte i stand muren ned til Davids graver og til den dammen som var gravd, og til heltenes hus.",
-  "NEH.3.17": "Etter ham arbeidet levittene under Rehum, Banis sønn. Hasjabja, høvdingen over den ene halvdelen av Ke’ilas distrikt, arbeidet ved siden av ham for sitt distrikt.",
-  "NEH.3.18": "Etter ham arbeidet brødrene deres under Bavvai, Henadads sønn, høvdingen over den andre halvdelen av Ke’ilas distrikt.",
-  "NEH.3.19": "Ved siden av ham arbeidet Eser, Josvas sønn, høvdingen over Mispa. Hans stykke rakk fra plassen midt imot oppgangen fram til våpenhuset i Vinkelen.",
-  "NEH.3.20": "Etter ham arbeidet Baruk, Sabbais sønn, med stor iver på et annet stykke, fra Vinkelen og til døren på ypperstepresten Eljasjibs hus.",
-  "NEH.3.21": "Etter ham arbeidet Meremot, sønn av Uria, Hakkos’ sønn, på et annet stykke, fra døren på Eljasjibs hus og til enden av hans hus.",
-  "NEH.3.22": "Etter ham arbeidet prestene, mennene fra Jordan-sletten.",
-  "NEH.3.23": "Etter dem arbeidet Benjamin og Hasjub midt imot sitt eget hus. Etter dem arbeidet Asarja, sønn av Ma’aseja, Ananjas sønn, ved siden av sitt hus.",
-  "NEH.3.24": "Etter ham arbeidet Binnui, Henadads sønn, på et annet stykke, fra Asarjas hus til Vinkelen og til det stedet hvor muren bøyer av.",
-  "NEH.3.25": "Palal, Usais sønn, arbeidet fra stedet midt imot Vinkelen og det tårnet som springer fram fra kongens øvre hus ved fengselsgården. Etter ham arbeidet Pedaja, Parosjs sønn.",
-  "NEH.3.26": "Tempeltjenerne som bodde på Ofel, arbeidet til plassen midt imot Vannporten mot øst og det fremspringende tårnet.",
-  "NEH.3.27": "Etter Pedaja arbeidet folkene fra Tekoa på et annet stykke, fra plassen midt imot det store fremspringende tårnet og til Ofel-muren.",
-  "NEH.3.28": "Ovenfor Hesteporten arbeidet prestene, hver av dem foran sitt eget hus.",
-  "NEH.3.29": "Etter dem arbeidet Sadok, Immers sønn, foran sitt eget hus. Etter ham arbeidet Sjemaja, Sjekanjas sønn, som hadde vakthold ved den østre porten.",
-  "NEH.3.30": "Etter ham arbeidet Hananja, Sjelemjas sønn, og Hanun, Salafs sjette sønn, på et annet stykke. Og etter dem arbeidet Mesjullam, Berekjas sønn, foran sitt eget rom.",
-  "NEH.3.31": "Etter ham arbeidet Malkia, en av gullsmedene, fram til tempeltjenernes og kjøpmennenes hus, foran Mønstringsporten og fram til Hjørnesalen.",
-  "NEH.3.32": "Og mellom Hjørnesalen og Saueporten arbeidet gullsmedene og kjøpmennene.",
-  "NEH.4.1": "Da nå Sanballat hørte at vi bygde på muren, ble hans vrede opptent. Han ble ytterst forbitret og spottet jødene",
-  "NEH.4.2": "og sa til brødrene sine og til stridsmennene i Samaria: Hva er det disse usle jødene gjør? Skal de ha lov til slikt? Skal de få ofre? Skal tro de vil få verket fullført i dag? Kan de få liv i de forbrente steinene som ligger i hauger?",
-  "NEH.4.3": "Og ammonitten Tobias, som sto ved siden av ham, sa: La dem bygge så mye de vil - bare en rev hopper opp på steinmuren deres, så vil han rive den ned!",
-  "NEH.4.4": "Hør, vår Gud, hvordan vi er blitt foraktet! La deres spott falle tilbake på deres eget hode, og la dem bli til rov i fangenskaps land!",
-  "NEH.4.5": "Dekk ikke over deres misgjerning, og la ikke deres synd bli utslettet for ditt åsyn! For de har krenket deg så bygningsmennene hørte det.",
-  "NEH.4.6": "Så bygde vi da på muren, og hele muren ble satt i stand til sin halve høyde. Og folket hadde godt mot på arbeidet.",
-  "NEH.4.7": "Men da Sanballat og Tobias og araberne og ammonittene og asjdodittene hørte at det gikk fremover med utbedringen av Jerusalems murer, og at revnene tok til å fylles, ble de meget vrede.",
-  "NEH.4.8": "Og de sammensverget seg alle om å komme og kjempe mot Jerusalem og lage forvirring der.",
-  "NEH.4.9": "Men vi ba til vår Gud, og vi stilte ut vaktposter mot dem dag og natt til vern mot dem.",
-  "NEH.4.10": "Da sa jødene: Kreftene svikter hos arbeidsfolket. Grushaugene er for store. Vi makter ikke lenger å bygge på muren.",
-  "NEH.4.11": "Og våre motstandere sa: De må ikke få vite eller merke noe før vi står midt iblant dem og hogger dem ned og slik gjør ende på arbeidet.",
-  "NEH.4.12": "De jødene som bodde i nærheten av dem, kom fra alle kanter og sa til oss vel ti ganger: Hvor dere vender dere hen, så vil de angripe oss!",
-  "NEH.4.13": "Men da stilte jeg folket opp på de laveste stedene bak muren, på de åpne plassene. Jeg stilte dem opp etter deres ætter med sine sverd og spyd og buer.",
-  "NEH.4.14": "Og da jeg så dem oppstilt, gikk jeg fram og sa til stormennene og forstanderne og til hele folket: Vær ikke redd dem, tenk på Herren, den store og forferdelige. Og kjemp for deres brødre, deres sønner og døtre, deres koner og deres hjem!",
-  "NEH.4.15": "Da våre fiender hørte at vi hadde fått vite det, og at Gud hadde gjort deres råd til intet, vendte vi alle sammen tilbake til muren, hver til sitt arbeid.",
-  "NEH.4.16": "Fra den dagen var bare halvparten av mine unge menn på arbeidet, mens den andre halvparten av dem sto der med sine spyd, skjold, buer og brynjer, og høvdingene sto bakenfor hele Judas folk.",
-  "NEH.4.17": "De som bygde på muren, og bærerne med sine byrder, de utførte arbeidet med den ene hånden, og med den andre holdt de våpenet sitt.",
-  "NEH.4.18": "Hver av bygningsmennene hadde sverdet bundet til siden mens han arbeidet. Og hornblåseren sto ved siden av meg.",
-  "NEH.4.19": "Jeg sa til stormennene og forstanderne og til hele folket: Arbeidet er stort og omfattende, og vi er spredt på muren langt fra hverandre.",
-  "NEH.4.20": "På det stedet hvor dere hører hornet lyder, der skal dere samle dere hos oss. Vår Gud vil stride for oss.",
-  "NEH.4.21": "Så arbeidet vi da på verket mens halvdelen sto der med spydene sine, fra morgenrøden rant opp til stjernene kom fram.",
-  "NEH.4.22": "På samme tid sa jeg også til folket: Hver mann og hans tjener skal bli natten over inne i Jerusalem, så vi kan ha dem til vakt om natten og til arbeid om dagen.",
-  "NEH.4.23": "Og verken jeg eller mine brødre eller mine tjenere eller vaktmennene som fulgte meg, kom av klærne. Hver mann hadde sitt våpen hos seg, og vann.",
-  "NEH.5.1": "Men det reiste seg et stort skrik fra folket og deres koner mot deres jødiske brødre.",
-  "NEH.5.2": "Noen sa: Vi med våre sønner og døtre er mange. La oss få korn, så vi kan ete og berge livet!",
-  "NEH.5.3": "Andre sa: Våre marker og vingårder og hus må vi sette i pant. La oss få korn så vi kan stille sulten!",
-  "NEH.5.4": "Andre igjen sa: Vi har lånt penger på våre marker og vingårder for å betale skatten til kongen.",
-  "NEH.5.5": "Vi er da av samme kjøtt og blod som våre brødre, og våre barn er som deres barn. Men vi må la våre sønner og døtre bli treller. Ja, noen av våre døtre er alt kommet i trellekår, og det står ikke i vår makt å hindre det, for våre marker og vingårder hører andre til.",
-  "NEH.5.6": "Jeg ble meget vred da jeg hørte deres klagerop og alt det de fortalte.",
-  "NEH.5.7": "Jeg overveide saken med meg selv. Og så irettesatte jeg stormennene og forstanderne og sa til dem: Dere krever rente av brødrene deres! Så sammenkalte jeg et stort folkemøte mot dem.",
-  "NEH.5.8": "Og jeg sa til dem: Så langt det var mulig, har vi løskjøpt våre jødiske brødre som var solgt til hedningene. Og så vil dere selge deres brødre, og de må selge seg til oss! Da tidde de og fant ikke ett ord til svar.",
-  "NEH.5.9": "Så sa jeg: Det er ikke rett det dere gjør. Burde dere ikke vandre i frykt for vår Gud, så ikke hedningene, våre fiender, skal få grunn til å håne oss?",
-  "NEH.5.10": "Også jeg og mine brødre og mine folk har lånt dem penger og korn. La oss ettergi denne gjelden!",
-  "NEH.5.11": "Gi dem nå i dag tilbake både markene, vingårdene, olivenhagene og husene, og ettergi dem rentene av pengene og kornet og mosten og oljen som dere har lånt dem!",
-  "NEH.5.12": "Da sa de: Vi vil gi det tilbake og ikke kreve noe av dem, vi vil gjøre som du sier. Og etter at jeg hadde tilkalt prestene, lot jeg dem sverge på at de ville gjøre som de hadde sagt.",
-  "NEH.5.13": "Jeg ristet også ut brystfolden på min kappe og sa: Slik skal Gud gjøre med hver mann som ikke holder dette sitt ord, han skal riste ham ut av hans hus og gods - så utrystet og tom skal han bli! Og hele forsamlingen sa: Amen! Og de priste Herren, og folket gjorde som det hadde sagt.",
-  "NEH.5.14": "Fra den dagen jeg ble utnevnt til stattholder i Judas land, fra kong Artaxerxes’ tjuende år til hans trettiandre år, i hele tolv år, har verken jeg eller mine brødre tatt imot noe av den kosten som en stattholder kunne kreve.",
-  "NEH.5.15": "De forrige stattholdere, de som var før meg, la tunge byrder på folket, og tok brød og vin av dem i tillegg til førti sekel sølv. Til og med tjenerne deres gjorde seg til herrer over folket. Men jeg gjorde ikke det, for jeg fryktet Gud.",
-  "NEH.5.16": "Jeg var også selv med i arbeidet på denne muren. Og noe jordstykke har vi ikke kjøpt, alle folkene mine har vært samlet til arbeidet der.",
-  "NEH.5.17": "Og ett hundre og femti mann av jødene og forstanderne spiste ved mitt bord, i tillegg til dem som kom til fra folkene rundt omkring.",
-  "NEH.5.18": "Det som ble tillaget for hver dag, var en okse og seks utvalgte sauer i tillegg til fugler, og alt dette kostet jeg selv. Og en gang hver tiende dag var det overflod av all slags vin. Og likevel krevde jeg ikke den kost som stattholderen hadde rett til, for arbeidet lå tungt på dette folket.",
-  "NEH.5.19": "Kom meg i hu, min Gud, og regn meg til gode alt det jeg har gjort for dette folket!",
-  "NEH.6.1": "Da nå Sanballat og Tobias og araberen Gesjem og våre andre fiender fikk høre at jeg hadde bygd opp muren, og at det ikke mer fantes noen revne i den - enda jeg til den tid ikke hadde satt inn dører i portene -",
-  "NEH.6.2": "da sendte Sanballat og Gesjem bud til meg og sa: Kom, la oss møtes i en av landsbyene i Ono-dalen! Men de tenkte å gjøre meg ondt.",
-  "NEH.6.3": "Jeg sendte bud tilbake til dem og svarte: Jeg holder på med et stort arbeid og kan ikke komme ned. Skulle jeg kanskje la arbeidet hvile fordi jeg lot det ligge og dro ned til dere?",
-  "NEH.6.4": "Fire ganger sendte de det samme bud til meg, og jeg ga dem samme svar.",
-  "NEH.6.5": "Femte gang sendte Sanballat tjeneren sin til meg med det samme bud, og han hadde et åpent brev med seg.",
-  "NEH.6.6": "I det sto det: Det går det rykte blant folkene, og Gasjmu sier også at du og jødene tenker på å gjøre opprør. Derfor er det du bygger opp muren. Og etter det samme ryktet skal du være deres konge,",
-  "NEH.6.7": "og du skal ha satt profeter til å utrope om deg i Jerusalem at du er konge i Juda. Nå vil dette ryktet komme kongen for øre. Så kom nå og la oss rådslå sammen!",
-  "NEH.6.8": "Men jeg sendte bud til ham og svarte: Noe slikt som det du taler om, har ikke gått for seg, det er noe du selv har funnet på.",
-  "NEH.6.9": "For alle sammen forsøkte å skremme oss, de tenkte at vi da skulle bli trette og holde opp med arbeidet, så det ikke ble utført. Men styrk nå du mine hender!",
-  "NEH.6.10": "En gang kom jeg inn til Sjemaja, sønn av Delaja, Mehetabels sønn. Han holdt seg inne i huset sitt. Da sa han: La oss nå gå sammen inn i Guds hus, i det indre av templet, og la oss stenge dørene! For de kommer og vil drepe deg. Ja, de kommer og vil drepe deg i natt.",
-  "NEH.6.11": "Men jeg svarte: Skulle en mann som jeg flykte? Og hvordan skulle en mann som jeg kunne gå inn i templet og enda bli i live? Jeg går ikke inn der.",
-  "NEH.6.12": "For jeg skjønte helt klart at det ikke var Gud som hadde sendt ham, men at han uttalte denne spådommen over meg fordi Tobias og Sanballat hadde leid ham til det.",
-  "NEH.6.13": "Han var leid for at jeg skulle bli redd og gjøre som han sa. Dermed ville jeg ha syndet, og så kunne de få satt ut et ondt rykte om meg, og håne meg.",
-  "NEH.6.14": "Min Gud, kom i hu Tobias for det han har gjort, og likeså Sanballat! Og dessuten profetinnen Noadja og de andre profetene som prøvde å skremme meg!",
-  "NEH.6.15": "Muren ble ferdig på femtito dager - den tjuefemte dagen i måneden elul.",
-  "NEH.6.16": "Da alle fiendene våre hørte dette, og alle folkene rundt om oss så det, da sank de meget i sine egne øyne. Og de forsto at det var med vår Guds hjelp dette verket var blitt fullført.",
-  "NEH.6.17": "I de dager sendte også de fornemste i Juda mange brev til Tobias. Og fra Tobias kom det brev tilbake til dem.",
-  "NEH.6.18": "For mange i Juda var forbundet med ham ved ed. For han var svigersønn til Sjekanja, Arahs sønn. Og hans sønn Johanan hadde tatt til ekte en datter av Mesjullam, Berekjas sønn.",
-  "NEH.6.19": "De pleide også å tale til meg om at han gjorde så mye godt, og å fortelle ham om alt jeg sa. Tobias sendte også brev for å skremme meg.",
-  "NEH.7.1": "Da nå muren var bygd, satte jeg inn dørene. Og dørvaktene og sangerne og levittene ble satt til sin gjerning.",
-  "NEH.7.2": "Jeg satte min bror Hanani til befalingsmann over Jerusalem, og sammen med ham Hananja, høveds-mann over borgen, for han var en pålitelig mann og mer gudfryktig enn de fleste.",
-  "NEH.7.3": "Jeg sa til dem: Jerusalems porter skal ikke åpnes før solen brenner hett, og mens portvakten står der, skal dørene lukkes og låses, og noen av Jerusalems innbyggere skal settes som vaktmenn, hver på sin post og hver utenfor sitt hus.",
-  "NEH.7.4": "Byen var vid og stor, men folket i den fåtallig, og ingen nye hus var bygd.",
-  "NEH.7.5": "Da ga Gud meg i sinne å samle de fornemste og forstanderne og folket for å føres inn i ættelister. Og jeg fant boken med ættelistene over dem som først hadde dratt hjem, og der fant jeg skrevet:",
-  "NEH.7.6": "Dette er de menn fra landskapet Juda som dro hjem fra fangenskapet i det fremmede landet - de som kongen i Babel, Nebukadnesar, hadde bortført, og som nå vendte tilbake til Jerusalem og Juda, hver til sin by,",
-  "NEH.7.7": "de som fulgte med Serubabel, Josva, Nehemja, Asarja, Ra’amja, Nahamani, Mordekai, Bilsjan, Misperet, Bigvai, Nehum og Ba’ana. Dette er tallet på mennene av Israels folk:",
-  "NEH.7.8": "Parosjs barn, to tusen ett hundre og syttito.",
-  "NEH.7.9": "Sefatjas barn, tre hundre og syttito.",
-  "NEH.7.10": "Arahs barn, seks hundre og femtito.",
-  "NEH.7.11": "Pahat-Moabs barn av Josvas og Joabs etterkommere, to tusen åtte hundre og atten.",
-  "NEH.7.12": "Elams barn, ett tusen to hundre og femtifire.",
-  "NEH.7.13": "Sattus barn, åtte hundre og førtifem.",
-  "NEH.7.14": "Sakkais barn, sju hundre og seksti.",
-  "NEH.7.15": "Binnuis barn, seks hundre og førtiåtte.",
-  "NEH.7.16": "Bebais barn, seks hundre og tjueåtte.",
-  "NEH.7.17": "Asgads barn, to tusen tre hundre og tjueto.",
-  "NEH.7.18": "Adonikams barn, seks hundre og sekstisju.",
-  "NEH.7.19": "Bigvais barn, to tusen og sekstisju.",
-  "NEH.7.20": "Adins barn, seks hundre og femtifem.",
-  "NEH.7.21": "Aters barn av Hiskias ætt, nittiåtte.",
-  "NEH.7.22": "Hasjums barn, tre hundre og tjueåtte.",
-  "NEH.7.23": "Besais barn, tre hundre og tjuefire.",
-  "NEH.7.24": "Harifs barn, ett hundre og tolv.",
-  "NEH.7.25": "Gibeons barn, nittifem.",
-  "NEH.7.26": "Mennene fra Betlehem og Netofa, ett hundre og åttiåtte.",
-  "NEH.7.27": "Mennene fra Anatot, ett hundre og tjueåtte.",
-  "NEH.7.28": "Mennene fra Bet-Asmavet, førtito.",
-  "NEH.7.29": "Mennene fra Kirjat-Jearim, Kefira og Be’erot, sju hundre og førtitre.",
-  "NEH.7.30": "Mennene fra Rama og Geba, seks hundre og tjueen.",
-  "NEH.7.31": "Mennene fra Mikmas, ett hundre og tjueto.",
-  "NEH.7.32": "Mennene fra Betel og Ai, ett hundre og tjuetre.",
-  "NEH.7.33": "Mennene fra det andre Nebo, femtito.",
-  "NEH.7.34": "Den andre Elams barn, ett tusen to hundre og femtifire.",
-  "NEH.7.35": "Harims barn, tre hundre og tjue.",
-  "NEH.7.36": "Jerikos barn, tre hundre og førtifem.",
-  "NEH.7.37": "Lods, Hadids og Onos barn, sju hundre og tjueen.",
-  "NEH.7.38": "Sena’as barn, tre tusen ni hundre og tretti.",
-  "NEH.7.39": "Av prestene: Jedajas barn av Josvas hus, ni hundre og syttitre.",
-  "NEH.7.40": "Immers barn, ett tusen og femtito.",
-  "NEH.7.41": "Pasjhurs barn, ett tusen to hundre og førtisju.",
-  "NEH.7.42": "Harims barn, ett tusen og sytten.",
-  "NEH.7.43": "Av levittene: Josvas barn av Kadmiels ætt, av Hodevas barn, syttifire.",
-  "NEH.7.44": "Av sangerne: Asafs barn, ett hundre og førtiåtte.",
-  "NEH.7.45": "Av dørvokterne: Sjallums barn, Aters barn, Talmons barn, Akkubs barn, Hatitas barn, Sobais barn, ett hundre og trettiåtte.",
-  "NEH.7.46": "Av tempeltjenerne: Sihas barn, Hasufas barn, Tabbaots barn,",
-  "NEH.7.47": "Keros’ barn, Sias barn, Padons barn,",
-  "NEH.7.48": "Lebanas barn, Hagabas barn, Sjalmais barn,",
-  "NEH.7.49": "Hanans barn, Giddels barn, Gahars barn,",
-  "NEH.7.50": "Reajas barn, Resins barn, Nekodas barn,",
-  "NEH.7.51": "Gassams barn, Ussas barn, Paseahs barn,",
-  "NEH.7.52": "Besais barn, Me’unims barn, Nefussims barn,",
-  "NEH.7.53": "Bakbuks barn, Hakufas barn, Harhurs barn,",
-  "NEH.7.54": "Baslits barn, Mehidas barn, Harsjas barn,",
-  "NEH.7.55": "Barkos’ barn, Siseras barn, Tamahs barn,",
-  "NEH.7.56": "Nesiahs barn, Hatifas barn.",
-  "NEH.7.57": "Av Salomos tjeneres barn: Sotais barn, Soferets barn, Peridas barn,",
-  "NEH.7.58": "Ja’alas barn, Darkons barn, Giddels barn,",
-  "NEH.7.59": "Sefatjas barn, Hattils barn, Pokeret-Hassebajims barn, Amons barn.",
-  "NEH.7.60": "Alle tempeltjenerne og Salomos tjeneres barn var til sammen tre hundre og nittito.",
-  "NEH.7.61": "Og dette er de som dro hjem fra Tel-Melah, Tel-Harsja, Kerub, Addon og Immer, men ikke kunne oppgi sin familie og sin ætt, om de var av Israel:",
-  "NEH.7.62": "Delajas barn, Tobias’ barn, Nekodas barn, seks hundre og førtito.",
-  "NEH.7.63": "Av prestene: Hobajas barn, Hakkos’ barn, Barsillais barn, han som hadde tatt en av gileaditten Barsillais døtre til kone og var blitt oppkalt etter dem.",
-  "NEH.7.64": "Disse lette etter ættelistene sine, men de fantes ikke. De ble da utelukket fra prestedømmet som uverdige til det.",
-  "NEH.7.65": "Stattholderen sa til dem at de ikke skulle ete av det høyhellige før det sto fram en prest med urim og tummim.",
-  "NEH.7.66": "Hele menigheten var i alt førtito tusen tre hundre og seksti,",
-  "NEH.7.67": "i tillegg til deres tjenere og tjenestepiker, som var sju tusen tre hundre og trettisju. De hadde også med seg to hundre og førtifem sangere og sangerinner.",
-  "NEH.7.68": "De hadde sju hundre og trettiseks hester, to hundre og førtifem muldyr,",
-  "NEH.7.69": "fire hundre og trettifem kameler og seks tusen sju hundre og tjue esler.",
-  "NEH.7.70": "Noen av slektenes overhoder ga gaver til arbeidet. Stattholderen ga til kassen tusen dariker i gull, dessuten femti skåler og fem hundre og tretti prestekapper.",
-  "NEH.7.71": "Noen av slektenes overhoder ga til arbeidskassen tjue tusen dariker i gull og to tusen to hundre miner i sølv.",
-  "NEH.7.72": "Det som resten av folket ga, var tjue tusen dariker i gull og to tusen miner i sølv, og dessuten sekstisju prestekapper.",
-  "NEH.7.73": "Både prestene og levittene og dørvaktene og sangerne og noen av det menige folket og tempeltjenerne og hele Israel ellers bosatte seg i sine byer. Da den sjuende måneden kom, bodde Israels barn i sine byer.",
-  "NEH.8.1": "Hele folket samlet seg som én mann på plassen foran Vannporten. Og de ba Esra, den skriftlærde, om å hente boken med Mose lov, som Herren hadde gitt Israel.",
-  "NEH.8.2": "Og presten Esra bar loven fram for menigheten, både for menn og kvinner og alle som kunne forstå det de hørte. Det var den første dagen i den sjuende måneden.",
-  "NEH.8.3": "Han leste opp av den midt på plassen foran Vannporten fra tidlig morgen til midt på dagen - for mennene og kvinnene og dem som kunne forstå. Og alt folket lyttet til lovbokens ord.",
-  "NEH.8.4": "Esra, den skriftlærde, sto på en forhøyning av tre, som var blitt reist til dette. Ved siden av ham sto Mattitja, Sjema, Anaja, Uria, Hilkia og Ma’aseja til høyre for ham, og til venstre for ham Pedaja, Misjael, Malkia, Hasjum, Hasjbaddana, Sakarja og Mesjullam.",
-  "NEH.8.5": "Og Esra åpnet boken for hele folkets øyne, for han sto høyere enn folket. Og da han åpnet boken, reiste hele folket seg.",
-  "NEH.8.6": "Esra lovet Herren, den store Gud, og hele folket svarte med løftede hender: Amen, amen! Og de bøyde seg og kastet seg ned for Herren med ansiktet mot jorden.",
-  "NEH.8.7": "Og Josva, Bani, Sjerebja, Jamin, Akkub, Sjabbetai, Hodia, Ma’aseja, Kelita, Asarja, Josabad, Hanan, Pelaja og de andre levittene forklarte loven for folket, mens folket ble stående på sin plass.",
-  "NEH.8.8": "Og de leste opp stykke for stykke av boken, av Guds lov, og de tolket den så folket skjønte det som ble lest.",
-  "NEH.8.9": "Og stattholderen Nehemja og presten Esra, den skriftlærde, og levittene som lærte folket, sa til hele folket: Denne dagen er helliget Herren deres Gud. Sørg ikke og gråt ikke! For hele folket gråt da de hørte lovens ord.",
-  "NEH.8.10": "Så sa han til dem: Gå nå og et fete retter og drikk søte drikker og send gaver av det til dem som ingen har laget noe til for. For dagen er helliget vår Herre. Og sørg ikke, for glede i Herren er deres styrke!",
-  "NEH.8.11": "Og levittene ba folket holde seg rolig og sa: Vær stille, for dagen er hellig. Sørg ikke!",
-  "NEH.8.12": "Da gikk hele folket bort og åt og drakk og sendte gaver omkring og holdt en stor gledesfest. For de hadde forstått det som var blitt talt til dem.",
-  "NEH.8.13": "Dagen etter samlet folkets overhoder, prestene og levittene seg hos Esra, den skriftlærde, for å få nærmere rede på lovens ord.",
-  "NEH.8.14": "De fant da skrevet i loven - den lov som Herren hadde gitt ved Moses - at Israels barn skulle bo i løvhytter på festen i den sjuende måneden,",
-  "NEH.8.15": "og at de skulle kunngjøre og rope det ut i alle sine byer og i Jerusalem: Gå ut på fjellene og hent løv av oljetrær og av ville oljetrær og av myrter og av palmer og av andre løvrike trær og lag løvhytter, slik det er foreskrevet.",
-  "NEH.8.16": "Da gikk folket ut og hentet løv. De laget seg løvhytter, hver på sitt tak og på sine tun og likeså i forgårdene til Guds hus og på plassen ved Vannporten og på plassen ved Efra’im-porten.",
-  "NEH.8.17": "Og hele menigheten, de som var kommet tilbake fra fangenskapet, laget løvhytter og bodde i dem. For fra Josvas, Nuns sønns dager like til denne dagen hadde Israels barn ikke gjort dette. Og det var overmåte stor glede.",
-  "NEH.8.18": "Dag etter dag leste de opp av Guds lovbok, fra den første dagen til den siste. De holdt høytid i sju dager, og på den åttende dagen en festlig sammenkomst, slik det var påbudt.",
-  "NEH.9.1": "Den tjuefjerde dagen i samme måneden samlet Israels barn seg og holdt faste, kledd i sekk og med jord strødd på hodet.",
-  "NEH.9.2": "Og Israels ætt skilte seg fra alle fremmede og sto så fram og bekjente sine synder og fedrenes misgjerninger.",
-  "NEH.9.3": "En fjerdepart av dagen ble de stående på sin plass mens det ble lest opp for dem av Herrens, deres Guds lovbok, og en annen fjerdepart av dagen avla de bekjennelse og tilba Herren sin Gud.",
-  "NEH.9.4": "Josva og Bani, Kadmiel, Sjebanja, Bunni, Sjerebja, Bani og Kenani steg opp på levittenes forhøyning, og de ropte med høy røst til Herren sin Gud.",
-  "NEH.9.5": "Levittene Josva og Kadmiel, Bani, Hasjabneja, Sjerebja, Hodia, Sjebanja og Petahja sa: Stå opp og lov Herren deres Gud fra evighet til evighet! Ja, lovet være ditt herlige navn, som er opphøyet over all lov og pris!",
-  "NEH.9.6": "Du alene er Herren, du har skapt himlene, himlenes himler og all deres hær, jorden og alt som er på den, havene og alt som er i dem, og du holder det alt sammen i live, og himmelens hær tilber deg.",
-  "NEH.9.7": "Det var du, Herre Gud, som utvalgte Abram og førte ham ut fra kaldeernes Ur og ga ham navnet Abraham.",
-  "NEH.9.8": "Og du fant hans hjerte tro for ditt ansikt. Du gjorde den pakten med ham at du ville gi hans ætt kana’aneernes, hetittenes, amorittenes og ferisittenes og jebusittenes og girgasittenes land. Du holdt ditt ord, for du er rettferdig.",
-  "NEH.9.9": "Du så våre fedres nød i Egypt. Du hørte deres rop ved Rødehavet.",
-  "NEH.9.10": "Du gjorde tegn og undergjerninger med farao og alle hans tjenere og alt folket i hans land, for du visste hvor skammelig egypterne hadde behandlet dem. Du vant deg et stort navn, og det har du den dag i dag.",
-  "NEH.9.11": "Du kløvde havet for dem, og de gikk på det tørre midt gjennom havet. Forfølgerne kastet du i dypet, så de sank som stein i de veldige vann.",
-  "NEH.9.12": "Du ledet dem i en skystøtte om dagen og i en ildstøtte om natten for å lyse for dem på den veien de skulle gå.",
-  "NEH.9.13": "Du steg ned på Sinai berg og talte med dem fra himmelen. Du ga dem rette befalinger og trygge lover, gode forskrifter og bud.",
-  "NEH.9.14": "Du kunngjorde dem din hellige sabbat. Du ga dem bud og forskrifter og lover gjennom din tjener Moses.",
-  "NEH.9.15": "Du ga dem brød fra himmelen når de hungret og lot vann strømme fra klippen når de tørstet. Du bød dem å dra inn og ta det landet i eie som du med oppløftet hånd hadde sverget at du ville gi dem.",
-  "NEH.9.16": "Men de, våre fedre, var overmodige og hardnakkede og hørte ikke på dine bud.",
-  "NEH.9.17": "De ville ikke høre og kom ikke i hu de undergjerningene du hadde gjort for dem. De var hardnakkede og valgte seg en høvding og ville i sin gjenstridighet vende tilbake til trelldommen. Men du er en Gud som tilgir, nådig og barmhjertig, langmodig og rik på miskunn. Og du forlot dem ikke.",
-  "NEH.9.18": "Ja, de støpte seg til og med en kalv og sa: Dette er din gud, som førte deg opp fra Egypt! Og de gjorde seg skyldige i store bespottelser.",
-  "NEH.9.19": "Men du - i din store barmhjertighet forlot du dem ikke i ørkenen. Skystøtten vek ikke fra dem om dagen, men ledet dem på veien. Heller ikke vek ildstøtten fra dem om natten, men lyste for dem på den veien de skulle gå.",
-  "NEH.9.20": "Du ga dem din gode Ånd til å lære dem. Du nektet ikke deres munn din manna, og du ga dem vann når de tørstet.",
-  "NEH.9.21": "I førti år forsørget du dem i ørkenen. De manglet ikke noe. Deres klær ble ikke utslitt, og føttene ble ikke hovne.",
-  "NEH.9.22": "Du ga dem riker og folk, som du skiftet ut til dem helt til grensen. De tok i eie det landet som tilhørte Sihon, kongen i Hesjbon, og det landet som tilhørte Og, kongen i Basan.",
-  "NEH.9.23": "Du gjorde deres barn tallrike som himmelens stjerner. Du førte dem inn i det landet som du hadde lovt deres fedre at de skulle komme inn i og ta i eie.",
-  "NEH.9.24": "Så kom da deres barn og tok landet i eie. Du ydmyket landets innbyggere, kana’aneerne, for dem og ga dem i deres hånd, både kongene og folkene der i landet, så de kunne gjøre hva de ville med dem.",
-  "NEH.9.25": "De inntok befestede byer og vant seg fruktbar jord og tok hus til eie som var fulle av alle gode ting, og uthogne brønner, vingårder og mengdevis av oljetrær og frukttrær. De åt og ble mette og fete og levde høyt på din store godhet.",
-  "NEH.9.26": "Men de ble ulydige og satte seg opp mot deg og kastet din lov bak sin rygg. De drepte dine profeter, som vitnet for dem og ville føre dem tilbake til deg. De gjorde seg skyldige i store bespottelser.",
-  "NEH.9.27": "Da ga du dem i deres fienders hånd, og de undertrykte dem. Men når de i sin nød ropte til deg, hørte du det fra himmelen. Og i din store barmhjertighet ga du dem redningsmenn, som frelste dem fra deres fienders hånd.",
-  "NEH.9.28": "Men når de så kom til ro, gjorde de igjen det som var ondt i dine øyne. Og du overlot dem i deres fienders hånd, så de hersket over dem. Men når de så på ny ropte til deg, hørte du det fra himmelen og befridde dem i din barmhjertighet gang på gang.",
-  "NEH.9.29": "Du advarte dem og ville omvende dem til din lov. Men de var hovmodige og hørte ikke på dine bud. De syndet mot dine lover, de som mennesket lever ved når han gjør etter dem. I sin gjenstridighet satte de skulderen imot, de var hardnakkede og ville ikke høre.",
-  "NEH.9.30": "I mange år bar du over med dem og advarte dem ved din Ånd gjennom dine profeter. Men de vendte ikke øret til, og du ga dem i fremmede folks hånd.",
-  "NEH.9.31": "Men i din store barmhjertighet gjorde du ikke helt ende på dem og forlot dem ikke. For du er en nådig og barmhjertig Gud.",
-  "NEH.9.32": "Og nå, vår Gud! Du store, veldige og forferdelige Gud! Du som holder din pakt og bevarer din miskunnhet. La det ikke være lite i dine øyne alt det onde som har rammet oss, våre konger, våre høvdinger, våre prester, våre profeter, våre fedre og hele ditt folk, fra assyrerkongenes dager til dagen i dag!",
-  "NEH.9.33": "Du er rettferdig i alt det som er kommet over oss, for du har vist trofasthet, men vi har vært ugudelige.",
-  "NEH.9.34": "Våre konger, våre høvdinger, våre prester og våre fedre har ikke levd etter din lov. De har ikke hørt på dine bud og på de advarslene du ga dem.",
-  "NEH.9.35": "Og enda de levde i sitt eget rike, og du hadde gitt dem så mye godt og overlatt dem dette vide og fruktbare landet, tjente de deg ikke og vendte ikke om fra sine onde gjerninger.",
-  "NEH.9.36": "Se, i dag er vi treller - vi er treller i det landet du ga våre fedre, for at de skulle ete dets frukt og dets gode ting.",
-  "NEH.9.37": "Landet bærer sin rike grøde til beste for de kongene som du satte over oss for våre synders skyld. De råder over våre legemer og vårt fe som det passer dem. Vi er i stor nød.",
-  "NEH.9.38": "På grunn av alt dette gjør vi en fast pakt og skriver den ned, og våre høvdinger, levitter og prester setter sine segl på den.",
-  "NEH.10.1": "De som setter sine segl under denne skrivelsen er: stattholderen Nehemja, Hakaljas sønn, og Sidkia,",
-  "NEH.10.2": "Seraja, Asarja, Jirmeja,",
-  "NEH.10.3": "Pasjhur, Amarja, Malkia,",
-  "NEH.10.4": "Hattusj, Sjebanja, Malluk,",
-  "NEH.10.5": "Harim, Meremot, Obadja,",
-  "NEH.10.6": "Daniel, Ginneton, Baruk,",
-  "NEH.10.7": "Mesjullam, Abia, Mijamin,",
-  "NEH.10.8": "Ma’asja, Bilgai og Sjemaja, dette var prestene.",
-  "NEH.10.9": "Og levittene var: Josva, Asanjas sønn, Binnui av Henadads barn og Kadmiel,",
-  "NEH.10.10": "og deres brødre: Sjebanja, Hodia, Kelita, Pelaja, Hanan,",
-  "NEH.10.11": "Mika, Rehob, Hasjabja,",
-  "NEH.10.12": "Sakkur, Sjerebja, Sjebanja,",
-  "NEH.10.13": "Hodia, Bani og Beninu.",
-  "NEH.10.14": "Og folkets høvdinger var: Parosj, Pahat-Moab, Elam, Sattu, Bani,",
-  "NEH.10.15": "Bunni, Asgad, Bebai,",
-  "NEH.10.16": "Adonja, Bigvai, Adin,",
-  "NEH.10.17": "Ater, Hiskia, Assur,",
-  "NEH.10.18": "Hodia, Hasjum, Besai,",
-  "NEH.10.19": "Harif, Anatot, Nobai,",
-  "NEH.10.20": "Magpias, Mesjullam, Hesir,",
-  "NEH.10.21": "Mesjesabel, Sadok, Jaddua,",
-  "NEH.10.22": "Pelatja, Hanan, Anaja,",
-  "NEH.10.23": "Hosea, Hananja, Hasjub,",
-  "NEH.10.24": "Hallohesj, Pilha, Sjobek,",
-  "NEH.10.25": "Rehum, Hasjabna, Ma’aseja,",
-  "NEH.10.26": "Akia, Hanan, Anan,",
-  "NEH.10.27": "Malluk, Harim og Ba’ana.",
-  "NEH.10.28": "Resten av folket, prestene, levittene, dørvaktene, sangerne, tempeltjenerne og alle de som hadde skilt seg fra de fremmede folk for å leve etter Guds lov, med koner, sønner og døtre, så mange som hadde kunnskap og forstand -",
-  "NEH.10.29": "alle disse holdt seg til de mest ansette blant sine brødre og sverget en dyr ed på at de ville vandre etter Guds lov, som var gitt ved Guds tjener Moses, og at de ville holde og gjøre etter alle Herrens, vår Herres bud og lover og forskrifter:",
-  "NEH.10.30": "Vi sverget at vi ikke skal gi døtrene våre til fremmede folk, heller ikke ta deres døtre til koner for våre sønner,",
-  "NEH.10.31": "at vi, når de fremmede folkene kommer med varene sine og all slags korn for å selge det på sabbaten, ikke skal kjøpe det av dem på sabbaten eller noen annen helligdag, og at vi i det sjuende året skal la landet hvile, og ettergi all gjeld.",
-  "NEH.10.32": "Vi påtar oss den forpliktelsen at vi skal avgi tredjeparten av en sekel årlig til tjenesten i vår Guds hus,",
-  "NEH.10.33": "til skuebrødene og det daglige matofferet og det daglige brennofferet og til ofrene på sabbaten, nymånedagene og høytidene, og til takkofrene og til syndofrene som tjener til soning for Israel, og til alt arbeidet i vår Guds hus.",
-  "NEH.10.34": "Og vi, prestene, levittene og folket, har kastet lodd om hvordan vi skal skaffe ved. Våre familier skal år for år til fastsatte tider, føre veden til vår Guds hus for å brenne den på Herrens, vår Guds alter, slik det er foreskrevet i loven.",
-  "NEH.10.35": "Vi vedtar også at vi år for år skal føre førstegrøden av vår jord og de første modne fruktene av alle trær til Herrens hus.",
-  "NEH.10.36": "Og som det er foreskrevet i loven, skal vi føre de førstefødte av våre sønner og av vår buskap, det førstefødte av vårt storfe og vårt småfe, til vår Guds hus, til prestene som gjør tjeneste i vår Guds hus.",
-  "NEH.10.37": "Likeså vil vi bringe det første av vårt mel og våre hellige gaver av all slags frukt som vokser på trær, av most og olje, til prestene, til lagerrommene i vår Guds hus. Og tienden av vår jord skal vi bringe til levittene, og levittene skal selv innkreve tienden i alle de byene hvor vi driver åkerbruk.",
-  "NEH.10.38": "En prest, en av Arons sønner, skal være med levittene når de innkrever tiende. Og selv skal levittene føre tienden av sin tiende opp til vår Guds hus, til rommene i forrådshuset.",
-  "NEH.10.39": "For både Israels barn og Levis barn skal føre den hellige avgift av kornet, mosten og oljen til rommene hvor helligdommens kar er, der hvor de prestene som gjør tjeneste holder til sammen med dørvaktene og sangerne. Vi skal ikke forsømme vår Guds hus.",
-  "NEH.11.1": "Folkets høvdinger tok bolig i Jerusalem. Resten av folket kastet lodd slik at hver tiende mann skulle bo i Jerusalem, den hellige byen, men de ni tiendedeler i de andre byene.",
-  "NEH.11.2": "Og folket velsignet alle de menn som frivillig bosatte seg i Jerusalem.",
-  "NEH.11.3": "Dette er de høvdingene i landskapet som bodde i Jerusalem, og de som bodde i Judas byer, hver på sin eiendom, i sine byer, både av lekfolket i Israel og av prestene, levittene, tempeltjenerne og etterkommerne av Salomos tjenere.",
-  "NEH.11.4": "I Jerusalem bodde noen av Judas barn og av Benjamins barn. Av Judas barn: Ataja, sønn av Ussia, sønn av Sakarja, sønn av Amarja, sønn av Sefatja, sønn av Mahalalel, av Peres’ barn,",
-  "NEH.11.5": "og Ma’aseja, sønn av Baruk, sønn av Kol-Hose, sønn av Hasaja, sønn av Adaja, sønn av Jojarib, sønn av Sakarja, sønn av Sjiloni.",
-  "NEH.11.6": "Peres’ barn som bodde i Jerusalem, var i alt fire hundre og sekstiåtte krigsdyktige menn.",
-  "NEH.11.7": "Av Benjamins barn var det: Sallu, sønn av Mesjullam, sønn av Joed, sønn av Pedaja, sønn av Kolaja, sønn av Ma’aseja, sønn av Itiel, sønn av Jesaja,",
-  "NEH.11.8": "og etter ham Gabbai-Sallai, i alt ni hundre og tjueåtte.",
-  "NEH.11.9": "Joel, Sikris sønn, var tilsynsmann over dem. Og Juda, Hassenuas sønn, var den nest øverste i byen.",
-  "NEH.11.10": "Av prestene var det: Jedaja, sønn av Jojarib, Jakin,",
-  "NEH.11.11": "Seraja, sønn av Hilkia, sønn av Mesjullam, sønn av Sadok, sønn av Merajot, sønn av Akitub, forstanderen for Guds hus,",
-  "NEH.11.12": "og deres brødre, som gjorde tjeneste i huset, i alt åtte hundre og tjueto, og Adaja, sønn av Jeroham, sønn av Pelalja, sønn av Amsi, sønn av Sakarja, sønn av Pasjhur, sønn av Malkia,",
-  "NEH.11.13": "og hans brødre, overhoder for sine familier, i alt to hundre og førtito, og Amassai, sønn av Asarel, sønn av Ahsai, sønn av Mesjillemot, sønn av Immer,",
-  "NEH.11.14": "og deres brødre, ett hundre og tjueåtte dyktige menn. Sabdiel, sønn av Haggedolim, var tilsynsmann over dem.",
-  "NEH.11.15": "Av levittene var det: Sjemaja, sønn av Hasjub, sønn av Asrikam, sønn av Hasjabja, sønn av Bunni,",
-  "NEH.11.16": "og Sjabbetai, og Josabad, som foresto de ytre arbeidene ved Guds hus, begge hørte til levittenes overhoder,",
-  "NEH.11.17": "og Mattanja, sønn av Mika, sønn av Sabdi, sønn av Asaf, lederen av sangen, som istemte lovsangen ved bønnen, og Bakbukja, den av hans brødre som var nest etter ham, og Abda, sønn av Sjammua, sønn av Galal, sønn av Jeditun.",
-  "NEH.11.18": "Levittene i den hellige byen var i alt to hundre og åttifire.",
-  "NEH.11.19": "Av dørvaktene var det: Akkub, Talmon og deres brødre, som holdt vakt ved portene, i alt ett hundre og syttito.",
-  "NEH.11.20": "Resten av Israel og av prestene og levittene bodde i alle de andre byene i Juda, hver på sin arvedel.",
-  "NEH.11.21": "Tempeltjenerne bodde på Ofel, og Siha og Gisjpa var deres formenn.",
-  "NEH.11.22": "Tilsynsmann over levittene i Jerusalem ved tjenesten i Guds hus var Ussi, sønn av Bani, sønn av Hasjabja, sønn av Mattanja, sønn av Mika, av Asafs barn, sangerne.",
-  "NEH.11.23": "For det var utstedt en befaling av kongen om dem, og likeså var det fastsatt for sangerne hva de hver dag hadde å gjøre.",
-  "NEH.11.24": "Petaja, Mesjesabels sønn, av Serahs, Judas sønns barn, gikk kongen til hånde i alle saker som vedkom folket.",
-  "NEH.11.25": "Også i landsbyene med tilhørende jordstykker bodde noen av Judas barn: i Kirjat-Arba med tilhørende småbyer, i Dibon med tilhørende småbyer, i Jekabse’el og dets landsbyer,",
-  "NEH.11.26": "i Jesjua, i Molada, i Bet-Pelet,",
-  "NEH.11.27": "i Hasar-Sjual, i Be’er-Sjeba med tilhørende småbyer,",
-  "NEH.11.28": "i Siklag, Mekona med tilhørende småbyer,",
-  "NEH.11.29": "i En-Rimmon, Sora, Jarmut,",
-  "NEH.11.30": "Sanoah, Adullam og deres landsbyer, Lakisj med tilhørende jordstykker og Aseka med tilhørende småbyer. De hadde sine bosteder fra Be’er-Sjeba til Hinnoms dal.",
-  "NEH.11.31": "Benjamins barn hadde sine bosteder fra Geba av: i Mikmas, Aja, Betel med tilhørende småbyer,",
-  "NEH.11.32": "i Anatot, Nob, Ananja,",
-  "NEH.11.33": "Hasor, Rama, Gittajim,",
-  "NEH.11.34": "Hadid, Sebojim, Neballat,",
-  "NEH.11.35": "Lod, Ono og Tømmermannsdalen.",
-  "NEH.11.36": "Av levittene kom noen avdelinger fra Juda til å bo i Benjamin.",
-  "NEH.12.1": "Dette er de prestene og levittene som dro hjem med Serubabel, Sjealtiels sønn, og Josva: Seraja, Jirmeja, Esra,",
-  "NEH.12.2": "Amarja, Malluk, Hattusj,",
-  "NEH.12.3": "Sjekanja, Rehum, Meremot,",
-  "NEH.12.4": "Iddo, Ginnetoi, Abia,",
-  "NEH.12.5": "Mijamin, Ma’adja, Bilga,",
-  "NEH.12.6": "Sjemaja, Jojarib, Jedaja,",
-  "NEH.12.7": "Sallu, Amok, Hilkia og Jedaja. Disse var overhodene for prestene og for sine brødre på Josvas tid.",
-  "NEH.12.8": "Og levittene var: Josva, Binnui, Kadmiel, Sjerebja, Juda og Mattanja, som foresto lovsangen sammen med sine brødre,",
-  "NEH.12.9": "mens deres brødre Bakbukja og Unno sto midt imot dem for å ivareta sin tjeneste.",
-  "NEH.12.10": "Josva fikk sønnen Jojakim, Jojakim fikk Eljasjib, Eljasjib fikk Jojada,",
-  "NEH.12.11": "Jojada fikk Jonatan, Jonatan fikk Jaddua.",
-  "NEH.12.12": "På Jojakims tid var disse prestenes familieoverhoder: for Serajas familie Meraja, for Jirmejas Hananja,",
-  "NEH.12.13": "for Esras Mesjullam, for Amarjas Johanan,",
-  "NEH.12.14": "for Melukis Jonatan, for Sjebanjas Josef,",
-  "NEH.12.15": "for Harims Adna, for Merajots Helkai,",
-  "NEH.12.16": "for Iddos Sakarja, for Ginnetons Mesjullam,",
-  "NEH.12.17": "for Abias Sikri, for Minjamins, for Moadjas Piltai,",
-  "NEH.12.18": "for Bilgals Sjammua, for Sjemajas Jonatan,",
-  "NEH.12.19": "for Jojaribs Mattenai, for Jedajas Ussi,",
-  "NEH.12.20": "for Sallais Kallai, for Amoks Eber,",
-  "NEH.12.21": "for Hilkias Hasjabja og for Jedajas Netanel.",
-  "NEH.12.22": "I Eljasjibs, Jojadas, Johanans og Jadduas tid ble levittenes familieoverhoder opptegnet. Likeså prestene under perseren Darius’ regjering.",
-  "NEH.12.23": "Familieoverhodene for Levis barn ble opptegnet i krønikeboken, og det helt til Johanans, Eljasjibs sønns tid.",
-  "NEH.12.24": "Levittenes overhoder var: Hasjabja, Sjerebja og Josva, Kadmiels sønn, og deres brødre sto midt imot dem for å love og prise Gud, slik som Guds mann David hadde befalt, flokk ved flokk.",
-  "NEH.12.25": "Mattanja, Bakbukja, Obadja, Mesjullam, Talmon og Akkub holdt som dørvoktere vakt over lagerhusene ved portene.",
-  "NEH.12.26": "Disse levde i Jojakims, Josvas sønns, Josadaks sønns tid, og i stattholderen Nehemjas og i presten Esras, den skriftlærdes, tid.",
-  "NEH.12.27": "Til innvielsen av Jerusalems mur hentet de levittene fra alle deres bosteder og førte dem til Jerusalem for å holde innvielse og gledesfest både med lovprisning og med sang, med cymbler, harper og sitarer.",
-  "NEH.12.28": "Og sangernes barn kom sammen både fra landet rundt om Jerusalem og fra Netofa-folkenes landsbyer",
-  "NEH.12.29": "og fra Bet-Haggilgal og fra Gebas og Asmavets jorder, for sangerne hadde bygd seg landsbyer rundt omkring Jerusalem.",
-  "NEH.12.30": "Og prestene og levittene renset seg, og de renset folket og portene og muren.",
-  "NEH.12.31": "Da lot jeg Judas høvdinger stige opp på muren. Og jeg stilte opp to store lovsangskor og festtog, det ene gikk til høyre oppe på muren fram til Møkkporten,",
-  "NEH.12.32": "og etter dem gikk Hosaja og halvdelen av Judas høvdinger,",
-  "NEH.12.33": "Asarja, Esra og Mesjullam,",
-  "NEH.12.34": "Juda, Benjamin, Sjemaja og Jirmeja",
-  "NEH.12.35": "og likeså noen av prestenes barn, som bar trompeter. Det var Sakarja, sønn av Jonatan, sønn av Sjemaja, sønn av Mattanja, sønn av Mikaja, sønn av Sakkur, sønn av Asaf,",
-  "NEH.12.36": "og hans brødre Sjemaja og Asarel, Milalai, Gilalai, Ma’ai, Netanel, Juda og Hanani med de musikkinstrumentene som Guds mann David hadde bestemt. Og Esra, den skriftlærde, gikk foran dem.",
-  "NEH.12.37": "De gikk over Kildeporten og rett fram, oppover trappene til Davids by, der hvor en stiger opp på muren ovenfor Davids hus, helt fram til Vannporten i øst.",
-  "NEH.12.38": "Det andre lovsangskoret gikk til den motsatte siden, og jeg fulgte etter det med den andre halvdelen av folket, oppe på muren, ovenfor Ovnstårnet, bort til den brede muren,",
-  "NEH.12.39": "og over Efra’im-porten, den gamle porten og Fiskeporten, forbi Hananel-tårnet og Mea-tårnet, helt fram til Saueporten. De stanset ved Fengselsporten.",
-  "NEH.12.40": "Slik sto begge lovsangskorene ved Guds hus, likeså jeg og halvdelen av forstanderne med meg",
-  "NEH.12.41": "og prestene Eljakim, Ma’aseja, Minjamin, Mikaja, Eljoenai, Sakarja og Hananja med trompeter,",
-  "NEH.12.42": "og Ma’aseja, Sjemaja, Eleasar, Ussi, Johanan, Malkia, Elam og Eser. Og sangerne istemte sangen, og den som ledet dem, var Jisrahja.",
-  "NEH.12.43": "De ofret den dagen store offer og gledet seg, for Gud hadde gitt dem en stor glede. Også kvinnene og barna gledet seg, og jubelen i Jerusalem hørtes lang vei.",
-  "NEH.12.44": "Samme dag ble det innsatt menn som skulle ha tilsyn med lagerrommene for de hellige gaver, førstegrøden og tienden. Der skulle de samle fra bymarkene det som etter loven tilkom prestene og levittene. For det var glede i Juda over at prestene og levittene nå utførte sin tjeneste.",
-  "NEH.12.45": "Og de utførte tjenesten for sin Gud, og renselsestjenesten. Likeså utførte sangerne og dørvaktene sin tjeneste, slik som David og hans sønn Salomo hadde befalt.",
-  "NEH.12.46": "For alt i gammel tid, i Davids og Asafs dager, var det ledere for sangerne, og det lød lovsanger og takkesanger til Gud.",
-  "NEH.12.47": "Og i Serubabels og Nehemjas dager ga hele Israel sangerne og dørvokterne det som tilkom dem for hver dag. Og de ga levittene hellige gaver. Og levittene ga Arons sønner hellige gaver.",
-  "NEH.13.1": "Samme dag ble det lest opp for folket av Moseboken. Der fant de skrevet at ingen ammonitt eller moabitt noen gang skulle være med i Guds menighet,",
-  "NEH.13.2": "fordi de ikke kom Israels barn i møte med brød og vann, men leide Bileam til å forbanne dem. Men vår Gud vendte forbannelsen til velsignelse.",
-  "NEH.13.3": "Da de nå hørte det som sto i loven, skilte de alle fremmede fra Israel.",
-  "NEH.13.4": "Men noen tid før dette var presten Eljasjib, som var i nær slekt med Tobias, blitt satt til å ha tilsyn med lagerrommene i Guds hus.",
-  "NEH.13.5": "Og han hadde innredet et stort rom for Tobias der hvor de før hadde lagt inn matofferet, røkelsen og karene og den tienden av kornet og mosten og oljen som var levittenes og sangernes og dørvaktenes rettighet, og gavene til prestene.",
-  "NEH.13.6": "Mens alt dette gikk for seg, var jeg ikke i Jerusalem, for i Babels konge Artaxerxes’ trettiandre år var jeg kommet tilbake til kongen. Men da noen tid var gått, ba jeg igjen kongen om lov til å reise,",
-  "NEH.13.7": "og da jeg så kom til Jerusalem, oppdaget jeg det onde Eljasjib hadde gjort for Tobias’ skyld ved å innrede et lagerrom for ham i forgårdene til Guds hus.",
-  "NEH.13.8": "Dette syntes jeg meget ille om, og alt Tobias’ innbo kastet jeg ut av rommet,",
-  "NEH.13.9": "og jeg bød at de skulle rense rommene. Så lot jeg de karene som tilhørte Guds hus, og matofferet og røkelsen, legges inn der igjen.",
-  "NEH.13.10": "Jeg fikk også vite at levittene ikke hadde fått det som tilkom dem, og at derfor hadde levittene og sangerne, som skulle gjøre tjeneste, forlatt tjenesten og flyttet ut, hver til sin gård.",
-  "NEH.13.11": "Da gikk jeg i rette med formennene og spurte dem hvorfor Guds hus var blitt forsømt. Og jeg kalte levittene sammen og innsatte dem igjen, hver på sin plass.",
-  "NEH.13.12": "Og hele Juda førte tienden av kornet, mosten og oljen til lagerrommene.",
-  "NEH.13.13": "Så satte jeg presten Sjelemja og Sadok, den skriftlærde, og Pedaja, en av levittene, til å ha tilsyn med lagerrommene. Og jeg satte Hanan, sønn av Mattanjas sønn Sakkur, til å gå dem til hånde. For de ble holdt for å være pålitelige. Nå hadde de plikt til å dele ut til sine brødre.",
-  "NEH.13.14": "Kom meg i hu, min Gud, for dette, og utslett ikke de gode gjerninger som jeg har gjort mot min Guds hus og for tjenesten der!",
-  "NEH.13.15": "Ved samme tid så jeg i Juda noen som trådte vinpressene om natten og førte hjem kornbånd og lesste dem på eslene, og likeså vin, druer, fikener og alle slags varer. Og de førte det til Jerusalem på sabbatsdagen. Jeg advarte dem den dagen de solgte maten.",
-  "NEH.13.16": "Også folk fra Tyrus, som oppholdt seg der, kom med fisk og alle slags varer og solgte dem på sabbatsdagen til Judas barn, og det i Jerusalem.",
-  "NEH.13.17": "Da gikk jeg i rette med stormennene i Juda og sa til dem: Hva er det for en ond gjerning dere gjør? Dere vanhelliger sabbatsdagen!",
-  "NEH.13.18": "Var det ikke fordi deres fedre gjorde slik at vår Gud førte all denne ulykken over oss og over denne byen? Og nå fører dere enda større vrede over Israel ved å vanhellige sabbaten!",
-  "NEH.13.19": "Så snart det ble mørkt i Jerusalems porter før sabbaten, befalte jeg at dørene skulle lukkes, og at de ikke skulle åpnes igjen før etter sabbaten. Jeg satte noen av tjenerene mine på vakt ved portene slik at ingen varer kunne føres inn på sabbatsdagen.",
-  "NEH.13.20": "Kjøpmennene og de som solgte alle slags varer, overnattet da utenfor Jerusalem både én og to ganger.",
-  "NEH.13.21": "Da advarte jeg dem og sa til dem: Hvorfor overnatter dere foran muren? Gjør dere det én gang til, så legger jeg hånd på dere! Fra den tid kom de ikke mer på sabbaten.",
-  "NEH.13.22": "Og jeg bød levittene å rense seg og komme og holde vakt ved portene, så sabbatsdagen kunne bli helligholdt. Kom meg også dette i hu, min Gud, og miskunn deg over meg etter din store nåde!",
-  "NEH.13.23": "På den tiden så jeg også de jøder som hadde tatt asjdodittiske, ammonittiske og moabittiske kvinner til koner.",
-  "NEH.13.24": "Av deres barn talte halvdelen asjdodittisk eller et av de andre folks språk. De kunne ikke tale jødenes språk.",
-  "NEH.13.25": "Jeg gikk i rette med dem og forbannet dem. Ja, noen av dem slo jeg og rev dem i håret. Jeg lot dem sverge ved Gud og sa: Dere skal ikke gi døtrene deres til disse folks sønner eller velge koner for deres sønner eller for dere selv blant disse folks døtre.",
-  "NEH.13.26": "Var det ikke på den måten Israels konge Salomo forsyndet seg? Blant de mange folk var det ingen konge som ham. Og han var elsket av sin Gud. Gud satte ham til konge over hele Israel. Men endog ham forførte de fremmede kvinner til synd.",
-  "NEH.13.27": "Og så skulle dere ha lov til å gjøre denne store ondskap å vise troløshet mot vår Gud ved å ta fremmede kvinner til koner!",
-  "NEH.13.28": "En av sønnene til Jojada, ypperstepresten Eljasjibs sønn, var svigersønn av horonitten Sanballat, derfor drev jeg ham bort fra meg.",
-  "NEH.13.29": "Kom dem i hu, min Gud, at de har vanæret prestedømmet og prestedømmets og levittenes pakt!",
-  "NEH.13.30": "Så renset jeg dem for alt fremmed. Og jeg foreskrev hva prestene og levittene hadde å ivareta, hver i sin gjerning.",
-  "NEH.13.31": "Og jeg foreskrev hvordan de skulle komme med ved til fastsatte tider og med førstegrøden. Kom meg i hu, min Gud, og regn meg dette til gode!"
+  "NEH.1.1": {
+    "text": "Nehemjas, Hakaljas sønns ord. - I måneden kislev, i det tjuende året, da jeg var i borgen Susan,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:1. Est 1:2. Dan 8:2. *av kong Artaxerxes’",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "regjering.",
+        "refs": []
+      }
+    ],
+    "section": "Nehemja bekjenner Israels synd, og ber Herren om hjelp"
+  },
+  "NEH.1.2": {
+    "text": "kom Hanani, en av brødrene mine, og noen andre menn fra Juda. Jeg spurte dem da om jødene - den resten som var blitt frelst fra fangenskapet - og om Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.1.3": {
+    "text": "De svarte meg: De som er blitt befridd fra fangenskapet og nå bor der i landskapet, er i stor ulykke og vanære. Jerusalems mur er revet ned og portene er oppbrent.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:17. 2Krøn 36:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.1.4": {
+    "text": "Da jeg hørte dette, satte jeg meg ned og gråt og sørget dag etter dag. Jeg fastet og ba for himmelens Guds åsyn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.1.5": {
+    "text": "Og jeg sa: Å, Herre, himmelens Gud! Du store og forferdelige Gud, som holder din pakt og bevarer din miskunnhet mot dem som elsker deg og holder dine bud!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:32. 2Mos 20:6. 5Mos 7:9. Dan 9:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.1.6": {
+    "text": "La ditt øre være åpent og dine øyne opplatt, så du hører på din tjeners bønn! Både dag og natt ber jeg nå for ditt åsyn for dine tjenere Israels barn, idet jeg bekjenner Israels barns synder, som vi har gjort mot deg! Både jeg og min fars hus har syndet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.1.7": {
+    "text": "Vi har båret oss ille at mot deg og ikke holdt de bud og forskrifter og lover som du ga din tjener Moses.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.1.8": {
+    "text": "Kom i hu det ordet som du talte til din tjener Moses da du sa: Om dere er troløse, så vil jeg spre dere blant folkene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 26:27,33,40,45. 5Mos 4:27 ff. 28:64. 30:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.1.9": {
+    "text": "Men dersom dere omvender dere til meg og holder mine bud og lever etter dem, da vil jeg, selv om de bortdrevne blant dere er ved himmelens ende, samle dem derfra og føre dem til det stedet jeg har utvalgt til bolig for mitt navn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 12:11. 30:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.1.10": {
+    "text": "De er dine tjenere og ditt folk, som du har forløst med din store kraft og din sterke hånd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.1.11": {
+    "text": "Å Herre! La ditt øre gi akt på din tjeners og dine tjeneres bønn, de som gjerne vil frykte ditt navn! La det i dag lykkes for din tjener, og la ham finne barmhjertighet hos denne mannen! - Jeg var den gang munnskjenk hos kongen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.1": {
+    "text": "I måneden nisan i kong Artaxerxes’ tjuende år traff det seg en gang slik at det var satt fram vin for ham. Jeg tok da vinen og rakte den til kongen. Jeg hadde aldri før vært sorgfull når jeg sto for hans ansikt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:11.",
+        "refs": []
+      }
+    ],
+    "section": "Nehemja reiser til Jerusalem"
+  },
+  "NEH.2.2": {
+    "text": "Da sa kongen til meg: Hvorfor ser du så bedrøvet ut? Du er jo ikke syk. Det kan ikke være annet enn hjertesorg! Da ble jeg meget redd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.3": {
+    "text": "Og jeg sa til kongen: Kongen leve for evig! Skulle ikke jeg se bedrøvet ut når byen hvor mine fedres graver er, ligger øde, og dens porter er fortært av ild!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.2.4": {
+    "text": "Da sa kongen til meg: Hva er det da du ønsker? Da ba jeg til himmelens Gud,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.5": {
+    "text": "og så sa jeg til kongen: Om kongen så synes, og dersom du har godhet for din tjener, så ber jeg at du vil la meg reise til Juda, til den byen hvor mine fedres graver er, så jeg kan bygge den opp igjen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.6": {
+    "text": "Da spurte kongen meg, mens dronningen satt ved hans side: Hvor lenge vil reisen vare? Når kommer du tilbake? - Kongen syntes godt om dette, og ga meg lov til å reise. Og jeg nevnte da en bestemt tid for ham.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.7": {
+    "text": "Så sa jeg til kongen: Om kongen så synes, så la meg få brev med til stattholderne på den andre siden av elven, så de lar meg dra gjennom sitt land til jeg kommer til Juda,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.8": {
+    "text": "og likeså et brev til Asaf, han som har oppsynet over kongens skoger, at han skal gi meg tømmer til bjelker i portene til tempelborgen og til portene i bymuren, og til det huset jeg skal bo i. Og kongen ga meg det, fordi min Gud holdt sin gode hånd over meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.9": {
+    "text": "Da jeg kom til stattholderne på den andre siden av elven, ga jeg dem kongens brev. Kongen hadde også sendt krigshøvedsmenn og hestfolk med meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Nehemja undersøker skadene på muren, og oppmuntrer jødenes ledere"
+  },
+  "NEH.2.10": {
+    "text": "Men da horonitten Sanballat og den ammonittiske tjeneren Tobias hørte dette, syntes de meget ille om at det var kommet en som ville arbeide for Israels barns vel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*fra Bet-Horon, ca. 1 mil nordvest for Jerusalem.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "**Sannsynligvis en frigitt slave. Han var avansert",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "til stattholder i Samaria.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.2.11": {
+    "text": "Da jeg så kom til Jerusalem, var jeg der i tre dager.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.12": {
+    "text": "Men så brøt jeg opp om natten og tok med meg noen få menn. Jeg hadde ikke nevnt for noe menneske det min Gud hadde gitt meg i sinne å gjøre for Jerusalem. Jeg tok heller ikke med meg andre dyr enn det jeg red på.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.13": {
+    "text": "Så dro jeg om natten ut gjennom Dalporten og bort imot Dragekilden og kom til Møkkporten. Jeg så på Jerusalems murer som var revet ned, og på portene som var fortært av ilden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.2.14": {
+    "text": "Så red jeg over til Kildeporten og til Kongedammen, men der var det ikke rom for dyret som jeg red på, til å komme fram.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.15": {
+    "text": "Så dro jeg opp i dalen om natten og så på muren og gikk igjen inn gjennom Dalporten, og så vendte jeg tilbake igjen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.16": {
+    "text": "Forstanderne visste ikke hvor jeg hadde vært eller hva jeg tok meg fore. For jeg hadde ennå ikke nevnt noe om det for jødene eller prestene eller stormennene eller forstanderne eller de andre, som skulle utføre arbeidet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.17": {
+    "text": "Men nå sa jeg til dem: Dere ser selv den ulykke vi er i, at Jerusalem ligger øde og portene er oppbrent. Kom og la oss bygge opp igjen Jerusalems mur, så vi ikke skal være til spott lenger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.18": {
+    "text": "Og jeg fortalte dem hvordan min Gud hadde holdt sin gode hånd over meg, og likeså det kongen hadde sagt til meg. Da sa de: La oss gå i gang og bygge! Og de styrket seg til det gode verket.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.2.19": {
+    "text": "Men da horonitten Sanballat og den ammonittiske tjeneren Tobias og araberen Gesjem hørte det, spottet de oss og foraktet oss og sa: Hva er det dere gjør der? Vil dere sette dere opp mot kongen?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:1. 6:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.2.20": {
+    "text": "Da svarte jeg dem: Himmelens Gud, han vil la det lykkes for oss, og vi, hans tjenere, vil gå i gang og bygge. Men dere har verken del eller rett eller ettermæle i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 2:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.3.1": {
+    "text": "Ypperstepresten Eljasjib og hans brødre prestene gikk i gang med å bygge Saueporten. De helliget den og satte inn dørene. Så bygde de videre til Mea-tårnet og helliget det, og videre fram til Hananel-tårnet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:28. Jer 31:38.",
+        "refs": []
+      }
+    ],
+    "section": "Jerusalems murer blir gjenoppbygd"
+  },
+  "NEH.3.2": {
+    "text": "Ved siden av dem bygde mennene fra Jeriko og ved siden av dem Sakkur, Imris sønn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.3": {
+    "text": "Fiskeporten ble bygd av Sena’as barn, de tømret den opp og satte inn dører, låser og slåer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.4": {
+    "text": "Ved siden av dem arbeidet Meremot, sønn av Uria, Hakkos’ sønn. Ved siden av ham arbeidet Mesjullam, sønn av Berekja, Mesjesabels sønn. Ved siden av ham arbeidet Sadok, Ba’anas sønn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.5": {
+    "text": "Ved siden av ham arbeidet folkene fra Tekoa. Men storkarene blant dem bøyde ikke sin nakke under arbeidet for sin Herre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.6": {
+    "text": "Den gamle porten ble satt i stand av Jojada, Paseahs sønn, og Mesjullam, Besodjas sønn. De tømret den opp og satte inn dører og låser og slåer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.7": {
+    "text": "Ved siden av dem arbeidet Melatja fra Gibeon og Jadon fra Meronot sammen med mennene fra Gibeon og Mispa. De hørte under stattholderens domstol på den andre siden av elven.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.8": {
+    "text": "Ved siden av dem arbeidet Ussiel, Harhajas sønn, en gullsmed. Og ved siden av ham arbeidet Hananja, en av salveblanderne. Det neste stykke av Jerusalems mur lot de være som det var helt fram til den brede muren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.9": {
+    "text": "Ved siden av dem arbeidet Refaja, Hurs sønn, høvdingen over den ene halvdelen av Jerusalems distrikt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.10": {
+    "text": "Ved siden av ham arbeidet Jedaja, Harumafs sønn, rett imot sitt eget hus. Ved siden av ham arbeidet Hattusj, Hasjabnejas sønn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.11": {
+    "text": "Et annet stykke, og dessuten Ovnstårnet, ble satt i stand av Malkia, Harims sønn, og Hasjub, Pahat-Moabs sønn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.12": {
+    "text": "Ved siden av ham arbeidet Sjallum, sønn av Hallohesj, høvdingen over den andre halvdelen av Jerusalems distrikt, og sammen med ham døtrene hans.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.13": {
+    "text": "Dalporten ble satt i stand av Hanun og innbyggerne i Sanoah. De bygde den og satte inn dører, låser og slåer. De bygde også tusen alen av muren, til Møkkporten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.14": {
+    "text": "Og Møkkporten ble satt i stand av Malkia, Rekabs sønn, høvdingen over Bet-Hakkerems distrikt. Han bygde den opp og satte inn dører og låser og slåer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.15": {
+    "text": "Kildeporten ble satt i stand av Salun, Kol-Hoses sønn, høvdingen over Mispas distrikt. Han bygde den, la tak på den og satte inn dører, låser og slåer. Likeså bygde han muren ved Sjelah-dammen ved kongens hage, helt fram til de trappene som går ned fra Davids by.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 8:6. Joh 9:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.3.16": {
+    "text": "Etter ham arbeidet Nehemja, Asbuks sønn, høvdingen over den ene halvdelen av Bet-Surs distrikt. Han satte i stand muren ned til Davids graver og til den dammen som var gravd, og til heltenes hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.17": {
+    "text": "Etter ham arbeidet levittene under Rehum, Banis sønn. Hasjabja, høvdingen over den ene halvdelen av Ke’ilas distrikt, arbeidet ved siden av ham for sitt distrikt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.18": {
+    "text": "Etter ham arbeidet brødrene deres under Bavvai, Henadads sønn, høvdingen over den andre halvdelen av Ke’ilas distrikt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.19": {
+    "text": "Ved siden av ham arbeidet Eser, Josvas sønn, høvdingen over Mispa. Hans stykke rakk fra plassen midt imot oppgangen fram til våpenhuset i Vinkelen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 26:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.3.20": {
+    "text": "Etter ham arbeidet Baruk, Sabbais sønn, med stor iver på et annet stykke, fra Vinkelen og til døren på ypperstepresten Eljasjibs hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.21": {
+    "text": "Etter ham arbeidet Meremot, sønn av Uria, Hakkos’ sønn, på et annet stykke, fra døren på Eljasjibs hus og til enden av hans hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.22": {
+    "text": "Etter ham arbeidet prestene, mennene fra Jordan-sletten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.23": {
+    "text": "Etter dem arbeidet Benjamin og Hasjub midt imot sitt eget hus. Etter dem arbeidet Asarja, sønn av Ma’aseja, Ananjas sønn, ved siden av sitt hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.24": {
+    "text": "Etter ham arbeidet Binnui, Henadads sønn, på et annet stykke, fra Asarjas hus til Vinkelen og til det stedet hvor muren bøyer av.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.25": {
+    "text": "Palal, Usais sønn, arbeidet fra stedet midt imot Vinkelen og det tårnet som springer fram fra kongens øvre hus ved fengselsgården. Etter ham arbeidet Pedaja, Parosjs sønn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 32:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.3.26": {
+    "text": "Tempeltjenerne som bodde på Ofel, arbeidet til plassen midt imot Vannporten mot øst og det fremspringende tårnet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.27": {
+    "text": "Etter Pedaja arbeidet folkene fra Tekoa på et annet stykke, fra plassen midt imot det store fremspringende tårnet og til Ofel-muren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.28": {
+    "text": "Ovenfor Hesteporten arbeidet prestene, hver av dem foran sitt eget hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 23:15. Jer 31:40.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.3.29": {
+    "text": "Etter dem arbeidet Sadok, Immers sønn, foran sitt eget hus. Etter ham arbeidet Sjemaja, Sjekanjas sønn, som hadde vakthold ved den østre porten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.30": {
+    "text": "Etter ham arbeidet Hananja, Sjelemjas sønn, og Hanun, Salafs sjette sønn, på et annet stykke. Og etter dem arbeidet Mesjullam, Berekjas sønn, foran sitt eget rom.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.31": {
+    "text": "Etter ham arbeidet Malkia, en av gullsmedene, fram til tempeltjenernes og kjøpmennenes hus, foran Mønstringsporten og fram til Hjørnesalen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.3.32": {
+    "text": "Og mellom Hjørnesalen og Saueporten arbeidet gullsmedene og kjøpmennene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.1": {
+    "text": "Da nå Sanballat hørte at vi bygde på muren, ble hans vrede opptent. Han ble ytterst forbitret og spottet jødene",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:19.",
+        "refs": []
+      }
+    ],
+    "section": "Nehemja væpner folket mot fiendene, og oppmuntrer til fortsatt å bygge"
+  },
+  "NEH.4.2": {
+    "text": "og sa til brødrene sine og til stridsmennene i Samaria: Hva er det disse usle jødene gjør? Skal de ha lov til slikt? Skal de få ofre? Skal tro de vil få verket fullført i dag? Kan de få liv i de forbrente steinene som ligger i hauger?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.3": {
+    "text": "Og ammonitten Tobias, som sto ved siden av ham, sa: La dem bygge så mye de vil - bare en rev hopper opp på steinmuren deres, så vil han rive den ned!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.4": {
+    "text": "Hør, vår Gud, hvordan vi er blitt foraktet! La deres spott falle tilbake på deres eget hode, og la dem bli til rov i fangenskaps land!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.5": {
+    "text": "Dekk ikke over deres misgjerning, og la ikke deres synd bli utslettet for ditt åsyn! For de har krenket deg så bygningsmennene hørte det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.6": {
+    "text": "Så bygde vi da på muren, og hele muren ble satt i stand til sin halve høyde. Og folket hadde godt mot på arbeidet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.7": {
+    "text": "Men da Sanballat og Tobias og araberne og ammonittene og asjdodittene hørte at det gikk fremover med utbedringen av Jerusalems murer, og at revnene tok til å fylles, ble de meget vrede.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.8": {
+    "text": "Og de sammensverget seg alle om å komme og kjempe mot Jerusalem og lage forvirring der.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.9": {
+    "text": "Men vi ba til vår Gud, og vi stilte ut vaktposter mot dem dag og natt til vern mot dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.10": {
+    "text": "Da sa jødene: Kreftene svikter hos arbeidsfolket. Grushaugene er for store. Vi makter ikke lenger å bygge på muren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.11": {
+    "text": "Og våre motstandere sa: De må ikke få vite eller merke noe før vi står midt iblant dem og hogger dem ned og slik gjør ende på arbeidet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.12": {
+    "text": "De jødene som bodde i nærheten av dem, kom fra alle kanter og sa til oss vel ti ganger: Hvor dere vender dere hen, så vil de angripe oss!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.13": {
+    "text": "Men da stilte jeg folket opp på de laveste stedene bak muren, på de åpne plassene. Jeg stilte dem opp etter deres ætter med sine sverd og spyd og buer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.14": {
+    "text": "Og da jeg så dem oppstilt, gikk jeg fram og sa til stormennene og forstanderne og til hele folket: Vær ikke redd dem, tenk på Herren, den store og forferdelige. Og kjemp for deres brødre, deres sønner og døtre, deres koner og deres hjem!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.15": {
+    "text": "Da våre fiender hørte at vi hadde fått vite det, og at Gud hadde gjort deres råd til intet, vendte vi alle sammen tilbake til muren, hver til sitt arbeid.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Sam 17:14. Job 5:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.4.16": {
+    "text": "Fra den dagen var bare halvparten av mine unge menn på arbeidet, mens den andre halvparten av dem sto der med sine spyd, skjold, buer og brynjer, og høvdingene sto bakenfor hele Judas folk.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.17": {
+    "text": "De som bygde på muren, og bærerne med sine byrder, de utførte arbeidet med den ene hånden, og med den andre holdt de våpenet sitt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.18": {
+    "text": "Hver av bygningsmennene hadde sverdet bundet til siden mens han arbeidet. Og hornblåseren sto ved siden av meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.19": {
+    "text": "Jeg sa til stormennene og forstanderne og til hele folket: Arbeidet er stort og omfattende, og vi er spredt på muren langt fra hverandre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.20": {
+    "text": "På det stedet hvor dere hører hornet lyder, der skal dere samle dere hos oss. Vår Gud vil stride for oss.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 14:14,25. 5Mos 1:30. 3:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.4.21": {
+    "text": "Så arbeidet vi da på verket mens halvdelen sto der med spydene sine, fra morgenrøden rant opp til stjernene kom fram.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.22": {
+    "text": "På samme tid sa jeg også til folket: Hver mann og hans tjener skal bli natten over inne i Jerusalem, så vi kan ha dem til vakt om natten og til arbeid om dagen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.4.23": {
+    "text": "Og verken jeg eller mine brødre eller mine tjenere eller vaktmennene som fulgte meg, kom av klærne. Hver mann hadde sitt våpen hos seg, og vann.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Sam 26:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.5.1": {
+    "text": "Men det reiste seg et stort skrik fra folket og deres koner mot deres jødiske brødre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "De rike utsuger de fattige"
+  },
+  "NEH.5.2": {
+    "text": "Noen sa: Vi med våre sønner og døtre er mange. La oss få korn, så vi kan ete og berge livet!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.3": {
+    "text": "Andre sa: Våre marker og vingårder og hus må vi sette i pant. La oss få korn så vi kan stille sulten!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.4": {
+    "text": "Andre igjen sa: Vi har lånt penger på våre marker og vingårder for å betale skatten til kongen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.5": {
+    "text": "Vi er da av samme kjøtt og blod som våre brødre, og våre barn er som deres barn. Men vi må la våre sønner og døtre bli treller. Ja, noen av våre døtre er alt kommet i trellekår, og det står ikke i vår makt å hindre det, for våre marker og vingårder hører andre til.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.6": {
+    "text": "Jeg ble meget vred da jeg hørte deres klagerop og alt det de fortalte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.7": {
+    "text": "Jeg overveide saken med meg selv. Og så irettesatte jeg stormennene og forstanderne og sa til dem: Dere krever rente av brødrene deres! Så sammenkalte jeg et stort folkemøte mot dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 22:25. 3Mos 25:36,37. 5Mos 23:19. Sal 15:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.5.8": {
+    "text": "Og jeg sa til dem: Så langt det var mulig, har vi løskjøpt våre jødiske brødre som var solgt til hedningene. Og så vil dere selge deres brødre, og de må selge seg til oss! Da tidde de og fant ikke ett ord til svar.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.9": {
+    "text": "Så sa jeg: Det er ikke rett det dere gjør. Burde dere ikke vandre i frykt for vår Gud, så ikke hedningene, våre fiender, skal få grunn til å håne oss?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 52:5. Esek 36:20,23. Rom 2:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.5.10": {
+    "text": "Også jeg og mine brødre og mine folk har lånt dem penger og korn. La oss ettergi denne gjelden!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.11": {
+    "text": "Gi dem nå i dag tilbake både markene, vingårdene, olivenhagene og husene, og ettergi dem rentene av pengene og kornet og mosten og oljen som dere har lånt dem!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.12": {
+    "text": "Da sa de: Vi vil gi det tilbake og ikke kreve noe av dem, vi vil gjøre som du sier. Og etter at jeg hadde tilkalt prestene, lot jeg dem sverge på at de ville gjøre som de hadde sagt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.13": {
+    "text": "Jeg ristet også ut brystfolden på min kappe og sa: Slik skal Gud gjøre med hver mann som ikke holder dette sitt ord, han skal riste ham ut av hans hus og gods - så utrystet og tom skal han bli! Og hele forsamlingen sa: Amen! Og de priste Herren, og folket gjorde som det hadde sagt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*ble brukt som lomme.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.5.14": {
+    "text": "Fra den dagen jeg ble utnevnt til stattholder i Judas land, fra kong Artaxerxes’ tjuende år til hans trettiandre år, i hele tolv år, har verken jeg eller mine brødre tatt imot noe av den kosten som en stattholder kunne kreve.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Nehemjas uselviske fremferd"
+  },
+  "NEH.5.15": {
+    "text": "De forrige stattholdere, de som var før meg, la tunge byrder på folket, og tok brød og vin av dem i tillegg til førti sekel sølv. Til og med tjenerne deres gjorde seg til herrer over folket. Men jeg gjorde ikke det, for jeg fryktet Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.16": {
+    "text": "Jeg var også selv med i arbeidet på denne muren. Og noe jordstykke har vi ikke kjøpt, alle folkene mine har vært samlet til arbeidet der.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:23.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.5.17": {
+    "text": "Og ett hundre og femti mann av jødene og forstanderne spiste ved mitt bord, i tillegg til dem som kom til fra folkene rundt omkring.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.5.18": {
+    "text": "Det som ble tillaget for hver dag, var en okse og seks utvalgte sauer i tillegg til fugler, og alt dette kostet jeg selv. Og en gang hver tiende dag var det overflod av all slags vin. Og likevel krevde jeg ikke den kost som stattholderen hadde rett til, for arbeidet lå tungt på dette folket.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.14. 2Tess 3:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.5.19": {
+    "text": "Kom meg i hu, min Gud, og regn meg til gode alt det jeg har gjort for dette folket!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "13:14,22,31. Heb 6:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.6.1": {
+    "text": "Da nå Sanballat og Tobias og araberen Gesjem og våre andre fiender fikk høre at jeg hadde bygd opp muren, og at det ikke mer fantes noen revne i den - enda jeg til den tid ikke hadde satt inn dører i portene -",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:19.",
+        "refs": []
+      }
+    ],
+    "section": "Nehemjas fiender med svikefulle forslag"
+  },
+  "NEH.6.2": {
+    "text": "da sendte Sanballat og Gesjem bud til meg og sa: Kom, la oss møtes i en av landsbyene i Ono-dalen! Men de tenkte å gjøre meg ondt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 21:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.6.3": {
+    "text": "Jeg sendte bud tilbake til dem og svarte: Jeg holder på med et stort arbeid og kan ikke komme ned. Skulle jeg kanskje la arbeidet hvile fordi jeg lot det ligge og dro ned til dere?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.4": {
+    "text": "Fire ganger sendte de det samme bud til meg, og jeg ga dem samme svar.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.5": {
+    "text": "Femte gang sendte Sanballat tjeneren sin til meg med det samme bud, og han hadde et åpent brev med seg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.6": {
+    "text": "I det sto det: Det går det rykte blant folkene, og Gasjmu sier også at du og jødene tenker på å gjøre opprør. Derfor er det du bygger opp muren. Og etter det samme ryktet skal du være deres konge,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.7": {
+    "text": "og du skal ha satt profeter til å utrope om deg i Jerusalem at du er konge i Juda. Nå vil dette ryktet komme kongen for øre. Så kom nå og la oss rådslå sammen!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.8": {
+    "text": "Men jeg sendte bud til ham og svarte: Noe slikt som det du taler om, har ikke gått for seg, det er noe du selv har funnet på.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.9": {
+    "text": "For alle sammen forsøkte å skremme oss, de tenkte at vi da skulle bli trette og holde opp med arbeidet, så det ikke ble utført. Men styrk nå du mine hender!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.10": {
+    "text": "En gang kom jeg inn til Sjemaja, sønn av Delaja, Mehetabels sønn. Han holdt seg inne i huset sitt. Da sa han: La oss nå gå sammen inn i Guds hus, i det indre av templet, og la oss stenge dørene! For de kommer og vil drepe deg. Ja, de kommer og vil drepe deg i natt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.11": {
+    "text": "Men jeg svarte: Skulle en mann som jeg flykte? Og hvordan skulle en mann som jeg kunne gå inn i templet og enda bli i live? Jeg går ikke inn der.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.12": {
+    "text": "For jeg skjønte helt klart at det ikke var Gud som hadde sendt ham, men at han uttalte denne spådommen over meg fordi Tobias og Sanballat hadde leid ham til det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.13": {
+    "text": "Han var leid for at jeg skulle bli redd og gjøre som han sa. Dermed ville jeg ha syndet, og så kunne de få satt ut et ondt rykte om meg, og håne meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.14": {
+    "text": "Min Gud, kom i hu Tobias for det han har gjort, og likeså Sanballat! Og dessuten profetinnen Noadja og de andre profetene som prøvde å skremme meg!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 74:22 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.6.15": {
+    "text": "Muren ble ferdig på femtito dager - den tjuefemte dagen i måneden elul.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:1,2.",
+        "refs": []
+      }
+    ],
+    "section": "Muren blir ferdig"
+  },
+  "NEH.6.16": {
+    "text": "Da alle fiendene våre hørte dette, og alle folkene rundt om oss så det, da sank de meget i sine egne øyne. Og de forsto at det var med vår Guds hjelp dette verket var blitt fullført.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.17": {
+    "text": "I de dager sendte også de fornemste i Juda mange brev til Tobias. Og fra Tobias kom det brev tilbake til dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.6.18": {
+    "text": "For mange i Juda var forbundet med ham ved ed. For han var svigersønn til Sjekanja, Arahs sønn. Og hans sønn Johanan hadde tatt til ekte en datter av Mesjullam, Berekjas sønn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:30.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.6.19": {
+    "text": "De pleide også å tale til meg om at han gjorde så mye godt, og å fortelle ham om alt jeg sa. Tobias sendte også brev for å skremme meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.1": {
+    "text": "Da nå muren var bygd, satte jeg inn dørene. Og dørvaktene og sangerne og levittene ble satt til sin gjerning.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.2": {
+    "text": "Jeg satte min bror Hanani til befalingsmann over Jerusalem, og sammen med ham Hananja, høveds-mann over borgen, for han var en pålitelig mann og mer gudfryktig enn de fleste.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.3": {
+    "text": "Jeg sa til dem: Jerusalems porter skal ikke åpnes før solen brenner hett, og mens portvakten står der, skal dørene lukkes og låses, og noen av Jerusalems innbyggere skal settes som vaktmenn, hver på sin post og hver utenfor sitt hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.4": {
+    "text": "Byen var vid og stor, men folket i den fåtallig, og ingen nye hus var bygd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Fortegnelse over dem som først hadde reist hjem fra Babel"
+  },
+  "NEH.7.5": {
+    "text": "Da ga Gud meg i sinne å samle de fornemste og forstanderne og folket for å føres inn i ættelister. Og jeg fant boken med ættelistene over dem som først hadde dratt hjem, og der fant jeg skrevet:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.6": {
+    "text": "Dette er de menn fra landskapet Juda som dro hjem fra fangenskapet i det fremmede landet - de som kongen i Babel, Nebukadnesar, hadde bortført, og som nå vendte tilbake til Jerusalem og Juda, hver til sin by,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esr 2:1 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.7.7": {
+    "text": "de som fulgte med Serubabel, Josva, Nehemja, Asarja, Ra’amja, Nahamani, Mordekai, Bilsjan, Misperet, Bigvai, Nehum og Ba’ana. Dette er tallet på mennene av Israels folk:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.8": {
+    "text": "Parosjs barn, to tusen ett hundre og syttito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.9": {
+    "text": "Sefatjas barn, tre hundre og syttito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.10": {
+    "text": "Arahs barn, seks hundre og femtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.11": {
+    "text": "Pahat-Moabs barn av Josvas og Joabs etterkommere, to tusen åtte hundre og atten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esr 8:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.7.12": {
+    "text": "Elams barn, ett tusen to hundre og femtifire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.13": {
+    "text": "Sattus barn, åtte hundre og førtifem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.14": {
+    "text": "Sakkais barn, sju hundre og seksti.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.15": {
+    "text": "Binnuis barn, seks hundre og førtiåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.16": {
+    "text": "Bebais barn, seks hundre og tjueåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.17": {
+    "text": "Asgads barn, to tusen tre hundre og tjueto.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.18": {
+    "text": "Adonikams barn, seks hundre og sekstisju.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.19": {
+    "text": "Bigvais barn, to tusen og sekstisju.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.20": {
+    "text": "Adins barn, seks hundre og femtifem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.21": {
+    "text": "Aters barn av Hiskias ætt, nittiåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.22": {
+    "text": "Hasjums barn, tre hundre og tjueåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.23": {
+    "text": "Besais barn, tre hundre og tjuefire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.24": {
+    "text": "Harifs barn, ett hundre og tolv.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.25": {
+    "text": "Gibeons barn, nittifem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.26": {
+    "text": "Mennene fra Betlehem og Netofa, ett hundre og åttiåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.27": {
+    "text": "Mennene fra Anatot, ett hundre og tjueåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.28": {
+    "text": "Mennene fra Bet-Asmavet, førtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.29": {
+    "text": "Mennene fra Kirjat-Jearim, Kefira og Be’erot, sju hundre og førtitre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.30": {
+    "text": "Mennene fra Rama og Geba, seks hundre og tjueen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.31": {
+    "text": "Mennene fra Mikmas, ett hundre og tjueto.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.32": {
+    "text": "Mennene fra Betel og Ai, ett hundre og tjuetre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.33": {
+    "text": "Mennene fra det andre Nebo, femtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.34": {
+    "text": "Den andre Elams barn, ett tusen to hundre og femtifire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.35": {
+    "text": "Harims barn, tre hundre og tjue.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.36": {
+    "text": "Jerikos barn, tre hundre og førtifem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.37": {
+    "text": "Lods, Hadids og Onos barn, sju hundre og tjueen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.38": {
+    "text": "Sena’as barn, tre tusen ni hundre og tretti.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.39": {
+    "text": "Av prestene: Jedajas barn av Josvas hus, ni hundre og syttitre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.40": {
+    "text": "Immers barn, ett tusen og femtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.41": {
+    "text": "Pasjhurs barn, ett tusen to hundre og førtisju.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.42": {
+    "text": "Harims barn, ett tusen og sytten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.43": {
+    "text": "Av levittene: Josvas barn av Kadmiels ætt, av Hodevas barn, syttifire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.44": {
+    "text": "Av sangerne: Asafs barn, ett hundre og førtiåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.45": {
+    "text": "Av dørvokterne: Sjallums barn, Aters barn, Talmons barn, Akkubs barn, Hatitas barn, Sobais barn, ett hundre og trettiåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.46": {
+    "text": "Av tempeltjenerne: Sihas barn, Hasufas barn, Tabbaots barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.47": {
+    "text": "Keros’ barn, Sias barn, Padons barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.48": {
+    "text": "Lebanas barn, Hagabas barn, Sjalmais barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.49": {
+    "text": "Hanans barn, Giddels barn, Gahars barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.50": {
+    "text": "Reajas barn, Resins barn, Nekodas barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.51": {
+    "text": "Gassams barn, Ussas barn, Paseahs barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.52": {
+    "text": "Besais barn, Me’unims barn, Nefussims barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.53": {
+    "text": "Bakbuks barn, Hakufas barn, Harhurs barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.54": {
+    "text": "Baslits barn, Mehidas barn, Harsjas barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.55": {
+    "text": "Barkos’ barn, Siseras barn, Tamahs barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.56": {
+    "text": "Nesiahs barn, Hatifas barn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.57": {
+    "text": "Av Salomos tjeneres barn: Sotais barn, Soferets barn, Peridas barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.58": {
+    "text": "Ja’alas barn, Darkons barn, Giddels barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.59": {
+    "text": "Sefatjas barn, Hattils barn, Pokeret-Hassebajims barn, Amons barn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.60": {
+    "text": "Alle tempeltjenerne og Salomos tjeneres barn var til sammen tre hundre og nittito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.61": {
+    "text": "Og dette er de som dro hjem fra Tel-Melah, Tel-Harsja, Kerub, Addon og Immer, men ikke kunne oppgi sin familie og sin ætt, om de var av Israel:",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.62": {
+    "text": "Delajas barn, Tobias’ barn, Nekodas barn, seks hundre og førtito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.63": {
+    "text": "Av prestene: Hobajas barn, Hakkos’ barn, Barsillais barn, han som hadde tatt en av gileaditten Barsillais døtre til kone og var blitt oppkalt etter dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.64": {
+    "text": "Disse lette etter ættelistene sine, men de fantes ikke. De ble da utelukket fra prestedømmet som uverdige til det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.65": {
+    "text": "Stattholderen sa til dem at de ikke skulle ete av det høyhellige før det sto fram en prest med urim og tummim.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 8:8. 4Mos 27:21",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "*Serubabel, Hag 1:1. 2:2.**Se Ordforklaringer",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.7.66": {
+    "text": "Hele menigheten var i alt førtito tusen tre hundre og seksti,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.67": {
+    "text": "i tillegg til deres tjenere og tjenestepiker, som var sju tusen tre hundre og trettisju. De hadde også med seg to hundre og førtifem sangere og sangerinner.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.68": {
+    "text": "De hadde sju hundre og trettiseks hester, to hundre og førtifem muldyr,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.69": {
+    "text": "fire hundre og trettifem kameler og seks tusen sju hundre og tjue esler.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.70": {
+    "text": "Noen av slektenes overhoder ga gaver til arbeidet. Stattholderen ga til kassen tusen dariker i gull, dessuten femti skåler og fem hundre og tretti prestekapper.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Gaver blir gitt til templet"
+  },
+  "NEH.7.71": {
+    "text": "Noen av slektenes overhoder ga til arbeidskassen tjue tusen dariker i gull og to tusen to hundre miner i sølv.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.72": {
+    "text": "Det som resten av folket ga, var tjue tusen dariker i gull og to tusen miner i sølv, og dessuten sekstisju prestekapper.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.7.73": {
+    "text": "Både prestene og levittene og dørvaktene og sangerne og noen av det menige folket og tempeltjenerne og hele Israel ellers bosatte seg i sine byer. Da den sjuende måneden kom, bodde Israels barn i sine byer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.1": {
+    "text": "Hele folket samlet seg som én mann på plassen foran Vannporten. Og de ba Esra, den skriftlærde, om å hente boken med Mose lov, som Herren hadde gitt Israel.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esr 7:6,10,11.",
+        "refs": []
+      }
+    ],
+    "section": "Esra leser opp fra Mose lov"
+  },
+  "NEH.8.2": {
+    "text": "Og presten Esra bar loven fram for menigheten, både for menn og kvinner og alle som kunne forstå det de hørte. Det var den første dagen i den sjuende måneden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.3": {
+    "text": "Han leste opp av den midt på plassen foran Vannporten fra tidlig morgen til midt på dagen - for mennene og kvinnene og dem som kunne forstå. Og alt folket lyttet til lovbokens ord.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.4": {
+    "text": "Esra, den skriftlærde, sto på en forhøyning av tre, som var blitt reist til dette. Ved siden av ham sto Mattitja, Sjema, Anaja, Uria, Hilkia og Ma’aseja til høyre for ham, og til venstre for ham Pedaja, Misjael, Malkia, Hasjum, Hasjbaddana, Sakarja og Mesjullam.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.5": {
+    "text": "Og Esra åpnet boken for hele folkets øyne, for han sto høyere enn folket. Og da han åpnet boken, reiste hele folket seg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.6": {
+    "text": "Esra lovet Herren, den store Gud, og hele folket svarte med løftede hender: Amen, amen! Og de bøyde seg og kastet seg ned for Herren med ansiktet mot jorden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.7": {
+    "text": "Og Josva, Bani, Sjerebja, Jamin, Akkub, Sjabbetai, Hodia, Ma’aseja, Kelita, Asarja, Josabad, Hanan, Pelaja og de andre levittene forklarte loven for folket, mens folket ble stående på sin plass.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.8": {
+    "text": "Og de leste opp stykke for stykke av boken, av Guds lov, og de tolket den så folket skjønte det som ble lest.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.9": {
+    "text": "Og stattholderen Nehemja og presten Esra, den skriftlærde, og levittene som lærte folket, sa til hele folket: Denne dagen er helliget Herren deres Gud. Sørg ikke og gråt ikke! For hele folket gråt da de hørte lovens ord.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Løvhyttefesten"
+  },
+  "NEH.8.10": {
+    "text": "Så sa han til dem: Gå nå og et fete retter og drikk søte drikker og send gaver av det til dem som ingen har laget noe til for. For dagen er helliget vår Herre. Og sørg ikke, for glede i Herren er deres styrke!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 26:11. Joh 20:20. Fil 4:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.8.11": {
+    "text": "Og levittene ba folket holde seg rolig og sa: Vær stille, for dagen er hellig. Sørg ikke!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.12": {
+    "text": "Da gikk hele folket bort og åt og drakk og sendte gaver omkring og holdt en stor gledesfest. For de hadde forstått det som var blitt talt til dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.13": {
+    "text": "Dagen etter samlet folkets overhoder, prestene og levittene seg hos Esra, den skriftlærde, for å få nærmere rede på lovens ord.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.14": {
+    "text": "De fant da skrevet i loven - den lov som Herren hadde gitt ved Moses - at Israels barn skulle bo i løvhytter på festen i den sjuende måneden,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 23:34,40,42.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.8.15": {
+    "text": "og at de skulle kunngjøre og rope det ut i alle sine byer og i Jerusalem: Gå ut på fjellene og hent løv av oljetrær og av ville oljetrær og av myrter og av palmer og av andre løvrike trær og lag løvhytter, slik det er foreskrevet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.16": {
+    "text": "Da gikk folket ut og hentet løv. De laget seg løvhytter, hver på sitt tak og på sine tun og likeså i forgårdene til Guds hus og på plassen ved Vannporten og på plassen ved Efra’im-porten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.17": {
+    "text": "Og hele menigheten, de som var kommet tilbake fra fangenskapet, laget løvhytter og bodde i dem. For fra Josvas, Nuns sønns dager like til denne dagen hadde Israels barn ikke gjort dette. Og det var overmåte stor glede.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.8.18": {
+    "text": "Dag etter dag leste de opp av Guds lovbok, fra den første dagen til den siste. De holdt høytid i sju dager, og på den åttende dagen en festlig sammenkomst, slik det var påbudt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 31:10,11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.1": {
+    "text": "Den tjuefjerde dagen i samme måneden samlet Israels barn seg og holdt faste, kledd i sekk og med jord strødd på hodet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:2. 1Sam 4:12. Esr 8:23.",
+        "refs": []
+      }
+    ],
+    "section": "Israels barn holder en faste- og bønnedag"
+  },
+  "NEH.9.2": {
+    "text": "Og Israels ætt skilte seg fra alle fremmede og sto så fram og bekjente sine synder og fedrenes misgjerninger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.3": {
+    "text": "En fjerdepart av dagen ble de stående på sin plass mens det ble lest opp for dem av Herrens, deres Guds lovbok, og en annen fjerdepart av dagen avla de bekjennelse og tilba Herren sin Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.4": {
+    "text": "Josva og Bani, Kadmiel, Sjebanja, Bunni, Sjerebja, Bani og Kenani steg opp på levittenes forhøyning, og de ropte med høy røst til Herren sin Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Levittene priser Gud i bønn, og bekjenner folkets synd"
+  },
+  "NEH.9.5": {
+    "text": "Levittene Josva og Kadmiel, Bani, Hasjabneja, Sjerebja, Hodia, Sjebanja og Petahja sa: Stå opp og lov Herren deres Gud fra evighet til evighet! Ja, lovet være ditt herlige navn, som er opphøyet over all lov og pris!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.6": {
+    "text": "Du alene er Herren, du har skapt himlene, himlenes himler og all deres hær, jorden og alt som er på den, havene og alt som er i dem, og du holder det alt sammen i live, og himmelens hær tilber deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 19:15. Sal 103:21,22. Jes 37:16.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Apg 4:24. 14:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.7": {
+    "text": "Det var du, Herre Gud, som utvalgte Abram og førte ham ut fra kaldeernes Ur og ga ham navnet Abraham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 11:31. 12:1. 17:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.8": {
+    "text": "Og du fant hans hjerte tro for ditt ansikt. Du gjorde den pakten med ham at du ville gi hans ætt kana’aneernes, hetittenes, amorittenes og ferisittenes og jebusittenes og girgasittenes land. Du holdt ditt ord, for du er rettferdig.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 12:7.",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "15:18ff. Jos 21:43 ff. *Se 1Mos 15:6. 17:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.9": {
+    "text": "Du så våre fedres nød i Egypt. Du hørte deres rop ved Rødehavet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 3:7 ff. 14:9 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.10": {
+    "text": "Du gjorde tegn og undergjerninger med farao og alle hans tjenere og alt folket i hans land, for du visste hvor skammelig egypterne hadde behandlet dem. Du vant deg et stort navn, og det har du den dag i dag.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.11": {
+    "text": "Du kløvde havet for dem, og de gikk på det tørre midt gjennom havet. Forfølgerne kastet du i dypet, så de sank som stein i de veldige vann.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 14:21 ff. 15:4 ff. Sal 106:9. 136:13 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.12": {
+    "text": "Du ledet dem i en skystøtte om dagen og i en ildstøtte om natten for å lyse for dem på den veien de skulle gå.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 13:21 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.13": {
+    "text": "Du steg ned på Sinai berg og talte med dem fra himmelen. Du ga dem rette befalinger og trygge lover, gode forskrifter og bud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 19:18 ff. 20:1 ff. Sal 19:8 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.14": {
+    "text": "Du kunngjorde dem din hellige sabbat. Du ga dem bud og forskrifter og lover gjennom din tjener Moses.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.15": {
+    "text": "Du ga dem brød fra himmelen når de hungret og lot vann strømme fra klippen når de tørstet. Du bød dem å dra inn og ta det landet i eie som du med oppløftet hånd hadde sverget at du ville gi dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 16:4,14 ff. 17:6. 4Mos 20:8,11. 5Mos 1:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.16": {
+    "text": "Men de, våre fedre, var overmodige og hardnakkede og hørte ikke på dine bud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.17": {
+    "text": "De ville ikke høre og kom ikke i hu de undergjerningene du hadde gjort for dem. De var hardnakkede og valgte seg en høvding og ville i sin gjenstridighet vende tilbake til trelldommen. Men du er en Gud som tilgir, nådig og barmhjertig, langmodig og rik på miskunn. Og du forlot dem ikke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 34:6. 4Mos 14:4. Sal 99:8. 103:8. Joel 2:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.18": {
+    "text": "Ja, de støpte seg til og med en kalv og sa: Dette er din gud, som førte deg opp fra Egypt! Og de gjorde seg skyldige i store bespottelser.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 32:4,8,31.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.19": {
+    "text": "Men du - i din store barmhjertighet forlot du dem ikke i ørkenen. Skystøtten vek ikke fra dem om dagen, men ledet dem på veien. Heller ikke vek ildstøtten fra dem om natten, men lyste for dem på den veien de skulle gå.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 13:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.20": {
+    "text": "Du ga dem din gode Ånd til å lære dem. Du nektet ikke deres munn din manna, og du ga dem vann når de tørstet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.15. 5Mos 8:3,16. Jes 63:11,14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.21": {
+    "text": "I førti år forsørget du dem i ørkenen. De manglet ikke noe. Deres klær ble ikke utslitt, og føttene ble ikke hovne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 2:7. 8:4. 29:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.22": {
+    "text": "Du ga dem riker og folk, som du skiftet ut til dem helt til grensen. De tok i eie det landet som tilhørte Sihon, kongen i Hesjbon, og det landet som tilhørte Og, kongen i Basan.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 21:21 ff, 33 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.23": {
+    "text": "Du gjorde deres barn tallrike som himmelens stjerner. Du førte dem inn i det landet som du hadde lovt deres fedre at de skulle komme inn i og ta i eie.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "v.15. 1Mos 15:5. 22:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.24": {
+    "text": "Så kom da deres barn og tok landet i eie. Du ydmyket landets innbyggere, kana’aneerne, for dem og ga dem i deres hånd, både kongene og folkene der i landet, så de kunne gjøre hva de ville med dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.25": {
+    "text": "De inntok befestede byer og vant seg fruktbar jord og tok hus til eie som var fulle av alle gode ting, og uthogne brønner, vingårder og mengdevis av oljetrær og frukttrær. De åt og ble mette og fete og levde høyt på din store godhet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 6:10,11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.26": {
+    "text": "Men de ble ulydige og satte seg opp mot deg og kastet din lov bak sin rygg. De drepte dine profeter, som vitnet for dem og ville føre dem tilbake til deg. De gjorde seg skyldige i store bespottelser.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 32:15 ff. 1Kong 14:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.27": {
+    "text": "Da ga du dem i deres fienders hånd, og de undertrykte dem. Men når de i sin nød ropte til deg, hørte du det fra himmelen. Og i din store barmhjertighet ga du dem redningsmenn, som frelste dem fra deres fienders hånd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dom 2:14. 3:9,15. Sal 106:40 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.28": {
+    "text": "Men når de så kom til ro, gjorde de igjen det som var ondt i dine øyne. Og du overlot dem i deres fienders hånd, så de hersket over dem. Men når de så på ny ropte til deg, hørte du det fra himmelen og befridde dem i din barmhjertighet gang på gang.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.29": {
+    "text": "Du advarte dem og ville omvende dem til din lov. Men de var hovmodige og hørte ikke på dine bud. De syndet mot dine lover, de som mennesket lever ved når han gjør etter dem. I sin gjenstridighet satte de skulderen imot, de var hardnakkede og ville ikke høre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 18:5. 2Kong 17:13 ff. 2Krøn 36:15 ff. Esek 20:11. Sak 7:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.30": {
+    "text": "I mange år bar du over med dem og advarte dem ved din Ånd gjennom dine profeter. Men de vendte ikke øret til, og du ga dem i fremmede folks hånd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.31": {
+    "text": "Men i din store barmhjertighet gjorde du ikke helt ende på dem og forlot dem ikke. For du er en nådig og barmhjertig Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 30:11. 46:28. Klag 3:22. Mal 3:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.32": {
+    "text": "Og nå, vår Gud! Du store, veldige og forferdelige Gud! Du som holder din pakt og bevarer din miskunnhet. La det ikke være lite i dine øyne alt det onde som har rammet oss, våre konger, våre høvdinger, våre prester, våre profeter, våre fedre og hele ditt folk, fra assyrerkongenes dager til dagen i dag!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.33": {
+    "text": "Du er rettferdig i alt det som er kommet over oss, for du har vist trofasthet, men vi har vært ugudelige.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 9:7,14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.34": {
+    "text": "Våre konger, våre høvdinger, våre prester og våre fedre har ikke levd etter din lov. De har ikke hørt på dine bud og på de advarslene du ga dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dan 9:6,8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.9.35": {
+    "text": "Og enda de levde i sitt eget rike, og du hadde gitt dem så mye godt og overlatt dem dette vide og fruktbare landet, tjente de deg ikke og vendte ikke om fra sine onde gjerninger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.36": {
+    "text": "Se, i dag er vi treller - vi er treller i det landet du ga våre fedre, for at de skulle ete dets frukt og dets gode ting.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.37": {
+    "text": "Landet bærer sin rike grøde til beste for de kongene som du satte over oss for våre synders skyld. De råder over våre legemer og vårt fe som det passer dem. Vi er i stor nød.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.9.38": {
+    "text": "På grunn av alt dette gjør vi en fast pakt og skriver den ned, og våre høvdinger, levitter og prester setter sine segl på den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Folket gjør en pakt med Herren"
+  },
+  "NEH.10.1": {
+    "text": "De som setter sine segl under denne skrivelsen er: stattholderen Nehemja, Hakaljas sønn, og Sidkia,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.2": {
+    "text": "Seraja, Asarja, Jirmeja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.3": {
+    "text": "Pasjhur, Amarja, Malkia,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.4": {
+    "text": "Hattusj, Sjebanja, Malluk,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.5": {
+    "text": "Harim, Meremot, Obadja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.6": {
+    "text": "Daniel, Ginneton, Baruk,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.7": {
+    "text": "Mesjullam, Abia, Mijamin,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.8": {
+    "text": "Ma’asja, Bilgai og Sjemaja, dette var prestene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.9": {
+    "text": "Og levittene var: Josva, Asanjas sønn, Binnui av Henadads barn og Kadmiel,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.10": {
+    "text": "og deres brødre: Sjebanja, Hodia, Kelita, Pelaja, Hanan,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.11": {
+    "text": "Mika, Rehob, Hasjabja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.12": {
+    "text": "Sakkur, Sjerebja, Sjebanja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.13": {
+    "text": "Hodia, Bani og Beninu.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.14": {
+    "text": "Og folkets høvdinger var: Parosj, Pahat-Moab, Elam, Sattu, Bani,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esr 2:3,6 ff. 8:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.10.15": {
+    "text": "Bunni, Asgad, Bebai,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.16": {
+    "text": "Adonja, Bigvai, Adin,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.17": {
+    "text": "Ater, Hiskia, Assur,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.18": {
+    "text": "Hodia, Hasjum, Besai,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.19": {
+    "text": "Harif, Anatot, Nobai,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.20": {
+    "text": "Magpias, Mesjullam, Hesir,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.21": {
+    "text": "Mesjesabel, Sadok, Jaddua,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.22": {
+    "text": "Pelatja, Hanan, Anaja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.23": {
+    "text": "Hosea, Hananja, Hasjub,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.24": {
+    "text": "Hallohesj, Pilha, Sjobek,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.25": {
+    "text": "Rehum, Hasjabna, Ma’aseja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.26": {
+    "text": "Akia, Hanan, Anan,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.27": {
+    "text": "Malluk, Harim og Ba’ana.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.28": {
+    "text": "Resten av folket, prestene, levittene, dørvaktene, sangerne, tempeltjenerne og alle de som hadde skilt seg fra de fremmede folk for å leve etter Guds lov, med koner, sønner og døtre, så mange som hadde kunnskap og forstand -",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.29": {
+    "text": "alle disse holdt seg til de mest ansette blant sine brødre og sverget en dyr ed på at de ville vandre etter Guds lov, som var gitt ved Guds tjener Moses, og at de ville holde og gjøre etter alle Herrens, vår Herres bud og lover og forskrifter:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Kong 23:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.10.30": {
+    "text": "Vi sverget at vi ikke skal gi døtrene våre til fremmede folk, heller ikke ta deres døtre til koner for våre sønner,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 34:16. 5Mos 7:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.10.31": {
+    "text": "at vi, når de fremmede folkene kommer med varene sine og all slags korn for å selge det på sabbaten, ikke skal kjøpe det av dem på sabbaten eller noen annen helligdag, og at vi i det sjuende året skal la landet hvile, og ettergi all gjeld.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 23:11. 5Mos 15:1 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.10.32": {
+    "text": "Vi påtar oss den forpliktelsen at vi skal avgi tredjeparten av en sekel årlig til tjenesten i vår Guds hus,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.33": {
+    "text": "til skuebrødene og det daglige matofferet og det daglige brennofferet og til ofrene på sabbaten, nymånedagene og høytidene, og til takkofrene og til syndofrene som tjener til soning for Israel, og til alt arbeidet i vår Guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 24:5 ff. 4Mos 28:1 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.10.34": {
+    "text": "Og vi, prestene, levittene og folket, har kastet lodd om hvordan vi skal skaffe ved. Våre familier skal år for år til fastsatte tider, føre veden til vår Guds hus for å brenne den på Herrens, vår Guds alter, slik det er foreskrevet i loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3Mos 6:5 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.10.35": {
+    "text": "Vi vedtar også at vi år for år skal føre førstegrøden av vår jord og de første modne fruktene av alle trær til Herrens hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.10.36": {
+    "text": "Og som det er foreskrevet i loven, skal vi føre de førstefødte av våre sønner og av vår buskap, det førstefødte av vårt storfe og vårt småfe, til vår Guds hus, til prestene som gjør tjeneste i vår Guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Mos 13:2. 4Mos 3:13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.10.37": {
+    "text": "Likeså vil vi bringe det første av vårt mel og våre hellige gaver av all slags frukt som vokser på trær, av most og olje, til prestene, til lagerrommene i vår Guds hus. Og tienden av vår jord skal vi bringe til levittene, og levittene skal selv innkreve tienden i alle de byene hvor vi driver åkerbruk.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 18:21. 5Mos 14:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.10.38": {
+    "text": "En prest, en av Arons sønner, skal være med levittene når de innkrever tiende. Og selv skal levittene føre tienden av sin tiende opp til vår Guds hus, til rommene i forrådshuset.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 18:26 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.10.39": {
+    "text": "For både Israels barn og Levis barn skal føre den hellige avgift av kornet, mosten og oljen til rommene hvor helligdommens kar er, der hvor de prestene som gjør tjeneste holder til sammen med dørvaktene og sangerne. Vi skal ikke forsømme vår Guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5Mos 12:6. 2Krøn 31:11,12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.11.1": {
+    "text": "Folkets høvdinger tok bolig i Jerusalem. Resten av folket kastet lodd slik at hver tiende mann skulle bo i Jerusalem, den hellige byen, men de ni tiendedeler i de andre byene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:4 ff.",
+        "refs": []
+      }
+    ],
+    "section": "Fortegnelse over dem som bodde i Jerusalem"
+  },
+  "NEH.11.2": {
+    "text": "Og folket velsignet alle de menn som frivillig bosatte seg i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.3": {
+    "text": "Dette er de høvdingene i landskapet som bodde i Jerusalem, og de som bodde i Judas byer, hver på sin eiendom, i sine byer, både av lekfolket i Israel og av prestene, levittene, tempeltjenerne og etterkommerne av Salomos tjenere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Krøn 9:3 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.11.4": {
+    "text": "I Jerusalem bodde noen av Judas barn og av Benjamins barn. Av Judas barn: Ataja, sønn av Ussia, sønn av Sakarja, sønn av Amarja, sønn av Sefatja, sønn av Mahalalel, av Peres’ barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.5": {
+    "text": "og Ma’aseja, sønn av Baruk, sønn av Kol-Hose, sønn av Hasaja, sønn av Adaja, sønn av Jojarib, sønn av Sakarja, sønn av Sjiloni.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.6": {
+    "text": "Peres’ barn som bodde i Jerusalem, var i alt fire hundre og sekstiåtte krigsdyktige menn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.7": {
+    "text": "Av Benjamins barn var det: Sallu, sønn av Mesjullam, sønn av Joed, sønn av Pedaja, sønn av Kolaja, sønn av Ma’aseja, sønn av Itiel, sønn av Jesaja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.8": {
+    "text": "og etter ham Gabbai-Sallai, i alt ni hundre og tjueåtte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.9": {
+    "text": "Joel, Sikris sønn, var tilsynsmann over dem. Og Juda, Hassenuas sønn, var den nest øverste i byen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.10": {
+    "text": "Av prestene var det: Jedaja, sønn av Jojarib, Jakin,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.11": {
+    "text": "Seraja, sønn av Hilkia, sønn av Mesjullam, sønn av Sadok, sønn av Merajot, sønn av Akitub, forstanderen for Guds hus,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.12": {
+    "text": "og deres brødre, som gjorde tjeneste i huset, i alt åtte hundre og tjueto, og Adaja, sønn av Jeroham, sønn av Pelalja, sønn av Amsi, sønn av Sakarja, sønn av Pasjhur, sønn av Malkia,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.13": {
+    "text": "og hans brødre, overhoder for sine familier, i alt to hundre og førtito, og Amassai, sønn av Asarel, sønn av Ahsai, sønn av Mesjillemot, sønn av Immer,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.14": {
+    "text": "og deres brødre, ett hundre og tjueåtte dyktige menn. Sabdiel, sønn av Haggedolim, var tilsynsmann over dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.15": {
+    "text": "Av levittene var det: Sjemaja, sønn av Hasjub, sønn av Asrikam, sønn av Hasjabja, sønn av Bunni,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.16": {
+    "text": "og Sjabbetai, og Josabad, som foresto de ytre arbeidene ved Guds hus, begge hørte til levittenes overhoder,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.17": {
+    "text": "og Mattanja, sønn av Mika, sønn av Sabdi, sønn av Asaf, lederen av sangen, som istemte lovsangen ved bønnen, og Bakbukja, den av hans brødre som var nest etter ham, og Abda, sønn av Sjammua, sønn av Galal, sønn av Jeditun.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.18": {
+    "text": "Levittene i den hellige byen var i alt to hundre og åttifire.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.19": {
+    "text": "Av dørvaktene var det: Akkub, Talmon og deres brødre, som holdt vakt ved portene, i alt ett hundre og syttito.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.20": {
+    "text": "Resten av Israel og av prestene og levittene bodde i alle de andre byene i Juda, hver på sin arvedel.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.21": {
+    "text": "Tempeltjenerne bodde på Ofel, og Siha og Gisjpa var deres formenn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2Krøn 33:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.11.22": {
+    "text": "Tilsynsmann over levittene i Jerusalem ved tjenesten i Guds hus var Ussi, sønn av Bani, sønn av Hasjabja, sønn av Mattanja, sønn av Mika, av Asafs barn, sangerne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.23": {
+    "text": "For det var utstedt en befaling av kongen om dem, og likeså var det fastsatt for sangerne hva de hver dag hadde å gjøre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.24": {
+    "text": "Petaja, Mesjesabels sønn, av Serahs, Judas sønns barn, gikk kongen til hånde i alle saker som vedkom folket.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 38:30.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.11.25": {
+    "text": "Også i landsbyene med tilhørende jordstykker bodde noen av Judas barn: i Kirjat-Arba med tilhørende småbyer, i Dibon med tilhørende småbyer, i Jekabse’el og dets landsbyer,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jos 13:9,17. 14:15.",
+        "refs": []
+      }
+    ],
+    "section": "Fortegnelse over dem som bodde i landsbyene omkring"
+  },
+  "NEH.11.26": {
+    "text": "i Jesjua, i Molada, i Bet-Pelet,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.27": {
+    "text": "i Hasar-Sjual, i Be’er-Sjeba med tilhørende småbyer,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.28": {
+    "text": "i Siklag, Mekona med tilhørende småbyer,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.29": {
+    "text": "i En-Rimmon, Sora, Jarmut,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.30": {
+    "text": "Sanoah, Adullam og deres landsbyer, Lakisj med tilhørende jordstykker og Aseka med tilhørende småbyer. De hadde sine bosteder fra Be’er-Sjeba til Hinnoms dal.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.31": {
+    "text": "Benjamins barn hadde sine bosteder fra Geba av: i Mikmas, Aja, Betel med tilhørende småbyer,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.32": {
+    "text": "i Anatot, Nob, Ananja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.33": {
+    "text": "Hasor, Rama, Gittajim,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.34": {
+    "text": "Hadid, Sebojim, Neballat,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.11.35": {
+    "text": "Lod, Ono og Tømmermannsdalen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Krøn 4:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.11.36": {
+    "text": "Av levittene kom noen avdelinger fra Juda til å bo i Benjamin.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.1": {
+    "text": "Dette er de prestene og levittene som dro hjem med Serubabel, Sjealtiels sønn, og Josva: Seraja, Jirmeja, Esra,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Fortegnelse over prester og levitter"
+  },
+  "NEH.12.2": {
+    "text": "Amarja, Malluk, Hattusj,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.3": {
+    "text": "Sjekanja, Rehum, Meremot,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.4": {
+    "text": "Iddo, Ginnetoi, Abia,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.5": {
+    "text": "Mijamin, Ma’adja, Bilga,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.6": {
+    "text": "Sjemaja, Jojarib, Jedaja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.7": {
+    "text": "Sallu, Amok, Hilkia og Jedaja. Disse var overhodene for prestene og for sine brødre på Josvas tid.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.8": {
+    "text": "Og levittene var: Josva, Binnui, Kadmiel, Sjerebja, Juda og Mattanja, som foresto lovsangen sammen med sine brødre,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.12.9": {
+    "text": "mens deres brødre Bakbukja og Unno sto midt imot dem for å ivareta sin tjeneste.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.10": {
+    "text": "Josva fikk sønnen Jojakim, Jojakim fikk Eljasjib, Eljasjib fikk Jojada,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.11": {
+    "text": "Jojada fikk Jonatan, Jonatan fikk Jaddua.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.12": {
+    "text": "På Jojakims tid var disse prestenes familieoverhoder: for Serajas familie Meraja, for Jirmejas Hananja,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.13": {
+    "text": "for Esras Mesjullam, for Amarjas Johanan,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.14": {
+    "text": "for Melukis Jonatan, for Sjebanjas Josef,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.15": {
+    "text": "for Harims Adna, for Merajots Helkai,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.16": {
+    "text": "for Iddos Sakarja, for Ginnetons Mesjullam,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esr 5:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.12.17": {
+    "text": "for Abias Sikri, for Minjamins, for Moadjas Piltai,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.18": {
+    "text": "for Bilgals Sjammua, for Sjemajas Jonatan,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.19": {
+    "text": "for Jojaribs Mattenai, for Jedajas Ussi,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.20": {
+    "text": "for Sallais Kallai, for Amoks Eber,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.21": {
+    "text": "for Hilkias Hasjabja og for Jedajas Netanel.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.22": {
+    "text": "I Eljasjibs, Jojadas, Johanans og Jadduas tid ble levittenes familieoverhoder opptegnet. Likeså prestene under perseren Darius’ regjering.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.23": {
+    "text": "Familieoverhodene for Levis barn ble opptegnet i krønikeboken, og det helt til Johanans, Eljasjibs sønns tid.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.24": {
+    "text": "Levittenes overhoder var: Hasjabja, Sjerebja og Josva, Kadmiels sønn, og deres brødre sto midt imot dem for å love og prise Gud, slik som Guds mann David hadde befalt, flokk ved flokk.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "11:17. 1Krøn 25:1 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.12.25": {
+    "text": "Mattanja, Bakbukja, Obadja, Mesjullam, Talmon og Akkub holdt som dørvoktere vakt over lagerhusene ved portene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Krøn 26:15,17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.12.26": {
+    "text": "Disse levde i Jojakims, Josvas sønns, Josadaks sønns tid, og i stattholderen Nehemjas og i presten Esras, den skriftlærdes, tid.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.27": {
+    "text": "Til innvielsen av Jerusalems mur hentet de levittene fra alle deres bosteder og førte dem til Jerusalem for å holde innvielse og gledesfest både med lovprisning og med sang, med cymbler, harper og sitarer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Krøn 15:16,28. Esr 6:16.",
+        "refs": []
+      }
+    ],
+    "section": "Murene blir innviet"
+  },
+  "NEH.12.28": {
+    "text": "Og sangernes barn kom sammen både fra landet rundt om Jerusalem og fra Netofa-folkenes landsbyer",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.29": {
+    "text": "og fra Bet-Haggilgal og fra Gebas og Asmavets jorder, for sangerne hadde bygd seg landsbyer rundt omkring Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.30": {
+    "text": "Og prestene og levittene renset seg, og de renset folket og portene og muren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.31": {
+    "text": "Da lot jeg Judas høvdinger stige opp på muren. Og jeg stilte opp to store lovsangskor og festtog, det ene gikk til høyre oppe på muren fram til Møkkporten,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.32": {
+    "text": "og etter dem gikk Hosaja og halvdelen av Judas høvdinger,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.33": {
+    "text": "Asarja, Esra og Mesjullam,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.34": {
+    "text": "Juda, Benjamin, Sjemaja og Jirmeja",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.35": {
+    "text": "og likeså noen av prestenes barn, som bar trompeter. Det var Sakarja, sønn av Jonatan, sønn av Sjemaja, sønn av Mattanja, sønn av Mikaja, sønn av Sakkur, sønn av Asaf,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.36": {
+    "text": "og hans brødre Sjemaja og Asarel, Milalai, Gilalai, Ma’ai, Netanel, Juda og Hanani med de musikkinstrumentene som Guds mann David hadde bestemt. Og Esra, den skriftlærde, gikk foran dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.37": {
+    "text": "De gikk over Kildeporten og rett fram, oppover trappene til Davids by, der hvor en stiger opp på muren ovenfor Davids hus, helt fram til Vannporten i øst.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.38": {
+    "text": "Det andre lovsangskoret gikk til den motsatte siden, og jeg fulgte etter det med den andre halvdelen av folket, oppe på muren, ovenfor Ovnstårnet, bort til den brede muren,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.39": {
+    "text": "og over Efra’im-porten, den gamle porten og Fiskeporten, forbi Hananel-tårnet og Mea-tårnet, helt fram til Saueporten. De stanset ved Fengselsporten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.40": {
+    "text": "Slik sto begge lovsangskorene ved Guds hus, likeså jeg og halvdelen av forstanderne med meg",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.41": {
+    "text": "og prestene Eljakim, Ma’aseja, Minjamin, Mikaja, Eljoenai, Sakarja og Hananja med trompeter,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.42": {
+    "text": "og Ma’aseja, Sjemaja, Eleasar, Ussi, Johanan, Malkia, Elam og Eser. Og sangerne istemte sangen, og den som ledet dem, var Jisrahja.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.43": {
+    "text": "De ofret den dagen store offer og gledet seg, for Gud hadde gitt dem en stor glede. Også kvinnene og barna gledet seg, og jubelen i Jerusalem hørtes lang vei.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.44": {
+    "text": "Samme dag ble det innsatt menn som skulle ha tilsyn med lagerrommene for de hellige gaver, førstegrøden og tienden. Der skulle de samle fra bymarkene det som etter loven tilkom prestene og levittene. For det var glede i Juda over at prestene og levittene nå utførte sin tjeneste.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:37. 13:5.",
+        "refs": []
+      }
+    ],
+    "section": "Ordningen av tempeltjenesten blir gjenopprettet"
+  },
+  "NEH.12.45": {
+    "text": "Og de utførte tjenesten for sin Gud, og renselsestjenesten. Likeså utførte sangerne og dørvaktene sin tjeneste, slik som David og hans sønn Salomo hadde befalt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Krøn 24:1 ff. 25:1 ff. 26:1 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.12.46": {
+    "text": "For alt i gammel tid, i Davids og Asafs dager, var det ledere for sangerne, og det lød lovsanger og takkesanger til Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.12.47": {
+    "text": "Og i Serubabels og Nehemjas dager ga hele Israel sangerne og dørvokterne det som tilkom dem for hver dag. Og de ga levittene hellige gaver. Og levittene ga Arons sønner hellige gaver.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:37 ff. 11:23. 4Mos 18:21.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.1": {
+    "text": "Samme dag ble det lest opp for folket av Moseboken. Der fant de skrevet at ingen ammonitt eller moabitt noen gang skulle være med i Guds menighet,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "9:3. 5Mos 23:3 ff.",
+        "refs": []
+      }
+    ],
+    "section": "Nehemjas reformer"
+  },
+  "NEH.13.2": {
+    "text": "fordi de ikke kom Israels barn i møte med brød og vann, men leide Bileam til å forbanne dem. Men vår Gud vendte forbannelsen til velsignelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 22:5 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.3": {
+    "text": "Da de nå hørte det som sto i loven, skilte de alle fremmede fra Israel.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.4": {
+    "text": "Men noen tid før dette var presten Eljasjib, som var i nær slekt med Tobias, blitt satt til å ha tilsyn med lagerrommene i Guds hus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:10. 4:3. 6:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.5": {
+    "text": "Og han hadde innredet et stort rom for Tobias der hvor de før hadde lagt inn matofferet, røkelsen og karene og den tienden av kornet og mosten og oljen som var levittenes og sangernes og dørvaktenes rettighet, og gavene til prestene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.6": {
+    "text": "Mens alt dette gikk for seg, var jeg ikke i Jerusalem, for i Babels konge Artaxerxes’ trettiandre år var jeg kommet tilbake til kongen. Men da noen tid var gått, ba jeg igjen kongen om lov til å reise,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.7": {
+    "text": "og da jeg så kom til Jerusalem, oppdaget jeg det onde Eljasjib hadde gjort for Tobias’ skyld ved å innrede et lagerrom for ham i forgårdene til Guds hus.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.8": {
+    "text": "Dette syntes jeg meget ille om, og alt Tobias’ innbo kastet jeg ut av rommet,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.9": {
+    "text": "og jeg bød at de skulle rense rommene. Så lot jeg de karene som tilhørte Guds hus, og matofferet og røkelsen, legges inn der igjen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.10": {
+    "text": "Jeg fikk også vite at levittene ikke hadde fått det som tilkom dem, og at derfor hadde levittene og sangerne, som skulle gjøre tjeneste, forlatt tjenesten og flyttet ut, hver til sin gård.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal 3:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.11": {
+    "text": "Da gikk jeg i rette med formennene og spurte dem hvorfor Guds hus var blitt forsømt. Og jeg kalte levittene sammen og innsatte dem igjen, hver på sin plass.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.12": {
+    "text": "Og hele Juda førte tienden av kornet, mosten og oljen til lagerrommene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:37 ff. 12:44.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.13": {
+    "text": "Så satte jeg presten Sjelemja og Sadok, den skriftlærde, og Pedaja, en av levittene, til å ha tilsyn med lagerrommene. Og jeg satte Hanan, sønn av Mattanjas sønn Sakkur, til å gå dem til hånde. For de ble holdt for å være pålitelige. Nå hadde de plikt til å dele ut til sine brødre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.14": {
+    "text": "Kom meg i hu, min Gud, for dette, og utslett ikke de gode gjerninger som jeg har gjort mot min Guds hus og for tjenesten der!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.15": {
+    "text": "Ved samme tid så jeg i Juda noen som trådte vinpressene om natten og førte hjem kornbånd og lesste dem på eslene, og likeså vin, druer, fikener og alle slags varer. Og de førte det til Jerusalem på sabbatsdagen. Jeg advarte dem den dagen de solgte maten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:31.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.16": {
+    "text": "Også folk fra Tyrus, som oppholdt seg der, kom med fisk og alle slags varer og solgte dem på sabbatsdagen til Judas barn, og det i Jerusalem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.17": {
+    "text": "Da gikk jeg i rette med stormennene i Juda og sa til dem: Hva er det for en ond gjerning dere gjør? Dere vanhelliger sabbatsdagen!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.18": {
+    "text": "Var det ikke fordi deres fedre gjorde slik at vår Gud førte all denne ulykken over oss og over denne byen? Og nå fører dere enda større vrede over Israel ved å vanhellige sabbaten!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.19": {
+    "text": "Så snart det ble mørkt i Jerusalems porter før sabbaten, befalte jeg at dørene skulle lukkes, og at de ikke skulle åpnes igjen før etter sabbaten. Jeg satte noen av tjenerene mine på vakt ved portene slik at ingen varer kunne føres inn på sabbatsdagen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.20": {
+    "text": "Kjøpmennene og de som solgte alle slags varer, overnattet da utenfor Jerusalem både én og to ganger.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.21": {
+    "text": "Da advarte jeg dem og sa til dem: Hvorfor overnatter dere foran muren? Gjør dere det én gang til, så legger jeg hånd på dere! Fra den tid kom de ikke mer på sabbaten.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.22": {
+    "text": "Og jeg bød levittene å rense seg og komme og holde vakt ved portene, så sabbatsdagen kunne bli helligholdt. Kom meg også dette i hu, min Gud, og miskunn deg over meg etter din store nåde!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 22:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.23": {
+    "text": "På den tiden så jeg også de jøder som hadde tatt asjdodittiske, ammonittiske og moabittiske kvinner til koner.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.24": {
+    "text": "Av deres barn talte halvdelen asjdodittisk eller et av de andre folks språk. De kunne ikke tale jødenes språk.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.25": {
+    "text": "Jeg gikk i rette med dem og forbannet dem. Ja, noen av dem slo jeg og rev dem i håret. Jeg lot dem sverge ved Gud og sa: Dere skal ikke gi døtrene deres til disse folks sønner eller velge koner for deres sønner eller for dere selv blant disse folks døtre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "10:29,30. 5Mos 7:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.26": {
+    "text": "Var det ikke på den måten Israels konge Salomo forsyndet seg? Blant de mange folk var det ingen konge som ham. Og han var elsket av sin Gud. Gud satte ham til konge over hele Israel. Men endog ham forførte de fremmede kvinner til synd.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 11:1 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.27": {
+    "text": "Og så skulle dere ha lov til å gjøre denne store ondskap å vise troløshet mot vår Gud ved å ta fremmede kvinner til koner!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.28": {
+    "text": "En av sønnene til Jojada, ypperstepresten Eljasjibs sønn, var svigersønn av horonitten Sanballat, derfor drev jeg ham bort fra meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.29": {
+    "text": "Kom dem i hu, min Gud, at de har vanæret prestedømmet og prestedømmets og levittenes pakt!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:14. Mal 2:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NEH.13.30": {
+    "text": "Så renset jeg dem for alt fremmed. Og jeg foreskrev hva prestene og levittene hadde å ivareta, hver i sin gjerning.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NEH.13.31": {
+    "text": "Og jeg foreskrev hvordan de skulle komme med ved til fastsatte tider og med førstegrøden. Kom meg i hu, min Gud, og regn meg dette til gode!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

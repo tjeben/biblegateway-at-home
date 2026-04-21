@@ -1,58 +1,338 @@
 {
-  "HAB.1.1": "Dette er det utsagn som profeten Habakuk skuet.",
-  "HAB.1.2": "Hvor lenge, Herre, skal jeg ennu rope uten at du hører! Jeg klager for dig over vold(-)og du frelser ikke.",
-  "HAB.1.3": "Hvorfor lar du mig skue urett, og hvorledes kan du selv se på slik elendighet? ¥deleggelse og vold har jeg for mine øine; det yppes kiv og opstår tretter.",
-  "HAB.1.4": "Derfor er loven maktesløs, og retten kommer aldri frem; for ugudelige omringer den rettferdige, derfor kommer retten frem forvendt.",
-  "HAB.1.5": "Se eder omkring blandt folkene, se og bli forferdet, ja forferdet! For en gjerning gjør jeg i eders dager(-)I skulde ikke tro den når den blev fortalt.",
-  "HAB.1.6": "For se, jeg lar kaldeerne reise sig, det ville og voldsomme folk, som farer frem så vide som jorden når, for å ta i eie boliger som ikke hører det til.",
-  "HAB.1.7": "Fryktelig og forferdelig er det; fra sig selv henter det sin rett og sin høihet.",
-  "HAB.1.8": "Dets hester er raskere enn leoparder og skarpere til å springe enn ulver om aftenen; dets ryttere sprenger frem, dets ryttere kommer langt borte fra, de flyver som en ørn når den styrter sig over sitt rov.",
-  "HAB.1.9": "Alle kommer de for å gjøre voldsverk, de stirrer stridslystne fremad, og de samler fanger som sand.",
-  "HAB.1.10": "De spotter konger, og fyrster er til latter for dem; de ler av hver festning, de dynger jord op mot den og tar den.",
-  "HAB.1.11": "Så stryker de avsted som en vind og farer frem og drar skyld over sig; deres kraft er deres gud.",
-  "HAB.1.12": "Er du ikke fra fordums tid Herren min Gud, min Hellige? Vi skal ikke dø. Herre! Til å fullbyrde dom har du satt dem. Du vår klippe! Til å straffe har du gitt dem fullmakt.",
-  "HAB.1.13": "Du som er ren av øine, så du ikke kan se på ondt {uten å straffe.} og ikke er i stand til å skue på elendighet! {uten å hjelpe} Hvorfor ser du på troløse, hvorfor tier du når den ugudelige tilintetgjør den som er rettferdigere enn han?",
-  "HAB.1.14": "Du har jo gjort med menneskene som med havets fisker, som med krypet, som ingen herre har!",
-  "HAB.1.15": "Dem alle drar de {kaldeerne.} op med krok, samler dem i sin not og sanker dem i sitt garn; derfor gleder de sig og jubler.",
-  "HAB.1.16": "Derfor ofrer de til sin not og brenner røkelse for sitt garn; for de gir dem deres fete lodd og deres kraftige mat.",
-  "HAB.1.17": "Men skal de derfor fremdeles få tømme sin not og uavlatelig slå folkeslag ihjel uten skånsel?",
-  "HAB.2.1": "På min vaktpost vil jeg stå og stille mig på varden; og jeg vil skue ut for å se hvad han vil tale til mig, og hvad jeg skal få til svar på mitt klagemål.",
-  "HAB.2.2": "Og Herren svarte mig og sa: Skriv synet op og skriv det tydelig på tavlene, så det kan leses med letthet!",
-  "HAB.2.3": "For ennu må synet vente på sin tid; men det haster mot enden og lyver ikke. Om det dryger, så bi efter det! For komme skal det, det skal ikke utebli.",
-  "HAB.2.4": "Se, opblåst og uærlig er hans sjel i ham; {kaldeeren} men den rettferdige skal leve ved sin tro.",
-  "HAB.2.5": "Så er og vinen troløs; en skrytende mann(-)han skal ikke bli boende i ro, han som har opspilt sitt grådige svelg likesom dødsriket; han er som døden og blir ikke mett, han har sanket til sig alle folk og samlet til sig alle folkeslag.",
-  "HAB.2.6": "Skal ikke alle disse synge nidviser og spottesanger om ham, lage gåter om ham og si: Ve den som dynger op ting som ikke hører ham til(-)hvor lenge? (-)og som lesser på sig pantegods!",
-  "HAB.2.7": "Skal de ikke brått reise sig de som skal pine dig, og våkne op de som skal jage dig op, så du blir et rov for dem?",
-  "HAB.2.8": "For du har plyndret mange folkeslag; således skal alle som blir igjen av folkene, plyndre dig for din blodskyld mot menneskene og for dine voldsverk mot jorden, mot staden og alle dem som bor i den.",
-  "HAB.2.9": "Ve den som jager efter skammelig vinning for sitt hus, for å bygge sitt rede i høiden, for å redde sig fra ulykkens hånd!",
-  "HAB.2.10": "Du har lagt op råd som blir til skam for ditt hus, lagt op råd om å gjøre ende på mange folk og dermed syndet mot dig selv;",
-  "HAB.2.11": "for stenen i veggen skal skrike, og bjelken i treverket skal svare den.",
-  "HAB.2.12": "Ve den som bygger en by med blod og grunnlegger en stad med urett!",
-  "HAB.2.13": "Se, kommer det ikke fra Herren, hærskarenes Gud, at folkeslag skal arbeide sig trette for ilden, og folkeferd gjøre sig møie for intet?",
-  "HAB.2.14": "For jorden skal fylles med kunnskap om Herrens herlighet, likesom vannet som dekker havets bunn.",
-  "HAB.2.15": "Ve den som gir sin næste å drikke av sin brennende vredes skål, ja drikker dem drukne, for å se på deres blusel!",
-  "HAB.2.16": "Du blir mettet med skam og ikke med ære; drikk også du og vis din forhud frem! Begeret i Herrens høire hånd skal i sin tid komme til dig, og dyp skam skal skjule din ære.",
-  "HAB.2.17": "For ditt voldsverk mot Libanon og ødeleggelsen av dyrene, som skremte dem, skal komme over dig for din blodskyld mot menneskene og for dine voldsverk mot jorden, mot staden og alle dem som bor i den.",
-  "HAB.2.18": "Hvad gagn gjør et utskåret billede, om enn en mester har skåret det? Eller hvad gagn gjør et støpt billede, en lærer i løgn, om enn dets mester satte sin lit til det da han gjorde målløse avguder?",
-  "HAB.2.19": "Ve den som sier til en stokk: Våkn op! (-)til en målløs sten: Stå op! Skulde den være lærer? Den er jo overtrukket med gull og sølv, og det finnes ikke ånd i den.",
-  "HAB.2.20": "Men Herren er i sitt hellige tempel; vær stille for hans åsyn, all jorden!",
-  "HAB.3.1": "En bønn av profeten Habakuk; efter Sjigjonot.",
-  "HAB.3.2": "Herre, jeg har hørt budskapet om dig, jeg er forferdet. Herre, din gjerning(-)kall den til live før mange år er lidd, ja, kunngjør den før mange år er lidd! I din vrede komme du i hu å forbarme dig!",
-  "HAB.3.3": "Gud kommer fra Teman, den Hellige fra Paran-fjellet. Sela. Hans prakt dekker himmelen, og jorden er full av hans herlighet.",
-  "HAB.3.4": "En glans som solens lys bryter frem, stråler omgir ham, og i dem er hans makt skjult.",
-  "HAB.3.5": "Pest går frem for hans åsyn, og sott følger hans fottrin.",
-  "HAB.3.6": "Han stiger frem og ryster jorden; han ser op og får folkene til å skjelve; de evige fjell sprenges i stykker, de eldgamle hauger synker sammen; hans gang er som i eldgammel tid.",
-  "HAB.3.7": "Jeg ser Kusans telter i sorg, teltteppene i Midians land bever.",
-  "HAB.3.8": "Harmes du, Herre, på elvene, er din vrede optendt mot dem, eller din harme mot havet, siden du farer frem på dine hester, på dine seierrike vogner?",
-  "HAB.3.9": "Bar og naken er din bue(-)dine eder til stammene, ditt ord! {blir nu synlig fullbyrdet} (-)Sela. Til elver kløver du jorden.",
-  "HAB.3.10": "Fjellene ser dig og bever, vannstrømmer styrter frem; avgrunnen lar sin røst høre, den løfter sine hender mot det høie.",
-  "HAB.3.11": "Sol og måne treder inn i sin bolig for lyset av dine piler, som farer frem, for glansen av ditt lynende spyd.",
-  "HAB.3.12": "I harme skrider du frem over jorden, i vrede treder du folkene ned.",
-  "HAB.3.13": "Du drar ut til frelse for ditt folk, til frelse for din salvede; du knuser taket på den ugudeliges {kaldeerkongens.} hus, du avdekker grunnvollen like til halsen. Sela.",
-  "HAB.3.14": "Du gjennemborer med hans {den ugudeliges} eget spyd hodene på hans skarer, som stormer frem for å sprede mig og gleder sig likesom de skulde til å opete en arming i lønndom.",
-  "HAB.3.15": "Du farer gjennem havet med dine hester, gjennem en haug av store vann.",
-  "HAB.3.16": "Jeg hørte det; da bevet mitt indre, ved lyden dirret mine leber; det kommer råttenhet i mine ben, og jeg bever hvor jeg står, fordi jeg rolig må bie på nødens dag, bie på at han drar op mot folket, han som skal trenge det.",
-  "HAB.3.17": "For fikentreet springer ikke ut, og vintrærne bærer ikke, oljetreets frukt slår feil, og markene gir ingen føde; han {kaldeeren.} har utryddet fårene av kveen, og det finnes ikke fe i fjøsene.",
-  "HAB.3.18": "Men jeg vil fryde mig i Herren, jeg vil juble i min frelses Gud.",
-  "HAB.3.19": "Herren, Israels Gud, er min kraft, han gjør mine føtter som hindenes og lar mig skride frem over mine høider. Til sangmesteren, med min strengelek."
+  "HAB.1.1": {
+    "text": "Dette er det utsagn som profeten Habakuk skuet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.2": {
+    "text": "Hvor lenge, Herre, skal jeg ennu rope uten at du hører! Jeg klager for dig over vold(-)og du frelser ikke.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.3": {
+    "text": "Hvorfor lar du mig skue urett, og hvorledes kan du selv se på slik elendighet? ¥deleggelse og vold har jeg for mine øine; det yppes kiv og opstår tretter.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.4": {
+    "text": "Derfor er loven maktesløs, og retten kommer aldri frem; for ugudelige omringer den rettferdige, derfor kommer retten frem forvendt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.5": {
+    "text": "Se eder omkring blandt folkene, se og bli forferdet, ja forferdet! For en gjerning gjør jeg i eders dager(-)I skulde ikke tro den når den blev fortalt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.6": {
+    "text": "For se, jeg lar kaldeerne reise sig, det ville og voldsomme folk, som farer frem så vide som jorden når, for å ta i eie boliger som ikke hører det til.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.7": {
+    "text": "Fryktelig og forferdelig er det; fra sig selv henter det sin rett og sin høihet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.8": {
+    "text": "Dets hester er raskere enn leoparder og skarpere til å springe enn ulver om aftenen; dets ryttere sprenger frem, dets ryttere kommer langt borte fra, de flyver som en ørn når den styrter sig over sitt rov.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.9": {
+    "text": "Alle kommer de for å gjøre voldsverk, de stirrer stridslystne fremad, og de samler fanger som sand.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.10": {
+    "text": "De spotter konger, og fyrster er til latter for dem; de ler av hver festning, de dynger jord op mot den og tar den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.11": {
+    "text": "Så stryker de avsted som en vind og farer frem og drar skyld over sig; deres kraft er deres gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.12": {
+    "text": "Er du ikke fra fordums tid Herren min Gud, min Hellige? Vi skal ikke dø. Herre! Til å fullbyrde dom har du satt dem. Du vår klippe! Til å straffe har du gitt dem fullmakt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.13": {
+    "text": "Du som er ren av øine, så du ikke kan se på ondt {uten å straffe.} og ikke er i stand til å skue på elendighet! {uten å hjelpe} Hvorfor ser du på troløse, hvorfor tier du når den ugudelige tilintetgjør den som er rettferdigere enn han?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.14": {
+    "text": "Du har jo gjort med menneskene som med havets fisker, som med krypet, som ingen herre har!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.15": {
+    "text": "Dem alle drar de {kaldeerne.} op med krok, samler dem i sin not og sanker dem i sitt garn; derfor gleder de sig og jubler.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.16": {
+    "text": "Derfor ofrer de til sin not og brenner røkelse for sitt garn; for de gir dem deres fete lodd og deres kraftige mat.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.1.17": {
+    "text": "Men skal de derfor fremdeles få tømme sin not og uavlatelig slå folkeslag ihjel uten skånsel?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.1": {
+    "text": "På min vaktpost vil jeg stå og stille mig på varden; og jeg vil skue ut for å se hvad han vil tale til mig, og hvad jeg skal få til svar på mitt klagemål.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.2": {
+    "text": "Og Herren svarte mig og sa: Skriv synet op og skriv det tydelig på tavlene, så det kan leses med letthet!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.3": {
+    "text": "For ennu må synet vente på sin tid; men det haster mot enden og lyver ikke. Om det dryger, så bi efter det! For komme skal det, det skal ikke utebli.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.4": {
+    "text": "Se, opblåst og uærlig er hans sjel i ham; {kaldeeren} men den rettferdige skal leve ved sin tro.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.5": {
+    "text": "Så er og vinen troløs; en skrytende mann(-)han skal ikke bli boende i ro, han som har opspilt sitt grådige svelg likesom dødsriket; han er som døden og blir ikke mett, han har sanket til sig alle folk og samlet til sig alle folkeslag.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.6": {
+    "text": "Skal ikke alle disse synge nidviser og spottesanger om ham, lage gåter om ham og si: Ve den som dynger op ting som ikke hører ham til(-)hvor lenge? (-)og som lesser på sig pantegods!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.7": {
+    "text": "Skal de ikke brått reise sig de som skal pine dig, og våkne op de som skal jage dig op, så du blir et rov for dem?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.8": {
+    "text": "For du har plyndret mange folkeslag; således skal alle som blir igjen av folkene, plyndre dig for din blodskyld mot menneskene og for dine voldsverk mot jorden, mot staden og alle dem som bor i den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.9": {
+    "text": "Ve den som jager efter skammelig vinning for sitt hus, for å bygge sitt rede i høiden, for å redde sig fra ulykkens hånd!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.10": {
+    "text": "Du har lagt op råd som blir til skam for ditt hus, lagt op råd om å gjøre ende på mange folk og dermed syndet mot dig selv;",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.11": {
+    "text": "for stenen i veggen skal skrike, og bjelken i treverket skal svare den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.12": {
+    "text": "Ve den som bygger en by med blod og grunnlegger en stad med urett!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.13": {
+    "text": "Se, kommer det ikke fra Herren, hærskarenes Gud, at folkeslag skal arbeide sig trette for ilden, og folkeferd gjøre sig møie for intet?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.14": {
+    "text": "For jorden skal fylles med kunnskap om Herrens herlighet, likesom vannet som dekker havets bunn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.15": {
+    "text": "Ve den som gir sin næste å drikke av sin brennende vredes skål, ja drikker dem drukne, for å se på deres blusel!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.16": {
+    "text": "Du blir mettet med skam og ikke med ære; drikk også du og vis din forhud frem! Begeret i Herrens høire hånd skal i sin tid komme til dig, og dyp skam skal skjule din ære.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.17": {
+    "text": "For ditt voldsverk mot Libanon og ødeleggelsen av dyrene, som skremte dem, skal komme over dig for din blodskyld mot menneskene og for dine voldsverk mot jorden, mot staden og alle dem som bor i den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.18": {
+    "text": "Hvad gagn gjør et utskåret billede, om enn en mester har skåret det? Eller hvad gagn gjør et støpt billede, en lærer i løgn, om enn dets mester satte sin lit til det da han gjorde målløse avguder?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.19": {
+    "text": "Ve den som sier til en stokk: Våkn op! (-)til en målløs sten: Stå op! Skulde den være lærer? Den er jo overtrukket med gull og sølv, og det finnes ikke ånd i den.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.2.20": {
+    "text": "Men Herren er i sitt hellige tempel; vær stille for hans åsyn, all jorden!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.1": {
+    "text": "En bønn av profeten Habakuk; efter Sjigjonot.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.2": {
+    "text": "Herre, jeg har hørt budskapet om dig, jeg er forferdet. Herre, din gjerning(-)kall den til live før mange år er lidd, ja, kunngjør den før mange år er lidd! I din vrede komme du i hu å forbarme dig!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.3": {
+    "text": "Gud kommer fra Teman, den Hellige fra Paran-fjellet. Sela. Hans prakt dekker himmelen, og jorden er full av hans herlighet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.4": {
+    "text": "En glans som solens lys bryter frem, stråler omgir ham, og i dem er hans makt skjult.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.5": {
+    "text": "Pest går frem for hans åsyn, og sott følger hans fottrin.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.6": {
+    "text": "Han stiger frem og ryster jorden; han ser op og får folkene til å skjelve; de evige fjell sprenges i stykker, de eldgamle hauger synker sammen; hans gang er som i eldgammel tid.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.7": {
+    "text": "Jeg ser Kusans telter i sorg, teltteppene i Midians land bever.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.8": {
+    "text": "Harmes du, Herre, på elvene, er din vrede optendt mot dem, eller din harme mot havet, siden du farer frem på dine hester, på dine seierrike vogner?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.9": {
+    "text": "Bar og naken er din bue(-)dine eder til stammene, ditt ord! {blir nu synlig fullbyrdet} (-)Sela. Til elver kløver du jorden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.10": {
+    "text": "Fjellene ser dig og bever, vannstrømmer styrter frem; avgrunnen lar sin røst høre, den løfter sine hender mot det høie.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.11": {
+    "text": "Sol og måne treder inn i sin bolig for lyset av dine piler, som farer frem, for glansen av ditt lynende spyd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.12": {
+    "text": "I harme skrider du frem over jorden, i vrede treder du folkene ned.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.13": {
+    "text": "Du drar ut til frelse for ditt folk, til frelse for din salvede; du knuser taket på den ugudeliges {kaldeerkongens.} hus, du avdekker grunnvollen like til halsen. Sela.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.14": {
+    "text": "Du gjennemborer med hans {den ugudeliges} eget spyd hodene på hans skarer, som stormer frem for å sprede mig og gleder sig likesom de skulde til å opete en arming i lønndom.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.15": {
+    "text": "Du farer gjennem havet med dine hester, gjennem en haug av store vann.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.16": {
+    "text": "Jeg hørte det; da bevet mitt indre, ved lyden dirret mine leber; det kommer råttenhet i mine ben, og jeg bever hvor jeg står, fordi jeg rolig må bie på nødens dag, bie på at han drar op mot folket, han som skal trenge det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.17": {
+    "text": "For fikentreet springer ikke ut, og vintrærne bærer ikke, oljetreets frukt slår feil, og markene gir ingen føde; han {kaldeeren.} har utryddet fårene av kveen, og det finnes ikke fe i fjøsene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.18": {
+    "text": "Men jeg vil fryde mig i Herren, jeg vil juble i min frelses Gud.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "HAB.3.19": {
+    "text": "Herren, Israels Gud, er min kraft, han gjør mine føtter som hindenes og lar mig skride frem over mine høider. Til sangmesteren, med min strengelek.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

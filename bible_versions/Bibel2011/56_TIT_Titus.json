@@ -1,48 +1,576 @@
 {
-  "TIT.1.1": "Paulus, Guds tjener og Jesu Kristi apostel – utsendt for å føre Guds utvalgte til tro og til erkjennelse av den sannhet som gir gudsfrykt",
-  "TIT.1.2": "og håp om evig liv. Dette livet har Gud, som ikke kan lyve, gitt løfte om fra evighet av,",
-  "TIT.1.3": "og da tiden var inne, åpenbarte han sitt ord i det budskapet som er betrodd meg etter befaling fra Gud, vår frelser.",
-  "TIT.1.4": "Jeg hilser Titus, mitt ektefødte barn i vår felles tro: Nåde og fred fra Gud, vår Far, og Kristus Jesus, vår frelser!",
-  "TIT.1.5": "Jeg lot deg bli igjen på Kreta for at du skulle ordne det som fremdeles var ugjort, og innsette eldste i hver by, slik jeg påla deg.",
-  "TIT.1.6": "En eldste må det ikke være noe å utsette på: Han skal være én kvinnes mann, barna hans må være troende, ikke trassige og ikke kunne beskyldes for å leve vilt og utsvevende.",
-  "TIT.1.7": "For en tilsynsmann er Guds forvalter, og det må ikke være noe å utsette på ham. Han må ikke være egenrådig, bråsint, drikkfeldig, voldelig eller ute etter skammelig vinning.",
-  "TIT.1.8": "Han skal være gjestfri, godhjertet, forstandig, rettskaffen, gudfryktig og herre over seg selv.",
-  "TIT.1.9": "Han må holde seg til det troverdige ord som samsvarer med læren, slik at han duger både til å veilede i den sunne lære og til å vise til rette dem som sier imot.",
-  "TIT.1.10": "For det finnes mange gjenstridige pratmakere som forvirrer andre, særlig blant de omskårne.",
-  "TIT.1.11": "Du må stoppe munnen på dem, for de fører ulykke over hele familier når de sprer sin forkastelige lære for skammelig vinnings skyld.",
-  "TIT.1.12": "En av deres egne, en profet, har sagt: «Kreterne er alltid løgnere, onde villdyr, glupske og late!»",
-  "TIT.1.13": "Dette vitnesbyrdet er sant. Derfor skal du vise dem strengt til rette, så de kan bli sunne i troen.",
-  "TIT.1.14": "De må ikke holde seg til jødiske myter og bud, gitt av mennesker som har vendt seg bort fra sannheten.",
-  "TIT.1.15": "Alt er rent for de rene, men for de urene og vantro er ingen ting rent. Nei, de er urene både i sinn og i samvittighet.",
-  "TIT.1.16": "De erklærer at de kjenner Gud, men fornekter ham med det de gjør. De er avskyelige og ulydige, ute av stand til å gjøre noe godt.",
-  "TIT.2.1": "Men du skal undervise i samsvar med den sunne lære:",
-  "TIT.2.2": "Eldre menn skal være edruelige, verdige og forstandige og sunne i troen, kjærligheten og tålmodigheten.",
-  "TIT.2.3": "På samme måte skal eldre kvinner oppføre seg slik det sømmer seg for de hellige. De skal ikke fare med sladder eller være avhengige av mye vin, men være gode eksempler,",
-  "TIT.2.4": "så de kan lære de unge kvinnene å elske mann og barn,",
-  "TIT.2.5": "leve forstandig og rent, ta ansvar for hjemmet og underordne seg sine menn, slik at Guds ord ikke blir spottet.",
-  "TIT.2.6": "På samme måte skal du formane unge menn til å være forstandige",
-  "TIT.2.7": "i all sin ferd. Vær selv et forbilde i gode gjerninger! La undervisningen din være uforfalsket og båret fram med alvor,",
-  "TIT.2.8": "og la forkynnelsen din være sunn og uangripelig, så enhver motstander blir til skamme fordi han ikke har noe vondt å si om oss.",
-  "TIT.2.9": "Slavene skal du formane til å underordne seg herrene sine i alt. De skal rette seg etter dem og ikke si imot.",
-  "TIT.2.10": "De skal ikke stikke noe til seg, men alltid vise ekte troskap, så de i ett og alt kan være til pryd for Guds, vår frelsers lære.",
-  "TIT.2.11": "For Guds nåde er blitt åpenbart til frelse for alle mennesker.",
-  "TIT.2.12": "Den oppdrar oss til å si nei til et ugudelig liv og verdslige lyster og leve forstandig, rettskaffent og gudfryktig i den verden som nå er,",
-  "TIT.2.13": "mens vi venter på vårt salige håp: at vår store Gud og frelser Kristus Jesus skal komme i herlighet.",
-  "TIT.2.14": "For Kristus ga seg selv for oss for å løse oss ut fra all urett og rense oss så vi kan være hans eget folk, som med iver gjør gode gjerninger.",
-  "TIT.2.15": "Dette skal du forkynne, og med myndighet skal du formane og vise til rette. La ingen se ned på deg!",
-  "TIT.3.1": "Du skal minne dem om å underordne seg styresmaktene og myndighetene, rette seg etter dem og være villige til å gjøre alt som er godt.",
-  "TIT.3.2": "De må ikke snakke stygt om andre eller yppe til strid, men være forsonlige og vise ydmykhet mot alle mennesker.",
-  "TIT.3.3": "For vi var selv en gang uforstandige og ulydige, vi fór vill og var slaver av alle slags begjær og lyster. Vi levde i ondskap og misunnelse, ble hatet og hatet hverandre.",
-  "TIT.3.4": "Men det ble åpenbart hvor god vår Gud og frelser er, og at han elsker menneskene:",
-  "TIT.3.5": "Han frelste oss, ikke på grunn av våre rettferdige gjerninger, men fordi han er barmhjertig. Han frelste oss ved badet som gjenføder og fornyer ved Den hellige ånd,",
-  "TIT.3.6": "som han så rikelig har øst ut over oss ved Jesus Kristus, vår frelser,",
-  "TIT.3.7": "så vi skulle bli rettferdige ved hans nåde og bli arvinger til det evige liv, som er vårt håp.",
-  "TIT.3.8": "Dette er et troverdig ord, og jeg vil at du skal innprente det, så de som er kommet til tro på Gud, blir ivrige etter å gjøre gode gjerninger. Alt dette er godt og gagnlig for menneskene.",
-  "TIT.3.9": "Men tåpelige stridsspørsmål, slektstavler og strid og krangel om spørsmål i loven skal du holde deg borte fra, for slikt er unyttig og meningsløst.",
-  "TIT.3.10": "En vranglærer skal du avvise etter første og annen gangs tilrettevisning.",
-  "TIT.3.11": "For du vet at et slikt menneske er på avveier. Han synder og fører dom over seg selv.",
-  "TIT.3.12": "Når jeg sender Artemas eller Tykikos til deg, må du komme til meg i Nikopolis så fort du kan, for jeg har bestemt meg for å bli der vinteren over.",
-  "TIT.3.13": "Sørg for å utruste Zenas, den lovlærde, og Apollos, så de ikke mangler noe på reisen.",
-  "TIT.3.14": "Også våre egne folk må lære å gjøre gode gjerninger og hjelpe der det trengs, så deres liv ikke skal være uten frukt.",
-  "TIT.3.15": "Alle her hos meg hilser deg. Hils alle som i troen elsker oss. Nåden være med dere alle!"
+  "TIT.1.1": {
+    "text": "Paulus, Guds tjener og Jesu Kristi apostel – utsendt for å føre Guds utvalgte til tro og til erkjennelse av den sannhet som gir gudsfrykt",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Hilsen"
+  },
+  "TIT.1.2": {
+    "text": "og håp om evig liv. Dette livet har Gud, som ikke kan lyve, gitt løfte om fra evighet av,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tim 2,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.3": {
+    "text": "og da tiden var inne, åpenbarte han sitt ord i det budskapet som er betrodd meg etter befaling fra Gud, vår frelser.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 1,9f; 1 Tim 1,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.4": {
+    "text": "Jeg hilser Titus, mitt ektefødte barn i vår felles tro: Nåde og fred fra Gud, vår Far, og Kristus Jesus, vår frelser!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 2,13; 7,5ff.13ff; 8,6.16.23; 12,18; Gal 2,1.3; 2 Tim 4,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.5": {
+    "text": "Jeg lot deg bli igjen på Kreta for at du skulle ordne det som fremdeles var ugjort, og innsette eldste i hver by, slik jeg påla deg.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 14,23",
+        "refs": []
+      }
+    ],
+    "section": "Eldste og tilsynsmenn"
+  },
+  "TIT.1.6": {
+    "text": "En eldste må det ikke være noe å utsette på: Han skal være én kvinnes mann, barna hans må være troende, ikke trassige og ikke kunne beskyldes for å leve vilt og utsvevende.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Versene inneholder en dydskatalog. =kataloger."
+      },
+      {
+        "marker": "#",
+        "text": "kan også oversettes «pålitelige»."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 3,2ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.7": {
+    "text": "For en tilsynsmann er Guds forvalter, og det må ikke være noe å utsette på ham. Han må ikke være egenrådig, bråsint, drikkfeldig, voldelig eller ute etter skammelig vinning.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "=tjenester."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 4,1; 1 Pet 5,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.8": {
+    "text": "Han skal være gjestfri, godhjertet, forstandig, rettskaffen, gudfryktig og herre over seg selv.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "TIT.1.9": {
+    "text": "Han må holde seg til det troverdige ord som samsvarer med læren, slik at han duger både til å veilede i den sunne lære og til å vise til rette dem som sier imot.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 20,29f; 1 Tim 1,10; 4,6; 6,3; 2 Tim 1,13; 4,3; Tit 1,13; 2,1.8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.10": {
+    "text": "For det finnes mange gjenstridige pratmakere som forvirrer andre, særlig blant de omskårne.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 1,6; 6,4.20f; 2 Tim 2,14.16.18",
+        "refs": []
+      }
+    ],
+    "section": "Falske lærere"
+  },
+  "TIT.1.11": {
+    "text": "Du må stoppe munnen på dem, for de fører ulykke over hele familier når de sprer sin forkastelige lære for skammelig vinnings skyld.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Jf. v. 14; 1 Tim 1,3f."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tim 3,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.12": {
+    "text": "En av deres egne, en profet, har sagt: «Kreterne er alltid løgnere, onde villdyr, glupske og late!»",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Sitatet er fra dikteren Epimenides, som levde på Kreta på 500-tallet f.Kr."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "TIT.1.13": {
+    "text": "Dette vitnesbyrdet er sant. Derfor skal du vise dem strengt til rette, så de kan bli sunne i troen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tim 4,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.14": {
+    "text": "De må ikke holde seg til jødiske myter og bud, gitt av mennesker som har vendt seg bort fra sannheten.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Det siktes trolig til filosofiske eller astrologiske tolkninger av skapelsesfortellingene, fedrehistoriene og slektstavlene i 1 Mos."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 1,4; 4,7; 2 Tim 4,4; Tit 3,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.15": {
+    "text": "Alt er rent for de rene, men for de urene og vantro er ingen ting rent. Nei, de er urene både i sinn og i samvittighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 15,11; Rom 14,14ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.1.16": {
+    "text": "De erklærer at de kjenner Gud, men fornekter ham med det de gjør. De er avskyelige og ulydige, ute av stand til å gjøre noe godt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tim 3,5; 1 Joh 1,6; 2,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.1": {
+    "text": "Men du skal undervise i samsvar med den sunne lære:",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,9",
+        "refs": []
+      }
+    ],
+    "section": "De kristnes liv i verden"
+  },
+  "TIT.2.2": {
+    "text": "Eldre menn skal være edruelige, verdige og forstandige og sunne i troen, kjærligheten og tålmodigheten.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 5,1f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.3": {
+    "text": "På samme måte skal eldre kvinner oppføre seg slik det sømmer seg for de hellige. De skal ikke fare med sladder eller være avhengige av mye vin, men være gode eksempler,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 3,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.4": {
+    "text": "så de kan lære de unge kvinnene å elske mann og barn,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "TIT.2.5": {
+    "text": "leve forstandig og rent, ta ansvar for hjemmet og underordne seg sine menn, slik at Guds ord ikke blir spottet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 5,22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.6": {
+    "text": "På samme måte skal du formane unge menn til å være forstandige",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "TIT.2.7": {
+    "text": "i all sin ferd. Vær selv et forbilde i gode gjerninger! La undervisningen din være uforfalsket og båret fram med alvor,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 4,12; 1 Pet 5,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.8": {
+    "text": "og la forkynnelsen din være sunn og uangripelig, så enhver motstander blir til skamme fordi han ikke har noe vondt å si om oss.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tim 4,3+; 1 Pet 2,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.9": {
+    "text": "Slavene skal du formane til å underordne seg herrene sine i alt. De skal rette seg etter dem og ikke si imot.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 6,5; Fil 2,12; Kol 3,22; 1 Tim 6,1; 1 Pet 2,18",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.10": {
+    "text": "De skal ikke stikke noe til seg, men alltid vise ekte troskap, så de i ett og alt kan være til pryd for Guds, vår frelsers lære.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "TIT.2.11": {
+    "text": "For Guds nåde er blitt åpenbart til frelse for alle mennesker.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 3,6; Tit 3,4f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.12": {
+    "text": "Den oppdrar oss til å si nei til et ugudelig liv og verdslige lyster og leve forstandig, rettskaffent og gudfryktig i den verden som nå er,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Joh 2,15f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.13": {
+    "text": "mens vi venter på vårt salige håp: at vår store Gud og frelser Kristus Jesus skal komme i herlighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 1,7+; Fil 3,20; 1 Pet 1,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.14": {
+    "text": "For Kristus ga seg selv for oss for å løse oss ut fra all urett og rense oss så vi kan være hans eget folk, som med iver gjør gode gjerninger.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Uttrykket brukes ofte om slaver som ble kjøpt fri med løsepenger. =slektssamfunn og justis."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Mos 19,5; Gal 1,4; 2,20; 1 Tim 2,6; 1 Pet 2,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.2.15": {
+    "text": "Dette skal du forkynne, og med myndighet skal du formane og vise til rette. La ingen se ned på deg!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 4,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.1": {
+    "text": "Du skal minne dem om å underordne seg styresmaktene og myndighetene, rette seg etter dem og være villige til å gjøre alt som er godt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ordsp 8,15; Joh 19,11; Rom 13,1ff; 1 Tim 2,1f; 1 Pet 2,13f",
+        "refs": []
+      }
+    ],
+    "section": "Gjenfødelse og fornyelse"
+  },
+  "TIT.3.2": {
+    "text": "De må ikke snakke stygt om andre eller yppe til strid, men være forsonlige og vise ydmykhet mot alle mennesker.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 4,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.3": {
+    "text": "For vi var selv en gang uforstandige og ulydige, vi fór vill og var slaver av alle slags begjær og lyster. Vi levde i ondskap og misunnelse, ble hatet og hatet hverandre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 6,11; Ef 2,1ff; 5,8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.4": {
+    "text": "Men det ble åpenbart hvor god vår Gud og frelser er, og at han elsker menneskene:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,3; 2,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.5": {
+    "text": "Han frelste oss, ikke på grunn av våre rettferdige gjerninger, men fordi han er barmhjertig. Han frelste oss ved badet som gjenføder og fornyer ved Den hellige ånd,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 3,5; Apg 22,16; 1 Kor 6,11; Ef 5,26; 2 Tim 1,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.6": {
+    "text": "som han så rikelig har øst ut over oss ved Jesus Kristus, vår frelser,",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joel 3,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.7": {
+    "text": "så vi skulle bli rettferdige ved hans nåde og bli arvinger til det evige liv, som er vårt håp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 3,24; Ef 1,7; 2,8",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.8": {
+    "text": "Dette er et troverdig ord, og jeg vil at du skal innprente det, så de som er kommet til tro på Gud, blir ivrige etter å gjøre gode gjerninger. Alt dette er godt og gagnlig for menneskene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 1,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.9": {
+    "text": "Men tåpelige stridsspørsmål, slektstavler og strid og krangel om spørsmål i loven skal du holde deg borte fra, for slikt er unyttig og meningsløst.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 1,4+; 2 Tim 2,23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.10": {
+    "text": "En vranglærer skal du avvise etter første og annen gangs tilrettevisning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 18,15ff; Rom 16,17+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.11": {
+    "text": "For du vet at et slikt menneske er på avveier. Han synder og fører dom over seg selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 6,4f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.12": {
+    "text": "Når jeg sender Artemas eller Tykikos til deg, må du komme til meg i Nikopolis så fort du kan, for jeg har bestemt meg for å bli der vinteren over.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 20,4; Ef 6,21; Kol 4,7; 2 Tim 4,12",
+        "refs": []
+      }
+    ],
+    "section": "Sluttord"
+  },
+  "TIT.3.13": {
+    "text": "Sørg for å utruste Zenas, den lovlærde, og Apollos, så de ikke mangler noe på reisen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 18,24; 1 Kor 1,12; 3,5f; 16,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.14": {
+    "text": "Også våre egne folk må lære å gjøre gode gjerninger og hjelpe der det trengs, så deres liv ikke skal være uten frukt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 7,19; Tit 2,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "TIT.3.15": {
+    "text": "Alle her hos meg hilser deg. Hils alle som i troen elsker oss. Nåden være med dere alle!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  }
 }

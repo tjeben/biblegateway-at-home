@@ -1,119 +1,1052 @@
 {
-  "SNG.1.1": "Høysangen av Salomo.",
-  "SNG.1.2": "Å, ville han bare kysse meg med kyss av sin munn! For din kjærlighet er bedre enn vin.",
-  "SNG.1.3": "Nydelig er duften av dine salver, ditt navn er en utgytt salve. Derfor elsker jomfruene deg.",
-  "SNG.1.4": "Ta meg med deg! La oss skynde oss! Kongen har ført meg inn i sine kamre. Vi vil fryde og glede oss i deg, vi vil prise din kjærlighet mer enn vin. Med rette elsker de deg.",
-  "SNG.1.5": "Sort er jeg, men yndig, dere Jerusalems døtre - som Kedars telter, som Salomos telttepper.",
-  "SNG.1.6": "Stirr ikke på meg, fordi jeg er så mørk, fordi solen har brent meg! Min mors sønner ble harme på meg, de satte meg til å vokte vingårdene. Min egen vingård har jeg ikke voktet.",
-  "SNG.1.7": "Si meg, du som min sjel elsker: Hvor vokter du hjorden? Hvor lar du den hvile om middagen? Hvorfor skal jeg være som en tilsløret kvinne som går omkring ved dine venners flokker?",
-  "SNG.1.8": "Vet du det ikke, du vakreste blant kvinner, så følg sauenes spor og vokt dine kje ved gjeterhyttene!",
-  "SNG.1.9": "Med hestene foran faraos vogner vil jeg ligne deg, min kjæreste!",
-  "SNG.1.10": "Fagre er dine kinn mellom kjedene, din hals i perleradene.",
-  "SNG.1.11": "Gullkjeder vil vi lage til deg med sølvprikker på.",
-  "SNG.1.12": "Så lenge kongen satt ved sitt bord, ga min nardussalve sin duft.",
-  "SNG.1.13": "Min elskede er for meg en myrrapose som hviler mellom mine bryster.",
-  "SNG.1.14": "Min elskede er for meg en blomsterklase fra hennabusken i En-Gedis vingårder.",
-  "SNG.1.15": "Hvor vakker du er, min kjæreste, hvor vakker du er! Dine øyne er som duer.",
-  "SNG.1.16": "Hvor vakker du er, min elskede, hvor vakker du er! Og vårt leie er grønt.",
-  "SNG.1.17": "Sedrer er bjelkene i vårt hus, sypresser er tak og loft.",
-  "SNG.2.1": "Jeg er Sarons blomst, dalenes lilje.",
-  "SNG.2.2": "Som en lilje blant torner, slik er min kjæreste blant de unge kvinnene.",
-  "SNG.2.3": "Som et epletre blant skogens trær, slik er min elskede blant de unge menn. Å sitte i hans skygge er min lyst, hans frukt er søt for min gane.",
-  "SNG.2.4": "Han har ført meg til vinhuset, og hans banner over meg er kjærlighet.",
-  "SNG.2.5": "Styrk meg med druekaker, forfrisk meg med epler! For jeg er syk av kjærlighet.",
-  "SNG.2.6": "Hans venstre hånd er under mitt hode, og hans høyre hånd favner meg.",
-  "SNG.2.7": "Jeg ber dere inderlig, dere Jerusalems døtre, ved gasellene eller ved hindene på marken, at dere ikke vekker og ikke egger kjærligheten før den selv vil!",
-  "SNG.2.8": "Hør, der er min elskede! Se, der kommer han springende over fjellene, hoppende over haugene.",
-  "SNG.2.9": "Min elskede ligner en gasell eller en ung hjort. Se, der står han bak vår vegg. Han kikker inn gjennom gluggen, han gløtter inn gjennom gitteret.",
-  "SNG.2.10": "Min elskede tar til orde og sier til meg: Stå opp, min kjæreste, du min vakre, og kom ut!",
-  "SNG.2.11": "For se, nå er vinteren omme. Regnet er dratt forbi og er borte.",
-  "SNG.2.12": "Blomstene kommer til syne på marken. Sangens tid er inne, og turtelduens røst har latt seg høre i vårt land.",
-  "SNG.2.13": "Fikentreets frukter tar til å rødme, og vintrærnes blomster dufter. Stå opp og kom, min kjæreste! Du min fagre, så kom da!",
-  "SNG.2.14": "Min due i klippens kløfter, i fjelltindens ly! La meg se din skikkelse, la meg høre din røst! For din røst er blid og din skikkelse er fager.",
-  "SNG.2.15": "Fang revene for oss, de små revene som ødelegger vingårdene! Våre vingårder står jo i blomst.",
-  "SNG.2.16": "Min elskede er min, og jeg er hans, han som vokter sin hjord blant liljene.",
-  "SNG.2.17": "Innen dagen blir sval og skyggene flyr - vend om, min elskede, lik en gasell eller en ung hjort på de forrevne fjellene!",
-  "SNG.3.1": "På mitt leie lette jeg om natten etter ham som min sjel elsker. Jeg lette etter ham, men jeg fant ham ikke.",
-  "SNG.3.2": "Jeg vil stå opp og gå omkring i byen, på gatene og på torgene. Jeg vil lete etter ham som min sjel elsker. Jeg lette etter ham, men jeg fant ham ikke.",
-  "SNG.3.3": "Vekterne, som går omkring i byen, møtte meg. Har dere sett ham som min sjel elsker?",
-  "SNG.3.4": "Ikke før var jeg gått fra dem, så fant jeg ham som min sjel elsker. Jeg grep fatt i ham, og jeg slipper ham ikke før jeg har ført ham til min mors hus, til hennes kammer som har født meg.",
-  "SNG.3.5": "Jeg ber dere inderlig, dere Jerusalems døtre, ved gasellene eller ved hindene på marken, at dere ikke vekker og ikke egger kjærligheten, før den selv vil!",
-  "SNG.3.6": "Hvem er hun som kommer opp fra ørkenen, som røkstøtter, omduftet av myrra og virak, av alle kremmerens krydder?",
-  "SNG.3.7": "Se, det er Salomos bærestol med seksti krigsmenn omkring, av Israels krigsmenn.",
-  "SNG.3.8": "Alle er de væpnet med sverd, oppøvd i krig, hver med sverdet ved lend til vern mot nattens redsler.",
-  "SNG.3.9": "En bærestol laget kong Salomo seg av Libanons trær.",
-  "SNG.3.10": "Dens stolper laget han av sølv, dens ryggstø av gull, dens sete av purpur. Innvendig er den smykket i kjærlighet av Jerusalems døtre.",
-  "SNG.3.11": "Gå ut, dere Sions døtre, og se på kong Salomo med den kronen hans mor har kronet ham med på hans bryllupsdag, på hans hjertegledes dag!",
-  "SNG.4.1": "Hvor vakker du er, min kjæreste! Hvor vakker du er! Dine øyne er duer bak ditt slør. Ditt hår er som en flokk av geiter som leirer seg nedover Gilead-fjellet.",
-  "SNG.4.2": "Dine tenner er som en flokk av nyklipte sauer som stiger opp av badet. Alle har de tvillinger, og ingen blant dem er uten lam.",
-  "SNG.4.3": "Dine lepper er som en skarlagensnor, og din munn er yndig. Som et stykke granateple er din tinning bak ditt slør.",
-  "SNG.4.4": "Din hals er som Davids tårn, bygd til våpenhus. Tusen skjold henger på det, alle krigsmennenes skjold.",
-  "SNG.4.5": "Dine bryster er som tvillinger av en gasell som beiter mellom liljer.",
-  "SNG.4.6": "Når dagen blir sval og skyggene flyr, vil jeg gå til Myrra-åsen og til Virak-haugen.",
-  "SNG.4.7": "Alt er vakkert ved deg, min kjæreste. Det er ikke noen lyte på deg.",
-  "SNG.4.8": "Kom med meg fra Libanon, min brud! Kom med meg fra Libanon! Se ut fra Amanas topp, fra toppen av Senir og Hermon, fra løvenes bosteder, fra panternes fjell!",
-  "SNG.4.9": "Du har vunnet mitt hjerte, min søster, min brud! Du har vunnet mitt hjerte med et eneste øyekast, med en av kjedene om din hals.",
-  "SNG.4.10": "Hvor fager din kjærlighet er, min søster, min brud! Hvor mye bedre er ikke din kjærlighet enn vin. Og duften av dine salver er bedre enn alle velluktende urter.",
-  "SNG.4.11": "Av honning drypper dine lepper, min brud! Honning og melk er under din tunge, og duften av klærne dine er som duften av Libanon.",
-  "SNG.4.12": "En lukket hage er min søster, min brud - et avstengt oppkomme, en forseglet kilde.",
-  "SNG.4.13": "Du skyter opp som en lysthage av granatepletrær med sin kostbare frukt, som hennabusker sammen med narder",
-  "SNG.4.14": "og safran, kalmus og kanel sammen med alle slags viraktrær, myrra og aloëtrær sammen med alle de beste velluktende urter.",
-  "SNG.4.15": "En kilde i hagene er du, en brønn med levende vann og strømmer fra Libanon.",
-  "SNG.4.16": "Våkn opp, nordavind! Kom, sønnavind! Blås gjennom min hage, så dens duft kan strømme ut! Å, om min elskede ville komme til sin hage og spise dens kostbare frukt!",
-  "SNG.5.1": "Jeg er kommet til min hage, min søster, min brud! Jeg har plukket min myrra og mitt krydder. Jeg har spist min honningkake og min honning. Jeg har drukket min vin og min melk. Venner, et og drikk! Drikk dere glade, mine kjære!",
-  "SNG.5.2": "Jeg sover, men mitt hjerte våker. Da høres min elskedes røst - han banker på: Lukk opp for meg, min søster, min kjæreste, min due, du fullkomne! For mitt hode er fullt av dugg, mine lokker av nattens dråper.",
-  "SNG.5.3": "Jeg har tatt av meg kappen, skulle jeg ta den på igjen? Jeg har vasket mine føtter, skulle jeg da skitne dem til?",
-  "SNG.5.4": "Min elskede rakte sin hånd inn gjennom luken. Da ble mitt hjerte rørt for hans skyld.",
-  "SNG.5.5": "Jeg sto opp for å åpne for min elskede - mine hender dryppet av myrra, mine fingrer av flytende myrra, som vætte håndtaket på låsen.",
-  "SNG.5.6": "Jeg lukket opp for min elskede, men min elskede hadde vendt om og gått bort. Min sjel var ute av seg selv over hans ord. Jeg lette etter ham, men jeg fant ham ikke. Jeg ropte på ham, men han svarte meg ikke.",
-  "SNG.5.7": "Vekterne som går omkring i byen, møtte meg. De slo meg, de ga meg sår, de tok sløret fra meg - vekterne på murene.",
-  "SNG.5.8": "Jeg ber dere inderlig, dere Jerusalems døtre: Om dere finner min elskede, hva skal dere si ham? At jeg er syk av kjærlighet.",
-  "SNG.5.9": "Hva er din elskede fremfor andre elskede, du vakreste blant kvinner? Hva er din elskede fremfor andre elskede, siden du ber oss så inderlig?",
-  "SNG.5.10": "Min elskede er hvit og rød, utmerket fremfor ti tusen.",
-  "SNG.5.11": "Hans hode er som det fineste gull. Hans lokker er kruset, svarte som ravnen.",
-  "SNG.5.12": "Hans øyne er som duer ved rennende bekker. De bader seg i melk, de er innsatt som edelsteiner.",
-  "SNG.5.13": "Hans kinn er som velluktende blomstersenger, som det vokser krydderurter i. Hans lepper er som liljer, de drypper av flytende myrra.",
-  "SNG.5.14": "Hans hender er gullringer med innlagte krysolitter. Hans midje er et kunstverk av elfenben, dekket med safirer.",
-  "SNG.5.15": "Hans ben er marmorstøtter, som står på fotstykker av fineste gull. Hans skikkelse er som Libanon, utsøkt som sedrene.",
-  "SNG.5.16": "Hans munn er sødme, og alt ved ham er tiltrekkende. Slik er min elskede, slik er min venn, Jerusalems døtre!",
-  "SNG.6.1": "Hvor er din elskede gått, du vakreste blant kvinner? Hvor har din elskede tatt veien, så vi kan lete etter ham sammen med deg?",
-  "SNG.6.2": "Min elskede er gått ned til sin hage, til de duftende blomstersengene, for å vokte sin hjord i hagene og for å sanke liljer.",
-  "SNG.6.3": "Jeg tilhører min elskede, og min elskede er min, han som vokter sin hjord mellom liljene.",
-  "SNG.6.4": "Du er vakker som Tirsa, min kjæreste, skjønn som Jerusalem, skremmende som hærskarer med sine banner.",
-  "SNG.6.5": "Vend dine øyne bort fra meg, for de overvelder meg! Ditt hår er som en flokk geiter som leirer seg nedover Gilead.",
-  "SNG.6.6": "Dine tenner er som en flokk sauer som stiger opp av badet. Alle har de tvillinger, og ingen blant dem er uten lam.",
-  "SNG.6.7": "Som et stykke granateple er din tinning bak ditt slør.",
-  "SNG.6.8": "Seksti dronninger er det og åtti medhustruer og jomfruer uten tall.",
-  "SNG.6.9": "Men én er min due, min fullkomne, hun som er sin mors eneste, hennes utkårede som fødte henne. Unge kvinner så henne og priste henne lykkelig. Dronninger og medhustruer så henne og hyllet henne.",
-  "SNG.6.10": "Hvem er hun som stråler fram som morgenrøden, vakker som månen, ren som solen, skremmende som hærskarer med sine banner?",
-  "SNG.6.11": "Jeg gikk ned i nøttehagen for å se at det spirte i dalen, for å se om vintreet hadde satt skudd, om granatepletrærne sto i blomst.",
-  "SNG.6.12": "Før jeg visste av det, førte min sjel meg opp på mitt edle folks vogner.",
-  "SNG.6.13": "Vend om! Vend om, Sjulammit! Vend om! Vend om, så vi får se deg! Hvorfor vil dere se på Sjulammit? En dans som i Mahanajim!",
-  "SNG.7.1": "Hvor vakkert du skrider fram i dine sko, du høvdingdatter! Dine hofters rundinger er som smykker, et verk av kunstnerhånd.",
-  "SNG.7.2": "Ditt liv er som et rundt beger, måtte det aldri være uten vin! Din midje er som en hvetedynge, omhegnet av liljer.",
-  "SNG.7.3": "Dine bryster er som to rådyrkalver, tvillinger av en gasell.",
-  "SNG.7.4": "Din hals er som elfenbenstårnet. Dine øyne som vanndammene i Hesjbon ved Batrabbims port. Din nese er som Libanon-tårnet, som speider mot Damaskus.",
-  "SNG.7.5": "Ditt hode hever seg likesom Karmel. Ditt bølgende hår er som purpur, kongen er fanget i dine lokker.",
-  "SNG.7.6": "Hvor fager og hvor herlig du er, du kjærlighet i all din fryd.",
-  "SNG.7.7": "Med din ranke vekst ligner du en palme, og dine bryster er som druer.",
-  "SNG.7.8": "Jeg sier: Jeg vil stige opp i palmetreet, ta fatt i dets greiner. Måtte dine bryster være som vintreets druer, din ånde som duften av epler,",
-  "SNG.7.9": "din munn som edel vin! - Den som glir lett ned for min elskede, som flyter lett over leppene hos dem som sover.",
-  "SNG.7.10": "Jeg hører min elskede til, og til meg står hans hu.",
-  "SNG.7.11": "Kom, min elskede! La oss gå ut på marken, la oss bli natten over i landsbyene!",
-  "SNG.7.12": "La oss gå tidlig til vingårdene. La oss se om vintreet har satt skudd, om blomstene er sprunget ut, om granatepletrærne blomstrer! Der vil jeg gi deg min kjærlighet.",
-  "SNG.7.13": "Alrunene dufter, og over våre dører er alle slags utsøkte frukter, både nye og gamle. Min elskede, jeg har gjemt dem til deg.",
-  "SNG.8.1": "Å, om du var for meg som en bror, om du hadde diet min mors bryst! Når jeg da fant deg der ute, skulle jeg kysse deg, og ingen ville forakte meg for det.",
-  "SNG.8.2": "Jeg skulle lede deg, jeg skulle føre deg til min mors hus. Du skulle lære meg. Jeg skulle skjenke deg den krydrede vinen, mosten av mitt granatepletre.",
-  "SNG.8.3": "Hans venstre hånd er under mitt hode, og hans høyre hånd favner meg.",
-  "SNG.8.4": "Jeg ber dere inderlig, Jerusalems døtre: Hvorfor vil dere vekke, og hvorfor vil dere egge kjærligheten, før den selv vil?",
-  "SNG.8.5": "Hvem er hun som kommer opp fra ørkenen og støtter seg på sin elskede? - Under epletreet vekket jeg deg. Der ble din mor forløst med deg, der ble hun forløst, hun som fødte deg.",
-  "SNG.8.6": "Sett meg som et segl på ditt hjerte, som et segl på din arm. For sterk som døden er kjærligheten, hard som dødsriket er dens lidenskap. Dens glød er som ildens glød, en Herrens flamme.",
-  "SNG.8.7": "Mange vann kan ikke slokke kjærligheten, og strømmer kan ikke overskylle den. Om noen ville gi alt han har i sitt hus for kjærligheten, ville han bare bli foraktet.",
-  "SNG.8.8": "Vi har en liten søster, og hun har ennå ikke bryster. Hva skal vi gjøre med vår søster når den tiden kommer at hun får beilere?",
-  "SNG.8.9": "Er hun en mur, vil vi bygge tinder av sølv på den. Er hun en dør, vil vi stenge den med en sederplanke.",
-  "SNG.8.10": "Jeg var en mur, og mine bryster som tårn. Da vant jeg yndest for hans øyne og fikk fred.",
-  "SNG.8.11": "En vingård hadde Salomo i Ba’al-Hamon. Han overga vingården til voktere. Hver skulle gi tusen sekel sølv for dens frukt.",
-  "SNG.8.12": "Over min vingård råder jeg selv. De tusen seklene tilhører deg, Salomo, og to hundre dem som vokter hagens frukt.",
-  "SNG.8.13": "Du som bor i hagene! Venner lytter til din røst, la meg høre den!",
-  "SNG.8.14": "Fly, min elskede! Vær som en gasell eller en ung hjort på fjell med duftende urter!"
+  "SNG.1.1": {
+    "text": "Høysangen av Salomo.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Jeg vil prise din kjærlighet"
+  },
+  "SNG.1.2": {
+    "text": "Å, ville han bare kysse meg med kyss av sin munn! For din kjærlighet er bedre enn vin.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.3": {
+    "text": "Nydelig er duften av dine salver, ditt navn er en utgytt salve. Derfor elsker jomfruene deg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.4": {
+    "text": "Ta meg med deg! La oss skynde oss! Kongen har ført meg inn i sine kamre. Vi vil fryde og glede oss i deg, vi vil prise din kjærlighet mer enn vin. Med rette elsker de deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 45:2 ff. Jer 31:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.5": {
+    "text": "Sort er jeg, men yndig, dere Jerusalems døtre - som Kedars telter, som Salomos telttepper.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 30:28. Klag 4:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.6": {
+    "text": "Stirr ikke på meg, fordi jeg er så mørk, fordi solen har brent meg! Min mors sønner ble harme på meg, de satte meg til å vokte vingårdene. Min egen vingård har jeg ikke voktet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.7": {
+    "text": "Si meg, du som min sjel elsker: Hvor vokter du hjorden? Hvor lar du den hvile om middagen? Hvorfor skal jeg være som en tilsløret kvinne som går omkring ved dine venners flokker?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 38:14. Sal 23:2. Jer 33:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.8": {
+    "text": "Vet du det ikke, du vakreste blant kvinner, så følg sauenes spor og vokt dine kje ved gjeterhyttene!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Den vakreste"
+  },
+  "SNG.1.9": {
+    "text": "Med hestene foran faraos vogner vil jeg ligne deg, min kjæreste!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.10": {
+    "text": "Fagre er dine kinn mellom kjedene, din hals i perleradene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.11": {
+    "text": "Gullkjeder vil vi lage til deg med sølvprikker på.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.12": {
+    "text": "Så lenge kongen satt ved sitt bord, ga min nardussalve sin duft.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.13": {
+    "text": "Min elskede er for meg en myrrapose som hviler mellom mine bryster.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.14": {
+    "text": "Min elskede er for meg en blomsterklase fra hennabusken i En-Gedis vingårder.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.15": {
+    "text": "Hvor vakker du er, min kjæreste, hvor vakker du er! Dine øyne er som duer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:14. 4:1. 5:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.1.16": {
+    "text": "Hvor vakker du er, min elskede, hvor vakker du er! Og vårt leie er grønt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.1.17": {
+    "text": "Sedrer er bjelkene i vårt hus, sypresser er tak og loft.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.1": {
+    "text": "Jeg er Sarons blomst, dalenes lilje.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Jeg er syk av kjærlighet"
+  },
+  "SNG.2.2": {
+    "text": "Som en lilje blant torner, slik er min kjæreste blant de unge kvinnene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.3": {
+    "text": "Som et epletre blant skogens trær, slik er min elskede blant de unge menn. Å sitte i hans skygge er min lyst, hans frukt er søt for min gane.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:13. Sal 61:5. 91:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.4": {
+    "text": "Han har ført meg til vinhuset, og hans banner over meg er kjærlighet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.5": {
+    "text": "Styrk meg med druekaker, forfrisk meg med epler! For jeg er syk av kjærlighet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.6": {
+    "text": "Hans venstre hånd er under mitt hode, og hans høyre hånd favner meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.7": {
+    "text": "Jeg ber dere inderlig, dere Jerusalems døtre, ved gasellene eller ved hindene på marken, at dere ikke vekker og ikke egger kjærligheten før den selv vil!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:5. 5:8. 8:4. Sal 18:34.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.8": {
+    "text": "Hør, der er min elskede! Se, der kommer han springende over fjellene, hoppende over haugene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.9": {
+    "text": "Min elskede ligner en gasell eller en ung hjort. Se, der står han bak vår vegg. Han kikker inn gjennom gluggen, han gløtter inn gjennom gitteret.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.10": {
+    "text": "Min elskede tar til orde og sier til meg: Stå opp, min kjæreste, du min vakre, og kom ut!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.11": {
+    "text": "For se, nå er vinteren omme. Regnet er dratt forbi og er borte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.12": {
+    "text": "Blomstene kommer til syne på marken. Sangens tid er inne, og turtelduens røst har latt seg høre i vårt land.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.13": {
+    "text": "Fikentreets frukter tar til å rødme, og vintrærnes blomster dufter. Stå opp og kom, min kjæreste! Du min fagre, så kom da!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:12. Matt 24:32.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.14": {
+    "text": "Min due i klippens kløfter, i fjelltindens ly! La meg se din skikkelse, la meg høre din røst! For din røst er blid og din skikkelse er fager.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:15. 4:7. 8:13. Jer 48:28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.15": {
+    "text": "Fang revene for oss, de små revene som ødelegger vingårdene! Våre vingårder står jo i blomst.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.2.16": {
+    "text": "Min elskede er min, og jeg er hans, han som vokter sin hjord blant liljene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:3. 7:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.2.17": {
+    "text": "Innen dagen blir sval og skyggene flyr - vend om, min elskede, lik en gasell eller en ung hjort på de forrevne fjellene!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:6. 8:14.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.1": {
+    "text": "På mitt leie lette jeg om natten etter ham som min sjel elsker. Jeg lette etter ham, men jeg fant ham ikke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:6.",
+        "refs": []
+      }
+    ],
+    "section": "Jeg vil lete etter ham som min sjel elsker"
+  },
+  "SNG.3.2": {
+    "text": "Jeg vil stå opp og gå omkring i byen, på gatene og på torgene. Jeg vil lete etter ham som min sjel elsker. Jeg lette etter ham, men jeg fant ham ikke.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.3.3": {
+    "text": "Vekterne, som går omkring i byen, møtte meg. Har dere sett ham som min sjel elsker?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5:7. Sal 130:6. Jes 62:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.4": {
+    "text": "Ikke før var jeg gått fra dem, så fant jeg ham som min sjel elsker. Jeg grep fatt i ham, og jeg slipper ham ikke før jeg har ført ham til min mors hus, til hennes kammer som har født meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "8:2. Matt 7:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.5": {
+    "text": "Jeg ber dere inderlig, dere Jerusalems døtre, ved gasellene eller ved hindene på marken, at dere ikke vekker og ikke egger kjærligheten, før den selv vil!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:7. 8:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.6": {
+    "text": "Hvem er hun som kommer opp fra ørkenen, som røkstøtter, omduftet av myrra og virak, av alle kremmerens krydder?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:10. 8:5.",
+        "refs": []
+      }
+    ],
+    "section": "Brudgommen ser henne komme"
+  },
+  "SNG.3.7": {
+    "text": "Se, det er Salomos bærestol med seksti krigsmenn omkring, av Israels krigsmenn.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.3.8": {
+    "text": "Alle er de væpnet med sverd, oppøvd i krig, hver med sverdet ved lend til vern mot nattens redsler.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 45:4. 91:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.3.9": {
+    "text": "En bærestol laget kong Salomo seg av Libanons trær.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.3.10": {
+    "text": "Dens stolper laget han av sølv, dens ryggstø av gull, dens sete av purpur. Innvendig er den smykket i kjærlighet av Jerusalems døtre.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.3.11": {
+    "text": "Gå ut, dere Sions døtre, og se på kong Salomo med den kronen hans mor har kronet ham med på hans bryllupsdag, på hans hjertegledes dag!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sef 3:14. Åp 19:12,16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.1": {
+    "text": "Hvor vakker du er, min kjæreste! Hvor vakker du er! Dine øyne er duer bak ditt slør. Ditt hår er som en flokk av geiter som leirer seg nedover Gilead-fjellet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:15. 5:12. 6:5.",
+        "refs": []
+      }
+    ],
+    "section": "Hvor vakker du er, min kjæreste"
+  },
+  "SNG.4.2": {
+    "text": "Dine tenner er som en flokk av nyklipte sauer som stiger opp av badet. Alle har de tvillinger, og ingen blant dem er uten lam.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.4.3": {
+    "text": "Dine lepper er som en skarlagensnor, og din munn er yndig. Som et stykke granateple er din tinning bak ditt slør.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.4": {
+    "text": "Din hals er som Davids tårn, bygd til våpenhus. Tusen skjold henger på det, alle krigsmennenes skjold.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:4. Esek 27:10,11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.5": {
+    "text": "Dine bryster er som tvillinger av en gasell som beiter mellom liljer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "7:3. Ord 5:19.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.6": {
+    "text": "Når dagen blir sval og skyggene flyr, vil jeg gå til Myrra-åsen og til Virak-haugen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.7": {
+    "text": "Alt er vakkert ved deg, min kjæreste. Det er ikke noen lyte på deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:15. 2:14. Ef 5:27. Kol 1:22. Åp 14:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.8": {
+    "text": "Kom med meg fra Libanon, min brud! Kom med meg fra Libanon! Se ut fra Amanas topp, fra toppen av Senir og Hermon, fra løvenes bosteder, fra panternes fjell!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.4.9": {
+    "text": "Du har vunnet mitt hjerte, min søster, min brud! Du har vunnet mitt hjerte med et eneste øyekast, med en av kjedene om din hals.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:10. Esek 16:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.10": {
+    "text": "Hvor fager din kjærlighet er, min søster, min brud! Hvor mye bedre er ikke din kjærlighet enn vin. Og duften av dine salver er bedre enn alle velluktende urter.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:2. 7:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.11": {
+    "text": "Av honning drypper dine lepper, min brud! Honning og melk er under din tunge, og duften av klærne dine er som duften av Libanon.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 19:11. Ord 16:24. Hos 14:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.12": {
+    "text": "En lukket hage er min søster, min brud - et avstengt oppkomme, en forseglet kilde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ord 5:18.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.13": {
+    "text": "Du skyter opp som en lysthage av granatepletrær med sin kostbare frukt, som hennabusker sammen med narder",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:14. Gal 5:22.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.14": {
+    "text": "og safran, kalmus og kanel sammen med alle slags viraktrær, myrra og aloëtrær sammen med alle de beste velluktende urter.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.4.15": {
+    "text": "En kilde i hagene er du, en brønn med levende vann og strømmer fra Libanon.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 4:14. 7:38.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.4.16": {
+    "text": "Våkn opp, nordavind! Kom, sønnavind! Blås gjennom min hage, så dens duft kan strømme ut! Å, om min elskede ville komme til sin hage og spise dens kostbare frukt!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.5.1": {
+    "text": "Jeg er kommet til min hage, min søster, min brud! Jeg har plukket min myrra og mitt krydder. Jeg har spist min honningkake og min honning. Jeg har drukket min vin og min melk. Venner, et og drikk! Drikk dere glade, mine kjære!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:2. Ord 9:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.2": {
+    "text": "Jeg sover, men mitt hjerte våker. Da høres min elskedes røst - han banker på: Lukk opp for meg, min søster, min kjæreste, min due, du fullkomne! For mitt hode er fullt av dugg, mine lokker av nattens dråper.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:9. Åp 3:20.",
+        "refs": []
+      }
+    ],
+    "section": "Min elskede er borte"
+  },
+  "SNG.5.3": {
+    "text": "Jeg har tatt av meg kappen, skulle jeg ta den på igjen? Jeg har vasket mine føtter, skulle jeg da skitne dem til?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.5.4": {
+    "text": "Min elskede rakte sin hånd inn gjennom luken. Da ble mitt hjerte rørt for hans skyld.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.5.5": {
+    "text": "Jeg sto opp for å åpne for min elskede - mine hender dryppet av myrra, mine fingrer av flytende myrra, som vætte håndtaket på låsen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.5.6": {
+    "text": "Jeg lukket opp for min elskede, men min elskede hadde vendt om og gått bort. Min sjel var ute av seg selv over hans ord. Jeg lette etter ham, men jeg fant ham ikke. Jeg ropte på ham, men han svarte meg ikke.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:1. Ord 1:28.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.7": {
+    "text": "Vekterne som går omkring i byen, møtte meg. De slo meg, de ga meg sår, de tok sløret fra meg - vekterne på murene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.8": {
+    "text": "Jeg ber dere inderlig, dere Jerusalems døtre: Om dere finner min elskede, hva skal dere si ham? At jeg er syk av kjærlighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:5,7. 3:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.9": {
+    "text": "Hva er din elskede fremfor andre elskede, du vakreste blant kvinner? Hva er din elskede fremfor andre elskede, siden du ber oss så inderlig?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:8. 6:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.10": {
+    "text": "Min elskede er hvit og rød, utmerket fremfor ti tusen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 45:3.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.11": {
+    "text": "Hans hode er som det fineste gull. Hans lokker er kruset, svarte som ravnen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.5.12": {
+    "text": "Hans øyne er som duer ved rennende bekker. De bader seg i melk, de er innsatt som edelsteiner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:15. 4:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.13": {
+    "text": "Hans kinn er som velluktende blomstersenger, som det vokser krydderurter i. Hans lepper er som liljer, de drypper av flytende myrra.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "6:2.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.5.14": {
+    "text": "Hans hender er gullringer med innlagte krysolitter. Hans midje er et kunstverk av elfenben, dekket med safirer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.5.15": {
+    "text": "Hans ben er marmorstøtter, som står på fotstykker av fineste gull. Hans skikkelse er som Libanon, utsøkt som sedrene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.5.16": {
+    "text": "Hans munn er sødme, og alt ved ham er tiltrekkende. Slik er min elskede, slik er min venn, Jerusalems døtre!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.6.1": {
+    "text": "Hvor er din elskede gått, du vakreste blant kvinner? Hvor har din elskede tatt veien, så vi kan lete etter ham sammen med deg?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.6.2": {
+    "text": "Min elskede er gått ned til sin hage, til de duftende blomstersengene, for å vokte sin hjord i hagene og for å sanke liljer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1:7. 4:16.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.3": {
+    "text": "Jeg tilhører min elskede, og min elskede er min, han som vokter sin hjord mellom liljene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:16. 7:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.4": {
+    "text": "Du er vakker som Tirsa, min kjæreste, skjønn som Jerusalem, skremmende som hærskarer med sine banner.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 14:17. 15:21.",
+        "refs": []
+      }
+    ],
+    "section": "Brudgommen taler om hvor vakker hun er fremfor alle andre"
+  },
+  "SNG.6.5": {
+    "text": "Vend dine øyne bort fra meg, for de overvelder meg! Ditt hår er som en flokk geiter som leirer seg nedover Gilead.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:1 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.6": {
+    "text": "Dine tenner er som en flokk sauer som stiger opp av badet. Alle har de tvillinger, og ingen blant dem er uten lam.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.6.7": {
+    "text": "Som et stykke granateple er din tinning bak ditt slør.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.6.8": {
+    "text": "Seksti dronninger er det og åtti medhustruer og jomfruer uten tall.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 45:15.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.9": {
+    "text": "Men én er min due, min fullkomne, hun som er sin mors eneste, hennes utkårede som fødte henne. Unge kvinner så henne og priste henne lykkelig. Dronninger og medhustruer så henne og hyllet henne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.6.10": {
+    "text": "Hvem er hun som stråler fram som morgenrøden, vakker som månen, ren som solen, skremmende som hærskarer med sine banner?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:6. 8:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.6.11": {
+    "text": "Jeg gikk ned i nøttehagen for å se at det spirte i dalen, for å se om vintreet hadde satt skudd, om granatepletrærne sto i blomst.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.6.12": {
+    "text": "Før jeg visste av det, førte min sjel meg opp på mitt edle folks vogner.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.6.13": {
+    "text": "Vend om! Vend om, Sjulammit! Vend om! Vend om, så vi får se deg! Hvorfor vil dere se på Sjulammit? En dans som i Mahanajim!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 32:2. 2Sam 17:24.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.1": {
+    "text": "Hvor vakkert du skrider fram i dine sko, du høvdingdatter! Dine hofters rundinger er som smykker, et verk av kunstnerhånd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Brudens vakre skikkelse"
+  },
+  "SNG.7.2": {
+    "text": "Ditt liv er som et rundt beger, måtte det aldri være uten vin! Din midje er som en hvetedynge, omhegnet av liljer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.3": {
+    "text": "Dine bryster er som to rådyrkalver, tvillinger av en gasell.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.4": {
+    "text": "Din hals er som elfenbenstårnet. Dine øyne som vanndammene i Hesjbon ved Batrabbims port. Din nese er som Libanon-tårnet, som speider mot Damaskus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.5": {
+    "text": "Ditt hode hever seg likesom Karmel. Ditt bølgende hår er som purpur, kongen er fanget i dine lokker.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.7.6": {
+    "text": "Hvor fager og hvor herlig du er, du kjærlighet i all din fryd.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.7.7": {
+    "text": "Med din ranke vekst ligner du en palme, og dine bryster er som druer.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.7.8": {
+    "text": "Jeg sier: Jeg vil stige opp i palmetreet, ta fatt i dets greiner. Måtte dine bryster være som vintreets druer, din ånde som duften av epler,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.7.9": {
+    "text": "din munn som edel vin! - Den som glir lett ned for min elskede, som flyter lett over leppene hos dem som sover.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.7.10": {
+    "text": "Jeg hører min elskede til, og til meg står hans hu.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:16. 6:3. Sal 45:12.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.7.11": {
+    "text": "Kom, min elskede! La oss gå ut på marken, la oss bli natten over i landsbyene!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.7.12": {
+    "text": "La oss gå tidlig til vingårdene. La oss se om vintreet har satt skudd, om blomstene er sprunget ut, om granatepletrærne blomstrer! Der vil jeg gi deg min kjærlighet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.7.13": {
+    "text": "Alrunene dufter, og over våre dører er alle slags utsøkte frukter, både nye og gamle. Min elskede, jeg har gjemt dem til deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:3,13.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.1": {
+    "text": "Å, om du var for meg som en bror, om du hadde diet min mors bryst! Når jeg da fant deg der ute, skulle jeg kysse deg, og ingen ville forakte meg for det.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Mange vann kan ikke slokke kjærligheten"
+  },
+  "SNG.8.2": {
+    "text": "Jeg skulle lede deg, jeg skulle føre deg til min mors hus. Du skulle lære meg. Jeg skulle skjenke deg den krydrede vinen, mosten av mitt granatepletre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:4.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.3": {
+    "text": "Hans venstre hånd er under mitt hode, og hans høyre hånd favner meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.4": {
+    "text": "Jeg ber dere inderlig, Jerusalems døtre: Hvorfor vil dere vekke, og hvorfor vil dere egge kjærligheten, før den selv vil?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:7. 3:5.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.5": {
+    "text": "Hvem er hun som kommer opp fra ørkenen og støtter seg på sin elskede? - Under epletreet vekket jeg deg. Der ble din mor forløst med deg, der ble hun forløst, hun som fødte deg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3:6. 6:10.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.6": {
+    "text": "Sett meg som et segl på ditt hjerte, som et segl på din arm. For sterk som døden er kjærligheten, hard som dødsriket er dens lidenskap. Dens glød er som ildens glød, en Herrens flamme.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 49:16. Rom 8:35.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.7": {
+    "text": "Mange vann kan ikke slokke kjærligheten, og strømmer kan ikke overskylle den. Om noen ville gi alt han har i sitt hus for kjærligheten, ville han bare bli foraktet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.8.8": {
+    "text": "Vi har en liten søster, og hun har ennå ikke bryster. Hva skal vi gjøre med vår søster når den tiden kommer at hun får beilere?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.8.9": {
+    "text": "Er hun en mur, vil vi bygge tinder av sølv på den. Er hun en dør, vil vi stenge den med en sederplanke.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.8.10": {
+    "text": "Jeg var en mur, og mine bryster som tårn. Da vant jeg yndest for hans øyne og fikk fred.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.8.11": {
+    "text": "En vingård hadde Salomo i Ba’al-Hamon. Han overga vingården til voktere. Hver skulle gi tusen sekel sølv for dens frukt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 5:1 ff. 7:23. Matt 21:33 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "SNG.8.12": {
+    "text": "Over min vingård råder jeg selv. De tusen seklene tilhører deg, Salomo, og to hundre dem som vokter hagens frukt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.8.13": {
+    "text": "Du som bor i hagene! Venner lytter til din røst, la meg høre den!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "SNG.8.14": {
+    "text": "Fly, min elskede! Vær som en gasell eller en ung hjort på fjell med duftende urter!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2:17.",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

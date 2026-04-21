@@ -1,23 +1,212 @@
 {
-  "OBA.1.1": "Obadjas syn. Så sier Herren Herren om Edom: En tidende har vi hørt fra Herren, et bud er sendt ut blant hedningefolkene: Stå opp, la oss reise oss til kamp mot Edom.",
-  "OBA.1.2": "Se, jeg vil gjøre deg liten blant hedningefolkene. Du skal bli dypt foraktet.",
-  "OBA.1.3": "Ditt hjertes overmot har bedratt deg, du som bor i fjellkløfter, i din høye bolig. Du som sier i ditt hjerte: Hvem vil styrte meg ned til jorden?",
-  "OBA.1.4": "Om du bygger høyt som ørnen, om du setter ditt rede blant stjerner, så vil jeg styrte deg ned derfra, sier Herren.",
-  "OBA.1.5": "Om tyver kom til deg, eller røvere om natten - å, hvor du blir tilintetgjort! - ville de da stjele mer enn de trengte? Om det kom til deg folk som ville høste din vin, ville de da ikke la det bli en etterhøst tilbake?",
-  "OBA.1.6": "Men hvor blir ikke Esau ransaket, hans skjulte skatter oppsøkt!",
-  "OBA.1.7": "Dine forbundsfeller driver deg like til grensen, de du hadde fred med, sviker deg og får overhånd over deg. De menn som spiser ditt brød, setter snare for deg. - Det er ingen forstand hos ham!",
-  "OBA.1.8": "Skal jeg ikke på den dagen, sier Herren, gjøre ende på alle vismenn i Edom og all forstand på Esaus berg?",
-  "OBA.1.9": "Dine kjemper, Teman, skal bli motløse, så hver mann blir drept og utryddet på Esaus berg.",
-  "OBA.1.10": "For ditt voldsverk mot Jakob, din bror, skal skam dekke deg. Du skal bli utryddet til evig tid.",
-  "OBA.1.11": "Den dagen da du sto på avstand, den dagen da fremmede førte bort hans gods, da utlendinger gikk inn i hans porter og kastet lodd om Jerusalem - da var også du som en av dem.",
-  "OBA.1.12": "Se ikke med skadefryd på din brors dag, på hans ulykkes dag. Gled deg ikke over Judas barn den dag de går til grunne. Lukk ikke din munn så vidt opp på trengselens dag.",
-  "OBA.1.13": "Dra ikke inn gjennom mitt folks port den dagen de er i nød. Se ikke også du med skadefryd på deres ulykke den dagen de er i nød. Legg ikke hånd på deres gods den dagen de er i nød.",
-  "OBA.1.14": "Stå ikke ved veiskillet for å hogge ned dem av mitt folk som er sluppet unna. Overgi ikke dets flyktninger til fienden på trengselens dag.",
-  "OBA.1.15": "For Herrens dag er nær over alle folkene. Som du har gjort, skal det gjøres med deg. Dine gjerninger skal komme tilbake på ditt eget hode.",
-  "OBA.1.16": "For likesom dere har drukket på mitt hellige berg, skal alle folkene drikke uten opphold. De skal drikke i fulle drag og bli som om de aldri hadde vært til.",
-  "OBA.1.17": "Men på Sions berg skal det være en flokk som har sluppet unna. Det skal være hellig, og Jakobs hus skal ta sine eiendommer i besittelse.",
-  "OBA.1.18": "Jakobs hus skal bli en ild og Josefs hus en flamme. Og Esaus hus skal bli til halm, og de skal sette ild på det og fortære det. Det skal ikke bli noen tilbake av Esaus hus, for Herren har talt.",
-  "OBA.1.19": "De som bor i Sydlandet, skal ta Esaus berg i eie. De som bor i lavlandet, skal ta filistrenes land, og de skal ta Efra’ims land og Samarias land i eie, og Benjamin skal ta Gilead.",
-  "OBA.1.20": "De bortførte av denne Israels hær skal ta kana’aneernes land helt til Sarepta. Og de bortførte fra Jerusalem, de som er i Sefarad, skal ta Sydlandets byer i eie.",
-  "OBA.1.21": "Redningsmenn skal dra opp på Sions berg og dømme Esaus berg. Og riket hører Herren til."
+  "OBA.1.1": {
+    "text": "Obadjas syn. Så sier Herren Herren om Edom: En tidende har vi hørt fra Herren, et bud er sendt ut blant hedningefolkene: Stå opp, la oss reise oss til kamp mot Edom.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 49:14 ff. Esek 25:12.",
+        "refs": []
+      }
+    ],
+    "section": "Dommen over Edom"
+  },
+  "OBA.1.2": {
+    "text": "Se, jeg vil gjøre deg liten blant hedningefolkene. Du skal bli dypt foraktet.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "OBA.1.3": {
+    "text": "Ditt hjertes overmot har bedratt deg, du som bor i fjellkløfter, i din høye bolig. Du som sier i ditt hjerte: Hvem vil styrte meg ned til jorden?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "4Mos 24:21. Jes 16:6.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.4": {
+    "text": "Om du bygger høyt som ørnen, om du setter ditt rede blant stjerner, så vil jeg styrte deg ned derfra, sier Herren.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 49:16. 51:53. Hab 2:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.5": {
+    "text": "Om tyver kom til deg, eller røvere om natten - å, hvor du blir tilintetgjort! - ville de da stjele mer enn de trengte? Om det kom til deg folk som ville høste din vin, ville de da ikke la det bli en etterhøst tilbake?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "OBA.1.6": {
+    "text": "Men hvor blir ikke Esau ransaket, hans skjulte skatter oppsøkt!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "*1Mos 36:8 viser at Esau er Edoms stamfar.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.7": {
+    "text": "Dine forbundsfeller driver deg like til grensen, de du hadde fred med, sviker deg og får overhånd over deg. De menn som spiser ditt brød, setter snare for deg. - Det er ingen forstand hos ham!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 41:10. Jer 38:22. Dan 11:26.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.8": {
+    "text": "Skal jeg ikke på den dagen, sier Herren, gjøre ende på alle vismenn i Edom og all forstand på Esaus berg?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Job 5:12-14. Jes 29:14. Jer 49:7.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.9": {
+    "text": "Dine kjemper, Teman, skal bli motløse, så hver mann blir drept og utryddet på Esaus berg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "OBA.1.10": {
+    "text": "For ditt voldsverk mot Jakob, din bror, skal skam dekke deg. Du skal bli utryddet til evig tid.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Mos 27:41. Joel 3:24. Amos 1:11 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.11": {
+    "text": "Den dagen da du sto på avstand, den dagen da fremmede førte bort hans gods, da utlendinger gikk inn i hans porter og kastet lodd om Jerusalem - da var også du som en av dem.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "OBA.1.12": {
+    "text": "Se ikke med skadefryd på din brors dag, på hans ulykkes dag. Gled deg ikke over Judas barn den dag de går til grunne. Lukk ikke din munn så vidt opp på trengselens dag.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 35:12 ff. Mika 4:11.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.13": {
+    "text": "Dra ikke inn gjennom mitt folks port den dagen de er i nød. Se ikke også du med skadefryd på deres ulykke den dagen de er i nød. Legg ikke hånd på deres gods den dagen de er i nød.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "OBA.1.14": {
+    "text": "Stå ikke ved veiskillet for å hogge ned dem av mitt folk som er sluppet unna. Overgi ikke dets flyktninger til fienden på trengselens dag.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "OBA.1.15": {
+    "text": "For Herrens dag er nær over alle folkene. Som du har gjort, skal det gjøres med deg. Dine gjerninger skal komme tilbake på ditt eget hode.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 137:8. Jer 50:15,29. Joel 3:9,12. Hab 2:8.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.16": {
+    "text": "For likesom dere har drukket på mitt hellige berg, skal alle folkene drikke uten opphold. De skal drikke i fulle drag og bli som om de aldri hadde vært til.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 75:9. Jer 25:15 ff.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.17": {
+    "text": "Men på Sions berg skal det være en flokk som har sluppet unna. Det skal være hellig, og Jakobs hus skal ta sine eiendommer i besittelse.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Esek 36:5. Joel 3:5,22.",
+        "refs": []
+      }
+    ],
+    "section": "En hellig flokk på Sions berg"
+  },
+  "OBA.1.18": {
+    "text": "Jakobs hus skal bli en ild og Josefs hus en flamme. Og Esaus hus skal bli til halm, og de skal sette ild på det og fortære det. Det skal ikke bli noen tilbake av Esaus hus, for Herren har talt.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 10:17. Mal 4:1.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.19": {
+    "text": "De som bor i Sydlandet, skal ta Esaus berg i eie. De som bor i lavlandet, skal ta filistrenes land, og de skal ta Efra’ims land og Samarias land i eie, og Benjamin skal ta Gilead.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "OBA.1.20": {
+    "text": "De bortførte av denne Israels hær skal ta kana’aneernes land helt til Sarepta. Og de bortførte fra Jerusalem, de som er i Sefarad, skal ta Sydlandets byer i eie.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1Kong 17:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "OBA.1.21": {
+    "text": "Redningsmenn skal dra opp på Sions berg og dømme Esaus berg. Og riket hører Herren til.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Dom 3:9,15. Neh 9:27. Mika 4:7. Sak 14:9.",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

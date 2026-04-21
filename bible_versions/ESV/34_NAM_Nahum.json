@@ -1,49 +1,968 @@
 {
-  "NAM.1.1": "An oracle concerning Nineveh. The book of the vision of Nahum of Elkosh.",
-  "NAM.1.2": "The Lord is a jealous and avenging God; the Lord is avenging and wrathful; the Lord takes vengeance on his adversaries and keeps wrath for his enemies.",
-  "NAM.1.3": "The Lord is slow to anger and great in power, and the Lord will by no means clear the guilty. His way is in whirlwind and storm, and the clouds are the dust of his feet.",
-  "NAM.1.4": "He rebukes the sea and makes it dry; he dries up all the rivers; Bashan and Carmel wither; the bloom of Lebanon withers.",
-  "NAM.1.5": "The mountains quake before him; the hills melt; the earth heaves before him, the world and all who dwell in it.",
-  "NAM.1.6": "Who can stand before his indignation? Who can endure the heat of his anger? His wrath is poured out like fire, and the rocks are broken into pieces by him.",
-  "NAM.1.7": "The Lord is good, a stronghold in the day of trouble; he knows those who take refuge in him.",
-  "NAM.1.8": "But with an overflowing flood he will make a complete end of the adversaries, and will pursue his enemies into darkness.",
-  "NAM.1.9": "What do you plot against the Lord? He will make a complete end; trouble will not rise up a second time.",
-  "NAM.1.10": "For they are like entangled thorns, like drunkards as they drink; they are consumed like stubble fully dried.",
-  "NAM.1.11": "From you came one who plotted evil against the Lord, a worthless counselor.",
-  "NAM.1.12": "Thus says the Lord, “Though they are at full strength and many, they will be cut down and pass away. Though I have afflicted you, I will afflict you no more.",
-  "NAM.1.13": "And now I will break his yoke from off you and will burst your bonds apart.”",
-  "NAM.1.14": "The Lord has given commandment about you: “No more shall your name be perpetuated; from the house of your gods I will cut off the carved image and the metal image. I will make your grave, for you are vile.”",
-  "NAM.1.15": "Behold, upon the mountains, the feet of him who brings good news, who publishes peace! Keep your feasts, O Judah; fulfill your vows, for never again shall the worthless pass through you; he is utterly cut off.",
-  "NAM.2.1": "The scatterer has come up against you. Man the ramparts; watch the road; dress for battle; collect all your strength.",
-  "NAM.2.2": "For the Lord is restoring the majesty of Jacob as the majesty of Israel, for plunderers have plundered them and ruined their branches.",
-  "NAM.2.3": "The shield of his mighty men is red; his soldiers are clothed in scarlet. The chariots come with flashing metal on the day he musters them; the cypress spears are brandished.",
-  "NAM.2.4": "The chariots race madly through the streets; they rush to and fro through the squares; they gleam like torches; they dart like lightning.",
-  "NAM.2.5": "He remembers his officers; they stumble as they go, they hasten to the wall; the siege tower is set up.",
-  "NAM.2.6": "The river gates are opened; the palace melts away;",
-  "NAM.2.7": "its mistress is stripped; she is carried off, her slave girls lamenting, moaning like doves and beating their breasts.",
-  "NAM.2.8": "Nineveh is like a pool whose waters run away. “Halt! Halt!” they cry, but none turns back.",
-  "NAM.2.9": "Plunder the silver, plunder the gold! There is no end of the treasure or of the wealth of all precious things.",
-  "NAM.2.10": "Desolate! Desolation and ruin! Hearts melt and knees tremble; anguish is in all loins; all faces grow pale!",
-  "NAM.2.11": "Where is the lions’ den, the feeding place of the young lions, where the lion and lioness went, where his cubs were, with none to disturb?",
-  "NAM.2.12": "The lion tore enough for his cubs and strangled prey for his lionesses; he filled his caves with prey and his dens with torn flesh.",
-  "NAM.2.13": "Behold, I am against you, declares the Lord of hosts, and I will burn your chariots in smoke, and the sword shall devour your young lions. I will cut off your prey from the earth, and the voice of your messengers shall no longer be heard.",
-  "NAM.3.1": "Woe to the bloody city, all full of lies and plunder— no end to the prey!",
-  "NAM.3.2": "The crack of the whip, and rumble of the wheel, galloping horse and bounding chariot!",
-  "NAM.3.3": "Horsemen charging, flashing sword and glittering spear, hosts of slain, heaps of corpses, dead bodies without end— they stumble over the bodies!",
-  "NAM.3.4": "And all for the countless whorings of the prostitute, graceful and of deadly charms, who betrays nations with her whorings, and peoples with her charms.",
-  "NAM.3.5": "Behold, I am against you, declares the Lord of hosts, and will lift up your skirts over your face; and I will make nations look at your nakedness and kingdoms at your shame.",
-  "NAM.3.6": "I will throw filth at you and treat you with contempt and make you a spectacle.",
-  "NAM.3.7": "And all who look at you will shrink from you and say, “Wasted is Nineveh; who will grieve for her?” Where shall I seek comforters for you?",
-  "NAM.3.8": "Are you better than Thebes that sat by the Nile, with water around her, her rampart a sea, and water her wall?",
-  "NAM.3.9": "Cush was her strength; Egypt too, and that without limit; Put and the Libyans were her helpers.",
-  "NAM.3.10": "Yet she became an exile; she went into captivity; her infants were dashed in pieces at the head of every street; for her honored men lots were cast, and all her great men were bound in chains.",
-  "NAM.3.11": "You also will be drunken; you will go into hiding; you will seek a refuge from the enemy.",
-  "NAM.3.12": "All your fortresses are like fig trees with first-ripe figs— if shaken they fall into the mouth of the eater.",
-  "NAM.3.13": "Behold, your troops are women in your midst. The gates of your land are wide open to your enemies; fire has devoured your bars.",
-  "NAM.3.14": "Draw water for the siege; strengthen your forts; go into the clay; tread the mortar; take hold of the brick mold!",
-  "NAM.3.15": "There will the fire devour you; the sword will cut you off. It will devour you like the locust. Multiply yourselves like the locust; multiply like the grasshopper!",
-  "NAM.3.16": "You increased your merchants more than the stars of the heavens. The locust spreads its wings and flies away.",
-  "NAM.3.17": "Your princes are like grasshoppers, your scribes like clouds of locusts settling on the fences in a day of cold— when the sun rises, they fly away; no one knows where they are.",
-  "NAM.3.18": "Your shepherds are asleep, O king of Assyria; your nobles slumber. Your people are scattered on the mountains with none to gather them.",
-  "NAM.3.19": "There is no easing your hurt; your wound is grievous. All who hear the news about you clap their hands over you. For upon whom has not come your unceasing evil?"
+  "NAM.1.1": {
+    "text": "An oracle concerning Nineveh. The book of the vision of Nahum of Elkosh.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Isa. 13:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:8; 3:7; See Jonah 1:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.2": {
+    "text": "The Lord is a jealous and avenging God; the Lord is avenging and wrathful; the Lord takes vengeance on his adversaries and keeps wrath for his enemies.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Ex. 20:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ps. 92:9 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 103:9]",
+        "refs": []
+      }
+    ],
+    "section": "God’s Wrath Against Nineveh"
+  },
+  "NAM.1.3": {
+    "text": "The Lord is slow to anger and great in power, and the Lord will by no means clear the guilty. His way is in whirlwind and storm, and the clouds are the dust of his feet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Ex. 34:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Job 9:4; Ps. 147:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ex. 34:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ps. 97:2 ]; See Ps. 18:9-13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.4": {
+    "text": "He rebukes the sea and makes it dry; he dries up all the rivers; Bashan and Carmel wither; the bloom of Lebanon withers.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ps. 106:9; [ Isa. 50:2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 33:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Josh. 19:26",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 33:9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.5": {
+    "text": "The mountains quake before him; the hills melt; the earth heaves before him, the world and all who dwell in it.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Jer. 4:24; Hab. 3:6 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Amos 9:13",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 98:7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.6": {
+    "text": "Who can stand before his indignation? Who can endure the heat of his anger? His wrath is poured out like fire, and the rocks are broken into pieces by him.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Mal. 3:2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "2 Chr. 34:21; [Ps. 79:6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ezek. 38:20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.7": {
+    "text": "The Lord is good, a stronghold in the day of trouble; he knows those who take refuge in him.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 33:11; See Ps. 100:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 46:1; Isa. 25:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 1:6; John 10:14, 27; 1 Cor. 8:3; 2 Tim. 2:19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.8": {
+    "text": "But with an overflowing flood he will make a complete end of the adversaries, and will pursue his enemies into darkness.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 30:28]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 8:22",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.9": {
+    "text": "What do you plot against the Lord? He will make a complete end; trouble will not rise up a second time.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 10:7]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 4:27 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.10": {
+    "text": "For they are like entangled thorns, like drunkards as they drink; they are consumed like stubble fully dried.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Mic. 7:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Joel 2:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.11": {
+    "text": "From you came one who plotted evil against the Lord, a worthless counselor.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ver. 9; 2 Kgs. 19:22, 23 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.12": {
+    "text": "Thus says the Lord, “Though they are at full strength and many, they will be cut down and pass away. Though I have afflicted you, I will afflict you no more.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 10:33, 34; [ Isa. 37:36 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ver. 9 ; [Isa. 9:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.13": {
+    "text": "And now I will break his yoke from off you and will burst your bonds apart.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 9:4; 10:27; 14:25]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.14": {
+    "text": "The Lord has given commandment about you: “No more shall your name be perpetuated; from the house of your gods I will cut off the carved image and the metal image. I will make your grave, for you are vile.”",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ps. 109:13 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Kgs. 19:37]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 30:33 ]; See Ezek. 32:21-23",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 3:6]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.1.15": {
+    "text": "Behold, upon the mountains, the feet of him who brings good news, who publishes peace! Keep your feasts, O Judah; fulfill your vows, for never again shall the worthless pass through you; he is utterly cut off.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Isa. 52:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Rom. 10:15]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 30:29 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Num. 30:2",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 12 ]; See Joel 3:17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.1": {
+    "text": "The scatterer has come up against you. Man the ramparts; watch the road; dress for battle; collect all your strength.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Jer. 51:20 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 51:12 ]",
+        "refs": []
+      }
+    ],
+    "section": "The Destruction of Nineveh"
+  },
+  "NAM.2.2": {
+    "text": "For the Lord is restoring the majesty of Jacob as the majesty of Israel, for plunderers have plundered them and ruined their branches.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 37:31]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Ps. 80:8-13; Isa. 5:1-7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.3": {
+    "text": "The shield of his mighty men is red; his soldiers are clothed in scarlet. The chariots come with flashing metal on the day he musters them; the cypress spears are brandished.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ezek. 23:14, 15 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.4": {
+    "text": "The chariots race madly through the streets; they rush to and fro through the squares; they gleam like torches; they dart like lightning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 3:2 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.5": {
+    "text": "He remembers his officers; they stumble as they go, they hasten to the wall; the siege tower is set up.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:18",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 46:12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.6": {
+    "text": "The river gates are opened; the palace melts away;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 45:1 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 14:31]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.7": {
+    "text": "its mistress is stripped; she is carried off, her slave girls lamenting, moaning like doves and beating their breasts.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "The meaning of the Hebrew word rendered"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 22:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 38:14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.8": {
+    "text": "Nineveh is like a pool whose waters run away. “Halt! Halt!” they cry, but none turns back.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Compare Septuagint; the meaning of the Hebrew is uncertain"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See ch. 1:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 46:5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.9": {
+    "text": "Plunder the silver, plunder the gold! There is no end of the treasure or of the wealth of all precious things.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "NAM.2.10": {
+    "text": "Desolate! Desolation and ruin! Hearts melt and knees tremble; anguish is in all loins; all faces grow pale!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Zeph. 2:13-15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Ps. 22:14; Isa. 13:7",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Dan. 5:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 21:3",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Joel 2:6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.11": {
+    "text": "Where is the lions’ den, the feeding place of the young lions, where the lion and lioness went, where his cubs were, with none to disturb?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 5:29; Jer. 2:15",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See Isa. 17:2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.12": {
+    "text": "The lion tore enough for his cubs and strangled prey for his lionesses; he filled his caves with prey and his dens with torn flesh.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Ezek. 19:3 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ver. 9; ch. 3:1]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.2.13": {
+    "text": "Behold, I am against you, declares the Lord of hosts, and I will burn your chariots in smoke, and the sword shall devour your young lions. I will cut off your prey from the earth, and the voice of your messengers shall no longer be heard.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "ch. 3:5; [ Zeph. 2:5 ]; See Ezek. 13:8",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ps. 46:9]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[2 Kgs. 19:9, 23]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.1": {
+    "text": "Woe to the bloody city, all full of lies and plunder— no end to the prey!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ezek. 24:9; [Hab. 2:12]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ch. 2:12 ]",
+        "refs": []
+      }
+    ],
+    "section": "Woe to Nineveh"
+  },
+  "NAM.3.2": {
+    "text": "The crack of the whip, and rumble of the wheel, galloping horse and bounding chariot!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ch. 2:4]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Judg. 5:22 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Joel 2:5]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.3": {
+    "text": "Horsemen charging, flashing sword and glittering spear, hosts of slain, heaps of corpses, dead bodies without end— they stumble over the bodies!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hab. 3:11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ 2 Kgs. 19:35 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.4": {
+    "text": "And all for the countless whorings of the prostitute, graceful and of deadly charms, who betrays nations with her whorings, and peoples with her charms.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Rev. 17:2; 18:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Isa. 47:9, 12 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.5": {
+    "text": "Behold, I am against you, declares the Lord of hosts, and will lift up your skirts over your face; and I will make nations look at your nakedness and kingdoms at your shame.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[See ch. 2:13 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 13:22, 26; [Isa. 3:17; 47:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Hab. 2:16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.6": {
+    "text": "I will throw filth at you and treat you with contempt and make you a spectacle.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mal. 2:9; [ch. 1:14]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Heb. 10:33; [1 Cor. 4:9]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.7": {
+    "text": "And all who look at you will shrink from you and say, “Wasted is Nineveh; who will grieve for her?” Where shall I seek comforters for you?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 51:9; Rev. 18:10",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Zeph. 2:13]; See ch. 1:1",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 51:19; Jer. 15:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Lam. 1:2, 9, 16, 17, 21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.8": {
+    "text": "Are you better than Thebes that sat by the Nile, with water around her, her rampart a sea, and water her wall?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Amos 6:2 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 46:25",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Ezek. 29:3]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.9": {
+    "text": "Cush was her strength; Egypt too, and that without limit; Put and the Libyans were her helpers.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Hebrew"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "See Dan. 11:43",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Gen. 10:6",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "See 2 Chr. 12:3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.10": {
+    "text": "Yet she became an exile; she went into captivity; her infants were dashed in pieces at the head of every street; for her honored men lots were cast, and all her great men were bound in chains.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 20:4",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Isa. 13:16",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Joel 3:3; Obad. 11",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Ps. 149:8 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.11": {
+    "text": "You also will be drunken; you will go into hiding; you will seek a refuge from the enemy.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 25:17, 27; [ Ps. 75:8; Isa. 51:17; Obad. 16 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[ Jer. 4:5, 6 ]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.12": {
+    "text": "All your fortresses are like fig trees with first-ripe figs— if shaken they fall into the mouth of the eater.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Rev. 6:13]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.13": {
+    "text": "Behold, your troops are women in your midst. The gates of your land are wide open to your enemies; fire has devoured your bars.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Isa. 19:16; Jer. 51:30",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.14": {
+    "text": "Draw water for the siege; strengthen your forts; go into the clay; tread the mortar; take hold of the brick mold!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[ Isa. 22:11 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 11 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.15": {
+    "text": "There will the fire devour you; the sword will cut you off. It will devour you like the locust. Multiply yourselves like the locust; multiply like the grasshopper!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Joel 2:3]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Joel 1:4, 6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Joel 1:4, 6]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Joel 1:4, 6]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.16": {
+    "text": "You increased your merchants more than the stars of the heavens. The locust spreads its wings and flies away.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ezek. 27:23, 24]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 15 above]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.17": {
+    "text": "Your princes are like grasshoppers, your scribes like clouds of locusts settling on the fences in a day of cold— when the sun rises, they fly away; no one knows where they are.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Or"
+      },
+      {
+        "marker": "#",
+        "text": "Or"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Isa. 10:8]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[See ver. 15 above]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Jer. 51:27",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.18": {
+    "text": "Your shepherds are asleep, O king of Assyria; your nobles slumber. Your people are scattered on the mountains with none to gather them.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "[Ps. 76:5]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "ch. 2:5",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[1 Kgs. 22:17]",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "NAM.3.19": {
+    "text": "There is no easing your hurt; your wound is grievous. All who hear the news about you clap their hands over you. For upon whom has not come your unceasing evil?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer. 10:19; Mic. 1:9",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "Lam. 2:15; [ Zeph. 2:15 ]",
+        "refs": []
+      },
+      {
+        "marker": "#",
+        "text": "[Isa. 37:18]",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }

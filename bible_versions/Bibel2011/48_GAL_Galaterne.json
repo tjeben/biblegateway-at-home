@@ -1,151 +1,1668 @@
 {
-  "GAL.1.1": "Paulus, apostel, ikke utsendt av mennesker eller ved noe menneske, men av Jesus Kristus og av Gud, vår Far, som reiste ham opp fra de døde –",
-  "GAL.1.2": "jeg, Paulus, og alle mine søsken her hilser menighetene i Galatia:",
-  "GAL.1.3": "Nåde være med dere og fred fra Gud, vår Far, og Herren Jesus Kristus,",
-  "GAL.1.4": "han som ga seg selv for våre synder, så han etter Gud, vår Fars vilje kunne fri oss ut fra den onde tiden vi nå lever i.",
-  "GAL.1.5": "Ham være ære i all evighet! Amen.",
-  "GAL.1.6": "Det undrer meg at dere så raskt vender dere bort fra ham som har kalt dere ved Kristi nåde, og til et annet evangelium,",
-  "GAL.1.7": "men det finnes ikke noe annet, det er bare noen som forvirrer dere og vil forvrenge Kristi evangelium.",
-  "GAL.1.8": "Men om vi selv, ja, om en engel fra himmelen skulle forkynne dere et annet evangelium enn det vi forkynte dere, forbannet være han!",
-  "GAL.1.9": "Vi har sagt det før, og jeg gjentar det nå: Hvis noen forkynner dere et annet evangelium enn det dere har mottatt, forbannet være han!",
-  "GAL.1.10": "Prøver jeg nå å bli anerkjent av mennesker – eller av Gud? Vil jeg bare være mennesker til lags? Var det fremdeles mennesker jeg ville være til lags, da var jeg ikke Kristi tjener.",
-  "GAL.1.11": "For jeg kunngjør for dere, søsken: Det evangeliet jeg har forkynt, er ikke menneskeverk.",
-  "GAL.1.12": "Jeg har heller ikke mottatt eller lært det av noe menneske; nei, det var Jesus Kristus som åpenbarte seg for meg.",
-  "GAL.1.13": "Dere har jo hørt hvordan jeg tidligere fór fram som jøde, hvor voldsomt jeg forfulgte Guds kirke og forsøkte å utrydde den.",
-  "GAL.1.14": "Jeg gikk lenger i min jødedom enn mange jevnaldrende i mitt folk og brant enda sterkere av iver for overleveringene fra fedrene.",
-  "GAL.1.15": "Men Gud, som utvalgte meg allerede i mors liv og kalte meg ved sin nåde, besluttet i sin godhet",
-  "GAL.1.16": "å åpenbare sin Sønn for meg for at jeg skulle forkynne evangeliet om ham for folkeslagene. Da spurte jeg ikke noen av kjøtt og blod til råds.",
-  "GAL.1.17": "Jeg dro heller ikke opp til Jerusalem, til dem som var apostler før meg. I stedet reiste jeg til Arabia og vendte siden tilbake til Damaskus.",
-  "GAL.1.18": "Først tre år senere dro jeg opp til Jerusalem for å få vite mer av Kefas, og jeg ble hos ham i fjorten dager.",
-  "GAL.1.19": "Noen annen av apostlene traff jeg ikke, unntatt Jakob, Herrens bror.",
-  "GAL.1.20": "Gud vet at det jeg skriver til dere, ikke er løgn!",
-  "GAL.1.21": "Så dro jeg til Syria og Kilikia.",
-  "GAL.1.22": "Menighetene i Judea, de som er i Kristus, kjente ikke meg personlig.",
-  "GAL.1.23": "De hadde bare hørt at det ble sagt: Han som før forfulgte oss, forkynner nå selv den troen han prøvde å utrydde.",
-  "GAL.1.24": "Og de lovpriste Gud på grunn av meg.",
-  "GAL.2.1": "Fjorten år senere reiste jeg igjen opp til Jerusalem, sammen med Barnabas, og jeg tok også Titus med meg.",
-  "GAL.2.2": "Jeg reiste dit på grunn av en åpenbaring. I et eget møte med de mest ansette la jeg fram det evangeliet jeg forkynner blant folkeslagene, for jeg ville ikke løpe, eller ha løpt, forgjeves.",
-  "GAL.2.3": "Men ikke engang Titus, som var med meg, og som er greker, ble tvunget til å la seg omskjære.",
-  "GAL.2.4": "Dette kravet kom fra noen falske søsken som hadde sneket seg inn for å spionere på den friheten vi har i Kristus Jesus, så de kunne gjøre oss til slaver.",
-  "GAL.2.5": "Men ikke et øyeblikk ga vi etter og bøyde oss for dem. For vi ville at evangeliets sannhet skulle stå fast hos dere.",
-  "GAL.2.6": "Og de mest ansette – hvor store de er, betyr ingenting for meg, for Gud gjør ikke forskjell på folk – de stilte meg ikke overfor nye krav.",
-  "GAL.2.7": "Tvert imot innså de at det er betrodd meg å forkynne evangeliet for de uomskårne, slik det er betrodd Peter å forkynne for de omskårne.",
-  "GAL.2.8": "For han som gjorde Peter til apostel for de omskårne, han gjorde meg til apostel for hedningfolkene.",
-  "GAL.2.9": "Og da Jakob, Kefas og Johannes, de som blir regnet for å være selve søylene, forsto hvilken nåde jeg hadde fått, ga de meg og Barnabas hånden som tegn på fellesskap. Vi skulle gå til hedningfolkene, de skulle gå til de omskårne.",
-  "GAL.2.10": "Vi måtte bare huske på de fattige, og nettopp det har jeg lagt vinn på å gjøre.",
-  "GAL.2.11": "Men da Kefas kom til Antiokia, sa jeg ham imot rett opp i ansiktet, for oppførselen hans avslørte ham.",
-  "GAL.2.12": "Før det kom noen fra Jakob, spiste han sammen med de hedningkristne. Men da de kom, trakk han seg tilbake og holdt seg unna, for han var redd de omskårne.",
-  "GAL.2.13": "På samme måte hyklet de andre jødekristne, så til og med Barnabas ble revet med i hykleriet deres.",
-  "GAL.2.14": "Men da jeg så at de ikke gikk rett fram etter evangeliets sannhet, sa jeg til Kefas så alle hørte det: «Når du som er jøde, ikke lever som en jøde, men som en hedning, hvordan kan du da tvinge hedningene til å leve som jøder?»",
-  "GAL.2.15": "Vi er jøder av fødsel og ikke syndere av hedensk ætt.",
-  "GAL.2.16": "Men vi vet at ikke noe menneske blir rettferdig for Gud ved gjerninger som loven krever, bare ved troen på Jesus Kristus. Derfor satte også vi vår lit til Kristus Jesus, så vi skulle bli kjent rettferdige ved troen på Kristus og ikke ved lovgjerninger. For ikke noe menneske blir rettferdig ved lovgjerninger.",
-  "GAL.2.17": "Men hvis også vi jøder blir stående som syndere når vi vil bli rettferdige i Kristus, er ikke Kristus da blitt en tjener for synden? Slett ikke!",
-  "GAL.2.18": "For hvis jeg bygger opp igjen det jeg har revet ned, da fremstår jeg som lovbryter.",
-  "GAL.2.19": "Ved loven døde jeg bort fra loven, så jeg kan leve for Gud. Jeg er korsfestet med Kristus;",
-  "GAL.2.20": "jeg lever ikke lenger selv, men Kristus lever i meg. Det livet jeg nå lever som menneske av kjøtt og blod, det lever jeg i troen på Guds Sønn, som elsket meg og ga seg selv for meg.",
-  "GAL.2.21": "Jeg forkaster ikke Guds nåde. For hvis vi kan oppnå rettferdighet ved loven, da døde jo Kristus til ingen nytte.",
-  "GAL.3.1": "Uforstandige galatere! Hvem har forhekset dere, dere som har fått Jesus Kristus malt for øynene som den korsfestede?",
-  "GAL.3.2": "Svar meg på én ting: Fikk dere Ånden ved lovgjerninger eller ved å høre og tro?",
-  "GAL.3.3": "Er dere så uforstandige? Dere begynte ved Ånden, vil dere nå fullføre med kjøttet?",
-  "GAL.3.4": "Har dere opplevd alt dette forgjeves – hvis det da var forgjeves?",
-  "GAL.3.5": "Han som gir dere Ånden og gjør under blant dere, gjør han det ved lovgjerninger eller ved at dere hører og tror?",
-  "GAL.3.6": "Om Abraham heter det: Han trodde Gud, og derfor regnet Gud ham som rettferdig.",
-  "GAL.3.7": "Så forstår dere at det er de som tror, som er Abrahams barn.",
-  "GAL.3.8": "Skriften forutså at Gud ville rettferdiggjøre hedningene ved tro, og den forkynte på forhånd dette gode budskapet til Abraham: I deg skal alle folkeslag velsignes.",
-  "GAL.3.9": "Derfor blir de som tror, velsignet sammen med den troende Abraham.",
-  "GAL.3.10": "Men de som holder seg til lovgjerninger, er under forbannelse. For det står skrevet: Forbannet er hver den som ikke holder fast ved alt som står i lovboken, og gjør det den sier.",
-  "GAL.3.11": "Og det er klart at ingen blir rettferdig for Gud ved loven, for det står skrevet: Den rettferdige skal leve ved tro.",
-  "GAL.3.12": "Loven spør ikke etter tro, men sier: Den som lever etter budene, skal ha liv ved dem.",
-  "GAL.3.13": "Men Kristus kjøpte oss fri fra lovens forbannelse da han kom under forbannelse for vår skyld. For det står skrevet: Forbannet er hver den som henger på et tre.",
-  "GAL.3.14": "Slik skulle Abrahams velsignelse komme til folkeslagene i Kristus Jesus, så vi ved troen skulle få Ånden som det var gitt løfte om.",
-  "GAL.3.15": "Mine søsken, la meg ta et eksempel fra dagliglivet. Ingen kan oppheve eller forandre et gyldig testamente, enda det bare er en menneskelig pakt.",
-  "GAL.3.16": "Gud ga løftene til Abraham og hans ætt. Det står ikke «til dine ætter», som om det gjaldt mange, men det blir talt om én, «til din ætt», og det er Kristus.",
-  "GAL.3.17": "Det jeg sier, er: En pakt som Gud først har gjort gyldig, blir ikke opphevet av loven som kom 430 år senere, slik at løftet settes ut av kraft.",
-  "GAL.3.18": "Hvis arven ble gitt ved loven, er den ikke lenger gitt ved løftet. Men det var ved sitt løfte Gud skjenket arven til Abraham.",
-  "GAL.3.19": "Hva så med loven? Den ble gitt som et tillegg på grunn av våre lovbrudd, helt til den ætten kom som løftet gjaldt. Loven ble gitt ved engler, gjennom en mellommann.",
-  "GAL.3.20": "Men noen mellommann trengs ikke der det bare er én, og Gud er én.",
-  "GAL.3.21": "Strider da loven mot Guds løfter? Slett ikke! For hvis det var gitt en lov som kunne gi liv, ville vi virkelig vinne rettferdighet ved loven.",
-  "GAL.3.22": "Men Skriften har lagt alt under synden, for at de som tror på Jesus Kristus, ved sin tro kan få det som var lovet.",
-  "GAL.3.23": "Før troen kom, var vi i varetekt under loven, innestengt helt til den tro som skulle komme, ble åpenbart.",
-  "GAL.3.24": "Slik var loven vår vokter til Kristus kom, for at vi skulle bli kjent rettferdige ved tro.",
-  "GAL.3.25": "Men nå når troen er kommet, er vi ikke lenger under vokteren.",
-  "GAL.3.26": "For dere er alle Guds barn ved troen, i Kristus Jesus.",
-  "GAL.3.27": "Alle dere som er døpt til Kristus, har kledd dere i Kristus.",
-  "GAL.3.28": "Her er ikke jøde eller greker, her er ikke slave eller fri, her er ikke mann og kvinne. Dere er alle én i Kristus Jesus.",
-  "GAL.3.29": "Og hører dere Kristus til, er dere Abrahams ætt og arvinger etter løftet.",
-  "GAL.4.1": "La meg forklare dette. Så lenge en arving er umyndig, står han likt med en slave, enda han eier alt.",
-  "GAL.4.2": "Han står under formyndere og forvaltere helt til den tiden hans far har fastsatt.",
-  "GAL.4.3": "Slik er det også med oss. Da vi var umyndige, var vi slaver under grunnkreftene i verden.",
-  "GAL.4.4": "Men i tidens fylde sendte Gud sin Sønn, født av en kvinne og født under loven.",
-  "GAL.4.5": "Han skulle kjøpe fri dem som sto under loven, så vi kunne få retten til å være Guds barn.",
-  "GAL.4.6": "Fordi dere er barn, har Gud sendt sin Sønns Ånd inn i våre hjerter, og Ånden roper: «Abba, Far!»",
-  "GAL.4.7": "Derfor er du ikke lenger slave, men sønn. Og er du sønn, er du også arving, innsatt av Gud.",
-  "GAL.4.8": "Den gang dere ikke kjente Gud, var dere slaver under guder som ikke er virkelige guder.",
-  "GAL.4.9": "Men nå når dere kjenner Gud – ja, mer enn det, når dere er kjent av Gud – hvordan kan dere da vende tilbake til disse svake og fattige grunnkreftene? Vil dere slave under dem igjen?",
-  "GAL.4.10": "Dere holder nøye regnskap med dager, måneder, høytider og år!",
-  "GAL.4.11": "Jeg er redd at jeg har strevd forgjeves med dere.",
-  "GAL.4.12": "Jeg ber dere, søsken: Bli som jeg, for jeg er blitt som dere! Dere har ikke gjort urett mot meg.",
-  "GAL.4.13": "Dere vet jo at det var på grunn av en sykdom jeg fikk forkynt evangeliet for dere første gang.",
-  "GAL.4.14": "Likevel fristet ikke dette dere til å forakte eller avsky meg; nei, dere tok imot meg som en Guds engel, ja, som Kristus Jesus selv.",
-  "GAL.4.15": "Hvor er jubelen deres nå blitt av? Jeg kan bevitne at dere den gang ville ha revet ut øynene deres og gitt dem til meg, om det var mulig.",
-  "GAL.4.16": "Er jeg nå blitt en fiende fordi jeg sier dere sannheten?",
-  "GAL.4.17": "Den iver disse andre viser for dere, er ikke til det gode: De vil bare skille dere fra oss for å vinne dere som ivrige tilhengere.",
-  "GAL.4.18": "Det er godt at noen er ivrige alltid og ikke bare når jeg er hos dere. Men det må være en iver til det gode.",
-  "GAL.4.19": "Mine barn, som jeg igjen må føde med smerte til Kristus får skikkelse i dere",
-  "GAL.4.20": "– jeg skulle ønske jeg var hos dere nå og kunne bruke en annen tone når jeg snakker, for jeg vet ingen råd med dere.",
-  "GAL.4.21": "Si meg, dere som vil være under loven, hører dere ikke på loven?",
-  "GAL.4.22": "Det står jo skrevet at Abraham hadde to sønner, en med slavekvinnen og en med den frie kvinnen.",
-  "GAL.4.23": "Slavekvinnens sønn ble født etter naturens orden, den frie kvinnens sønn ble født ved Guds løfte.",
-  "GAL.4.24": "Dette har en dypere mening. Kvinnene står nemlig for to pakter. Den ene, Hagar, er pakten fra Sinai-fjellet; hennes barn blir født til slaveri.",
-  "GAL.4.25": "Hagar er Sinai-fjellet i Arabia og svarer til det nåværende Jerusalem, som lever i slaveri med sine barn.",
-  "GAL.4.26": "Men det Jerusalem som er i det høye, er fritt, og det er vår mor. For det står skrevet:",
-  "GAL.4.27": "Gled deg, du barnløse, som ikke fødte, bryt ut i jubel, du som ikke fikk rier. For den enslige kvinnen har flere barn enn hun som har mann.",
-  "GAL.4.28": "Og dere, søsken, er barn ut fra løftet, slik som Isak.",
-  "GAL.4.29": "Men han som var født etter naturens orden, forfulgte den gang ham som var født ved Ånden, og slik er det også nå.",
-  "GAL.4.30": "Men hva sier Skriften? Driv bort slavekvinnen og sønnen hennes! For slavekvinnens sønn skal ikke arve sammen med den frie kvinnens sønn.",
-  "GAL.4.31": "Altså, søsken, er vi ikke barn av slavekvinnen, men av den frie kvinnen.",
-  "GAL.5.1": "Til frihet har Kristus frigjort oss. Stå derfor fast og la dere ikke tvinge inn under slaveåket igjen.",
-  "GAL.5.2": "Hør hva jeg, Paulus, sier dere: Hvis dere lar dere omskjære, vil ikke Kristus være til minste hjelp for dere.",
-  "GAL.5.3": "Jeg erklærer igjen: Hver den som lar seg omskjære, er forpliktet til å holde hele loven.",
-  "GAL.5.4": "Dere som vil bli rettferdige ved loven, er skilt fra Kristus; dere er falt ut av nåden.",
-  "GAL.5.5": "Men vi venter i Ånden, ved tro, på den rettferdigheten som er vårt håp.",
-  "GAL.5.6": "For i Kristus Jesus kommer det ikke an på om en er omskåret eller uomskåret; her gjelder bare tro som er virksom i kjærlighet.",
-  "GAL.5.7": "Dere begynte løpet godt. Hvem er det som har hindret dere i å være lydige mot sannheten?",
-  "GAL.5.8": "Hvem har overtalt dere? Ikke han som kalte dere!",
-  "GAL.5.9": "Litt surdeig gjennomsyrer hele deigen.",
-  "GAL.5.10": "Men i Herren stoler jeg på at dere ikke vil tenke annerledes enn jeg gjør. Den som forvirrer dere, skal få sin dom, hvem det så er.",
-  "GAL.5.11": "Hvis jeg fremdeles forkynner omskjærelsen, søsken, hvorfor blir jeg da forfulgt? Da er ikke korset lenger noen snublestein.",
-  "GAL.5.12": "Må de bare skjære av seg alt sammen, disse som sprer uro blant dere!",
-  "GAL.5.13": "Dere, søsken, er kalt til frihet. La bare ikke friheten bli et påskudd for det som kjøtt og blod vil, men tjen hverandre i kjærlighet.",
-  "GAL.5.14": "For hele loven blir oppfylt i dette ene budet: Du skal elske din neste som deg selv.",
-  "GAL.5.15": "Men når dere biter og glefser etter hverandre, så pass dere, så dere ikke eter hverandre opp!",
-  "GAL.5.16": "Jeg sier dere: Lev et liv i Ånden! Da følger dere ikke begjæret i menneskets kjøtt og blod.",
-  "GAL.5.17": "For kjøttets begjær står imot Ånden, og Åndens begjær står imot kjøttet. Disse ligger i strid med hverandre, så dere ikke kan gjøre det dere vil.",
-  "GAL.5.18": "Men blir dere drevet av Ånden, er dere ikke under loven.",
-  "GAL.5.19": "Det er klart hva slags gjerninger som kommer fra kjøttet: hor, umoral, utskeielser,",
-  "GAL.5.20": "avgudsdyrkelse, trolldom, fiendskap, strid, sjalusi, sinne, selvhevdelse, stridigheter, splittelser,",
-  "GAL.5.21": "misunnelse, fyll, festing og mer av samme slag. Jeg har sagt det før, og jeg sier det igjen: De som driver med slikt, skal ikke arve Guds rike.",
-  "GAL.5.22": "Men Åndens frukt er kjærlighet, glede, fred, overbærenhet, vennlighet, godhet, trofasthet,",
-  "GAL.5.23": "ydmykhet og selvbeherskelse. Slike ting rammes ikke av loven!",
-  "GAL.5.24": "De som hører Kristus til, har korsfestet kjøttet med dets lidenskaper og begjær.",
-  "GAL.5.25": "Lever vi ved Ånden, så la oss også vandre i Ånden.",
-  "GAL.5.26": "La oss ikke være drevet av tom ærgjerrighet så vi utfordrer og misunner hverandre.",
-  "GAL.6.1": "Mine søsken, hvis en av dere blir grepet i et feiltrinn, må dere som har Ånden, hjelpe ham til rette. Men gjør det med et ydmykt sinn og pass deg selv, så ikke du også blir fristet.",
-  "GAL.6.2": "Bær byrdene for hverandre og oppfyll på den måten Kristi lov.",
-  "GAL.6.3": "De som tror de er noe selv om de ingenting er, bedrar seg selv.",
-  "GAL.6.4": "Hver og en skal bedømme det han selv har gjort, og få ros for sin egen innsats, ikke for det andre har gjort.",
-  "GAL.6.5": "For enhver skal bære sin egen bør.",
-  "GAL.6.6": "Den som får opplæring i Ordet, skal dele alt godt med sin lærer.",
-  "GAL.6.7": "Far ikke vill! Gud lar seg ikke spotte. Det et menneske sår, skal det også høste.",
-  "GAL.6.8": "Den som sår i sitt eget kjøtt, høster fordervelse av kjøttet; men den som sår i Ånden, høster evig liv av Ånden.",
-  "GAL.6.9": "La oss ikke bli trette mens vi gjør det gode. Når tiden er inne, skal vi høste, bare vi ikke gir opp.",
-  "GAL.6.10": "Så la oss gjøre godt mot alle så lenge det er tid, og mest mot dem som er vår familie i troen.",
-  "GAL.6.11": "Se hvor store bokstaver jeg bruker når jeg egenhendig skriver dette til dere:",
-  "GAL.6.12": "De som vil tvinge dere til å omskjæres, er slike som vil ta seg godt ut blant mennesker, så de slipper å bli forfulgt på grunn av Kristi kors.",
-  "GAL.6.13": "De som lar seg omskjære, holder ikke selv loven. Likevel vil de at dere skal bli omskåret, så de kan være stolte av det som er gjort med kroppen deres.",
-  "GAL.6.14": "Men jeg vil aldri være stolt av noe annet enn vår Herre Jesu Kristi kors. Ved det er verden blitt korsfestet for meg og jeg for verden.",
-  "GAL.6.15": "For det som betyr noe, er ikke å være omskåret eller uomskåret, men å være en ny skapning.",
-  "GAL.6.16": "Alle som følger denne rettesnoren – fred og barmhjertighet være med dem og med Guds Israel!",
-  "GAL.6.17": "Heretter må ingen plage meg mer, for jeg bærer Jesu merker på kroppen min.",
-  "GAL.6.18": "Vår Herre Jesu Kristi nåde være med deres ånd, mine søsken! Amen."
+  "GAL.1.1": {
+    "text": "Paulus, apostel, ikke utsendt av mennesker eller ved noe menneske, men av Jesus Kristus og av Gud, vår Far, som reiste ham opp fra de døde –",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 22,21+; Gal 1,11f",
+        "refs": []
+      }
+    ],
+    "section": "Hilsen"
+  },
+  "GAL.1.2": {
+    "text": "jeg, Paulus, og alle mine søsken her hilser menighetene i Galatia:",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "medkristne i Efesos."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.1.3": {
+    "text": "Nåde være med dere og fred fra Gud, vår Far, og Herren Jesus Kristus,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.1.4": {
+    "text": "han som ga seg selv for våre synder, så han etter Gud, vår Fars vilje kunne fri oss ut fra den onde tiden vi nå lever i.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Tit 2,14; 1 Joh 5,19",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.5": {
+    "text": "Ham være ære i all evighet! Amen.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "hebr. for «det står fast», «det er sikkert og sant». =amen."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 16,27; Ef 3,1; 1 Tim 1,17; 2 Tim 4,18; Jud 25",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.6": {
+    "text": "Det undrer meg at dere så raskt vender dere bort fra ham som har kalt dere ved Kristi nåde, og til et annet evangelium,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Bare ett evangelium"
+  },
+  "GAL.1.7": {
+    "text": "men det finnes ikke noe annet, det er bare noen som forvirrer dere og vil forvrenge Kristi evangelium.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 15,1.24",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.8": {
+    "text": "Men om vi selv, ja, om en engel fra himmelen skulle forkynne dere et annet evangelium enn det vi forkynte dere, forbannet være han!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Tilsvarende forbannelsesformler finnes i andre jødiske, kristne og gresk-romerske tekster og brukes om personer eller ting som er under Guds forbannelse eller vrede. Jf. Rom 9,3; 1 Kor 12,3; 16,22."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 16,22; 2 Kor 11,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.9": {
+    "text": "Vi har sagt det før, og jeg gjentar det nå: Hvis noen forkynner dere et annet evangelium enn det dere har mottatt, forbannet være han!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 11,23; 15,1; Fil 4,9; 1 Tess 2,13; 2 Tess 3,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.10": {
+    "text": "Prøver jeg nå å bli anerkjent av mennesker – eller av Gud? Vil jeg bare være mennesker til lags? Var det fremdeles mennesker jeg ville være til lags, da var jeg ikke Kristi tjener.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tess 2,4",
+        "refs": []
+      }
+    ],
+    "section": "Paulus' apostelkall"
+  },
+  "GAL.1.11": {
+    "text": "For jeg kunngjør for dere, søsken: Det evangeliet jeg har forkynt, er ikke menneskeverk.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tess 2,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.12": {
+    "text": "Jeg har heller ikke mottatt eller lært det av noe menneske; nei, det var Jesus Kristus som åpenbarte seg for meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.13": {
+    "text": "Dere har jo hørt hvordan jeg tidligere fór fram som jøde, hvor voldsomt jeg forfulgte Guds kirke og forsøkte å utrydde den.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 8,3; 9,1f; 22,4ff; 26,9ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.14": {
+    "text": "Jeg gikk lenger i min jødedom enn mange jevnaldrende i mitt folk og brant enda sterkere av iver for overleveringene fra fedrene.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 22,3; Fil 3,5f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.15": {
+    "text": "Men Gud, som utvalgte meg allerede i mors liv og kalte meg ved sin nåde, besluttet i sin godhet",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "andre håndskrifter har «han som»."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jer 1,5; Rom 1,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.16": {
+    "text": "å åpenbare sin Sønn for meg for at jeg skulle forkynne evangeliet om ham for folkeslagene. Da spurte jeg ikke noen av kjøtt og blod til råds.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 16,17; Apg 22,21+; Gal 2,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.17": {
+    "text": "Jeg dro heller ikke opp til Jerusalem, til dem som var apostler før meg. I stedet reiste jeg til Arabia og vendte siden tilbake til Damaskus.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "områdene like øst og sør for Judea."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.1.18": {
+    "text": "Først tre år senere dro jeg opp til Jerusalem for å få vite mer av Kefas, og jeg ble hos ham i fjorten dager.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "apostelen Peter."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 16,18+; Apg 9,26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.19": {
+    "text": "Noen annen av apostlene traff jeg ikke, unntatt Jakob, Herrens bror.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "en av Jesu brødre, fra midten av 40-tallet e.Kr. leder for menigheten i Jerusalem."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 13,55",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.20": {
+    "text": "Gud vet at det jeg skriver til dere, ikke er løgn!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.1.21": {
+    "text": "Så dro jeg til Syria og Kilikia.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 9,30",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.22": {
+    "text": "Menighetene i Judea, de som er i Kristus, kjente ikke meg personlig.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.1.23": {
+    "text": "De hadde bare hørt at det ble sagt: Han som før forfulgte oss, forkynner nå selv den troen han prøvde å utrydde.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 9,21; Gal 1,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.1.24": {
+    "text": "Og de lovpriste Gud på grunn av meg.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.2.1": {
+    "text": "Fjorten år senere reiste jeg igjen opp til Jerusalem, sammen med Barnabas, og jeg tok også Titus med meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 15,2",
+        "refs": []
+      }
+    ],
+    "section": "Paulus blir anerkjent"
+  },
+  "GAL.2.2": {
+    "text": "Jeg reiste dit på grunn av en åpenbaring. I et eget møte med de mest ansette la jeg fram det evangeliet jeg forkynner blant folkeslagene, for jeg ville ikke løpe, eller ha løpt, forgjeves.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "…"
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 2,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.3": {
+    "text": "Men ikke engang Titus, som var med meg, og som er greker, ble tvunget til å la seg omskjære.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 2,13; 7,5ff.13ff; 8,6.16.23; 12,18; Gal 2,1; 2 Tim 4,3; Tit 1,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.4": {
+    "text": "Dette kravet kom fra noen falske søsken som hadde sneket seg inn for å spionere på den friheten vi har i Kristus Jesus, så de kunne gjøre oss til slaver.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 15,1.24; Gal 5,1.13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.5": {
+    "text": "Men ikke et øyeblikk ga vi etter og bøyde oss for dem. For vi ville at evangeliets sannhet skulle stå fast hos dere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.2.6": {
+    "text": "Og de mest ansette – hvor store de er, betyr ingenting for meg, for Gud gjør ikke forskjell på folk – de stilte meg ikke overfor nye krav.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 10,17; 2 Krøn 19,7; Apg 10,34; Rom 2,11; Ef 6,9; Kol 3,25; 1 Pet 1,17",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.7": {
+    "text": "Tvert imot innså de at det er betrodd meg å forkynne evangeliet for de uomskårne, slik det er betrodd Peter å forkynne for de omskårne.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.2.8": {
+    "text": "For han som gjorde Peter til apostel for de omskårne, han gjorde meg til apostel for hedningfolkene.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.2.9": {
+    "text": "Og da Jakob, Kefas og Johannes, de som blir regnet for å være selve søylene, forsto hvilken nåde jeg hadde fått, ga de meg og Barnabas hånden som tegn på fellesskap. Vi skulle gå til hedningfolkene, de skulle gå til de omskårne.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "brukt om religiøse ledere, ordet er også kjent fra rabbinsk tradisjon."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.2.10": {
+    "text": "Vi måtte bare huske på de fattige, og nettopp det har jeg lagt vinn på å gjøre.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "menigheten i Jerusalem. Jf. Rom 15,26."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 24,17; Rom 15,25ff; 1 Kor 16,1; 2 Kor 8–9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.11": {
+    "text": "Men da Kefas kom til Antiokia, sa jeg ham imot rett opp i ansiktet, for oppførselen hans avslørte ham.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Både jøder og hedninger"
+  },
+  "GAL.2.12": {
+    "text": "Før det kom noen fra Jakob, spiste han sammen med de hedningkristne. Men da de kom, trakk han seg tilbake og holdt seg unna, for han var redd de omskårne.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "fra menigheten i Jerusalem, der Jakob, Jesu bror, var leder."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 10,28; 11,2f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.13": {
+    "text": "På samme måte hyklet de andre jødekristne, så til og med Barnabas ble revet med i hykleriet deres.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.2.14": {
+    "text": "Men da jeg så at de ikke gikk rett fram etter evangeliets sannhet, sa jeg til Kefas så alle hørte det: «Når du som er jøde, ikke lever som en jøde, men som en hedning, hvordan kan du da tvinge hedningene til å leve som jøder?»",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 5,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.15": {
+    "text": "Vi er jøder av fødsel og ikke syndere av hedensk ætt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.2.16": {
+    "text": "Men vi vet at ikke noe menneske blir rettferdig for Gud ved gjerninger som loven krever, bare ved troen på Jesus Kristus. Derfor satte også vi vår lit til Kristus Jesus, så vi skulle bli kjent rettferdige ved troen på Kristus og ikke ved lovgjerninger. For ikke noe menneske blir rettferdig ved lovgjerninger.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 143,2; Rom 3,20.28; 4,5; Gal 3,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.17": {
+    "text": "Men hvis også vi jøder blir stående som syndere når vi vil bli rettferdige i Kristus, er ikke Kristus da blitt en tjener for synden? Slett ikke!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.2.18": {
+    "text": "For hvis jeg bygger opp igjen det jeg har revet ned, da fremstår jeg som lovbryter.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.2.19": {
+    "text": "Ved loven døde jeg bort fra loven, så jeg kan leve for Gud. Jeg er korsfestet med Kristus;",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 7,1ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.20": {
+    "text": "jeg lever ikke lenger selv, men Kristus lever i meg. Det livet jeg nå lever som menneske av kjøtt og blod, det lever jeg i troen på Guds Sønn, som elsket meg og ga seg selv for meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 15,13; Rom 6,3f; Gal 5,24; Fil 1,21; 1 Joh 3,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.2.21": {
+    "text": "Jeg forkaster ikke Guds nåde. For hvis vi kan oppnå rettferdighet ved loven, da døde jo Kristus til ingen nytte.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.3.1": {
+    "text": "Uforstandige galatere! Hvem har forhekset dere, dere som har fått Jesus Kristus malt for øynene som den korsfestede?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Luk 24,25; 1 Kor 2,2",
+        "refs": []
+      }
+    ],
+    "section": "Lov eller tro"
+  },
+  "GAL.3.2": {
+    "text": "Svar meg på én ting: Fikk dere Ånden ved lovgjerninger eller ved å høre og tro?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 11,17; Gal 4,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.3": {
+    "text": "Er dere så uforstandige? Dere begynte ved Ånden, vil dere nå fullføre med kjøttet?",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "=kjøtt, kjøtt og blod."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.3.4": {
+    "text": "Har dere opplevd alt dette forgjeves – hvis det da var forgjeves?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.3.5": {
+    "text": "Han som gir dere Ånden og gjør under blant dere, gjør han det ved lovgjerninger eller ved at dere hører og tror?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.3.6": {
+    "text": "Om Abraham heter det: Han trodde Gud, og derfor regnet Gud ham som rettferdig.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 15,6; Rom 4,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.7": {
+    "text": "Så forstår dere at det er de som tror, som er Abrahams barn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 4,11f.16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.8": {
+    "text": "Skriften forutså at Gud ville rettferdiggjøre hedningene ved tro, og den forkynte på forhånd dette gode budskapet til Abraham: I deg skal alle folkeslag velsignes.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "=evangelium."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 12,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.9": {
+    "text": "Derfor blir de som tror, velsignet sammen med den troende Abraham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 4,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.10": {
+    "text": "Men de som holder seg til lovgjerninger, er under forbannelse. For det står skrevet: Forbannet er hver den som ikke holder fast ved alt som står i lovboken, og gjør det den sier.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 27,26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.11": {
+    "text": "Og det er klart at ingen blir rettferdig for Gud ved loven, for det står skrevet: Den rettferdige skal leve ved tro.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hab 2,4; Rom 1,17; Gal 2,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.12": {
+    "text": "Loven spør ikke etter tro, men sier: Den som lever etter budene, skal ha liv ved dem.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3 Mos 18,5; Luk 10,28+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.13": {
+    "text": "Men Kristus kjøpte oss fri fra lovens forbannelse da han kom under forbannelse for vår skyld. For det står skrevet: Forbannet er hver den som henger på et tre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5 Mos 21,23; Rom 8,3+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.14": {
+    "text": "Slik skulle Abrahams velsignelse komme til folkeslagene i Kristus Jesus, så vi ved troen skulle få Ånden som det var gitt løfte om.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 12,3; Apg 2,33",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.15": {
+    "text": "Mine søsken, la meg ta et eksempel fra dagliglivet. Ingen kan oppheve eller forandre et gyldig testamente, enda det bare er en menneskelig pakt.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [],
+    "section": "Løftet står over loven"
+  },
+  "GAL.3.16": {
+    "text": "Gud ga løftene til Abraham og hans ætt. Det står ikke «til dine ætter», som om det gjaldt mange, men det blir talt om én, «til din ætt», og det er Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 12,7; 13,15; 17,7; 24,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.17": {
+    "text": "Det jeg sier, er: En pakt som Gud først har gjort gyldig, blir ikke opphevet av loven som kom 430 år senere, slik at løftet settes ut av kraft.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Tallet nevnes i 2 Mos 12,40 og angir der den tiden israelittene bodde i Egypt."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.3.18": {
+    "text": "Hvis arven ble gitt ved loven, er den ikke lenger gitt ved løftet. Men det var ved sitt løfte Gud skjenket arven til Abraham.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 4,13f; 11,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.19": {
+    "text": "Hva så med loven? Den ble gitt som et tillegg på grunn av våre lovbrudd, helt til den ætten kom som løftet gjaldt. Loven ble gitt ved engler, gjennom en mellommann.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Apg 7,38.53; Rom 4,15+; Hebr 2,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.20": {
+    "text": "Men noen mellommann trengs ikke der det bare er én, og Gud er én.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.3.21": {
+    "text": "Strider da loven mot Guds løfter? Slett ikke! For hvis det var gitt en lov som kunne gi liv, ville vi virkelig vinne rettferdighet ved loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 8,2ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.22": {
+    "text": "Men Skriften har lagt alt under synden, for at de som tror på Jesus Kristus, ved sin tro kan få det som var lovet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 3,9ff; 11,32",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.23": {
+    "text": "Før troen kom, var vi i varetekt under loven, innestengt helt til den tro som skulle komme, ble åpenbart.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hebr 9,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.24": {
+    "text": "Slik var loven vår vokter til Kristus kom, for at vi skulle bli kjent rettferdige ved tro.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "betegnelse for slave som fulgte barna i huset til skolen, eller som selv ga dem elementærundervisning og hjalp til med å oppdra dem."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 3,24+; 10,4",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.25": {
+    "text": "Men nå når troen er kommet, er vi ikke lenger under vokteren.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.3.26": {
+    "text": "For dere er alle Guds barn ved troen, i Kristus Jesus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 1,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.27": {
+    "text": "Alle dere som er døpt til Kristus, har kledd dere i Kristus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 6,3f; 13,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.28": {
+    "text": "Her er ikke jøde eller greker, her er ikke slave eller fri, her er ikke mann og kvinne. Dere er alle én i Kristus Jesus.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 17,21; Rom 10,12; 1 Kor 12,13; Kol 3,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.3.29": {
+    "text": "Og hører dere Kristus til, er dere Abrahams ætt og arvinger etter løftet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 4,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.1": {
+    "text": "La meg forklare dette. Så lenge en arving er umyndig, står han likt med en slave, enda han eier alt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.2": {
+    "text": "Han står under formyndere og forvaltere helt til den tiden hans far har fastsatt.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.3": {
+    "text": "Slik er det også med oss. Da vi var umyndige, var vi slaver under grunnkreftene i verden.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "makter som ble tilbedt og dyrket i hedenske religioner; de ble ofte satt i forbindelse med naturkrefter, særlig de fire grunnelementene jord, vann, luft og ild, og med himmellegemer. Jf. Kol 2,8.20."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.4": {
+    "text": "Men i tidens fylde sendte Gud sin Sønn, født av en kvinne og født under loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Mark 1,15; Joh 1,14; Rom 1,3; Ef 1,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.5": {
+    "text": "Han skulle kjøpe fri dem som sto under loven, så vi kunne få retten til å være Guds barn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3,13.26",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.6": {
+    "text": "Fordi dere er barn, har Gud sendt sin Sønns Ånd inn i våre hjerter, og Ånden roper: «Abba, Far!»",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "aram. for «far». En slik måte å tiltale Gud på er uten paralleller i jødisk bønnespråk. Jf. Mark 14,36; Rom 8,15ff."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.7": {
+    "text": "Derfor er du ikke lenger slave, men sønn. Og er du sønn, er du også arving, innsatt av Gud.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3,29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.8": {
+    "text": "Den gang dere ikke kjente Gud, var dere slaver under guder som ikke er virkelige guder.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 37,19; 1 Kor 8,4ff; 12,2+",
+        "refs": []
+      }
+    ],
+    "section": "Paulus har omsorg for galaterne"
+  },
+  "GAL.4.9": {
+    "text": "Men nå når dere kjenner Gud – ja, mer enn det, når dere er kjent av Gud – hvordan kan dere da vende tilbake til disse svake og fattige grunnkreftene? Vil dere slave under dem igjen?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Kol 2,20",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.10": {
+    "text": "Dere holder nøye regnskap med dager, måneder, høytider og år!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "sikter til jødisk sabbatspraksis og festkalender. Jf. Rom 14,5."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 14,5; Kol 2,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.11": {
+    "text": "Jeg er redd at jeg har strevd forgjeves med dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 2,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.12": {
+    "text": "Jeg ber dere, søsken: Bli som jeg, for jeg er blitt som dere! Dere har ikke gjort urett mot meg.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 9,21; 11,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.13": {
+    "text": "Dere vet jo at det var på grunn av en sykdom jeg fikk forkynt evangeliet for dere første gang.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.14": {
+    "text": "Likevel fristet ikke dette dere til å forakte eller avsky meg; nei, dere tok imot meg som en Guds engel, ja, som Kristus Jesus selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 10,40",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.15": {
+    "text": "Hvor er jubelen deres nå blitt av? Jeg kan bevitne at dere den gang ville ha revet ut øynene deres og gitt dem til meg, om det var mulig.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.16": {
+    "text": "Er jeg nå blitt en fiende fordi jeg sier dere sannheten?",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Am 5,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.17": {
+    "text": "Den iver disse andre viser for dere, er ikke til det gode: De vil bare skille dere fra oss for å vinne dere som ivrige tilhengere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.18": {
+    "text": "Det er godt at noen er ivrige alltid og ikke bare når jeg er hos dere. Men det må være en iver til det gode.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.19": {
+    "text": "Mine barn, som jeg igjen må føde med smerte til Kristus får skikkelse i dere",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 4,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.20": {
+    "text": "– jeg skulle ønske jeg var hos dere nå og kunne bruke en annen tone når jeg snakker, for jeg vet ingen råd med dere.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.21": {
+    "text": "Si meg, dere som vil være under loven, hører dere ikke på loven?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Den gamle og den nye pakt"
+  },
+  "GAL.4.22": {
+    "text": "Det står jo skrevet at Abraham hadde to sønner, en med slavekvinnen og en med den frie kvinnen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 16,15; 21,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.23": {
+    "text": "Slavekvinnens sønn ble født etter naturens orden, den frie kvinnens sønn ble født ved Guds løfte.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 17,16; Rom 9,7ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.24": {
+    "text": "Dette har en dypere mening. Kvinnene står nemlig for to pakter. Den ene, Hagar, er pakten fra Sinai-fjellet; hennes barn blir født til slaveri.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.25": {
+    "text": "Hagar er Sinai-fjellet i Arabia og svarer til det nåværende Jerusalem, som lever i slaveri med sine barn.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "…"
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.4.26": {
+    "text": "Men det Jerusalem som er i det høye, er fritt, og det er vår mor. For det står skrevet:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Hebr 12,22; Åp 3,12; 21,2.10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.27": {
+    "text": "Gled deg, du barnløse, som ikke fødte, bryt ut i jubel, du som ikke fikk rier. For den enslige kvinnen har flere barn enn hun som har mann.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Jes 54,1",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.28": {
+    "text": "Og dere, søsken, er barn ut fra løftet, slik som Isak.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3,29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.29": {
+    "text": "Men han som var født etter naturens orden, forfulgte den gang ham som var født ved Ånden, og slik er det også nå.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 21,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.30": {
+    "text": "Men hva sier Skriften? Driv bort slavekvinnen og sønnen hennes! For slavekvinnens sønn skal ikke arve sammen med den frie kvinnens sønn.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Mos 21,10; Joh 8,35",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.4.31": {
+    "text": "Altså, søsken, er vi ikke barn av slavekvinnen, men av den frie kvinnen.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.5.1": {
+    "text": "Til frihet har Kristus frigjort oss. Stå derfor fast og la dere ikke tvinge inn under slaveåket igjen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 8,36; Apg 15,10; Gal 2,4; 5,13",
+        "refs": []
+      }
+    ],
+    "section": "Frihet i Kristus"
+  },
+  "GAL.5.2": {
+    "text": "Hør hva jeg, Paulus, sier dere: Hvis dere lar dere omskjære, vil ikke Kristus være til minste hjelp for dere.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2,21",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.3": {
+    "text": "Jeg erklærer igjen: Hver den som lar seg omskjære, er forpliktet til å holde hele loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3,10",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.4": {
+    "text": "Dere som vil bli rettferdige ved loven, er skilt fra Kristus; dere er falt ut av nåden.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.5.5": {
+    "text": "Men vi venter i Ånden, ved tro, på den rettferdigheten som er vårt håp.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.5.6": {
+    "text": "For i Kristus Jesus kommer det ikke an på om en er omskåret eller uomskåret; her gjelder bare tro som er virksom i kjærlighet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 7,19; Gal 6,15",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.7": {
+    "text": "Dere begynte løpet godt. Hvem er det som har hindret dere i å være lydige mot sannheten?",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.5.8": {
+    "text": "Hvem har overtalt dere? Ikke han som kalte dere!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.5.9": {
+    "text": "Litt surdeig gjennomsyrer hele deigen.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Ved baking tok man vare på en liten klump av den gjærede deigen (surdeig). Neste gang man skulle bake, ble klumpen knadd inn i den nye deigen for å få den til å heve seg."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 5,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.10": {
+    "text": "Men i Herren stoler jeg på at dere ikke vil tenke annerledes enn jeg gjør. Den som forvirrer dere, skal få sin dom, hvem det så er.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1,6f",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.11": {
+    "text": "Hvis jeg fremdeles forkynner omskjærelsen, søsken, hvorfor blir jeg da forfulgt? Da er ikke korset lenger noen snublestein.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 1,23",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.12": {
+    "text": "Må de bare skjære av seg alt sammen, disse som sprer uro blant dere!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Uttrykket brukes om kastrering. >Matt 19,12."
+      }
+    ],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.5.13": {
+    "text": "Dere, søsken, er kalt til frihet. La bare ikke friheten bli et påskudd for det som kjøtt og blod vil, men tjen hverandre i kjærlighet.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": ""
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 6,18.22; 1 Kor 8,9; Gal 5,16; 1 Pet 2,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.14": {
+    "text": "For hele loven blir oppfylt i dette ene budet: Du skal elske din neste som deg selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3 Mos 19,18; Rom 13,8ff+",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.15": {
+    "text": "Men når dere biter og glefser etter hverandre, så pass dere, så dere ikke eter hverandre opp!",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.5.16": {
+    "text": "Jeg sier dere: Lev et liv i Ånden! Da følger dere ikke begjæret i menneskets kjøtt og blod.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": "Livet i Ånden"
+  },
+  "GAL.5.17": {
+    "text": "For kjøttets begjær står imot Ånden, og Åndens begjær står imot kjøttet. Disse ligger i strid med hverandre, så dere ikke kan gjøre det dere vil.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 7,15–25; 8,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.18": {
+    "text": "Men blir dere drevet av Ånden, er dere ikke under loven.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 6,14; 8,14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.19": {
+    "text": "Det er klart hva slags gjerninger som kommer fra kjøttet: hor, umoral, utskeielser,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Versene inneholder en lastekatalog, en oppregning av holdninger og handlinger som strider mot kristen tro og liv. =kataloger."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Matt 15,19; Rom 1,29ff; 13,13; 1 Kor 5,10f; 6,9f; 2 Kor 12,20; Ef 5,3ff; Kol 3,5ff; 1 Tim 1,9f; 2 Tim 3,2ff",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.20": {
+    "text": "avgudsdyrkelse, trolldom, fiendskap, strid, sjalusi, sinne, selvhevdelse, stridigheter, splittelser,",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.5.21": {
+    "text": "misunnelse, fyll, festing og mer av samme slag. Jeg har sagt det før, og jeg sier det igjen: De som driver med slikt, skal ikke arve Guds rike.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.5.22": {
+    "text": "Men Åndens frukt er kjærlighet, glede, fred, overbærenhet, vennlighet, godhet, trofasthet,",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Versene inneholder en dydskatalog. =kataloger."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Ef 5,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.23": {
+    "text": "ydmykhet og selvbeherskelse. Slike ting rammes ikke av loven!",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Tim 1,9",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.24": {
+    "text": "De som hører Kristus til, har korsfestet kjøttet med dets lidenskaper og begjær.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 6,6; Kol 3,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.25": {
+    "text": "Lever vi ved Ånden, så la oss også vandre i Ånden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 8,5; Gal 5,16",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.5.26": {
+    "text": "La oss ikke være drevet av tom ærgjerrighet så vi utfordrer og misunner hverandre.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 2,3",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.1": {
+    "text": "Mine søsken, hvis en av dere blir grepet i et feiltrinn, må dere som har Ånden, hjelpe ham til rette. Men gjør det med et ydmykt sinn og pass deg selv, så ikke du også blir fristet.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "3 Mos 19,17f; Matt 18,15ff; Luk 17,3; Jak 5,19f",
+        "refs": []
+      }
+    ],
+    "section": "Ansvar for andre og for seg selv"
+  },
+  "GAL.6.2": {
+    "text": "Bær byrdene for hverandre og oppfyll på den måten Kristi lov.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Joh 15,12; Rom 15,1; 2 Kor 11,29",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.3": {
+    "text": "De som tror de er noe selv om de ingenting er, bedrar seg selv.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 4,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.4": {
+    "text": "Hver og en skal bedømme det han selv har gjort, og få ros for sin egen innsats, ikke for det andre har gjort.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 13,5",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.5": {
+    "text": "For enhver skal bære sin egen bør.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 14,12",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.6": {
+    "text": "Den som får opplæring i Ordet, skal dele alt godt med sin lærer.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 9,11.14",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.7": {
+    "text": "Far ikke vill! Gud lar seg ikke spotte. Det et menneske sår, skal det også høste.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.6.8": {
+    "text": "Den som sår i sitt eget kjøtt, høster fordervelse av kjøttet; men den som sår i Ånden, høster evig liv av Ånden.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "=kjøtt, kjøtt og blod."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Rom 8,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.9": {
+    "text": "La oss ikke bli trette mens vi gjør det gode. Når tiden er inne, skal vi høste, bare vi ikke gir opp.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Tess 3,13",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.10": {
+    "text": "Så la oss gjøre godt mot alle så lenge det er tid, og mest mot dem som er vår familie i troen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Pet 1,7",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.11": {
+    "text": "Se hvor store bokstaver jeg bruker når jeg egenhendig skriver dette til dere:",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 16,21; Kol 4,18; 2 Tess 3,17; Filem 19",
+        "refs": []
+      }
+    ],
+    "section": "Avslutning"
+  },
+  "GAL.6.12": {
+    "text": "De som vil tvinge dere til å omskjæres, er slike som vil ta seg godt ut blant mennesker, så de slipper å bli forfulgt på grunn av Kristi kors.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "5,11",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.13": {
+    "text": "De som lar seg omskjære, holder ikke selv loven. Likevel vil de at dere skal bli omskåret, så de kan være stolte av det som er gjort med kroppen deres.",
+    "footnotes": [],
+    "xrefs": [],
+    "section": null
+  },
+  "GAL.6.14": {
+    "text": "Men jeg vil aldri være stolt av noe annet enn vår Herre Jesu Kristi kors. Ved det er verden blitt korsfestet for meg og jeg for verden.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "1 Kor 1,23.31; 2,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.15": {
+    "text": "For det som betyr noe, er ikke å være omskåret eller uomskåret, men å være en ny skapning.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 5,17; Gal 5,6; Ef 4,24",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.16": {
+    "text": "Alle som følger denne rettesnoren – fred og barmhjertighet være med dem og med Guds Israel!",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Det gr. ordet betyr «rør» og «målestokk», i overført betydning «ordning» eller «regel»."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Sal 125,5; 128,6",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.17": {
+    "text": "Heretter må ingen plage meg mer, for jeg bærer Jesu merker på kroppen min.",
+    "footnotes": [
+      {
+        "marker": "#",
+        "text": "Slaver bar sin herres merke. De merker Paulus bærer etter mishandling og sykdom, viser at han er Jesu tjener."
+      }
+    ],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "2 Kor 4,7ff; Ef 3,13; Fil 3,10; Kol 1,24; Jak 1,2",
+        "refs": []
+      }
+    ],
+    "section": null
+  },
+  "GAL.6.18": {
+    "text": "Vår Herre Jesu Kristi nåde være med deres ånd, mine søsken! Amen.",
+    "footnotes": [],
+    "xrefs": [
+      {
+        "marker": "#",
+        "text": "Fil 4,23; 2 Tim 4,22; Filem 25",
+        "refs": []
+      }
+    ],
+    "section": null
+  }
 }
