@@ -640,6 +640,18 @@
             .verse-card.compare-card { border-top: none; border-left: 3px solid var(--accent); }
         }
         .compare-card-header { flex-wrap: wrap; gap: 10px; }
+        .compare-version-inline {
+            padding: 4px 10px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            border: 1.5px solid var(--border);
+            border-radius: 999px;
+            background: var(--card-bg);
+            color: var(--text);
+            cursor: pointer;
+            outline: none;
+        }
+        .compare-version-inline:focus { border-color: var(--accent); }
 
         /* Compare version bar */
         .compare-version-bar {
@@ -2183,17 +2195,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const showCompare = compareMode && compareData;
         let html = '';
 
-        // Compare version bar øverst
-        if (showCompare) {
-            const mainV = versionSelect.value;
-            const allV = Array.from(document.getElementById('versionSelect').options).map(o => o.value);
-            html += `<div class="compare-version-bar"><span class="compare-version-bar-label">Sammenligner med:</span>`;
-            allV.filter(v => v !== mainV).forEach(v => {
-                const active = v === compareVersionSelect.value ? ' active' : '';
-                html += `<button class="compare-version-btn${active}" onclick="setCompareVersion('${escAttr(v)}')">${escHtml(versionLabel(v))}</button>`;
-            });
-            html += `</div>`;
-        }
 
         // Side by side (PC) / stablet (mobil)
         for (let idx = 0; idx < mainData.length; idx++) {
@@ -2279,19 +2280,28 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return html;
     }
 
+    function buildCompareVersionSelectHtml() {
+        const allV = Array.from(document.getElementById('versionSelect').options).map(o => o.value);
+        const cur = compareVersionSelect.value;
+        let opts = allV.map(v =>
+            `<option value="${escAttr(v)}"${v === cur ? ' selected' : ''}>${escHtml(versionLabel(v))}</option>`
+        ).join('');
+        return `<select class="compare-version-inline" onchange="setCompareVersion(this.value)">${opts}</select>`;
+    }
+
     function buildCompareCardHtml(block, idx) {
-        const vLabel = escHtml(versionLabel(compareVersionSelect.value));
+        const selHtml = buildCompareVersionSelectHtml();
         if (!block) {
             return `<div class="verse-card compare-card">
-                <div class="verse-card-header">
-                    <span class="verse-card-label">${vLabel}</span>
+                <div class="verse-card-header compare-card-header">
+                    ${selHtml}
                 </div>
                 <div class="verse-text" style="color:var(--text-muted);font-style:italic;">Ikke tilgjengelig i denne versjonen.</div>
             </div>`;
         }
         let html = `<div class="verse-card compare-card" id="compare-card-${idx}">
-            <div class="verse-card-header">
-                <span class="verse-card-label">${vLabel}</span>
+            <div class="verse-card-header compare-card-header">
+                ${selHtml}
                 <button class="copy-btn" onclick="copyBlock(${idx}, true)">Kopier</button>
             </div>
             <div class="verse-text">`;
