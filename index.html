@@ -960,7 +960,10 @@
                              add(opt) { versionSelectDesktop.add(opt); versionSelectMobile.add(new Option(opt.text, opt.value)); },
                              addEventListener(evt, fn) { versionSelectDesktop.addEventListener(evt, fn); versionSelectMobile.addEventListener(evt, fn); } };
     const searchInput = {
-        get value() { return (getSearchInput().textContent || '').trim(); },
+        get value() {
+            // Normaliser non-breaking spaces til vanlige mellomrom
+            return (getSearchInput().textContent || '').replace(/\u00A0/g, ' ').replace(/\s+/g, ' ').trim();
+        },
         set value(v) {
             searchInputDesktop.textContent = v;
             searchInputMobile.textContent = v;
@@ -1018,7 +1021,6 @@
             } else if (c === '<') html += '&lt;';
             else if (c === '>') html += '&gt;';
             else if (c === '&') html += '&amp;';
-            else if (c === ' ') html += '&nbsp;';
             else html += c;
         }
         return html;
