@@ -603,7 +603,7 @@
             display: flex;
             align-items: stretch;
             border: 2px solid var(--border);
-            border-radius: 8px;
+            border-radius: 999px;  /* pilleformet som iOS Safari */
             background: var(--card-bg);
             overflow: hidden;
             transition: border-color 0.2s;
@@ -614,7 +614,7 @@
         .search-bar-wrap input,
         .search-bar-wrap .search-ce {
             flex: 1;
-            padding: 12px 14px;
+            padding: 12px 18px;  /* litt mer venstre-padding for pille-formen */
             font-size: 1rem;
             border: none;
             background: transparent;
