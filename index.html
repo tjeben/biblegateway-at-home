@@ -1180,20 +1180,52 @@
         }
 
         .btn-diff {
-            padding: 10px 18px;
-            font-size: 0.9rem;
-            background: #fef3c7;
-            color: #92400e;
-            border: 1px solid #fbbf24;
+            padding: 8px 18px;
+            font-size: 0.88rem;
+            background: linear-gradient(180deg, #fff4c7, #fde199);
+            color: #7a5b1a;
+            border: 1px solid rgba(217, 158, 10, 0.55);
             border-radius: 999px;
             cursor: pointer;
             font-weight: 600;
-            transition: background 0.2s;
+            letter-spacing: 0.1px;
+            box-shadow: 0 1px 2px rgba(180, 130, 20, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+            transition: background 0.18s, transform 0.12s, box-shadow 0.18s, color 0.18s, border-color 0.18s;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            white-space: nowrap;
         }
-        .btn-diff:hover { background: #fde68a; }
-        .btn-diff:disabled { opacity: 0.6; cursor: wait; }
-        [data-theme="dark"] .btn-diff { background: #3b2200; color: #fbbf24; border-color: #7c4a00; }
-        [data-theme="dark"] .btn-diff:hover { background: #4a2d00; }
+        .btn-diff:hover:not(:disabled) {
+            background: linear-gradient(180deg, #fff8d8, #fbd27d);
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(217, 158, 10, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        }
+        .btn-diff:active:not(:disabled) { transform: translateY(0); box-shadow: 0 1px 2px rgba(180, 130, 20, 0.1); }
+        .btn-diff.active {
+            background: linear-gradient(180deg, #e9a10c, #c08400);
+            color: #fff;
+            border-color: #9a6a00;
+            box-shadow: 0 2px 8px rgba(180, 130, 20, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+        }
+        .btn-diff.active:hover:not(:disabled) {
+            background: linear-gradient(180deg, #f2ab12, #cc8e00);
+        }
+        .btn-diff:disabled { opacity: 0.55; cursor: wait; transform: none; }
+        [data-theme="dark"] .btn-diff {
+            background: linear-gradient(180deg, #3a2c10, #2a1f08);
+            color: #fbbf24;
+            border-color: rgba(217, 158, 10, 0.45);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.04);
+        }
+        [data-theme="dark"] .btn-diff:hover:not(:disabled) {
+            background: linear-gradient(180deg, #4a3a14, #342408);
+        }
+        [data-theme="dark"] .btn-diff.active {
+            background: linear-gradient(180deg, #c08400, #9a6a00);
+            color: #fff7d6;
+            border-color: #6b4900;
+        }
 
         .diff-result-card {
             background: #fffbeb;
@@ -3128,11 +3160,34 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     // ── AI: finn mest ulike versjon ──
+    // Intern hjelper: hent highlights uten UI-toggle
+    async function fetchHighlightsFor(mainBlock, compBlock) {
+        const text1 = (mainBlock || []).flatMap(b => b.verses || []).map(v => v.text).join(' ');
+        const text2 = (compBlock || []).flatMap(b => b.verses || []).map(v => v.text).join(' ');
+        if (!text1 || !text2) return null;
+        try {
+            const resp = await fetch('/api/ai_highlight_diff', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    text1, text2,
+                    label: (mainBlock[0] && mainBlock[0].label) || lastQuery,
+                    version1: versionLabel(versionSelect.value),
+                    version2: versionLabel(compareVersionSelect.value),
+                })
+            });
+            const data = await resp.json();
+            if (data.error) return null;
+            return { v1: data.v1 || [], v2: data.v2 || [] };
+        } catch { return null; }
+    }
+
     window.findMostDifferent = async function() {
-        if (aiDiffState && (aiDiffState.loading || aiDiffState.text)) return;
+        if (aiDiffState && (aiDiffState.loading || aiDiffState.findingMostDifferent)) return;
         const label = (mainData && mainData[0] && mainData[0].label) || lastQuery;
         if (!label) { showToast('Ingen referanse å sammenligne'); return; }
-        aiDiffState = { loading: true };
+        aiDiffState = { findingMostDifferent: true };
+        aiHighlights = null;
         renderAll();
         try {
             const resp = await fetch('/api/ai_most_different', {
@@ -3144,17 +3199,25 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 })
             });
             const data = await resp.json();
-            if (!data.error) {
-                // Finn hvilken kjent versjon som er nevnt i svaret og bytt til den
-                const allVersions = Array.from(document.getElementById('versionSelect').options).map(o => o.value);
-                const found = allVersions.find(v => data.result.includes(v) || data.result.includes(versionLabel(v)));
-                if (found && found !== versionSelect.value) {
-                    compareVersionSelect.value = found;
-                    if (!compareMode) { compareMode = true; }
-                    await fetchCompareData(lastQuery);
-                }
+            if (data.error) {
+                aiDiffState = { error: data.error };
+                renderAll();
+                return;
             }
-            aiDiffState = data.error ? { error: data.error } : { text: data.result };
+            // Finn versjonen KI nevner, bytt og hent data
+            const allVersions = Array.from(document.getElementById('versionSelect').options).map(o => o.value);
+            const found = allVersions.find(v => data.result.includes(v) || data.result.includes(versionLabel(v)));
+            if (found && found !== versionSelect.value) {
+                compareVersionSelect.value = found;
+                if (!compareMode) compareMode = true;
+                await fetchCompareData(lastQuery);
+            }
+            aiDiffState = { text: data.result };
+            // Automatisk hent frase-markeringer for den nye sammenligningen
+            aiHighlights = { loading: true };
+            renderAll();
+            const hl = await fetchHighlightsFor(mainData, compareData);
+            aiHighlights = hl && (hl.v1.length || hl.v2.length) ? hl : null;
         } catch {
             aiDiffState = { error: 'Kunne ikke koble til serveren.' };
         }
@@ -3228,30 +3291,30 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         let html = '';
 
 
-        // Bygg KI-sammenligningsseksjonen én gang
+        // Bygg KI-sammenligningsseksjonen én gang — knappene er alltid synlige
         let aiSection = '';
         if (showCompare) {
-            aiSection = '<div class="ai-diff-section">';
+            const diffLoading = aiDiffState && aiDiffState.loading;
+            const diffActive = aiDiffState && aiDiffState.text;
+            const hlLoading = aiHighlights && aiHighlights.loading;
+            const hlActive = aiHighlights && (aiHighlights.v1 || aiHighlights.v2);
+            const mostDiffLoading = aiDiffState && aiDiffState.findingMostDifferent;
+            aiSection = `<div class="ai-diff-section">
+                <div class="ai-diff-buttons">
+                    <button class="btn-diff${diffActive ? ' active' : ''}" onclick="toggleDiff()" ${diffLoading ? 'disabled' : ''}>
+                        ${diffLoading ? '⏳ Analyserer…' : '✨ Sammenlign'}
+                    </button>
+                    <button class="btn-diff${hlActive ? ' active' : ''}" onclick="toggleHighlights()" ${hlLoading ? 'disabled' : ''}>
+                        ${hlLoading ? '⏳ Markerer…' : '🖍️ Marker forskjeller'}
+                    </button>
+                    <button class="btn-diff" onclick="findMostDifferent()" ${mostDiffLoading ? 'disabled' : ''}>
+                        ${mostDiffLoading ? '⏳ Leter…' : '🔍 Finn største ulikhet'}
+                    </button>
+                </div>`;
             if (aiDiffState && aiDiffState.text) {
                 aiSection += `<div class="diff-result-card">${escHtml(aiDiffState.text)}</div>`;
             } else if (aiDiffState && aiDiffState.error) {
                 aiSection += `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>`;
-            } else {
-                const disabled = aiDiffState && aiDiffState.loading ? 'disabled' : '';
-                const hlLoading = aiHighlights && aiHighlights.loading;
-                const hlActive = aiHighlights && (aiHighlights.v1 || aiHighlights.v2);
-                const hlLabel = hlLoading ? 'Markerer…' : (hlActive ? '🖍️ Fjern markering' : '🖍️ Marker forskjeller');
-                aiSection += `<div class="ai-diff-buttons">
-                    <button class="btn-diff" onclick="toggleDiff()" ${disabled}>
-                        ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '✨ Sammenlign'}
-                    </button>
-                    <button class="btn-diff" onclick="toggleHighlights()" ${hlLoading ? 'disabled' : ''}>
-                        ${hlLabel}
-                    </button>
-                    <button class="btn-diff" onclick="findMostDifferent()" ${disabled}>
-                        ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '🔍 Finn største ulikhet'}
-                    </button>
-                </div>`;
             }
             aiSection += '</div>';
         }
