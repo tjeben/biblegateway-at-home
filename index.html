@@ -841,6 +841,15 @@
             flex-wrap: wrap;
         }
         .ai-diff-buttons .btn-diff { flex: 1; min-width: 140px; }
+        @media (min-width: 701px) {
+            .ai-diff-buttons { justify-content: flex-start; gap: 8px; }
+            .ai-diff-buttons .btn-diff {
+                flex: 0 0 auto;
+                min-width: 0;
+                padding: 6px 14px;
+                font-size: 0.82rem;
+            }
+        }
 
         .btn-diff {
             padding: 10px 18px;
@@ -1120,11 +1129,15 @@
         @media (min-width: 701px) {
             .search-bottom-bar { display: none; }
 
-            /* Sentrert oppstart: søkefelt midt på skjermen */
+            /* Sentrert oppstart: søkefelt midt på skjermen, fester seg til toppen ved scroll */
             .search-area {
+                position: sticky;
+                top: 60px;
+                z-index: 150;
                 max-width: 640px;
                 margin: 22vh auto 0;
-                padding: 0 24px;
+                padding: 10px 24px;
+                background: var(--bg);
                 transition: margin-top 0.6s cubic-bezier(.4, 0, .2, 1), max-width 0.4s ease;
             }
             .page-center-mode .results-wrapper {
@@ -2294,7 +2307,29 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         let html = '';
 
 
-        // Side by side (PC) / stablet (mobil)
+        // Bygg KI-sammenligningsseksjonen én gang
+        let aiSection = '';
+        if (showCompare) {
+            aiSection = '<div class="ai-diff-section">';
+            if (aiDiffState && aiDiffState.text) {
+                aiSection += `<div class="diff-result-card">${escHtml(aiDiffState.text)}</div>`;
+            } else if (aiDiffState && aiDiffState.error) {
+                aiSection += `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>`;
+            } else {
+                const disabled = aiDiffState && aiDiffState.loading ? 'disabled' : '';
+                aiSection += `<div class="ai-diff-buttons">
+                    <button class="btn-diff" onclick="toggleDiff()" ${disabled}>
+                        ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '✨ Sammenlign'}
+                    </button>
+                    <button class="btn-diff" onclick="findMostDifferent()" ${disabled}>
+                        ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '🔍 Finn største ulikhet'}
+                    </button>
+                </div>`;
+            }
+            aiSection += '</div>';
+        }
+
+        // Side by side (PC) / stablet (mobil) — KI-seksjonen plasseres rett etter første blokk
         for (let idx = 0; idx < mainData.length; idx++) {
             const mainBlock = mainData[idx];
             const compBlock = showCompare && idx < compareData.length ? compareData[idx] : null;
@@ -2304,30 +2339,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 html += buildCardHtml(mainBlock, idx, false);
                 html += buildCompareCardHtml(compBlock, idx);
                 html += '</div>';
+                if (idx === 0) html += aiSection;
             } else {
                 html += buildCardHtml(mainBlock, idx, false);
             }
-        }
-
-        // Bunnseksjon: KI-sammenligning
-        if (showCompare) {
-            html += '<div class="ai-diff-section">';
-            if (aiDiffState && aiDiffState.text) {
-                html += `<div class="diff-result-card">${escHtml(aiDiffState.text)}</div>`;
-            } else if (aiDiffState && aiDiffState.error) {
-                html += `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>`;
-            } else {
-                const disabled = aiDiffState && aiDiffState.loading ? 'disabled' : '';
-                html += `<div class="ai-diff-buttons">
-                    <button class="btn-diff" onclick="toggleDiff()" ${disabled}>
-                        ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '✨ Sammenlign'}
-                    </button>
-                    <button class="btn-diff" onclick="findMostDifferent()" ${disabled}>
-                        ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '🔍 Finn største ulikhet'}
-                    </button>
-                </div>`;
-            }
-            html += '</div>';
         }
 
         resultsWrapper.innerHTML = html;
