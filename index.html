@@ -461,6 +461,15 @@
             flex-wrap: wrap;
             justify-content: center;
         }
+        .other-version-header {
+            font-weight: 700;
+            color: var(--accent);
+            margin: 16px 0 8px;
+            padding: 0 2px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
         .search-controls {
             display: flex;
             gap: 10px;
@@ -564,7 +573,8 @@
             min-width: 250px;
         }
         .search-bar-wrap:focus-within { border-color: var(--accent); }
-        .search-bar-wrap input {
+        .search-bar-wrap input,
+        .search-bar-wrap .search-ce {
             flex: 1;
             padding: 12px 14px;
             font-size: 1rem;
@@ -573,8 +583,20 @@
             color: var(--text);
             outline: none;
             min-width: 0;
+            white-space: nowrap;
+            overflow-x: auto;
+            font-family: inherit;
         }
         .search-bar-wrap input::placeholder { color: #aaa; }
+        .search-bar-wrap .search-ce:empty::before {
+            content: attr(data-placeholder);
+            color: #aaa;
+            pointer-events: none;
+        }
+        .search-bar-wrap .search-ce b {
+            font-weight: 900;
+            color: var(--accent);
+        }
         .search-bar-wrap .search-version-select {
             padding: 8px 10px;
             font-size: 0.85rem;
@@ -707,8 +729,8 @@
 <!-- Desktop search controls -->
 <div class="controls desktop-only">
     <div class="search-bar-wrap">
-        <input type="text" id="searchInput" placeholder="Søk… f.eks. Johannes 3:16 eller nåde"
-               autocomplete="off" autofocus>
+        <div class="search-ce" id="searchInput" contenteditable="true" spellcheck="false"
+             data-placeholder='Søk… Johannes 3:16, nåde, "eksakt setning", ord -ikke-dette'></div>
         <select id="versionSelect" class="search-version-select"></select>
         <button class="search-btn-inline" id="searchBtn">Søk</button>
     </div>
@@ -740,8 +762,8 @@
 <!-- Mobile sticky bottom search bar -->
 <div class="search-bottom-bar" id="searchBottomBar">
     <div class="search-bar-wrap">
-        <input type="text" id="searchInputMobile" placeholder="Søk i Bibelen…"
-               autocomplete="off">
+        <div class="search-ce" id="searchInputMobile" contenteditable="true" spellcheck="false"
+             data-placeholder="Søk i Bibelen…"></div>
         <select id="versionSelectMobile" class="search-version-select"></select>
         <button class="search-btn-inline" id="searchBtnMobile">Søk</button>
     </div>
@@ -834,8 +856,100 @@
                              set value(v) { versionSelectDesktop.value = v; versionSelectMobile.value = v; },
                              add(opt) { versionSelectDesktop.add(opt); versionSelectMobile.add(new Option(opt.text, opt.value)); },
                              addEventListener(evt, fn) { versionSelectDesktop.addEventListener(evt, fn); versionSelectMobile.addEventListener(evt, fn); } };
-    const searchInput = { get value() { return getSearchInput().value; },
-                           set value(v) { searchInputDesktop.value = v; searchInputMobile.value = v; } };
+    const searchInput = {
+        get value() { return (getSearchInput().textContent || '').trim(); },
+        set value(v) {
+            searchInputDesktop.textContent = v;
+            searchInputMobile.textContent = v;
+            formatSearchInputCE(searchInputDesktop);
+            formatSearchInputCE(searchInputMobile);
+        }
+    };
+
+    // ── Contenteditable operator formatting (bold " and -word) ──
+    function getCursorOffset(el) {
+        const sel = window.getSelection();
+        if (!sel.rangeCount) return 0;
+        const range = sel.getRangeAt(0);
+        const pre = range.cloneRange();
+        pre.selectNodeContents(el);
+        pre.setEnd(range.endContainer, range.endOffset);
+        return pre.toString().length;
+    }
+    function setCursorOffset(el, offset) {
+        const sel = window.getSelection();
+        const range = document.createRange();
+        let pos = 0;
+        function walk(node) {
+            if (node.nodeType === Node.TEXT_NODE) {
+                const len = node.nodeValue.length;
+                if (pos + len >= offset) {
+                    range.setStart(node, Math.max(0, offset - pos));
+                    range.collapse(true);
+                    return true;
+                }
+                pos += len;
+            } else {
+                for (const c of node.childNodes) if (walk(c)) return true;
+            }
+            return false;
+        }
+        if (!walk(el)) {
+            range.selectNodeContents(el);
+            range.collapse(false);
+        }
+        sel.removeAllRanges();
+        sel.addRange(range);
+    }
+    function buildFormattedHtml(text) {
+        let html = '';
+        let inQuote = false;
+        for (let i = 0; i < text.length; i++) {
+            const c = text[i];
+            if (c === '"') {
+                html += '<b>"</b>';
+                inQuote = !inQuote;
+            } else if (c === '-' && !inQuote && (i === 0 || text[i - 1] === ' ') &&
+                       i + 1 < text.length && text[i + 1] !== ' ' && text[i + 1] !== '-') {
+                html += '<b>-</b>';
+            } else if (c === '<') html += '&lt;';
+            else if (c === '>') html += '&gt;';
+            else if (c === '&') html += '&amp;';
+            else if (c === ' ') html += '&nbsp;';
+            else html += c;
+        }
+        return html;
+    }
+    function formatSearchInputCE(el) {
+        const text = el.textContent;
+        const isFocused = document.activeElement === el;
+        const cursor = isFocused ? getCursorOffset(el) : null;
+        const newHtml = buildFormattedHtml(text);
+        if (el.innerHTML !== newHtml) el.innerHTML = newHtml;
+        if (isFocused && cursor != null) setCursorOffset(el, cursor);
+    }
+    function setupSearchCE(el) {
+        el.addEventListener('input', () => formatSearchInputCE(el));
+        el.addEventListener('keydown', e => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                doSearch();
+            }
+        });
+        el.addEventListener('paste', e => {
+            e.preventDefault();
+            const text = (e.clipboardData || window.clipboardData).getData('text/plain');
+            document.execCommand('insertText', false, text.replace(/\n/g, ' '));
+        });
+    }
+    setupSearchCE(searchInputDesktop);
+    setupSearchCE(searchInputMobile);
+
+    // Hjelper: har søket operatorer (bypass KI)?
+    function queryHasOperators(q) {
+        if (q.indexOf('"') !== -1) return true;
+        return q.split(/\s+/).some(t => t.startsWith('-') && t.length > 1);
+    }
     const compareBtn = { classList: { toggle(cls, force) {
         [compareBtnDesktop, compareBtnMobile].forEach(b => b.classList.toggle(cls, force));
     }}, show() {
@@ -1021,21 +1135,31 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
 
             if (data.type === 'text_search') {
+                const usesOperators = data.has_operators || queryHasOperators(query);
                 if (data.results.length === 0 && !isAiRetry) {
-                    // Auto AI fallback: try to reformulate query
+                    if (usesOperators) {
+                        // Operatorsøk: ingen KI — prøv andre versjoner i stedet
+                        await searchOtherVersions(query, version);
+                        return;
+                    }
+                    // Vanlig søk uten treff: bruk KI
                     await tryAiFallback(query);
                     return;
                 }
                 currentView = 'text_search';
                 renderTextSearch(data.results, data.query, data.book_totals || {}, data.total || data.results.length);
-                compareBtn.hide();  // Sammenlign gir ikke mening for tekstsøk
+                compareBtn.hide();
                 return;
             }
 
             mainData = data.results;
-            // Check if reference search returned empty blocks
             const hasContent = mainData.some(b => b.verses && b.verses.length > 0);
             if (!hasContent && !isAiRetry) {
+                if (queryHasOperators(query)) {
+                    // Skulle ikke skje (operatorer gir tekstsøk på server), men vær safe
+                    resultsWrapper.innerHTML = `<div class="empty-state"><h2>Ingen resultater</h2></div>`;
+                    return;
+                }
                 await tryAiFallback(query);
                 return;
             }
@@ -1052,6 +1176,66 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             resultsWrapper.innerHTML = errorCardHtml('Feil', 'Kunne ikke koble til serveren: ' + (err.message || err));
         } finally {
             if (!isAiRetry) setSearchLoading(false);
+        }
+    }
+
+    // Søk på tvers av alle andre versjoner når gjeldende versjon ikke har treff (kun for operatorsøk)
+    async function searchOtherVersions(query, currentVersion) {
+        resultsWrapper.innerHTML = `<div class="empty-state"><p><span class="ai-searching">Søkte i andre versjoner…</span></p></div>`;
+        try {
+            const allVersResp = await fetchWithRetry('/api/versions');
+            const allVers = (await allVersResp.json()).versions || [];
+            const otherVersions = allVers.filter(v => v !== currentVersion);
+            const hits = [];
+            for (const v of otherVersions) {
+                try {
+                    const r = await fetchWithRetry(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(v)}`);
+                    const d = await r.json();
+                    if (d.type === 'text_search' && d.results && d.results.length > 0) {
+                        hits.push({ version: v, results: d.results, bookTotals: d.book_totals || {}, total: d.total || d.results.length });
+                    }
+                } catch {}
+            }
+            if (hits.length === 0) {
+                resultsWrapper.innerHTML = `<div class="empty-state"><h2>Ingen resultater</h2><p>Ingen vers funnet for «${escHtml(query)}» i noen versjon.</p></div>`;
+                return;
+            }
+            // Render stable banner + hver versjon som egen seksjon
+            let html = `<div class="empty-state" style="padding:20px 10px;"><p style="color:var(--text-muted);">Ingen treff i <b>${escHtml(versionLabel(currentVersion))}</b> — søkte i andre versjoner:</p></div>`;
+            hits.forEach(h => {
+                html += `<div class="other-version-header">${escHtml(versionLabel(h.version))} — ${h.total} treff</div>`;
+                // Render hver versjon som en bok-gruppe-samling inline
+                const groups = {};
+                const order = [];
+                h.results.forEach(r => {
+                    if (!groups[r.book]) { groups[r.book] = []; order.push(r.book); }
+                    groups[r.book].push(r);
+                });
+                order.forEach(code => {
+                    const items = groups[code];
+                    const bName = bookName(code);
+                    const totalInBook = h.bookTotals[code] || items.length;
+                    const countLabel = totalInBook > items.length ? `${items.length}+` : `${items.length}`;
+                    html += `<div class="book-group">
+                        <div class="book-group-header" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+                            <span>${escHtml(bName)}<span class="book-group-count">(${countLabel})</span></span>
+                            <span class="chevron">&#9654;</span>
+                        </div>
+                        <div class="book-group-items">`;
+                    items.forEach(r => {
+                        html += `<div class="book-group-item">
+                            <div class="search-result-ref">${escHtml(r.ref)}</div>
+                            <div class="search-result-text">${highlightWords(escHtml(r.text), query)}</div>
+                        </div>`;
+                    });
+                    html += '</div></div>';
+                });
+            });
+            resultsWrapper.innerHTML = html;
+            currentView = 'text_search';
+            compareBtn.hide();
+        } catch {
+            resultsWrapper.innerHTML = `<div class="empty-state"><h2>Ingen resultater</h2></div>`;
         }
     }
 

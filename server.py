@@ -741,21 +741,52 @@ def resolve_block(bible_data, version, block):
 
 def is_reference_query(query):
     """Check if the query looks like a Bible reference (vs free text search)."""
+    # Operators → always text search
+    if '"' in query:
+        return False
+    if any(t.startswith('-') and len(t) > 1 for t in query.split()):
+        return False
     # Try to parse first semicolon-separated part
     first_part = query.split(";")[0].strip()
     book_code, remainder = identify_book(first_part)
     if book_code:
         return True
-    # Also check if it's just a number (could be continuing context, but standalone = text)
     return False
 
 
+def parse_search_query(query):
+    """Parse query into (required_phrases, required_words, excluded_words).
+    - "quoted phrases" → exact substring match
+    - word → AND-match single word
+    - -word → must NOT contain
+    """
+    required_phrases = []
+    phrase_pat = re.compile(r'"([^"]+)"')
+    for m in phrase_pat.finditer(query):
+        required_phrases.append(m.group(1).lower())
+    remainder = phrase_pat.sub(' ', query)
+
+    required_words = []
+    excluded_words = []
+    for tok in remainder.split():
+        if tok.startswith('-') and len(tok) > 1:
+            excluded_words.append(tok[1:].lower())
+        elif tok:
+            required_words.append(tok.lower())
+    return required_phrases, required_words, excluded_words
+
+
+def has_search_operators(query):
+    """Returns True if query uses " or -word operators."""
+    phrases, _, excl = parse_search_query(query)
+    return bool(phrases) or bool(excl)
+
+
 def search_text(bible_data, version, query, per_book=10, book_filter=None):
-    """Full-text search: find verses containing all query words (case insensitive, substring).
-    Returns up to per_book hits per book, plus total match counts per book.
-    If book_filter is set, only that book is searched and per_book is ignored (returns all)."""
-    words = query.lower().split()
-    if not words:
+    """Full-text search with operator support.
+    Returns (results, book_totals)."""
+    phrases, words, excluded = parse_search_query(query)
+    if not phrases and not words and not excluded:
         return [], {}
 
     results = []
@@ -771,19 +802,24 @@ def search_text(bible_data, version, query, per_book=10, book_filter=None):
         total = 0
         for key, text in data.items():
             text_lower = text.lower()
-            if all(w in text_lower for w in words):
-                total += 1
-                if total <= effective_per_book:
-                    parts = key.split(".")
-                    ch = int(parts[1])
-                    vs = int(parts[2])
-                    results.append({
-                        "ref": f"{book_name} {ch}:{vs}",
-                        "book": book_code,
-                        "chapter": ch,
-                        "verse": vs,
-                        "text": text,
-                    })
+            if not all(p in text_lower for p in phrases):
+                continue
+            if not all(w in text_lower for w in words):
+                continue
+            if any(w in text_lower for w in excluded):
+                continue
+            total += 1
+            if total <= effective_per_book:
+                parts = key.split(".")
+                ch = int(parts[1])
+                vs = int(parts[2])
+                results.append({
+                    "ref": f"{book_name} {ch}:{vs}",
+                    "book": book_code,
+                    "chapter": ch,
+                    "verse": vs,
+                    "text": text,
+                })
         if total > 0:
             book_totals[book_code] = total
     return results, book_totals
@@ -874,7 +910,11 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                 book_filter = params.get("book", [""])[0] or None
                 results, book_totals = search_text(bible_data, version, query, book_filter=book_filter)
                 total = sum(book_totals.values())
-                self._send_json({"type": "text_search", "results": results, "book_totals": book_totals, "total": total, "query": query, "version": version, "book_filter": book_filter})
+                self._send_json({
+                    "type": "text_search", "results": results, "book_totals": book_totals,
+                    "total": total, "query": query, "version": version,
+                    "book_filter": book_filter, "has_operators": has_search_operators(query),
+                })
 
         elif path == "/api/all_versions":
             query = params.get("q", [""])[0]
