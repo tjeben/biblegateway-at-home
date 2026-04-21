@@ -62,16 +62,28 @@ def _parse_note(note_tag: Tag) -> Dict[str, Any]:
             m = _XREF_URL_RE.search(a["href"])
             if m:
                 refs.append(m.group(1).upper())
-        # Tekstbasert form av xref (for visning)
-        xt = body_tag.find(class_="xt")
-        text = _collapse(xt.get_text()) if xt else _collapse(body_tag.get_text())
+        # Hele body-teksten, men fjern leading 'xo' (origin, f.eks. "3.16") hvis den finnes
+        text = _body_text_without_prefix(body_tag, "xo")
         return {"type": "xref", "marker": marker, "text": text, "refs": refs}
     elif is_footnote:
-        ft = body_tag.find(class_="ft")
-        text = _collapse(ft.get_text()) if ft else _collapse(body_tag.get_text())
+        # Hele body-teksten inkludert alle fq, fqa, fk osv., men fjern leading 'fr' (reference)
+        text = _body_text_without_prefix(body_tag, "fr")
         return {"type": "footnote", "marker": marker, "text": text}
     else:
         return {"type": "unknown", "marker": marker, "text": _collapse(body_tag.get_text())}
+
+
+def _body_text_without_prefix(body_tag: Tag, prefix_class: str) -> str:
+    """Hent all tekst i body-taggen, men fjern det første elementet med gitt klasse
+    (typisk vers-referanse som 'fr' for fotnoter eller 'xo' for xrefs)."""
+    # Finn og fjern prefix-elementet midlertidig
+    prefix_tag = body_tag.find(class_=prefix_class)
+    if prefix_tag:
+        prefix_tag.extract()
+    text = _collapse(body_tag.get_text(separator=" "))
+    # Sett tilbake (bare for å ikke endre DOM permanent — men siden vi bare trenger
+    # én lesning, er det egentlig greit å la den være fjernet)
+    return text
 
 
 def _extract_verse_content(verse_span: Tag) -> Tuple[str, List[Dict], List[Dict]]:
