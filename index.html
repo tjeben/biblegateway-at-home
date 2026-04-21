@@ -607,11 +607,55 @@
         /* Empty state */
         .empty-state {
             text-align: center;
-            padding: 60px 20px;
+            padding: 20px 20px 60px;
             color: var(--text-muted);
         }
         .empty-state h2 { font-size: 1.3rem; margin-bottom: 10px; color: var(--text); }
         .empty-state p { font-size: 0.95rem; line-height: 1.6; }
+
+        /* Dagens vers — stille påminnelse om at Guds ord er sentralt */
+        .daily-verse {
+            max-width: 600px;
+            margin: 28px auto 44px;
+            padding: 28px 24px;
+            text-align: center;
+            animation: fadeInUp 600ms cubic-bezier(.2, .8, .2, 1);
+        }
+        .daily-verse-mark {
+            color: var(--accent);
+            font-size: 1.05rem;
+            opacity: 0.55;
+            margin-bottom: 18px;
+            letter-spacing: 14px;
+            padding-left: 14px;
+        }
+        .daily-verse-text {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 1.25rem;
+            line-height: 1.65;
+            color: var(--text);
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+        .daily-verse-ref {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .daily-verse-divider {
+            width: 40px;
+            height: 1px;
+            background: var(--border);
+            margin: 32px auto 24px;
+            opacity: 0.6;
+        }
+        @media (max-width: 700px) {
+            .daily-verse { padding: 18px 16px; margin: 16px auto 28px; }
+            .daily-verse-text { font-size: 1.08rem; line-height: 1.55; }
+            .daily-verse-mark { font-size: 0.9rem; margin-bottom: 14px; }
+        }
         .empty-state code {
             background: var(--border);
             padding: 2px 6px;
@@ -1491,6 +1535,8 @@
 
 <div class="results-wrapper" id="resultsWrapper">
     <div class="empty-state" id="emptyState">
+        <div class="daily-verse" id="dailyVerse"></div>
+        <div class="daily-verse-divider"></div>
         <h2>Søk i Bibelen</h2>
         <p>
             Slå opp vers med referanse: <code>Johannes 3:16</code>, <code>1. Mosebok 1:1-3</code>, <code>Salme 23</code><br>
@@ -1721,6 +1767,53 @@
 const resultsWrapper = document.getElementById('resultsWrapper');
     const compareVersionSelect = document.getElementById('compareVersionSelect');
     const emptyState = document.getElementById('emptyState');
+
+    // ── Dagens vers ── (kuratert liste, samme vers per dato)
+    const DAILY_VERSES = [
+        { text: 'Ditt ord er en lykt for min fot og et lys på min sti.', ref: 'Salme 119:105' },
+        { text: 'Jeg har gjemt ditt ord i mitt hjerte, for at jeg ikke skal synde mot deg.', ref: 'Salme 119:11' },
+        { text: 'Åpne mine øyne, så jeg kan se de underfulle ting i din lov.', ref: 'Salme 119:18' },
+        { text: 'Frykten for Herren er begynnelsen til visdom, og å kjenne Den Hellige er forstand.', ref: 'Ordspråkene 9:10' },
+        { text: 'Dere skal lete etter meg og finne meg når dere søker meg av hele deres hjerte.', ref: 'Jeremia 29:13' },
+        { text: 'Himmel og jord skal forgå, men mine ord skal aldri forgå.', ref: 'Matteus 24:35' },
+        { text: 'Hele Skriften er innåndet av Gud og nyttig til lærdom, til overbevisning, til rettledning, til opptuktelse i rettferdighet.', ref: '2. Timoteus 3:16' },
+        { text: 'Jeg gleder meg over ditt ord som én som finner stort bytte.', ref: 'Salme 119:162' },
+        { text: 'Og Ordet ble kjød og tok bolig iblant oss, og vi så hans herlighet.', ref: 'Johannes 1:14' },
+        { text: 'Salige er de som hører Guds ord og tar vare på det.', ref: 'Lukas 11:28' },
+        { text: 'Kom til meg, alle dere som strever og bærer tunge byrder, og jeg vil gi dere hvile.', ref: 'Matteus 11:28' },
+        { text: 'Herren er nær hos alle som kaller på ham, hos alle som kaller på ham i sannhet.', ref: 'Salme 145:18' },
+        { text: 'Vent på Herren! Vær frimodig, og ditt hjerte være sterkt! Ja, vent på Herren!', ref: 'Salme 27:14' },
+        { text: 'Stol på Herren av hele ditt hjerte, og sett ikke lit til din forstand.', ref: 'Ordspråkene 3:5' },
+        { text: 'Lovet være Herren dag for dag! Han bærer oss, Gud er vår frelse.', ref: 'Salme 68:20' },
+        { text: 'Søk først Guds rike og hans rettferdighet, så skal alt dette tilføyes dere.', ref: 'Matteus 6:33' },
+        { text: 'Gresset visner, blomsten falmer, men vår Guds ord står fast til evig tid.', ref: 'Jesaja 40:8' },
+        { text: 'For så høyt har Gud elsket verden, at han gav sin Sønn, den enbårne, for at hver den som tror på ham, ikke skal gå fortapt, men ha evig liv.', ref: 'Johannes 3:16' },
+        { text: 'Vær stille, og kjenn at jeg er Gud!', ref: 'Salme 46:11' },
+        { text: 'Herrens navn er et fast tårn. Dit løper den rettferdige og blir berget.', ref: 'Ordspråkene 18:10' },
+    ];
+    function getTodaysVerse() {
+        const now = new Date();
+        const seed = now.getFullYear() * 372 + (now.getMonth() + 1) * 31 + now.getDate();
+        return DAILY_VERSES[seed % DAILY_VERSES.length];
+    }
+    window.openDailyVerse = function(ref) {
+        searchInput.value = ref;
+        doSearch();
+    };
+    function renderDailyVerse() {
+        const host = document.getElementById('dailyVerse');
+        if (!host) return;
+        const v = getTodaysVerse();
+        host.style.cursor = 'pointer';
+        host.title = 'Klikk for å lese verset';
+        host.setAttribute('onclick', `openDailyVerse('${v.ref.replace(/'/g, "\\'")}')`);
+        host.innerHTML = `
+            <div class="daily-verse-mark">✦ ✦ ✦</div>
+            <div class="daily-verse-text">«${(v.text || '').replace(/</g,'&lt;').replace(/>/g,'&gt;')}»</div>
+            <div class="daily-verse-ref">${(v.ref || '').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>`;
+    }
+    renderDailyVerse();
+
     const emptyStateHtml = emptyState.outerHTML;
     const toast = document.getElementById('toast');
     // bookSelect/chapterSelect ble fjernet — bruk kolon-prefix (Johannes:) eller referanse (Johannes 3) i stedet
