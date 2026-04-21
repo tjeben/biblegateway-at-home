@@ -146,7 +146,7 @@
         }
         .dark-toggle:hover { border-color: rgba(255,255,255,0.6); }
 
-        /* Book browser */
+        /* Book browser / sorter */
         .browser-bar {
             max-width: 1400px;
             margin: 12px auto 0;
@@ -156,14 +156,22 @@
             align-items: center;
             flex-wrap: wrap;
         }
-        .browser-bar label {
+        .browser-bar > label {
             font-size: 0.9rem;
             color: var(--text-muted);
-            font-weight: 500;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-right: 2px;
         }
         .browser-bar select {
             padding: 7px 10px;
             font-size: 0.9rem;
+        }
+        /* Mobil-versjonsvelger — bare synlig på mobil */
+        .mobile-version-select { display: none; }
+        @media (max-width: 700px) {
+            .mobile-version-select { display: block; flex: 1; min-width: 100px; }
         }
 
         /* Toggles */
@@ -702,6 +710,67 @@
             margin-left: 8px;
         }
 
+        /* Suggestions dropdown */
+        .suggestions-wrap {
+            position: relative;
+        }
+        .suggestions {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: calc(100% + 8px);
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            max-height: 280px;
+            overflow-y: auto;
+            z-index: 110;
+            display: none;
+        }
+        .suggestions.open { display: block; }
+        .suggestions-group-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            padding: 8px 14px 4px;
+        }
+        .suggestion-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 14px;
+            cursor: pointer;
+            font-size: 0.92rem;
+            border-bottom: 1px solid var(--border);
+            transition: background 0.1s;
+        }
+        .suggestion-item:last-child { border-bottom: none; }
+        .suggestion-item:hover, .suggestion-item.hover {
+            background: rgba(168, 50, 50, 0.06);
+        }
+        [data-theme="dark"] .suggestion-item:hover, [data-theme="dark"] .suggestion-item.hover {
+            background: rgba(201, 68, 68, 0.1);
+        }
+        .suggestion-icon { flex: 0 0 auto; font-size: 1em; }
+        .suggestion-text { flex: 1; min-width: 0; }
+        .suggestion-text strong { color: var(--accent); }
+        .suggestion-hint {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-left: 8px;
+            flex: 0 0 auto;
+        }
+        /* Desktop: suggestions appear BELOW the search input */
+        @media (min-width: 701px) {
+            .desktop-only .suggestions {
+                top: calc(100% + 8px);
+                bottom: auto;
+            }
+        }
+
         @media (max-width: 700px) {
             .controls { flex-direction: column; gap: 8px; }
             .search-bar-wrap { min-width: 100%; }
@@ -758,18 +827,22 @@
 
 <!-- Desktop search controls -->
 <div class="controls desktop-only">
-    <div class="search-bar-wrap">
-        <div class="search-ce" id="searchInput" contenteditable="true" spellcheck="false"
-             data-placeholder='Søk… Johannes 3:16, nåde, "eksakt setning", ord -ikke-dette'></div>
-        <select id="versionSelect" class="search-version-select"></select>
-        <button class="search-btn-inline" id="searchBtn">Søk</button>
+    <div class="suggestions-wrap" style="flex:1;min-width:250px;">
+        <div class="search-bar-wrap">
+            <div class="search-ce" id="searchInput" contenteditable="true" spellcheck="false"
+                 data-placeholder='Søk… Johannes 3:16, nåde, "eksakt setning", ord -ikke-dette'></div>
+            <select id="versionSelect" class="search-version-select"></select>
+            <button class="search-btn-inline" id="searchBtn">Søk</button>
+        </div>
+        <div class="suggestions" id="suggestionsDesktop"></div>
     </div>
-    <button class="sort-toggle-btn" id="sortToggleBtn" title="Bla gjennom bøker">⇅</button>
 </div>
 
-<div class="browser-bar" id="browserBar" style="display:none;">
+<div class="browser-bar" id="browserBar">
+    <label>Sorter:</label>
     <select id="bookSelect" style="width:230px"><option value="">-- Bok --</option></select>
     <select id="chapterSelect" disabled><option value="">-- Kap --</option></select>
+    <select id="versionSelectMobile" class="mobile-version-select"></select>
 </div>
 
 <div class="toggles">
@@ -790,11 +863,13 @@
 
 <!-- Mobile sticky bottom search bar -->
 <div class="search-bottom-bar" id="searchBottomBar">
-    <div class="search-bar-wrap">
-        <div class="search-ce" id="searchInputMobile" contenteditable="true" spellcheck="false"
-             data-placeholder="Søk i Bibelen…"></div>
-        <select id="versionSelectMobile" class="search-version-select"></select>
-        <button class="search-btn-inline" id="searchBtnMobile">Søk</button>
+    <div class="suggestions-wrap">
+        <div class="search-bar-wrap">
+            <div class="search-ce" id="searchInputMobile" contenteditable="true" spellcheck="false"
+                 data-placeholder="Søk i Bibelen…"></div>
+            <button class="search-btn-inline" id="searchBtnMobile">Søk</button>
+        </div>
+        <div class="suggestions" id="suggestionsMobile"></div>
     </div>
 </div>
 
@@ -995,16 +1070,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
     function versionLabel(v) { return VERSION_DISPLAY[v] || v; }
 
-    // ── Sort/browse toggle (kun desktop — på mobil vises browser-bar alltid) ──
-    const sortToggleBtn = document.getElementById('sortToggleBtn');
-    if (sortToggleBtn) {
-        sortToggleBtn.addEventListener('click', () => {
-            const bar = document.getElementById('browserBar');
-            const visible = bar.style.display !== 'none';
-            bar.style.display = visible ? 'none' : '';
-            sortToggleBtn.classList.toggle('active', !visible);
-        });
-    }
+    // Sort/browse er nå alltid synlig — ingen toggle
 
     // ── Toggle compare mode (per-card Sammenlign-knapp kaller denne) ──
     window.toggleCompareMode = async function() {
@@ -1020,6 +1086,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     // ── Init ──
+    const PREF_VERSION_KEY = 'preferredVersion';
     async function init() {
         const resp = await fetch('/api/versions');
         const data = await resp.json();
@@ -1027,16 +1094,26 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             versionSelect.add(new Option(versionLabel(v), v));
             compareVersionSelect.add(new Option(versionLabel(v), v));
         });
-        // Default to NB88 if available
-        if (data.versions.includes('NB88')) {
-            versionSelect.value = 'NB88';
-        }
+        // Default: husket versjon → Bibel2011 → første tilgjengelige
+        const saved = localStorage.getItem(PREF_VERSION_KEY);
+        let defaultV;
+        if (saved && data.versions.includes(saved)) defaultV = saved;
+        else if (data.versions.includes('Bibel2011')) defaultV = 'Bibel2011';
+        else defaultV = data.versions[0];
+        versionSelect.value = defaultV;
         if (data.versions.length > 1) {
-            compareVersionSelect.value = data.versions.find(v => v !== versionSelect.value) || data.versions[1];
+            compareVersionSelect.value = data.versions.find(v => v !== defaultV) || data.versions[1];
         }
         loadBooks();
     }
     init();
+
+    // Husk versjonsvalg når brukeren endrer det
+    [versionSelectDesktop, versionSelectMobile].forEach(el => {
+        if (el) el.addEventListener('change', () => {
+            try { localStorage.setItem(PREF_VERSION_KEY, el.value); } catch {}
+        });
+    });
 
     async function loadBooks() {
         const version = versionSelect.value || '';
@@ -1093,6 +1170,299 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ── Heartbeat ──
     setInterval(() => fetch('/api/heartbeat').catch(() => {}), 3000);
 
+    // ── Recent searches (localStorage) ──
+    const RECENT_KEY = 'recentSearches';
+    function getRecentSearches() {
+        try { return JSON.parse(localStorage.getItem(RECENT_KEY) || '[]'); } catch { return []; }
+    }
+    function addRecentSearch(q) {
+        if (!q || !q.trim()) return;
+        q = q.trim();
+        let recent = getRecentSearches().filter(x => x !== q);
+        recent.unshift(q);
+        recent = recent.slice(0, 5);
+        try { localStorage.setItem(RECENT_KEY, JSON.stringify(recent)); } catch {}
+    }
+
+    // ── Testament / book sets ──
+    const NT_BOOKS = new Set(['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV']);
+    function isNtBook(code) { return NT_BOOKS.has(code); }
+
+    // Parallellsteder (statisk kart for kjente parallellpassasjer)
+    const PARALLELS = {
+        'MAT:1': [{ label: 'Jesu slektstavle i Luk', ref: 'Luk 3:23-38' }],
+        'MAT:3': [{ label: 'Jesu dåp i Mark/Luk', ref: 'Mark 1:9-11' }],
+        'MAT:4': [{ label: 'Fristelsen i Mark/Luk', ref: 'Mark 1:12-13' }, { label: 'Fristelsen i Luk', ref: 'Luk 4:1-13' }],
+        'MAT:5': [{ label: 'Bergprekenen (sletteprekenen) i Luk', ref: 'Luk 6:20-49' }],
+        'MAT:6': [{ label: 'Fadervår i Luk', ref: 'Luk 11:2-4' }],
+        'MAT:14': [{ label: 'Bespisningen av de 5000 i Mark', ref: 'Mark 6:30-44' }, { label: 'Bespisningen i Luk', ref: 'Luk 9:10-17' }, { label: 'Bespisningen i Joh', ref: 'Joh 6:1-14' }],
+        'MAT:21': [{ label: 'Inntoget i Jerusalem i Mark', ref: 'Mark 11:1-11' }, { label: 'Inntoget i Luk', ref: 'Luk 19:28-40' }, { label: 'Inntoget i Joh', ref: 'Joh 12:12-19' }],
+        'MAT:26': [{ label: 'Nattverden i Mark', ref: 'Mark 14:22-25' }, { label: 'Nattverden i Luk', ref: 'Luk 22:14-20' }, { label: 'Nattverden i 1 Kor', ref: '1 Kor 11:23-26' }],
+        'MAT:27': [{ label: 'Korsfestelsen i Mark', ref: 'Mark 15' }, { label: 'Korsfestelsen i Luk', ref: 'Luk 23' }, { label: 'Korsfestelsen i Joh', ref: 'Joh 19' }],
+        'MAT:28': [{ label: 'Oppstandelsen i Mark', ref: 'Mark 16' }, { label: 'Oppstandelsen i Luk', ref: 'Luk 24' }, { label: 'Oppstandelsen i Joh', ref: 'Joh 20' }],
+        'MRK:1': [{ label: 'Paralleller i Matt/Luk', ref: 'Matt 3:13-17' }],
+        'LUK:2': [{ label: 'Julefortellingen i Matt', ref: 'Matt 1:18-2:12' }],
+        'JHN:1': [{ label: 'Skapelsen i 1 Mos', ref: '1 Mos 1:1-5' }],
+        'GEN:1': [{ label: 'Skapelsen i Joh', ref: 'Joh 1:1-14' }, { label: 'Kristus og skapelsen i Kol', ref: 'Kol 1:15-17' }],
+        'GEN:2': [{ label: 'Skapelsen i Joh', ref: 'Joh 1:1-14' }],
+        '1CO:13': [{ label: 'Kjærlighetens bud i 1 Joh', ref: '1 Joh 4:7-21' }],
+    };
+
+    // ── Suggestions ──
+    const suggestionsDesktop = document.getElementById('suggestionsDesktop');
+    const suggestionsMobile = document.getElementById('suggestionsMobile');
+
+    function activeSuggestionsEl() {
+        return document.activeElement === searchInputMobile ? suggestionsMobile : suggestionsDesktop;
+    }
+
+    function looksEnglish(q) {
+        if (!q) return false;
+        // Inneholder kun ASCII-bokstaver + mellomrom, og ingen norske spesialtegn
+        if (/[æøåÆØÅ]/.test(q)) return false;
+        return /^[A-Za-z\s']+$/.test(q);
+    }
+
+    function parseSimpleReference(q) {
+        // Prøv å identifisere book + kapittel fra en streng som "Joh 3" eller "Matteus 5:3"
+        // Returnerer {bookCode, chapter} eller null
+        const m = q.trim().match(/^(.+?)\s+(\d+)(?::\d+.*)?$/);
+        if (!m) return null;
+        const maybeBook = m[1].toLowerCase().replace(/[.,]/g, '').trim();
+        const chapter = parseInt(m[2], 10);
+        const book = booksData.find(b => b.name.toLowerCase().startsWith(maybeBook) || (b.code.toLowerCase() === maybeBook));
+        return book ? { bookCode: book.code, chapter } : null;
+    }
+
+    function buildSuggestions(query) {
+        const suggestions = [];
+        const q = query.trim();
+        const versions = Array.from(versionSelectDesktop.options).map(o => o.value);
+        const currentVer = versionSelect.value;
+
+        // Grupper: nylige søk (når feltet er tomt eller kun få tegn)
+        if (q.length < 2) {
+            const recent = getRecentSearches();
+            if (recent.length) {
+                suggestions.push({ groupLabel: 'Nylige søk' });
+                recent.forEach(r => {
+                    suggestions.push({
+                        icon: '🕘',
+                        html: escHtml(r),
+                        onClick: () => { searchInput.value = r; doSearch(); closeSuggestions(); }
+                    });
+                });
+            }
+            return suggestions;
+        }
+
+        const wordCount = q.split(/\s+/).filter(Boolean).length;
+        const hasOperators = q.indexOf('"') !== -1 || /\s-\S/.test(' ' + q);
+
+        // ── Søke-forslag ──
+        // 1) Eksakt søk: ≥3 ord og ikke allerede kvotert
+        if (wordCount >= 3 && q.indexOf('"') === -1) {
+            const quoted = `"${q}"`;
+            suggestions.push({
+                icon: '🔍',
+                html: `Søk eksakt: <strong>${escHtml(quoted)}</strong>`,
+                onClick: () => { searchInput.value = quoted; doSearch(); closeSuggestions(); }
+            });
+        }
+
+        // 2) Tekstsøk-variant: hvis input matcher et boknavn, tilby å søke etter ordet i stedet
+        if (wordCount === 1 && !hasOperators) {
+            const matchingBook = booksData.find(b =>
+                b.name.toLowerCase().startsWith(q.toLowerCase()) && q.length >= 3
+            );
+            if (matchingBook) {
+                suggestions.push({
+                    icon: '🔤',
+                    html: `Søk etter ordet <strong>${escHtml(q)}</strong> i Bibelen`,
+                    hint: '(tekstsøk, ikke bok)',
+                    onClick: () => { searchInput.value = `"${q}"`; doSearch(); closeSuggestions(); }
+                });
+            }
+        }
+
+        // 3) Ekskluder ord: etter tekstsøk, vis topp-hyppige ord som kan ekskluderes
+        if (textSearchCache && textSearchCache.results && textSearchCache.query === q && !hasOperators) {
+            const commonWords = topWordsInResults(textSearchCache.results, q);
+            commonWords.slice(0, 2).forEach(w => {
+                suggestions.push({
+                    icon: '➖',
+                    html: `Ekskluder: <strong>${escHtml(w)}</strong>`,
+                    hint: '(smalere søk)',
+                    onClick: () => { searchInput.value = `${q} -${w}`; doSearch(); closeSuggestions(); }
+                });
+            });
+        }
+
+        // 4) Begrens til bok: hvis vi har tekstsøkresultater med en tydelig bok på topp
+        if (textSearchCache && textSearchCache.bookTotals && textSearchCache.query === q && !hasOperators) {
+            const totals = textSearchCache.bookTotals;
+            const topBooks = Object.entries(totals).sort((a, b) => b[1] - a[1]).slice(0, 2);
+            topBooks.forEach(([code, count]) => {
+                const bn = bookName(code);
+                suggestions.push({
+                    icon: '🎯',
+                    html: `Søk kun i <strong>${escHtml(bn)}</strong>`,
+                    hint: `(${count} treff)`,
+                    onClick: () => { searchOnlyInBook(code); closeSuggestions(); }
+                });
+            });
+        }
+
+        // ── Kontekst-forslag ──
+        // 5) Bytt versjon: hvis søk ser engelsk ut og det finnes engelske versjoner
+        if (looksEnglish(q) && currentVer === 'NB88') {
+            const engVer = versions.find(v => ['ESV','KJV','NIV','NKJV','NASB1995'].includes(v));
+            if (engVer) {
+                suggestions.push({
+                    icon: '🌍',
+                    html: `Søk i <strong>${escHtml(versionLabel(engVer))}</strong>`,
+                    hint: '(engelsk versjon)',
+                    onClick: () => {
+                        versionSelect.value = engVer;
+                        doSearch();
+                        closeSuggestions();
+                    }
+                });
+            }
+        }
+
+        // 6) Testament-filter: tilby NT / GT filter
+        suggestions.push({
+            icon: '✝️',
+            html: `Søk kun i <strong>Det nye testamentet</strong>`,
+            onClick: () => { searchInTestament(q, 'NT'); closeSuggestions(); }
+        });
+        suggestions.push({
+            icon: '📜',
+            html: `Søk kun i <strong>Det gamle testamentet</strong>`,
+            onClick: () => { searchInTestament(q, 'GT'); closeSuggestions(); }
+        });
+
+        // 7) Parallellsteder: hvis input parses til en kjent referanse-nøkkel
+        const ref = parseSimpleReference(q);
+        if (ref) {
+            const key = `${ref.bookCode}:${ref.chapter}`;
+            const parallels = PARALLELS[key];
+            if (parallels) {
+                parallels.forEach(p => {
+                    suggestions.push({
+                        icon: '🔗',
+                        html: `Parallellsted: <strong>${escHtml(p.label)}</strong>`,
+                        hint: p.ref,
+                        onClick: () => { searchInput.value = p.ref; doSearch(); closeSuggestions(); }
+                    });
+                });
+            }
+        }
+
+        return suggestions;
+    }
+
+    function topWordsInResults(results, query) {
+        const queryWords = new Set(query.toLowerCase().split(/\s+/).filter(Boolean));
+        const stopWords = new Set(['og','i','er','det','de','den','at','som','han','hun','på','av','til','med','for','å','en','et','ei','men','så','skal','har','blir','ikke','var','ble','vil','kan','må','oss','dere','meg','deg','seg','jeg','du','vi','alle','hans','hennes','sin','sitt','sine','når','da','hvor','hva','hvem']);
+        const counts = {};
+        results.forEach(r => {
+            const words = r.text.toLowerCase().replace(/[.,:;!?'"\u00AB\u00BB\-]/g, ' ').split(/\s+/);
+            words.forEach(w => {
+                if (!w || w.length < 4) return;
+                if (queryWords.has(w)) return;
+                if (stopWords.has(w)) return;
+                counts[w] = (counts[w] || 0) + 1;
+            });
+        });
+        return Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([w]) => w);
+    }
+
+    async function searchInTestament(query, testament) {
+        const targetBooks = booksData.map(b => b.code).filter(c => testament === 'NT' ? isNtBook(c) : !isNtBook(c));
+        if (!targetBooks.length) return;
+        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
+        setSearchLoading(true);
+        const version = versionSelect.value;
+        try {
+            // Kjør parallelle søk for hver bok
+            const allResults = [];
+            const bookTotals = {};
+            const chunks = await Promise.all(targetBooks.map(code =>
+                fetchWithRetry(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}&book=${encodeURIComponent(code)}`)
+                    .then(r => r.json()).catch(() => null)
+            ));
+            chunks.forEach(d => {
+                if (d && d.results) {
+                    d.results.forEach(r => allResults.push(r));
+                    Object.entries(d.book_totals || {}).forEach(([k, v]) => bookTotals[k] = v);
+                }
+            });
+            const total = Object.values(bookTotals).reduce((s, n) => s + n, 0);
+            currentView = 'text_search';
+            collapsed = true;
+            renderTextSearch(allResults, query, bookTotals, total);
+            searchInput.value = `${testament}: ${query}`;
+            lastQuery = query;
+        } finally {
+            setSearchLoading(false);
+        }
+    }
+
+    function renderSuggestions(el, suggestions) {
+        if (!suggestions.length) { el.classList.remove('open'); el.innerHTML = ''; return; }
+        let html = '';
+        suggestions.forEach((s, i) => {
+            if (s.groupLabel) {
+                html += `<div class="suggestions-group-label">${escHtml(s.groupLabel)}</div>`;
+                return;
+            }
+            html += `<div class="suggestion-item" data-idx="${i}">
+                <span class="suggestion-icon">${s.icon || ''}</span>
+                <span class="suggestion-text">${s.html}</span>
+                ${s.hint ? `<span class="suggestion-hint">${escHtml(s.hint)}</span>` : ''}
+            </div>`;
+        });
+        el.innerHTML = html;
+        el.classList.add('open');
+        el.querySelectorAll('.suggestion-item').forEach(item => {
+            const i = parseInt(item.getAttribute('data-idx'), 10);
+            item.addEventListener('mousedown', e => {
+                e.preventDefault();  // unngå blur på input før click kjøres
+                suggestions[i].onClick && suggestions[i].onClick();
+            });
+        });
+    }
+
+    function updateSuggestions() {
+        const el = activeSuggestionsEl();
+        const active = document.activeElement;
+        if (active !== searchInputDesktop && active !== searchInputMobile) {
+            closeSuggestions();
+            return;
+        }
+        const q = searchInput.value;
+        const list = buildSuggestions(q);
+        renderSuggestions(el, list);
+    }
+
+    function closeSuggestions() {
+        suggestionsDesktop.classList.remove('open');
+        suggestionsMobile.classList.remove('open');
+    }
+
+    [searchInputDesktop, searchInputMobile].forEach(el => {
+        el.addEventListener('input', updateSuggestions);
+        el.addEventListener('focus', updateSuggestions);
+        el.addEventListener('blur', () => setTimeout(closeSuggestions, 200));
+    });
+    document.addEventListener('click', e => {
+        if (!e.target.closest('.suggestions') && !e.target.closest('.search-bar-wrap')) {
+            closeSuggestions();
+        }
+    });
+
     // ── Fetch with retry for transient network errors ──
     async function fetchWithRetry(url, options = {}, retries = 2) {
         let lastErr;
@@ -1136,6 +1506,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             previousState = null;
             highlightVerse = null;
             setSearchLoading(true);
+            addRecentSearch(query);
+            closeSuggestions();
         }
         currentView = 'normal';
         aiDiffState = null;
