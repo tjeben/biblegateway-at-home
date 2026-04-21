@@ -635,11 +635,78 @@
         /* Compare card (side by side on PC, stacked on mobil) */
         .verse-card.compare-card {
             border-top: 3px solid var(--accent);
+            animation: compareSlideInMobile 220ms cubic-bezier(.2, .8, .2, 1);
         }
         @media (min-width: 701px) {
-            .verse-card.compare-card { border-top: none; border-left: 3px solid var(--accent); }
+            .verse-card.compare-card {
+                border-top: none;
+                border-left: 3px solid var(--accent);
+                animation: compareSlideInDesktop 220ms cubic-bezier(.2, .8, .2, 1);
+            }
         }
         .compare-card-header { flex-wrap: wrap; gap: 10px; }
+
+        /* ── Animasjoner ── */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(8px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes compareSlideInDesktop {
+            from { opacity: 0; transform: translateX(-16px); }
+            to   { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes compareSlideInMobile {
+            from { opacity: 0; transform: translateY(-12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes popoverOpen {
+            from { opacity: 0; transform: translateY(-4px) scaleY(0.96); }
+            to   { opacity: 1; transform: translateY(0) scaleY(1); }
+        }
+        @keyframes expandOpen {
+            from { opacity: 0; transform: scaleY(0.92); }
+            to   { opacity: 1; transform: scaleY(1); }
+        }
+
+        .note-popover {
+            animation: popoverOpen 160ms cubic-bezier(.2, .8, .2, 1);
+            transform-origin: top;
+        }
+        .inline-verse-expand {
+            animation: expandOpen 240ms cubic-bezier(.2, .8, .2, 1);
+            transform-origin: top;
+        }
+
+        /* Kort-entré med liten stagger (maks 6 elementer) */
+        .verse-card:not(.compare-card),
+        .search-result-item,
+        .all-versions-block,
+        .book-group {
+            animation: fadeInUp 220ms cubic-bezier(.2, .8, .2, 1) both;
+        }
+        .verse-card:not(.compare-card):nth-child(2),
+        .search-result-item:nth-child(2),
+        .book-group:nth-child(2) { animation-delay: 30ms; }
+        .verse-card:not(.compare-card):nth-child(3),
+        .search-result-item:nth-child(3),
+        .book-group:nth-child(3) { animation-delay: 60ms; }
+        .verse-card:not(.compare-card):nth-child(4),
+        .search-result-item:nth-child(4),
+        .book-group:nth-child(4) { animation-delay: 90ms; }
+        .verse-card:not(.compare-card):nth-child(5),
+        .search-result-item:nth-child(5),
+        .book-group:nth-child(5) { animation-delay: 120ms; }
+        .verse-card:not(.compare-card):nth-child(6),
+        .search-result-item:nth-child(6),
+        .book-group:nth-child(6) { animation-delay: 150ms; }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-delay: 0ms !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
         .compare-version-inline {
             padding: 4px 10px;
             font-size: 0.88rem;
