@@ -849,6 +849,48 @@
             background: linear-gradient(to right, rgba(168,50,50,0.08), rgba(168,50,50,0.85));
         }
 
+        /* AI-paneler (Kontekst, Tema-kart) */
+        .ai-panel {
+            padding: 16px 18px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            animation: fadeInUp 220ms cubic-bezier(.2, .8, .2, 1);
+        }
+        .ai-panel-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+        .ai-panel-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+        .ai-panel-body { font-size: 0.95rem; }
+        .card-action-btn.ai-btn { background: linear-gradient(180deg, rgba(168,50,50,0.04), rgba(201,151,46,0.04)); }
+
+        .theme-section-header {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            padding: 4px 0 4px 10px;
+            margin-bottom: 6px;
+            flex-wrap: wrap;
+        }
+        .theme-section-name {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--text);
+        }
+        .theme-section-meta {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
         /* Bibel-tidslinje (SVG-buer) */
         .bible-timeline {
             width: 100%;
@@ -1834,6 +1876,155 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         showXrefMap(counts);
     };
 
+    // ── AI: Kontekst-panel ──
+    window.openContextPanel = async function(btn) {
+        const existing = document.getElementById('aiContextHost');
+        if (existing) { existing.remove(); return; }
+        const label = btn.getAttribute('data-label') || '';
+        const text = btn.getAttribute('data-text') || '';
+        if (!text) return;
+        btn.disabled = true;
+        const origLabel = btn.textContent;
+        btn.textContent = '💭 Henter…';
+        try {
+            const resp = await fetch('/api/ai_context', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ label, text })
+            });
+            const data = await resp.json();
+            const host = document.createElement('div');
+            host.id = 'aiContextHost';
+            host.className = 'bible-map-wrap';
+            host.style.marginTop = '20px';
+            const content = data.error
+                ? `<div style="color:var(--error);">${escHtml(data.error)}</div>`
+                : `<div style="font-size:0.98rem;line-height:1.6;color:var(--text);">${escHtml(data.result || '')}</div>`;
+            host.innerHTML = `<div class="ai-panel">
+                <div class="ai-panel-header">
+                    <span class="ai-panel-title">💭 Kontekst — ${escHtml(label)}</span>
+                    <button class="card-action-btn" onclick="document.getElementById('aiContextHost').remove()">Lukk</button>
+                </div>
+                <div class="ai-panel-body">${content}</div>
+            </div>`;
+            resultsWrapper.appendChild(host);
+            setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
+        } catch {
+            showToast('Kunne ikke koble til serveren');
+        } finally {
+            btn.disabled = false;
+            btn.textContent = origLabel;
+        }
+    };
+
+    // ── AI: Tema-kart ──
+    const THEME_COLORS = [
+        { base: '168, 50, 50',  name: 'rød' },   // accent
+        { base: '201, 151, 46', name: 'gyllen' }, // gold
+        { base: '70, 120, 130', name: 'teal' },   // muted teal
+    ];
+
+    function buildThemeMapHtml(counts, colorRgb) {
+        const values = Object.values(counts).filter(v => v > 0);
+        if (values.length === 0) return '<div style="font-size:0.85rem;color:var(--text-muted);padding:6px 2px;">Ingen treff.</div>';
+        const maxCount = Math.max(...values);
+        function cell(code) {
+            const c = counts[code] || 0;
+            const short = BOOK_SHORT[code] || code;
+            if (c === 0) return `<div class="bible-map-cell empty"><span>${escHtml(short)}</span></div>`;
+            const intensity = c / maxCount;
+            const alpha = 0.15 + intensity * 0.7;
+            const strong = intensity > 0.55 ? ' strong' : '';
+            const name = (booksData.find(b=>b.code===code)||{}).name || code;
+            return `<div class="bible-map-cell${strong}" style="background:rgba(${colorRgb},${alpha.toFixed(2)});"
+                onclick="mapJumpToBook('${escAttr(code)}')" title="${escAttr(name)}: ${c}">
+                <span>${escHtml(short)}</span>
+                <span class="bible-map-cell-count">${c}</span>
+            </div>`;
+        }
+        return `<div class="bible-map-grid ot">${OT_CODES.map(cell).join('')}</div>
+                <div class="bible-map-grid nt" style="margin-top:6px;">${NT_CODES.map(cell).join('')}</div>`;
+    }
+
+    window.openThemeMap = async function(btn) {
+        const existing = document.getElementById('aiThemeHost');
+        if (existing) { existing.remove(); return; }
+        const label = btn.getAttribute('data-label') || '';
+        const text = btn.getAttribute('data-text') || '';
+        if (!text) return;
+        btn.disabled = true;
+        const origLabel = btn.textContent;
+        btn.textContent = '🎨 Analyserer…';
+
+        // Placeholder-host så bruker ser at det skjer noe
+        const host = document.createElement('div');
+        host.id = 'aiThemeHost';
+        host.className = 'bible-map-wrap';
+        host.style.marginTop = '20px';
+        host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header">
+            <span class="ai-panel-title">🎨 Tema-kart</span>
+            <button class="card-action-btn" onclick="document.getElementById('aiThemeHost').remove()">Lukk</button>
+        </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer tema…</div></div></div>`;
+        resultsWrapper.appendChild(host);
+        setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
+
+        try {
+            const resp = await fetch('/api/ai_themes', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ label, text })
+            });
+            const data = await resp.json();
+            if (data.error) {
+                host.querySelector('.ai-panel-body').innerHTML = `<div style="color:var(--error);">${escHtml(data.error)}</div>`;
+                return;
+            }
+            const themes = (data.themes || []).slice(0, 3);
+            if (themes.length === 0) {
+                host.querySelector('.ai-panel-body').innerHTML = `<div style="color:var(--text-muted);">Fant ingen tema.</div>`;
+                return;
+            }
+
+            // Kjør tekstsøk for hvert tema i parallell
+            const version = versionSelect.value;
+            const searches = await Promise.all(themes.map(t =>
+                fetch(`/api/search?q=${encodeURIComponent(t.search)}&version=${encodeURIComponent(version)}`)
+                    .then(r => r.json()).catch(() => ({ results: [] }))
+            ));
+
+            // Bygg bookTotals per tema
+            const themeResults = themes.map((t, i) => {
+                const s = searches[i];
+                const counts = s.book_totals || {};
+                // Fallback: hvis ingen book_totals, beregn fra results
+                if (Object.keys(counts).length === 0 && s.results) {
+                    s.results.forEach(r => { counts[r.book] = (counts[r.book] || 0) + 1; });
+                }
+                const total = Object.values(counts).reduce((a,b) => a + b, 0);
+                return { ...t, counts, total, color: THEME_COLORS[i % THEME_COLORS.length] };
+            });
+
+            // Render
+            let body = `<div style="display:flex;flex-direction:column;gap:14px;">`;
+            themeResults.forEach((tr, i) => {
+                body += `<div class="theme-section">
+                    <div class="theme-section-header" style="border-left:4px solid rgba(${tr.color.base},0.85);">
+                        <span class="theme-section-name">${escHtml(tr.name)}</span>
+                        <span class="theme-section-meta">«${escHtml(tr.search)}» — ${tr.total} treff</span>
+                    </div>
+                    <div class="theme-section-map">${buildThemeMapHtml(tr.counts, tr.color.base)}</div>
+                </div>`;
+            });
+            body += `</div>`;
+            host.querySelector('.ai-panel-body').innerHTML = body;
+        } catch {
+            host.querySelector('.ai-panel-body').innerHTML = `<div style="color:var(--error);">Kunne ikke koble til serveren.</div>`;
+        } finally {
+            btn.disabled = false;
+            btn.textContent = origLabel;
+        }
+    };
+
     window.openXrefTimeline = function(btn) {
         const encoded = btn.getAttribute('data-xref-info');
         let info;
@@ -2788,10 +2979,14 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const ilUrl = interlinearUrl(block.book, ch, isSingleVerse ? block.verses[0].num : null);
             const verseNum = isSingleVerse ? block.verses[0].num : null;
 
+            const cardText = (block.verses || []).map(v => v.text).join(' ').trim();
+            const cardLabel = block.label || '';
             html += `<div class="verse-card-footer">
                 <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Hele kapittelet</button>
                 <button class="card-action-btn" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
-                <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>`;
+                <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>
+                <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
+                <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>`;
             if (ilUrl) {
                 html += `<a class="card-action-btn" href="${ilUrl}" target="_blank" rel="noopener" style="text-decoration:none;">biblehub</a>`;
             }

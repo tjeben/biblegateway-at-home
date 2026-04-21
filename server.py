@@ -1165,6 +1165,80 @@ Regler:
                 sys.stderr.write(f"[{self.log_date_time_string()}] ai_diff FEIL: {e}\n")
                 sys.stderr.flush()
                 self._send_json({"error": str(e)}, 500)
+        elif path == "/api/ai_context":
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            label = body.get("label", "")
+            text = body.get("text", "")
+            if not text:
+                self._send_json({"error": "Mangler tekst"}, 400)
+                return
+            sys.stderr.write(f"[{self.log_date_time_string()}] ai_context: {label}\n")
+            sys.stderr.flush()
+            try:
+                result = gemini_request(
+                    api_key,
+                    f"Vers: {label}\nTekst: {text}",
+                    "Du er en bibelforsker. Gi en kort kontekst for verset på 2-3 setninger: "
+                    "hvem som snakker, til hvem, hva som skjer rett før og hva verset handler om. "
+                    "Skriv på norsk, enkelt og presist. Ikke tolk teologisk — bare gi litterær/historisk kontekst. "
+                    "Ingen innledning, bare selve konteksten.",
+                    max_tokens=250,
+                )
+                self._send_json({"result": result})
+            except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_context FEIL: {e}\n")
+                sys.stderr.flush()
+                self._send_json({"error": str(e)}, 500)
+
+        elif path == "/api/ai_themes":
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            label = body.get("label", "")
+            text = body.get("text", "")
+            if not text:
+                self._send_json({"error": "Mangler tekst"}, 400)
+                return
+            sys.stderr.write(f"[{self.log_date_time_string()}] ai_themes: {label}\n")
+            sys.stderr.flush()
+            try:
+                result = gemini_request(
+                    api_key,
+                    f"Vers: {label}\nTekst: {text}",
+                    "Du er en bibelforsker. Identifiser 3 sentrale tema i dette bibelverset. "
+                    "For hvert tema, gi et kort tema-navn (1-3 ord) og et PRESIST norsk søkeord "
+                    "(1-3 ord, bøyd form som faktisk finnes i norske bibeloversettelser) som vil finne "
+                    "andre vers med samme tema.\n\n"
+                    "Returner KUN gyldig JSON på denne formen, uten kommentarer:\n"
+                    '[{"name": "Tema 1", "search": "søkeord"}, {"name": "Tema 2", "search": "søkeord"}, {"name": "Tema 3", "search": "søkeord"}]\n\n'
+                    "Ingen innledning, ingen etterord. Bare JSON-arrayet.",
+                    max_tokens=300,
+                )
+                # Strip markdown code fences if present
+                cleaned = result.strip()
+                if cleaned.startswith("```"):
+                    cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else cleaned
+                    if cleaned.endswith("```"):
+                        cleaned = cleaned.rsplit("\n", 1)[0]
+                    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+                try:
+                    themes = json.loads(cleaned)
+                    if not isinstance(themes, list):
+                        raise ValueError("Forventet liste")
+                    self._send_json({"themes": themes})
+                except Exception as parse_err:
+                    sys.stderr.write(f"[{self.log_date_time_string()}] ai_themes parse-feil: {parse_err} — rå: {result[:200]}\n")
+                    sys.stderr.flush()
+                    self._send_json({"error": "KI returnerte ugyldig format"}, 500)
+            except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_themes FEIL: {e}\n")
+                sys.stderr.flush()
+                self._send_json({"error": str(e)}, 500)
+
         else:
             sys.stderr.write(f"[{self.log_date_time_string()}] 404 ukjent POST-sti: {path!r}\n")
             sys.stderr.flush()
