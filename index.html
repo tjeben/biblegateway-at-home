@@ -146,40 +146,7 @@
         }
         .dark-toggle:hover { border-color: rgba(255,255,255,0.6); }
 
-        /* Book browser / sorter */
-        .browser-bar {
-            max-width: 1400px;
-            margin: 12px auto 0;
-            padding: 0 24px;
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .browser-bar > label {
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-right: 2px;
-        }
-        .browser-bar select {
-            padding: 8px 16px;
-            font-size: 0.9rem;
-            border-radius: 999px;  /* pilleformet som søkefeltet */
-        }
-        /* Browser-bar aktiv-indikator (når bok/kapittel er valgt) */
-        .browser-bar.active {
-            border: 2px solid var(--accent);
-            border-radius: 999px;
-            padding: 8px 20px;
-            box-shadow: 0 0 10px rgba(168, 50, 50, 0.25);
-            transition: all 0.3s ease;
-        }
-        [data-theme="dark"] .browser-bar.active {
-            box-shadow: 0 0 10px rgba(201, 68, 68, 0.35);
-        }
+        /* Book browser / sorter — fjernet. Bruk 'Johannes:' prefix eller referanse-søk i stedet. */
 
         /* Toggles */
         .toggles {
@@ -927,8 +894,6 @@
             .controls-actions select { flex: 1; min-width: 0; }
             .controls-actions .btn-primary,
             .controls-actions .btn-secondary { flex: 1; text-align: center; }
-            .browser-bar select { flex: 1; min-width: 0; }
-            #bookSelect { width: auto !important; }
             .toggles { gap: 12px; }
             .verse-row { flex-direction: column; }
             .compare-columns-header { flex-direction: column; gap: 6px; }
@@ -954,8 +919,6 @@
             }
             .controls.desktop-only { display: none; }
             .results-wrapper { padding-bottom: 110px; }
-            /* Browser-bar (filter) alltid synlig øverst på mobil */
-            #browserBar { display: flex !important; }
         }
         @media (min-width: 701px) {
             .search-bottom-bar { display: none; }
@@ -965,10 +928,6 @@
                 margin-top: 22vh;
                 max-width: 640px;
                 transition: margin-top 0.6s cubic-bezier(.4, 0, .2, 1), max-width 0.4s ease;
-            }
-            .page-center-mode .browser-bar {
-                max-width: 640px;
-                transition: max-width 0.4s ease;
             }
             .page-center-mode .results-wrapper {
                 max-width: 640px;
@@ -980,10 +939,6 @@
                 margin-top: 20px;
                 max-width: 1400px;
                 transition: margin-top 0.6s cubic-bezier(.4, 0, .2, 1), max-width 0.4s ease;
-            }
-            .page-top-mode .browser-bar {
-                max-width: 1400px;
-                transition: max-width 0.4s ease;
             }
             .page-top-mode .results-wrapper {
                 max-width: 1400px;
@@ -1018,11 +973,6 @@
     </div>
 </div>
 
-<div class="browser-bar" id="browserBar">
-    <label>Sorter:</label>
-    <select id="bookSelect" style="width:230px"><option value="">-- Bok --</option></select>
-    <select id="chapterSelect" disabled><option value="">-- Kap --</option></select>
-</div>
 
 <div class="toggles">
     <select id="compareVersionSelect" style="display:none;"></select>
@@ -1258,8 +1208,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     const emptyState = document.getElementById('emptyState');
     const emptyStateHtml = emptyState.outerHTML;
     const toast = document.getElementById('toast');
-    const bookSelect = document.getElementById('bookSelect');
-    const chapterSelect = document.getElementById('chapterSelect');
+    // bookSelect/chapterSelect ble fjernet — bruk kolon-prefix (Johannes:) eller referanse (Johannes 3) i stedet
+    const bookSelect = null;
+    const chapterSelect = null;
 
     // ── Version display names (folder name → display name) ──
     const VERSION_DISPLAY = {
@@ -1323,14 +1274,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     function refreshBookDropdown() {
-        const prev = bookSelect.value;
-        bookSelect.innerHTML = '<option value="">-- Bok --</option>';
-        booksData.forEach(b => {
-            bookSelect.add(new Option(b.name, b.code));
-        });
-        bookSelect.value = prev;
-        chapterSelect.innerHTML = '<option value="">-- Kap --</option>';
-        chapterSelect.disabled = true;
+        // Bok-dropdown fjernet — funksjonen er no-op, beholder navn for bakoverkompatibilitet
     }
 
     versionSelectDesktop.addEventListener('change', () => {
@@ -1344,43 +1288,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (lastQuery) doSearch();
     });
 
-    function updateSortActiveState() {
-        const bar = document.getElementById('browserBar');
-        if (!bar) return;
-        const hasSelection = !!bookSelect.value;
-        bar.classList.toggle('active', hasSelection);
-    }
-
-    bookSelect.addEventListener('change', () => {
-        const code = bookSelect.value;
-        chapterSelect.innerHTML = '<option value="">-- Kap --</option>';
-        if (!code) {
-            chapterSelect.disabled = true;
-            updateSortActiveState();
-            return;
-        }
-        const book = booksData.find(b => b.code === code);
-        if (!book) return;
-        for (let i = 1; i <= book.chapters; i++) {
-            chapterSelect.add(new Option(i, i));
-        }
-        chapterSelect.disabled = false;
-        updateSortActiveState();
-        // Når bare en bok er valgt (uten kapittel), hopp til kapittel 1 automatisk
-        searchInput.value = `${book.name} 1`;
-        doSearch();
-    });
-
-    chapterSelect.addEventListener('change', () => {
-        const code = bookSelect.value;
-        const ch = chapterSelect.value;
-        if (!code || !ch) return;
-        const book = booksData.find(b => b.code === code);
-        if (!book) return;
-        searchInput.value = `${book.name} ${ch}`;
-        updateSortActiveState();
-        doSearch();
-    });
+    // Sort-active-state no-op (UI fjernet)
+    function updateSortActiveState() {}
 
     // ── Heartbeat ──
     setInterval(() => fetch('/api/heartbeat').catch(() => {}), 3000);
@@ -1841,15 +1750,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             addRecentSearch(query);
             closeSuggestions();
             clearAiReformulated();  // nytt bruker-initiert søk → fjern gammel KI-indikator
-            // Hvis søket ikke kom fra sort-dropdowns, fjern aktiv-state
-            const fromSort = query && bookSelect.value && booksData.find(b => b.code === bookSelect.value) &&
-                             (query.toLowerCase().startsWith(booksData.find(b => b.code === bookSelect.value).name.toLowerCase()));
-            if (!fromSort) {
-                bookSelect.value = '';
-                chapterSelect.innerHTML = '<option value="">-- Kap --</option>';
-                chapterSelect.disabled = true;
-                updateSortActiveState();
-            }
             pushHistoryState({
                 view: 'normal', query, version: versionSelect.value,
             });
