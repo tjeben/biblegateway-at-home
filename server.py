@@ -1165,6 +1165,57 @@ Regler:
                 sys.stderr.write(f"[{self.log_date_time_string()}] ai_diff FEIL: {e}\n")
                 sys.stderr.flush()
                 self._send_json({"error": str(e)}, 500)
+        elif path == "/api/ai_gen_refs":
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            label = body.get("label", "")
+            text = body.get("text", "")
+            if not text:
+                self._send_json({"error": "Mangler tekst"}, 400)
+                return
+            sys.stderr.write(f"[{self.log_date_time_string()}] ai_gen_refs: {label}\n")
+            sys.stderr.flush()
+            try:
+                result = gemini_request(
+                    api_key,
+                    f"Vers: {label}\nTekst: {text}",
+                    "Du er en bibelforsker. Gitt dette verset, generer 6-10 KORTE søkestrenger "
+                    "(1-3 ord per søk) som vil finne andre vers i Bibelen med lignende tema, idé, "
+                    "eller som refererer til samme sannhet. Fokus på:\n"
+                    "- Nøkkelbegreper og kjernekonsepter\n"
+                    "- Navn, personer, steder som nevnes\n"
+                    "- Teologiske uttrykk og idiomer\n"
+                    "- Bøyninger som faktisk finnes i norske bibeloversettelser (ta hensyn til verset er på norsk)\n\n"
+                    "Unngå vanlige ord som finnes overalt (som 'Gud', 'Herren', 'og', 'i'). Sikt på "
+                    "presise fraser som gir få, men relevante treff.\n\n"
+                    "Returner KUN JSON-array med søkestrengene:\n"
+                    '["søkestreng 1", "søkestreng 2", ...]\n\n'
+                    "Ingen innledning, ingen etterord. Maks 10 søkestrenger.",
+                    max_tokens=300,
+                )
+                cleaned = result.strip()
+                if cleaned.startswith("```"):
+                    cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else cleaned
+                    if cleaned.endswith("```"):
+                        cleaned = cleaned.rsplit("\n", 1)[0]
+                    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+                try:
+                    queries = json.loads(cleaned)
+                    if not isinstance(queries, list):
+                        raise ValueError("Forventet liste")
+                    queries = [q.strip() for q in queries if isinstance(q, str) and q.strip()][:10]
+                    self._send_json({"queries": queries})
+                except Exception as parse_err:
+                    sys.stderr.write(f"[{self.log_date_time_string()}] ai_gen_refs parse-feil: {parse_err} — rå: {result[:200]}\n")
+                    sys.stderr.flush()
+                    self._send_json({"error": "KI returnerte ugyldig format"}, 500)
+            except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_gen_refs FEIL: {e}\n")
+                sys.stderr.flush()
+                self._send_json({"error": str(e)}, 500)
+
         elif path == "/api/ai_highlight_diff":
             api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
