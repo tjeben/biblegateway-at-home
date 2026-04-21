@@ -453,6 +453,14 @@
             border-top: 1px solid var(--border);
             text-align: center;
         }
+        .book-group-actions {
+            padding: 10px 18px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         .search-controls {
             display: flex;
             gap: 10px;
@@ -1305,7 +1313,14 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     </div>`;
                 });
                 if (totalInBook > items.length) {
-                    html += `<div class="book-group-more">… ${totalInBook - items.length} flere treff i denne boken (begrens søket for å se alle)</div>`;
+                    html += `<div class="book-group-actions">
+                        <button class="card-action-btn" onclick="event.stopPropagation(); loadMoreInBook('${escAttr(code)}', this)">Last inn flere (${totalInBook - items.length})</button>
+                        <button class="card-action-btn" onclick="event.stopPropagation(); searchOnlyInBook('${escAttr(code)}')">Søk bare i ${escHtml(bName)}</button>
+                    </div>`;
+                } else {
+                    html += `<div class="book-group-actions">
+                        <button class="card-action-btn" onclick="event.stopPropagation(); searchOnlyInBook('${escAttr(code)}')">Søk bare i ${escHtml(bName)}</button>
+                    </div>`;
                 }
                 html += '</div></div>';
             });
@@ -1324,6 +1339,64 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             resultsWrapper.insertAdjacentHTML('afterbegin', '<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Tilbake</button></div>');
         }
     }
+
+    // Last inn flere treff i en spesifikk bok (inline, behold andre bøker)
+    window.loadMoreInBook = async function(bookCode, btnEl) {
+        const query = (textSearchCache && textSearchCache.query) || lastQuery;
+        if (!query) return;
+        btnEl.disabled = true;
+        btnEl.textContent = 'Laster…';
+        const version = versionSelect.value;
+        try {
+            const resp = await fetchWithRetry(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}&book=${encodeURIComponent(bookCode)}`);
+            const data = await resp.json();
+            if (!data.results) return;
+            const group = btnEl.closest('.book-group');
+            const itemsDiv = group.querySelector('.book-group-items');
+            const bName = bookName(bookCode);
+            let itemsHtml = '';
+            data.results.forEach(r => {
+                itemsHtml += `<div class="book-group-item" onclick="expandVerse(this, '${escAttr(r.ref)}', '${escAttr(r.book)}')">
+                    <div class="search-result-ref">${escHtml(r.ref)}</div>
+                    <div class="search-result-text">${highlightWords(escHtml(r.text), query)}</div>
+                </div>`;
+            });
+            itemsHtml += `<div class="book-group-actions">
+                <button class="card-action-btn" onclick="event.stopPropagation(); searchOnlyInBook('${escAttr(bookCode)}')">Søk bare i ${escHtml(bName)}</button>
+            </div>`;
+            itemsDiv.innerHTML = itemsHtml;
+            // Oppdater telling i header
+            const countEl = group.querySelector('.book-group-count');
+            if (countEl) countEl.textContent = `(${data.results.length})`;
+        } catch {
+            btnEl.disabled = false;
+            btnEl.textContent = 'Last inn flere';
+            showToast('Kunne ikke laste flere resultater');
+        }
+    };
+
+    // Søk på nytt, men bare i én bok (viser full referanse-visning)
+    window.searchOnlyInBook = async function(bookCode) {
+        const query = (textSearchCache && textSearchCache.query) || lastQuery;
+        if (!query) return;
+        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
+        const version = versionSelect.value;
+        setSearchLoading(true);
+        try {
+            const resp = await fetchWithRetry(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}&book=${encodeURIComponent(bookCode)}`);
+            const data = await resp.json();
+            currentView = 'text_search';
+            collapsed = false;  // vis flat liste siden vi er i én bok
+            renderTextSearch(data.results, data.query, data.book_totals || {}, data.total || data.results.length);
+            // Sett søkefelt til å reflektere filteret
+            searchInput.value = `${bookName(bookCode)}: ${query}`;
+            lastQuery = query;
+        } catch {
+            showToast('Kunne ikke søke i boken');
+        } finally {
+            setSearchLoading(false);
+        }
+    };
 
     window.toggleCollapse = function() {
         collapsed = !collapsed;

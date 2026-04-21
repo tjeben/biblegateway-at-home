@@ -750,16 +750,22 @@ def is_reference_query(query):
     return False
 
 
-def search_text(bible_data, version, query, per_book=10):
+def search_text(bible_data, version, query, per_book=10, book_filter=None):
     """Full-text search: find verses containing all query words (case insensitive, substring).
-    Returns up to per_book hits per book, plus total match counts per book."""
+    Returns up to per_book hits per book, plus total match counts per book.
+    If book_filter is set, only that book is searched and per_book is ignored (returns all)."""
     words = query.lower().split()
     if not words:
         return [], {}
 
     results = []
     book_totals = {}
-    for book_code in bible_data.version_books.get(version, []):
+    books_to_search = [book_filter] if book_filter else bible_data.version_books.get(version, [])
+    effective_per_book = 999999 if book_filter else per_book
+
+    for book_code in books_to_search:
+        if book_code not in bible_data.versions.get(version, {}):
+            continue
         book_name = USFM_TO_NAME.get(book_code, book_code)
         data = bible_data.versions[version][book_code]
         total = 0
@@ -767,7 +773,7 @@ def search_text(bible_data, version, query, per_book=10):
             text_lower = text.lower()
             if all(w in text_lower for w in words):
                 total += 1
-                if total <= per_book:
+                if total <= effective_per_book:
                     parts = key.split(".")
                     ch = int(parts[1])
                     vs = int(parts[2])
@@ -865,9 +871,10 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                 results = [resolve_block(bible_data, version, b) for b in blocks]
                 self._send_json({"type": "reference", "results": results, "version": version})
             else:
-                results, book_totals = search_text(bible_data, version, query)
+                book_filter = params.get("book", [""])[0] or None
+                results, book_totals = search_text(bible_data, version, query, book_filter=book_filter)
                 total = sum(book_totals.values())
-                self._send_json({"type": "text_search", "results": results, "book_totals": book_totals, "total": total, "query": query, "version": version})
+                self._send_json({"type": "text_search", "results": results, "book_totals": book_totals, "total": total, "query": query, "version": version, "book_filter": book_filter})
 
         elif path == "/api/all_versions":
             query = params.get("q", [""])[0]
