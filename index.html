@@ -1714,9 +1714,22 @@
         sel.addRange(range);
     }
     function buildFormattedHtml(text) {
+        // Finn testament-prefikser (NT:/GT: på starten, case-insensitiv, fulgt av mellomrom eller tegn)
+        const testamentMatch = /^(NT|GT|nt|gt)(\s*:)/i.exec(text);
+        const testamentEnd = testamentMatch ? testamentMatch[0].length : 0;
+
         let html = '';
         let inQuote = false;
-        for (let i = 0; i < text.length; i++) {
+        let i = 0;
+
+        // Uthev testament-prefiks hvis det finnes
+        if (testamentEnd > 0) {
+            const pre = text.slice(0, testamentEnd);
+            html += '<b>' + pre.replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/&/g,'&amp;') + '</b>';
+            i = testamentEnd;
+        }
+
+        for (; i < text.length; i++) {
             const c = text[i];
             if (c === '"') {
                 html += '<b>"</b>';
@@ -1724,6 +1737,8 @@
             } else if (c === '-' && !inQuote && (i === 0 || text[i - 1] === ' ') &&
                        i + 1 < text.length && text[i + 1] !== ' ' && text[i + 1] !== '-') {
                 html += '<b>-</b>';
+            } else if ((c === ':' || c === ';') && !inQuote) {
+                html += '<b>' + c + '</b>';
             } else if (c === '<') html += '&lt;';
             else if (c === '>') html += '&gt;';
             else if (c === '&') html += '&amp;';
