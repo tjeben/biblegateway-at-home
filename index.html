@@ -2071,10 +2071,29 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     function highlightWords(htmlText, query) {
-        const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+        // Finn eksakt-fraser først (i anførselstegn)
+        const phrases = [];
+        const phraseRe = /"([^"]+)"/g;
+        let m;
+        while ((m = phraseRe.exec(query)) !== null) phrases.push(m[1]);
+
+        // Fjern fraser og eksklusjonsord fra query for enkeltord-matching
+        const cleaned = query
+            .replace(/"[^"]+"/g, ' ')
+            .replace(/(^|\s)-\S+/g, ' ')
+            .toLowerCase();
+        const words = cleaned.split(/\s+/).filter(Boolean);
+
+        const escapeRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+        // Uthev hele fraser først (greedy), så enkeltord
+        phrases.forEach(p => {
+            const re = new RegExp(`(${escapeRe(p)})`, 'gi');
+            htmlText = htmlText.replace(re, '<b style="color:var(--accent)">$1</b>');
+        });
         words.forEach(w => {
-            const regex = new RegExp(`(${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-            htmlText = htmlText.replace(regex, '<b style="color:var(--accent)">$1</b>');
+            const re = new RegExp(`(${escapeRe(w)})`, 'gi');
+            htmlText = htmlText.replace(re, '<b style="color:var(--accent)">$1</b>');
         });
         return htmlText;
     }
