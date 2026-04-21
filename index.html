@@ -327,6 +327,109 @@
             font-family: 'Segoe UI', system-ui, sans-serif;
         }
         .chapter-heading:first-child { margin-top: 0; }
+        .section-heading {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--accent);
+            margin: 18px 0 6px;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            letter-spacing: 0.2px;
+        }
+        .section-heading:first-child { margin-top: 0; }
+
+        /* Note markers (footnotes, cross-references) */
+        .note-marker {
+            display: inline-block;
+            margin-left: 2px;
+            padding: 0 4px;
+            font-size: 0.72em;
+            font-weight: 700;
+            cursor: pointer;
+            border-radius: 4px;
+            vertical-align: super;
+            line-height: 1.2;
+            transition: background 0.15s;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            user-select: none;
+        }
+        .note-footnote {
+            color: #8b6914;
+            background: rgba(212, 180, 74, 0.15);
+        }
+        .note-footnote:hover, .note-footnote.active {
+            background: rgba(212, 180, 74, 0.4);
+        }
+        .note-xref {
+            color: var(--accent);
+            background: rgba(168, 50, 50, 0.1);
+        }
+        .note-xref:hover, .note-xref.active {
+            background: rgba(168, 50, 50, 0.25);
+        }
+        [data-theme="dark"] .note-footnote { color: #d4a84b; }
+
+        /* Popover */
+        .note-popover {
+            display: block;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            border-radius: 6px;
+            padding: 10px 36px 10px 14px;
+            margin: 8px 0;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            font-size: 0.92rem;
+            line-height: 1.5;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+        .note-popover-label {
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            margin-bottom: 4px;
+        }
+        .note-popover-text {
+            color: var(--text);
+        }
+        .note-popover-refs {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
+        .note-popover-refs .xref-btn {
+            padding: 4px 10px;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            color: var(--accent);
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .note-popover-refs .xref-btn:hover {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        .note-popover-close {
+            position: absolute;
+            top: 6px;
+            right: 8px;
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            cursor: pointer;
+            line-height: 1;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        .note-popover-close:hover { background: rgba(0,0,0,0.08); color: var(--text); }
 
         /* Card footer buttons */
         .verse-card-footer {
@@ -2109,6 +2212,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 lastChapter = v.chapter;
             }
 
+            // Seksjonsoverskrift: vises før verset hvis 'section' er satt
+            if (v.section) {
+                html += `<div class="section-heading">${escHtml(v.section)}</div>`;
+            }
+
             html += `<span class="verse-num">${v.num}</span>`;
             const txt = escHtml(v.text) + ' ';
             if (hlVerse != null && v.num === hlVerse) {
@@ -2116,10 +2224,72 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             } else {
                 html += txt;
             }
+
+            // Fotnote- og xref-markører etter versteksten
+            if (v.footnotes && v.footnotes.length) {
+                v.footnotes.forEach((fn, i) => {
+                    const dataAttr = escAttr(JSON.stringify({type: 'footnote', text: fn.text, marker: fn.marker}));
+                    html += `<sup class="note-marker note-footnote" data-note='${dataAttr}' onclick="toggleNotePopover(this, event)" title="Fotnote">${escHtml(fn.marker || '*')}</sup>`;
+                });
+            }
+            if (v.xrefs && v.xrefs.length) {
+                v.xrefs.forEach((xr, i) => {
+                    const refsList = (xr.refs || []).join(',');
+                    const dataAttr = escAttr(JSON.stringify({type: 'xref', text: xr.text, refs: xr.refs || [], marker: xr.marker}));
+                    html += `<sup class="note-marker note-xref" data-note='${dataAttr}' onclick="toggleNotePopover(this, event)" title="Kryssreferanse">${escHtml(xr.marker || '†')}</sup>`;
+                });
+            }
+
             lastChapter = v.chapter;
         });
         return html;
     }
+
+    // Popover for fotnoter og kryssreferanser
+    window.toggleNotePopover = function(el, event) {
+        if (event) event.stopPropagation();
+        // Lukk eksisterende popovers
+        document.querySelectorAll('.note-popover').forEach(p => p.remove());
+        if (el.classList.contains('active')) {
+            el.classList.remove('active');
+            return;
+        }
+        document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
+        el.classList.add('active');
+
+        const data = JSON.parse(el.getAttribute('data-note'));
+        const pop = document.createElement('div');
+        pop.className = 'note-popover';
+        let content = '';
+        if (data.type === 'footnote') {
+            content = `<div class="note-popover-label">Fotnote</div><div class="note-popover-text">${escHtml(data.text)}</div>`;
+        } else if (data.type === 'xref') {
+            content = `<div class="note-popover-label">Kryssreferanse</div><div class="note-popover-text">${escHtml(data.text)}</div>`;
+            if (data.refs && data.refs.length) {
+                content += `<div class="note-popover-refs">`;
+                data.refs.forEach(ref => {
+                    // Konverter USFM som "JHN.3.16" til visningstekst "Joh 3:16"
+                    const parts = ref.split('.');
+                    if (parts.length >= 2) {
+                        const bName = bookName(parts[0]);
+                        const ref_display = `${bName} ${parts[1]}${parts[2] ? ':' + parts[2] : ''}`;
+                        content += `<button class="xref-btn" onclick="event.stopPropagation(); searchInput.value='${escAttr(ref_display)}'; doSearch(); document.querySelectorAll('.note-popover').forEach(p=>p.remove());">${escHtml(ref_display)}</button>`;
+                    }
+                });
+                content += `</div>`;
+            }
+        }
+        pop.innerHTML = content + `<button class="note-popover-close" onclick="event.stopPropagation(); this.parentNode.remove(); document.querySelectorAll('.note-marker.active').forEach(n=>n.classList.remove('active'));">×</button>`;
+        el.parentNode.insertBefore(pop, el.nextSibling);
+    };
+
+    // Lukk popover ved klikk utenfor
+    document.addEventListener('click', e => {
+        if (!e.target.closest('.note-popover') && !e.target.closest('.note-marker')) {
+            document.querySelectorAll('.note-popover').forEach(p => p.remove());
+            document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
+        }
+    });
 
     // ── Text search results ──
     function renderTextSearch(results, query, bookTotals, totalMatches) {
