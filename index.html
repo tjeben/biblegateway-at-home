@@ -525,15 +525,45 @@
         [data-theme="dark"] .btn-ai { background: #3a3010; color: #d4a84b; border-color: #6b5520; }
         [data-theme="dark"] .btn-ai:hover { background: #4a3e14; }
 
+        /* Compare card (stacked directly below main card) */
+        .verse-card.compare-card {
+            margin-top: -10px;  /* knytt nærmere hovedkortet */
+            border-top: 3px solid var(--accent);
+        }
+        .compare-card-header {
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .compare-card-header .compare-version-inline {
+            padding: 5px 10px;
+            font-size: 0.9rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background: var(--card-bg);
+            color: var(--text);
+            cursor: pointer;
+            flex: 1;
+            min-width: 100px;
+        }
+        .ai-diff-section {
+            margin: -4px 0 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .ai-diff-section .btn-diff {
+            align-self: flex-start;
+        }
+
         .btn-diff {
-            padding: 6px 14px;
-            font-size: 0.85rem;
+            padding: 10px 18px;
+            font-size: 0.9rem;
             background: #fef3c7;
             color: #92400e;
             border: 1px solid #fbbf24;
-            border-radius: 6px;
+            border-radius: 8px;
             cursor: pointer;
-            font-weight: 500;
+            font-weight: 600;
             transition: background 0.2s;
         }
         .btn-diff:hover { background: #fde68a; }
@@ -735,7 +765,6 @@
         <button class="search-btn-inline" id="searchBtn">Søk</button>
     </div>
     <button class="sort-toggle-btn" id="sortToggleBtn" title="Bla gjennom bøker">⇅</button>
-    <button class="btn btn-secondary" id="compareBtn" style="display:none;">Sammenlign</button>
 </div>
 
 <div class="browser-bar" id="browserBar" style="display:none;">
@@ -767,7 +796,6 @@
         <select id="versionSelectMobile" class="search-version-select"></select>
         <button class="search-btn-inline" id="searchBtnMobile">Søk</button>
     </div>
-    <button class="btn btn-secondary" id="compareBtnMobile" style="display:none;">Sammenlign</button>
 </div>
 
 <div class="toast" id="toast"></div>
@@ -833,12 +861,12 @@
     const searchInputDesktop = document.getElementById('searchInput');
     const versionSelectDesktop = document.getElementById('versionSelect');
     const searchBtnDesktop = document.getElementById('searchBtn');
-    const compareBtnDesktop = document.getElementById('compareBtn');
+    const compareBtnDesktop = null;
     // Mobile inputs
     const searchInputMobile = document.getElementById('searchInputMobile');
     const versionSelectMobile = document.getElementById('versionSelectMobile');
     const searchBtnMobile = document.getElementById('searchBtnMobile');
-    const compareBtnMobile = document.getElementById('compareBtnMobile');
+    const compareBtnMobile = null;
     // Shared helpers: always read active input
     function getSearchInput() {
         const mobile = document.getElementById('searchBottomBar');
@@ -950,15 +978,8 @@
         if (q.indexOf('"') !== -1) return true;
         return q.split(/\s+/).some(t => t.startsWith('-') && t.length > 1);
     }
-    const compareBtn = { classList: { toggle(cls, force) {
-        [compareBtnDesktop, compareBtnMobile].forEach(b => b.classList.toggle(cls, force));
-    }}, show() {
-        compareBtnDesktop.style.display = '';
-        compareBtnMobile.style.display = '';
-    }, hide() {
-        compareBtnDesktop.style.display = 'none';
-        compareBtnMobile.style.display = 'none';
-    }};
+    // Legacy no-op proxy (compare is now per-card, ikke en global knapp)
+    const compareBtn = { classList: { toggle() {} }, show() {}, hide() {} };
 
 const resultsWrapper = document.getElementById('resultsWrapper');
     const compareVersionSelect = document.getElementById('compareVersionSelect');
@@ -985,24 +1006,18 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         });
     }
 
-    // ── Compare button wiring ──
-    async function onCompareBtnClick() {
-        if (currentView !== 'normal' || !mainData) {
-            showToast('Sammenlign fungerer kun på vers-referanser');
-            return;
-        }
+    // ── Toggle compare mode (per-card Sammenlign-knapp kaller denne) ──
+    window.toggleCompareMode = async function() {
+        if (currentView !== 'normal' || !mainData) return;
         compareMode = !compareMode;
         aiDiffState = null;
-        compareBtn.classList.toggle('active', compareMode);
         if (compareMode && lastQuery) {
             await fetchCompareData(lastQuery);
         } else {
             compareData = null;
         }
         renderAll();
-    }
-    compareBtnDesktop.addEventListener('click', onCompareBtnClick);
-    compareBtnMobile.addEventListener('click', onCompareBtnClick);
+    };
 
     // ── Init ──
     async function init() {
@@ -1333,58 +1348,53 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             html += '<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Tilbake</button></div>';
         }
 
-        if (showCompare) {
-            html += `<div class="compare-columns-header">
-                <div class="column-label">${escHtml(versionLabel(versionSelect.value))}</div>
-                <div class="column-label"><select id="compareVersionInline"></select></div>
-            </div>
-            <div style="margin-bottom:12px;">
-                <button class="btn-diff" onclick="toggleDiff()" ${aiDiffState && aiDiffState.loading ? 'disabled' : ''}>
-                    ${aiDiffState && aiDiffState.text ? '✨ Skjul analyse' : aiDiffState && aiDiffState.loading ? 'Analyserer…' : '✨ Sammenlign oversettelser'}
-                </button>
-                ${aiDiffState && aiDiffState.text ? `<div class="diff-result-card">${escHtml(aiDiffState.text)}</div>` : ''}
-                ${aiDiffState && aiDiffState.error ? `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>` : ''}
-            </div>`;
-        }
-
-        const count = Math.max(mainData.length, showCompare ? compareData.length : 0);
-
-        for (let idx = 0; idx < count; idx++) {
-            const mainBlock = idx < mainData.length ? mainData[idx] : null;
+        // Stack: for hver blokk, render hovedkort → evt. sammenligningskort rett under
+        for (let idx = 0; idx < mainData.length; idx++) {
+            const mainBlock = mainData[idx];
             const compBlock = showCompare && idx < compareData.length ? compareData[idx] : null;
 
-            if (showCompare) {
-                html += '<div class="verse-row">';
-                html += buildCardHtml(mainBlock, idx, false);
-                html += buildCardHtml(compBlock, idx, true);
-                html += '</div>';
-            } else {
-                html += buildCardHtml(mainBlock, idx, false);
+            html += buildCardHtml(mainBlock, idx, false);
+            if (showCompare && compBlock) {
+                html += buildCompareCardHtml(compBlock, idx);
             }
+        }
+
+        // Bunnseksjon: KI-sammenligning (kun synlig når compare er aktiv)
+        if (showCompare) {
+            html += '<div class="ai-diff-section">';
+            if (aiDiffState && aiDiffState.text) {
+                html += `<div class="diff-result-card">${escHtml(aiDiffState.text)}</div>`;
+            } else if (aiDiffState && aiDiffState.error) {
+                html += `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>`;
+            } else {
+                html += `<button class="btn-diff" onclick="toggleDiff()" ${aiDiffState && aiDiffState.loading ? 'disabled' : ''}>
+                    ${aiDiffState && aiDiffState.loading ? 'Analyserer…' : '✨ Sammenlign med KI'}
+                </button>`;
+            }
+            html += '</div>';
         }
 
         resultsWrapper.innerHTML = html;
 
-        // Wire up inline compare version dropdown
+        // Koble opp versjonsvelger inne i sammenligningskortene
         if (showCompare) {
-            const inline = document.getElementById('compareVersionInline');
-            if (inline) {
+            document.querySelectorAll('.compare-version-inline').forEach(sel => {
                 Array.from(compareVersionSelect.options).forEach(o => {
-                    inline.add(new Option(o.text, o.value));
+                    sel.add(new Option(o.text, o.value));
                 });
-                inline.value = compareVersionSelect.value;
-                inline.addEventListener('change', () => {
-                    compareVersionSelect.value = inline.value;
+                sel.value = compareVersionSelect.value;
+                sel.addEventListener('change', () => {
+                    compareVersionSelect.value = sel.value;
                     compareVersionSelect.dispatchEvent(new Event('change'));
                 });
-            }
+            });
         }
     }
 
     function buildCardHtml(block, idx, isCompare) {
-        if (!block) return '<div class="verse-card" style="visibility:hidden;"></div>';
+        if (!block) return '';
         if (block.error) {
-            const lbl = block.book ? translateLabel(block.label || 'Error', block.book) : (block.label || 'Error');
+            const lbl = block.label || 'Feil';
             return `<div class="verse-card error-card">
                 <div class="verse-card-header">
                     <span class="verse-card-label">${escHtml(lbl)}</span>
@@ -1393,12 +1403,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             </div>`;
         }
 
-        const displayLabel = translateLabel(block.label, block.book);
-        const cardId = isCompare ? `compare-card-${idx}` : `card-${idx}`;
-        let html = `<div class="verse-card" id="${cardId}">
+        const displayLabel = block.label;
+        let html = `<div class="verse-card" id="card-${idx}">
             <div class="verse-card-header">
                 <span class="verse-card-label">${escHtml(displayLabel)}</span>
-                <button class="copy-btn" onclick="copyBlock(${idx}, ${isCompare})">Kopier</button>
+                <button class="copy-btn" onclick="copyBlock(${idx}, false)">Kopier</button>
             </div>
             <div class="verse-text">`;
 
@@ -1406,7 +1415,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         html += '</div>';
 
         // Footer buttons
-        if (!isCompare && block.book && block.verses.length > 0) {
+        if (block.book && block.verses.length > 0) {
             const ch = block.verses[0].chapter;
             const bName = bookName(block.book);
             const isSingleVerse = block.verses.length === 1;
@@ -1415,7 +1424,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
             html += `<div class="verse-card-footer">
                 <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Les ${escHtml(bName)} ${ch}</button>
-                <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>`;
+                <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>
+                <button class="card-action-btn" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>`;
             if (ilUrl) {
                 html += `<a class="card-action-btn" href="${ilUrl}" target="_blank" rel="noopener" style="text-decoration:none;">Interlinear (biblehub.com)</a>`;
             }
@@ -1423,6 +1433,28 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         html += '</div>';
+        return html;
+    }
+
+    function buildCompareCardHtml(block, idx) {
+        if (!block) {
+            return `<div class="verse-card compare-card">
+                <div class="verse-card-header compare-card-header">
+                    <span class="verse-card-label">Sammenlign med:</span>
+                    <select class="compare-version-inline"></select>
+                </div>
+                <div class="verse-text" style="color:var(--text-muted);font-style:italic;">Ikke tilgjengelig i denne versjonen.</div>
+            </div>`;
+        }
+        let html = `<div class="verse-card compare-card" id="compare-card-${idx}">
+            <div class="verse-card-header compare-card-header">
+                <span class="verse-card-label">Sammenlign med:</span>
+                <select class="compare-version-inline"></select>
+                <button class="copy-btn" onclick="copyBlock(${idx}, true)">Kopier</button>
+            </div>
+            <div class="verse-text">`;
+        html += renderVerseTextHtml(block.verses);
+        html += '</div></div>';
         return html;
     }
 
