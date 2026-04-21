@@ -692,9 +692,7 @@
         .version-picker.open .version-picker-arrow { transform: rotate(180deg); }
         .version-picker-panel {
             display: none;
-            position: absolute;
-            top: calc(100% + 10px);
-            right: 0;
+            position: fixed;
             background: var(--card-bg);
             border: 1px solid var(--border);
             border-radius: 18px;
@@ -703,7 +701,7 @@
             z-index: 300;
             padding: 6px;
         }
-        .version-picker.open .version-picker-panel { display: block; }
+        .version-picker-panel.open { display: block; }
         .version-option {
             display: flex;
             flex-direction: column;
@@ -1071,7 +1069,6 @@
                         <span id="versionPickerLabel">…</span>
                         <span class="version-picker-arrow">▾</span>
                     </button>
-                    <div class="version-picker-panel" id="versionPickerPanel"></div>
                 </div>
                 <button class="search-btn-inline" id="searchBtn">Søk</button>
             </div>
@@ -1112,6 +1109,7 @@
 </div>
 
 <div class="toast" id="toast"></div>
+<div class="version-picker-panel" id="versionPickerPanel"></div>
 
 <script>
     // ── State ──
@@ -1358,11 +1356,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     if (versionPickerTrigger) {
         versionPickerTrigger.addEventListener('click', e => {
             e.stopPropagation();
-            versionPickerDesktop.classList.toggle('open');
-            if (versionPickerDesktop.classList.contains('open')) buildVersionPickerPanel();
+            const isOpen = !versionPickerPanel.classList.contains('open');
+            versionPickerPanel.classList.toggle('open', isOpen);
+            versionPickerDesktop.classList.toggle('open', isOpen);
+            if (isOpen) {
+                buildVersionPickerPanel();
+                const rect = versionPickerTrigger.getBoundingClientRect();
+                versionPickerPanel.style.top = (rect.bottom + 8) + 'px';
+                versionPickerPanel.style.right = (window.innerWidth - rect.right) + 'px';
+            }
         });
     }
     document.addEventListener('click', () => {
+        if (versionPickerPanel) versionPickerPanel.classList.remove('open');
         if (versionPickerDesktop) versionPickerDesktop.classList.remove('open');
     });
 
@@ -1370,6 +1376,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         versionSelect.value = v;
         versionSelectEl.dispatchEvent(new Event('change'));
         versionPickerLabel.textContent = versionLabel(v);
+        if (versionPickerPanel) versionPickerPanel.classList.remove('open');
         if (versionPickerDesktop) versionPickerDesktop.classList.remove('open');
     };
 
