@@ -660,7 +660,9 @@
                 align-items: center;
             }
             .controls.desktop-only { display: none; }
-            .results-wrapper { padding-bottom: 140px; }
+            .results-wrapper { padding-bottom: 110px; }
+            /* Browser-bar (filter) alltid synlig øverst på mobil */
+            #browserBar { display: flex !important; }
         }
         @media (min-width: 701px) {
             .search-bottom-bar { display: none; }
@@ -721,10 +723,7 @@
         <select id="versionSelectMobile" class="search-version-select"></select>
         <button class="search-btn-inline" id="searchBtnMobile">Søk</button>
     </div>
-    <div class="controls-actions-row">
-        <button class="sort-toggle-btn" id="sortToggleBtnMobile" title="Bla gjennom bøker" style="flex:0 0 auto;">⇅</button>
-        <button class="btn btn-secondary" id="compareBtnMobile" style="display:none;flex:1;">Sammenlign</button>
-    </div>
+    <button class="btn btn-secondary" id="compareBtnMobile" style="display:none;">Sammenlign</button>
 </div>
 
 <div class="toast" id="toast"></div>
@@ -876,20 +875,16 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
     function versionLabel(v) { return VERSION_DISPLAY[v] || v; }
 
-    // ── Sort/browse toggle ──
-    function setupSortToggle(btn) {
-        if (!btn) return;
-        btn.addEventListener('click', () => {
+    // ── Sort/browse toggle (kun desktop — på mobil vises browser-bar alltid) ──
+    const sortToggleBtn = document.getElementById('sortToggleBtn');
+    if (sortToggleBtn) {
+        sortToggleBtn.addEventListener('click', () => {
             const bar = document.getElementById('browserBar');
             const visible = bar.style.display !== 'none';
             bar.style.display = visible ? 'none' : '';
-            btn.classList.toggle('active', !visible);
-            document.getElementById('sortToggleBtn') && document.getElementById('sortToggleBtn').classList.toggle('active', !visible);
-            document.getElementById('sortToggleBtnMobile') && document.getElementById('sortToggleBtnMobile').classList.toggle('active', !visible);
+            sortToggleBtn.classList.toggle('active', !visible);
         });
     }
-    setupSortToggle(document.getElementById('sortToggleBtn'));
-    setupSortToggle(document.getElementById('sortToggleBtnMobile'));
 
     // ── Compare button wiring ──
     async function onCompareBtnClick() {
