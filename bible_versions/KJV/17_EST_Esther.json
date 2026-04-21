@@ -2,205 +2,1147 @@
   "EST.1.1": {
     "text": "Now it came to pass in the days of Ahasuerus, (this is Ahasuerus which reigned, from India even unto Ethiopia, over an hundred and seven and twenty provinces:)",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.9.1",
+        "v": 7
+      },
+      {
+        "r": "EZR.4.6",
+        "v": 5
+      },
+      {
+        "r": "EST.8.9",
+        "v": 4
+      },
+      {
+        "r": "EST.9.30",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 4
+      },
+      {
+        "r": "ISA.37.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.18.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.2": {
     "text": "that in those days, when the king Ahasuerus sat on the throne of his kingdom, which was in Shushan the palace,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.1.1",
+        "v": 7
+      },
+      {
+        "r": "2SA.7.1",
+        "v": 5
+      },
+      {
+        "r": "DAN.8.2",
+        "v": 4
+      },
+      {
+        "r": "1KI.1.46",
+        "v": 3
+      },
+      {
+        "r": "DAN.4.4",
+        "v": 2
+      },
+      {
+        "r": "EST.4.16",
+        "v": 2
+      },
+      {
+        "r": "EST.9.12-15",
+        "v": 2
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.3": {
     "text": "in the third year of his reign, he made a feast unto all his princes and his servants; the power of Persia and Media, the nobles and princes of the provinces, being before him:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.6.21",
+        "v": 7
+      },
+      {
+        "r": "EST.2.18",
+        "v": 6
+      },
+      {
+        "r": "DAN.5.1",
+        "v": 6
+      },
+      {
+        "r": "1KI.3.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.40.20",
+        "v": 3
+      },
+      {
+        "r": "ISA.21.2",
+        "v": 3
+      },
+      {
+        "r": "JER.51.11",
+        "v": 3
+      },
+      {
+        "r": "DAN.8.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.6-7",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.2-3",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.28",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.4": {
     "text": "when he shewed the riches of his glorious kingdom and the honour of his excellent majesty many days, even an hundred and fourscore days.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.40.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.6.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.28.5",
+        "v": 2
+      },
+      {
+        "r": "MAT.4.8",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.18",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.16-17",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.37-44",
+        "v": 2
+      },
+      {
+        "r": "PSA.93.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.1-4",
+        "v": 2
+      },
+      {
+        "r": "ISA.39.2",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.25",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.18",
+        "v": 2
+      },
+      {
+        "r": "DAN.7.9-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.12-13",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.23",
+        "v": 2
+      },
+      {
+        "r": "COL.1.27",
+        "v": 2
+      },
+      {
+        "r": "REV.4.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.21.5",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.36",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.11-12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.5": {
     "text": "And when these days were expired, the king made a feast unto all the people that were present in Shushan the palace, both unto great and small, seven days, in the court of the garden of the king's palace;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.7-8",
+        "v": 4
+      },
+      {
+        "r": "2CH.30.21-25",
+        "v": 3
+      },
+      {
+        "r": "2CH.7.8-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.6": {
     "text": "where were white, green, and blue, hangings, fastened with cords of fine linen and purple to silver rings and pillars of marble: the beds were of gold and silver, upon a pavement of red, and blue, and white, and black, marble.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.4",
+        "v": 6
+      },
+      {
+        "r": "EZK.23.41",
+        "v": 4
+      },
+      {
+        "r": "EST.7.8",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.8",
+        "v": 2
+      },
+      {
+        "r": "EST.8.15",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.31-32",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.1",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.36-37",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.7": {
     "text": "And they gave them drink in vessels of gold, (the vessels being diverse one from another,) and royal wine in abundance, according to the state of the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.5.2-4",
+        "v": 4
+      },
+      {
+        "r": "2CH.9.20",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.21",
+        "v": 3
+      },
+      {
+        "r": "EST.2.18",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.1.8": {
     "text": "And the drinking was according to the law; none did compel: for so the king had appointed to all the officers of his house, that they should do according to every man's pleasure.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HAB.2.15-16",
+        "v": 4
+      },
+      {
+        "r": "JER.51.7",
+        "v": 3
+      },
+      {
+        "r": "JER.35.8",
+        "v": 1
+      },
+      {
+        "r": "JHN.2.8",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.1.9": {
     "text": "Also Vashti the queen made a feast for the women in the royal house which belonged to king Ahasuerus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.4",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.10": {
     "text": "On the seventh day, when the heart of the king was merry with wine, he commanded Mehuman, Biztha, Harbona, Bigtha, and Abagtha, Zethar, and Carcas, the seven chamberlains that served in the presence of Ahasuerus the king,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.9",
+        "v": 5
+      },
+      {
+        "r": "JDG.16.25",
+        "v": 5
+      },
+      {
+        "r": "2SA.13.28",
+        "v": 4
+      },
+      {
+        "r": "ECC.7.2-4",
+        "v": 4
+      },
+      {
+        "r": "PRO.20.1",
+        "v": 4
+      },
+      {
+        "r": "DAN.1.18-19",
+        "v": 3
+      },
+      {
+        "r": "GEN.43.34",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.18-19",
+        "v": 3
+      },
+      {
+        "r": "DAN.1.3-5",
+        "v": 2
+      },
+      {
+        "r": "ECC.10.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.36-37",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.11": {
     "text": "to bring Vashti the queen before the king with the crown royal, to shew the people and the princes her beauty: for she was fair to look on.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.31.30",
+        "v": 9
+      },
+      {
+        "r": "MRK.6.21-22",
+        "v": 7
+      },
+      {
+        "r": "PRO.16.9",
+        "v": 6
+      },
+      {
+        "r": "2SA.14.25",
+        "v": 5
+      },
+      {
+        "r": "1SA.25.3",
+        "v": 5
+      },
+      {
+        "r": "EST.6.8",
+        "v": 5
+      },
+      {
+        "r": "EST.2.17",
+        "v": 4
+      },
+      {
+        "r": "PRO.23.29-33",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.1.12": {
     "text": "But the queen Vashti refused to come at the king's commandment by his chamberlains: therefore was the king very wroth, and his anger burned in him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.19.12",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.1",
+        "v": 3
+      },
+      {
+        "r": "PRO.20.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.74.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.79.5",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.19",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.24",
+        "v": 2
+      },
+      {
+        "r": "GEN.3.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.13",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.22",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.6",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.19",
+        "v": 1
+      },
+      {
+        "r": "REV.6.16-17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.13": {
     "text": "Then the king said to the wise men, which knew the times, (for so was the king's manner toward all that knew law and judgment:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.12.32",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.2",
+        "v": 4
+      },
+      {
+        "r": "JER.10.7",
+        "v": 4
+      },
+      {
+        "r": "MAT.16.3",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.7",
+        "v": 3
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 3
+      },
+      {
+        "r": "MAT.2.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.27",
+        "v": 1
+      },
+      {
+        "r": "DAN.4.6-7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.14": {
     "text": "and the next unto him was Carshena, Shethar, Admatha, Tarshish, Meres, Marsena, and Memucan, the seven princes of Persia and Media, which saw the king's face, and which sat the first in the kingdom;)",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.25.19",
+        "v": 5
+      },
+      {
+        "r": "EZR.7.14",
+        "v": 4
+      },
+      {
+        "r": "MAT.18.10",
+        "v": 4
+      },
+      {
+        "r": "REV.22.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.15": {
     "text": "what shall we do unto the queen Vashti according to law, because she hath not performed the commandment of the king Ahasuerus by the chamberlains?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.16": {
     "text": "And Memucan answered before the king and the princes, Vashti the queen hath not done wrong to the king only, but also to all the princes, and to all the people that are in all the provinces of the king Ahasuerus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.6.7-8",
+        "v": 2
+      },
+      {
+        "r": "ACT.18.14",
+        "v": 2
+      },
+      {
+        "r": "ACT.25.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.17": {
     "text": "For this deed of the queen shall come abroad unto all women, so that they shall despise their husbands in their eyes, when it shall be reported, The king Ahasuerus commanded Vashti the queen to be brought in before him, but she came not.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.5.33",
+        "v": 3
+      },
+      {
+        "r": "2SA.6.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.18": {
     "text": "Likewise shall the ladies of Persia and Media say this day unto all the king's princes, which have heard of the deed of the queen. Thus shall there arise too much contempt and wrath.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JDG.5.29",
+        "v": 1
+      },
+      {
+        "r": "1KI.11.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.19": {
     "text": "If it please the king, let there go a royal commandment from him, and let it be written among the laws of the Persians and the Medes, that it be not altered, That Vashti come no more before king Ahasuerus; and let the king give her royal estate unto another that is better than she.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.15.28",
+        "v": 6
+      },
+      {
+        "r": "EST.8.8",
+        "v": 5
+      },
+      {
+        "r": "EST.8.5",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.17",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.8-15",
+        "v": 4
+      },
+      {
+        "r": "EST.3.9",
+        "v": 4
+      },
+      {
+        "r": "1KI.3.28",
+        "v": 3
+      },
+      {
+        "r": "EST.1.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.20": {
     "text": "And when the king's decree which he shall make shall be published throughout all his empire, (for it is great,) all the wives shall give to their husbands honour, both to great and small.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "COL.3.18",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.1-7",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.33",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 5
+      },
+      {
+        "r": "DEU.21.21",
+        "v": 2
+      },
+      {
+        "r": "DEU.17.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.21": {
     "text": "And the saying pleased the king and the princes; and the king did according to the word of Memucan:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.37",
+        "v": 2
+      },
+      {
+        "r": "EST.2.4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.22": {
     "text": "for he sent letters into all the king's provinces, into every province according to the writing thereof, and to every people after their language, that every man should bear rule in his own house, and that it should be published according to the language of every people.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.9",
+        "v": 6
+      },
+      {
+        "r": "EST.3.12",
+        "v": 6
+      },
+      {
+        "r": "EPH.5.22-24",
+        "v": 5
+      },
+      {
+        "r": "1TI.2.12",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.29",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "TIT.2.4-5",
+        "v": 2
+      },
+      {
+        "r": "LUK.16.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.5-11",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.19-20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.1": {
     "text": "After these things, when the wrath of king Ahasuerus was appeased, he remembered Vashti, and what she had done, and what was decreed against her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.10",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.14-18",
+        "v": 4
+      },
+      {
+        "r": "EST.1.12-21",
+        "v": 3
+      }
+    ],
     "section": "Esther is Crowned"
   },
   "EST.2.2": {
     "text": "Then said the king's servants that ministered unto him, Let there be fair young virgins sought for the king:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.1.2",
+        "v": 4
+      },
+      {
+        "r": "GEN.12.14",
+        "v": 3
+      },
+      {
+        "r": "EST.6.14",
+        "v": 3
+      },
+      {
+        "r": "EST.1.10",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.3": {
     "text": "and let the king appoint officers in all the provinces of his kingdom, that they may gather together all the fair young virgins unto Shushan the palace, to the house of the women, unto the custody of Hege the king's chamberlain, keeper of the women; and let their things for purification be given them:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.2.12-15",
+        "v": 2
+      },
+      {
+        "r": "EST.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.18-23",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.4": {
     "text": "and let the maiden which pleaseth the king be queen instead of Vashti. And the thing pleased the king; and he did so.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.14.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.20.16",
+        "v": 7
+      },
+      {
+        "r": "2SA.17.4",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.14",
+        "v": 3
+      },
+      {
+        "r": "EST.3.9-10",
+        "v": 3
+      },
+      {
+        "r": "EST.1.21",
+        "v": 3
+      },
+      {
+        "r": "2SA.13.4-6",
+        "v": 1
+      },
+      {
+        "r": "2SA.16.21-23",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.5": {
     "text": "Now in Shushan the palace there was a certain Jew, whose name was Mordecai, the son of Jair, the son of Shimei, the son of Kish, a Benjamite;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.16.5",
+        "v": 5
+      },
+      {
+        "r": "EST.2.3",
+        "v": 3
+      },
+      {
+        "r": "EST.10.3",
+        "v": 3
+      },
+      {
+        "r": "EST.3.2-6",
+        "v": 3
+      },
+      {
+        "r": "1SA.9.1",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "EST.1.2",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.2.6": {
     "text": "who had been carried away from Jerusalem with the captivity which had been carried away with Jeconiah king of Judah, whom Nebuchadnezzar the king of Babylon had carried away.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.24.14-15",
+        "v": 6
+      },
+      {
+        "r": "JER.24.1",
+        "v": 5
+      },
+      {
+        "r": "2CH.36.20",
+        "v": 5
+      },
+      {
+        "r": "2KI.24.6",
+        "v": 4
+      },
+      {
+        "r": "JER.22.24",
+        "v": 3
+      },
+      {
+        "r": "2CH.36.9-10",
+        "v": 3
+      },
+      {
+        "r": "JER.22.28",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.7": {
     "text": "And he brought up Hadassah, that is, Esther, his uncle's daughter: for she had neither father nor mother, and the maid was fair and beautiful; whom Mordecai, when her father and mother were dead, took for his own daughter.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.15",
+        "v": 5
+      },
+      {
+        "r": "EST.1.11",
+        "v": 3
+      },
+      {
+        "r": "2CO.6.18",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.4",
+        "v": 2
+      },
+      {
+        "r": "1JN.3.1",
+        "v": 1
+      },
+      {
+        "r": "JER.32.7-12",
+        "v": 1
+      },
+      {
+        "r": "GEN.48.5",
+        "v": 1
+      },
+      {
+        "r": "DAN.1.6-7",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.2.8": {
     "text": "So it came to pass, when the king's commandment and his decree was heard, and when many maidens were gathered together unto Shushan the palace, to the custody of Hegai, that Esther was brought also unto the king's house, to the custody of Hegai, keeper of the women.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.3",
+        "v": 5
+      },
+      {
+        "r": "EST.2.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.9": {
     "text": "And the maiden pleased him, and she obtained kindness of him; and he speedily gave her her things for purification, with such things as belonged to her, and seven maidens, which were meet to be given her, out of the king's house: and he preferred her and her maids unto the best place of the house of the women.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.7",
+        "v": 9
+      },
+      {
+        "r": "GEN.39.21",
+        "v": 9
+      },
+      {
+        "r": "EST.2.12",
+        "v": 8
+      },
+      {
+        "r": "EST.2.3",
+        "v": 8
+      },
+      {
+        "r": "DAN.1.9",
+        "v": 7
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 6
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.106.46",
+        "v": 5
+      },
+      {
+        "r": "1KI.8.50",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.8",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.2.10": {
     "text": "Esther had not shewed her people nor her kindred: for Mordecai had charged her that she should not shew it.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.20",
+        "v": 8
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 6
+      },
+      {
+        "r": "EPH.6.1",
+        "v": 5
+      },
+      {
+        "r": "EST.3.8",
+        "v": 5
+      },
+      {
+        "r": "EST.4.13-14",
+        "v": 4
+      },
+      {
+        "r": "EST.7.4",
+        "v": 3
+      },
+      {
+        "r": "EST.2.7",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.2.11": {
     "text": "And Mordecai walked every day before the court of the women's house, to know how Esther did, and what should become of her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.17.18",
+        "v": 4
+      },
+      {
+        "r": "GEN.37.14",
+        "v": 4
+      },
+      {
+        "r": "ACT.15.36",
+        "v": 3
+      },
+      {
+        "r": "EST.2.13-14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.12": {
     "text": "Now when every maid's turn was come to go in to king Ahasuerus, after that she had been twelve months, according to the manner of the women, (for so were the days of their purifications accomplished, to wit, six months with oil of myrrh, and six months with sweet odours, and with other things for the purifying of the women;)",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.7.17",
+        "v": 5
+      },
+      {
+        "r": "1TH.4.4-5",
+        "v": 5
+      },
+      {
+        "r": "ISA.57.9",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.7.37-38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.13": {
@@ -212,157 +1154,1011 @@
   "EST.2.14": {
     "text": "In the evening she went, and on the morrow she returned into the second house of the women, to the custody of Shaashgaz, the king's chamberlain, which kept the concubines: she came in unto the king no more, except the king delighted in her, and that she were called by name.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "GEN.34.19",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 1
+      },
+      {
+        "r": "ISA.45.4",
+        "v": 1
+      },
+      {
+        "r": "DEU.21.14",
+        "v": 1
+      },
+      {
+        "r": "ISA.43.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.15": {
     "text": "Now when the turn of Esther, the daughter of Abihail the uncle of Mordecai, who had taken her for his daughter, was come to go in unto the king, she required nothing but what Hegai the king's chamberlain, the keeper of the women, appointed. And Esther obtained favour in the sight of all them that looked upon her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.9",
+        "v": 7
+      },
+      {
+        "r": "EST.2.3",
+        "v": 6
+      },
+      {
+        "r": "EST.9.29",
+        "v": 5
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 5
+      },
+      {
+        "r": "EST.2.7-8",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.16": {
     "text": "So Esther was taken unto king Ahasuerus into his house royal in the tenth month, which is the month Tebeth, in the seventh year of his reign.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.9",
+        "v": 3
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "EST.2.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.17": {
     "text": "And the king loved Esther above all the women, and she obtained grace and favour in his sight more than all the virgins; so that he set the royal crown upon her head, and made her queen instead of Vashti.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.113.7-8",
+        "v": 13
+      },
+      {
+        "r": "EZK.17.24",
+        "v": 11
+      },
+      {
+        "r": "LUK.1.48-52",
+        "v": 11
+      },
+      {
+        "r": "1SA.2.8",
+        "v": 10
+      },
+      {
+        "r": "PSA.75.6-7",
+        "v": 10
+      },
+      {
+        "r": "EST.1.11",
+        "v": 9
+      },
+      {
+        "r": "EST.4.14",
+        "v": 8
+      }
+    ],
     "section": null
   },
   "EST.2.18": {
     "text": "Then the king made a great feast unto all his princes and his servants, even Esther's feast; and he made a release to the provinces, and gave gifts, according to the state of the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JDG.14.10-17",
+        "v": 3
+      },
+      {
+        "r": "NEH.8.11",
+        "v": 3
+      },
+      {
+        "r": "EST.1.7",
+        "v": 3
+      },
+      {
+        "r": "1SA.25.8",
+        "v": 3
+      },
+      {
+        "r": "REV.11.10",
+        "v": 3
+      },
+      {
+        "r": "EST.9.22",
+        "v": 3
+      },
+      {
+        "r": "GEN.29.22",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.11",
+        "v": 3
+      },
+      {
+        "r": "LUK.14.8",
+        "v": 3
+      },
+      {
+        "r": "EST.1.3-5",
+        "v": 3
+      },
+      {
+        "r": "REV.19.9",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.19": {
     "text": "And when the virgins were gathered together the second time, then Mordecai sat in the king's gate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.21",
+        "v": 5
+      },
+      {
+        "r": "EST.2.3-4",
+        "v": 4
+      },
+      {
+        "r": "EST.3.2-3",
+        "v": 3
+      },
+      {
+        "r": "EST.5.13",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.2.20": {
     "text": "Esther had not yet shewed her kindred nor her people; as Mordecai had charged her: for Esther did the commandment of Mordecai, like as when she was brought up with him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.10",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.1-3",
+        "v": 3
+      },
+      {
+        "r": "EST.2.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.21": {
     "text": "In those days, while Mordecai sat in the king's gate, two of the king's chamberlains, Bigthan and Teresh, of those which kept the door, were wroth, and sought to lay hand on the king Ahasuerus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.2",
+        "v": 9
+      },
+      {
+        "r": "1KI.16.9",
+        "v": 3
+      },
+      {
+        "r": "2KI.12.20",
+        "v": 3
+      },
+      {
+        "r": "2KI.21.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.10",
+        "v": 2
+      },
+      {
+        "r": "2KI.9.22-24",
+        "v": 2
+      },
+      {
+        "r": "2SA.4.5-6",
+        "v": 2
+      },
+      {
+        "r": "1KI.15.25-27",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.22": {
     "text": "And the thing was known to Mordecai, who told it unto Esther the queen; and Esther certified the king thereof in Mordecai's name.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.1-2",
+        "v": 3
+      },
+      {
+        "r": "ECC.10.20",
+        "v": 2
+      },
+      {
+        "r": "ROM.11.33",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.4",
+        "v": 2
+      },
+      {
+        "r": "ACT.23.12-22",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.23": {
     "text": "And when inquisition was made of the matter, it was found out; therefore they were both hanged on a tree: and it was written in the book of the chronicles before the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.10.2",
+        "v": 3
+      },
+      {
+        "r": "GEN.40.19",
+        "v": 3
+      },
+      {
+        "r": "GEN.40.22",
+        "v": 3
+      },
+      {
+        "r": "JOS.8.29",
+        "v": 2
+      },
+      {
+        "r": "EST.5.14-6.2",
+        "v": 2
+      },
+      {
+        "r": "EST.7.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.21.22-23",
+        "v": 2
+      },
+      {
+        "r": "MAL.3.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.1": {
     "text": "After these things did king Ahasuerus promote Haman the son of Hammedatha the Agagite, and advanced him, and set his seat above all the princes that were with him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NUM.24.7",
+        "v": 8
+      },
+      {
+        "r": "EST.5.11",
+        "v": 7
+      },
+      {
+        "r": "DAN.6.2",
+        "v": 6
+      },
+      {
+        "r": "1SA.15.33",
+        "v": 5
+      },
+      {
+        "r": "EST.3.10",
+        "v": 4
+      },
+      {
+        "r": "GEN.41.40",
+        "v": 3
+      },
+      {
+        "r": "1SA.15.8",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.14",
+        "v": 2
+      },
+      {
+        "r": "GEN.41.55",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.12.8",
+        "v": 2
+      },
+      {
+        "r": "EST.8.3",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      }
+    ],
     "section": "Haman's Plot"
   },
   "EST.3.2": {
     "text": "And all the king's servants, that were in the king's gate, bowed, and reverenced Haman: for the king had so commanded concerning him. But Mordecai bowed not, nor did him reverence.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.15.4",
+        "v": 3
+      },
+      {
+        "r": "EST.2.21",
+        "v": 3
+      },
+      {
+        "r": "EST.3.5",
+        "v": 3
+      },
+      {
+        "r": "EST.5.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.43",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.25.19",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.14",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "1SA.15.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.3": {
     "text": "Then the king's servants, which were in the king's gate, said unto Mordecai, Why transgressest thou the king's commandment?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.2",
+        "v": 4
+      },
+      {
+        "r": "EXO.1.17",
+        "v": 3
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "MAT.15.2-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.4": {
     "text": "Now it came to pass, when they spake daily unto him, and he hearkened not unto them, that they told Haman, to see whether Mordecai's matters would stand: for he had told them that he was a Jew.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.39.10",
+        "v": 5
+      },
+      {
+        "r": "JON.1.9",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.20-28",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.13",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.12",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.16-18",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.3",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.23-30",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.5": {
     "text": "And when Haman saw that Mordecai bowed not, nor did him reverence, then was Haman full of wrath.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.3.19",
+        "v": 4
+      },
+      {
+        "r": "EST.5.9",
+        "v": 4
+      },
+      {
+        "r": "EST.3.2",
+        "v": 3
+      },
+      {
+        "r": "PRO.21.24",
+        "v": 3
+      },
+      {
+        "r": "PRO.19.19",
+        "v": 2
+      },
+      {
+        "r": "PRO.27.3-4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.4.5-6",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.2",
+        "v": 2
+      },
+      {
+        "r": "PRO.12.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.6": {
     "text": "And he thought scorn to lay hands on Mordecai alone; for they had shewed him the people of Mordecai: wherefore Haman sought to destroy all the Jews that were throughout the whole kingdom of Ahasuerus, even the people of Mordecai.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.83.4",
+        "v": 5
+      },
+      {
+        "r": "REV.12.12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.7": {
     "text": "In the first month, that is, the month Nisan, in the twelfth year of king Ahasuerus, they cast Pur, that is, the lot, before Haman from day to day, and from month to month, to the twelfth month, that is, the month Adar.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.6.15",
+        "v": 4
+      },
+      {
+        "r": "PRO.16.33",
+        "v": 3
+      },
+      {
+        "r": "EST.9.24-26",
+        "v": 3
+      },
+      {
+        "r": "EZK.21.21-22",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.1",
+        "v": 2
+      },
+      {
+        "r": "EST.2.16",
+        "v": 2
+      },
+      {
+        "r": "EST.9.17-19",
+        "v": 2
+      },
+      {
+        "r": "EST.1.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.27.35",
+        "v": 2
+      },
+      {
+        "r": "EST.9.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "EST.9.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.8": {
     "text": "And Haman said unto king Ahasuerus, There is a certain people scattered abroad and dispersed among the people in all the provinces of thy kingdom; and their laws are diverse from all people; neither keep they the king's laws: therefore it is not for the king's profit to suffer them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.4.12-15",
+        "v": 7
+      },
+      {
+        "r": "ACT.16.20-21",
+        "v": 6
+      },
+      {
+        "r": "DEU.4.27",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.33",
+        "v": 3
+      },
+      {
+        "r": "ZEC.7.14",
+        "v": 3
+      },
+      {
+        "r": "JHN.7.35",
+        "v": 3
+      },
+      {
+        "r": "JER.50.17",
+        "v": 3
+      },
+      {
+        "r": "ACT.17.6-7",
+        "v": 2
+      },
+      {
+        "r": "DEU.30.3",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.8",
+        "v": 2
+      },
+      {
+        "r": "EZK.6.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.28.22",
+        "v": 2
+      },
+      {
+        "r": "EZK.11.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.26",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.5",
+        "v": 2
+      },
+      {
+        "r": "JAS.1.1",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.9": {
     "text": "If it please the king, let it be written that they may be destroyed: and I will pay ten thousand talents of silver to the hands of those that have the charge of the business, to bring it into the king's treasuries.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.23.16",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.10": {
     "text": "And the king took his ring from his hand, and gave it unto Haman the son of Hammedatha the Agagite, the Jews' enemy.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.42",
+        "v": 8
+      },
+      {
+        "r": "EST.8.2",
+        "v": 7
+      },
+      {
+        "r": "EST.7.6",
+        "v": 6
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "EST.8.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.11": {
     "text": "And the king said unto Haman, The silver is given to thee, the people also, to do with them as it seemeth good to thee.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.26.14",
+        "v": 3
+      },
+      {
+        "r": "LUK.23.25",
+        "v": 3
+      },
+      {
+        "r": "JER.40.4",
+        "v": 3
+      },
+      {
+        "r": "PSA.73.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.12": {
     "text": "Then were the king's scribes called on the thirteenth day of the first month, and there was written according to all that Haman had commanded unto the king's lieutenants, and to the governors that were over every province, and to the rulers of every people of every province according to the writing thereof, and to every people after their language; in the name of king Ahasuerus was it written, and sealed with the king's ring.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.21.8",
+        "v": 6
+      },
+      {
+        "r": "EST.1.22",
+        "v": 3
+      },
+      {
+        "r": "EST.8.2",
+        "v": 2
+      },
+      {
+        "r": "EST.8.8-17",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.12",
+        "v": 2
+      },
+      {
+        "r": "EST.9.27",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.36",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.8",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.13": {
     "text": "And the letters were sent by posts into all the king's provinces, to destroy, to kill, and to cause to perish, all Jews, both young and old, little children and women, in one day, even upon the thirteenth day of the twelfth month, which is the month Adar, and to take the spoil of them for a prey.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CH.30.6",
+        "v": 4
+      },
+      {
+        "r": "EST.9.10",
+        "v": 4
+      },
+      {
+        "r": "EST.8.10-14",
+        "v": 3
+      },
+      {
+        "r": "1SA.15.3",
+        "v": 3
+      },
+      {
+        "r": "ROM.3.15",
+        "v": 2
+      },
+      {
+        "r": "1SA.22.19",
+        "v": 2
+      },
+      {
+        "r": "JER.51.31",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.6",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.25",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.13",
+        "v": 2
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.14": {
     "text": "The copy of the writing for a commandment to be given in every province was published unto all people, that they should be ready against that day.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.13-14",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.3.15": {
     "text": "The posts went out, being hastened by the king's commandment, and the decree was given in Shushan the palace. And the king and Haman sat down to drink; but the city Shushan was perplexed.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.15",
+        "v": 6
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.16",
+        "v": 2
+      },
+      {
+        "r": "EST.4.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.5",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.4.1": {
     "text": "When Mordecai perceived all that was done, Mordecai rent his clothes, and put on sackcloth with ashes, and went out into the midst of the city, and cried with a loud and a bitter cry;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.9.3",
+        "v": 7
+      },
+      {
+        "r": "2SA.1.11",
+        "v": 5
+      },
+      {
+        "r": "EZK.27.30-31",
+        "v": 5
+      },
+      {
+        "r": "2SA.13.19",
+        "v": 5
+      },
+      {
+        "r": "JOB.42.6",
+        "v": 4
+      },
+      {
+        "r": "REV.18.17-19",
+        "v": 3
+      },
+      {
+        "r": "ZEP.1.14",
+        "v": 3
+      },
+      {
+        "r": "MIC.1.8",
+        "v": 3
+      },
+      {
+        "r": "ACT.14.14",
+        "v": 3
+      },
+      {
+        "r": "MAT.11.21",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.21.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.15.4",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.34",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.6",
+        "v": 2
+      },
+      {
+        "r": "EST.4.3",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.4",
+        "v": 2
+      },
+      {
+        "r": "JOB.2.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.5",
+        "v": 2
+      },
+      {
+        "r": "JON.3.4-9",
+        "v": 1
+      },
+      {
+        "r": "EST.3.8-13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.2": {
@@ -374,37 +2170,215 @@
   "EST.4.3": {
     "text": "And in every province, whithersoever the king's commandment and his decree came, there was great mourning among the Jews, and fasting, and weeping, and wailing; and many lay in sackcloth and ashes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.22.12",
+        "v": 6
+      },
+      {
+        "r": "DAN.9.3",
+        "v": 4
+      },
+      {
+        "r": "EST.3.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.37.1-3",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.5",
+        "v": 3
+      },
+      {
+        "r": "EST.4.16",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.30",
+        "v": 2
+      },
+      {
+        "r": "MAT.13.42",
+        "v": 2
+      },
+      {
+        "r": "1SA.4.13-14",
+        "v": 2
+      },
+      {
+        "r": "MAT.22.13",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 1
+      },
+      {
+        "r": "1SA.11.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.4": {
     "text": "So Esther's maids and her chamberlains came and told it her. Then was the queen exceedingly grieved; and she sent raiment to clothe Mordecai, and to take away his sackcloth from him: but he received it not.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.77.2",
+        "v": 6
+      },
+      {
+        "r": "JER.31.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.37.35",
+        "v": 4
+      },
+      {
+        "r": "EST.1.12",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.3",
+        "v": 4
+      },
+      {
+        "r": "1SA.8.15",
+        "v": 4
+      },
+      {
+        "r": "2KI.9.32",
+        "v": 4
+      },
+      {
+        "r": "ACT.8.27",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.4.5": {
     "text": "Then called Esther for Hatach, one of the king's chamberlains, whom he had appointed to attend upon her, and gave him a commandment to Mordecai, to know what it was, and why it was.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.12.26",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.15",
+        "v": 3
+      },
+      {
+        "r": "HEB.4.15",
+        "v": 2
+      },
+      {
+        "r": "EST.1.10",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.6": {
     "text": "So Hatach went forth to Mordecai unto the street of the city, which was before the king's gate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.3",
+        "v": 6
+      },
+      {
+        "r": "EST.7.2",
+        "v": 3
+      },
+      {
+        "r": "EST.9.12",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.7": {
     "text": "And Mordecai told him of all that had happened unto him, and of the sum of the money that Haman had promised to pay to the king's treasuries for the Jews, to destroy them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.2-15",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "EST.4.8": {
     "text": "Also he gave him the copy of the writing of the decree that was given at Shushan to destroy them, to shew it unto Esther, and to declare it unto her, and to charge her that she should go in unto the king, to make supplication unto him, and to make request before him for her people.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.10.4",
+        "v": 5
+      },
+      {
+        "r": "JOB.9.15",
+        "v": 4
+      },
+      {
+        "r": "EST.3.14-15",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.13",
+        "v": 3
+      },
+      {
+        "r": "EST.2.20",
+        "v": 3
+      },
+      {
+        "r": "EST.8.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 2
+      },
+      {
+        "r": "PRO.16.14-15",
+        "v": 2
+      },
+      {
+        "r": "ACT.12.20",
+        "v": 2
+      },
+      {
+        "r": "EST.7.3-4",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.3-5",
+        "v": 2
+      },
+      {
+        "r": "1TI.6.17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.9": {
@@ -422,7 +2396,36 @@
   "EST.4.11": {
     "text": "all the king's servants, and the people of the king's provinces, do know, that whosoever, whether man or woman, shall come unto the king into the inner court, who is not called, there is one law of his to put him to death, except such to whom the king shall hold out the golden sceptre, that he may live: but I have not been called to come in unto the king these thirty days.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.1-2",
+        "v": 7
+      },
+      {
+        "r": "EST.8.4",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.9",
+        "v": 6
+      },
+      {
+        "r": "EST.2.14",
+        "v": 3
+      },
+      {
+        "r": "EST.1.19",
+        "v": 2
+      },
+      {
+        "r": "EST.6.4",
+        "v": 2
+      },
+      {
+        "r": "1PE.3.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.12": {
@@ -434,13 +2437,131 @@
   "EST.4.13": {
     "text": "Then Mordecai commanded to answer Esther, Think not with thyself that thou shalt escape in the king's house, more than all the Jews.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.24.10-12",
+        "v": 7
+      },
+      {
+        "r": "JHN.12.25",
+        "v": 4
+      },
+      {
+        "r": "PHP.2.30",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.3",
+        "v": 1
+      },
+      {
+        "r": "MAT.16.24-25",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.14": {
     "text": "For if thou altogether holdest thy peace at this time, then shall there enlargement and deliverance arise to the Jews from another place; but thou and thy father's house shall be destroyed: and who knoweth whether thou art come to the kingdom for such a time as this?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.45.4-8",
+        "v": 49
+      },
+      {
+        "r": "1SA.12.22",
+        "v": 44
+      },
+      {
+        "r": "DEU.32.36",
+        "v": 22
+      },
+      {
+        "r": "ISA.54.17",
+        "v": 22
+      },
+      {
+        "r": "JER.30.11",
+        "v": 17
+      },
+      {
+        "r": "MAT.16.18",
+        "v": 16
+      },
+      {
+        "r": "ACT.7.20-25",
+        "v": 14
+      },
+      {
+        "r": "JER.46.28",
+        "v": 12
+      },
+      {
+        "r": "EZR.9.9",
+        "v": 12
+      },
+      {
+        "r": "EST.2.15",
+        "v": 9
+      },
+      {
+        "r": "NUM.23.22-24",
+        "v": 8
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 8
+      },
+      {
+        "r": "MAT.24.22",
+        "v": 8
+      },
+      {
+        "r": "EST.2.7",
+        "v": 6
+      },
+      {
+        "r": "AMO.9.8-9",
+        "v": 5
+      },
+      {
+        "r": "ISA.45.1-5",
+        "v": 4
+      },
+      {
+        "r": "NEH.6.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.26-27",
+        "v": 3
+      },
+      {
+        "r": "GEN.22.14",
+        "v": 3
+      },
+      {
+        "r": "JER.33.24-26",
+        "v": 2
+      },
+      {
+        "r": "2KI.19.3",
+        "v": 2
+      },
+      {
+        "r": "JDG.15.6",
+        "v": 1
+      },
+      {
+        "r": "1SA.17.29",
+        "v": 1
+      },
+      {
+        "r": "JOB.9.18",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.15": {
@@ -452,7 +2573,84 @@
   "EST.4.16": {
     "text": "Go, gather together all the Jews that are present in Shushan, and fast ye for me, and neither eat nor drink three days, night or day: I also and my maidens will fast likewise; and so will I go in unto the king, which is not according to the law: and if I perish, I perish.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.20.24",
+        "v": 19
+      },
+      {
+        "r": "2CH.20.3",
+        "v": 17
+      },
+      {
+        "r": "JOL.2.12-17",
+        "v": 13
+      },
+      {
+        "r": "LUK.9.24",
+        "v": 11
+      },
+      {
+        "r": "GEN.18.19",
+        "v": 9
+      },
+      {
+        "r": "JON.3.4-9",
+        "v": 5
+      },
+      {
+        "r": "2SA.10.12",
+        "v": 5
+      },
+      {
+        "r": "JOS.24.15",
+        "v": 5
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 5
+      },
+      {
+        "r": "ISA.22.12",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "ROM.16.4",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.30",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.14-15",
+        "v": 2
+      },
+      {
+        "r": "ACT.9.9",
+        "v": 2
+      },
+      {
+        "r": "ACT.27.33",
+        "v": 1
+      },
+      {
+        "r": "ACT.21.13",
+        "v": 1
+      },
+      {
+        "r": "1SA.19.5",
+        "v": 0
+      },
+      {
+        "r": "MAT.12.40",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.17": {
@@ -464,37 +2662,203 @@
   "EST.5.1": {
     "text": "Now it came to pass on the third day, that Esther put on her royal apparel, and stood in the inner court of the king's house, over against the king's house: and the king sat upon his royal throne in the royal house, over against the gate of the house.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.4",
+        "v": 7
+      },
+      {
+        "r": "EST.4.16",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.3-5",
+        "v": 5
+      },
+      {
+        "r": "REV.3.21",
+        "v": 5
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 4
+      },
+      {
+        "r": "EST.8.15",
+        "v": 4
+      },
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "LUK.22.30",
+        "v": 4
+      },
+      {
+        "r": "EST.1.11",
+        "v": 4
+      },
+      {
+        "r": "MAT.27.64",
+        "v": 4
+      },
+      {
+        "r": "MAT.11.8",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.18-20",
+        "v": 1
+      }
+    ],
     "section": "Esther's Request"
   },
   "EST.5.2": {
     "text": "And it was so, when the king saw Esther the queen standing in the court, that she obtained favour in his sight: and the king held out to Esther the golden sceptre that was in his hand. So Esther drew near, and touched the top of the sceptre.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.4",
+        "v": 8
+      },
+      {
+        "r": "EST.4.11",
+        "v": 7
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 6
+      },
+      {
+        "r": "NEH.1.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.116.1",
+        "v": 3
+      },
+      {
+        "r": "EST.2.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.32.28",
+        "v": 3
+      },
+      {
+        "r": "ACT.10.4",
+        "v": 3
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.3": {
     "text": "Then said the king unto her, What wilt thou, queen Esther? and what is thy request? it shall be even given thee to the half of the kingdom.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.6.23",
+        "v": 14
+      },
+      {
+        "r": "EST.7.2",
+        "v": 11
+      },
+      {
+        "r": "EST.9.12",
+        "v": 8
+      },
+      {
+        "r": "EST.5.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.20.20-22",
+        "v": 5
+      },
+      {
+        "r": "1KI.3.5",
+        "v": 5
+      },
+      {
+        "r": "1KI.2.20",
+        "v": 4
+      },
+      {
+        "r": "LUK.18.41",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.5.4": {
     "text": "And Esther answered, If it seem good unto the king, let the king and Haman come this day unto the banquet that I have prepared for him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.29.11",
+        "v": 4
+      },
+      {
+        "r": "EST.5.8",
+        "v": 4
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.112.5",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.20",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.25",
+        "v": 1
+      },
+      {
+        "r": "GEN.32.20",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.5.5": {
     "text": "Then the king said, Cause Haman to make haste, that he may do as Esther hath said. So the king and Haman came to the banquet that Esther had prepared.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.6": {
     "text": "And the king said unto Esther at the banquet of wine, What is thy petition? and it shall be granted thee: and what is thy request? even to the half of the kingdom it shall be performed.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.2",
+        "v": 8
+      },
+      {
+        "r": "EST.5.3",
+        "v": 7
+      },
+      {
+        "r": "EST.9.12",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "EST.5.7": {
@@ -506,67 +2870,510 @@
   "EST.5.8": {
     "text": "if I have found favour in the sight of the king, and if it please the king to grant my petition, and to perform my request, let the king and Haman come to the banquet that I shall prepare for them, and I will do to morrow as the king hath said.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.9",
+        "v": 5
+      },
+      {
+        "r": "EST.7.3",
+        "v": 4
+      },
+      {
+        "r": "EST.8.5",
+        "v": 3
+      },
+      {
+        "r": "EST.6.1-14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.9": {
     "text": "Then went Haman forth that day joyful and with a glad heart: but when Haman saw Mordecai in the king's gate, that he stood not up, nor moved for him, he was full of indignation against Mordecai.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.5",
+        "v": 6
+      },
+      {
+        "r": "MAT.2.16",
+        "v": 3
+      },
+      {
+        "r": "PSA.27.3",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.5",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.31",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.16-19",
+        "v": 2
+      },
+      {
+        "r": "PSA.15.4",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.13",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 2
+      },
+      {
+        "r": "LUK.6.25",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.12-13",
+        "v": 2
+      },
+      {
+        "r": "JAS.4.9",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.54",
+        "v": 1
+      },
+      {
+        "r": "MAT.10.28",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.5.10": {
     "text": "Nevertheless Haman refrained himself: and when he came home, he sent and called for his friends, and Zeresh his wife.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.13",
+        "v": 6
+      },
+      {
+        "r": "ECC.7.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.45.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.30-31",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.11": {
     "text": "And Haman told them of the glory of his riches, and the multitude of his children, and all the things wherein the king had promoted him, and how he had advanced him above the princes and servants of the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.7-10",
+        "v": 6
+      },
+      {
+        "r": "EST.3.1",
+        "v": 4
+      },
+      {
+        "r": "LUK.12.19-20",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.17",
+        "v": 3
+      },
+      {
+        "r": "GEN.31.1",
+        "v": 3
+      },
+      {
+        "r": "EST.1.4",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.13-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.16-17",
+        "v": 2
+      },
+      {
+        "r": "JER.9.23-24",
+        "v": 2
+      },
+      {
+        "r": "EST.9.12-13",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "MRK.10.24",
+        "v": 2
+      },
+      {
+        "r": "JOB.27.14-15",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.24-25",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.12": {
     "text": "Haman said moreover, Yea, Esther the queen did let no man come in with the king unto the banquet that she had prepared but myself; and to morrow am I invited unto her also with the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.27.1",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.35-36",
+        "v": 3
+      },
+      {
+        "r": "1TH.5.3",
+        "v": 2
+      },
+      {
+        "r": "LUK.21.34-35",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.5-8",
+        "v": 2
+      },
+      {
+        "r": "JOB.8.12-13",
+        "v": 2
+      },
+      {
+        "r": "PRO.7.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.13": {
     "text": "Yet all this availeth me nothing, so long as I see Mordecai the Jew sitting at the king's gate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.15.20",
+        "v": 3
+      },
+      {
+        "r": "JOB.18.4",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.11-12",
+        "v": 3
+      },
+      {
+        "r": "ECC.1.14",
+        "v": 2
+      },
+      {
+        "r": "ECC.1.2",
+        "v": 2
+      },
+      {
+        "r": "EST.5.9",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.14": {
     "text": "Then said Zeresh his wife and all his friends unto him, Let a gallows be made of fifty cubits high, and to morrow speak thou unto the king that Mordecai may be hanged thereon: then go thou in merrily with the king unto the banquet. And the thing pleased Haman; and he caused the gallows to be made.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.4",
+        "v": 6
+      },
+      {
+        "r": "EST.7.9-10",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.32",
+        "v": 5
+      },
+      {
+        "r": "1KI.21.7",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.14",
+        "v": 5
+      },
+      {
+        "r": "PSA.7.13-16",
+        "v": 3
+      },
+      {
+        "r": "ACT.23.14-15",
+        "v": 3
+      },
+      {
+        "r": "2CH.22.3-4",
+        "v": 2
+      },
+      {
+        "r": "ROM.1.32",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "MRK.6.19-24",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.25",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.4-6",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.16",
+        "v": 2
+      },
+      {
+        "r": "MRK.14.10-11",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.3-5",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.15",
+        "v": 2
+      },
+      {
+        "r": "EST.3.8-15",
+        "v": 2
+      },
+      {
+        "r": "PSA.9.15",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.18",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.21-17.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.1": {
     "text": "On that night could not the king sleep, and he commanded to bring the book of records of the chronicles; and they were read before the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.2.1",
+        "v": 13
+      },
+      {
+        "r": "DAN.6.18",
+        "v": 12
+      },
+      {
+        "r": "EST.10.2",
+        "v": 8
+      },
+      {
+        "r": "ISA.41.17",
+        "v": 7
+      },
+      {
+        "r": "ROM.11.33",
+        "v": 7
+      },
+      {
+        "r": "EST.2.23",
+        "v": 7
+      },
+      {
+        "r": "EST.5.8",
+        "v": 6
+      },
+      {
+        "r": "1SA.23.26-27",
+        "v": 6
+      },
+      {
+        "r": "MAL.3.16",
+        "v": 5
+      },
+      {
+        "r": "GEN.22.14",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "EST.6.2": {
     "text": "And it was found written, that Mordecai had told of Bigthana and Teresh, two of the king's chamberlains, the keepers of the door, who sought to lay hand on the king Ahasuerus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.21-22",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.3": {
     "text": "And the king said, What honour and dignity hath been done to Mordecai for this? Then said the king's servants that ministered unto him, There is nothing done for him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.9.15",
+        "v": 7
+      },
+      {
+        "r": "GEN.40.23",
+        "v": 4
+      },
+      {
+        "r": "DAN.5.7",
+        "v": 3
+      },
+      {
+        "r": "ACT.28.8-10",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.16",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.29",
+        "v": 3
+      },
+      {
+        "r": "PSA.118.8-9",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.25-26",
+        "v": 3
+      },
+      {
+        "r": "JDG.1.12-13",
+        "v": 3
+      },
+      {
+        "r": "1CH.11.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.4": {
     "text": "And the king said, Who is in the court? Now Haman was come into the outward court of the king's house, to speak unto the king to hang Mordecai on the gallows that he had prepared for him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.14",
+        "v": 5
+      },
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.2.4",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "EST.3.8-11",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "EST.7.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.33.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.13",
+        "v": 2
+      },
+      {
+        "r": "PRO.3.27-28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.5": {
@@ -578,253 +3385,1627 @@
   "EST.6.6": {
     "text": "So Haman came in. And the king said unto him, What shall be done unto the man whom the king delighteth to honour? Now Haman thought in his heart, To whom would the king delight to do honour more than to myself?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.18",
+        "v": 5
+      },
+      {
+        "r": "OBA.1.3",
+        "v": 4
+      },
+      {
+        "r": "EST.6.9",
+        "v": 3
+      },
+      {
+        "r": "ISA.42.1",
+        "v": 3
+      },
+      {
+        "r": "MAT.3.17",
+        "v": 3
+      },
+      {
+        "r": "PRO.18.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 3
+      },
+      {
+        "r": "JER.32.41",
+        "v": 3
+      },
+      {
+        "r": "EST.5.11",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.32",
+        "v": 2
+      },
+      {
+        "r": "PSA.35.27",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2-3",
+        "v": 2
+      },
+      {
+        "r": "EST.6.7",
+        "v": 2
+      },
+      {
+        "r": "EST.6.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.23",
+        "v": 1
+      },
+      {
+        "r": "PRO.30.13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.6.7": {
     "text": "And Haman answered the king, For the man whom the king delighteth to honour,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.11",
+        "v": 3
+      },
+      {
+        "r": "EST.6.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.8": {
     "text": "let the royal apparel be brought which the king useth to wear, and the horse that the king rideth upon, and the crown royal which is set upon his head:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.1.33",
+        "v": 6
+      },
+      {
+        "r": "EST.2.17",
+        "v": 3
+      },
+      {
+        "r": "1SA.18.4",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 3
+      },
+      {
+        "r": "EST.1.11",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.9": {
     "text": "and let this apparel and horse be delivered to the hand of one of the king's most noble princes, that they may array the man withal whom the king delighteth to honour, and bring him on horseback through the street of the city, and proclaim before him, Thus shall it be done to the man whom the king delighteth to honour.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.43",
+        "v": 8
+      },
+      {
+        "r": "1KI.1.33-34",
+        "v": 5
+      },
+      {
+        "r": "ZEC.9.9",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.10": {
     "text": "Then the king said to Haman, Make haste, and take the apparel and the horse, as thou hast said, and do even so to Mordecai the Jew, that sitteth at the king's gate: let nothing fail of all that thou hast spoken.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.4.37",
+        "v": 5
+      },
+      {
+        "r": "2KI.10.10",
+        "v": 4
+      },
+      {
+        "r": "REV.18.7",
+        "v": 4
+      },
+      {
+        "r": "LUK.14.11",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.11": {
     "text": "Then took Haman the apparel and the horse, and arrayed Mordecai, and brought him on horseback through the street of the city, and proclaimed before him, Thus shall it be done unto the man whom the king delighteth to honour.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.3",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.52",
+        "v": 5
+      },
+      {
+        "r": "EZR.6.13",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 4
+      },
+      {
+        "r": "EST.8.15",
+        "v": 4
+      },
+      {
+        "r": "REV.3.9",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.12": {
     "text": "And Mordecai came again to the king's gate. But Haman hasted to his house mourning, and having his head covered.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.15.30",
+        "v": 6
+      },
+      {
+        "r": "JER.14.3-4",
+        "v": 4
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 3
+      },
+      {
+        "r": "JOB.20.5",
+        "v": 3
+      },
+      {
+        "r": "2CH.26.20",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 2
+      },
+      {
+        "r": "PSA.131.1-2",
+        "v": 2
+      },
+      {
+        "r": "2SA.17.23",
+        "v": 2
+      },
+      {
+        "r": "EST.7.8",
+        "v": 2
+      },
+      {
+        "r": "1SA.3.15",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.43",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.13": {
     "text": "And Haman told Zeresh his wife and all his friends every thing that had befallen him. Then said his wise men and Zeresh his wife unto him, If Mordecai be of the seed of the Jews, before whom thou hast begun to fall, thou shalt not prevail against him, but shalt surely fall before him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.28.18",
+        "v": 10
+      },
+      {
+        "r": "HOS.14.9",
+        "v": 8
+      },
+      {
+        "r": "GEN.40.19",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 5
+      },
+      {
+        "r": "DAN.5.26-28",
+        "v": 5
+      },
+      {
+        "r": "GEN.41.8",
+        "v": 5
+      },
+      {
+        "r": "JOB.16.2",
+        "v": 4
+      },
+      {
+        "r": "EST.5.10-14",
+        "v": 4
+      },
+      {
+        "r": "1SA.28.19-20",
+        "v": 4
+      },
+      {
+        "r": "JOB.15.24",
+        "v": 3
+      },
+      {
+        "r": "ZEC.12.2-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.14": {
     "text": "And while they were yet talking with him, came the king's chamberlains, and hasted to bring Haman unto the banquet that Esther had prepared.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.8",
+        "v": 6
+      },
+      {
+        "r": "DEU.32.35-36",
+        "v": 2
+      },
+      {
+        "r": "EST.5.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.1": {
     "text": "So the king and Haman came to banquet with Esther the queen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.8",
+        "v": 4
+      },
+      {
+        "r": "EST.3.15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.7.2": {
     "text": "And the king said again unto Esther on the second day at the banquet of wine, What is thy petition, queen Esther? and it shall be granted thee: and what is thy request? and it shall be performed, even to the half of the kingdom.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.16.24",
+        "v": 6
+      },
+      {
+        "r": "EST.5.3",
+        "v": 5
+      },
+      {
+        "r": "EST.9.12",
+        "v": 4
+      },
+      {
+        "r": "EST.5.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.3": {
     "text": "Then Esther the queen answered and said, If I have found favour in thy sight, O king, and if it please the king, let my life be given me at my petition, and my people at my request:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.38.26",
+        "v": 6
+      },
+      {
+        "r": "JOB.2.4",
+        "v": 4
+      },
+      {
+        "r": "EST.7.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.6-9",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.31",
+        "v": 2
+      },
+      {
+        "r": "2KI.1.13",
+        "v": 2
+      },
+      {
+        "r": "EST.4.8",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.4": {
     "text": "for we are sold, I and my people, to be destroyed, to be slain, and to perish. But if we had been sold for bondmen and bondwomen, I had held my tongue, although the enemy could not countervail the king's damage.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.9",
+        "v": 7
+      },
+      {
+        "r": "DEU.28.68",
+        "v": 6
+      },
+      {
+        "r": "EST.3.13",
+        "v": 6
+      },
+      {
+        "r": "EST.8.11",
+        "v": 4
+      },
+      {
+        "r": "EST.4.7-8",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.44.22-23",
+        "v": 2
+      },
+      {
+        "r": "GEN.37.26-28",
+        "v": 2
+      },
+      {
+        "r": "1SA.22.23",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.6",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.5.5",
+        "v": 2
+      },
+      {
+        "r": "JOS.9.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.5": {
     "text": "Then the king Ahasuerus answered and said unto Esther the queen, Who is he, and where is he, that durst presume in his heart to do so?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.27.33",
+        "v": 3
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.6": {
     "text": "And Esther said, The adversary and enemy is this wicked Haman. Then Haman was afraid before the king and the queen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.18.5-12",
+        "v": 5
+      },
+      {
+        "r": "PSA.139.19-22",
+        "v": 3
+      },
+      {
+        "r": "1CO.5.13",
+        "v": 3
+      },
+      {
+        "r": "2TH.2.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.27.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.17-20",
+        "v": 2
+      },
+      {
+        "r": "1SA.24.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.5-9",
+        "v": 2
+      },
+      {
+        "r": "NEH.6.16",
+        "v": 2
+      },
+      {
+        "r": "JOB.15.21-22",
+        "v": 2
+      },
+      {
+        "r": "EST.3.10",
+        "v": 2
+      },
+      {
+        "r": "ECC.5.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.21.4",
+        "v": 1
+      },
+      {
+        "r": "DAN.5.5-6",
+        "v": 1
+      },
+      {
+        "r": "PRO.16.14",
+        "v": 1
+      },
+      {
+        "r": "PRO.24.24-25",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.7": {
     "text": "And the king arising from the banquet of wine in his wrath went into the palace garden: and Haman stood up to make request for his life to Esther the queen; for he saw that there was evil determined against him by the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.3.9",
+        "v": 3
+      },
+      {
+        "r": "EST.1.12",
+        "v": 3
+      },
+      {
+        "r": "PRO.14.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.19.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.112.10",
+        "v": 2
+      },
+      {
+        "r": "EST.1.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.8": {
     "text": "Then the king returned out of the palace garden into the place of the banquet of wine; and Haman was fallen upon the bed whereon Esther was. Then said the king, Will he force the queen also before me in the house? As the word went out of the king's mouth, they covered Haman's face.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.6",
+        "v": 5
+      },
+      {
+        "r": "EST.6.12",
+        "v": 4
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.17",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.9": {
     "text": "And Harbonah, one of the chamberlains, said before the king, Behold also, the gallows fifty cubits high, which Haman had made for Mordecai, who had spoken good for the king, standeth in the house of Haman. Then the king said, Hang him thereon.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.15-16",
+        "v": 11
+      },
+      {
+        "r": "PRO.11.5-6",
+        "v": 8
+      },
+      {
+        "r": "EST.5.14",
+        "v": 6
+      },
+      {
+        "r": "EST.1.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.141.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.35.8",
+        "v": 5
+      },
+      {
+        "r": "DAN.6.24",
+        "v": 4
+      },
+      {
+        "r": "PSA.73.19",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.35-36",
+        "v": 3
+      },
+      {
+        "r": "DAN.6.7",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.51",
+        "v": 3
+      },
+      {
+        "r": "EST.6.14",
+        "v": 3
+      },
+      {
+        "r": "EST.6.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.9.15-16",
+        "v": 3
+      },
+      {
+        "r": "JOB.27.20-23",
+        "v": 3
+      },
+      {
+        "r": "EST.9.25",
+        "v": 3
+      },
+      {
+        "r": "EST.2.21-23",
+        "v": 2
+      },
+      {
+        "r": "2KI.9.32",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.10": {
     "text": "So they hanged Haman on the gallows that he had prepared for Mordecai. Then was the king's wrath pacified.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.16",
+        "v": 7
+      },
+      {
+        "r": "DAN.6.24",
+        "v": 5
+      },
+      {
+        "r": "JDG.15.7",
+        "v": 4
+      },
+      {
+        "r": "EZK.5.13",
+        "v": 4
+      },
+      {
+        "r": "ZEC.6.8",
+        "v": 3
+      },
+      {
+        "r": "EST.2.1",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.8.1": {
     "text": "On that day did the king Ahasuerus give the house of Haman the Jews' enemy unto Esther the queen. And Mordecai came before the king; for Esther had told what he was unto her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.7",
+        "v": 6
+      },
+      {
+        "r": "EST.2.15",
+        "v": 5
+      },
+      {
+        "r": "PRO.13.22",
+        "v": 5
+      },
+      {
+        "r": "PSA.39.6",
+        "v": 4
+      },
+      {
+        "r": "JOB.27.16-17",
+        "v": 4
+      },
+      {
+        "r": "EST.7.6",
+        "v": 3
+      },
+      {
+        "r": "LUK.12.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.28.8",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.6-13",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.18-19",
+        "v": 2
+      }
+    ],
     "section": "Mordecai Honoured"
   },
   "EST.8.2": {
     "text": "And the king took off his ring, which he had taken from Haman, and gave it unto Mordecai. And Esther set Mordecai over the house of Haman.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.10",
+        "v": 6
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 4
+      },
+      {
+        "r": "DAN.2.48",
+        "v": 4
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.34",
+        "v": 3
+      },
+      {
+        "r": "ECC.5.13-14",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.18-26",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.19-22",
+        "v": 2
+      },
+      {
+        "r": "2SA.9.7-10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.3": {
     "text": "And Esther spake yet again before the king, and fell down at his feet, and besought him with tears to put away the mischief of Haman the Agagite, and his device that he had devised against the Jews.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.8-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.38.2",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.4",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.24",
+        "v": 2
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      },
+      {
+        "r": "2KI.4.27",
+        "v": 2
+      },
+      {
+        "r": "HEB.5.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.4": {
     "text": "Then the king held out the golden sceptre toward Esther. So Esther arose, and stood before the king,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.2",
+        "v": 8
+      },
+      {
+        "r": "EST.4.11",
+        "v": 7
+      }
+    ],
     "section": null
   },
   "EST.8.5": {
     "text": "and said, If it please the king, and if I have found favour in his sight, and the thing seem right before the king, and I be pleasing in his eyes, let it be written to reverse the letters devised by Haman the son of Hammedatha the Agagite, which he wrote to destroy the Jews which are in all the king's provinces:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.3",
+        "v": 5
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 3
+      },
+      {
+        "r": "EST.5.8",
+        "v": 3
+      },
+      {
+        "r": "EST.2.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.16",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.13",
+        "v": 2
+      },
+      {
+        "r": "EST.2.17",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.29",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.6": {
     "text": "for how can I endure to see the evil that shall come unto my people? or how can I endure to see the destruction of my kindred?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.4",
+        "v": 5
+      },
+      {
+        "r": "ROM.9.2-3",
+        "v": 3
+      },
+      {
+        "r": "ROM.10.1",
+        "v": 3
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "LUK.19.41-42",
+        "v": 2
+      },
+      {
+        "r": "JER.9.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.44.34",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.3",
+        "v": 2
+      },
+      {
+        "r": "JER.4.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.7": {
     "text": "Then the king Ahasuerus said unto Esther the queen and to Mordecai the Jew, Behold, I have given Esther the house of Haman, and him they have hanged upon the gallows, because he laid his hand upon the Jews.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.10-8.1",
+        "v": 3
+      },
+      {
+        "r": "PRO.13.22",
+        "v": 2
+      },
+      {
+        "r": "GAL.3.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.8": {
     "text": "Write ye also for the Jews, as it liketh you, in the king's name, and seal it with the king's ring: for the writing which is written in the king's name, and sealed with the king's ring, may no man reverse.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.19",
+        "v": 9
+      },
+      {
+        "r": "EST.3.12",
+        "v": 8
+      },
+      {
+        "r": "EST.8.5",
+        "v": 4
+      },
+      {
+        "r": "HEB.6.17-18",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.8",
+        "v": 4
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.12-15",
+        "v": 4
+      },
+      {
+        "r": "2TI.2.19",
+        "v": 3
+      },
+      {
+        "r": "EST.8.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.9": {
     "text": "Then were the king's scribes called at that time in the third month, that is, the month Sivan, on the three and twentieth day thereof; and it was written according to all that Mordecai commanded unto the Jews, and to the lieutenants, and the deputies and rulers of the provinces which are from India unto Ethiopia, an hundred twenty and seven provinces, unto every province according to the writing thereof, and unto every people after their language, and to the Jews according to their writing, and according to their language.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.22",
+        "v": 9
+      },
+      {
+        "r": "EST.1.1",
+        "v": 7
+      },
+      {
+        "r": "2KI.18.26",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.9-11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.10": {
     "text": "And he wrote in the king Ahasuerus' name, and sealed it with the king's ring, and sent letters by posts on horseback, and riders on mules, camels, and young dromedaries:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.4.1",
+        "v": 3
+      },
+      {
+        "r": "JER.51.21",
+        "v": 3
+      },
+      {
+        "r": "ISA.60.6",
+        "v": 3
+      },
+      {
+        "r": "ECC.8.4",
+        "v": 3
+      },
+      {
+        "r": "JER.2.23",
+        "v": 3
+      },
+      {
+        "r": "ISA.66.20",
+        "v": 3
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "1KI.4.28",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.25",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.11": {
     "text": "wherein the king granted the Jews which were in every city to gather themselves together, and to stand for their life, to destroy, to slay, and to cause to perish, all the power of the people and province that would assault them, both little ones and women, and to take the spoil of them for a prey,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.37.14-15",
+        "v": 8
+      },
+      {
+        "r": "EST.3.13",
+        "v": 8
+      },
+      {
+        "r": "EZK.39.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.146.6-9",
+        "v": 6
+      },
+      {
+        "r": "EST.9.2-16",
+        "v": 5
+      },
+      {
+        "r": "PSA.137.8",
+        "v": 5
+      },
+      {
+        "r": "PSA.68.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.8.12": {
     "text": "upon one day in all the provinces of king Ahasuerus, namely, upon the thirteenth day of the twelfth month, which is the month Adar.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.1",
+        "v": 6
+      },
+      {
+        "r": "EST.3.13-15",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.9-10",
+        "v": 2
+      },
+      {
+        "r": "JDG.1.6-7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.13": {
     "text": "The copy of the writing for a commandment to be given in every province was published unto all people, and that the Jews should be ready against that day to avenge themselves on their enemies.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.6.10",
+        "v": 4
+      },
+      {
+        "r": "EST.3.14",
+        "v": 4
+      },
+      {
+        "r": "PSA.92.10-11",
+        "v": 3
+      },
+      {
+        "r": "LUK.18.7",
+        "v": 3
+      },
+      {
+        "r": "JDG.16.28",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.6-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.68.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.14-15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.8.14": {
     "text": "So the posts that rode upon mules and camels went out, being hastened and pressed on by the king's commandment. And the decree was given at Shushan the palace.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.15",
+        "v": 3
+      },
+      {
+        "r": "DAN.8.2",
+        "v": 3
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.1",
+        "v": 1
+      },
+      {
+        "r": "1SA.21.8",
+        "v": 1
+      },
+      {
+        "r": "EST.1.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.8.15": {
     "text": "And Mordecai went out from the presence of the king in royal apparel of blue and white, and with a great crown of gold, and with a garment of fine linen and purple: and the city of Shushan rejoiced and was glad.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.16.19",
+        "v": 7
+      },
+      {
+        "r": "EST.5.1",
+        "v": 6
+      },
+      {
+        "r": "EST.1.6",
+        "v": 6
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 6
+      },
+      {
+        "r": "EST.6.8",
+        "v": 6
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 6
+      },
+      {
+        "r": "EST.3.15",
+        "v": 6
+      },
+      {
+        "r": "MAT.6.29",
+        "v": 6
+      },
+      {
+        "r": "EST.6.11",
+        "v": 5
+      },
+      {
+        "r": "MAT.11.8",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "EST.8.16": {
     "text": "The Jews had light, and gladness, and joy, and honour.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.11.10",
+        "v": 8
+      },
+      {
+        "r": "PSA.97.11",
+        "v": 8
+      },
+      {
+        "r": "PSA.18.28",
+        "v": 7
+      },
+      {
+        "r": "EST.4.1-3",
+        "v": 6
+      },
+      {
+        "r": "PSA.30.5-11",
+        "v": 5
+      },
+      {
+        "r": "ISA.35.10",
+        "v": 4
+      },
+      {
+        "r": "PSA.112.4",
+        "v": 4
+      },
+      {
+        "r": "EST.9.17",
+        "v": 4
+      },
+      {
+        "r": "EST.4.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.29-30",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.18-19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.17": {
     "text": "And in every province, and in every city, whithersoever the king's commandment and his decree came, the Jews had joy and gladness, a feast and a good day. And many of the people of the land became Jews; for the fear of the Jews fell upon them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.11.25",
+        "v": 6
+      },
+      {
+        "r": "EST.9.19",
+        "v": 5
+      },
+      {
+        "r": "ZEC.8.20-23",
+        "v": 4
+      },
+      {
+        "r": "PSA.18.43",
+        "v": 4
+      },
+      {
+        "r": "1SA.25.8",
+        "v": 4
+      },
+      {
+        "r": "EST.9.2",
+        "v": 4
+      },
+      {
+        "r": "EST.9.27",
+        "v": 3
+      },
+      {
+        "r": "GEN.35.5",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.16",
+        "v": 3
+      },
+      {
+        "r": "EST.9.22",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.25",
+        "v": 3
+      },
+      {
+        "r": "EST.9.17",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.1": {
     "text": "Now in the twelfth month, that is, the month Adar, on the thirteenth day of the same, when the king's commandment and his decree drew near to be put in execution, in the day that the enemies of the Jews hoped to have power over them, (though it was turned to the contrary, that the Jews had rule over them that hated them;)",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.13",
+        "v": 8
+      },
+      {
+        "r": "EST.8.12",
+        "v": 6
+      },
+      {
+        "r": "PSA.30.11",
+        "v": 5
+      },
+      {
+        "r": "REV.11.18",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.14-16",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.1-2",
+        "v": 3
+      },
+      {
+        "r": "2SA.22.41",
+        "v": 3
+      },
+      {
+        "r": "EST.9.17",
+        "v": 2
+      },
+      {
+        "r": "EST.3.7",
+        "v": 2
+      },
+      {
+        "r": "ACT.12.11",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.36",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.2": {
     "text": "the Jews gathered themselves together in their cities throughout all the provinces of the king Ahasuerus, to lay hand on such as sought their hurt: and no man could withstand them; for the fear of them fell upon all people.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.17",
+        "v": 6
+      },
+      {
+        "r": "EST.8.11",
+        "v": 5
+      },
+      {
+        "r": "PSA.71.24",
+        "v": 3
+      },
+      {
+        "r": "PSA.71.13",
+        "v": 3
+      },
+      {
+        "r": "JOS.2.9",
+        "v": 2
+      },
+      {
+        "r": "EST.9.15-18",
+        "v": 2
+      },
+      {
+        "r": "DEU.2.30",
+        "v": 2
+      },
+      {
+        "r": "GEN.35.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.27",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.9",
+        "v": 2
+      },
+      {
+        "r": "JOS.11.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.3": {
     "text": "And all the rulers of the provinces, and the lieutenants, and the deputies, and officers of the king, helped the Jews; because the fear of Mordecai fell upon them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.8.36",
+        "v": 5
+      },
+      {
+        "r": "EST.8.5",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.2",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2-6",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.4": {
     "text": "For Mordecai was great in the king's house, and his fame went out throughout all the provinces: for this man Mordecai waxed greater and greater.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.11.9",
+        "v": 6
+      },
+      {
+        "r": "2SA.3.1",
+        "v": 6
+      },
+      {
+        "r": "PSA.1.3",
+        "v": 3
+      },
+      {
+        "r": "1SA.2.30",
+        "v": 3
+      },
+      {
+        "r": "1CH.14.17",
+        "v": 3
+      },
+      {
+        "r": "JOS.6.27",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.43",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.19",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.18",
+        "v": 3
+      },
+      {
+        "r": "MAT.4.24",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.5": {
     "text": "Thus the Jews smote all their enemies with the stroke of the sword, and slaughter, and destruction, and did what they would unto those that hated them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.18.34-40",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.6-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.47-48",
+        "v": 3
+      },
+      {
+        "r": "PSA.20.7-8",
+        "v": 3
+      },
+      {
+        "r": "JER.18.21",
+        "v": 3
+      },
+      {
+        "r": "2TH.1.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.6": {
     "text": "And in Shushan the palace the Jews slew and destroyed five hundred men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.7": {
@@ -848,7 +5029,68 @@
   "EST.9.10": {
     "text": "the ten sons of Haman the son of Hammedatha, the enemy of the Jews, slew they; but on the spoil laid they not their hand.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.11",
+        "v": 5
+      },
+      {
+        "r": "EST.8.11",
+        "v": 5
+      },
+      {
+        "r": "GEN.14.23",
+        "v": 4
+      },
+      {
+        "r": "JOB.18.18-19",
+        "v": 3
+      },
+      {
+        "r": "JOB.27.13-15",
+        "v": 3
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.12.17",
+        "v": 2
+      },
+      {
+        "r": "EXO.20.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.21.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.12-13",
+        "v": 2
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 2
+      },
+      {
+        "r": "EST.9.15-16",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.11": {
@@ -860,13 +5102,47 @@
   "EST.9.12": {
     "text": "And the king said unto Esther the queen, The Jews have slain and destroyed five hundred men in Shushan the palace, and the ten sons of Haman; what have they done in the rest of the king's provinces? now what is thy petition? and it shall be granted thee: or what is thy request further? and it shall be done.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.2",
+        "v": 6
+      },
+      {
+        "r": "EST.5.6",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "EST.9.13": {
     "text": "Then said Esther, If it please the king, let it be granted to the Jews which are in Shushan to do to morrow also according unto this day's decree, and let Haman's ten sons be hanged upon the gallows.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.11",
+        "v": 4
+      },
+      {
+        "r": "DEU.21.23",
+        "v": 3
+      },
+      {
+        "r": "EST.9.15",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.9",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.6",
+        "v": 2
+      },
+      {
+        "r": "GAL.3.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.14": {
@@ -878,37 +5154,207 @@
   "EST.9.15": {
     "text": "For the Jews that were in Shushan gathered themselves together on the fourteenth day also of the month Adar, and slew three hundred men at Shushan; but on the prey they laid not their hand.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.11",
+        "v": 3
+      },
+      {
+        "r": "EST.9.10",
+        "v": 3
+      },
+      {
+        "r": "EST.9.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.118.7-12",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.2",
+        "v": 2
+      },
+      {
+        "r": "EST.9.16",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.22",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.16": {
     "text": "But the other Jews that were in the king's provinces gathered themselves together, and stood for their lives, and had rest from their enemies, and slew of their foes seventy and five thousand, but they laid not their hands on the prey,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.11",
+        "v": 10
+      },
+      {
+        "r": "EST.9.2",
+        "v": 6
+      },
+      {
+        "r": "LEV.26.7-8",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "EST.9.17": {
     "text": "on the thirteenth day of the month Adar; and on the fourteenth day of the same rested they, and made it a day of feasting and gladness.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.1",
+        "v": 3
+      },
+      {
+        "r": "EST.9.21",
+        "v": 3
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "EST.9.18",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.18": {
     "text": "But the Jews that were at Shushan assembled together on the thirteenth day thereof, and on the fourteenth thereof; and on the fifteenth day of the same they rested, and made it a day of feasting and gladness.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.21",
+        "v": 3
+      },
+      {
+        "r": "EST.9.15",
+        "v": 2
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "EST.9.13",
+        "v": 2
+      },
+      {
+        "r": "EST.9.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.19": {
     "text": "Therefore the Jews of the villages, that dwelt in the unwalled towns, made the fourteenth day of the month Adar a day of gladness and feasting, and a good day, and of sending portions one to another.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.17",
+        "v": 5
+      },
+      {
+        "r": "EST.9.22",
+        "v": 4
+      },
+      {
+        "r": "REV.11.10",
+        "v": 4
+      },
+      {
+        "r": "DEU.16.14",
+        "v": 4
+      },
+      {
+        "r": "NEH.8.10-12",
+        "v": 4
+      },
+      {
+        "r": "DEU.16.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.3.5",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.41",
+        "v": 2
+      },
+      {
+        "r": "ZEC.2.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.118.11-16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.20": {
     "text": "And Mordecai wrote these things, and sent letters unto all the Jews that were in all the provinces of the king Ahasuerus, both nigh and far,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.1.10-11",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.19-22",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.124.1-3",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      },
+      {
+        "r": "EST.1.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.4-12",
+        "v": 2
+      },
+      {
+        "r": "1CH.16.12",
+        "v": 1
+      }
+    ],
     "section": "The Feast of Purim"
   },
   "EST.9.21": {
@@ -920,7 +5366,60 @@
   "EST.9.22": {
     "text": "as the days wherein the Jews rested from their enemies, and the month which was turned unto them from sorrow to joy, and from mourning into a good day: that they should make them days of feasting and joy, and of sending portions one to another, and gifts to the poor.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.30.11",
+        "v": 7
+      },
+      {
+        "r": "EST.9.19",
+        "v": 4
+      },
+      {
+        "r": "ISA.14.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.12.1-2",
+        "v": 4
+      },
+      {
+        "r": "GAL.2.10",
+        "v": 3
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 3
+      },
+      {
+        "r": "ACT.2.44-46",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20-22",
+        "v": 2
+      },
+      {
+        "r": "PSA.103.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.5.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.13.3-8",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.10-12",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.41",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.23": {
@@ -932,73 +5431,365 @@
   "EST.9.24": {
     "text": "because Haman the son of Hammedatha, the Agagite, the enemy of all the Jews, had devised against the Jews to destroy them, and had cast Pur, that is, the lot, to consume them, and to destroy them;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.5-13",
+        "v": 3
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.25": {
     "text": "but when Esther came before the king, he commanded by letters that his wicked device, which he devised against the Jews, should return upon his own head, and that he and his sons should be hanged on the gallows.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.16",
+        "v": 7
+      },
+      {
+        "r": "EST.7.5-8.14",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.44",
+        "v": 2
+      },
+      {
+        "r": "EST.9.13-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.141.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.17-18",
+        "v": 2
+      },
+      {
+        "r": "PSA.140.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.26": {
     "text": "Wherefore they called these days Purim after the name of Pur. Therefore for all the words of this letter, and of that which they had seen concerning this matter, and which had come unto them,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.20",
+        "v": 3
+      },
+      {
+        "r": "NUM.16.40",
+        "v": 2
+      },
+      {
+        "r": "EZK.39.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.27": {
     "text": "the Jews ordained, and took upon them, and upon their seed, and upon all such as joined themselves unto them, so as it should not fail, that they would keep these two days according to their writing, and according to their appointed time every year;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.2.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.6",
+        "v": 4
+      },
+      {
+        "r": "EST.8.17",
+        "v": 3
+      },
+      {
+        "r": "ISA.56.3",
+        "v": 3
+      },
+      {
+        "r": "JOS.9.15",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.14-15",
+        "v": 2
+      },
+      {
+        "r": "EST.9.21",
+        "v": 2
+      },
+      {
+        "r": "ZEC.8.23",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.1-2",
+        "v": 2
+      },
+      {
+        "r": "DEU.5.3",
+        "v": 2
+      },
+      {
+        "r": "1SA.30.25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.28": {
     "text": "and that these days should be remembered and kept throughout every generation, every family, every province, and every city; and that these days of Purim should not fail from among the Jews, nor the memorial of them perish from their seed.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.78.5-7",
+        "v": 3
+      },
+      {
+        "r": "JOS.4.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.103.2",
+        "v": 3
+      },
+      {
+        "r": "EXO.13.8-9",
+        "v": 3
+      },
+      {
+        "r": "EXO.12.17",
+        "v": 2
+      },
+      {
+        "r": "ZEC.6.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.29": {
     "text": "Then Esther the queen, the daughter of Abihail, and Mordecai the Jew, wrote with all authority, to confirm this second letter of Purim.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.20",
+        "v": 5
+      },
+      {
+        "r": "EST.2.15",
+        "v": 4
+      },
+      {
+        "r": "EST.8.10",
+        "v": 3
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.30": {
     "text": "And he sent the letters unto all the Jews, to the hundred twenty and seven provinces of the kingdom of Ahasuerus, with words of peace and truth,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.1",
+        "v": 4
+      },
+      {
+        "r": "ZEC.8.19",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.39.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.31": {
     "text": "to confirm these days of Purim in their times appointed, according as Mordecai the Jew and Esther the queen had enjoined them, and as they had decreed for themselves and for their seed, the matters of the fastings and their cry.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.3",
+        "v": 5
+      },
+      {
+        "r": "EST.4.16",
+        "v": 4
+      },
+      {
+        "r": "JON.3.2-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.32": {
     "text": "And the decree of Esther confirmed these matters of Purim; and it was written in the book.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.26",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.10.1": {
     "text": "And the king Ahasuerus laid a tribute upon the land, and upon the isles of the sea.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.24.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.72.10",
+        "v": 3
+      },
+      {
+        "r": "LUK.2.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.11",
+        "v": 2
+      },
+      {
+        "r": "GEN.10.5",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.11.18",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.10.2": {
     "text": "And all the acts of his power and of his might, and the declaration of the greatness of Mordecai, whereunto the king advanced him, are they not written in the book of the chronicles of the kings of Media and Persia?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.15",
+        "v": 6
+      },
+      {
+        "r": "EST.2.23",
+        "v": 5
+      },
+      {
+        "r": "EST.9.4",
+        "v": 5
+      },
+      {
+        "r": "EST.6.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.35",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.41",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.48",
+        "v": 2
+      },
+      {
+        "r": "1KI.14.19",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.39",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.10.3": {
     "text": "For Mordecai the Jew was next unto king Ahasuerus, and great among the Jews, and accepted of the multitude of his brethren, seeking the wealth of his people, and speaking peace to all his seed.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.2.10",
+        "v": 8
+      },
+      {
+        "r": "ROM.14.18",
+        "v": 4
+      },
+      {
+        "r": "ROM.10.1",
+        "v": 4
+      },
+      {
+        "r": "DAN.5.29",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.6-9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.43-44",
+        "v": 3
+      },
+      {
+        "r": "2CH.28.7",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.40",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.2-3",
+        "v": 2
+      },
+      {
+        "r": "1SA.23.17",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2",
+        "v": 2
+      }
+    ],
     "section": null
   }
 }

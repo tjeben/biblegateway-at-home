@@ -7,115 +7,774 @@
         "text": "Traditionally"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.12.10",
+        "v": 16
+      },
+      {
+        "r": "GEN.26.1",
+        "v": 12
+      },
+      {
+        "r": "EZK.14.13",
+        "v": 8
+      },
+      {
+        "r": "DEU.28.38",
+        "v": 4
+      },
+      {
+        "r": "GEN.43.1",
+        "v": 4
+      },
+      {
+        "r": "2KI.8.1-2",
+        "v": 4
+      },
+      {
+        "r": "LEV.26.19",
+        "v": 4
+      },
+      {
+        "r": "JDG.17.8",
+        "v": 4
+      },
+      {
+        "r": "JOL.1.16-20",
+        "v": 4
+      },
+      {
+        "r": "JDG.2.16-18",
+        "v": 3
+      },
+      {
+        "r": "DEU.28.23-24",
+        "v": 3
+      },
+      {
+        "r": "PSA.105.16",
+        "v": 3
+      },
+      {
+        "r": "JOL.1.10-11",
+        "v": 3
+      },
+      {
+        "r": "AMO.4.6",
+        "v": 3
+      },
+      {
+        "r": "JDG.12.8",
+        "v": 2
+      },
+      {
+        "r": "JDG.19.1-2",
+        "v": 2
+      },
+      {
+        "r": "JER.14.1",
+        "v": 2
+      },
+      {
+        "r": "1KI.17.1-12",
+        "v": 2
+      },
+      {
+        "r": "EZK.14.21",
+        "v": 2
+      },
+      {
+        "r": "PSA.107.34",
+        "v": 2
+      },
+      {
+        "r": "1KI.18.2",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.1",
+        "v": 1
+      }
+    ],
     "section": "Naomi Loses Her Husband and Sons"
   },
   "RUT.1.2": {
     "text": "The man’s name was Elimelek, his wife’s name was Naomi, and the names of his two sons were Mahlon and Kilion. They were Ephrathites from Bethlehem, Judah. And they went to Moab and lived there.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.35.19",
+        "v": 4
+      },
+      {
+        "r": "MIC.5.2",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.21",
+        "v": 3
+      },
+      {
+        "r": "1SA.1.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.1.3": {
     "text": "Now Elimelek, Naomi’s husband, died, and she was left with her two sons.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.34.19",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.10-11",
+        "v": 3
+      },
+      {
+        "r": "2KI.4.1",
+        "v": 3
+      },
+      {
+        "r": "HEB.12.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.4": {
     "text": "They married Moabite women, one named Orpah and the other Ruth. After they had lived there about ten years,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.1.5",
+        "v": 5
+      },
+      {
+        "r": "DEU.7.3",
+        "v": 3
+      },
+      {
+        "r": "DEU.23.3",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.1-2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.1.5": {
     "text": "both Mahlon and Kilion also died, and Naomi was left without her two sons and her husband.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.32.39",
+        "v": 3
+      },
+      {
+        "r": "PSA.89.30-32",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.21",
+        "v": 2
+      },
+      {
+        "r": "MAT.22.25-27",
+        "v": 1
+      },
+      {
+        "r": "LUK.7.12",
+        "v": 1
+      },
+      {
+        "r": "JER.2.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.1.6": {
     "text": "When Naomi heard in Moab that the Lord had come to the aid of his people by providing food for them, she and her daughters-in-law prepared to return home from there.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.132.15",
+        "v": 11
+      },
+      {
+        "r": "PSA.111.5",
+        "v": 8
+      },
+      {
+        "r": "EXO.3.16",
+        "v": 7
+      },
+      {
+        "r": "EXO.4.31",
+        "v": 7
+      },
+      {
+        "r": "1SA.2.21",
+        "v": 6
+      },
+      {
+        "r": "LUK.1.68",
+        "v": 6
+      },
+      {
+        "r": "MAT.6.11",
+        "v": 6
+      },
+      {
+        "r": "LUK.19.44",
+        "v": 6
+      },
+      {
+        "r": "EXO.16.4-6",
+        "v": 6
+      },
+      {
+        "r": "JER.29.10",
+        "v": 6
+      },
+      {
+        "r": "ISA.55.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.145.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.104.14-15",
+        "v": 5
+      },
+      {
+        "r": "PSA.146.7",
+        "v": 5
+      },
+      {
+        "r": "ZEP.2.7",
+        "v": 5
+      },
+      {
+        "r": "GEN.48.15",
+        "v": 5
+      },
+      {
+        "r": "GEN.21.1",
+        "v": 5
+      },
+      {
+        "r": "GEN.50.25",
+        "v": 5
+      },
+      {
+        "r": "GEN.28.20",
+        "v": 5
+      },
+      {
+        "r": "1TI.6.8",
+        "v": 4
+      },
+      {
+        "r": "PSA.147.14",
+        "v": 4
+      },
+      {
+        "r": "1PE.2.12",
+        "v": 4
+      },
+      {
+        "r": "PRO.30.8",
+        "v": 2
+      }
+    ],
     "section": "Naomi and Ruth Return to Bethlehem"
   },
   "RUT.1.7": {
     "text": "With her two daughters-in-law she left the place where she had been living and set out on the road that would take them back to the land of Judah.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.8.3",
+        "v": 3
+      },
+      {
+        "r": "RUT.1.10",
+        "v": 1
+      },
+      {
+        "r": "EXO.18.27",
+        "v": 1
+      },
+      {
+        "r": "RUT.1.14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.1.8": {
     "text": "Then Naomi said to her two daughters-in-law, “Go back, each of you, to your mother’s home. May the Lord show you kindness, as you have shown kindness to your dead husbands and to me.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.2.20",
+        "v": 8
+      },
+      {
+        "r": "RUT.1.5",
+        "v": 8
+      },
+      {
+        "r": "COL.3.18",
+        "v": 7
+      },
+      {
+        "r": "COL.3.24",
+        "v": 6
+      },
+      {
+        "r": "EPH.6.2-3",
+        "v": 4
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 3
+      },
+      {
+        "r": "JOS.24.15-28",
+        "v": 3
+      },
+      {
+        "r": "2TI.1.16-18",
+        "v": 2
+      },
+      {
+        "r": "LUK.14.25-33",
+        "v": 0
+      },
+      {
+        "r": "PHP.4.18-19",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "RUT.1.9": {
     "text": "May the Lord grant that each of you will find rest in the home of another husband.” Then she kissed them goodbye and they wept aloud",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.3.1",
+        "v": 11
+      },
+      {
+        "r": "ACT.20.37",
+        "v": 7
+      },
+      {
+        "r": "GEN.29.11",
+        "v": 7
+      },
+      {
+        "r": "GEN.45.15",
+        "v": 6
+      },
+      {
+        "r": "GEN.27.27",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "RUT.1.10": {
     "text": "and said to her, “We will go back with you to your people.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.8.23",
+        "v": 5
+      },
+      {
+        "r": "PSA.16.3",
+        "v": 3
+      },
+      {
+        "r": "PSA.119.63",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.11": {
     "text": "But Naomi said, “Return home, my daughters. Why would you come with me? Am I going to have any more sons, who could become your husbands?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.25.5",
+        "v": 9
+      },
+      {
+        "r": "GEN.38.11",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "RUT.1.12": {
     "text": "Return home, my daughters; I am too old to have another husband. Even if I thought there was still hope for me—even if I had a husband tonight and then gave birth to sons—",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.17.17",
+        "v": 4
+      },
+      {
+        "r": "1TI.5.9",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.13": {
     "text": "would you wait until they grew up? Would you remain unmarried for them? No, my daughters. It is more bitter for me than for you, because the Lord’s hand has turned against me!”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.19.21",
+        "v": 8
+      },
+      {
+        "r": "PSA.32.4",
+        "v": 7
+      },
+      {
+        "r": "JDG.2.15",
+        "v": 6
+      },
+      {
+        "r": "PSA.38.2",
+        "v": 4
+      },
+      {
+        "r": "PSA.39.9-10",
+        "v": 3
+      },
+      {
+        "r": "1SA.5.11",
+        "v": 2
+      },
+      {
+        "r": "DEU.2.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.1.14": {
     "text": "At this they wept aloud again. Then Orpah kissed her mother-in-law goodbye, but Ruth clung to her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.18.24",
+        "v": 8
+      },
+      {
+        "r": "MAT.16.24",
+        "v": 6
+      },
+      {
+        "r": "MAT.10.37",
+        "v": 5
+      },
+      {
+        "r": "MAT.19.22",
+        "v": 4
+      },
+      {
+        "r": "JHN.6.66-69",
+        "v": 4
+      },
+      {
+        "r": "HEB.10.39",
+        "v": 4
+      },
+      {
+        "r": "ZEC.8.23",
+        "v": 3
+      },
+      {
+        "r": "DEU.10.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.17.17",
+        "v": 3
+      },
+      {
+        "r": "1KI.19.20",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.1",
+        "v": 3
+      },
+      {
+        "r": "GEN.31.55",
+        "v": 2
+      },
+      {
+        "r": "2TI.4.10",
+        "v": 2
+      },
+      {
+        "r": "GEN.31.28",
+        "v": 2
+      },
+      {
+        "r": "MRK.10.21-22",
+        "v": 2
+      },
+      {
+        "r": "ACT.17.34",
+        "v": 2
+      },
+      {
+        "r": "DEU.4.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.1.15": {
     "text": "“Look,” said Naomi, “your sister-in-law is going back to her people and her gods. Go back with her.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.1.6",
+        "v": 4
+      },
+      {
+        "r": "JDG.11.24",
+        "v": 4
+      },
+      {
+        "r": "2KI.2.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.125.5",
+        "v": 3
+      },
+      {
+        "r": "JOS.24.15",
+        "v": 3
+      },
+      {
+        "r": "LUK.14.26-33",
+        "v": 2
+      },
+      {
+        "r": "MAT.13.20-21",
+        "v": 2
+      },
+      {
+        "r": "HEB.10.38",
+        "v": 2
+      },
+      {
+        "r": "2SA.15.19-20",
+        "v": 2
+      },
+      {
+        "r": "PSA.36.3",
+        "v": 2
+      },
+      {
+        "r": "JOS.24.19",
+        "v": 2
+      },
+      {
+        "r": "1JN.2.19",
+        "v": 2
+      },
+      {
+        "r": "LUK.24.28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.1.16": {
     "text": "But Ruth replied, “Don’t urge me to leave you or to turn back from you. Where you go I will go, and where you stay I will stay. Your people will be my people and your God my God.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.15.21",
+        "v": 39
+      },
+      {
+        "r": "RUT.2.11-12",
+        "v": 31
+      },
+      {
+        "r": "2KI.2.2-6",
+        "v": 29
+      },
+      {
+        "r": "PSA.45.10",
+        "v": 22
+      },
+      {
+        "r": "MAT.8.19",
+        "v": 15
+      },
+      {
+        "r": "JHN.13.37",
+        "v": 14
+      },
+      {
+        "r": "1TH.1.9",
+        "v": 13
+      },
+      {
+        "r": "ISA.14.1",
+        "v": 12
+      },
+      {
+        "r": "ACT.21.13",
+        "v": 11
+      },
+      {
+        "r": "2CO.6.16-18",
+        "v": 9
+      },
+      {
+        "r": "REV.14.4",
+        "v": 7
+      },
+      {
+        "r": "HOS.13.4",
+        "v": 7
+      },
+      {
+        "r": "DAN.2.47",
+        "v": 6
+      },
+      {
+        "r": "JOS.24.18",
+        "v": 6
+      },
+      {
+        "r": "DAN.4.37",
+        "v": 4
+      },
+      {
+        "r": "LUK.24.28-29",
+        "v": 4
+      },
+      {
+        "r": "DAN.3.29",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.1.17": {
     "text": "Where you die I will die, and there I will be buried. May the Lord deal with me, be it ever so severely, if even death separates you and me.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.3.17",
+        "v": 8
+      },
+      {
+        "r": "2SA.19.13",
+        "v": 7
+      },
+      {
+        "r": "2KI.6.31",
+        "v": 7
+      },
+      {
+        "r": "1KI.2.23",
+        "v": 7
+      },
+      {
+        "r": "1KI.20.10",
+        "v": 6
+      },
+      {
+        "r": "1SA.25.22",
+        "v": 6
+      },
+      {
+        "r": "2SA.3.35",
+        "v": 5
+      },
+      {
+        "r": "1KI.19.2",
+        "v": 4
+      },
+      {
+        "r": "ACT.11.23",
+        "v": 4
+      },
+      {
+        "r": "2SA.3.9",
+        "v": 4
+      },
+      {
+        "r": "ACT.20.24",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.18": {
     "text": "When Naomi realized that Ruth was determined to go with her, she stopped urging her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.21.14",
+        "v": 6
+      },
+      {
+        "r": "ACT.2.42",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.19": {
     "text": "So the two women went on until they came to Bethlehem. When they arrived in Bethlehem, the whole town was stirred because of them, and the women exclaimed, “Can this be Naomi?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.21.10",
+        "v": 7
+      },
+      {
+        "r": "ISA.23.7",
+        "v": 3
+      },
+      {
+        "r": "LAM.2.15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.20": {
@@ -134,7 +793,64 @@
         "text": "Hebrew"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.6.4",
+        "v": 9
+      },
+      {
+        "r": "HEB.12.11",
+        "v": 6
+      },
+      {
+        "r": "PSA.88.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.73.14",
+        "v": 4
+      },
+      {
+        "r": "JOB.19.6",
+        "v": 4
+      },
+      {
+        "r": "LAM.3.1-20",
+        "v": 4
+      },
+      {
+        "r": "ISA.38.13",
+        "v": 4
+      },
+      {
+        "r": "JOB.5.17",
+        "v": 3
+      },
+      {
+        "r": "EXO.6.3",
+        "v": 2
+      },
+      {
+        "r": "JOB.11.7",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 2
+      },
+      {
+        "r": "GEN.17.1",
+        "v": 2
+      },
+      {
+        "r": "REV.1.8",
+        "v": 2
+      },
+      {
+        "r": "REV.21.22",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.1.21": {
@@ -145,109 +861,779 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.2.7-8",
+        "v": 8
+      },
+      {
+        "r": "JOB.1.21",
+        "v": 8
+      },
+      {
+        "r": "JOB.16.8",
+        "v": 4
+      },
+      {
+        "r": "JOB.13.26",
+        "v": 4
+      },
+      {
+        "r": "JOB.10.17",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.22": {
     "text": "So Naomi returned from Moab accompanied by Ruth the Moabite, her daughter-in-law, arriving in Bethlehem as the barley harvest was beginning.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.2.23",
+        "v": 5
+      },
+      {
+        "r": "2SA.21.9",
+        "v": 2
+      },
+      {
+        "r": "EXO.9.31-32",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.2.1": {
     "text": "Now Naomi had a relative on her husband’s side, a man of standing from the clan of Elimelek, whose name was Boaz.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.4.21",
+        "v": 5
+      },
+      {
+        "r": "RUT.3.2",
+        "v": 4
+      },
+      {
+        "r": "RUT.3.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.1.5",
+        "v": 3
+      },
+      {
+        "r": "1CH.2.10-12",
+        "v": 2
+      },
+      {
+        "r": "RUT.1.2",
+        "v": 2
+      },
+      {
+        "r": "DEU.8.17-18",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.3",
+        "v": 1
+      },
+      {
+        "r": "LUK.3.32",
+        "v": 1
+      },
+      {
+        "r": "JOB.31.25",
+        "v": 1
+      },
+      {
+        "r": "JDG.12.8-10",
+        "v": 1
+      }
+    ],
     "section": "Ruth Meets Boaz in the Grain Field"
   },
   "RUT.2.2": {
     "text": "And Ruth the Moabite said to Naomi, “Let me go to the fields and pick up the leftover grain behind anyone in whose eyes I find favor.” Naomi said to her, “Go ahead, my daughter.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LEV.23.22",
+        "v": 10
+      },
+      {
+        "r": "LEV.19.9",
+        "v": 6
+      },
+      {
+        "r": "DEU.24.19-21",
+        "v": 5
+      },
+      {
+        "r": "RUT.2.7",
+        "v": 2
+      },
+      {
+        "r": "LEV.19.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.3": {
     "text": "So she went out, entered a field and began to glean behind the harvesters. As it turned out, she was working in a field belonging to Boaz, who was from the clan of Elimelek.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TH.3.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.29",
+        "v": 3
+      },
+      {
+        "r": "1TH.4.11-12",
+        "v": 3
+      },
+      {
+        "r": "LUK.10.31",
+        "v": 3
+      },
+      {
+        "r": "2KI.8.5",
+        "v": 2
+      },
+      {
+        "r": "EST.6.1-2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.2.4": {
     "text": "Just then Boaz arrived from Bethlehem and greeted the harvesters, “The Lord be with you!” “The Lord bless you!” they answered.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.129.7-8",
+        "v": 16
+      },
+      {
+        "r": "LUK.1.28",
+        "v": 13
+      },
+      {
+        "r": "JDG.6.12",
+        "v": 13
+      },
+      {
+        "r": "2TH.3.16",
+        "v": 12
+      },
+      {
+        "r": "2TI.4.22",
+        "v": 12
+      },
+      {
+        "r": "PSA.118.26",
+        "v": 10
+      },
+      {
+        "r": "JOS.24.15",
+        "v": 7
+      },
+      {
+        "r": "GEN.18.19",
+        "v": 7
+      },
+      {
+        "r": "PSA.133.1-3",
+        "v": 6
+      },
+      {
+        "r": "RUT.4.11",
+        "v": 6
+      },
+      {
+        "r": "2JN.1.10-11",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.5": {
     "text": "Boaz asked the overseer of his harvesters, “Who does that young woman belong to?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.4.21",
+        "v": 2
+      },
+      {
+        "r": "1CH.2.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.6": {
     "text": "The overseer replied, “She is the Moabite who came back from Moab with Naomi.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.1.22",
+        "v": 5
+      },
+      {
+        "r": "MAT.24.45",
+        "v": 3
+      },
+      {
+        "r": "GEN.39.4",
+        "v": 2
+      },
+      {
+        "r": "RUT.1.16",
+        "v": 2
+      },
+      {
+        "r": "GEN.15.2",
+        "v": 2
+      },
+      {
+        "r": "RUT.1.19",
+        "v": 2
+      },
+      {
+        "r": "GEN.24.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.20.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.7": {
     "text": "She said, ‘Please let me glean and gather among the sheaves behind the harvesters.’ She came into the field and has remained here from morning till now, except for a short rest in the shelter.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.15.33",
+        "v": 4
+      },
+      {
+        "r": "PRO.13.4",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.21",
+        "v": 3
+      },
+      {
+        "r": "PRO.18.23",
+        "v": 3
+      },
+      {
+        "r": "1PE.5.5-6",
+        "v": 3
+      },
+      {
+        "r": "PRO.22.29",
+        "v": 3
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "GAL.6.9",
+        "v": 2
+      },
+      {
+        "r": "MAT.5.3",
+        "v": 1
+      },
+      {
+        "r": "ROM.12.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.2.8": {
     "text": "So Boaz said to Ruth, “My daughter, listen to me. Don’t go and glean in another field and don’t go away from here. Stay here with the women who work for me.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.5.13",
+        "v": 5
+      },
+      {
+        "r": "SNG.1.7-8",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.7-11",
+        "v": 3
+      },
+      {
+        "r": "1SA.3.6",
+        "v": 3
+      },
+      {
+        "r": "MAT.9.22",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 3
+      },
+      {
+        "r": "1SA.3.16",
+        "v": 3
+      },
+      {
+        "r": "MAT.9.2",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.9": {
     "text": "Watch the field where the men are harvesting, and follow along after the women. I have told the men not to lay a hand on you. And whenever you are thirsty, go and get a drink from the water jars the men have filled.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1JN.5.18",
+        "v": 6
+      },
+      {
+        "r": "GEN.20.6",
+        "v": 5
+      },
+      {
+        "r": "1CO.7.1",
+        "v": 4
+      },
+      {
+        "r": "PRO.6.29",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.42",
+        "v": 4
+      },
+      {
+        "r": "PSA.105.15",
+        "v": 4
+      },
+      {
+        "r": "JHN.4.7-11",
+        "v": 3
+      },
+      {
+        "r": "JOB.19.21",
+        "v": 3
+      },
+      {
+        "r": "GEN.24.18-20",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.10": {
     "text": "At this, she bowed down with her face to the ground. She asked him, “Why have I found such favor in your eyes that you notice me—a foreigner?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.25.23",
+        "v": 9
+      },
+      {
+        "r": "RUT.2.13",
+        "v": 6
+      },
+      {
+        "r": "2SA.19.28",
+        "v": 5
+      },
+      {
+        "r": "LUK.17.16-18",
+        "v": 5
+      },
+      {
+        "r": "ROM.12.10",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.43",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.48",
+        "v": 5
+      },
+      {
+        "r": "2SA.9.8",
+        "v": 4
+      },
+      {
+        "r": "MAT.15.22-28",
+        "v": 3
+      },
+      {
+        "r": "ISA.56.3-8",
+        "v": 3
+      },
+      {
+        "r": "RUT.2.2",
+        "v": 3
+      },
+      {
+        "r": "LUK.7.6-7",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.35",
+        "v": 3
+      },
+      {
+        "r": "GEN.18.2",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.11": {
     "text": "Boaz replied, “I’ve been told all about what you have done for your mother-in-law since the death of your husband—how you left your father and mother and your homeland and came to live with a people you did not know before.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.14.33",
+        "v": 8
+      },
+      {
+        "r": "LUK.18.29-30",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.5-6",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.10",
+        "v": 3
+      },
+      {
+        "r": "LUK.5.11",
+        "v": 3
+      },
+      {
+        "r": "RUT.1.14-22",
+        "v": 3
+      },
+      {
+        "r": "HEB.11.8-9",
+        "v": 2
+      },
+      {
+        "r": "LUK.5.23",
+        "v": 2
+      },
+      {
+        "r": "HEB.11.24-26",
+        "v": 2
+      },
+      {
+        "r": "RUT.1.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.12": {
     "text": "May the Lord repay you for what you have done. May you be richly rewarded by the Lord, the God of Israel, under whose wings you have come to take refuge.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.36.7",
+        "v": 30
+      },
+      {
+        "r": "PSA.91.4",
+        "v": 21
+      },
+      {
+        "r": "PSA.63.7",
+        "v": 17
+      },
+      {
+        "r": "PSA.17.8",
+        "v": 15
+      },
+      {
+        "r": "PSA.61.4",
+        "v": 15
+      },
+      {
+        "r": "HEB.6.10",
+        "v": 13
+      },
+      {
+        "r": "PSA.57.1",
+        "v": 12
+      },
+      {
+        "r": "RUT.1.16",
+        "v": 11
+      },
+      {
+        "r": "HEB.11.26",
+        "v": 10
+      },
+      {
+        "r": "1SA.24.19",
+        "v": 10
+      },
+      {
+        "r": "2TI.4.8",
+        "v": 8
+      },
+      {
+        "r": "HEB.11.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.23.37",
+        "v": 8
+      },
+      {
+        "r": "PRO.23.18",
+        "v": 8
+      },
+      {
+        "r": "MAT.6.1",
+        "v": 8
+      },
+      {
+        "r": "LUK.6.35",
+        "v": 7
+      },
+      {
+        "r": "MAT.5.12",
+        "v": 7
+      },
+      {
+        "r": "PRO.11.18",
+        "v": 7
+      },
+      {
+        "r": "PSA.58.11",
+        "v": 7
+      },
+      {
+        "r": "PSA.19.11",
+        "v": 7
+      },
+      {
+        "r": "2TI.1.18",
+        "v": 7
+      },
+      {
+        "r": "LUK.14.12-14",
+        "v": 6
+      },
+      {
+        "r": "COL.2.18",
+        "v": 6
+      },
+      {
+        "r": "MAT.10.41-42",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "RUT.2.13": {
     "text": "“May I continue to find favor in your eyes, my lord,” she said. “You have put me at ease by speaking kindly to your servant—though I do not have the standing of one of your servants.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.1.18",
+        "v": 8
+      },
+      {
+        "r": "GEN.33.8",
+        "v": 5
+      },
+      {
+        "r": "GEN.34.3",
+        "v": 5
+      },
+      {
+        "r": "PHP.2.3",
+        "v": 5
+      },
+      {
+        "r": "GEN.33.10",
+        "v": 4
+      },
+      {
+        "r": "1SA.25.41",
+        "v": 4
+      },
+      {
+        "r": "GEN.33.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 4
+      },
+      {
+        "r": "2SA.16.4",
+        "v": 4
+      },
+      {
+        "r": "PRO.15.33",
+        "v": 3
+      },
+      {
+        "r": "JDG.19.3",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.14": {
     "text": "At mealtime Boaz said to her, “Come over here. Have some bread and dip it in the wine vinegar.” When she sat down with the harvesters, he offered her some roasted grain. She ate all she wanted and had some left over.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.2.18",
+        "v": 6
+      },
+      {
+        "r": "LUK.14.12-14",
+        "v": 4
+      },
+      {
+        "r": "2KI.4.43-44",
+        "v": 4
+      },
+      {
+        "r": "DEU.8.10",
+        "v": 4
+      },
+      {
+        "r": "MAT.14.20",
+        "v": 4
+      },
+      {
+        "r": "DEU.11.15",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.16-22",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.7",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.18",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.10-11",
+        "v": 2
+      },
+      {
+        "r": "1SA.17.17",
+        "v": 2
+      },
+      {
+        "r": "2SA.17.28",
+        "v": 2
+      },
+      {
+        "r": "PSA.23.5",
+        "v": 2
+      },
+      {
+        "r": "PRO.11.24-25",
+        "v": 2
+      },
+      {
+        "r": "ISA.32.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.15": {
     "text": "As she got up to glean, Boaz gave orders to his men, “Let her gather among the sheaves and don’t reprimand her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JAS.1.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.16": {
     "text": "Even pull out some stalks for her from the bundles and leave them for her to pick up, and don’t rebuke her.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1JN.3.17-18",
+        "v": 4
+      },
+      {
+        "r": "DEU.24.19-21",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.13",
+        "v": 4
+      },
+      {
+        "r": "PHM.1.7",
+        "v": 3
+      },
+      {
+        "r": "PRO.19.17",
+        "v": 3
+      },
+      {
+        "r": "HEB.6.10",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.40",
+        "v": 3
+      },
+      {
+        "r": "PSA.112.9",
+        "v": 3
+      },
+      {
+        "r": "2CO.8.5-11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.17": {
@@ -258,19 +1644,62 @@
         "text": "That is, probably about 30 pounds or about 13 kilograms"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.31.27",
+        "v": 4
+      },
+      {
+        "r": "EZK.45.11-12",
+        "v": 3
+      },
+      {
+        "r": "EXO.16.36",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.18": {
     "text": "She carried it back to town, and her mother-in-law saw how much she had gathered. Ruth also brought out and gave her what she had left over after she had eaten enough.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.2.14",
+        "v": 5
+      },
+      {
+        "r": "JHN.6.12-13",
+        "v": 3
+      },
+      {
+        "r": "1TI.5.4",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.19": {
     "text": "Her mother-in-law asked her, “Where did you glean today? Where did you work? Blessed be the man who took notice of you!” Then Ruth told her mother-in-law about the one at whose place she had been working. “The name of the man I worked with today is Boaz,” she said.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.41.1",
+        "v": 4
+      },
+      {
+        "r": "RUT.2.10",
+        "v": 4
+      },
+      {
+        "r": "2CO.9.13-15",
+        "v": 2
+      },
+      {
+        "r": "1KI.7.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.20": {
@@ -281,25 +1710,121 @@
         "text": "The Hebrew word for"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.2.5",
+        "v": 7
+      },
+      {
+        "r": "RUT.3.9-10",
+        "v": 6
+      },
+      {
+        "r": "DEU.25.5-7",
+        "v": 5
+      },
+      {
+        "r": "LEV.25.25",
+        "v": 5
+      },
+      {
+        "r": "JOB.29.12-13",
+        "v": 4
+      },
+      {
+        "r": "PHP.4.10",
+        "v": 4
+      },
+      {
+        "r": "PRO.17.17",
+        "v": 4
+      },
+      {
+        "r": "RUT.4.14",
+        "v": 4
+      },
+      {
+        "r": "2SA.9.1",
+        "v": 3
+      },
+      {
+        "r": "RUT.4.6",
+        "v": 3
+      },
+      {
+        "r": "JOB.19.25",
+        "v": 3
+      },
+      {
+        "r": "2TI.1.16-18",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.21": {
     "text": "Then Ruth the Moabite said, “He even said to me, ‘Stay with my workers until they finish harvesting all my grain.’ ”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.7-8",
+        "v": 3
+      },
+      {
+        "r": "RUT.2.22",
+        "v": 2
+      },
+      {
+        "r": "RUT.2.7-8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.22": {
     "text": "Naomi said to Ruth her daughter-in-law, “It will be good for you, my daughter, to go with the women who work for him, because in someone else’s field you might be harmed.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.8",
+        "v": 4
+      },
+      {
+        "r": "PRO.27.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.23": {
     "text": "So Ruth stayed close to the women of Boaz to glean until the barley and wheat harvests were finished. And she lived with her mother-in-law.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.6.1-3",
+        "v": 4
+      },
+      {
+        "r": "PRO.13.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.13.1",
+        "v": 3
+      },
+      {
+        "r": "DEU.16.9",
+        "v": 3
+      },
+      {
+        "r": "1CO.15.33",
+        "v": 3
+      },
+      {
+        "r": "PRO.6.6-8",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.3.1": {
@@ -310,19 +1835,98 @@
         "text": "Hebrew"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.1.9",
+        "v": 26
+      },
+      {
+        "r": "1TI.5.8",
+        "v": 24
+      },
+      {
+        "r": "PSA.128.2",
+        "v": 18
+      },
+      {
+        "r": "1TI.5.14",
+        "v": 18
+      },
+      {
+        "r": "1CO.7.36",
+        "v": 12
+      },
+      {
+        "r": "DEU.4.40",
+        "v": 11
+      },
+      {
+        "r": "JER.22.15-16",
+        "v": 11
+      },
+      {
+        "r": "GEN.40.14",
+        "v": 10
+      }
+    ],
     "section": "Ruth and Boaz at the Threshing Floor"
   },
   "RUT.3.2": {
     "text": "Now Boaz, with whose women you have worked, is a relative of ours. Tonight he will be winnowing barley on the threshing floor.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.25.5-10",
+        "v": 11
+      },
+      {
+        "r": "RUT.2.20-23",
+        "v": 5
+      },
+      {
+        "r": "RUT.2.1",
+        "v": 4
+      },
+      {
+        "r": "RUT.2.8",
+        "v": 4
+      },
+      {
+        "r": "HEB.2.11-14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.3.3": {
     "text": "Wash, put on perfume, and get dressed in your best clothes. Then go down to the threshing floor, but don’t let him know you are there until he has finished eating and drinking.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.14.2",
+        "v": 10
+      },
+      {
+        "r": "1TI.2.9-10",
+        "v": 6
+      },
+      {
+        "r": "EST.5.1",
+        "v": 5
+      },
+      {
+        "r": "MAT.6.17",
+        "v": 4
+      },
+      {
+        "r": "ECC.9.8",
+        "v": 4
+      },
+      {
+        "r": "PSA.104.15",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "RUT.3.4": {
@@ -334,19 +1938,110 @@
   "RUT.3.5": {
     "text": "“I will do whatever you say,” Ruth answered.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "COL.3.20",
+        "v": 4
+      },
+      {
+        "r": "EPH.6.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.3.6": {
     "text": "So she went down to the threshing floor and did everything her mother-in-law told her to do.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.2.5",
+        "v": 3
+      },
+      {
+        "r": "PRO.1.8",
+        "v": 3
+      },
+      {
+        "r": "EXO.20.12",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.3.7": {
     "text": "When Boaz had finished eating and drinking and was in good spirits, he went over to lie down at the far end of the grain pile. Ruth approached quietly, uncovered his feet and lay down.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JDG.19.6",
+        "v": 7
+      },
+      {
+        "r": "EST.1.10",
+        "v": 6
+      },
+      {
+        "r": "2SA.13.28",
+        "v": 5
+      },
+      {
+        "r": "JDG.19.9",
+        "v": 5
+      },
+      {
+        "r": "ECC.10.19",
+        "v": 3
+      },
+      {
+        "r": "ECC.8.15",
+        "v": 3
+      },
+      {
+        "r": "ECC.9.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.104.15",
+        "v": 3
+      },
+      {
+        "r": "ECC.2.24",
+        "v": 3
+      },
+      {
+        "r": "1CO.10.31",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.7",
+        "v": 2
+      },
+      {
+        "r": "JDG.19.22",
+        "v": 2
+      },
+      {
+        "r": "ECC.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.34",
+        "v": 2
+      },
+      {
+        "r": "JDG.16.25",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.18",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.3.8": {
@@ -363,37 +2058,167 @@
         "text": "The Hebrew word for"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.16.8",
+        "v": 18
+      },
+      {
+        "r": "RUT.2.20",
+        "v": 9
+      },
+      {
+        "r": "RUT.3.12",
+        "v": 7
+      },
+      {
+        "r": "RUT.2.10-13",
+        "v": 5
+      },
+      {
+        "r": "LUK.14.11",
+        "v": 4
+      },
+      {
+        "r": "1SA.25.41",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.3.10": {
     "text": "“The Lord bless you, my daughter,” he replied. “This kindness is greater than that which you showed earlier: You have not run after the younger men, whether rich or poor.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.2.20",
+        "v": 9
+      },
+      {
+        "r": "1CO.13.4-5",
+        "v": 9
+      },
+      {
+        "r": "RUT.1.8",
+        "v": 7
+      },
+      {
+        "r": "RUT.2.4",
+        "v": 7
+      }
+    ],
     "section": null
   },
   "RUT.3.11": {
     "text": "And now, my daughter, don’t be afraid. I will do for you all you ask. All the people of my town know that you are a woman of noble character.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.31.29-31",
+        "v": 28
+      },
+      {
+        "r": "PRO.31.10",
+        "v": 19
+      },
+      {
+        "r": "PRO.12.4",
+        "v": 16
+      }
+    ],
     "section": null
   },
   "RUT.3.12": {
     "text": "Although it is true that I am a guardian-redeemer of our family, there is another who is more closely related than I.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.4.1",
+        "v": 8
+      },
+      {
+        "r": "1TH.4.6",
+        "v": 5
+      },
+      {
+        "r": "MAT.7.12",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "RUT.3.13": {
     "text": "Stay here for the night, and in the morning if he wants to do his duty as your guardian-redeemer, good; let him redeem you. But if he is not willing, as surely as the Lord lives I will do it. Lie here until morning.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.4.5",
+        "v": 7
+      },
+      {
+        "r": "JER.4.2",
+        "v": 7
+      },
+      {
+        "r": "RUT.2.20",
+        "v": 6
+      },
+      {
+        "r": "DEU.25.5-9",
+        "v": 5
+      },
+      {
+        "r": "HEB.6.16",
+        "v": 4
+      },
+      {
+        "r": "JDG.8.19",
+        "v": 4
+      },
+      {
+        "r": "MAT.22.24-27",
+        "v": 4
+      },
+      {
+        "r": "2CO.1.23",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.3.14": {
     "text": "So she lay at his feet until morning, but got up before anyone could be recognized; and he said, “No one must know that a woman came to the threshing floor.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.8.21",
+        "v": 7
+      },
+      {
+        "r": "ROM.14.16",
+        "v": 5
+      },
+      {
+        "r": "ROM.12.17",
+        "v": 3
+      },
+      {
+        "r": "1PE.2.12",
+        "v": 3
+      },
+      {
+        "r": "1CO.10.32",
+        "v": 3
+      },
+      {
+        "r": "1TH.5.22",
+        "v": 2
+      },
+      {
+        "r": "ECC.7.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.3.15": {
@@ -404,7 +2229,16 @@
         "text": "Most Hebrew manuscripts; many Hebrew manuscripts, Vulgate and Syriac"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.32.8",
+        "v": 4
+      },
+      {
+        "r": "GAL.6.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.3.16": {
@@ -422,7 +2256,20 @@
   "RUT.3.18": {
     "text": "Then Naomi said, “Wait, my daughter, until you find out what happens. For the man will not rest until the matter is settled today.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.37.3-5",
+        "v": 15
+      },
+      {
+        "r": "ISA.28.16",
+        "v": 5
+      },
+      {
+        "r": "ISA.30.7",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "RUT.4.1": {
@@ -433,19 +2280,106 @@
         "text": "The Hebrew word for"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.25.7",
+        "v": 7
+      },
+      {
+        "r": "RUT.3.12",
+        "v": 5
+      },
+      {
+        "r": "DEU.16.18",
+        "v": 2
+      },
+      {
+        "r": "JOB.29.7",
+        "v": 1
+      },
+      {
+        "r": "DEU.21.19",
+        "v": 1
+      },
+      {
+        "r": "JOB.31.21",
+        "v": 1
+      },
+      {
+        "r": "AMO.5.10-12",
+        "v": 1
+      },
+      {
+        "r": "AMO.5.15",
+        "v": 1
+      },
+      {
+        "r": "DEU.17.5",
+        "v": 0
+      },
+      {
+        "r": "ZEC.2.6",
+        "v": 0
+      },
+      {
+        "r": "ISA.55.1",
+        "v": 0
+      }
+    ],
     "section": "Boaz Marries Ruth"
   },
   "RUT.4.2": {
     "text": "Boaz took ten of the elders of the town and said, “Sit here,” and they did so.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.31.23",
+        "v": 8
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 6
+      },
+      {
+        "r": "ACT.6.12",
+        "v": 3
+      },
+      {
+        "r": "EXO.21.8",
+        "v": 3
+      },
+      {
+        "r": "LAM.5.14",
+        "v": 3
+      },
+      {
+        "r": "DEU.31.28",
+        "v": 2
+      },
+      {
+        "r": "EXO.18.21-22",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.3": {
     "text": "Then he said to the guardian-redeemer, “Naomi, who has come back from Moab, is selling the piece of land that belonged to our relative Elimelek.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.112.5",
+        "v": 3
+      },
+      {
+        "r": "PRO.13.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.4": {
@@ -456,7 +2390,36 @@
         "text": "Many Hebrew manuscripts, Septuagint, Vulgate and Syriac; most Hebrew manuscripts"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.32.7-12",
+        "v": 3
+      },
+      {
+        "r": "2CO.8.21",
+        "v": 3
+      },
+      {
+        "r": "LEV.25.25-29",
+        "v": 3
+      },
+      {
+        "r": "ROM.12.17",
+        "v": 2
+      },
+      {
+        "r": "JER.32.25",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 2
+      },
+      {
+        "r": "GEN.23.18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.5": {
@@ -467,19 +2430,54 @@
         "text": "Vulgate and Syriac; Hebrew (see also Septuagint)"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.22.24",
+        "v": 5
+      },
+      {
+        "r": "DEU.25.5-6",
+        "v": 5
+      },
+      {
+        "r": "GEN.38.8",
+        "v": 5
+      },
+      {
+        "r": "LUK.20.28",
+        "v": 2
+      },
+      {
+        "r": "RUT.3.12-13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.6": {
     "text": "At this, the guardian-redeemer said, “Then I cannot redeem it because I might endanger my own estate. You redeem it yourself. I cannot do it.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.3.13",
+        "v": 2
+      },
+      {
+        "r": "LEV.25.25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.7": {
     "text": "(Now in earlier times in Israel, for the redemption and transfer of property to become final, one party took off his sandal and gave it to the other. This was the method of legalizing transactions in Israel.)",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.25.7-10",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "RUT.4.8": {
@@ -491,43 +2489,338 @@
   "RUT.4.9": {
     "text": "Then Boaz announced to the elders and all the people, “Today you are witnesses that I have bought from Naomi all the property of Elimelek, Kilion and Mahlon.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.23.16-18",
+        "v": 2
+      },
+      {
+        "r": "JER.32.10-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.10": {
     "text": "I have also acquired Ruth the Moabite, Mahlon’s widow, as my wife, in order to maintain the name of the dead with his property, so that his name will not disappear from among his family or from his hometown. Today you are witnesses!”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.5.25",
+        "v": 4
+      },
+      {
+        "r": "DEU.25.6",
+        "v": 4
+      },
+      {
+        "r": "PRO.18.22",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.4",
+        "v": 2
+      },
+      {
+        "r": "MAL.2.14",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.34.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.19.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.48.19",
+        "v": 2
+      },
+      {
+        "r": "GEN.29.18-19",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.2-3",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.12",
+        "v": 2
+      },
+      {
+        "r": "PRO.31.10-11",
+        "v": 2
+      },
+      {
+        "r": "GEN.29.27",
+        "v": 2
+      },
+      {
+        "r": "ZEC.13.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.15",
+        "v": 2
+      },
+      {
+        "r": "HOS.3.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.11": {
     "text": "Then the elders and all the people at the gate said, “We are witnesses. May the Lord make the woman who is coming into your home like Rachel and Leah, who together built up the family of Israel. May you have standing in Ephrathah and be famous in Bethlehem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.29.32-30.24",
+        "v": 8
+      },
+      {
+        "r": "MAT.2.6",
+        "v": 6
+      },
+      {
+        "r": "MIC.5.2",
+        "v": 6
+      },
+      {
+        "r": "PSA.127.3-5",
+        "v": 5
+      },
+      {
+        "r": "DEU.25.9",
+        "v": 4
+      },
+      {
+        "r": "GEN.46.8-27",
+        "v": 4
+      },
+      {
+        "r": "RUT.1.2",
+        "v": 4
+      },
+      {
+        "r": "NUM.26.1-65",
+        "v": 4
+      },
+      {
+        "r": "PSA.132.6",
+        "v": 4
+      },
+      {
+        "r": "GEN.35.16-20",
+        "v": 4
+      },
+      {
+        "r": "PSA.128.3-6",
+        "v": 4
+      },
+      {
+        "r": "PRO.14.1",
+        "v": 4
+      },
+      {
+        "r": "GEN.24.60",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.12": {
     "text": "Through the offspring the Lord gives you by this young woman, may your family be like that of Perez, whom Tamar bore to Judah.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.38.29",
+        "v": 5
+      },
+      {
+        "r": "1CH.2.4",
+        "v": 4
+      },
+      {
+        "r": "1SA.2.20",
+        "v": 4
+      },
+      {
+        "r": "MAT.1.3",
+        "v": 3
+      },
+      {
+        "r": "GEN.46.12",
+        "v": 3
+      },
+      {
+        "r": "NUM.26.20-22",
+        "v": 2
+      },
+      {
+        "r": "RUT.4.18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.13": {
     "text": "So Boaz took Ruth and she became his wife. When he made love to her, the Lord enabled her to conceive, and she gave birth to a son.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.33.5",
+        "v": 6
+      },
+      {
+        "r": "GEN.29.31",
+        "v": 6
+      },
+      {
+        "r": "PSA.127.3",
+        "v": 6
+      },
+      {
+        "r": "RUT.3.11",
+        "v": 5
+      },
+      {
+        "r": "RUT.4.12",
+        "v": 3
+      },
+      {
+        "r": "1SA.1.27",
+        "v": 3
+      },
+      {
+        "r": "1SA.2.5",
+        "v": 3
+      },
+      {
+        "r": "PSA.113.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.25.21",
+        "v": 3
+      },
+      {
+        "r": "GEN.30.2",
+        "v": 3
+      },
+      {
+        "r": "GEN.30.22-23",
+        "v": 3
+      },
+      {
+        "r": "GEN.20.17-21.3",
+        "v": 2
+      }
+    ],
     "section": "Naomi Gains a Son"
   },
   "RUT.4.14": {
     "text": "The women said to Naomi: “Praise be to the Lord, who this day has not left you without a guardian-redeemer. May he become famous throughout Israel!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.1.5-20",
+        "v": 5
+      },
+      {
+        "r": "GEN.12.2",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.58",
+        "v": 5
+      },
+      {
+        "r": "ISA.11.1-4",
+        "v": 4
+      },
+      {
+        "r": "RUT.4.21-22",
+        "v": 3
+      },
+      {
+        "r": "1CO.12.26",
+        "v": 2
+      },
+      {
+        "r": "PSA.34.1-3",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.18",
+        "v": 1
+      },
+      {
+        "r": "PSA.103.1-2",
+        "v": 1
+      },
+      {
+        "r": "2TH.1.3",
+        "v": 1
+      },
+      {
+        "r": "GEN.24.27",
+        "v": 1
+      },
+      {
+        "r": "GEN.29.35",
+        "v": 1
+      },
+      {
+        "r": "ROM.12.15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.4.15": {
     "text": "He will renew your life and sustain you in your old age. For your daughter-in-law, who loves you and who is better to you than seven sons, has given him birth.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.46.4",
+        "v": 8
+      },
+      {
+        "r": "PSA.55.22",
+        "v": 7
+      },
+      {
+        "r": "GEN.45.11",
+        "v": 6
+      },
+      {
+        "r": "RUT.2.11-12",
+        "v": 5
+      },
+      {
+        "r": "GEN.47.12",
+        "v": 4
+      },
+      {
+        "r": "PRO.18.24",
+        "v": 4
+      },
+      {
+        "r": "1SA.1.8",
+        "v": 4
+      },
+      {
+        "r": "RUT.1.16-18",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.4.16": {
@@ -539,19 +2832,54 @@
   "RUT.4.17": {
     "text": "The women living there said, “Naomi has a son!” And they named him Obed. He was the father of Jesse, the father of David.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.1.58-63",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.4.18": {
     "text": "This, then, is the family line of Perez: Perez was the father of Hezron,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.1.3-6",
+        "v": 6
+      },
+      {
+        "r": "1CH.2.4-8",
+        "v": 5
+      },
+      {
+        "r": "LUK.3.33",
+        "v": 4
+      },
+      {
+        "r": "1CH.4.1",
+        "v": 3
+      }
+    ],
     "section": "The Genealogy of David"
   },
   "RUT.4.19": {
     "text": "Hezron the father of Ram, Ram the father of Amminadab,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.1.4",
+        "v": 2
+      },
+      {
+        "r": "1CH.2.9-10",
+        "v": 2
+      },
+      {
+        "r": "LUK.3.33",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.20": {
@@ -562,19 +2890,66 @@
         "text": "A few Hebrew manuscripts, some Septuagint manuscripts and Vulgate (see also verse 21 and Septuagint of 1 Chron. 2:11); most Hebrew manuscripts"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NUM.1.7",
+        "v": 3
+      },
+      {
+        "r": "MAT.1.4",
+        "v": 2
+      },
+      {
+        "r": "LUK.3.32",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.21": {
     "text": "Salmon the father of Boaz, Boaz the father of Obed,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.3.32",
+        "v": 4
+      },
+      {
+        "r": "MAT.1.5",
+        "v": 4
+      },
+      {
+        "r": "1CH.2.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.22": {
     "text": "Obed the father of Jesse, and Jesse the father of David.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.1.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.3.31",
+        "v": 2
+      },
+      {
+        "r": "1SA.16.1",
+        "v": 2
+      },
+      {
+        "r": "1CH.2.15",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.1",
+        "v": 2
+      }
+    ],
     "section": null
   }
 }

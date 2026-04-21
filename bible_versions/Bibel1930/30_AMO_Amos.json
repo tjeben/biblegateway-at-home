@@ -2,877 +2,9295 @@
   "AMO.1.1": {
     "text": "De ord som Amos, en av hyrdene fra Tekoa, mottok i sine syner om Israel i de dager da Ussias var konge i Juda og Jeroboam, Joas'sønn, konge i Israel, to år før jordskjelvet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.14.5",
+        "v": 10
+      },
+      {
+        "r": "2CH.26.1-23",
+        "v": 5
+      },
+      {
+        "r": "2SA.14.2",
+        "v": 4
+      },
+      {
+        "r": "1KI.19.19",
+        "v": 4
+      },
+      {
+        "r": "2CH.20.20",
+        "v": 4
+      },
+      {
+        "r": "AMO.7.14",
+        "v": 4
+      },
+      {
+        "r": "2CH.11.6",
+        "v": 4
+      },
+      {
+        "r": "2KI.14.23-15.2",
+        "v": 3
+      },
+      {
+        "r": "JER.1.1",
+        "v": 3
+      },
+      {
+        "r": "JER.6.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.78.70-72",
+        "v": 3
+      },
+      {
+        "r": "ISA.1.1",
+        "v": 3
+      },
+      {
+        "r": "HOS.1.1",
+        "v": 2
+      },
+      {
+        "r": "2KI.14.21",
+        "v": 2
+      },
+      {
+        "r": "1CO.1.27",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.9-11",
+        "v": 2
+      },
+      {
+        "r": "MAT.1.8-9",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.1",
+        "v": 2
+      },
+      {
+        "r": "JER.7.27",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "AMO.1.2": {
     "text": "Han sa: Herren skal brøle fra Sion og la sin røst høre fra Jerusalem, og hyrdenes beitemarker skal sørge, og Karmels topp bli tørr.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.3.16",
+        "v": 10
+      },
+      {
+        "r": "JER.25.30",
+        "v": 6
+      },
+      {
+        "r": "ISA.42.13",
+        "v": 5
+      },
+      {
+        "r": "AMO.9.3",
+        "v": 5
+      },
+      {
+        "r": "JER.12.4",
+        "v": 4
+      },
+      {
+        "r": "NAM.1.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.35.2",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.7-8",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.16-18",
+        "v": 2
+      },
+      {
+        "r": "JER.50.19",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.11",
+        "v": 2
+      },
+      {
+        "r": "JER.14.2",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.7-8",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.9-13",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.8",
+        "v": 2
+      },
+      {
+        "r": "PRO.20.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.33.9",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.1.3": {
     "text": "Så sier Herren: For tre misgjerninger av Damaskus, ja for fire vil jeg ikke ta det {hvad jeg har besluttet} tilbake(-)fordi de tresket Gilead med treskesleder av jern;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.8.4",
+        "v": 6
+      },
+      {
+        "r": "2KI.10.32-33",
+        "v": 6
+      },
+      {
+        "r": "2KI.8.12",
+        "v": 6
+      },
+      {
+        "r": "AMO.2.6",
+        "v": 6
+      },
+      {
+        "r": "AMO.1.9",
+        "v": 6
+      },
+      {
+        "r": "AMO.1.13",
+        "v": 5
+      },
+      {
+        "r": "AMO.1.6",
+        "v": 5
+      },
+      {
+        "r": "JER.49.23-27",
+        "v": 5
+      },
+      {
+        "r": "AMO.2.1",
+        "v": 5
+      },
+      {
+        "r": "ZEC.9.1",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.11",
+        "v": 4
+      },
+      {
+        "r": "AMO.2.4",
+        "v": 4
+      },
+      {
+        "r": "ISA.17.1-3",
+        "v": 4
+      },
+      {
+        "r": "JOB.19.3",
+        "v": 3
+      },
+      {
+        "r": "ISA.7.8",
+        "v": 3
+      },
+      {
+        "r": "JOB.5.19",
+        "v": 3
+      },
+      {
+        "r": "2KI.13.7",
+        "v": 3
+      },
+      {
+        "r": "1KI.19.17",
+        "v": 3
+      },
+      {
+        "r": "ECC.11.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.41.15",
+        "v": 3
+      },
+      {
+        "r": "2KI.13.3",
+        "v": 3
+      },
+      {
+        "r": "PRO.6.16",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.1.4": {
     "text": "men jeg vil sende ild mot Hasaels hus, og den skal fortære Benhadads palasser,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.49.27",
+        "v": 4
+      },
+      {
+        "r": "2KI.13.3",
+        "v": 3
+      },
+      {
+        "r": "2KI.8.7-15",
+        "v": 3
+      },
+      {
+        "r": "JER.17.27",
+        "v": 3
+      },
+      {
+        "r": "2KI.6.24",
+        "v": 3
+      },
+      {
+        "r": "2KI.13.25",
+        "v": 3
+      },
+      {
+        "r": "HOS.8.14",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.7",
+        "v": 2
+      },
+      {
+        "r": "2CH.16.2",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.10",
+        "v": 2
+      },
+      {
+        "r": "1KI.19.15",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.19-20",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.57",
+        "v": 2
+      },
+      {
+        "r": "EZK.39.6",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.2",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.1-22",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.12",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.14",
+        "v": 2
+      },
+      {
+        "r": "EZK.30.8",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.5": {
     "text": "og jeg vil sønderbryte Damaskus'portbom og utrydde dem som bor i Avens dal, og den som bærer kongestaven, i Bet-Eden; og Syrias folk skal bortføres til Kir, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.16.9",
+        "v": 8
+      },
+      {
+        "r": "AMO.9.7",
+        "v": 6
+      },
+      {
+        "r": "JER.51.30",
+        "v": 5
+      },
+      {
+        "r": "ISA.43.14",
+        "v": 3
+      },
+      {
+        "r": "LAM.2.9",
+        "v": 3
+      },
+      {
+        "r": "NAM.3.13",
+        "v": 2
+      },
+      {
+        "r": "JER.50.36",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.6": {
     "text": "Så sier Herren: For tre misgjerninger av Gasa, ja for fire vil jeg ikke ta det tilbake(-)fordi de bortførte alt folket som fanger og overgav dem til Edom;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.1.11",
+        "v": 8
+      },
+      {
+        "r": "2CH.28.18",
+        "v": 8
+      },
+      {
+        "r": "OBA.1.11",
+        "v": 7
+      },
+      {
+        "r": "1SA.6.17",
+        "v": 6
+      },
+      {
+        "r": "AMO.1.9",
+        "v": 6
+      },
+      {
+        "r": "ZEP.2.4-7",
+        "v": 5
+      },
+      {
+        "r": "JER.47.4-5",
+        "v": 5
+      },
+      {
+        "r": "EZK.35.5",
+        "v": 5
+      },
+      {
+        "r": "ISA.14.29-31",
+        "v": 5
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 5
+      },
+      {
+        "r": "EZK.25.15-16",
+        "v": 4
+      },
+      {
+        "r": "ZEC.9.5",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.3",
+        "v": 4
+      },
+      {
+        "r": "JER.47.1",
+        "v": 4
+      },
+      {
+        "r": "ACT.8.26",
+        "v": 2
+      },
+      {
+        "r": "2CH.21.16-17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.7": {
     "text": "men jeg vil sende ild mot Gasas murer, og den skal fortære dets palasser,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.2.4",
+        "v": 5
+      },
+      {
+        "r": "JER.47.1",
+        "v": 4
+      },
+      {
+        "r": "2KI.18.8",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.19",
+        "v": 3
+      },
+      {
+        "r": "JER.25.18-20",
+        "v": 3
+      },
+      {
+        "r": "PSA.75.7-8",
+        "v": 3
+      },
+      {
+        "r": "PSA.94.1-5",
+        "v": 3
+      },
+      {
+        "r": "2CH.26.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.4",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.41-43",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.35",
+        "v": 3
+      },
+      {
+        "r": "ZEC.9.5-7",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.1.8": {
     "text": "og jeg vil utrydde dem som bor i Asdod, og den som bærer kongestaven, i Askalon, og jeg vil vende min hånd mot Ekron, og det som er igjen av filistrene, skal gå til grunne, sier Herren, Israels Gud.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.25.16",
+        "v": 9
+      },
+      {
+        "r": "ISA.14.29-31",
+        "v": 6
+      },
+      {
+        "r": "ZEP.2.4-7",
+        "v": 5
+      },
+      {
+        "r": "JER.47.4-5",
+        "v": 5
+      },
+      {
+        "r": "PSA.81.14",
+        "v": 4
+      },
+      {
+        "r": "ISA.20.1",
+        "v": 4
+      },
+      {
+        "r": "2CH.26.6",
+        "v": 4
+      },
+      {
+        "r": "ZEC.9.6",
+        "v": 4
+      },
+      {
+        "r": "AMO.3.9",
+        "v": 3
+      },
+      {
+        "r": "ZEC.13.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.1.25",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.1.9": {
     "text": "Så sier Herren: For tre misgjerninger av Tyrus, ja for fire vil jeg ikke ta det tilbake(-)fordi de overgav alt folket som fanger til Edom og ikke kom brorpakten i hu;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.9.11-14",
+        "v": 6
+      },
+      {
+        "r": "ISA.23.1-18",
+        "v": 5
+      },
+      {
+        "r": "JOL.3.4-8",
+        "v": 4
+      },
+      {
+        "r": "ZEC.9.2-4",
+        "v": 4
+      },
+      {
+        "r": "2CH.2.8-16",
+        "v": 3
+      },
+      {
+        "r": "2SA.5.11",
+        "v": 3
+      },
+      {
+        "r": "EZK.26.1-21",
+        "v": 3
+      },
+      {
+        "r": "JER.25.22",
+        "v": 2
+      },
+      {
+        "r": "MAT.11.21",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.6",
+        "v": 2
+      },
+      {
+        "r": "1KI.5.1-11",
+        "v": 2
+      },
+      {
+        "r": "JER.47.4",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.10": {
     "text": "men jeg vil sende ild mot Tyrus'murer, og den skal fortære dets palasser.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.9.4",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.7",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.4",
+        "v": 2
+      },
+      {
+        "r": "EZK.26.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.11": {
     "text": "Så sier Herren: For tre misgjerninger av Edom, ja for fire vil jeg ikke ta det tilbake(-)fordi han forfulgte sin bror med sverd og kvalte sin barmhjertighet, og hans vrede stadig sønderrev, og han alltid holdt på sin harme;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.25.12-14",
+        "v": 10
+      },
+      {
+        "r": "NUM.20.14-21",
+        "v": 7
+      },
+      {
+        "r": "2CH.28.17",
+        "v": 7
+      },
+      {
+        "r": "PSA.137.7",
+        "v": 6
+      },
+      {
+        "r": "MAL.1.4",
+        "v": 6
+      },
+      {
+        "r": "JOL.3.19",
+        "v": 6
+      },
+      {
+        "r": "JER.49.7-22",
+        "v": 6
+      },
+      {
+        "r": "EZK.35.1-15",
+        "v": 5
+      },
+      {
+        "r": "OBA.1.1-14",
+        "v": 5
+      },
+      {
+        "r": "DEU.23.7",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.18",
+        "v": 3
+      },
+      {
+        "r": "ECC.7.9",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.4-8",
+        "v": 3
+      },
+      {
+        "r": "PSA.83.3-8",
+        "v": 3
+      },
+      {
+        "r": "ISA.63.1-7",
+        "v": 3
+      },
+      {
+        "r": "ISA.34.1-17",
+        "v": 2
+      },
+      {
+        "r": "LAM.4.21-22",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.40-41",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.26-27",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.57.16",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.21.11-12",
+        "v": 2
+      },
+      {
+        "r": "PSA.85.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.1.12": {
     "text": "men jeg vil sende ild mot Teman, og den skal fortære Bosras palasser.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "OBA.1.9-10",
+        "v": 4
+      },
+      {
+        "r": "JER.49.20",
+        "v": 4
+      },
+      {
+        "r": "JER.49.7",
+        "v": 4
+      },
+      {
+        "r": "JER.49.22",
+        "v": 3
+      },
+      {
+        "r": "JER.49.13",
+        "v": 3
+      },
+      {
+        "r": "ISA.34.6",
+        "v": 2
+      },
+      {
+        "r": "GEN.36.11",
+        "v": 2
+      },
+      {
+        "r": "GEN.36.33",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.13": {
     "text": "Så sier Herren: For tre misgjerninger av Ammons barn, ja for fire vil jeg ikke ta det tilbake(-)fordi de skar op de fruktsommelige kvinner i Gilead for å utvide sitt landemerke;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.25.2-7",
+        "v": 5
+      },
+      {
+        "r": "HOS.13.16",
+        "v": 5
+      },
+      {
+        "r": "JER.49.1-6",
+        "v": 4
+      },
+      {
+        "r": "ZEP.2.8-9",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.35.10",
+        "v": 3
+      },
+      {
+        "r": "2KI.24.2",
+        "v": 2
+      },
+      {
+        "r": "NEH.4.7-23",
+        "v": 2
+      },
+      {
+        "r": "DEU.23.3-4",
+        "v": 2
+      },
+      {
+        "r": "EZK.21.28",
+        "v": 2
+      },
+      {
+        "r": "DEU.2.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.11.1-2",
+        "v": 2
+      },
+      {
+        "r": "2CH.20.1",
+        "v": 2
+      },
+      {
+        "r": "JDG.10.7-9",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.5-6",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.3",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.19",
+        "v": 2
+      },
+      {
+        "r": "2SA.10.1-8",
+        "v": 2
+      },
+      {
+        "r": "JDG.11.15-28",
+        "v": 2
+      },
+      {
+        "r": "2CH.20.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.83.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.1.14": {
     "text": "men jeg vil stikke ild på Rabbas murer, og den skal fortære dets palasser, under hærskrik på stridens dag, i storm på uværets dag,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.49.2",
+        "v": 4
+      },
+      {
+        "r": "AMO.2.2",
+        "v": 4
+      },
+      {
+        "r": "DEU.3.11",
+        "v": 4
+      },
+      {
+        "r": "2SA.12.26",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.30",
+        "v": 3
+      },
+      {
+        "r": "DAN.11.40",
+        "v": 2
+      },
+      {
+        "r": "ZEC.7.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.83.15",
+        "v": 2
+      },
+      {
+        "r": "JOB.39.25",
+        "v": 2
+      },
+      {
+        "r": "EZK.25.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.15": {
     "text": "og deres konge skal føres bort som fange, både han og hans fyrster, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.49.3",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "AMO.2.1": {
     "text": "Så sier Herren: For tre misgjerninger av Moab, ja for fire vil jeg ikke ta det tilbake(-)fordi de brente Edom-kongens ben til kalk;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.2.8-9",
+        "v": 6
+      },
+      {
+        "r": "EZK.25.8-9",
+        "v": 5
+      },
+      {
+        "r": "AMO.1.3",
+        "v": 4
+      },
+      {
+        "r": "JER.48.1-47",
+        "v": 4
+      },
+      {
+        "r": "AMO.2.4",
+        "v": 4
+      },
+      {
+        "r": "ISA.15.1-9",
+        "v": 4
+      },
+      {
+        "r": "2KI.3.26-27",
+        "v": 4
+      },
+      {
+        "r": "ISA.25.10",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.9",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.11",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.13",
+        "v": 3
+      },
+      {
+        "r": "PRO.15.3",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.6",
+        "v": 2
+      },
+      {
+        "r": "2KI.3.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.14",
+        "v": 2
+      },
+      {
+        "r": "DEU.23.4-5",
+        "v": 2
+      },
+      {
+        "r": "PSA.83.4-7",
+        "v": 2
+      },
+      {
+        "r": "NUM.22.1-25",
+        "v": 2
+      },
+      {
+        "r": "MIC.6.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.2": {
     "text": "men jeg vil sende ild mot Moab, og den skal fortære Kerijots palasser, og Moab skal dø under krigsbulder, under hærskrik, under basunens lyd,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.48.24",
+        "v": 5
+      },
+      {
+        "r": "JER.48.41",
+        "v": 5
+      },
+      {
+        "r": "AMO.1.14",
+        "v": 4
+      },
+      {
+        "r": "JER.48.34",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.3": {
     "text": "og jeg vil utrydde dommeren av deres land, og alle dets fyrster vil jeg drepe sammen med ham, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NUM.24.17",
+        "v": 3
+      },
+      {
+        "r": "JER.48.7",
+        "v": 3
+      },
+      {
+        "r": "JER.48.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.23",
+        "v": 2
+      },
+      {
+        "r": "PSA.2.10",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.2.4": {
     "text": "Så sier Herren: For tre misgjerninger av Juda, ja for fire vil jeg ikke ta det tilbake(-)fordi de foraktet Herrens lov og ikke holdt hans bud, og deres løgnguder, som deres fedre hadde fulgt, førte dem vill;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.20.24",
+        "v": 8
+      },
+      {
+        "r": "EZK.20.13",
+        "v": 6
+      },
+      {
+        "r": "EZK.20.16",
+        "v": 6
+      },
+      {
+        "r": "ISA.28.15",
+        "v": 4
+      },
+      {
+        "r": "JER.16.19-20",
+        "v": 4
+      },
+      {
+        "r": "HAB.2.18",
+        "v": 4
+      },
+      {
+        "r": "HOS.12.2",
+        "v": 4
+      },
+      {
+        "r": "2KI.17.19",
+        "v": 3
+      },
+      {
+        "r": "JER.9.14",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.14-15",
+        "v": 3
+      },
+      {
+        "r": "ROM.1.25",
+        "v": 3
+      },
+      {
+        "r": "2KI.22.11-17",
+        "v": 3
+      },
+      {
+        "r": "JER.8.9",
+        "v": 3
+      },
+      {
+        "r": "NEH.1.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.9.15-16",
+        "v": 3
+      },
+      {
+        "r": "EZK.20.18",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.24-25",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.2",
+        "v": 3
+      },
+      {
+        "r": "JER.9.25-26",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.1-63",
+        "v": 2
+      },
+      {
+        "r": "JDG.2.11-20",
+        "v": 2
+      },
+      {
+        "r": "1TH.4.8",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.7",
+        "v": 2
+      },
+      {
+        "r": "EZK.23.11-21",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.14-17",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.26",
+        "v": 2
+      },
+      {
+        "r": "JER.6.19",
+        "v": 2
+      },
+      {
+        "r": "JER.23.13-15",
+        "v": 2
+      },
+      {
+        "r": "JER.16.12",
+        "v": 2
+      },
+      {
+        "r": "EZK.22.8",
+        "v": 2
+      },
+      {
+        "r": "EZK.13.6-16",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.15-27",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.29-30",
+        "v": 2
+      },
+      {
+        "r": "JER.28.15-16",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.18",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.16-18",
+        "v": 2
+      },
+      {
+        "r": "JER.23.25-32",
+        "v": 2
+      },
+      {
+        "r": "HOS.6.11",
+        "v": 2
+      },
+      {
+        "r": "2SA.12.9-10",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.5-12",
+        "v": 2
+      },
+      {
+        "r": "ISA.44.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.22.28",
+        "v": 2
+      },
+      {
+        "r": "EZK.13.22",
+        "v": 2
+      },
+      {
+        "r": "HOS.5.12-13",
+        "v": 2
+      },
+      {
+        "r": "JDG.10.6",
+        "v": 2
+      },
+      {
+        "r": "JER.8.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.20.30",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.5": {
     "text": "men jeg vil sende ild mot Juda, og den skal fortære Jerusalems palasser.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.17.27",
+        "v": 6
+      },
+      {
+        "r": "HOS.8.14",
+        "v": 6
+      },
+      {
+        "r": "JER.21.10",
+        "v": 4
+      },
+      {
+        "r": "JER.39.8",
+        "v": 3
+      },
+      {
+        "r": "JER.37.8-10",
+        "v": 3
+      },
+      {
+        "r": "JER.52.13",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.2.6": {
     "text": "Så sier Herren: For tre misgjerninger av Israel, ja for fire vil jeg ikke ta det tilbake(-)fordi de selger den uskyldige for penger og den fattige for et par sko,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.3.3",
+        "v": 7
+      },
+      {
+        "r": "AMO.5.11-12",
+        "v": 3
+      },
+      {
+        "r": "MIC.3.2-3",
+        "v": 3
+      },
+      {
+        "r": "HOS.4.1-2",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.7-18",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.4-6",
+        "v": 2
+      },
+      {
+        "r": "2KI.18.12",
+        "v": 2
+      },
+      {
+        "r": "HOS.4.11-14",
+        "v": 2
+      },
+      {
+        "r": "EZK.23.5-9",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.3-7",
+        "v": 2
+      },
+      {
+        "r": "ISA.29.21",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.7-10",
+        "v": 2
+      },
+      {
+        "r": "HOS.8.4-6",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.2-3",
+        "v": 2
+      },
+      {
+        "r": "MIC.6.10-16",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.7": {
     "text": "de som higer efter å se støv på de ringes hode og bøier retten for de saktmodige. En mann og hans far går til samme pike, så de vanhelliger mitt hellige navn.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.12",
+        "v": 5
+      },
+      {
+        "r": "EZK.22.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.2",
+        "v": 4
+      },
+      {
+        "r": "1CO.5.1",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.2",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.9",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.2-3",
+        "v": 2
+      },
+      {
+        "r": "PRO.28.21",
+        "v": 2
+      },
+      {
+        "r": "LEV.18.15",
+        "v": 2
+      },
+      {
+        "r": "2SA.12.14",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.1",
+        "v": 2
+      },
+      {
+        "r": "ZEP.3.3",
+        "v": 2
+      },
+      {
+        "r": "ROM.2.24",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.4",
+        "v": 2
+      },
+      {
+        "r": "LEV.18.8",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 2
+      },
+      {
+        "r": "EZK.36.20",
+        "v": 2
+      },
+      {
+        "r": "LEV.20.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.8": {
     "text": "På pantsatte klær strekker de sig ved hvert alter, og vin som de har tatt som bøter, drikker de i sin Guds hus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.24.12-17",
+        "v": 8
+      },
+      {
+        "r": "EXO.22.26-27",
+        "v": 7
+      },
+      {
+        "r": "AMO.6.6",
+        "v": 4
+      },
+      {
+        "r": "AMO.4.1",
+        "v": 2
+      },
+      {
+        "r": "EZK.18.12",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.27",
+        "v": 2
+      },
+      {
+        "r": "1CO.10.7",
+        "v": 2
+      },
+      {
+        "r": "EZK.23.41",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.4",
+        "v": 2
+      },
+      {
+        "r": "1CO.8.10",
+        "v": 2
+      },
+      {
+        "r": "1CO.10.21",
+        "v": 2
+      },
+      {
+        "r": "EZK.18.7",
+        "v": 2
+      },
+      {
+        "r": "HOS.4.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.57.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.2.9": {
     "text": "Og jeg utryddet da amorittene foran dem, de som var høie som sedertrær og sterke som eketrær, og jeg ødela deres frukt oventil og deres røtter nedentil,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAL.4.1",
+        "v": 5
+      },
+      {
+        "r": "JOB.18.16",
+        "v": 5
+      },
+      {
+        "r": "NUM.21.23-25",
+        "v": 3
+      },
+      {
+        "r": "GEN.15.16",
+        "v": 3
+      },
+      {
+        "r": "DEU.3.11",
+        "v": 3
+      },
+      {
+        "r": "NUM.13.28-29",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.24-33",
+        "v": 3
+      },
+      {
+        "r": "NUM.13.32-33",
+        "v": 3
+      },
+      {
+        "r": "DEU.9.1-3",
+        "v": 3
+      },
+      {
+        "r": "EXO.34.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.10-11",
+        "v": 2
+      },
+      {
+        "r": "JOS.11.21-22",
+        "v": 2
+      },
+      {
+        "r": "JOS.3.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.135.10-12",
+        "v": 2
+      },
+      {
+        "r": "2SA.23.16-22",
+        "v": 2
+      },
+      {
+        "r": "EZK.17.9",
+        "v": 2
+      },
+      {
+        "r": "JOS.10.12",
+        "v": 2
+      },
+      {
+        "r": "DEU.1.28",
+        "v": 2
+      },
+      {
+        "r": "JOS.24.8-12",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.22-24",
+        "v": 2
+      },
+      {
+        "r": "PSA.136.17-22",
+        "v": 2
+      },
+      {
+        "r": "JDG.11.21-23",
+        "v": 2
+      },
+      {
+        "r": "EXO.3.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.24",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "AMO.2.10": {
     "text": "og jeg førte eder op fra Egyptens land, og jeg ledet eder i ørkenen i firti år, forat I skulde få amorittens land til eiendom,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.2.7",
+        "v": 7
+      },
+      {
+        "r": "EXO.12.51",
+        "v": 6
+      },
+      {
+        "r": "AMO.3.1",
+        "v": 5
+      },
+      {
+        "r": "ACT.7.42",
+        "v": 5
+      },
+      {
+        "r": "MIC.6.4",
+        "v": 4
+      },
+      {
+        "r": "AMO.9.7",
+        "v": 4
+      },
+      {
+        "r": "ACT.13.18",
+        "v": 4
+      },
+      {
+        "r": "EXO.3.8",
+        "v": 4
+      },
+      {
+        "r": "PSA.136.10-11",
+        "v": 3
+      },
+      {
+        "r": "NUM.14.31-35",
+        "v": 3
+      },
+      {
+        "r": "DEU.8.2-4",
+        "v": 3
+      },
+      {
+        "r": "DEU.1.20-21",
+        "v": 3
+      },
+      {
+        "r": "JER.32.20-21",
+        "v": 3
+      },
+      {
+        "r": "EXO.20.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.105.42-43",
+        "v": 3
+      },
+      {
+        "r": "NEH.9.8-12",
+        "v": 3
+      },
+      {
+        "r": "PSA.95.10",
+        "v": 3
+      },
+      {
+        "r": "DEU.1.39",
+        "v": 3
+      },
+      {
+        "r": "NEH.9.21",
+        "v": 3
+      },
+      {
+        "r": "EZK.20.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.2.11": {
     "text": "og jeg opvakte nogen av eders sønner til profeter, og nogen av eders unge menn til nasireere. Er det ikke så, I Israels barn? sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NUM.6.2-3",
+        "v": 5
+      },
+      {
+        "r": "JER.7.25",
+        "v": 4
+      },
+      {
+        "r": "2CH.36.15",
+        "v": 2
+      },
+      {
+        "r": "1KI.19.16",
+        "v": 2
+      },
+      {
+        "r": "MIC.2.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.3-17",
+        "v": 2
+      },
+      {
+        "r": "ISA.30.10-11",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.3-4",
+        "v": 2
+      },
+      {
+        "r": "2KI.2.2-5",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.8",
+        "v": 2
+      },
+      {
+        "r": "JDG.13.4-7",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.13",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.35",
+        "v": 2
+      },
+      {
+        "r": "JER.11.21",
+        "v": 2
+      },
+      {
+        "r": "MIC.6.3-4",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.1",
+        "v": 2
+      },
+      {
+        "r": "JER.2.31",
+        "v": 2
+      },
+      {
+        "r": "LAM.4.7",
+        "v": 2
+      },
+      {
+        "r": "1KI.18.4",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.34-38",
+        "v": 2
+      },
+      {
+        "r": "1SA.3.20",
+        "v": 2
+      },
+      {
+        "r": "JER.2.5",
+        "v": 2
+      },
+      {
+        "r": "DEU.18.18",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.12-13",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.13",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.41",
+        "v": 2
+      },
+      {
+        "r": "1KI.17.1",
+        "v": 2
+      },
+      {
+        "r": "1SA.19.20",
+        "v": 2
+      },
+      {
+        "r": "JER.26.11",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.15-16",
+        "v": 1
+      },
+      {
+        "r": "2PE.1.20-21",
+        "v": 1
+      },
+      {
+        "r": "ACT.5.28",
+        "v": 1
+      },
+      {
+        "r": "ACT.4.18",
+        "v": 1
+      },
+      {
+        "r": "ACT.7.51",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.2.12": {
     "text": "Men I fikk nasireerne til å drikke vin, og I forbød profetene å profetere.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.7.13",
+        "v": 5
+      },
+      {
+        "r": "ISA.30.10",
+        "v": 5
+      },
+      {
+        "r": "JER.11.21",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.13": {
     "text": "Se, jeg vil knuge eder ned, likesom en vogn full av kornbånd knuger allting ned;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.1.14",
+        "v": 3
+      },
+      {
+        "r": "EZK.16.43",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.24",
+        "v": 2
+      },
+      {
+        "r": "MAL.2.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.6.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.40",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.14": {
     "text": "den raske skal intet tilfluktssted finne, og den sterke ikke kunne gjøre bruk av sin kraft, og helten ikke berge sitt liv;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.9.23",
+        "v": 5
+      },
+      {
+        "r": "ECC.9.11",
+        "v": 3
+      },
+      {
+        "r": "AMO.9.1-3",
+        "v": 3
+      },
+      {
+        "r": "PSA.33.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.16-17",
+        "v": 2
+      },
+      {
+        "r": "JOB.11.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.15": {
     "text": "bueskytteren skal ikke holde stand, den som er lett på foten, skal ikke berge sitt liv, og heller ikke rytteren på sin hest,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.33.16-17",
+        "v": 4
+      },
+      {
+        "r": "EZK.39.3",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.2.16": {
     "text": "den modigste iblandt heltene skal flykte naken på den dag, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.14.52",
+        "v": 5
+      },
+      {
+        "r": "2KI.7.8-20",
+        "v": 2
+      },
+      {
+        "r": "JER.48.41",
+        "v": 2
+      },
+      {
+        "r": "JDG.4.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.1": {
     "text": "Hør dette ord som Herren har talt mot eder, Israels barn, mot hele den ætt jeg har ført op fra Egyptens land:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.2.10",
+        "v": 8
+      },
+      {
+        "r": "JER.8.3",
+        "v": 4
+      },
+      {
+        "r": "MIC.3.1",
+        "v": 4
+      },
+      {
+        "r": "JER.31.1",
+        "v": 3
+      },
+      {
+        "r": "2CH.20.15",
+        "v": 3
+      },
+      {
+        "r": "HOS.4.1",
+        "v": 3
+      },
+      {
+        "r": "ISA.48.12",
+        "v": 3
+      },
+      {
+        "r": "EZK.37.16-17",
+        "v": 3
+      },
+      {
+        "r": "REV.2.29",
+        "v": 2
+      },
+      {
+        "r": "JER.33.24-26",
+        "v": 2
+      },
+      {
+        "r": "ISA.46.3",
+        "v": 2
+      },
+      {
+        "r": "HOS.5.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.2": {
     "text": "Eder alene har jeg villet kjennes ved blandt alle jordens ætter; derfor vil jeg hjemsøke eder for alle eders misgjerninger.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.7.6",
+        "v": 14
+      },
+      {
+        "r": "EXO.19.5-6",
+        "v": 13
+      },
+      {
+        "r": "DEU.10.15",
+        "v": 10
+      },
+      {
+        "r": "1PE.4.17",
+        "v": 8
+      },
+      {
+        "r": "ZEC.14.17-18",
+        "v": 7
+      },
+      {
+        "r": "JER.14.10",
+        "v": 6
+      },
+      {
+        "r": "DEU.32.9",
+        "v": 6
+      },
+      {
+        "r": "EZK.20.36-38",
+        "v": 5
+      },
+      {
+        "r": "DEU.26.18",
+        "v": 5
+      },
+      {
+        "r": "GEN.10.32",
+        "v": 5
+      },
+      {
+        "r": "JER.13.21",
+        "v": 5
+      },
+      {
+        "r": "JER.1.15",
+        "v": 5
+      },
+      {
+        "r": "JER.9.25",
+        "v": 5
+      },
+      {
+        "r": "PSA.147.19",
+        "v": 5
+      },
+      {
+        "r": "JER.11.22",
+        "v": 5
+      },
+      {
+        "r": "EZK.9.6",
+        "v": 5
+      },
+      {
+        "r": "JER.10.25",
+        "v": 5
+      },
+      {
+        "r": "DAN.9.12",
+        "v": 5
+      },
+      {
+        "r": "HOS.2.13",
+        "v": 4
+      },
+      {
+        "r": "NAM.3.4",
+        "v": 4
+      },
+      {
+        "r": "HOS.9.9",
+        "v": 4
+      },
+      {
+        "r": "ROM.2.9",
+        "v": 4
+      },
+      {
+        "r": "HOS.8.13",
+        "v": 4
+      },
+      {
+        "r": "MAT.11.20-24",
+        "v": 4
+      },
+      {
+        "r": "LUK.12.47-48",
+        "v": 3
+      },
+      {
+        "r": "ACT.17.26",
+        "v": 3
+      },
+      {
+        "r": "ISA.63.19",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.3": {
     "text": "Går vel to sammen uten at de har avtalt det med hverandre?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.6.14-16",
+        "v": 90
+      },
+      {
+        "r": "GEN.17.1",
+        "v": 21
+      },
+      {
+        "r": "GEN.5.22",
+        "v": 9
+      },
+      {
+        "r": "GEN.6.9",
+        "v": 8
+      }
+    ],
     "section": null
   },
   "AMO.3.4": {
     "text": "Brøler vel løven i skogen uten at den har funnet noget rov? Lar vel ungløven sin røst høre fra sin hule uten at den har fanget noget?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.11.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.104.21",
+        "v": 5
+      },
+      {
+        "r": "AMO.1.2",
+        "v": 4
+      },
+      {
+        "r": "AMO.3.8",
+        "v": 3
+      },
+      {
+        "r": "HOS.5.14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.5": {
     "text": "Faller vel fuglen i en snare på marken uten at det er satt nogen snare for den? Spretter vel snaren op fra marken uten at den fanger noget?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.9.12",
+        "v": 7
+      },
+      {
+        "r": "DAN.9.14",
+        "v": 3
+      },
+      {
+        "r": "JER.31.28",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.6": {
     "text": "Eller støtes det vel i basun i en by uten at folket forferdes? Eller skjer det vel en ulykke i en by uten at Herren har gjort det?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.45.7",
+        "v": 23
+      },
+      {
+        "r": "ZEP.1.16",
+        "v": 11
+      },
+      {
+        "r": "ISA.14.24-27",
+        "v": 11
+      },
+      {
+        "r": "2CO.5.11",
+        "v": 7
+      },
+      {
+        "r": "GEN.50.20",
+        "v": 7
+      },
+      {
+        "r": "JER.10.7",
+        "v": 6
+      },
+      {
+        "r": "ACT.2.23",
+        "v": 5
+      },
+      {
+        "r": "JER.4.5",
+        "v": 5
+      },
+      {
+        "r": "JER.6.1",
+        "v": 5
+      },
+      {
+        "r": "JER.5.22",
+        "v": 4
+      },
+      {
+        "r": "ACT.4.28",
+        "v": 4
+      },
+      {
+        "r": "EZK.33.3",
+        "v": 4
+      },
+      {
+        "r": "HOS.5.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.7": {
     "text": "For Herren, Israels Gud, gjør ikke noget uten at han har åpenbaret sitt lønnlige råd for sine tjenere profetene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.15.15",
+        "v": 66
+      },
+      {
+        "r": "GEN.18.17",
+        "v": 56
+      },
+      {
+        "r": "PSA.25.14",
+        "v": 52
+      },
+      {
+        "r": "REV.1.1",
+        "v": 44
+      },
+      {
+        "r": "DAN.9.22-27",
+        "v": 35
+      },
+      {
+        "r": "GEN.6.13",
+        "v": 32
+      },
+      {
+        "r": "REV.4.1",
+        "v": 28
+      },
+      {
+        "r": "DAN.10.21",
+        "v": 27
+      },
+      {
+        "r": "REV.1.19",
+        "v": 26
+      },
+      {
+        "r": "JER.23.22",
+        "v": 25
+      },
+      {
+        "r": "DAN.11.2",
+        "v": 19
+      },
+      {
+        "r": "2KI.22.13",
+        "v": 19
+      },
+      {
+        "r": "2KI.6.12",
+        "v": 16
+      },
+      {
+        "r": "1KI.22.19-23",
+        "v": 14
+      },
+      {
+        "r": "2KI.22.20",
+        "v": 13
+      },
+      {
+        "r": "REV.6.1-17",
+        "v": 9
+      },
+      {
+        "r": "2KI.3.17-20",
+        "v": 9
+      }
+    ],
     "section": null
   },
   "AMO.3.8": {
     "text": "Når løven brøler, hvem skulde ikke da reddes? Når Herren, Israels Gud, taler, hvem skulde ikke da profetere?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.3.4",
+        "v": 6
+      },
+      {
+        "r": "JER.20.9",
+        "v": 6
+      },
+      {
+        "r": "ACT.4.20",
+        "v": 6
+      },
+      {
+        "r": "AMO.1.2",
+        "v": 5
+      },
+      {
+        "r": "1CO.9.16",
+        "v": 4
+      },
+      {
+        "r": "AMO.2.12",
+        "v": 4
+      },
+      {
+        "r": "AMO.7.12-17",
+        "v": 4
+      },
+      {
+        "r": "REV.5.5",
+        "v": 4
+      },
+      {
+        "r": "JON.3.1-3",
+        "v": 3
+      },
+      {
+        "r": "JON.1.1-3",
+        "v": 3
+      },
+      {
+        "r": "JOB.32.18-19",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.20",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.29",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.9": {
     "text": "Rop ut i palassene i Asdod og i palassene i Egyptens land og si: Samle eder på Samaria-fjellene og se hvor stor forvirring det er der inne, og hvor megen undertrykkelse der råder!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.4.1",
+        "v": 10
+      },
+      {
+        "r": "AMO.6.1",
+        "v": 8
+      },
+      {
+        "r": "AMO.1.8",
+        "v": 6
+      },
+      {
+        "r": "1SA.5.1",
+        "v": 5
+      },
+      {
+        "r": "JER.22.8-9",
+        "v": 4
+      },
+      {
+        "r": "AMO.8.6",
+        "v": 4
+      },
+      {
+        "r": "JER.31.5",
+        "v": 4
+      },
+      {
+        "r": "JER.50.2",
+        "v": 4
+      },
+      {
+        "r": "EZK.36.8",
+        "v": 3
+      },
+      {
+        "r": "JER.46.14",
+        "v": 3
+      },
+      {
+        "r": "JER.2.10-11",
+        "v": 3
+      },
+      {
+        "r": "JER.31.7-9",
+        "v": 3
+      },
+      {
+        "r": "2SA.1.20",
+        "v": 3
+      },
+      {
+        "r": "EZK.37.22",
+        "v": 3
+      },
+      {
+        "r": "DEU.29.24-28",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.10": {
     "text": "De vet ikke å gjøre det som rett er, sier Herren, de som dynger op vold og ødeleggelse i sine palasser.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.4.22",
+        "v": 5
+      },
+      {
+        "r": "ZEP.1.9",
+        "v": 5
+      },
+      {
+        "r": "PSA.14.4",
+        "v": 3
+      },
+      {
+        "r": "ZEC.5.3-4",
+        "v": 3
+      },
+      {
+        "r": "JER.5.4",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.3-4",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.12",
+        "v": 2
+      },
+      {
+        "r": "2PE.3.5",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.8-11",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.11": {
     "text": "Derfor sier Herren, Israels Gud, så: Fiender skal komme og omringe hele landet. Og de skal styrte ned din borg, så du mister ditt vern, og dine palasser skal bli plyndret.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.18.9-11",
+        "v": 5
+      },
+      {
+        "r": "AMO.2.5",
+        "v": 3
+      },
+      {
+        "r": "2KI.15.19",
+        "v": 3
+      },
+      {
+        "r": "2KI.17.3-6",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.14",
+        "v": 3
+      },
+      {
+        "r": "ISA.10.9-11",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.19",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.15",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.5-6",
+        "v": 2
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.17-25",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.7-8",
+        "v": 2
+      },
+      {
+        "r": "HOS.11.5-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.12": {
     "text": "Så sier Herren: Likesom en hyrde berger to leggeben eller en ørelapp av løvens gap, således skal Israels barn berges, de som sitter i Samaria i sofahjørnet og på damaskes hynder.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.17.34-37",
+        "v": 6
+      },
+      {
+        "r": "ROM.11.4-5",
+        "v": 4
+      },
+      {
+        "r": "ISA.31.4",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.34",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.30",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.2-3",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.25",
+        "v": 2
+      },
+      {
+        "r": "2KI.16.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.4",
+        "v": 1
+      },
+      {
+        "r": "AMO.6.4",
+        "v": 1
+      },
+      {
+        "r": "ISA.17.1-4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.3.13": {
     "text": "Hør og vidne mot Jakobs hus, sier Herren, Israels Gud, hærskarenes Gud:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.27",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.40",
+        "v": 2
+      },
+      {
+        "r": "2CH.24.19",
+        "v": 2
+      },
+      {
+        "r": "DEU.8.19",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.15",
+        "v": 2
+      },
+      {
+        "r": "JOS.22.22",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.13",
+        "v": 2
+      },
+      {
+        "r": "ACT.20.21",
+        "v": 2
+      },
+      {
+        "r": "DEU.30.18-19",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.17",
+        "v": 2
+      },
+      {
+        "r": "ACT.18.5-6",
+        "v": 2
+      },
+      {
+        "r": "1TH.4.6",
+        "v": 2
+      },
+      {
+        "r": "EZK.2.7",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.24",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.14": {
     "text": "På den dag jeg hjemsøker Israel for dets misgjerninger, da vil jeg hjemsøke Betels altere, så alterhornene blir avhugget og faller til jorden,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.23.15",
+        "v": 8
+      },
+      {
+        "r": "HOS.10.5-8",
+        "v": 5
+      },
+      {
+        "r": "2CH.34.6-7",
+        "v": 4
+      },
+      {
+        "r": "HOS.10.14-15",
+        "v": 4
+      },
+      {
+        "r": "AMO.5.5-6",
+        "v": 3
+      },
+      {
+        "r": "2CH.31.1",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.6-7",
+        "v": 2
+      },
+      {
+        "r": "1KI.13.2-5",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.1",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.34",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.15": {
     "text": "og jeg vil sønderslå både vinterhusene og sommerhusene, og elfenbenshusene skal gå til grunne, og mange hus rives bort, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.22.39",
+        "v": 7
+      },
+      {
+        "r": "JER.36.22",
+        "v": 7
+      },
+      {
+        "r": "AMO.6.11",
+        "v": 5
+      },
+      {
+        "r": "JDG.3.20",
+        "v": 4
+      },
+      {
+        "r": "ISA.5.9",
+        "v": 4
+      },
+      {
+        "r": "PSA.45.8",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.4.1": {
     "text": "Hør dette ord, I Basan-kyr på Samarias fjell, I som undertrykker de ringe, som knuser de fattige, som sier til eders menn: Kom med vin, så vi får drikke!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.22.12",
+        "v": 8
+      },
+      {
+        "r": "AMO.6.1",
+        "v": 6
+      },
+      {
+        "r": "AMO.5.11",
+        "v": 5
+      },
+      {
+        "r": "EZK.39.18",
+        "v": 5
+      },
+      {
+        "r": "ECC.4.1",
+        "v": 4
+      },
+      {
+        "r": "MIC.3.1-3",
+        "v": 3
+      },
+      {
+        "r": "PSA.140.12",
+        "v": 3
+      },
+      {
+        "r": "JER.7.6",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.6",
+        "v": 3
+      },
+      {
+        "r": "JER.51.34",
+        "v": 3
+      },
+      {
+        "r": "PSA.12.5",
+        "v": 3
+      },
+      {
+        "r": "JER.50.27",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.9-10",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.8",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.1-6",
+        "v": 3
+      },
+      {
+        "r": "MAL.3.5",
+        "v": 3
+      },
+      {
+        "r": "JER.6.6",
+        "v": 3
+      },
+      {
+        "r": "ECC.5.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.22.12",
+        "v": 3
+      },
+      {
+        "r": "EZK.22.29",
+        "v": 3
+      },
+      {
+        "r": "EZK.22.27",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.1-3",
+        "v": 3
+      },
+      {
+        "r": "ZEC.7.10-11",
+        "v": 3
+      },
+      {
+        "r": "JER.5.26-29",
+        "v": 3
+      },
+      {
+        "r": "JOL.3.3",
+        "v": 3
+      },
+      {
+        "r": "DEU.28.33",
+        "v": 3
+      },
+      {
+        "r": "EZK.22.7",
+        "v": 3
+      },
+      {
+        "r": "DEU.15.9-11",
+        "v": 3
+      },
+      {
+        "r": "AMO.8.4-6",
+        "v": 3
+      },
+      {
+        "r": "JOB.20.19",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.6-8",
+        "v": 3
+      },
+      {
+        "r": "1KI.16.24",
+        "v": 3
+      },
+      {
+        "r": "PRO.22.22-23",
+        "v": 3
+      },
+      {
+        "r": "JER.50.11",
+        "v": 2
+      },
+      {
+        "r": "PRO.23.10-11",
+        "v": 2
+      },
+      {
+        "r": "EXO.22.21-25",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.14-15",
+        "v": 1
+      },
+      {
+        "r": "ISA.1.17-24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.4.2": {
     "text": "Herren, Israels Gud, har svoret ved sin hellighet: Se, dager kommer over eder da I skal slepes bort med haker, og den siste levning av eder med fiskekroker,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.16.16",
+        "v": 8
+      },
+      {
+        "r": "PSA.89.35",
+        "v": 7
+      },
+      {
+        "r": "HAB.1.15-16",
+        "v": 6
+      },
+      {
+        "r": "AMO.6.8",
+        "v": 5
+      },
+      {
+        "r": "ISA.37.29",
+        "v": 5
+      },
+      {
+        "r": "EZK.39.4-5",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.4.3": {
     "text": "og I skal gå ut gjennem murbruddene, hver rett frem for sig, og I skal bli slengt bort i palasset, {seierherrens palass} sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.12.5",
+        "v": 5
+      },
+      {
+        "r": "EZK.12.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.16.26",
+        "v": 3
+      },
+      {
+        "r": "ISA.31.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.2.20",
+        "v": 2
+      },
+      {
+        "r": "2KI.25.4",
+        "v": 2
+      },
+      {
+        "r": "ZEP.1.18",
+        "v": 2
+      },
+      {
+        "r": "2KI.7.7-8",
+        "v": 2
+      },
+      {
+        "r": "2KI.7.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.4": {
     "text": "Gå til Betel og synd, til Gilgal og synd til gagns, og bær hver morgen frem eders slaktoffer, hver tredje dag eders tiender,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.20.39",
+        "v": 8
+      },
+      {
+        "r": "HOS.4.15",
+        "v": 8
+      },
+      {
+        "r": "NUM.28.3-4",
+        "v": 5
+      },
+      {
+        "r": "AMO.5.5",
+        "v": 4
+      },
+      {
+        "r": "HOS.12.11",
+        "v": 4
+      },
+      {
+        "r": "HOS.9.15",
+        "v": 4
+      },
+      {
+        "r": "MAT.23.32",
+        "v": 4
+      },
+      {
+        "r": "JOL.3.9-12",
+        "v": 3
+      },
+      {
+        "r": "MRK.5.5",
+        "v": 3
+      },
+      {
+        "r": "MRK.14.41",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.14",
+        "v": 3
+      },
+      {
+        "r": "ECC.11.9",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.21-22",
+        "v": 2
+      },
+      {
+        "r": "DEU.14.28-29",
+        "v": 2
+      },
+      {
+        "r": "DEU.26.12",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.45",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.5": {
     "text": "og la røk av syret brød stige op som takkoffer og tillys frivillige offer og kunngjør det! For så vil I jo gjerne ha det, I Israels barn, sier Herren, Israels Gud.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.81.12",
+        "v": 5
+      },
+      {
+        "r": "LEV.22.18-21",
+        "v": 5
+      },
+      {
+        "r": "HOS.9.10",
+        "v": 4
+      },
+      {
+        "r": "MAT.23.23",
+        "v": 3
+      },
+      {
+        "r": "MAT.6.2",
+        "v": 3
+      },
+      {
+        "r": "HOS.9.1",
+        "v": 3
+      },
+      {
+        "r": "MAT.15.13-14",
+        "v": 3
+      },
+      {
+        "r": "LEV.7.12-13",
+        "v": 3
+      },
+      {
+        "r": "LEV.23.17",
+        "v": 2
+      },
+      {
+        "r": "DEU.12.6-7",
+        "v": 2
+      },
+      {
+        "r": "ROM.1.28",
+        "v": 2
+      },
+      {
+        "r": "2TH.2.10-12",
+        "v": 2
+      },
+      {
+        "r": "MAT.15.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.6": {
     "text": "Og jeg har da latt eder gå med tom munn i alle eders byer og latt eder mangle brød i alle eders hjem; men I har ikke omvendt eder til mig, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HAG.2.17",
+        "v": 7
+      },
+      {
+        "r": "JER.5.3",
+        "v": 6
+      },
+      {
+        "r": "ISA.9.13",
+        "v": 5
+      },
+      {
+        "r": "REV.16.10-11",
+        "v": 4
+      },
+      {
+        "r": "LEV.26.26",
+        "v": 3
+      },
+      {
+        "r": "REV.2.21",
+        "v": 3
+      },
+      {
+        "r": "HOS.5.15-6.1",
+        "v": 3
+      },
+      {
+        "r": "2CH.28.22",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.38",
+        "v": 2
+      },
+      {
+        "r": "ISA.26.11",
+        "v": 2
+      },
+      {
+        "r": "1KI.17.1",
+        "v": 2
+      },
+      {
+        "r": "ZEC.1.3-6",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.8-9",
+        "v": 2
+      },
+      {
+        "r": "REV.9.20-21",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.12-14",
+        "v": 2
+      },
+      {
+        "r": "JER.8.5-7",
+        "v": 2
+      },
+      {
+        "r": "2KI.8.1",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.14-16",
+        "v": 2
+      },
+      {
+        "r": "2KI.4.38",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.25-29",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.1",
+        "v": 2
+      },
+      {
+        "r": "1KI.18.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.27",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.7": {
     "text": "Jeg har forholdt eder regnet da det ennu var tre måneder igjen til høsten, og har latt det regne over en by, men ikke over en annen; et stykke land fikk regn, og et annet stykke blev fortørket, fordi det ikke kom regn på det,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.9.26",
+        "v": 7
+      },
+      {
+        "r": "JER.3.3",
+        "v": 6
+      },
+      {
+        "r": "EXO.10.23",
+        "v": 4
+      },
+      {
+        "r": "EXO.9.4",
+        "v": 4
+      },
+      {
+        "r": "2CH.7.13-14",
+        "v": 4
+      },
+      {
+        "r": "ISA.5.6",
+        "v": 4
+      },
+      {
+        "r": "JAS.5.17",
+        "v": 3
+      },
+      {
+        "r": "JOL.2.23",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.18-21",
+        "v": 3
+      },
+      {
+        "r": "DEU.11.17",
+        "v": 3
+      },
+      {
+        "r": "JDG.6.37-40",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.27-28",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.23-24",
+        "v": 3
+      },
+      {
+        "r": "1KI.8.35-36",
+        "v": 3
+      },
+      {
+        "r": "JER.14.22",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.10-11",
+        "v": 2
+      },
+      {
+        "r": "ZEC.14.17",
+        "v": 2
+      },
+      {
+        "r": "REV.11.6",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.23-24",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.10-18",
+        "v": 2
+      },
+      {
+        "r": "JHN.4.35",
+        "v": 2
+      },
+      {
+        "r": "JER.14.4",
+        "v": 2
+      },
+      {
+        "r": "JER.5.24-25",
+        "v": 2
+      },
+      {
+        "r": "EXO.8.22",
+        "v": 2
+      },
+      {
+        "r": "1CO.4.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.4.8": {
     "text": "og to, tre byer ravet avsted til en og samme by for å drikke vann, men fikk ikke nok; men I har ikke omvendt eder til mig, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.4.6",
+        "v": 4
+      },
+      {
+        "r": "1KI.18.5",
+        "v": 3
+      },
+      {
+        "r": "HAG.1.6",
+        "v": 3
+      },
+      {
+        "r": "ISA.41.17-18",
+        "v": 2
+      },
+      {
+        "r": "EZK.4.16-17",
+        "v": 2
+      },
+      {
+        "r": "JER.3.7",
+        "v": 2
+      },
+      {
+        "r": "JER.23.14",
+        "v": 2
+      },
+      {
+        "r": "JER.14.3-4",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.9-11",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.10",
+        "v": 2
+      },
+      {
+        "r": "MIC.6.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.9": {
     "text": "Jeg har slått eder med kornbrand og rust; gresshoppene åt op eders mange haver og vingårder og fikentrær og oljetrær; men I har ikke omvendt eder til mig, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.28.22",
+        "v": 6
+      },
+      {
+        "r": "HAG.2.17",
+        "v": 6
+      },
+      {
+        "r": "JOL.1.4",
+        "v": 5
+      },
+      {
+        "r": "AMO.4.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.1-2",
+        "v": 3
+      },
+      {
+        "r": "JOL.1.7",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.8",
+        "v": 2
+      },
+      {
+        "r": "JOB.36.8-13",
+        "v": 2
+      },
+      {
+        "r": "JER.3.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.42.24-25",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.5",
+        "v": 2
+      },
+      {
+        "r": "JER.5.3",
+        "v": 2
+      },
+      {
+        "r": "2CH.6.28",
+        "v": 2
+      },
+      {
+        "r": "1KI.8.37",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.42",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.10": {
     "text": "Jeg har sendt pest blandt eder likesom dengang i Egypten, jeg har drept eders unge menn med sverdet og latt eders hester bli hærfang, og jeg lot stanken fra eders hær stige op i eders nese; men I har ikke omvendt eder til mig, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.28.60",
+        "v": 6
+      },
+      {
+        "r": "LEV.26.25",
+        "v": 5
+      },
+      {
+        "r": "JOL.2.20",
+        "v": 4
+      },
+      {
+        "r": "2KI.13.7",
+        "v": 4
+      },
+      {
+        "r": "DEU.28.26-27",
+        "v": 3
+      },
+      {
+        "r": "PSA.78.49-50",
+        "v": 3
+      },
+      {
+        "r": "EXO.9.3-6",
+        "v": 3
+      },
+      {
+        "r": "DEU.7.15",
+        "v": 3
+      },
+      {
+        "r": "DEU.28.22",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.16",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.3",
+        "v": 2
+      },
+      {
+        "r": "JER.11.22",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.6",
+        "v": 2
+      },
+      {
+        "r": "EXO.8.19",
+        "v": 2
+      },
+      {
+        "r": "JER.18.21",
+        "v": 2
+      },
+      {
+        "r": "EXO.15.26",
+        "v": 1
+      },
+      {
+        "r": "2KI.10.32",
+        "v": 1
+      },
+      {
+        "r": "2KI.8.12",
+        "v": 1
+      },
+      {
+        "r": "EXO.10.27",
+        "v": 1
+      },
+      {
+        "r": "ISA.9.13",
+        "v": 1
+      },
+      {
+        "r": "EXO.9.34-35",
+        "v": 1
+      },
+      {
+        "r": "EXO.9.12",
+        "v": 1
+      },
+      {
+        "r": "EXO.12.29-30",
+        "v": 1
+      },
+      {
+        "r": "JER.9.22",
+        "v": 1
+      },
+      {
+        "r": "EXO.10.3",
+        "v": 1
+      },
+      {
+        "r": "JER.15.3",
+        "v": 1
+      },
+      {
+        "r": "EXO.9.17",
+        "v": 1
+      },
+      {
+        "r": "JER.6.11",
+        "v": 1
+      },
+      {
+        "r": "JER.8.1-2",
+        "v": 1
+      },
+      {
+        "r": "JER.48.15",
+        "v": 1
+      },
+      {
+        "r": "JER.16.4",
+        "v": 1
+      },
+      {
+        "r": "EXO.14.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.4.11": {
     "text": "Jeg har omstyrtet byer iblandt eder, således som Gud omstyrtet Sodoma og Gomorra, og I blev som en brand som er revet ut av ilden; men I har ikke omvendt eder til mig, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.3.2",
+        "v": 7
+      },
+      {
+        "r": "ISA.13.19",
+        "v": 7
+      },
+      {
+        "r": "GEN.19.24-25",
+        "v": 5
+      },
+      {
+        "r": "JER.23.14",
+        "v": 5
+      },
+      {
+        "r": "JUD.1.23",
+        "v": 4
+      },
+      {
+        "r": "AMO.4.6",
+        "v": 4
+      },
+      {
+        "r": "JUD.1.7",
+        "v": 4
+      },
+      {
+        "r": "2PE.2.6",
+        "v": 4
+      },
+      {
+        "r": "EZK.22.17-22",
+        "v": 4
+      },
+      {
+        "r": "REV.9.20",
+        "v": 3
+      },
+      {
+        "r": "JER.49.18",
+        "v": 3
+      },
+      {
+        "r": "JER.6.28-30",
+        "v": 3
+      },
+      {
+        "r": "HOS.11.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.24.13",
+        "v": 3
+      },
+      {
+        "r": "1CO.3.15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.4.12": {
     "text": "Derfor vil jeg gjøre med dig, Israel, så som jeg har sagt. Og fordi jeg vil gjøre således med dig, så gjør dig rede til å møte din Gud, Israel!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TH.5.2-4",
+        "v": 14
+      },
+      {
+        "r": "JAS.4.1-10",
+        "v": 12
+      },
+      {
+        "r": "AMO.9.1-4",
+        "v": 10
+      },
+      {
+        "r": "MRK.13.32-37",
+        "v": 9
+      },
+      {
+        "r": "EZK.13.5",
+        "v": 7
+      },
+      {
+        "r": "LUK.21.3-36",
+        "v": 6
+      },
+      {
+        "r": "ISA.47.3",
+        "v": 6
+      },
+      {
+        "r": "AMO.5.4-15",
+        "v": 6
+      },
+      {
+        "r": "MAT.24.44-25.13",
+        "v": 5
+      },
+      {
+        "r": "LUK.14.31-32",
+        "v": 5
+      },
+      {
+        "r": "EZK.22.30",
+        "v": 4
+      },
+      {
+        "r": "HOS.13.8",
+        "v": 4
+      },
+      {
+        "r": "AMO.4.2-3",
+        "v": 4
+      },
+      {
+        "r": "MAT.5.25",
+        "v": 4
+      },
+      {
+        "r": "REV.3.3",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.13": {
     "text": "For se, han som danner fjellene og skaper vinden og åpenbarer menneskene deres tanker, han som gjør morgenrøden til mørke og farer frem over jordens høider(-)Herren, hærskarenes Gud, er hans navn.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.8",
+        "v": 16
+      },
+      {
+        "r": "MIC.1.3",
+        "v": 10
+      },
+      {
+        "r": "AMO.9.6",
+        "v": 9
+      },
+      {
+        "r": "ISA.47.4",
+        "v": 7
+      },
+      {
+        "r": "DAN.2.28",
+        "v": 4
+      },
+      {
+        "r": "PSA.65.6",
+        "v": 4
+      },
+      {
+        "r": "JER.13.16",
+        "v": 3
+      },
+      {
+        "r": "DEU.33.29",
+        "v": 3
+      },
+      {
+        "r": "ISA.40.12",
+        "v": 3
+      },
+      {
+        "r": "JER.51.19",
+        "v": 2
+      },
+      {
+        "r": "EXO.10.22",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.13",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.9",
+        "v": 2
+      },
+      {
+        "r": "JOB.38.4-11",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.13",
+        "v": 2
+      },
+      {
+        "r": "JER.10.16",
+        "v": 2
+      },
+      {
+        "r": "ZEC.12.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.30",
+        "v": 1
+      },
+      {
+        "r": "JHN.3.8",
+        "v": 1
+      },
+      {
+        "r": "EXO.14.20",
+        "v": 1
+      },
+      {
+        "r": "AMO.5.27",
+        "v": 1
+      },
+      {
+        "r": "JER.51.16",
+        "v": 1
+      },
+      {
+        "r": "HAB.3.19",
+        "v": 1
+      },
+      {
+        "r": "PSA.135.7",
+        "v": 1
+      },
+      {
+        "r": "AMO.6.8",
+        "v": 1
+      },
+      {
+        "r": "PSA.147.18",
+        "v": 1
+      },
+      {
+        "r": "ISA.48.2",
+        "v": 1
+      },
+      {
+        "r": "JER.10.13",
+        "v": 1
+      },
+      {
+        "r": "PSA.139.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.1": {
     "text": "Hør dette ord, en klagesang som jeg istemmer over eder, Israels hus!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.19.1",
+        "v": 5
+      },
+      {
+        "r": "JER.9.17",
+        "v": 3
+      },
+      {
+        "r": "JER.7.29",
+        "v": 3
+      },
+      {
+        "r": "JER.9.10",
+        "v": 3
+      },
+      {
+        "r": "JER.9.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.28.12",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.1",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.16",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.1",
+        "v": 2
+      },
+      {
+        "r": "EZK.27.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.32.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.27.27-32",
+        "v": 2
+      },
+      {
+        "r": "MIC.2.4",
+        "v": 2
+      },
+      {
+        "r": "EZK.26.17",
+        "v": 2
+      },
+      {
+        "r": "EZK.32.16",
+        "v": 2
+      },
+      {
+        "r": "EZK.19.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.2": {
     "text": "Hun er falt, hun skal aldri reise sig mere, jomfruen Israel; hun ligger nedkastet på sin egen grunn, det er ingen som reiser henne op.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.14.17",
+        "v": 5
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.14",
+        "v": 2
+      },
+      {
+        "r": "HOS.6.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.51.17-18",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.36-37",
+        "v": 2
+      },
+      {
+        "r": "JER.2.27",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.1",
+        "v": 2
+      },
+      {
+        "r": "JER.50.32",
+        "v": 2
+      },
+      {
+        "r": "LAM.2.13",
+        "v": 2
+      },
+      {
+        "r": "JER.4.20",
+        "v": 2
+      },
+      {
+        "r": "JER.30.12-14",
+        "v": 2
+      },
+      {
+        "r": "JER.18.13",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.24.20",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.21",
+        "v": 2
+      },
+      {
+        "r": "LAM.1.16-19",
+        "v": 2
+      },
+      {
+        "r": "JER.31.4",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.2-5",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.37.22",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.16",
+        "v": 2
+      },
+      {
+        "r": "JER.51.64",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.3": {
     "text": "For så sier Herren, Israels Gud: Den by som tusen drar ut av, skal ha hundre igjen, og den by som hundre drar ut av, skal ha ti igjen, i Israels hus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.9.27",
+        "v": 4
+      },
+      {
+        "r": "EZK.12.16",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.22",
+        "v": 4
+      },
+      {
+        "r": "ISA.6.13",
+        "v": 4
+      },
+      {
+        "r": "DEU.28.62",
+        "v": 3
+      },
+      {
+        "r": "ISA.1.9",
+        "v": 3
+      },
+      {
+        "r": "DEU.4.27",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.4": {
     "text": "For så sier Herren til Israels hus: Søk mig, så skal I leve!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.2.3",
+        "v": 18
+      },
+      {
+        "r": "2CH.15.2",
+        "v": 18
+      },
+      {
+        "r": "JER.29.12-13",
+        "v": 17
+      },
+      {
+        "r": "ISA.55.3",
+        "v": 12
+      },
+      {
+        "r": "PSA.14.2",
+        "v": 12
+      },
+      {
+        "r": "PSA.105.3-4",
+        "v": 11
+      },
+      {
+        "r": "ISA.55.6-7",
+        "v": 11
+      },
+      {
+        "r": "MAT.7.8",
+        "v": 11
+      },
+      {
+        "r": "LAM.3.25-26",
+        "v": 8
+      },
+      {
+        "r": "1CH.28.9",
+        "v": 8
+      },
+      {
+        "r": "DEU.30.1-8",
+        "v": 7
+      },
+      {
+        "r": "2CH.20.3",
+        "v": 7
+      },
+      {
+        "r": "PSA.69.32",
+        "v": 6
+      },
+      {
+        "r": "AMO.5.6",
+        "v": 6
+      },
+      {
+        "r": "2CH.34.3",
+        "v": 6
+      },
+      {
+        "r": "PSA.22.26",
+        "v": 5
+      },
+      {
+        "r": "PSA.27.8",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "AMO.5.5": {
     "text": "Søk ikke til Betel og kom ikke til Gilgal og dra ikke over til Be'rseba! For Gilgal skal bli bortført, og Betel bli til intet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.4.15",
+        "v": 8
+      },
+      {
+        "r": "AMO.8.14",
+        "v": 7
+      },
+      {
+        "r": "AMO.4.4",
+        "v": 7
+      },
+      {
+        "r": "GEN.21.33",
+        "v": 5
+      },
+      {
+        "r": "1CO.2.6",
+        "v": 3
+      },
+      {
+        "r": "REV.18.17",
+        "v": 3
+      },
+      {
+        "r": "1CO.1.28",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.17",
+        "v": 3
+      },
+      {
+        "r": "HOS.10.14-15",
+        "v": 2
+      },
+      {
+        "r": "JOB.8.22",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.33.10",
+        "v": 2
+      },
+      {
+        "r": "1SA.11.14",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.8",
+        "v": 2
+      },
+      {
+        "r": "1SA.7.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.10",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.29.20",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.30-32",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.41",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.6": {
     "text": "Søk Herren, så skal I leve! Ellers skal han komme over Josefs hus som en ild, og den skal fortære uten at Betel har nogen som slukker!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.33.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.55.6",
+        "v": 4
+      },
+      {
+        "r": "EZK.20.47-48",
+        "v": 4
+      },
+      {
+        "r": "ZEC.10.6",
+        "v": 3
+      },
+      {
+        "r": "MRK.9.43-48",
+        "v": 3
+      },
+      {
+        "r": "GEN.48.8-20",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.4",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.14",
+        "v": 3
+      },
+      {
+        "r": "JER.7.20",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.28",
+        "v": 2
+      },
+      {
+        "r": "EXO.22.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.31",
+        "v": 2
+      },
+      {
+        "r": "JER.4.4",
+        "v": 2
+      },
+      {
+        "r": "JOS.18.5",
+        "v": 2
+      },
+      {
+        "r": "DEU.4.24",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.6",
+        "v": 2
+      },
+      {
+        "r": "2SA.19.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.37.19",
+        "v": 2
+      },
+      {
+        "r": "JDG.1.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.7": {
     "text": "De som forvender retten til malurt og kaster rettferdigheten til jorden!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.12",
+        "v": 6
+      },
+      {
+        "r": "HOS.10.4",
+        "v": 3
+      },
+      {
+        "r": "DEU.29.18",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.11-12",
+        "v": 3
+      },
+      {
+        "r": "ZEP.1.6",
+        "v": 3
+      },
+      {
+        "r": "EZK.3.20",
+        "v": 3
+      },
+      {
+        "r": "PSA.125.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.7",
+        "v": 2
+      },
+      {
+        "r": "EZK.33.18",
+        "v": 2
+      },
+      {
+        "r": "EZK.18.24",
+        "v": 2
+      },
+      {
+        "r": "EZK.33.12-13",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.12-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.36.3",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.23",
+        "v": 2
+      },
+      {
+        "r": "ISA.59.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.8": {
     "text": "Han som har skapt Syvstjernen og Orion og omskifter dødsskygge til morgen og gjør dagen mørk som natten, han som kaller på havets vann og øser dem ut over jorden(-)Herren er hans navn!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.4.13",
+        "v": 13
+      },
+      {
+        "r": "JOB.9.9",
+        "v": 10
+      },
+      {
+        "r": "AMO.9.6",
+        "v": 9
+      },
+      {
+        "r": "PSA.104.20",
+        "v": 7
+      },
+      {
+        "r": "AMO.8.9",
+        "v": 7
+      },
+      {
+        "r": "JOB.38.31-32",
+        "v": 5
+      },
+      {
+        "r": "JOB.12.22",
+        "v": 4
+      },
+      {
+        "r": "PSA.107.10-14",
+        "v": 4
+      },
+      {
+        "r": "JOB.38.12-13",
+        "v": 4
+      },
+      {
+        "r": "EXO.10.21-23",
+        "v": 4
+      },
+      {
+        "r": "PSA.105.28",
+        "v": 4
+      },
+      {
+        "r": "PSA.104.6-9",
+        "v": 4
+      },
+      {
+        "r": "1KI.18.44-45",
+        "v": 3
+      },
+      {
+        "r": "ISA.59.10",
+        "v": 3
+      },
+      {
+        "r": "GEN.7.11-20",
+        "v": 3
+      },
+      {
+        "r": "EXO.14.24-28",
+        "v": 3
+      },
+      {
+        "r": "JOB.38.34",
+        "v": 3
+      },
+      {
+        "r": "ISA.42.16",
+        "v": 3
+      },
+      {
+        "r": "JOB.37.13",
+        "v": 3
+      },
+      {
+        "r": "MAT.4.16",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.79",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.9": {
     "text": "Han som lar ødeleggelse lyne frem mot den sterke og fører ødeleggelse over den faste borg!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HEB.11.34",
+        "v": 2
+      },
+      {
+        "r": "JER.37.10",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.25",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.17",
+        "v": 2
+      },
+      {
+        "r": "MIC.5.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.10": {
     "text": "På tinge hater de den som hevder retten, og de avskyr den som taler sannhet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.22.8",
+        "v": 7
+      },
+      {
+        "r": "ISA.29.21",
+        "v": 7
+      },
+      {
+        "r": "JHN.8.45-47",
+        "v": 5
+      },
+      {
+        "r": "JER.17.16-17",
+        "v": 4
+      },
+      {
+        "r": "JHN.7.7",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.20",
+        "v": 3
+      },
+      {
+        "r": "2CH.24.20-22",
+        "v": 3
+      },
+      {
+        "r": "2CH.36.16",
+        "v": 3
+      },
+      {
+        "r": "REV.11.10",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.10-17",
+        "v": 3
+      },
+      {
+        "r": "1KI.21.20",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.19",
+        "v": 3
+      },
+      {
+        "r": "1KI.18.17",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.22-24",
+        "v": 3
+      },
+      {
+        "r": "2CH.25.16",
+        "v": 3
+      },
+      {
+        "r": "PRO.9.7-8",
+        "v": 3
+      },
+      {
+        "r": "JER.20.7-10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.11": {
     "text": "Derfor, fordi I treder på den fattige og tar avgift i korn av ham, så skal I ikke få bo i de hus av huggen sten som I selv har bygget, og ikke få drikke vin fra de herlige vingårder som I selv har plantet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.1.13",
+        "v": 8
+      },
+      {
+        "r": "DEU.28.30",
+        "v": 8
+      },
+      {
+        "r": "MIC.6.15",
+        "v": 8
+      },
+      {
+        "r": "JAS.2.6",
+        "v": 5
+      },
+      {
+        "r": "REV.11.8-10",
+        "v": 4
+      },
+      {
+        "r": "HAG.1.6",
+        "v": 4
+      },
+      {
+        "r": "AMO.3.15-4.1",
+        "v": 3
+      },
+      {
+        "r": "MIC.3.1-3",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.65.21-22",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.38-39",
+        "v": 2
+      },
+      {
+        "r": "ISA.59.13-14",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.7-8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.12": {
     "text": "For jeg vet at eders overtredelser er mange og eders synder tallrike; I forfølger den uskyldige, tar imot løsepenger og bøier retten for de fattige på tinge.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.2.6-7",
+        "v": 6
+      },
+      {
+        "r": "AMO.5.10",
+        "v": 5
+      },
+      {
+        "r": "ISA.1.23",
+        "v": 4
+      },
+      {
+        "r": "MAL.3.5",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.4",
+        "v": 3
+      },
+      {
+        "r": "PSA.26.9-10",
+        "v": 3
+      },
+      {
+        "r": "ACT.7.52",
+        "v": 3
+      },
+      {
+        "r": "1SA.8.3",
+        "v": 3
+      },
+      {
+        "r": "MIC.3.11",
+        "v": 2
+      },
+      {
+        "r": "LAM.3.34",
+        "v": 2
+      },
+      {
+        "r": "PRO.22.22",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.23",
+        "v": 2
+      },
+      {
+        "r": "RUT.4.1",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.7-17",
+        "v": 2
+      },
+      {
+        "r": "ISA.66.18",
+        "v": 2
+      },
+      {
+        "r": "JER.29.23",
+        "v": 2
+      },
+      {
+        "r": "JOB.29.7-25",
+        "v": 2
+      },
+      {
+        "r": "HEB.4.12-13",
+        "v": 2
+      },
+      {
+        "r": "MIC.7.3",
+        "v": 2
+      },
+      {
+        "r": "DEU.16.18",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.6",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.21",
+        "v": 2
+      },
+      {
+        "r": "ISA.47.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.29.21",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.21",
+        "v": 2
+      },
+      {
+        "r": "ISA.33.15",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.16",
+        "v": 2
+      },
+      {
+        "r": "ACT.3.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.13": {
     "text": "Derfor, den som er klok, han tier i denne tid; for det er en ond tid.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.5.15-16",
+        "v": 4
+      },
+      {
+        "r": "HOS.4.4",
+        "v": 4
+      },
+      {
+        "r": "MIC.2.3",
+        "v": 4
+      },
+      {
+        "r": "2TI.3.1",
+        "v": 4
+      },
+      {
+        "r": "ECC.3.7",
+        "v": 4
+      },
+      {
+        "r": "MAT.27.12-14",
+        "v": 3
+      },
+      {
+        "r": "ISA.37.3",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.10",
+        "v": 3
+      },
+      {
+        "r": "HAB.3.16",
+        "v": 3
+      },
+      {
+        "r": "ZEP.2.2-3",
+        "v": 3
+      },
+      {
+        "r": "ECC.9.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.36.21",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.5-7",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.13",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.5.14": {
     "text": "Søk det gode og ikke det onde, så I får leve. Da skal Herren, hærskarenes Gud, være med eder, således som I har sagt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOS.1.9",
+        "v": 16
+      },
+      {
+        "r": "MAT.6.33",
+        "v": 13
+      },
+      {
+        "r": "MIC.6.8",
+        "v": 10
+      },
+      {
+        "r": "MIC.3.11",
+        "v": 9
+      },
+      {
+        "r": "PHP.4.8-9",
+        "v": 9
+      },
+      {
+        "r": "2TI.4.22",
+        "v": 7
+      },
+      {
+        "r": "1CH.28.20",
+        "v": 5
+      },
+      {
+        "r": "PSA.34.12-16",
+        "v": 5
+      },
+      {
+        "r": "ROM.2.7-9",
+        "v": 5
+      },
+      {
+        "r": "GEN.39.2-3",
+        "v": 5
+      },
+      {
+        "r": "ISA.48.1-2",
+        "v": 5
+      },
+      {
+        "r": "AMO.3.3",
+        "v": 4
+      },
+      {
+        "r": "JER.7.3-4",
+        "v": 4
+      },
+      {
+        "r": "ISA.55.2",
+        "v": 3
+      },
+      {
+        "r": "MAT.1.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.46.11",
+        "v": 3
+      },
+      {
+        "r": "PRO.11.27",
+        "v": 3
+      },
+      {
+        "r": "2CH.15.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.16-17",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.10",
+        "v": 2
+      },
+      {
+        "r": "EXO.3.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.39.23",
+        "v": 2
+      },
+      {
+        "r": "NUM.16.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.15": {
     "text": "Hat det onde og elsk det gode og la retten stå fast på tinge! Kanskje Herren, hærskarenes Gud, da vil være nådig mot Josefs levning.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.12.9",
+        "v": 11
+      },
+      {
+        "r": "3JN.1.11",
+        "v": 8
+      },
+      {
+        "r": "PSA.97.10",
+        "v": 7
+      },
+      {
+        "r": "JOL.2.14",
+        "v": 7
+      },
+      {
+        "r": "1TH.5.21-22",
+        "v": 6
+      },
+      {
+        "r": "ROM.8.7",
+        "v": 5
+      },
+      {
+        "r": "MIC.5.7-8",
+        "v": 5
+      },
+      {
+        "r": "MIC.5.3",
+        "v": 4
+      },
+      {
+        "r": "EXO.32.30",
+        "v": 3
+      },
+      {
+        "r": "2KI.19.4",
+        "v": 3
+      },
+      {
+        "r": "JON.3.9",
+        "v": 3
+      },
+      {
+        "r": "PSA.36.4",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.31",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.24",
+        "v": 3
+      },
+      {
+        "r": "2CH.19.6-11",
+        "v": 2
+      },
+      {
+        "r": "ROM.7.15-16",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.104",
+        "v": 2
+      },
+      {
+        "r": "JER.7.5-7",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.12",
+        "v": 2
+      },
+      {
+        "r": "ROM.7.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.34.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.82.2-4",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.6",
+        "v": 2
+      },
+      {
+        "r": "2KI.14.26-27",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.10",
+        "v": 2
+      },
+      {
+        "r": "MIC.2.12",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.12",
+        "v": 2
+      },
+      {
+        "r": "PSA.37.27",
+        "v": 2
+      },
+      {
+        "r": "JER.31.7",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.7",
+        "v": 2
+      },
+      {
+        "r": "PSA.139.21-22",
+        "v": 1
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.16": {
     "text": "Derfor sier Herren, Israels Gud, hærskarenes Gud, så: På alle gater skal det høres klagerop, og i alle streder skal de rope: Ve, ve! Bonden skal kalles til sørgehøitid, og til dem som er kyndige i sørgekveder, skal de si: Syng en sørgesang!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.1.11",
+        "v": 5
+      },
+      {
+        "r": "JER.9.17-20",
+        "v": 4
+      },
+      {
+        "r": "JER.9.10",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.4",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.8",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.27",
+        "v": 2
+      },
+      {
+        "r": "REV.18.15-16",
+        "v": 2
+      },
+      {
+        "r": "ISA.15.2-5",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.12",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.14",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.10",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.13",
+        "v": 2
+      },
+      {
+        "r": "ISA.15.8",
+        "v": 2
+      },
+      {
+        "r": "JER.4.31",
+        "v": 2
+      },
+      {
+        "r": "REV.18.19",
+        "v": 2
+      },
+      {
+        "r": "REV.18.10",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.17": {
     "text": "Og i alle vingårder skal det høres klagerop; for jeg vil skride frem midt iblandt eder, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.12.12",
+        "v": 6
+      },
+      {
+        "r": "ISA.16.10",
+        "v": 5
+      },
+      {
+        "r": "JER.48.33",
+        "v": 5
+      },
+      {
+        "r": "ZEC.9.8",
+        "v": 3
+      },
+      {
+        "r": "HOS.9.1-2",
+        "v": 3
+      },
+      {
+        "r": "JOL.3.17",
+        "v": 3
+      },
+      {
+        "r": "NAM.1.15",
+        "v": 3
+      },
+      {
+        "r": "ISA.32.10-12",
+        "v": 3
+      },
+      {
+        "r": "EXO.12.23",
+        "v": 3
+      },
+      {
+        "r": "NAM.1.12",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.5.18": {
     "text": "Ve dem som stunder efter Herrens dag! Hvad vil I da med Herrens dag? Den er mørke og ikke lys.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.1.15",
+        "v": 10
+      },
+      {
+        "r": "JOL.2.1-2",
+        "v": 9
+      },
+      {
+        "r": "JOL.2.31",
+        "v": 8
+      },
+      {
+        "r": "JER.30.7",
+        "v": 7
+      },
+      {
+        "r": "MAL.4.1",
+        "v": 6
+      },
+      {
+        "r": "ISA.24.11-12",
+        "v": 5
+      },
+      {
+        "r": "MAL.3.1-2",
+        "v": 5
+      },
+      {
+        "r": "ISA.5.30",
+        "v": 5
+      },
+      {
+        "r": "ZEP.1.14-15",
+        "v": 5
+      },
+      {
+        "r": "ISA.5.19",
+        "v": 5
+      },
+      {
+        "r": "ISA.9.19",
+        "v": 5
+      },
+      {
+        "r": "JOL.2.10",
+        "v": 4
+      },
+      {
+        "r": "EZK.12.22",
+        "v": 3
+      },
+      {
+        "r": "EZK.12.27",
+        "v": 3
+      },
+      {
+        "r": "2PE.3.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.28.15-22",
+        "v": 2
+      },
+      {
+        "r": "2PE.3.10",
+        "v": 2
+      },
+      {
+        "r": "JER.17.15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.19": {
     "text": "Det er som når en flykter for en løve, men støter på en bjørn, og når han kommer hjem og støtter sig til veggen med hånden, blir han bitt av en orm.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.24.17-18",
+        "v": 7
+      },
+      {
+        "r": "JER.15.2-3",
+        "v": 5
+      },
+      {
+        "r": "JER.48.43-44",
+        "v": 3
+      },
+      {
+        "r": "ACT.28.4",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.29-30",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.1-2",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.24-25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.20": {
     "text": "Ja, Herrens dag er mørke og ikke lys, belgmørk og uten lysskjær.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.13.10",
+        "v": 6
+      },
+      {
+        "r": "ZEP.1.15",
+        "v": 5
+      },
+      {
+        "r": "EZK.34.12",
+        "v": 5
+      },
+      {
+        "r": "JOB.10.21-22",
+        "v": 3
+      },
+      {
+        "r": "REV.16.10",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.8",
+        "v": 2
+      },
+      {
+        "r": "JUD.1.13",
+        "v": 2
+      },
+      {
+        "r": "JOB.3.4-6",
+        "v": 2
+      },
+      {
+        "r": "MAT.22.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.21": {
     "text": "Jeg hater og forakter eders høitider, og jeg har ikke behag i eders festforsamlinger;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.1.11-16",
+        "v": 13
+      },
+      {
+        "r": "PRO.28.9",
+        "v": 11
+      },
+      {
+        "r": "LEV.26.31",
+        "v": 11
+      },
+      {
+        "r": "ISA.66.3",
+        "v": 10
+      },
+      {
+        "r": "JER.6.20",
+        "v": 8
+      },
+      {
+        "r": "PRO.15.8",
+        "v": 7
+      },
+      {
+        "r": "HOS.8.13",
+        "v": 6
+      },
+      {
+        "r": "GEN.8.21",
+        "v": 4
+      },
+      {
+        "r": "MAT.23.13",
+        "v": 4
+      },
+      {
+        "r": "PRO.21.27",
+        "v": 4
+      },
+      {
+        "r": "EPH.5.2",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 2
+      },
+      {
+        "r": "JER.7.21-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.22": {
     "text": "for om I ofrer mig brennoffer og matoffer, finner jeg ikke behag i dem, og eders takkoffer av gjøkalver ser jeg ikke på.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MIC.6.6-7",
+        "v": 6
+      },
+      {
+        "r": "AMO.4.4-5",
+        "v": 5
+      },
+      {
+        "r": "ISA.66.3",
+        "v": 4
+      },
+      {
+        "r": "LEV.7.12-15",
+        "v": 3
+      },
+      {
+        "r": "PSA.107.21-22",
+        "v": 2
+      },
+      {
+        "r": "PSA.116.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.50.23",
+        "v": 2
+      },
+      {
+        "r": "PSA.50.8-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.23": {
     "text": "La mig slippe for dine larmende sanger! Jeg vil ikke høre på ditt harpespill.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.5",
+        "v": 7
+      },
+      {
+        "r": "AMO.8.10",
+        "v": 5
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "AMO.5.24": {
     "text": "Men dommen skal komme veltende som vann, og rettferdigheten som en alltid strømmende bekk.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MIC.6.8",
+        "v": 29
+      },
+      {
+        "r": "JER.22.3",
+        "v": 22
+      },
+      {
+        "r": "HOS.6.6",
+        "v": 19
+      },
+      {
+        "r": "PRO.21.3",
+        "v": 19
+      },
+      {
+        "r": "MRK.12.32-34",
+        "v": 18
+      },
+      {
+        "r": "AMO.5.14-15",
+        "v": 16
+      },
+      {
+        "r": "JOB.29.12-17",
+        "v": 15
+      },
+      {
+        "r": "AMO.5.7",
+        "v": 15
+      }
+    ],
     "section": null
   },
   "AMO.5.25": {
     "text": "Bar I frem for mig slaktoffer og matoffer i ørkenen i de firti år, Israels hus?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.7.42-43",
+        "v": 7
+      },
+      {
+        "r": "EZK.20.8",
+        "v": 5
+      },
+      {
+        "r": "NEH.9.18",
+        "v": 4
+      },
+      {
+        "r": "NEH.9.21",
+        "v": 3
+      },
+      {
+        "r": "JOS.24.14",
+        "v": 3
+      },
+      {
+        "r": "LEV.17.7",
+        "v": 3
+      },
+      {
+        "r": "EZK.20.16",
+        "v": 2
+      },
+      {
+        "r": "EZK.20.24",
+        "v": 2
+      },
+      {
+        "r": "ZEC.7.5",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.9-10",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.17-19",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.23-24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.26": {
     "text": "Nei, I bar eders konges {de. Moloks.} telt og eders billeders fotstykke, eders guds stjerne, som I hadde gjort eder.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LEV.20.2-5",
+        "v": 5
+      },
+      {
+        "r": "2KI.23.12-13",
+        "v": 5
+      },
+      {
+        "r": "1KI.11.33",
+        "v": 4
+      },
+      {
+        "r": "LEV.18.21",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.5.27": {
     "text": "Jeg vil føre eder bort i fangenskap, langt bortenfor Damaskus, sier han hvis navn er Herren, hærskarenes Gud.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.17.6",
+        "v": 5
+      },
+      {
+        "r": "ACT.7.43",
+        "v": 5
+      },
+      {
+        "r": "AMO.4.13",
+        "v": 3
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.1": {
     "text": "Ve de trygge på Sion og de sorgløse på Samarias fjell, de fornemme blandt det ypperste av folkene, dem som Israels hus pleier å vende sig til!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JAS.5.5",
+        "v": 10
+      },
+      {
+        "r": "ISA.32.9-11",
+        "v": 10
+      },
+      {
+        "r": "LUK.12.17-20",
+        "v": 9
+      },
+      {
+        "r": "AMO.4.1",
+        "v": 7
+      },
+      {
+        "r": "JDG.18.7",
+        "v": 5
+      },
+      {
+        "r": "ZEP.1.12",
+        "v": 5
+      },
+      {
+        "r": "EXO.19.5-6",
+        "v": 5
+      },
+      {
+        "r": "JAS.1.18",
+        "v": 4
+      },
+      {
+        "r": "JER.49.31",
+        "v": 3
+      },
+      {
+        "r": "ISA.33.14",
+        "v": 3
+      },
+      {
+        "r": "JER.7.4",
+        "v": 2
+      },
+      {
+        "r": "LUK.6.24-25",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.14",
+        "v": 2
+      },
+      {
+        "r": "1PE.5.7",
+        "v": 2
+      },
+      {
+        "r": "1KI.16.24",
+        "v": 1
+      },
+      {
+        "r": "JER.48.11",
+        "v": 0
+      },
+      {
+        "r": "LAM.1.1",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "AMO.6.2": {
     "text": "Dra over til Kalne og se, og gå videre til det store Hamat, og stig ned til Gat i Filisterland! Er de bedre enn disse riker, eller er deres land større enn eders land?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NAM.3.8",
+        "v": 7
+      },
+      {
+        "r": "GEN.10.10",
+        "v": 5
+      },
+      {
+        "r": "2KI.18.34",
+        "v": 5
+      },
+      {
+        "r": "2CH.26.6",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.9-11",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.4",
+        "v": 3
+      },
+      {
+        "r": "2KI.19.13",
+        "v": 2
+      },
+      {
+        "r": "1KI.8.65",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.24",
+        "v": 2
+      },
+      {
+        "r": "ISA.37.12-13",
+        "v": 2
+      },
+      {
+        "r": "ISA.36.18-19",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.30",
+        "v": 2
+      },
+      {
+        "r": "JER.2.10-11",
+        "v": 2
+      },
+      {
+        "r": "1SA.17.23",
+        "v": 2
+      },
+      {
+        "r": "EZK.31.2-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.3": {
     "text": "I som jager den onde dag langt bort og flytter urettens sete nær til eder, {I vil intet høre om straffens dag, og allikevel lar I vold og urett råde blandt eder}",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.9.10",
+        "v": 6
+      },
+      {
+        "r": "EZK.12.27",
+        "v": 5
+      },
+      {
+        "r": "ISA.56.12",
+        "v": 5
+      },
+      {
+        "r": "EZK.12.22",
+        "v": 3
+      },
+      {
+        "r": "MAT.24.48",
+        "v": 3
+      },
+      {
+        "r": "1TH.5.3",
+        "v": 3
+      },
+      {
+        "r": "2PE.3.4",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.10",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.47.7",
+        "v": 2
+      },
+      {
+        "r": "REV.18.17",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.12",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.18",
+        "v": 2
+      },
+      {
+        "r": "PSA.94.20",
+        "v": 2
+      },
+      {
+        "r": "ECC.8.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.4": {
     "text": "I som ligger på elfenbensbenker og dovner eder på eders leier, og som eter lam av hjorden og kalver fra fjøset,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.3.12",
+        "v": 4
+      },
+      {
+        "r": "JAS.5.5",
+        "v": 2
+      },
+      {
+        "r": "LUK.16.19",
+        "v": 2
+      },
+      {
+        "r": "LUK.12.19-20",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.36-38",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.11-12",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.7",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.34.2-3",
+        "v": 2
+      },
+      {
+        "r": "ROM.13.13-14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.6.5": {
     "text": "som synger allslags tull til harpens toner og har uttenkt eder strengeinstrumenter, likesom David,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.5.12",
+        "v": 11
+      },
+      {
+        "r": "AMO.5.23",
+        "v": 9
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 4
+      },
+      {
+        "r": "REV.18.22",
+        "v": 3
+      },
+      {
+        "r": "GEN.31.27",
+        "v": 3
+      },
+      {
+        "r": "ECC.2.8",
+        "v": 3
+      },
+      {
+        "r": "1CH.15.16",
+        "v": 3
+      },
+      {
+        "r": "JOB.21.11-12",
+        "v": 3
+      },
+      {
+        "r": "1CH.23.5",
+        "v": 3
+      },
+      {
+        "r": "1PE.4.3",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.6.6": {
     "text": "som drikker vin av skåler og salver eder med den ypperste olje, men ikke sørger over Josefs skade.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.49.22",
+        "v": 3
+      },
+      {
+        "r": "GEN.42.21-22",
+        "v": 2
+      },
+      {
+        "r": "EZK.9.4",
+        "v": 2
+      },
+      {
+        "r": "1TI.5.23",
+        "v": 2
+      },
+      {
+        "r": "JHN.12.3",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.3-6",
+        "v": 2
+      },
+      {
+        "r": "1CO.12.26",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.8",
+        "v": 2
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      },
+      {
+        "r": "HOS.3.1",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.7-9",
+        "v": 2
+      },
+      {
+        "r": "JER.30.7",
+        "v": 2
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      },
+      {
+        "r": "ROM.12.15",
+        "v": 2
+      },
+      {
+        "r": "GEN.37.25-28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.7": {
     "text": "Derfor skal de nu vandre ut av landet fremst blandt dem som føres bort, og med skrålet av dem som dovner sig, skal det være slutt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.7.11",
+        "v": 4
+      },
+      {
+        "r": "1KI.20.16-20",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.5",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.4-6",
+        "v": 3
+      },
+      {
+        "r": "EST.7.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 2
+      },
+      {
+        "r": "EST.7.8-10",
+        "v": 2
+      },
+      {
+        "r": "EST.5.12-14",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.27",
+        "v": 2
+      },
+      {
+        "r": "ISA.21.4",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.41",
+        "v": 2
+      },
+      {
+        "r": "LUK.21.24",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.17",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.8": {
     "text": "Herren, Israels Gud, har svoret ved sig selv, sier Herren, hærskarenes Gud: Jeg avskyr Jakobs stolthet og hater hans palasser, og jeg vil overgi byen og alt det som er i den.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.51.14",
+        "v": 7
+      },
+      {
+        "r": "AMO.4.2",
+        "v": 6
+      },
+      {
+        "r": "PSA.47.4",
+        "v": 5
+      },
+      {
+        "r": "AMO.8.7",
+        "v": 5
+      },
+      {
+        "r": "JER.22.5",
+        "v": 5
+      },
+      {
+        "r": "AMO.3.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.106.40",
+        "v": 3
+      },
+      {
+        "r": "MIC.1.6-9",
+        "v": 2
+      },
+      {
+        "r": "PSA.50.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.22.16",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.30",
+        "v": 2
+      },
+      {
+        "r": "LAM.2.5",
+        "v": 2
+      },
+      {
+        "r": "EZK.24.21",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.59",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.11",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.19",
+        "v": 2
+      },
+      {
+        "r": "ZEC.11.8",
+        "v": 2
+      },
+      {
+        "r": "HEB.6.13-17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.9": {
     "text": "Og om det er ti menn tilbake i ett hus, da skal de dø.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.3",
+        "v": 4
+      },
+      {
+        "r": "EST.5.11",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.28",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.21",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.13",
+        "v": 2
+      },
+      {
+        "r": "1SA.2.33",
+        "v": 2
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.10": {
     "text": "Og en manns nærmeste frende, som skal brenne ham, {fordi mengden av de døde gjør det umulig å begrave dem} skal ta ham og bære benene ut av huset, og han skal si til den som er i husets innerste krok: Er det ennu nogen hos dig? Og han skal svare: Nei, ingen! Da skal han si: Hysj! Herrens navn må ikke nevnes!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.31.12",
+        "v": 5
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 5
+      },
+      {
+        "r": "AMO.5.13",
+        "v": 4
+      },
+      {
+        "r": "EZK.20.39",
+        "v": 4
+      },
+      {
+        "r": "EZK.24.21",
+        "v": 3
+      },
+      {
+        "r": "NUM.17.12",
+        "v": 3
+      },
+      {
+        "r": "JER.44.26",
+        "v": 3
+      },
+      {
+        "r": "JER.16.6",
+        "v": 3
+      },
+      {
+        "r": "2KI.23.16",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.33",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.11": {
     "text": "For se, Herren byder, og de slår det store hus så det synker i grus, og det lille hus så det revner.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.3.15",
+        "v": 6
+      },
+      {
+        "r": "ISA.55.11",
+        "v": 5
+      },
+      {
+        "r": "2KI.25.9",
+        "v": 4
+      },
+      {
+        "r": "AMO.9.9",
+        "v": 3
+      },
+      {
+        "r": "NAM.1.14",
+        "v": 3
+      },
+      {
+        "r": "LUK.19.44",
+        "v": 3
+      },
+      {
+        "r": "ZEC.14.2",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.29.18-20",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.6-7",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.16",
+        "v": 2
+      },
+      {
+        "r": "PSA.105.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.46.10-11",
+        "v": 2
+      },
+      {
+        "r": "ECC.10.18",
+        "v": 2
+      },
+      {
+        "r": "ISA.13.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.105.31",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.105.34",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.5-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.12": {
     "text": "Springer vel hestene opefter fjellet, eller pløies det der med okser? siden I har forvendt retten til gift og rettferdighetens frukter til malurt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.7",
+        "v": 7
+      },
+      {
+        "r": "HOS.10.4",
+        "v": 5
+      },
+      {
+        "r": "AMO.5.11-12",
+        "v": 4
+      },
+      {
+        "r": "ISA.59.13-14",
+        "v": 4
+      },
+      {
+        "r": "PSA.94.20-21",
+        "v": 3
+      },
+      {
+        "r": "ISA.48.4",
+        "v": 3
+      },
+      {
+        "r": "1KI.21.7-13",
+        "v": 3
+      },
+      {
+        "r": "JER.5.3",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.3-4",
+        "v": 2
+      },
+      {
+        "r": "JER.6.29-30",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.13",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.51-52",
+        "v": 2
+      },
+      {
+        "r": "MIC.7.3",
+        "v": 2
+      },
+      {
+        "r": "ZEC.7.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.13": {
     "text": "I som gleder eder over det som intet er, og som sier: Er det ikke ved vår egen styrke vi har vunnet oss velde?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.28.14-15",
+        "v": 4
+      },
+      {
+        "r": "LUK.12.19-20",
+        "v": 4
+      },
+      {
+        "r": "JAS.4.16",
+        "v": 3
+      },
+      {
+        "r": "2KI.14.25",
+        "v": 3
+      },
+      {
+        "r": "ISA.7.4",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "1SA.4.5",
+        "v": 2
+      },
+      {
+        "r": "JER.9.23",
+        "v": 2
+      },
+      {
+        "r": "JOB.8.15",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 2
+      },
+      {
+        "r": "JER.50.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.6",
+        "v": 2
+      },
+      {
+        "r": "JON.4.6",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.27",
+        "v": 2
+      },
+      {
+        "r": "2CH.28.6-8",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.15-16",
+        "v": 2
+      },
+      {
+        "r": "ECC.11.9",
+        "v": 2
+      },
+      {
+        "r": "ZEP.3.11",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.17.3-4",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.18-19",
+        "v": 2
+      },
+      {
+        "r": "2KI.14.12-14",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.29",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.1",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.19-20",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.25",
+        "v": 2
+      },
+      {
+        "r": "JDG.16.23-25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.14": {
     "text": "For se, jeg opvekker et folk mot eder, Israels hus, sier Herren, hærskarenes Gud, og de skal undertrykke eder fra der hvor veien går til Hamat, og like til bekken i ødemarken.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.14.25",
+        "v": 5
+      },
+      {
+        "r": "1KI.8.65",
+        "v": 5
+      },
+      {
+        "r": "JER.5.15-17",
+        "v": 3
+      },
+      {
+        "r": "ISA.8.4-8",
+        "v": 2
+      },
+      {
+        "r": "NUM.34.7-8",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.6",
+        "v": 2
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.47.15-17",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.5-6",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.7.1": {
     "text": "Dette syn lot Herren, Israels Gud, mig se: Det var en som skapte gresshopper, da håen begynte å skyte op; det var håen efter kongens slått.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.1.4",
+        "v": 6
+      },
+      {
+        "r": "AMO.8.1",
+        "v": 4
+      },
+      {
+        "r": "NAM.3.15-17",
+        "v": 3
+      },
+      {
+        "r": "ISA.33.4",
+        "v": 3
+      },
+      {
+        "r": "AMO.4.9",
+        "v": 3
+      },
+      {
+        "r": "JOL.2.25",
+        "v": 3
+      },
+      {
+        "r": "EZK.11.25",
+        "v": 2
+      },
+      {
+        "r": "ZEC.1.20",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.7",
+        "v": 2
+      },
+      {
+        "r": "JER.1.11-16",
+        "v": 2
+      },
+      {
+        "r": "EXO.10.12-16",
+        "v": 2
+      },
+      {
+        "r": "JER.24.1",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.2": {
     "text": "Og da de vel hadde ett op alle urter i landet, da sa jeg: Herre, Israels Gud, tilgi! Hvorledes skal Jakob kunne bli i live, han som er så liten?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.37.4",
+        "v": 5
+      },
+      {
+        "r": "EZK.11.13",
+        "v": 4
+      },
+      {
+        "r": "JER.42.2",
+        "v": 3
+      },
+      {
+        "r": "JER.14.20-21",
+        "v": 3
+      },
+      {
+        "r": "EZK.9.8",
+        "v": 3
+      },
+      {
+        "r": "EXO.10.15",
+        "v": 3
+      },
+      {
+        "r": "JER.14.7",
+        "v": 3
+      },
+      {
+        "r": "NUM.14.17-19",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.11-12",
+        "v": 2
+      },
+      {
+        "r": "ZEC.4.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.44.24-26",
+        "v": 2
+      },
+      {
+        "r": "REV.9.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.51.19",
+        "v": 2
+      },
+      {
+        "r": "PSA.12.1",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.15-16",
+        "v": 2
+      },
+      {
+        "r": "EXO.34.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.19",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.3": {
     "text": "Da angret Herren det. Det skal ikke skje, sa Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.32.36",
+        "v": 7
+      },
+      {
+        "r": "JON.3.10",
+        "v": 6
+      },
+      {
+        "r": "HOS.11.8",
+        "v": 4
+      },
+      {
+        "r": "JOL.2.14",
+        "v": 3
+      },
+      {
+        "r": "PSA.106.45",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.6",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.16",
+        "v": 2
+      },
+      {
+        "r": "JER.26.19",
+        "v": 2
+      },
+      {
+        "r": "1CH.21.15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.7.4": {
     "text": "Så lot Herren, Israels Gud, mig se dette syn: Herren, Israels Gud, kalte på ilden til straff, og den fortærte det store vanndyp, og den holdt på å fortære hans arvelodd.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.66.15-16",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.1",
+        "v": 3
+      },
+      {
+        "r": "JER.21.12",
+        "v": 2
+      },
+      {
+        "r": "LEV.10.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.27.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.9.23-24",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.30",
+        "v": 2
+      },
+      {
+        "r": "HEB.1.7",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.7",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.7",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.4",
+        "v": 2
+      },
+      {
+        "r": "REV.4.1",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.4",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.6",
+        "v": 2
+      },
+      {
+        "r": "NUM.16.35",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.11",
+        "v": 2
+      },
+      {
+        "r": "JER.4.4",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.22",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.5": {
     "text": "Da sa jeg: Herre, Israels Gud, hold op! Hvorledes skal Jakob kunne bli i live, han som er så liten?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.85.4",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.2-3",
+        "v": 2
+      },
+      {
+        "r": "JER.30.19",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.6": {
     "text": "Da angret Herren det. Heller ikke det skal skje, sa Herren, Israels Gud.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JON.3.10",
+        "v": 2
+      },
+      {
+        "r": "JDG.10.16",
+        "v": 2
+      },
+      {
+        "r": "PSA.90.13",
+        "v": 2
+      },
+      {
+        "r": "JON.4.2",
+        "v": 2
+      },
+      {
+        "r": "JER.26.19",
+        "v": 2
+      },
+      {
+        "r": "PSA.135.14",
+        "v": 2
+      },
+      {
+        "r": "JDG.2.18",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.7": {
     "text": "Så lot han mig se dette syn: Herren stod på en loddrett mur, og i hånden hadde han et blylodd.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.21.13",
+        "v": 6
+      },
+      {
+        "r": "ISA.28.17",
+        "v": 4
+      },
+      {
+        "r": "REV.21.15",
+        "v": 3
+      },
+      {
+        "r": "2SA.8.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.40.3",
+        "v": 2
+      },
+      {
+        "r": "LAM.2.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.34.11",
+        "v": 2
+      },
+      {
+        "r": "REV.11.1",
+        "v": 2
+      },
+      {
+        "r": "ZEC.2.1-2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.8": {
     "text": "Og Herren sa til mig: Hvad ser du, Amos? Jeg svarte: Et blylodd. Da sa Herren: Se, jeg vil bruke et blylodd iblandt mitt folk Israel; jeg vil ikke lenger bære over med dets synd.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.8.2",
+        "v": 8
+      },
+      {
+        "r": "JER.15.6",
+        "v": 6
+      },
+      {
+        "r": "LAM.2.8",
+        "v": 6
+      },
+      {
+        "r": "EZK.7.2-9",
+        "v": 5
+      },
+      {
+        "r": "ISA.28.17",
+        "v": 4
+      },
+      {
+        "r": "2KI.21.13",
+        "v": 4
+      },
+      {
+        "r": "MIC.7.18",
+        "v": 4
+      },
+      {
+        "r": "NAM.1.8-9",
+        "v": 2
+      },
+      {
+        "r": "JER.1.11-13",
+        "v": 2
+      },
+      {
+        "r": "ZEC.5.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.9": {
     "text": "Isaks offerhauger skal ødelegges, og Israels helligdommer synke i grus, og jeg vil reise mig med sverdet mot Jeroboams hus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.15.8-10",
+        "v": 3
+      },
+      {
+        "r": "GEN.46.1",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.5",
+        "v": 1
+      },
+      {
+        "r": "HOS.10.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.63.18",
+        "v": 1
+      },
+      {
+        "r": "AMO.8.14",
+        "v": 1
+      },
+      {
+        "r": "GEN.26.23-25",
+        "v": 1
+      },
+      {
+        "r": "LEV.26.30-31",
+        "v": 1
+      },
+      {
+        "r": "AMO.3.14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.7.10": {
     "text": "Da sendte Amasja, presten i Betel, bud til Jeroboam, Israels konge, og lot si: Amos har fått i stand en sammensvergelse mot dig midt i Israels hus; landet kan ikke tåle alt det han sier.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.38.4",
+        "v": 6
+      },
+      {
+        "r": "1KI.12.31-32",
+        "v": 5
+      },
+      {
+        "r": "JER.26.8-11",
+        "v": 4
+      },
+      {
+        "r": "MAT.21.23",
+        "v": 4
+      },
+      {
+        "r": "ACT.24.5",
+        "v": 4
+      },
+      {
+        "r": "LUK.23.2",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.28",
+        "v": 3
+      },
+      {
+        "r": "1KI.13.33",
+        "v": 3
+      },
+      {
+        "r": "1KI.18.17",
+        "v": 2
+      },
+      {
+        "r": "JER.29.26-27",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.54",
+        "v": 2
+      },
+      {
+        "r": "JER.18.18",
+        "v": 2
+      },
+      {
+        "r": "2KI.14.23-24",
+        "v": 2
+      },
+      {
+        "r": "JER.20.1-3",
+        "v": 2
+      },
+      {
+        "r": "GEN.37.8",
+        "v": 2
+      },
+      {
+        "r": "JER.37.13-15",
+        "v": 2
+      },
+      {
+        "r": "2CH.13.8-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.11": {
     "text": "For så har Amos sagt: Jeroboam skal dø for sverdet, og Israel skal bli bortført fra sitt land.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.17.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.7-8",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.56.5",
+        "v": 2
+      },
+      {
+        "r": "ACT.6.14",
+        "v": 1
+      },
+      {
+        "r": "JER.28.10-11",
+        "v": 1
+      },
+      {
+        "r": "MAT.26.61",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.7.12": {
     "text": "Og Amasja sa til Amos: Gå din vei, du seer, fly til Juda land og et ditt brød der; der kan du være profet!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.2.14",
+        "v": 4
+      },
+      {
+        "r": "MAT.8.34",
+        "v": 4
+      },
+      {
+        "r": "1SA.9.9",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.10",
+        "v": 3
+      },
+      {
+        "r": "ROM.16.18",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.12",
+        "v": 2
+      },
+      {
+        "r": "LUK.13.31",
+        "v": 2
+      },
+      {
+        "r": "ISA.56.11",
+        "v": 2
+      },
+      {
+        "r": "2CH.16.10",
+        "v": 2
+      },
+      {
+        "r": "ACT.16.39",
+        "v": 2
+      },
+      {
+        "r": "EZK.13.19",
+        "v": 2
+      },
+      {
+        "r": "LUK.8.37-38",
+        "v": 2
+      },
+      {
+        "r": "1SA.2.36",
+        "v": 2
+      },
+      {
+        "r": "1PE.5.2",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.13": {
     "text": "Men i Betel skal du ikke mere holde på å profetere; for det er en kongelig helligdom og et rikstempel.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.2.12",
+        "v": 5
+      },
+      {
+        "r": "1KI.12.32",
+        "v": 5
+      },
+      {
+        "r": "1KI.12.29",
+        "v": 4
+      },
+      {
+        "r": "1KI.13.1",
+        "v": 3
+      },
+      {
+        "r": "ACT.4.17-18",
+        "v": 2
+      },
+      {
+        "r": "ACT.5.28",
+        "v": 2
+      },
+      {
+        "r": "ACT.5.40",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.14": {
     "text": "Da svarte Amos Amasja således: Jeg er ikke nogen profet, heller ikke disippel av nogen profet; jeg er bare en fehyrde, som sanker frukten av morbærtreet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.1.1",
+        "v": 6
+      },
+      {
+        "r": "ZEC.13.5",
+        "v": 5
+      },
+      {
+        "r": "1CO.1.27",
+        "v": 4
+      },
+      {
+        "r": "2KI.2.5",
+        "v": 4
+      },
+      {
+        "r": "2KI.4.38",
+        "v": 4
+      },
+      {
+        "r": "2CH.19.2",
+        "v": 3
+      },
+      {
+        "r": "2KI.2.3",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.35",
+        "v": 2
+      },
+      {
+        "r": "2CH.20.34",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.1",
+        "v": 2
+      },
+      {
+        "r": "2KI.2.7",
+        "v": 2
+      },
+      {
+        "r": "2CH.16.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.15": {
     "text": "Men Herren tok mig fra hjorden, og Herren sa til mig: Gå og vær profet for mitt folk Israel!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.7.8",
+        "v": 6
+      },
+      {
+        "r": "EZK.2.3-4",
+        "v": 4
+      },
+      {
+        "r": "MAT.9.9",
+        "v": 3
+      },
+      {
+        "r": "JER.1.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.78.70-72",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.20",
+        "v": 3
+      },
+      {
+        "r": "MAT.4.18-19",
+        "v": 3
+      },
+      {
+        "r": "ACT.1.8",
+        "v": 3
+      },
+      {
+        "r": "LUK.24.46-48",
+        "v": 2
+      },
+      {
+        "r": "ACT.5.29-32",
+        "v": 2
+      },
+      {
+        "r": "ACT.4.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.16": {
     "text": "Så hør nu Herrens ord! Du sier: Du skal ikke profetere mot Israel og ikke tale mot Isaks hus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.20.46",
+        "v": 5
+      },
+      {
+        "r": "MIC.2.6",
+        "v": 4
+      },
+      {
+        "r": "EZK.21.2",
+        "v": 4
+      },
+      {
+        "r": "AMO.7.13",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.2",
+        "v": 3
+      },
+      {
+        "r": "JER.28.15-17",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.10",
+        "v": 2
+      },
+      {
+        "r": "1SA.15.16",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.17": {
     "text": "Derfor sier Herren så: Din hustru skal drive hor i byen, og dine sønner og døtre skal falle for sverdet, og din jord skal deles med målesnor, og du selv skal dø i et urent land, og Israel skal bli bortført fra sitt land.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.9.3",
+        "v": 7
+      },
+      {
+        "r": "2KI.17.6",
+        "v": 6
+      },
+      {
+        "r": "JER.28.16",
+        "v": 5
+      },
+      {
+        "r": "EZK.4.13",
+        "v": 5
+      },
+      {
+        "r": "HOS.4.13-14",
+        "v": 4
+      },
+      {
+        "r": "JER.29.31-32",
+        "v": 3
+      },
+      {
+        "r": "JER.29.21",
+        "v": 3
+      },
+      {
+        "r": "ISA.13.16",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.11",
+        "v": 3
+      },
+      {
+        "r": "JER.29.25",
+        "v": 2
+      },
+      {
+        "r": "LAM.5.11",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.33-39",
+        "v": 2
+      },
+      {
+        "r": "JER.20.6",
+        "v": 2
+      },
+      {
+        "r": "JER.36.27-32",
+        "v": 2
+      },
+      {
+        "r": "JER.28.12",
+        "v": 2
+      },
+      {
+        "r": "ZEC.14.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.55",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.1": {
     "text": "Så lot Herren, Israels Gud, mig se dette syn: Der stod en kurv med moden frukt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.7.1",
+        "v": 4
+      },
+      {
+        "r": "AMO.7.7",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.4",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.8.2": {
     "text": "Og han sa: Hvad ser du, Amos? Jeg svarte: En kurv med moden frukt. Da sa Herren til mig: Enden er kommet for mitt folk Israel; jeg vil ikke lenger bære over med dets synd.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.7.8",
+        "v": 7
+      },
+      {
+        "r": "LAM.4.18",
+        "v": 4
+      },
+      {
+        "r": "MIC.7.1",
+        "v": 3
+      },
+      {
+        "r": "JER.1.11-14",
+        "v": 3
+      },
+      {
+        "r": "EZK.7.2-3",
+        "v": 2
+      },
+      {
+        "r": "JER.24.1-3",
+        "v": 2
+      },
+      {
+        "r": "EZK.3.7",
+        "v": 2
+      },
+      {
+        "r": "EZK.8.12",
+        "v": 2
+      },
+      {
+        "r": "ZEC.5.2",
+        "v": 2
+      },
+      {
+        "r": "JER.5.31",
+        "v": 2
+      },
+      {
+        "r": "JER.40.10",
+        "v": 2
+      },
+      {
+        "r": "EZK.3.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.26.1-4",
+        "v": 2
+      },
+      {
+        "r": "EZK.12.23",
+        "v": 2
+      },
+      {
+        "r": "EZK.8.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.28.4",
+        "v": 2
+      },
+      {
+        "r": "ZEC.1.18-21",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.1-2",
+        "v": 2
+      },
+      {
+        "r": "ZEC.5.5-6",
+        "v": 2
+      },
+      {
+        "r": "EZK.7.6",
+        "v": 2
+      },
+      {
+        "r": "EZK.8.17",
+        "v": 2
+      },
+      {
+        "r": "EZK.29.8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.3": {
     "text": "Palassets sanger skal bli til klageskrik på den dag, sier Herren, Israels Gud; der ligger lik i mengde, overalt kastes de til side i stillhet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.23",
+        "v": 6
+      },
+      {
+        "r": "AMO.6.9-10",
+        "v": 6
+      },
+      {
+        "r": "JER.9.21-22",
+        "v": 4
+      },
+      {
+        "r": "LEV.10.3",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.16",
+        "v": 3
+      },
+      {
+        "r": "JOL.1.11",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.5",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.13",
+        "v": 2
+      },
+      {
+        "r": "JER.22.18",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.37.36",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.10",
+        "v": 2
+      },
+      {
+        "r": "ZEC.11.1-3",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.5-6",
+        "v": 2
+      },
+      {
+        "r": "NAM.3.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.39.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.8.4": {
     "text": "Hør dette, I som higer efter å opsluke den fattige og gjøre ende på de saktmodige i landet,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.30.14",
+        "v": 8
+      },
+      {
+        "r": "AMO.5.11",
+        "v": 6
+      },
+      {
+        "r": "PSA.14.4",
+        "v": 6
+      },
+      {
+        "r": "ISA.32.6-7",
+        "v": 5
+      },
+      {
+        "r": "PSA.12.5",
+        "v": 4
+      },
+      {
+        "r": "PSA.140.12",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.6-7",
+        "v": 3
+      },
+      {
+        "r": "MAT.23.13",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.6",
+        "v": 2
+      },
+      {
+        "r": "JER.5.21",
+        "v": 1
+      },
+      {
+        "r": "1KI.22.19",
+        "v": 1
+      },
+      {
+        "r": "ISA.1.10",
+        "v": 0
+      },
+      {
+        "r": "AMO.7.16",
+        "v": 0
+      },
+      {
+        "r": "PSA.56.1",
+        "v": 0
+      },
+      {
+        "r": "JER.28.15",
+        "v": 0
+      },
+      {
+        "r": "ISA.28.14",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "AMO.8.5": {
     "text": "I som sier: Når er nymånedagen slutt, så vi kan selge korn, og sabbaten, så vi kan åpne kornbodene og gjøre efaen liten og sekelen stor og forfalske vekten",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.13.15-21",
+        "v": 8
+      },
+      {
+        "r": "MIC.6.10-11",
+        "v": 7
+      },
+      {
+        "r": "HOS.12.7",
+        "v": 7
+      },
+      {
+        "r": "DEU.25.13-16",
+        "v": 6
+      },
+      {
+        "r": "LEV.19.36",
+        "v": 5
+      },
+      {
+        "r": "PRO.20.23",
+        "v": 4
+      },
+      {
+        "r": "ISA.1.13",
+        "v": 4
+      },
+      {
+        "r": "EXO.20.8-10",
+        "v": 4
+      },
+      {
+        "r": "PRO.11.1",
+        "v": 4
+      },
+      {
+        "r": "PRO.16.11",
+        "v": 4
+      },
+      {
+        "r": "2KI.4.23",
+        "v": 3
+      },
+      {
+        "r": "NUM.10.10",
+        "v": 3
+      },
+      {
+        "r": "EZK.45.10-12",
+        "v": 3
+      },
+      {
+        "r": "PSA.81.3-4",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.13",
+        "v": 2
+      },
+      {
+        "r": "NUM.28.11-15",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.13",
+        "v": 1
+      },
+      {
+        "r": "COL.2.16",
+        "v": 1
+      },
+      {
+        "r": "ROM.8.6-7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.6": {
     "text": "og kjøpe de ringe for penger og den fattige for et par sko og selge avfall av korn?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.2.6",
+        "v": 6
+      },
+      {
+        "r": "NEH.5.8",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.3",
+        "v": 2
+      },
+      {
+        "r": "LEV.25.39-42",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.5.1-5",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.8.7": {
     "text": "Herren har svoret ved Jakobs stolthet: Jeg skal aldri glemme alt det de har gjort.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.8",
+        "v": 8
+      },
+      {
+        "r": "HOS.9.9",
+        "v": 7
+      },
+      {
+        "r": "HOS.8.13",
+        "v": 6
+      },
+      {
+        "r": "HOS.7.2",
+        "v": 5
+      },
+      {
+        "r": "PSA.10.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.47.4",
+        "v": 3
+      },
+      {
+        "r": "JER.17.1",
+        "v": 3
+      },
+      {
+        "r": "ISA.43.25",
+        "v": 3
+      },
+      {
+        "r": "JER.31.34",
+        "v": 3
+      },
+      {
+        "r": "DEU.33.26-29",
+        "v": 3
+      },
+      {
+        "r": "PSA.68.34",
+        "v": 2
+      },
+      {
+        "r": "LUK.2.32",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 1
+      },
+      {
+        "r": "1SA.15.2-3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.8": {
     "text": "Må ikke derfor jorden skjelve, og alle som bor på den, sørge? Må ikke hele jorden heve sig som Nilen, stige og falle som Egyptens elv?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.9.5",
+        "v": 9
+      },
+      {
+        "r": "HOS.4.3",
+        "v": 6
+      },
+      {
+        "r": "JER.46.8",
+        "v": 6
+      },
+      {
+        "r": "PSA.18.7",
+        "v": 5
+      },
+      {
+        "r": "ISA.5.25",
+        "v": 4
+      },
+      {
+        "r": "ISA.24.19-20",
+        "v": 3
+      },
+      {
+        "r": "JER.4.24-26",
+        "v": 3
+      },
+      {
+        "r": "NAM.1.5-6",
+        "v": 3
+      },
+      {
+        "r": "HAG.2.6-7",
+        "v": 3
+      },
+      {
+        "r": "DAN.9.26",
+        "v": 3
+      },
+      {
+        "r": "MIC.1.3-5",
+        "v": 3
+      },
+      {
+        "r": "AMO.8.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.114.3-7",
+        "v": 3
+      },
+      {
+        "r": "MAT.24.30",
+        "v": 3
+      },
+      {
+        "r": "ISA.8.7-8",
+        "v": 3
+      },
+      {
+        "r": "HOS.10.5",
+        "v": 3
+      },
+      {
+        "r": "JER.12.4",
+        "v": 3
+      },
+      {
+        "r": "HAB.3.5-8",
+        "v": 2
+      },
+      {
+        "r": "PSA.60.2-3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.9": {
     "text": "Og det skal skje på den dag, sier Herren, Israels Gud, at jeg vil la solen gå ned om middagen og gjøre det mørkt på jorden ved høilys dag.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.15.33",
+        "v": 10
+      },
+      {
+        "r": "MAT.27.45",
+        "v": 9
+      },
+      {
+        "r": "LUK.23.44",
+        "v": 8
+      },
+      {
+        "r": "JER.15.9",
+        "v": 8
+      },
+      {
+        "r": "MAT.24.29",
+        "v": 7
+      },
+      {
+        "r": "MIC.3.6",
+        "v": 7
+      },
+      {
+        "r": "AMO.5.8",
+        "v": 6
+      },
+      {
+        "r": "ISA.59.9-10",
+        "v": 6
+      },
+      {
+        "r": "JOB.5.14",
+        "v": 5
+      },
+      {
+        "r": "ISA.13.10",
+        "v": 5
+      },
+      {
+        "r": "AMO.4.13",
+        "v": 4
+      },
+      {
+        "r": "REV.6.12",
+        "v": 4
+      },
+      {
+        "r": "ISA.29.9-10",
+        "v": 3
+      },
+      {
+        "r": "REV.8.12",
+        "v": 3
+      },
+      {
+        "r": "EXO.10.21-23",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.8.10": {
     "text": "Og jeg vil omskifte eders høitider til sorg og alle eders sanger til klage, jeg vil legge sekk om alle lender og la hvert hode bli skallet; jeg vil gjøre det så som når en sørger over sin eneste sønn, og la enden bli som en ulykkens dag.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.6.26",
+        "v": 7
+      },
+      {
+        "r": "ZEC.12.10",
+        "v": 6
+      },
+      {
+        "r": "JOB.20.23",
+        "v": 4
+      },
+      {
+        "r": "JER.48.37",
+        "v": 4
+      },
+      {
+        "r": "EZK.7.18",
+        "v": 4
+      },
+      {
+        "r": "HOS.2.11",
+        "v": 3
+      },
+      {
+        "r": "LUK.7.12-13",
+        "v": 3
+      },
+      {
+        "r": "ISA.15.2-3",
+        "v": 3
+      },
+      {
+        "r": "EZK.27.30-31",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.12-14",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.10",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.28-31",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.4-7",
+        "v": 2
+      },
+      {
+        "r": "DEU.16.14",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.4-6",
+        "v": 2
+      },
+      {
+        "r": "ISA.21.3-4",
+        "v": 2
+      },
+      {
+        "r": "JOB.3.5",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.23",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.36-38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.8.11": {
     "text": "Se, dager kommer, sier Herren, Israels Gud, da jeg sender hunger i landet, ikke hunger efter brød og ikke tørst efter vann, men efter å høre Herrens ord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.3.1",
+        "v": 51
+      },
+      {
+        "r": "PSA.74.9",
+        "v": 49
+      },
+      {
+        "r": "2CH.15.3",
+        "v": 47
+      },
+      {
+        "r": "1SA.28.6",
+        "v": 39
+      },
+      {
+        "r": "EZK.7.26",
+        "v": 28
+      },
+      {
+        "r": "MAT.9.36",
+        "v": 24
+      },
+      {
+        "r": "MIC.3.6",
+        "v": 23
+      },
+      {
+        "r": "1SA.28.15",
+        "v": 22
+      },
+      {
+        "r": "ISA.30.20-21",
+        "v": 19
+      },
+      {
+        "r": "ISA.5.6",
+        "v": 19
+      }
+    ],
     "section": null
   },
   "AMO.8.12": {
     "text": "Da skal de vanke om fra hav til hav og fra nord til øst; de skal flakke omkring og søke efter Herrens ord, men de skal ikke finne det.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.11.7-10",
+        "v": 5
+      },
+      {
+        "r": "MAT.12.30",
+        "v": 2
+      },
+      {
+        "r": "DAN.12.4",
+        "v": 2
+      },
+      {
+        "r": "PRO.14.6",
+        "v": 2
+      },
+      {
+        "r": "MAT.24.23-26",
+        "v": 2
+      },
+      {
+        "r": "2TI.3.6-7",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.31-33",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.13": {
     "text": "På den dag skal de fagre jomfruer og de unge menn vansmekte av tørst,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.2.3",
+        "v": 4
+      },
+      {
+        "r": "LAM.2.21",
+        "v": 3
+      },
+      {
+        "r": "LAM.1.18",
+        "v": 3
+      },
+      {
+        "r": "ISA.41.17-20",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.30",
+        "v": 2
+      },
+      {
+        "r": "ZEC.9.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.1",
+        "v": 2
+      },
+      {
+        "r": "JER.48.18",
+        "v": 2
+      },
+      {
+        "r": "LAM.2.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.144.12-15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.14": {
     "text": "de som sverger ved Samarias synd {avgud} og sier: Så sant din gud lever, Dan, og så sant han lever han de dyrker i Be'rseba! Og de skal falle og ikke reise sig mere.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.5",
+        "v": 6
+      },
+      {
+        "r": "1KI.12.28-29",
+        "v": 5
+      },
+      {
+        "r": "DEU.9.21",
+        "v": 4
+      },
+      {
+        "r": "ACT.9.2",
+        "v": 3
+      },
+      {
+        "r": "HOS.4.15",
+        "v": 2
+      },
+      {
+        "r": "ACT.18.25",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.14",
+        "v": 2
+      },
+      {
+        "r": "2KI.10.29",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.2",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.140.10",
+        "v": 2
+      },
+      {
+        "r": "1KI.14.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.16",
+        "v": 2
+      },
+      {
+        "r": "ACT.19.23",
+        "v": 2
+      },
+      {
+        "r": "ACT.19.9",
+        "v": 2
+      },
+      {
+        "r": "1KI.13.22-34",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.17",
+        "v": 2
+      },
+      {
+        "r": "1KI.16.24",
+        "v": 2
+      },
+      {
+        "r": "JER.25.27",
+        "v": 2
+      },
+      {
+        "r": "ZEP.1.5",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.1",
+        "v": 2
+      },
+      {
+        "r": "HOS.8.5-6",
+        "v": 2
+      },
+      {
+        "r": "PSA.36.12",
+        "v": 2
+      },
+      {
+        "r": "1KI.12.32",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.2",
+        "v": 2
+      },
+      {
+        "r": "JER.51.64",
+        "v": 2
+      },
+      {
+        "r": "DEU.33.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.1": {
     "text": "Jeg så Herren stå ved alteret, og han sa: Slå til søilehodene, så dørtersklene skjelver, og knus dem, så de faller ned over hodet på dem alle! Den siste levning av dem vil jeg drepe med sverdet; ingen av dem skal kunne undfly, ingen av dem komme unda.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.68.21",
+        "v": 5
+      },
+      {
+        "r": "ISA.6.3-4",
+        "v": 4
+      },
+      {
+        "r": "ISA.6.1",
+        "v": 4
+      },
+      {
+        "r": "REV.1.17",
+        "v": 4
+      },
+      {
+        "r": "HAB.3.13",
+        "v": 4
+      },
+      {
+        "r": "JHN.1.18",
+        "v": 4
+      },
+      {
+        "r": "AMO.3.14",
+        "v": 4
+      },
+      {
+        "r": "JHN.1.32",
+        "v": 3
+      },
+      {
+        "r": "EZK.9.2",
+        "v": 3
+      },
+      {
+        "r": "EZK.10.4",
+        "v": 3
+      },
+      {
+        "r": "JER.48.44",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.16",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.14-15",
+        "v": 3
+      },
+      {
+        "r": "ZEC.11.1-2",
+        "v": 3
+      },
+      {
+        "r": "EZK.1.28",
+        "v": 3
+      },
+      {
+        "r": "2CH.18.18",
+        "v": 3
+      },
+      {
+        "r": "ZEP.2.14",
+        "v": 3
+      },
+      {
+        "r": "ACT.26.13",
+        "v": 2
+      },
+      {
+        "r": "ISA.24.17-18",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.2": {
     "text": "Om de bryter sig inn i dødsriket, så skal min hånd hente dem derfra, og om de farer op til himmelen, skal jeg styrte dem ned derfra;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.139.7-10",
+        "v": 5
+      },
+      {
+        "r": "JER.51.53",
+        "v": 5
+      },
+      {
+        "r": "OBA.1.4",
+        "v": 3
+      },
+      {
+        "r": "LUK.10.18",
+        "v": 2
+      },
+      {
+        "r": "JOB.26.6",
+        "v": 2
+      },
+      {
+        "r": "EZK.28.13-16",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.2.19",
+        "v": 2
+      },
+      {
+        "r": "JER.49.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.13-16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.3": {
     "text": "om de skjuler sig på Karmels topp, skal jeg lete dem op og hente dem derfra, og om de gjemmer sig for mine øine på havets bunn, skal jeg kalle ormen frem, og den skal bite dem,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.16.16",
+        "v": 5
+      },
+      {
+        "r": "JOB.34.22",
+        "v": 4
+      },
+      {
+        "r": "JER.23.23-24",
+        "v": 4
+      },
+      {
+        "r": "ISA.27.1",
+        "v": 4
+      },
+      {
+        "r": "PSA.139.9-11",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.2",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.9.4": {
     "text": "og om de føres i fangenskap av sine fiender, skal jeg der byde sverdet å slå dem ihjel; jeg skal la mitt øie hvile på dem, til det onde og ikke til det gode.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LEV.26.33",
+        "v": 5
+      },
+      {
+        "r": "JER.21.10",
+        "v": 4
+      },
+      {
+        "r": "JER.44.11",
+        "v": 4
+      },
+      {
+        "r": "EZK.5.12",
+        "v": 3
+      },
+      {
+        "r": "LEV.17.10",
+        "v": 3
+      },
+      {
+        "r": "JER.39.16",
+        "v": 3
+      },
+      {
+        "r": "DEU.28.63-65",
+        "v": 3
+      },
+      {
+        "r": "ZEC.13.8-9",
+        "v": 2
+      },
+      {
+        "r": "2CH.16.9",
+        "v": 2
+      },
+      {
+        "r": "EZK.5.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.34.15-16",
+        "v": 2
+      },
+      {
+        "r": "JER.24.6",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.36-39",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.5": {
     "text": "Og Herren, Israels Gud, hærskarenes Gud, han rører ved jorden, da smelter den, og alle som bor på den, sørger, og hele jorden hever sig som Nilen og faller som Egyptens elv,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.8.8",
+        "v": 6
+      },
+      {
+        "r": "PSA.46.6",
+        "v": 4
+      },
+      {
+        "r": "MIC.1.3-4",
+        "v": 3
+      },
+      {
+        "r": "REV.20.11",
+        "v": 3
+      },
+      {
+        "r": "ISA.64.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.32.6",
+        "v": 2
+      },
+      {
+        "r": "MAT.7.27",
+        "v": 2
+      },
+      {
+        "r": "HOS.4.3",
+        "v": 2
+      },
+      {
+        "r": "HAB.3.10",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.93.3-4",
+        "v": 2
+      },
+      {
+        "r": "JER.12.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.7-8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.6": {
     "text": "Han har bygget sine høie saler i himmelen og grunnfestet sin hvelving over jorden, han kaller på havets vann og øser dem ut over jorden; Herren er hans navn.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.8",
+        "v": 8
+      },
+      {
+        "r": "PSA.104.3",
+        "v": 8
+      },
+      {
+        "r": "AMO.4.13",
+        "v": 7
+      },
+      {
+        "r": "PSA.104.13",
+        "v": 5
+      },
+      {
+        "r": "JER.5.22",
+        "v": 4
+      },
+      {
+        "r": "GEN.2.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.104.5-6",
+        "v": 3
+      },
+      {
+        "r": "GEN.7.11-19",
+        "v": 3
+      },
+      {
+        "r": "EXO.3.14-15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.9.7": {
     "text": "Er I mere verd for mig enn etiopernes barn, I Israels barn? sier Herren; har jeg ikke ført Israel op fra Egyptens land og filistrene fra Kaftor og syrerne fra Kir?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.47.4",
+        "v": 6
+      },
+      {
+        "r": "DEU.2.23",
+        "v": 5
+      },
+      {
+        "r": "2KI.16.9",
+        "v": 5
+      },
+      {
+        "r": "AMO.2.10",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.5",
+        "v": 4
+      },
+      {
+        "r": "JER.9.25-26",
+        "v": 4
+      },
+      {
+        "r": "JER.13.23",
+        "v": 3
+      },
+      {
+        "r": "ISA.20.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.6",
+        "v": 3
+      },
+      {
+        "r": "HOS.12.13",
+        "v": 3
+      },
+      {
+        "r": "EXO.12.51",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.8": {
     "text": "Se, Herrens, Israels Guds øine er vendt mot dette syndige rike, og jeg vil utslette det av jorden; men jeg vil ikke aldeles utslette Jakobs hus, sier Herren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.30.11",
+        "v": 5
+      },
+      {
+        "r": "AMO.9.4",
+        "v": 4
+      },
+      {
+        "r": "JER.44.27",
+        "v": 4
+      },
+      {
+        "r": "JER.5.10",
+        "v": 3
+      },
+      {
+        "r": "PRO.5.21",
+        "v": 2
+      },
+      {
+        "r": "PSA.11.4-6",
+        "v": 2
+      },
+      {
+        "r": "JER.33.24-26",
+        "v": 2
+      },
+      {
+        "r": "GEN.7.4",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.32",
+        "v": 2
+      },
+      {
+        "r": "JER.31.35-36",
+        "v": 2
+      },
+      {
+        "r": "ISA.27.7-8",
+        "v": 2
+      },
+      {
+        "r": "1KI.13.34",
+        "v": 2
+      },
+      {
+        "r": "HOS.1.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.15.3",
+        "v": 2
+      },
+      {
+        "r": "GEN.6.7",
+        "v": 2
+      },
+      {
+        "r": "DEU.4.31",
+        "v": 2
+      },
+      {
+        "r": "DEU.6.15",
+        "v": 2
+      },
+      {
+        "r": "ROM.11.28-29",
+        "v": 1
+      },
+      {
+        "r": "OBA.1.16-17",
+        "v": 1
+      },
+      {
+        "r": "ROM.11.1-7",
+        "v": 1
+      },
+      {
+        "r": "HOS.13.15-16",
+        "v": 1
+      },
+      {
+        "r": "HOS.9.11-17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.9": {
     "text": "For se, jeg byder at Israels ætt skal rystes blandt alle folkeslag, likesom en ryster med et sold, og ikke et korn faller til jorden.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.22.31",
+        "v": 5
+      },
+      {
+        "r": "DEU.28.64",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.33",
+        "v": 2
+      },
+      {
+        "r": "ISA.30.28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.10": {
     "text": "For mitt sverd skal de dø alle syndere blandt mitt folk, de som sier: Ulykken skal ikke nå oss eller kommer over oss.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.3",
+        "v": 7
+      },
+      {
+        "r": "MAT.13.49-50",
+        "v": 4
+      },
+      {
+        "r": "ISA.33.14",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.12",
+        "v": 3
+      },
+      {
+        "r": "JER.18.18",
+        "v": 3
+      },
+      {
+        "r": "MAT.3.10-12",
+        "v": 3
+      },
+      {
+        "r": "MAL.3.2-5",
+        "v": 3
+      },
+      {
+        "r": "MAL.4.1",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.10.11",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.11-13",
+        "v": 3
+      },
+      {
+        "r": "ISA.28.14-15",
+        "v": 3
+      },
+      {
+        "r": "EZK.34.16-17",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.19",
+        "v": 3
+      },
+      {
+        "r": "ECC.8.11",
+        "v": 3
+      },
+      {
+        "r": "MAT.13.41-42",
+        "v": 3
+      },
+      {
+        "r": "ZEC.13.8-9",
+        "v": 3
+      },
+      {
+        "r": "MAL.3.15",
+        "v": 3
+      },
+      {
+        "r": "EZK.20.38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.11": {
     "text": "På den dag vil jeg reise op igjen Davids falne hytte, og jeg vil mure igjen dens revner og reise op det som er nedbrutt av den, og jeg vil bygge den op igjen som i fordums dager,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.15.15-17",
+        "v": 22
+      },
+      {
+        "r": "JER.33.14-16",
+        "v": 10
+      },
+      {
+        "r": "ISA.16.5",
+        "v": 8
+      },
+      {
+        "r": "JER.23.5-6",
+        "v": 7
+      },
+      {
+        "r": "PSA.80.12",
+        "v": 5
+      },
+      {
+        "r": "ISA.63.11",
+        "v": 4
+      },
+      {
+        "r": "EZK.17.24",
+        "v": 4
+      },
+      {
+        "r": "JER.46.26",
+        "v": 4
+      },
+      {
+        "r": "ISA.5.5",
+        "v": 3
+      },
+      {
+        "r": "EZK.36.11",
+        "v": 3
+      },
+      {
+        "r": "JER.33.20-26",
+        "v": 3
+      },
+      {
+        "r": "HOS.3.5",
+        "v": 3
+      },
+      {
+        "r": "EZK.34.23-24",
+        "v": 3
+      },
+      {
+        "r": "ISA.11.1-10",
+        "v": 3
+      },
+      {
+        "r": "LAM.5.21",
+        "v": 3
+      },
+      {
+        "r": "JOB.1.10",
+        "v": 3
+      },
+      {
+        "r": "LUK.1.31-33",
+        "v": 3
+      },
+      {
+        "r": "EZK.37.24-25",
+        "v": 3
+      },
+      {
+        "r": "ISA.9.6-7",
+        "v": 3
+      },
+      {
+        "r": "MIC.5.2",
+        "v": 2
+      },
+      {
+        "r": "MIC.7.14",
+        "v": 2
+      },
+      {
+        "r": "EZK.21.25-27",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.30-36",
+        "v": 2
+      },
+      {
+        "r": "JER.30.9",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.69-70",
+        "v": 2
+      },
+      {
+        "r": "PSA.143.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.12": {
     "text": "så at de får ta i eie det som er igjen av Edom, og alle de hedningefolk som kalles med mitt navn, sier Herren, han som gjør dette.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.43.7",
+        "v": 7
+      },
+      {
+        "r": "ISA.65.1",
+        "v": 6
+      },
+      {
+        "r": "ACT.15.17",
+        "v": 6
+      },
+      {
+        "r": "ISA.63.19",
+        "v": 4
+      },
+      {
+        "r": "DAN.9.18-19",
+        "v": 4
+      },
+      {
+        "r": "JER.14.9",
+        "v": 4
+      },
+      {
+        "r": "NUM.24.17-18",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.1-2",
+        "v": 3
+      },
+      {
+        "r": "GEN.27.37",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.4",
+        "v": 2
+      },
+      {
+        "r": "JER.15.16",
+        "v": 2
+      },
+      {
+        "r": "PSA.60.8",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.29",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.14",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.8",
+        "v": 2
+      },
+      {
+        "r": "OBA.1.18-21",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.13": {
     "text": "Se, dager kommer, sier Herren, da den som pløier, skal nå den som høster, og den som trår vindruer, skal nå den som kaster ut sæden, og fjellene skal dryppe av most, og alle haugene skal flyte over.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.3.18",
+        "v": 16
+      },
+      {
+        "r": "JHN.4.35",
+        "v": 14
+      },
+      {
+        "r": "LEV.26.5",
+        "v": 13
+      },
+      {
+        "r": "ISA.55.13",
+        "v": 13
+      },
+      {
+        "r": "ISA.35.1-2",
+        "v": 12
+      },
+      {
+        "r": "EZK.36.35",
+        "v": 11
+      },
+      {
+        "r": "HOS.2.21-23",
+        "v": 11
+      },
+      {
+        "r": "JOL.3.20",
+        "v": 7
+      },
+      {
+        "r": "JDG.5.5",
+        "v": 6
+      },
+      {
+        "r": "PSA.97.5",
+        "v": 6
+      },
+      {
+        "r": "AMO.9.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.14": {
     "text": "Og jeg vil gjøre ende på mitt folk Israels fangenskap, og de skal bygge op igjen de ødelagte byer og bo der og plante vingårder og drikke deres vin og dyrke op haver og ete deres frukt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.61.4",
+        "v": 10
+      },
+      {
+        "r": "JER.30.3",
+        "v": 8
+      },
+      {
+        "r": "JER.30.18",
+        "v": 7
+      },
+      {
+        "r": "EZK.28.26",
+        "v": 6
+      },
+      {
+        "r": "JER.31.28",
+        "v": 5
+      },
+      {
+        "r": "ISA.65.21",
+        "v": 4
+      },
+      {
+        "r": "PSA.53.6",
+        "v": 4
+      },
+      {
+        "r": "EZK.37.25-28",
+        "v": 3
+      },
+      {
+        "r": "EZK.16.53",
+        "v": 2
+      },
+      {
+        "r": "JER.31.38-40",
+        "v": 2
+      },
+      {
+        "r": "EZK.39.25",
+        "v": 2
+      },
+      {
+        "r": "EZK.36.33-36",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.8-9",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "JER.31.23",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.11",
+        "v": 1
+      },
+      {
+        "r": "ZEP.1.13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.15": {
     "text": "Og jeg vil plante dem i deres land, og de skal aldri mere rykkes op av sitt land, det som jeg har gitt dem, sier Herren din Gud.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.24.6",
+        "v": 13
+      },
+      {
+        "r": "EZK.37.25",
+        "v": 10
+      },
+      {
+        "r": "ISA.60.21",
+        "v": 9
+      },
+      {
+        "r": "EZK.34.28",
+        "v": 8
+      },
+      {
+        "r": "JOL.3.20",
+        "v": 7
+      },
+      {
+        "r": "JER.32.41",
+        "v": 6
+      },
+      {
+        "r": "MIC.4.4",
+        "v": 5
+      }
+    ],
     "section": null
   }
 }

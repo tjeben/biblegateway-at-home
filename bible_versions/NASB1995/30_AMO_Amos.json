@@ -2,583 +2,6308 @@
   "AMO.1.1": {
     "text": "The words of Amos, who was among the sheepherders from Tekoa, which he envisioned in visions concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam son of Joash, king of Israel, two years before the earthquake.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.14.5",
+        "v": 10
+      },
+      {
+        "r": "2CH.26.1-23",
+        "v": 5
+      },
+      {
+        "r": "2SA.14.2",
+        "v": 4
+      },
+      {
+        "r": "1KI.19.19",
+        "v": 4
+      },
+      {
+        "r": "2CH.20.20",
+        "v": 4
+      },
+      {
+        "r": "AMO.7.14",
+        "v": 4
+      },
+      {
+        "r": "2CH.11.6",
+        "v": 4
+      },
+      {
+        "r": "2KI.14.23-15.2",
+        "v": 3
+      },
+      {
+        "r": "JER.1.1",
+        "v": 3
+      },
+      {
+        "r": "JER.6.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.78.70-72",
+        "v": 3
+      },
+      {
+        "r": "ISA.1.1",
+        "v": 3
+      },
+      {
+        "r": "HOS.1.1",
+        "v": 2
+      },
+      {
+        "r": "2KI.14.21",
+        "v": 2
+      },
+      {
+        "r": "1CO.1.27",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.9-11",
+        "v": 2
+      },
+      {
+        "r": "MAT.1.8-9",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.1",
+        "v": 2
+      },
+      {
+        "r": "JER.7.27",
+        "v": 0
+      }
+    ],
     "section": "Judgment on Neighbor Nations"
   },
   "AMO.1.2": {
     "text": "He said, “The Lord roars from Zion And from Jerusalem He utters His voice; And the shepherds’ pasture grounds mourn, And the summit of Carmel dries up.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.3.16",
+        "v": 10
+      },
+      {
+        "r": "JER.25.30",
+        "v": 6
+      },
+      {
+        "r": "ISA.42.13",
+        "v": 5
+      },
+      {
+        "r": "AMO.9.3",
+        "v": 5
+      },
+      {
+        "r": "JER.12.4",
+        "v": 4
+      },
+      {
+        "r": "NAM.1.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.35.2",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.7-8",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.16-18",
+        "v": 2
+      },
+      {
+        "r": "JER.50.19",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.11",
+        "v": 2
+      },
+      {
+        "r": "JER.14.2",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.7-8",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.9-13",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.8",
+        "v": 2
+      },
+      {
+        "r": "PRO.20.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.33.9",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.1.3": {
     "text": "Thus says the Lord, “For three transgressions of Damascus and for four I will not revoke its punishment, Because they threshed Gilead with implements of sharp iron.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.8.4",
+        "v": 6
+      },
+      {
+        "r": "2KI.10.32-33",
+        "v": 6
+      },
+      {
+        "r": "2KI.8.12",
+        "v": 6
+      },
+      {
+        "r": "AMO.2.6",
+        "v": 6
+      },
+      {
+        "r": "AMO.1.9",
+        "v": 6
+      },
+      {
+        "r": "AMO.1.13",
+        "v": 5
+      },
+      {
+        "r": "AMO.1.6",
+        "v": 5
+      },
+      {
+        "r": "JER.49.23-27",
+        "v": 5
+      },
+      {
+        "r": "AMO.2.1",
+        "v": 5
+      },
+      {
+        "r": "ZEC.9.1",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.11",
+        "v": 4
+      },
+      {
+        "r": "AMO.2.4",
+        "v": 4
+      },
+      {
+        "r": "ISA.17.1-3",
+        "v": 4
+      },
+      {
+        "r": "JOB.19.3",
+        "v": 3
+      },
+      {
+        "r": "ISA.7.8",
+        "v": 3
+      },
+      {
+        "r": "JOB.5.19",
+        "v": 3
+      },
+      {
+        "r": "2KI.13.7",
+        "v": 3
+      },
+      {
+        "r": "1KI.19.17",
+        "v": 3
+      },
+      {
+        "r": "ECC.11.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.41.15",
+        "v": 3
+      },
+      {
+        "r": "2KI.13.3",
+        "v": 3
+      },
+      {
+        "r": "PRO.6.16",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.1.4": {
     "text": "So I will send fire upon the house of Hazael And it will consume the citadels of Ben-hadad.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.49.27",
+        "v": 4
+      },
+      {
+        "r": "2KI.13.3",
+        "v": 3
+      },
+      {
+        "r": "2KI.8.7-15",
+        "v": 3
+      },
+      {
+        "r": "JER.17.27",
+        "v": 3
+      },
+      {
+        "r": "2KI.6.24",
+        "v": 3
+      },
+      {
+        "r": "2KI.13.25",
+        "v": 3
+      },
+      {
+        "r": "HOS.8.14",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.7",
+        "v": 2
+      },
+      {
+        "r": "2CH.16.2",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.10",
+        "v": 2
+      },
+      {
+        "r": "1KI.19.15",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.19-20",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.57",
+        "v": 2
+      },
+      {
+        "r": "EZK.39.6",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.2",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.1-22",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.12",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.14",
+        "v": 2
+      },
+      {
+        "r": "EZK.30.8",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.5": {
     "text": "I will also break the gate bar of Damascus, And cut off the inhabitant from the valley of Aven, And him who holds the scepter, from Beth-eden; So the people of Aram will go exiled to Kir,” Says the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.16.9",
+        "v": 8
+      },
+      {
+        "r": "AMO.9.7",
+        "v": 6
+      },
+      {
+        "r": "JER.51.30",
+        "v": 5
+      },
+      {
+        "r": "ISA.43.14",
+        "v": 3
+      },
+      {
+        "r": "LAM.2.9",
+        "v": 3
+      },
+      {
+        "r": "NAM.3.13",
+        "v": 2
+      },
+      {
+        "r": "JER.50.36",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.6": {
     "text": "Thus says the Lord, “For three transgressions of Gaza and for four I will not revoke its punishment, Because they deported an entire population To deliver it up to Edom.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.1.11",
+        "v": 8
+      },
+      {
+        "r": "2CH.28.18",
+        "v": 8
+      },
+      {
+        "r": "OBA.1.11",
+        "v": 7
+      },
+      {
+        "r": "1SA.6.17",
+        "v": 6
+      },
+      {
+        "r": "AMO.1.9",
+        "v": 6
+      },
+      {
+        "r": "ZEP.2.4-7",
+        "v": 5
+      },
+      {
+        "r": "JER.47.4-5",
+        "v": 5
+      },
+      {
+        "r": "EZK.35.5",
+        "v": 5
+      },
+      {
+        "r": "ISA.14.29-31",
+        "v": 5
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 5
+      },
+      {
+        "r": "EZK.25.15-16",
+        "v": 4
+      },
+      {
+        "r": "ZEC.9.5",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.3",
+        "v": 4
+      },
+      {
+        "r": "JER.47.1",
+        "v": 4
+      },
+      {
+        "r": "ACT.8.26",
+        "v": 2
+      },
+      {
+        "r": "2CH.21.16-17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.7": {
     "text": "So I will send fire upon the wall of Gaza And it will consume her citadels.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.2.4",
+        "v": 5
+      },
+      {
+        "r": "JER.47.1",
+        "v": 4
+      },
+      {
+        "r": "2KI.18.8",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.19",
+        "v": 3
+      },
+      {
+        "r": "JER.25.18-20",
+        "v": 3
+      },
+      {
+        "r": "PSA.75.7-8",
+        "v": 3
+      },
+      {
+        "r": "PSA.94.1-5",
+        "v": 3
+      },
+      {
+        "r": "2CH.26.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.4",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.41-43",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.35",
+        "v": 3
+      },
+      {
+        "r": "ZEC.9.5-7",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.1.8": {
     "text": "I will also cut off the inhabitant from Ashdod, And him who holds the scepter, from Ashkelon; I will even unleash My power upon Ekron, And the remnant of the Philistines will perish,” Says the Lord God.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.25.16",
+        "v": 9
+      },
+      {
+        "r": "ISA.14.29-31",
+        "v": 6
+      },
+      {
+        "r": "ZEP.2.4-7",
+        "v": 5
+      },
+      {
+        "r": "JER.47.4-5",
+        "v": 5
+      },
+      {
+        "r": "PSA.81.14",
+        "v": 4
+      },
+      {
+        "r": "ISA.20.1",
+        "v": 4
+      },
+      {
+        "r": "2CH.26.6",
+        "v": 4
+      },
+      {
+        "r": "ZEC.9.6",
+        "v": 4
+      },
+      {
+        "r": "AMO.3.9",
+        "v": 3
+      },
+      {
+        "r": "ZEC.13.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.1.25",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.1.9": {
     "text": "Thus says the Lord, “For three transgressions of Tyre and for four I will not revoke its punishment, Because they delivered up an entire population to Edom And did not remember the covenant of brotherhood.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.9.11-14",
+        "v": 6
+      },
+      {
+        "r": "ISA.23.1-18",
+        "v": 5
+      },
+      {
+        "r": "JOL.3.4-8",
+        "v": 4
+      },
+      {
+        "r": "ZEC.9.2-4",
+        "v": 4
+      },
+      {
+        "r": "2CH.2.8-16",
+        "v": 3
+      },
+      {
+        "r": "2SA.5.11",
+        "v": 3
+      },
+      {
+        "r": "EZK.26.1-21",
+        "v": 3
+      },
+      {
+        "r": "JER.25.22",
+        "v": 2
+      },
+      {
+        "r": "MAT.11.21",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.6",
+        "v": 2
+      },
+      {
+        "r": "1KI.5.1-11",
+        "v": 2
+      },
+      {
+        "r": "JER.47.4",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.10": {
     "text": "So I will send fire upon the wall of Tyre And it will consume her citadels.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.9.4",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.7",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.4",
+        "v": 2
+      },
+      {
+        "r": "EZK.26.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.11": {
     "text": "Thus says the Lord, “For three transgressions of Edom and for four I will not revoke its punishment, Because he pursued his brother with the sword, While he stifled his compassion; His anger also tore continually, And he maintained his fury forever.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.25.12-14",
+        "v": 10
+      },
+      {
+        "r": "NUM.20.14-21",
+        "v": 7
+      },
+      {
+        "r": "2CH.28.17",
+        "v": 7
+      },
+      {
+        "r": "PSA.137.7",
+        "v": 6
+      },
+      {
+        "r": "MAL.1.4",
+        "v": 6
+      },
+      {
+        "r": "JOL.3.19",
+        "v": 6
+      },
+      {
+        "r": "JER.49.7-22",
+        "v": 6
+      },
+      {
+        "r": "EZK.35.1-15",
+        "v": 5
+      },
+      {
+        "r": "OBA.1.1-14",
+        "v": 5
+      },
+      {
+        "r": "DEU.23.7",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.18",
+        "v": 3
+      },
+      {
+        "r": "ECC.7.9",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.4-8",
+        "v": 3
+      },
+      {
+        "r": "PSA.83.3-8",
+        "v": 3
+      },
+      {
+        "r": "ISA.63.1-7",
+        "v": 3
+      },
+      {
+        "r": "ISA.34.1-17",
+        "v": 2
+      },
+      {
+        "r": "LAM.4.21-22",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.40-41",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.26-27",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.57.16",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.21.11-12",
+        "v": 2
+      },
+      {
+        "r": "PSA.85.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.1.12": {
     "text": "So I will send fire upon Teman And it will consume the citadels of Bozrah.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "OBA.1.9-10",
+        "v": 4
+      },
+      {
+        "r": "JER.49.20",
+        "v": 4
+      },
+      {
+        "r": "JER.49.7",
+        "v": 4
+      },
+      {
+        "r": "JER.49.22",
+        "v": 3
+      },
+      {
+        "r": "JER.49.13",
+        "v": 3
+      },
+      {
+        "r": "ISA.34.6",
+        "v": 2
+      },
+      {
+        "r": "GEN.36.11",
+        "v": 2
+      },
+      {
+        "r": "GEN.36.33",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.13": {
     "text": "Thus says the Lord, “For three transgressions of the sons of Ammon and for four I will not revoke its punishment, Because they ripped open the pregnant women of Gilead In order to enlarge their borders.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.25.2-7",
+        "v": 5
+      },
+      {
+        "r": "HOS.13.16",
+        "v": 5
+      },
+      {
+        "r": "JER.49.1-6",
+        "v": 4
+      },
+      {
+        "r": "ZEP.2.8-9",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.35.10",
+        "v": 3
+      },
+      {
+        "r": "2KI.24.2",
+        "v": 2
+      },
+      {
+        "r": "NEH.4.7-23",
+        "v": 2
+      },
+      {
+        "r": "DEU.23.3-4",
+        "v": 2
+      },
+      {
+        "r": "EZK.21.28",
+        "v": 2
+      },
+      {
+        "r": "DEU.2.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.11.1-2",
+        "v": 2
+      },
+      {
+        "r": "2CH.20.1",
+        "v": 2
+      },
+      {
+        "r": "JDG.10.7-9",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.5-6",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.3",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.19",
+        "v": 2
+      },
+      {
+        "r": "2SA.10.1-8",
+        "v": 2
+      },
+      {
+        "r": "JDG.11.15-28",
+        "v": 2
+      },
+      {
+        "r": "2CH.20.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.83.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.1.14": {
     "text": "So I will kindle a fire on the wall of Rabbah And it will consume her citadels Amid war cries on the day of battle, And a storm on the day of tempest.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.49.2",
+        "v": 4
+      },
+      {
+        "r": "AMO.2.2",
+        "v": 4
+      },
+      {
+        "r": "DEU.3.11",
+        "v": 4
+      },
+      {
+        "r": "2SA.12.26",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.30",
+        "v": 3
+      },
+      {
+        "r": "DAN.11.40",
+        "v": 2
+      },
+      {
+        "r": "ZEC.7.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.83.15",
+        "v": 2
+      },
+      {
+        "r": "JOB.39.25",
+        "v": 2
+      },
+      {
+        "r": "EZK.25.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.1.15": {
     "text": "Their king will go into exile, He and his princes together,” says the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.49.3",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "AMO.2.1": {
     "text": "Thus says the Lord, “For three transgressions of Moab and for four I will not revoke its punishment, Because he burned the bones of the king of Edom to lime.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.2.8-9",
+        "v": 6
+      },
+      {
+        "r": "EZK.25.8-9",
+        "v": 5
+      },
+      {
+        "r": "AMO.1.3",
+        "v": 4
+      },
+      {
+        "r": "JER.48.1-47",
+        "v": 4
+      },
+      {
+        "r": "AMO.2.4",
+        "v": 4
+      },
+      {
+        "r": "ISA.15.1-9",
+        "v": 4
+      },
+      {
+        "r": "2KI.3.26-27",
+        "v": 4
+      },
+      {
+        "r": "ISA.25.10",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.9",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.11",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.13",
+        "v": 3
+      },
+      {
+        "r": "PRO.15.3",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.6",
+        "v": 2
+      },
+      {
+        "r": "2KI.3.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.14",
+        "v": 2
+      },
+      {
+        "r": "DEU.23.4-5",
+        "v": 2
+      },
+      {
+        "r": "PSA.83.4-7",
+        "v": 2
+      },
+      {
+        "r": "NUM.22.1-25",
+        "v": 2
+      },
+      {
+        "r": "MIC.6.5",
+        "v": 2
+      }
+    ],
     "section": "Judgment on Judah and Israel"
   },
   "AMO.2.2": {
     "text": "So I will send fire upon Moab And it will consume the citadels of Kerioth; And Moab will die amid tumult, With war cries and the sound of a trumpet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.48.24",
+        "v": 5
+      },
+      {
+        "r": "JER.48.41",
+        "v": 5
+      },
+      {
+        "r": "AMO.1.14",
+        "v": 4
+      },
+      {
+        "r": "JER.48.34",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.3": {
     "text": "I will also cut off the judge from her midst And slay all her princes with him,” says the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NUM.24.17",
+        "v": 3
+      },
+      {
+        "r": "JER.48.7",
+        "v": 3
+      },
+      {
+        "r": "JER.48.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.23",
+        "v": 2
+      },
+      {
+        "r": "PSA.2.10",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.2.4": {
     "text": "Thus says the Lord, “For three transgressions of Judah and for four I will not revoke its punishment, Because they rejected the law of the Lord And have not kept His statutes; Their lies also have led them astray, Those after which their fathers walked.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.20.24",
+        "v": 8
+      },
+      {
+        "r": "EZK.20.13",
+        "v": 6
+      },
+      {
+        "r": "EZK.20.16",
+        "v": 6
+      },
+      {
+        "r": "ISA.28.15",
+        "v": 4
+      },
+      {
+        "r": "JER.16.19-20",
+        "v": 4
+      },
+      {
+        "r": "HAB.2.18",
+        "v": 4
+      },
+      {
+        "r": "HOS.12.2",
+        "v": 4
+      },
+      {
+        "r": "2KI.17.19",
+        "v": 3
+      },
+      {
+        "r": "JER.9.14",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.14-15",
+        "v": 3
+      },
+      {
+        "r": "ROM.1.25",
+        "v": 3
+      },
+      {
+        "r": "2KI.22.11-17",
+        "v": 3
+      },
+      {
+        "r": "JER.8.9",
+        "v": 3
+      },
+      {
+        "r": "NEH.1.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.9.15-16",
+        "v": 3
+      },
+      {
+        "r": "EZK.20.18",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.24-25",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.2",
+        "v": 3
+      },
+      {
+        "r": "JER.9.25-26",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.1-63",
+        "v": 2
+      },
+      {
+        "r": "JDG.2.11-20",
+        "v": 2
+      },
+      {
+        "r": "1TH.4.8",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.7",
+        "v": 2
+      },
+      {
+        "r": "EZK.23.11-21",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.14-17",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.26",
+        "v": 2
+      },
+      {
+        "r": "JER.6.19",
+        "v": 2
+      },
+      {
+        "r": "JER.23.13-15",
+        "v": 2
+      },
+      {
+        "r": "JER.16.12",
+        "v": 2
+      },
+      {
+        "r": "EZK.22.8",
+        "v": 2
+      },
+      {
+        "r": "EZK.13.6-16",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.15-27",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.29-30",
+        "v": 2
+      },
+      {
+        "r": "JER.28.15-16",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.18",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.16-18",
+        "v": 2
+      },
+      {
+        "r": "JER.23.25-32",
+        "v": 2
+      },
+      {
+        "r": "HOS.6.11",
+        "v": 2
+      },
+      {
+        "r": "2SA.12.9-10",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.5-12",
+        "v": 2
+      },
+      {
+        "r": "ISA.44.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.22.28",
+        "v": 2
+      },
+      {
+        "r": "EZK.13.22",
+        "v": 2
+      },
+      {
+        "r": "HOS.5.12-13",
+        "v": 2
+      },
+      {
+        "r": "JDG.10.6",
+        "v": 2
+      },
+      {
+        "r": "JER.8.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.20.30",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.5": {
     "text": "So I will send fire upon Judah And it will consume the citadels of Jerusalem.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.17.27",
+        "v": 6
+      },
+      {
+        "r": "HOS.8.14",
+        "v": 6
+      },
+      {
+        "r": "JER.21.10",
+        "v": 4
+      },
+      {
+        "r": "JER.39.8",
+        "v": 3
+      },
+      {
+        "r": "JER.37.8-10",
+        "v": 3
+      },
+      {
+        "r": "JER.52.13",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.2.6": {
     "text": "Thus says the Lord, “For three transgressions of Israel and for four I will not revoke its punishment, Because they sell the righteous for money And the needy for a pair of sandals.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.3.3",
+        "v": 7
+      },
+      {
+        "r": "AMO.5.11-12",
+        "v": 3
+      },
+      {
+        "r": "MIC.3.2-3",
+        "v": 3
+      },
+      {
+        "r": "HOS.4.1-2",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.7-18",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.4-6",
+        "v": 2
+      },
+      {
+        "r": "2KI.18.12",
+        "v": 2
+      },
+      {
+        "r": "HOS.4.11-14",
+        "v": 2
+      },
+      {
+        "r": "EZK.23.5-9",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.3-7",
+        "v": 2
+      },
+      {
+        "r": "ISA.29.21",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.7-10",
+        "v": 2
+      },
+      {
+        "r": "HOS.8.4-6",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.2-3",
+        "v": 2
+      },
+      {
+        "r": "MIC.6.10-16",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.7": {
     "text": "These who pant after the very dust of the earth on the head of the helpless Also turn aside the way of the humble; And a man and his father resort to the same girl In order to profane My holy name.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.12",
+        "v": 5
+      },
+      {
+        "r": "EZK.22.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.2",
+        "v": 4
+      },
+      {
+        "r": "1CO.5.1",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.2",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.9",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.2-3",
+        "v": 2
+      },
+      {
+        "r": "PRO.28.21",
+        "v": 2
+      },
+      {
+        "r": "LEV.18.15",
+        "v": 2
+      },
+      {
+        "r": "2SA.12.14",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.1",
+        "v": 2
+      },
+      {
+        "r": "ZEP.3.3",
+        "v": 2
+      },
+      {
+        "r": "ROM.2.24",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.4",
+        "v": 2
+      },
+      {
+        "r": "LEV.18.8",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 2
+      },
+      {
+        "r": "EZK.36.20",
+        "v": 2
+      },
+      {
+        "r": "LEV.20.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.8": {
     "text": "On garments taken as pledges they stretch out beside every altar, And in the house of their God they drink the wine of those who have been fined.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.24.12-17",
+        "v": 8
+      },
+      {
+        "r": "EXO.22.26-27",
+        "v": 7
+      },
+      {
+        "r": "AMO.6.6",
+        "v": 4
+      },
+      {
+        "r": "AMO.4.1",
+        "v": 2
+      },
+      {
+        "r": "EZK.18.12",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.27",
+        "v": 2
+      },
+      {
+        "r": "1CO.10.7",
+        "v": 2
+      },
+      {
+        "r": "EZK.23.41",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.4",
+        "v": 2
+      },
+      {
+        "r": "1CO.8.10",
+        "v": 2
+      },
+      {
+        "r": "1CO.10.21",
+        "v": 2
+      },
+      {
+        "r": "EZK.18.7",
+        "v": 2
+      },
+      {
+        "r": "HOS.4.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.57.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.2.9": {
     "text": "“Yet it was I who destroyed the Amorite before them, Though his height was like the height of cedars And he was strong as the oaks; I even destroyed his fruit above and his root below.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAL.4.1",
+        "v": 5
+      },
+      {
+        "r": "JOB.18.16",
+        "v": 5
+      },
+      {
+        "r": "NUM.21.23-25",
+        "v": 3
+      },
+      {
+        "r": "GEN.15.16",
+        "v": 3
+      },
+      {
+        "r": "DEU.3.11",
+        "v": 3
+      },
+      {
+        "r": "NUM.13.28-29",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.24-33",
+        "v": 3
+      },
+      {
+        "r": "NUM.13.32-33",
+        "v": 3
+      },
+      {
+        "r": "DEU.9.1-3",
+        "v": 3
+      },
+      {
+        "r": "EXO.34.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.10-11",
+        "v": 2
+      },
+      {
+        "r": "JOS.11.21-22",
+        "v": 2
+      },
+      {
+        "r": "JOS.3.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.135.10-12",
+        "v": 2
+      },
+      {
+        "r": "2SA.23.16-22",
+        "v": 2
+      },
+      {
+        "r": "EZK.17.9",
+        "v": 2
+      },
+      {
+        "r": "JOS.10.12",
+        "v": 2
+      },
+      {
+        "r": "DEU.1.28",
+        "v": 2
+      },
+      {
+        "r": "JOS.24.8-12",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.22-24",
+        "v": 2
+      },
+      {
+        "r": "PSA.136.17-22",
+        "v": 2
+      },
+      {
+        "r": "JDG.11.21-23",
+        "v": 2
+      },
+      {
+        "r": "EXO.3.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.24",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "AMO.2.10": {
     "text": "It was I who brought you up from the land of Egypt, And I led you in the wilderness forty years That you might take possession of the land of the Amorite.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.2.7",
+        "v": 7
+      },
+      {
+        "r": "EXO.12.51",
+        "v": 6
+      },
+      {
+        "r": "AMO.3.1",
+        "v": 5
+      },
+      {
+        "r": "ACT.7.42",
+        "v": 5
+      },
+      {
+        "r": "MIC.6.4",
+        "v": 4
+      },
+      {
+        "r": "AMO.9.7",
+        "v": 4
+      },
+      {
+        "r": "ACT.13.18",
+        "v": 4
+      },
+      {
+        "r": "EXO.3.8",
+        "v": 4
+      },
+      {
+        "r": "PSA.136.10-11",
+        "v": 3
+      },
+      {
+        "r": "NUM.14.31-35",
+        "v": 3
+      },
+      {
+        "r": "DEU.8.2-4",
+        "v": 3
+      },
+      {
+        "r": "DEU.1.20-21",
+        "v": 3
+      },
+      {
+        "r": "JER.32.20-21",
+        "v": 3
+      },
+      {
+        "r": "EXO.20.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.105.42-43",
+        "v": 3
+      },
+      {
+        "r": "NEH.9.8-12",
+        "v": 3
+      },
+      {
+        "r": "PSA.95.10",
+        "v": 3
+      },
+      {
+        "r": "DEU.1.39",
+        "v": 3
+      },
+      {
+        "r": "NEH.9.21",
+        "v": 3
+      },
+      {
+        "r": "EZK.20.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.2.11": {
     "text": "Then I raised up some of your sons to be prophets And some of your young men to be Nazirites. Is this not so, O sons of Israel?” declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NUM.6.2-3",
+        "v": 5
+      },
+      {
+        "r": "JER.7.25",
+        "v": 4
+      },
+      {
+        "r": "2CH.36.15",
+        "v": 2
+      },
+      {
+        "r": "1KI.19.16",
+        "v": 2
+      },
+      {
+        "r": "MIC.2.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.3-17",
+        "v": 2
+      },
+      {
+        "r": "ISA.30.10-11",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.3-4",
+        "v": 2
+      },
+      {
+        "r": "2KI.2.2-5",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.8",
+        "v": 2
+      },
+      {
+        "r": "JDG.13.4-7",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.13",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.35",
+        "v": 2
+      },
+      {
+        "r": "JER.11.21",
+        "v": 2
+      },
+      {
+        "r": "MIC.6.3-4",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.1",
+        "v": 2
+      },
+      {
+        "r": "JER.2.31",
+        "v": 2
+      },
+      {
+        "r": "LAM.4.7",
+        "v": 2
+      },
+      {
+        "r": "1KI.18.4",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.34-38",
+        "v": 2
+      },
+      {
+        "r": "1SA.3.20",
+        "v": 2
+      },
+      {
+        "r": "JER.2.5",
+        "v": 2
+      },
+      {
+        "r": "DEU.18.18",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.12-13",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.13",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.41",
+        "v": 2
+      },
+      {
+        "r": "1KI.17.1",
+        "v": 2
+      },
+      {
+        "r": "1SA.19.20",
+        "v": 2
+      },
+      {
+        "r": "JER.26.11",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.15-16",
+        "v": 1
+      },
+      {
+        "r": "2PE.1.20-21",
+        "v": 1
+      },
+      {
+        "r": "ACT.5.28",
+        "v": 1
+      },
+      {
+        "r": "ACT.4.18",
+        "v": 1
+      },
+      {
+        "r": "ACT.7.51",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.2.12": {
     "text": "“But you made the Nazirites drink wine, And you commanded the prophets saying, ‘You shall not prophesy!’",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.7.13",
+        "v": 5
+      },
+      {
+        "r": "ISA.30.10",
+        "v": 5
+      },
+      {
+        "r": "JER.11.21",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.13": {
     "text": "Behold, I am weighted down beneath you As a wagon is weighted down when filled with sheaves.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.1.14",
+        "v": 3
+      },
+      {
+        "r": "EZK.16.43",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.24",
+        "v": 2
+      },
+      {
+        "r": "MAL.2.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.6.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.40",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.14": {
     "text": "Flight will perish from the swift, And the stalwart will not strengthen his power, Nor the mighty man save his life.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.9.23",
+        "v": 5
+      },
+      {
+        "r": "ECC.9.11",
+        "v": 3
+      },
+      {
+        "r": "AMO.9.1-3",
+        "v": 3
+      },
+      {
+        "r": "PSA.33.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.16-17",
+        "v": 2
+      },
+      {
+        "r": "JOB.11.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.2.15": {
     "text": "He who grasps the bow will not stand his ground, The swift of foot will not escape, Nor will he who rides the horse save his life.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.33.16-17",
+        "v": 4
+      },
+      {
+        "r": "EZK.39.3",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.2.16": {
     "text": "Even the bravest among the warriors will flee naked in that day,” declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.14.52",
+        "v": 5
+      },
+      {
+        "r": "2KI.7.8-20",
+        "v": 2
+      },
+      {
+        "r": "JER.48.41",
+        "v": 2
+      },
+      {
+        "r": "JDG.4.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.1": {
     "text": "Hear this word which the Lord has spoken against you, sons of Israel, against the entire family which He brought up from the land of Egypt:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.2.10",
+        "v": 8
+      },
+      {
+        "r": "JER.8.3",
+        "v": 4
+      },
+      {
+        "r": "MIC.3.1",
+        "v": 4
+      },
+      {
+        "r": "JER.31.1",
+        "v": 3
+      },
+      {
+        "r": "2CH.20.15",
+        "v": 3
+      },
+      {
+        "r": "HOS.4.1",
+        "v": 3
+      },
+      {
+        "r": "ISA.48.12",
+        "v": 3
+      },
+      {
+        "r": "EZK.37.16-17",
+        "v": 3
+      },
+      {
+        "r": "REV.2.29",
+        "v": 2
+      },
+      {
+        "r": "JER.33.24-26",
+        "v": 2
+      },
+      {
+        "r": "ISA.46.3",
+        "v": 2
+      },
+      {
+        "r": "HOS.5.1",
+        "v": 2
+      }
+    ],
     "section": "All the Tribes Are Guilty"
   },
   "AMO.3.2": {
     "text": "“You only have I chosen among all the families of the earth; Therefore I will punish you for all your iniquities.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.7.6",
+        "v": 14
+      },
+      {
+        "r": "EXO.19.5-6",
+        "v": 13
+      },
+      {
+        "r": "DEU.10.15",
+        "v": 10
+      },
+      {
+        "r": "1PE.4.17",
+        "v": 8
+      },
+      {
+        "r": "ZEC.14.17-18",
+        "v": 7
+      },
+      {
+        "r": "JER.14.10",
+        "v": 6
+      },
+      {
+        "r": "DEU.32.9",
+        "v": 6
+      },
+      {
+        "r": "EZK.20.36-38",
+        "v": 5
+      },
+      {
+        "r": "DEU.26.18",
+        "v": 5
+      },
+      {
+        "r": "GEN.10.32",
+        "v": 5
+      },
+      {
+        "r": "JER.13.21",
+        "v": 5
+      },
+      {
+        "r": "JER.1.15",
+        "v": 5
+      },
+      {
+        "r": "JER.9.25",
+        "v": 5
+      },
+      {
+        "r": "PSA.147.19",
+        "v": 5
+      },
+      {
+        "r": "JER.11.22",
+        "v": 5
+      },
+      {
+        "r": "EZK.9.6",
+        "v": 5
+      },
+      {
+        "r": "JER.10.25",
+        "v": 5
+      },
+      {
+        "r": "DAN.9.12",
+        "v": 5
+      },
+      {
+        "r": "HOS.2.13",
+        "v": 4
+      },
+      {
+        "r": "NAM.3.4",
+        "v": 4
+      },
+      {
+        "r": "HOS.9.9",
+        "v": 4
+      },
+      {
+        "r": "ROM.2.9",
+        "v": 4
+      },
+      {
+        "r": "HOS.8.13",
+        "v": 4
+      },
+      {
+        "r": "MAT.11.20-24",
+        "v": 4
+      },
+      {
+        "r": "LUK.12.47-48",
+        "v": 3
+      },
+      {
+        "r": "ACT.17.26",
+        "v": 3
+      },
+      {
+        "r": "ISA.63.19",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.3": {
     "text": "Do two men walk together unless they have made an appointment?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.6.14-16",
+        "v": 90
+      },
+      {
+        "r": "GEN.17.1",
+        "v": 21
+      },
+      {
+        "r": "GEN.5.22",
+        "v": 9
+      },
+      {
+        "r": "GEN.6.9",
+        "v": 8
+      }
+    ],
     "section": null
   },
   "AMO.3.4": {
     "text": "Does a lion roar in the forest when he has no prey? Does a young lion growl from his den unless he has captured something?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.11.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.104.21",
+        "v": 5
+      },
+      {
+        "r": "AMO.1.2",
+        "v": 4
+      },
+      {
+        "r": "AMO.3.8",
+        "v": 3
+      },
+      {
+        "r": "HOS.5.14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.5": {
     "text": "Does a bird fall into a trap on the ground when there is no bait in it? Does a trap spring up from the earth when it captures nothing at all?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.9.12",
+        "v": 7
+      },
+      {
+        "r": "DAN.9.14",
+        "v": 3
+      },
+      {
+        "r": "JER.31.28",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.6": {
     "text": "If a trumpet is blown in a city will not the people tremble? If a calamity occurs in a city has not the Lord done it?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.45.7",
+        "v": 23
+      },
+      {
+        "r": "ZEP.1.16",
+        "v": 11
+      },
+      {
+        "r": "ISA.14.24-27",
+        "v": 11
+      },
+      {
+        "r": "2CO.5.11",
+        "v": 7
+      },
+      {
+        "r": "GEN.50.20",
+        "v": 7
+      },
+      {
+        "r": "JER.10.7",
+        "v": 6
+      },
+      {
+        "r": "ACT.2.23",
+        "v": 5
+      },
+      {
+        "r": "JER.4.5",
+        "v": 5
+      },
+      {
+        "r": "JER.6.1",
+        "v": 5
+      },
+      {
+        "r": "JER.5.22",
+        "v": 4
+      },
+      {
+        "r": "ACT.4.28",
+        "v": 4
+      },
+      {
+        "r": "EZK.33.3",
+        "v": 4
+      },
+      {
+        "r": "HOS.5.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.7": {
     "text": "Surely the Lord God does nothing Unless He reveals His secret counsel To His servants the prophets.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.15.15",
+        "v": 66
+      },
+      {
+        "r": "GEN.18.17",
+        "v": 56
+      },
+      {
+        "r": "PSA.25.14",
+        "v": 52
+      },
+      {
+        "r": "REV.1.1",
+        "v": 44
+      },
+      {
+        "r": "DAN.9.22-27",
+        "v": 35
+      },
+      {
+        "r": "GEN.6.13",
+        "v": 32
+      },
+      {
+        "r": "REV.4.1",
+        "v": 28
+      },
+      {
+        "r": "DAN.10.21",
+        "v": 27
+      },
+      {
+        "r": "REV.1.19",
+        "v": 26
+      },
+      {
+        "r": "JER.23.22",
+        "v": 25
+      },
+      {
+        "r": "DAN.11.2",
+        "v": 19
+      },
+      {
+        "r": "2KI.22.13",
+        "v": 19
+      },
+      {
+        "r": "2KI.6.12",
+        "v": 16
+      },
+      {
+        "r": "1KI.22.19-23",
+        "v": 14
+      },
+      {
+        "r": "2KI.22.20",
+        "v": 13
+      },
+      {
+        "r": "REV.6.1-17",
+        "v": 9
+      },
+      {
+        "r": "2KI.3.17-20",
+        "v": 9
+      }
+    ],
     "section": null
   },
   "AMO.3.8": {
     "text": "A lion has roared! Who will not fear? The Lord God has spoken! Who can but prophesy?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.3.4",
+        "v": 6
+      },
+      {
+        "r": "JER.20.9",
+        "v": 6
+      },
+      {
+        "r": "ACT.4.20",
+        "v": 6
+      },
+      {
+        "r": "AMO.1.2",
+        "v": 5
+      },
+      {
+        "r": "1CO.9.16",
+        "v": 4
+      },
+      {
+        "r": "AMO.2.12",
+        "v": 4
+      },
+      {
+        "r": "AMO.7.12-17",
+        "v": 4
+      },
+      {
+        "r": "REV.5.5",
+        "v": 4
+      },
+      {
+        "r": "JON.3.1-3",
+        "v": 3
+      },
+      {
+        "r": "JON.1.1-3",
+        "v": 3
+      },
+      {
+        "r": "JOB.32.18-19",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.20",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.29",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.9": {
     "text": "Proclaim on the citadels in Ashdod and on the citadels in the land of Egypt and say, “Assemble yourselves on the mountains of Samaria and see the great tumults within her and the oppressions in her midst.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.4.1",
+        "v": 10
+      },
+      {
+        "r": "AMO.6.1",
+        "v": 8
+      },
+      {
+        "r": "AMO.1.8",
+        "v": 6
+      },
+      {
+        "r": "1SA.5.1",
+        "v": 5
+      },
+      {
+        "r": "JER.22.8-9",
+        "v": 4
+      },
+      {
+        "r": "AMO.8.6",
+        "v": 4
+      },
+      {
+        "r": "JER.31.5",
+        "v": 4
+      },
+      {
+        "r": "JER.50.2",
+        "v": 4
+      },
+      {
+        "r": "EZK.36.8",
+        "v": 3
+      },
+      {
+        "r": "JER.46.14",
+        "v": 3
+      },
+      {
+        "r": "JER.2.10-11",
+        "v": 3
+      },
+      {
+        "r": "JER.31.7-9",
+        "v": 3
+      },
+      {
+        "r": "2SA.1.20",
+        "v": 3
+      },
+      {
+        "r": "EZK.37.22",
+        "v": 3
+      },
+      {
+        "r": "DEU.29.24-28",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.3.10": {
     "text": "But they do not know how to do what is right,” declares the Lord, “these who hoard up violence and devastation in their citadels.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.4.22",
+        "v": 5
+      },
+      {
+        "r": "ZEP.1.9",
+        "v": 5
+      },
+      {
+        "r": "PSA.14.4",
+        "v": 3
+      },
+      {
+        "r": "ZEC.5.3-4",
+        "v": 3
+      },
+      {
+        "r": "JER.5.4",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.3-4",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.12",
+        "v": 2
+      },
+      {
+        "r": "2PE.3.5",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.8-11",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.11": {
     "text": "Therefore, thus says the Lord God, “An enemy, even one surrounding the land, Will pull down your strength from you And your citadels will be looted.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.18.9-11",
+        "v": 5
+      },
+      {
+        "r": "AMO.2.5",
+        "v": 3
+      },
+      {
+        "r": "2KI.15.19",
+        "v": 3
+      },
+      {
+        "r": "2KI.17.3-6",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.14",
+        "v": 3
+      },
+      {
+        "r": "ISA.10.9-11",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.19",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.15",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.5-6",
+        "v": 2
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.17-25",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.7-8",
+        "v": 2
+      },
+      {
+        "r": "HOS.11.5-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.12": {
     "text": "Thus says the Lord, “Just as the shepherd snatches from the lion’s mouth a couple of legs or a piece of an ear, So will the sons of Israel dwelling in Samaria be snatched away— With the corner of a bed and the cover of a couch!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.17.34-37",
+        "v": 6
+      },
+      {
+        "r": "ROM.11.4-5",
+        "v": 4
+      },
+      {
+        "r": "ISA.31.4",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.34",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.30",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.2-3",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.25",
+        "v": 2
+      },
+      {
+        "r": "2KI.16.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.4",
+        "v": 1
+      },
+      {
+        "r": "AMO.6.4",
+        "v": 1
+      },
+      {
+        "r": "ISA.17.1-4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.3.13": {
     "text": "Hear and testify against the house of Jacob,” Declares the Lord God, the God of hosts.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.27",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.40",
+        "v": 2
+      },
+      {
+        "r": "2CH.24.19",
+        "v": 2
+      },
+      {
+        "r": "DEU.8.19",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.15",
+        "v": 2
+      },
+      {
+        "r": "JOS.22.22",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.13",
+        "v": 2
+      },
+      {
+        "r": "ACT.20.21",
+        "v": 2
+      },
+      {
+        "r": "DEU.30.18-19",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.17",
+        "v": 2
+      },
+      {
+        "r": "ACT.18.5-6",
+        "v": 2
+      },
+      {
+        "r": "1TH.4.6",
+        "v": 2
+      },
+      {
+        "r": "EZK.2.7",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.24",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.14": {
     "text": "“For on the day that I punish Israel’s transgressions, I will also punish the altars of Bethel; The horns of the altar will be cut off And they will fall to the ground.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.23.15",
+        "v": 8
+      },
+      {
+        "r": "HOS.10.5-8",
+        "v": 5
+      },
+      {
+        "r": "2CH.34.6-7",
+        "v": 4
+      },
+      {
+        "r": "HOS.10.14-15",
+        "v": 4
+      },
+      {
+        "r": "AMO.5.5-6",
+        "v": 3
+      },
+      {
+        "r": "2CH.31.1",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.6-7",
+        "v": 2
+      },
+      {
+        "r": "1KI.13.2-5",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.1",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.34",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.3.15": {
     "text": "I will also smite the winter house together with the summer house; The houses of ivory will also perish And the great houses will come to an end,” Declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.22.39",
+        "v": 7
+      },
+      {
+        "r": "JER.36.22",
+        "v": 7
+      },
+      {
+        "r": "AMO.6.11",
+        "v": 5
+      },
+      {
+        "r": "JDG.3.20",
+        "v": 4
+      },
+      {
+        "r": "ISA.5.9",
+        "v": 4
+      },
+      {
+        "r": "PSA.45.8",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.4.1": {
     "text": "Hear this word, you cows of Bashan who are on the mountain of Samaria, Who oppress the poor, who crush the needy, Who say to your husbands, “Bring now, that we may drink!”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.22.12",
+        "v": 8
+      },
+      {
+        "r": "AMO.6.1",
+        "v": 6
+      },
+      {
+        "r": "AMO.5.11",
+        "v": 5
+      },
+      {
+        "r": "EZK.39.18",
+        "v": 5
+      },
+      {
+        "r": "ECC.4.1",
+        "v": 4
+      },
+      {
+        "r": "MIC.3.1-3",
+        "v": 3
+      },
+      {
+        "r": "PSA.140.12",
+        "v": 3
+      },
+      {
+        "r": "JER.7.6",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.6",
+        "v": 3
+      },
+      {
+        "r": "JER.51.34",
+        "v": 3
+      },
+      {
+        "r": "PSA.12.5",
+        "v": 3
+      },
+      {
+        "r": "JER.50.27",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.9-10",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.8",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.1-6",
+        "v": 3
+      },
+      {
+        "r": "MAL.3.5",
+        "v": 3
+      },
+      {
+        "r": "JER.6.6",
+        "v": 3
+      },
+      {
+        "r": "ECC.5.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.22.12",
+        "v": 3
+      },
+      {
+        "r": "EZK.22.29",
+        "v": 3
+      },
+      {
+        "r": "EZK.22.27",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.1-3",
+        "v": 3
+      },
+      {
+        "r": "ZEC.7.10-11",
+        "v": 3
+      },
+      {
+        "r": "JER.5.26-29",
+        "v": 3
+      },
+      {
+        "r": "JOL.3.3",
+        "v": 3
+      },
+      {
+        "r": "DEU.28.33",
+        "v": 3
+      },
+      {
+        "r": "EZK.22.7",
+        "v": 3
+      },
+      {
+        "r": "DEU.15.9-11",
+        "v": 3
+      },
+      {
+        "r": "AMO.8.4-6",
+        "v": 3
+      },
+      {
+        "r": "JOB.20.19",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.6-8",
+        "v": 3
+      },
+      {
+        "r": "1KI.16.24",
+        "v": 3
+      },
+      {
+        "r": "PRO.22.22-23",
+        "v": 3
+      },
+      {
+        "r": "JER.50.11",
+        "v": 2
+      },
+      {
+        "r": "PRO.23.10-11",
+        "v": 2
+      },
+      {
+        "r": "EXO.22.21-25",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.14-15",
+        "v": 1
+      },
+      {
+        "r": "ISA.1.17-24",
+        "v": 1
+      }
+    ],
     "section": "“Yet You Have Not Returned to Me”"
   },
   "AMO.4.2": {
     "text": "The Lord God has sworn by His holiness, “Behold, the days are coming upon you When they will take you away with meat hooks, And the last of you with fish hooks.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.16.16",
+        "v": 8
+      },
+      {
+        "r": "PSA.89.35",
+        "v": 7
+      },
+      {
+        "r": "HAB.1.15-16",
+        "v": 6
+      },
+      {
+        "r": "AMO.6.8",
+        "v": 5
+      },
+      {
+        "r": "ISA.37.29",
+        "v": 5
+      },
+      {
+        "r": "EZK.39.4-5",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.4.3": {
     "text": "You will go out through breaches in the walls, Each one straight before her, And you will be cast to Harmon,” declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.12.5",
+        "v": 5
+      },
+      {
+        "r": "EZK.12.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.16.26",
+        "v": 3
+      },
+      {
+        "r": "ISA.31.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.2.20",
+        "v": 2
+      },
+      {
+        "r": "2KI.25.4",
+        "v": 2
+      },
+      {
+        "r": "ZEP.1.18",
+        "v": 2
+      },
+      {
+        "r": "2KI.7.7-8",
+        "v": 2
+      },
+      {
+        "r": "2KI.7.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.4": {
     "text": "“Enter Bethel and transgress; In Gilgal multiply transgression! Bring your sacrifices every morning, Your tithes every three days.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.20.39",
+        "v": 8
+      },
+      {
+        "r": "HOS.4.15",
+        "v": 8
+      },
+      {
+        "r": "NUM.28.3-4",
+        "v": 5
+      },
+      {
+        "r": "AMO.5.5",
+        "v": 4
+      },
+      {
+        "r": "HOS.12.11",
+        "v": 4
+      },
+      {
+        "r": "HOS.9.15",
+        "v": 4
+      },
+      {
+        "r": "MAT.23.32",
+        "v": 4
+      },
+      {
+        "r": "JOL.3.9-12",
+        "v": 3
+      },
+      {
+        "r": "MRK.5.5",
+        "v": 3
+      },
+      {
+        "r": "MRK.14.41",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.14",
+        "v": 3
+      },
+      {
+        "r": "ECC.11.9",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.21-22",
+        "v": 2
+      },
+      {
+        "r": "DEU.14.28-29",
+        "v": 2
+      },
+      {
+        "r": "DEU.26.12",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.45",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.5": {
     "text": "Offer a thank offering also from that which is leavened, And proclaim freewill offerings, make them known. For so you love to do, you sons of Israel,” Declares the Lord God.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.81.12",
+        "v": 5
+      },
+      {
+        "r": "LEV.22.18-21",
+        "v": 5
+      },
+      {
+        "r": "HOS.9.10",
+        "v": 4
+      },
+      {
+        "r": "MAT.23.23",
+        "v": 3
+      },
+      {
+        "r": "MAT.6.2",
+        "v": 3
+      },
+      {
+        "r": "HOS.9.1",
+        "v": 3
+      },
+      {
+        "r": "MAT.15.13-14",
+        "v": 3
+      },
+      {
+        "r": "LEV.7.12-13",
+        "v": 3
+      },
+      {
+        "r": "LEV.23.17",
+        "v": 2
+      },
+      {
+        "r": "DEU.12.6-7",
+        "v": 2
+      },
+      {
+        "r": "ROM.1.28",
+        "v": 2
+      },
+      {
+        "r": "2TH.2.10-12",
+        "v": 2
+      },
+      {
+        "r": "MAT.15.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.6": {
     "text": "“But I gave you also cleanness of teeth in all your cities And lack of bread in all your places, Yet you have not returned to Me,” declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HAG.2.17",
+        "v": 7
+      },
+      {
+        "r": "JER.5.3",
+        "v": 6
+      },
+      {
+        "r": "ISA.9.13",
+        "v": 5
+      },
+      {
+        "r": "REV.16.10-11",
+        "v": 4
+      },
+      {
+        "r": "LEV.26.26",
+        "v": 3
+      },
+      {
+        "r": "REV.2.21",
+        "v": 3
+      },
+      {
+        "r": "HOS.5.15-6.1",
+        "v": 3
+      },
+      {
+        "r": "2CH.28.22",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.38",
+        "v": 2
+      },
+      {
+        "r": "ISA.26.11",
+        "v": 2
+      },
+      {
+        "r": "1KI.17.1",
+        "v": 2
+      },
+      {
+        "r": "ZEC.1.3-6",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.8-9",
+        "v": 2
+      },
+      {
+        "r": "REV.9.20-21",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.12-14",
+        "v": 2
+      },
+      {
+        "r": "JER.8.5-7",
+        "v": 2
+      },
+      {
+        "r": "2KI.8.1",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.14-16",
+        "v": 2
+      },
+      {
+        "r": "2KI.4.38",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.25-29",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.1",
+        "v": 2
+      },
+      {
+        "r": "1KI.18.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.27",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.7": {
     "text": "“Furthermore, I withheld the rain from you While there were still three months until harvest. Then I would send rain on one city And on another city I would not send rain; One part would be rained on, While the part not rained on would dry up.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.9.26",
+        "v": 7
+      },
+      {
+        "r": "JER.3.3",
+        "v": 6
+      },
+      {
+        "r": "EXO.10.23",
+        "v": 4
+      },
+      {
+        "r": "EXO.9.4",
+        "v": 4
+      },
+      {
+        "r": "2CH.7.13-14",
+        "v": 4
+      },
+      {
+        "r": "ISA.5.6",
+        "v": 4
+      },
+      {
+        "r": "JAS.5.17",
+        "v": 3
+      },
+      {
+        "r": "JOL.2.23",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.18-21",
+        "v": 3
+      },
+      {
+        "r": "DEU.11.17",
+        "v": 3
+      },
+      {
+        "r": "JDG.6.37-40",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.27-28",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.23-24",
+        "v": 3
+      },
+      {
+        "r": "1KI.8.35-36",
+        "v": 3
+      },
+      {
+        "r": "JER.14.22",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.10-11",
+        "v": 2
+      },
+      {
+        "r": "ZEC.14.17",
+        "v": 2
+      },
+      {
+        "r": "REV.11.6",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.23-24",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.10-18",
+        "v": 2
+      },
+      {
+        "r": "JHN.4.35",
+        "v": 2
+      },
+      {
+        "r": "JER.14.4",
+        "v": 2
+      },
+      {
+        "r": "JER.5.24-25",
+        "v": 2
+      },
+      {
+        "r": "EXO.8.22",
+        "v": 2
+      },
+      {
+        "r": "1CO.4.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.4.8": {
     "text": "So two or three cities would stagger to another city to drink water, But would not be satisfied; Yet you have not returned to Me,” declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.4.6",
+        "v": 4
+      },
+      {
+        "r": "1KI.18.5",
+        "v": 3
+      },
+      {
+        "r": "HAG.1.6",
+        "v": 3
+      },
+      {
+        "r": "ISA.41.17-18",
+        "v": 2
+      },
+      {
+        "r": "EZK.4.16-17",
+        "v": 2
+      },
+      {
+        "r": "JER.3.7",
+        "v": 2
+      },
+      {
+        "r": "JER.23.14",
+        "v": 2
+      },
+      {
+        "r": "JER.14.3-4",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.9-11",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.10",
+        "v": 2
+      },
+      {
+        "r": "MIC.6.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.9": {
     "text": "“I smote you with scorching wind and mildew; And the caterpillar was devouring Your many gardens and vineyards, fig trees and olive trees; Yet you have not returned to Me,” declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.28.22",
+        "v": 6
+      },
+      {
+        "r": "HAG.2.17",
+        "v": 6
+      },
+      {
+        "r": "JOL.1.4",
+        "v": 5
+      },
+      {
+        "r": "AMO.4.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.1-2",
+        "v": 3
+      },
+      {
+        "r": "JOL.1.7",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.8",
+        "v": 2
+      },
+      {
+        "r": "JOB.36.8-13",
+        "v": 2
+      },
+      {
+        "r": "JER.3.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.42.24-25",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.5",
+        "v": 2
+      },
+      {
+        "r": "JER.5.3",
+        "v": 2
+      },
+      {
+        "r": "2CH.6.28",
+        "v": 2
+      },
+      {
+        "r": "1KI.8.37",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.42",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.10": {
     "text": "“I sent a plague among you after the manner of Egypt; I slew your young men by the sword along with your captured horses, And I made the stench of your camp rise up in your nostrils; Yet you have not returned to Me,” declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.28.60",
+        "v": 6
+      },
+      {
+        "r": "LEV.26.25",
+        "v": 5
+      },
+      {
+        "r": "JOL.2.20",
+        "v": 4
+      },
+      {
+        "r": "2KI.13.7",
+        "v": 4
+      },
+      {
+        "r": "DEU.28.26-27",
+        "v": 3
+      },
+      {
+        "r": "PSA.78.49-50",
+        "v": 3
+      },
+      {
+        "r": "EXO.9.3-6",
+        "v": 3
+      },
+      {
+        "r": "DEU.7.15",
+        "v": 3
+      },
+      {
+        "r": "DEU.28.22",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.16",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.3",
+        "v": 2
+      },
+      {
+        "r": "JER.11.22",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.6",
+        "v": 2
+      },
+      {
+        "r": "EXO.8.19",
+        "v": 2
+      },
+      {
+        "r": "JER.18.21",
+        "v": 2
+      },
+      {
+        "r": "EXO.15.26",
+        "v": 1
+      },
+      {
+        "r": "2KI.10.32",
+        "v": 1
+      },
+      {
+        "r": "2KI.8.12",
+        "v": 1
+      },
+      {
+        "r": "EXO.10.27",
+        "v": 1
+      },
+      {
+        "r": "ISA.9.13",
+        "v": 1
+      },
+      {
+        "r": "EXO.9.34-35",
+        "v": 1
+      },
+      {
+        "r": "EXO.9.12",
+        "v": 1
+      },
+      {
+        "r": "EXO.12.29-30",
+        "v": 1
+      },
+      {
+        "r": "JER.9.22",
+        "v": 1
+      },
+      {
+        "r": "EXO.10.3",
+        "v": 1
+      },
+      {
+        "r": "JER.15.3",
+        "v": 1
+      },
+      {
+        "r": "EXO.9.17",
+        "v": 1
+      },
+      {
+        "r": "JER.6.11",
+        "v": 1
+      },
+      {
+        "r": "JER.8.1-2",
+        "v": 1
+      },
+      {
+        "r": "JER.48.15",
+        "v": 1
+      },
+      {
+        "r": "JER.16.4",
+        "v": 1
+      },
+      {
+        "r": "EXO.14.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.4.11": {
     "text": "“I overthrew you, as God overthrew Sodom and Gomorrah, And you were like a firebrand snatched from a blaze; Yet you have not returned to Me,” declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.3.2",
+        "v": 7
+      },
+      {
+        "r": "ISA.13.19",
+        "v": 7
+      },
+      {
+        "r": "GEN.19.24-25",
+        "v": 5
+      },
+      {
+        "r": "JER.23.14",
+        "v": 5
+      },
+      {
+        "r": "JUD.1.23",
+        "v": 4
+      },
+      {
+        "r": "AMO.4.6",
+        "v": 4
+      },
+      {
+        "r": "JUD.1.7",
+        "v": 4
+      },
+      {
+        "r": "2PE.2.6",
+        "v": 4
+      },
+      {
+        "r": "EZK.22.17-22",
+        "v": 4
+      },
+      {
+        "r": "REV.9.20",
+        "v": 3
+      },
+      {
+        "r": "JER.49.18",
+        "v": 3
+      },
+      {
+        "r": "JER.6.28-30",
+        "v": 3
+      },
+      {
+        "r": "HOS.11.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.24.13",
+        "v": 3
+      },
+      {
+        "r": "1CO.3.15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.4.12": {
     "text": "“Therefore thus I will do to you, O Israel; Because I will do this to you, Prepare to meet your God, O Israel.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TH.5.2-4",
+        "v": 14
+      },
+      {
+        "r": "JAS.4.1-10",
+        "v": 12
+      },
+      {
+        "r": "AMO.9.1-4",
+        "v": 10
+      },
+      {
+        "r": "MRK.13.32-37",
+        "v": 9
+      },
+      {
+        "r": "EZK.13.5",
+        "v": 7
+      },
+      {
+        "r": "LUK.21.3-36",
+        "v": 6
+      },
+      {
+        "r": "ISA.47.3",
+        "v": 6
+      },
+      {
+        "r": "AMO.5.4-15",
+        "v": 6
+      },
+      {
+        "r": "MAT.24.44-25.13",
+        "v": 5
+      },
+      {
+        "r": "LUK.14.31-32",
+        "v": 5
+      },
+      {
+        "r": "EZK.22.30",
+        "v": 4
+      },
+      {
+        "r": "HOS.13.8",
+        "v": 4
+      },
+      {
+        "r": "AMO.4.2-3",
+        "v": 4
+      },
+      {
+        "r": "MAT.5.25",
+        "v": 4
+      },
+      {
+        "r": "REV.3.3",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.4.13": {
     "text": "For behold, He who forms mountains and creates the wind And declares to man what are His thoughts, He who makes dawn into darkness And treads on the high places of the earth, The Lord God of hosts is His name.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.8",
+        "v": 16
+      },
+      {
+        "r": "MIC.1.3",
+        "v": 10
+      },
+      {
+        "r": "AMO.9.6",
+        "v": 9
+      },
+      {
+        "r": "ISA.47.4",
+        "v": 7
+      },
+      {
+        "r": "DAN.2.28",
+        "v": 4
+      },
+      {
+        "r": "PSA.65.6",
+        "v": 4
+      },
+      {
+        "r": "JER.13.16",
+        "v": 3
+      },
+      {
+        "r": "DEU.33.29",
+        "v": 3
+      },
+      {
+        "r": "ISA.40.12",
+        "v": 3
+      },
+      {
+        "r": "JER.51.19",
+        "v": 2
+      },
+      {
+        "r": "EXO.10.22",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.13",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.9",
+        "v": 2
+      },
+      {
+        "r": "JOB.38.4-11",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.13",
+        "v": 2
+      },
+      {
+        "r": "JER.10.16",
+        "v": 2
+      },
+      {
+        "r": "ZEC.12.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.30",
+        "v": 1
+      },
+      {
+        "r": "JHN.3.8",
+        "v": 1
+      },
+      {
+        "r": "EXO.14.20",
+        "v": 1
+      },
+      {
+        "r": "AMO.5.27",
+        "v": 1
+      },
+      {
+        "r": "JER.51.16",
+        "v": 1
+      },
+      {
+        "r": "HAB.3.19",
+        "v": 1
+      },
+      {
+        "r": "PSA.135.7",
+        "v": 1
+      },
+      {
+        "r": "AMO.6.8",
+        "v": 1
+      },
+      {
+        "r": "PSA.147.18",
+        "v": 1
+      },
+      {
+        "r": "ISA.48.2",
+        "v": 1
+      },
+      {
+        "r": "JER.10.13",
+        "v": 1
+      },
+      {
+        "r": "PSA.139.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.1": {
     "text": "Hear this word which I take up for you as a dirge, O house of Israel:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.19.1",
+        "v": 5
+      },
+      {
+        "r": "JER.9.17",
+        "v": 3
+      },
+      {
+        "r": "JER.7.29",
+        "v": 3
+      },
+      {
+        "r": "JER.9.10",
+        "v": 3
+      },
+      {
+        "r": "JER.9.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.28.12",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.1",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.16",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.1",
+        "v": 2
+      },
+      {
+        "r": "EZK.27.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.32.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.27.27-32",
+        "v": 2
+      },
+      {
+        "r": "MIC.2.4",
+        "v": 2
+      },
+      {
+        "r": "EZK.26.17",
+        "v": 2
+      },
+      {
+        "r": "EZK.32.16",
+        "v": 2
+      },
+      {
+        "r": "EZK.19.14",
+        "v": 2
+      }
+    ],
     "section": "“Seek Me that You May Live”"
   },
   "AMO.5.2": {
     "text": "She has fallen, she will not rise again— The virgin Israel. She lies neglected on her land; There is none to raise her up.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.14.17",
+        "v": 5
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.14",
+        "v": 2
+      },
+      {
+        "r": "HOS.6.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.51.17-18",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.36-37",
+        "v": 2
+      },
+      {
+        "r": "JER.2.27",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.1",
+        "v": 2
+      },
+      {
+        "r": "JER.50.32",
+        "v": 2
+      },
+      {
+        "r": "LAM.2.13",
+        "v": 2
+      },
+      {
+        "r": "JER.4.20",
+        "v": 2
+      },
+      {
+        "r": "JER.30.12-14",
+        "v": 2
+      },
+      {
+        "r": "JER.18.13",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.24.20",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.21",
+        "v": 2
+      },
+      {
+        "r": "LAM.1.16-19",
+        "v": 2
+      },
+      {
+        "r": "JER.31.4",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.2-5",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.37.22",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.16",
+        "v": 2
+      },
+      {
+        "r": "JER.51.64",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.3": {
     "text": "For thus says the Lord God, “The city which goes forth a thousand strong Will have a hundred left, And the one which goes forth a hundred strong Will have ten left to the house of Israel.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.9.27",
+        "v": 4
+      },
+      {
+        "r": "EZK.12.16",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.22",
+        "v": 4
+      },
+      {
+        "r": "ISA.6.13",
+        "v": 4
+      },
+      {
+        "r": "DEU.28.62",
+        "v": 3
+      },
+      {
+        "r": "ISA.1.9",
+        "v": 3
+      },
+      {
+        "r": "DEU.4.27",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.4": {
     "text": "For thus says the Lord to the house of Israel, “Seek Me that you may live.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.2.3",
+        "v": 18
+      },
+      {
+        "r": "2CH.15.2",
+        "v": 18
+      },
+      {
+        "r": "JER.29.12-13",
+        "v": 17
+      },
+      {
+        "r": "ISA.55.3",
+        "v": 12
+      },
+      {
+        "r": "PSA.14.2",
+        "v": 12
+      },
+      {
+        "r": "PSA.105.3-4",
+        "v": 11
+      },
+      {
+        "r": "ISA.55.6-7",
+        "v": 11
+      },
+      {
+        "r": "MAT.7.8",
+        "v": 11
+      },
+      {
+        "r": "LAM.3.25-26",
+        "v": 8
+      },
+      {
+        "r": "1CH.28.9",
+        "v": 8
+      },
+      {
+        "r": "DEU.30.1-8",
+        "v": 7
+      },
+      {
+        "r": "2CH.20.3",
+        "v": 7
+      },
+      {
+        "r": "PSA.69.32",
+        "v": 6
+      },
+      {
+        "r": "AMO.5.6",
+        "v": 6
+      },
+      {
+        "r": "2CH.34.3",
+        "v": 6
+      },
+      {
+        "r": "PSA.22.26",
+        "v": 5
+      },
+      {
+        "r": "PSA.27.8",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "AMO.5.5": {
     "text": "But do not resort to Bethel And do not come to Gilgal, Nor cross over to Beersheba; For Gilgal will certainly go into captivity And Bethel will come to trouble.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.4.15",
+        "v": 8
+      },
+      {
+        "r": "AMO.8.14",
+        "v": 7
+      },
+      {
+        "r": "AMO.4.4",
+        "v": 7
+      },
+      {
+        "r": "GEN.21.33",
+        "v": 5
+      },
+      {
+        "r": "1CO.2.6",
+        "v": 3
+      },
+      {
+        "r": "REV.18.17",
+        "v": 3
+      },
+      {
+        "r": "1CO.1.28",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.17",
+        "v": 3
+      },
+      {
+        "r": "HOS.10.14-15",
+        "v": 2
+      },
+      {
+        "r": "JOB.8.22",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.33.10",
+        "v": 2
+      },
+      {
+        "r": "1SA.11.14",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.8",
+        "v": 2
+      },
+      {
+        "r": "1SA.7.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.10",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.29.20",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.30-32",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.41",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.6": {
     "text": "Seek the Lord that you may live, Or He will break forth like a fire, O house of Joseph, And it will consume with none to quench it for Bethel,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.33.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.55.6",
+        "v": 4
+      },
+      {
+        "r": "EZK.20.47-48",
+        "v": 4
+      },
+      {
+        "r": "ZEC.10.6",
+        "v": 3
+      },
+      {
+        "r": "MRK.9.43-48",
+        "v": 3
+      },
+      {
+        "r": "GEN.48.8-20",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.4",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.14",
+        "v": 3
+      },
+      {
+        "r": "JER.7.20",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.28",
+        "v": 2
+      },
+      {
+        "r": "EXO.22.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.31",
+        "v": 2
+      },
+      {
+        "r": "JER.4.4",
+        "v": 2
+      },
+      {
+        "r": "JOS.18.5",
+        "v": 2
+      },
+      {
+        "r": "DEU.4.24",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.6",
+        "v": 2
+      },
+      {
+        "r": "2SA.19.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.37.19",
+        "v": 2
+      },
+      {
+        "r": "JDG.1.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.7": {
     "text": "For those who turn justice into wormwood And cast righteousness down to the earth.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.12",
+        "v": 6
+      },
+      {
+        "r": "HOS.10.4",
+        "v": 3
+      },
+      {
+        "r": "DEU.29.18",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.11-12",
+        "v": 3
+      },
+      {
+        "r": "ZEP.1.6",
+        "v": 3
+      },
+      {
+        "r": "EZK.3.20",
+        "v": 3
+      },
+      {
+        "r": "PSA.125.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.7",
+        "v": 2
+      },
+      {
+        "r": "EZK.33.18",
+        "v": 2
+      },
+      {
+        "r": "EZK.18.24",
+        "v": 2
+      },
+      {
+        "r": "EZK.33.12-13",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.12-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.36.3",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.23",
+        "v": 2
+      },
+      {
+        "r": "ISA.59.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.8": {
     "text": "He who made the Pleiades and Orion And changes deep darkness into morning, Who also darkens day into night, Who calls for the waters of the sea And pours them out on the surface of the earth, The Lord is His name.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.4.13",
+        "v": 13
+      },
+      {
+        "r": "JOB.9.9",
+        "v": 10
+      },
+      {
+        "r": "AMO.9.6",
+        "v": 9
+      },
+      {
+        "r": "PSA.104.20",
+        "v": 7
+      },
+      {
+        "r": "AMO.8.9",
+        "v": 7
+      },
+      {
+        "r": "JOB.38.31-32",
+        "v": 5
+      },
+      {
+        "r": "JOB.12.22",
+        "v": 4
+      },
+      {
+        "r": "PSA.107.10-14",
+        "v": 4
+      },
+      {
+        "r": "JOB.38.12-13",
+        "v": 4
+      },
+      {
+        "r": "EXO.10.21-23",
+        "v": 4
+      },
+      {
+        "r": "PSA.105.28",
+        "v": 4
+      },
+      {
+        "r": "PSA.104.6-9",
+        "v": 4
+      },
+      {
+        "r": "1KI.18.44-45",
+        "v": 3
+      },
+      {
+        "r": "ISA.59.10",
+        "v": 3
+      },
+      {
+        "r": "GEN.7.11-20",
+        "v": 3
+      },
+      {
+        "r": "EXO.14.24-28",
+        "v": 3
+      },
+      {
+        "r": "JOB.38.34",
+        "v": 3
+      },
+      {
+        "r": "ISA.42.16",
+        "v": 3
+      },
+      {
+        "r": "JOB.37.13",
+        "v": 3
+      },
+      {
+        "r": "MAT.4.16",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.79",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.9": {
     "text": "It is He who flashes forth with destruction upon the strong, So that destruction comes upon the fortress.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HEB.11.34",
+        "v": 2
+      },
+      {
+        "r": "JER.37.10",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.25",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.17",
+        "v": 2
+      },
+      {
+        "r": "MIC.5.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.10": {
     "text": "They hate him who reproves in the gate, And they abhor him who speaks with integrity.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.22.8",
+        "v": 7
+      },
+      {
+        "r": "ISA.29.21",
+        "v": 7
+      },
+      {
+        "r": "JHN.8.45-47",
+        "v": 5
+      },
+      {
+        "r": "JER.17.16-17",
+        "v": 4
+      },
+      {
+        "r": "JHN.7.7",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.20",
+        "v": 3
+      },
+      {
+        "r": "2CH.24.20-22",
+        "v": 3
+      },
+      {
+        "r": "2CH.36.16",
+        "v": 3
+      },
+      {
+        "r": "REV.11.10",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.10-17",
+        "v": 3
+      },
+      {
+        "r": "1KI.21.20",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.19",
+        "v": 3
+      },
+      {
+        "r": "1KI.18.17",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.22-24",
+        "v": 3
+      },
+      {
+        "r": "2CH.25.16",
+        "v": 3
+      },
+      {
+        "r": "PRO.9.7-8",
+        "v": 3
+      },
+      {
+        "r": "JER.20.7-10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.11": {
     "text": "Therefore because you impose heavy rent on the poor And exact a tribute of grain from them, Though you have built houses of well-hewn stone, Yet you will not live in them; You have planted pleasant vineyards, yet you will not drink their wine.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.1.13",
+        "v": 8
+      },
+      {
+        "r": "DEU.28.30",
+        "v": 8
+      },
+      {
+        "r": "MIC.6.15",
+        "v": 8
+      },
+      {
+        "r": "JAS.2.6",
+        "v": 5
+      },
+      {
+        "r": "REV.11.8-10",
+        "v": 4
+      },
+      {
+        "r": "HAG.1.6",
+        "v": 4
+      },
+      {
+        "r": "AMO.3.15-4.1",
+        "v": 3
+      },
+      {
+        "r": "MIC.3.1-3",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.65.21-22",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.38-39",
+        "v": 2
+      },
+      {
+        "r": "ISA.59.13-14",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.7-8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.12": {
     "text": "For I know your transgressions are many and your sins are great, You who distress the righteous and accept bribes And turn aside the poor in the gate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.2.6-7",
+        "v": 6
+      },
+      {
+        "r": "AMO.5.10",
+        "v": 5
+      },
+      {
+        "r": "ISA.1.23",
+        "v": 4
+      },
+      {
+        "r": "MAL.3.5",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.4",
+        "v": 3
+      },
+      {
+        "r": "PSA.26.9-10",
+        "v": 3
+      },
+      {
+        "r": "ACT.7.52",
+        "v": 3
+      },
+      {
+        "r": "1SA.8.3",
+        "v": 3
+      },
+      {
+        "r": "MIC.3.11",
+        "v": 2
+      },
+      {
+        "r": "LAM.3.34",
+        "v": 2
+      },
+      {
+        "r": "PRO.22.22",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.23",
+        "v": 2
+      },
+      {
+        "r": "RUT.4.1",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.7-17",
+        "v": 2
+      },
+      {
+        "r": "ISA.66.18",
+        "v": 2
+      },
+      {
+        "r": "JER.29.23",
+        "v": 2
+      },
+      {
+        "r": "JOB.29.7-25",
+        "v": 2
+      },
+      {
+        "r": "HEB.4.12-13",
+        "v": 2
+      },
+      {
+        "r": "MIC.7.3",
+        "v": 2
+      },
+      {
+        "r": "DEU.16.18",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.6",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.21",
+        "v": 2
+      },
+      {
+        "r": "ISA.47.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.29.21",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.21",
+        "v": 2
+      },
+      {
+        "r": "ISA.33.15",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.16",
+        "v": 2
+      },
+      {
+        "r": "ACT.3.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.13": {
     "text": "Therefore at such a time the prudent person keeps silent, for it is an evil time.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.5.15-16",
+        "v": 4
+      },
+      {
+        "r": "HOS.4.4",
+        "v": 4
+      },
+      {
+        "r": "MIC.2.3",
+        "v": 4
+      },
+      {
+        "r": "2TI.3.1",
+        "v": 4
+      },
+      {
+        "r": "ECC.3.7",
+        "v": 4
+      },
+      {
+        "r": "MAT.27.12-14",
+        "v": 3
+      },
+      {
+        "r": "ISA.37.3",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.10",
+        "v": 3
+      },
+      {
+        "r": "HAB.3.16",
+        "v": 3
+      },
+      {
+        "r": "ZEP.2.2-3",
+        "v": 3
+      },
+      {
+        "r": "ECC.9.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.36.21",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.5-7",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.13",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.5.14": {
     "text": "Seek good and not evil, that you may live; And thus may the Lord God of hosts be with you, Just as you have said!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOS.1.9",
+        "v": 16
+      },
+      {
+        "r": "MAT.6.33",
+        "v": 13
+      },
+      {
+        "r": "MIC.6.8",
+        "v": 10
+      },
+      {
+        "r": "MIC.3.11",
+        "v": 9
+      },
+      {
+        "r": "PHP.4.8-9",
+        "v": 9
+      },
+      {
+        "r": "2TI.4.22",
+        "v": 7
+      },
+      {
+        "r": "1CH.28.20",
+        "v": 5
+      },
+      {
+        "r": "PSA.34.12-16",
+        "v": 5
+      },
+      {
+        "r": "ROM.2.7-9",
+        "v": 5
+      },
+      {
+        "r": "GEN.39.2-3",
+        "v": 5
+      },
+      {
+        "r": "ISA.48.1-2",
+        "v": 5
+      },
+      {
+        "r": "AMO.3.3",
+        "v": 4
+      },
+      {
+        "r": "JER.7.3-4",
+        "v": 4
+      },
+      {
+        "r": "ISA.55.2",
+        "v": 3
+      },
+      {
+        "r": "MAT.1.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.46.11",
+        "v": 3
+      },
+      {
+        "r": "PRO.11.27",
+        "v": 3
+      },
+      {
+        "r": "2CH.15.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.16-17",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.10",
+        "v": 2
+      },
+      {
+        "r": "EXO.3.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.39.23",
+        "v": 2
+      },
+      {
+        "r": "NUM.16.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.15": {
     "text": "Hate evil, love good, And establish justice in the gate! Perhaps the Lord God of hosts May be gracious to the remnant of Joseph.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.12.9",
+        "v": 11
+      },
+      {
+        "r": "3JN.1.11",
+        "v": 8
+      },
+      {
+        "r": "PSA.97.10",
+        "v": 7
+      },
+      {
+        "r": "JOL.2.14",
+        "v": 7
+      },
+      {
+        "r": "1TH.5.21-22",
+        "v": 6
+      },
+      {
+        "r": "ROM.8.7",
+        "v": 5
+      },
+      {
+        "r": "MIC.5.7-8",
+        "v": 5
+      },
+      {
+        "r": "MIC.5.3",
+        "v": 4
+      },
+      {
+        "r": "EXO.32.30",
+        "v": 3
+      },
+      {
+        "r": "2KI.19.4",
+        "v": 3
+      },
+      {
+        "r": "JON.3.9",
+        "v": 3
+      },
+      {
+        "r": "PSA.36.4",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.31",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.24",
+        "v": 3
+      },
+      {
+        "r": "2CH.19.6-11",
+        "v": 2
+      },
+      {
+        "r": "ROM.7.15-16",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.104",
+        "v": 2
+      },
+      {
+        "r": "JER.7.5-7",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.12",
+        "v": 2
+      },
+      {
+        "r": "ROM.7.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.34.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.82.2-4",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.6",
+        "v": 2
+      },
+      {
+        "r": "2KI.14.26-27",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.10",
+        "v": 2
+      },
+      {
+        "r": "MIC.2.12",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.12",
+        "v": 2
+      },
+      {
+        "r": "PSA.37.27",
+        "v": 2
+      },
+      {
+        "r": "JER.31.7",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.7",
+        "v": 2
+      },
+      {
+        "r": "PSA.139.21-22",
+        "v": 1
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.16": {
     "text": "Therefore thus says the Lord God of hosts, the Lord, “There is wailing in all the plazas, And in all the streets they say, ‘Alas! Alas!’ They also call the farmer to mourning And professional mourners to lamentation.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.1.11",
+        "v": 5
+      },
+      {
+        "r": "JER.9.17-20",
+        "v": 4
+      },
+      {
+        "r": "JER.9.10",
+        "v": 3
+      },
+      {
+        "r": "MIC.2.4",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.8",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.27",
+        "v": 2
+      },
+      {
+        "r": "REV.18.15-16",
+        "v": 2
+      },
+      {
+        "r": "ISA.15.2-5",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.12",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.14",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.10",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.13",
+        "v": 2
+      },
+      {
+        "r": "ISA.15.8",
+        "v": 2
+      },
+      {
+        "r": "JER.4.31",
+        "v": 2
+      },
+      {
+        "r": "REV.18.19",
+        "v": 2
+      },
+      {
+        "r": "REV.18.10",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.17": {
     "text": "And in all the vineyards there is wailing, Because I will pass through the midst of you,” says the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.12.12",
+        "v": 6
+      },
+      {
+        "r": "ISA.16.10",
+        "v": 5
+      },
+      {
+        "r": "JER.48.33",
+        "v": 5
+      },
+      {
+        "r": "ZEC.9.8",
+        "v": 3
+      },
+      {
+        "r": "HOS.9.1-2",
+        "v": 3
+      },
+      {
+        "r": "JOL.3.17",
+        "v": 3
+      },
+      {
+        "r": "NAM.1.15",
+        "v": 3
+      },
+      {
+        "r": "ISA.32.10-12",
+        "v": 3
+      },
+      {
+        "r": "EXO.12.23",
+        "v": 3
+      },
+      {
+        "r": "NAM.1.12",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.5.18": {
     "text": "Alas, you who are longing for the day of the Lord, For what purpose will the day of the Lord be to you? It will be darkness and not light;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.1.15",
+        "v": 10
+      },
+      {
+        "r": "JOL.2.1-2",
+        "v": 9
+      },
+      {
+        "r": "JOL.2.31",
+        "v": 8
+      },
+      {
+        "r": "JER.30.7",
+        "v": 7
+      },
+      {
+        "r": "MAL.4.1",
+        "v": 6
+      },
+      {
+        "r": "ISA.24.11-12",
+        "v": 5
+      },
+      {
+        "r": "MAL.3.1-2",
+        "v": 5
+      },
+      {
+        "r": "ISA.5.30",
+        "v": 5
+      },
+      {
+        "r": "ZEP.1.14-15",
+        "v": 5
+      },
+      {
+        "r": "ISA.5.19",
+        "v": 5
+      },
+      {
+        "r": "ISA.9.19",
+        "v": 5
+      },
+      {
+        "r": "JOL.2.10",
+        "v": 4
+      },
+      {
+        "r": "EZK.12.22",
+        "v": 3
+      },
+      {
+        "r": "EZK.12.27",
+        "v": 3
+      },
+      {
+        "r": "2PE.3.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.28.15-22",
+        "v": 2
+      },
+      {
+        "r": "2PE.3.10",
+        "v": 2
+      },
+      {
+        "r": "JER.17.15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.19": {
     "text": "As when a man flees from a lion And a bear meets him, Or goes home, leans his hand against the wall And a snake bites him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.24.17-18",
+        "v": 7
+      },
+      {
+        "r": "JER.15.2-3",
+        "v": 5
+      },
+      {
+        "r": "JER.48.43-44",
+        "v": 3
+      },
+      {
+        "r": "ACT.28.4",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.29-30",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.1-2",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.24-25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.20": {
     "text": "Will not the day of the Lord be darkness instead of light, Even gloom with no brightness in it?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.13.10",
+        "v": 6
+      },
+      {
+        "r": "ZEP.1.15",
+        "v": 5
+      },
+      {
+        "r": "EZK.34.12",
+        "v": 5
+      },
+      {
+        "r": "JOB.10.21-22",
+        "v": 3
+      },
+      {
+        "r": "REV.16.10",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.8",
+        "v": 2
+      },
+      {
+        "r": "JUD.1.13",
+        "v": 2
+      },
+      {
+        "r": "JOB.3.4-6",
+        "v": 2
+      },
+      {
+        "r": "MAT.22.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.21": {
     "text": "“I hate, I reject your festivals, Nor do I delight in your solemn assemblies.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.1.11-16",
+        "v": 13
+      },
+      {
+        "r": "PRO.28.9",
+        "v": 11
+      },
+      {
+        "r": "LEV.26.31",
+        "v": 11
+      },
+      {
+        "r": "ISA.66.3",
+        "v": 10
+      },
+      {
+        "r": "JER.6.20",
+        "v": 8
+      },
+      {
+        "r": "PRO.15.8",
+        "v": 7
+      },
+      {
+        "r": "HOS.8.13",
+        "v": 6
+      },
+      {
+        "r": "GEN.8.21",
+        "v": 4
+      },
+      {
+        "r": "MAT.23.13",
+        "v": 4
+      },
+      {
+        "r": "PRO.21.27",
+        "v": 4
+      },
+      {
+        "r": "EPH.5.2",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 2
+      },
+      {
+        "r": "JER.7.21-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.22": {
     "text": "Even though you offer up to Me burnt offerings and your grain offerings, I will not accept them; And I will not even look at the peace offerings of your fatlings.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MIC.6.6-7",
+        "v": 6
+      },
+      {
+        "r": "AMO.4.4-5",
+        "v": 5
+      },
+      {
+        "r": "ISA.66.3",
+        "v": 4
+      },
+      {
+        "r": "LEV.7.12-15",
+        "v": 3
+      },
+      {
+        "r": "PSA.107.21-22",
+        "v": 2
+      },
+      {
+        "r": "PSA.116.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.50.23",
+        "v": 2
+      },
+      {
+        "r": "PSA.50.8-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.5.23": {
     "text": "Take away from Me the noise of your songs; I will not even listen to the sound of your harps.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.5",
+        "v": 7
+      },
+      {
+        "r": "AMO.8.10",
+        "v": 5
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "AMO.5.24": {
     "text": "But let justice roll down like waters And righteousness like an ever-flowing stream.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MIC.6.8",
+        "v": 29
+      },
+      {
+        "r": "JER.22.3",
+        "v": 22
+      },
+      {
+        "r": "HOS.6.6",
+        "v": 19
+      },
+      {
+        "r": "PRO.21.3",
+        "v": 19
+      },
+      {
+        "r": "MRK.12.32-34",
+        "v": 18
+      },
+      {
+        "r": "AMO.5.14-15",
+        "v": 16
+      },
+      {
+        "r": "JOB.29.12-17",
+        "v": 15
+      },
+      {
+        "r": "AMO.5.7",
+        "v": 15
+      }
+    ],
     "section": null
   },
   "AMO.5.25": {
     "text": "“Did you present Me with sacrifices and grain offerings in the wilderness for forty years, O house of Israel?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.7.42-43",
+        "v": 7
+      },
+      {
+        "r": "EZK.20.8",
+        "v": 5
+      },
+      {
+        "r": "NEH.9.18",
+        "v": 4
+      },
+      {
+        "r": "NEH.9.21",
+        "v": 3
+      },
+      {
+        "r": "JOS.24.14",
+        "v": 3
+      },
+      {
+        "r": "LEV.17.7",
+        "v": 3
+      },
+      {
+        "r": "EZK.20.16",
+        "v": 2
+      },
+      {
+        "r": "EZK.20.24",
+        "v": 2
+      },
+      {
+        "r": "ZEC.7.5",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.9-10",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.17-19",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.23-24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.5.26": {
     "text": "You also carried along Sikkuth your king and Kiyyun, your images, the star of your gods which you made for yourselves.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LEV.20.2-5",
+        "v": 5
+      },
+      {
+        "r": "2KI.23.12-13",
+        "v": 5
+      },
+      {
+        "r": "1KI.11.33",
+        "v": 4
+      },
+      {
+        "r": "LEV.18.21",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.5.27": {
     "text": "Therefore, I will make you go into exile beyond Damascus,” says the Lord, whose name is the God of hosts.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.17.6",
+        "v": 5
+      },
+      {
+        "r": "ACT.7.43",
+        "v": 5
+      },
+      {
+        "r": "AMO.4.13",
+        "v": 3
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.1": {
     "text": "Woe to those who are at ease in Zion And to those who feel secure in the mountain of Samaria, The distinguished men of the foremost of nations, To whom the house of Israel comes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JAS.5.5",
+        "v": 10
+      },
+      {
+        "r": "ISA.32.9-11",
+        "v": 10
+      },
+      {
+        "r": "LUK.12.17-20",
+        "v": 9
+      },
+      {
+        "r": "AMO.4.1",
+        "v": 7
+      },
+      {
+        "r": "JDG.18.7",
+        "v": 5
+      },
+      {
+        "r": "ZEP.1.12",
+        "v": 5
+      },
+      {
+        "r": "EXO.19.5-6",
+        "v": 5
+      },
+      {
+        "r": "JAS.1.18",
+        "v": 4
+      },
+      {
+        "r": "JER.49.31",
+        "v": 3
+      },
+      {
+        "r": "ISA.33.14",
+        "v": 3
+      },
+      {
+        "r": "JER.7.4",
+        "v": 2
+      },
+      {
+        "r": "LUK.6.24-25",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.14",
+        "v": 2
+      },
+      {
+        "r": "1PE.5.7",
+        "v": 2
+      },
+      {
+        "r": "1KI.16.24",
+        "v": 1
+      },
+      {
+        "r": "JER.48.11",
+        "v": 0
+      },
+      {
+        "r": "LAM.1.1",
+        "v": 0
+      }
+    ],
     "section": "“Those at Ease in Zion”"
   },
   "AMO.6.2": {
     "text": "Go over to Calneh and look, And go from there to Hamath the great, Then go down to Gath of the Philistines. Are they better than these kingdoms, Or is their territory greater than yours?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NAM.3.8",
+        "v": 7
+      },
+      {
+        "r": "GEN.10.10",
+        "v": 5
+      },
+      {
+        "r": "2KI.18.34",
+        "v": 5
+      },
+      {
+        "r": "2CH.26.6",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.9-11",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.4",
+        "v": 3
+      },
+      {
+        "r": "2KI.19.13",
+        "v": 2
+      },
+      {
+        "r": "1KI.8.65",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.24",
+        "v": 2
+      },
+      {
+        "r": "ISA.37.12-13",
+        "v": 2
+      },
+      {
+        "r": "ISA.36.18-19",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.30",
+        "v": 2
+      },
+      {
+        "r": "JER.2.10-11",
+        "v": 2
+      },
+      {
+        "r": "1SA.17.23",
+        "v": 2
+      },
+      {
+        "r": "EZK.31.2-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.3": {
     "text": "Do you put off the day of calamity, And would you bring near the seat of violence?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.9.10",
+        "v": 6
+      },
+      {
+        "r": "EZK.12.27",
+        "v": 5
+      },
+      {
+        "r": "ISA.56.12",
+        "v": 5
+      },
+      {
+        "r": "EZK.12.22",
+        "v": 3
+      },
+      {
+        "r": "MAT.24.48",
+        "v": 3
+      },
+      {
+        "r": "1TH.5.3",
+        "v": 3
+      },
+      {
+        "r": "2PE.3.4",
+        "v": 3
+      },
+      {
+        "r": "AMO.3.10",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.47.7",
+        "v": 2
+      },
+      {
+        "r": "REV.18.17",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.12",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.18",
+        "v": 2
+      },
+      {
+        "r": "PSA.94.20",
+        "v": 2
+      },
+      {
+        "r": "ECC.8.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.4": {
     "text": "Those who recline on beds of ivory And sprawl on their couches, And eat lambs from the flock And calves from the midst of the stall,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.3.12",
+        "v": 4
+      },
+      {
+        "r": "JAS.5.5",
+        "v": 2
+      },
+      {
+        "r": "LUK.16.19",
+        "v": 2
+      },
+      {
+        "r": "LUK.12.19-20",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.36-38",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.11-12",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.7",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.34.2-3",
+        "v": 2
+      },
+      {
+        "r": "ROM.13.13-14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.6.5": {
     "text": "Who improvise to the sound of the harp, And like David have composed songs for themselves,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.5.12",
+        "v": 11
+      },
+      {
+        "r": "AMO.5.23",
+        "v": 9
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 4
+      },
+      {
+        "r": "REV.18.22",
+        "v": 3
+      },
+      {
+        "r": "GEN.31.27",
+        "v": 3
+      },
+      {
+        "r": "ECC.2.8",
+        "v": 3
+      },
+      {
+        "r": "1CH.15.16",
+        "v": 3
+      },
+      {
+        "r": "JOB.21.11-12",
+        "v": 3
+      },
+      {
+        "r": "1CH.23.5",
+        "v": 3
+      },
+      {
+        "r": "1PE.4.3",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.6.6": {
     "text": "Who drink wine from sacrificial bowls While they anoint themselves with the finest of oils, Yet they have not grieved over the ruin of Joseph.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.49.22",
+        "v": 3
+      },
+      {
+        "r": "GEN.42.21-22",
+        "v": 2
+      },
+      {
+        "r": "EZK.9.4",
+        "v": 2
+      },
+      {
+        "r": "1TI.5.23",
+        "v": 2
+      },
+      {
+        "r": "JHN.12.3",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.3-6",
+        "v": 2
+      },
+      {
+        "r": "1CO.12.26",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.8",
+        "v": 2
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      },
+      {
+        "r": "HOS.3.1",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.7-9",
+        "v": 2
+      },
+      {
+        "r": "JER.30.7",
+        "v": 2
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      },
+      {
+        "r": "ROM.12.15",
+        "v": 2
+      },
+      {
+        "r": "GEN.37.25-28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.7": {
     "text": "Therefore, they will now go into exile at the head of the exiles, And the sprawlers’ banqueting will pass away.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.7.11",
+        "v": 4
+      },
+      {
+        "r": "1KI.20.16-20",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.5",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.4-6",
+        "v": 3
+      },
+      {
+        "r": "EST.7.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 2
+      },
+      {
+        "r": "EST.7.8-10",
+        "v": 2
+      },
+      {
+        "r": "EST.5.12-14",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.27",
+        "v": 2
+      },
+      {
+        "r": "ISA.21.4",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.41",
+        "v": 2
+      },
+      {
+        "r": "LUK.21.24",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.17",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.8": {
     "text": "The Lord God has sworn by Himself, the Lord God of hosts has declared: “I loathe the arrogance of Jacob, And detest his citadels; Therefore I will deliver up the city and all it contains.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.51.14",
+        "v": 7
+      },
+      {
+        "r": "AMO.4.2",
+        "v": 6
+      },
+      {
+        "r": "PSA.47.4",
+        "v": 5
+      },
+      {
+        "r": "AMO.8.7",
+        "v": 5
+      },
+      {
+        "r": "JER.22.5",
+        "v": 5
+      },
+      {
+        "r": "AMO.3.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.106.40",
+        "v": 3
+      },
+      {
+        "r": "MIC.1.6-9",
+        "v": 2
+      },
+      {
+        "r": "PSA.50.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.22.16",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.30",
+        "v": 2
+      },
+      {
+        "r": "LAM.2.5",
+        "v": 2
+      },
+      {
+        "r": "EZK.24.21",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.59",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.11",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.19",
+        "v": 2
+      },
+      {
+        "r": "ZEC.11.8",
+        "v": 2
+      },
+      {
+        "r": "HEB.6.13-17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.9": {
     "text": "And it will be, if ten men are left in one house, they will die.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.3",
+        "v": 4
+      },
+      {
+        "r": "EST.5.11",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.28",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.21",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.13",
+        "v": 2
+      },
+      {
+        "r": "1SA.2.33",
+        "v": 2
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.10": {
     "text": "Then one’s uncle, or his undertaker, will lift him up to carry out his bones from the house, and he will say to the one who is in the innermost part of the house, “Is anyone else with you?” And that one will say, “No one.” Then he will answer, “Keep quiet. For the name of the Lord is not to be mentioned.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.31.12",
+        "v": 5
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 5
+      },
+      {
+        "r": "AMO.5.13",
+        "v": 4
+      },
+      {
+        "r": "EZK.20.39",
+        "v": 4
+      },
+      {
+        "r": "EZK.24.21",
+        "v": 3
+      },
+      {
+        "r": "NUM.17.12",
+        "v": 3
+      },
+      {
+        "r": "JER.44.26",
+        "v": 3
+      },
+      {
+        "r": "JER.16.6",
+        "v": 3
+      },
+      {
+        "r": "2KI.23.16",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.33",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.11": {
     "text": "For behold, the Lord is going to command that the great house be smashed to pieces and the small house to fragments.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.3.15",
+        "v": 6
+      },
+      {
+        "r": "ISA.55.11",
+        "v": 5
+      },
+      {
+        "r": "2KI.25.9",
+        "v": 4
+      },
+      {
+        "r": "AMO.9.9",
+        "v": 3
+      },
+      {
+        "r": "NAM.1.14",
+        "v": 3
+      },
+      {
+        "r": "LUK.19.44",
+        "v": 3
+      },
+      {
+        "r": "ZEC.14.2",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.29.18-20",
+        "v": 2
+      },
+      {
+        "r": "AMO.3.6-7",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.16",
+        "v": 2
+      },
+      {
+        "r": "PSA.105.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.46.10-11",
+        "v": 2
+      },
+      {
+        "r": "ECC.10.18",
+        "v": 2
+      },
+      {
+        "r": "ISA.13.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.105.31",
+        "v": 2
+      },
+      {
+        "r": "AMO.9.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.105.34",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.5-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.12": {
@@ -589,7 +6314,64 @@
         "text": "I.e. bitterness"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.7",
+        "v": 7
+      },
+      {
+        "r": "HOS.10.4",
+        "v": 5
+      },
+      {
+        "r": "AMO.5.11-12",
+        "v": 4
+      },
+      {
+        "r": "ISA.59.13-14",
+        "v": 4
+      },
+      {
+        "r": "PSA.94.20-21",
+        "v": 3
+      },
+      {
+        "r": "ISA.48.4",
+        "v": 3
+      },
+      {
+        "r": "1KI.21.7-13",
+        "v": 3
+      },
+      {
+        "r": "JER.5.3",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.3-4",
+        "v": 2
+      },
+      {
+        "r": "JER.6.29-30",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.13",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.51-52",
+        "v": 2
+      },
+      {
+        "r": "MIC.7.3",
+        "v": 2
+      },
+      {
+        "r": "ZEC.7.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.13": {
@@ -604,289 +6386,2925 @@
         "text": "Lit a pair of horns"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.28.14-15",
+        "v": 4
+      },
+      {
+        "r": "LUK.12.19-20",
+        "v": 4
+      },
+      {
+        "r": "JAS.4.16",
+        "v": 3
+      },
+      {
+        "r": "2KI.14.25",
+        "v": 3
+      },
+      {
+        "r": "ISA.7.4",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "1SA.4.5",
+        "v": 2
+      },
+      {
+        "r": "JER.9.23",
+        "v": 2
+      },
+      {
+        "r": "JOB.8.15",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 2
+      },
+      {
+        "r": "JER.50.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.6",
+        "v": 2
+      },
+      {
+        "r": "JON.4.6",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.27",
+        "v": 2
+      },
+      {
+        "r": "2CH.28.6-8",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.15-16",
+        "v": 2
+      },
+      {
+        "r": "ECC.11.9",
+        "v": 2
+      },
+      {
+        "r": "ZEP.3.11",
+        "v": 2
+      },
+      {
+        "r": "2KI.13.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.17.3-4",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.18-19",
+        "v": 2
+      },
+      {
+        "r": "2KI.14.12-14",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.29",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.1",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.19-20",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.25",
+        "v": 2
+      },
+      {
+        "r": "JDG.16.23-25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.6.14": {
     "text": "“For behold, I am going to raise up a nation against you, O house of Israel,” declares the Lord God of hosts, “And they will afflict you from the entrance of Hamath To the brook of the Arabah.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.14.25",
+        "v": 5
+      },
+      {
+        "r": "1KI.8.65",
+        "v": 5
+      },
+      {
+        "r": "JER.5.15-17",
+        "v": 3
+      },
+      {
+        "r": "ISA.8.4-8",
+        "v": 2
+      },
+      {
+        "r": "NUM.34.7-8",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.6",
+        "v": 2
+      },
+      {
+        "r": "2KI.15.29",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.47.15-17",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.5-6",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.7.1": {
     "text": "Thus the Lord God showed me, and behold, He was forming a locust-swarm when the spring crop began to sprout. And behold, the spring crop was after the king’s mowing.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.1.4",
+        "v": 6
+      },
+      {
+        "r": "AMO.8.1",
+        "v": 4
+      },
+      {
+        "r": "NAM.3.15-17",
+        "v": 3
+      },
+      {
+        "r": "ISA.33.4",
+        "v": 3
+      },
+      {
+        "r": "AMO.4.9",
+        "v": 3
+      },
+      {
+        "r": "JOL.2.25",
+        "v": 3
+      },
+      {
+        "r": "EZK.11.25",
+        "v": 2
+      },
+      {
+        "r": "ZEC.1.20",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.7",
+        "v": 2
+      },
+      {
+        "r": "JER.1.11-16",
+        "v": 2
+      },
+      {
+        "r": "EXO.10.12-16",
+        "v": 2
+      },
+      {
+        "r": "JER.24.1",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.4",
+        "v": 2
+      }
+    ],
     "section": "Warning Through Visions"
   },
   "AMO.7.2": {
     "text": "And it came about, when it had finished eating the vegetation of the land, that I said, “Lord God, please pardon! How can Jacob stand, For he is small?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.37.4",
+        "v": 5
+      },
+      {
+        "r": "EZK.11.13",
+        "v": 4
+      },
+      {
+        "r": "JER.42.2",
+        "v": 3
+      },
+      {
+        "r": "JER.14.20-21",
+        "v": 3
+      },
+      {
+        "r": "EZK.9.8",
+        "v": 3
+      },
+      {
+        "r": "EXO.10.15",
+        "v": 3
+      },
+      {
+        "r": "JER.14.7",
+        "v": 3
+      },
+      {
+        "r": "NUM.14.17-19",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.11-12",
+        "v": 2
+      },
+      {
+        "r": "ZEC.4.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.44.24-26",
+        "v": 2
+      },
+      {
+        "r": "REV.9.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.51.19",
+        "v": 2
+      },
+      {
+        "r": "PSA.12.1",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.15-16",
+        "v": 2
+      },
+      {
+        "r": "EXO.34.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.19",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.3": {
     "text": "The Lord changed His mind about this. “It shall not be,” said the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.32.36",
+        "v": 7
+      },
+      {
+        "r": "JON.3.10",
+        "v": 6
+      },
+      {
+        "r": "HOS.11.8",
+        "v": 4
+      },
+      {
+        "r": "JOL.2.14",
+        "v": 3
+      },
+      {
+        "r": "PSA.106.45",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.6",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.16",
+        "v": 2
+      },
+      {
+        "r": "JER.26.19",
+        "v": 2
+      },
+      {
+        "r": "1CH.21.15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.7.4": {
     "text": "Thus the Lord God showed me, and behold, the Lord God was calling to contend with them by fire, and it consumed the great deep and began to consume the farm land.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.66.15-16",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.1",
+        "v": 3
+      },
+      {
+        "r": "JER.21.12",
+        "v": 2
+      },
+      {
+        "r": "LEV.10.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.27.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.9.23-24",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.30",
+        "v": 2
+      },
+      {
+        "r": "HEB.1.7",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.7",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.7",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.4",
+        "v": 2
+      },
+      {
+        "r": "REV.4.1",
+        "v": 2
+      },
+      {
+        "r": "AMO.1.4",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.6",
+        "v": 2
+      },
+      {
+        "r": "NUM.16.35",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.11",
+        "v": 2
+      },
+      {
+        "r": "JER.4.4",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.22",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.5": {
     "text": "Then I said, “Lord God, please stop! How can Jacob stand, for he is small?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.85.4",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.2-3",
+        "v": 2
+      },
+      {
+        "r": "JER.30.19",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.6": {
     "text": "The Lord changed His mind about this. “This too shall not be,” said the Lord God.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JON.3.10",
+        "v": 2
+      },
+      {
+        "r": "JDG.10.16",
+        "v": 2
+      },
+      {
+        "r": "PSA.90.13",
+        "v": 2
+      },
+      {
+        "r": "JON.4.2",
+        "v": 2
+      },
+      {
+        "r": "JER.26.19",
+        "v": 2
+      },
+      {
+        "r": "PSA.135.14",
+        "v": 2
+      },
+      {
+        "r": "JDG.2.18",
+        "v": 2
+      },
+      {
+        "r": "AMO.7.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.7": {
     "text": "Thus He showed me, and behold, the Lord was standing by a vertical wall with a plumb line in His hand.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.21.13",
+        "v": 6
+      },
+      {
+        "r": "ISA.28.17",
+        "v": 4
+      },
+      {
+        "r": "REV.21.15",
+        "v": 3
+      },
+      {
+        "r": "2SA.8.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.40.3",
+        "v": 2
+      },
+      {
+        "r": "LAM.2.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.34.11",
+        "v": 2
+      },
+      {
+        "r": "REV.11.1",
+        "v": 2
+      },
+      {
+        "r": "ZEC.2.1-2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.8": {
     "text": "The Lord said to me, “What do you see, Amos?” And I said, “A plumb line.” Then the Lord said, “Behold I am about to put a plumb line In the midst of My people Israel. I will spare them no longer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.8.2",
+        "v": 8
+      },
+      {
+        "r": "JER.15.6",
+        "v": 6
+      },
+      {
+        "r": "LAM.2.8",
+        "v": 6
+      },
+      {
+        "r": "EZK.7.2-9",
+        "v": 5
+      },
+      {
+        "r": "ISA.28.17",
+        "v": 4
+      },
+      {
+        "r": "2KI.21.13",
+        "v": 4
+      },
+      {
+        "r": "MIC.7.18",
+        "v": 4
+      },
+      {
+        "r": "NAM.1.8-9",
+        "v": 2
+      },
+      {
+        "r": "JER.1.11-13",
+        "v": 2
+      },
+      {
+        "r": "ZEC.5.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.9": {
     "text": "The high places of Isaac will be desolated And the sanctuaries of Israel laid waste. Then I will rise up against the house of Jeroboam with the sword.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.15.8-10",
+        "v": 3
+      },
+      {
+        "r": "GEN.46.1",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.5",
+        "v": 1
+      },
+      {
+        "r": "HOS.10.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.63.18",
+        "v": 1
+      },
+      {
+        "r": "AMO.8.14",
+        "v": 1
+      },
+      {
+        "r": "GEN.26.23-25",
+        "v": 1
+      },
+      {
+        "r": "LEV.26.30-31",
+        "v": 1
+      },
+      {
+        "r": "AMO.3.14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.7.10": {
     "text": "Then Amaziah, the priest of Bethel, sent word to Jeroboam king of Israel, saying, “Amos has conspired against you in the midst of the house of Israel; the land is unable to endure all his words.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.38.4",
+        "v": 6
+      },
+      {
+        "r": "1KI.12.31-32",
+        "v": 5
+      },
+      {
+        "r": "JER.26.8-11",
+        "v": 4
+      },
+      {
+        "r": "MAT.21.23",
+        "v": 4
+      },
+      {
+        "r": "ACT.24.5",
+        "v": 4
+      },
+      {
+        "r": "LUK.23.2",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.28",
+        "v": 3
+      },
+      {
+        "r": "1KI.13.33",
+        "v": 3
+      },
+      {
+        "r": "1KI.18.17",
+        "v": 2
+      },
+      {
+        "r": "JER.29.26-27",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.54",
+        "v": 2
+      },
+      {
+        "r": "JER.18.18",
+        "v": 2
+      },
+      {
+        "r": "2KI.14.23-24",
+        "v": 2
+      },
+      {
+        "r": "JER.20.1-3",
+        "v": 2
+      },
+      {
+        "r": "GEN.37.8",
+        "v": 2
+      },
+      {
+        "r": "JER.37.13-15",
+        "v": 2
+      },
+      {
+        "r": "2CH.13.8-9",
+        "v": 2
+      }
+    ],
     "section": "Amos Accused, Answers"
   },
   "AMO.7.11": {
     "text": "For thus Amos says, ‘Jeroboam will die by the sword and Israel will certainly go from its land into exile.’ ”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.17.6",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.7-8",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.56.5",
+        "v": 2
+      },
+      {
+        "r": "ACT.6.14",
+        "v": 1
+      },
+      {
+        "r": "JER.28.10-11",
+        "v": 1
+      },
+      {
+        "r": "MAT.26.61",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.7.12": {
     "text": "Then Amaziah said to Amos, “Go, you seer, flee away to the land of Judah and there eat bread and there do your prophesying!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.2.14",
+        "v": 4
+      },
+      {
+        "r": "MAT.8.34",
+        "v": 4
+      },
+      {
+        "r": "1SA.9.9",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.10",
+        "v": 3
+      },
+      {
+        "r": "ROM.16.18",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.12",
+        "v": 2
+      },
+      {
+        "r": "LUK.13.31",
+        "v": 2
+      },
+      {
+        "r": "ISA.56.11",
+        "v": 2
+      },
+      {
+        "r": "2CH.16.10",
+        "v": 2
+      },
+      {
+        "r": "ACT.16.39",
+        "v": 2
+      },
+      {
+        "r": "EZK.13.19",
+        "v": 2
+      },
+      {
+        "r": "LUK.8.37-38",
+        "v": 2
+      },
+      {
+        "r": "1SA.2.36",
+        "v": 2
+      },
+      {
+        "r": "1PE.5.2",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.13": {
     "text": "But no longer prophesy at Bethel, for it is a sanctuary of the king and a royal residence.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.2.12",
+        "v": 5
+      },
+      {
+        "r": "1KI.12.32",
+        "v": 5
+      },
+      {
+        "r": "1KI.12.29",
+        "v": 4
+      },
+      {
+        "r": "1KI.13.1",
+        "v": 3
+      },
+      {
+        "r": "ACT.4.17-18",
+        "v": 2
+      },
+      {
+        "r": "ACT.5.28",
+        "v": 2
+      },
+      {
+        "r": "ACT.5.40",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.14": {
     "text": "Then Amos replied to Amaziah, “I am not a prophet, nor am I the son of a prophet; for I am a herdsman and a grower of sycamore figs.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.1.1",
+        "v": 6
+      },
+      {
+        "r": "ZEC.13.5",
+        "v": 5
+      },
+      {
+        "r": "1CO.1.27",
+        "v": 4
+      },
+      {
+        "r": "2KI.2.5",
+        "v": 4
+      },
+      {
+        "r": "2KI.4.38",
+        "v": 4
+      },
+      {
+        "r": "2CH.19.2",
+        "v": 3
+      },
+      {
+        "r": "2KI.2.3",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.35",
+        "v": 2
+      },
+      {
+        "r": "2CH.20.34",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.1",
+        "v": 2
+      },
+      {
+        "r": "2KI.2.7",
+        "v": 2
+      },
+      {
+        "r": "2CH.16.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.15": {
     "text": "But the Lord took me from following the flock and the Lord said to me, ‘Go prophesy to My people Israel.’",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.7.8",
+        "v": 6
+      },
+      {
+        "r": "EZK.2.3-4",
+        "v": 4
+      },
+      {
+        "r": "MAT.9.9",
+        "v": 3
+      },
+      {
+        "r": "JER.1.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.78.70-72",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.20",
+        "v": 3
+      },
+      {
+        "r": "MAT.4.18-19",
+        "v": 3
+      },
+      {
+        "r": "ACT.1.8",
+        "v": 3
+      },
+      {
+        "r": "LUK.24.46-48",
+        "v": 2
+      },
+      {
+        "r": "ACT.5.29-32",
+        "v": 2
+      },
+      {
+        "r": "ACT.4.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.16": {
     "text": "Now hear the word of the Lord: you are saying, ‘You shall not prophesy against Israel nor shall you speak against the house of Isaac.’",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.20.46",
+        "v": 5
+      },
+      {
+        "r": "MIC.2.6",
+        "v": 4
+      },
+      {
+        "r": "EZK.21.2",
+        "v": 4
+      },
+      {
+        "r": "AMO.7.13",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.2",
+        "v": 3
+      },
+      {
+        "r": "JER.28.15-17",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.10",
+        "v": 2
+      },
+      {
+        "r": "1SA.15.16",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.7.17": {
     "text": "Therefore, thus says the Lord, ‘Your wife will become a harlot in the city, your sons and your daughters will fall by the sword, your land will be parceled up by a measuring line and you yourself will die upon unclean soil. Moreover, Israel will certainly go from its land into exile.’ ”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.9.3",
+        "v": 7
+      },
+      {
+        "r": "2KI.17.6",
+        "v": 6
+      },
+      {
+        "r": "JER.28.16",
+        "v": 5
+      },
+      {
+        "r": "EZK.4.13",
+        "v": 5
+      },
+      {
+        "r": "HOS.4.13-14",
+        "v": 4
+      },
+      {
+        "r": "JER.29.31-32",
+        "v": 3
+      },
+      {
+        "r": "JER.29.21",
+        "v": 3
+      },
+      {
+        "r": "ISA.13.16",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.11",
+        "v": 3
+      },
+      {
+        "r": "JER.29.25",
+        "v": 2
+      },
+      {
+        "r": "LAM.5.11",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.33-39",
+        "v": 2
+      },
+      {
+        "r": "JER.20.6",
+        "v": 2
+      },
+      {
+        "r": "JER.36.27-32",
+        "v": 2
+      },
+      {
+        "r": "JER.28.12",
+        "v": 2
+      },
+      {
+        "r": "ZEC.14.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.55",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.1": {
     "text": "Thus the Lord God showed me, and behold, there was a basket of summer fruit.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.7.1",
+        "v": 4
+      },
+      {
+        "r": "AMO.7.7",
+        "v": 3
+      },
+      {
+        "r": "AMO.7.4",
+        "v": 3
+      }
+    ],
     "section": "Basket of Fruit and Israel’s Captivity"
   },
   "AMO.8.2": {
     "text": "He said, “What do you see, Amos?” And I said, “A basket of summer fruit.” Then the Lord said to me, “The end has come for My people Israel. I will spare them no longer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.7.8",
+        "v": 7
+      },
+      {
+        "r": "LAM.4.18",
+        "v": 4
+      },
+      {
+        "r": "MIC.7.1",
+        "v": 3
+      },
+      {
+        "r": "JER.1.11-14",
+        "v": 3
+      },
+      {
+        "r": "EZK.7.2-3",
+        "v": 2
+      },
+      {
+        "r": "JER.24.1-3",
+        "v": 2
+      },
+      {
+        "r": "EZK.3.7",
+        "v": 2
+      },
+      {
+        "r": "EZK.8.12",
+        "v": 2
+      },
+      {
+        "r": "ZEC.5.2",
+        "v": 2
+      },
+      {
+        "r": "JER.5.31",
+        "v": 2
+      },
+      {
+        "r": "JER.40.10",
+        "v": 2
+      },
+      {
+        "r": "EZK.3.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.26.1-4",
+        "v": 2
+      },
+      {
+        "r": "EZK.12.23",
+        "v": 2
+      },
+      {
+        "r": "EZK.8.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.28.4",
+        "v": 2
+      },
+      {
+        "r": "ZEC.1.18-21",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.1-2",
+        "v": 2
+      },
+      {
+        "r": "ZEC.5.5-6",
+        "v": 2
+      },
+      {
+        "r": "EZK.7.6",
+        "v": 2
+      },
+      {
+        "r": "EZK.8.17",
+        "v": 2
+      },
+      {
+        "r": "EZK.29.8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.3": {
     "text": "The songs of the palace will turn to wailing in that day,” declares the Lord God. “Many will be the corpses; in every place they will cast them forth in silence.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.23",
+        "v": 6
+      },
+      {
+        "r": "AMO.6.9-10",
+        "v": 6
+      },
+      {
+        "r": "JER.9.21-22",
+        "v": 4
+      },
+      {
+        "r": "LEV.10.3",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.16",
+        "v": 3
+      },
+      {
+        "r": "JOL.1.11",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.5",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.13",
+        "v": 2
+      },
+      {
+        "r": "JER.22.18",
+        "v": 2
+      },
+      {
+        "r": "AMO.4.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.37.36",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.10",
+        "v": 2
+      },
+      {
+        "r": "ZEC.11.1-3",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.5-6",
+        "v": 2
+      },
+      {
+        "r": "NAM.3.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.39.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.8.4": {
     "text": "Hear this, you who trample the needy, to do away with the humble of the land,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.30.14",
+        "v": 8
+      },
+      {
+        "r": "AMO.5.11",
+        "v": 6
+      },
+      {
+        "r": "PSA.14.4",
+        "v": 6
+      },
+      {
+        "r": "ISA.32.6-7",
+        "v": 5
+      },
+      {
+        "r": "PSA.12.5",
+        "v": 4
+      },
+      {
+        "r": "PSA.140.12",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.6-7",
+        "v": 3
+      },
+      {
+        "r": "MAT.23.13",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.6",
+        "v": 2
+      },
+      {
+        "r": "JER.5.21",
+        "v": 1
+      },
+      {
+        "r": "1KI.22.19",
+        "v": 1
+      },
+      {
+        "r": "ISA.1.10",
+        "v": 0
+      },
+      {
+        "r": "AMO.7.16",
+        "v": 0
+      },
+      {
+        "r": "PSA.56.1",
+        "v": 0
+      },
+      {
+        "r": "JER.28.15",
+        "v": 0
+      },
+      {
+        "r": "ISA.28.14",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "AMO.8.5": {
     "text": "saying, “When will the new moon be over, So that we may sell grain, And the sabbath, that we may open the wheat market, To make the bushel smaller and the shekel bigger, And to cheat with dishonest scales,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.13.15-21",
+        "v": 8
+      },
+      {
+        "r": "MIC.6.10-11",
+        "v": 7
+      },
+      {
+        "r": "HOS.12.7",
+        "v": 7
+      },
+      {
+        "r": "DEU.25.13-16",
+        "v": 6
+      },
+      {
+        "r": "LEV.19.36",
+        "v": 5
+      },
+      {
+        "r": "PRO.20.23",
+        "v": 4
+      },
+      {
+        "r": "ISA.1.13",
+        "v": 4
+      },
+      {
+        "r": "EXO.20.8-10",
+        "v": 4
+      },
+      {
+        "r": "PRO.11.1",
+        "v": 4
+      },
+      {
+        "r": "PRO.16.11",
+        "v": 4
+      },
+      {
+        "r": "2KI.4.23",
+        "v": 3
+      },
+      {
+        "r": "NUM.10.10",
+        "v": 3
+      },
+      {
+        "r": "EZK.45.10-12",
+        "v": 3
+      },
+      {
+        "r": "PSA.81.3-4",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.13",
+        "v": 2
+      },
+      {
+        "r": "NUM.28.11-15",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.13",
+        "v": 1
+      },
+      {
+        "r": "COL.2.16",
+        "v": 1
+      },
+      {
+        "r": "ROM.8.6-7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.6": {
     "text": "So as to buy the helpless for money And the needy for a pair of sandals, And that we may sell the refuse of the wheat?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.2.6",
+        "v": 6
+      },
+      {
+        "r": "NEH.5.8",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.3",
+        "v": 2
+      },
+      {
+        "r": "LEV.25.39-42",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.5.1-5",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.8.7": {
     "text": "The Lord has sworn by the pride of Jacob, “Indeed, I will never forget any of their deeds.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.8",
+        "v": 8
+      },
+      {
+        "r": "HOS.9.9",
+        "v": 7
+      },
+      {
+        "r": "HOS.8.13",
+        "v": 6
+      },
+      {
+        "r": "HOS.7.2",
+        "v": 5
+      },
+      {
+        "r": "PSA.10.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.47.4",
+        "v": 3
+      },
+      {
+        "r": "JER.17.1",
+        "v": 3
+      },
+      {
+        "r": "ISA.43.25",
+        "v": 3
+      },
+      {
+        "r": "JER.31.34",
+        "v": 3
+      },
+      {
+        "r": "DEU.33.26-29",
+        "v": 3
+      },
+      {
+        "r": "PSA.68.34",
+        "v": 2
+      },
+      {
+        "r": "LUK.2.32",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 1
+      },
+      {
+        "r": "1SA.15.2-3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.8": {
     "text": "Because of this will not the land quake And everyone who dwells in it mourn? Indeed, all of it will rise up like the Nile, And it will be tossed about And subside like the Nile of Egypt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.9.5",
+        "v": 9
+      },
+      {
+        "r": "HOS.4.3",
+        "v": 6
+      },
+      {
+        "r": "JER.46.8",
+        "v": 6
+      },
+      {
+        "r": "PSA.18.7",
+        "v": 5
+      },
+      {
+        "r": "ISA.5.25",
+        "v": 4
+      },
+      {
+        "r": "ISA.24.19-20",
+        "v": 3
+      },
+      {
+        "r": "JER.4.24-26",
+        "v": 3
+      },
+      {
+        "r": "NAM.1.5-6",
+        "v": 3
+      },
+      {
+        "r": "HAG.2.6-7",
+        "v": 3
+      },
+      {
+        "r": "DAN.9.26",
+        "v": 3
+      },
+      {
+        "r": "MIC.1.3-5",
+        "v": 3
+      },
+      {
+        "r": "AMO.8.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.114.3-7",
+        "v": 3
+      },
+      {
+        "r": "MAT.24.30",
+        "v": 3
+      },
+      {
+        "r": "ISA.8.7-8",
+        "v": 3
+      },
+      {
+        "r": "HOS.10.5",
+        "v": 3
+      },
+      {
+        "r": "JER.12.4",
+        "v": 3
+      },
+      {
+        "r": "HAB.3.5-8",
+        "v": 2
+      },
+      {
+        "r": "PSA.60.2-3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.9": {
     "text": "It will come about in that day,” declares the Lord God, “That I will make the sun go down at noon And make the earth dark in broad daylight.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.15.33",
+        "v": 10
+      },
+      {
+        "r": "MAT.27.45",
+        "v": 9
+      },
+      {
+        "r": "LUK.23.44",
+        "v": 8
+      },
+      {
+        "r": "JER.15.9",
+        "v": 8
+      },
+      {
+        "r": "MAT.24.29",
+        "v": 7
+      },
+      {
+        "r": "MIC.3.6",
+        "v": 7
+      },
+      {
+        "r": "AMO.5.8",
+        "v": 6
+      },
+      {
+        "r": "ISA.59.9-10",
+        "v": 6
+      },
+      {
+        "r": "JOB.5.14",
+        "v": 5
+      },
+      {
+        "r": "ISA.13.10",
+        "v": 5
+      },
+      {
+        "r": "AMO.4.13",
+        "v": 4
+      },
+      {
+        "r": "REV.6.12",
+        "v": 4
+      },
+      {
+        "r": "ISA.29.9-10",
+        "v": 3
+      },
+      {
+        "r": "REV.8.12",
+        "v": 3
+      },
+      {
+        "r": "EXO.10.21-23",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.8.10": {
     "text": "Then I will turn your festivals into mourning And all your songs into lamentation; And I will bring sackcloth on everyone’s loins And baldness on every head. And I will make it like a time of mourning for an only son, And the end of it will be like a bitter day.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.6.26",
+        "v": 7
+      },
+      {
+        "r": "ZEC.12.10",
+        "v": 6
+      },
+      {
+        "r": "JOB.20.23",
+        "v": 4
+      },
+      {
+        "r": "JER.48.37",
+        "v": 4
+      },
+      {
+        "r": "EZK.7.18",
+        "v": 4
+      },
+      {
+        "r": "HOS.2.11",
+        "v": 3
+      },
+      {
+        "r": "LUK.7.12-13",
+        "v": 3
+      },
+      {
+        "r": "ISA.15.2-3",
+        "v": 3
+      },
+      {
+        "r": "EZK.27.30-31",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.12-14",
+        "v": 2
+      },
+      {
+        "r": "AMO.8.3",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.10",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.28-31",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.4-7",
+        "v": 2
+      },
+      {
+        "r": "DEU.16.14",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.4-6",
+        "v": 2
+      },
+      {
+        "r": "ISA.21.3-4",
+        "v": 2
+      },
+      {
+        "r": "JOB.3.5",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.23",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.36-38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.8.11": {
     "text": "“Behold, days are coming,” declares the Lord God, “When I will send a famine on the land, Not a famine for bread or a thirst for water, But rather for hearing the words of the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.3.1",
+        "v": 51
+      },
+      {
+        "r": "PSA.74.9",
+        "v": 49
+      },
+      {
+        "r": "2CH.15.3",
+        "v": 47
+      },
+      {
+        "r": "1SA.28.6",
+        "v": 39
+      },
+      {
+        "r": "EZK.7.26",
+        "v": 28
+      },
+      {
+        "r": "MAT.9.36",
+        "v": 24
+      },
+      {
+        "r": "MIC.3.6",
+        "v": 23
+      },
+      {
+        "r": "1SA.28.15",
+        "v": 22
+      },
+      {
+        "r": "ISA.30.20-21",
+        "v": 19
+      },
+      {
+        "r": "ISA.5.6",
+        "v": 19
+      }
+    ],
     "section": null
   },
   "AMO.8.12": {
     "text": "People will stagger from sea to sea And from the north even to the east; They will go to and fro to seek the word of the Lord, But they will not find it.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.11.7-10",
+        "v": 5
+      },
+      {
+        "r": "MAT.12.30",
+        "v": 2
+      },
+      {
+        "r": "DAN.12.4",
+        "v": 2
+      },
+      {
+        "r": "PRO.14.6",
+        "v": 2
+      },
+      {
+        "r": "MAT.24.23-26",
+        "v": 2
+      },
+      {
+        "r": "2TI.3.6-7",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.31-33",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.13": {
     "text": "In that day the beautiful virgins And the young men will faint from thirst.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.2.3",
+        "v": 4
+      },
+      {
+        "r": "LAM.2.21",
+        "v": 3
+      },
+      {
+        "r": "LAM.1.18",
+        "v": 3
+      },
+      {
+        "r": "ISA.41.17-20",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.30",
+        "v": 2
+      },
+      {
+        "r": "ZEC.9.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.1",
+        "v": 2
+      },
+      {
+        "r": "JER.48.18",
+        "v": 2
+      },
+      {
+        "r": "LAM.2.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.144.12-15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.8.14": {
     "text": "As for those who swear by the guilt of Samaria, Who say, ‘As your god lives, O Dan,’ And, ‘As the way of Beersheba lives,’ They will fall and not rise again.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.5",
+        "v": 6
+      },
+      {
+        "r": "1KI.12.28-29",
+        "v": 5
+      },
+      {
+        "r": "DEU.9.21",
+        "v": 4
+      },
+      {
+        "r": "ACT.9.2",
+        "v": 3
+      },
+      {
+        "r": "HOS.4.15",
+        "v": 2
+      },
+      {
+        "r": "ACT.18.25",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.14",
+        "v": 2
+      },
+      {
+        "r": "2KI.10.29",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.2",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.10.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.140.10",
+        "v": 2
+      },
+      {
+        "r": "1KI.14.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.16",
+        "v": 2
+      },
+      {
+        "r": "ACT.19.23",
+        "v": 2
+      },
+      {
+        "r": "ACT.19.9",
+        "v": 2
+      },
+      {
+        "r": "1KI.13.22-34",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.17",
+        "v": 2
+      },
+      {
+        "r": "1KI.16.24",
+        "v": 2
+      },
+      {
+        "r": "JER.25.27",
+        "v": 2
+      },
+      {
+        "r": "ZEP.1.5",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.1",
+        "v": 2
+      },
+      {
+        "r": "HOS.8.5-6",
+        "v": 2
+      },
+      {
+        "r": "PSA.36.12",
+        "v": 2
+      },
+      {
+        "r": "1KI.12.32",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.2",
+        "v": 2
+      },
+      {
+        "r": "JER.51.64",
+        "v": 2
+      },
+      {
+        "r": "DEU.33.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.1": {
     "text": "I saw the Lord standing beside the altar, and He said, “Smite the capitals so that the thresholds will shake, And break them on the heads of them all! Then I will slay the rest of them with the sword; They will not have a fugitive who will flee, Or a refugee who will escape.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.68.21",
+        "v": 5
+      },
+      {
+        "r": "ISA.6.3-4",
+        "v": 4
+      },
+      {
+        "r": "ISA.6.1",
+        "v": 4
+      },
+      {
+        "r": "REV.1.17",
+        "v": 4
+      },
+      {
+        "r": "HAB.3.13",
+        "v": 4
+      },
+      {
+        "r": "JHN.1.18",
+        "v": 4
+      },
+      {
+        "r": "AMO.3.14",
+        "v": 4
+      },
+      {
+        "r": "JHN.1.32",
+        "v": 3
+      },
+      {
+        "r": "EZK.9.2",
+        "v": 3
+      },
+      {
+        "r": "EZK.10.4",
+        "v": 3
+      },
+      {
+        "r": "JER.48.44",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.16",
+        "v": 3
+      },
+      {
+        "r": "AMO.2.14-15",
+        "v": 3
+      },
+      {
+        "r": "ZEC.11.1-2",
+        "v": 3
+      },
+      {
+        "r": "EZK.1.28",
+        "v": 3
+      },
+      {
+        "r": "2CH.18.18",
+        "v": 3
+      },
+      {
+        "r": "ZEP.2.14",
+        "v": 3
+      },
+      {
+        "r": "ACT.26.13",
+        "v": 2
+      },
+      {
+        "r": "ISA.24.17-18",
+        "v": 1
+      }
+    ],
     "section": "God’s Judgment Unavoidable"
   },
   "AMO.9.2": {
     "text": "Though they dig into Sheol, From there will My hand take them; And though they ascend to heaven, From there will I bring them down.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.139.7-10",
+        "v": 5
+      },
+      {
+        "r": "JER.51.53",
+        "v": 5
+      },
+      {
+        "r": "OBA.1.4",
+        "v": 3
+      },
+      {
+        "r": "LUK.10.18",
+        "v": 2
+      },
+      {
+        "r": "JOB.26.6",
+        "v": 2
+      },
+      {
+        "r": "EZK.28.13-16",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.2.19",
+        "v": 2
+      },
+      {
+        "r": "JER.49.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.13-16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.3": {
     "text": "Though they hide on the summit of Carmel, I will search them out and take them from there; And though they conceal themselves from My sight on the floor of the sea, From there I will command the serpent and it will bite them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.16.16",
+        "v": 5
+      },
+      {
+        "r": "JOB.34.22",
+        "v": 4
+      },
+      {
+        "r": "JER.23.23-24",
+        "v": 4
+      },
+      {
+        "r": "ISA.27.1",
+        "v": 4
+      },
+      {
+        "r": "PSA.139.9-11",
+        "v": 3
+      },
+      {
+        "r": "AMO.1.2",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.9.4": {
     "text": "And though they go into captivity before their enemies, From there I will command the sword that it slay them, And I will set My eyes against them for evil and not for good.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LEV.26.33",
+        "v": 5
+      },
+      {
+        "r": "JER.21.10",
+        "v": 4
+      },
+      {
+        "r": "JER.44.11",
+        "v": 4
+      },
+      {
+        "r": "EZK.5.12",
+        "v": 3
+      },
+      {
+        "r": "LEV.17.10",
+        "v": 3
+      },
+      {
+        "r": "JER.39.16",
+        "v": 3
+      },
+      {
+        "r": "DEU.28.63-65",
+        "v": 3
+      },
+      {
+        "r": "ZEC.13.8-9",
+        "v": 2
+      },
+      {
+        "r": "2CH.16.9",
+        "v": 2
+      },
+      {
+        "r": "EZK.5.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.34.15-16",
+        "v": 2
+      },
+      {
+        "r": "JER.24.6",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.36-39",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.5": {
     "text": "The Lord God of hosts, The One who touches the land so that it melts, And all those who dwell in it mourn, And all of it rises up like the Nile And subsides like the Nile of Egypt;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.8.8",
+        "v": 6
+      },
+      {
+        "r": "PSA.46.6",
+        "v": 4
+      },
+      {
+        "r": "MIC.1.3-4",
+        "v": 3
+      },
+      {
+        "r": "REV.20.11",
+        "v": 3
+      },
+      {
+        "r": "ISA.64.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.32.6",
+        "v": 2
+      },
+      {
+        "r": "MAT.7.27",
+        "v": 2
+      },
+      {
+        "r": "HOS.4.3",
+        "v": 2
+      },
+      {
+        "r": "HAB.3.10",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.93.3-4",
+        "v": 2
+      },
+      {
+        "r": "JER.12.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.7-8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.6": {
     "text": "The One who builds His upper chambers in the heavens And has founded His vaulted dome over the earth, He who calls for the waters of the sea And pours them out on the face of the earth, The Lord is His name.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.5.8",
+        "v": 8
+      },
+      {
+        "r": "PSA.104.3",
+        "v": 8
+      },
+      {
+        "r": "AMO.4.13",
+        "v": 7
+      },
+      {
+        "r": "PSA.104.13",
+        "v": 5
+      },
+      {
+        "r": "JER.5.22",
+        "v": 4
+      },
+      {
+        "r": "GEN.2.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.104.5-6",
+        "v": 3
+      },
+      {
+        "r": "GEN.7.11-19",
+        "v": 3
+      },
+      {
+        "r": "EXO.3.14-15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "AMO.9.7": {
     "text": "“Are you not as the sons of Ethiopia to Me, O sons of Israel?” declares the Lord. “Have I not brought up Israel from the land of Egypt, And the Philistines from Caphtor and the Arameans from Kir?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.47.4",
+        "v": 6
+      },
+      {
+        "r": "DEU.2.23",
+        "v": 5
+      },
+      {
+        "r": "2KI.16.9",
+        "v": 5
+      },
+      {
+        "r": "AMO.2.10",
+        "v": 4
+      },
+      {
+        "r": "AMO.1.5",
+        "v": 4
+      },
+      {
+        "r": "JER.9.25-26",
+        "v": 4
+      },
+      {
+        "r": "JER.13.23",
+        "v": 3
+      },
+      {
+        "r": "ISA.20.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.6",
+        "v": 3
+      },
+      {
+        "r": "HOS.12.13",
+        "v": 3
+      },
+      {
+        "r": "EXO.12.51",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.8": {
     "text": "Behold, the eyes of the Lord God are on the sinful kingdom, And I will destroy it from the face of the earth; Nevertheless, I will not totally destroy the house of Jacob,” Declares the Lord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.30.11",
+        "v": 5
+      },
+      {
+        "r": "AMO.9.4",
+        "v": 4
+      },
+      {
+        "r": "JER.44.27",
+        "v": 4
+      },
+      {
+        "r": "JER.5.10",
+        "v": 3
+      },
+      {
+        "r": "PRO.5.21",
+        "v": 2
+      },
+      {
+        "r": "PSA.11.4-6",
+        "v": 2
+      },
+      {
+        "r": "JER.33.24-26",
+        "v": 2
+      },
+      {
+        "r": "GEN.7.4",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.32",
+        "v": 2
+      },
+      {
+        "r": "JER.31.35-36",
+        "v": 2
+      },
+      {
+        "r": "ISA.27.7-8",
+        "v": 2
+      },
+      {
+        "r": "1KI.13.34",
+        "v": 2
+      },
+      {
+        "r": "HOS.1.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.15.3",
+        "v": 2
+      },
+      {
+        "r": "GEN.6.7",
+        "v": 2
+      },
+      {
+        "r": "DEU.4.31",
+        "v": 2
+      },
+      {
+        "r": "DEU.6.15",
+        "v": 2
+      },
+      {
+        "r": "ROM.11.28-29",
+        "v": 1
+      },
+      {
+        "r": "OBA.1.16-17",
+        "v": 1
+      },
+      {
+        "r": "ROM.11.1-7",
+        "v": 1
+      },
+      {
+        "r": "HOS.13.15-16",
+        "v": 1
+      },
+      {
+        "r": "HOS.9.11-17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.9": {
     "text": "“For behold, I am commanding, And I will shake the house of Israel among all nations As grain is shaken in a sieve, But not a kernel will fall to the ground.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.22.31",
+        "v": 5
+      },
+      {
+        "r": "DEU.28.64",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.33",
+        "v": 2
+      },
+      {
+        "r": "ISA.30.28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.10": {
     "text": "All the sinners of My people will die by the sword, Those who say, ‘The calamity will not overtake or confront us.’",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.3",
+        "v": 7
+      },
+      {
+        "r": "MAT.13.49-50",
+        "v": 4
+      },
+      {
+        "r": "ISA.33.14",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.12",
+        "v": 3
+      },
+      {
+        "r": "JER.18.18",
+        "v": 3
+      },
+      {
+        "r": "MAT.3.10-12",
+        "v": 3
+      },
+      {
+        "r": "MAL.3.2-5",
+        "v": 3
+      },
+      {
+        "r": "MAL.4.1",
+        "v": 3
+      },
+      {
+        "r": "AMO.6.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.10.11",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.11-13",
+        "v": 3
+      },
+      {
+        "r": "ISA.28.14-15",
+        "v": 3
+      },
+      {
+        "r": "EZK.34.16-17",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.19",
+        "v": 3
+      },
+      {
+        "r": "ECC.8.11",
+        "v": 3
+      },
+      {
+        "r": "MAT.13.41-42",
+        "v": 3
+      },
+      {
+        "r": "ZEC.13.8-9",
+        "v": 3
+      },
+      {
+        "r": "MAL.3.15",
+        "v": 3
+      },
+      {
+        "r": "EZK.20.38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.11": {
     "text": "“In that day I will raise up the fallen booth of David, And wall up its breaches; I will also raise up its ruins And rebuild it as in the days of old;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.15.15-17",
+        "v": 22
+      },
+      {
+        "r": "JER.33.14-16",
+        "v": 10
+      },
+      {
+        "r": "ISA.16.5",
+        "v": 8
+      },
+      {
+        "r": "JER.23.5-6",
+        "v": 7
+      },
+      {
+        "r": "PSA.80.12",
+        "v": 5
+      },
+      {
+        "r": "ISA.63.11",
+        "v": 4
+      },
+      {
+        "r": "EZK.17.24",
+        "v": 4
+      },
+      {
+        "r": "JER.46.26",
+        "v": 4
+      },
+      {
+        "r": "ISA.5.5",
+        "v": 3
+      },
+      {
+        "r": "EZK.36.11",
+        "v": 3
+      },
+      {
+        "r": "JER.33.20-26",
+        "v": 3
+      },
+      {
+        "r": "HOS.3.5",
+        "v": 3
+      },
+      {
+        "r": "EZK.34.23-24",
+        "v": 3
+      },
+      {
+        "r": "ISA.11.1-10",
+        "v": 3
+      },
+      {
+        "r": "LAM.5.21",
+        "v": 3
+      },
+      {
+        "r": "JOB.1.10",
+        "v": 3
+      },
+      {
+        "r": "LUK.1.31-33",
+        "v": 3
+      },
+      {
+        "r": "EZK.37.24-25",
+        "v": 3
+      },
+      {
+        "r": "ISA.9.6-7",
+        "v": 3
+      },
+      {
+        "r": "MIC.5.2",
+        "v": 2
+      },
+      {
+        "r": "MIC.7.14",
+        "v": 2
+      },
+      {
+        "r": "EZK.21.25-27",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.30-36",
+        "v": 2
+      },
+      {
+        "r": "JER.30.9",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.69-70",
+        "v": 2
+      },
+      {
+        "r": "PSA.143.5",
+        "v": 1
+      }
+    ],
     "section": "The Restoration of Israel"
   },
   "AMO.9.12": {
     "text": "That they may possess the remnant of Edom And all the nations who are called by My name,” Declares the Lord who does this.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.43.7",
+        "v": 7
+      },
+      {
+        "r": "ISA.65.1",
+        "v": 6
+      },
+      {
+        "r": "ACT.15.17",
+        "v": 6
+      },
+      {
+        "r": "ISA.63.19",
+        "v": 4
+      },
+      {
+        "r": "DAN.9.18-19",
+        "v": 4
+      },
+      {
+        "r": "JER.14.9",
+        "v": 4
+      },
+      {
+        "r": "NUM.24.17-18",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.1-2",
+        "v": 3
+      },
+      {
+        "r": "GEN.27.37",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.4",
+        "v": 2
+      },
+      {
+        "r": "JER.15.16",
+        "v": 2
+      },
+      {
+        "r": "PSA.60.8",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.29",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.14",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.8",
+        "v": 2
+      },
+      {
+        "r": "OBA.1.18-21",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.13": {
     "text": "“Behold, days are coming,” declares the Lord, “When the plowman will overtake the reaper And the treader of grapes him who sows seed; When the mountains will drip sweet wine And all the hills will be dissolved.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.3.18",
+        "v": 16
+      },
+      {
+        "r": "JHN.4.35",
+        "v": 14
+      },
+      {
+        "r": "LEV.26.5",
+        "v": 13
+      },
+      {
+        "r": "ISA.55.13",
+        "v": 13
+      },
+      {
+        "r": "ISA.35.1-2",
+        "v": 12
+      },
+      {
+        "r": "EZK.36.35",
+        "v": 11
+      },
+      {
+        "r": "HOS.2.21-23",
+        "v": 11
+      },
+      {
+        "r": "JOL.3.20",
+        "v": 7
+      },
+      {
+        "r": "JDG.5.5",
+        "v": 6
+      },
+      {
+        "r": "PSA.97.5",
+        "v": 6
+      },
+      {
+        "r": "AMO.9.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "AMO.9.14": {
     "text": "Also I will restore the captivity of My people Israel, And they will rebuild the ruined cities and live in them; They will also plant vineyards and drink their wine, And make gardens and eat their fruit.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.61.4",
+        "v": 10
+      },
+      {
+        "r": "JER.30.3",
+        "v": 8
+      },
+      {
+        "r": "JER.30.18",
+        "v": 7
+      },
+      {
+        "r": "EZK.28.26",
+        "v": 6
+      },
+      {
+        "r": "JER.31.28",
+        "v": 5
+      },
+      {
+        "r": "ISA.65.21",
+        "v": 4
+      },
+      {
+        "r": "PSA.53.6",
+        "v": 4
+      },
+      {
+        "r": "EZK.37.25-28",
+        "v": 3
+      },
+      {
+        "r": "EZK.16.53",
+        "v": 2
+      },
+      {
+        "r": "JER.31.38-40",
+        "v": 2
+      },
+      {
+        "r": "EZK.39.25",
+        "v": 2
+      },
+      {
+        "r": "EZK.36.33-36",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.8-9",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "JER.31.23",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.11",
+        "v": 1
+      },
+      {
+        "r": "ZEP.1.13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "AMO.9.15": {
     "text": "I will also plant them on their land, And they will not again be rooted out from their land Which I have given them,” Says the Lord your God.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.24.6",
+        "v": 13
+      },
+      {
+        "r": "EZK.37.25",
+        "v": 10
+      },
+      {
+        "r": "ISA.60.21",
+        "v": 9
+      },
+      {
+        "r": "EZK.34.28",
+        "v": 8
+      },
+      {
+        "r": "JOL.3.20",
+        "v": 7
+      },
+      {
+        "r": "JER.32.41",
+        "v": 6
+      },
+      {
+        "r": "MIC.4.4",
+        "v": 5
+      }
+    ],
     "section": null
   }
 }

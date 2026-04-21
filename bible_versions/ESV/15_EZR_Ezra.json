@@ -4,19 +4,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "For ver. 1-3, see 2 Chr. 36:22, 23",
-        "refs": []
+        "r": "JER.29.10",
+        "v": 34
       },
       {
-        "marker": "#",
-        "text": "Jer. 25:12, 13; 29:10",
-        "refs": []
+        "r": "2CH.36.22-23",
+        "v": 25
       },
       {
-        "marker": "#",
-        "text": "ch. 5:13",
-        "refs": []
+        "r": "JER.25.12-14",
+        "v": 15
+      },
+      {
+        "r": "EZR.6.22",
+        "v": 14
+      },
+      {
+        "r": "EZR.7.27",
+        "v": 13
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 12
+      },
+      {
+        "r": "JER.33.7-13",
+        "v": 12
+      },
+      {
+        "r": "EZR.5.13-15",
+        "v": 10
+      },
+      {
+        "r": "PSA.106.46",
+        "v": 5
       }
     ],
     "section": "The Proclamation of Cyrus"
@@ -26,9 +47,60 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Isa. 44:28; [Isa. 45:1, 13]",
-        "refs": []
+        "r": "ISA.45.12-13",
+        "v": 7
+      },
+      {
+        "r": "ISA.44.26-45.1",
+        "v": 4
+      },
+      {
+        "r": "DAN.5.23",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.19-21",
+        "v": 3
+      },
+      {
+        "r": "1KI.8.27",
+        "v": 2
+      },
+      {
+        "r": "JER.10.11",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.21",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.25",
+        "v": 2
+      },
+      {
+        "r": "JER.27.6-7",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.32",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.28",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.37-38",
+        "v": 2
+      },
+      {
+        "r": "ISA.66.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.2.12",
+        "v": 2
       }
     ],
     "section": null
@@ -38,9 +110,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Dan. 6:26",
-        "refs": []
+        "r": "DAN.6.26",
+        "v": 6
+      },
+      {
+        "r": "JER.10.10",
+        "v": 5
+      },
+      {
+        "r": "ISA.45.5",
+        "v": 4
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 3
+      },
+      {
+        "r": "ACT.10.36",
+        "v": 3
+      },
+      {
+        "r": "JOS.1.9",
+        "v": 3
+      },
+      {
+        "r": "DAN.2.47",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.31",
+        "v": 2
+      },
+      {
+        "r": "PSA.83.18",
+        "v": 2
+      },
+      {
+        "r": "1CH.28.20",
+        "v": 2
       }
     ],
     "section": null
@@ -48,7 +155,44 @@
   "EZR.1.4": {
     "text": "And let each survivor, in whatever place he sojourns, be assisted by the men of his place with silver and gold, with goods and with beasts, besides freewill offerings for the house of God that is in Jerusalem.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.29.3",
+        "v": 3
+      },
+      {
+        "r": "ECC.4.9-10",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.6-8",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.68-70",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.17",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.9",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.16-18",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.17",
+        "v": 2
+      },
+      {
+        "r": "GAL.6.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.1.5": {
@@ -56,14 +200,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[Phil. 2:13]",
-        "refs": []
+        "r": "EZR.1.1",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "ver. 1",
-        "refs": []
+        "r": "2CH.36.22",
+        "v": 4
+      },
+      {
+        "r": "PHP.2.13",
+        "v": 3
+      },
+      {
+        "r": "JAS.1.16-17",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.12",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.16",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.11",
+        "v": 1
+      },
+      {
+        "r": "PRO.16.1",
+        "v": 1
       }
     ],
     "section": null
@@ -73,9 +239,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ch. 4:4]; Jer. 38:4",
-        "refs": []
+        "r": "2CO.9.7",
+        "v": 3
+      },
+      {
+        "r": "EZR.1.4",
+        "v": 3
+      },
+      {
+        "r": "EZR.8.25-28",
+        "v": 2
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.33",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.15-16",
+        "v": 2
       }
     ],
     "section": null
@@ -85,14 +270,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 5:14; 6:5",
-        "refs": []
+        "r": "2CH.36.7",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "2 Kgs. 24:13; 2 Chr. 36:7",
-        "refs": []
+        "r": "2KI.24.13",
+        "v": 5
+      },
+      {
+        "r": "EZR.6.5",
+        "v": 5
+      },
+      {
+        "r": "EZR.5.14",
+        "v": 5
+      },
+      {
+        "r": "2CH.36.10",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.2-3",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.23",
+        "v": 2
+      },
+      {
+        "r": "JER.27.21-22",
+        "v": 2
+      },
+      {
+        "r": "2KI.25.13-16",
+        "v": 2
+      },
+      {
+        "r": "DAN.1.2",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.18",
+        "v": 2
+      },
+      {
+        "r": "JER.28.3-6",
+        "v": 2
       }
     ],
     "section": null
@@ -102,14 +325,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 4:7",
-        "refs": []
+        "r": "EZR.5.14",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ch. 5:14",
-        "refs": []
+        "r": "HAG.2.2-4",
+        "v": 2
+      },
+      {
+        "r": "ZEC.4.6-10",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.14",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.16",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.11",
+        "v": 2
       }
     ],
     "section": null
@@ -119,9 +360,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ch. 8:27; 1 Chr. 28:17]",
-        "refs": []
+        "r": "EZR.8.27",
+        "v": 2
+      },
+      {
+        "r": "MAT.10.29-31",
+        "v": 2
+      },
+      {
+        "r": "MAT.14.8",
+        "v": 2
+      },
+      {
+        "r": "2CH.4.8",
+        "v": 2
+      },
+      {
+        "r": "1KI.7.50",
+        "v": 2
+      },
+      {
+        "r": "2CH.4.11",
+        "v": 2
+      },
+      {
+        "r": "NUM.7.19-89",
+        "v": 2
+      },
+      {
+        "r": "2CH.24.14",
+        "v": 2
+      },
+      {
+        "r": "2CH.4.21-22",
+        "v": 2
+      },
+      {
+        "r": "NUM.7.13",
+        "v": 2
       }
     ],
     "section": null
@@ -135,7 +411,20 @@
   "EZR.1.11": {
     "text": "all the vessels of gold and of silver were 5,400. All these did Sheshbazzar bring up, when the exiles were brought up from Babylonia to Jerusalem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.9.23",
+        "v": 2
+      },
+      {
+        "r": "MAT.1.11-12",
+        "v": 2
+      },
+      {
+        "r": "2TI.2.19-21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.1": {
@@ -143,14 +432,76 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "For ver. 1-70, see Neh. 7:6-73",
-        "refs": []
+        "r": "2KI.24.14-16",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "2 Kgs. 24:14-16; 25:11; 2 Chr. 36:20",
-        "refs": []
+        "r": "2KI.25.11",
+        "v": 5
+      },
+      {
+        "r": "NEH.7.6-73",
+        "v": 4
+      },
+      {
+        "r": "JER.52.1-34",
+        "v": 2
+      },
+      {
+        "r": "LAM.1.5",
+        "v": 2
+      },
+      {
+        "r": "LAM.1.3",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.1-23",
+        "v": 2
+      },
+      {
+        "r": "JER.39.1-18",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.8",
+        "v": 2
+      },
+      {
+        "r": "EST.1.11",
+        "v": 2
+      },
+      {
+        "r": "ZEP.2.7",
+        "v": 2
+      },
+      {
+        "r": "LAM.4.22",
+        "v": 2
+      },
+      {
+        "r": "EST.1.3",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "EST.1.8",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.2",
+        "v": 2
+      },
+      {
+        "r": "ACT.23.34",
+        "v": 1
       }
     ],
     "section": "The Exiles Return"
@@ -160,9 +511,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:5, 6",
-        "refs": []
+        "r": "NEH.7.7",
+        "v": 4
+      },
+      {
+        "r": "HAG.1.12",
+        "v": 4
+      },
+      {
+        "r": "HAG.2.4",
+        "v": 4
+      },
+      {
+        "r": "HAG.1.14",
+        "v": 4
+      },
+      {
+        "r": "EZR.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "MAT.1.12-13",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.2",
+        "v": 2
+      },
+      {
+        "r": "ZEC.4.6-10",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.21",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.11",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.8",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.2",
+        "v": 2
+      },
+      {
+        "r": "ZEC.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "ZEC.3.1",
+        "v": 2
+      },
+      {
+        "r": "ZEC.3.3",
+        "v": 2
       }
     ],
     "section": null
@@ -172,9 +586,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 8:3; 10:25",
-        "refs": []
+        "r": "EZR.8.3",
+        "v": 4
+      },
+      {
+        "r": "EZR.10.25",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.8",
+        "v": 2
       }
     ],
     "section": null
@@ -182,157 +603,443 @@
   "EZR.2.4": {
     "text": "The sons of Shephatiah, 372.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.9",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.5": {
     "text": "The sons of Arah, 775.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.10",
+        "v": 3
+      },
+      {
+        "r": "NEH.6.18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.6": {
     "text": "The sons of Pahath-moab, namely the sons of Jeshua and Joab, 2,812.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.11",
+        "v": 4
+      },
+      {
+        "r": "EZR.10.30",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.9",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.14",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.7": {
     "text": "The sons of Elam, 1,254.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.31",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.26",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.8": {
     "text": "The sons of Zattu, 945.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.13",
+        "v": 3
+      },
+      {
+        "r": "EZR.10.27",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.9": {
     "text": "The sons of Zaccai, 760.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.10": {
     "text": "The sons of Bani, 642.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.10.34",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.11": {
     "text": "The sons of Bebai, 623.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.10.28",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.16",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.12": {
     "text": "The sons of Azgad, 1,222.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.17",
+        "v": 3
+      },
+      {
+        "r": "EZR.8.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.13": {
     "text": "The sons of Adonikam, 666.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.8.13",
+        "v": 4
+      },
+      {
+        "r": "NEH.7.18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.14": {
     "text": "The sons of Bigvai, 2,056.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.19",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.15": {
     "text": "The sons of Adin, 454.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.20",
+        "v": 3
+      },
+      {
+        "r": "EZR.8.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.16": {
     "text": "The sons of Ater, namely of Hezekiah, 98.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.17": {
     "text": "The sons of Bezai, 323.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.18": {
     "text": "The sons of Jorah, 112.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.24",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.19": {
     "text": "The sons of Hashum, 223.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.22",
+        "v": 3
+      },
+      {
+        "r": "EZR.10.33",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.20": {
     "text": "The sons of Gibbar, 95.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.21": {
     "text": "The sons of Bethlehem, 123.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.2.50-52",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.22": {
     "text": "The men of Netophah, 56.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.2.54",
+        "v": 2
+      },
+      {
+        "r": "JER.40.8",
+        "v": 2
+      },
+      {
+        "r": "2SA.23.28",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.26",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.23": {
     "text": "The men of Anathoth, 128.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOS.21.18",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.27",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.30",
+        "v": 2
+      },
+      {
+        "r": "JER.11.21",
+        "v": 2
+      },
+      {
+        "r": "JER.1.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.24": {
     "text": "The sons of Azmaveth, 42.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.25": {
     "text": "The sons of Kiriath-arim, Chephirah, and Beeroth, 743.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOS.9.17",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.29",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.26": {
     "text": "The sons of Ramah and Geba, 621.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOS.18.24-25",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.30",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.27": {
     "text": "The men of Michmas, 122.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.13.23",
+        "v": 2
+      },
+      {
+        "r": "1SA.13.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.28",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.31",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.28": {
     "text": "The men of Bethel and Ai, 223.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.12.8",
+        "v": 3
+      },
+      {
+        "r": "JOS.8.9",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.2",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.33",
+        "v": 2
+      },
+      {
+        "r": "JOS.8.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.29": {
     "text": "The sons of Nebo, 52.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.15.2",
+        "v": 2
+      },
+      {
+        "r": "JER.48.1",
+        "v": 2
+      },
+      {
+        "r": "NUM.32.3",
+        "v": 2
+      },
+      {
+        "r": "JER.48.22",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.49",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.33",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.30": {
@@ -346,9 +1053,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ver. 7]",
-        "refs": []
+        "r": "EZR.2.7",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.34",
+        "v": 2
       }
     ],
     "section": null
@@ -356,25 +1066,69 @@
   "EZR.2.32": {
     "text": "The sons of Harim, 320.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.35",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.31",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.33": {
     "text": "The sons of Lod, Hadid, and Ono, 725.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.8.12",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.37",
+        "v": 2
+      },
+      {
+        "r": "NEH.11.34-35",
+        "v": 2
+      },
+      {
+        "r": "NEH.6.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.34": {
     "text": "The sons of Jericho, 345.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.16.34",
+        "v": 4
+      },
+      {
+        "r": "2CH.28.15",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.36",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.35": {
     "text": "The sons of Senaah, 3,630.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.36": {
@@ -382,9 +1136,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "For ver. 36-39, see 1 Chr. 24:7-18",
-        "refs": []
+        "r": "1CH.24.7-18",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.39",
+        "v": 2
+      },
+      {
+        "r": "1CH.9.10",
+        "v": 2
+      },
+      {
+        "r": "EZR.3.9",
+        "v": 2
       }
     ],
     "section": null
@@ -392,7 +1157,20 @@
   "EZR.2.37": {
     "text": "The sons of Immer, 1,052.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.24.14",
+        "v": 4
+      },
+      {
+        "r": "NEH.7.40",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.38": {
@@ -400,9 +1178,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Chr. 9:12",
-        "refs": []
+        "r": "1CH.9.12",
+        "v": 5
+      },
+      {
+        "r": "EZR.10.22",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.41",
+        "v": 2
       }
     ],
     "section": null
@@ -410,7 +1195,20 @@
   "EZR.2.39": {
     "text": "The sons of Harim, 1,017.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.24.8",
+        "v": 4
+      },
+      {
+        "r": "EZR.10.21",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.42",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.40": {
@@ -418,9 +1216,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[Neh. 10:9]",
-        "refs": []
+        "r": "EZR.3.9",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.43",
+        "v": 2
       }
     ],
     "section": null
@@ -430,9 +1231,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See 1 Chr. 6:39",
-        "refs": []
+        "r": "1CH.6.39",
+        "v": 3
+      },
+      {
+        "r": "NEH.11.17",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.44",
+        "v": 2
+      },
+      {
+        "r": "1CH.15.17",
+        "v": 2
+      },
+      {
+        "r": "1CH.25.1-2",
+        "v": 2
       }
     ],
     "section": null
@@ -442,9 +1258,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Chr. 9:17, 18",
-        "refs": []
+        "r": "1CH.9.17",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.45",
+        "v": 2
+      },
+      {
+        "r": "1CH.26.1-19",
+        "v": 2
       }
     ],
     "section": null
@@ -454,9 +1277,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Chr. 9:2; Neh. 11:3",
-        "refs": []
+        "r": "1CH.9.2",
+        "v": 5
+      },
+      {
+        "r": "NEH.7.46-56",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.28",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.58",
+        "v": 2
       }
     ],
     "section": null
@@ -464,13 +1298,23 @@
   "EZR.2.44": {
     "text": "the sons of Keros, the sons of Siaha, the sons of Padon,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.47",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.45": {
     "text": "the sons of Lebanah, the sons of Hagabah, the sons of Akkub,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.48",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.46": {
@@ -494,13 +1338,23 @@
   "EZR.2.49": {
     "text": "the sons of Uzza, the sons of Paseah, the sons of Besai,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.51",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.50": {
     "text": "the sons of Asnah, the sons of Meunim, the sons of Nephisim,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.52",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.51": {
@@ -512,13 +1366,23 @@
   "EZR.2.52": {
     "text": "the sons of Bazluth, the sons of Mehida, the sons of Harsha,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.54",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.53": {
     "text": "the sons of Barkos, the sons of Sisera, the sons of Temah,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.55",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.54": {
@@ -532,9 +1396,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 11:3; [ 1 Kgs. 9:21 ]",
-        "refs": []
+        "r": "1KI.9.21",
+        "v": 4
+      },
+      {
+        "r": "NEH.7.57",
+        "v": 2
       }
     ],
     "section": null
@@ -542,19 +1409,62 @@
   "EZR.2.56": {
     "text": "the sons of Jaalah, the sons of Darkon, the sons of Giddel,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.58",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.57": {
     "text": "the sons of Shephatiah, the sons of Hattil, the sons of Pochereth-hazzebaim, and the sons of Ami.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.59",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EZR.2.58": {
     "text": "All the temple servants and the sons of Solomon’s servants were 392.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.9.2",
+        "v": 5
+      },
+      {
+        "r": "1KI.9.21",
+        "v": 4
+      },
+      {
+        "r": "JOS.9.27",
+        "v": 3
+      },
+      {
+        "r": "JOS.9.23",
+        "v": 3
+      },
+      {
+        "r": "JOS.9.21",
+        "v": 3
+      },
+      {
+        "r": "NEH.3.26",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.7",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.60",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.59": {
@@ -562,9 +1472,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[1 Chr. 9:1]",
-        "refs": []
+        "r": "NEH.7.61",
+        "v": 4
       }
     ],
     "section": null
@@ -572,7 +1481,12 @@
   "EZR.2.60": {
     "text": "the sons of Delaiah, the sons of Tobiah, and the sons of Nekoda, 652.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.62",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.2.61": {
@@ -580,9 +1494,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Sam. 17:27",
-        "refs": []
+        "r": "2SA.17.27",
+        "v": 5
+      },
+      {
+        "r": "1KI.2.7",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.63-64",
+        "v": 2
+      },
+      {
+        "r": "2SA.19.31-39",
+        "v": 2
       }
     ],
     "section": null
@@ -592,9 +1517,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[Num. 3:10]",
-        "refs": []
+        "r": "NUM.3.10",
+        "v": 4
+      },
+      {
+        "r": "NUM.16.39-40",
+        "v": 3
+      },
+      {
+        "r": "LEV.21.21-23",
+        "v": 2
+      },
+      {
+        "r": "EZK.44.10-14",
+        "v": 2
+      },
+      {
+        "r": "NUM.18.7",
+        "v": 2
       }
     ],
     "section": null
@@ -604,19 +1544,84 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 8:9",
-        "refs": []
+        "r": "LEV.2.3",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Lev. 22:2, 10, 15, 16",
-        "refs": []
+        "r": "LEV.2.10",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "See Ex. 28:30",
-        "refs": []
+        "r": "EXO.28.30",
+        "v": 4
+      },
+      {
+        "r": "NUM.27.21",
+        "v": 4
+      },
+      {
+        "r": "LEV.22.10",
+        "v": 3
+      },
+      {
+        "r": "NEH.8.9",
+        "v": 3
+      },
+      {
+        "r": "LEV.22.14-16",
+        "v": 2
+      },
+      {
+        "r": "LEV.8.8",
+        "v": 2
+      },
+      {
+        "r": "LEV.6.17",
+        "v": 2
+      },
+      {
+        "r": "NUM.18.9-11",
+        "v": 2
+      },
+      {
+        "r": "LEV.7.16",
+        "v": 2
+      },
+      {
+        "r": "LEV.22.2-3",
+        "v": 2
+      },
+      {
+        "r": "1SA.28.6",
+        "v": 2
+      },
+      {
+        "r": "LEV.10.17-18",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.1",
+        "v": 2
+      },
+      {
+        "r": "LEV.6.29",
+        "v": 2
+      },
+      {
+        "r": "DEU.33.8",
+        "v": 2
+      },
+      {
+        "r": "NUM.18.32",
+        "v": 2
+      },
+      {
+        "r": "NUM.18.19",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.65",
+        "v": 2
       }
     ],
     "section": null
@@ -626,9 +1631,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 7:66, 67",
-        "refs": []
+        "r": "JER.23.3",
+        "v": 3
+      },
+      {
+        "r": "ISA.10.20-22",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.8",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.66-69",
+        "v": 2
       }
     ],
     "section": null
@@ -638,9 +1654,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See 2 Chr. 35:25",
-        "refs": []
+        "r": "2SA.19.35",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.67",
+        "v": 2
+      },
+      {
+        "r": "MAT.9.23",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.68.25",
+        "v": 2
+      },
+      {
+        "r": "EXO.15.20-21",
+        "v": 2
+      },
+      {
+        "r": "2CH.35.25",
+        "v": 2
+      },
+      {
+        "r": "PSA.148.12-13",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.1-2",
+        "v": 2
+      },
+      {
+        "r": "JER.9.17-18",
+        "v": 1
       }
     ],
     "section": null
@@ -662,9 +1713,64 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 7:70-72",
-        "refs": []
+        "r": "2CO.9.7",
+        "v": 4
+      },
+      {
+        "r": "EXO.35.29",
+        "v": 3
+      },
+      {
+        "r": "EXO.36.3",
+        "v": 3
+      },
+      {
+        "r": "2CO.8.3",
+        "v": 3
+      },
+      {
+        "r": "EXO.35.5-19",
+        "v": 2
+      },
+      {
+        "r": "2CH.3.1",
+        "v": 2
+      },
+      {
+        "r": "LUK.21.1-4",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.70-73",
+        "v": 2
+      },
+      {
+        "r": "1CH.22.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 2
+      },
+      {
+        "r": "1CH.21.18",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.5-17",
+        "v": 2
+      },
+      {
+        "r": "EZR.3.3",
+        "v": 2
+      },
+      {
+        "r": "NUM.7.3-89",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.12",
+        "v": 2
       }
     ],
     "section": null
@@ -683,9 +1789,24 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[1 Chr. 26:20]",
-        "refs": []
+        "r": "EZR.8.25-34",
+        "v": 3
+      },
+      {
+        "r": "1CH.22.14",
+        "v": 2
+      },
+      {
+        "r": "1KI.7.51",
+        "v": 2
+      },
+      {
+        "r": "1CH.26.20-28",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.71-72",
+        "v": 2
       }
     ],
     "section": null
@@ -700,9 +1821,24 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 7:73",
-        "refs": []
+        "r": "NEH.7.73",
+        "v": 3
+      },
+      {
+        "r": "1CH.9.2",
+        "v": 2
+      },
+      {
+        "r": "1CH.11.2",
+        "v": 2
+      },
+      {
+        "r": "NEH.11.3-36",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.16-17",
+        "v": 1
       }
     ],
     "section": null
@@ -712,9 +1848,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 7:73; 8:1",
-        "refs": []
+        "r": "ACT.4.32",
+        "v": 5
+      },
+      {
+        "r": "1CO.1.10",
+        "v": 4
+      },
+      {
+        "r": "LEV.23.24",
+        "v": 4
+      },
+      {
+        "r": "NEH.7.73-8.2",
+        "v": 3
+      },
+      {
+        "r": "LEV.16.29",
+        "v": 2
+      },
+      {
+        "r": "NUM.29.1-40",
+        "v": 2
+      },
+      {
+        "r": "ZEP.3.9",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.14-17",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.46",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.14",
+        "v": 2
+      },
+      {
+        "r": "LEV.23.27-44",
+        "v": 2
+      },
+      {
+        "r": "JDG.20.1",
+        "v": 2
       }
     ],
     "section": "Rebuilding the Altar"
@@ -724,24 +1903,92 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Matt. 1:12; Luke 3:27",
-        "refs": []
+        "r": "HAG.1.1",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 3:17; Matt. 1:12; Luke 3:27",
-        "refs": []
+        "r": "LUK.3.27",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Deut. 12:5, 6",
-        "refs": []
+        "r": "EZR.2.2",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "See Deut. 33:1",
-        "refs": []
+        "r": "1CH.3.17",
+        "v": 5
+      },
+      {
+        "r": "EXO.20.24-25",
+        "v": 4
+      },
+      {
+        "r": "MAT.1.12-13",
+        "v": 3
+      },
+      {
+        "r": "HAG.1.12",
+        "v": 2
+      },
+      {
+        "r": "ZEC.6.11",
+        "v": 2
+      },
+      {
+        "r": "ZEC.4.6-10",
+        "v": 2
+      },
+      {
+        "r": "2CH.6.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.12.8",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.21",
+        "v": 2
+      },
+      {
+        "r": "ZEC.3.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.68",
+        "v": 2
+      },
+      {
+        "r": "NUM.28.3-31",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.14",
+        "v": 2
+      },
+      {
+        "r": "1CH.3.19",
+        "v": 2
+      },
+      {
+        "r": "ZEC.3.1",
+        "v": 2
+      },
+      {
+        "r": "NEH.12.1",
+        "v": 2
+      },
+      {
+        "r": "DEU.12.5-7",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.23",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.2-4",
+        "v": 2
       }
     ],
     "section": null
@@ -751,14 +1998,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ch. 4:4]",
-        "refs": []
+        "r": "EZR.4.4",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Ex. 29:38; Num. 28:3, 4",
-        "refs": []
+        "r": "NUM.28.2-8",
+        "v": 3
+      },
+      {
+        "r": "2CH.4.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.21-22",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.11-16",
+        "v": 2
+      },
+      {
+        "r": "EXO.29.38-42",
+        "v": 2
+      },
+      {
+        "r": "PSA.56.2-4",
+        "v": 1
+      },
+      {
+        "r": "PSA.27.1-2",
+        "v": 1
       }
     ],
     "section": null
@@ -768,19 +2037,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Zech. 14:16; See Neh. 8:14-17",
-        "refs": []
+        "r": "EXO.23.16",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Ex. 23:16; Lev. 23:34",
-        "refs": []
+        "r": "NEH.8.14-17",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "See Num. 29:12-38",
-        "refs": []
+        "r": "NUM.29.12-38",
+        "v": 5
+      },
+      {
+        "r": "JHN.7.37",
+        "v": 3
+      },
+      {
+        "r": "ZEC.14.16-19",
+        "v": 3
+      },
+      {
+        "r": "LEV.23.34-36",
+        "v": 2
+      },
+      {
+        "r": "JHN.7.2",
+        "v": 2
+      },
+      {
+        "r": "JER.52.34",
+        "v": 2
+      },
+      {
+        "r": "EXO.29.38",
+        "v": 2
+      },
+      {
+        "r": "EXO.5.13",
+        "v": 2
       }
     ],
     "section": null
@@ -790,14 +2084,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See Num. 28:11-15",
-        "refs": []
+        "r": "NUM.29.39",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Num. 29:39",
-        "refs": []
+        "r": "DEU.12.6",
+        "v": 2
+      },
+      {
+        "r": "LEV.1.3",
+        "v": 2
+      },
+      {
+        "r": "NUM.28.27",
+        "v": 2
+      },
+      {
+        "r": "DEU.12.17",
+        "v": 2
+      },
+      {
+        "r": "NUM.28.14",
+        "v": 2
+      },
+      {
+        "r": "NUM.29.8",
+        "v": 2
+      },
+      {
+        "r": "EXO.29.38-42",
+        "v": 2
+      },
+      {
+        "r": "NUM.29.2",
+        "v": 2
+      },
+      {
+        "r": "NUM.29.13",
+        "v": 2
+      },
+      {
+        "r": "NUM.28.3-11",
+        "v": 2
+      },
+      {
+        "r": "NUM.28.19",
+        "v": 2
+      },
+      {
+        "r": "2CH.29.31-32",
+        "v": 1
       }
     ],
     "section": null
@@ -813,19 +2149,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kgs. 5:6, 9; 2 Chr. 2:10",
-        "refs": []
+        "r": "1KI.5.6",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "2 Chr. 2:16",
-        "refs": []
+        "r": "ACT.12.20",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "ch. 1:3, 4; 6:3",
-        "refs": []
+        "r": "ACT.9.36",
+        "v": 3
+      },
+      {
+        "r": "ACT.10.5-6",
+        "v": 2
+      },
+      {
+        "r": "2CH.24.12-13",
+        "v": 2
+      },
+      {
+        "r": "EZK.27.17",
+        "v": 2
+      },
+      {
+        "r": "2KI.12.11-12",
+        "v": 2
+      },
+      {
+        "r": "2CH.2.10-16",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.3-5",
+        "v": 2
+      },
+      {
+        "r": "JON.1.3",
+        "v": 2
+      },
+      {
+        "r": "2KI.22.5-6",
+        "v": 2
+      },
+      {
+        "r": "1KI.5.9-11",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.2-4",
+        "v": 2
       }
     ],
     "section": null
@@ -835,24 +2208,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 2:2; 4:3",
-        "refs": []
+        "r": "EZR.4.3",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "ch. 2:2; 4:3",
-        "refs": []
+        "r": "1CH.23.4",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 23:24",
-        "refs": []
+        "r": "NUM.4.3",
+        "v": 2
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 23:4",
-        "refs": []
+        "r": "1CH.23.24-32",
+        "v": 2
       }
     ],
     "section": "Rebuilding the Temple"
@@ -862,19 +2231,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 8 above]",
-        "refs": []
+        "r": "EZR.2.40",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "[See ver. 8 above]",
-        "refs": []
+        "r": "NEH.7.43",
+        "v": 2
       },
       {
-        "marker": "#",
-        "text": "Neh. 10:9, 10",
-        "refs": []
+        "r": "EZR.3.8",
+        "v": 2
       }
     ],
     "section": null
@@ -884,9 +2250,64 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Chr. 6:31; 16:4-6; 25:1, 2",
-        "refs": []
+        "r": "1CH.25.1-7",
+        "v": 3
+      },
+      {
+        "r": "1CH.6.31-48",
+        "v": 2
+      },
+      {
+        "r": "1CH.23.5",
+        "v": 2
+      },
+      {
+        "r": "2CH.35.15",
+        "v": 2
+      },
+      {
+        "r": "1CH.16.4-7",
+        "v": 2
+      },
+      {
+        "r": "1SA.22.18",
+        "v": 2
+      },
+      {
+        "r": "1CH.15.24",
+        "v": 2
+      },
+      {
+        "r": "EXO.28.40-42",
+        "v": 2
+      },
+      {
+        "r": "2CH.29.25-26",
+        "v": 2
+      },
+      {
+        "r": "1CH.15.27",
+        "v": 2
+      },
+      {
+        "r": "1CH.16.42",
+        "v": 2
+      },
+      {
+        "r": "NEH.12.24-26",
+        "v": 2
+      },
+      {
+        "r": "ZEC.4.10",
+        "v": 2
+      },
+      {
+        "r": "1CH.16.37",
+        "v": 2
+      },
+      {
+        "r": "NUM.10.1-10",
+        "v": 1
       }
     ],
     "section": null
@@ -896,9 +2317,112 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See 1 Chr. 16:34, 41",
-        "refs": []
+        "r": "PSA.106.1",
+        "v": 22
+      },
+      {
+        "r": "1CH.16.34",
+        "v": 22
+      },
+      {
+        "r": "PSA.107.1",
+        "v": 18
+      },
+      {
+        "r": "PSA.103.17",
+        "v": 12
+      },
+      {
+        "r": "JER.33.11",
+        "v": 9
+      },
+      {
+        "r": "PSA.135.3",
+        "v": 9
+      },
+      {
+        "r": "PSA.118.1",
+        "v": 9
+      },
+      {
+        "r": "2CH.7.3",
+        "v": 7
+      },
+      {
+        "r": "ISA.12.6",
+        "v": 6
+      },
+      {
+        "r": "PSA.136.1-26",
+        "v": 6
+      },
+      {
+        "r": "NEH.12.24",
+        "v": 6
+      },
+      {
+        "r": "ISA.44.23",
+        "v": 5
+      },
+      {
+        "r": "EXO.15.21",
+        "v": 5
+      },
+      {
+        "r": "PSA.47.1",
+        "v": 4
+      },
+      {
+        "r": "LUK.1.50",
+        "v": 4
+      },
+      {
+        "r": "PSA.145.1-11",
+        "v": 4
+      },
+      {
+        "r": "1CH.16.41",
+        "v": 4
+      },
+      {
+        "r": "ZEC.9.9",
+        "v": 4
+      },
+      {
+        "r": "ISA.6.3",
+        "v": 4
+      },
+      {
+        "r": "REV.21.10-14",
+        "v": 3
+      },
+      {
+        "r": "PSA.24.7-10",
+        "v": 3
+      },
+      {
+        "r": "NEH.12.40",
+        "v": 3
+      },
+      {
+        "r": "JOS.6.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.47.5",
+        "v": 2
+      },
+      {
+        "r": "JOS.6.16",
+        "v": 1
+      },
+      {
+        "r": "PSA.102.13-14",
+        "v": 1
+      },
+      {
+        "r": "JOS.6.10",
+        "v": 0
       }
     ],
     "section": null
@@ -908,9 +2432,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Hag. 2:3",
-        "refs": []
+        "r": "HAG.2.3",
+        "v": 8
+      },
+      {
+        "r": "JER.31.8-9",
+        "v": 3
+      },
+      {
+        "r": "DAN.2.34-35",
+        "v": 3
+      },
+      {
+        "r": "JOB.8.7",
+        "v": 3
+      },
+      {
+        "r": "MAT.13.31-32",
+        "v": 3
+      },
+      {
+        "r": "PSA.126.6",
+        "v": 3
+      },
+      {
+        "r": "ZEC.4.10",
+        "v": 3
+      },
+      {
+        "r": "ISA.60.22",
+        "v": 3
+      },
+      {
+        "r": "ISA.41.14",
+        "v": 2
       }
     ],
     "section": null
@@ -918,7 +2473,52 @@
   "EZR.3.13": {
     "text": "so that the people could not distinguish the sound of the joyful shout from the sound of the people’s weeping, for the people shouted with a great shout, and the sound was heard far away.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.19.37-40",
+        "v": 4
+      },
+      {
+        "r": "1SA.4.5",
+        "v": 4
+      },
+      {
+        "r": "1KI.1.45",
+        "v": 3
+      },
+      {
+        "r": "ZEC.4.7",
+        "v": 3
+      },
+      {
+        "r": "JER.33.11",
+        "v": 3
+      },
+      {
+        "r": "1KI.1.40",
+        "v": 3
+      },
+      {
+        "r": "PSA.100.1-2",
+        "v": 3
+      },
+      {
+        "r": "NEH.12.43",
+        "v": 3
+      },
+      {
+        "r": "PSA.5.11",
+        "v": 3
+      },
+      {
+        "r": "EXO.32.17-18",
+        "v": 2
+      },
+      {
+        "r": "JDG.2.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.4.1": {
@@ -926,9 +2526,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See ver. 7-10",
-        "refs": []
+        "r": "EZR.1.11",
+        "v": 3
+      },
+      {
+        "r": "1CH.22.9-10",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.13",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.25",
+        "v": 2
+      },
+      {
+        "r": "1KI.5.4-5",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.7-10",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.16",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.19-20",
+        "v": 2
+      },
+      {
+        "r": "1CO.16.9",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.16",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.9",
+        "v": 2
+      },
+      {
+        "r": "NEH.4.1-11",
+        "v": 2
       }
     ],
     "section": "Adversaries Oppose the Rebuilding"
@@ -938,19 +2585,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Kgs. 17:24, 32, 33",
-        "refs": []
+        "r": "2KI.19.37",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "2 Kgs. 19:37",
-        "refs": []
+        "r": "2KI.17.24",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "[ver. 10]",
-        "refs": []
+        "r": "GAL.2.4",
+        "v": 4
+      },
+      {
+        "r": "2KI.17.27-33",
+        "v": 3
+      },
+      {
+        "r": "2TI.3.8",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.3",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.41",
+        "v": 2
+      },
+      {
+        "r": "PRO.26.23-26",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.2",
+        "v": 2
+      },
+      {
+        "r": "EZR.3.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.10.11",
+        "v": 2
+      },
+      {
+        "r": "EZR.3.2",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.5",
+        "v": 2
+      },
+      {
+        "r": "2CO.11.13-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.37.37",
+        "v": 2
+      },
+      {
+        "r": "2PE.2.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.8",
+        "v": 2
       }
     ],
     "section": null
@@ -960,14 +2660,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 2:20",
-        "refs": []
+        "r": "NEH.2.20",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ch. 1:1-3",
-        "refs": []
+        "r": "MAT.10.16",
+        "v": 3
+      },
+      {
+        "r": "ROM.9.4-5",
+        "v": 2
+      },
+      {
+        "r": "ISA.45.4",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.3-5",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.22-EZR.1.3",
+        "v": 2
+      },
+      {
+        "r": "JHN.4.22-23",
+        "v": 2
+      },
+      {
+        "r": "ISA.44.28-45.1",
+        "v": 2
+      },
+      {
+        "r": "ACT.8.21",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.9-10",
+        "v": 2
       }
     ],
     "section": null
@@ -977,9 +2707,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 3:3",
-        "refs": []
+        "r": "EZR.3.3",
+        "v": 6
+      },
+      {
+        "r": "NEH.6.9",
+        "v": 5
+      },
+      {
+        "r": "JER.38.4",
+        "v": 5
+      },
+      {
+        "r": "ISA.35.3-4",
+        "v": 4
+      },
+      {
+        "r": "NEH.4.11",
+        "v": 4
+      },
+      {
+        "r": "NEH.4.7-8",
+        "v": 3
       }
     ],
     "section": null
@@ -987,7 +2736,28 @@
   "EZR.4.5": {
     "text": "and bribed counselors against them to frustrate their purpose, all the days of Cyrus king of Persia, even until the reign of Darius king of Persia.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NAM.1.11",
+        "v": 4
+      },
+      {
+        "r": "EZR.5.5-6.18",
+        "v": 3
+      },
+      {
+        "r": "PSA.2.1-2",
+        "v": 3
+      },
+      {
+        "r": "ACT.24.1-27",
+        "v": 3
+      },
+      {
+        "r": "EZR.4.24",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.4.6": {
@@ -995,9 +2765,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 1:1; Dan. 9:1",
-        "refs": []
+        "r": "EST.1.1",
+        "v": 3
+      },
+      {
+        "r": "DAN.9.1",
+        "v": 3
+      },
+      {
+        "r": "ACT.25.7",
+        "v": 2
+      },
+      {
+        "r": "REV.12.10",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.5-9",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.13",
+        "v": 2
+      },
+      {
+        "r": "MAT.27.37",
+        "v": 2
       }
     ],
     "section": null
@@ -1012,14 +2805,28 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 1:8",
-        "refs": []
+        "r": "2KI.18.26",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "[2 Kgs. 18:26]",
-        "refs": []
+        "r": "DAN.2.4",
+        "v": 6
+      },
+      {
+        "r": "EZR.4.17",
+        "v": 4
+      },
+      {
+        "r": "EZR.4.9",
+        "v": 4
+      },
+      {
+        "r": "ISA.36.11",
+        "v": 4
+      },
+      {
+        "r": "EZR.5.6",
+        "v": 3
       }
     ],
     "section": "The Letter to King Artaxerxes"
@@ -1027,7 +2834,24 @@
   "EZR.4.8": {
     "text": "Rehum the commander and Shimshai the scribe wrote a letter against Jerusalem to Artaxerxes the king as follows:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.4.9",
+        "v": 3
+      },
+      {
+        "r": "2KI.18.18",
+        "v": 2
+      },
+      {
+        "r": "2SA.8.17",
+        "v": 2
+      },
+      {
+        "r": "2SA.20.25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.4.9": {
@@ -1035,19 +2859,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[2 Kgs. 17:24, 30, 31]",
-        "refs": []
+        "r": "EZR.6.6",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "[ch. 5:6; 6:6]",
-        "refs": []
+        "r": "EZR.5.6",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Isa. 11:11",
-        "refs": []
+        "r": "2KI.17.24",
+        "v": 5
+      },
+      {
+        "r": "2KI.17.30-31",
+        "v": 4
+      },
+      {
+        "r": "JER.25.25",
+        "v": 3
+      },
+      {
+        "r": "DAN.8.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.21.2",
+        "v": 3
+      },
+      {
+        "r": "JER.49.34",
+        "v": 3
+      },
+      {
+        "r": "ACT.2.9",
+        "v": 3
+      },
+      {
+        "r": "EST.1.2",
+        "v": 3
+      },
+      {
+        "r": "GEN.10.22",
+        "v": 3
+      },
+      {
+        "r": "EZK.32.24",
+        "v": 3
+      },
+      {
+        "r": "EST.2.3",
+        "v": 3
       }
     ],
     "section": null
@@ -1057,9 +2918,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ver. 2]",
-        "refs": []
+        "r": "EZR.4.17",
+        "v": 4
+      },
+      {
+        "r": "EZR.7.12",
+        "v": 3
+      },
+      {
+        "r": "EZR.4.11",
+        "v": 3
+      },
+      {
+        "r": "ROM.13.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.1",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.24-41",
+        "v": 2
       }
     ],
     "section": null
@@ -1075,9 +2955,76 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 5:3, 9",
-        "refs": []
+        "r": "2CH.36.13",
+        "v": 3
+      },
+      {
+        "r": "EZR.5.3",
+        "v": 3
+      },
+      {
+        "r": "EZR.5.9",
+        "v": 3
+      },
+      {
+        "r": "LUK.23.2-5",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.19",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.13-15",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.22",
+        "v": 2
+      },
+      {
+        "r": "LUK.13.34",
+        "v": 2
+      },
+      {
+        "r": "PSA.48.1-2",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.3",
+        "v": 2
+      },
+      {
+        "r": "2KI.18.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.25",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.15",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.21-23",
+        "v": 2
+      },
+      {
+        "r": "EZK.17.12-21",
+        "v": 2
+      },
+      {
+        "r": "2KI.24.1",
+        "v": 2
+      },
+      {
+        "r": "JER.52.3",
+        "v": 2
       }
     ],
     "section": null
@@ -1087,9 +3034,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ver. 20; ch. 7:24",
-        "refs": []
+        "r": "EZR.7.24",
+        "v": 5
+      },
+      {
+        "r": "NEH.5.4",
+        "v": 3
+      },
+      {
+        "r": "ROM.13.6-7",
+        "v": 3
+      },
+      {
+        "r": "PSA.52.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.17.25",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.20",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.69",
+        "v": 2
+      },
+      {
+        "r": "MAT.9.9",
+        "v": 2
       }
     ],
     "section": null
@@ -1102,25 +3076,117 @@
         "text": "Aramaic"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.12.5-6",
+        "v": 2
+      },
+      {
+        "r": "EZK.33.31",
+        "v": 2
+      },
+      {
+        "r": "JHN.19.12-15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.4.15": {
     "text": "in order that search may be made in the book of the records of your fathers. You will find in the book of the records and learn that this city is a rebellious city, hurtful to kings and provinces, and that sedition was stirred up in it from of old. That was why this city was laid waste.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.4.12",
+        "v": 3
+      },
+      {
+        "r": "ACT.17.6-7",
+        "v": 2
+      },
+      {
+        "r": "2KI.25.4",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.19",
+        "v": 2
+      },
+      {
+        "r": "EST.3.5-8",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.4-13",
+        "v": 2
+      },
+      {
+        "r": "NEH.6.6",
+        "v": 2
+      },
+      {
+        "r": "2KI.24.20-25.1",
+        "v": 2
+      },
+      {
+        "r": "JER.52.3-34",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.4.16": {
     "text": "We make known to the king that if this city is rebuilt and its walls finished, you will then have no possession in the province Beyond the River.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.8.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.20",
+        "v": 2
+      },
+      {
+        "r": "1KI.4.24",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.4.17": {
     "text": "The king sent an answer: “To Rehum the commander and Shimshai the scribe and the rest of their associates who live in Samaria and in the rest of the province Beyond the River, greeting. And now",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.10.5",
+        "v": 2
+      },
+      {
+        "r": "ACT.23.26",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.12",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.7",
+        "v": 2
+      },
+      {
+        "r": "ROM.1.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.9-11",
+        "v": 2
+      }
+    ],
     "section": "The King Orders the Work to Cease"
   },
   "EZR.4.18": {
@@ -1128,9 +3194,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[Neh. 8:8]",
-        "refs": []
+        "r": "NEH.8.8",
+        "v": 2
       }
     ],
     "section": null
@@ -1138,7 +3203,36 @@
   "EZR.4.19": {
     "text": "And I made a decree, and search has been made, and it has been found that this city from of old has risen against kings, and that rebellion and sedition have been made in it.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.18.7",
+        "v": 3
+      },
+      {
+        "r": "PRO.25.2",
+        "v": 3
+      },
+      {
+        "r": "EZR.5.17-6.2",
+        "v": 2
+      },
+      {
+        "r": "2KI.24.20",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.15",
+        "v": 2
+      },
+      {
+        "r": "DEU.13.14",
+        "v": 2
+      },
+      {
+        "r": "EZK.17.13-19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.4.20": {
@@ -1146,14 +3240,68 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kgs. 4:21; Ps. 72:8; [Gen. 15:18; Josh. 1:4]",
-        "refs": []
+        "r": "GEN.15.18",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ver. 13; [ch. 7:24]",
-        "refs": []
+        "r": "1KI.4.21",
+        "v": 5
+      },
+      {
+        "r": "PSA.72.8",
+        "v": 4
+      },
+      {
+        "r": "1CH.18.3",
+        "v": 4
+      },
+      {
+        "r": "2CH.17.11",
+        "v": 2
+      },
+      {
+        "r": "2CH.9.23-24",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.24",
+        "v": 2
+      },
+      {
+        "r": "JOS.1.3-4",
+        "v": 2
+      },
+      {
+        "r": "2CH.9.14",
+        "v": 2
+      },
+      {
+        "r": "1CH.18.6",
+        "v": 2
+      },
+      {
+        "r": "1CH.18.13",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.13",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.16",
+        "v": 2
+      },
+      {
+        "r": "1KI.4.24",
+        "v": 2
+      },
+      {
+        "r": "2CH.26.7-8",
+        "v": 2
+      },
+      {
+        "r": "1CH.19.19",
+        "v": 2
       }
     ],
     "section": null
@@ -1167,19 +3315,82 @@
   "EZR.4.22": {
     "text": "And take care not to be slack in this matter. Why should damage grow to the hurt of the king?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.4.13",
+        "v": 2
+      },
+      {
+        "r": "EST.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "EST.7.3-4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.4.23": {
     "text": "Then, when the copy of King Artaxerxes’ letter was read before Rehum and Shimshai the scribe and their associates, they went in haste to the Jews at Jerusalem and by force and power made them cease.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.3.15",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.8-9",
+        "v": 2
+      },
+      {
+        "r": "MIC.2.1",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.16",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.4.24": {
     "text": "Then the work on the house of God that is in Jerusalem stopped, and it ceased until the second year of the reign of Darius king of Persia.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HAG.1.15",
+        "v": 3
+      },
+      {
+        "r": "NEH.6.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.1",
+        "v": 2
+      },
+      {
+        "r": "NEH.6.9",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.5",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.5",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.18",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EZR.5.1": {
@@ -1187,14 +3398,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Hag. 1:1",
-        "refs": []
+        "r": "HAG.1.1-2.1",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Zech. 1:1",
-        "refs": []
+        "r": "ZEC.4.6-10",
+        "v": 6
+      },
+      {
+        "r": "ZEC.1.1-21",
+        "v": 3
+      },
+      {
+        "r": "MIC.5.4",
+        "v": 1
       }
     ],
     "section": "Rebuilding Begins Anew"
@@ -1204,19 +3421,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 3:2",
-        "refs": []
+        "r": "EZR.3.2",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "See ch. 3:2",
-        "refs": []
+        "r": "EZR.6.14",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "[ch. 6:14]",
-        "refs": []
+        "r": "ZEC.3.1-4",
+        "v": 3
+      },
+      {
+        "r": "HAG.2.20-23",
+        "v": 2
+      },
+      {
+        "r": "2CO.1.24",
+        "v": 2
+      },
+      {
+        "r": "ZEC.4.6-9",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.12-15",
+        "v": 2
+      },
+      {
+        "r": "ZEC.6.11",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.4-9",
+        "v": 2
       }
     ],
     "section": null
@@ -1226,14 +3464,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 6:6, 13",
-        "refs": []
+        "r": "EZR.6.6",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "ch. 4:12",
-        "refs": []
+        "r": "EZR.6.13",
+        "v": 4
+      },
+      {
+        "r": "EZR.5.9",
+        "v": 4
+      },
+      {
+        "r": "EZR.1.3",
+        "v": 4
+      },
+      {
+        "r": "MAT.21.23",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.21",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.7-9",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.12",
+        "v": 2
+      },
+      {
+        "r": "ACT.4.7",
+        "v": 2
       }
     ],
     "section": null
@@ -1254,9 +3522,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ps. 33:18; [ch. 7:6, 28]",
-        "refs": []
+        "r": "PSA.33.18",
+        "v": 6
+      },
+      {
+        "r": "EZR.7.28",
+        "v": 5
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 5
+      },
+      {
+        "r": "PSA.32.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.34.15",
+        "v": 3
+      },
+      {
+        "r": "EZR.8.22",
+        "v": 3
+      },
+      {
+        "r": "1PE.3.12",
+        "v": 3
+      },
+      {
+        "r": "PHP.1.28",
+        "v": 2
+      },
+      {
+        "r": "PSA.129.2-5",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.6-12",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.10",
+        "v": 2
+      },
+      {
+        "r": "2CH.16.9",
+        "v": 2
       }
     ],
     "section": null
@@ -1266,14 +3577,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 3 above]",
-        "refs": []
+        "r": "EZR.4.9",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "[ch. 4:9]",
-        "refs": []
+        "r": "EZR.4.11",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.23",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.6",
+        "v": 2
       }
     ],
     "section": "Tattenai’s Letter to King Darius"
@@ -1281,13 +3602,107 @@
   "EZR.5.7": {
     "text": "They sent him a report, in which was written as follows: “To Darius the king, all peace.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.3.9",
+        "v": 2
+      },
+      {
+        "r": "2TH.3.16",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "JHN.14.27",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.21",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.5.8": {
     "text": "Be it known to the king that we went to the province of Judah, to the house of the great God. It is being built with huge stones, and timber is laid in the walls. This work goes on diligently and prospers in their hands.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.4.2",
+        "v": 2
+      },
+      {
+        "r": "DEU.10.17",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.47",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.26",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.23",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.2-3",
+        "v": 2
+      },
+      {
+        "r": "MRK.13.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.10",
+        "v": 2
+      },
+      {
+        "r": "NEH.11.3",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.31",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.26",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.6",
+        "v": 2
+      },
+      {
+        "r": "EST.1.22",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.34-37",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.5.9": {
@@ -1295,9 +3710,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 3 above]",
-        "refs": []
+        "r": "EZR.5.3-4",
+        "v": 2
       }
     ],
     "section": null
@@ -1318,14 +3732,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kgs. 6:1",
-        "refs": []
+        "r": "ROM.1.16",
+        "v": 2
       },
       {
-        "marker": "#",
-        "text": "ch. 4:12",
-        "refs": []
+        "r": "GAL.6.14",
+        "v": 2
+      },
+      {
+        "r": "ROM.6.16",
+        "v": 2
+      },
+      {
+        "r": "JOS.24.15",
+        "v": 2
+      },
+      {
+        "r": "JON.1.9",
+        "v": 2
+      },
+      {
+        "r": "1KI.6.1-7",
+        "v": 2
+      },
+      {
+        "r": "2CH.3.1-5",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.46",
+        "v": 2
+      },
+      {
+        "r": "LUK.12.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.27.23",
+        "v": 2
+      },
+      {
+        "r": "MAT.10.32",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.26",
+        "v": 2
       }
     ],
     "section": null
@@ -1335,14 +3787,100 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Chr. 36:16, 17",
-        "refs": []
+        "r": "2CH.36.16-17",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "2 Kgs. 24:2; See 2 Kgs. 25:8-11",
-        "refs": []
+        "r": "DAN.9.5",
+        "v": 4
+      },
+      {
+        "r": "2KI.24.2",
+        "v": 3
+      },
+      {
+        "r": "NEH.9.26-27",
+        "v": 3
+      },
+      {
+        "r": "JER.39.1-14",
+        "v": 3
+      },
+      {
+        "r": "2KI.24.10-17",
+        "v": 2
+      },
+      {
+        "r": "DAN.1.1-2",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.30",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.17",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.6-10",
+        "v": 2
+      },
+      {
+        "r": "JDG.2.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.106.40",
+        "v": 2
+      },
+      {
+        "r": "ISA.59.1-2",
+        "v": 2
+      },
+      {
+        "r": "2CH.34.24-25",
+        "v": 2
+      },
+      {
+        "r": "1KI.9.6-9",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.15-68",
+        "v": 2
+      },
+      {
+        "r": "JER.5.29",
+        "v": 2
+      },
+      {
+        "r": "JDG.6.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.7.19-22",
+        "v": 2
+      },
+      {
+        "r": "2KI.25.1",
+        "v": 2
+      },
+      {
+        "r": "2KI.21.12-15",
+        "v": 2
+      },
+      {
+        "r": "2KI.25.8-30",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.24-28",
+        "v": 2
+      },
+      {
+        "r": "JDG.4.2",
+        "v": 2
       }
     ],
     "section": null
@@ -1352,9 +3890,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 1:1",
-        "refs": []
+        "r": "ISA.44.28-45.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.3-5",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.1-8",
+        "v": 2
       }
     ],
     "section": null
@@ -1364,14 +3909,64 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 1:7, 8; 6:5",
-        "refs": []
+        "r": "EZR.6.5",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ch. 1:8",
-        "refs": []
+        "r": "DAN.5.2-3",
+        "v": 3
+      },
+      {
+        "r": "JER.52.19",
+        "v": 3
+      },
+      {
+        "r": "EZR.5.16",
+        "v": 3
+      },
+      {
+        "r": "2CH.36.7",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.1",
+        "v": 2
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 2
+      },
+      {
+        "r": "ACT.13.12",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.27",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.7-11",
+        "v": 2
+      },
+      {
+        "r": "ACT.13.7-8",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.21",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.14",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.2",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.18",
+        "v": 2
       }
     ],
     "section": null
@@ -1379,7 +3974,20 @@
   "EZR.5.15": {
     "text": "and he said to him, “Take these vessels, go and put them in the temple that is in Jerusalem, and let the house of God be rebuilt on its site.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.3.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.5.16": {
@@ -1387,19 +3995,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 14above]",
-        "refs": []
+        "r": "EZR.6.15",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ch. 3:8, 10",
-        "refs": []
+        "r": "EZR.3.10",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "[ch. 6:15]",
-        "refs": []
+        "r": "EZR.3.8",
+        "v": 4
+      },
+      {
+        "r": "HAG.1.12-14",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.18",
+        "v": 2
+      },
+      {
+        "r": "ZEC.4.10",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.2",
+        "v": 2
       }
     ],
     "section": null
@@ -1409,9 +4030,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 6:1, 2",
-        "refs": []
+        "r": "EZR.4.15",
+        "v": 3
+      },
+      {
+        "r": "PRO.25.2",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.19",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.1-5",
+        "v": 2
       }
     ],
     "section": null
@@ -1421,9 +4053,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 5:17",
-        "refs": []
+        "r": "EZR.5.17",
+        "v": 6
+      },
+      {
+        "r": "EZR.4.15",
+        "v": 3
+      },
+      {
+        "r": "PRO.25.2",
+        "v": 3
+      },
+      {
+        "r": "REV.5.1",
+        "v": 2
+      },
+      {
+        "r": "EZK.2.9",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.19",
+        "v": 2
+      },
+      {
+        "r": "JER.36.20-23",
+        "v": 2
+      },
+      {
+        "r": "PSA.40.7",
+        "v": 2
+      },
+      {
+        "r": "JER.36.32",
+        "v": 2
+      },
+      {
+        "r": "JER.36.2-4",
+        "v": 2
+      },
+      {
+        "r": "JOB.29.16",
+        "v": 2
+      },
+      {
+        "r": "JER.36.29",
+        "v": 2
+      },
+      {
+        "r": "EZK.3.1",
+        "v": 1
       }
     ],
     "section": "The Decree of Darius"
@@ -1433,9 +4112,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[2 Kgs. 17:6]",
-        "refs": []
+        "r": "2KI.17.6",
+        "v": 1
       }
     ],
     "section": null
@@ -1448,7 +4126,48 @@
         "text": "A"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.21.16",
+        "v": 4
+      },
+      {
+        "r": "2CH.36.22-EZR.1.4",
+        "v": 4
+      },
+      {
+        "r": "2CH.3.3-4",
+        "v": 2
+      },
+      {
+        "r": "PSA.122.4",
+        "v": 2
+      },
+      {
+        "r": "2CH.2.6",
+        "v": 2
+      },
+      {
+        "r": "1KI.6.2-3",
+        "v": 2
+      },
+      {
+        "r": "DEU.12.5-6",
+        "v": 2
+      },
+      {
+        "r": "EZK.41.13-15",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.13-15",
+        "v": 2
+      },
+      {
+        "r": "DEU.12.11-14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EZR.6.4": {
@@ -1456,9 +4175,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kgs. 6:36",
-        "refs": []
+        "r": "1KI.6.36",
+        "v": 6
+      },
+      {
+        "r": "PSA.68.29",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.20-23",
+        "v": 2
+      },
+      {
+        "r": "REV.12.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.6-10",
+        "v": 2
+      },
+      {
+        "r": "PSA.72.10",
+        "v": 2
       }
     ],
     "section": null
@@ -1468,9 +4210,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 1:7, 8; 5:14",
-        "refs": []
+        "r": "EZR.5.14",
+        "v": 5
+      },
+      {
+        "r": "DAN.5.2",
+        "v": 5
+      },
+      {
+        "r": "2CH.36.6-7",
+        "v": 4
+      },
+      {
+        "r": "2KI.25.14-15",
+        "v": 4
+      },
+      {
+        "r": "JER.27.16",
+        "v": 4
+      },
+      {
+        "r": "2KI.24.13",
+        "v": 3
+      },
+      {
+        "r": "JER.52.19",
+        "v": 3
+      },
+      {
+        "r": "JER.27.18-22",
+        "v": 3
+      },
+      {
+        "r": "2CH.36.10",
+        "v": 3
+      },
+      {
+        "r": "DAN.1.2",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.7-8",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.18",
+        "v": 1
       }
     ],
     "section": null
@@ -1485,14 +4270,48 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 5:3, 6",
-        "refs": []
+        "r": "EZR.5.3",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "ch. 5:6",
-        "refs": []
+        "r": "PRO.21.30",
+        "v": 4
+      },
+      {
+        "r": "ROM.8.31",
+        "v": 4
+      },
+      {
+        "r": "EZR.5.6",
+        "v": 3
+      },
+      {
+        "r": "ACT.4.26-28",
+        "v": 3
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 2
+      },
+      {
+        "r": "GEN.32.28",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.10",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.27.8",
+        "v": 2
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 2
       }
     ],
     "section": null
@@ -1500,7 +4319,12 @@
   "EZR.6.7": {
     "text": "Let the work on this house of God alone. Let the governor of the Jews and the elders of the Jews rebuild this house of God on its site.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.5.38-39",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EZR.6.8": {
@@ -1508,9 +4332,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 7:13, 21",
-        "refs": []
+        "r": "EZR.6.4",
+        "v": 4
+      },
+      {
+        "r": "EZR.7.15-22",
+        "v": 3
+      },
+      {
+        "r": "HAG.2.8",
+        "v": 3
+      },
+      {
+        "r": "EZR.4.16",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.23",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.20-21",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.68.29-31",
+        "v": 2
       }
     ],
     "section": null
@@ -1518,7 +4369,52 @@
   "EZR.6.9": {
     "text": "And whatever is needed—bulls, rams, or sheep for burnt offerings to the God of heaven, wheat, salt, wine, or oil, as the priests at Jerusalem require—let that be given to them day by day without fail,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LEV.1.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.50.9-13",
+        "v": 3
+      },
+      {
+        "r": "1CH.9.29",
+        "v": 2
+      },
+      {
+        "r": "LEV.9.2",
+        "v": 2
+      },
+      {
+        "r": "MRK.9.49",
+        "v": 2
+      },
+      {
+        "r": "LEV.1.3-5",
+        "v": 2
+      },
+      {
+        "r": "EXO.29.38-42",
+        "v": 2
+      },
+      {
+        "r": "NUM.28.1-29",
+        "v": 2
+      },
+      {
+        "r": "LEV.2.1-16",
+        "v": 2
+      },
+      {
+        "r": "NUM.15.4-31",
+        "v": 2
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.6.10": {
@@ -1526,9 +4422,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Jer. 29:7; [1 Tim. 2:2]",
-        "refs": []
+        "r": "EZR.7.23",
+        "v": 4
+      },
+      {
+        "r": "JER.29.7",
+        "v": 4
+      },
+      {
+        "r": "1TI.2.1-2",
+        "v": 4
+      },
+      {
+        "r": "LEV.1.13",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.2",
+        "v": 2
+      },
+      {
+        "r": "GEN.8.21",
+        "v": 2
+      },
+      {
+        "r": "LEV.1.9",
+        "v": 2
       }
     ],
     "section": null
@@ -1538,9 +4457,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Dan. 2:5; 3:29",
-        "refs": []
+        "r": "DAN.3.29",
+        "v": 6
+      },
+      {
+        "r": "EZR.7.26",
+        "v": 5
+      },
+      {
+        "r": "DAN.2.5",
+        "v": 4
+      },
+      {
+        "r": "2KI.9.37",
+        "v": 3
+      },
+      {
+        "r": "2KI.10.27",
+        "v": 3
+      },
+      {
+        "r": "EST.5.4",
+        "v": 3
+      },
+      {
+        "r": "EST.7.10",
+        "v": 1
       }
     ],
     "section": null
@@ -1550,9 +4492,84 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kgs. 9:3",
-        "refs": []
+        "r": "1KI.9.3",
+        "v": 6
+      },
+      {
+        "r": "DEU.12.5",
+        "v": 5
+      },
+      {
+        "r": "EXO.20.24",
+        "v": 4
+      },
+      {
+        "r": "DEU.12.11",
+        "v": 4
+      },
+      {
+        "r": "OBA.1.10",
+        "v": 3
+      },
+      {
+        "r": "EST.8.14",
+        "v": 3
+      },
+      {
+        "r": "ZEC.12.2-4",
+        "v": 3
+      },
+      {
+        "r": "PSA.21.8-10",
+        "v": 3
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 3
+      },
+      {
+        "r": "EST.3.14-15",
+        "v": 3
+      },
+      {
+        "r": "2CH.7.16",
+        "v": 3
+      },
+      {
+        "r": "DEU.16.2",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.38-39",
+        "v": 3
+      },
+      {
+        "r": "ACT.9.5",
+        "v": 3
+      },
+      {
+        "r": "PSA.137.8-9",
+        "v": 3
+      },
+      {
+        "r": "ISA.60.12",
+        "v": 3
+      },
+      {
+        "r": "PSA.5.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.132.13-14",
+        "v": 3
+      },
+      {
+        "r": "REV.19.14-21",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.13",
+        "v": 2
       }
     ],
     "section": null
@@ -1562,9 +4579,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 6 above]",
-        "refs": []
+        "r": "EZR.4.9",
+        "v": 3
+      },
+      {
+        "r": "EZR.5.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.26",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.6",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.23",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.12-13",
+        "v": 2
+      },
+      {
+        "r": "EST.6.11",
+        "v": 2
       }
     ],
     "section": "The Temple Finished and Dedicated"
@@ -1574,24 +4614,60 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 5:1, 2",
-        "refs": []
+        "r": "EZR.7.1",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ver. 3; ch. 1:1; 5:13",
-        "refs": []
+        "r": "EZR.5.13",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "ver. 12; [ch. 4:24]",
-        "refs": []
+        "r": "EZR.4.24-5.2",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "ch. 7:1",
-        "refs": []
+        "r": "EZR.6.12-13",
+        "v": 3
+      },
+      {
+        "r": "EZR.1.1-4",
+        "v": 3
+      },
+      {
+        "r": "EZR.3.8",
+        "v": 2
+      },
+      {
+        "r": "ZEC.4.9",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.12-14",
+        "v": 2
+      },
+      {
+        "r": "ZEC.2.1-4",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.2-15",
+        "v": 2
+      },
+      {
+        "r": "HAG.1.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.44.28",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.3",
+        "v": 2
+      },
+      {
+        "r": "ZEC.6.1-15",
+        "v": 1
       }
     ],
     "section": null
@@ -1601,9 +4677,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:7",
-        "refs": []
+        "r": "EST.3.7",
+        "v": 4
+      },
+      {
+        "r": "EST.9.21",
+        "v": 3
+      },
+      {
+        "r": "EST.9.17",
+        "v": 2
+      },
+      {
+        "r": "EST.3.13",
+        "v": 2
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "EST.9.15",
+        "v": 2
+      },
+      {
+        "r": "EST.8.12",
+        "v": 2
+      },
+      {
+        "r": "EST.9.19",
+        "v": 2
       }
     ],
     "section": null
@@ -1613,9 +4716,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kgs. 8:63; 2 Chr. 7:5",
-        "refs": []
+        "r": "2CH.7.5",
+        "v": 6
+      },
+      {
+        "r": "1KI.8.63",
+        "v": 4
+      },
+      {
+        "r": "PHP.4.4",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.1",
+        "v": 3
+      },
+      {
+        "r": "JHN.10.22",
+        "v": 3
+      },
+      {
+        "r": "EZR.6.22",
+        "v": 3
+      },
+      {
+        "r": "EZR.3.11-12",
+        "v": 2
+      },
+      {
+        "r": "2CH.7.9-10",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.23",
+        "v": 2
+      },
+      {
+        "r": "1CH.9.2",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.73",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.26",
+        "v": 2
+      },
+      {
+        "r": "DEU.12.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.1",
+        "v": 2
+      },
+      {
+        "r": "1CH.15.28",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.10",
+        "v": 1
+      },
+      {
+        "r": "NEH.12.43",
+        "v": 1
       }
     ],
     "section": null
@@ -1625,9 +4791,64 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ch. 8:35]",
-        "refs": []
+        "r": "EZR.8.35",
+        "v": 6
+      },
+      {
+        "r": "REV.7.4-8",
+        "v": 4
+      },
+      {
+        "r": "2CH.29.21-23",
+        "v": 4
+      },
+      {
+        "r": "2CH.7.5",
+        "v": 3
+      },
+      {
+        "r": "2CH.29.31-35",
+        "v": 3
+      },
+      {
+        "r": "1CH.16.1-3",
+        "v": 2
+      },
+      {
+        "r": "LEV.4.13-14",
+        "v": 2
+      },
+      {
+        "r": "LEV.4.3",
+        "v": 2
+      },
+      {
+        "r": "LEV.4.22-23",
+        "v": 2
+      },
+      {
+        "r": "LEV.4.28",
+        "v": 2
+      },
+      {
+        "r": "NUM.7.2-89",
+        "v": 2
+      },
+      {
+        "r": "1KI.18.31",
+        "v": 2
+      },
+      {
+        "r": "1KI.8.63-64",
+        "v": 2
+      },
+      {
+        "r": "REV.21.12",
+        "v": 1
+      },
+      {
+        "r": "LUK.22.30",
+        "v": 1
       }
     ],
     "section": null
@@ -1637,19 +4858,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Chr. 24:1; 2 Chr. 35:5",
-        "refs": []
+        "r": "NUM.3.6",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 23:6",
-        "refs": []
+        "r": "1CH.24.1",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Num. 3:6; 8:9",
-        "refs": []
+        "r": "2CH.35.4-5",
+        "v": 3
+      },
+      {
+        "r": "1CH.23.1-26",
+        "v": 2
+      },
+      {
+        "r": "NUM.8.9-26",
+        "v": 2
       }
     ],
     "section": null
@@ -1659,9 +4885,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ex. 12:6",
-        "refs": []
+        "r": "EXO.12.6-36",
+        "v": 3
+      },
+      {
+        "r": "JOS.5.10",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.1-27",
+        "v": 2
       }
     ],
     "section": "Passover Celebrated"
@@ -1671,14 +4904,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Chr. 30:15",
-        "refs": []
+        "r": "2CH.35.11",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "2 Chr. 35:11",
-        "refs": []
+        "r": "2CH.29.34",
+        "v": 3
+      },
+      {
+        "r": "HEB.7.27",
+        "v": 3
+      },
+      {
+        "r": "EXO.12.21",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.15-17",
+        "v": 2
       }
     ],
     "section": null
@@ -1688,14 +4931,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 9:2; 10:28; [ch. 9:1]",
-        "refs": []
+        "r": "EZR.9.11",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "ch. 9:11",
-        "refs": []
+        "r": "2CO.7.1",
+        "v": 6
+      },
+      {
+        "r": "ISA.52.11",
+        "v": 6
+      },
+      {
+        "r": "NEH.9.2",
+        "v": 5
+      },
+      {
+        "r": "EZK.36.25",
+        "v": 5
+      },
+      {
+        "r": "EZR.9.1",
+        "v": 5
+      },
+      {
+        "r": "EXO.12.47-49",
+        "v": 5
+      },
+      {
+        "r": "2CO.6.17",
+        "v": 4
+      },
+      {
+        "r": "NUM.9.10-14",
+        "v": 4
+      },
+      {
+        "r": "NEH.10.28",
+        "v": 4
+      },
+      {
+        "r": "NUM.9.6-7",
+        "v": 4
+      },
+      {
+        "r": "PSA.93.5",
+        "v": 4
       }
     ],
     "section": null
@@ -1705,19 +4986,64 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ex. 12:15; 13:6; 2 Chr. 30:21; 35:17",
-        "refs": []
+        "r": "PRO.21.1",
+        "v": 9
       },
       {
-        "marker": "#",
-        "text": "ch. 7:27; [Prov. 21:1]",
-        "refs": []
+        "r": "2CH.30.21",
+        "v": 9
       },
       {
-        "marker": "#",
-        "text": "[Neh. 13:6]",
-        "refs": []
+        "r": "EZR.1.1",
+        "v": 9
+      },
+      {
+        "r": "EZR.7.27",
+        "v": 8
+      },
+      {
+        "r": "PRO.16.7",
+        "v": 8
+      },
+      {
+        "r": "2CH.35.17",
+        "v": 8
+      },
+      {
+        "r": "JHN.19.11",
+        "v": 7
+      },
+      {
+        "r": "EXO.12.15-20",
+        "v": 7
+      },
+      {
+        "r": "EXO.13.6-7",
+        "v": 7
+      },
+      {
+        "r": "ZEC.10.10-11",
+        "v": 6
+      },
+      {
+        "r": "1CO.5.7-8",
+        "v": 6
+      },
+      {
+        "r": "2CH.33.11",
+        "v": 6
+      },
+      {
+        "r": "MAT.26.17",
+        "v": 6
+      },
+      {
+        "r": "2KI.23.29",
+        "v": 6
+      },
+      {
+        "r": "EZR.6.6-12",
+        "v": 6
       }
     ],
     "section": null
@@ -1727,19 +5053,68 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 2:1",
-        "refs": []
+        "r": "NEH.2.1",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Neh. 2:1",
-        "refs": []
+        "r": "1CH.6.4-14",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "For ver. 1-5, see 1 Chr. 6:4-14",
-        "refs": []
+        "r": "EZR.7.12",
+        "v": 3
+      },
+      {
+        "r": "2KI.22.4",
+        "v": 3
+      },
+      {
+        "r": "EZR.6.14",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.21",
+        "v": 3
+      },
+      {
+        "r": "1CH.9.11",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.2-9",
+        "v": 2
+      },
+      {
+        "r": "JER.52.24-27",
+        "v": 2
+      },
+      {
+        "r": "NEH.11.11",
+        "v": 2
+      },
+      {
+        "r": "2KI.22.8",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.10",
+        "v": 2
+      },
+      {
+        "r": "2CH.34.9",
+        "v": 2
+      },
+      {
+        "r": "2KI.25.18",
+        "v": 2
+      },
+      {
+        "r": "2CH.34.15",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.1-10",
+        "v": 1
       }
     ],
     "section": "Ezra Sent to Teach the People"
@@ -1747,7 +5122,16 @@
   "EZR.7.2": {
     "text": "son of Shallum, son of Zadok, son of Ahitub,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.8.17",
+        "v": 2
+      },
+      {
+        "r": "1KI.2.35",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.7.3": {
@@ -1765,7 +5149,100 @@
   "EZR.7.5": {
     "text": "son of Abishua, son of Phinehas, son of Eleazar, son of Aaron the chief priest—",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.106.30-31",
+        "v": 2
+      },
+      {
+        "r": "2CH.26.20",
+        "v": 2
+      },
+      {
+        "r": "LEV.10.6",
+        "v": 2
+      },
+      {
+        "r": "LEV.10.16",
+        "v": 2
+      },
+      {
+        "r": "JOS.22.31",
+        "v": 2
+      },
+      {
+        "r": "NUM.25.7-13",
+        "v": 2
+      },
+      {
+        "r": "JDG.20.28",
+        "v": 2
+      },
+      {
+        "r": "HEB.5.4",
+        "v": 2
+      },
+      {
+        "r": "NUM.31.31",
+        "v": 2
+      },
+      {
+        "r": "1CH.6.50-52",
+        "v": 2
+      },
+      {
+        "r": "NUM.20.25-28",
+        "v": 2
+      },
+      {
+        "r": "1CH.6.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.6.25",
+        "v": 2
+      },
+      {
+        "r": "NUM.27.2",
+        "v": 2
+      },
+      {
+        "r": "2CH.19.11",
+        "v": 2
+      },
+      {
+        "r": "NUM.3.32",
+        "v": 2
+      },
+      {
+        "r": "1CH.24.1-6",
+        "v": 2
+      },
+      {
+        "r": "JOS.22.13",
+        "v": 2
+      },
+      {
+        "r": "NUM.31.6",
+        "v": 2
+      },
+      {
+        "r": "LEV.10.12",
+        "v": 2
+      },
+      {
+        "r": "JOS.24.33",
+        "v": 2
+      },
+      {
+        "r": "NUM.31.54",
+        "v": 2
+      },
+      {
+        "r": "JOS.14.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.7.6": {
@@ -1773,14 +5250,132 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ver. 11, 12, 21; Neh. 8:1-3, 13; 12:26, 36",
-        "refs": []
+        "r": "EZR.8.22",
+        "v": 13
       },
       {
-        "marker": "#",
-        "text": "ver. 9, 28; ch. 8:18, 22, 31; Neh. 2:8, 18; [ch. 5:5]",
-        "refs": []
+        "r": "EZR.7.28",
+        "v": 12
+      },
+      {
+        "r": "EZR.8.31",
+        "v": 11
+      },
+      {
+        "r": "NEH.2.18",
+        "v": 8
+      },
+      {
+        "r": "EZR.7.21",
+        "v": 7
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 7
+      },
+      {
+        "r": "NEH.2.8",
+        "v": 7
+      },
+      {
+        "r": "EZR.7.9",
+        "v": 6
+      },
+      {
+        "r": "EZR.8.18",
+        "v": 6
+      },
+      {
+        "r": "EZR.7.11-12",
+        "v": 6
+      },
+      {
+        "r": "DEU.4.5",
+        "v": 5
+      },
+      {
+        "r": "PRO.3.6",
+        "v": 5
+      },
+      {
+        "r": "DEU.28.1",
+        "v": 5
+      },
+      {
+        "r": "ISA.59.1",
+        "v": 4
+      },
+      {
+        "r": "PSA.45.1",
+        "v": 4
+      },
+      {
+        "r": "1CO.15.1",
+        "v": 4
+      },
+      {
+        "r": "1TH.4.1-2",
+        "v": 4
+      },
+      {
+        "r": "1CO.1.20",
+        "v": 4
+      },
+      {
+        "r": "MAT.13.52",
+        "v": 3
+      },
+      {
+        "r": "ISA.50.2",
+        "v": 3
+      },
+      {
+        "r": "NEH.12.36",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.10-11",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.5",
+        "v": 2
+      },
+      {
+        "r": "NEH.4.15",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.13",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.22",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.32.28",
+        "v": 1
+      },
+      {
+        "r": "JER.8.8",
+        "v": 1
+      },
+      {
+        "r": "NEH.8.9",
+        "v": 1
+      },
+      {
+        "r": "NEH.12.26",
+        "v": 1
+      },
+      {
+        "r": "NEH.8.4",
+        "v": 1
       }
     ],
     "section": null
@@ -1790,19 +5385,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See ch. 8:1-14",
-        "refs": []
+        "r": "EZR.8.1-20",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "ch. 8:15-19",
-        "refs": []
+        "r": "NEH.10.28",
+        "v": 2
       },
       {
-        "marker": "#",
-        "text": "ch. 8:17, 20; [ch. 2:43]",
-        "refs": []
+        "r": "NEH.2.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.14",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.24",
+        "v": 2
+      },
+      {
+        "r": "1CH.25.1-8",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.11-12",
+        "v": 2
+      },
+      {
+        "r": "1CH.6.31-48",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.40-70",
+        "v": 2
+      },
+      {
+        "r": "1CH.9.17-27",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.45-73",
+        "v": 2
       }
     ],
     "section": null
@@ -1823,9 +5447,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See ver. 6",
-        "refs": []
+        "r": "EZR.7.6",
+        "v": 7
+      },
+      {
+        "r": "NEH.2.8",
+        "v": 6
+      },
+      {
+        "r": "NEH.2.18",
+        "v": 3
       }
     ],
     "section": null
@@ -1835,14 +5466,116 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ver. 25; [Deut. 33:10]",
-        "refs": []
+        "r": "MAL.2.7",
+        "v": 15
       },
       {
-        "marker": "#",
-        "text": "[2 Chr. 17:7; Mal. 2:7; Matt. 23:2, 3]; See Neh. 8:1-8",
-        "refs": []
+        "r": "2TI.4.2",
+        "v": 15
+      },
+      {
+        "r": "MAT.7.24",
+        "v": 14
+      },
+      {
+        "r": "JHN.13.17",
+        "v": 13
+      },
+      {
+        "r": "PSA.1.2",
+        "v": 12
+      },
+      {
+        "r": "EZR.7.25",
+        "v": 11
+      },
+      {
+        "r": "PSA.19.7",
+        "v": 10
+      },
+      {
+        "r": "DEU.33.10",
+        "v": 9
+      },
+      {
+        "r": "1CH.29.18",
+        "v": 8
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 8
+      },
+      {
+        "r": "TIT.2.1",
+        "v": 7
+      },
+      {
+        "r": "PSA.10.17",
+        "v": 7
+      },
+      {
+        "r": "PSA.119.45",
+        "v": 5
+      },
+      {
+        "r": "2CH.17.8-9",
+        "v": 5
+      },
+      {
+        "r": "1TI.3.2",
+        "v": 5
+      },
+      {
+        "r": "1SA.7.3",
+        "v": 5
+      },
+      {
+        "r": "2CH.19.3",
+        "v": 5
+      },
+      {
+        "r": "PSA.57.7",
+        "v": 5
+      },
+      {
+        "r": "2CH.30.22",
+        "v": 5
+      },
+      {
+        "r": "PSA.119.96-100",
+        "v": 5
+      },
+      {
+        "r": "TIT.2.15",
+        "v": 4
+      },
+      {
+        "r": "DEU.16.12",
+        "v": 4
+      },
+      {
+        "r": "2CH.12.14",
+        "v": 4
+      },
+      {
+        "r": "NEH.8.1-9",
+        "v": 4
+      },
+      {
+        "r": "ACT.1.1",
+        "v": 4
+      },
+      {
+        "r": "REV.22.14",
+        "v": 3
+      },
+      {
+        "r": "MAT.5.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.11.13",
+        "v": 1
       }
     ],
     "section": null
@@ -1855,7 +5588,32 @@
         "text": "The text of Ezra 7:12–26 is in Aramaic"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.7.1-13",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.6",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.2",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.11",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.13",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.7.12": {
@@ -1868,19 +5626,48 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ezek. 26:7; Dan. 2:37",
-        "refs": []
+        "r": "EZK.26.7",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "See ver. 6",
-        "refs": []
+        "r": "DAN.2.37",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ch. 4:11, 17",
-        "refs": []
+        "r": "EZR.4.17",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.1",
+        "v": 2
+      },
+      {
+        "r": "REV.19.16",
+        "v": 2
+      },
+      {
+        "r": "1TI.6.15",
+        "v": 2
+      },
+      {
+        "r": "REV.17.14",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.47",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.8",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.10-11",
+        "v": 2
+      },
+      {
+        "r": "1KI.4.24",
+        "v": 2
       }
     ],
     "section": null
@@ -1890,9 +5677,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 6:8",
-        "refs": []
+        "r": "EZR.6.1",
+        "v": 3
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      },
+      {
+        "r": "REV.22.17",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.3",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.148.6",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.13",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.13",
+        "v": 2
+      },
+      {
+        "r": "EST.9.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 2
       }
     ],
     "section": null
@@ -1902,9 +5724,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ver. 15, 28; ch. 8:25; [Esth. 1:14]",
-        "refs": []
+        "r": "EST.1.14",
+        "v": 4
+      },
+      {
+        "r": "EZR.5.8",
+        "v": 2
+      },
+      {
+        "r": "DEU.17.18-19",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.47",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.26",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.12",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.3",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.20",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.25-26",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.15",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.28",
+        "v": 2
       }
     ],
     "section": null
@@ -1914,14 +5783,68 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 14 above]",
-        "refs": []
+        "r": "PSA.135.21",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "2 Chr. 6:2; [Ps. 135:21]",
-        "refs": []
+        "r": "2CH.6.2",
+        "v": 6
+      },
+      {
+        "r": "EZR.6.12",
+        "v": 4
+      },
+      {
+        "r": "2CH.2.6",
+        "v": 3
+      },
+      {
+        "r": "PSA.76.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.60.6-9",
+        "v": 3
+      },
+      {
+        "r": "EZR.6.8-10",
+        "v": 3
+      },
+      {
+        "r": "PSA.68.29-30",
+        "v": 3
+      },
+      {
+        "r": "1CH.29.6",
+        "v": 3
+      },
+      {
+        "r": "PSA.9.11",
+        "v": 3
+      },
+      {
+        "r": "EZR.6.4",
+        "v": 3
+      },
+      {
+        "r": "2CH.6.6",
+        "v": 3
+      },
+      {
+        "r": "PSA.72.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.76.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.26.8",
+        "v": 3
+      },
+      {
+        "r": "REV.21.24-26",
+        "v": 2
       }
     ],
     "section": null
@@ -1931,14 +5854,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 8:25",
-        "refs": []
+        "r": "1CH.29.6",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 29:6, 9",
-        "refs": []
+        "r": "1CH.29.9",
+        "v": 3
+      },
+      {
+        "r": "EZR.1.4",
+        "v": 3
+      },
+      {
+        "r": "EZR.1.6",
+        "v": 3
+      },
+      {
+        "r": "1CH.29.17",
+        "v": 2
+      },
+      {
+        "r": "2CO.9.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.25-28",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.12",
+        "v": 2
       }
     ],
     "section": null
@@ -1948,9 +5893,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Deut. 12:5, 11",
-        "refs": []
+        "r": "DEU.12.5-11",
+        "v": 5
+      },
+      {
+        "r": "NUM.15.4-13",
+        "v": 4
+      },
+      {
+        "r": "EZR.6.9-10",
+        "v": 4
+      },
+      {
+        "r": "MAT.21.12-13",
+        "v": 3
+      },
+      {
+        "r": "JHN.2.14",
+        "v": 3
+      },
+      {
+        "r": "DEU.14.24-26",
+        "v": 3
       }
     ],
     "section": null
@@ -1958,25 +5922,89 @@
   "EZR.7.18": {
     "text": "Whatever seems good to you and your brothers to do with the rest of the silver and gold, you may do, according to the will of your God.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.12.15",
+        "v": 2
+      },
+      {
+        "r": "2KI.22.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.26",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.7.19": {
     "text": "The vessels that have been given you for the service of the house of your God, you shall deliver before the God of Jerusalem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.8.27-30",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.33-34",
+        "v": 2
+      },
+      {
+        "r": "2CH.32.19",
+        "v": 2
+      },
+      {
+        "r": "JER.3.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.7.20": {
     "text": "And whatever else is required for the house of your God, which it falls to you to provide, you may provide it out of the king’s treasury.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.6.4",
+        "v": 5
+      },
+      {
+        "r": "EZR.6.8-18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.7.21": {
     "text": "“And I, Artaxerxes the king, make a decree to all the treasurers in the province Beyond the River: Whatever Ezra the priest, the scribe of the Law of the God of heaven, requires of you, let it be done with all diligence,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.7.6",
+        "v": 4
+      },
+      {
+        "r": "EZR.4.16",
+        "v": 4
+      },
+      {
+        "r": "EZR.6.6",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.10-13",
+        "v": 3
+      },
+      {
+        "r": "EZR.4.20",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EZR.7.22": {
@@ -1995,13 +6023,47 @@
         "text": "A"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LEV.2.13",
+        "v": 2
+      },
+      {
+        "r": "LUK.16.6-7",
+        "v": 2
+      },
+      {
+        "r": "EZK.45.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.7.23": {
     "text": "Whatever is decreed by the God of heaven, let it be done in full for the house of the God of heaven, lest his wrath be against the realm of the king and his sons.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.119.4",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.13",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.18",
+        "v": 2
+      },
+      {
+        "r": "ZEC.12.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.10-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.7.24": {
@@ -2009,9 +6071,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 4:13, 20",
-        "refs": []
+        "r": "EZR.7.7",
+        "v": 3
+      },
+      {
+        "r": "EZR.4.13",
+        "v": 3
+      },
+      {
+        "r": "EZR.2.36-55",
+        "v": 2
+      },
+      {
+        "r": "EZR.4.20",
+        "v": 2
       }
     ],
     "section": null
@@ -2021,14 +6094,104 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ex. 18:21, 22; Deut. 16:18",
-        "refs": []
+        "r": "DEU.16.18",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "See ver. 10",
-        "refs": []
+        "r": "EZR.7.10",
+        "v": 5
+      },
+      {
+        "r": "JAS.1.5",
+        "v": 4
+      },
+      {
+        "r": "PSA.19.7",
+        "v": 3
+      },
+      {
+        "r": "JAS.3.17-18",
+        "v": 3
+      },
+      {
+        "r": "MAL.2.7",
+        "v": 3
+      },
+      {
+        "r": "MRK.6.34",
+        "v": 2
+      },
+      {
+        "r": "MAT.13.52",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.1-3",
+        "v": 2
+      },
+      {
+        "r": "1CH.23.4",
+        "v": 2
+      },
+      {
+        "r": "1KI.3.28",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.2-3",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.98-100",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.14",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.7-8",
+        "v": 2
+      },
+      {
+        "r": "PRO.6.23",
+        "v": 2
+      },
+      {
+        "r": "2CH.19.8-10",
+        "v": 2
+      },
+      {
+        "r": "EXO.18.21-25",
+        "v": 2
+      },
+      {
+        "r": "PRO.2.6",
+        "v": 2
+      },
+      {
+        "r": "ROM.10.14-17",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.1-3",
+        "v": 2
+      },
+      {
+        "r": "2CH.17.7-9",
+        "v": 2
+      },
+      {
+        "r": "1CH.22.12",
+        "v": 2
       }
     ],
     "section": null
@@ -2036,7 +6199,40 @@
   "EZR.7.26": {
     "text": "Whoever will not obey the law of your God and the law of the king, let judgment be strictly executed on him, whether for death or for banishment or for confiscation of his goods or for imprisonment.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.6.11",
+        "v": 7
+      },
+      {
+        "r": "DEU.13.1-18",
+        "v": 5
+      },
+      {
+        "r": "LEV.20.1-27",
+        "v": 4
+      },
+      {
+        "r": "EXO.21.1-22",
+        "v": 3
+      },
+      {
+        "r": "DAN.6.26",
+        "v": 2
+      },
+      {
+        "r": "PSA.52.5",
+        "v": 1
+      },
+      {
+        "r": "2CH.30.12",
+        "v": 1
+      },
+      {
+        "r": "DAN.3.28-29",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EZR.7.27": {
@@ -2044,14 +6240,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Chr. 29:10",
-        "refs": []
+        "r": "EZR.6.22",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "ch. 6:22",
-        "refs": []
+        "r": "REV.17.17",
+        "v": 6
+      },
+      {
+        "r": "ISA.60.13",
+        "v": 5
+      },
+      {
+        "r": "JAS.1.17",
+        "v": 3
+      },
+      {
+        "r": "2CO.8.16",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.12",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.8",
+        "v": 3
+      },
+      {
+        "r": "HEB.10.16",
+        "v": 3
+      },
+      {
+        "r": "1CH.29.10-30",
+        "v": 2
+      },
+      {
+        "r": "HEB.8.10",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.10",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.5",
+        "v": 1
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 1
       }
     ],
     "section": null
@@ -2061,9 +6299,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 9:9",
-        "refs": []
+        "r": "2TI.4.17-18",
+        "v": 7
+      },
+      {
+        "r": "EZR.9.9",
+        "v": 6
+      },
+      {
+        "r": "EZR.5.5",
+        "v": 6
+      },
+      {
+        "r": "GEN.32.28",
+        "v": 6
+      },
+      {
+        "r": "EZR.8.18",
+        "v": 6
+      },
+      {
+        "r": "NEH.2.8",
+        "v": 5
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 4
+      },
+      {
+        "r": "EZR.7.9",
+        "v": 4
+      },
+      {
+        "r": "JON.3.7",
+        "v": 3
+      },
+      {
+        "r": "NEH.1.11",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.14",
+        "v": 2
       }
     ],
     "section": null
@@ -2071,7 +6352,52 @@
   "EZR.8.1": {
     "text": "These are the heads of their fathers’ houses, and this is the genealogy of those who went up with me from Babylonia, in the reign of Artaxerxes the king:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.7.7",
+        "v": 3
+      },
+      {
+        "r": "1CH.26.32",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.13",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.5",
+        "v": 2
+      },
+      {
+        "r": "1CH.9.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.26.12",
+        "v": 2
+      },
+      {
+        "r": "1CH.4.33",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.70-71",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.62",
+        "v": 2
+      },
+      {
+        "r": "1CH.24.31",
+        "v": 2
+      },
+      {
+        "r": "1CH.9.34",
+        "v": 2
+      }
+    ],
     "section": "Genealogy of Those Who Returned with Ezra"
   },
   "EZR.8.2": {
@@ -2079,14 +6405,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Chr. 24:3, 4",
-        "refs": []
+        "r": "1CH.3.22",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "[1 Chr. 3:22]",
-        "refs": []
+        "r": "1CH.6.3-15",
+        "v": 2
+      },
+      {
+        "r": "1CH.3.1",
+        "v": 2
+      },
+      {
+        "r": "1CH.24.1-6",
+        "v": 2
       }
     ],
     "section": null
@@ -2096,9 +6428,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "For ver. 3, see ch. 2:3-15",
-        "refs": []
+        "r": "EZR.2.3",
+        "v": 5
+      },
+      {
+        "r": "NEH.10.14",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.8",
+        "v": 2
       }
     ],
     "section": null
@@ -2108,9 +6447,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 10:30",
-        "refs": []
+        "r": "EZR.2.6",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.11",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.14",
+        "v": 2
       }
     ],
     "section": null
@@ -2129,25 +6475,77 @@
   "EZR.8.6": {
     "text": "Of the sons of Adin, Ebed the son of Jonathan, and with him 50 men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.15",
+        "v": 4
+      },
+      {
+        "r": "NEH.7.20",
+        "v": 4
+      },
+      {
+        "r": "NEH.10.16",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EZR.8.7": {
     "text": "Of the sons of Elam, Jeshaiah the son of Athaliah, and with him 70 men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.7.12",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.34",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.31",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.8.8": {
     "text": "Of the sons of Shephatiah, Zebadiah the son of Michael, and with him 80 men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.4",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.9",
+        "v": 2
+      },
+      {
+        "r": "NEH.11.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.8.9": {
     "text": "Of the sons of Joab, Obadiah the son of Jehiel, and with him 218 men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.8.10": {
@@ -2166,9 +6564,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 10:28",
-        "refs": []
+        "r": "EZR.10.28",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.16",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.11",
+        "v": 2
       }
     ],
     "section": null
@@ -2176,19 +6581,50 @@
   "EZR.8.12": {
     "text": "Of the sons of Azgad, Johanan the son of Hakkatan, and with him 110 men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.12",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.8.13": {
     "text": "Of the sons of Adonikam, those who came later, their names being Eliphelet, Jeuel, and Shemaiah, and with them 60 men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.13",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.8.14": {
     "text": "Of the sons of Bigvai, Uthai and Zaccur, and with them 70 men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.10.12",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.19",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.8.15": {
@@ -2196,14 +6632,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ver. 21, 31",
-        "refs": []
+        "r": "EZR.7.7",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "[ch. 7:7]",
-        "refs": []
+        "r": "EZR.8.21",
+        "v": 5
+      },
+      {
+        "r": "EZR.8.31",
+        "v": 5
+      },
+      {
+        "r": "EZR.8.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.137.1",
+        "v": 3
+      },
+      {
+        "r": "EZK.3.15",
+        "v": 3
+      },
+      {
+        "r": "ACT.16.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.1.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.24",
+        "v": 1
       }
     ],
     "section": "Ezra Sends for Levites"
@@ -2213,9 +6675,60 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 10:15",
-        "refs": []
+        "r": "PRO.2.6",
+        "v": 2
+      },
+      {
+        "r": "1KI.3.11",
+        "v": 2
+      },
+      {
+        "r": "1JN.5.20",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.18",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.21",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.21",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.39",
+        "v": 2
+      },
+      {
+        "r": "PRO.20.5",
+        "v": 2
+      },
+      {
+        "r": "2TI.2.7",
+        "v": 2
+      },
+      {
+        "r": "1CH.12.32",
+        "v": 2
+      },
+      {
+        "r": "1CH.26.14",
+        "v": 2
+      },
+      {
+        "r": "2CH.2.12",
+        "v": 2
+      },
+      {
+        "r": "PRO.28.2",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.13",
+        "v": 2
       }
     ],
     "section": null
@@ -2228,7 +6741,64 @@
         "text": "Hebrew lacks"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.43",
+        "v": 4
+      },
+      {
+        "r": "EZR.7.7",
+        "v": 2
+      },
+      {
+        "r": "JER.1.9",
+        "v": 2
+      },
+      {
+        "r": "DEU.18.18",
+        "v": 2
+      },
+      {
+        "r": "NUM.18.6",
+        "v": 2
+      },
+      {
+        "r": "TIT.1.5",
+        "v": 2
+      },
+      {
+        "r": "2SA.14.19",
+        "v": 2
+      },
+      {
+        "r": "EXO.4.15",
+        "v": 2
+      },
+      {
+        "r": "2SA.14.3",
+        "v": 2
+      },
+      {
+        "r": "NUM.8.22-26",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.58",
+        "v": 2
+      },
+      {
+        "r": "1CH.23.3-6",
+        "v": 2
+      },
+      {
+        "r": "JER.15.19",
+        "v": 2
+      },
+      {
+        "r": "1CH.23.26-32",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.8.18": {
@@ -2236,14 +6806,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See ch. 7:6",
-        "refs": []
+        "r": "NEH.2.8",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 6:19",
-        "refs": []
+        "r": "EZR.7.28",
+        "v": 4
+      },
+      {
+        "r": "JER.3.15",
+        "v": 4
+      },
+      {
+        "r": "1CH.6.19",
+        "v": 3
+      },
+      {
+        "r": "EZR.8.22",
+        "v": 3
+      },
+      {
+        "r": "DAN.1.20",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 3
+      },
+      {
+        "r": "NUM.3.20",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.24",
+        "v": 2
+      },
+      {
+        "r": "PRO.3.6",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.20",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.12",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.4-5",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.24.3",
+        "v": 2
+      },
+      {
+        "r": "NEH.12.24",
+        "v": 2
       }
     ],
     "section": null
@@ -2253,14 +6881,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 12:24",
-        "refs": []
+        "r": "1CH.6.1",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 6:1, 16",
-        "refs": []
+        "r": "1CH.6.16",
+        "v": 3
+      },
+      {
+        "r": "1CH.6.19",
+        "v": 2
+      },
+      {
+        "r": "NEH.3.17",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.11",
+        "v": 2
       }
     ],
     "section": null
@@ -2270,14 +6908,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 2:43; 7:7",
-        "refs": []
+        "r": "EZR.2.43",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Num. 1:17",
-        "refs": []
+        "r": "EZR.7.7",
+        "v": 4
+      },
+      {
+        "r": "1CH.9.2",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.3",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.17",
+        "v": 2
       }
     ],
     "section": null
@@ -2287,19 +6935,120 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See 2 Chr. 20:3",
-        "refs": []
+        "r": "2CH.20.3",
+        "v": 18
       },
       {
-        "marker": "#",
-        "text": "ver. 15, 31",
-        "refs": []
+        "r": "JOL.1.14",
+        "v": 14
       },
       {
-        "marker": "#",
-        "text": "[Ps. 5:8]",
-        "refs": []
+        "r": "1SA.7.6",
+        "v": 12
+      },
+      {
+        "r": "ISA.30.21",
+        "v": 12
+      },
+      {
+        "r": "JON.3.5",
+        "v": 9
+      },
+      {
+        "r": "LEV.16.29",
+        "v": 8
+      },
+      {
+        "r": "LEV.23.29",
+        "v": 7
+      },
+      {
+        "r": "PSA.107.2-8",
+        "v": 7
+      },
+      {
+        "r": "PSA.143.8-10",
+        "v": 7
+      },
+      {
+        "r": "PRO.3.6",
+        "v": 6
+      },
+      {
+        "r": "PSA.5.8",
+        "v": 6
+      },
+      {
+        "r": "JOL.2.12-18",
+        "v": 6
+      },
+      {
+        "r": "ISA.42.16",
+        "v": 6
+      },
+      {
+        "r": "MRK.10.13-16",
+        "v": 5
+      },
+      {
+        "r": "EZR.8.15",
+        "v": 5
+      },
+      {
+        "r": "JER.10.23",
+        "v": 5
+      },
+      {
+        "r": "ISA.58.3",
+        "v": 5
+      },
+      {
+        "r": "ISA.49.10",
+        "v": 5
+      },
+      {
+        "r": "ACT.2.39",
+        "v": 5
+      },
+      {
+        "r": "JER.31.8-9",
+        "v": 5
+      },
+      {
+        "r": "ISA.58.5",
+        "v": 4
+      },
+      {
+        "r": "JER.50.4-5",
+        "v": 4
+      },
+      {
+        "r": "LEV.16.31",
+        "v": 4
+      },
+      {
+        "r": "JDG.20.26",
+        "v": 4
+      },
+      {
+        "r": "PSA.8.2",
+        "v": 3
+      },
+      {
+        "r": "EZR.8.31",
+        "v": 3
+      },
+      {
+        "r": "NUM.14.3",
+        "v": 3
+      },
+      {
+        "r": "NUM.14.31",
+        "v": 3
+      },
+      {
+        "r": "ISA.35.8",
+        "v": 2
       }
     ],
     "section": "Fasting and Prayer for Protection"
@@ -2309,14 +7058,84 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See ch. 7:6",
-        "refs": []
+        "r": "1PE.3.12",
+        "v": 138
       },
       {
-        "marker": "#",
-        "text": "[2 Chr. 15:2]",
-        "refs": []
+        "r": "PSA.33.18-19",
+        "v": 128
+      },
+      {
+        "r": "2CH.16.9",
+        "v": 122
+      },
+      {
+        "r": "PSA.34.15-16",
+        "v": 101
+      },
+      {
+        "r": "LAM.3.25",
+        "v": 91
+      },
+      {
+        "r": "2CH.15.2",
+        "v": 75
+      },
+      {
+        "r": "PSA.34.22",
+        "v": 72
+      },
+      {
+        "r": "ROM.8.28",
+        "v": 62
+      },
+      {
+        "r": "1CH.28.9",
+        "v": 59
+      },
+      {
+        "r": "HEB.10.38",
+        "v": 51
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 44
+      },
+      {
+        "r": "EZR.7.28",
+        "v": 40
+      },
+      {
+        "r": "JOS.23.16",
+        "v": 36
+      },
+      {
+        "r": "ISA.3.10-11",
+        "v": 36
+      },
+      {
+        "r": "PSA.21.8-9",
+        "v": 30
+      },
+      {
+        "r": "ZEP.1.2-6",
+        "v": 28
+      },
+      {
+        "r": "EZR.7.9",
+        "v": 27
+      },
+      {
+        "r": "2CO.7.14",
+        "v": 22
+      },
+      {
+        "r": "PSA.90.11",
+        "v": 17
+      },
+      {
+        "r": "1CO.9.15",
+        "v": 16
       }
     ],
     "section": null
@@ -2324,7 +7143,68 @@
   "EZR.8.23": {
     "text": "So we fasted and implored our God for this, and he listened to our entreaty.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.29.12-13",
+        "v": 18
+      },
+      {
+        "r": "MAT.7.7-8",
+        "v": 12
+      },
+      {
+        "r": "EZR.8.31",
+        "v": 9
+      },
+      {
+        "r": "2CH.33.12-13",
+        "v": 9
+      },
+      {
+        "r": "DEU.4.29",
+        "v": 6
+      },
+      {
+        "r": "1CH.5.20",
+        "v": 5
+      },
+      {
+        "r": "EST.4.16",
+        "v": 5
+      },
+      {
+        "r": "ISA.19.22",
+        "v": 4
+      },
+      {
+        "r": "DAN.9.3",
+        "v": 4
+      },
+      {
+        "r": "NEH.9.1",
+        "v": 3
+      },
+      {
+        "r": "JER.50.4-5",
+        "v": 3
+      },
+      {
+        "r": "PSA.66.18-20",
+        "v": 3
+      },
+      {
+        "r": "JER.33.3",
+        "v": 3
+      },
+      {
+        "r": "LUK.2.37",
+        "v": 3
+      },
+      {
+        "r": "ACT.10.30",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.8.24": {
@@ -2332,14 +7212,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 19 above]",
-        "refs": []
-      },
-      {
-        "marker": "#",
-        "text": "[See ver. 19 above]",
-        "refs": []
+        "r": "EZR.8.18-19",
+        "v": 4
       }
     ],
     "section": "Priests to Guard Offerings"
@@ -2349,14 +7223,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 7:15, 16",
-        "refs": []
+        "r": "EZR.8.33",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "See ch. 7:14",
-        "refs": []
+        "r": "EZR.7.14-16",
+        "v": 4
+      },
+      {
+        "r": "EZR.1.8",
+        "v": 3
+      },
+      {
+        "r": "2CO.8.20-21",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 2
       }
     ],
     "section": null
@@ -2375,9 +7259,8 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ch. 1:9-11]",
-        "refs": []
+        "r": "EZR.1.9-11",
+        "v": 2
       }
     ],
     "section": null
@@ -2390,7 +7273,12 @@
         "text": "A"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LAM.4.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.8.28": {
@@ -2398,14 +7286,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Lev. 21:6",
-        "refs": []
+        "r": "LEV.22.2-3",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Lev. 22:2, 3",
-        "refs": []
+        "r": "LEV.21.6-8",
+        "v": 4
+      },
+      {
+        "r": "NUM.7.84-88",
+        "v": 2
+      },
+      {
+        "r": "NUM.4.19-20",
+        "v": 2
+      },
+      {
+        "r": "1KI.7.48-51",
+        "v": 2
+      },
+      {
+        "r": "NUM.7.13",
+        "v": 2
+      },
+      {
+        "r": "NUM.4.4-15",
+        "v": 2
+      },
+      {
+        "r": "1CH.23.28",
+        "v": 2
+      },
+      {
+        "r": "DEU.33.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.52.11",
+        "v": 2
+      },
+      {
+        "r": "2CH.24.14",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.7-11",
+        "v": 2
       }
     ],
     "section": null
@@ -2415,9 +7341,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ch. 10:6]",
-        "refs": []
+        "r": "EZR.8.33-34",
+        "v": 3
+      },
+      {
+        "r": "1CH.26.20-26",
+        "v": 2
+      },
+      {
+        "r": "2TI.4.5",
+        "v": 2
+      },
+      {
+        "r": "MRK.13.34-35",
+        "v": 2
+      },
+      {
+        "r": "ACT.20.31",
+        "v": 2
       }
     ],
     "section": null
@@ -2427,9 +7368,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 26 above]",
-        "refs": []
+        "r": "ISA.60.13",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.122.9",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.2-3",
+        "v": 2
       }
     ],
     "section": null
@@ -2439,14 +7391,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ch. 7:9]",
-        "refs": []
+        "r": "EZR.8.21-22",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "See ch. 7:6",
-        "refs": []
+        "r": "EZR.8.15",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.9",
+        "v": 3
+      },
+      {
+        "r": "ISA.41.10-14",
+        "v": 2
+      },
+      {
+        "r": "ACT.26.22",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.19-24",
+        "v": 1
+      },
+      {
+        "r": "ACT.25.3",
+        "v": 1
+      },
+      {
+        "r": "EZR.7.28",
+        "v": 1
+      },
+      {
+        "r": "PSA.91.9-14",
+        "v": 1
       }
     ],
     "section": null
@@ -2456,9 +7434,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 2:11",
-        "refs": []
+        "r": "NEH.2.11",
+        "v": 5
+      },
+      {
+        "r": "EZR.7.8-9",
+        "v": 2
       }
     ],
     "section": null
@@ -2468,24 +7449,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ch. 1:9-11]",
-        "refs": []
+        "r": "NEH.3.4",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Neh. 3:4, 21",
-        "refs": []
+        "r": "NEH.3.21",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Neh. 11:16",
-        "refs": []
+        "r": "EZR.8.30",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Neh. 3:24",
-        "refs": []
+        "r": "NEH.10.5",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.20-21",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.26",
+        "v": 2
+      },
+      {
+        "r": "NEH.3.24",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.9",
+        "v": 2
+      },
+      {
+        "r": "1CH.28.14-18",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.7",
+        "v": 2
       }
     ],
     "section": null
@@ -2501,14 +7502,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 2:1",
-        "refs": []
+        "r": "EZR.6.17",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "[ch. 6:17]",
-        "refs": []
+        "r": "2CH.29.31-32",
+        "v": 2
+      },
+      {
+        "r": "LEV.1.1-7",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.1",
+        "v": 2
+      },
+      {
+        "r": "NUM.7.27",
+        "v": 2
+      },
+      {
+        "r": "PSA.66.10-15",
+        "v": 2
+      },
+      {
+        "r": "PSA.116.12-19",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.74-75",
+        "v": 2
       }
     ],
     "section": null
@@ -2523,14 +7546,36 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 7:21",
-        "refs": []
+        "r": "EZR.7.21-24",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Esth. 3:12; 8:9; 9:3; Dan. 3:2, 3, 27; 6:2, 3",
-        "refs": []
+        "r": "EZR.4.7-23",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.13",
+        "v": 2
+      },
+      {
+        "r": "REV.12.16",
+        "v": 2
+      },
+      {
+        "r": "EZR.5.6-17",
+        "v": 2
+      },
+      {
+        "r": "ISA.56.6-7",
+        "v": 2
+      },
+      {
+        "r": "ACT.18.27",
+        "v": 2
+      },
+      {
+        "r": "EST.9.3",
+        "v": 1
       }
     ],
     "section": null
@@ -2540,19 +7585,120 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ch. 6:21; Neh. 9:2]",
-        "refs": []
+        "r": "LEV.18.24-30",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Deut. 12:30, 31",
-        "refs": []
+        "r": "NEH.9.2",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "See Ex. 13:5",
-        "refs": []
+        "r": "EZR.10.10-11",
+        "v": 4
+      },
+      {
+        "r": "DEU.12.30-31",
+        "v": 3
+      },
+      {
+        "r": "ROM.2.17-25",
+        "v": 3
+      },
+      {
+        "r": "EXO.33.16",
+        "v": 3
+      },
+      {
+        "r": "EZR.10.8",
+        "v": 2
+      },
+      {
+        "r": "DEU.20.17-18",
+        "v": 2
+      },
+      {
+        "r": "ISA.52.11",
+        "v": 2
+      },
+      {
+        "r": "JER.26.10",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.1-3",
+        "v": 2
+      },
+      {
+        "r": "EXO.13.5",
+        "v": 2
+      },
+      {
+        "r": "GEN.15.16",
+        "v": 2
+      },
+      {
+        "r": "2CH.33.2",
+        "v": 2
+      },
+      {
+        "r": "2CO.6.14-18",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.21-22",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.5-7",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.1",
+        "v": 2
+      },
+      {
+        "r": "DEU.23.3-5",
+        "v": 2
+      },
+      {
+        "r": "DEU.18.9",
+        "v": 2
+      },
+      {
+        "r": "NUM.23.9",
+        "v": 2
+      },
+      {
+        "r": "JER.26.16",
+        "v": 2
+      },
+      {
+        "r": "NEH.4.3",
+        "v": 2
+      },
+      {
+        "r": "LEV.18.3",
+        "v": 2
+      },
+      {
+        "r": "NUM.25.1-3",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.23",
+        "v": 2
+      },
+      {
+        "r": "GEN.15.19-21",
+        "v": 2
+      },
+      {
+        "r": "PSA.106.35",
+        "v": 2
+      },
+      {
+        "r": "NEH.4.7",
+        "v": 1
       }
     ],
     "section": "Ezra Prays About Intermarriage"
@@ -2567,19 +7713,76 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 10:2; Neh. 13:23, 27; [Ex. 34:16; Deut. 7:3; Neh. 10:30]",
-        "refs": []
+        "r": "NEH.13.23-24",
+        "v": 9
       },
       {
-        "marker": "#",
-        "text": "See Deut. 7:6",
-        "refs": []
+        "r": "EZR.10.18-44",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Ps. 106:35; [2 Cor. 6:14]",
-        "refs": []
+        "r": "EZR.10.2",
+        "v": 6
+      },
+      {
+        "r": "EXO.34.16",
+        "v": 6
+      },
+      {
+        "r": "DEU.7.1-4",
+        "v": 5
+      },
+      {
+        "r": "DEU.7.6",
+        "v": 5
+      },
+      {
+        "r": "MAL.2.15",
+        "v": 4
+      },
+      {
+        "r": "1CO.7.14",
+        "v": 4
+      },
+      {
+        "r": "EXO.19.6",
+        "v": 4
+      },
+      {
+        "r": "EXO.22.31",
+        "v": 4
+      },
+      {
+        "r": "MAL.2.11",
+        "v": 4
+      },
+      {
+        "r": "DEU.14.2",
+        "v": 4
+      },
+      {
+        "r": "2CO.6.14",
+        "v": 3
+      },
+      {
+        "r": "NEH.13.3-4",
+        "v": 3
+      },
+      {
+        "r": "GEN.6.2",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.17",
+        "v": 1
+      },
+      {
+        "r": "NEH.13.28",
+        "v": 1
+      },
+      {
+        "r": "ISA.6.13",
+        "v": 1
       }
     ],
     "section": null
@@ -2589,14 +7792,76 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See Josh. 7:6",
-        "refs": []
+        "r": "NEH.1.4",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "[Neh. 1:4]",
-        "refs": []
+        "r": "JOS.7.6",
+        "v": 3
+      },
+      {
+        "r": "EZK.3.15",
+        "v": 2
+      },
+      {
+        "r": "JER.7.29",
+        "v": 2
+      },
+      {
+        "r": "PSA.66.3",
+        "v": 2
+      },
+      {
+        "r": "JOB.2.12-13",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.16",
+        "v": 2
+      },
+      {
+        "r": "JER.48.37-38",
+        "v": 2
+      },
+      {
+        "r": "PSA.143.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.15.2",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.19",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.25",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.8.27",
+        "v": 2
+      },
+      {
+        "r": "JER.36.24",
+        "v": 2
+      },
+      {
+        "r": "2KI.18.37-19.1",
+        "v": 2
+      },
+      {
+        "r": "LEV.21.5",
+        "v": 2
+      },
+      {
+        "r": "EZK.7.18",
+        "v": 2
       }
     ],
     "section": null
@@ -2606,14 +7871,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 10:3; Isa. 66:2, 5",
-        "refs": []
+        "r": "EZR.10.3",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Ex. 29:39, 41",
-        "refs": []
+        "r": "ISA.66.2",
+        "v": 5
+      },
+      {
+        "r": "EXO.29.39",
+        "v": 4
+      },
+      {
+        "r": "2CH.34.27",
+        "v": 3
+      },
+      {
+        "r": "PSA.119.136",
+        "v": 3
+      },
+      {
+        "r": "DAN.9.21",
+        "v": 2
+      },
+      {
+        "r": "EZK.9.4",
+        "v": 2
+      },
+      {
+        "r": "ACT.3.1",
+        "v": 2
       }
     ],
     "section": null
@@ -2623,19 +7910,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 4 above]",
-        "refs": []
+        "r": "1KI.8.38",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "[See ver. 3 above]",
-        "refs": []
+        "r": "1KI.8.54",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "1 Kgs. 8:22",
-        "refs": []
+        "r": "1KI.8.22",
+        "v": 6
+      },
+      {
+        "r": "EXO.9.33",
+        "v": 5
+      },
+      {
+        "r": "EXO.9.29",
+        "v": 5
+      },
+      {
+        "r": "PSA.141.2",
+        "v": 4
+      },
+      {
+        "r": "EPH.3.14",
+        "v": 4
+      },
+      {
+        "r": "PSA.95.6",
+        "v": 4
+      },
+      {
+        "r": "2CH.6.13",
+        "v": 4
+      },
+      {
+        "r": "PSA.143.6",
+        "v": 4
+      },
+      {
+        "r": "ISA.1.15",
+        "v": 3
+      },
+      {
+        "r": "LUK.22.41",
+        "v": 3
+      },
+      {
+        "r": "ACT.21.5",
+        "v": 3
       }
     ],
     "section": null
@@ -2645,19 +7969,80 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[Ps. 38:4]",
-        "refs": []
+        "r": "REV.18.5",
+        "v": 9
       },
       {
-        "marker": "#",
-        "text": "ver. 7, 13, 15; ch. 10:10, 19; 2 Chr. 24:18",
-        "refs": []
+        "r": "PSA.38.4",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "[2 Chr. 28:9; Rev. 18:5]",
-        "refs": []
+        "r": "2CH.28.9",
+        "v": 6
+      },
+      {
+        "r": "EZR.9.15",
+        "v": 5
+      },
+      {
+        "r": "LUK.15.21",
+        "v": 5
+      },
+      {
+        "r": "JOB.42.6",
+        "v": 5
+      },
+      {
+        "r": "JER.3.24-25",
+        "v": 4
+      },
+      {
+        "r": "ISA.1.18",
+        "v": 3
+      },
+      {
+        "r": "DAN.9.7-8",
+        "v": 3
+      },
+      {
+        "r": "EZK.16.63",
+        "v": 3
+      },
+      {
+        "r": "JOB.40.4",
+        "v": 3
+      },
+      {
+        "r": "ROM.6.21",
+        "v": 3
+      },
+      {
+        "r": "JER.8.12",
+        "v": 3
+      },
+      {
+        "r": "EZR.9.13",
+        "v": 3
+      },
+      {
+        "r": "JER.3.3",
+        "v": 3
+      },
+      {
+        "r": "ISA.59.12",
+        "v": 3
+      },
+      {
+        "r": "JER.6.15",
+        "v": 3
+      },
+      {
+        "r": "GEN.13.13",
+        "v": 3
+      },
+      {
+        "r": "JER.31.19",
+        "v": 3
       }
     ],
     "section": null
@@ -2667,19 +8052,116 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ps. 106:6; Dan. 9:5, 6",
-        "refs": []
+        "r": "2CH.29.6",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "[See ver. 6 above]",
-        "refs": []
+        "r": "DAN.9.5-8",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Dan. 9:7, 8",
-        "refs": []
+        "r": "DEU.28.15-68",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.7",
+        "v": 2
+      },
+      {
+        "r": "1SA.12.15",
+        "v": 2
+      },
+      {
+        "r": "2KI.24.1-4",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.11-14",
+        "v": 2
+      },
+      {
+        "r": "NUM.32.14",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.22-28",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.5-8",
+        "v": 2
+      },
+      {
+        "r": "DEU.30.17-19",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.32-34",
+        "v": 2
+      },
+      {
+        "r": "JER.44.22",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.36-37",
+        "v": 2
+      },
+      {
+        "r": "ZEC.1.4-5",
+        "v": 2
+      },
+      {
+        "r": "DEU.4.25-28",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.51-52",
+        "v": 2
+      },
+      {
+        "r": "JER.25.18",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.30",
+        "v": 2
+      },
+      {
+        "r": "LAM.5.7",
+        "v": 2
+      },
+      {
+        "r": "PSA.106.6-7",
+        "v": 2
+      },
+      {
+        "r": "LEV.26.14-46",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.20-22",
+        "v": 2
+      },
+      {
+        "r": "2KI.18.9-12",
+        "v": 2
+      },
+      {
+        "r": "2CH.36.16-19",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.30-33",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.15-28",
+        "v": 2
+      },
+      {
+        "r": "1KI.9.6-9",
+        "v": 2
       }
     ],
     "section": null
@@ -2694,19 +8176,128 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ver. 13, 14, 15",
-        "refs": []
+        "r": "PSA.13.3",
+        "v": 10
       },
       {
-        "marker": "#",
-        "text": "Isa. 22:23",
-        "refs": []
+        "r": "ROM.11.5-6",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Ps. 13:3",
-        "refs": []
+        "r": "HOS.6.2",
+        "v": 6
+      },
+      {
+        "r": "ISA.57.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.85.6",
+        "v": 5
+      },
+      {
+        "r": "HAB.3.2",
+        "v": 5
+      },
+      {
+        "r": "EZK.37.11-14",
+        "v": 5
+      },
+      {
+        "r": "PSA.138.7",
+        "v": 4
+      },
+      {
+        "r": "EZK.6.8-9",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.5",
+        "v": 4
+      },
+      {
+        "r": "ISA.1.9",
+        "v": 4
+      },
+      {
+        "r": "ZEC.8.12",
+        "v": 4
+      },
+      {
+        "r": "NEH.9.31",
+        "v": 4
+      },
+      {
+        "r": "JER.42.2",
+        "v": 4
+      },
+      {
+        "r": "ECC.12.11",
+        "v": 4
+      },
+      {
+        "r": "ROM.9.27",
+        "v": 4
+      },
+      {
+        "r": "EZK.14.22",
+        "v": 4
+      },
+      {
+        "r": "REV.3.12",
+        "v": 4
+      },
+      {
+        "r": "ISA.22.23-25",
+        "v": 4
+      },
+      {
+        "r": "JOB.33.30",
+        "v": 4
+      },
+      {
+        "r": "ZEC.10.4",
+        "v": 4
+      },
+      {
+        "r": "PSA.34.5",
+        "v": 4
+      },
+      {
+        "r": "JER.44.14",
+        "v": 4
+      },
+      {
+        "r": "ZEC.8.6",
+        "v": 4
+      },
+      {
+        "r": "1SA.14.27",
+        "v": 3
+      },
+      {
+        "r": "EZR.9.13-15",
+        "v": 3
+      },
+      {
+        "r": "1SA.14.29",
+        "v": 3
+      },
+      {
+        "r": "2KI.19.30-31",
+        "v": 3
+      },
+      {
+        "r": "2KI.19.4",
+        "v": 3
+      },
+      {
+        "r": "EZR.9.9",
+        "v": 3
+      },
+      {
+        "r": "NEH.1.11",
+        "v": 3
       }
     ],
     "section": null
@@ -2721,14 +8312,72 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[Neh. 9:36]",
-        "refs": []
+        "r": "PSA.136.23-24",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ch. 7:28",
-        "refs": []
+        "r": "EZR.7.6",
+        "v": 5
+      },
+      {
+        "r": "HAG.1.9",
+        "v": 3
+      },
+      {
+        "r": "PSA.106.45-46",
+        "v": 3
+      },
+      {
+        "r": "ZEC.4.6-10",
+        "v": 3
+      },
+      {
+        "r": "ZEC.2.5",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.5",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.11-28",
+        "v": 2
+      },
+      {
+        "r": "EZK.11.16",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.1-4",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.2",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.7-11",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.1-12",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.25",
+        "v": 2
+      },
+      {
+        "r": "EZR.6.14-15",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.36-37",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.8",
+        "v": 1
       }
     ],
     "section": null
@@ -2736,7 +8385,28 @@
   "EZR.9.10": {
     "text": "“And now, O our God, what shall we say after this? For we have forsaken your commandments,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.3.19",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.8",
+        "v": 2
+      },
+      {
+        "r": "GEN.44.16",
+        "v": 2
+      },
+      {
+        "r": "LAM.3.22",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.4-16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.9.11": {
@@ -2744,9 +8414,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 6:21",
-        "refs": []
+        "r": "LEV.18.24-30",
+        "v": 7
+      },
+      {
+        "r": "EZR.6.21",
+        "v": 3
+      },
+      {
+        "r": "DEU.18.12",
+        "v": 1
+      },
+      {
+        "r": "2CH.33.2",
+        "v": 1
+      },
+      {
+        "r": "EZR.9.1",
+        "v": 1
+      },
+      {
+        "r": "EZK.36.25-27",
+        "v": 1
+      },
+      {
+        "r": "2CO.7.1",
+        "v": 1
+      },
+      {
+        "r": "DEU.12.31",
+        "v": 1
+      },
+      {
+        "r": "2KI.21.16",
+        "v": 0
       }
     ],
     "section": null
@@ -2756,14 +8457,64 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See ver. 2",
-        "refs": []
+        "r": "DEU.7.3",
+        "v": 15
       },
       {
-        "marker": "#",
-        "text": "[Prov. 13:22]",
-        "refs": []
+        "r": "DEU.23.6",
+        "v": 11
+      },
+      {
+        "r": "JOS.23.12-13",
+        "v": 9
+      },
+      {
+        "r": "PRO.13.22",
+        "v": 6
+      },
+      {
+        "r": "EXO.34.15-16",
+        "v": 5
+      },
+      {
+        "r": "2JN.1.10-11",
+        "v": 4
+      },
+      {
+        "r": "PRO.20.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.1.19",
+        "v": 3
+      },
+      {
+        "r": "PSA.112.1-2",
+        "v": 2
+      },
+      {
+        "r": "DEU.6.1-2",
+        "v": 2
+      },
+      {
+        "r": "JOS.1.6-9",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.32",
+        "v": 2
+      },
+      {
+        "r": "GEN.18.18-19",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.2",
+        "v": 2
+      },
+      {
+        "r": "2CH.19.2",
+        "v": 1
       }
     ],
     "section": null
@@ -2773,19 +8524,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ver. 6, 7",
-        "refs": []
+        "r": "PSA.103.10",
+        "v": 11
       },
       {
-        "marker": "#",
-        "text": "Job 11:6; Ps. 103:10",
-        "refs": []
+        "r": "LAM.3.22",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "ver. 8",
-        "refs": []
+        "r": "LAM.3.39-40",
+        "v": 6
+      },
+      {
+        "r": "JOB.11.6",
+        "v": 5
+      },
+      {
+        "r": "PSA.106.45-46",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.6-8",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.32",
+        "v": 2
+      },
+      {
+        "r": "EZK.24.13-14",
+        "v": 2
+      },
+      {
+        "r": "HAB.3.2",
+        "v": 1
+      },
+      {
+        "r": "GAL.3.4",
+        "v": 1
       }
     ],
     "section": null
@@ -2795,19 +8571,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See ver. 2",
-        "refs": []
+        "r": "DEU.9.8",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "[Deut. 9:8]",
-        "refs": []
+        "r": "EZR.9.2",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "[See ver. 13 above]",
-        "refs": []
+        "r": "DEU.9.14",
+        "v": 5
+      },
+      {
+        "r": "NUM.16.21",
+        "v": 3
+      },
+      {
+        "r": "2PE.2.20-21",
+        "v": 3
+      },
+      {
+        "r": "NUM.16.45",
+        "v": 3
+      },
+      {
+        "r": "EXO.32.10",
+        "v": 3
+      },
+      {
+        "r": "ROM.6.1",
+        "v": 3
+      },
+      {
+        "r": "JHN.5.14",
+        "v": 3
+      },
+      {
+        "r": "JDG.2.2",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.26-27",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.23-27",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.32",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.1.9",
+        "v": 2
+      },
+      {
+        "r": "EZK.6.8",
+        "v": 2
+      },
+      {
+        "r": "JER.46.28",
+        "v": 2
       }
     ],
     "section": null
@@ -2817,19 +8646,68 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[See ver. 13 above]",
-        "refs": []
+        "r": "PSA.130.3",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Neh. 9:33; Ps. 119:137; Jer. 12:1; Dan. 9:14",
-        "refs": []
+        "r": "JHN.8.24",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Ps. 130:3",
-        "refs": []
+        "r": "ROM.3.19",
+        "v": 4
+      },
+      {
+        "r": "JHN.8.21",
+        "v": 4
+      },
+      {
+        "r": "ROM.10.3",
+        "v": 3
+      },
+      {
+        "r": "NEH.9.33-34",
+        "v": 3
+      },
+      {
+        "r": "ZEC.3.3-4",
+        "v": 3
+      },
+      {
+        "r": "ISA.64.6-7",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.143.2",
+        "v": 2
+      },
+      {
+        "r": "JER.12.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.7-11",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.2-3",
+        "v": 2
+      },
+      {
+        "r": "EZK.33.10",
+        "v": 2
+      },
+      {
+        "r": "LAM.3.22-23",
+        "v": 2
+      },
+      {
+        "r": "1CO.15.17",
+        "v": 1
       }
     ],
     "section": null
@@ -2839,24 +8717,96 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 1:4, 5",
-        "refs": []
+        "r": "DAN.9.20",
+        "v": 11
       },
       {
-        "marker": "#",
-        "text": "Neh. 1:6; Dan. 9:20",
-        "refs": []
+        "r": "PSA.119.136",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Deut. 9:18",
-        "refs": []
+        "r": "ROM.9.2",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "[2 Chr. 20:9]",
-        "refs": []
+        "r": "1KI.8.30",
+        "v": 6
+      },
+      {
+        "r": "1JN.1.8-10",
+        "v": 6
+      },
+      {
+        "r": "LUK.19.41",
+        "v": 5
+      },
+      {
+        "r": "NEH.8.9",
+        "v": 5
+      },
+      {
+        "r": "DAN.9.3-4",
+        "v": 5
+      },
+      {
+        "r": "ZEC.12.10",
+        "v": 4
+      },
+      {
+        "r": "PSA.32.5",
+        "v": 3
+      },
+      {
+        "r": "1KI.9.3",
+        "v": 3
+      },
+      {
+        "r": "2CH.20.9",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.40-41",
+        "v": 2
+      },
+      {
+        "r": "JER.13.17",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.2",
+        "v": 2
+      },
+      {
+        "r": "JER.9.1",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.28",
+        "v": 2
+      },
+      {
+        "r": "JOL.2.16-18",
+        "v": 2
+      },
+      {
+        "r": "ACT.21.5",
+        "v": 1
+      },
+      {
+        "r": "2CH.20.13",
+        "v": 1
+      },
+      {
+        "r": "ACT.10.30",
+        "v": 1
+      },
+      {
+        "r": "JDG.2.4-5",
+        "v": 1
+      },
+      {
+        "r": "DEU.31.12",
+        "v": 1
       }
     ],
     "section": "The People Confess Their Sin"
@@ -2866,9 +8816,60 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See ch. 9:2",
-        "refs": []
+        "r": "NEH.13.27",
+        "v": 5
+      },
+      {
+        "r": "EZR.9.2",
+        "v": 4
+      },
+      {
+        "r": "JER.3.12-13",
+        "v": 3
+      },
+      {
+        "r": "EXO.34.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.55.6-7",
+        "v": 2
+      },
+      {
+        "r": "NEH.3.29",
+        "v": 2
+      },
+      {
+        "r": "EXO.34.6-7",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.26",
+        "v": 2
+      },
+      {
+        "r": "1JN.1.7-9",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.9",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.31",
+        "v": 1
+      },
+      {
+        "r": "EZR.2.7",
+        "v": 1
+      },
+      {
+        "r": "NEH.7.12",
+        "v": 1
+      },
+      {
+        "r": "NEH.7.34",
+        "v": 1
       }
     ],
     "section": null
@@ -2883,24 +8884,92 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Chr. 34:31",
-        "refs": []
+        "r": "DEU.7.2-3",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "[ver. 44]",
-        "refs": []
+        "r": "EZR.9.4",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "ch. 9:4",
-        "refs": []
+        "r": "JOS.23.12-13",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Deut. 7:2, 3",
-        "refs": []
+        "r": "1CO.7.12-13",
+        "v": 4
+      },
+      {
+        "r": "PSA.119.120",
+        "v": 4
+      },
+      {
+        "r": "PSA.119.59",
+        "v": 3
+      },
+      {
+        "r": "DEU.29.12",
+        "v": 3
+      },
+      {
+        "r": "2CH.34.21",
+        "v": 3
+      },
+      {
+        "r": "NEH.9.38",
+        "v": 3
+      },
+      {
+        "r": "ISA.66.2",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.29-39",
+        "v": 2
+      },
+      {
+        "r": "2KI.11.17",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.12",
+        "v": 2
+      },
+      {
+        "r": "EZK.9.4",
+        "v": 2
+      },
+      {
+        "r": "JOS.9.6",
+        "v": 2
+      },
+      {
+        "r": "2CH.29.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.20",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.1-3",
+        "v": 2
+      },
+      {
+        "r": "2CH.34.27",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.14",
+        "v": 2
+      },
+      {
+        "r": "2CH.34.31-32",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.44",
+        "v": 2
       }
     ],
     "section": null
@@ -2910,9 +8979,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Chr. 28:10; [2 Chr. 19:11]",
-        "refs": []
+        "r": "1CH.28.10",
+        "v": 10
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 9
+      },
+      {
+        "r": "HEB.10.24",
+        "v": 8
+      },
+      {
+        "r": "1CH.22.19",
+        "v": 8
+      },
+      {
+        "r": "HEB.12.12-13",
+        "v": 8
+      },
+      {
+        "r": "ISA.35.3-4",
+        "v": 7
+      },
+      {
+        "r": "1CH.22.16",
+        "v": 6
+      },
+      {
+        "r": "EZR.7.23-28",
+        "v": 5
+      },
+      {
+        "r": "1CH.28.21",
+        "v": 4
+      },
+      {
+        "r": "MRK.13.34",
+        "v": 4
+      },
+      {
+        "r": "JOS.7.10-26",
+        "v": 4
+      },
+      {
+        "r": "JOS.1.16-18",
+        "v": 3
       }
     ],
     "section": null
@@ -2922,9 +9034,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 5:12; 13:25",
-        "refs": []
+        "r": "NEH.13.25",
+        "v": 7
+      },
+      {
+        "r": "NEH.5.12",
+        "v": 6
+      },
+      {
+        "r": "PRO.15.23",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.63",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.29",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.3",
+        "v": 2
+      },
+      {
+        "r": "PRO.25.11-12",
+        "v": 2
+      },
+      {
+        "r": "PRO.27.9",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.5",
+        "v": 2
+      },
+      {
+        "r": "PRO.9.9",
+        "v": 2
       }
     ],
     "section": null
@@ -2939,29 +9086,60 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ver. 1",
-        "refs": []
+        "r": "DEU.9.18",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ch. 8:29",
-        "refs": []
+        "r": "JHN.4.31-34",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Neh. 12:22, 23",
-        "refs": []
+        "r": "NEH.3.1",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Neh. 3:1",
-        "refs": []
+        "r": "NEH.12.22",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Deut. 9:18",
-        "refs": []
+        "r": "NEH.12.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.12",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.28",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.4",
+        "v": 2
+      },
+      {
+        "r": "NEH.3.20",
+        "v": 2
+      },
+      {
+        "r": "JOB.23.12",
+        "v": 2
+      },
+      {
+        "r": "EXO.34.28",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.3",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.5",
+        "v": 2
       }
     ],
     "section": null
@@ -2969,13 +9147,67 @@
   "EZR.10.7": {
     "text": "And a proclamation was made throughout Judah and Jerusalem to all the returned exiles that they should assemble at Jerusalem,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.1.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.8": {
     "text": "and that if anyone did not come within three days, by order of the officials and the elders all his property should be forfeited, and he himself banned from the congregation of the exiles.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.7.26",
+        "v": 3
+      },
+      {
+        "r": "LEV.27.28",
+        "v": 2
+      },
+      {
+        "r": "1CO.5.13",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.2",
+        "v": 2
+      },
+      {
+        "r": "JHN.9.22",
+        "v": 2
+      },
+      {
+        "r": "JHN.9.34",
+        "v": 2
+      },
+      {
+        "r": "JDG.21.5",
+        "v": 2
+      },
+      {
+        "r": "1SA.11.7",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.17",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.3",
+        "v": 2
+      },
+      {
+        "r": "JOS.6.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.9": {
@@ -2983,9 +9215,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[1 Sam. 12:18]",
-        "refs": []
+        "r": "1SA.12.17-18",
+        "v": 4
+      },
+      {
+        "r": "EZR.7.8-9",
+        "v": 2
+      },
+      {
+        "r": "JER.10.13",
+        "v": 2
+      },
+      {
+        "r": "JER.10.10",
+        "v": 2
+      },
+      {
+        "r": "EST.2.16",
+        "v": 2
       }
     ],
     "section": null
@@ -2993,7 +9240,28 @@
   "EZR.10.10": {
     "text": "And Ezra the priest stood up and said to them, “You have broken faith and married foreign women, and so increased the guilt of Israel.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CH.28.13",
+        "v": 2
+      },
+      {
+        "r": "JOS.22.17-18",
+        "v": 2
+      },
+      {
+        "r": "NUM.32.14",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.32",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.11": {
@@ -3001,14 +9269,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[Josh. 7:19]",
-        "refs": []
+        "r": "ROM.12.2",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "ver. 3",
-        "refs": []
+        "r": "LEV.26.40-42",
+        "v": 4
+      },
+      {
+        "r": "PRO.28.13",
+        "v": 4
+      },
+      {
+        "r": "ISA.1.16-18",
+        "v": 4
+      },
+      {
+        "r": "DEU.7.3-4",
+        "v": 4
+      },
+      {
+        "r": "EZR.10.3",
+        "v": 4
+      },
+      {
+        "r": "JOS.7.19",
+        "v": 4
+      },
+      {
+        "r": "JER.3.13",
+        "v": 3
+      },
+      {
+        "r": "1JN.1.7-9",
+        "v": 3
+      },
+      {
+        "r": "ISA.56.4",
+        "v": 2
+      },
+      {
+        "r": "2CO.6.17",
+        "v": 2
+      },
+      {
+        "r": "1CO.2.12-14",
+        "v": 2
+      },
+      {
+        "r": "COL.1.10",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.1",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.32.5",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.21",
+        "v": 1
       }
     ],
     "section": null
@@ -3016,13 +9342,39 @@
   "EZR.10.12": {
     "text": "Then all the assembly answered with a loud voice, “It is so; we must do as you have said.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.10.3-4",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.37",
+        "v": 2
+      },
+      {
+        "r": "NEH.13.23",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.57",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.13": {
     "text": "But the people are many, and it is a time of heavy rain; we cannot stand in the open. Nor is this a task for one day or for two, for we have greatly transgressed in this matter.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.10.18-44",
+        "v": 2
+      },
+      {
+        "r": "MAT.7.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.14": {
@@ -3030,14 +9382,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 13:31",
-        "refs": []
+        "r": "2CH.29.10",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "2 Chr. 29:10; 30:8; [Num. 25:4]",
-        "refs": []
+        "r": "2CH.30.8",
+        "v": 6
+      },
+      {
+        "r": "NUM.25.4",
+        "v": 4
+      },
+      {
+        "r": "2CH.19.5-7",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.26",
+        "v": 2
+      },
+      {
+        "r": "PSA.78.38",
+        "v": 2
+      },
+      {
+        "r": "ISA.12.1",
+        "v": 2
+      },
+      {
+        "r": "DEU.13.17",
+        "v": 2
+      },
+      {
+        "r": "DEU.17.9",
+        "v": 2
+      },
+      {
+        "r": "DEU.17.18-19",
+        "v": 2
       }
     ],
     "section": null
@@ -3047,14 +9429,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 8:16",
-        "refs": []
+        "r": "NEH.11.16",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Neh. 11:16",
-        "refs": []
+        "r": "NEH.3.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.20",
+        "v": 2
+      },
+      {
+        "r": "NEH.12.33",
+        "v": 2
       }
     ],
     "section": null
@@ -3067,7 +9455,20 @@
         "text": "Syriac; Hebrew"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.13.14",
+        "v": 2
+      },
+      {
+        "r": "JHN.7.51",
+        "v": 2
+      },
+      {
+        "r": "JOB.29.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.17": {
@@ -3081,9 +9482,80 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ch. 3:2",
-        "refs": []
+        "r": "EZR.2.2",
+        "v": 3
+      },
+      {
+        "r": "HAG.1.1",
+        "v": 3
+      },
+      {
+        "r": "EZR.5.2",
+        "v": 3
+      },
+      {
+        "r": "ZEC.3.1",
+        "v": 3
+      },
+      {
+        "r": "EZR.3.2",
+        "v": 3
+      },
+      {
+        "r": "NEH.13.28",
+        "v": 2
+      },
+      {
+        "r": "LEV.21.7",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.4",
+        "v": 2
+      },
+      {
+        "r": "JER.23.14",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.7",
+        "v": 2
+      },
+      {
+        "r": "NEH.12.10",
+        "v": 2
+      },
+      {
+        "r": "EZK.44.22",
+        "v": 2
+      },
+      {
+        "r": "LEV.21.13-15",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.1",
+        "v": 2
+      },
+      {
+        "r": "1CH.6.14-15",
+        "v": 2
+      },
+      {
+        "r": "JER.23.11",
+        "v": 2
+      },
+      {
+        "r": "1SA.2.22-24",
+        "v": 2
+      },
+      {
+        "r": "MAL.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "1TI.3.11",
+        "v": 2
       }
     ],
     "section": "Those Guilty of Intermarriage"
@@ -3098,14 +9570,36 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "See 2 Kgs. 10:15",
-        "refs": []
+        "r": "LEV.6.6",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Lev. 6:6",
-        "refs": []
+        "r": "2KI.10.15",
+        "v": 4
+      },
+      {
+        "r": "LEV.5.15-16",
+        "v": 2
+      },
+      {
+        "r": "LAM.5.6",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.8",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.24",
+        "v": 2
+      },
+      {
+        "r": "LEV.6.4",
+        "v": 2
+      },
+      {
+        "r": "GAL.2.9",
+        "v": 2
       }
     ],
     "section": null
@@ -3115,9 +9609,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "For ver. 20-43, see ch. 2:3-42",
-        "refs": []
+        "r": "EZR.2.37",
+        "v": 4
+      },
+      {
+        "r": "1CH.24.14",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.40",
+        "v": 2
       }
     ],
     "section": null
@@ -3127,9 +9628,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ver. 31]",
-        "refs": []
+        "r": "1CH.24.8",
+        "v": 3
+      },
+      {
+        "r": "EZR.2.39",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.42",
+        "v": 2
       }
     ],
     "section": null
@@ -3137,13 +9645,39 @@
   "EZR.10.22": {
     "text": "Of the sons of Pashhur: Elioenai, Maaseiah, Ishmael, Nethanel, Jozabad, and Elasah.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.9.12",
+        "v": 3
+      },
+      {
+        "r": "EZR.2.38",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.41",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.23": {
     "text": "Of the Levites: Jozabad, Shimei, Kelaiah (that is, Kelita), Pethahiah, Judah, and Eliezer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.10.10",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.33",
+        "v": 2
+      },
+      {
+        "r": "NEH.11.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.24": {
@@ -3160,37 +9694,119 @@
         "text": "Septuagint; Hebrew"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.3",
+        "v": 4
+      },
+      {
+        "r": "NEH.7.8",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EZR.10.26": {
     "text": "Of the sons of Elam: Mattaniah, Zechariah, Jehiel, Abdi, Jeremoth, and Elijah.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.10.2",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.12",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.34",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.7",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.31",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.27": {
     "text": "Of the sons of Zattu: Elioenai, Eliashib, Mattaniah, Jeremoth, Zabad, and Aziza.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.8",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.13",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EZR.10.28": {
     "text": "Of the sons of Bebai were Jehohanan, Hananiah, Zabbai, and Athlai.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.11",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.11",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.29": {
     "text": "Of the sons of Bani were Meshullam, Malluch, Adaiah, Jashub, Sheal, and Jeremoth.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.10",
+        "v": 2
+      },
+      {
+        "r": "NEH.10.4",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.30": {
     "text": "Of the sons of Pahath-moab: Adna, Chelal, Benaiah, Maaseiah, Mattaniah, Bezalel, Binnui, and Manasseh.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.8.4",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.31": {
@@ -3198,9 +9814,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "ver. 21",
-        "refs": []
+        "r": "NEH.3.11",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.35",
+        "v": 2
+      },
+      {
+        "r": "EZR.2.32",
+        "v": 2
       }
     ],
     "section": null
@@ -3214,19 +9837,22 @@
   "EZR.10.33": {
     "text": "Of the sons of Hashum: Mattenai, Mattattah, Zabad, Eliphelet, Jeremai, Manasseh, and Shimei.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.19",
+        "v": 2
+      },
+      {
+        "r": "NEH.7.22",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.34": {
     "text": "Of the sons of Bani: Maadai, Amram, Uel,",
     "footnotes": [],
-    "xrefs": [
-      {
-        "marker": "#",
-        "text": "[ver. 29]",
-        "refs": []
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "EZR.10.35": {
@@ -3285,7 +9911,16 @@
   "EZR.10.43": {
     "text": "Of the sons of Nebo: Jeiel, Mattithiah, Zabad, Zebina, Jaddai, Joel, and Benaiah.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.2.29",
+        "v": 3
+      },
+      {
+        "r": "NEH.7.33",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EZR.10.44": {
@@ -3298,9 +9933,20 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "[ver. 3]",
-        "refs": []
+        "r": "PRO.2.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.5.3",
+        "v": 2
+      },
+      {
+        "r": "PRO.5.20",
+        "v": 2
+      },
+      {
+        "r": "EZR.10.3",
+        "v": 2
       }
     ],
     "section": null

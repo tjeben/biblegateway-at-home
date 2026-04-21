@@ -2,277 +2,2375 @@
   "JON.1.1": {
     "text": "Herrens ord kom til Jonas, Amittais sønn, og det lød så:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.11.32",
+        "v": 38
+      },
+      {
+        "r": "LUK.11.29-30",
+        "v": 36
+      },
+      {
+        "r": "2KI.14.25",
+        "v": 32
+      },
+      {
+        "r": "MAT.16.4",
+        "v": 30
+      },
+      {
+        "r": "MAT.12.39-41",
+        "v": 28
+      }
+    ],
     "section": null
   },
   "JON.1.2": {
     "text": "Stå op, gå til Ninive, den store stad, og tal for den! For deres ondskap er steget op og er kommet for mitt åsyn.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.18.20-21",
+        "v": 9
+      },
+      {
+        "r": "GEN.10.11",
+        "v": 7
+      },
+      {
+        "r": "NAM.1.1",
+        "v": 6
+      },
+      {
+        "r": "ISA.58.1",
+        "v": 6
+      },
+      {
+        "r": "ZEP.2.13-15",
+        "v": 5
+      },
+      {
+        "r": "JON.3.2",
+        "v": 5
+      },
+      {
+        "r": "JON.4.11",
+        "v": 5
+      },
+      {
+        "r": "JER.1.7-10",
+        "v": 4
+      },
+      {
+        "r": "REV.18.5",
+        "v": 4
+      },
+      {
+        "r": "EZK.3.5-9",
+        "v": 4
+      },
+      {
+        "r": "2KI.19.36",
+        "v": 3
+      },
+      {
+        "r": "EZR.9.6",
+        "v": 2
+      },
+      {
+        "r": "EZK.2.7",
+        "v": 2
+      },
+      {
+        "r": "MIC.3.8",
+        "v": 2
+      },
+      {
+        "r": "MAT.10.18",
+        "v": 1
+      },
+      {
+        "r": "NAM.2.1-3",
+        "v": 1
+      },
+      {
+        "r": "JAS.5.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.1.3": {
     "text": "Men Jonas stod op og vilde fly til Tarsis, bort fra Herrens åsyn; og han drog ned til Joppe og fant der et skib som skulde gå til Tarsis, og han betalte frakten og gikk ombord for å fare med dem til Tarsis, bort fra Herrens åsyn.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.139.7-12",
+        "v": 15
+      },
+      {
+        "r": "JOS.19.46",
+        "v": 7
+      },
+      {
+        "r": "GEN.4.16",
+        "v": 7
+      },
+      {
+        "r": "ACT.9.43",
+        "v": 5
+      },
+      {
+        "r": "2TH.1.9",
+        "v": 5
+      },
+      {
+        "r": "ACT.9.36",
+        "v": 5
+      },
+      {
+        "r": "ISA.23.6",
+        "v": 4
+      },
+      {
+        "r": "1KI.19.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.23.1",
+        "v": 4
+      },
+      {
+        "r": "JON.4.2",
+        "v": 4
+      },
+      {
+        "r": "1CO.9.16",
+        "v": 3
+      },
+      {
+        "r": "ACT.26.19",
+        "v": 3
+      },
+      {
+        "r": "LUK.9.62",
+        "v": 3
+      },
+      {
+        "r": "JOB.1.12",
+        "v": 3
+      },
+      {
+        "r": "EZK.27.12",
+        "v": 3
+      },
+      {
+        "r": "2CH.2.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.23.10",
+        "v": 3
+      },
+      {
+        "r": "EXO.4.13-14",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.9",
+        "v": 2
+      },
+      {
+        "r": "1KI.19.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.2.16",
+        "v": 2
+      },
+      {
+        "r": "JER.20.7-9",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.38",
+        "v": 2
+      },
+      {
+        "r": "GEN.3.8",
+        "v": 2
+      },
+      {
+        "r": "EZK.3.14",
+        "v": 2
+      },
+      {
+        "r": "JOB.2.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.1.4": {
     "text": "Men Herren sendte en sterk vind ut over havet, og det blev en stor storm på havet, og skibet var i ferd med å knuses.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.107.23-31",
+        "v": 10
+      },
+      {
+        "r": "MAT.8.24-27",
+        "v": 7
+      },
+      {
+        "r": "EXO.10.19",
+        "v": 4
+      },
+      {
+        "r": "PSA.135.7",
+        "v": 4
+      },
+      {
+        "r": "EXO.14.21",
+        "v": 4
+      },
+      {
+        "r": "AMO.4.13",
+        "v": 4
+      },
+      {
+        "r": "NUM.11.31",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.10",
+        "v": 3
+      },
+      {
+        "r": "ACT.27.13-20",
+        "v": 2
+      },
+      {
+        "r": "EXO.10.13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.1.5": {
     "text": "Da blev skibsfolkene redde og ropte hver til sin gud, og de kastet de ting som var i skibet, ut i havet for å lette skibet. Men Jonas var steget ned i skibets nederste rum og lå i fast søvn.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.2.28",
+        "v": 6
+      },
+      {
+        "r": "ACT.27.18-19",
+        "v": 6
+      },
+      {
+        "r": "1KI.18.26",
+        "v": 4
+      },
+      {
+        "r": "JDG.16.19",
+        "v": 3
+      },
+      {
+        "r": "JON.1.6",
+        "v": 3
+      },
+      {
+        "r": "ISA.45.20",
+        "v": 3
+      },
+      {
+        "r": "LUK.22.45-46",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.5",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.14",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.40-41",
+        "v": 2
+      },
+      {
+        "r": "ISA.44.17-20",
+        "v": 2
+      },
+      {
+        "r": "PHP.3.7-8",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.45",
+        "v": 2
+      },
+      {
+        "r": "ACT.27.38",
+        "v": 2
+      },
+      {
+        "r": "JOB.2.4",
+        "v": 2
+      },
+      {
+        "r": "JON.1.16",
+        "v": 2
+      },
+      {
+        "r": "1SA.24.3",
+        "v": 2
+      },
+      {
+        "r": "JON.1.14",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.43",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.1.6": {
     "text": "Skibsføreren gikk da til ham og sa: Hvorledes kan du sove så fast? Stå op og rop til din gud! Kanskje den gud vil tenke på råd for oss, så vi ikke går under.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JON.3.9",
+        "v": 9
+      },
+      {
+        "r": "PSA.107.28-29",
+        "v": 8
+      },
+      {
+        "r": "2SA.12.22",
+        "v": 6
+      },
+      {
+        "r": "EPH.5.14",
+        "v": 6
+      },
+      {
+        "r": "MRK.4.37-41",
+        "v": 6
+      },
+      {
+        "r": "PSA.107.12-13",
+        "v": 5
+      },
+      {
+        "r": "AMO.5.15",
+        "v": 4
+      },
+      {
+        "r": "ACT.21.13",
+        "v": 4
+      },
+      {
+        "r": "JOL.2.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.107.6",
+        "v": 3
+      },
+      {
+        "r": "PSA.78.34",
+        "v": 3
+      },
+      {
+        "r": "ROM.13.11",
+        "v": 3
+      },
+      {
+        "r": "EZK.18.2",
+        "v": 2
+      },
+      {
+        "r": "EST.4.16",
+        "v": 2
+      },
+      {
+        "r": "JER.2.27-28",
+        "v": 1
+      },
+      {
+        "r": "PSA.107.18-20",
+        "v": 1
+      },
+      {
+        "r": "ISA.3.15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.1.7": {
     "text": "Og de sa til hverandre: Kom, la oss kaste lodd, så vi kan få vite hvem som er skyld i at denne ulykke har hendt oss! Så kastet de lodd, og loddet falt på Jonas.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.33",
+        "v": 9
+      },
+      {
+        "r": "JOS.7.13-18",
+        "v": 5
+      },
+      {
+        "r": "NUM.32.23",
+        "v": 4
+      },
+      {
+        "r": "ACT.13.19",
+        "v": 4
+      },
+      {
+        "r": "JOS.7.10",
+        "v": 4
+      },
+      {
+        "r": "1SA.14.41-42",
+        "v": 4
+      },
+      {
+        "r": "1SA.10.20-21",
+        "v": 4
+      },
+      {
+        "r": "ISA.41.6-7",
+        "v": 3
+      },
+      {
+        "r": "PSA.22.18",
+        "v": 3
+      },
+      {
+        "r": "MAT.27.35",
+        "v": 3
+      },
+      {
+        "r": "EST.3.7",
+        "v": 2
+      },
+      {
+        "r": "JOS.22.16-20",
+        "v": 2
+      },
+      {
+        "r": "JDG.20.9-10",
+        "v": 2
+      },
+      {
+        "r": "ACT.1.23-26",
+        "v": 2
+      },
+      {
+        "r": "JOB.10.2",
+        "v": 2
+      },
+      {
+        "r": "1CO.4.5",
+        "v": 2
+      },
+      {
+        "r": "1SA.14.38-39",
+        "v": 2
+      },
+      {
+        "r": "JDG.7.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.1.8": {
     "text": "Da sa de til ham: Si oss hvem som er skyld i at denne ulykke har hendt oss! Hvad er ditt ærend, og hvor kommer du fra? Hvad land er du fra, og hvad folk hører du til?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.47.3",
+        "v": 10
+      },
+      {
+        "r": "1SA.30.13",
+        "v": 9
+      },
+      {
+        "r": "JAS.5.16",
+        "v": 7
+      },
+      {
+        "r": "JOS.7.19",
+        "v": 7
+      },
+      {
+        "r": "1SA.14.43",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "JON.1.9": {
     "text": "Han svarte: Jeg er en hebreer, og jeg frykter Herren, himmelens Gud, ham som har gjort havet og det tørre land.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.146.5-6",
+        "v": 7
+      },
+      {
+        "r": "PSA.95.5-6",
+        "v": 5
+      },
+      {
+        "r": "PSA.136.26",
+        "v": 5
+      },
+      {
+        "r": "NEH.9.6",
+        "v": 5
+      },
+      {
+        "r": "NEH.1.4",
+        "v": 4
+      },
+      {
+        "r": "GEN.14.13",
+        "v": 3
+      },
+      {
+        "r": "EZR.5.11",
+        "v": 2
+      },
+      {
+        "r": "REV.11.13",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.2",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.4",
+        "v": 2
+      },
+      {
+        "r": "ACT.17.23-25",
+        "v": 2
+      },
+      {
+        "r": "PHP.3.5",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.18-19",
+        "v": 2
+      },
+      {
+        "r": "ACT.27.23",
+        "v": 2
+      },
+      {
+        "r": "HOS.3.5",
+        "v": 2
+      },
+      {
+        "r": "REV.15.4",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.28",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.44",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.12-13",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.32-35",
+        "v": 2
+      },
+      {
+        "r": "2KI.17.25",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.9",
+        "v": 2
+      },
+      {
+        "r": "REV.16.11",
+        "v": 2
+      },
+      {
+        "r": "ACT.14.15",
+        "v": 2
+      },
+      {
+        "r": "GEN.39.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.1.10": {
     "text": "Da blev mennene grepet av en stor frykt, og de sa til ham: Hvorfor har du gjort dette? For de visste at han flydde fra Herrens åsyn; det hadde han fortalt dem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JON.1.3",
+        "v": 5
+      },
+      {
+        "r": "JOB.27.22",
+        "v": 3
+      },
+      {
+        "r": "2SA.24.3",
+        "v": 2
+      },
+      {
+        "r": "JHN.19.8",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.25",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.6-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.1.11": {
     "text": "Og de sa til ham: Hvad skal vi gjøre med dig, forat havet kan legge sig for oss? For havet blev mere og mere oprørt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.6.2-3",
+        "v": 2
+      },
+      {
+        "r": "MIC.6.6-7",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.1-6",
+        "v": 2
+      },
+      {
+        "r": "2SA.24.11-13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.1.12": {
     "text": "Han svarte: Ta mig og kast mig i havet! Så vil havet legge sig for eder; for jeg vet at det er for min skyld denne store storm er kommet over eder.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.24.17",
+        "v": 7
+      },
+      {
+        "r": "JOS.7.12",
+        "v": 5
+      },
+      {
+        "r": "1CH.21.17",
+        "v": 5
+      },
+      {
+        "r": "JHN.11.50",
+        "v": 4
+      },
+      {
+        "r": "JOS.7.20-21",
+        "v": 3
+      },
+      {
+        "r": "ACT.27.24",
+        "v": 3
+      },
+      {
+        "r": "ECC.9.18",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "JON.1.13": {
     "text": "Mennene prøvde nu å ro tilbake til land, men de maktet det ikke; for sjøen slo sterkere og sterkere mot dem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.21.30",
+        "v": 6
+      },
+      {
+        "r": "JOB.34.29",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "JON.1.14": {
     "text": "Da ropte de til Herren og sa: Å Herre, la oss ikke gå under fordi denne mann skal dø, og la ikke uskyldig blod komme over oss! For du, Herre, har gjort som du vilde.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.115.3",
+        "v": 10
+      },
+      {
+        "r": "PSA.135.6",
+        "v": 7
+      },
+      {
+        "r": "DEU.21.8",
+        "v": 5
+      },
+      {
+        "r": "EPH.1.11",
+        "v": 5
+      },
+      {
+        "r": "PSA.107.28",
+        "v": 4
+      },
+      {
+        "r": "DAN.4.34-35",
+        "v": 3
+      },
+      {
+        "r": "JON.1.16",
+        "v": 3
+      },
+      {
+        "r": "JON.1.5",
+        "v": 3
+      },
+      {
+        "r": "MAT.11.26",
+        "v": 3
+      },
+      {
+        "r": "ACT.28.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.26.16",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.9",
+        "v": 2
+      },
+      {
+        "r": "GEN.9.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.1.15": {
     "text": "Så tok de Jonas og kastet ham i havet; da holdt havet op å rase.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.8.24",
+        "v": 5
+      },
+      {
+        "r": "PSA.93.3-4",
+        "v": 5
+      },
+      {
+        "r": "PSA.89.9",
+        "v": 4
+      },
+      {
+        "r": "PSA.107.29",
+        "v": 4
+      },
+      {
+        "r": "PSA.65.7",
+        "v": 3
+      },
+      {
+        "r": "MAT.8.26",
+        "v": 3
+      },
+      {
+        "r": "JOS.7.24-26",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.8-9",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.1.16": {
     "text": "Og mennene blev grepet av stor frykt for Herren, og de ofret takkoffer til Herren og gjorde løfter.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.6.26",
+        "v": 6
+      },
+      {
+        "r": "PSA.116.14",
+        "v": 6
+      },
+      {
+        "r": "PSA.107.22",
+        "v": 5
+      },
+      {
+        "r": "GEN.8.20",
+        "v": 5
+      },
+      {
+        "r": "PSA.50.14",
+        "v": 5
+      },
+      {
+        "r": "MRK.4.31",
+        "v": 4
+      },
+      {
+        "r": "ACT.5.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.26.9",
+        "v": 4
+      },
+      {
+        "r": "DAN.4.34-37",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.5-7",
+        "v": 4
+      },
+      {
+        "r": "JON.1.10",
+        "v": 4
+      },
+      {
+        "r": "GEN.28.20",
+        "v": 3
+      },
+      {
+        "r": "2KI.5.17",
+        "v": 3
+      },
+      {
+        "r": "PSA.66.13-16",
+        "v": 3
+      },
+      {
+        "r": "ECC.5.4",
+        "v": 3
+      },
+      {
+        "r": "JDG.13.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.1.17": {
     "text": "Men Herren lot en stor fisk komme og sluke Jonas, og Jonas var i fiskens buk tre dager og tre netter.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.12.40",
+        "v": 22
+      },
+      {
+        "r": "LUK.11.30",
+        "v": 15
+      },
+      {
+        "r": "MAT.16.4",
+        "v": 12
+      },
+      {
+        "r": "PSA.104.25-26",
+        "v": 7
+      },
+      {
+        "r": "HAB.3.2",
+        "v": 4
+      },
+      {
+        "r": "JON.4.6",
+        "v": 2
+      },
+      {
+        "r": "GEN.1.21",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.2.1": {
     "text": "Og Jonas bad til Herren sin Gud fra fiskens buk",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LAM.3.53-56",
+        "v": 20
+      },
+      {
+        "r": "PSA.130.1-2",
+        "v": 14
+      },
+      {
+        "r": "PSA.91.15",
+        "v": 14
+      },
+      {
+        "r": "JOB.13.15",
+        "v": 11
+      },
+      {
+        "r": "PSA.50.15",
+        "v": 9
+      },
+      {
+        "r": "ISA.26.16",
+        "v": 9
+      },
+      {
+        "r": "JAS.5.13",
+        "v": 8
+      },
+      {
+        "r": "2CH.33.11-13",
+        "v": 4
+      },
+      {
+        "r": "ACT.16.24-25",
+        "v": 4
+      },
+      {
+        "r": "HOS.5.15-6.3",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "JON.2.2": {
     "text": "og sa: Jeg kalte på Herren i min nød, og han svarte mig; fra dødsrikets skjød ropte jeg, du hørte min røst.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.18.4-6",
+        "v": 25
+      },
+      {
+        "r": "PSA.120.1",
+        "v": 24
+      },
+      {
+        "r": "PSA.34.6",
+        "v": 17
+      },
+      {
+        "r": "PSA.86.13",
+        "v": 11
+      },
+      {
+        "r": "PSA.88.1-7",
+        "v": 8
+      },
+      {
+        "r": "HEB.5.7",
+        "v": 6
+      },
+      {
+        "r": "1SA.30.6",
+        "v": 6
+      },
+      {
+        "r": "MAT.12.40",
+        "v": 4
+      },
+      {
+        "r": "PSA.22.24",
+        "v": 4
+      },
+      {
+        "r": "PSA.116.3",
+        "v": 4
+      },
+      {
+        "r": "PSA.4.1",
+        "v": 3
+      },
+      {
+        "r": "GEN.32.7-12",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.16.10",
+        "v": 2
+      },
+      {
+        "r": "LUK.22.44",
+        "v": 2
+      },
+      {
+        "r": "PSA.65.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.61.2",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.27",
+        "v": 1
+      },
+      {
+        "r": "PSA.142.1-3",
+        "v": 1
+      },
+      {
+        "r": "1SA.1.16",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "JON.2.3": {
     "text": "Du kastet mig i dypet, midt i havet, og vannstrømmer omgav mig; alle dine brenninger og dine bølger gikk over mig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.42.7",
+        "v": 12
+      },
+      {
+        "r": "LAM.3.54",
+        "v": 10
+      },
+      {
+        "r": "PSA.69.1-2",
+        "v": 7
+      },
+      {
+        "r": "PSA.69.14-15",
+        "v": 1
+      },
+      {
+        "r": "PSA.88.5-8",
+        "v": 1
+      },
+      {
+        "r": "JON.1.12-16",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "JON.2.4": {
     "text": "Jeg tenkte: Jeg er støtt bort fra dine øine. Men jeg skal atter skue op til ditt hellige tempel.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.31.22",
+        "v": 15
+      },
+      {
+        "r": "PSA.5.7",
+        "v": 8
+      },
+      {
+        "r": "2CH.6.38",
+        "v": 5
+      },
+      {
+        "r": "ISA.38.17",
+        "v": 5
+      },
+      {
+        "r": "1KI.8.38-39",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.10",
+        "v": 4
+      },
+      {
+        "r": "JER.7.15",
+        "v": 4
+      },
+      {
+        "r": "EZK.37.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.49.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.1-7",
+        "v": 2
+      },
+      {
+        "r": "JER.15.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.38.10-14",
+        "v": 2
+      },
+      {
+        "r": "1KI.8.48",
+        "v": 2
+      },
+      {
+        "r": "1KI.9.7",
+        "v": 2
+      },
+      {
+        "r": "1KI.8.42",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.2.5": {
     "text": "Vannene omringet mig like til sjelen, dypet omgav mig, tang innhyllet mitt hode,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.69.1-2",
+        "v": 11
+      },
+      {
+        "r": "LAM.3.54",
+        "v": 7
+      },
+      {
+        "r": "PSA.40.2",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "JON.2.6": {
     "text": "til fjellenes grunnvoller sank jeg ned, jordens bommer var lukket efter mig for evig. Men du førte mitt liv op av graven, Herre min Gud!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.30.3",
+        "v": 9
+      },
+      {
+        "r": "PSA.16.10",
+        "v": 5
+      },
+      {
+        "r": "ISA.38.17",
+        "v": 4
+      },
+      {
+        "r": "PSA.143.7",
+        "v": 3
+      },
+      {
+        "r": "PRO.8.25-29",
+        "v": 3
+      },
+      {
+        "r": "JOB.33.24",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.65.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.12",
+        "v": 2
+      },
+      {
+        "r": "PSA.104.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.13.33-37",
+        "v": 2
+      },
+      {
+        "r": "PSA.104.6",
+        "v": 2
+      },
+      {
+        "r": "JOB.33.28",
+        "v": 2
+      },
+      {
+        "r": "PSA.30.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.55.23",
+        "v": 2
+      },
+      {
+        "r": "HAB.3.10",
+        "v": 2
+      },
+      {
+        "r": "JOB.38.4-11",
+        "v": 2
+      },
+      {
+        "r": "HAB.3.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.2.7": {
     "text": "Da min sjel vansmektet i mig, kom jeg Herren i hu, og min bønn kom til dig i ditt hellige tempel.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.18.6",
+        "v": 16
+      },
+      {
+        "r": "2CH.30.27",
+        "v": 7
+      },
+      {
+        "r": "PSA.143.5",
+        "v": 6
+      },
+      {
+        "r": "PSA.11.4",
+        "v": 6
+      },
+      {
+        "r": "1SA.30.6",
+        "v": 6
+      },
+      {
+        "r": "PSA.77.10-11",
+        "v": 5
+      },
+      {
+        "r": "PSA.27.13",
+        "v": 5
+      },
+      {
+        "r": "PSA.20.7",
+        "v": 5
+      },
+      {
+        "r": "2CO.1.9-10",
+        "v": 3
+      },
+      {
+        "r": "LAM.3.21-26",
+        "v": 3
+      },
+      {
+        "r": "PSA.42.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.65.4",
+        "v": 3
+      },
+      {
+        "r": "HEB.12.3",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.20",
+        "v": 2
+      },
+      {
+        "r": "ISA.50.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.22.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.81-83",
+        "v": 2
+      },
+      {
+        "r": "PSA.43.5",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.42.5",
+        "v": 2
+      },
+      {
+        "r": "JON.2.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.2.8": {
     "text": "De som holder sig til de tomme avguder, de forlater sin miskunnhet {sin miskunnelige Gud.}",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.31.6",
+        "v": 13
+      },
+      {
+        "r": "JER.2.13",
+        "v": 12
+      },
+      {
+        "r": "2KI.17.15",
+        "v": 12
+      },
+      {
+        "r": "JER.10.8",
+        "v": 9
+      },
+      {
+        "r": "1SA.12.21",
+        "v": 9
+      },
+      {
+        "r": "HAB.2.18-20",
+        "v": 7
+      },
+      {
+        "r": "JER.10.14-15",
+        "v": 6
+      },
+      {
+        "r": "JER.16.19",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "JON.2.9": {
     "text": "Men jeg vil ofre til dig med takksigelses røst; det jeg har lovt, vil jeg holde; frelsen hører Herren til.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.3.8",
+        "v": 21
+      },
+      {
+        "r": "PSA.50.14",
+        "v": 18
+      },
+      {
+        "r": "ECC.5.4-5",
+        "v": 12
+      },
+      {
+        "r": "HEB.13.15",
+        "v": 11
+      },
+      {
+        "r": "PSA.50.23",
+        "v": 10
+      },
+      {
+        "r": "PSA.116.17-18",
+        "v": 9
+      },
+      {
+        "r": "HOS.14.2",
+        "v": 9
+      },
+      {
+        "r": "PSA.68.20",
+        "v": 9
+      },
+      {
+        "r": "ROM.12.1",
+        "v": 8
+      },
+      {
+        "r": "ISA.45.17",
+        "v": 8
+      },
+      {
+        "r": "PSA.37.39-40",
+        "v": 8
+      },
+      {
+        "r": "JHN.4.22",
+        "v": 7
+      },
+      {
+        "r": "REV.7.10",
+        "v": 7
+      },
+      {
+        "r": "JOB.22.27",
+        "v": 7
+      },
+      {
+        "r": "JER.33.11",
+        "v": 7
+      },
+      {
+        "r": "GEN.35.3",
+        "v": 7
+      },
+      {
+        "r": "ACT.4.12",
+        "v": 6
+      },
+      {
+        "r": "PSA.66.13-15",
+        "v": 6
+      },
+      {
+        "r": "PSA.107.22",
+        "v": 6
+      },
+      {
+        "r": "DEU.23.18",
+        "v": 5
+      },
+      {
+        "r": "2SA.15.7",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "JON.2.10": {
     "text": "Så spydde fisken på Herrens bud Jonas ut på det tørre land.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.8.26-27",
+        "v": 10
+      },
+      {
+        "r": "PSA.33.9",
+        "v": 8
+      },
+      {
+        "r": "MAT.8.8-9",
+        "v": 5
+      },
+      {
+        "r": "GEN.1.3",
+        "v": 5
+      },
+      {
+        "r": "ISA.50.2",
+        "v": 5
+      },
+      {
+        "r": "JON.1.17",
+        "v": 4
+      },
+      {
+        "r": "GEN.1.14",
+        "v": 3
+      },
+      {
+        "r": "GEN.1.9",
+        "v": 3
+      },
+      {
+        "r": "PSA.105.31",
+        "v": 3
+      },
+      {
+        "r": "GEN.1.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.105.34",
+        "v": 3
+      },
+      {
+        "r": "GEN.1.7",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "JON.3.1": {
     "text": "Og Herrens ord kom annen gang til Jonas, og det lød så:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JON.1.1",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "JON.3.2": {
     "text": "Stå op, gå til Ninive, den store stad, og rop ut i den de ord som jeg vil tale til dig!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.1.17",
+        "v": 5
+      },
+      {
+        "r": "EZK.2.7",
+        "v": 5
+      },
+      {
+        "r": "JON.1.2",
+        "v": 3
+      },
+      {
+        "r": "JON.3.3",
+        "v": 3
+      },
+      {
+        "r": "EZK.3.17",
+        "v": 2
+      },
+      {
+        "r": "JER.15.19-21",
+        "v": 2
+      },
+      {
+        "r": "MAT.3.8",
+        "v": 2
+      },
+      {
+        "r": "ZEP.2.13-15",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.3.3": {
     "text": "Og Jonas stod op og gikk til Ninive efter Herrens ord. Men Ninive var en stor stad for Gud, tre dagsreiser lang.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.80.10",
+        "v": 1
+      },
+      {
+        "r": "MAT.21.28-29",
+        "v": 1
+      },
+      {
+        "r": "GEN.22.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.3.4": {
     "text": "Og Jonas gikk en dagsreise inn i byen og ropte: Om firti dager skal Ninive bli omstyrtet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.18.22",
+        "v": 8
+      },
+      {
+        "r": "JER.18.7-10",
+        "v": 7
+      },
+      {
+        "r": "2KI.20.1",
+        "v": 3
+      },
+      {
+        "r": "2KI.20.6",
+        "v": 3
+      },
+      {
+        "r": "JON.3.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "JON.3.5": {
     "text": "Da trodde mennene i Ninive på Gud, og de ropte ut en faste og klædde sig i sekk, både store og små.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.11.32",
+        "v": 11
+      },
+      {
+        "r": "DAN.9.3",
+        "v": 8
+      },
+      {
+        "r": "JOL.2.12-17",
+        "v": 7
+      },
+      {
+        "r": "MAT.12.41",
+        "v": 7
+      },
+      {
+        "r": "2CH.20.3",
+        "v": 5
+      },
+      {
+        "r": "JOL.1.14",
+        "v": 5
+      },
+      {
+        "r": "EXO.9.18-21",
+        "v": 3
+      },
+      {
+        "r": "HEB.11.1",
+        "v": 2
+      },
+      {
+        "r": "ACT.27.25",
+        "v": 2
+      },
+      {
+        "r": "JER.31.34",
+        "v": 2
+      },
+      {
+        "r": "JER.36.9",
+        "v": 2
+      },
+      {
+        "r": "ACT.8.10",
+        "v": 2
+      },
+      {
+        "r": "HEB.11.7",
+        "v": 2
+      },
+      {
+        "r": "JER.42.8",
+        "v": 1
+      },
+      {
+        "r": "EZR.8.21",
+        "v": 1
+      },
+      {
+        "r": "JER.42.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.3.6": {
     "text": "Da saken kom for Ninives konge, stod han op fra sin trone og la sin kappe av sig og svøpte sekk om sig og satte sig i asken.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JAS.4.6-10",
+        "v": 6
+      },
+      {
+        "r": "EST.4.1-4",
+        "v": 6
+      },
+      {
+        "r": "JOB.2.8",
+        "v": 4
+      },
+      {
+        "r": "DAN.9.3",
+        "v": 4
+      },
+      {
+        "r": "JER.6.26",
+        "v": 3
+      },
+      {
+        "r": "MAT.11.21",
+        "v": 3
+      },
+      {
+        "r": "LUK.10.13",
+        "v": 3
+      },
+      {
+        "r": "EZK.27.30-31",
+        "v": 3
+      },
+      {
+        "r": "JAS.1.9-10",
+        "v": 3
+      },
+      {
+        "r": "JER.13.18",
+        "v": 2
+      },
+      {
+        "r": "JOB.42.6",
+        "v": 1
+      },
+      {
+        "r": "PSA.2.10-12",
+        "v": 1
+      },
+      {
+        "r": "MIC.1.10",
+        "v": 1
+      },
+      {
+        "r": "LAM.3.29",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.3.7": {
     "text": "Og han lot rope ut i Ninive: Efter kongens og hans stormenns påbud må hverken mennesker eller dyr, storfe eller småfe, smake nogen ting, ikke nyte føde og ikke drikke vann!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CH.20.3",
+        "v": 6
+      },
+      {
+        "r": "JOL.2.15-16",
+        "v": 5
+      },
+      {
+        "r": "JON.3.5",
+        "v": 5
+      },
+      {
+        "r": "JOL.1.18",
+        "v": 5
+      },
+      {
+        "r": "EZR.8.21",
+        "v": 4
+      },
+      {
+        "r": "ROM.8.20-22",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "JON.3.8": {
     "text": "Men de skal svøpe sig i sekk, både mennesker og dyr, og de skal rope til Gud med kraft og vende om, hver fra sin onde vei og fra den urett som henger ved deres hender.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JON.1.6",
+        "v": 4
+      },
+      {
+        "r": "ISA.55.6-7",
+        "v": 4
+      },
+      {
+        "r": "ISA.59.6",
+        "v": 4
+      },
+      {
+        "r": "ACT.3.19",
+        "v": 3
+      },
+      {
+        "r": "JON.1.14",
+        "v": 3
+      },
+      {
+        "r": "ISA.1.16-19",
+        "v": 3
+      },
+      {
+        "r": "EZK.18.21-24",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.130.1-2",
+        "v": 2
+      },
+      {
+        "r": "JER.18.11",
+        "v": 2
+      },
+      {
+        "r": "ACT.26.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.18.30-32",
+        "v": 2
+      },
+      {
+        "r": "EZK.33.11",
+        "v": 2
+      },
+      {
+        "r": "EZK.18.27-28",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.27",
+        "v": 2
+      },
+      {
+        "r": "MAT.3.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.3.9": {
     "text": "Hvem vet? Gud kunde da vende om og angre det, vende om fra sin brennende vrede, så vi ikke forgår.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.12.22",
+        "v": 8
+      },
+      {
+        "r": "JOL.2.13-14",
+        "v": 6
+      },
+      {
+        "r": "JON.1.6",
+        "v": 4
+      },
+      {
+        "r": "LUK.15.18-20",
+        "v": 4
+      },
+      {
+        "r": "PSA.106.45",
+        "v": 4
+      },
+      {
+        "r": "AMO.5.15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.3.10": {
     "text": "Da nu Gud så det de gjorde, at de vendte om fra sin onde vei, angret han det onde han hadde sagt han vilde gjøre mot dem, og han gjorde det ikke.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.18.8",
+        "v": 25
+      },
+      {
+        "r": "1KI.21.27-29",
+        "v": 13
+      },
+      {
+        "r": "EXO.32.14",
+        "v": 10
+      },
+      {
+        "r": "LUK.11.32",
+        "v": 10
+      },
+      {
+        "r": "AMO.7.6",
+        "v": 10
+      },
+      {
+        "r": "LUK.15.20",
+        "v": 10
+      },
+      {
+        "r": "JER.31.18-20",
+        "v": 8
+      },
+      {
+        "r": "AMO.7.3",
+        "v": 8
+      },
+      {
+        "r": "JOB.33.27-28",
+        "v": 6
+      },
+      {
+        "r": "JOL.2.13",
+        "v": 6
+      },
+      {
+        "r": "JON.4.2",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "JON.4.1": {
     "text": "Men det syntes Jonas meget ille om, og hans vrede optendtes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JON.4.9",
+        "v": 6
+      },
+      {
+        "r": "LUK.15.28",
+        "v": 6
+      },
+      {
+        "r": "MAT.20.15",
+        "v": 5
+      },
+      {
+        "r": "JON.4.4",
+        "v": 4
+      },
+      {
+        "r": "LUK.7.39",
+        "v": 2
+      },
+      {
+        "r": "JAS.4.5-6",
+        "v": 2
+      },
+      {
+        "r": "ACT.13.46",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.4.2": {
     "text": "Og han bad til Herren og sa: Å Herre! Var det ikke det jeg sa da jeg ennu var i mitt land? Derfor flydde jeg dengang til Tarsis; for jeg visste at du er en nådig og barmhjertig Gud, langmodig og rik på miskunnhet og angrer det onde.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.86.15",
+        "v": 31
+      },
+      {
+        "r": "EXO.34.6-7",
+        "v": 30
+      },
+      {
+        "r": "NUM.14.18-19",
+        "v": 22
+      },
+      {
+        "r": "JOL.2.13-14",
+        "v": 21
+      },
+      {
+        "r": "PSA.145.8",
+        "v": 19
+      },
+      {
+        "r": "PSA.86.5",
+        "v": 15
+      },
+      {
+        "r": "MIC.7.18",
+        "v": 15
+      },
+      {
+        "r": "JER.18.8",
+        "v": 10
+      },
+      {
+        "r": "EXO.32.14",
+        "v": 10
+      },
+      {
+        "r": "PSA.78.38",
+        "v": 9
+      },
+      {
+        "r": "HOS.11.8-9",
+        "v": 8
+      },
+      {
+        "r": "AMO.7.3",
+        "v": 8
+      },
+      {
+        "r": "JON.3.10",
+        "v": 6
+      },
+      {
+        "r": "AMO.7.6",
+        "v": 3
+      },
+      {
+        "r": "JON.1.3",
+        "v": 3
+      },
+      {
+        "r": "1KI.19.4",
+        "v": 2
+      },
+      {
+        "r": "LUK.10.29",
+        "v": 1
+      },
+      {
+        "r": "PSA.90.13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.4.3": {
     "text": "Så ta nu, Herre, mitt liv! For jeg vil heller dø enn leve.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.19.4",
+        "v": 12
+      },
+      {
+        "r": "ECC.7.1",
+        "v": 8
+      },
+      {
+        "r": "NUM.11.15",
+        "v": 7
+      },
+      {
+        "r": "JER.20.14-18",
+        "v": 7
+      },
+      {
+        "r": "NUM.20.3",
+        "v": 6
+      },
+      {
+        "r": "JON.4.8",
+        "v": 6
+      },
+      {
+        "r": "JOB.6.8-9",
+        "v": 5
+      },
+      {
+        "r": "1CO.9.15",
+        "v": 5
+      },
+      {
+        "r": "PHP.1.21-25",
+        "v": 5
+      },
+      {
+        "r": "JOB.3.20-21",
+        "v": 5
+      },
+      {
+        "r": "JOB.7.15-16",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "JON.4.4": {
     "text": "Men Herren sa: Er det med rette din vrede er optendt?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.20.15",
+        "v": 10
+      },
+      {
+        "r": "JON.4.9",
+        "v": 6
+      },
+      {
+        "r": "PSA.106.32-33",
+        "v": 4
+      },
+      {
+        "r": "MIC.6.3",
+        "v": 3
+      },
+      {
+        "r": "JAS.1.19-20",
+        "v": 3
+      },
+      {
+        "r": "NUM.20.11-12",
+        "v": 1
+      },
+      {
+        "r": "NUM.20.24",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "JON.4.5": {
     "text": "Jonas var gått ut av byen; han hadde satt sig østenfor byen, og der hadde han gjort sig en løvhytte og satt under den i skyggen for å se hvorledes det gikk med byen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.19.9",
+        "v": 3
+      },
+      {
+        "r": "1KI.19.13",
+        "v": 2
+      },
+      {
+        "r": "ISA.57.17",
+        "v": 2
+      },
+      {
+        "r": "JER.17.15-16",
+        "v": 2
+      },
+      {
+        "r": "GEN.19.27-28",
+        "v": 2
+      },
+      {
+        "r": "JON.1.5",
+        "v": 1
+      },
+      {
+        "r": "JER.20.9",
+        "v": 1
+      },
+      {
+        "r": "LUK.19.41-44",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.4.6": {
     "text": "Da lot Gud Herren et kikajontre vokse op over Jonas til å skygge over hans hode, så han kunde bli fri sitt mismot; og Jonas gledet sig høilig over kikajontreet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.103.10-14",
+        "v": 4
+      },
+      {
+        "r": "JON.1.17",
+        "v": 2
+      },
+      {
+        "r": "EST.5.9",
+        "v": 2
+      },
+      {
+        "r": "LUK.10.20",
+        "v": 2
+      },
+      {
+        "r": "1CO.7.30",
+        "v": 2
+      },
+      {
+        "r": "ISA.39.2",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.4.7": {
     "text": "Men dagen efter, da morgenen brøt frem, lot Gud en orm komme, som stakk kikajontreet så det visnet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.1.12",
+        "v": 5
+      },
+      {
+        "r": "PSA.90.5-6",
+        "v": 4
+      },
+      {
+        "r": "PSA.102.10",
+        "v": 3
+      },
+      {
+        "r": "JOB.1.21",
+        "v": 3
+      },
+      {
+        "r": "ISA.40.6-8",
+        "v": 3
+      },
+      {
+        "r": "PSA.30.6-7",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "JON.4.8": {
     "text": "Og da solen stod op, sendte Gud en lummer østenvind, og solen stakk Jonas'hode, så han vansmektet; da ønsket han sig døden og sa: Jeg vil heller dø enn leve.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.121.6",
+        "v": 5
+      },
+      {
+        "r": "JON.4.3",
+        "v": 5
+      },
+      {
+        "r": "EZK.19.12",
+        "v": 4
+      },
+      {
+        "r": "REV.7.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.10",
+        "v": 3
+      },
+      {
+        "r": "REV.3.19",
+        "v": 3
+      },
+      {
+        "r": "LEV.10.3",
+        "v": 2
+      },
+      {
+        "r": "JON.4.6-7",
+        "v": 2
+      },
+      {
+        "r": "JOB.2.10",
+        "v": 2
+      },
+      {
+        "r": "JON.1.17",
+        "v": 2
+      },
+      {
+        "r": "JON.1.4",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.39.9",
+        "v": 2
+      },
+      {
+        "r": "2SA.15.25-26",
+        "v": 2
+      },
+      {
+        "r": "1SA.3.18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "JON.4.9": {
     "text": "Men Gud sa til Jonas: Er det med rette din vrede er optendt for kikajontreets skyld? Han svarte: Ja, med rette er min vrede optendt inntil døden.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.4.5-14",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.2",
+        "v": 2
+      },
+      {
+        "r": "JDG.16.16",
+        "v": 2
+      },
+      {
+        "r": "JOB.18.4",
+        "v": 2
+      },
+      {
+        "r": "JOB.40.4-5",
+        "v": 2
+      },
+      {
+        "r": "REV.9.6",
+        "v": 1
+      },
+      {
+        "r": "2CO.7.10",
+        "v": 1
+      },
+      {
+        "r": "MAT.26.38",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "JON.4.10": {
@@ -284,7 +2382,56 @@
   "JON.4.11": {
     "text": "og jeg skulde ikke ynkes over Ninive, den store stad, hvor det er mere enn tolv ganger ti tusen mennesker som ikke kjenner forskjell mellem høire og venstre, og en mengde dyr!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.18.33",
+        "v": 11
+      },
+      {
+        "r": "LUK.15.28-32",
+        "v": 10
+      },
+      {
+        "r": "PSA.145.8-9",
+        "v": 9
+      },
+      {
+        "r": "JON.1.2",
+        "v": 9
+      },
+      {
+        "r": "PSA.36.6",
+        "v": 9
+      },
+      {
+        "r": "DEU.1.39",
+        "v": 7
+      },
+      {
+        "r": "ISA.1.18",
+        "v": 6
+      },
+      {
+        "r": "PSA.104.14",
+        "v": 6
+      },
+      {
+        "r": "JON.3.2-3",
+        "v": 5
+      },
+      {
+        "r": "PSA.145.15-16",
+        "v": 5
+      },
+      {
+        "r": "PSA.104.27-28",
+        "v": 5
+      },
+      {
+        "r": "JON.3.10-4.1",
+        "v": 4
+      }
+    ],
     "section": null
   }
 }

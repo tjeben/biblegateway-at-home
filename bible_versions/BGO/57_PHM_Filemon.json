@@ -4,9 +4,60 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ef 3,1",
-        "refs": []
+        "r": "EPH.3.1",
+        "v": 5
+      },
+      {
+        "r": "PHM.1.9",
+        "v": 5
+      },
+      {
+        "r": "COL.1.1",
+        "v": 5
+      },
+      {
+        "r": "PHP.2.25",
+        "v": 5
+      },
+      {
+        "r": "1CO.3.9",
+        "v": 4
+      },
+      {
+        "r": "PHP.4.3",
+        "v": 3
+      },
+      {
+        "r": "2CO.1.1",
+        "v": 3
+      },
+      {
+        "r": "COL.4.11",
+        "v": 3
+      },
+      {
+        "r": "2TI.1.8",
+        "v": 3
+      },
+      {
+        "r": "1TH.3.2",
+        "v": 3
+      },
+      {
+        "r": "EPH.4.1",
+        "v": 3
+      },
+      {
+        "r": "PHM.1.24",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.20",
+        "v": 2
+      },
+      {
+        "r": "2TH.1.1",
+        "v": 2
       }
     ],
     "section": "Hilsen"
@@ -21,9 +72,28 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Kol 4,17",
-        "refs": []
+        "r": "PHP.2.25",
+        "v": 7
+      },
+      {
+        "r": "COL.4.17",
+        "v": 6
+      },
+      {
+        "r": "ROM.16.5",
+        "v": 6
+      },
+      {
+        "r": "COL.4.15",
+        "v": 4
+      },
+      {
+        "r": "2TI.2.3-4",
+        "v": 3
+      },
+      {
+        "r": "1CO.16.19",
+        "v": 3
       }
     ],
     "section": null
@@ -31,13 +101,55 @@
   "PHM.1.3": {
     "text": "Nåde være med dere og fred fra Gud, vår Far, og Herren Jesus Kristus!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.1.7",
+        "v": 5
+      },
+      {
+        "r": "EPH.1.2",
+        "v": 4
+      },
+      {
+        "r": "2CO.13.14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "PHM.1.4": {
     "text": "Jeg takker min Gud og nevner deg alltid i mine bønner,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.1.8",
+        "v": 7
+      },
+      {
+        "r": "EPH.1.16",
+        "v": 6
+      },
+      {
+        "r": "COL.1.3",
+        "v": 5
+      },
+      {
+        "r": "PHP.1.3",
+        "v": 5
+      },
+      {
+        "r": "2TH.1.3",
+        "v": 4
+      },
+      {
+        "r": "1TH.1.2",
+        "v": 4
+      },
+      {
+        "r": "2TI.1.3",
+        "v": 2
+      }
+    ],
     "section": "Filemons kjærlighet og tro"
   },
   "PHM.1.5": {
@@ -45,9 +157,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Kol 1,4",
-        "refs": []
+        "r": "COL.1.4",
+        "v": 10
+      },
+      {
+        "r": "EPH.1.15",
+        "v": 7
+      },
+      {
+        "r": "PSA.16.3",
+        "v": 3
+      },
+      {
+        "r": "1CO.16.1",
+        "v": 3
+      },
+      {
+        "r": "1JN.5.1-2",
+        "v": 3
+      },
+      {
+        "r": "1JN.3.23",
+        "v": 2
+      },
+      {
+        "r": "PHM.1.7",
+        "v": 2
+      },
+      {
+        "r": "GAL.5.6",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.25-26",
+        "v": 2
+      },
+      {
+        "r": "ROM.12.13",
+        "v": 2
+      },
+      {
+        "r": "ACT.9.39-41",
+        "v": 1
       }
     ],
     "section": null
@@ -62,9 +213,64 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Fil 1,9",
-        "refs": []
+        "r": "2PE.1.8",
+        "v": 13
+      },
+      {
+        "r": "PHP.1.9-11",
+        "v": 13
+      },
+      {
+        "r": "COL.1.9",
+        "v": 8
+      },
+      {
+        "r": "1PE.1.5-8",
+        "v": 5
+      },
+      {
+        "r": "MAT.5.16",
+        "v": 5
+      },
+      {
+        "r": "TIT.3.14",
+        "v": 4
+      },
+      {
+        "r": "2CO.9.12-14",
+        "v": 4
+      },
+      {
+        "r": "1PE.2.12",
+        "v": 4
+      },
+      {
+        "r": "JAS.2.17",
+        "v": 4
+      },
+      {
+        "r": "JAS.2.14",
+        "v": 4
+      },
+      {
+        "r": "HEB.6.10",
+        "v": 3
+      },
+      {
+        "r": "1CO.14.25",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 3
+      },
+      {
+        "r": "1PE.3.16",
+        "v": 3
+      },
+      {
+        "r": "1PE.3.1",
+        "v": 2
       }
     ],
     "section": null
@@ -81,19 +287,138 @@
         "text": "F-tekst:"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.7.13",
+        "v": 10
+      },
+      {
+        "r": "1TH.3.9",
+        "v": 6
+      },
+      {
+        "r": "2CO.7.4",
+        "v": 6
+      },
+      {
+        "r": "PHM.1.20",
+        "v": 5
+      },
+      {
+        "r": "3JN.1.3-6",
+        "v": 5
+      },
+      {
+        "r": "1TH.2.19",
+        "v": 5
+      },
+      {
+        "r": "2JN.1.4",
+        "v": 4
+      },
+      {
+        "r": "2TI.1.16",
+        "v": 4
+      },
+      {
+        "r": "1TH.1.3",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "PHM.1.8": {
     "text": "Derfor, selv om jeg kunne vært meget frimodig i Kristus og befalt deg å gjøre din plikt,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TH.2.6",
+        "v": 8
+      },
+      {
+        "r": "2CO.10.8",
+        "v": 4
+      },
+      {
+        "r": "2CO.3.12",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.4",
+        "v": 2
+      },
+      {
+        "r": "2CO.10.1-2",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.2",
+        "v": 2
+      },
+      {
+        "r": "2CO.11.21",
+        "v": 2
+      }
+    ],
     "section": "Bønn om å ta imot Onesimos"
   },
   "PHM.1.9": {
     "text": "så vil jeg likevel for kjærlighetens skyld heller oppmuntre deg, slik jeg er, Paulus, den aldrende, og nå også en Jesu Kristi fange.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.4.1",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.1",
+        "v": 4
+      },
+      {
+        "r": "2CO.5.20",
+        "v": 4
+      },
+      {
+        "r": "EPH.3.1",
+        "v": 3
+      },
+      {
+        "r": "PHM.1.1-25",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.11",
+        "v": 1
+      },
+      {
+        "r": "ISA.46.4",
+        "v": 1
+      },
+      {
+        "r": "PSA.71.9",
+        "v": 1
+      },
+      {
+        "r": "PRO.16.31",
+        "v": 1
+      },
+      {
+        "r": "HEB.13.19",
+        "v": 1
+      },
+      {
+        "r": "2CO.6.1",
+        "v": 1
+      },
+      {
+        "r": "PSA.71.18",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "PHM.1.10": {
@@ -106,9 +431,40 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Kol 4,9",
-        "refs": []
+        "r": "COL.4.9",
+        "v": 9
+      },
+      {
+        "r": "1CO.4.15",
+        "v": 8
+      },
+      {
+        "r": "GAL.4.19",
+        "v": 7
+      },
+      {
+        "r": "1TI.1.2",
+        "v": 7
+      },
+      {
+        "r": "TIT.1.4",
+        "v": 6
+      },
+      {
+        "r": "2SA.19.37-38",
+        "v": 5
+      },
+      {
+        "r": "2SA.18.5",
+        "v": 4
+      },
+      {
+        "r": "2SA.9.1-7",
+        "v": 4
+      },
+      {
+        "r": "MRK.9.17",
+        "v": 3
       }
     ],
     "section": null
@@ -121,7 +477,40 @@
         "text": "Onesimos betyr: «Den nyttige»"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.4.11",
+        "v": 8
+      },
+      {
+        "r": "JOB.30.1-2",
+        "v": 6
+      },
+      {
+        "r": "LUK.15.32",
+        "v": 5
+      },
+      {
+        "r": "1PE.2.10",
+        "v": 5
+      },
+      {
+        "r": "LUK.17.10",
+        "v": 4
+      },
+      {
+        "r": "ROM.3.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.25.30",
+        "v": 4
+      },
+      {
+        "r": "LUK.15.24",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "PHM.1.12": {
@@ -132,13 +521,71 @@
         "text": "UN:"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.6.14-15",
+        "v": 4
+      },
+      {
+        "r": "MAT.18.21-35",
+        "v": 3
+      },
+      {
+        "r": "JER.31.20",
+        "v": 3
+      },
+      {
+        "r": "EPH.4.32",
+        "v": 3
+      },
+      {
+        "r": "MRK.11.25",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.20",
+        "v": 3
+      },
+      {
+        "r": "2SA.16.11",
+        "v": 2
+      },
+      {
+        "r": "DEU.13.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "PHM.1.13": {
     "text": "som jeg ønsket å ha hos meg, slik at han på dine vegne kunne tjene meg i mine lenker for evangeliet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PHP.1.7",
+        "v": 4
+      },
+      {
+        "r": "EPH.3.1",
+        "v": 4
+      },
+      {
+        "r": "1CO.16.17",
+        "v": 3
+      },
+      {
+        "r": "PHP.2.30",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.1",
+        "v": 2
+      },
+      {
+        "r": "PHM.1.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "PHM.1.14": {
@@ -146,9 +593,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Kor 9,7",
-        "refs": []
+        "r": "2CO.9.7",
+        "v": 8
+      },
+      {
+        "r": "1PE.5.2-3",
+        "v": 3
+      },
+      {
+        "r": "1CH.29.17",
+        "v": 3
+      },
+      {
+        "r": "PHM.1.8-9",
+        "v": 2
+      },
+      {
+        "r": "1CO.9.17",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.12",
+        "v": 2
+      },
+      {
+        "r": "2CO.9.5",
+        "v": 2
+      },
+      {
+        "r": "2CO.1.24",
+        "v": 1
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 1
       }
     ],
     "section": null
@@ -156,7 +634,24 @@
   "PHM.1.15": {
     "text": "For kanskje dro han sin vei for en stund for at du skulle få ham igjen for evig,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.50.20",
+        "v": 7
+      },
+      {
+        "r": "GEN.45.5-8",
+        "v": 4
+      },
+      {
+        "r": "ISA.20.6",
+        "v": 2
+      },
+      {
+        "r": "ACT.4.28",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "PHM.1.16": {
@@ -167,19 +662,130 @@
         "text": "i kjøtt"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "COL.3.22",
+        "v": 6
+      },
+      {
+        "r": "MAT.23.8",
+        "v": 6
+      },
+      {
+        "r": "1TI.6.2",
+        "v": 5
+      },
+      {
+        "r": "1CO.7.22",
+        "v": 5
+      },
+      {
+        "r": "EPH.6.5-7",
+        "v": 4
+      },
+      {
+        "r": "1PE.1.22-23",
+        "v": 3
+      },
+      {
+        "r": "ACT.9.17",
+        "v": 2
+      },
+      {
+        "r": "HEB.3.1",
+        "v": 2
+      },
+      {
+        "r": "GAL.4.28-29",
+        "v": 2
+      },
+      {
+        "r": "1JN.5.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "PHM.1.17": {
     "text": "Hvis du da har samfunn med meg, så ta imot ham slik du ville ha tatt imot meg.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.8.23",
+        "v": 8
+      },
+      {
+        "r": "MAT.10.40",
+        "v": 6
+      },
+      {
+        "r": "PHM.1.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.18.5",
+        "v": 3
+      },
+      {
+        "r": "EPH.3.6",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.5",
+        "v": 2
+      },
+      {
+        "r": "HEB.3.1",
+        "v": 2
+      },
+      {
+        "r": "MAT.12.48-50",
+        "v": 2
+      },
+      {
+        "r": "ACT.16.15",
+        "v": 2
+      },
+      {
+        "r": "MAT.25.40",
+        "v": 2
+      },
+      {
+        "r": "1TI.6.2",
+        "v": 1
+      },
+      {
+        "r": "HEB.3.14",
+        "v": 1
+      },
+      {
+        "r": "PHP.1.7",
+        "v": 1
+      },
+      {
+        "r": "1PE.5.1",
+        "v": 1
+      },
+      {
+        "r": "1JN.1.3",
+        "v": 1
+      },
+      {
+        "r": "PHM.1.10",
+        "v": 1
+      }
+    ],
     "section": "Paulus stoler på Filemon"
   },
   "PHM.1.18": {
     "text": "Men hvis han har gjort noe galt mot deg eller skylder deg noe, så sett det på min regning.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.53.4-7",
+        "v": 7
+      }
+    ],
     "section": null
   },
   "PHM.1.19": {
@@ -187,9 +793,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kor 16,21",
-        "refs": []
+        "r": "GAL.6.11",
+        "v": 4
+      },
+      {
+        "r": "GAL.5.2",
+        "v": 3
+      },
+      {
+        "r": "1CO.16.21-22",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.19-20",
+        "v": 2
+      },
+      {
+        "r": "1CO.4.15",
+        "v": 2
+      },
+      {
+        "r": "1CO.9.1-2",
+        "v": 2
+      },
+      {
+        "r": "2CO.3.2",
+        "v": 1
+      },
+      {
+        "r": "TIT.1.4",
+        "v": 1
+      },
+      {
+        "r": "1TI.1.2",
+        "v": 1
       }
     ],
     "section": null
@@ -197,13 +834,87 @@
   "PHM.1.20": {
     "text": "Ja, bror, la meg få glede av deg i Herren! Oppliv mitt hjerte i Herren!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PHM.1.7",
+        "v": 5
+      },
+      {
+        "r": "3JN.1.4",
+        "v": 4
+      },
+      {
+        "r": "PHM.1.12",
+        "v": 3
+      },
+      {
+        "r": "HEB.13.17",
+        "v": 3
+      },
+      {
+        "r": "1TH.2.19-20",
+        "v": 2
+      },
+      {
+        "r": "2CO.2.2",
+        "v": 2
+      },
+      {
+        "r": "1JN.3.17",
+        "v": 2
+      },
+      {
+        "r": "2CO.7.4-7",
+        "v": 2
+      },
+      {
+        "r": "2CO.7.13",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.1-2",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.1",
+        "v": 2
+      },
+      {
+        "r": "1TH.3.7-9",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "PHM.1.21": {
     "text": "Siden jeg har tillit til din lydighet, skriver jeg til deg, og jeg vet at du vil gjøre mer enn jeg ber om.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TH.3.4",
+        "v": 5
+      },
+      {
+        "r": "2CO.2.3",
+        "v": 4
+      },
+      {
+        "r": "2CO.7.16",
+        "v": 3
+      },
+      {
+        "r": "2CO.8.22",
+        "v": 2
+      },
+      {
+        "r": "GAL.5.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "PHM.1.22": {
@@ -211,9 +922,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Kor 1,11; Fil 1,25",
-        "refs": []
+        "r": "2CO.1.11",
+        "v": 5
+      },
+      {
+        "r": "PHP.2.24",
+        "v": 5
+      },
+      {
+        "r": "2JN.1.12",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.16",
+        "v": 3
+      },
+      {
+        "r": "ACT.28.23",
+        "v": 3
+      },
+      {
+        "r": "PHP.1.19",
+        "v": 3
+      },
+      {
+        "r": "HEB.13.19",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.25-26",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.30-32",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.24",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.14",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.23",
+        "v": 2
       }
     ],
     "section": null
@@ -223,9 +977,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Kol 1,7; 4,12",
-        "refs": []
+        "r": "COL.1.7",
+        "v": 5
+      },
+      {
+        "r": "COL.4.12",
+        "v": 4
+      },
+      {
+        "r": "ROM.16.7",
+        "v": 4
+      },
+      {
+        "r": "COL.4.10",
+        "v": 2
       }
     ],
     "section": "Farvel!"
@@ -233,13 +998,87 @@
   "PHM.1.24": {
     "text": "Det samme gjør Markus, Aristarkos, Demas og Lukas, mine medarbeidere.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "COL.4.14",
+        "v": 6
+      },
+      {
+        "r": "2TI.4.10-11",
+        "v": 6
+      },
+      {
+        "r": "COL.4.10",
+        "v": 6
+      },
+      {
+        "r": "ACT.15.37-39",
+        "v": 4
+      },
+      {
+        "r": "ACT.12.12",
+        "v": 4
+      },
+      {
+        "r": "ACT.19.29",
+        "v": 4
+      },
+      {
+        "r": "PHM.1.1-2",
+        "v": 3
+      },
+      {
+        "r": "ACT.12.25",
+        "v": 3
+      },
+      {
+        "r": "ACT.27.2",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.3",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.23",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.13.13",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "PHM.1.25": {
     "text": "Vår Herre Jesu Kristi nåde være med deres ånd! Amen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.4.22",
+        "v": 7
+      },
+      {
+        "r": "GAL.6.18",
+        "v": 5
+      },
+      {
+        "r": "ROM.16.20",
+        "v": 5
+      },
+      {
+        "r": "ROM.16.23",
+        "v": 4
+      }
+    ],
     "section": null
   }
 }

@@ -2,277 +2,4027 @@
   "TIT.1.1": {
     "text": "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God's elect, and the acknowledging of the truth which is after godliness;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.1.1",
+        "v": 16
+      },
+      {
+        "r": "1TI.6.3",
+        "v": 15
+      },
+      {
+        "r": "TIT.2.11-12",
+        "v": 10
+      },
+      {
+        "r": "2PE.1.3",
+        "v": 10
+      },
+      {
+        "r": "2TI.2.25",
+        "v": 10
+      },
+      {
+        "r": "2TI.2.23",
+        "v": 10
+      },
+      {
+        "r": "1TI.3.16",
+        "v": 9
+      },
+      {
+        "r": "COL.2.2",
+        "v": 9
+      },
+      {
+        "r": "2PE.3.11",
+        "v": 9
+      },
+      {
+        "r": "2TH.2.13-14",
+        "v": 9
+      },
+      {
+        "r": "PHP.1.1",
+        "v": 8
+      },
+      {
+        "r": "1TI.2.4",
+        "v": 8
+      },
+      {
+        "r": "1TI.1.4-5",
+        "v": 8
+      },
+      {
+        "r": "ACT.13.48",
+        "v": 7
+      },
+      {
+        "r": "1CH.6.49",
+        "v": 7
+      },
+      {
+        "r": "2CO.1.1",
+        "v": 7
+      },
+      {
+        "r": "JHN.10.26-27",
+        "v": 7
+      },
+      {
+        "r": "EPH.2.8",
+        "v": 6
+      },
+      {
+        "r": "1JN.2.23",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "TIT.1.2": {
     "text": "in hope of eternal life, which God, that cannot lie, promised before the world began;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NUM.23.19",
+        "v": 28
+      },
+      {
+        "r": "2TI.1.9",
+        "v": 21
+      },
+      {
+        "r": "1JN.2.25",
+        "v": 20
+      },
+      {
+        "r": "HEB.6.17-18",
+        "v": 14
+      },
+      {
+        "r": "1JN.5.11-13",
+        "v": 13
+      },
+      {
+        "r": "2TI.1.1",
+        "v": 12
+      },
+      {
+        "r": "TIT.2.13",
+        "v": 11
+      },
+      {
+        "r": "1SA.15.29",
+        "v": 10
+      },
+      {
+        "r": "JUD.1.21",
+        "v": 9
+      },
+      {
+        "r": "2TI.2.15",
+        "v": 9
+      },
+      {
+        "r": "2TI.2.13",
+        "v": 9
+      },
+      {
+        "r": "MAT.25.46",
+        "v": 8
+      },
+      {
+        "r": "1JN.5.20",
+        "v": 8
+      },
+      {
+        "r": "ROM.6.23",
+        "v": 8
+      },
+      {
+        "r": "TIT.3.7",
+        "v": 8
+      },
+      {
+        "r": "TIT.2.7",
+        "v": 7
+      },
+      {
+        "r": "JHN.3.15-16",
+        "v": 7
+      },
+      {
+        "r": "1PE.1.3-4",
+        "v": 7
+      },
+      {
+        "r": "1TH.5.8",
+        "v": 7
+      },
+      {
+        "r": "MAT.25.34",
+        "v": 7
+      },
+      {
+        "r": "JHN.5.39",
+        "v": 7
+      },
+      {
+        "r": "JHN.10.28",
+        "v": 7
+      },
+      {
+        "r": "1PE.1.20-23",
+        "v": 7
+      },
+      {
+        "r": "ROM.5.21",
+        "v": 7
+      },
+      {
+        "r": "ROM.16.25",
+        "v": 6
+      },
+      {
+        "r": "ROM.5.4",
+        "v": 6
+      },
+      {
+        "r": "1TI.6.19",
+        "v": 6
+      },
+      {
+        "r": "ROM.2.7",
+        "v": 6
+      },
+      {
+        "r": "2TI.2.10",
+        "v": 6
+      },
+      {
+        "r": "ROM.5.2",
+        "v": 6
+      },
+      {
+        "r": "JHN.17.2",
+        "v": 6
+      },
+      {
+        "r": "JHN.6.68",
+        "v": 6
+      },
+      {
+        "r": "1JN.3.2-3",
+        "v": 6
+      },
+      {
+        "r": "REV.13.8",
+        "v": 6
+      },
+      {
+        "r": "PRO.8.23-31",
+        "v": 6
+      },
+      {
+        "r": "ROM.1.2",
+        "v": 6
+      },
+      {
+        "r": "REV.17.8",
+        "v": 6
+      },
+      {
+        "r": "1TI.6.12",
+        "v": 5
+      },
+      {
+        "r": "JHN.6.54",
+        "v": 5
+      },
+      {
+        "r": "ACT.15.18",
+        "v": 5
+      },
+      {
+        "r": "1TH.2.15",
+        "v": 5
+      },
+      {
+        "r": "JHN.17.24",
+        "v": 5
+      },
+      {
+        "r": "COL.1.27",
+        "v": 4
+      },
+      {
+        "r": "MRK.10.17",
+        "v": 4
+      },
+      {
+        "r": "MRK.10.30",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "TIT.1.3": {
     "text": "but hath in due times manifested his word through preaching, which is committed unto me according to the commandment of God our Saviour;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TI.1.11",
+        "v": 9
+      },
+      {
+        "r": "TIT.3.4-6",
+        "v": 6
+      },
+      {
+        "r": "1TI.1.1",
+        "v": 6
+      },
+      {
+        "r": "TIT.2.10",
+        "v": 5
+      },
+      {
+        "r": "TIT.2.13",
+        "v": 4
+      },
+      {
+        "r": "ACT.10.36",
+        "v": 3
+      },
+      {
+        "r": "HAB.2.3",
+        "v": 3
+      },
+      {
+        "r": "1TI.4.10",
+        "v": 3
+      },
+      {
+        "r": "MRK.13.10",
+        "v": 3
+      },
+      {
+        "r": "GAL.4.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.45.21",
+        "v": 3
+      },
+      {
+        "r": "COL.1.23",
+        "v": 3
+      },
+      {
+        "r": "1TI.2.5-7",
+        "v": 3
+      },
+      {
+        "r": "ISA.45.15",
+        "v": 3
+      },
+      {
+        "r": "ROM.10.14-15",
+        "v": 3
+      },
+      {
+        "r": "2TI.1.10-11",
+        "v": 3
+      },
+      {
+        "r": "MRK.16.15",
+        "v": 3
+      },
+      {
+        "r": "COL.1.6",
+        "v": 3
+      },
+      {
+        "r": "1TI.2.3",
+        "v": 3
+      },
+      {
+        "r": "EPH.2.17",
+        "v": 3
+      },
+      {
+        "r": "1TH.2.4",
+        "v": 3
+      },
+      {
+        "r": "1CO.9.17",
+        "v": 3
+      },
+      {
+        "r": "EPH.3.5-8",
+        "v": 2
+      },
+      {
+        "r": "DAN.11.27",
+        "v": 2
+      },
+      {
+        "r": "ACT.17.26",
+        "v": 2
+      },
+      {
+        "r": "ROM.5.6",
+        "v": 2
+      },
+      {
+        "r": "ROM.16.26",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.19",
+        "v": 2
+      },
+      {
+        "r": "ISA.12.2",
+        "v": 2
+      },
+      {
+        "r": "DAN.9.24-10.1",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.47",
+        "v": 2
+      },
+      {
+        "r": "DAN.8.23",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.13",
+        "v": 2
+      },
+      {
+        "r": "REV.14.16",
+        "v": 1
+      },
+      {
+        "r": "EPH.1.10",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "TIT.1.4": {
     "text": "to Titus, mine own son after the common faith: Grace, mercy, and peace, from God the Father and the Lord Jesus Christ our Saviour.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.1.2",
+        "v": 6
+      },
+      {
+        "r": "JUD.1.3",
+        "v": 5
+      },
+      {
+        "r": "2PE.1.1",
+        "v": 4
+      },
+      {
+        "r": "2CO.2.13",
+        "v": 4
+      },
+      {
+        "r": "2PE.1.11",
+        "v": 4
+      },
+      {
+        "r": "2CO.8.23",
+        "v": 3
+      },
+      {
+        "r": "JHN.4.42",
+        "v": 3
+      },
+      {
+        "r": "ROM.1.12",
+        "v": 3
+      },
+      {
+        "r": "2PE.3.18",
+        "v": 3
+      },
+      {
+        "r": "EPH.1.2",
+        "v": 2
+      },
+      {
+        "r": "2CO.4.13",
+        "v": 2
+      },
+      {
+        "r": "2CO.12.18",
+        "v": 2
+      },
+      {
+        "r": "TIT.1.3",
+        "v": 2
+      },
+      {
+        "r": "LUK.2.11",
+        "v": 2
+      },
+      {
+        "r": "2CO.7.13-14",
+        "v": 2
+      },
+      {
+        "r": "2CO.7.6",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.6",
+        "v": 2
+      },
+      {
+        "r": "1JN.5.14",
+        "v": 2
+      },
+      {
+        "r": "COL.1.2",
+        "v": 2
+      },
+      {
+        "r": "GAL.2.3",
+        "v": 2
+      },
+      {
+        "r": "1TI.1.1-2",
+        "v": 2
+      },
+      {
+        "r": "ROM.1.7",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.16",
+        "v": 2
+      },
+      {
+        "r": "2PE.2.20",
+        "v": 2
+      },
+      {
+        "r": "2PE.3.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.1.5": {
     "text": "For this cause left I thee in Crete, that thou shouldest set in order the things that are wanting, and ordain elders in every city, as I had appointed thee:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.14.23",
+        "v": 13
+      },
+      {
+        "r": "1TI.1.3",
+        "v": 7
+      },
+      {
+        "r": "ECC.12.9",
+        "v": 6
+      },
+      {
+        "r": "1CO.14.40",
+        "v": 5
+      },
+      {
+        "r": "2TI.2.2",
+        "v": 3
+      },
+      {
+        "r": "ACT.27.21",
+        "v": 3
+      },
+      {
+        "r": "ACT.11.30",
+        "v": 3
+      },
+      {
+        "r": "ACT.27.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.44.7",
+        "v": 3
+      },
+      {
+        "r": "1CO.11.34",
+        "v": 3
+      },
+      {
+        "r": "ACT.27.7",
+        "v": 3
+      },
+      {
+        "r": "COL.2.5",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.11",
+        "v": 1
+      },
+      {
+        "r": "1CH.6.32",
+        "v": 0
+      }
+    ],
     "section": "Stewards of God"
   },
   "TIT.1.6": {
     "text": "if any be blameless, the husband of one wife, having faithful children not accused of riot or unruly.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TI.3.2-7",
+        "v": 6
+      },
+      {
+        "r": "1TI.3.12",
+        "v": 6
+      },
+      {
+        "r": "PRO.28.7",
+        "v": 4
+      },
+      {
+        "r": "TIT.1.6-8",
+        "v": 4
+      },
+      {
+        "r": "GEN.18.19",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.18",
+        "v": 3
+      },
+      {
+        "r": "1SA.2.22",
+        "v": 2
+      },
+      {
+        "r": "LEV.21.7",
+        "v": 2
+      },
+      {
+        "r": "LEV.21.14",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.14",
+        "v": 2
+      },
+      {
+        "r": "EZK.44.22",
+        "v": 2
+      },
+      {
+        "r": "1SA.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "1SA.2.11",
+        "v": 2
+      },
+      {
+        "r": "1SA.2.29-30",
+        "v": 2
+      },
+      {
+        "r": "MAL.2.15",
+        "v": 2
+      },
+      {
+        "r": "TIT.1.10",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "TIT.1.7": {
     "text": "For a bishop must be blameless, as the steward of God; not selfwilled, not soon angry, not given to wine, no striker, not given to filthy lucre;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.5.18",
+        "v": 9
+      },
+      {
+        "r": "2PE.2.10",
+        "v": 8
+      },
+      {
+        "r": "1PE.5.2",
+        "v": 6
+      },
+      {
+        "r": "1PE.4.10",
+        "v": 6
+      },
+      {
+        "r": "LUK.12.42",
+        "v": 5
+      },
+      {
+        "r": "JAS.1.19-20",
+        "v": 5
+      },
+      {
+        "r": "EZK.44.21",
+        "v": 4
+      },
+      {
+        "r": "PRO.14.17",
+        "v": 4
+      },
+      {
+        "r": "1TI.3.1-13",
+        "v": 4
+      },
+      {
+        "r": "2TI.2.24-25",
+        "v": 4
+      },
+      {
+        "r": "ISA.28.7",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.10-12",
+        "v": 3
+      },
+      {
+        "r": "PRO.15.18",
+        "v": 3
+      },
+      {
+        "r": "PRO.16.32",
+        "v": 2
+      },
+      {
+        "r": "TIT.1.5",
+        "v": 2
+      },
+      {
+        "r": "LEV.10.9",
+        "v": 2
+      },
+      {
+        "r": "ECC.7.9",
+        "v": 2
+      },
+      {
+        "r": "1CO.4.1-2",
+        "v": 2
+      },
+      {
+        "r": "TIT.2.3",
+        "v": 2
+      },
+      {
+        "r": "GEN.49.6",
+        "v": 2
+      },
+      {
+        "r": "MAT.24.45",
+        "v": 2
+      },
+      {
+        "r": "PRO.31.4-5",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.1.8": {
     "text": "but a lover of hospitality, a lover of good men, sober, just, holy, temperate;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TI.3.2",
+        "v": 10
+      },
+      {
+        "r": "TIT.2.7",
+        "v": 8
+      },
+      {
+        "r": "1KI.5.7",
+        "v": 3
+      },
+      {
+        "r": "1KI.5.1",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.10",
+        "v": 2
+      },
+      {
+        "r": "AMO.5.15",
+        "v": 2
+      },
+      {
+        "r": "1JN.3.14",
+        "v": 2
+      },
+      {
+        "r": "1TI.6.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.16.3",
+        "v": 2
+      },
+      {
+        "r": "1JN.5.1",
+        "v": 2
+      },
+      {
+        "r": "1TI.4.12",
+        "v": 2
+      },
+      {
+        "r": "2CO.6.4-8",
+        "v": 2
+      },
+      {
+        "r": "1SA.18.1",
+        "v": 2
+      },
+      {
+        "r": "2TI.3.3",
+        "v": 1
+      },
+      {
+        "r": "2TI.2.22",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "TIT.1.9": {
     "text": "holding fast the faithful word as he hath been taught, that he may be able by sound doctrine both to exhort and to convince the gainsayers.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TH.2.15",
+        "v": 20
+      },
+      {
+        "r": "2TI.1.13",
+        "v": 13
+      },
+      {
+        "r": "1TI.6.3",
+        "v": 10
+      },
+      {
+        "r": "1TI.1.10",
+        "v": 9
+      },
+      {
+        "r": "1TI.1.15",
+        "v": 7
+      },
+      {
+        "r": "REV.3.3",
+        "v": 7
+      },
+      {
+        "r": "JOB.2.3",
+        "v": 6
+      },
+      {
+        "r": "PRO.23.23",
+        "v": 6
+      },
+      {
+        "r": "1CO.14.24",
+        "v": 6
+      },
+      {
+        "r": "REV.3.11",
+        "v": 6
+      },
+      {
+        "r": "TIT.1.11",
+        "v": 6
+      },
+      {
+        "r": "1TH.5.21",
+        "v": 6
+      },
+      {
+        "r": "ACT.18.28",
+        "v": 6
+      },
+      {
+        "r": "2TI.2.2",
+        "v": 6
+      },
+      {
+        "r": "1TI.4.9",
+        "v": 6
+      },
+      {
+        "r": "JUD.1.3",
+        "v": 6
+      },
+      {
+        "r": "2TI.4.3",
+        "v": 6
+      },
+      {
+        "r": "TIT.2.1",
+        "v": 6
+      },
+      {
+        "r": "TIT.2.7-8",
+        "v": 6
+      },
+      {
+        "r": "JOB.27.6",
+        "v": 5
+      },
+      {
+        "r": "2TI.2.25",
+        "v": 5
+      },
+      {
+        "r": "REV.2.25",
+        "v": 5
+      },
+      {
+        "r": "1TI.1.19",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "TIT.1.10": {
     "text": "For there are many unruly and vain talkers and deceivers, specially they of the circumcision:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TI.1.6",
+        "v": 8
+      },
+      {
+        "r": "1JN.4.1",
+        "v": 7
+      },
+      {
+        "r": "GAL.2.4",
+        "v": 5
+      },
+      {
+        "r": "EPH.4.14",
+        "v": 4
+      },
+      {
+        "r": "ROM.16.17-18",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.3-5",
+        "v": 3
+      },
+      {
+        "r": "ACT.11.2",
+        "v": 3
+      },
+      {
+        "r": "GAL.1.6-8",
+        "v": 3
+      },
+      {
+        "r": "2TI.3.13",
+        "v": 3
+      },
+      {
+        "r": "JAS.1.26",
+        "v": 3
+      },
+      {
+        "r": "GAL.4.17-21",
+        "v": 2
+      },
+      {
+        "r": "REV.2.14",
+        "v": 2
+      },
+      {
+        "r": "ACT.20.29",
+        "v": 2
+      },
+      {
+        "r": "1JN.2.18",
+        "v": 2
+      },
+      {
+        "r": "GAL.5.1-4",
+        "v": 2
+      },
+      {
+        "r": "2CO.11.12-15",
+        "v": 2
+      },
+      {
+        "r": "2TH.2.10-12",
+        "v": 2
+      },
+      {
+        "r": "2TI.4.4",
+        "v": 2
+      },
+      {
+        "r": "GAL.3.1",
+        "v": 2
+      },
+      {
+        "r": "2PE.2.1-2",
+        "v": 2
+      },
+      {
+        "r": "REV.2.6",
+        "v": 2
+      },
+      {
+        "r": "1TI.1.4",
+        "v": 2
+      },
+      {
+        "r": "PHP.3.2-3",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.1",
+        "v": 1
+      },
+      {
+        "r": "ACT.15.24",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "TIT.1.11": {
     "text": "whose mouths must be stopped, who subvert whole houses, teaching things which they ought not, for filthy lucre's sake.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.3.6",
+        "v": 8
+      },
+      {
+        "r": "1TI.6.5",
+        "v": 7
+      },
+      {
+        "r": "ROM.3.19",
+        "v": 6
+      },
+      {
+        "r": "TIT.3.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.63.11",
+        "v": 5
+      },
+      {
+        "r": "TIT.1.9",
+        "v": 5
+      },
+      {
+        "r": "MIC.3.5",
+        "v": 4
+      },
+      {
+        "r": "TIT.1.7",
+        "v": 4
+      },
+      {
+        "r": "PSA.107.42",
+        "v": 4
+      },
+      {
+        "r": "EZK.16.63",
+        "v": 3
+      },
+      {
+        "r": "JER.8.10",
+        "v": 3
+      },
+      {
+        "r": "LUK.20.40",
+        "v": 3
+      },
+      {
+        "r": "2CO.11.10",
+        "v": 3
+      },
+      {
+        "r": "EZK.13.19",
+        "v": 3
+      },
+      {
+        "r": "MIC.3.11",
+        "v": 3
+      },
+      {
+        "r": "2PE.2.1-3",
+        "v": 3
+      },
+      {
+        "r": "ISA.56.10-11",
+        "v": 3
+      },
+      {
+        "r": "MAT.23.13",
+        "v": 2
+      },
+      {
+        "r": "JHN.10.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.1.12": {
     "text": "One of themselves, even a prophet of their own, said, The Cretians are alway liars, evil beasts, slow bellies.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.16.18",
+        "v": 6
+      },
+      {
+        "r": "1TI.4.2",
+        "v": 5
+      },
+      {
+        "r": "ACT.17.28",
+        "v": 4
+      },
+      {
+        "r": "2PE.2.15",
+        "v": 3
+      },
+      {
+        "r": "2PE.2.12",
+        "v": 2
+      },
+      {
+        "r": "JUD.1.8-13",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.1.13": {
     "text": "This witness is true. Wherefore rebuke them sharply, that they may be sound in the faith;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TI.5.20",
+        "v": 10
+      },
+      {
+        "r": "TIT.2.2",
+        "v": 9
+      },
+      {
+        "r": "2TI.4.2",
+        "v": 7
+      },
+      {
+        "r": "TIT.2.15",
+        "v": 7
+      },
+      {
+        "r": "2CO.13.10",
+        "v": 6
+      },
+      {
+        "r": "PRO.27.5",
+        "v": 6
+      },
+      {
+        "r": "1TI.4.6",
+        "v": 5
+      },
+      {
+        "r": "PSA.141.5",
+        "v": 4
+      },
+      {
+        "r": "2CO.7.8-12",
+        "v": 4
+      },
+      {
+        "r": "PSA.119.80",
+        "v": 2
+      },
+      {
+        "r": "LEV.19.17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "TIT.1.14": {
     "text": "not giving heed to Jewish fables, and commandments of men, that turn from the truth.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.4.4",
+        "v": 11
+      },
+      {
+        "r": "COL.2.22",
+        "v": 9
+      },
+      {
+        "r": "GAL.4.9",
+        "v": 7
+      },
+      {
+        "r": "2PE.2.22",
+        "v": 6
+      },
+      {
+        "r": "MAT.15.9",
+        "v": 6
+      },
+      {
+        "r": "ISA.29.13",
+        "v": 5
+      },
+      {
+        "r": "MRK.7.7",
+        "v": 4
+      },
+      {
+        "r": "1TI.1.4-7",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.1.15": {
     "text": "Unto the pure all things are pure: but unto them that are defiled and unbelieving is nothing pure; but even their mind and conscience is defiled.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.14.14",
+        "v": 20
+      },
+      {
+        "r": "ROM.14.20",
+        "v": 15
+      },
+      {
+        "r": "1CO.10.23",
+        "v": 12
+      },
+      {
+        "r": "1TI.4.3-4",
+        "v": 10
+      },
+      {
+        "r": "MAT.15.18",
+        "v": 9
+      },
+      {
+        "r": "ROM.14.23",
+        "v": 8
+      },
+      {
+        "r": "1CO.10.31",
+        "v": 6
+      },
+      {
+        "r": "ACT.10.15",
+        "v": 6
+      },
+      {
+        "r": "1CO.6.12-13",
+        "v": 5
+      },
+      {
+        "r": "1CO.8.7",
+        "v": 4
+      },
+      {
+        "r": "HEB.10.22",
+        "v": 4
+      },
+      {
+        "r": "LUK.11.39-41",
+        "v": 4
+      },
+      {
+        "r": "1CO.11.27-29",
+        "v": 2
+      },
+      {
+        "r": "1CO.10.25",
+        "v": 2
+      },
+      {
+        "r": "PRO.21.4",
+        "v": 2
+      },
+      {
+        "r": "1TI.6.5",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.13",
+        "v": 1
+      },
+      {
+        "r": "HEB.9.14",
+        "v": 0
+      },
+      {
+        "r": "ZEC.7.5-6",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "TIT.1.16": {
     "text": "They profess that they know God; but in works they deny him, being abominable, and disobedient, and unto every good work reprobate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1JN.2.4",
+        "v": 48
+      },
+      {
+        "r": "ISA.29.13",
+        "v": 36
+      },
+      {
+        "r": "EPH.5.6",
+        "v": 25
+      },
+      {
+        "r": "EZK.33.31",
+        "v": 24
+      },
+      {
+        "r": "2TI.3.5-8",
+        "v": 19
+      },
+      {
+        "r": "JUD.1.4",
+        "v": 18
+      },
+      {
+        "r": "ROM.1.28",
+        "v": 15
+      },
+      {
+        "r": "REV.21.27",
+        "v": 12
+      },
+      {
+        "r": "REV.21.8",
+        "v": 11
+      },
+      {
+        "r": "1SA.15.22",
+        "v": 11
+      },
+      {
+        "r": "1TI.5.8",
+        "v": 10
+      },
+      {
+        "r": "ISA.58.2",
+        "v": 9
+      },
+      {
+        "r": "ISA.48.1",
+        "v": 9
+      },
+      {
+        "r": "JOB.15.16",
+        "v": 8
+      },
+      {
+        "r": "1SA.15.24",
+        "v": 7
+      },
+      {
+        "r": "ROM.2.18-24",
+        "v": 7
+      },
+      {
+        "r": "HOS.8.2-3",
+        "v": 6
+      },
+      {
+        "r": "NUM.24.16",
+        "v": 4
+      },
+      {
+        "r": "1TI.1.9",
+        "v": 3
+      },
+      {
+        "r": "JER.6.30",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "TIT.2.1": {
     "text": "But speak thou the things which become sound doctrine:",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.1.13",
+        "v": 13
+      },
+      {
+        "r": "1TI.6.3",
+        "v": 9
+      },
+      {
+        "r": "TIT.1.9",
+        "v": 6
+      },
+      {
+        "r": "1TI.1.10",
+        "v": 5
+      },
+      {
+        "r": "TIT.3.8",
+        "v": 5
+      },
+      {
+        "r": "TIT.2.11-14",
+        "v": 4
+      }
+    ],
     "section": "Sound Doctrine"
   },
   "TIT.2.2": {
     "text": "that the aged men be sober, grave, temperate, sound in faith, in charity, in patience.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GAL.5.23",
+        "v": 24
+      },
+      {
+        "r": "1PE.4.7",
+        "v": 11
+      },
+      {
+        "r": "1TI.3.11",
+        "v": 9
+      },
+      {
+        "r": "1TH.5.8",
+        "v": 8
+      },
+      {
+        "r": "1PE.5.8",
+        "v": 8
+      },
+      {
+        "r": "TIT.1.13",
+        "v": 7
+      },
+      {
+        "r": "JOB.12.12",
+        "v": 7
+      },
+      {
+        "r": "1TI.3.2",
+        "v": 7
+      },
+      {
+        "r": "PRO.16.31",
+        "v": 7
+      },
+      {
+        "r": "ROM.12.3",
+        "v": 6
+      },
+      {
+        "r": "TIT.1.8",
+        "v": 5
+      },
+      {
+        "r": "LEV.19.32",
+        "v": 5
+      },
+      {
+        "r": "1TI.3.4",
+        "v": 5
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 5
+      },
+      {
+        "r": "PSA.92.14",
+        "v": 5
+      },
+      {
+        "r": "1PE.1.13",
+        "v": 4
+      },
+      {
+        "r": "1TI.1.5",
+        "v": 4
+      },
+      {
+        "r": "1TH.5.6",
+        "v": 4
+      },
+      {
+        "r": "1CO.15.34",
+        "v": 4
+      },
+      {
+        "r": "TIT.2.7",
+        "v": 4
+      },
+      {
+        "r": "2PE.1.6",
+        "v": 4
+      },
+      {
+        "r": "1CO.9.25",
+        "v": 3
+      },
+      {
+        "r": "LUK.8.35",
+        "v": 3
+      },
+      {
+        "r": "MRK.5.15",
+        "v": 3
+      },
+      {
+        "r": "2CO.5.13",
+        "v": 3
+      },
+      {
+        "r": "ACT.24.25",
+        "v": 3
+      },
+      {
+        "r": "ISA.65.20",
+        "v": 3
+      },
+      {
+        "r": "1TI.3.8",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "TIT.2.3": {
     "text": "The aged women likewise, that they be in behaviour as becometh holiness, not false accusers, not given to much wine, teachers of good things;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "TIT.2.4",
+        "v": 26
+      },
+      {
+        "r": "1TI.3.11",
+        "v": 24
+      },
+      {
+        "r": "1PE.3.3-5",
+        "v": 12
+      },
+      {
+        "r": "1TI.2.9-10",
+        "v": 11
+      },
+      {
+        "r": "TIT.1.7",
+        "v": 7
+      },
+      {
+        "r": "1TI.3.8",
+        "v": 5
+      },
+      {
+        "r": "ROM.16.2",
+        "v": 5
+      },
+      {
+        "r": "1TI.5.5-10",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.3",
+        "v": 4
+      },
+      {
+        "r": "HEB.5.12",
+        "v": 2
+      },
+      {
+        "r": "REV.2.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.2.4": {
     "text": "that they may teach the young women to be sober, to love their husbands, to love their children,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TI.5.14",
+        "v": 12
+      },
+      {
+        "r": "1TI.5.2",
+        "v": 6
+      },
+      {
+        "r": "1TI.5.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.2.5": {
     "text": "to be discreet, chaste, keepers at home, good, obedient to their own husbands, that the word of God be not blasphemed.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.31.10-31",
+        "v": 31
+      },
+      {
+        "r": "COL.3.18",
+        "v": 26
+      },
+      {
+        "r": "1PE.3.1-5",
+        "v": 12
+      },
+      {
+        "r": "1TI.5.10",
+        "v": 12
+      },
+      {
+        "r": "1TI.5.13-14",
+        "v": 11
+      },
+      {
+        "r": "GEN.3.16",
+        "v": 10
+      },
+      {
+        "r": "EPH.5.22-24",
+        "v": 7
+      },
+      {
+        "r": "PRO.7.11",
+        "v": 6
+      },
+      {
+        "r": "EPH.5.33",
+        "v": 6
+      },
+      {
+        "r": "ACT.9.36",
+        "v": 5
+      },
+      {
+        "r": "GEN.18.9",
+        "v": 5
+      },
+      {
+        "r": "1TI.6.1",
+        "v": 4
+      },
+      {
+        "r": "2SA.12.14",
+        "v": 3
+      },
+      {
+        "r": "1CO.11.3",
+        "v": 3
+      },
+      {
+        "r": "ACT.9.39",
+        "v": 3
+      },
+      {
+        "r": "ROM.2.24",
+        "v": 3
+      },
+      {
+        "r": "GEN.16.8-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.74.10",
+        "v": 2
+      },
+      {
+        "r": "1TI.2.11-12",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.34",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "TIT.2.6": {
     "text": "Young men likewise exhort to be sober minded.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.12.1",
+        "v": 9
+      },
+      {
+        "r": "1PE.5.5",
+        "v": 6
+      },
+      {
+        "r": "JOL.2.28",
+        "v": 5
+      },
+      {
+        "r": "ECC.11.9",
+        "v": 5
+      },
+      {
+        "r": "1JN.2.13",
+        "v": 5
+      },
+      {
+        "r": "1TI.5.1",
+        "v": 4
+      },
+      {
+        "r": "PSA.148.12",
+        "v": 2
+      },
+      {
+        "r": "JOB.29.8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "TIT.2.7": {
     "text": "In all things shewing thyself a pattern of good works: in doctrine shewing uncorruptness, gravity, sincerity,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1PE.5.3",
+        "v": 21
+      },
+      {
+        "r": "1TI.4.12",
+        "v": 20
+      },
+      {
+        "r": "2CO.4.2",
+        "v": 12
+      },
+      {
+        "r": "PHP.1.10",
+        "v": 9
+      },
+      {
+        "r": "EPH.6.24",
+        "v": 7
+      },
+      {
+        "r": "2CO.1.12",
+        "v": 7
+      },
+      {
+        "r": "2TH.3.9",
+        "v": 7
+      },
+      {
+        "r": "2CO.8.8",
+        "v": 2
+      },
+      {
+        "r": "2CO.2.17",
+        "v": 2
+      },
+      {
+        "r": "ACT.20.33-35",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "TIT.2.8": {
     "text": "sound speech, that cannot be condemned; that he that is of the contrary part may be ashamed, having no evil thing to say of you.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1PE.2.12",
+        "v": 15
+      },
+      {
+        "r": "1PE.2.15",
+        "v": 12
+      },
+      {
+        "r": "1TI.6.3",
+        "v": 8
+      },
+      {
+        "r": "1PE.3.16",
+        "v": 8
+      },
+      {
+        "r": "PHP.2.14-16",
+        "v": 5
+      },
+      {
+        "r": "2TH.3.14",
+        "v": 4
+      },
+      {
+        "r": "NEH.5.9",
+        "v": 4
+      },
+      {
+        "r": "ISA.66.5",
+        "v": 3
+      },
+      {
+        "r": "LUK.13.17",
+        "v": 2
+      },
+      {
+        "r": "MRK.12.32",
+        "v": 2
+      },
+      {
+        "r": "1TI.5.14",
+        "v": 2
+      },
+      {
+        "r": "MRK.12.34",
+        "v": 2
+      },
+      {
+        "r": "MRK.12.28",
+        "v": 2
+      },
+      {
+        "r": "MRK.12.17",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "TIT.2.9": {
     "text": "Exhort servants to be obedient unto their own masters, and to please them well in all things; not answering again;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1PE.2.18-25",
+        "v": 7
+      },
+      {
+        "r": "1TI.6.1-2",
+        "v": 5
+      },
+      {
+        "r": "EPH.6.5-8",
+        "v": 4
+      },
+      {
+        "r": "COL.3.22-25",
+        "v": 4
+      },
+      {
+        "r": "EPH.5.24",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.2.10": {
     "text": "not purloining, but shewing all good fidelity; that they may adorn the doctrine of God our Saviour in all things.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.5.16",
+        "v": 8
+      },
+      {
+        "r": "1PE.2.12",
+        "v": 6
+      },
+      {
+        "r": "2JN.1.9",
+        "v": 5
+      },
+      {
+        "r": "PSA.101.6",
+        "v": 4
+      },
+      {
+        "r": "1TI.6.1",
+        "v": 4
+      },
+      {
+        "r": "LUK.16.10",
+        "v": 4
+      },
+      {
+        "r": "1SA.26.23",
+        "v": 4
+      },
+      {
+        "r": "1PE.3.16",
+        "v": 4
+      },
+      {
+        "r": "MAT.24.45",
+        "v": 4
+      },
+      {
+        "r": "1TI.6.3",
+        "v": 4
+      },
+      {
+        "r": "TIT.1.3",
+        "v": 4
+      },
+      {
+        "r": "1CO.4.2",
+        "v": 4
+      },
+      {
+        "r": "1SA.22.14",
+        "v": 3
+      },
+      {
+        "r": "ISA.12.2",
+        "v": 3
+      },
+      {
+        "r": "EPH.4.1",
+        "v": 3
+      },
+      {
+        "r": "1TI.1.1",
+        "v": 3
+      },
+      {
+        "r": "GEN.39.8-9",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 3
+      },
+      {
+        "r": "PHP.2.15-16",
+        "v": 3
+      },
+      {
+        "r": "2KI.5.20-24",
+        "v": 3
+      },
+      {
+        "r": "LUK.16.6-8",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.2-3",
+        "v": 3
+      },
+      {
+        "r": "PHP.1.27",
+        "v": 3
+      },
+      {
+        "r": "JHN.12.6",
+        "v": 2
+      },
+      {
+        "r": "GEN.31.37-38",
+        "v": 2
+      },
+      {
+        "r": "1TI.5.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.2.11": {
     "text": "For the grace of God that bringeth salvation hath appeared to all men,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.2.8",
+        "v": 55
+      },
+      {
+        "r": "1TI.2.4",
+        "v": 52
+      },
+      {
+        "r": "ISA.45.22",
+        "v": 36
+      },
+      {
+        "r": "HEB.2.9",
+        "v": 29
+      },
+      {
+        "r": "EPH.2.5",
+        "v": 25
+      },
+      {
+        "r": "2TH.2.16",
+        "v": 22
+      },
+      {
+        "r": "JHN.1.16-17",
+        "v": 20
+      },
+      {
+        "r": "JHN.1.14",
+        "v": 17
+      },
+      {
+        "r": "ROM.5.15",
+        "v": 17
+      },
+      {
+        "r": "EPH.1.6-7",
+        "v": 16
+      },
+      {
+        "r": "ISA.52.10",
+        "v": 15
+      },
+      {
+        "r": "PSA.84.11",
+        "v": 14
+      },
+      {
+        "r": "ACT.20.24",
+        "v": 14
+      },
+      {
+        "r": "ACT.11.23",
+        "v": 13
+      },
+      {
+        "r": "ISA.60.1-3",
+        "v": 13
+      },
+      {
+        "r": "PSA.117.1-2",
+        "v": 12
+      },
+      {
+        "r": "LUK.3.6",
+        "v": 12
+      },
+      {
+        "r": "ROM.5.2",
+        "v": 11
+      },
+      {
+        "r": "ROM.11.5-6",
+        "v": 11
+      },
+      {
+        "r": "1TI.1.14",
+        "v": 10
+      },
+      {
+        "r": "GAL.2.21",
+        "v": 9
+      },
+      {
+        "r": "PSA.96.1-3",
+        "v": 9
+      },
+      {
+        "r": "ROM.4.4-5",
+        "v": 9
+      },
+      {
+        "r": "PSA.96.10",
+        "v": 9
+      },
+      {
+        "r": "TIT.3.4-5",
+        "v": 9
+      },
+      {
+        "r": "ZEC.12.10",
+        "v": 9
+      },
+      {
+        "r": "JHN.1.9",
+        "v": 8
+      },
+      {
+        "r": "ACT.13.43",
+        "v": 8
+      },
+      {
+        "r": "ROM.5.20-21",
+        "v": 8
+      },
+      {
+        "r": "MAT.28.19",
+        "v": 8
+      },
+      {
+        "r": "ROM.15.9-19",
+        "v": 8
+      },
+      {
+        "r": "PSA.98.1-3",
+        "v": 8
+      },
+      {
+        "r": "LUK.24.47",
+        "v": 8
+      },
+      {
+        "r": "ACT.13.47",
+        "v": 8
+      },
+      {
+        "r": "MRK.16.15",
+        "v": 8
+      },
+      {
+        "r": "COL.1.6",
+        "v": 8
+      },
+      {
+        "r": "2TI.4.17",
+        "v": 8
+      },
+      {
+        "r": "ZEC.4.7",
+        "v": 8
+      },
+      {
+        "r": "ISA.49.6",
+        "v": 8
+      },
+      {
+        "r": "2CO.6.1",
+        "v": 8
+      },
+      {
+        "r": "1PE.5.5-12",
+        "v": 7
+      },
+      {
+        "r": "EPH.3.6-8",
+        "v": 7
+      },
+      {
+        "r": "ROM.10.18",
+        "v": 7
+      },
+      {
+        "r": "ISA.2.2-3",
+        "v": 7
+      },
+      {
+        "r": "COL.1.23",
+        "v": 7
+      },
+      {
+        "r": "HEB.12.15",
+        "v": 7
+      },
+      {
+        "r": "1PE.1.10-12",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "TIT.2.12": {
     "text": "teaching us that, denying ungodliness and worldly lusts, we should live soberly, righteously, and godly, in this present world;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.36.27",
+        "v": 35
+      },
+      {
+        "r": "MAT.16.24",
+        "v": 27
+      },
+      {
+        "r": "ROM.6.19",
+        "v": 19
+      },
+      {
+        "r": "PSA.4.3",
+        "v": 17
+      },
+      {
+        "r": "2PE.2.9",
+        "v": 16
+      },
+      {
+        "r": "EPH.4.22-25",
+        "v": 16
+      },
+      {
+        "r": "1JN.2.6",
+        "v": 15
+      },
+      {
+        "r": "2PE.1.4-8",
+        "v": 13
+      },
+      {
+        "r": "2TI.3.12",
+        "v": 12
+      },
+      {
+        "r": "LUK.1.75",
+        "v": 12
+      },
+      {
+        "r": "ISA.55.6-7",
+        "v": 12
+      },
+      {
+        "r": "REV.14.12",
+        "v": 11
+      },
+      {
+        "r": "1TH.4.7",
+        "v": 10
+      },
+      {
+        "r": "TIT.3.3",
+        "v": 10
+      },
+      {
+        "r": "1JN.2.15-17",
+        "v": 9
+      },
+      {
+        "r": "JAS.4.8-10",
+        "v": 9
+      },
+      {
+        "r": "1PE.1.14-18",
+        "v": 8
+      },
+      {
+        "r": "COL.3.5-9",
+        "v": 8
+      },
+      {
+        "r": "EPH.2.2",
+        "v": 8
+      },
+      {
+        "r": "1TH.4.9",
+        "v": 7
+      },
+      {
+        "r": "ROM.6.12",
+        "v": 7
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 7
+      },
+      {
+        "r": "GAL.5.24",
+        "v": 6
+      },
+      {
+        "r": "EZK.33.14-15",
+        "v": 6
+      },
+      {
+        "r": "EZK.18.30-31",
+        "v": 6
+      },
+      {
+        "r": "GAL.1.4",
+        "v": 6
+      },
+      {
+        "r": "COL.1.22",
+        "v": 6
+      },
+      {
+        "r": "MAT.3.8-10",
+        "v": 6
+      },
+      {
+        "r": "JHN.17.14-15",
+        "v": 6
+      },
+      {
+        "r": "1PE.2.11-12",
+        "v": 6
+      },
+      {
+        "r": "ROM.13.12-13",
+        "v": 6
+      },
+      {
+        "r": "ROM.8.13",
+        "v": 6
+      },
+      {
+        "r": "2PE.3.11",
+        "v": 6
+      },
+      {
+        "r": "1TI.4.12",
+        "v": 6
+      },
+      {
+        "r": "ROM.12.2",
+        "v": 6
+      },
+      {
+        "r": "2CO.1.12",
+        "v": 6
+      },
+      {
+        "r": "HEB.8.11",
+        "v": 6
+      },
+      {
+        "r": "ROM.6.4-6",
+        "v": 6
+      },
+      {
+        "r": "MAT.5.19-20",
+        "v": 6
+      },
+      {
+        "r": "2CO.7.1",
+        "v": 6
+      },
+      {
+        "r": "2PE.2.20-22",
+        "v": 6
+      },
+      {
+        "r": "1JN.2.27",
+        "v": 6
+      },
+      {
+        "r": "1CO.6.9-11",
+        "v": 6
+      },
+      {
+        "r": "ACT.24.25",
+        "v": 6
+      },
+      {
+        "r": "1TI.6.17",
+        "v": 6
+      },
+      {
+        "r": "ACT.24.16",
+        "v": 6
+      },
+      {
+        "r": "EPH.1.4",
+        "v": 5
+      },
+      {
+        "r": "1JN.5.19",
+        "v": 5
+      },
+      {
+        "r": "JHN.14.30",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.6",
+        "v": 5
+      },
+      {
+        "r": "LUK.3.9-13",
+        "v": 5
+      },
+      {
+        "r": "PSA.105.45",
+        "v": 5
+      },
+      {
+        "r": "JHN.6.25",
+        "v": 5
+      },
+      {
+        "r": "JUD.1.18",
+        "v": 4
+      },
+      {
+        "r": "1PE.4.2-5",
+        "v": 4
+      },
+      {
+        "r": "2TI.4.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "TIT.2.13": {
     "text": "looking for that blessed hope, and the glorious appearing of the great God and our Saviour Jesus Christ;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.4.8",
+        "v": 26
+      },
+      {
+        "r": "1CO.1.7",
+        "v": 24
+      },
+      {
+        "r": "MAT.16.27",
+        "v": 20
+      },
+      {
+        "r": "TIT.1.2",
+        "v": 16
+      },
+      {
+        "r": "2PE.3.12-14",
+        "v": 13
+      },
+      {
+        "r": "MRK.14.62",
+        "v": 12
+      },
+      {
+        "r": "HEB.9.28",
+        "v": 10
+      },
+      {
+        "r": "1JN.3.2-3",
+        "v": 10
+      },
+      {
+        "r": "2CO.4.4",
+        "v": 9
+      },
+      {
+        "r": "2PE.3.18",
+        "v": 7
+      },
+      {
+        "r": "PHP.3.20-21",
+        "v": 7
+      },
+      {
+        "r": "ROM.5.5",
+        "v": 7
+      },
+      {
+        "r": "ROM.15.13",
+        "v": 7
+      },
+      {
+        "r": "TIT.3.4",
+        "v": 7
+      },
+      {
+        "r": "MRK.8.38",
+        "v": 6
+      },
+      {
+        "r": "COL.3.4",
+        "v": 6
+      },
+      {
+        "r": "2CO.4.6",
+        "v": 6
+      },
+      {
+        "r": "2PE.1.1",
+        "v": 6
+      },
+      {
+        "r": "ACT.24.15",
+        "v": 6
+      },
+      {
+        "r": "1PE.1.3",
+        "v": 6
+      },
+      {
+        "r": "1JN.4.14",
+        "v": 6
+      },
+      {
+        "r": "2TI.4.1",
+        "v": 6
+      },
+      {
+        "r": "ISA.25.9",
+        "v": 6
+      },
+      {
+        "r": "ROM.8.24-25",
+        "v": 6
+      },
+      {
+        "r": "1PE.1.7",
+        "v": 6
+      },
+      {
+        "r": "COL.1.23",
+        "v": 5
+      },
+      {
+        "r": "REV.1.7",
+        "v": 5
+      },
+      {
+        "r": "TIT.3.6-7",
+        "v": 5
+      },
+      {
+        "r": "1TI.6.13-14",
+        "v": 5
+      },
+      {
+        "r": "COL.1.5",
+        "v": 4
+      },
+      {
+        "r": "JOB.19.25-27",
+        "v": 4
+      },
+      {
+        "r": "MAT.25.31",
+        "v": 4
+      },
+      {
+        "r": "MAT.26.64",
+        "v": 4
+      },
+      {
+        "r": "COL.1.27",
+        "v": 3
+      },
+      {
+        "r": "2TH.2.16",
+        "v": 3
+      },
+      {
+        "r": "HEB.6.18-19",
+        "v": 3
+      },
+      {
+        "r": "2TH.2.8",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "TIT.2.14": {
     "text": "who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a peculiar people, zealous of good works.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HEB.9.14",
+        "v": 41
+      },
+      {
+        "r": "EPH.2.10",
+        "v": 35
+      },
+      {
+        "r": "1PE.2.9",
+        "v": 31
+      },
+      {
+        "r": "1PE.1.18",
+        "v": 23
+      },
+      {
+        "r": "TIT.3.8",
+        "v": 22
+      },
+      {
+        "r": "REV.5.9",
+        "v": 22
+      },
+      {
+        "r": "GAL.3.13",
+        "v": 21
+      },
+      {
+        "r": "EZK.36.25",
+        "v": 17
+      },
+      {
+        "r": "GAL.2.20",
+        "v": 15
+      },
+      {
+        "r": "1PE.1.22",
+        "v": 11
+      },
+      {
+        "r": "ACT.9.36",
+        "v": 10
+      },
+      {
+        "r": "REV.1.5",
+        "v": 9
+      },
+      {
+        "r": "MAT.20.28",
+        "v": 9
+      },
+      {
+        "r": "1PE.3.18",
+        "v": 9
+      },
+      {
+        "r": "1JN.3.2",
+        "v": 8
+      },
+      {
+        "r": "EXO.19.5-6",
+        "v": 8
+      },
+      {
+        "r": "DEU.14.2",
+        "v": 7
+      },
+      {
+        "r": "PSA.130.8",
+        "v": 7
+      },
+      {
+        "r": "EPH.5.23-27",
+        "v": 7
+      },
+      {
+        "r": "DEU.26.18",
+        "v": 7
+      },
+      {
+        "r": "1PE.2.12",
+        "v": 6
+      },
+      {
+        "r": "ROM.14.7-8",
+        "v": 5
+      },
+      {
+        "r": "DEU.7.6",
+        "v": 5
+      },
+      {
+        "r": "GAL.1.4",
+        "v": 5
+      },
+      {
+        "r": "EXO.15.16",
+        "v": 4
+      },
+      {
+        "r": "2CO.5.14-15",
+        "v": 4
+      },
+      {
+        "r": "JHN.10.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.48.16",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.2",
+        "v": 3
+      },
+      {
+        "r": "HEB.10.24",
+        "v": 3
+      },
+      {
+        "r": "ROM.11.26-27",
+        "v": 3
+      },
+      {
+        "r": "JAS.4.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.135.4",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.18",
+        "v": 3
+      },
+      {
+        "r": "TIT.2.7",
+        "v": 3
+      },
+      {
+        "r": "EZK.37.23",
+        "v": 3
+      },
+      {
+        "r": "1TI.2.10",
+        "v": 2
+      },
+      {
+        "r": "MAT.1.21",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.9",
+        "v": 2
+      },
+      {
+        "r": "JHN.6.51",
+        "v": 2
+      },
+      {
+        "r": "1TI.2.6",
+        "v": 2
+      },
+      {
+        "r": "1TI.1.15",
+        "v": 2
+      },
+      {
+        "r": "MAT.3.12",
+        "v": 2
+      },
+      {
+        "r": "MAL.3.3",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.14",
+        "v": 2
+      },
+      {
+        "r": "NUM.25.13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "TIT.2.15": {
     "text": "These things speak, and exhort, and rebuke with all authority. Let no man despise thee.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.4.2",
+        "v": 13
+      },
+      {
+        "r": "1TI.4.12-13",
+        "v": 11
+      },
+      {
+        "r": "TIT.1.13",
+        "v": 9
+      },
+      {
+        "r": "1TI.5.20",
+        "v": 7
+      },
+      {
+        "r": "MAT.7.29",
+        "v": 5
+      },
+      {
+        "r": "MRK.1.22",
+        "v": 4
+      },
+      {
+        "r": "MRK.1.27",
+        "v": 3
+      },
+      {
+        "r": "LUK.4.36",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "TIT.3.1": {
     "text": "Put them in mind to be subject to principalities and powers, to obey magistrates, to be ready to every good work,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.13.1-7",
+        "v": 17
+      },
+      {
+        "r": "1PE.2.13-17",
+        "v": 14
+      },
+      {
+        "r": "ECC.10.4",
+        "v": 13
+      },
+      {
+        "r": "GAL.6.9-10",
+        "v": 11
+      },
+      {
+        "r": "PRO.24.21",
+        "v": 10
+      },
+      {
+        "r": "MAT.22.21",
+        "v": 9
+      },
+      {
+        "r": "2TI.2.21",
+        "v": 6
+      },
+      {
+        "r": "HEB.13.21",
+        "v": 6
+      },
+      {
+        "r": "2TI.1.6",
+        "v": 6
+      },
+      {
+        "r": "ECC.8.2-5",
+        "v": 6
+      },
+      {
+        "r": "1TI.5.10",
+        "v": 6
+      },
+      {
+        "r": "1TI.2.2",
+        "v": 5
+      },
+      {
+        "r": "DEU.17.12",
+        "v": 5
+      },
+      {
+        "r": "TIT.2.14",
+        "v": 5
+      },
+      {
+        "r": "2PE.3.1-2",
+        "v": 5
+      },
+      {
+        "r": "1TI.4.6",
+        "v": 5
+      },
+      {
+        "r": "1CO.15.58",
+        "v": 5
+      },
+      {
+        "r": "EPH.2.10",
+        "v": 4
+      },
+      {
+        "r": "PHP.1.11",
+        "v": 4
+      },
+      {
+        "r": "JER.27.17",
+        "v": 4
+      },
+      {
+        "r": "ISA.43.26",
+        "v": 4
+      },
+      {
+        "r": "TIT.3.8",
+        "v": 4
+      },
+      {
+        "r": "2PE.1.12",
+        "v": 4
+      },
+      {
+        "r": "COL.1.10",
+        "v": 4
+      },
+      {
+        "r": "MAT.23.2-3",
+        "v": 3
+      },
+      {
+        "r": "JUD.1.5",
+        "v": 3
+      },
+      {
+        "r": "TIT.3.14",
+        "v": 2
+      }
+    ],
     "section": "Social Service"
   },
   "TIT.3.2": {
     "text": "to speak evil of no man, to be no brawlers, but gentle, shewing all meekness unto all men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.4.31",
+        "v": 14
+      },
+      {
+        "r": "2TI.2.24-25",
+        "v": 13
+      },
+      {
+        "r": "EPH.4.2",
+        "v": 10
+      },
+      {
+        "r": "COL.3.12-13",
+        "v": 10
+      },
+      {
+        "r": "1TI.3.3",
+        "v": 9
+      },
+      {
+        "r": "1PE.3.10",
+        "v": 8
+      },
+      {
+        "r": "1PE.3.8",
+        "v": 7
+      },
+      {
+        "r": "1PE.2.17-18",
+        "v": 6
+      },
+      {
+        "r": "GAL.5.22",
+        "v": 6
+      },
+      {
+        "r": "MAT.11.29",
+        "v": 6
+      },
+      {
+        "r": "GAL.6.10",
+        "v": 5
+      },
+      {
+        "r": "JAS.4.11",
+        "v": 5
+      },
+      {
+        "r": "1PE.2.1",
+        "v": 5
+      },
+      {
+        "r": "JAS.3.17",
+        "v": 5
+      },
+      {
+        "r": "1TH.5.14-15",
+        "v": 5
+      },
+      {
+        "r": "2SA.22.36",
+        "v": 4
+      },
+      {
+        "r": "JAS.1.19-20",
+        "v": 4
+      },
+      {
+        "r": "PSA.140.11",
+        "v": 3
+      },
+      {
+        "r": "GAL.6.1",
+        "v": 3
+      },
+      {
+        "r": "1TI.3.11",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.7",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.5",
+        "v": 2
+      },
+      {
+        "r": "1CO.9.19",
+        "v": 2
+      },
+      {
+        "r": "PRO.25.24",
+        "v": 1
+      },
+      {
+        "r": "PRO.6.19",
+        "v": 1
+      },
+      {
+        "r": "ACT.23.5",
+        "v": 1
+      },
+      {
+        "r": "2CO.12.20",
+        "v": 1
+      },
+      {
+        "r": "2CO.10.1",
+        "v": 1
+      },
+      {
+        "r": "1PE.4.4",
+        "v": 0
+      },
+      {
+        "r": "2PE.2.10",
+        "v": 0
+      },
+      {
+        "r": "ISA.40.11",
+        "v": 0
+      },
+      {
+        "r": "JUD.1.8",
+        "v": 0
+      },
+      {
+        "r": "1CO.6.10",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "TIT.3.3": {
     "text": "For we ourselves also were sometimes foolish, disobedient, deceived, serving divers lusts and pleasures, living in malice and envy, hateful, and hating one another.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.2.1-3",
+        "v": 22
+      },
+      {
+        "r": "COL.1.21",
+        "v": 19
+      },
+      {
+        "r": "ROM.6.17",
+        "v": 19
+      },
+      {
+        "r": "COL.3.7",
+        "v": 16
+      },
+      {
+        "r": "1CO.6.9-11",
+        "v": 14
+      },
+      {
+        "r": "1PE.1.14",
+        "v": 11
+      },
+      {
+        "r": "ROM.6.22",
+        "v": 11
+      },
+      {
+        "r": "ROM.1.29-31",
+        "v": 11
+      },
+      {
+        "r": "1PE.4.1-3",
+        "v": 8
+      },
+      {
+        "r": "2TI.3.2-3",
+        "v": 8
+      },
+      {
+        "r": "PRO.9.6",
+        "v": 7
+      },
+      {
+        "r": "LUK.21.8",
+        "v": 5
+      },
+      {
+        "r": "PSA.36.2",
+        "v": 5
+      },
+      {
+        "r": "MAT.21.29",
+        "v": 5
+      },
+      {
+        "r": "2CO.12.20",
+        "v": 5
+      },
+      {
+        "r": "JHN.8.34",
+        "v": 5
+      },
+      {
+        "r": "ACT.26.19-20",
+        "v": 4
+      },
+      {
+        "r": "PRO.1.22-23",
+        "v": 4
+      },
+      {
+        "r": "JAS.1.26",
+        "v": 4
+      },
+      {
+        "r": "GAL.6.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.44.20",
+        "v": 3
+      },
+      {
+        "r": "REV.12.9",
+        "v": 3
+      },
+      {
+        "r": "ROM.3.9-20",
+        "v": 3
+      },
+      {
+        "r": "REV.18.2",
+        "v": 3
+      },
+      {
+        "r": "REV.13.14",
+        "v": 2
+      },
+      {
+        "r": "ACT.9.1-6",
+        "v": 2
+      },
+      {
+        "r": "OBA.1.3",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.3.4": {
     "text": "But after that the kindness and love of God our Saviour toward man appeared,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.2.4-10",
+        "v": 24
+      },
+      {
+        "r": "TIT.2.10-11",
+        "v": 20
+      },
+      {
+        "r": "1TI.4.10",
+        "v": 15
+      },
+      {
+        "r": "ROM.5.20-21",
+        "v": 10
+      },
+      {
+        "r": "ROM.2.4",
+        "v": 9
+      },
+      {
+        "r": "2TI.1.10",
+        "v": 7
+      },
+      {
+        "r": "HEB.9.26",
+        "v": 7
+      },
+      {
+        "r": "TIT.1.3",
+        "v": 5
+      },
+      {
+        "r": "1TI.2.3",
+        "v": 5
+      },
+      {
+        "r": "1TI.1.1",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "TIT.3.5": {
     "text": "not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration, and renewing of the Holy Ghost;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.2.8-9",
+        "v": 81
+      },
+      {
+        "r": "2TI.1.9",
+        "v": 58
+      },
+      {
+        "r": "1CO.6.11",
+        "v": 44
+      },
+      {
+        "r": "1PE.1.3",
+        "v": 27
+      },
+      {
+        "r": "1PE.3.21",
+        "v": 23
+      },
+      {
+        "r": "ROM.12.2",
+        "v": 21
+      },
+      {
+        "r": "EPH.2.4",
+        "v": 19
+      },
+      {
+        "r": "ROM.11.6",
+        "v": 18
+      },
+      {
+        "r": "EPH.5.26",
+        "v": 17
+      },
+      {
+        "r": "PSA.51.10",
+        "v": 16
+      },
+      {
+        "r": "HEB.4.16",
+        "v": 15
+      },
+      {
+        "r": "JHN.3.3-5",
+        "v": 14
+      },
+      {
+        "r": "COL.3.10",
+        "v": 12
+      },
+      {
+        "r": "PSA.86.15",
+        "v": 12
+      },
+      {
+        "r": "ROM.3.20",
+        "v": 11
+      },
+      {
+        "r": "GAL.2.16",
+        "v": 11
+      },
+      {
+        "r": "ROM.3.28",
+        "v": 11
+      },
+      {
+        "r": "PSA.130.7",
+        "v": 9
+      },
+      {
+        "r": "ROM.9.16",
+        "v": 9
+      },
+      {
+        "r": "1PE.2.10",
+        "v": 8
+      },
+      {
+        "r": "EPH.4.23",
+        "v": 7
+      },
+      {
+        "r": "ROM.4.5",
+        "v": 7
+      },
+      {
+        "r": "GAL.3.16-21",
+        "v": 6
+      },
+      {
+        "r": "PSA.143.2",
+        "v": 6
+      },
+      {
+        "r": "ROM.9.30",
+        "v": 6
+      },
+      {
+        "r": "JOB.25.4",
+        "v": 6
+      },
+      {
+        "r": "LUK.1.50",
+        "v": 6
+      },
+      {
+        "r": "ISA.57.12",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.54",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.78",
+        "v": 5
+      },
+      {
+        "r": "EPH.1.6-7",
+        "v": 5
+      },
+      {
+        "r": "TIT.3.4",
+        "v": 5
+      },
+      {
+        "r": "MIC.7.18",
+        "v": 5
+      },
+      {
+        "r": "ROM.9.11",
+        "v": 5
+      },
+      {
+        "r": "LUK.10.27-29",
+        "v": 4
+      },
+      {
+        "r": "LUK.1.72",
+        "v": 4
+      },
+      {
+        "r": "PSA.86.5",
+        "v": 3
+      },
+      {
+        "r": "JOB.15.14",
+        "v": 3
+      },
+      {
+        "r": "HEB.6.6",
+        "v": 3
+      },
+      {
+        "r": "PSA.62.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.3.6": {
     "text": "which he shed on us abundantly through Jesus Christ our Saviour;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOL.2.28",
+        "v": 16
+      },
+      {
+        "r": "ROM.5.5",
+        "v": 9
+      },
+      {
+        "r": "ACT.10.45",
+        "v": 7
+      },
+      {
+        "r": "EZK.36.25",
+        "v": 4
+      },
+      {
+        "r": "ISA.44.3",
+        "v": 4
+      },
+      {
+        "r": "JHN.16.7",
+        "v": 3
+      },
+      {
+        "r": "PRO.1.23",
+        "v": 3
+      },
+      {
+        "r": "JHN.1.16",
+        "v": 3
+      },
+      {
+        "r": "TIT.1.4",
+        "v": 2
+      },
+      {
+        "r": "EPH.3.8",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.2",
+        "v": 2
+      },
+      {
+        "r": "ROM.8.2",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.33",
+        "v": 2
+      },
+      {
+        "r": "JHN.4.10",
+        "v": 2
+      },
+      {
+        "r": "JHN.7.37",
+        "v": 2
+      },
+      {
+        "r": "ISA.32.15",
+        "v": 2
+      },
+      {
+        "r": "JHN.14.16-17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.3.7": {
     "text": "that being justified by his grace, we should be made heirs according to the hope of eternal life.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.8.17",
+        "v": 17
+      },
+      {
+        "r": "TIT.2.11",
+        "v": 10
+      },
+      {
+        "r": "1CO.6.11",
+        "v": 9
+      },
+      {
+        "r": "ROM.3.24",
+        "v": 9
+      },
+      {
+        "r": "TIT.1.2",
+        "v": 8
+      },
+      {
+        "r": "JAS.2.5",
+        "v": 6
+      },
+      {
+        "r": "ROM.8.23-24",
+        "v": 5
+      },
+      {
+        "r": "ROM.11.6",
+        "v": 5
+      },
+      {
+        "r": "ROM.3.28",
+        "v": 4
+      },
+      {
+        "r": "GAL.2.16",
+        "v": 4
+      },
+      {
+        "r": "ROM.4.16",
+        "v": 4
+      },
+      {
+        "r": "GAL.3.29",
+        "v": 4
+      },
+      {
+        "r": "ROM.5.1-2",
+        "v": 4
+      },
+      {
+        "r": "ROM.5.15-21",
+        "v": 3
+      },
+      {
+        "r": "GAL.4.7",
+        "v": 3
+      },
+      {
+        "r": "HEB.11.9",
+        "v": 3
+      },
+      {
+        "r": "ROM.4.4",
+        "v": 3
+      },
+      {
+        "r": "HEB.11.7",
+        "v": 3
+      },
+      {
+        "r": "HEB.6.17",
+        "v": 3
+      },
+      {
+        "r": "TIT.2.13",
+        "v": 2
+      },
+      {
+        "r": "1PE.3.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.3.8": {
     "text": "This is a faithful saying, and these things I will that thou affirm constantly, that they which have believed in God might be careful to maintain good works. These things are good and profitable unto men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "TIT.3.14",
+        "v": 12
+      },
+      {
+        "r": "PSA.16.2-3",
+        "v": 8
+      },
+      {
+        "r": "TIT.2.14",
+        "v": 8
+      },
+      {
+        "r": "TIT.1.9",
+        "v": 8
+      },
+      {
+        "r": "TIT.3.1",
+        "v": 7
+      },
+      {
+        "r": "ROM.4.5",
+        "v": 5
+      },
+      {
+        "r": "1PE.1.21",
+        "v": 4
+      },
+      {
+        "r": "1TI.1.15",
+        "v": 4
+      },
+      {
+        "r": "JOB.22.2",
+        "v": 4
+      },
+      {
+        "r": "JHN.12.44",
+        "v": 4
+      },
+      {
+        "r": "JHN.5.24",
+        "v": 4
+      },
+      {
+        "r": "PHM.1.11",
+        "v": 3
+      },
+      {
+        "r": "1JN.5.10-13",
+        "v": 3
+      },
+      {
+        "r": "PSA.78.22",
+        "v": 3
+      },
+      {
+        "r": "PRO.21.28",
+        "v": 2
+      },
+      {
+        "r": "2CO.4.13",
+        "v": 1
+      },
+      {
+        "r": "ACT.12.15",
+        "v": 1
+      },
+      {
+        "r": "2CO.9.12-15",
+        "v": 1
+      },
+      {
+        "r": "JOB.35.7-8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "TIT.3.9": {
     "text": "But avoid foolish questions, and genealogies, and contentions, and strivings about the law; for they are unprofitable and vain.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.2.14",
+        "v": 19
+      },
+      {
+        "r": "2TI.2.23",
+        "v": 15
+      },
+      {
+        "r": "1TI.4.7",
+        "v": 14
+      },
+      {
+        "r": "2TI.2.16",
+        "v": 11
+      },
+      {
+        "r": "TIT.1.14",
+        "v": 11
+      },
+      {
+        "r": "JOB.15.3",
+        "v": 10
+      },
+      {
+        "r": "1TI.1.3-7",
+        "v": 10
+      },
+      {
+        "r": "1CO.8.1",
+        "v": 7
+      },
+      {
+        "r": "1CO.13.2",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "TIT.3.10": {
     "text": "A man that is an heretick after the first and second admonition reject;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.16.17",
+        "v": 26
+      },
+      {
+        "r": "2JN.1.10",
+        "v": 17
+      },
+      {
+        "r": "MAT.18.15-17",
+        "v": 14
+      },
+      {
+        "r": "2TI.3.5",
+        "v": 11
+      },
+      {
+        "r": "2TH.3.6",
+        "v": 11
+      },
+      {
+        "r": "2TH.3.14",
+        "v": 11
+      },
+      {
+        "r": "GAL.5.20",
+        "v": 5
+      },
+      {
+        "r": "1CO.11.19",
+        "v": 4
+      },
+      {
+        "r": "GAL.5.12",
+        "v": 4
+      },
+      {
+        "r": "2CO.13.2",
+        "v": 3
+      },
+      {
+        "r": "1CO.5.4-13",
+        "v": 2
+      },
+      {
+        "r": "2PE.2.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.3.11": {
     "text": "knowing that he that is such is subverted, and sinneth, being condemned of himself.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.19.22",
+        "v": 5
+      },
+      {
+        "r": "HEB.10.26",
+        "v": 5
+      },
+      {
+        "r": "JHN.3.18",
+        "v": 4
+      },
+      {
+        "r": "MAT.25.26-28",
+        "v": 4
+      },
+      {
+        "r": "ACT.15.24",
+        "v": 3
+      },
+      {
+        "r": "ACT.13.46",
+        "v": 3
+      },
+      {
+        "r": "1TI.1.19-20",
+        "v": 2
+      },
+      {
+        "r": "2TI.2.14",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.19",
+        "v": 2
+      },
+      {
+        "r": "TIT.1.11",
+        "v": 2
+      },
+      {
+        "r": "LUK.7.30",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.3.12": {
     "text": "When I shall send Artemas unto thee, or Tychicus, be diligent to come unto me to Nicopolis: for I have determined there to winter.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TI.4.9",
+        "v": 4
+      },
+      {
+        "r": "1CO.16.8-9",
+        "v": 3
+      },
+      {
+        "r": "ACT.20.4",
+        "v": 3
+      },
+      {
+        "r": "2TI.4.21",
+        "v": 3
+      },
+      {
+        "r": "2TI.4.12",
+        "v": 3
+      },
+      {
+        "r": "1CO.16.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.3.13": {
     "text": "Bring Zenas the lawyer and Apollos on their journey diligently, that nothing be wanting unto them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.18.24",
+        "v": 8
+      },
+      {
+        "r": "MAT.22.35",
+        "v": 3
+      },
+      {
+        "r": "ACT.28.10",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.6-8",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.45",
+        "v": 1
+      },
+      {
+        "r": "1CO.16.11",
+        "v": 1
+      },
+      {
+        "r": "LUK.7.30",
+        "v": 1
+      },
+      {
+        "r": "LUK.10.25",
+        "v": 1
+      },
+      {
+        "r": "LUK.14.3",
+        "v": 1
+      },
+      {
+        "r": "ROM.15.24",
+        "v": 1
+      },
+      {
+        "r": "LUK.11.52",
+        "v": 1
+      },
+      {
+        "r": "ACT.21.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "TIT.3.14": {
     "text": "And let our's also learn to maintain good works for necessary uses, that they be not unfruitful.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "COL.1.10",
+        "v": 13
+      },
+      {
+        "r": "TIT.3.8",
+        "v": 9
+      },
+      {
+        "r": "MAT.7.19",
+        "v": 7
+      },
+      {
+        "r": "PHP.1.11",
+        "v": 7
+      },
+      {
+        "r": "2PE.1.8",
+        "v": 6
+      },
+      {
+        "r": "LUK.13.6-9",
+        "v": 6
+      },
+      {
+        "r": "PHP.4.17",
+        "v": 5
+      },
+      {
+        "r": "JHN.15.16",
+        "v": 5
+      },
+      {
+        "r": "EPH.4.28",
+        "v": 5
+      },
+      {
+        "r": "JHN.15.8",
+        "v": 5
+      },
+      {
+        "r": "MAT.21.19",
+        "v": 4
+      },
+      {
+        "r": "ACT.20.35",
+        "v": 4
+      },
+      {
+        "r": "2TH.3.8",
+        "v": 4
+      },
+      {
+        "r": "ACT.18.3",
+        "v": 3
+      },
+      {
+        "r": "ISA.61.3",
+        "v": 3
+      },
+      {
+        "r": "HEB.6.6-12",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.28",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "TIT.3.15": {
     "text": "All that are with me salute thee. Greet them that love us in the faith. Grace be with you all. Amen. It was written to Titus, ordained the first bishop of the church of the Cretians, from Nicopolis of Macedonia.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HEB.13.25",
+        "v": 3
+      },
+      {
+        "r": "1TI.1.5",
+        "v": 3
+      },
+      {
+        "r": "GAL.5.6",
+        "v": 3
+      },
+      {
+        "r": "COL.4.18",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.23-24",
+        "v": 3
+      },
+      {
+        "r": "2JN.1.1-2",
+        "v": 3
+      },
+      {
+        "r": "1TI.1.2",
+        "v": 2
+      },
+      {
+        "r": "ROM.16.1-23",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.1",
+        "v": 2
+      },
+      {
+        "r": "2TI.4.22",
+        "v": 2
+      },
+      {
+        "r": "PHM.1.5",
+        "v": 2
+      },
+      {
+        "r": "1CO.16.23",
+        "v": 2
+      }
+    ],
     "section": null
   }
 }

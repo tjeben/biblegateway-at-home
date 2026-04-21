@@ -4,24 +4,92 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Judg. 2:16–18",
-        "refs": []
+        "r": "GEN.12.10",
+        "v": 16
       },
       {
-        "marker": "#",
-        "text": "Gen. 12:10; 26:1; 2 Kin. 8:1",
-        "refs": []
+        "r": "GEN.26.1",
+        "v": 12
       },
       {
-        "marker": "#",
-        "text": "Judg. 17:8; Mic. 5:2",
-        "refs": []
+        "r": "EZK.14.13",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Gen. 19:37",
-        "refs": []
+        "r": "DEU.28.38",
+        "v": 4
+      },
+      {
+        "r": "GEN.43.1",
+        "v": 4
+      },
+      {
+        "r": "2KI.8.1-2",
+        "v": 4
+      },
+      {
+        "r": "LEV.26.19",
+        "v": 4
+      },
+      {
+        "r": "JDG.17.8",
+        "v": 4
+      },
+      {
+        "r": "JOL.1.16-20",
+        "v": 4
+      },
+      {
+        "r": "JDG.2.16-18",
+        "v": 3
+      },
+      {
+        "r": "DEU.28.23-24",
+        "v": 3
+      },
+      {
+        "r": "PSA.105.16",
+        "v": 3
+      },
+      {
+        "r": "JOL.1.10-11",
+        "v": 3
+      },
+      {
+        "r": "AMO.4.6",
+        "v": 3
+      },
+      {
+        "r": "JDG.12.8",
+        "v": 2
+      },
+      {
+        "r": "JDG.19.1-2",
+        "v": 2
+      },
+      {
+        "r": "JER.14.1",
+        "v": 2
+      },
+      {
+        "r": "1KI.17.1-12",
+        "v": 2
+      },
+      {
+        "r": "EZK.14.21",
+        "v": 2
+      },
+      {
+        "r": "PSA.107.34",
+        "v": 2
+      },
+      {
+        "r": "1KI.18.2",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.1",
+        "v": 1
       }
     ],
     "section": "Elimelech’s Family Goes to Moab"
@@ -31,14 +99,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 35:19; 1 Sam. 1:1; 1 Kin. 11:26",
-        "refs": []
+        "r": "GEN.35.19",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Judg. 3:30",
-        "refs": []
+        "r": "MIC.5.2",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.21",
+        "v": 3
+      },
+      {
+        "r": "1SA.1.1",
+        "v": 2
       }
     ],
     "section": null
@@ -46,19 +120,78 @@
   "RUT.1.3": {
     "text": "Then Elimelech, Naomi’s husband, died; and she was left, and her two sons.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.34.19",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.10-11",
+        "v": 3
+      },
+      {
+        "r": "2KI.4.1",
+        "v": 3
+      },
+      {
+        "r": "HEB.12.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.4": {
     "text": "Now they took wives of the women of Moab: the name of the one was Orpah, and the name of the other Ruth. And they dwelt there about ten years.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.1.5",
+        "v": 5
+      },
+      {
+        "r": "DEU.7.3",
+        "v": 3
+      },
+      {
+        "r": "DEU.23.3",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.1-2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.1.5": {
     "text": "Then both Mahlon and Chilion also died; so the woman survived her two sons and her husband.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.32.39",
+        "v": 3
+      },
+      {
+        "r": "PSA.89.30-32",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.21",
+        "v": 2
+      },
+      {
+        "r": "MAT.22.25-27",
+        "v": 1
+      },
+      {
+        "r": "LUK.7.12",
+        "v": 1
+      },
+      {
+        "r": "JER.2.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.1.6": {
@@ -66,14 +199,96 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ex. 3:16; 4:31; Jer. 29:10; Zeph. 2:7; Luke 1:68",
-        "refs": []
+        "r": "PSA.132.15",
+        "v": 11
       },
       {
-        "marker": "#",
-        "text": "Ps. 132:15; Matt. 6:11",
-        "refs": []
+        "r": "PSA.111.5",
+        "v": 8
+      },
+      {
+        "r": "EXO.3.16",
+        "v": 7
+      },
+      {
+        "r": "EXO.4.31",
+        "v": 7
+      },
+      {
+        "r": "1SA.2.21",
+        "v": 6
+      },
+      {
+        "r": "LUK.1.68",
+        "v": 6
+      },
+      {
+        "r": "MAT.6.11",
+        "v": 6
+      },
+      {
+        "r": "LUK.19.44",
+        "v": 6
+      },
+      {
+        "r": "EXO.16.4-6",
+        "v": 6
+      },
+      {
+        "r": "JER.29.10",
+        "v": 6
+      },
+      {
+        "r": "ISA.55.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.145.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.104.14-15",
+        "v": 5
+      },
+      {
+        "r": "PSA.146.7",
+        "v": 5
+      },
+      {
+        "r": "ZEP.2.7",
+        "v": 5
+      },
+      {
+        "r": "GEN.48.15",
+        "v": 5
+      },
+      {
+        "r": "GEN.21.1",
+        "v": 5
+      },
+      {
+        "r": "GEN.50.25",
+        "v": 5
+      },
+      {
+        "r": "GEN.28.20",
+        "v": 5
+      },
+      {
+        "r": "1TI.6.8",
+        "v": 4
+      },
+      {
+        "r": "PSA.147.14",
+        "v": 4
+      },
+      {
+        "r": "1PE.2.12",
+        "v": 4
+      },
+      {
+        "r": "PRO.30.8",
+        "v": 2
       }
     ],
     "section": "Naomi Returns with Ruth"
@@ -81,7 +296,24 @@
   "RUT.1.7": {
     "text": "Therefore she went out from the place where she was, and her two daughters-in-law with her; and they went on the way to return to the land of Judah.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.8.3",
+        "v": 3
+      },
+      {
+        "r": "RUT.1.10",
+        "v": 1
+      },
+      {
+        "r": "EXO.18.27",
+        "v": 1
+      },
+      {
+        "r": "RUT.1.14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.1.8": {
@@ -89,19 +321,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Josh. 24:15",
-        "refs": []
+        "r": "RUT.2.20",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "2 Tim. 1:16–18",
-        "refs": []
+        "r": "RUT.1.5",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Ruth 2:20",
-        "refs": []
+        "r": "COL.3.18",
+        "v": 7
+      },
+      {
+        "r": "COL.3.24",
+        "v": 6
+      },
+      {
+        "r": "EPH.6.2-3",
+        "v": 4
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 3
+      },
+      {
+        "r": "JOS.24.15-28",
+        "v": 3
+      },
+      {
+        "r": "2TI.1.16-18",
+        "v": 2
+      },
+      {
+        "r": "LUK.14.25-33",
+        "v": 0
+      },
+      {
+        "r": "PHP.4.18-19",
+        "v": 0
       }
     ],
     "section": null
@@ -111,9 +368,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 3:1",
-        "refs": []
+        "r": "RUT.3.1",
+        "v": 11
+      },
+      {
+        "r": "ACT.20.37",
+        "v": 7
+      },
+      {
+        "r": "GEN.29.11",
+        "v": 7
+      },
+      {
+        "r": "GEN.45.15",
+        "v": 6
+      },
+      {
+        "r": "GEN.27.27",
+        "v": 6
       }
     ],
     "section": null
@@ -121,7 +393,20 @@
   "RUT.1.10": {
     "text": "And they said to her, “Surely we will return with you to your people.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.8.23",
+        "v": 5
+      },
+      {
+        "r": "PSA.16.3",
+        "v": 3
+      },
+      {
+        "r": "PSA.119.63",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.11": {
@@ -129,9 +414,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 38:11; Deut. 25:5",
-        "refs": []
+        "r": "DEU.25.5",
+        "v": 9
+      },
+      {
+        "r": "GEN.38.11",
+        "v": 4
       }
     ],
     "section": null
@@ -139,7 +427,16 @@
   "RUT.1.12": {
     "text": "Turn back, my daughters, go—for I am too old to have a husband. If I should say I have hope, if I should have a husband tonight and should also bear sons,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.17.17",
+        "v": 4
+      },
+      {
+        "r": "1TI.5.9",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.1.13": {
@@ -147,9 +444,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Judg. 2:15; Job 19:21; Ps. 32:4; 38:2",
-        "refs": []
+        "r": "JOB.19.21",
+        "v": 8
+      },
+      {
+        "r": "PSA.32.4",
+        "v": 7
+      },
+      {
+        "r": "JDG.2.15",
+        "v": 6
+      },
+      {
+        "r": "PSA.38.2",
+        "v": 4
+      },
+      {
+        "r": "PSA.39.9-10",
+        "v": 3
+      },
+      {
+        "r": "1SA.5.11",
+        "v": 2
+      },
+      {
+        "r": "DEU.2.15",
+        "v": 2
       }
     ],
     "section": null
@@ -159,9 +479,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Prov. 17:17)",
-        "refs": []
+        "r": "PRO.18.24",
+        "v": 8
+      },
+      {
+        "r": "MAT.16.24",
+        "v": 6
+      },
+      {
+        "r": "MAT.10.37",
+        "v": 5
+      },
+      {
+        "r": "MAT.19.22",
+        "v": 4
+      },
+      {
+        "r": "JHN.6.66-69",
+        "v": 4
+      },
+      {
+        "r": "HEB.10.39",
+        "v": 4
+      },
+      {
+        "r": "ZEC.8.23",
+        "v": 3
+      },
+      {
+        "r": "DEU.10.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.17.17",
+        "v": 3
+      },
+      {
+        "r": "1KI.19.20",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.1",
+        "v": 3
+      },
+      {
+        "r": "GEN.31.55",
+        "v": 2
+      },
+      {
+        "r": "2TI.4.10",
+        "v": 2
+      },
+      {
+        "r": "GEN.31.28",
+        "v": 2
+      },
+      {
+        "r": "MRK.10.21-22",
+        "v": 2
+      },
+      {
+        "r": "ACT.17.34",
+        "v": 2
+      },
+      {
+        "r": "DEU.4.4",
+        "v": 1
       }
     ],
     "section": null
@@ -171,14 +554,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Judg. 11:24",
-        "refs": []
+        "r": "ZEP.1.6",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Josh. 1:15",
-        "refs": []
+        "r": "JDG.11.24",
+        "v": 4
+      },
+      {
+        "r": "2KI.2.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.125.5",
+        "v": 3
+      },
+      {
+        "r": "JOS.24.15",
+        "v": 3
+      },
+      {
+        "r": "LUK.14.26-33",
+        "v": 2
+      },
+      {
+        "r": "MAT.13.20-21",
+        "v": 2
+      },
+      {
+        "r": "HEB.10.38",
+        "v": 2
+      },
+      {
+        "r": "2SA.15.19-20",
+        "v": 2
+      },
+      {
+        "r": "PSA.36.3",
+        "v": 2
+      },
+      {
+        "r": "JOS.24.19",
+        "v": 2
+      },
+      {
+        "r": "1JN.2.19",
+        "v": 2
+      },
+      {
+        "r": "LUK.24.28",
+        "v": 2
       }
     ],
     "section": null
@@ -188,14 +613,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Kin. 2:2, 4, 6",
-        "refs": []
+        "r": "2SA.15.21",
+        "v": 39
       },
       {
-        "marker": "#",
-        "text": "Ruth 2:11, 12",
-        "refs": []
+        "r": "RUT.2.11-12",
+        "v": 31
+      },
+      {
+        "r": "2KI.2.2-6",
+        "v": 29
+      },
+      {
+        "r": "PSA.45.10",
+        "v": 22
+      },
+      {
+        "r": "MAT.8.19",
+        "v": 15
+      },
+      {
+        "r": "JHN.13.37",
+        "v": 14
+      },
+      {
+        "r": "1TH.1.9",
+        "v": 13
+      },
+      {
+        "r": "ISA.14.1",
+        "v": 12
+      },
+      {
+        "r": "ACT.21.13",
+        "v": 11
+      },
+      {
+        "r": "2CO.6.16-18",
+        "v": 9
+      },
+      {
+        "r": "REV.14.4",
+        "v": 7
+      },
+      {
+        "r": "HOS.13.4",
+        "v": 7
+      },
+      {
+        "r": "DAN.2.47",
+        "v": 6
+      },
+      {
+        "r": "JOS.24.18",
+        "v": 6
+      },
+      {
+        "r": "DAN.4.37",
+        "v": 4
+      },
+      {
+        "r": "LUK.24.28-29",
+        "v": 4
+      },
+      {
+        "r": "DAN.3.29",
+        "v": 1
       }
     ],
     "section": null
@@ -205,9 +688,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Sam. 3:17; 2 Sam. 19:13; 2 Kin. 6:31",
-        "refs": []
+        "r": "1SA.3.17",
+        "v": 8
+      },
+      {
+        "r": "2SA.19.13",
+        "v": 7
+      },
+      {
+        "r": "2KI.6.31",
+        "v": 7
+      },
+      {
+        "r": "1KI.2.23",
+        "v": 7
+      },
+      {
+        "r": "1KI.20.10",
+        "v": 6
+      },
+      {
+        "r": "1SA.25.22",
+        "v": 6
+      },
+      {
+        "r": "2SA.3.35",
+        "v": 5
+      },
+      {
+        "r": "1KI.19.2",
+        "v": 4
+      },
+      {
+        "r": "ACT.11.23",
+        "v": 4
+      },
+      {
+        "r": "2SA.3.9",
+        "v": 4
+      },
+      {
+        "r": "ACT.20.24",
+        "v": 3
       }
     ],
     "section": null
@@ -217,9 +739,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Acts 21:14",
-        "refs": []
+        "r": "ACT.21.14",
+        "v": 6
+      },
+      {
+        "r": "ACT.2.42",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.10",
+        "v": 3
       }
     ],
     "section": null
@@ -229,14 +758,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Matt. 21:10",
-        "refs": []
+        "r": "MAT.21.10",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Is. 23:7; Lam. 2:15",
-        "refs": []
+        "r": "ISA.23.7",
+        "v": 3
+      },
+      {
+        "r": "LAM.2.15",
+        "v": 3
       }
     ],
     "section": null
@@ -244,7 +775,64 @@
   "RUT.1.20": {
     "text": "But she said to them, “Do not call me Naomi; call me Mara, for the Almighty has dealt very bitterly with me.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.6.4",
+        "v": 9
+      },
+      {
+        "r": "HEB.12.11",
+        "v": 6
+      },
+      {
+        "r": "PSA.88.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.73.14",
+        "v": 4
+      },
+      {
+        "r": "JOB.19.6",
+        "v": 4
+      },
+      {
+        "r": "LAM.3.1-20",
+        "v": 4
+      },
+      {
+        "r": "ISA.38.13",
+        "v": 4
+      },
+      {
+        "r": "JOB.5.17",
+        "v": 3
+      },
+      {
+        "r": "EXO.6.3",
+        "v": 2
+      },
+      {
+        "r": "JOB.11.7",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 2
+      },
+      {
+        "r": "GEN.17.1",
+        "v": 2
+      },
+      {
+        "r": "REV.1.8",
+        "v": 2
+      },
+      {
+        "r": "REV.21.22",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.1.21": {
@@ -252,9 +840,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Job 1:21",
-        "refs": []
+        "r": "1SA.2.7-8",
+        "v": 8
+      },
+      {
+        "r": "JOB.1.21",
+        "v": 8
+      },
+      {
+        "r": "JOB.16.8",
+        "v": 4
+      },
+      {
+        "r": "JOB.13.26",
+        "v": 4
+      },
+      {
+        "r": "JOB.10.17",
+        "v": 3
       }
     ],
     "section": null
@@ -264,9 +867,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 2:23; 2 Sam. 21:9",
-        "refs": []
+        "r": "RUT.2.23",
+        "v": 5
+      },
+      {
+        "r": "2SA.21.9",
+        "v": 2
+      },
+      {
+        "r": "EXO.9.31-32",
+        "v": 1
       }
     ],
     "section": null
@@ -276,19 +886,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 3:2, 12",
-        "refs": []
+        "r": "RUT.4.21",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Ruth 1:2",
-        "refs": []
+        "r": "RUT.3.2",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Ruth 4:21",
-        "refs": []
+        "r": "RUT.3.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.1.5",
+        "v": 3
+      },
+      {
+        "r": "1CH.2.10-12",
+        "v": 2
+      },
+      {
+        "r": "RUT.1.2",
+        "v": 2
+      },
+      {
+        "r": "DEU.8.17-18",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.3",
+        "v": 1
+      },
+      {
+        "r": "LUK.3.32",
+        "v": 1
+      },
+      {
+        "r": "JOB.31.25",
+        "v": 1
+      },
+      {
+        "r": "JDG.12.8-10",
+        "v": 1
       }
     ],
     "section": "Ruth Meets Boaz"
@@ -298,9 +937,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Lev. 19:9, 10; 23:22; Deut. 24:19",
-        "refs": []
+        "r": "LEV.23.22",
+        "v": 10
+      },
+      {
+        "r": "LEV.19.9",
+        "v": 6
+      },
+      {
+        "r": "DEU.24.19-21",
+        "v": 5
+      },
+      {
+        "r": "RUT.2.7",
+        "v": 2
+      },
+      {
+        "r": "LEV.19.16",
+        "v": 2
       }
     ],
     "section": null
@@ -308,7 +962,32 @@
   "RUT.2.3": {
     "text": "Then she left, and went and gleaned in the field after the reapers. And she happened to come to the part of the field belonging to Boaz, who was of the family of Elimelech.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2TH.3.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.29",
+        "v": 3
+      },
+      {
+        "r": "1TH.4.11-12",
+        "v": 3
+      },
+      {
+        "r": "LUK.10.31",
+        "v": 3
+      },
+      {
+        "r": "2KI.8.5",
+        "v": 2
+      },
+      {
+        "r": "EST.6.1-2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.2.4": {
@@ -316,14 +995,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 1:1",
-        "refs": []
+        "r": "PSA.129.7-8",
+        "v": 16
       },
       {
-        "marker": "#",
-        "text": "Ps. 129:7, 8; Luke 1:28; 2 Thess. 3:16",
-        "refs": []
+        "r": "LUK.1.28",
+        "v": 13
+      },
+      {
+        "r": "JDG.6.12",
+        "v": 13
+      },
+      {
+        "r": "2TH.3.16",
+        "v": 12
+      },
+      {
+        "r": "2TI.4.22",
+        "v": 12
+      },
+      {
+        "r": "PSA.118.26",
+        "v": 10
+      },
+      {
+        "r": "JOS.24.15",
+        "v": 7
+      },
+      {
+        "r": "GEN.18.19",
+        "v": 7
+      },
+      {
+        "r": "PSA.133.1-3",
+        "v": 6
+      },
+      {
+        "r": "RUT.4.11",
+        "v": 6
+      },
+      {
+        "r": "2JN.1.10-11",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.2",
+        "v": 2
       }
     ],
     "section": null
@@ -331,7 +1048,16 @@
   "RUT.2.5": {
     "text": "Then Boaz said to his servant who was in charge of the reapers, “Whose young woman is this?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "RUT.4.21",
+        "v": 2
+      },
+      {
+        "r": "1CH.2.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.6": {
@@ -339,9 +1065,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 1:22",
-        "refs": []
+        "r": "RUT.1.22",
+        "v": 5
+      },
+      {
+        "r": "MAT.24.45",
+        "v": 3
+      },
+      {
+        "r": "GEN.39.4",
+        "v": 2
+      },
+      {
+        "r": "RUT.1.16",
+        "v": 2
+      },
+      {
+        "r": "GEN.15.2",
+        "v": 2
+      },
+      {
+        "r": "RUT.1.19",
+        "v": 2
+      },
+      {
+        "r": "GEN.24.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.20.8",
+        "v": 2
       }
     ],
     "section": null
@@ -349,19 +1102,130 @@
   "RUT.2.7": {
     "text": "And she said, ‘Please let me glean and gather after the reapers among the sheaves.’ So she came and has continued from morning until now, though she rested a little in the house.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.15.33",
+        "v": 4
+      },
+      {
+        "r": "PRO.13.4",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.21",
+        "v": 3
+      },
+      {
+        "r": "PRO.18.23",
+        "v": 3
+      },
+      {
+        "r": "1PE.5.5-6",
+        "v": 3
+      },
+      {
+        "r": "PRO.22.29",
+        "v": 3
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "GAL.6.9",
+        "v": 2
+      },
+      {
+        "r": "MAT.5.3",
+        "v": 1
+      },
+      {
+        "r": "ROM.12.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.2.8": {
     "text": "Then Boaz said to Ruth, “You will listen, my daughter, will you not? Do not go to glean in another field, nor go from here, but stay close by my young women.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.5.13",
+        "v": 5
+      },
+      {
+        "r": "SNG.1.7-8",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.7-11",
+        "v": 3
+      },
+      {
+        "r": "1SA.3.6",
+        "v": 3
+      },
+      {
+        "r": "MAT.9.22",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 3
+      },
+      {
+        "r": "1SA.3.16",
+        "v": 3
+      },
+      {
+        "r": "MAT.9.2",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.9": {
     "text": "Let your eyes be on the field which they reap, and go after them. Have I not commanded the young men not to touch you? And when you are thirsty, go to the vessels and drink from what the young men have drawn.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1JN.5.18",
+        "v": 6
+      },
+      {
+        "r": "GEN.20.6",
+        "v": 5
+      },
+      {
+        "r": "1CO.7.1",
+        "v": 4
+      },
+      {
+        "r": "PRO.6.29",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.42",
+        "v": 4
+      },
+      {
+        "r": "PSA.105.15",
+        "v": 4
+      },
+      {
+        "r": "JHN.4.7-11",
+        "v": 3
+      },
+      {
+        "r": "JOB.19.21",
+        "v": 3
+      },
+      {
+        "r": "GEN.24.18-20",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.10": {
@@ -369,14 +1233,60 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Sam. 25:23",
-        "refs": []
+        "r": "1SA.25.23",
+        "v": 9
       },
       {
-        "marker": "#",
-        "text": "1 Sam. 1:18",
-        "refs": []
+        "r": "RUT.2.13",
+        "v": 6
+      },
+      {
+        "r": "2SA.19.28",
+        "v": 5
+      },
+      {
+        "r": "LUK.17.16-18",
+        "v": 5
+      },
+      {
+        "r": "ROM.12.10",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.43",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.48",
+        "v": 5
+      },
+      {
+        "r": "2SA.9.8",
+        "v": 4
+      },
+      {
+        "r": "MAT.15.22-28",
+        "v": 3
+      },
+      {
+        "r": "ISA.56.3-8",
+        "v": 3
+      },
+      {
+        "r": "RUT.2.2",
+        "v": 3
+      },
+      {
+        "r": "LUK.7.6-7",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.35",
+        "v": 3
+      },
+      {
+        "r": "GEN.18.2",
+        "v": 3
       }
     ],
     "section": null
@@ -386,9 +1296,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 1:14–18",
-        "refs": []
+        "r": "LUK.14.33",
+        "v": 8
+      },
+      {
+        "r": "LUK.18.29-30",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.5-6",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.10",
+        "v": 3
+      },
+      {
+        "r": "LUK.5.11",
+        "v": 3
+      },
+      {
+        "r": "RUT.1.14-22",
+        "v": 3
+      },
+      {
+        "r": "HEB.11.8-9",
+        "v": 2
+      },
+      {
+        "r": "LUK.5.23",
+        "v": 2
+      },
+      {
+        "r": "HEB.11.24-26",
+        "v": 2
+      },
+      {
+        "r": "RUT.1.11",
+        "v": 2
       }
     ],
     "section": null
@@ -398,14 +1343,100 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Sam. 24:19; Ps. 58:11",
-        "refs": []
+        "r": "PSA.36.7",
+        "v": 30
       },
       {
-        "marker": "#",
-        "text": "Ruth 1:16; Ps. 17:8; 36:7; 57:1; 61:4; 63:7; 91:4",
-        "refs": []
+        "r": "PSA.91.4",
+        "v": 21
+      },
+      {
+        "r": "PSA.63.7",
+        "v": 17
+      },
+      {
+        "r": "PSA.17.8",
+        "v": 15
+      },
+      {
+        "r": "PSA.61.4",
+        "v": 15
+      },
+      {
+        "r": "HEB.6.10",
+        "v": 13
+      },
+      {
+        "r": "PSA.57.1",
+        "v": 12
+      },
+      {
+        "r": "RUT.1.16",
+        "v": 11
+      },
+      {
+        "r": "HEB.11.26",
+        "v": 10
+      },
+      {
+        "r": "1SA.24.19",
+        "v": 10
+      },
+      {
+        "r": "2TI.4.8",
+        "v": 8
+      },
+      {
+        "r": "HEB.11.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.23.37",
+        "v": 8
+      },
+      {
+        "r": "PRO.23.18",
+        "v": 8
+      },
+      {
+        "r": "MAT.6.1",
+        "v": 8
+      },
+      {
+        "r": "LUK.6.35",
+        "v": 7
+      },
+      {
+        "r": "MAT.5.12",
+        "v": 7
+      },
+      {
+        "r": "PRO.11.18",
+        "v": 7
+      },
+      {
+        "r": "PSA.58.11",
+        "v": 7
+      },
+      {
+        "r": "PSA.19.11",
+        "v": 7
+      },
+      {
+        "r": "2TI.1.18",
+        "v": 7
+      },
+      {
+        "r": "LUK.14.12-14",
+        "v": 6
+      },
+      {
+        "r": "COL.2.18",
+        "v": 6
+      },
+      {
+        "r": "MAT.10.41-42",
+        "v": 6
       }
     ],
     "section": null
@@ -415,14 +1446,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 33:15; 1 Sam. 1:18",
-        "refs": []
+        "r": "1SA.1.18",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "1 Sam. 25:41",
-        "refs": []
+        "r": "GEN.33.8",
+        "v": 5
+      },
+      {
+        "r": "GEN.34.3",
+        "v": 5
+      },
+      {
+        "r": "PHP.2.3",
+        "v": 5
+      },
+      {
+        "r": "GEN.33.10",
+        "v": 4
+      },
+      {
+        "r": "1SA.25.41",
+        "v": 4
+      },
+      {
+        "r": "GEN.33.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 4
+      },
+      {
+        "r": "2SA.16.4",
+        "v": 4
+      },
+      {
+        "r": "PRO.15.33",
+        "v": 3
+      },
+      {
+        "r": "JDG.19.3",
+        "v": 3
       }
     ],
     "section": null
@@ -432,9 +1497,64 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 2:18",
-        "refs": []
+        "r": "RUT.2.18",
+        "v": 6
+      },
+      {
+        "r": "LUK.14.12-14",
+        "v": 4
+      },
+      {
+        "r": "2KI.4.43-44",
+        "v": 4
+      },
+      {
+        "r": "DEU.8.10",
+        "v": 4
+      },
+      {
+        "r": "MAT.14.20",
+        "v": 4
+      },
+      {
+        "r": "DEU.11.15",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.16-22",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.7",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.18",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.10-11",
+        "v": 2
+      },
+      {
+        "r": "1SA.17.17",
+        "v": 2
+      },
+      {
+        "r": "2SA.17.28",
+        "v": 2
+      },
+      {
+        "r": "PSA.23.5",
+        "v": 2
+      },
+      {
+        "r": "PRO.11.24-25",
+        "v": 2
+      },
+      {
+        "r": "ISA.32.8",
+        "v": 2
       }
     ],
     "section": null
@@ -442,13 +1562,55 @@
   "RUT.2.15": {
     "text": "And when she rose up to glean, Boaz commanded his young men, saying, “Let her glean even among the sheaves, and do not reproach her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JAS.1.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.16": {
     "text": "Also let grain from the bundles fall purposely for her; leave it that she may glean, and do not rebuke her.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1JN.3.17-18",
+        "v": 4
+      },
+      {
+        "r": "DEU.24.19-21",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.13",
+        "v": 4
+      },
+      {
+        "r": "PHM.1.7",
+        "v": 3
+      },
+      {
+        "r": "PRO.19.17",
+        "v": 3
+      },
+      {
+        "r": "HEB.6.10",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.40",
+        "v": 3
+      },
+      {
+        "r": "PSA.112.9",
+        "v": 3
+      },
+      {
+        "r": "2CO.8.5-11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.17": {
@@ -456,9 +1618,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 1:22",
-        "refs": []
+        "r": "PRO.31.27",
+        "v": 4
+      },
+      {
+        "r": "EZK.45.11-12",
+        "v": 3
+      },
+      {
+        "r": "EXO.16.36",
+        "v": 2
       }
     ],
     "section": null
@@ -468,9 +1637,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 2:14",
-        "refs": []
+        "r": "RUT.2.14",
+        "v": 5
+      },
+      {
+        "r": "JHN.6.12-13",
+        "v": 3
+      },
+      {
+        "r": "1TI.5.4",
+        "v": 3
       }
     ],
     "section": null
@@ -480,9 +1656,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 2:10; (Ps. 41:1)",
-        "refs": []
+        "r": "PSA.41.1",
+        "v": 4
+      },
+      {
+        "r": "RUT.2.10",
+        "v": 4
+      },
+      {
+        "r": "2CO.9.13-15",
+        "v": 2
+      },
+      {
+        "r": "1KI.7.21",
+        "v": 2
       }
     ],
     "section": null
@@ -492,19 +1679,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 3:10; 2 Sam. 2:5",
-        "refs": []
+        "r": "2SA.2.5",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Prov. 17:17",
-        "refs": []
+        "r": "RUT.3.9-10",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Ruth 3:9; 4:4, 6",
-        "refs": []
+        "r": "DEU.25.5-7",
+        "v": 5
+      },
+      {
+        "r": "LEV.25.25",
+        "v": 5
+      },
+      {
+        "r": "JOB.29.12-13",
+        "v": 4
+      },
+      {
+        "r": "PHP.4.10",
+        "v": 4
+      },
+      {
+        "r": "PRO.17.17",
+        "v": 4
+      },
+      {
+        "r": "RUT.4.14",
+        "v": 4
+      },
+      {
+        "r": "2SA.9.1",
+        "v": 3
+      },
+      {
+        "r": "RUT.4.6",
+        "v": 3
+      },
+      {
+        "r": "JOB.19.25",
+        "v": 3
+      },
+      {
+        "r": "2TI.1.16-18",
+        "v": 3
       }
     ],
     "section": null
@@ -512,19 +1732,66 @@
   "RUT.2.21": {
     "text": "Ruth the Moabitess said, “He also said to me, ‘You shall stay close by my young men until they have finished all my harvest.’ ”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.7-8",
+        "v": 3
+      },
+      {
+        "r": "RUT.2.22",
+        "v": 2
+      },
+      {
+        "r": "RUT.2.7-8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.2.22": {
     "text": "And Naomi said to Ruth her daughter-in-law, “It is good, my daughter, that you go out with his young women, and that people do not meet you in any other field.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.8",
+        "v": 4
+      },
+      {
+        "r": "PRO.27.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.2.23": {
     "text": "So she stayed close by the young women of Boaz, to glean until the end of barley harvest and wheat harvest; and she dwelt with her mother-in-law.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.6.1-3",
+        "v": 4
+      },
+      {
+        "r": "PRO.13.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.13.1",
+        "v": 3
+      },
+      {
+        "r": "DEU.16.9",
+        "v": 3
+      },
+      {
+        "r": "1CO.15.33",
+        "v": 3
+      },
+      {
+        "r": "PRO.6.6-8",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.3.1": {
@@ -532,14 +1799,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Cor. 7:36; 1 Tim. 5:8",
-        "refs": []
+        "r": "RUT.1.9",
+        "v": 26
       },
       {
-        "marker": "#",
-        "text": "Ruth 1:9",
-        "refs": []
+        "r": "1TI.5.8",
+        "v": 24
+      },
+      {
+        "r": "PSA.128.2",
+        "v": 18
+      },
+      {
+        "r": "1TI.5.14",
+        "v": 18
+      },
+      {
+        "r": "1CO.7.36",
+        "v": 12
+      },
+      {
+        "r": "DEU.4.40",
+        "v": 11
+      },
+      {
+        "r": "JER.22.15-16",
+        "v": 11
+      },
+      {
+        "r": "GEN.40.14",
+        "v": 10
       }
     ],
     "section": "Ruth’s Redemption Assured"
@@ -549,9 +1838,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 2:3, 8",
-        "refs": []
+        "r": "DEU.25.5-10",
+        "v": 11
+      },
+      {
+        "r": "RUT.2.20-23",
+        "v": 5
+      },
+      {
+        "r": "RUT.2.1",
+        "v": 4
+      },
+      {
+        "r": "RUT.2.8",
+        "v": 4
+      },
+      {
+        "r": "HEB.2.11-14",
+        "v": 3
       }
     ],
     "section": null
@@ -561,9 +1865,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Sam. 14:2",
-        "refs": []
+        "r": "2SA.14.2",
+        "v": 10
+      },
+      {
+        "r": "1TI.2.9-10",
+        "v": 6
+      },
+      {
+        "r": "EST.5.1",
+        "v": 5
+      },
+      {
+        "r": "MAT.6.17",
+        "v": 4
+      },
+      {
+        "r": "ECC.9.8",
+        "v": 4
+      },
+      {
+        "r": "PSA.104.15",
+        "v": 4
       }
     ],
     "section": null
@@ -577,13 +1900,39 @@
   "RUT.3.5": {
     "text": "And she said to her, “All that you say to me I will do.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "COL.3.20",
+        "v": 4
+      },
+      {
+        "r": "EPH.6.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.3.6": {
     "text": "So she went down to the threshing floor and did according to all that her mother-in-law instructed her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.2.5",
+        "v": 3
+      },
+      {
+        "r": "PRO.1.8",
+        "v": 3
+      },
+      {
+        "r": "EXO.20.12",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "RUT.3.7": {
@@ -591,9 +1940,68 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Judg. 19:6, 9, 22; 2 Sam. 13:28; Esth. 1:10",
-        "refs": []
+        "r": "JDG.19.6",
+        "v": 7
+      },
+      {
+        "r": "EST.1.10",
+        "v": 6
+      },
+      {
+        "r": "2SA.13.28",
+        "v": 5
+      },
+      {
+        "r": "JDG.19.9",
+        "v": 5
+      },
+      {
+        "r": "ECC.10.19",
+        "v": 3
+      },
+      {
+        "r": "ECC.8.15",
+        "v": 3
+      },
+      {
+        "r": "ECC.9.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.104.15",
+        "v": 3
+      },
+      {
+        "r": "ECC.2.24",
+        "v": 3
+      },
+      {
+        "r": "1CO.10.31",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.7",
+        "v": 2
+      },
+      {
+        "r": "JDG.19.22",
+        "v": 2
+      },
+      {
+        "r": "ECC.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.34",
+        "v": 2
+      },
+      {
+        "r": "JDG.16.25",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.18",
+        "v": 1
       }
     ],
     "section": null
@@ -609,14 +2017,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ezek. 16:8",
-        "refs": []
+        "r": "EZK.16.8",
+        "v": 18
       },
       {
-        "marker": "#",
-        "text": "Ruth 2:20; 3:12",
-        "refs": []
+        "r": "RUT.2.20",
+        "v": 9
+      },
+      {
+        "r": "RUT.3.12",
+        "v": 7
+      },
+      {
+        "r": "RUT.2.10-13",
+        "v": 5
+      },
+      {
+        "r": "LUK.14.11",
+        "v": 4
+      },
+      {
+        "r": "1SA.25.41",
+        "v": 3
       }
     ],
     "section": null
@@ -626,14 +2048,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 2:20",
-        "refs": []
+        "r": "RUT.2.20",
+        "v": 9
       },
       {
-        "marker": "#",
-        "text": "Ruth 1:8",
-        "refs": []
+        "r": "1CO.13.4-5",
+        "v": 9
+      },
+      {
+        "r": "RUT.1.8",
+        "v": 7
+      },
+      {
+        "r": "RUT.2.4",
+        "v": 7
       }
     ],
     "section": null
@@ -641,7 +2069,20 @@
   "RUT.3.11": {
     "text": "And now, my daughter, do not fear. I will do for you all that you request, for all the people of my town know that you are a virtuous woman.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.31.29-31",
+        "v": 28
+      },
+      {
+        "r": "PRO.31.10",
+        "v": 19
+      },
+      {
+        "r": "PRO.12.4",
+        "v": 16
+      }
+    ],
     "section": null
   },
   "RUT.3.12": {
@@ -649,14 +2090,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Prov. 12:4; 31:10–31",
-        "refs": []
+        "r": "RUT.4.1",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Ruth 3:9",
-        "refs": []
+        "r": "1TH.4.6",
+        "v": 5
+      },
+      {
+        "r": "MAT.7.12",
+        "v": 4
       }
     ],
     "section": null
@@ -666,14 +2109,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 4:1",
-        "refs": []
+        "r": "RUT.4.5",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Deut. 25:5–10; Ruth 4:5, 10; Matt. 22:24",
-        "refs": []
+        "r": "JER.4.2",
+        "v": 7
+      },
+      {
+        "r": "RUT.2.20",
+        "v": 6
+      },
+      {
+        "r": "DEU.25.5-9",
+        "v": 5
+      },
+      {
+        "r": "HEB.6.16",
+        "v": 4
+      },
+      {
+        "r": "JDG.8.19",
+        "v": 4
+      },
+      {
+        "r": "MAT.22.24-27",
+        "v": 4
+      },
+      {
+        "r": "2CO.1.23",
+        "v": 3
       }
     ],
     "section": null
@@ -683,9 +2148,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Judg. 8:19; Jer. 4:2; 12:16",
-        "refs": []
+        "r": "2CO.8.21",
+        "v": 7
+      },
+      {
+        "r": "ROM.14.16",
+        "v": 5
+      },
+      {
+        "r": "ROM.12.17",
+        "v": 3
+      },
+      {
+        "r": "1PE.2.12",
+        "v": 3
+      },
+      {
+        "r": "1CO.10.32",
+        "v": 3
+      },
+      {
+        "r": "1TH.5.22",
+        "v": 2
+      },
+      {
+        "r": "ECC.7.1",
+        "v": 2
       }
     ],
     "section": null
@@ -693,7 +2181,16 @@
   "RUT.3.15": {
     "text": "Also he said, “Bring the shawl that is on you and hold it.” And when she held it, he measured six ephahs of barley, and laid it on her. Then she went into the city.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.32.8",
+        "v": 4
+      },
+      {
+        "r": "GAL.6.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "RUT.3.16": {
@@ -713,9 +2210,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Rom. 12:17; 14:16; 1 Cor. 10:32; 2 Cor. 8:21; 1 Thess. 5:22)",
-        "refs": []
+        "r": "PSA.37.3-5",
+        "v": 15
+      },
+      {
+        "r": "ISA.28.16",
+        "v": 5
+      },
+      {
+        "r": "ISA.30.7",
+        "v": 4
       }
     ],
     "section": null
@@ -725,9 +2229,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Ps. 37:3, 5)",
-        "refs": []
+        "r": "DEU.25.7",
+        "v": 7
+      },
+      {
+        "r": "RUT.3.12",
+        "v": 5
+      },
+      {
+        "r": "DEU.16.18",
+        "v": 2
+      },
+      {
+        "r": "JOB.29.7",
+        "v": 1
+      },
+      {
+        "r": "DEU.21.19",
+        "v": 1
+      },
+      {
+        "r": "JOB.31.21",
+        "v": 1
+      },
+      {
+        "r": "AMO.5.10-12",
+        "v": 1
+      },
+      {
+        "r": "AMO.5.15",
+        "v": 1
+      },
+      {
+        "r": "DEU.17.5",
+        "v": 0
+      },
+      {
+        "r": "ZEC.2.6",
+        "v": 0
+      },
+      {
+        "r": "ISA.55.1",
+        "v": 0
       }
     ],
     "section": "Boaz Redeems Ruth"
@@ -737,9 +2280,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 3:12",
-        "refs": []
+        "r": "PRO.31.23",
+        "v": 8
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 6
+      },
+      {
+        "r": "ACT.6.12",
+        "v": 3
+      },
+      {
+        "r": "EXO.21.8",
+        "v": 3
+      },
+      {
+        "r": "LAM.5.14",
+        "v": 3
+      },
+      {
+        "r": "DEU.31.28",
+        "v": 2
+      },
+      {
+        "r": "EXO.18.21-22",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.10",
+        "v": 2
       }
     ],
     "section": null
@@ -749,9 +2319,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kin. 21:8; Prov. 31:23",
-        "refs": []
+        "r": "PSA.112.5",
+        "v": 3
+      },
+      {
+        "r": "PRO.13.10",
+        "v": 2
       }
     ],
     "section": null
@@ -761,19 +2334,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Lev. 25:25",
-        "refs": []
+        "r": "JER.32.7-12",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Jer. 32:7, 8",
-        "refs": []
+        "r": "2CO.8.21",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Gen. 23:18",
-        "refs": []
+        "r": "LEV.25.25-29",
+        "v": 3
+      },
+      {
+        "r": "ROM.12.17",
+        "v": 2
+      },
+      {
+        "r": "JER.32.25",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 2
+      },
+      {
+        "r": "GEN.23.18",
+        "v": 2
       }
     ],
     "section": null
@@ -783,9 +2369,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Lev. 25:25",
-        "refs": []
+        "r": "MAT.22.24",
+        "v": 5
+      },
+      {
+        "r": "DEU.25.5-6",
+        "v": 5
+      },
+      {
+        "r": "GEN.38.8",
+        "v": 5
+      },
+      {
+        "r": "LUK.20.28",
+        "v": 2
+      },
+      {
+        "r": "RUT.3.12-13",
+        "v": 2
       }
     ],
     "section": null
@@ -795,9 +2396,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 38:8; Deut. 25:5, 6; Ruth 3:13; Matt. 22:24",
-        "refs": []
+        "r": "RUT.3.13",
+        "v": 2
+      },
+      {
+        "r": "LEV.25.25",
+        "v": 2
       }
     ],
     "section": null
@@ -807,9 +2411,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ruth 3:12, 13; Job 19:14",
-        "refs": []
+        "r": "DEU.25.7-10",
+        "v": 4
       }
     ],
     "section": null
@@ -823,7 +2426,16 @@
   "RUT.4.9": {
     "text": "And Boaz said to the elders and all the people, “You are witnesses this day that I have bought all that was Elimelech’s, and all that was Chilion’s and Mahlon’s, from the hand of Naomi.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.23.16-18",
+        "v": 2
+      },
+      {
+        "r": "JER.32.10-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.10": {
@@ -831,9 +2443,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Deut. 25:7–10",
-        "refs": []
+        "r": "EPH.5.25",
+        "v": 4
+      },
+      {
+        "r": "DEU.25.6",
+        "v": 4
+      },
+      {
+        "r": "PRO.18.22",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.4",
+        "v": 2
+      },
+      {
+        "r": "MAL.2.14",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.34.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.19.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.48.19",
+        "v": 2
+      },
+      {
+        "r": "GEN.29.18-19",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.2-3",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.12",
+        "v": 2
+      },
+      {
+        "r": "PRO.31.10-11",
+        "v": 2
+      },
+      {
+        "r": "GEN.29.27",
+        "v": 2
+      },
+      {
+        "r": "ZEC.13.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.15",
+        "v": 2
+      },
+      {
+        "r": "HOS.3.2",
+        "v": 2
       }
     ],
     "section": null
@@ -843,24 +2518,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Deut. 25:6",
-        "refs": []
+        "r": "GEN.29.32-30.24",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Ps. 127:3; 128:3",
-        "refs": []
+        "r": "MAT.2.6",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Gen. 29:25–30; Deut. 25:9",
-        "refs": []
+        "r": "MIC.5.2",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Gen. 35:16–18",
-        "refs": []
+        "r": "PSA.127.3-5",
+        "v": 5
+      },
+      {
+        "r": "DEU.25.9",
+        "v": 4
+      },
+      {
+        "r": "GEN.46.8-27",
+        "v": 4
+      },
+      {
+        "r": "RUT.1.2",
+        "v": 4
+      },
+      {
+        "r": "NUM.26.1-65",
+        "v": 4
+      },
+      {
+        "r": "PSA.132.6",
+        "v": 4
+      },
+      {
+        "r": "GEN.35.16-20",
+        "v": 4
+      },
+      {
+        "r": "PSA.128.3-6",
+        "v": 4
+      },
+      {
+        "r": "PRO.14.1",
+        "v": 4
+      },
+      {
+        "r": "GEN.24.60",
+        "v": 2
       }
     ],
     "section": null
@@ -870,19 +2577,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Sam. 16:4–13; Mic. 5:2; Matt. 2:1–8",
-        "refs": []
+        "r": "GEN.38.29",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 2:4; Matt. 1:3",
-        "refs": []
+        "r": "1CH.2.4",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Gen. 38:6–29",
-        "refs": []
+        "r": "1SA.2.20",
+        "v": 4
+      },
+      {
+        "r": "MAT.1.3",
+        "v": 3
+      },
+      {
+        "r": "GEN.46.12",
+        "v": 3
+      },
+      {
+        "r": "NUM.26.20-22",
+        "v": 2
+      },
+      {
+        "r": "RUT.4.18",
+        "v": 2
       }
     ],
     "section": null
@@ -892,14 +2612,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Sam. 2:20",
-        "refs": []
+        "r": "GEN.33.5",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Ruth 3:11",
-        "refs": []
+        "r": "GEN.29.31",
+        "v": 6
+      },
+      {
+        "r": "PSA.127.3",
+        "v": 6
+      },
+      {
+        "r": "RUT.3.11",
+        "v": 5
+      },
+      {
+        "r": "RUT.4.12",
+        "v": 3
+      },
+      {
+        "r": "1SA.1.27",
+        "v": 3
+      },
+      {
+        "r": "1SA.2.5",
+        "v": 3
+      },
+      {
+        "r": "PSA.113.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.25.21",
+        "v": 3
+      },
+      {
+        "r": "GEN.30.2",
+        "v": 3
+      },
+      {
+        "r": "GEN.30.22-23",
+        "v": 3
+      },
+      {
+        "r": "GEN.20.17-21.3",
+        "v": 2
       }
     ],
     "section": "Descendants of Boaz and Ruth"
@@ -909,9 +2667,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 29:31; 33:5; Matt. 1:5",
-        "refs": []
+        "r": "MAT.1.5-20",
+        "v": 5
+      },
+      {
+        "r": "GEN.12.2",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.58",
+        "v": 5
+      },
+      {
+        "r": "ISA.11.1-4",
+        "v": 4
+      },
+      {
+        "r": "RUT.4.21-22",
+        "v": 3
+      },
+      {
+        "r": "1CO.12.26",
+        "v": 2
+      },
+      {
+        "r": "PSA.34.1-3",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.18",
+        "v": 1
+      },
+      {
+        "r": "PSA.103.1-2",
+        "v": 1
+      },
+      {
+        "r": "2TH.1.3",
+        "v": 1
+      },
+      {
+        "r": "GEN.24.27",
+        "v": 1
+      },
+      {
+        "r": "GEN.29.35",
+        "v": 1
+      },
+      {
+        "r": "ROM.12.15",
+        "v": 1
       }
     ],
     "section": null
@@ -921,9 +2726,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Luke 1:58; (Rom. 12:15)",
-        "refs": []
+        "r": "ISA.46.4",
+        "v": 8
+      },
+      {
+        "r": "PSA.55.22",
+        "v": 7
+      },
+      {
+        "r": "GEN.45.11",
+        "v": 6
+      },
+      {
+        "r": "RUT.2.11-12",
+        "v": 5
+      },
+      {
+        "r": "GEN.47.12",
+        "v": 4
+      },
+      {
+        "r": "PRO.18.24",
+        "v": 4
+      },
+      {
+        "r": "1SA.1.8",
+        "v": 4
+      },
+      {
+        "r": "RUT.1.16-18",
+        "v": 3
       }
     ],
     "section": null
@@ -939,9 +2771,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Sam. 1:8",
-        "refs": []
+        "r": "LUK.1.58-63",
+        "v": 3
       }
     ],
     "section": null
@@ -951,14 +2782,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Luke 1:58",
-        "refs": []
+        "r": "MAT.1.3-6",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 2:4, 5; Matt. 1:1–7",
-        "refs": []
+        "r": "1CH.2.4-8",
+        "v": 5
+      },
+      {
+        "r": "LUK.3.33",
+        "v": 4
+      },
+      {
+        "r": "1CH.4.1",
+        "v": 3
       }
     ],
     "section": null
@@ -966,7 +2803,20 @@
   "RUT.4.19": {
     "text": "Hezron begot Ram, and Ram begot Amminadab;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.1.4",
+        "v": 2
+      },
+      {
+        "r": "1CH.2.9-10",
+        "v": 2
+      },
+      {
+        "r": "LUK.3.33",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.20": {
@@ -974,14 +2824,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Num. 26:20, 21",
-        "refs": []
+        "r": "NUM.1.7",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Num. 1:7",
-        "refs": []
+        "r": "MAT.1.4",
+        "v": 2
+      },
+      {
+        "r": "LUK.3.32",
+        "v": 2
       }
     ],
     "section": null
@@ -989,7 +2841,20 @@
   "RUT.4.21": {
     "text": "Salmon begot Boaz, and Boaz begot Obed;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.3.32",
+        "v": 4
+      },
+      {
+        "r": "MAT.1.5",
+        "v": 4
+      },
+      {
+        "r": "1CH.2.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "RUT.4.22": {
@@ -997,9 +2862,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Matt. 1:4",
-        "refs": []
+        "r": "MAT.1.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.3.31",
+        "v": 2
+      },
+      {
+        "r": "1SA.16.1",
+        "v": 2
+      },
+      {
+        "r": "1CH.2.15",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.1",
+        "v": 2
       }
     ],
     "section": null

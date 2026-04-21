@@ -2,31 +2,348 @@
   "HAB.1.1": {
     "text": "The prophecy that Habakkuk the prophet received.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NAM.1.1",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "HAB.1.2": {
     "text": "How long, Lord, must I call for help, but you do not listen? Or cry out to you, “Violence!” but you do not save?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.22.1-2",
+        "v": 10
+      },
+      {
+        "r": "PSA.13.1-2",
+        "v": 9
+      },
+      {
+        "r": "LAM.3.8",
+        "v": 8
+      },
+      {
+        "r": "JER.14.9",
+        "v": 7
+      },
+      {
+        "r": "PSA.94.3",
+        "v": 5
+      },
+      {
+        "r": "REV.6.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.74.9-10",
+        "v": 3
+      }
+    ],
     "section": "Habakkuk’s Complaint"
   },
   "HAB.1.3": {
     "text": "Why do you make me look at injustice? Why do you tolerate wrongdoing? Destruction and violence are before me; there is strife, and conflict abounds.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.55.9-11",
+        "v": 6
+      },
+      {
+        "r": "MIC.7.1-4",
+        "v": 4
+      },
+      {
+        "r": "ECC.5.8",
+        "v": 4
+      },
+      {
+        "r": "JER.9.2-6",
+        "v": 4
+      },
+      {
+        "r": "JER.20.8",
+        "v": 4
+      },
+      {
+        "r": "ECC.4.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.12.1-2",
+        "v": 3
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 3
+      },
+      {
+        "r": "2PE.2.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.120.5-6",
+        "v": 3
+      },
+      {
+        "r": "PSA.73.3-9",
+        "v": 3
+      },
+      {
+        "r": "EZK.2.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.1.4": {
     "text": "Therefore the law is paralyzed, and justice never prevails. The wicked hem in the righteous, so that justice is perverted.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.94.20-21",
+        "v": 6
+      },
+      {
+        "r": "ISA.1.21-23",
+        "v": 6
+      },
+      {
+        "r": "JOB.21.7",
+        "v": 6
+      },
+      {
+        "r": "PSA.119.126",
+        "v": 6
+      },
+      {
+        "r": "JER.12.1",
+        "v": 5
+      },
+      {
+        "r": "EZK.9.9",
+        "v": 5
+      },
+      {
+        "r": "ISA.59.13-15",
+        "v": 4
+      },
+      {
+        "r": "ISA.5.20",
+        "v": 4
+      },
+      {
+        "r": "PSA.58.1-2",
+        "v": 3
+      },
+      {
+        "r": "EXO.23.6",
+        "v": 3
+      },
+      {
+        "r": "EXO.23.2",
+        "v": 3
+      },
+      {
+        "r": "DEU.16.19",
+        "v": 3
+      },
+      {
+        "r": "AMO.5.12",
+        "v": 3
+      },
+      {
+        "r": "HOS.10.4",
+        "v": 3
+      },
+      {
+        "r": "EZK.22.25-30",
+        "v": 3
+      },
+      {
+        "r": "PSA.59.4",
+        "v": 2
+      },
+      {
+        "r": "MIC.7.2-4",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.31",
+        "v": 2
+      },
+      {
+        "r": "PSA.59.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.34-36",
+        "v": 2
+      },
+      {
+        "r": "MIC.3.1-3",
+        "v": 2
+      },
+      {
+        "r": "JER.37.14-16",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.6-7",
+        "v": 2
+      },
+      {
+        "r": "JER.5.27-29",
+        "v": 2
+      },
+      {
+        "r": "MAT.27.25-26",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.52",
+        "v": 2
+      },
+      {
+        "r": "MIC.2.1-2",
+        "v": 2
+      },
+      {
+        "r": "MRK.7.9",
+        "v": 2
+      },
+      {
+        "r": "ACT.23.12-14",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.59-66",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.59",
+        "v": 2
+      },
+      {
+        "r": "JER.26.21-23",
+        "v": 2
+      },
+      {
+        "r": "MAT.27.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.94.3",
+        "v": 2
+      },
+      {
+        "r": "JER.12.6",
+        "v": 1
+      },
+      {
+        "r": "PSA.22.16",
+        "v": 1
+      },
+      {
+        "r": "PSA.11.3",
+        "v": 1
+      },
+      {
+        "r": "1KI.21.13",
+        "v": 1
+      },
+      {
+        "r": "JER.38.4-6",
+        "v": 1
+      },
+      {
+        "r": "AMO.5.7",
+        "v": 1
+      },
+      {
+        "r": "JER.26.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.59.2-8",
+        "v": 1
+      },
+      {
+        "r": "PSA.82.1-5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "HAB.1.5": {
     "text": "“Look at the nations and watch— and be utterly amazed. For I am going to do something in your days that you would not believe, even if you were told.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.13.40-41",
+        "v": 16
+      },
+      {
+        "r": "LAM.4.12",
+        "v": 8
+      },
+      {
+        "r": "ISA.29.14",
+        "v": 8
+      },
+      {
+        "r": "JER.5.12-13",
+        "v": 6
+      },
+      {
+        "r": "JER.25.14-29",
+        "v": 5
+      },
+      {
+        "r": "JER.9.25-26",
+        "v": 5
+      },
+      {
+        "r": "JER.18.18",
+        "v": 5
+      },
+      {
+        "r": "ISA.29.9",
+        "v": 5
+      },
+      {
+        "r": "ZEP.1.2",
+        "v": 4
+      },
+      {
+        "r": "EZK.12.22-28",
+        "v": 4
+      },
+      {
+        "r": "DAN.9.12",
+        "v": 4
+      },
+      {
+        "r": "ACT.6.13-14",
+        "v": 4
+      },
+      {
+        "r": "DEU.4.27",
+        "v": 3
+      },
+      {
+        "r": "ISA.28.21-22",
+        "v": 3
+      }
+    ],
     "section": "The"
   },
   "HAB.1.6": {
@@ -37,19 +354,142 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.24.2",
+        "v": 7
+      },
+      {
+        "r": "2CH.36.17",
+        "v": 5
+      },
+      {
+        "r": "JER.5.15",
+        "v": 5
+      },
+      {
+        "r": "2CH.36.6",
+        "v": 5
+      },
+      {
+        "r": "ISA.23.13",
+        "v": 4
+      },
+      {
+        "r": "JER.4.6",
+        "v": 4
+      },
+      {
+        "r": "DEU.28.49-52",
+        "v": 4
+      },
+      {
+        "r": "JER.25.9",
+        "v": 4
+      },
+      {
+        "r": "JER.21.4",
+        "v": 3
+      },
+      {
+        "r": "JER.1.15-16",
+        "v": 3
+      },
+      {
+        "r": "JER.4.8",
+        "v": 3
+      },
+      {
+        "r": "JER.6.22-23",
+        "v": 3
+      },
+      {
+        "r": "ISA.39.6-7",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.1.7": {
     "text": "They are a feared and dreaded people; they are a law to themselves and promote their own honor.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.39.5-9",
+        "v": 4
+      },
+      {
+        "r": "ISA.18.7",
+        "v": 2
+      },
+      {
+        "r": "JER.52.25-27",
+        "v": 2
+      },
+      {
+        "r": "JER.52.9-11",
+        "v": 2
+      },
+      {
+        "r": "DEU.5.19",
+        "v": 2
+      },
+      {
+        "r": "DEU.5.27",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.1.8": {
     "text": "Their horses are swifter than leopards, fiercer than wolves at dusk. Their cavalry gallops headlong; their horsemen come from afar. They fly like an eagle swooping to devour;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.4.13",
+        "v": 6
+      },
+      {
+        "r": "ZEP.3.3",
+        "v": 4
+      },
+      {
+        "r": "DEU.28.49",
+        "v": 3
+      },
+      {
+        "r": "EZK.17.3",
+        "v": 3
+      },
+      {
+        "r": "HOS.8.1",
+        "v": 3
+      },
+      {
+        "r": "JER.5.6",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.26-28",
+        "v": 2
+      },
+      {
+        "r": "LUK.17.37",
+        "v": 2
+      },
+      {
+        "r": "LAM.4.19",
+        "v": 2
+      },
+      {
+        "r": "MAT.24.28",
+        "v": 2
+      },
+      {
+        "r": "EZK.17.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.1.9": {
@@ -60,19 +500,146 @@
         "text": "The meaning of the Hebrew for this word is uncertain."
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.25.9",
+        "v": 3
+      },
+      {
+        "r": "ROM.9.27",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.5-13",
+        "v": 2
+      },
+      {
+        "r": "JER.4.7",
+        "v": 2
+      },
+      {
+        "r": "DEU.28.51-52",
+        "v": 2
+      },
+      {
+        "r": "EZK.17.10",
+        "v": 2
+      },
+      {
+        "r": "EZK.19.12",
+        "v": 2
+      },
+      {
+        "r": "HOS.13.15",
+        "v": 2
+      },
+      {
+        "r": "JDG.7.12",
+        "v": 2
+      },
+      {
+        "r": "JOB.29.18",
+        "v": 2
+      },
+      {
+        "r": "HOS.1.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.139.18",
+        "v": 2
+      },
+      {
+        "r": "JER.15.8",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.27.8",
+        "v": 2
+      },
+      {
+        "r": "JER.34.22",
+        "v": 2
+      },
+      {
+        "r": "JER.5.15-17",
+        "v": 2
+      },
+      {
+        "r": "JER.4.11",
+        "v": 2
+      },
+      {
+        "r": "GEN.41.49",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.1.10": {
     "text": "They mock kings and scoff at rulers. They laugh at all fortified cities; by building earthen ramps they capture them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CH.36.6",
+        "v": 4
+      },
+      {
+        "r": "ISA.14.16",
+        "v": 3
+      },
+      {
+        "r": "2CH.36.10",
+        "v": 3
+      },
+      {
+        "r": "JER.32.24",
+        "v": 3
+      },
+      {
+        "r": "JER.33.4",
+        "v": 2
+      },
+      {
+        "r": "JER.52.4-7",
+        "v": 2
+      },
+      {
+        "r": "2KI.24.12",
+        "v": 2
+      },
+      {
+        "r": "2KI.25.6-7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.1.11": {
     "text": "Then they sweep past like the wind and go on— guilty people, whose own strength is their god.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.5.20",
+        "v": 3
+      },
+      {
+        "r": "JER.4.11-12",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.3-4",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30-34",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.1.12": {
@@ -83,13 +650,275 @@
         "text": "An ancient Hebrew scribal tradition; Masoretic Text"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.32.4",
+        "v": 10
+      },
+      {
+        "r": "PSA.90.2",
+        "v": 8
+      },
+      {
+        "r": "DEU.33.27",
+        "v": 7
+      },
+      {
+        "r": "JER.30.11",
+        "v": 7
+      },
+      {
+        "r": "JER.46.28",
+        "v": 7
+      },
+      {
+        "r": "PSA.93.2",
+        "v": 6
+      },
+      {
+        "r": "AMO.9.8-9",
+        "v": 5
+      },
+      {
+        "r": "LAM.5.19",
+        "v": 4
+      },
+      {
+        "r": "HEB.13.8",
+        "v": 4
+      },
+      {
+        "r": "HEB.1.10-12",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.5-6",
+        "v": 4
+      },
+      {
+        "r": "EZK.37.11-14",
+        "v": 4
+      },
+      {
+        "r": "EZK.30.25",
+        "v": 4
+      },
+      {
+        "r": "MIC.5.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.40.28",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.10.5-7",
+        "v": 3
+      },
+      {
+        "r": "ISA.43.15",
+        "v": 3
+      },
+      {
+        "r": "MAL.3.6",
+        "v": 3
+      },
+      {
+        "r": "JER.25.9-14",
+        "v": 3
+      },
+      {
+        "r": "ACT.3.14",
+        "v": 3
+      },
+      {
+        "r": "1TI.1.17",
+        "v": 3
+      },
+      {
+        "r": "HAB.3.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.1",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.30-31",
+        "v": 2
+      },
+      {
+        "r": "ISA.49.7",
+        "v": 2
+      },
+      {
+        "r": "PSA.118.17",
+        "v": 2
+      },
+      {
+        "r": "JER.33.24-26",
+        "v": 2
+      },
+      {
+        "r": "JER.31.18-20",
+        "v": 2
+      },
+      {
+        "r": "2KI.19.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.37.26",
+        "v": 2
+      },
+      {
+        "r": "ISA.27.6-10",
+        "v": 2
+      },
+      {
+        "r": "PSA.17.13",
+        "v": 2
+      },
+      {
+        "r": "REV.1.8",
+        "v": 2
+      },
+      {
+        "r": "1SA.2.2",
+        "v": 2
+      },
+      {
+        "r": "JER.4.27",
+        "v": 1
+      },
+      {
+        "r": "ISA.57.15",
+        "v": 1
+      },
+      {
+        "r": "JER.5.18",
+        "v": 1
+      },
+      {
+        "r": "REV.1.11",
+        "v": 1
+      }
+    ],
     "section": "Habakkuk’s Second Complaint"
   },
   "HAB.1.13": {
     "text": "Your eyes are too pure to look on evil; you cannot tolerate wrongdoing. Why then do you tolerate the treacherous? Why are you silent while the wicked swallow up those more righteous than themselves?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.5.4-5",
+        "v": 12
+      },
+      {
+        "r": "PSA.34.15-16",
+        "v": 11
+      },
+      {
+        "r": "JER.12.1-2",
+        "v": 9
+      },
+      {
+        "r": "HAB.1.3-4",
+        "v": 6
+      },
+      {
+        "r": "PRO.31.8-9",
+        "v": 5
+      },
+      {
+        "r": "PSA.50.3",
+        "v": 4
+      },
+      {
+        "r": "PSA.10.15",
+        "v": 4
+      },
+      {
+        "r": "1PE.1.15-16",
+        "v": 4
+      },
+      {
+        "r": "2SA.4.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.21.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.10.1-2",
+        "v": 3
+      },
+      {
+        "r": "ISA.64.12",
+        "v": 3
+      },
+      {
+        "r": "PSA.11.4-7",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.32-33",
+        "v": 3
+      },
+      {
+        "r": "ACT.3.13-15",
+        "v": 3
+      },
+      {
+        "r": "PSA.83.1",
+        "v": 3
+      },
+      {
+        "r": "EST.4.14",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.12-15",
+        "v": 3
+      },
+      {
+        "r": "PSA.50.21",
+        "v": 3
+      },
+      {
+        "r": "ACT.2.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.35.22",
+        "v": 3
+      },
+      {
+        "r": "1KI.2.32",
+        "v": 3
+      },
+      {
+        "r": "ISA.33.1",
+        "v": 3
+      },
+      {
+        "r": "JOB.15.15",
+        "v": 3
+      },
+      {
+        "r": "PSA.56.1-2",
+        "v": 3
+      },
+      {
+        "r": "PSA.73.3",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.1.14": {
@@ -101,19 +930,150 @@
   "HAB.1.15": {
     "text": "The wicked foe pulls all of them up with hooks, he catches them in his net, he gathers them up in his dragnet; and so he rejoices and is glad.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.16.16",
+        "v": 4
+      },
+      {
+        "r": "AMO.4.2",
+        "v": 4
+      },
+      {
+        "r": "PSA.10.9",
+        "v": 3
+      },
+      {
+        "r": "JHN.21.6-11",
+        "v": 3
+      },
+      {
+        "r": "EZK.26.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.29.4-5",
+        "v": 2
+      },
+      {
+        "r": "EZK.25.6",
+        "v": 2
+      },
+      {
+        "r": "LAM.2.15-16",
+        "v": 2
+      },
+      {
+        "r": "MAT.17.27",
+        "v": 2
+      },
+      {
+        "r": "JER.50.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.19.8",
+        "v": 2
+      },
+      {
+        "r": "EZK.35.15",
+        "v": 2
+      },
+      {
+        "r": "LUK.5.5-10",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.1.16": {
     "text": "Therefore he sacrifices to his net and burns incense to his dragnet, for by his net he lives in luxury and enjoys the choicest food.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HAB.1.11",
+        "v": 4
+      },
+      {
+        "r": "DEU.8.17",
+        "v": 4
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 4
+      },
+      {
+        "r": "EZK.28.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.13-15",
+        "v": 3
+      },
+      {
+        "r": "ISA.37.24",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.23",
+        "v": 3
+      },
+      {
+        "r": "EZK.29.3",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.1.17": {
     "text": "Is he to keep on emptying his net, destroying nations without mercy?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.14.6",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.5-8",
+        "v": 2
+      },
+      {
+        "r": "EZK.25.1-17",
+        "v": 2
+      },
+      {
+        "r": "ISA.19.8",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.16-17",
+        "v": 2
+      },
+      {
+        "r": "JER.52.1-34",
+        "v": 2
+      },
+      {
+        "r": "JER.46.1-28",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.9-10",
+        "v": 2
+      },
+      {
+        "r": "JER.25.9-26",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.2.1": {
@@ -124,7 +1084,76 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.21.8",
+        "v": 23
+      },
+      {
+        "r": "ISA.62.6",
+        "v": 16
+      },
+      {
+        "r": "2SA.18.24",
+        "v": 14
+      },
+      {
+        "r": "PSA.85.8",
+        "v": 13
+      },
+      {
+        "r": "PSA.73.16-17",
+        "v": 12
+      },
+      {
+        "r": "PSA.5.3",
+        "v": 9
+      },
+      {
+        "r": "2CO.13.3",
+        "v": 8
+      },
+      {
+        "r": "JER.12.1",
+        "v": 7
+      },
+      {
+        "r": "ISA.21.11-12",
+        "v": 6
+      },
+      {
+        "r": "JOB.31.37",
+        "v": 6
+      },
+      {
+        "r": "JOB.23.5-7",
+        "v": 6
+      },
+      {
+        "r": "GAL.1.16",
+        "v": 5
+      },
+      {
+        "r": "JOB.31.35",
+        "v": 5
+      },
+      {
+        "r": "ISA.21.5",
+        "v": 5
+      },
+      {
+        "r": "HAB.1.12-17",
+        "v": 5
+      },
+      {
+        "r": "2KI.17.9",
+        "v": 4
+      },
+      {
+        "r": "2KI.9.17",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "HAB.2.2": {
@@ -135,7 +1164,64 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.30.8",
+        "v": 56
+      },
+      {
+        "r": "REV.14.13",
+        "v": 17
+      },
+      {
+        "r": "REV.1.18-19",
+        "v": 16
+      },
+      {
+        "r": "DEU.31.22",
+        "v": 14
+      },
+      {
+        "r": "REV.21.5-8",
+        "v": 13
+      },
+      {
+        "r": "DAN.12.4",
+        "v": 11
+      },
+      {
+        "r": "ISA.8.1",
+        "v": 10
+      },
+      {
+        "r": "DEU.27.8",
+        "v": 10
+      },
+      {
+        "r": "DEU.31.19",
+        "v": 9
+      },
+      {
+        "r": "JHN.11.28-29",
+        "v": 7
+      },
+      {
+        "r": "JER.36.27-32",
+        "v": 5
+      },
+      {
+        "r": "REV.19.9",
+        "v": 4
+      },
+      {
+        "r": "JER.36.2-4",
+        "v": 4
+      },
+      {
+        "r": "2CO.3.12",
+        "v": 3
+      }
+    ],
     "section": "The"
   },
   "HAB.2.3": {
@@ -146,7 +1232,112 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.27.14",
+        "v": 70
+      },
+      {
+        "r": "HEB.10.36-37",
+        "v": 58
+      },
+      {
+        "r": "LAM.3.25-26",
+        "v": 55
+      },
+      {
+        "r": "EZK.12.25",
+        "v": 55
+      },
+      {
+        "r": "PSA.102.13",
+        "v": 42
+      },
+      {
+        "r": "PSA.130.5-6",
+        "v": 39
+      },
+      {
+        "r": "DAN.10.14",
+        "v": 35
+      },
+      {
+        "r": "JAS.5.7-8",
+        "v": 31
+      },
+      {
+        "r": "LUK.18.7-8",
+        "v": 28
+      },
+      {
+        "r": "MIC.7.7",
+        "v": 28
+      },
+      {
+        "r": "ISA.30.18",
+        "v": 26
+      },
+      {
+        "r": "2TH.2.6-8",
+        "v": 23
+      },
+      {
+        "r": "ACT.1.7",
+        "v": 20
+      },
+      {
+        "r": "DAN.8.19",
+        "v": 19
+      },
+      {
+        "r": "DAN.11.35",
+        "v": 19
+      },
+      {
+        "r": "JER.25.12-14",
+        "v": 17
+      },
+      {
+        "r": "ACT.17.26",
+        "v": 16
+      },
+      {
+        "r": "GAL.4.2",
+        "v": 16
+      },
+      {
+        "r": "DAN.8.17",
+        "v": 16
+      },
+      {
+        "r": "LUK.2.25",
+        "v": 15
+      },
+      {
+        "r": "EXO.12.41",
+        "v": 15
+      },
+      {
+        "r": "DAN.11.27",
+        "v": 14
+      },
+      {
+        "r": "2PE.2.3",
+        "v": 14
+      },
+      {
+        "r": "DAN.9.24-10.1",
+        "v": 14
+      },
+      {
+        "r": "2KI.6.33",
+        "v": 13
+      },
+      {
+        "r": "JER.27.7",
+        "v": 11
+      }
+    ],
     "section": null
   },
   "HAB.2.4": {
@@ -157,73 +1348,837 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.1.17",
+        "v": 68
+      },
+      {
+        "r": "HEB.10.38",
+        "v": 53
+      },
+      {
+        "r": "GAL.3.11-12",
+        "v": 46
+      },
+      {
+        "r": "GAL.2.16",
+        "v": 20
+      },
+      {
+        "r": "JHN.3.36",
+        "v": 14
+      },
+      {
+        "r": "1JN.5.10-12",
+        "v": 11
+      },
+      {
+        "r": "LUK.18.14",
+        "v": 7
+      },
+      {
+        "r": "DAN.4.37",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.20-23",
+        "v": 2
+      },
+      {
+        "r": "1PE.5.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "HAB.2.5": {
     "text": "indeed, wine betrays him; he is arrogant and never at rest. Because he is as greedy as the grave and like death is never satisfied, he gathers to himself all the nations and takes captive all the peoples.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.27.20",
+        "v": 6
+      },
+      {
+        "r": "ISA.5.11-12",
+        "v": 6
+      },
+      {
+        "r": "PRO.20.1",
+        "v": 6
+      },
+      {
+        "r": "PRO.31.4-5",
+        "v": 5
+      },
+      {
+        "r": "ISA.2.17",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.16-17",
+        "v": 3
+      },
+      {
+        "r": "ISA.21.5",
+        "v": 3
+      },
+      {
+        "r": "PRO.23.29-33",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.8",
+        "v": 3
+      },
+      {
+        "r": "PRO.30.13-16",
+        "v": 3
+      },
+      {
+        "r": "ISA.5.22-23",
+        "v": 3
+      },
+      {
+        "r": "PSA.138.6",
+        "v": 3
+      },
+      {
+        "r": "ISA.2.11-12",
+        "v": 3
+      },
+      {
+        "r": "2KI.14.10",
+        "v": 3
+      },
+      {
+        "r": "ISA.16.6",
+        "v": 3
+      },
+      {
+        "r": "ECC.5.10",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.1-4",
+        "v": 3
+      },
+      {
+        "r": "ISA.10.7-13",
+        "v": 3
+      },
+      {
+        "r": "HAB.2.4",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.9-10",
+        "v": 2
+      },
+      {
+        "r": "JER.50.29",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.20-23",
+        "v": 2
+      },
+      {
+        "r": "JER.51.39",
+        "v": 2
+      },
+      {
+        "r": "1TH.4.11",
+        "v": 2
+      },
+      {
+        "r": "JER.25.9",
+        "v": 2
+      },
+      {
+        "r": "JAS.4.6",
+        "v": 2
+      },
+      {
+        "r": "JER.25.17-29",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.8-10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.2.6": {
     "text": "“Will not all of them taunt him with ridicule and scorn, saying, “ ‘Woe to him who piles up stolen goods and makes himself wealthy by extortion! How long must this go on?’",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MIC.2.4",
+        "v": 3
+      },
+      {
+        "r": "JER.29.22",
+        "v": 3
+      },
+      {
+        "r": "JOB.20.15-29",
+        "v": 3
+      },
+      {
+        "r": "JER.50.13",
+        "v": 3
+      },
+      {
+        "r": "NUM.23.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.4-19",
+        "v": 3
+      },
+      {
+        "r": "JOB.22.6-10",
+        "v": 2
+      },
+      {
+        "r": "NUM.23.18",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.13",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.9-10",
+        "v": 2
+      },
+      {
+        "r": "LUK.12.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.32.21",
+        "v": 2
+      },
+      {
+        "r": "PRO.22.16",
+        "v": 2
+      },
+      {
+        "r": "HAB.1.15",
+        "v": 2
+      },
+      {
+        "r": "JER.51.34-35",
+        "v": 2
+      },
+      {
+        "r": "1CO.7.29-31",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.1-4",
+        "v": 2
+      },
+      {
+        "r": "ISA.55.2",
+        "v": 2
+      },
+      {
+        "r": "1PE.4.7",
+        "v": 2
+      },
+      {
+        "r": "ISA.44.20",
+        "v": 2
+      },
+      {
+        "r": "PSA.94.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.2.7": {
     "text": "Will not your creditors suddenly arise? Will they not wake up and make you tremble? Then you will become their prey.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.29.1",
+        "v": 4
+      },
+      {
+        "r": "JER.51.57",
+        "v": 2
+      },
+      {
+        "r": "ISA.48.14-15",
+        "v": 2
+      },
+      {
+        "r": "ECC.10.8",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.25-31",
+        "v": 2
+      },
+      {
+        "r": "JER.51.27-28",
+        "v": 2
+      },
+      {
+        "r": "ISA.41.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.46.11",
+        "v": 2
+      },
+      {
+        "r": "JER.51.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.13.16-18",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.3",
+        "v": 2
+      },
+      {
+        "r": "ISA.45.1-3",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.9-10",
+        "v": 2
+      },
+      {
+        "r": "ISA.21.2-9",
+        "v": 2
+      },
+      {
+        "r": "JER.8.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.47.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.13.1-5",
+        "v": 2
+      },
+      {
+        "r": "JER.50.21-32",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.2.8": {
     "text": "Because you have plundered many nations, the peoples who are left will plunder you. For you have shed human blood; you have destroyed lands and cities and everyone in them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.33.1",
+        "v": 5
+      },
+      {
+        "r": "HAB.2.17",
+        "v": 4
+      },
+      {
+        "r": "JER.27.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.47.6",
+        "v": 2
+      },
+      {
+        "r": "JER.51.24",
+        "v": 2
+      },
+      {
+        "r": "ZEC.14.12",
+        "v": 2
+      },
+      {
+        "r": "REV.6.10",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.10",
+        "v": 2
+      },
+      {
+        "r": "JER.51.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.137.8",
+        "v": 2
+      },
+      {
+        "r": "ZEC.1.15",
+        "v": 2
+      },
+      {
+        "r": "JER.51.8",
+        "v": 2
+      },
+      {
+        "r": "ZEC.12.2-4",
+        "v": 2
+      },
+      {
+        "r": "JER.50.37",
+        "v": 2
+      },
+      {
+        "r": "JER.50.33-34",
+        "v": 2
+      },
+      {
+        "r": "JER.50.17-18",
+        "v": 2
+      },
+      {
+        "r": "ISA.33.4",
+        "v": 2
+      },
+      {
+        "r": "JER.51.55-56",
+        "v": 2
+      },
+      {
+        "r": "MIC.4.11-13",
+        "v": 2
+      },
+      {
+        "r": "JER.30.16",
+        "v": 2
+      },
+      {
+        "r": "REV.18.20-24",
+        "v": 2
+      },
+      {
+        "r": "JER.51.34-35",
+        "v": 2
+      },
+      {
+        "r": "JER.51.44",
+        "v": 2
+      },
+      {
+        "r": "ZEC.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "JER.50.10-11",
+        "v": 2
+      },
+      {
+        "r": "JER.50.28",
+        "v": 2
+      },
+      {
+        "r": "JER.51.48",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.2.9": {
     "text": "“Woe to him who builds his house by unjust gain, setting his nest on high to escape the clutches of ruin!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.49.16",
+        "v": 5
+      },
+      {
+        "r": "JER.22.13-19",
+        "v": 4
+      },
+      {
+        "r": "GEN.19.26-38",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.11",
+        "v": 2
+      },
+      {
+        "r": "GEN.13.10-13",
+        "v": 2
+      },
+      {
+        "r": "ZEC.5.1-4",
+        "v": 2
+      },
+      {
+        "r": "ISA.28.15",
+        "v": 2
+      },
+      {
+        "r": "DEU.7.25-26",
+        "v": 2
+      },
+      {
+        "r": "JUD.1.11",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.19-24",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.21-26",
+        "v": 2
+      },
+      {
+        "r": "ISA.47.7-9",
+        "v": 2
+      },
+      {
+        "r": "PSA.10.3-6",
+        "v": 2
+      },
+      {
+        "r": "ACT.1.17-25",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.2-4",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.19-28",
+        "v": 2
+      },
+      {
+        "r": "2KI.5.20-27",
+        "v": 2
+      },
+      {
+        "r": "OBA.1.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.52.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.18.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.2.10": {
     "text": "You have plotted the ruin of many peoples, shaming your own house and forfeiting your life.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.9.26",
+        "v": 3
+      },
+      {
+        "r": "NAM.1.14",
+        "v": 3
+      },
+      {
+        "r": "2KI.10.7",
+        "v": 2
+      },
+      {
+        "r": "HAB.2.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.36",
+        "v": 2
+      },
+      {
+        "r": "ISA.14.20-22",
+        "v": 2
+      },
+      {
+        "r": "JER.22.30",
+        "v": 2
+      },
+      {
+        "r": "JER.26.19",
+        "v": 2
+      },
+      {
+        "r": "MAT.27.25",
+        "v": 2
+      },
+      {
+        "r": "ISA.33.11",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.18",
+        "v": 2
+      },
+      {
+        "r": "NUM.16.38",
+        "v": 2
+      },
+      {
+        "r": "1KI.2.23",
+        "v": 2
+      },
+      {
+        "r": "JER.36.31",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.2.11": {
     "text": "The stones of the wall will cry out, and the beams of the woodwork will echo it.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.19.40",
+        "v": 11
+      },
+      {
+        "r": "JOS.24.27",
+        "v": 7
+      },
+      {
+        "r": "JOB.31.38-40",
+        "v": 6
+      },
+      {
+        "r": "JAS.5.3-4",
+        "v": 6
+      },
+      {
+        "r": "GEN.4.10",
+        "v": 5
+      },
+      {
+        "r": "HEB.12.24",
+        "v": 4
+      },
+      {
+        "r": "REV.6.10",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "HAB.2.12": {
     "text": "“Woe to him who builds a city with bloodshed and establishes a town by injustice!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MIC.3.10",
+        "v": 11
+      },
+      {
+        "r": "NAM.3.1",
+        "v": 5
+      },
+      {
+        "r": "DAN.4.27-31",
+        "v": 5
+      },
+      {
+        "r": "JOS.6.26",
+        "v": 4
+      },
+      {
+        "r": "REV.17.6",
+        "v": 4
+      },
+      {
+        "r": "JER.22.13-17",
+        "v": 4
+      },
+      {
+        "r": "1KI.16.34",
+        "v": 3
+      },
+      {
+        "r": "GEN.4.11-17",
+        "v": 3
+      },
+      {
+        "r": "EZK.24.9",
+        "v": 3
+      },
+      {
+        "r": "JHN.11.47-50",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.2.13": {
     "text": "Has not the Lord Almighty determined that the people’s labor is only fuel for the fire, that the nations exhaust themselves for nothing?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.51.58",
+        "v": 6
+      },
+      {
+        "r": "PRO.21.30",
+        "v": 5
+      },
+      {
+        "r": "ISA.50.11",
+        "v": 5
+      },
+      {
+        "r": "ISA.41.5-8",
+        "v": 4
+      },
+      {
+        "r": "JOB.5.13-14",
+        "v": 4
+      },
+      {
+        "r": "ISA.55.2",
+        "v": 4
+      },
+      {
+        "r": "MAL.1.4",
+        "v": 4
+      },
+      {
+        "r": "GEN.11.6-9",
+        "v": 4
+      },
+      {
+        "r": "PSA.127.1-2",
+        "v": 4
+      },
+      {
+        "r": "PSA.39.6",
+        "v": 4
+      },
+      {
+        "r": "2SA.15.31",
+        "v": 2
+      },
+      {
+        "r": "JER.51.64",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.2.14": {
     "text": "For the earth will be filled with the knowledge of the glory of the Lord as the waters cover the sea.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.11.9",
+        "v": 51
+      },
+      {
+        "r": "PSA.22.27",
+        "v": 42
+      },
+      {
+        "r": "PSA.72.19",
+        "v": 36
+      },
+      {
+        "r": "ISA.6.3",
+        "v": 30
+      },
+      {
+        "r": "PSA.86.9",
+        "v": 28
+      },
+      {
+        "r": "ZEC.14.8-9",
+        "v": 25
+      },
+      {
+        "r": "REV.11.15",
+        "v": 23
+      },
+      {
+        "r": "PSA.67.1-2",
+        "v": 22
+      },
+      {
+        "r": "REV.15.4",
+        "v": 22
+      },
+      {
+        "r": "PSA.98.1-3",
+        "v": 14
+      }
+    ],
     "section": null
   },
   "HAB.2.15": {
     "text": "“Woe to him who gives drink to his neighbors, pouring it from the wineskin till they are drunk, so that he can gaze on their naked bodies!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.51.7",
+        "v": 7
+      },
+      {
+        "r": "GEN.9.22",
+        "v": 6
+      },
+      {
+        "r": "REV.18.3",
+        "v": 4
+      },
+      {
+        "r": "HOS.7.5",
+        "v": 4
+      },
+      {
+        "r": "REV.17.6",
+        "v": 4
+      },
+      {
+        "r": "REV.17.2",
+        "v": 4
+      },
+      {
+        "r": "JER.25.15",
+        "v": 3
+      },
+      {
+        "r": "EXO.32.25",
+        "v": 3
+      },
+      {
+        "r": "GEN.19.32-35",
+        "v": 3
+      },
+      {
+        "r": "2SA.11.13",
+        "v": 3
+      },
+      {
+        "r": "2SA.13.26-28",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.2.16": {
@@ -234,31 +2189,368 @@
         "text": "Masoretic Text; Dead Sea Scrolls, Aquila, Vulgate and Syriac (see also Septuagint)"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.47.3",
+        "v": 5
+      },
+      {
+        "r": "NAM.3.5-6",
+        "v": 4
+      },
+      {
+        "r": "PRO.3.35",
+        "v": 3
+      },
+      {
+        "r": "ISA.28.7-8",
+        "v": 3
+      },
+      {
+        "r": "HOS.7.5",
+        "v": 3
+      },
+      {
+        "r": "JER.51.57",
+        "v": 3
+      },
+      {
+        "r": "PSA.75.8",
+        "v": 3
+      },
+      {
+        "r": "LAM.4.21",
+        "v": 3
+      },
+      {
+        "r": "HOS.4.7",
+        "v": 3
+      },
+      {
+        "r": "JER.25.26-29",
+        "v": 3
+      },
+      {
+        "r": "ISA.20.4",
+        "v": 3
+      },
+      {
+        "r": "PHP.3.19",
+        "v": 3
+      },
+      {
+        "r": "ISA.51.21-23",
+        "v": 3
+      },
+      {
+        "r": "REV.18.6",
+        "v": 3
+      },
+      {
+        "r": "JER.25.15",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.26",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.2.17": {
     "text": "The violence you have done to Lebanon will overwhelm you, and your destruction of animals will terrify you. For you have shed human blood; you have destroyed lands and cities and everyone in them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HAB.2.8",
+        "v": 7
+      },
+      {
+        "r": "PSA.55.23",
+        "v": 4
+      },
+      {
+        "r": "ZEC.11.1",
+        "v": 4
+      },
+      {
+        "r": "JER.50.33-34",
+        "v": 3
+      },
+      {
+        "r": "JER.51.34-37",
+        "v": 3
+      },
+      {
+        "r": "JER.50.28",
+        "v": 3
+      },
+      {
+        "r": "PRO.28.17",
+        "v": 3
+      },
+      {
+        "r": "JER.51.24",
+        "v": 3
+      },
+      {
+        "r": "REV.18.20-24",
+        "v": 3
+      },
+      {
+        "r": "PSA.137.8",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.2.18": {
     "text": "“Of what value is an idol carved by a craftsman? Or an image that teaches lies? For the one who makes it trusts in his own creation; he makes idols that cannot speak.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.10.8",
+        "v": 9
+      },
+      {
+        "r": "ISA.44.9-10",
+        "v": 8
+      },
+      {
+        "r": "ZEC.10.2",
+        "v": 8
+      },
+      {
+        "r": "1CO.12.2",
+        "v": 8
+      },
+      {
+        "r": "JER.2.27-28",
+        "v": 7
+      },
+      {
+        "r": "ISA.42.17",
+        "v": 6
+      },
+      {
+        "r": "PSA.115.4-8",
+        "v": 5
+      },
+      {
+        "r": "PSA.135.15-18",
+        "v": 5
+      },
+      {
+        "r": "ISA.45.16",
+        "v": 5
+      },
+      {
+        "r": "JER.10.14-15",
+        "v": 4
+      },
+      {
+        "r": "JON.2.8",
+        "v": 4
+      },
+      {
+        "r": "2TH.2.9-11",
+        "v": 4
+      },
+      {
+        "r": "ISA.45.20",
+        "v": 4
+      },
+      {
+        "r": "ISA.46.1-2",
+        "v": 3
+      },
+      {
+        "r": "ISA.46.6-8",
+        "v": 3
+      },
+      {
+        "r": "ROM.6.21",
+        "v": 3
+      },
+      {
+        "r": "1TI.4.1-2",
+        "v": 3
+      },
+      {
+        "r": "ISA.1.31",
+        "v": 3
+      },
+      {
+        "r": "ISA.44.14-20",
+        "v": 3
+      },
+      {
+        "r": "JER.50.2",
+        "v": 3
+      },
+      {
+        "r": "ROM.1.23-25",
+        "v": 3
+      },
+      {
+        "r": "REV.19.20",
+        "v": 3
+      },
+      {
+        "r": "REV.13.11-15",
+        "v": 3
+      },
+      {
+        "r": "ISA.37.38",
+        "v": 3
+      },
+      {
+        "r": "JER.10.3-5",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.2.19": {
     "text": "Woe to him who says to wood, ‘Come to life!’ Or to lifeless stone, ‘Wake up!’ Can it give guidance? It is covered with gold and silver; there is no breath in it.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.135.17",
+        "v": 9
+      },
+      {
+        "r": "JER.10.4",
+        "v": 5
+      },
+      {
+        "r": "1KI.18.26-29",
+        "v": 4
+      },
+      {
+        "r": "JER.10.9",
+        "v": 4
+      },
+      {
+        "r": "PSA.97.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.44.17",
+        "v": 3
+      },
+      {
+        "r": "JER.10.14",
+        "v": 3
+      },
+      {
+        "r": "ISA.40.19",
+        "v": 3
+      },
+      {
+        "r": "JER.51.47",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.18",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.29",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.23",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.1",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.7",
+        "v": 3
+      },
+      {
+        "r": "ISA.46.6",
+        "v": 3
+      },
+      {
+        "r": "REV.17.4",
+        "v": 3
+      },
+      {
+        "r": "ACT.17.29",
+        "v": 3
+      },
+      {
+        "r": "JON.1.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "HAB.2.20": {
     "text": "The Lord is in his holy temple; let all the earth be silent before him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.2.13",
+        "v": 40
+      },
+      {
+        "r": "ZEP.1.7",
+        "v": 31
+      },
+      {
+        "r": "PSA.46.10",
+        "v": 28
+      },
+      {
+        "r": "PSA.11.4",
+        "v": 25
+      },
+      {
+        "r": "ISA.6.1",
+        "v": 16
+      },
+      {
+        "r": "JON.2.7",
+        "v": 14
+      },
+      {
+        "r": "MIC.1.2",
+        "v": 12
+      },
+      {
+        "r": "PSA.76.8-9",
+        "v": 12
+      },
+      {
+        "r": "EPH.2.21-22",
+        "v": 9
+      },
+      {
+        "r": "PSA.132.13-14",
+        "v": 9
+      },
+      {
+        "r": "PSA.115.3",
+        "v": 7
+      },
+      {
+        "r": "ISA.66.1",
+        "v": 5
+      },
+      {
+        "r": "ISA.66.6",
+        "v": 4
+      },
+      {
+        "r": "JON.2.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "HAB.3.0": {
@@ -275,13 +2567,183 @@
         "text": "Probably a literary or musical term"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.1-17",
+        "v": 3
+      },
+      {
+        "r": "PSA.90.1-17",
+        "v": 3
+      },
+      {
+        "r": "PSA.86.1-17",
+        "v": 3
+      }
+    ],
     "section": "Habakkuk’s Prayer"
   },
   "HAB.3.2": {
     "text": "Lord, I have heard of your fame; I stand in awe of your deeds, Lord. Repeat them in our day, in our time make them known; in wrath remember mercy.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.85.6",
+        "v": 28
+      },
+      {
+        "r": "PSA.90.13-17",
+        "v": 23
+      },
+      {
+        "r": "HOS.6.2-3",
+        "v": 18
+      },
+      {
+        "r": "ISA.51.9-11",
+        "v": 14
+      },
+      {
+        "r": "LAM.3.32",
+        "v": 14
+      },
+      {
+        "r": "HAB.3.16",
+        "v": 12
+      },
+      {
+        "r": "PHP.1.6",
+        "v": 11
+      },
+      {
+        "r": "ISA.63.15-64.4",
+        "v": 11
+      },
+      {
+        "r": "ISA.54.8",
+        "v": 11
+      },
+      {
+        "r": "JER.10.24",
+        "v": 10
+      },
+      {
+        "r": "PSA.119.120",
+        "v": 9
+      },
+      {
+        "r": "HAB.1.5-10",
+        "v": 9
+      },
+      {
+        "r": "PSA.44.1",
+        "v": 8
+      },
+      {
+        "r": "JHN.10.10",
+        "v": 8
+      },
+      {
+        "r": "JER.29.10",
+        "v": 7
+      },
+      {
+        "r": "ZEC.1.12",
+        "v": 7
+      },
+      {
+        "r": "PSA.138.7-8",
+        "v": 7
+      },
+      {
+        "r": "JER.25.11-12",
+        "v": 7
+      },
+      {
+        "r": "JER.52.31-34",
+        "v": 6
+      },
+      {
+        "r": "2CH.34.27-28",
+        "v": 6
+      },
+      {
+        "r": "PSA.38.1",
+        "v": 6
+      },
+      {
+        "r": "ISA.66.2",
+        "v": 6
+      },
+      {
+        "r": "EZR.9.8",
+        "v": 6
+      },
+      {
+        "r": "NUM.16.46-47",
+        "v": 5
+      },
+      {
+        "r": "EXO.32.10-12",
+        "v": 5
+      },
+      {
+        "r": "ROM.10.16",
+        "v": 5
+      },
+      {
+        "r": "JER.36.21-24",
+        "v": 5
+      },
+      {
+        "r": "REV.15.4",
+        "v": 5
+      },
+      {
+        "r": "PSA.78.38",
+        "v": 5
+      },
+      {
+        "r": "ISA.53.1",
+        "v": 5
+      },
+      {
+        "r": "NUM.14.10-23",
+        "v": 5
+      },
+      {
+        "r": "DAN.9.2",
+        "v": 5
+      },
+      {
+        "r": "JOB.4.12-21",
+        "v": 4
+      },
+      {
+        "r": "DAN.8.17",
+        "v": 4
+      },
+      {
+        "r": "PSA.6.1-2",
+        "v": 4
+      },
+      {
+        "r": "2SA.24.10-17",
+        "v": 4
+      },
+      {
+        "r": "EXO.9.20-21",
+        "v": 4
+      },
+      {
+        "r": "HEB.11.7",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.21",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.3.3": {
@@ -292,103 +2754,1248 @@
         "text": "The Hebrew has"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.33.2",
+        "v": 11
+      },
+      {
+        "r": "OBA.1.9",
+        "v": 5
+      },
+      {
+        "r": "AMO.1.12",
+        "v": 5
+      },
+      {
+        "r": "PSA.4.4",
+        "v": 5
+      },
+      {
+        "r": "PSA.68.17",
+        "v": 4
+      },
+      {
+        "r": "JER.49.7",
+        "v": 4
+      },
+      {
+        "r": "ISA.6.3",
+        "v": 4
+      },
+      {
+        "r": "REV.5.13-14",
+        "v": 4
+      },
+      {
+        "r": "JDG.5.4-5",
+        "v": 3
+      },
+      {
+        "r": "DEU.5.24",
+        "v": 3
+      },
+      {
+        "r": "EXO.19.16-20",
+        "v": 3
+      },
+      {
+        "r": "GEN.21.21",
+        "v": 3
+      },
+      {
+        "r": "GEN.36.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.114.3-7",
+        "v": 2
+      },
+      {
+        "r": "PSA.68.7-8",
+        "v": 2
+      },
+      {
+        "r": "ISA.64.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.48.10",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.1",
+        "v": 2
+      },
+      {
+        "r": "NUM.10.12",
+        "v": 2
+      },
+      {
+        "r": "PSA.3.2",
+        "v": 2
+      },
+      {
+        "r": "2CO.3.7-11",
+        "v": 2
+      },
+      {
+        "r": "EXO.24.15-17",
+        "v": 2
+      },
+      {
+        "r": "PSA.9.16",
+        "v": 2
+      },
+      {
+        "r": "EXO.20.18",
+        "v": 2
+      },
+      {
+        "r": "PSA.3.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.9.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.3.4": {
     "text": "His splendor was like the sunrise; rays flashed from his hand, where his power was hidden.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.60.19-20",
+        "v": 7
+      },
+      {
+        "r": "MAT.17.2",
+        "v": 7
+      },
+      {
+        "r": "EXO.14.20",
+        "v": 5
+      },
+      {
+        "r": "REV.22.5",
+        "v": 5
+      },
+      {
+        "r": "JOB.26.14",
+        "v": 5
+      },
+      {
+        "r": "1TI.6.16",
+        "v": 4
+      },
+      {
+        "r": "PSA.104.2",
+        "v": 4
+      },
+      {
+        "r": "EXO.13.21",
+        "v": 3
+      },
+      {
+        "r": "NEH.9.12",
+        "v": 3
+      },
+      {
+        "r": "REV.21.23",
+        "v": 2
+      },
+      {
+        "r": "PRO.18.10",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "HAB.3.5": {
     "text": "Plague went before him; pestilence followed his steps.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.12.29-30",
+        "v": 10
+      },
+      {
+        "r": "NUM.16.46-49",
+        "v": 8
+      },
+      {
+        "r": "PSA.78.50-51",
+        "v": 6
+      },
+      {
+        "r": "PSA.18.7-13",
+        "v": 6
+      },
+      {
+        "r": "DEU.32.24",
+        "v": 6
+      },
+      {
+        "r": "NAM.1.2-3",
+        "v": 6
+      },
+      {
+        "r": "NUM.14.12",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "HAB.3.6": {
     "text": "He stood, and shook the earth; he looked, and made the nations tremble. The ancient mountains crumbled and the age-old hills collapsed— but he marches on forever.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.49.26",
+        "v": 9
+      },
+      {
+        "r": "NAM.1.5",
+        "v": 7
+      },
+      {
+        "r": "DEU.33.15",
+        "v": 6
+      },
+      {
+        "r": "ZEC.14.4-5",
+        "v": 5
+      },
+      {
+        "r": "ISA.64.1-3",
+        "v": 5
+      },
+      {
+        "r": "MIC.5.8",
+        "v": 5
+      },
+      {
+        "r": "ISA.51.6",
+        "v": 5
+      },
+      {
+        "r": "JOS.11.18-23",
+        "v": 5
+      },
+      {
+        "r": "HAB.3.10",
+        "v": 4
+      },
+      {
+        "r": "PSA.103.17",
+        "v": 4
+      },
+      {
+        "r": "ISA.51.8",
+        "v": 4
+      },
+      {
+        "r": "PSA.90.2",
+        "v": 4
+      },
+      {
+        "r": "DEU.32.8",
+        "v": 4
+      },
+      {
+        "r": "ACT.17.26",
+        "v": 4
+      },
+      {
+        "r": "PSA.114.4-7",
+        "v": 4
+      },
+      {
+        "r": "LUK.1.50",
+        "v": 4
+      },
+      {
+        "r": "JOS.10.42",
+        "v": 4
+      },
+      {
+        "r": "JDG.5.5",
+        "v": 4
+      },
+      {
+        "r": "NEH.9.22-24",
+        "v": 4
+      },
+      {
+        "r": "PSA.135.8-12",
+        "v": 4
+      },
+      {
+        "r": "PSA.68.16",
+        "v": 4
+      },
+      {
+        "r": "NUM.34.1-29",
+        "v": 4
+      },
+      {
+        "r": "HEB.13.8",
+        "v": 3
+      },
+      {
+        "r": "MAT.24.35",
+        "v": 3
+      },
+      {
+        "r": "EXO.21.31",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.3.7": {
     "text": "I saw the tents of Cushan in distress, the dwellings of Midian in anguish.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.15.14-16",
+        "v": 3
+      },
+      {
+        "r": "JDG.7.24-25",
+        "v": 2
+      },
+      {
+        "r": "NUM.22.3-4",
+        "v": 2
+      },
+      {
+        "r": "GEN.25.1-4",
+        "v": 2
+      },
+      {
+        "r": "JOS.2.10",
+        "v": 2
+      },
+      {
+        "r": "JOS.9.24",
+        "v": 2
+      },
+      {
+        "r": "NUM.31.2-12",
+        "v": 2
+      },
+      {
+        "r": "GEN.10.6-7",
+        "v": 2
+      },
+      {
+        "r": "PSA.83.5-10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.3.8": {
     "text": "Were you angry with the rivers, Lord? Was your wrath against the streams? Did you rage against the sea when you rode your horses and your chariots to victory?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.68.17",
+        "v": 7
+      },
+      {
+        "r": "DEU.33.26-27",
+        "v": 6
+      },
+      {
+        "r": "PSA.114.3",
+        "v": 5
+      },
+      {
+        "r": "EXO.14.21-22",
+        "v": 5
+      },
+      {
+        "r": "ISA.50.2",
+        "v": 5
+      },
+      {
+        "r": "PSA.114.5",
+        "v": 5
+      },
+      {
+        "r": "PSA.18.10",
+        "v": 5
+      },
+      {
+        "r": "ISA.19.1",
+        "v": 4
+      },
+      {
+        "r": "NAM.1.4",
+        "v": 4
+      },
+      {
+        "r": "PSA.68.4",
+        "v": 4
+      },
+      {
+        "r": "HAB.3.15",
+        "v": 4
+      },
+      {
+        "r": "PSA.104.3",
+        "v": 4
+      },
+      {
+        "r": "MRK.4.39",
+        "v": 4
+      },
+      {
+        "r": "JOS.3.16-17",
+        "v": 4
+      },
+      {
+        "r": "EXO.7.20",
+        "v": 3
+      },
+      {
+        "r": "REV.16.12",
+        "v": 3
+      },
+      {
+        "r": "REV.19.14",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.4",
+        "v": 3
+      },
+      {
+        "r": "REV.19.11",
+        "v": 3
+      },
+      {
+        "r": "REV.6.2",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.3.9": {
     "text": "You uncovered your bow, you called for many arrows. You split the earth with rivers;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.12-13",
+        "v": 8
+      },
+      {
+        "r": "PSA.105.41",
+        "v": 5
+      },
+      {
+        "r": "PSA.78.15-16",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.72-75",
+        "v": 4
+      },
+      {
+        "r": "DEU.32.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.105.8-11",
+        "v": 3
+      },
+      {
+        "r": "HEB.6.13-18",
+        "v": 3
+      },
+      {
+        "r": "PSA.143.6",
+        "v": 3
+      },
+      {
+        "r": "LAM.2.4",
+        "v": 3
+      },
+      {
+        "r": "NUM.20.11",
+        "v": 3
+      },
+      {
+        "r": "1CO.10.4",
+        "v": 3
+      },
+      {
+        "r": "EXO.17.6",
+        "v": 3
+      },
+      {
+        "r": "ISA.52.10",
+        "v": 3
+      },
+      {
+        "r": "ISA.51.9-10",
+        "v": 3
+      },
+      {
+        "r": "GEN.15.18-21",
+        "v": 2
+      },
+      {
+        "r": "GEN.26.3-4",
+        "v": 2
+      },
+      {
+        "r": "GEN.17.7-8",
+        "v": 2
+      },
+      {
+        "r": "GEN.22.16-18",
+        "v": 2
+      },
+      {
+        "r": "GEN.28.13-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.35.1-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.3.10": {
     "text": "the mountains saw you and writhed. Torrents of water swept by; the deep roared and lifted its waves on high.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.93.3",
+        "v": 5
+      },
+      {
+        "r": "ISA.43.20",
+        "v": 5
+      },
+      {
+        "r": "JER.4.24",
+        "v": 5
+      },
+      {
+        "r": "JOS.4.23-24",
+        "v": 5
+      },
+      {
+        "r": "PSA.98.7-8",
+        "v": 5
+      },
+      {
+        "r": "HEB.11.29",
+        "v": 4
+      },
+      {
+        "r": "JOS.4.18",
+        "v": 4
+      },
+      {
+        "r": "ISA.63.11-13",
+        "v": 3
+      },
+      {
+        "r": "PSA.74.13-15",
+        "v": 3
+      },
+      {
+        "r": "EXO.19.16-18",
+        "v": 3
+      },
+      {
+        "r": "PSA.136.13-15",
+        "v": 3
+      },
+      {
+        "r": "MAT.27.51",
+        "v": 3
+      },
+      {
+        "r": "ISA.64.1-2",
+        "v": 3
+      },
+      {
+        "r": "JOS.3.15-16",
+        "v": 2
+      },
+      {
+        "r": "REV.6.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.55.12",
+        "v": 2
+      },
+      {
+        "r": "NEH.9.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.68.7-8",
+        "v": 2
+      },
+      {
+        "r": "PSA.96.11-13",
+        "v": 2
+      },
+      {
+        "r": "PSA.114.3-8",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.16-19",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.5",
+        "v": 2
+      },
+      {
+        "r": "REV.16.12",
+        "v": 2
+      },
+      {
+        "r": "PSA.65.13",
+        "v": 2
+      },
+      {
+        "r": "HAB.3.6",
+        "v": 2
+      },
+      {
+        "r": "REV.20.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.18.15",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.15-16",
+        "v": 2
+      },
+      {
+        "r": "MIC.1.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.66.6",
+        "v": 2
+      },
+      {
+        "r": "JDG.5.4-5",
+        "v": 2
+      },
+      {
+        "r": "PSA.97.4-5",
+        "v": 2
+      },
+      {
+        "r": "EXO.14.22-28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.3.11": {
     "text": "Sun and moon stood still in the heavens at the glint of your flying arrows, at the lightning of your flashing spear.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.144.5-6",
+        "v": 6
+      },
+      {
+        "r": "JOS.10.11-13",
+        "v": 4
+      },
+      {
+        "r": "PSA.18.12-14",
+        "v": 4
+      },
+      {
+        "r": "ISA.28.21",
+        "v": 2
+      },
+      {
+        "r": "ISA.38.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.17-18",
+        "v": 2
+      },
+      {
+        "r": "PSA.19.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.3.12": {
     "text": "In wrath you strode through the earth and in anger you threshed the nations.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.51.33",
+        "v": 6
+      },
+      {
+        "r": "MIC.4.12-13",
+        "v": 3
+      },
+      {
+        "r": "ISA.41.15",
+        "v": 1
+      },
+      {
+        "r": "ACT.13.19",
+        "v": 1
+      },
+      {
+        "r": "NEH.9.22-24",
+        "v": 1
+      },
+      {
+        "r": "PSA.44.1-3",
+        "v": 1
+      },
+      {
+        "r": "AMO.1.3",
+        "v": 1
+      },
+      {
+        "r": "JOS.6.1-12",
+        "v": 1
+      },
+      {
+        "r": "PSA.78.55",
+        "v": 1
+      },
+      {
+        "r": "NUM.21.23-35",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "HAB.3.13": {
     "text": "You came out to deliver your people, to save your anointed one. You crushed the leader of the land of wickedness, you stripped him from head to foot.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.110.6",
+        "v": 9
+      },
+      {
+        "r": "PSA.105.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.28.8",
+        "v": 3
+      },
+      {
+        "r": "JOS.10.11",
+        "v": 3
+      },
+      {
+        "r": "JOS.10.42",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.1-2",
+        "v": 3
+      },
+      {
+        "r": "PSA.68.19-23",
+        "v": 3
+      },
+      {
+        "r": "JOS.11.12",
+        "v": 3
+      },
+      {
+        "r": "JOS.11.8",
+        "v": 3
+      },
+      {
+        "r": "JOS.10.24",
+        "v": 3
+      },
+      {
+        "r": "EXO.14.13-14",
+        "v": 3
+      },
+      {
+        "r": "PSA.20.6",
+        "v": 3
+      },
+      {
+        "r": "PSA.99.6",
+        "v": 1
+      },
+      {
+        "r": "PSA.77.20",
+        "v": 1
+      },
+      {
+        "r": "PSA.105.26",
+        "v": 1
+      },
+      {
+        "r": "PSA.74.13-14",
+        "v": 1
+      },
+      {
+        "r": "PSA.89.19-21",
+        "v": 1
+      },
+      {
+        "r": "PSA.18.37-45",
+        "v": 1
+      },
+      {
+        "r": "EXO.12.29-30",
+        "v": 1
+      },
+      {
+        "r": "PSA.68.7",
+        "v": 1
+      },
+      {
+        "r": "ISA.63.11",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "HAB.3.14": {
     "text": "With his own spear you pierced his head when his warriors stormed out to scatter us, gloating as though about to devour the wretched who were in hiding.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.9.14",
+        "v": 5
+      },
+      {
+        "r": "DAN.11.40",
+        "v": 4
+      },
+      {
+        "r": "PSA.118.10-12",
+        "v": 3
+      },
+      {
+        "r": "JDG.7.22",
+        "v": 2
+      },
+      {
+        "r": "EXO.12.12-13",
+        "v": 2
+      },
+      {
+        "r": "EXO.1.22",
+        "v": 2
+      },
+      {
+        "r": "EXO.15.9-10",
+        "v": 2
+      },
+      {
+        "r": "EXO.14.5-9",
+        "v": 2
+      },
+      {
+        "r": "EXO.12.29-30",
+        "v": 2
+      },
+      {
+        "r": "PSA.10.8",
+        "v": 2
+      },
+      {
+        "r": "EXO.14.17-18",
+        "v": 2
+      },
+      {
+        "r": "EXO.1.10-16",
+        "v": 2
+      },
+      {
+        "r": "EXO.11.4-7",
+        "v": 2
+      },
+      {
+        "r": "PSA.83.2",
+        "v": 1
+      },
+      {
+        "r": "ACT.4.27-28",
+        "v": 1
+      },
+      {
+        "r": "PSA.64.2-7",
+        "v": 1
+      },
+      {
+        "r": "PSA.78.50-51",
+        "v": 1
+      },
+      {
+        "r": "PSA.83.8-11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "HAB.3.15": {
     "text": "You trampled the sea with your horses, churning the great waters.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.77.19",
+        "v": 7
+      },
+      {
+        "r": "HAB.3.8",
+        "v": 4
+      },
+      {
+        "r": "EXO.15.8",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "HAB.3.16": {
     "text": "I heard and my heart pounded, my lips quivered at the sound; decay crept into my bones, and my legs trembled. Yet I will wait patiently for the day of calamity to come on the nation invading us.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.23.9",
+        "v": 8
+      },
+      {
+        "r": "HAB.3.2",
+        "v": 7
+      },
+      {
+        "r": "DAN.10.8",
+        "v": 7
+      },
+      {
+        "r": "HAB.1.5-11",
+        "v": 7
+      },
+      {
+        "r": "JER.45.3-5",
+        "v": 6
+      },
+      {
+        "r": "PSA.119.120",
+        "v": 6
+      },
+      {
+        "r": "2TH.1.6-9",
+        "v": 6
+      },
+      {
+        "r": "JER.25.9-11",
+        "v": 6
+      },
+      {
+        "r": "PSA.94.12-13",
+        "v": 6
+      },
+      {
+        "r": "JER.15.10-11",
+        "v": 5
+      },
+      {
+        "r": "DAN.8.27",
+        "v": 4
+      },
+      {
+        "r": "EZK.3.14",
+        "v": 4
+      },
+      {
+        "r": "2KI.24.1-2",
+        "v": 4
+      },
+      {
+        "r": "ISA.26.20-21",
+        "v": 4
+      },
+      {
+        "r": "DEU.28.49-52",
+        "v": 4
+      },
+      {
+        "r": "PSA.91.15",
+        "v": 3
+      },
+      {
+        "r": "EZK.9.4-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "HAB.3.17": {
     "text": "Though the fig tree does not bud and there are no grapes on the vines, though the olive crop fails and the fields produce no food, though there are no sheep in the pen and no cattle in the stalls,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.5.17",
+        "v": 10
+      },
+      {
+        "r": "JOL.1.16-18",
+        "v": 10
+      },
+      {
+        "r": "DEU.28.30-41",
+        "v": 7
+      },
+      {
+        "r": "DEU.28.15-18",
+        "v": 7
+      },
+      {
+        "r": "AMO.4.6-10",
+        "v": 6
+      },
+      {
+        "r": "JOL.1.10-13",
+        "v": 6
+      },
+      {
+        "r": "HAG.2.16-17",
+        "v": 6
+      },
+      {
+        "r": "JER.14.2-8",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "HAB.3.18": {
     "text": "yet I will rejoice in the Lord, I will be joyful in God my Savior.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.13.15",
+        "v": 33
+      },
+      {
+        "r": "PHP.4.4",
+        "v": 27
+      },
+      {
+        "r": "MIC.7.7",
+        "v": 26
+      },
+      {
+        "r": "ISA.61.10",
+        "v": 24
+      },
+      {
+        "r": "ISA.12.2",
+        "v": 22
+      },
+      {
+        "r": "ROM.5.2-3",
+        "v": 21
+      },
+      {
+        "r": "PSA.25.5",
+        "v": 20
+      },
+      {
+        "r": "PSA.46.1-5",
+        "v": 17
+      },
+      {
+        "r": "1PE.1.8",
+        "v": 14
+      },
+      {
+        "r": "PSA.118.14-15",
+        "v": 14
+      },
+      {
+        "r": "LUK.1.46-47",
+        "v": 14
+      },
+      {
+        "r": "EXO.15.2",
+        "v": 13
+      },
+      {
+        "r": "PSA.27.1",
+        "v": 13
+      },
+      {
+        "r": "1SA.2.1",
+        "v": 13
+      },
+      {
+        "r": "PSA.97.12",
+        "v": 11
+      },
+      {
+        "r": "LUK.2.30",
+        "v": 11
+      },
+      {
+        "r": "1PE.4.12-13",
+        "v": 11
+      },
+      {
+        "r": "ISA.41.16",
+        "v": 10
+      },
+      {
+        "r": "PSA.33.1",
+        "v": 10
+      },
+      {
+        "r": "PSA.85.6",
+        "v": 10
+      },
+      {
+        "r": "JAS.1.2",
+        "v": 10
+      },
+      {
+        "r": "JAS.1.9-10",
+        "v": 9
+      },
+      {
+        "r": "PSA.149.2",
+        "v": 9
+      },
+      {
+        "r": "PSA.104.34",
+        "v": 9
+      },
+      {
+        "r": "DEU.12.18",
+        "v": 7
+      },
+      {
+        "r": "ZEC.10.7",
+        "v": 7
+      }
+    ],
     "section": null
   },
   "HAB.3.19": {
     "text": "The Sovereign Lord is my strength; he makes my feet like the feet of a deer, he enables me to tread on the heights. For the director of music. On my stringed instruments.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.22.34",
+        "v": 44
+      },
+      {
+        "r": "PSA.18.33",
+        "v": 38
+      },
+      {
+        "r": "PHP.4.13",
+        "v": 33
+      },
+      {
+        "r": "PSA.46.1",
+        "v": 27
+      },
+      {
+        "r": "DEU.32.13",
+        "v": 22
+      },
+      {
+        "r": "PSA.27.1",
+        "v": 21
+      },
+      {
+        "r": "ISA.58.14",
+        "v": 18
+      },
+      {
+        "r": "2CO.12.9-10",
+        "v": 18
+      },
+      {
+        "r": "ISA.12.2",
+        "v": 16
+      },
+      {
+        "r": "COL.1.11",
+        "v": 15
+      },
+      {
+        "r": "EPH.3.16",
+        "v": 15
+      },
+      {
+        "r": "PSA.4.1-8",
+        "v": 13
+      },
+      {
+        "r": "DEU.33.29",
+        "v": 12
+      },
+      {
+        "r": "ZEC.10.12",
+        "v": 12
+      },
+      {
+        "r": "PSA.18.1",
+        "v": 10
+      },
+      {
+        "r": "PSA.76.1-12",
+        "v": 7
+      },
+      {
+        "r": "PSA.6.1-10",
+        "v": 6
+      },
+      {
+        "r": "PSA.54.1-55.23",
+        "v": 6
+      },
+      {
+        "r": "ISA.45.24",
+        "v": 6
+      },
+      {
+        "r": "PSA.67.1-7",
+        "v": 2
+      }
+    ],
     "section": null
   }
 }

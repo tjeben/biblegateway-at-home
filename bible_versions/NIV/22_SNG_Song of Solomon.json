@@ -8,13 +8,191 @@
   "SNG.1.2": {
     "text": "Let him kiss me with the kisses of his mouth— for your love is more delightful than wine.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.10",
+        "v": 6
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 5
+      },
+      {
+        "r": "PSA.36.7",
+        "v": 5
+      },
+      {
+        "r": "ISA.55.1-2",
+        "v": 4
+      },
+      {
+        "r": "PSA.63.3-5",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.20",
+        "v": 3
+      },
+      {
+        "r": "MAT.26.26",
+        "v": 3
+      },
+      {
+        "r": "SNG.8.1-2",
+        "v": 2
+      },
+      {
+        "r": "ISA.25.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.4",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.12",
+        "v": 2
+      },
+      {
+        "r": "PSA.2.12",
+        "v": 2
+      },
+      {
+        "r": "ACT.21.7",
+        "v": 1
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 1
+      },
+      {
+        "r": "SNG.7.6",
+        "v": 1
+      },
+      {
+        "r": "GEN.45.15",
+        "v": 0
+      },
+      {
+        "r": "1PE.5.14",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "SNG.1.3": {
     "text": "Pleasing is the fragrance of your perfumes; your name is like perfume poured out. No wonder the young women love you!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.7.1",
+        "v": 9
+      },
+      {
+        "r": "JHN.12.3",
+        "v": 8
+      },
+      {
+        "r": "EXO.30.23-28",
+        "v": 8
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 8
+      },
+      {
+        "r": "PHP.2.9-10",
+        "v": 7
+      },
+      {
+        "r": "PSA.45.7-8",
+        "v": 7
+      },
+      {
+        "r": "REV.14.4",
+        "v": 6
+      },
+      {
+        "r": "PSA.45.14",
+        "v": 5
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 5
+      },
+      {
+        "r": "PSA.133.2",
+        "v": 5
+      },
+      {
+        "r": "2CO.2.14-16",
+        "v": 5
+      },
+      {
+        "r": "ISA.9.6-7",
+        "v": 4
+      },
+      {
+        "r": "MAT.25.1",
+        "v": 4
+      },
+      {
+        "r": "ISA.61.3",
+        "v": 4
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 4
+      },
+      {
+        "r": "MAT.1.21-23",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 3
+      },
+      {
+        "r": "EXO.34.5-7",
+        "v": 3
+      },
+      {
+        "r": "PRO.27.9",
+        "v": 3
+      },
+      {
+        "r": "JER.23.5-6",
+        "v": 3
+      },
+      {
+        "r": "PSA.89.15-16",
+        "v": 3
+      },
+      {
+        "r": "2CO.11.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.12",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.8",
+        "v": 1
+      },
+      {
+        "r": "EXO.33.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.1.4": {
@@ -25,7 +203,152 @@
         "text": "The Hebrew is masculine singular."
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.6.44",
+        "v": 8
+      },
+      {
+        "r": "HOS.11.4",
+        "v": 8
+      },
+      {
+        "r": "PSA.45.14-15",
+        "v": 7
+      },
+      {
+        "r": "JHN.12.32",
+        "v": 5
+      },
+      {
+        "r": "JER.31.3",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.1",
+        "v": 3
+      },
+      {
+        "r": "ISA.61.3",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.45.25",
+        "v": 3
+      },
+      {
+        "r": "JHN.14.2-3",
+        "v": 3
+      },
+      {
+        "r": "LUK.2.10",
+        "v": 3
+      },
+      {
+        "r": "ZEC.9.9",
+        "v": 3
+      },
+      {
+        "r": "LUK.22.19",
+        "v": 3
+      },
+      {
+        "r": "ISA.63.7",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.4",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.10",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.2-3",
+        "v": 3
+      },
+      {
+        "r": "ISA.25.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.119.32",
+        "v": 2
+      },
+      {
+        "r": "ZEP.3.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.5",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.111.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.103.1-2",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3-5",
+        "v": 2
+      },
+      {
+        "r": "1CO.11.23-26",
+        "v": 2
+      },
+      {
+        "r": "PSA.42.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.48.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.60",
+        "v": 2
+      },
+      {
+        "r": "JHN.21.15-17",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.4",
+        "v": 1
+      },
+      {
+        "r": "1PE.1.8",
+        "v": 1
+      },
+      {
+        "r": "PHP.2.12-13",
+        "v": 1
+      },
+      {
+        "r": "EPH.6.24",
+        "v": 1
+      },
+      {
+        "r": "PHP.3.3",
+        "v": 1
+      },
+      {
+        "r": "PSA.98.4-9",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.1.5": {
@@ -36,79 +359,844 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.15.22",
+        "v": 7
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 7
+      },
+      {
+        "r": "PSA.120.5",
+        "v": 6
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 6
+      },
+      {
+        "r": "2CO.5.21",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.7",
+        "v": 6
+      },
+      {
+        "r": "SNG.5.8",
+        "v": 6
+      },
+      {
+        "r": "MAT.10.25",
+        "v": 5
+      },
+      {
+        "r": "ISA.61.10",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.3",
+        "v": 5
+      },
+      {
+        "r": "EZK.16.14",
+        "v": 5
+      },
+      {
+        "r": "LUK.13.34",
+        "v": 5
+      },
+      {
+        "r": "MAT.22.11",
+        "v": 5
+      },
+      {
+        "r": "ROM.13.14",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 5
+      },
+      {
+        "r": "ISA.60.7",
+        "v": 5
+      },
+      {
+        "r": "1CO.4.10-13",
+        "v": 5
+      },
+      {
+        "r": "1JN.3.1",
+        "v": 4
+      },
+      {
+        "r": "EPH.5.26",
+        "v": 4
+      },
+      {
+        "r": "SNG.8.4",
+        "v": 4
+      },
+      {
+        "r": "ISA.53.2",
+        "v": 4
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 4
+      },
+      {
+        "r": "PSA.90.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.5",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.9",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.4",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.1.6": {
     "text": "Do not stare at me because I am dark, because I am darkened by the sun. My mother’s sons were angry with me and made me take care of the vineyards; my own vineyard I had to neglect.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.8.11-12",
+        "v": 6
+      },
+      {
+        "r": "LUK.12.51-53",
+        "v": 5
+      },
+      {
+        "r": "JER.12.6",
+        "v": 4
+      },
+      {
+        "r": "MRK.4.6",
+        "v": 4
+      },
+      {
+        "r": "JOB.30.30",
+        "v": 4
+      },
+      {
+        "r": "PSA.69.8",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.35-36",
+        "v": 3
+      },
+      {
+        "r": "LAM.4.8",
+        "v": 3
+      },
+      {
+        "r": "ACT.14.22",
+        "v": 3
+      },
+      {
+        "r": "GAL.4.29",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.6",
+        "v": 3
+      },
+      {
+        "r": "MAT.10.25",
+        "v": 3
+      },
+      {
+        "r": "MAT.10.22",
+        "v": 3
+      },
+      {
+        "r": "RUT.1.19-21",
+        "v": 3
+      },
+      {
+        "r": "JER.8.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.7": {
     "text": "Tell me, you whom I love, where you graze your flock and where you rest your sheep at midday. Why should I be like a veiled woman beside the flocks of your friends?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.1-4",
+        "v": 8
+      },
+      {
+        "r": "ISA.13.20",
+        "v": 5
+      },
+      {
+        "r": "PSA.23.1-2",
+        "v": 4
+      },
+      {
+        "r": "PSA.28.1",
+        "v": 3
+      },
+      {
+        "r": "GEN.37.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.26.9",
+        "v": 2
+      },
+      {
+        "r": "MIC.5.4",
+        "v": 2
+      },
+      {
+        "r": "COL.3.14-18",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 2
+      },
+      {
+        "r": "JHN.6.67-69",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.8",
+        "v": 2
+      },
+      {
+        "r": "JER.33.12",
+        "v": 2
+      },
+      {
+        "r": "MAT.10.37",
+        "v": 2
+      },
+      {
+        "r": "JHN.10.28-29",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 2
+      },
+      {
+        "r": "1JN.2.19",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.13",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.7",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.10.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.18.1",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.116.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.10",
+        "v": 2
+      },
+      {
+        "r": "1SA.12.20-21",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 2
+      },
+      {
+        "r": "REV.7.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.80.1",
+        "v": 2
+      },
+      {
+        "r": "JHN.21.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.8": {
     "text": "If you do not know, most beautiful of women, follow the tracks of the sheep and graze your young goats by the tents of the shepherds.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.1",
+        "v": 6
+      },
+      {
+        "r": "SNG.5.9",
+        "v": 5
+      },
+      {
+        "r": "HEB.11.4-40",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.10",
+        "v": 3
+      },
+      {
+        "r": "JAS.2.21",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.27",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.7",
+        "v": 2
+      },
+      {
+        "r": "REV.19.7-8",
+        "v": 2
+      },
+      {
+        "r": "1CO.11.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.4-10",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 2
+      },
+      {
+        "r": "JHN.21.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 2
+      },
+      {
+        "r": "1PE.3.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.1-13",
+        "v": 2
+      },
+      {
+        "r": "HEB.6.12",
+        "v": 2
+      },
+      {
+        "r": "PSA.16.3",
+        "v": 2
+      },
+      {
+        "r": "JER.6.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.34",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.25",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.1.9": {
     "text": "I liken you, my darling, to a mare among Pharaoh’s chariot horses.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.13",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 5
+      },
+      {
+        "r": "JHN.15.14-15",
+        "v": 4
+      },
+      {
+        "r": "ISA.31.1",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.1.14-17",
+        "v": 2
+      },
+      {
+        "r": "1KI.10.28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.10": {
     "text": "Your cheeks are beautiful with earrings, your neck with strings of jewels.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.16.11-13",
+        "v": 12
+      },
+      {
+        "r": "1PE.3.4",
+        "v": 5
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 4
+      },
+      {
+        "r": "GEN.24.47",
+        "v": 4
+      },
+      {
+        "r": "SNG.4.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 3
+      },
+      {
+        "r": "NUM.31.50",
+        "v": 3
+      },
+      {
+        "r": "2PE.1.3-4",
+        "v": 3
+      },
+      {
+        "r": "GEN.24.22",
+        "v": 3
+      },
+      {
+        "r": "ISA.3.18-21",
+        "v": 3
+      },
+      {
+        "r": "PRO.1.9",
+        "v": 3
+      },
+      {
+        "r": "ISA.61.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.11": {
     "text": "We will make you earrings of gold, studded with silver.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.149.4",
+        "v": 4
+      },
+      {
+        "r": "PHP.3.21",
+        "v": 4
+      },
+      {
+        "r": "GEN.1.26",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.25-27",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.12": {
     "text": "While the king was at his table, my perfume spread its fragrance.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.12.3",
+        "v": 7
+      },
+      {
+        "r": "REV.3.20",
+        "v": 5
+      },
+      {
+        "r": "MRK.14.3",
+        "v": 4
+      },
+      {
+        "r": "PSA.45.1",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.11",
+        "v": 3
+      },
+      {
+        "r": "REV.8.3-4",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.13-16",
+        "v": 3
+      },
+      {
+        "r": "MAT.26.26-28",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.34",
+        "v": 3
+      },
+      {
+        "r": "LUK.24.30-32",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.4",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.1.13": {
     "text": "My beloved is to me a sachet of myrrh resting between my breasts.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.19.39",
+        "v": 5
+      },
+      {
+        "r": "PSA.45.8",
+        "v": 4
+      },
+      {
+        "r": "EPH.3.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.7",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.14",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.3-4",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.14": {
     "text": "My beloved is to me a cluster of henna blossoms from the vineyards of En Gedi.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.3",
+        "v": 3
+      },
+      {
+        "r": "JOS.15.62",
+        "v": 3
+      },
+      {
+        "r": "1SA.23.29-24.1",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.15": {
     "text": "How beautiful you are, my darling! Oh, how beautiful! Your eyes are doves.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.1",
+        "v": 12
+      },
+      {
+        "r": "SNG.5.12",
+        "v": 8
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 4
+      },
+      {
+        "r": "EPH.1.17-18",
+        "v": 3
+      },
+      {
+        "r": "2CO.11.2-3",
+        "v": 3
+      },
+      {
+        "r": "MAL.2.14",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.16": {
     "text": "How handsome you are, my beloved! Oh, how charming! And our bed is verdant.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.3",
+        "v": 5
+      },
+      {
+        "r": "PSA.45.2",
+        "v": 4
+      },
+      {
+        "r": "ZEC.9.17",
+        "v": 3
+      },
+      {
+        "r": "PHP.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "REV.5.11-13",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.7",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.10-16",
+        "v": 2
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.17": {
     "text": "The beams of our house are cedars; our rafters are firs.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HEB.11.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.92.12",
+        "v": 3
+      },
+      {
+        "r": "SNG.8.9",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 2
+      },
+      {
+        "r": "1KI.6.9",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.4-5",
+        "v": 2
+      },
+      {
+        "r": "1TI.3.15-16",
+        "v": 2
+      },
+      {
+        "r": "EZK.42.3",
+        "v": 2
+      },
+      {
+        "r": "2CH.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "EZK.41.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.1": {
@@ -119,13 +1207,63 @@
         "text": "Probably a member of the crocus family"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.57.15",
+        "v": 9
+      },
+      {
+        "r": "HOS.14.5",
+        "v": 8
+      },
+      {
+        "r": "ISA.35.1-2",
+        "v": 7
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 3
+      },
+      {
+        "r": "PSA.85.11",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.2.2": {
     "text": "Like a lily among thorns is my darling among the young women.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1PE.2.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.15-16",
+        "v": 2
+      },
+      {
+        "r": "ISA.55.13",
+        "v": 2
+      },
+      {
+        "r": "MAT.6.28-29",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.3": {
@@ -136,85 +1274,975 @@
         "text": "Or possibly"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.8.5",
+        "v": 7
+      },
+      {
+        "r": "ISA.25.4",
+        "v": 6
+      },
+      {
+        "r": "HEB.1.1-6",
+        "v": 6
+      },
+      {
+        "r": "ISA.32.2",
+        "v": 6
+      },
+      {
+        "r": "HEB.12.2",
+        "v": 5
+      },
+      {
+        "r": "JHN.1.14-18",
+        "v": 4
+      },
+      {
+        "r": "1JN.1.3-4",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.9-10",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.16",
+        "v": 3
+      },
+      {
+        "r": "HEB.7.23-26",
+        "v": 3
+      },
+      {
+        "r": "EZK.47.12",
+        "v": 3
+      },
+      {
+        "r": "PSA.91.1",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.29-31",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.4.6",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.1-8",
+        "v": 3
+      },
+      {
+        "r": "ISA.4.2",
+        "v": 3
+      },
+      {
+        "r": "HEB.3.1-6",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.5",
+        "v": 3
+      },
+      {
+        "r": "PSA.57.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.3.22-24",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.89.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.2",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.19-20",
+        "v": 2
+      },
+      {
+        "r": "REV.22.1-2",
+        "v": 1
+      },
+      {
+        "r": "EZK.17.23-24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.4": {
     "text": "Let him lead me to the banquet hall, and let his banner over me be love.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.4",
+        "v": 11
+      },
+      {
+        "r": "ROM.5.8-10",
+        "v": 11
+      },
+      {
+        "r": "ROM.8.28-39",
+        "v": 11
+      },
+      {
+        "r": "JHN.15.9-15",
+        "v": 11
+      },
+      {
+        "r": "REV.3.20",
+        "v": 10
+      },
+      {
+        "r": "PSA.84.10",
+        "v": 8
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 7
+      },
+      {
+        "r": "ISA.11.10",
+        "v": 7
+      },
+      {
+        "r": "PSA.20.5",
+        "v": 6
+      },
+      {
+        "r": "PSA.60.4",
+        "v": 6
+      },
+      {
+        "r": "JHN.14.21-23",
+        "v": 6
+      },
+      {
+        "r": "PSA.63.2-5",
+        "v": 6
+      },
+      {
+        "r": "SNG.1.1",
+        "v": 5
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 4
+      },
+      {
+        "r": "EST.7.7",
+        "v": 4
+      },
+      {
+        "r": "JOB.1.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.2.5": {
     "text": "Strengthen me with raisins, refresh me with apples, for I am faint with love.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.8",
+        "v": 5
+      },
+      {
+        "r": "2SA.6.19",
+        "v": 4
+      },
+      {
+        "r": "HOS.3.1",
+        "v": 4
+      },
+      {
+        "r": "PSA.42.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.4.6-7",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.1-2",
+        "v": 2
+      },
+      {
+        "r": "ISA.26.8-9",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.23",
+        "v": 2
+      },
+      {
+        "r": "LUK.24.32",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.130-131",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.1-3",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.8",
+        "v": 2
+      },
+      {
+        "r": "1CH.16.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.6": {
     "text": "His left arm is under my head, and his right arm embraces me.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.3.17",
+        "v": 6
+      },
+      {
+        "r": "ISA.54.5-10",
+        "v": 5
+      },
+      {
+        "r": "SNG.8.3-5",
+        "v": 3
+      },
+      {
+        "r": "JER.32.41",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.25-29",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.7": {
     "text": "Daughters of Jerusalem, I charge you by the gazelles and by the does of the field: Do not arouse or awaken love until it so desires.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.5",
+        "v": 9
+      },
+      {
+        "r": "SNG.8.4",
+        "v": 7
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 3
+      },
+      {
+        "r": "PRO.5.19",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.8-9",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.22-33",
+        "v": 1
+      },
+      {
+        "r": "SNG.2.9",
+        "v": 1
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 1
+      },
+      {
+        "r": "MAT.26.63",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "SNG.2.8": {
     "text": "Listen! My beloved! Look! Here he comes, leaping across the mountains, bounding over the hills.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.10.27",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.17",
+        "v": 4
+      },
+      {
+        "r": "REV.3.20",
+        "v": 4
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 4
+      },
+      {
+        "r": "ISA.52.7",
+        "v": 4
+      },
+      {
+        "r": "2SA.6.16",
+        "v": 3
+      },
+      {
+        "r": "ACT.14.10",
+        "v": 3
+      },
+      {
+        "r": "ISA.40.3-4",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.11-13",
+        "v": 3
+      },
+      {
+        "r": "ISA.55.12-13",
+        "v": 3
+      },
+      {
+        "r": "ISA.44.23",
+        "v": 3
+      },
+      {
+        "r": "ISA.35.6",
+        "v": 3
+      },
+      {
+        "r": "JHN.10.4-5",
+        "v": 3
+      },
+      {
+        "r": "LUK.3.4-6",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 3
+      },
+      {
+        "r": "ACT.3.8",
+        "v": 3
+      },
+      {
+        "r": "JER.48.27",
+        "v": 3
+      },
+      {
+        "r": "LUK.6.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.9": {
     "text": "My beloved is like a gazelle or a young stag. Look! There he stands behind our wall, gazing through the windows, peering through the lattice.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.8.14",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.17",
+        "v": 5
+      },
+      {
+        "r": "2SA.2.18",
+        "v": 2
+      },
+      {
+        "r": "HEB.10.19-20",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.39",
+        "v": 2
+      },
+      {
+        "r": "LUK.24.35",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.10-12",
+        "v": 2
+      },
+      {
+        "r": "HEB.10.1",
+        "v": 2
+      },
+      {
+        "r": "COL.2.17",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.46",
+        "v": 2
+      },
+      {
+        "r": "2CO.3.13-18",
+        "v": 2
+      },
+      {
+        "r": "REV.19.10",
+        "v": 2
+      },
+      {
+        "r": "1CO.13.12",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.14-15",
+        "v": 2
+      },
+      {
+        "r": "JHN.12.41",
+        "v": 2
+      },
+      {
+        "r": "HEB.9.8-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.10": {
     "text": "My beloved spoke and said to me, “Arise, my darling, my beautiful one, come with me.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.7-8",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 5
+      },
+      {
+        "r": "REV.22.17",
+        "v": 4
+      },
+      {
+        "r": "2CO.6.17-18",
+        "v": 3
+      },
+      {
+        "r": "REV.19.7-9",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.10-11",
+        "v": 3
+      },
+      {
+        "r": "2CO.11.2",
+        "v": 3
+      },
+      {
+        "r": "2SA.23.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.4.19-22",
+        "v": 2
+      },
+      {
+        "r": "PSA.85.8",
+        "v": 2
+      },
+      {
+        "r": "GEN.12.1-3",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "JER.31.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.9.9",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.11": {
     "text": "See! The winter is past; the rains are over and gone.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.60.1-2",
+        "v": 6
+      },
+      {
+        "r": "ECC.3.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.54.6-8",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.8",
+        "v": 3
+      },
+      {
+        "r": "REV.11.14-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.2",
+        "v": 2
+      },
+      {
+        "r": "ECC.3.4",
+        "v": 2
+      },
+      {
+        "r": "MAT.5.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.12.1-2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.12": {
     "text": "Flowers appear on the earth; the season of singing has come, the cooing of doves is heard in our land.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.55.12",
+        "v": 5
+      },
+      {
+        "r": "COL.3.16",
+        "v": 4
+      },
+      {
+        "r": "PSA.148.7-13",
+        "v": 4
+      },
+      {
+        "r": "JER.8.7",
+        "v": 4
+      },
+      {
+        "r": "PSA.89.15",
+        "v": 4
+      },
+      {
+        "r": "PSA.40.1-3",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.42.10-12",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.9-13",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.18-20",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.13-14",
+        "v": 2
+      },
+      {
+        "r": "ISA.35.1-2",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.5-7",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.13": {
     "text": "The fig tree forms its early fruit; the blossoming vines spread their fragrance. Arise, come, my darling; my beautiful one, come with me.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.10",
+        "v": 4
+      },
+      {
+        "r": "LUK.13.6-7",
+        "v": 3
+      },
+      {
+        "r": "ISA.61.11",
+        "v": 3
+      },
+      {
+        "r": "ISA.55.10-11",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.11-13",
+        "v": 3
+      },
+      {
+        "r": "2CO.6.1-2",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.8",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.18.5",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.19",
+        "v": 2
+      },
+      {
+        "r": "MAT.24.32",
+        "v": 2
+      },
+      {
+        "r": "2CO.5.20",
+        "v": 2
+      },
+      {
+        "r": "LUK.19.42",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.14": {
     "text": "My dove in the clefts of the rock, in the hiding places on the mountainside, show me your face, let me hear your voice; for your voice is sweet, and your face is lovely.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.2",
+        "v": 5
+      },
+      {
+        "r": "EZR.9.5-6",
+        "v": 5
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 5
+      },
+      {
+        "r": "EXO.3.6",
+        "v": 4
+      },
+      {
+        "r": "SNG.8.13",
+        "v": 4
+      },
+      {
+        "r": "EXO.33.22-23",
+        "v": 3
+      },
+      {
+        "r": "JER.48.28",
+        "v": 2
+      },
+      {
+        "r": "OBA.1.3",
+        "v": 2
+      },
+      {
+        "r": "ISA.51.3",
+        "v": 2
+      },
+      {
+        "r": "REV.5.8",
+        "v": 2
+      },
+      {
+        "r": "EXO.4.11-13",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 2
+      },
+      {
+        "r": "JER.49.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.9-10",
+        "v": 2
+      },
+      {
+        "r": "LUK.8.47-48",
+        "v": 2
+      },
+      {
+        "r": "EZK.7.16",
+        "v": 2
+      },
+      {
+        "r": "HEB.4.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.8",
+        "v": 2
+      },
+      {
+        "r": "1PE.3.4",
+        "v": 1
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 1
+      },
+      {
+        "r": "PRO.15.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.6.5",
+        "v": 1
+      },
+      {
+        "r": "HEB.10.22",
+        "v": 1
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 1
+      },
+      {
+        "r": "REV.7.9-10",
+        "v": 1
+      },
+      {
+        "r": "DAN.9.7",
+        "v": 1
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 1
+      },
+      {
+        "r": "JUD.1.24",
+        "v": 1
+      },
+      {
+        "r": "COL.1.22",
+        "v": 1
+      },
+      {
+        "r": "ISA.2.21",
+        "v": 1
+      },
+      {
+        "r": "PSA.50.23",
+        "v": 1
+      },
+      {
+        "r": "EPH.5.27",
+        "v": 1
+      },
+      {
+        "r": "PSA.74.19",
+        "v": 1
+      },
+      {
+        "r": "JOB.9.16",
+        "v": 1
+      },
+      {
+        "r": "REV.4.8-10",
+        "v": 1
+      },
+      {
+        "r": "MAT.3.16",
+        "v": 1
+      },
+      {
+        "r": "PSA.22.3",
+        "v": 1
+      },
+      {
+        "r": "SNG.1.8",
+        "v": 1
+      },
+      {
+        "r": "PSA.68.13",
+        "v": 1
+      },
+      {
+        "r": "PSA.50.14-15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.15": {
     "text": "Catch for us the foxes, the little foxes that ruin the vineyards, our vineyards that are in bloom.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.13.32",
+        "v": 12
+      },
+      {
+        "r": "2PE.2.1-3",
+        "v": 10
+      },
+      {
+        "r": "SNG.7.12",
+        "v": 8
+      },
+      {
+        "r": "PSA.80.13",
+        "v": 6
+      },
+      {
+        "r": "EZK.13.4-16",
+        "v": 5
+      },
+      {
+        "r": "REV.2.2",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "SNG.2.16": {
     "text": "My beloved is mine and I am his; he browses among the lilies.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.3",
+        "v": 12
+      },
+      {
+        "r": "SNG.7.10",
+        "v": 7
+      },
+      {
+        "r": "PSA.48.14",
+        "v": 3
+      },
+      {
+        "r": "PSA.63.1",
+        "v": 3
+      },
+      {
+        "r": "JER.31.33",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.7",
+        "v": 2
+      },
+      {
+        "r": "GAL.2.20",
+        "v": 2
+      },
+      {
+        "r": "REV.21.2-3",
+        "v": 2
+      },
+      {
+        "r": "1CO.3.21-23",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.17": {
@@ -225,67 +2253,546 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.6",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.78",
+        "v": 2
+      },
+      {
+        "r": "HEB.10.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.19",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.14",
+        "v": 2
+      },
+      {
+        "r": "ROM.13.12",
+        "v": 2
+      },
+      {
+        "r": "HEB.8.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.1": {
     "text": "All night long on my bed I looked for the one my heart loves; I looked for him but did not find him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1PE.1.8",
+        "v": 10
+      },
+      {
+        "r": "SNG.5.6",
+        "v": 9
+      },
+      {
+        "r": "SNG.1.7",
+        "v": 9
+      },
+      {
+        "r": "ISA.55.6",
+        "v": 8
+      },
+      {
+        "r": "ISA.26.9",
+        "v": 7
+      },
+      {
+        "r": "PSA.130.1-2",
+        "v": 5
+      },
+      {
+        "r": "PSA.22.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.5.8",
+        "v": 4
+      },
+      {
+        "r": "PSA.63.6-8",
+        "v": 3
+      },
+      {
+        "r": "PSA.4.4",
+        "v": 2
+      },
+      {
+        "r": "LUK.13.24",
+        "v": 2
+      },
+      {
+        "r": "JHN.21.17",
+        "v": 2
+      },
+      {
+        "r": "JOB.23.8-9",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.2-4",
+        "v": 2
+      },
+      {
+        "r": "PSA.6.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.2": {
     "text": "I will get up now and go about the city, through its streets and squares; I will search for the one my heart loves. So I looked for him but did not find him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.5.14",
+        "v": 3
+      },
+      {
+        "r": "ROM.13.11",
+        "v": 3
+      },
+      {
+        "r": "LUK.14.21-23",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.20-21",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.43.2-5",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.7-10",
+        "v": 2
+      },
+      {
+        "r": "1CO.15.34",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.2-3",
+        "v": 2
+      },
+      {
+        "r": "JER.5.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.42.7-9",
+        "v": 2
+      },
+      {
+        "r": "ISA.64.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.34",
+        "v": 2
+      },
+      {
+        "r": "PSA.22.1-2",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.40-41",
+        "v": 2
+      },
+      {
+        "r": "JHN.1.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.3": {
     "text": "The watchmen found me as they made their rounds in the city. “Have you seen the one my heart loves?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.7",
+        "v": 5
+      },
+      {
+        "r": "ISA.21.11-12",
+        "v": 3
+      },
+      {
+        "r": "EZK.33.2-9",
+        "v": 3
+      },
+      {
+        "r": "ISA.21.6-8",
+        "v": 3
+      },
+      {
+        "r": "JHN.20.15",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.6",
+        "v": 2
+      },
+      {
+        "r": "EZK.3.17",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.56.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.4": {
     "text": "Scarcely had I passed them when I found the one my heart loves. I held him and would not let him go till I had brought him to my mother’s house, to the room of the one who conceived me.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.8.17",
+        "v": 5
+      },
+      {
+        "r": "MAT.7.7",
+        "v": 4
+      },
+      {
+        "r": "PRO.4.13",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.12",
+        "v": 4
+      },
+      {
+        "r": "SNG.8.2",
+        "v": 4
+      },
+      {
+        "r": "ISA.45.19",
+        "v": 3
+      },
+      {
+        "r": "ISA.55.6-7",
+        "v": 3
+      },
+      {
+        "r": "JER.29.13",
+        "v": 3
+      },
+      {
+        "r": "LAM.3.25",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.14-18",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.54.1-3",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.3-4",
+        "v": 2
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 2
+      },
+      {
+        "r": "GEN.32.26",
+        "v": 2
+      },
+      {
+        "r": "JHN.20.16-17",
+        "v": 2
+      },
+      {
+        "r": "REV.3.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.5": {
     "text": "Daughters of Jerusalem, I charge you by the gazelles and by the does of the field: Do not arouse or awaken love until it so desires.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.7",
+        "v": 9
+      },
+      {
+        "r": "SNG.8.4",
+        "v": 7
+      },
+      {
+        "r": "MIC.4.8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.3.6": {
     "text": "Who is this coming up from the wilderness like a column of smoke, perfumed with myrrh and incense made from all the spices of the merchant?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.8.5",
+        "v": 6
+      },
+      {
+        "r": "REV.12.14",
+        "v": 4
+      },
+      {
+        "r": "SNG.4.6",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.13",
+        "v": 4
+      },
+      {
+        "r": "JER.2.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.43.19",
+        "v": 3
+      },
+      {
+        "r": "JOL.2.29-31",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.3",
+        "v": 3
+      },
+      {
+        "r": "REV.12.6",
+        "v": 3
+      },
+      {
+        "r": "JER.31.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.12-14",
+        "v": 3
+      },
+      {
+        "r": "DEU.8.2",
+        "v": 3
+      },
+      {
+        "r": "2CO.2.14-16",
+        "v": 2
+      },
+      {
+        "r": "REV.5.8",
+        "v": 2
+      },
+      {
+        "r": "EXO.30.34",
+        "v": 2
+      },
+      {
+        "r": "EXO.13.21-22",
+        "v": 2
+      },
+      {
+        "r": "COL.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.18-21",
+        "v": 2
+      },
+      {
+        "r": "MAT.2.11",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.7": {
     "text": "Look! It is Solomon’s carriage, escorted by sixty warriors, the noblest of Israel,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.9.22",
+        "v": 2
+      },
+      {
+        "r": "1SA.14.52",
+        "v": 2
+      },
+      {
+        "r": "HEB.1.14",
+        "v": 2
+      },
+      {
+        "r": "1SA.8.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.16",
+        "v": 2
+      },
+      {
+        "r": "1SA.28.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.9",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.17",
+        "v": 2
+      },
+      {
+        "r": "1KI.14.27",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.8": {
     "text": "all of them wearing the sword, all experienced in battle, each with his sword at his side, prepared for the terrors of the night.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.3",
+        "v": 4
+      },
+      {
+        "r": "EPH.6.16-18",
+        "v": 2
+      },
+      {
+        "r": "PSA.91.5",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.6-8",
+        "v": 2
+      },
+      {
+        "r": "NEH.4.21-22",
+        "v": 2
+      },
+      {
+        "r": "ISA.27.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.149.5-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.9": {
     "text": "King Solomon made for himself the carriage; he made it of wood from Lebanon.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.7",
+        "v": 2
+      },
+      {
+        "r": "REV.14.6",
+        "v": 1
+      },
+      {
+        "r": "2SA.23.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.3.10": {
     "text": "Its posts he made of silver, its base of gold. Its seat was upholstered with purple, its interior inlaid with love. Daughters of Jerusalem,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.3.18-19",
+        "v": 2
+      },
+      {
+        "r": "REV.3.12",
+        "v": 2
+      },
+      {
+        "r": "ROM.5.8",
+        "v": 2
+      },
+      {
+        "r": "1TI.3.15-16",
+        "v": 2
+      },
+      {
+        "r": "PSA.87.3",
+        "v": 2
+      },
+      {
+        "r": "REV.1.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.11": {
@@ -296,25 +2803,357 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.62.5",
+        "v": 6
+      },
+      {
+        "r": "HOS.2.19-20",
+        "v": 4
+      },
+      {
+        "r": "JER.2.2",
+        "v": 4
+      },
+      {
+        "r": "REV.1.7",
+        "v": 3
+      },
+      {
+        "r": "MAT.12.42",
+        "v": 3
+      },
+      {
+        "r": "HEB.13.13",
+        "v": 3
+      },
+      {
+        "r": "PSA.9.14",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.17",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 2
+      },
+      {
+        "r": "REV.5.9-10",
+        "v": 2
+      },
+      {
+        "r": "JER.32.41",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.5",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.23-24",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.7",
+        "v": 2
+      },
+      {
+        "r": "ISA.53.11",
+        "v": 2
+      },
+      {
+        "r": "REV.19.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.32",
+        "v": 2
+      },
+      {
+        "r": "COL.1.18",
+        "v": 2
+      },
+      {
+        "r": "ISA.4.4",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.6-7",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.16-17",
+        "v": 2
+      },
+      {
+        "r": "PSA.48.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.11",
+        "v": 2
+      },
+      {
+        "r": "REV.19.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.6",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.9",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.9-11",
+        "v": 2
+      },
+      {
+        "r": "REV.22.9-10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.1": {
     "text": "How beautiful you are, my darling! Oh, how beautiful! Your eyes behind your veil are doves. Your hair is like a flock of goats descending from the hills of Gilead.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.15",
+        "v": 7
+      },
+      {
+        "r": "SNG.6.5",
+        "v": 7
+      },
+      {
+        "r": "SNG.6.7",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.9-10",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.14",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 3
+      },
+      {
+        "r": "PHP.2.3-5",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 2
+      },
+      {
+        "r": "NUM.32.40",
+        "v": 2
+      },
+      {
+        "r": "NUM.32.1",
+        "v": 2
+      },
+      {
+        "r": "MAT.11.29",
+        "v": 2
+      },
+      {
+        "r": "2CO.3.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.2": {
     "text": "Your teeth are like a flock of sheep just shorn, coming up from the washing. Each has its twin; not one of them is alone.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.6",
+        "v": 5
+      },
+      {
+        "r": "JER.15.16",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.7",
+        "v": 2
+      },
+      {
+        "r": "COL.1.4-6",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.13",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.5-8",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.26",
+        "v": 2
+      },
+      {
+        "r": "DEU.7.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.3": {
     "text": "Your lips are like a scarlet ribbon; your mouth is lovely. Your temples behind your veil are like the halves of a pomegranate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.7",
+        "v": 5
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 4
+      },
+      {
+        "r": "JOS.2.18",
+        "v": 4
+      },
+      {
+        "r": "2CO.5.18-21",
+        "v": 2
+      },
+      {
+        "r": "LEV.14.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.16.21-24",
+        "v": 2
+      },
+      {
+        "r": "NUM.4.8",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.29",
+        "v": 2
+      },
+      {
+        "r": "NUM.19.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.10.20-21",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 2
+      },
+      {
+        "r": "COL.3.16-17",
+        "v": 2
+      },
+      {
+        "r": "COL.4.6",
+        "v": 2
+      },
+      {
+        "r": "MAT.12.35",
+        "v": 2
+      },
+      {
+        "r": "PSA.37.30",
+        "v": 2
+      },
+      {
+        "r": "PRO.31.26",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.6",
+        "v": 2
+      },
+      {
+        "r": "LEV.14.49-52",
+        "v": 2
+      },
+      {
+        "r": "HEB.9.19",
+        "v": 2
+      },
+      {
+        "r": "LUK.4.22",
+        "v": 2
+      },
+      {
+        "r": "GEN.32.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.2",
+        "v": 2
+      },
+      {
+        "r": "LEV.14.4",
+        "v": 2
+      },
+      {
+        "r": "PRO.10.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.63",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.4": {
@@ -325,67 +3164,730 @@
         "text": "The meaning of the Hebrew for this phrase is uncertain."
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.7.4",
+        "v": 6
+      },
+      {
+        "r": "EPH.4.15-16",
+        "v": 4
+      },
+      {
+        "r": "1PE.1.5",
+        "v": 4
+      },
+      {
+        "r": "NEH.3.19",
+        "v": 4
+      },
+      {
+        "r": "EZK.27.10-11",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.10",
+        "v": 3
+      },
+      {
+        "r": "2SA.22.51",
+        "v": 3
+      },
+      {
+        "r": "2CH.12.9-11",
+        "v": 3
+      },
+      {
+        "r": "COL.2.19",
+        "v": 3
+      },
+      {
+        "r": "2SA.1.21",
+        "v": 2
+      },
+      {
+        "r": "2CH.9.15-16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.5": {
     "text": "Your breasts are like two fawns, like twin fawns of a gazelle that browse among the lilies.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.7.3",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 4
+      },
+      {
+        "r": "PRO.5.19",
+        "v": 3
+      },
+      {
+        "r": "1PE.2.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.8.10",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.13",
+        "v": 2
+      },
+      {
+        "r": "ISA.66.10-12",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.6": {
     "text": "Until the day breaks and the shadows flee, I will go to the mountain of myrrh and to the hill of incense.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.17",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.14",
+        "v": 4
+      },
+      {
+        "r": "LUK.1.78",
+        "v": 3
+      },
+      {
+        "r": "ISA.2.2",
+        "v": 2
+      },
+      {
+        "r": "EXO.20.24",
+        "v": 2
+      },
+      {
+        "r": "PSA.66.15",
+        "v": 2
+      },
+      {
+        "r": "EXO.37.29",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.9-10",
+        "v": 2
+      },
+      {
+        "r": "EXO.30.23-26",
+        "v": 2
+      },
+      {
+        "r": "MAL.4.2",
+        "v": 2
+      },
+      {
+        "r": "EXO.30.8",
+        "v": 2
+      },
+      {
+        "r": "REV.22.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.12.5-6",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.19",
+        "v": 2
+      },
+      {
+        "r": "REV.5.8",
+        "v": 2
+      },
+      {
+        "r": "1JN.2.8",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.7": {
     "text": "You are altogether beautiful, my darling; there is no flaw in you.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.15",
+        "v": 12
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 6
+      },
+      {
+        "r": "JUD.1.24",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.25-27",
+        "v": 5
+      },
+      {
+        "r": "COL.1.22",
+        "v": 5
+      },
+      {
+        "r": "2PE.3.14",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 2
+      },
+      {
+        "r": "NUM.24.5",
+        "v": 2
+      },
+      {
+        "r": "REV.21.2",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "SNG.4.8": {
     "text": "Come with me from Lebanon, my bride, come with me from Lebanon. Descend from the crest of Amana, from the top of Senir, the summit of Hermon, from the lions’ dens and the mountain haunts of leopards.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.3.9",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 5
+      },
+      {
+        "r": "PSA.45.10",
+        "v": 4
+      },
+      {
+        "r": "1CH.5.23",
+        "v": 4
+      },
+      {
+        "r": "ISA.62.5",
+        "v": 3
+      },
+      {
+        "r": "DEU.3.25",
+        "v": 2
+      },
+      {
+        "r": "COL.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.4",
+        "v": 2
+      },
+      {
+        "r": "1KI.4.33",
+        "v": 2
+      },
+      {
+        "r": "JHN.12.26",
+        "v": 2
+      },
+      {
+        "r": "PRO.9.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.11",
+        "v": 2
+      },
+      {
+        "r": "JOS.12.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.9": {
     "text": "You have stolen my heart, my sister, my bride; you have stolen my heart with one glance of your eyes, with one jewel of your necklace.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.12",
+        "v": 5
+      },
+      {
+        "r": "PRO.5.19-20",
+        "v": 5
+      },
+      {
+        "r": "SNG.5.1-2",
+        "v": 5
+      },
+      {
+        "r": "SNG.7.5-6",
+        "v": 4
+      },
+      {
+        "r": "2CO.11.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.10",
+        "v": 4
+      },
+      {
+        "r": "HOS.2.19-20",
+        "v": 4
+      },
+      {
+        "r": "PSA.45.9",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 3
+      },
+      {
+        "r": "EZK.16.8",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.5",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.5",
+        "v": 3
+      },
+      {
+        "r": "REV.21.9-10",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.11",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.12",
+        "v": 3
+      },
+      {
+        "r": "REV.21.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.10",
+        "v": 3
+      },
+      {
+        "r": "ISA.54.5",
+        "v": 3
+      },
+      {
+        "r": "REV.19.7-8",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.11-14",
+        "v": 2
+      },
+      {
+        "r": "MAT.12.50",
+        "v": 2
+      },
+      {
+        "r": "GEN.20.12",
+        "v": 2
+      },
+      {
+        "r": "1CO.9.5",
+        "v": 2
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.10": {
     "text": "How delightful is your love, my sister, my bride! How much more pleasing is your love than wine, and the fragrance of your perfume more than any spice!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.2-4",
+        "v": 5
+      },
+      {
+        "r": "GAL.5.22",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.6",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.12",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "REV.5.8",
+        "v": 1
+      },
+      {
+        "r": "2CO.1.21-22",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.4.11": {
     "text": "Your lips drop sweetness as the honeycomb, my bride; milk and honey are under your tongue. The fragrance of your garments is like the fragrance of Lebanon.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.1",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.27.27",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 3
+      },
+      {
+        "r": "HOS.14.6-7",
+        "v": 3
+      },
+      {
+        "r": "PRO.24.13-14",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.15",
+        "v": 2
+      },
+      {
+        "r": "PRO.16.24",
+        "v": 2
+      },
+      {
+        "r": "PRO.5.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.71.23-24",
+        "v": 2
+      },
+      {
+        "r": "PSA.71.14-15",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.19.10",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.4.12": {
     "text": "You are a garden locked up, my sister, my bride; you are a spring enclosed, a sealed fountain.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.5.15-18",
+        "v": 7
+      },
+      {
+        "r": "REV.21.27",
+        "v": 6
+      },
+      {
+        "r": "1CO.6.13",
+        "v": 4
+      },
+      {
+        "r": "ISA.61.10-11",
+        "v": 4
+      },
+      {
+        "r": "1CO.7.34",
+        "v": 3
+      },
+      {
+        "r": "REV.7.3",
+        "v": 3
+      },
+      {
+        "r": "1CO.6.19-20",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "2CO.1.22",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.11",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.30",
+        "v": 2
+      },
+      {
+        "r": "HOS.6.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 2
+      },
+      {
+        "r": "GEN.29.3",
+        "v": 2
+      },
+      {
+        "r": "JER.31.12",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.13": {
     "text": "Your plants are an orchard of pomegranates with choice fruits, with henna and nard,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.14",
+        "v": 6
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 5
+      },
+      {
+        "r": "ECC.2.5",
+        "v": 5
+      },
+      {
+        "r": "SNG.1.12",
+        "v": 4
+      },
+      {
+        "r": "PHP.1.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.21",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.1-3",
+        "v": 2
+      },
+      {
+        "r": "MRK.14.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.61.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.2",
+        "v": 2
+      },
+      {
+        "r": "JHN.12.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.12-13",
+        "v": 2
+      },
+      {
+        "r": "PSA.92.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.14": {
     "text": "nard and saffron, calamus and cinnamon, with every kind of incense tree, with myrrh and aloes and all the finest spices.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.30.23",
+        "v": 6
+      },
+      {
+        "r": "SNG.4.6",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.12",
+        "v": 3
+      },
+      {
+        "r": "EZK.27.19",
+        "v": 3
+      },
+      {
+        "r": "PRO.7.17",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.10",
+        "v": 2
+      },
+      {
+        "r": "MRK.16.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.9.9",
+        "v": 2
+      },
+      {
+        "r": "REV.18.13",
+        "v": 2
+      },
+      {
+        "r": "JHN.19.39",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.11",
+        "v": 2
+      },
+      {
+        "r": "NUM.24.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.15": {
@@ -396,43 +3898,594 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.4.10",
+        "v": 5
+      },
+      {
+        "r": "JHN.4.14",
+        "v": 4
+      },
+      {
+        "r": "JHN.7.38",
+        "v": 4
+      },
+      {
+        "r": "JER.2.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.12",
+        "v": 2
+      },
+      {
+        "r": "REV.22.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.36.8-9",
+        "v": 2
+      },
+      {
+        "r": "JER.18.13-14",
+        "v": 2
+      },
+      {
+        "r": "JER.17.13",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.46.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.16": {
     "text": "Awake, north wind, and come, south wind! Blow on my garden, that its fragrance may spread everywhere. Let my beloved come into his garden and taste its choice fruits.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.2",
+        "v": 6
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 5
+      },
+      {
+        "r": "EZK.37.9",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.13-14",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.12-13",
+        "v": 3
+      },
+      {
+        "r": "1PE.2.5",
+        "v": 3
+      },
+      {
+        "r": "ACT.2.1-2",
+        "v": 3
+      },
+      {
+        "r": "ISA.64.1",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.28",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.9-11",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 2
+      },
+      {
+        "r": "ACT.4.31",
+        "v": 2
+      },
+      {
+        "r": "2CO.9.10-15",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.20-21",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.8",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.12",
+        "v": 2
+      },
+      {
+        "r": "JHN.3.8",
+        "v": 2
+      },
+      {
+        "r": "COL.1.9-12",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.12-13",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.12",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.10",
+        "v": 2
+      },
+      {
+        "r": "ECC.1.6",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.51.9-11",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.9-10",
+        "v": 1
+      },
+      {
+        "r": "2PE.3.18",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.1": {
     "text": "I have come into my garden, my sister, my bride; I have gathered my myrrh with my spice. I have eaten my honeycomb and my honey; I have drunk my wine and my milk. Eat, friends, and drink; drink your fill of love.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.2",
+        "v": 8
+      },
+      {
+        "r": "SNG.4.16",
+        "v": 6
+      },
+      {
+        "r": "SNG.4.9-14",
+        "v": 5
+      },
+      {
+        "r": "REV.22.17",
+        "v": 5
+      },
+      {
+        "r": "ISA.55.1-2",
+        "v": 4
+      },
+      {
+        "r": "PRO.9.5",
+        "v": 4
+      },
+      {
+        "r": "ISA.66.14",
+        "v": 4
+      },
+      {
+        "r": "ISA.51.3",
+        "v": 4
+      },
+      {
+        "r": "SNG.8.13",
+        "v": 4
+      },
+      {
+        "r": "ISA.58.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.61.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.65.13",
+        "v": 3
+      },
+      {
+        "r": "LUK.12.4",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.14-15",
+        "v": 3
+      },
+      {
+        "r": "ACT.11.29",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.9-10",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.8-9",
+        "v": 3
+      },
+      {
+        "r": "2CH.31.6-10",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.1",
+        "v": 2
+      },
+      {
+        "r": "1TH.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "MAT.25.40",
+        "v": 2
+      },
+      {
+        "r": "ISA.53.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.23.18",
+        "v": 2
+      },
+      {
+        "r": "PSA.16.3",
+        "v": 2
+      },
+      {
+        "r": "JHN.14.21-23",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.18",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.1",
+        "v": 2
+      },
+      {
+        "r": "DEU.26.10-14",
+        "v": 2
+      },
+      {
+        "r": "DEU.16.13-17",
+        "v": 2
+      },
+      {
+        "r": "2CO.9.11-15",
+        "v": 2
+      },
+      {
+        "r": "ZEC.9.15-17",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.12-14",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.6-7",
+        "v": 2
+      },
+      {
+        "r": "PSA.147.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.2": {
     "text": "I slept but my heart was awake. Listen! My beloved is knocking: “Open to me, my sister, my darling, my dove, my flawless one. My head is drenched with dew, my hair with the dampness of the night.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.3.20",
+        "v": 7
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 6
+      },
+      {
+        "r": "ZEC.4.1",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.9",
+        "v": 4
+      },
+      {
+        "r": "PSA.119.1",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 2
+      },
+      {
+        "r": "GEN.29.20",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 2
+      },
+      {
+        "r": "PSA.81.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.23.26",
+        "v": 2
+      },
+      {
+        "r": "GEN.31.40-41",
+        "v": 2
+      },
+      {
+        "r": "MAT.8.17",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.53.3-5",
+        "v": 2
+      },
+      {
+        "r": "PSA.24.7-10",
+        "v": 2
+      },
+      {
+        "r": "ISA.52.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.50.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.1",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.40-41",
+        "v": 1
+      },
+      {
+        "r": "DAN.8.18",
+        "v": 1
+      },
+      {
+        "r": "MAT.25.4-5",
+        "v": 1
+      },
+      {
+        "r": "2CO.5.14-15",
+        "v": 1
+      },
+      {
+        "r": "MAT.25.35-45",
+        "v": 1
+      },
+      {
+        "r": "JHN.10.4",
+        "v": 1
+      },
+      {
+        "r": "MRK.1.35",
+        "v": 1
+      },
+      {
+        "r": "EPH.5.14",
+        "v": 1
+      },
+      {
+        "r": "LUK.22.44",
+        "v": 1
+      },
+      {
+        "r": "LUK.6.12",
+        "v": 1
+      },
+      {
+        "r": "REV.3.4",
+        "v": 1
+      },
+      {
+        "r": "GAL.2.20",
+        "v": 1
+      },
+      {
+        "r": "LUK.9.32",
+        "v": 1
+      },
+      {
+        "r": "REV.14.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.3": {
     "text": "I have taken off my robe— must I put it on again? I have washed my feet— must I soil them again?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.11.7",
+        "v": 4
+      },
+      {
+        "r": "ROM.7.22-23",
+        "v": 2
+      },
+      {
+        "r": "PRO.13.4",
+        "v": 2
+      },
+      {
+        "r": "PRO.3.28",
+        "v": 2
+      },
+      {
+        "r": "MAT.25.5",
+        "v": 2
+      },
+      {
+        "r": "PRO.22.13",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.38-43",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.4": {
     "text": "My beloved thrust his hand through the latch-opening; my heart began to pound for him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.16.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.1-2",
+        "v": 2
+      },
+      {
+        "r": "1KI.3.26",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.13",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.30",
+        "v": 2
+      },
+      {
+        "r": "ISA.26.8-9",
+        "v": 1
+      },
+      {
+        "r": "1JN.3.16-17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.5": {
     "text": "I arose to open for my beloved, and my hands dripped with myrrh, my fingers with flowing myrrh, on the handles of the bolt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.13",
+        "v": 5
+      },
+      {
+        "r": "EPH.3.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "REV.3.20",
+        "v": 2
+      },
+      {
+        "r": "2CO.7.9-11",
+        "v": 2
+      },
+      {
+        "r": "2CO.7.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.12.36",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.6": {
@@ -443,133 +4496,1247 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.2",
+        "v": 5
+      },
+      {
+        "r": "HOS.5.15",
+        "v": 3
+      },
+      {
+        "r": "REV.3.19",
+        "v": 3
+      },
+      {
+        "r": "PSA.69.3",
+        "v": 2
+      },
+      {
+        "r": "LAM.3.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.88.9-14",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.75",
+        "v": 2
+      },
+      {
+        "r": "ISA.12.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.54.6-8",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.3",
+        "v": 2
+      },
+      {
+        "r": "ZEC.7.13",
+        "v": 2
+      },
+      {
+        "r": "HOS.5.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.28.1",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.28",
+        "v": 2
+      },
+      {
+        "r": "1SA.28.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.30.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.22.61-62",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.80.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.57.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.1",
+        "v": 2
+      },
+      {
+        "r": "MRK.14.72",
+        "v": 2
+      },
+      {
+        "r": "MAT.15.22-28",
+        "v": 2
+      },
+      {
+        "r": "GEN.42.28",
+        "v": 2
+      },
+      {
+        "r": "ISA.50.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.22.1-2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.7": {
     "text": "The watchmen found me as they made their rounds in the city. They beat me, they bruised me; they took away my cloak, those watchmen of the walls!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.3",
+        "v": 6
+      },
+      {
+        "r": "ACT.26.9-10",
+        "v": 2
+      },
+      {
+        "r": "ISA.6.10-11",
+        "v": 2
+      },
+      {
+        "r": "ACT.20.29-30",
+        "v": 2
+      },
+      {
+        "r": "2CO.11.13",
+        "v": 2
+      },
+      {
+        "r": "HOS.6.5",
+        "v": 2
+      },
+      {
+        "r": "1PE.4.14-16",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.29-36",
+        "v": 2
+      },
+      {
+        "r": "ACT.5.40-41",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.11",
+        "v": 2
+      },
+      {
+        "r": "PHP.3.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.6.22",
+        "v": 2
+      },
+      {
+        "r": "HEB.12.2",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.141.5",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.2",
+        "v": 2
+      },
+      {
+        "r": "REV.17.5-6",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.33-41",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.7-8",
+        "v": 2
+      },
+      {
+        "r": "HEB.11.36-37",
+        "v": 2
+      },
+      {
+        "r": "1CO.4.10-13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.8": {
     "text": "Daughters of Jerusalem, I charge you— if you find my beloved, what will you tell him? Tell him I am faint with love.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.7",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.5",
+        "v": 6
+      },
+      {
+        "r": "PSA.42.1-3",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.5",
+        "v": 3
+      },
+      {
+        "r": "PSA.119.81-83",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.30",
+        "v": 2
+      },
+      {
+        "r": "GAL.6.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.1-3",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.1-3",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.16",
+        "v": 1
+      },
+      {
+        "r": "SNG.8.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.9": {
     "text": "How is your beloved better than others, most beautiful of women? How is your beloved better than others, that you so charge us?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.8",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.1",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.9-10",
+        "v": 4
+      },
+      {
+        "r": "MAT.16.13-17",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.13",
+        "v": 3
+      },
+      {
+        "r": "ISA.53.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.87.3",
+        "v": 3
+      },
+      {
+        "r": "MAT.21.10",
+        "v": 2
+      },
+      {
+        "r": "JHN.1.14",
+        "v": 2
+      },
+      {
+        "r": "2CO.4.3-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.10": {
     "text": "My beloved is radiant and ruddy, outstanding among ten thousand.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.2",
+        "v": 4
+      },
+      {
+        "r": "PHP.2.9-11",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.1",
+        "v": 3
+      },
+      {
+        "r": "1SA.16.12",
+        "v": 2
+      },
+      {
+        "r": "COL.1.18",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.10",
+        "v": 2
+      },
+      {
+        "r": "HEB.7.26",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.31",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.18",
+        "v": 1
+      },
+      {
+        "r": "ISA.59.19",
+        "v": 1
+      },
+      {
+        "r": "ROM.9.5",
+        "v": 1
+      },
+      {
+        "r": "ISA.66.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.11": {
     "text": "His head is purest gold; his hair is wavy and black as a raven.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.1.21-22",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 3
+      },
+      {
+        "r": "REV.1.14",
+        "v": 3
+      },
+      {
+        "r": "DAN.7.9",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 3
+      },
+      {
+        "r": "DAN.2.37-38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.12": {
     "text": "His eyes are like doves by the water streams, washed in milk, mounted like jewels.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.15",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 5
+      },
+      {
+        "r": "HEB.4.13",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.5.13": {
     "text": "His cheeks are like beds of spice yielding perfume. His lips are like lilies dripping with myrrh.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.10",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.2",
+        "v": 2
+      },
+      {
+        "r": "LUK.4.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.27.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.4.6-7",
+        "v": 2
+      },
+      {
+        "r": "PSA.89.15",
+        "v": 2
+      },
+      {
+        "r": "ISA.50.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "REV.21.23",
+        "v": 2
+      },
+      {
+        "r": "ISA.50.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.14": {
     "text": "His arms are rods of gold set with topaz. His body is like polished ivory decorated with lapis lazuli.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.24.10",
+        "v": 4
+      },
+      {
+        "r": "ISA.54.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.99.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.39.13",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.7",
+        "v": 2
+      },
+      {
+        "r": "EXO.28.20",
+        "v": 2
+      },
+      {
+        "r": "ISA.52.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.1.16",
+        "v": 2
+      },
+      {
+        "r": "EZK.1.26-28",
+        "v": 2
+      },
+      {
+        "r": "EXO.15.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.44.4-7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.15": {
     "text": "His legs are pillars of marble set on bases of pure gold. His appearance is like Lebanon, choice as its cedars.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.4.33",
+        "v": 3
+      },
+      {
+        "r": "REV.1.15-16",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.4",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.7",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.92.12",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.28",
+        "v": 2
+      },
+      {
+        "r": "MAT.17.2",
+        "v": 2
+      },
+      {
+        "r": "1TI.3.16",
+        "v": 2
+      },
+      {
+        "r": "JDG.13.6",
+        "v": 2
+      },
+      {
+        "r": "EXO.26.19",
+        "v": 2
+      },
+      {
+        "r": "ZEC.9.17",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.11",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.16": {
     "text": "His mouth is sweetness itself; he is altogether lovely. This is my beloved, this is my friend, daughters of Jerusalem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.3.1",
+        "v": 2
+      },
+      {
+        "r": "PHP.3.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.148.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.6-7",
+        "v": 2
+      },
+      {
+        "r": "JAS.4.4",
+        "v": 2
+      },
+      {
+        "r": "GAL.2.20",
+        "v": 2
+      },
+      {
+        "r": "PSA.19.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.6-7",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.103",
+        "v": 2
+      },
+      {
+        "r": "JER.3.20",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.1",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.23",
+        "v": 2
+      },
+      {
+        "r": "PSA.89.6",
+        "v": 2
+      },
+      {
+        "r": "JER.15.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.1": {
     "text": "Where has your beloved gone, most beautiful of women? Which way did your beloved turn, that we may look for him with you?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.8",
+        "v": 9
+      },
+      {
+        "r": "SNG.5.9",
+        "v": 9
+      },
+      {
+        "r": "JER.14.8",
+        "v": 6
+      },
+      {
+        "r": "RUT.2.12",
+        "v": 5
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 4
+      },
+      {
+        "r": "RUT.1.16-17",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.2",
+        "v": 4
+      },
+      {
+        "r": "ISA.2.5",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.9-10",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 4
+      },
+      {
+        "r": "SNG.5.6",
+        "v": 3
+      },
+      {
+        "r": "ZEC.8.21-23",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.11-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.2": {
     "text": "My beloved has gone down to his garden, to the beds of spices, to browse in the gardens and to gather lilies.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.13",
+        "v": 7
+      },
+      {
+        "r": "PHP.1.21-23",
+        "v": 2
+      },
+      {
+        "r": "EZK.34.23",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.14.3",
+        "v": 2
+      },
+      {
+        "r": "JHN.17.24",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.20",
+        "v": 2
+      },
+      {
+        "r": "ZEP.3.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.57.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.4.34-35",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 2
+      },
+      {
+        "r": "ISA.61.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.7-8",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.1-2",
+        "v": 2
+      },
+      {
+        "r": "REV.7.17",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.12-5.1",
+        "v": 2
+      },
+      {
+        "r": "1TH.4.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.3": {
     "text": "I am my beloved’s and my beloved is mine; he browses among the lilies.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.16",
+        "v": 12
+      },
+      {
+        "r": "SNG.7.10",
+        "v": 10
+      },
+      {
+        "r": "HEB.8.10",
+        "v": 5
+      },
+      {
+        "r": "REV.21.2-4",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "SNG.6.4": {
     "text": "You are as beautiful as Tirzah, my darling, as lovely as Jerusalem, as majestic as troops with banners.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.10",
+        "v": 8
+      },
+      {
+        "r": "PSA.48.2",
+        "v": 5
+      },
+      {
+        "r": "1KI.14.17",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.50.2",
+        "v": 3
+      },
+      {
+        "r": "LAM.2.15",
+        "v": 3
+      },
+      {
+        "r": "REV.21.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.4-8",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.27",
+        "v": 2
+      },
+      {
+        "r": "1KI.15.21",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.13-14",
+        "v": 2
+      },
+      {
+        "r": "2CO.10.4",
+        "v": 2
+      },
+      {
+        "r": "1KI.15.33",
+        "v": 2
+      },
+      {
+        "r": "ZEC.12.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 2
+      },
+      {
+        "r": "NUM.24.5-9",
+        "v": 2
+      },
+      {
+        "r": "REV.19.14-16",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.5": {
     "text": "Turn your eyes from me; they overwhelm me. Your hair is like a flock of goats descending from Gilead.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.15.27-28",
+        "v": 4
+      },
+      {
+        "r": "EXO.32.10",
+        "v": 4
+      },
+      {
+        "r": "JER.15.1",
+        "v": 4
+      },
+      {
+        "r": "GEN.32.26-28",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.1-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.6": {
     "text": "Your teeth are like a flock of sheep coming up from the washing. Each has its twin, not one of them is missing.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.2",
+        "v": 5
+      },
+      {
+        "r": "MAT.25.30",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.7": {
     "text": "Your temples behind your veil are like the halves of a pomegranate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.3",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "SNG.6.8": {
     "text": "Sixty queens there may be, and eighty concubines, and virgins beyond number;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.14",
+        "v": 12
+      },
+      {
+        "r": "1KI.11.3",
+        "v": 9
+      },
+      {
+        "r": "1KI.11.1",
+        "v": 8
+      },
+      {
+        "r": "PSA.45.9",
+        "v": 7
+      },
+      {
+        "r": "2CH.11.21",
+        "v": 7
+      },
+      {
+        "r": "REV.7.9",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "SNG.6.9": {
     "text": "but my dove, my perfect one, is unique, the only daughter of her mother, the favorite of the one who bore her. The young women saw her and called her blessed; the queens and concubines praised her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.14",
+        "v": 9
+      },
+      {
+        "r": "PSA.45.9",
+        "v": 7
+      },
+      {
+        "r": "GEN.30.13",
+        "v": 7
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 6
+      },
+      {
+        "r": "REV.21.9-10",
+        "v": 6
+      },
+      {
+        "r": "PRO.31.28-29",
+        "v": 6
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 5
+      },
+      {
+        "r": "PSA.126.2",
+        "v": 5
+      },
+      {
+        "r": "DEU.4.6-7",
+        "v": 4
+      },
+      {
+        "r": "NUM.23.9",
+        "v": 4
+      },
+      {
+        "r": "DEU.33.29",
+        "v": 4
+      },
+      {
+        "r": "EPH.4.3-6",
+        "v": 3
+      },
+      {
+        "r": "2TH.1.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.6.10": {
     "text": "Who is this that appears like the dawn, fair as the moon, bright as the sun, majestic as the stars in procession?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.4",
+        "v": 6
+      },
+      {
+        "r": "REV.12.1",
+        "v": 4
+      },
+      {
+        "r": "JOB.31.26",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 3
+      },
+      {
+        "r": "2SA.23.4",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.27",
+        "v": 3
+      },
+      {
+        "r": "MAT.17.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.8",
+        "v": 3
+      },
+      {
+        "r": "REV.22.5",
+        "v": 3
+      },
+      {
+        "r": "REV.10.1",
+        "v": 3
+      },
+      {
+        "r": "HOS.6.5",
+        "v": 2
+      },
+      {
+        "r": "MAT.13.43",
+        "v": 2
+      },
+      {
+        "r": "REV.21.23",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.18",
+        "v": 2
+      },
+      {
+        "r": "ROM.8.37",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.5",
+        "v": 2
+      },
+      {
+        "r": "REV.21.10-11",
+        "v": 2
+      },
+      {
+        "r": "MAL.4.2",
+        "v": 2
+      },
+      {
+        "r": "REV.22.16",
+        "v": 2
+      },
+      {
+        "r": "PSA.14.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.63.1",
+        "v": 2
+      },
+      {
+        "r": "JOB.11.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.11": {
     "text": "I went down to the grove of nut trees to look at the new growth in the valley, to see if the vines had budded or the pomegranates were in bloom.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.7.12",
+        "v": 6
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.92.12-15",
+        "v": 2
+      },
+      {
+        "r": "GEN.2.9",
+        "v": 2
+      },
+      {
+        "r": "MRK.11.13",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.36",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.2-4",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.12-15",
+        "v": 2
+      },
+      {
+        "r": "LUK.13.7",
+        "v": 1
+      },
+      {
+        "r": "JHN.15.16",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.6.12": {
@@ -580,7 +5747,20 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.11.8-9",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.20",
+        "v": 3
+      },
+      {
+        "r": "JER.31.18-20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.13": {
@@ -591,55 +5771,472 @@
         "text": "In Hebrew texts this verse (6:13) is numbered 7:1."
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.32.2",
+        "v": 5
+      },
+      {
+        "r": "HEB.7.2",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.29",
+        "v": 2
+      },
+      {
+        "r": "JDG.21.21",
+        "v": 2
+      },
+      {
+        "r": "2SA.17.24",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.2",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.1-4",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.6",
+        "v": 2
+      },
+      {
+        "r": "ROM.7.23",
+        "v": 2
+      },
+      {
+        "r": "2TH.1.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.6",
+        "v": 2
+      },
+      {
+        "r": "JER.3.22",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.10-19",
+        "v": 2
+      },
+      {
+        "r": "GAL.5.17",
+        "v": 2
+      },
+      {
+        "r": "LUK.7.44",
+        "v": 2
+      },
+      {
+        "r": "JER.3.12-14",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.14-17",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 2
+      },
+      {
+        "r": "JHN.9.7",
+        "v": 2
+      },
+      {
+        "r": "JHN.10.16",
+        "v": 2
+      },
+      {
+        "r": "GEN.49.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.1": {
     "text": "How beautiful your sandaled feet, O prince’s daughter! Your graceful legs are like jewels, the work of an artist’s hands.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.13",
+        "v": 7
+      },
+      {
+        "r": "COL.2.19",
+        "v": 2
+      },
+      {
+        "r": "EXO.35.35",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.32",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.15",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.27",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.15-16",
+        "v": 2
+      },
+      {
+        "r": "2CO.6.18",
+        "v": 2
+      },
+      {
+        "r": "EXO.28.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.2": {
     "text": "Your navel is a rounded goblet that never lacks blended wine. Your waist is a mound of wheat encircled by lilies.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.7.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.3.8",
+        "v": 2
+      },
+      {
+        "r": "JER.1.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.46.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.3": {
     "text": "Your breasts are like two fawns, like twin fawns of a gazelle.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.5",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.4": {
     "text": "Your neck is like an ivory tower. Your eyes are the pools of Heshbon by the gate of Bath Rabbim. Your nose is like the tower of Lebanon looking toward Damascus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.4",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.8-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.12",
+        "v": 3
+      },
+      {
+        "r": "1KI.7.2",
+        "v": 2
+      },
+      {
+        "r": "1KI.9.19",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.10",
+        "v": 2
+      },
+      {
+        "r": "EPH.3.18-19",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.14-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.54.4",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.9-10",
+        "v": 2
+      },
+      {
+        "r": "2SA.8.6",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.17-18",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.8",
+        "v": 2
+      },
+      {
+        "r": "HEB.5.14",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.39",
+        "v": 2
+      },
+      {
+        "r": "GEN.15.2",
+        "v": 2
+      },
+      {
+        "r": "1KI.10.18",
+        "v": 2
+      },
+      {
+        "r": "1KI.10.22",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.5",
+        "v": 2
+      },
+      {
+        "r": "2CH.8.6",
+        "v": 2
+      },
+      {
+        "r": "NUM.21.25-26",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.5": {
     "text": "Your head crowns you like Mount Carmel. Your hair is like royal tapestry; the king is held captive by its tresses.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.35.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 3
+      },
+      {
+        "r": "GEN.32.26",
+        "v": 2
+      },
+      {
+        "r": "PSA.68.24",
+        "v": 2
+      },
+      {
+        "r": "REV.1.14",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.87.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.15-16",
+        "v": 2
+      },
+      {
+        "r": "COL.1.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.11",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.20",
+        "v": 2
+      },
+      {
+        "r": "MIC.7.14",
+        "v": 2
+      },
+      {
+        "r": "COL.2.19",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.6": {
     "text": "How beautiful you are and how pleasing, my love, with your delights!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.10",
+        "v": 7
+      },
+      {
+        "r": "SNG.1.15-16",
+        "v": 7
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 7
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 5
+      },
+      {
+        "r": "SNG.7.10",
+        "v": 5
+      },
+      {
+        "r": "ZEP.3.17",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.7.7": {
     "text": "Your stature is like that of the palm, and your breasts like clusters of fruit.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.5",
+        "v": 4
+      },
+      {
+        "r": "EPH.3.17",
+        "v": 3
+      },
+      {
+        "r": "PSA.92.12",
+        "v": 3
+      },
+      {
+        "r": "EPH.4.13",
+        "v": 3
+      },
+      {
+        "r": "ISA.66.10",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.8",
+        "v": 2
+      },
+      {
+        "r": "JER.10.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.7.8": {
     "text": "I said, “I will climb the palm tree; I will take hold of its fruit.” May your breasts be like clusters of grapes on the vine, the fragrance of your breath like apples,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.2.14",
+        "v": 3
+      },
+      {
+        "r": "JHN.14.21-23",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 2
+      },
+      {
+        "r": "JER.32.41",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.16-5.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.9": {
@@ -650,13 +6247,123 @@
         "text": "Septuagint, Aquila, Vulgate and Syriac; Hebrew"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.16",
+        "v": 5
+      },
+      {
+        "r": "PRO.16.24",
+        "v": 2
+      },
+      {
+        "r": "COL.3.16-17",
+        "v": 2
+      },
+      {
+        "r": "COL.4.6",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.15",
+        "v": 2
+      },
+      {
+        "r": "ROM.13.11",
+        "v": 2
+      },
+      {
+        "r": "ZEC.9.15-17",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 2
+      },
+      {
+        "r": "ACT.4.31-32",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.8-9",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.11-13",
+        "v": 2
+      },
+      {
+        "r": "ACT.16.30-34",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.29",
+        "v": 2
+      },
+      {
+        "r": "1TH.4.13-14",
+        "v": 2
+      },
+      {
+        "r": "REV.14.13",
+        "v": 1
+      },
+      {
+        "r": "ACT.2.46-47",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.7.10": {
     "text": "I belong to my beloved, and his desire is for me.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.11",
+        "v": 9
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 6
+      },
+      {
+        "r": "GAL.2.20",
+        "v": 4
+      },
+      {
+        "r": "PSA.147.11",
+        "v": 3
+      },
+      {
+        "r": "JHN.17.24",
+        "v": 3
+      },
+      {
+        "r": "ACT.27.23",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.5-6",
+        "v": 3
+      },
+      {
+        "r": "JOB.14.15",
+        "v": 3
+      },
+      {
+        "r": "1CO.6.19-20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.11": {
@@ -667,49 +6374,581 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.8",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.10-13",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.7.12": {
     "text": "Let us go early to the vineyards to see if the vines have budded, if their blossoms have opened, and if the pomegranates are in bloom— there I will give you my love.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.11",
+        "v": 5
+      },
+      {
+        "r": "1TH.3.5-6",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.24",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.5",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.6",
+        "v": 3
+      },
+      {
+        "r": "2CO.13.5",
+        "v": 3
+      },
+      {
+        "r": "PSA.43.4",
+        "v": 2
+      },
+      {
+        "r": "2CO.5.14-15",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.25",
+        "v": 2
+      },
+      {
+        "r": "HEB.4.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.18.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.5.11",
+        "v": 2
+      },
+      {
+        "r": "PRO.24.30-31",
+        "v": 2
+      },
+      {
+        "r": "EZK.20.40-41",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "HEB.12.15",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.36",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.3-8",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.15",
+        "v": 2
+      },
+      {
+        "r": "EXO.25.22",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.17",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.13": {
     "text": "The mandrakes send out their fragrance, and at our door is every delicacy, both new and old, that I have stored up for you, my beloved.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.30.14",
+        "v": 5
+      },
+      {
+        "r": "MAT.13.52",
+        "v": 4
+      },
+      {
+        "r": "1CO.16.2",
+        "v": 2
+      },
+      {
+        "r": "GAL.5.22-23",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.16-5.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.23.18",
+        "v": 2
+      },
+      {
+        "r": "1PE.4.11",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.9",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.25-27",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.6-7",
+        "v": 2
+      },
+      {
+        "r": "1CO.8.8-9",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.13",
+        "v": 2
+      },
+      {
+        "r": "1CO.2.9",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.8",
+        "v": 2
+      },
+      {
+        "r": "MAT.25.40",
+        "v": 2
+      },
+      {
+        "r": "COL.3.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.1": {
     "text": "If only you were to me like a brother, who was nursed at my mother’s breasts! Then, if I found you outside, I would kiss you, and no one would despise me.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.9.9",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.10-11",
+        "v": 3
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 3
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.66.11-12",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.14",
+        "v": 2
+      },
+      {
+        "r": "MAL.3.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.2.38",
+        "v": 2
+      },
+      {
+        "r": "PSA.102.16-17",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.10.16",
+        "v": 1
+      },
+      {
+        "r": "PHP.3.3",
+        "v": 1
+      },
+      {
+        "r": "SNG.1.2",
+        "v": 1
+      },
+      {
+        "r": "LUK.2.26-32",
+        "v": 1
+      },
+      {
+        "r": "PSA.51.17",
+        "v": 1
+      },
+      {
+        "r": "JHN.16.28",
+        "v": 1
+      },
+      {
+        "r": "PHP.3.7-8",
+        "v": 1
+      },
+      {
+        "r": "JHN.7.46-52",
+        "v": 1
+      },
+      {
+        "r": "JHN.3.13",
+        "v": 1
+      },
+      {
+        "r": "LUK.9.26",
+        "v": 1
+      },
+      {
+        "r": "PSA.2.12",
+        "v": 1
+      },
+      {
+        "r": "JHN.9.25-38",
+        "v": 1
+      },
+      {
+        "r": "MRK.12.42-44",
+        "v": 1
+      },
+      {
+        "r": "JHN.1.14",
+        "v": 1
+      },
+      {
+        "r": "HEB.9.26-28",
+        "v": 1
+      },
+      {
+        "r": "LUK.7.45-48",
+        "v": 1
+      },
+      {
+        "r": "GAL.6.14",
+        "v": 1
+      },
+      {
+        "r": "MAT.13.16-17",
+        "v": 1
+      },
+      {
+        "r": "1CO.1.28",
+        "v": 1
+      },
+      {
+        "r": "JHN.8.42",
+        "v": 1
+      },
+      {
+        "r": "LUK.12.8",
+        "v": 1
+      },
+      {
+        "r": "JHN.13.3",
+        "v": 1
+      },
+      {
+        "r": "LUK.10.23-24",
+        "v": 1
+      },
+      {
+        "r": "HEB.2.9-14",
+        "v": 1
+      },
+      {
+        "r": "MRK.14.6-9",
+        "v": 1
+      },
+      {
+        "r": "1TI.3.16",
+        "v": 1
+      },
+      {
+        "r": "LUK.18.9",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.2": {
     "text": "I would lead you and bring you to my mother’s house— she who has taught me. I would give you spiced wine to drink, the nectar of my pomegranates.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.4",
+        "v": 6
+      },
+      {
+        "r": "SNG.4.10-5.1",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.12",
+        "v": 4
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 3
+      },
+      {
+        "r": "PRO.9.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.46-47",
+        "v": 2
+      },
+      {
+        "r": "2TI.3.15",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.39",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.10-12",
+        "v": 2
+      },
+      {
+        "r": "LUK.16.29-31",
+        "v": 1
+      },
+      {
+        "r": "REV.19.10",
+        "v": 0
+      },
+      {
+        "r": "2PE.1.19",
+        "v": 0
+      },
+      {
+        "r": "ACT.17.11-12",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "SNG.8.3": {
     "text": "His left arm is under my head and his right arm embraces me.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.6",
+        "v": 6
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 1
+      },
+      {
+        "r": "2CO.12.9",
+        "v": 1
+      },
+      {
+        "r": "DEU.33.27",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.4": {
     "text": "Daughters of Jerusalem, I charge you: Do not arouse or awaken love until it so desires.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.7",
+        "v": 10
+      },
+      {
+        "r": "SNG.3.5",
+        "v": 9
+      }
+    ],
     "section": null
   },
   "SNG.8.5": {
     "text": "Who is this coming up from the wilderness leaning on her beloved? Under the apple tree I roused you; there your mother conceived you, there she who was in labor gave you birth.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.6",
+        "v": 8
+      },
+      {
+        "r": "ISA.40.3",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 4
+      },
+      {
+        "r": "PSA.63.8",
+        "v": 4
+      },
+      {
+        "r": "MIC.3.11",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.4",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.10",
+        "v": 3
+      },
+      {
+        "r": "ISA.26.3-4",
+        "v": 3
+      },
+      {
+        "r": "1PE.1.21",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.11",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.107.2-8",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.19",
+        "v": 2
+      },
+      {
+        "r": "JER.2.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.10-11",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.32.8",
+        "v": 2
+      },
+      {
+        "r": "JHN.1.48-51",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.12-13",
+        "v": 2
+      },
+      {
+        "r": "JHN.13.23",
+        "v": 2
+      },
+      {
+        "r": "REV.12.6",
+        "v": 1
+      },
+      {
+        "r": "SNG.4.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.49.20-23",
+        "v": 1
+      },
+      {
+        "r": "2CO.12.9-10",
+        "v": 1
+      },
+      {
+        "r": "GAL.4.19",
+        "v": 1
+      },
+      {
+        "r": "ACT.27.23-25",
+        "v": 1
+      },
+      {
+        "r": "ROM.7.4",
+        "v": 1
+      },
+      {
+        "r": "ISA.36.6",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.6": {
@@ -724,7 +6963,112 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.12.11",
+        "v": 11
+      },
+      {
+        "r": "ISA.49.16",
+        "v": 9
+      },
+      {
+        "r": "PHP.1.20-23",
+        "v": 8
+      },
+      {
+        "r": "SNG.5.8",
+        "v": 7
+      },
+      {
+        "r": "HAG.2.23",
+        "v": 7
+      },
+      {
+        "r": "JER.22.24",
+        "v": 7
+      },
+      {
+        "r": "JHN.21.15-19",
+        "v": 7
+      },
+      {
+        "r": "PRO.6.34",
+        "v": 7
+      },
+      {
+        "r": "PSA.84.2",
+        "v": 6
+      },
+      {
+        "r": "2CO.5.14-15",
+        "v": 6
+      },
+      {
+        "r": "NUM.5.14",
+        "v": 6
+      },
+      {
+        "r": "ACT.21.13",
+        "v": 5
+      },
+      {
+        "r": "PSA.120.4",
+        "v": 5
+      },
+      {
+        "r": "DEU.32.21",
+        "v": 5
+      },
+      {
+        "r": "PRO.25.22",
+        "v": 4
+      },
+      {
+        "r": "EXO.28.9-12",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.20",
+        "v": 4
+      },
+      {
+        "r": "2TI.2.19",
+        "v": 4
+      },
+      {
+        "r": "NUM.25.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.42.1-2",
+        "v": 4
+      },
+      {
+        "r": "2CO.11.2",
+        "v": 4
+      },
+      {
+        "r": "EXO.28.21",
+        "v": 4
+      },
+      {
+        "r": "ZEC.3.9",
+        "v": 4
+      },
+      {
+        "r": "EXO.28.29-30",
+        "v": 4
+      },
+      {
+        "r": "ACT.20.24",
+        "v": 4
+      },
+      {
+        "r": "PSA.63.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.7": {
@@ -735,25 +7079,265 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.6.35",
+        "v": 8
+      },
+      {
+        "r": "ISA.43.2",
+        "v": 6
+      },
+      {
+        "r": "ROM.13.8-10",
+        "v": 6
+      },
+      {
+        "r": "PRO.6.31",
+        "v": 6
+      },
+      {
+        "r": "ROM.8.28-39",
+        "v": 4
+      },
+      {
+        "r": "MAT.7.24-25",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "SNG.8.8": {
     "text": "We have a little sister, and her breasts are not yet grown. What shall we do for our sister on the day she is spoken for?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1PE.2.12",
+        "v": 4
+      },
+      {
+        "r": "PSA.2.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.16.55-56",
+        "v": 3
+      },
+      {
+        "r": "ROM.10.12-15",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.19.44",
+        "v": 2
+      },
+      {
+        "r": "ACT.10.1-11.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.3",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.19-22",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.5",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.12-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.1-5",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.14-17",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.147.19-20",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.46",
+        "v": 2
+      },
+      {
+        "r": "EZK.23.33",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.61",
+        "v": 2
+      },
+      {
+        "r": "JHN.10.16",
+        "v": 2
+      },
+      {
+        "r": "ACT.16.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.49.6",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.38",
+        "v": 2
+      },
+      {
+        "r": "ACT.26.17-18",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.10-11",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.72.17-19",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.9-12",
+        "v": 2
+      },
+      {
+        "r": "ACT.22.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.9": {
     "text": "If she is a wall, we will build towers of silver on her. If she is a door, we will enclose her with panels of cedar.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.3.10-12",
+        "v": 2
+      },
+      {
+        "r": "ISA.61.4",
+        "v": 2
+      },
+      {
+        "r": "ZEC.6.12-15",
+        "v": 2
+      },
+      {
+        "r": "REV.21.12-19",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.17",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.20-22",
+        "v": 2
+      },
+      {
+        "r": "1KI.6.15",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.16",
+        "v": 2
+      },
+      {
+        "r": "MAT.16.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.9",
+        "v": 2
+      },
+      {
+        "r": "ACT.14.27",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.10": {
     "text": "I am a wall, and my breasts are like towers. Thus I have become in his eyes like one bringing contentment.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.16.7",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.10",
+        "v": 4
+      },
+      {
+        "r": "LUK.1.30",
+        "v": 4
+      },
+      {
+        "r": "EPH.1.6",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.5",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.7-8",
+        "v": 3
+      },
+      {
+        "r": "1TI.1.16",
+        "v": 3
+      },
+      {
+        "r": "GEN.6.8",
+        "v": 3
+      },
+      {
+        "r": "PRO.3.4",
+        "v": 3
+      },
+      {
+        "r": "DEU.7.7-8",
+        "v": 3
+      },
+      {
+        "r": "EPH.1.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.3-4",
+        "v": 2
+      },
+      {
+        "r": "ROM.5.1-10",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.11": {
@@ -764,7 +7348,44 @@
         "text": "That is, about 25 pounds or about 12 kilograms; also in verse 12"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.2.4",
+        "v": 6
+      },
+      {
+        "r": "ISA.7.23",
+        "v": 5
+      },
+      {
+        "r": "ISA.5.1-7",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.33-43",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.20.16",
+        "v": 2
+      },
+      {
+        "r": "MRK.12.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.20.9-18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.12": {
@@ -775,19 +7396,162 @@
         "text": "That is, about 5 pounds or about 2.3 kilograms"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.6",
+        "v": 4
+      },
+      {
+        "r": "1TI.5.17-18",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.23",
+        "v": 2
+      },
+      {
+        "r": "2CO.5.15",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.19",
+        "v": 2
+      },
+      {
+        "r": "ACT.20.28",
+        "v": 2
+      },
+      {
+        "r": "PSA.72.17-19",
+        "v": 2
+      },
+      {
+        "r": "1TI.4.15-16",
+        "v": 2
+      },
+      {
+        "r": "1CO.6.20",
+        "v": 2
+      },
+      {
+        "r": "ROM.14.7-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.13": {
     "text": "You who dwell in the gardens with friends in attendance, let me hear your voice!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.16",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.7",
+        "v": 3
+      },
+      {
+        "r": "JHN.14.13-14",
+        "v": 2
+      },
+      {
+        "r": "JDG.14.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.50.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.14",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.11-12",
+        "v": 2
+      },
+      {
+        "r": "JDG.11.38",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.13-14",
+        "v": 2
+      },
+      {
+        "r": "JHN.14.21-23",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.7-11",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.20",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.9-16",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.7",
+        "v": 1
+      },
+      {
+        "r": "JHN.16.24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.14": {
     "text": "Come away, my beloved, and be like a gazelle or like a young stag on the spice-laden mountains.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.17",
+        "v": 5
+      },
+      {
+        "r": "REV.22.20",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.9",
+        "v": 3
+      },
+      {
+        "r": "REV.22.17",
+        "v": 3
+      },
+      {
+        "r": "LUK.19.12",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.23",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.6",
+        "v": 2
+      }
+    ],
     "section": null
   }
 }

@@ -11,163 +11,926 @@
         "text": "That is, the upper Nile region"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.9.1",
+        "v": 7
+      },
+      {
+        "r": "EZR.4.6",
+        "v": 5
+      },
+      {
+        "r": "EST.8.9",
+        "v": 4
+      },
+      {
+        "r": "EST.9.30",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 4
+      },
+      {
+        "r": "ISA.37.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.18.1",
+        "v": 2
+      }
+    ],
     "section": "Queen Vashti Deposed"
   },
   "EST.1.2": {
     "text": "At that time King Xerxes reigned from his royal throne in the citadel of Susa,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.1.1",
+        "v": 7
+      },
+      {
+        "r": "2SA.7.1",
+        "v": 5
+      },
+      {
+        "r": "DAN.8.2",
+        "v": 4
+      },
+      {
+        "r": "1KI.1.46",
+        "v": 3
+      },
+      {
+        "r": "DAN.4.4",
+        "v": 2
+      },
+      {
+        "r": "EST.4.16",
+        "v": 2
+      },
+      {
+        "r": "EST.9.12-15",
+        "v": 2
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.3": {
     "text": "and in the third year of his reign he gave a banquet for all his nobles and officials. The military leaders of Persia and Media, the princes, and the nobles of the provinces were present.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.6.21",
+        "v": 7
+      },
+      {
+        "r": "EST.2.18",
+        "v": 6
+      },
+      {
+        "r": "DAN.5.1",
+        "v": 6
+      },
+      {
+        "r": "1KI.3.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.40.20",
+        "v": 3
+      },
+      {
+        "r": "ISA.21.2",
+        "v": 3
+      },
+      {
+        "r": "JER.51.11",
+        "v": 3
+      },
+      {
+        "r": "DAN.8.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.6-7",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.2-3",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.28",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.4": {
     "text": "For a full 180 days he displayed the vast wealth of his kingdom and the splendor and glory of his majesty.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.40.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.6.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.28.5",
+        "v": 2
+      },
+      {
+        "r": "MAT.4.8",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.18",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.16-17",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.37-44",
+        "v": 2
+      },
+      {
+        "r": "PSA.93.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.1-4",
+        "v": 2
+      },
+      {
+        "r": "ISA.39.2",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.25",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.18",
+        "v": 2
+      },
+      {
+        "r": "DAN.7.9-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.12-13",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.23",
+        "v": 2
+      },
+      {
+        "r": "COL.1.27",
+        "v": 2
+      },
+      {
+        "r": "REV.4.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.21.5",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.36",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.11-12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.5": {
     "text": "When these days were over, the king gave a banquet, lasting seven days, in the enclosed garden of the king’s palace, for all the people from the least to the greatest who were in the citadel of Susa.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.7-8",
+        "v": 4
+      },
+      {
+        "r": "2CH.30.21-25",
+        "v": 3
+      },
+      {
+        "r": "2CH.7.8-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.6": {
     "text": "The garden had hangings of white and blue linen, fastened with cords of white linen and purple material to silver rings on marble pillars. There were couches of gold and silver on a mosaic pavement of porphyry, marble, mother-of-pearl and other costly stones.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.4",
+        "v": 6
+      },
+      {
+        "r": "EZK.23.41",
+        "v": 4
+      },
+      {
+        "r": "EST.7.8",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.8",
+        "v": 2
+      },
+      {
+        "r": "EST.8.15",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.31-32",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.1",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.36-37",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.7": {
     "text": "Wine was served in goblets of gold, each one different from the other, and the royal wine was abundant, in keeping with the king’s liberality.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.5.2-4",
+        "v": 4
+      },
+      {
+        "r": "2CH.9.20",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.21",
+        "v": 3
+      },
+      {
+        "r": "EST.2.18",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.1.8": {
     "text": "By the king’s command each guest was allowed to drink with no restrictions, for the king instructed all the wine stewards to serve each man what he wished.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HAB.2.15-16",
+        "v": 4
+      },
+      {
+        "r": "JER.51.7",
+        "v": 3
+      },
+      {
+        "r": "JER.35.8",
+        "v": 1
+      },
+      {
+        "r": "JHN.2.8",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.1.9": {
     "text": "Queen Vashti also gave a banquet for the women in the royal palace of King Xerxes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.4",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.10": {
     "text": "On the seventh day, when King Xerxes was in high spirits from wine, he commanded the seven eunuchs who served him—Mehuman, Biztha, Harbona, Bigtha, Abagtha, Zethar and Karkas—",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.9",
+        "v": 5
+      },
+      {
+        "r": "JDG.16.25",
+        "v": 5
+      },
+      {
+        "r": "2SA.13.28",
+        "v": 4
+      },
+      {
+        "r": "ECC.7.2-4",
+        "v": 4
+      },
+      {
+        "r": "PRO.20.1",
+        "v": 4
+      },
+      {
+        "r": "DAN.1.18-19",
+        "v": 3
+      },
+      {
+        "r": "GEN.43.34",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.18-19",
+        "v": 3
+      },
+      {
+        "r": "DAN.1.3-5",
+        "v": 2
+      },
+      {
+        "r": "ECC.10.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.36-37",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.11": {
     "text": "to bring before him Queen Vashti, wearing her royal crown, in order to display her beauty to the people and nobles, for she was lovely to look at.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.31.30",
+        "v": 9
+      },
+      {
+        "r": "MRK.6.21-22",
+        "v": 7
+      },
+      {
+        "r": "PRO.16.9",
+        "v": 6
+      },
+      {
+        "r": "2SA.14.25",
+        "v": 5
+      },
+      {
+        "r": "1SA.25.3",
+        "v": 5
+      },
+      {
+        "r": "EST.6.8",
+        "v": 5
+      },
+      {
+        "r": "EST.2.17",
+        "v": 4
+      },
+      {
+        "r": "PRO.23.29-33",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.1.12": {
     "text": "But when the attendants delivered the king’s command, Queen Vashti refused to come. Then the king became furious and burned with anger.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.19.12",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.1",
+        "v": 3
+      },
+      {
+        "r": "PRO.20.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.74.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.79.5",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.19",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.24",
+        "v": 2
+      },
+      {
+        "r": "GEN.3.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.13",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.22",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.6",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.19",
+        "v": 1
+      },
+      {
+        "r": "REV.6.16-17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.13": {
     "text": "Since it was customary for the king to consult experts in matters of law and justice, he spoke with the wise men who understood the times",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.12.32",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.2",
+        "v": 4
+      },
+      {
+        "r": "JER.10.7",
+        "v": 4
+      },
+      {
+        "r": "MAT.16.3",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.7",
+        "v": 3
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 3
+      },
+      {
+        "r": "MAT.2.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.27",
+        "v": 1
+      },
+      {
+        "r": "DAN.4.6-7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.14": {
     "text": "and were closest to the king—Karshena, Shethar, Admatha, Tarshish, Meres, Marsena and Memukan, the seven nobles of Persia and Media who had special access to the king and were highest in the kingdom.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.25.19",
+        "v": 5
+      },
+      {
+        "r": "EZR.7.14",
+        "v": 4
+      },
+      {
+        "r": "MAT.18.10",
+        "v": 4
+      },
+      {
+        "r": "REV.22.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.15": {
     "text": "“According to law, what must be done to Queen Vashti?” he asked. “She has not obeyed the command of King Xerxes that the eunuchs have taken to her.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.16": {
     "text": "Then Memukan replied in the presence of the king and the nobles, “Queen Vashti has done wrong, not only against the king but also against all the nobles and the peoples of all the provinces of King Xerxes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.6.7-8",
+        "v": 2
+      },
+      {
+        "r": "ACT.18.14",
+        "v": 2
+      },
+      {
+        "r": "ACT.25.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.17": {
     "text": "For the queen’s conduct will become known to all the women, and so they will despise their husbands and say, ‘King Xerxes commanded Queen Vashti to be brought before him, but she would not come.’",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.5.33",
+        "v": 3
+      },
+      {
+        "r": "2SA.6.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.18": {
     "text": "This very day the Persian and Median women of the nobility who have heard about the queen’s conduct will respond to all the king’s nobles in the same way. There will be no end of disrespect and discord.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JDG.5.29",
+        "v": 1
+      },
+      {
+        "r": "1KI.11.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.19": {
     "text": "“Therefore, if it pleases the king, let him issue a royal decree and let it be written in the laws of Persia and Media, which cannot be repealed, that Vashti is never again to enter the presence of King Xerxes. Also let the king give her royal position to someone else who is better than she.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.15.28",
+        "v": 6
+      },
+      {
+        "r": "EST.8.8",
+        "v": 5
+      },
+      {
+        "r": "EST.8.5",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.17",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.8-15",
+        "v": 4
+      },
+      {
+        "r": "EST.3.9",
+        "v": 4
+      },
+      {
+        "r": "1KI.3.28",
+        "v": 3
+      },
+      {
+        "r": "EST.1.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.20": {
     "text": "Then when the king’s edict is proclaimed throughout all his vast realm, all the women will respect their husbands, from the least to the greatest.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "COL.3.18",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.1-7",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.33",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 5
+      },
+      {
+        "r": "DEU.21.21",
+        "v": 2
+      },
+      {
+        "r": "DEU.17.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.21": {
     "text": "The king and his nobles were pleased with this advice, so the king did as Memukan proposed.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.37",
+        "v": 2
+      },
+      {
+        "r": "EST.2.4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.22": {
     "text": "He sent dispatches to all parts of the kingdom, to each province in its own script and to each people in their own language, proclaiming that every man should be ruler over his own household, using his native tongue.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.9",
+        "v": 6
+      },
+      {
+        "r": "EST.3.12",
+        "v": 6
+      },
+      {
+        "r": "EPH.5.22-24",
+        "v": 5
+      },
+      {
+        "r": "1TI.2.12",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.29",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "TIT.2.4-5",
+        "v": 2
+      },
+      {
+        "r": "LUK.16.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.5-11",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.19-20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.1": {
     "text": "Later when King Xerxes’ fury had subsided, he remembered Vashti and what she had done and what he had decreed about her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.10",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.14-18",
+        "v": 4
+      },
+      {
+        "r": "EST.1.12-21",
+        "v": 3
+      }
+    ],
     "section": "Esther Made Queen"
   },
   "EST.2.2": {
     "text": "Then the king’s personal attendants proposed, “Let a search be made for beautiful young virgins for the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.1.2",
+        "v": 4
+      },
+      {
+        "r": "GEN.12.14",
+        "v": 3
+      },
+      {
+        "r": "EST.6.14",
+        "v": 3
+      },
+      {
+        "r": "EST.1.10",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.3": {
     "text": "Let the king appoint commissioners in every province of his realm to bring all these beautiful young women into the harem at the citadel of Susa. Let them be placed under the care of Hegai, the king’s eunuch, who is in charge of the women; and let beauty treatments be given to them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.2.12-15",
+        "v": 2
+      },
+      {
+        "r": "EST.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.18-23",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.4": {
     "text": "Then let the young woman who pleases the king be queen instead of Vashti.” This advice appealed to the king, and he followed it.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.14.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.20.16",
+        "v": 7
+      },
+      {
+        "r": "2SA.17.4",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.14",
+        "v": 3
+      },
+      {
+        "r": "EST.3.9-10",
+        "v": 3
+      },
+      {
+        "r": "EST.1.21",
+        "v": 3
+      },
+      {
+        "r": "2SA.13.4-6",
+        "v": 1
+      },
+      {
+        "r": "2SA.16.21-23",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.5": {
     "text": "Now there was in the citadel of Susa a Jew of the tribe of Benjamin, named Mordecai son of Jair, the son of Shimei, the son of Kish,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.16.5",
+        "v": 5
+      },
+      {
+        "r": "EST.2.3",
+        "v": 3
+      },
+      {
+        "r": "EST.10.3",
+        "v": 3
+      },
+      {
+        "r": "EST.3.2-6",
+        "v": 3
+      },
+      {
+        "r": "1SA.9.1",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "EST.1.2",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.2.6": {
@@ -178,43 +941,222 @@
         "text": "Hebrew"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.24.14-15",
+        "v": 6
+      },
+      {
+        "r": "JER.24.1",
+        "v": 5
+      },
+      {
+        "r": "2CH.36.20",
+        "v": 5
+      },
+      {
+        "r": "2KI.24.6",
+        "v": 4
+      },
+      {
+        "r": "JER.22.24",
+        "v": 3
+      },
+      {
+        "r": "2CH.36.9-10",
+        "v": 3
+      },
+      {
+        "r": "JER.22.28",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.7": {
     "text": "Mordecai had a cousin named Hadassah, whom he had brought up because she had neither father nor mother. This young woman, who was also known as Esther, had a lovely figure and was beautiful. Mordecai had taken her as his own daughter when her father and mother died.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.15",
+        "v": 5
+      },
+      {
+        "r": "EST.1.11",
+        "v": 3
+      },
+      {
+        "r": "2CO.6.18",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.4",
+        "v": 2
+      },
+      {
+        "r": "1JN.3.1",
+        "v": 1
+      },
+      {
+        "r": "JER.32.7-12",
+        "v": 1
+      },
+      {
+        "r": "GEN.48.5",
+        "v": 1
+      },
+      {
+        "r": "DAN.1.6-7",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.2.8": {
     "text": "When the king’s order and edict had been proclaimed, many young women were brought to the citadel of Susa and put under the care of Hegai. Esther also was taken to the king’s palace and entrusted to Hegai, who had charge of the harem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.3",
+        "v": 5
+      },
+      {
+        "r": "EST.2.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.9": {
     "text": "She pleased him and won his favor. Immediately he provided her with her beauty treatments and special food. He assigned to her seven female attendants selected from the king’s palace and moved her and her attendants into the best place in the harem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.7",
+        "v": 9
+      },
+      {
+        "r": "GEN.39.21",
+        "v": 9
+      },
+      {
+        "r": "EST.2.12",
+        "v": 8
+      },
+      {
+        "r": "EST.2.3",
+        "v": 8
+      },
+      {
+        "r": "DAN.1.9",
+        "v": 7
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 6
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.106.46",
+        "v": 5
+      },
+      {
+        "r": "1KI.8.50",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.8",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.2.10": {
     "text": "Esther had not revealed her nationality and family background, because Mordecai had forbidden her to do so.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.20",
+        "v": 8
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 6
+      },
+      {
+        "r": "EPH.6.1",
+        "v": 5
+      },
+      {
+        "r": "EST.3.8",
+        "v": 5
+      },
+      {
+        "r": "EST.4.13-14",
+        "v": 4
+      },
+      {
+        "r": "EST.7.4",
+        "v": 3
+      },
+      {
+        "r": "EST.2.7",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.2.11": {
     "text": "Every day he walked back and forth near the courtyard of the harem to find out how Esther was and what was happening to her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.17.18",
+        "v": 4
+      },
+      {
+        "r": "GEN.37.14",
+        "v": 4
+      },
+      {
+        "r": "ACT.15.36",
+        "v": 3
+      },
+      {
+        "r": "EST.2.13-14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.12": {
     "text": "Before a young woman’s turn came to go in to King Xerxes, she had to complete twelve months of beauty treatments prescribed for the women, six months with oil of myrrh and six with perfumes and cosmetics.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.7.17",
+        "v": 5
+      },
+      {
+        "r": "1TH.4.4-5",
+        "v": 5
+      },
+      {
+        "r": "ISA.57.9",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.7.37-38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.13": {
@@ -226,43 +1168,222 @@
   "EST.2.14": {
     "text": "In the evening she would go there and in the morning return to another part of the harem to the care of Shaashgaz, the king’s eunuch who was in charge of the concubines. She would not return to the king unless he was pleased with her and summoned her by name.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "GEN.34.19",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 1
+      },
+      {
+        "r": "ISA.45.4",
+        "v": 1
+      },
+      {
+        "r": "DEU.21.14",
+        "v": 1
+      },
+      {
+        "r": "ISA.43.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.15": {
     "text": "When the turn came for Esther (the young woman Mordecai had adopted, the daughter of his uncle Abihail) to go to the king, she asked for nothing other than what Hegai, the king’s eunuch who was in charge of the harem, suggested. And Esther won the favor of everyone who saw her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.9",
+        "v": 7
+      },
+      {
+        "r": "EST.2.3",
+        "v": 6
+      },
+      {
+        "r": "EST.9.29",
+        "v": 5
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 5
+      },
+      {
+        "r": "EST.2.7-8",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.16": {
     "text": "She was taken to King Xerxes in the royal residence in the tenth month, the month of Tebeth, in the seventh year of his reign.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.9",
+        "v": 3
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "EST.2.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.17": {
     "text": "Now the king was attracted to Esther more than to any of the other women, and she won his favor and approval more than any of the other virgins. So he set a royal crown on her head and made her queen instead of Vashti.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.113.7-8",
+        "v": 13
+      },
+      {
+        "r": "EZK.17.24",
+        "v": 11
+      },
+      {
+        "r": "LUK.1.48-52",
+        "v": 11
+      },
+      {
+        "r": "1SA.2.8",
+        "v": 10
+      },
+      {
+        "r": "PSA.75.6-7",
+        "v": 10
+      },
+      {
+        "r": "EST.1.11",
+        "v": 9
+      },
+      {
+        "r": "EST.4.14",
+        "v": 8
+      }
+    ],
     "section": null
   },
   "EST.2.18": {
     "text": "And the king gave a great banquet, Esther’s banquet, for all his nobles and officials. He proclaimed a holiday throughout the provinces and distributed gifts with royal liberality.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JDG.14.10-17",
+        "v": 3
+      },
+      {
+        "r": "NEH.8.11",
+        "v": 3
+      },
+      {
+        "r": "EST.1.7",
+        "v": 3
+      },
+      {
+        "r": "1SA.25.8",
+        "v": 3
+      },
+      {
+        "r": "REV.11.10",
+        "v": 3
+      },
+      {
+        "r": "EST.9.22",
+        "v": 3
+      },
+      {
+        "r": "GEN.29.22",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.11",
+        "v": 3
+      },
+      {
+        "r": "LUK.14.8",
+        "v": 3
+      },
+      {
+        "r": "EST.1.3-5",
+        "v": 3
+      },
+      {
+        "r": "REV.19.9",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.19": {
     "text": "When the virgins were assembled a second time, Mordecai was sitting at the king’s gate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.21",
+        "v": 5
+      },
+      {
+        "r": "EST.2.3-4",
+        "v": 4
+      },
+      {
+        "r": "EST.3.2-3",
+        "v": 3
+      },
+      {
+        "r": "EST.5.13",
+        "v": 3
+      }
+    ],
     "section": "Mordecai Uncovers a Conspiracy"
   },
   "EST.2.20": {
     "text": "But Esther had kept secret her family background and nationality just as Mordecai had told her to do, for she continued to follow Mordecai’s instructions as she had done when he was bringing her up.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.10",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.1-3",
+        "v": 3
+      },
+      {
+        "r": "EST.2.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.21": {
@@ -273,55 +1394,356 @@
         "text": "Hebrew"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.2",
+        "v": 9
+      },
+      {
+        "r": "1KI.16.9",
+        "v": 3
+      },
+      {
+        "r": "2KI.12.20",
+        "v": 3
+      },
+      {
+        "r": "2KI.21.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.10",
+        "v": 2
+      },
+      {
+        "r": "2KI.9.22-24",
+        "v": 2
+      },
+      {
+        "r": "2SA.4.5-6",
+        "v": 2
+      },
+      {
+        "r": "1KI.15.25-27",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.22": {
     "text": "But Mordecai found out about the plot and told Queen Esther, who in turn reported it to the king, giving credit to Mordecai.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.1-2",
+        "v": 3
+      },
+      {
+        "r": "ECC.10.20",
+        "v": 2
+      },
+      {
+        "r": "ROM.11.33",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.4",
+        "v": 2
+      },
+      {
+        "r": "ACT.23.12-22",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.23": {
     "text": "And when the report was investigated and found to be true, the two officials were impaled on poles. All this was recorded in the book of the annals in the presence of the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.10.2",
+        "v": 3
+      },
+      {
+        "r": "GEN.40.19",
+        "v": 3
+      },
+      {
+        "r": "GEN.40.22",
+        "v": 3
+      },
+      {
+        "r": "JOS.8.29",
+        "v": 2
+      },
+      {
+        "r": "EST.5.14-6.2",
+        "v": 2
+      },
+      {
+        "r": "EST.7.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.21.22-23",
+        "v": 2
+      },
+      {
+        "r": "MAL.3.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.1": {
     "text": "After these events, King Xerxes honored Haman son of Hammedatha, the Agagite, elevating him and giving him a seat of honor higher than that of all the other nobles.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NUM.24.7",
+        "v": 8
+      },
+      {
+        "r": "EST.5.11",
+        "v": 7
+      },
+      {
+        "r": "DAN.6.2",
+        "v": 6
+      },
+      {
+        "r": "1SA.15.33",
+        "v": 5
+      },
+      {
+        "r": "EST.3.10",
+        "v": 4
+      },
+      {
+        "r": "GEN.41.40",
+        "v": 3
+      },
+      {
+        "r": "1SA.15.8",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.14",
+        "v": 2
+      },
+      {
+        "r": "GEN.41.55",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.12.8",
+        "v": 2
+      },
+      {
+        "r": "EST.8.3",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      }
+    ],
     "section": "Haman’s Plot to Destroy the Jews"
   },
   "EST.3.2": {
     "text": "All the royal officials at the king’s gate knelt down and paid honor to Haman, for the king had commanded this concerning him. But Mordecai would not kneel down or pay him honor.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.15.4",
+        "v": 3
+      },
+      {
+        "r": "EST.2.21",
+        "v": 3
+      },
+      {
+        "r": "EST.3.5",
+        "v": 3
+      },
+      {
+        "r": "EST.5.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.43",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.25.19",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.14",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "1SA.15.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.3": {
     "text": "Then the royal officials at the king’s gate asked Mordecai, “Why do you disobey the king’s command?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.2",
+        "v": 4
+      },
+      {
+        "r": "EXO.1.17",
+        "v": 3
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "MAT.15.2-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.4": {
     "text": "Day after day they spoke to him but he refused to comply. Therefore they told Haman about it to see whether Mordecai’s behavior would be tolerated, for he had told them he was a Jew.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.39.10",
+        "v": 5
+      },
+      {
+        "r": "JON.1.9",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.20-28",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.13",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.12",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.16-18",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.3",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.23-30",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.5": {
     "text": "When Haman saw that Mordecai would not kneel down or pay him honor, he was enraged.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.3.19",
+        "v": 4
+      },
+      {
+        "r": "EST.5.9",
+        "v": 4
+      },
+      {
+        "r": "EST.3.2",
+        "v": 3
+      },
+      {
+        "r": "PRO.21.24",
+        "v": 3
+      },
+      {
+        "r": "PRO.19.19",
+        "v": 2
+      },
+      {
+        "r": "PRO.27.3-4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.4.5-6",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.2",
+        "v": 2
+      },
+      {
+        "r": "PRO.12.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.6": {
     "text": "Yet having learned who Mordecai’s people were, he scorned the idea of killing only Mordecai. Instead Haman looked for a way to destroy all Mordecai’s people, the Jews, throughout the whole kingdom of Xerxes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.83.4",
+        "v": 5
+      },
+      {
+        "r": "REV.12.12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.7": {
@@ -332,13 +1754,131 @@
         "text": "Septuagint; Hebrew does not have"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.6.15",
+        "v": 4
+      },
+      {
+        "r": "PRO.16.33",
+        "v": 3
+      },
+      {
+        "r": "EST.9.24-26",
+        "v": 3
+      },
+      {
+        "r": "EZK.21.21-22",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.1",
+        "v": 2
+      },
+      {
+        "r": "EST.2.16",
+        "v": 2
+      },
+      {
+        "r": "EST.9.17-19",
+        "v": 2
+      },
+      {
+        "r": "EST.1.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.27.35",
+        "v": 2
+      },
+      {
+        "r": "EST.9.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "EST.9.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.8": {
     "text": "Then Haman said to King Xerxes, “There is a certain people dispersed among the peoples in all the provinces of your kingdom who keep themselves separate. Their customs are different from those of all other people, and they do not obey the king’s laws; it is not in the king’s best interest to tolerate them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.4.12-15",
+        "v": 7
+      },
+      {
+        "r": "ACT.16.20-21",
+        "v": 6
+      },
+      {
+        "r": "DEU.4.27",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.33",
+        "v": 3
+      },
+      {
+        "r": "ZEC.7.14",
+        "v": 3
+      },
+      {
+        "r": "JHN.7.35",
+        "v": 3
+      },
+      {
+        "r": "JER.50.17",
+        "v": 3
+      },
+      {
+        "r": "ACT.17.6-7",
+        "v": 2
+      },
+      {
+        "r": "DEU.30.3",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.8",
+        "v": 2
+      },
+      {
+        "r": "EZK.6.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.28.22",
+        "v": 2
+      },
+      {
+        "r": "EZK.11.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.26",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.5",
+        "v": 2
+      },
+      {
+        "r": "JAS.1.1",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.9": {
@@ -349,49 +1889,305 @@
         "text": "That is, about 375 tons or about 340 metric tons"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.23.16",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.10": {
     "text": "So the king took his signet ring from his finger and gave it to Haman son of Hammedatha, the Agagite, the enemy of the Jews.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.42",
+        "v": 8
+      },
+      {
+        "r": "EST.8.2",
+        "v": 7
+      },
+      {
+        "r": "EST.7.6",
+        "v": 6
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "EST.8.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.11": {
     "text": "“Keep the money,” the king said to Haman, “and do with the people as you please.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.26.14",
+        "v": 3
+      },
+      {
+        "r": "LUK.23.25",
+        "v": 3
+      },
+      {
+        "r": "JER.40.4",
+        "v": 3
+      },
+      {
+        "r": "PSA.73.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.12": {
     "text": "Then on the thirteenth day of the first month the royal secretaries were summoned. They wrote out in the script of each province and in the language of each people all Haman’s orders to the king’s satraps, the governors of the various provinces and the nobles of the various peoples. These were written in the name of King Xerxes himself and sealed with his own ring.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.21.8",
+        "v": 6
+      },
+      {
+        "r": "EST.1.22",
+        "v": 3
+      },
+      {
+        "r": "EST.8.2",
+        "v": 2
+      },
+      {
+        "r": "EST.8.8-17",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.12",
+        "v": 2
+      },
+      {
+        "r": "EST.9.27",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.36",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.8",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.13": {
     "text": "Dispatches were sent by couriers to all the king’s provinces with the order to destroy, kill and annihilate all the Jews—young and old, women and children—on a single day, the thirteenth day of the twelfth month, the month of Adar, and to plunder their goods.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CH.30.6",
+        "v": 4
+      },
+      {
+        "r": "EST.9.10",
+        "v": 4
+      },
+      {
+        "r": "EST.8.10-14",
+        "v": 3
+      },
+      {
+        "r": "1SA.15.3",
+        "v": 3
+      },
+      {
+        "r": "ROM.3.15",
+        "v": 2
+      },
+      {
+        "r": "1SA.22.19",
+        "v": 2
+      },
+      {
+        "r": "JER.51.31",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.6",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.25",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.13",
+        "v": 2
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.14": {
     "text": "A copy of the text of the edict was to be issued as law in every province and made known to the people of every nationality so they would be ready for that day.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.13-14",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.3.15": {
     "text": "The couriers went out, spurred on by the king’s command, and the edict was issued in the citadel of Susa. The king and Haman sat down to drink, but the city of Susa was bewildered.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.15",
+        "v": 6
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.16",
+        "v": 2
+      },
+      {
+        "r": "EST.4.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.5",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.4.1": {
     "text": "When Mordecai learned of all that had been done, he tore his clothes, put on sackcloth and ashes, and went out into the city, wailing loudly and bitterly.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.9.3",
+        "v": 7
+      },
+      {
+        "r": "2SA.1.11",
+        "v": 5
+      },
+      {
+        "r": "EZK.27.30-31",
+        "v": 5
+      },
+      {
+        "r": "2SA.13.19",
+        "v": 5
+      },
+      {
+        "r": "JOB.42.6",
+        "v": 4
+      },
+      {
+        "r": "REV.18.17-19",
+        "v": 3
+      },
+      {
+        "r": "ZEP.1.14",
+        "v": 3
+      },
+      {
+        "r": "MIC.1.8",
+        "v": 3
+      },
+      {
+        "r": "ACT.14.14",
+        "v": 3
+      },
+      {
+        "r": "MAT.11.21",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.21.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.15.4",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.34",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.6",
+        "v": 2
+      },
+      {
+        "r": "EST.4.3",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.4",
+        "v": 2
+      },
+      {
+        "r": "JOB.2.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.5",
+        "v": 2
+      },
+      {
+        "r": "JON.3.4-9",
+        "v": 1
+      },
+      {
+        "r": "EST.3.8-13",
+        "v": 1
+      }
+    ],
     "section": "Mordecai Persuades Esther to Help"
   },
   "EST.4.2": {
@@ -403,37 +2199,215 @@
   "EST.4.3": {
     "text": "In every province to which the edict and order of the king came, there was great mourning among the Jews, with fasting, weeping and wailing. Many lay in sackcloth and ashes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.22.12",
+        "v": 6
+      },
+      {
+        "r": "DAN.9.3",
+        "v": 4
+      },
+      {
+        "r": "EST.3.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.37.1-3",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.5",
+        "v": 3
+      },
+      {
+        "r": "EST.4.16",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.30",
+        "v": 2
+      },
+      {
+        "r": "MAT.13.42",
+        "v": 2
+      },
+      {
+        "r": "1SA.4.13-14",
+        "v": 2
+      },
+      {
+        "r": "MAT.22.13",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 1
+      },
+      {
+        "r": "1SA.11.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.4": {
     "text": "When Esther’s eunuchs and female attendants came and told her about Mordecai, she was in great distress. She sent clothes for him to put on instead of his sackcloth, but he would not accept them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.77.2",
+        "v": 6
+      },
+      {
+        "r": "JER.31.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.37.35",
+        "v": 4
+      },
+      {
+        "r": "EST.1.12",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.3",
+        "v": 4
+      },
+      {
+        "r": "1SA.8.15",
+        "v": 4
+      },
+      {
+        "r": "2KI.9.32",
+        "v": 4
+      },
+      {
+        "r": "ACT.8.27",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.4.5": {
     "text": "Then Esther summoned Hathak, one of the king’s eunuchs assigned to attend her, and ordered him to find out what was troubling Mordecai and why.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.12.26",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.15",
+        "v": 3
+      },
+      {
+        "r": "HEB.4.15",
+        "v": 2
+      },
+      {
+        "r": "EST.1.10",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.6": {
     "text": "So Hathak went out to Mordecai in the open square of the city in front of the king’s gate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.3",
+        "v": 6
+      },
+      {
+        "r": "EST.7.2",
+        "v": 3
+      },
+      {
+        "r": "EST.9.12",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.7": {
     "text": "Mordecai told him everything that had happened to him, including the exact amount of money Haman had promised to pay into the royal treasury for the destruction of the Jews.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.2-15",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "EST.4.8": {
     "text": "He also gave him a copy of the text of the edict for their annihilation, which had been published in Susa, to show to Esther and explain it to her, and he told him to instruct her to go into the king’s presence to beg for mercy and plead with him for her people.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.10.4",
+        "v": 5
+      },
+      {
+        "r": "JOB.9.15",
+        "v": 4
+      },
+      {
+        "r": "EST.3.14-15",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.13",
+        "v": 3
+      },
+      {
+        "r": "EST.2.20",
+        "v": 3
+      },
+      {
+        "r": "EST.8.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 2
+      },
+      {
+        "r": "PRO.16.14-15",
+        "v": 2
+      },
+      {
+        "r": "ACT.12.20",
+        "v": 2
+      },
+      {
+        "r": "EST.7.3-4",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.3-5",
+        "v": 2
+      },
+      {
+        "r": "1TI.6.17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.9": {
@@ -451,7 +2425,36 @@
   "EST.4.11": {
     "text": "“All the king’s officials and the people of the royal provinces know that for any man or woman who approaches the king in the inner court without being summoned the king has but one law: that they be put to death unless the king extends the gold scepter to them and spares their lives. But thirty days have passed since I was called to go to the king.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.1-2",
+        "v": 7
+      },
+      {
+        "r": "EST.8.4",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.9",
+        "v": 6
+      },
+      {
+        "r": "EST.2.14",
+        "v": 3
+      },
+      {
+        "r": "EST.1.19",
+        "v": 2
+      },
+      {
+        "r": "EST.6.4",
+        "v": 2
+      },
+      {
+        "r": "1PE.3.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.12": {
@@ -463,13 +2466,131 @@
   "EST.4.13": {
     "text": "he sent back this answer: “Do not think that because you are in the king’s house you alone of all the Jews will escape.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.24.10-12",
+        "v": 7
+      },
+      {
+        "r": "JHN.12.25",
+        "v": 4
+      },
+      {
+        "r": "PHP.2.30",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.3",
+        "v": 1
+      },
+      {
+        "r": "MAT.16.24-25",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.14": {
     "text": "For if you remain silent at this time, relief and deliverance for the Jews will arise from another place, but you and your father’s family will perish. And who knows but that you have come to your royal position for such a time as this?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.45.4-8",
+        "v": 49
+      },
+      {
+        "r": "1SA.12.22",
+        "v": 44
+      },
+      {
+        "r": "DEU.32.36",
+        "v": 22
+      },
+      {
+        "r": "ISA.54.17",
+        "v": 22
+      },
+      {
+        "r": "JER.30.11",
+        "v": 17
+      },
+      {
+        "r": "MAT.16.18",
+        "v": 16
+      },
+      {
+        "r": "ACT.7.20-25",
+        "v": 14
+      },
+      {
+        "r": "JER.46.28",
+        "v": 12
+      },
+      {
+        "r": "EZR.9.9",
+        "v": 12
+      },
+      {
+        "r": "EST.2.15",
+        "v": 9
+      },
+      {
+        "r": "NUM.23.22-24",
+        "v": 8
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 8
+      },
+      {
+        "r": "MAT.24.22",
+        "v": 8
+      },
+      {
+        "r": "EST.2.7",
+        "v": 6
+      },
+      {
+        "r": "AMO.9.8-9",
+        "v": 5
+      },
+      {
+        "r": "ISA.45.1-5",
+        "v": 4
+      },
+      {
+        "r": "NEH.6.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.26-27",
+        "v": 3
+      },
+      {
+        "r": "GEN.22.14",
+        "v": 3
+      },
+      {
+        "r": "JER.33.24-26",
+        "v": 2
+      },
+      {
+        "r": "2KI.19.3",
+        "v": 2
+      },
+      {
+        "r": "JDG.15.6",
+        "v": 1
+      },
+      {
+        "r": "1SA.17.29",
+        "v": 1
+      },
+      {
+        "r": "JOB.9.18",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.15": {
@@ -481,7 +2602,84 @@
   "EST.4.16": {
     "text": "“Go, gather together all the Jews who are in Susa, and fast for me. Do not eat or drink for three days, night or day. I and my attendants will fast as you do. When this is done, I will go to the king, even though it is against the law. And if I perish, I perish.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.20.24",
+        "v": 19
+      },
+      {
+        "r": "2CH.20.3",
+        "v": 17
+      },
+      {
+        "r": "JOL.2.12-17",
+        "v": 13
+      },
+      {
+        "r": "LUK.9.24",
+        "v": 11
+      },
+      {
+        "r": "GEN.18.19",
+        "v": 9
+      },
+      {
+        "r": "JON.3.4-9",
+        "v": 5
+      },
+      {
+        "r": "2SA.10.12",
+        "v": 5
+      },
+      {
+        "r": "JOS.24.15",
+        "v": 5
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 5
+      },
+      {
+        "r": "ISA.22.12",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "ROM.16.4",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.30",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.14-15",
+        "v": 2
+      },
+      {
+        "r": "ACT.9.9",
+        "v": 2
+      },
+      {
+        "r": "ACT.27.33",
+        "v": 1
+      },
+      {
+        "r": "ACT.21.13",
+        "v": 1
+      },
+      {
+        "r": "1SA.19.5",
+        "v": 0
+      },
+      {
+        "r": "MAT.12.40",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.17": {
@@ -493,37 +2691,203 @@
   "EST.5.1": {
     "text": "On the third day Esther put on her royal robes and stood in the inner court of the palace, in front of the king’s hall. The king was sitting on his royal throne in the hall, facing the entrance.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.4",
+        "v": 7
+      },
+      {
+        "r": "EST.4.16",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.3-5",
+        "v": 5
+      },
+      {
+        "r": "REV.3.21",
+        "v": 5
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 4
+      },
+      {
+        "r": "EST.8.15",
+        "v": 4
+      },
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "LUK.22.30",
+        "v": 4
+      },
+      {
+        "r": "EST.1.11",
+        "v": 4
+      },
+      {
+        "r": "MAT.27.64",
+        "v": 4
+      },
+      {
+        "r": "MAT.11.8",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.18-20",
+        "v": 1
+      }
+    ],
     "section": "Esther’s Request to the King"
   },
   "EST.5.2": {
     "text": "When he saw Queen Esther standing in the court, he was pleased with her and held out to her the gold scepter that was in his hand. So Esther approached and touched the tip of the scepter.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.4",
+        "v": 8
+      },
+      {
+        "r": "EST.4.11",
+        "v": 7
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 6
+      },
+      {
+        "r": "NEH.1.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.116.1",
+        "v": 3
+      },
+      {
+        "r": "EST.2.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.32.28",
+        "v": 3
+      },
+      {
+        "r": "ACT.10.4",
+        "v": 3
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.3": {
     "text": "Then the king asked, “What is it, Queen Esther? What is your request? Even up to half the kingdom, it will be given you.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.6.23",
+        "v": 14
+      },
+      {
+        "r": "EST.7.2",
+        "v": 11
+      },
+      {
+        "r": "EST.9.12",
+        "v": 8
+      },
+      {
+        "r": "EST.5.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.20.20-22",
+        "v": 5
+      },
+      {
+        "r": "1KI.3.5",
+        "v": 5
+      },
+      {
+        "r": "1KI.2.20",
+        "v": 4
+      },
+      {
+        "r": "LUK.18.41",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.5.4": {
     "text": "“If it pleases the king,” replied Esther, “let the king, together with Haman, come today to a banquet I have prepared for him.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.29.11",
+        "v": 4
+      },
+      {
+        "r": "EST.5.8",
+        "v": 4
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.112.5",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.20",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.25",
+        "v": 1
+      },
+      {
+        "r": "GEN.32.20",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.5.5": {
     "text": "“Bring Haman at once,” the king said, “so that we may do what Esther asks.” So the king and Haman went to the banquet Esther had prepared.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.6": {
     "text": "As they were drinking wine, the king again asked Esther, “Now what is your petition? It will be given you. And what is your request? Even up to half the kingdom, it will be granted.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.2",
+        "v": 8
+      },
+      {
+        "r": "EST.5.3",
+        "v": 7
+      },
+      {
+        "r": "EST.9.12",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "EST.5.7": {
@@ -535,37 +2899,267 @@
   "EST.5.8": {
     "text": "If the king regards me with favor and if it pleases the king to grant my petition and fulfill my request, let the king and Haman come tomorrow to the banquet I will prepare for them. Then I will answer the king’s question.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.9",
+        "v": 5
+      },
+      {
+        "r": "EST.7.3",
+        "v": 4
+      },
+      {
+        "r": "EST.8.5",
+        "v": 3
+      },
+      {
+        "r": "EST.6.1-14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.9": {
     "text": "Haman went out that day happy and in high spirits. But when he saw Mordecai at the king’s gate and observed that he neither rose nor showed fear in his presence, he was filled with rage against Mordecai.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.5",
+        "v": 6
+      },
+      {
+        "r": "MAT.2.16",
+        "v": 3
+      },
+      {
+        "r": "PSA.27.3",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.5",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.31",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.16-19",
+        "v": 2
+      },
+      {
+        "r": "PSA.15.4",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.13",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 2
+      },
+      {
+        "r": "LUK.6.25",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.12-13",
+        "v": 2
+      },
+      {
+        "r": "JAS.4.9",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.54",
+        "v": 1
+      },
+      {
+        "r": "MAT.10.28",
+        "v": 1
+      }
+    ],
     "section": "Haman’s Rage Against Mordecai"
   },
   "EST.5.10": {
     "text": "Nevertheless, Haman restrained himself and went home. Calling together his friends and Zeresh, his wife,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.13",
+        "v": 6
+      },
+      {
+        "r": "ECC.7.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.45.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.30-31",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.11": {
     "text": "Haman boasted to them about his vast wealth, his many sons, and all the ways the king had honored him and how he had elevated him above the other nobles and officials.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.7-10",
+        "v": 6
+      },
+      {
+        "r": "EST.3.1",
+        "v": 4
+      },
+      {
+        "r": "LUK.12.19-20",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.17",
+        "v": 3
+      },
+      {
+        "r": "GEN.31.1",
+        "v": 3
+      },
+      {
+        "r": "EST.1.4",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.13-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.16-17",
+        "v": 2
+      },
+      {
+        "r": "JER.9.23-24",
+        "v": 2
+      },
+      {
+        "r": "EST.9.12-13",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "MRK.10.24",
+        "v": 2
+      },
+      {
+        "r": "JOB.27.14-15",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.24-25",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.12": {
     "text": "“And that’s not all,” Haman added. “I’m the only person Queen Esther invited to accompany the king to the banquet she gave. And she has invited me along with the king tomorrow.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.27.1",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.35-36",
+        "v": 3
+      },
+      {
+        "r": "1TH.5.3",
+        "v": 2
+      },
+      {
+        "r": "LUK.21.34-35",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.5-8",
+        "v": 2
+      },
+      {
+        "r": "JOB.8.12-13",
+        "v": 2
+      },
+      {
+        "r": "PRO.7.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.13": {
     "text": "But all this gives me no satisfaction as long as I see that Jew Mordecai sitting at the king’s gate.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.15.20",
+        "v": 3
+      },
+      {
+        "r": "JOB.18.4",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.11-12",
+        "v": 3
+      },
+      {
+        "r": "ECC.1.14",
+        "v": 2
+      },
+      {
+        "r": "ECC.1.2",
+        "v": 2
+      },
+      {
+        "r": "EST.5.9",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.14": {
@@ -576,31 +3170,244 @@
         "text": "That is, about 75 feet or about 23 meters"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.4",
+        "v": 6
+      },
+      {
+        "r": "EST.7.9-10",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.32",
+        "v": 5
+      },
+      {
+        "r": "1KI.21.7",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.14",
+        "v": 5
+      },
+      {
+        "r": "PSA.7.13-16",
+        "v": 3
+      },
+      {
+        "r": "ACT.23.14-15",
+        "v": 3
+      },
+      {
+        "r": "2CH.22.3-4",
+        "v": 2
+      },
+      {
+        "r": "ROM.1.32",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "MRK.6.19-24",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.25",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.4-6",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.16",
+        "v": 2
+      },
+      {
+        "r": "MRK.14.10-11",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.3-5",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.15",
+        "v": 2
+      },
+      {
+        "r": "EST.3.8-15",
+        "v": 2
+      },
+      {
+        "r": "PSA.9.15",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.18",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.21-17.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.1": {
     "text": "That night the king could not sleep; so he ordered the book of the chronicles, the record of his reign, to be brought in and read to him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.2.1",
+        "v": 13
+      },
+      {
+        "r": "DAN.6.18",
+        "v": 12
+      },
+      {
+        "r": "EST.10.2",
+        "v": 8
+      },
+      {
+        "r": "ISA.41.17",
+        "v": 7
+      },
+      {
+        "r": "ROM.11.33",
+        "v": 7
+      },
+      {
+        "r": "EST.2.23",
+        "v": 7
+      },
+      {
+        "r": "EST.5.8",
+        "v": 6
+      },
+      {
+        "r": "1SA.23.26-27",
+        "v": 6
+      },
+      {
+        "r": "MAL.3.16",
+        "v": 5
+      },
+      {
+        "r": "GEN.22.14",
+        "v": 5
+      }
+    ],
     "section": "Mordecai Honored"
   },
   "EST.6.2": {
     "text": "It was found recorded there that Mordecai had exposed Bigthana and Teresh, two of the king’s officers who guarded the doorway, who had conspired to assassinate King Xerxes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.21-22",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.3": {
     "text": "“What honor and recognition has Mordecai received for this?” the king asked. “Nothing has been done for him,” his attendants answered.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.9.15",
+        "v": 7
+      },
+      {
+        "r": "GEN.40.23",
+        "v": 4
+      },
+      {
+        "r": "DAN.5.7",
+        "v": 3
+      },
+      {
+        "r": "ACT.28.8-10",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.16",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.29",
+        "v": 3
+      },
+      {
+        "r": "PSA.118.8-9",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.25-26",
+        "v": 3
+      },
+      {
+        "r": "JDG.1.12-13",
+        "v": 3
+      },
+      {
+        "r": "1CH.11.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.4": {
     "text": "The king said, “Who is in the court?” Now Haman had just entered the outer court of the palace to speak to the king about impaling Mordecai on the pole he had set up for him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.14",
+        "v": 5
+      },
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.2.4",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "EST.3.8-11",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "EST.7.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.33.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.13",
+        "v": 2
+      },
+      {
+        "r": "PRO.3.27-28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.5": {
@@ -612,73 +3419,389 @@
   "EST.6.6": {
     "text": "When Haman entered, the king asked him, “What should be done for the man the king delights to honor?” Now Haman thought to himself, “Who is there that the king would rather honor than me?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.18",
+        "v": 5
+      },
+      {
+        "r": "OBA.1.3",
+        "v": 4
+      },
+      {
+        "r": "EST.6.9",
+        "v": 3
+      },
+      {
+        "r": "ISA.42.1",
+        "v": 3
+      },
+      {
+        "r": "MAT.3.17",
+        "v": 3
+      },
+      {
+        "r": "PRO.18.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 3
+      },
+      {
+        "r": "JER.32.41",
+        "v": 3
+      },
+      {
+        "r": "EST.5.11",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.32",
+        "v": 2
+      },
+      {
+        "r": "PSA.35.27",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2-3",
+        "v": 2
+      },
+      {
+        "r": "EST.6.7",
+        "v": 2
+      },
+      {
+        "r": "EST.6.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.23",
+        "v": 1
+      },
+      {
+        "r": "PRO.30.13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.6.7": {
     "text": "So he answered the king, “For the man the king delights to honor,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.11",
+        "v": 3
+      },
+      {
+        "r": "EST.6.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.8": {
     "text": "have them bring a royal robe the king has worn and a horse the king has ridden, one with a royal crest placed on its head.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.1.33",
+        "v": 6
+      },
+      {
+        "r": "EST.2.17",
+        "v": 3
+      },
+      {
+        "r": "1SA.18.4",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 3
+      },
+      {
+        "r": "EST.1.11",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.9": {
     "text": "Then let the robe and horse be entrusted to one of the king’s most noble princes. Let them robe the man the king delights to honor, and lead him on the horse through the city streets, proclaiming before him, ‘This is what is done for the man the king delights to honor!’ ”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.43",
+        "v": 8
+      },
+      {
+        "r": "1KI.1.33-34",
+        "v": 5
+      },
+      {
+        "r": "ZEC.9.9",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.10": {
     "text": "“Go at once,” the king commanded Haman. “Get the robe and the horse and do just as you have suggested for Mordecai the Jew, who sits at the king’s gate. Do not neglect anything you have recommended.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.4.37",
+        "v": 5
+      },
+      {
+        "r": "2KI.10.10",
+        "v": 4
+      },
+      {
+        "r": "REV.18.7",
+        "v": 4
+      },
+      {
+        "r": "LUK.14.11",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.11": {
     "text": "So Haman got the robe and the horse. He robed Mordecai, and led him on horseback through the city streets, proclaiming before him, “This is what is done for the man the king delights to honor!”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.3",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.52",
+        "v": 5
+      },
+      {
+        "r": "EZR.6.13",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 4
+      },
+      {
+        "r": "EST.8.15",
+        "v": 4
+      },
+      {
+        "r": "REV.3.9",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.12": {
     "text": "Afterward Mordecai returned to the king’s gate. But Haman rushed home, with his head covered in grief,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.15.30",
+        "v": 6
+      },
+      {
+        "r": "JER.14.3-4",
+        "v": 4
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 3
+      },
+      {
+        "r": "JOB.20.5",
+        "v": 3
+      },
+      {
+        "r": "2CH.26.20",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 2
+      },
+      {
+        "r": "PSA.131.1-2",
+        "v": 2
+      },
+      {
+        "r": "2SA.17.23",
+        "v": 2
+      },
+      {
+        "r": "EST.7.8",
+        "v": 2
+      },
+      {
+        "r": "1SA.3.15",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.43",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.13": {
     "text": "and told Zeresh his wife and all his friends everything that had happened to him. His advisers and his wife Zeresh said to him, “Since Mordecai, before whom your downfall has started, is of Jewish origin, you cannot stand against him—you will surely come to ruin!”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.28.18",
+        "v": 10
+      },
+      {
+        "r": "HOS.14.9",
+        "v": 8
+      },
+      {
+        "r": "GEN.40.19",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 5
+      },
+      {
+        "r": "DAN.5.26-28",
+        "v": 5
+      },
+      {
+        "r": "GEN.41.8",
+        "v": 5
+      },
+      {
+        "r": "JOB.16.2",
+        "v": 4
+      },
+      {
+        "r": "EST.5.10-14",
+        "v": 4
+      },
+      {
+        "r": "1SA.28.19-20",
+        "v": 4
+      },
+      {
+        "r": "JOB.15.24",
+        "v": 3
+      },
+      {
+        "r": "ZEC.12.2-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.14": {
     "text": "While they were still talking with him, the king’s eunuchs arrived and hurried Haman away to the banquet Esther had prepared.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.8",
+        "v": 6
+      },
+      {
+        "r": "DEU.32.35-36",
+        "v": 2
+      },
+      {
+        "r": "EST.5.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.1": {
     "text": "So the king and Haman went to Queen Esther’s banquet,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.8",
+        "v": 4
+      },
+      {
+        "r": "EST.3.15",
+        "v": 3
+      }
+    ],
     "section": "Haman Impaled"
   },
   "EST.7.2": {
     "text": "and as they were drinking wine on the second day, the king again asked, “Queen Esther, what is your petition? It will be given you. What is your request? Even up to half the kingdom, it will be granted.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.16.24",
+        "v": 6
+      },
+      {
+        "r": "EST.5.3",
+        "v": 5
+      },
+      {
+        "r": "EST.9.12",
+        "v": 4
+      },
+      {
+        "r": "EST.5.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.3": {
     "text": "Then Queen Esther answered, “If I have found favor with you, Your Majesty, and if it pleases you, grant me my life—this is my petition. And spare my people—this is my request.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.38.26",
+        "v": 6
+      },
+      {
+        "r": "JOB.2.4",
+        "v": 4
+      },
+      {
+        "r": "EST.7.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.6-9",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.31",
+        "v": 2
+      },
+      {
+        "r": "2KI.1.13",
+        "v": 2
+      },
+      {
+        "r": "EST.4.8",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.4": {
@@ -689,31 +3812,228 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.9",
+        "v": 7
+      },
+      {
+        "r": "DEU.28.68",
+        "v": 6
+      },
+      {
+        "r": "EST.3.13",
+        "v": 6
+      },
+      {
+        "r": "EST.8.11",
+        "v": 4
+      },
+      {
+        "r": "EST.4.7-8",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.44.22-23",
+        "v": 2
+      },
+      {
+        "r": "GEN.37.26-28",
+        "v": 2
+      },
+      {
+        "r": "1SA.22.23",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.6",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.5.5",
+        "v": 2
+      },
+      {
+        "r": "JOS.9.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.5": {
     "text": "King Xerxes asked Queen Esther, “Who is he? Where is he—the man who has dared to do such a thing?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.27.33",
+        "v": 3
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.6": {
     "text": "Esther said, “An adversary and enemy! This vile Haman!” Then Haman was terrified before the king and queen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.18.5-12",
+        "v": 5
+      },
+      {
+        "r": "PSA.139.19-22",
+        "v": 3
+      },
+      {
+        "r": "1CO.5.13",
+        "v": 3
+      },
+      {
+        "r": "2TH.2.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.27.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.17-20",
+        "v": 2
+      },
+      {
+        "r": "1SA.24.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.5-9",
+        "v": 2
+      },
+      {
+        "r": "NEH.6.16",
+        "v": 2
+      },
+      {
+        "r": "JOB.15.21-22",
+        "v": 2
+      },
+      {
+        "r": "EST.3.10",
+        "v": 2
+      },
+      {
+        "r": "ECC.5.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.21.4",
+        "v": 1
+      },
+      {
+        "r": "DAN.5.5-6",
+        "v": 1
+      },
+      {
+        "r": "PRO.16.14",
+        "v": 1
+      },
+      {
+        "r": "PRO.24.24-25",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.7": {
     "text": "The king got up in a rage, left his wine and went out into the palace garden. But Haman, realizing that the king had already decided his fate, stayed behind to beg Queen Esther for his life.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.3.9",
+        "v": 3
+      },
+      {
+        "r": "EST.1.12",
+        "v": 3
+      },
+      {
+        "r": "PRO.14.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.19.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.112.10",
+        "v": 2
+      },
+      {
+        "r": "EST.1.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.8": {
     "text": "Just as the king returned from the palace garden to the banquet hall, Haman was falling on the couch where Esther was reclining. The king exclaimed, “Will he even molest the queen while she is with me in the house?” As soon as the word left the king’s mouth, they covered Haman’s face.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.6",
+        "v": 5
+      },
+      {
+        "r": "EST.6.12",
+        "v": 4
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.17",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.9": {
@@ -724,61 +4044,399 @@
         "text": "That is, about 75 feet or about 23 meters"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.15-16",
+        "v": 11
+      },
+      {
+        "r": "PRO.11.5-6",
+        "v": 8
+      },
+      {
+        "r": "EST.5.14",
+        "v": 6
+      },
+      {
+        "r": "EST.1.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.141.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.35.8",
+        "v": 5
+      },
+      {
+        "r": "DAN.6.24",
+        "v": 4
+      },
+      {
+        "r": "PSA.73.19",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.35-36",
+        "v": 3
+      },
+      {
+        "r": "DAN.6.7",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.51",
+        "v": 3
+      },
+      {
+        "r": "EST.6.14",
+        "v": 3
+      },
+      {
+        "r": "EST.6.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.9.15-16",
+        "v": 3
+      },
+      {
+        "r": "JOB.27.20-23",
+        "v": 3
+      },
+      {
+        "r": "EST.9.25",
+        "v": 3
+      },
+      {
+        "r": "EST.2.21-23",
+        "v": 2
+      },
+      {
+        "r": "2KI.9.32",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.10": {
     "text": "So they impaled Haman on the pole he had set up for Mordecai. Then the king’s fury subsided.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.16",
+        "v": 7
+      },
+      {
+        "r": "DAN.6.24",
+        "v": 5
+      },
+      {
+        "r": "JDG.15.7",
+        "v": 4
+      },
+      {
+        "r": "EZK.5.13",
+        "v": 4
+      },
+      {
+        "r": "ZEC.6.8",
+        "v": 3
+      },
+      {
+        "r": "EST.2.1",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.8.1": {
     "text": "That same day King Xerxes gave Queen Esther the estate of Haman, the enemy of the Jews. And Mordecai came into the presence of the king, for Esther had told how he was related to her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.7",
+        "v": 6
+      },
+      {
+        "r": "EST.2.15",
+        "v": 5
+      },
+      {
+        "r": "PRO.13.22",
+        "v": 5
+      },
+      {
+        "r": "PSA.39.6",
+        "v": 4
+      },
+      {
+        "r": "JOB.27.16-17",
+        "v": 4
+      },
+      {
+        "r": "EST.7.6",
+        "v": 3
+      },
+      {
+        "r": "LUK.12.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.28.8",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.6-13",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.18-19",
+        "v": 2
+      }
+    ],
     "section": "The King’s Edict in Behalf of the Jews"
   },
   "EST.8.2": {
     "text": "The king took off his signet ring, which he had reclaimed from Haman, and presented it to Mordecai. And Esther appointed him over Haman’s estate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.10",
+        "v": 6
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 4
+      },
+      {
+        "r": "DAN.2.48",
+        "v": 4
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.34",
+        "v": 3
+      },
+      {
+        "r": "ECC.5.13-14",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.18-26",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.19-22",
+        "v": 2
+      },
+      {
+        "r": "2SA.9.7-10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.3": {
     "text": "Esther again pleaded with the king, falling at his feet and weeping. She begged him to put an end to the evil plan of Haman the Agagite, which he had devised against the Jews.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.8-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.38.2",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.4",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.24",
+        "v": 2
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      },
+      {
+        "r": "2KI.4.27",
+        "v": 2
+      },
+      {
+        "r": "HEB.5.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.4": {
     "text": "Then the king extended the gold scepter to Esther and she arose and stood before him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.2",
+        "v": 8
+      },
+      {
+        "r": "EST.4.11",
+        "v": 7
+      }
+    ],
     "section": null
   },
   "EST.8.5": {
     "text": "“If it pleases the king,” she said, “and if he regards me with favor and thinks it the right thing to do, and if he is pleased with me, let an order be written overruling the dispatches that Haman son of Hammedatha, the Agagite, devised and wrote to destroy the Jews in all the king’s provinces.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.3",
+        "v": 5
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 3
+      },
+      {
+        "r": "EST.5.8",
+        "v": 3
+      },
+      {
+        "r": "EST.2.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.16",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.13",
+        "v": 2
+      },
+      {
+        "r": "EST.2.17",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.29",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.6": {
     "text": "For how can I bear to see disaster fall on my people? How can I bear to see the destruction of my family?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.4",
+        "v": 5
+      },
+      {
+        "r": "ROM.9.2-3",
+        "v": 3
+      },
+      {
+        "r": "ROM.10.1",
+        "v": 3
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "LUK.19.41-42",
+        "v": 2
+      },
+      {
+        "r": "JER.9.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.44.34",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.3",
+        "v": 2
+      },
+      {
+        "r": "JER.4.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.7": {
     "text": "King Xerxes replied to Queen Esther and to Mordecai the Jew, “Because Haman attacked the Jews, I have given his estate to Esther, and they have impaled him on the pole he set up.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.10-8.1",
+        "v": 3
+      },
+      {
+        "r": "PRO.13.22",
+        "v": 2
+      },
+      {
+        "r": "GAL.3.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.8": {
     "text": "Now write another decree in the king’s name in behalf of the Jews as seems best to you, and seal it with the king’s signet ring—for no document written in the king’s name and sealed with his ring can be revoked.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.19",
+        "v": 9
+      },
+      {
+        "r": "EST.3.12",
+        "v": 8
+      },
+      {
+        "r": "EST.8.5",
+        "v": 4
+      },
+      {
+        "r": "HEB.6.17-18",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.8",
+        "v": 4
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.12-15",
+        "v": 4
+      },
+      {
+        "r": "2TI.2.19",
+        "v": 3
+      },
+      {
+        "r": "EST.8.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.9": {
@@ -789,13 +4447,87 @@
         "text": "That is, the upper Nile region"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.22",
+        "v": 9
+      },
+      {
+        "r": "EST.1.1",
+        "v": 7
+      },
+      {
+        "r": "2KI.18.26",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.9-11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.10": {
     "text": "Mordecai wrote in the name of King Xerxes, sealed the dispatches with the king’s signet ring, and sent them by mounted couriers, who rode fast horses especially bred for the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.4.1",
+        "v": 3
+      },
+      {
+        "r": "JER.51.21",
+        "v": 3
+      },
+      {
+        "r": "ISA.60.6",
+        "v": 3
+      },
+      {
+        "r": "ECC.8.4",
+        "v": 3
+      },
+      {
+        "r": "JER.2.23",
+        "v": 3
+      },
+      {
+        "r": "ISA.66.20",
+        "v": 3
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "1KI.4.28",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.25",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.11": {
@@ -806,79 +4538,528 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.37.14-15",
+        "v": 8
+      },
+      {
+        "r": "EST.3.13",
+        "v": 8
+      },
+      {
+        "r": "EZK.39.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.146.6-9",
+        "v": 6
+      },
+      {
+        "r": "EST.9.2-16",
+        "v": 5
+      },
+      {
+        "r": "PSA.137.8",
+        "v": 5
+      },
+      {
+        "r": "PSA.68.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.8.12": {
     "text": "The day appointed for the Jews to do this in all the provinces of King Xerxes was the thirteenth day of the twelfth month, the month of Adar.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.1",
+        "v": 6
+      },
+      {
+        "r": "EST.3.13-15",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.9-10",
+        "v": 2
+      },
+      {
+        "r": "JDG.1.6-7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.13": {
     "text": "A copy of the text of the edict was to be issued as law in every province and made known to the people of every nationality so that the Jews would be ready on that day to avenge themselves on their enemies.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.6.10",
+        "v": 4
+      },
+      {
+        "r": "EST.3.14",
+        "v": 4
+      },
+      {
+        "r": "PSA.92.10-11",
+        "v": 3
+      },
+      {
+        "r": "LUK.18.7",
+        "v": 3
+      },
+      {
+        "r": "JDG.16.28",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.6-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.68.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.14-15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.8.14": {
     "text": "The couriers, riding the royal horses, went out, spurred on by the king’s command, and the edict was issued in the citadel of Susa.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.15",
+        "v": 3
+      },
+      {
+        "r": "DAN.8.2",
+        "v": 3
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.1",
+        "v": 1
+      },
+      {
+        "r": "1SA.21.8",
+        "v": 1
+      },
+      {
+        "r": "EST.1.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.8.15": {
     "text": "When Mordecai left the king’s presence, he was wearing royal garments of blue and white, a large crown of gold and a purple robe of fine linen. And the city of Susa held a joyous celebration.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.16.19",
+        "v": 7
+      },
+      {
+        "r": "EST.5.1",
+        "v": 6
+      },
+      {
+        "r": "EST.1.6",
+        "v": 6
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 6
+      },
+      {
+        "r": "EST.6.8",
+        "v": 6
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 6
+      },
+      {
+        "r": "EST.3.15",
+        "v": 6
+      },
+      {
+        "r": "MAT.6.29",
+        "v": 6
+      },
+      {
+        "r": "EST.6.11",
+        "v": 5
+      },
+      {
+        "r": "MAT.11.8",
+        "v": 5
+      }
+    ],
     "section": "The Triumph of the Jews"
   },
   "EST.8.16": {
     "text": "For the Jews it was a time of happiness and joy, gladness and honor.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.11.10",
+        "v": 8
+      },
+      {
+        "r": "PSA.97.11",
+        "v": 8
+      },
+      {
+        "r": "PSA.18.28",
+        "v": 7
+      },
+      {
+        "r": "EST.4.1-3",
+        "v": 6
+      },
+      {
+        "r": "PSA.30.5-11",
+        "v": 5
+      },
+      {
+        "r": "ISA.35.10",
+        "v": 4
+      },
+      {
+        "r": "PSA.112.4",
+        "v": 4
+      },
+      {
+        "r": "EST.9.17",
+        "v": 4
+      },
+      {
+        "r": "EST.4.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.29-30",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.18-19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.17": {
     "text": "In every province and in every city to which the edict of the king came, there was joy and gladness among the Jews, with feasting and celebrating. And many people of other nationalities became Jews because fear of the Jews had seized them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.11.25",
+        "v": 6
+      },
+      {
+        "r": "EST.9.19",
+        "v": 5
+      },
+      {
+        "r": "ZEC.8.20-23",
+        "v": 4
+      },
+      {
+        "r": "PSA.18.43",
+        "v": 4
+      },
+      {
+        "r": "1SA.25.8",
+        "v": 4
+      },
+      {
+        "r": "EST.9.2",
+        "v": 4
+      },
+      {
+        "r": "EST.9.27",
+        "v": 3
+      },
+      {
+        "r": "GEN.35.5",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.16",
+        "v": 3
+      },
+      {
+        "r": "EST.9.22",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.25",
+        "v": 3
+      },
+      {
+        "r": "EST.9.17",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.1": {
     "text": "On the thirteenth day of the twelfth month, the month of Adar, the edict commanded by the king was to be carried out. On this day the enemies of the Jews had hoped to overpower them, but now the tables were turned and the Jews got the upper hand over those who hated them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.13",
+        "v": 8
+      },
+      {
+        "r": "EST.8.12",
+        "v": 6
+      },
+      {
+        "r": "PSA.30.11",
+        "v": 5
+      },
+      {
+        "r": "REV.11.18",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.14-16",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.1-2",
+        "v": 3
+      },
+      {
+        "r": "2SA.22.41",
+        "v": 3
+      },
+      {
+        "r": "EST.9.17",
+        "v": 2
+      },
+      {
+        "r": "EST.3.7",
+        "v": 2
+      },
+      {
+        "r": "ACT.12.11",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.36",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.2": {
     "text": "The Jews assembled in their cities in all the provinces of King Xerxes to attack those determined to destroy them. No one could stand against them, because the people of all the other nationalities were afraid of them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.17",
+        "v": 6
+      },
+      {
+        "r": "EST.8.11",
+        "v": 5
+      },
+      {
+        "r": "PSA.71.24",
+        "v": 3
+      },
+      {
+        "r": "PSA.71.13",
+        "v": 3
+      },
+      {
+        "r": "JOS.2.9",
+        "v": 2
+      },
+      {
+        "r": "EST.9.15-18",
+        "v": 2
+      },
+      {
+        "r": "DEU.2.30",
+        "v": 2
+      },
+      {
+        "r": "GEN.35.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.27",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.9",
+        "v": 2
+      },
+      {
+        "r": "JOS.11.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.3": {
     "text": "And all the nobles of the provinces, the satraps, the governors and the king’s administrators helped the Jews, because fear of Mordecai had seized them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.8.36",
+        "v": 5
+      },
+      {
+        "r": "EST.8.5",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.2",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2-6",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.4": {
     "text": "Mordecai was prominent in the palace; his reputation spread throughout the provinces, and he became more and more powerful.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.11.9",
+        "v": 6
+      },
+      {
+        "r": "2SA.3.1",
+        "v": 6
+      },
+      {
+        "r": "PSA.1.3",
+        "v": 3
+      },
+      {
+        "r": "1SA.2.30",
+        "v": 3
+      },
+      {
+        "r": "1CH.14.17",
+        "v": 3
+      },
+      {
+        "r": "JOS.6.27",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.43",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.19",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.18",
+        "v": 3
+      },
+      {
+        "r": "MAT.4.24",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.5": {
     "text": "The Jews struck down all their enemies with the sword, killing and destroying them, and they did what they pleased to those who hated them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.18.34-40",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.6-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.47-48",
+        "v": 3
+      },
+      {
+        "r": "PSA.20.7-8",
+        "v": 3
+      },
+      {
+        "r": "JER.18.21",
+        "v": 3
+      },
+      {
+        "r": "2TH.1.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.6": {
     "text": "In the citadel of Susa, the Jews killed and destroyed five hundred men.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.7": {
@@ -902,7 +5083,68 @@
   "EST.9.10": {
     "text": "the ten sons of Haman son of Hammedatha, the enemy of the Jews. But they did not lay their hands on the plunder.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.11",
+        "v": 5
+      },
+      {
+        "r": "EST.8.11",
+        "v": 5
+      },
+      {
+        "r": "GEN.14.23",
+        "v": 4
+      },
+      {
+        "r": "JOB.18.18-19",
+        "v": 3
+      },
+      {
+        "r": "JOB.27.13-15",
+        "v": 3
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.12.17",
+        "v": 2
+      },
+      {
+        "r": "EXO.20.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.21.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.12-13",
+        "v": 2
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 2
+      },
+      {
+        "r": "EST.9.15-16",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.11": {
@@ -914,13 +5156,47 @@
   "EST.9.12": {
     "text": "The king said to Queen Esther, “The Jews have killed and destroyed five hundred men and the ten sons of Haman in the citadel of Susa. What have they done in the rest of the king’s provinces? Now what is your petition? It will be given you. What is your request? It will also be granted.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.2",
+        "v": 6
+      },
+      {
+        "r": "EST.5.6",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "EST.9.13": {
     "text": "“If it pleases the king,” Esther answered, “give the Jews in Susa permission to carry out this day’s edict tomorrow also, and let Haman’s ten sons be impaled on poles.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.11",
+        "v": 4
+      },
+      {
+        "r": "DEU.21.23",
+        "v": 3
+      },
+      {
+        "r": "EST.9.15",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.9",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.6",
+        "v": 2
+      },
+      {
+        "r": "GAL.3.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.14": {
@@ -932,37 +5208,207 @@
   "EST.9.15": {
     "text": "The Jews in Susa came together on the fourteenth day of the month of Adar, and they put to death in Susa three hundred men, but they did not lay their hands on the plunder.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.11",
+        "v": 3
+      },
+      {
+        "r": "EST.9.10",
+        "v": 3
+      },
+      {
+        "r": "EST.9.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.118.7-12",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.2",
+        "v": 2
+      },
+      {
+        "r": "EST.9.16",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.22",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.16": {
     "text": "Meanwhile, the remainder of the Jews who were in the king’s provinces also assembled to protect themselves and get relief from their enemies. They killed seventy-five thousand of them but did not lay their hands on the plunder.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.11",
+        "v": 10
+      },
+      {
+        "r": "EST.9.2",
+        "v": 6
+      },
+      {
+        "r": "LEV.26.7-8",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "EST.9.17": {
     "text": "This happened on the thirteenth day of the month of Adar, and on the fourteenth they rested and made it a day of feasting and joy.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.1",
+        "v": 3
+      },
+      {
+        "r": "EST.9.21",
+        "v": 3
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "EST.9.18",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.18": {
     "text": "The Jews in Susa, however, had assembled on the thirteenth and fourteenth, and then on the fifteenth they rested and made it a day of feasting and joy.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.21",
+        "v": 3
+      },
+      {
+        "r": "EST.9.15",
+        "v": 2
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "EST.9.13",
+        "v": 2
+      },
+      {
+        "r": "EST.9.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.19": {
     "text": "That is why rural Jews—those living in villages—observe the fourteenth of the month of Adar as a day of joy and feasting, a day for giving presents to each other.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.17",
+        "v": 5
+      },
+      {
+        "r": "EST.9.22",
+        "v": 4
+      },
+      {
+        "r": "REV.11.10",
+        "v": 4
+      },
+      {
+        "r": "DEU.16.14",
+        "v": 4
+      },
+      {
+        "r": "NEH.8.10-12",
+        "v": 4
+      },
+      {
+        "r": "DEU.16.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.3.5",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.41",
+        "v": 2
+      },
+      {
+        "r": "ZEC.2.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.118.11-16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.20": {
     "text": "Mordecai recorded these events, and he sent letters to all the Jews throughout the provinces of King Xerxes, near and far,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.1.10-11",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.19-22",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.124.1-3",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      },
+      {
+        "r": "EST.1.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.4-12",
+        "v": 2
+      },
+      {
+        "r": "1CH.16.12",
+        "v": 1
+      }
+    ],
     "section": "Purim Established"
   },
   "EST.9.21": {
@@ -974,7 +5420,60 @@
   "EST.9.22": {
     "text": "as the time when the Jews got relief from their enemies, and as the month when their sorrow was turned into joy and their mourning into a day of celebration. He wrote them to observe the days as days of feasting and joy and giving presents of food to one another and gifts to the poor.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.30.11",
+        "v": 7
+      },
+      {
+        "r": "EST.9.19",
+        "v": 4
+      },
+      {
+        "r": "ISA.14.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.12.1-2",
+        "v": 4
+      },
+      {
+        "r": "GAL.2.10",
+        "v": 3
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 3
+      },
+      {
+        "r": "ACT.2.44-46",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20-22",
+        "v": 2
+      },
+      {
+        "r": "PSA.103.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.5.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.13.3-8",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.10-12",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.41",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.23": {
@@ -986,7 +5485,16 @@
   "EST.9.24": {
     "text": "For Haman son of Hammedatha, the Agagite, the enemy of all the Jews, had plotted against the Jews to destroy them and had cast the pur (that is, the lot) for their ruin and destruction.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.5-13",
+        "v": 3
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.25": {
@@ -997,67 +5505,350 @@
         "text": "Or"
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.16",
+        "v": 7
+      },
+      {
+        "r": "EST.7.5-8.14",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.44",
+        "v": 2
+      },
+      {
+        "r": "EST.9.13-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.141.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.17-18",
+        "v": 2
+      },
+      {
+        "r": "PSA.140.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.26": {
     "text": "(Therefore these days were called Purim, from the word pur.) Because of everything written in this letter and because of what they had seen and what had happened to them,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.20",
+        "v": 3
+      },
+      {
+        "r": "NUM.16.40",
+        "v": 2
+      },
+      {
+        "r": "EZK.39.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.27": {
     "text": "the Jews took it on themselves to establish the custom that they and their descendants and all who join them should without fail observe these two days every year, in the way prescribed and at the time appointed.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.2.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.6",
+        "v": 4
+      },
+      {
+        "r": "EST.8.17",
+        "v": 3
+      },
+      {
+        "r": "ISA.56.3",
+        "v": 3
+      },
+      {
+        "r": "JOS.9.15",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.14-15",
+        "v": 2
+      },
+      {
+        "r": "EST.9.21",
+        "v": 2
+      },
+      {
+        "r": "ZEC.8.23",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.1-2",
+        "v": 2
+      },
+      {
+        "r": "DEU.5.3",
+        "v": 2
+      },
+      {
+        "r": "1SA.30.25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.28": {
     "text": "These days should be remembered and observed in every generation by every family, and in every province and in every city. And these days of Purim should never fail to be celebrated by the Jews—nor should the memory of these days die out among their descendants.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.78.5-7",
+        "v": 3
+      },
+      {
+        "r": "JOS.4.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.103.2",
+        "v": 3
+      },
+      {
+        "r": "EXO.13.8-9",
+        "v": 3
+      },
+      {
+        "r": "EXO.12.17",
+        "v": 2
+      },
+      {
+        "r": "ZEC.6.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.29": {
     "text": "So Queen Esther, daughter of Abihail, along with Mordecai the Jew, wrote with full authority to confirm this second letter concerning Purim.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.20",
+        "v": 5
+      },
+      {
+        "r": "EST.2.15",
+        "v": 4
+      },
+      {
+        "r": "EST.8.10",
+        "v": 3
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.30": {
     "text": "And Mordecai sent letters to all the Jews in the 127 provinces of Xerxes’ kingdom—words of goodwill and assurance—",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.1",
+        "v": 4
+      },
+      {
+        "r": "ZEC.8.19",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.39.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.31": {
     "text": "to establish these days of Purim at their designated times, as Mordecai the Jew and Queen Esther had decreed for them, and as they had established for themselves and their descendants in regard to their times of fasting and lamentation.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.3",
+        "v": 5
+      },
+      {
+        "r": "EST.4.16",
+        "v": 4
+      },
+      {
+        "r": "JON.3.2-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.32": {
     "text": "Esther’s decree confirmed these regulations about Purim, and it was written down in the records.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.26",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.10.1": {
     "text": "King Xerxes imposed tribute throughout the empire, to its distant shores.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.24.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.72.10",
+        "v": 3
+      },
+      {
+        "r": "LUK.2.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.11",
+        "v": 2
+      },
+      {
+        "r": "GEN.10.5",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.11.18",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
+      }
+    ],
     "section": "The Greatness of Mordecai"
   },
   "EST.10.2": {
     "text": "And all his acts of power and might, together with a full account of the greatness of Mordecai, whom the king had promoted, are they not written in the book of the annals of the kings of Media and Persia?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.15",
+        "v": 6
+      },
+      {
+        "r": "EST.2.23",
+        "v": 5
+      },
+      {
+        "r": "EST.9.4",
+        "v": 5
+      },
+      {
+        "r": "EST.6.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.35",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.41",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.48",
+        "v": 2
+      },
+      {
+        "r": "1KI.14.19",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.39",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.10.3": {
     "text": "Mordecai the Jew was second in rank to King Xerxes, preeminent among the Jews, and held in high esteem by his many fellow Jews, because he worked for the good of his people and spoke up for the welfare of all the Jews.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.2.10",
+        "v": 8
+      },
+      {
+        "r": "ROM.14.18",
+        "v": 4
+      },
+      {
+        "r": "ROM.10.1",
+        "v": 4
+      },
+      {
+        "r": "DAN.5.29",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.6-9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.43-44",
+        "v": 3
+      },
+      {
+        "r": "2CH.28.7",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.40",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.2-3",
+        "v": 2
+      },
+      {
+        "r": "1SA.23.17",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2",
+        "v": 2
+      }
+    ],
     "section": null
   }
 }

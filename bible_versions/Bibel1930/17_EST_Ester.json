@@ -2,205 +2,1147 @@
   "EST.1.1": {
     "text": "I Ahasverus'tid (det var den Ahasverus som regjerte fra India like til Etiopia over hundre og syv og tyve landskaper)",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.9.1",
+        "v": 7
+      },
+      {
+        "r": "EZR.4.6",
+        "v": 5
+      },
+      {
+        "r": "EST.8.9",
+        "v": 4
+      },
+      {
+        "r": "EST.9.30",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 4
+      },
+      {
+        "r": "ISA.37.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.18.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.2": {
     "text": "i de dager da kong Ahasverus satt på sin kongetrone i borgen Susan,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.1.1",
+        "v": 7
+      },
+      {
+        "r": "2SA.7.1",
+        "v": 5
+      },
+      {
+        "r": "DAN.8.2",
+        "v": 4
+      },
+      {
+        "r": "1KI.1.46",
+        "v": 3
+      },
+      {
+        "r": "DAN.4.4",
+        "v": 2
+      },
+      {
+        "r": "EST.4.16",
+        "v": 2
+      },
+      {
+        "r": "EST.9.12-15",
+        "v": 2
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.3": {
     "text": "i hans regjerings tredje år hendte det at han gjorde et gjestebud for alle sine fyrster og tjenere; Persias og Medias hærførere og hans fornemste menn og landskapenes fyrster var samlet hos ham.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.6.21",
+        "v": 7
+      },
+      {
+        "r": "EST.2.18",
+        "v": 6
+      },
+      {
+        "r": "DAN.5.1",
+        "v": 6
+      },
+      {
+        "r": "1KI.3.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.40.20",
+        "v": 3
+      },
+      {
+        "r": "ISA.21.2",
+        "v": 3
+      },
+      {
+        "r": "JER.51.11",
+        "v": 3
+      },
+      {
+        "r": "DAN.8.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.6-7",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.2-3",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.28",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.4": {
     "text": "I mange dager (hundre og åtti dager) viste han dem sin kongelige herlighet og rikdom og sin storhets glans og prakt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.40.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.6.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.28.5",
+        "v": 2
+      },
+      {
+        "r": "MAT.4.8",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.18",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.16-17",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.37-44",
+        "v": 2
+      },
+      {
+        "r": "PSA.93.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.1-4",
+        "v": 2
+      },
+      {
+        "r": "ISA.39.2",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.25",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.18",
+        "v": 2
+      },
+      {
+        "r": "DAN.7.9-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.12-13",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.23",
+        "v": 2
+      },
+      {
+        "r": "COL.1.27",
+        "v": 2
+      },
+      {
+        "r": "REV.4.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.21.5",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.36",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.11-12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.5": {
     "text": "Da de dager var til ende, gjorde kongen et gjestebud i syv dager for alt folket som fantes i borgen Susan, både store og små, i forgården til haven ved kongens slott.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.7-8",
+        "v": 4
+      },
+      {
+        "r": "2CH.30.21-25",
+        "v": 3
+      },
+      {
+        "r": "2CH.7.8-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.6": {
     "text": "Tepper av hvitt linnet, bomullstøi og blått purpur var festet med snorer av hvit bomull og rødt purpur i sølvringer og til marmorsøiler; benker av gull og sølv stod på et gulv av alabast og hvitt marmor og perlemor og sort marmor.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "AMO.6.4",
+        "v": 6
+      },
+      {
+        "r": "EZK.23.41",
+        "v": 4
+      },
+      {
+        "r": "EST.7.8",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.8",
+        "v": 2
+      },
+      {
+        "r": "EST.8.15",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.31-32",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.1",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.36-37",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.7": {
     "text": "Drikkene blev skjenket i skåler av gull, og skålene var alle ulik hverandre, og kongelig vin var det i mengde, som det høvde hos en konge.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.5.2-4",
+        "v": 4
+      },
+      {
+        "r": "2CH.9.20",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.21",
+        "v": 3
+      },
+      {
+        "r": "EST.2.18",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.1.8": {
     "text": "Og for drikningen gjaldt den forskrift at ingen skulde nødes; for kongen hadde befalt alle sine hushovmestere å la enhver få så meget han selv ønsket.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HAB.2.15-16",
+        "v": 4
+      },
+      {
+        "r": "JER.51.7",
+        "v": 3
+      },
+      {
+        "r": "JER.35.8",
+        "v": 1
+      },
+      {
+        "r": "JHN.2.8",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.1.9": {
     "text": "Samtidig gjorde dronning Vasti et gjestebud for kvinner i kong Ahasverus kongelige hus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.4",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.10": {
     "text": "På den syvende dag, da kongen var blitt vel til mote av vinen, sa han til Mehuman, Bista, Harbona, Bigta og Abagta, Setar og Karkas, de syv hoffmenn som gjorde tjeneste hos kong Ahasverus,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.9",
+        "v": 5
+      },
+      {
+        "r": "JDG.16.25",
+        "v": 5
+      },
+      {
+        "r": "2SA.13.28",
+        "v": 4
+      },
+      {
+        "r": "ECC.7.2-4",
+        "v": 4
+      },
+      {
+        "r": "PRO.20.1",
+        "v": 4
+      },
+      {
+        "r": "DAN.1.18-19",
+        "v": 3
+      },
+      {
+        "r": "GEN.43.34",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.18-19",
+        "v": 3
+      },
+      {
+        "r": "DAN.1.3-5",
+        "v": 2
+      },
+      {
+        "r": "ECC.10.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.36-37",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.11": {
     "text": "at de skulde føre dronning Vasti frem for kongen, med kongelig krone på, så han kunde la folkene og fyrstene få se hennes skjønnhet; for hun var meget fager.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.31.30",
+        "v": 9
+      },
+      {
+        "r": "MRK.6.21-22",
+        "v": 7
+      },
+      {
+        "r": "PRO.16.9",
+        "v": 6
+      },
+      {
+        "r": "2SA.14.25",
+        "v": 5
+      },
+      {
+        "r": "1SA.25.3",
+        "v": 5
+      },
+      {
+        "r": "EST.6.8",
+        "v": 5
+      },
+      {
+        "r": "EST.2.17",
+        "v": 4
+      },
+      {
+        "r": "PRO.23.29-33",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.1.12": {
     "text": "Men dronning Vasti nektet å komme efter den befaling kongen hadde sendt henne gjennem hoffmennene. Da blev kongen harmfull, og hans vrede optendtes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.19.12",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.1",
+        "v": 3
+      },
+      {
+        "r": "PRO.20.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.74.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.79.5",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.19",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.24",
+        "v": 2
+      },
+      {
+        "r": "GEN.3.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.13",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.22",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.6",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.19",
+        "v": 1
+      },
+      {
+        "r": "REV.6.16-17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.13": {
     "text": "Og kongen sa til vismennene, som forstod sig på tidene-således blev kongens saker fremlagt for alle som forstod sig på lov og rett,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.12.32",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.2",
+        "v": 4
+      },
+      {
+        "r": "JER.10.7",
+        "v": 4
+      },
+      {
+        "r": "MAT.16.3",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.7",
+        "v": 3
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 3
+      },
+      {
+        "r": "MAT.2.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.27",
+        "v": 1
+      },
+      {
+        "r": "DAN.4.6-7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.14": {
     "text": "og de som stod ham nærmest, var Karsena, Setar, Admata, Tarsis, Meres, Marsena, Memukan, persernes og medernes syv fyrster, som alltid hadde adgang til kongen og inntok de øverste seter i riket: (-)",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.25.19",
+        "v": 5
+      },
+      {
+        "r": "EZR.7.14",
+        "v": 4
+      },
+      {
+        "r": "MAT.18.10",
+        "v": 4
+      },
+      {
+        "r": "REV.22.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.15": {
     "text": "Hvad er det efter loven å gjøre med dronning Vasti, fordi hun ikke har gjort hvad kong Ahasverus befalte henne gjennem hoffmennene?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.16": {
     "text": "Da tok Memukan til orde for kongen og fyrstene: Dronning Vasti har ikke bare forbrutt sig mot kongen, men mot alle fyrster og alle folk i alle kong Ahasverus'landskaper.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.6.7-8",
+        "v": 2
+      },
+      {
+        "r": "ACT.18.14",
+        "v": 2
+      },
+      {
+        "r": "ACT.25.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.17": {
     "text": "For dronningens adferd vil komme ut blandt alle kvinnene og få dem til å forakte sine ektemenn; de vil si: Kong Ahasverus bød at dronning Vasti skulde føres frem for ham, men hun kom ikke.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.5.33",
+        "v": 3
+      },
+      {
+        "r": "2SA.6.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.18": {
     "text": "Ja, allerede idag vil persernes og medernes fyrstinner når de får høre om dronningens adferd, si så til alle kongens fyrster, og der vil bli nok av forakt og vrede.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JDG.5.29",
+        "v": 1
+      },
+      {
+        "r": "1KI.11.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.19": {
     "text": "Dersom det tykkes kongen godt, så la det utgå en kongelig befaling, og la den bli opskrevet blandt persernes og medernes lover, så den står urokkelig fast, at Vasti aldri mere skal komme for kong Ahasverus'øine, og kongen skal gi hennes kongelige verdighet til en annen kvinne, som er bedre enn hun!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.15.28",
+        "v": 6
+      },
+      {
+        "r": "EST.8.8",
+        "v": 5
+      },
+      {
+        "r": "EST.8.5",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.17",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.8-15",
+        "v": 4
+      },
+      {
+        "r": "EST.3.9",
+        "v": 4
+      },
+      {
+        "r": "1KI.3.28",
+        "v": 3
+      },
+      {
+        "r": "EST.1.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.20": {
     "text": "Når da det påbud som kongen utsteder, blir kjent i hele hans rike, så stort som det er, så vil alle kvinner vise sine ektemenn ære, både store og små.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "COL.3.18",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.1-7",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.33",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 5
+      },
+      {
+        "r": "DEU.21.21",
+        "v": 2
+      },
+      {
+        "r": "DEU.17.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.21": {
     "text": "Disse ord syntes kongen og fyrstene godt om, og kongen gjorde som Memukan hadde sagt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.37",
+        "v": 2
+      },
+      {
+        "r": "EST.2.4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.22": {
     "text": "Han sendte skrivelser til alle kongens landskaper, til hvert landskap i dets skrift og til hvert folk på dets tungemål, at hver mann skulde være herre i sitt hus og tale sitt folks tungemål.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.9",
+        "v": 6
+      },
+      {
+        "r": "EST.3.12",
+        "v": 6
+      },
+      {
+        "r": "EPH.5.22-24",
+        "v": 5
+      },
+      {
+        "r": "1TI.2.12",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.29",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "TIT.2.4-5",
+        "v": 2
+      },
+      {
+        "r": "LUK.16.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.5-11",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.19-20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.1": {
     "text": "Da nogen tid var gått, og kongens vrede hadde lagt sig, kom han atter til å tenke på Vasti og det hun hadde gjort, og det som var besluttet om henne.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.10",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.14-18",
+        "v": 4
+      },
+      {
+        "r": "EST.1.12-21",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.2.2": {
     "text": "Da sa kongens menn som gjorde tjeneste hos ham: Der skulde letes efter unge og fagre jomfruer for kongen,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.1.2",
+        "v": 4
+      },
+      {
+        "r": "GEN.12.14",
+        "v": 3
+      },
+      {
+        "r": "EST.6.14",
+        "v": 3
+      },
+      {
+        "r": "EST.1.10",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.3": {
     "text": "og kongen skulde sette menn i alle sitt rikes landskaper til å samle alle unge og fagre jomfruer til kvinnenes hus i borgen Susan under tilsyn av kongens hoffmann Hege, kvinnevokteren, og la dem få salver til å salve sig med,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.2.12-15",
+        "v": 2
+      },
+      {
+        "r": "EST.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.18-23",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.4": {
     "text": "og så skulde den unge pike som behager kongen, bli dronning i Vastis sted! Det råd syntes kongen godt om, og han gjorde så.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.14.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.20.16",
+        "v": 7
+      },
+      {
+        "r": "2SA.17.4",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.14",
+        "v": 3
+      },
+      {
+        "r": "EST.3.9-10",
+        "v": 3
+      },
+      {
+        "r": "EST.1.21",
+        "v": 3
+      },
+      {
+        "r": "2SA.13.4-6",
+        "v": 1
+      },
+      {
+        "r": "2SA.16.21-23",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.5": {
     "text": "I borgen Susan var det dengang en jødisk mann som hette Mordekai; han var sønn av Ja'r, som var sønn av Sime' og sønnesønn av Kis, av Benjamins ætt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.16.5",
+        "v": 5
+      },
+      {
+        "r": "EST.2.3",
+        "v": 3
+      },
+      {
+        "r": "EST.10.3",
+        "v": 3
+      },
+      {
+        "r": "EST.3.2-6",
+        "v": 3
+      },
+      {
+        "r": "1SA.9.1",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "EST.1.2",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.2.6": {
     "text": "Han var blitt bortført fra Jerusalem med de fanger som blev bortført sammen med Judas konge Jekonja da han blev bortført av Babels konge Nebukadnesar.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2KI.24.14-15",
+        "v": 6
+      },
+      {
+        "r": "JER.24.1",
+        "v": 5
+      },
+      {
+        "r": "2CH.36.20",
+        "v": 5
+      },
+      {
+        "r": "2KI.24.6",
+        "v": 4
+      },
+      {
+        "r": "JER.22.24",
+        "v": 3
+      },
+      {
+        "r": "2CH.36.9-10",
+        "v": 3
+      },
+      {
+        "r": "JER.22.28",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.7": {
     "text": "Han var fosterfar til Hadassa, det er Ester, en datter av hans farbror; for hun hadde hverken far eller mor. Den unge pike var velskapt og fager, og da hennes far og mor døde, hadde Mordekai tatt henne til sig som sin egen datter.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.15",
+        "v": 5
+      },
+      {
+        "r": "EST.1.11",
+        "v": 3
+      },
+      {
+        "r": "2CO.6.18",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.4",
+        "v": 2
+      },
+      {
+        "r": "1JN.3.1",
+        "v": 1
+      },
+      {
+        "r": "JER.32.7-12",
+        "v": 1
+      },
+      {
+        "r": "GEN.48.5",
+        "v": 1
+      },
+      {
+        "r": "DAN.1.6-7",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.2.8": {
     "text": "Da nu kongens bud og befaling blev kjent, og mange unge piker samledes til borgen Susan under Hegais tilsyn, da blev også Ester hentet til kongens hus under tilsyn av Hegai, kvinnevokteren.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.3",
+        "v": 5
+      },
+      {
+        "r": "EST.2.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.9": {
     "text": "Den unge pike behaget ham og vant hans yndest; derfor skyndte han sig med å gi henne salver til å salve sig med og den mat hun skulde ha, og de syv unge piker fra kongens hus som var utsett til å tjene henne; og han lot henne og hennes piker flytte inn i de beste rum i kvinnehuset.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.7",
+        "v": 9
+      },
+      {
+        "r": "GEN.39.21",
+        "v": 9
+      },
+      {
+        "r": "EST.2.12",
+        "v": 8
+      },
+      {
+        "r": "EST.2.3",
+        "v": 8
+      },
+      {
+        "r": "DAN.1.9",
+        "v": 7
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 6
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.106.46",
+        "v": 5
+      },
+      {
+        "r": "1KI.8.50",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.8",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.2.10": {
     "text": "Ester hadde ikke sagt noget om sitt folk og sin ætt; for Mordekai hadde pålagt henne at hun ikke skulde si noget om det.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.20",
+        "v": 8
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 6
+      },
+      {
+        "r": "EPH.6.1",
+        "v": 5
+      },
+      {
+        "r": "EST.3.8",
+        "v": 5
+      },
+      {
+        "r": "EST.4.13-14",
+        "v": 4
+      },
+      {
+        "r": "EST.7.4",
+        "v": 3
+      },
+      {
+        "r": "EST.2.7",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.2.11": {
     "text": "Hver eneste dag gikk Mordekai frem og tilbake utenfor forgården til kvinnehuset for å få vite hvorledes det stod til med Ester, og hvad de gjorde med henne.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.17.18",
+        "v": 4
+      },
+      {
+        "r": "GEN.37.14",
+        "v": 4
+      },
+      {
+        "r": "ACT.15.36",
+        "v": 3
+      },
+      {
+        "r": "EST.2.13-14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.12": {
     "text": "Nu var det så at når raden kom til en av de unge piker at hun skulde gå inn til kong Ahasverus, efterat der i tolv måneder var blitt gjort med henne således som det var foreskrevet om kvinnene (for så lang tid gikk det med til deres salving, seks måneder med myrraolje og seks måneder med velluktende saker og med andre salver for kvinner)",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.7.17",
+        "v": 5
+      },
+      {
+        "r": "1TH.4.4-5",
+        "v": 5
+      },
+      {
+        "r": "ISA.57.9",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.7.37-38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.13": {
@@ -212,157 +1154,1011 @@
   "EST.2.14": {
     "text": "Om aftenen gikk hun inn, og om morgenen vendte hun tilbake til det andre kvinnehus og stod siden under tilsyn av kongens hoffmann Sa'sgas, medhustruenes vokter; hun kom ikke mere inn til kongen, medmindre kongen hadde slik hu til henne at hun blev kalt til ham med navns nevnelse.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "GEN.34.19",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 1
+      },
+      {
+        "r": "ISA.45.4",
+        "v": 1
+      },
+      {
+        "r": "DEU.21.14",
+        "v": 1
+      },
+      {
+        "r": "ISA.43.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.15": {
     "text": "Da raden til å gå inn til kongen kom til Ester, datter av Abiha'l, som var farbror til hennes fosterfar Mordekai, krevde hun ikke annet enn det som kongens hoffmann Hegai, kvinnevokteren, rådet til. Og Ester vant yndest hos alle som så henne.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.9",
+        "v": 7
+      },
+      {
+        "r": "EST.2.3",
+        "v": 6
+      },
+      {
+        "r": "EST.9.29",
+        "v": 5
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 5
+      },
+      {
+        "r": "EST.2.7-8",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.16": {
     "text": "Ester blev hentet til kong Ahasverus i hans kongelige hus i den tiende måned, det er måneden tebet, i hans regjerings syvende år.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.9",
+        "v": 3
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "EST.2.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.17": {
     "text": "Kongen fikk Ester mere kjær enn alle de andre kvinner; hun vant nåde og yndest hos ham fremfor alle de andre jomfruer. Han satte en kongelig krone på hennes hode og gjorde henne til dronning i Vastis sted.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.113.7-8",
+        "v": 13
+      },
+      {
+        "r": "EZK.17.24",
+        "v": 11
+      },
+      {
+        "r": "LUK.1.48-52",
+        "v": 11
+      },
+      {
+        "r": "1SA.2.8",
+        "v": 10
+      },
+      {
+        "r": "PSA.75.6-7",
+        "v": 10
+      },
+      {
+        "r": "EST.1.11",
+        "v": 9
+      },
+      {
+        "r": "EST.4.14",
+        "v": 8
+      }
+    ],
     "section": null
   },
   "EST.2.18": {
     "text": "Og kongen gjorde et stort gjestebud for alle sine fyrster og tjenere til ære for Ester, og han tilstod landskapene eftergivelse av skatter og delte ut gaver, som det høvde for en konge.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JDG.14.10-17",
+        "v": 3
+      },
+      {
+        "r": "NEH.8.11",
+        "v": 3
+      },
+      {
+        "r": "EST.1.7",
+        "v": 3
+      },
+      {
+        "r": "1SA.25.8",
+        "v": 3
+      },
+      {
+        "r": "REV.11.10",
+        "v": 3
+      },
+      {
+        "r": "EST.9.22",
+        "v": 3
+      },
+      {
+        "r": "GEN.29.22",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.11",
+        "v": 3
+      },
+      {
+        "r": "LUK.14.8",
+        "v": 3
+      },
+      {
+        "r": "EST.1.3-5",
+        "v": 3
+      },
+      {
+        "r": "REV.19.9",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.19": {
     "text": "Da det for annen gang blev samlet sammen jomfruer, satt Mordekai i kongens port.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.21",
+        "v": 5
+      },
+      {
+        "r": "EST.2.3-4",
+        "v": 4
+      },
+      {
+        "r": "EST.3.2-3",
+        "v": 3
+      },
+      {
+        "r": "EST.5.13",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.2.20": {
     "text": "Men Ester hadde ikke sagt noget om sin ætt og sitt folk; for det hadde Mordekai pålagt henne, og Ester gjorde i alle ting som Mordekai sa, således som hun hadde gjort da hun blev opfostret hos ham.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.10",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.1-3",
+        "v": 3
+      },
+      {
+        "r": "EST.2.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.21": {
     "text": "På den tid da Mordekai satt i kongens port, blev Bigtan og Teres, to av de hoffmenn hos kongen som holdt vakt ved dørtreskelen, vrede på kong Ahasverus og søkte å legge hånd på ham.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.2",
+        "v": 9
+      },
+      {
+        "r": "1KI.16.9",
+        "v": 3
+      },
+      {
+        "r": "2KI.12.20",
+        "v": 3
+      },
+      {
+        "r": "2KI.21.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.10",
+        "v": 2
+      },
+      {
+        "r": "2KI.9.22-24",
+        "v": 2
+      },
+      {
+        "r": "2SA.4.5-6",
+        "v": 2
+      },
+      {
+        "r": "1KI.15.25-27",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.22": {
     "text": "Dette fikk Mordekai kunnskap om, og han fortalte det til dronning Ester; og Ester sa det til kongen på Mordekais vegne.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.1-2",
+        "v": 3
+      },
+      {
+        "r": "ECC.10.20",
+        "v": 2
+      },
+      {
+        "r": "ROM.11.33",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.4",
+        "v": 2
+      },
+      {
+        "r": "ACT.23.12-22",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.23": {
     "text": "Saken blev gransket, og da det viste sig at det var så, blev de begge hengt i en galge. Dette blev opskrevet i krønikeboken for kongens øine.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.10.2",
+        "v": 3
+      },
+      {
+        "r": "GEN.40.19",
+        "v": 3
+      },
+      {
+        "r": "GEN.40.22",
+        "v": 3
+      },
+      {
+        "r": "JOS.8.29",
+        "v": 2
+      },
+      {
+        "r": "EST.5.14-6.2",
+        "v": 2
+      },
+      {
+        "r": "EST.7.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.21.22-23",
+        "v": 2
+      },
+      {
+        "r": "MAL.3.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.1": {
     "text": "Nogen tid efter ophøiet kong Ahasverus agagitten Haman, Hammedatas sønn, og gav ham rang og sete over alle de fyrster som var hos ham.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NUM.24.7",
+        "v": 8
+      },
+      {
+        "r": "EST.5.11",
+        "v": 7
+      },
+      {
+        "r": "DAN.6.2",
+        "v": 6
+      },
+      {
+        "r": "1SA.15.33",
+        "v": 5
+      },
+      {
+        "r": "EST.3.10",
+        "v": 4
+      },
+      {
+        "r": "GEN.41.40",
+        "v": 3
+      },
+      {
+        "r": "1SA.15.8",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.14",
+        "v": 2
+      },
+      {
+        "r": "GEN.41.55",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.12.8",
+        "v": 2
+      },
+      {
+        "r": "EST.8.3",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.2": {
     "text": "Og alle kongens tjenere som var i kongens port, falt på kne og kastet sig ned for Haman, for så hadde kongen befalt om ham; men Mordekai falt ikke på kne og kastet sig ikke ned for ham.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.15.4",
+        "v": 3
+      },
+      {
+        "r": "EST.2.21",
+        "v": 3
+      },
+      {
+        "r": "EST.3.5",
+        "v": 3
+      },
+      {
+        "r": "EST.5.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.43",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.25.19",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.14",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "1SA.15.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.3": {
     "text": "Da sa kongens tjenere som var i kongens port, til Mordekai: Hvorfor overtreder du kongens bud?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.2",
+        "v": 4
+      },
+      {
+        "r": "EXO.1.17",
+        "v": 3
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "MAT.15.2-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.4": {
     "text": "Og da de dag efter dag hadde sagt så til ham, og han ikke hørte på dem, så meldte de det til Haman for å se om den grunn Mordekai gav, vilde bli tatt for god: for han hadde sagt dem at han var jøde.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.39.10",
+        "v": 5
+      },
+      {
+        "r": "JON.1.9",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.20-28",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.13",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.12",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.16-18",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.3",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.23-30",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.5": {
     "text": "Da Haman så at Mordekai ikke falt på kne eller kastet sig ned for ham, blev han full av harme.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.3.19",
+        "v": 4
+      },
+      {
+        "r": "EST.5.9",
+        "v": 4
+      },
+      {
+        "r": "EST.3.2",
+        "v": 3
+      },
+      {
+        "r": "PRO.21.24",
+        "v": 3
+      },
+      {
+        "r": "PRO.19.19",
+        "v": 2
+      },
+      {
+        "r": "PRO.27.3-4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.4.5-6",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.2",
+        "v": 2
+      },
+      {
+        "r": "PRO.12.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.6": {
     "text": "Men det syntes ham alt for lite å legge hånd bare på Mordekai; for han hadde fått vite hvilket folk Mordekai hørte til; derfor søkte han å få utryddet alle de jøder som fantes i hele Ahasverus'rike, fordi det var Mordekais folk.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.83.4",
+        "v": 5
+      },
+      {
+        "r": "REV.12.12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.7": {
     "text": "I den første måned, det er måneden nisan, i kong Ahasverus'tolvte år blev det kastet pur, det er lodd, i Hamans påsyn om hver enkelt dag og hver enkelt måned like til den tolvte måned, det er måneden adar.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.6.15",
+        "v": 4
+      },
+      {
+        "r": "PRO.16.33",
+        "v": 3
+      },
+      {
+        "r": "EST.9.24-26",
+        "v": 3
+      },
+      {
+        "r": "EZK.21.21-22",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.1",
+        "v": 2
+      },
+      {
+        "r": "EST.2.16",
+        "v": 2
+      },
+      {
+        "r": "EST.9.17-19",
+        "v": 2
+      },
+      {
+        "r": "EST.1.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.27.35",
+        "v": 2
+      },
+      {
+        "r": "EST.9.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "EST.9.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.8": {
     "text": "Og Haman sa til kong Ahasverus: Her er et folk som bor spredt og for sig selv blandt de andre folk i alle ditt rikes landskaper, og deres lover er forskjellige fra alle andre folks; de holder sig ikke efter kongens lover, og det høver ikke for kongen å la dem være i fred.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.4.12-15",
+        "v": 7
+      },
+      {
+        "r": "ACT.16.20-21",
+        "v": 6
+      },
+      {
+        "r": "DEU.4.27",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.33",
+        "v": 3
+      },
+      {
+        "r": "ZEC.7.14",
+        "v": 3
+      },
+      {
+        "r": "JHN.7.35",
+        "v": 3
+      },
+      {
+        "r": "JER.50.17",
+        "v": 3
+      },
+      {
+        "r": "ACT.17.6-7",
+        "v": 2
+      },
+      {
+        "r": "DEU.30.3",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.8",
+        "v": 2
+      },
+      {
+        "r": "EZK.6.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.28.22",
+        "v": 2
+      },
+      {
+        "r": "EZK.11.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.26",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.5",
+        "v": 2
+      },
+      {
+        "r": "JAS.1.1",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.9": {
     "text": "Dersom det tykkes kongen godt, så la det bli utferdiget en skrivelse om at de skal utryddes; og jeg skal da kunne tilveie embedsmennene ti tusen talenter sølv til å legge i kongens skattkammer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.23.16",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.10": {
     "text": "Da trakk kongen signetringen av sin hånd og gav den til agagitten Haman, Hammedatas sønn, jødenes fiende,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.42",
+        "v": 8
+      },
+      {
+        "r": "EST.8.2",
+        "v": 7
+      },
+      {
+        "r": "EST.7.6",
+        "v": 6
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "EST.8.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.11": {
     "text": "og sa til ham: Sølvet skal være ditt, og med folket kan du gjøre som du finner for godt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.26.14",
+        "v": 3
+      },
+      {
+        "r": "LUK.23.25",
+        "v": 3
+      },
+      {
+        "r": "JER.40.4",
+        "v": 3
+      },
+      {
+        "r": "PSA.73.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.12": {
     "text": "Kongens skrivere blev da kalt sammen på den trettende dag i den første måned, og det blev utferdiget en skrivelse aldeles således som Haman bød, både til kongens stattholdere og til landshøvdingene for hvert landskap og til fyrstene over hvert folk(-)til hvert landskap i dets skrift og til hvert folk på dets tungemål. I kong Ahasverus'navn blev skrivelsene utferdiget, og de blev forseglet med kongens signetring.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.21.8",
+        "v": 6
+      },
+      {
+        "r": "EST.1.22",
+        "v": 3
+      },
+      {
+        "r": "EST.8.2",
+        "v": 2
+      },
+      {
+        "r": "EST.8.8-17",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.12",
+        "v": 2
+      },
+      {
+        "r": "EST.9.27",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.36",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.8",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.13": {
     "text": "Så sendtes der med ilbud skrivelser til alle kongens landskaper at alle jøder skulde ødelegges, drepes og utryddes, både unge og gamle, små barn og kvinner, alle på en dag, på den trettende dag i den tolvte måned, det er måneden adar, og deres gods skulde gis til plyndring.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CH.30.6",
+        "v": 4
+      },
+      {
+        "r": "EST.9.10",
+        "v": 4
+      },
+      {
+        "r": "EST.8.10-14",
+        "v": 3
+      },
+      {
+        "r": "1SA.15.3",
+        "v": 3
+      },
+      {
+        "r": "ROM.3.15",
+        "v": 2
+      },
+      {
+        "r": "1SA.22.19",
+        "v": 2
+      },
+      {
+        "r": "JER.51.31",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.6",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.25",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.13",
+        "v": 2
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.14": {
     "text": "Forat befalingen skulde bli kjent i hvert landskap, blev en avskrift av skrivelsen kunngjort for alle folkene, så de kunde holde sig rede til den nevnte dag.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.13-14",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.3.15": {
     "text": "På kongens bud drog ilbudene i hast avsted så snart befalingen var utferdiget på borgen Susan. Så satte kongen og Haman sig til å drikke, men byen Susan var forferdet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.15",
+        "v": 6
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.16",
+        "v": 2
+      },
+      {
+        "r": "EST.4.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.5",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.4.1": {
     "text": "Da Mordekai fikk vite alt som hadde hendt, sønderrev han sine klær og klædde sig i sekk og aske og gikk ut i byen under høie klagerop.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.9.3",
+        "v": 7
+      },
+      {
+        "r": "2SA.1.11",
+        "v": 5
+      },
+      {
+        "r": "EZK.27.30-31",
+        "v": 5
+      },
+      {
+        "r": "2SA.13.19",
+        "v": 5
+      },
+      {
+        "r": "JOB.42.6",
+        "v": 4
+      },
+      {
+        "r": "REV.18.17-19",
+        "v": 3
+      },
+      {
+        "r": "ZEP.1.14",
+        "v": 3
+      },
+      {
+        "r": "MIC.1.8",
+        "v": 3
+      },
+      {
+        "r": "ACT.14.14",
+        "v": 3
+      },
+      {
+        "r": "MAT.11.21",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.21.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.15.4",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.34",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.6",
+        "v": 2
+      },
+      {
+        "r": "EST.4.3",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.4",
+        "v": 2
+      },
+      {
+        "r": "JOB.2.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.5",
+        "v": 2
+      },
+      {
+        "r": "JON.3.4-9",
+        "v": 1
+      },
+      {
+        "r": "EST.3.8-13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.2": {
@@ -374,37 +2170,215 @@
   "EST.4.3": {
     "text": "Og i hvert eneste landskap, overalt hvor kongens ord og befaling nådde frem, blev det stor sorg blandt jødene og faste og gråt og jammer, ja, mange redet sig et leie av sekk og aske.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.22.12",
+        "v": 6
+      },
+      {
+        "r": "DAN.9.3",
+        "v": 4
+      },
+      {
+        "r": "EST.3.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.37.1-3",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.5",
+        "v": 3
+      },
+      {
+        "r": "EST.4.16",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.30",
+        "v": 2
+      },
+      {
+        "r": "MAT.13.42",
+        "v": 2
+      },
+      {
+        "r": "1SA.4.13-14",
+        "v": 2
+      },
+      {
+        "r": "MAT.22.13",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 1
+      },
+      {
+        "r": "1SA.11.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.4": {
     "text": "Da kom Esters unge piker og hennes hoffmenn og fortalte henne det, og dronningen blev full av angst. Hun sendte klær til Mordekai, som han skulde ta på istedenfor de sekkeklær han gikk i; men han tok ikke imot dem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.77.2",
+        "v": 6
+      },
+      {
+        "r": "JER.31.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.37.35",
+        "v": 4
+      },
+      {
+        "r": "EST.1.12",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.3",
+        "v": 4
+      },
+      {
+        "r": "1SA.8.15",
+        "v": 4
+      },
+      {
+        "r": "2KI.9.32",
+        "v": 4
+      },
+      {
+        "r": "ACT.8.27",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.4.5": {
     "text": "Ester kalte da til sig Hatak, en av kongens hoffmenn, som han hadde satt til å tjene henne. og bød ham gå til Mordekai for å få vite hvad som var på ferde, og hvorfor han bar sig således at.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.12.26",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.15",
+        "v": 3
+      },
+      {
+        "r": "HEB.4.15",
+        "v": 2
+      },
+      {
+        "r": "EST.1.10",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.6": {
     "text": "Hatak gikk ut til Mordekai på byens torv foran kongens port.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.3",
+        "v": 6
+      },
+      {
+        "r": "EST.7.2",
+        "v": 3
+      },
+      {
+        "r": "EST.9.12",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.7": {
     "text": "Og Mordekai fortalte ham alt det som hadde hendt ham, og opgav for ham nøiaktig hvor meget sølv Haman hadde lovt å tilveie kongens skattkammer for å få utryddet jødene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.2-15",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "EST.4.8": {
     "text": "Han gav ham også en avskrift av den skrevne befaling som var blitt gitt i Susan om å ødelegge dem, forat han skulde vise Ester den og melde henne alt og pålegge henne å gå inn til kongen og be og bønnfalle ham om nåde for sitt folk.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.10.4",
+        "v": 5
+      },
+      {
+        "r": "JOB.9.15",
+        "v": 4
+      },
+      {
+        "r": "EST.3.14-15",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.13",
+        "v": 3
+      },
+      {
+        "r": "EST.2.20",
+        "v": 3
+      },
+      {
+        "r": "EST.8.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 2
+      },
+      {
+        "r": "PRO.16.14-15",
+        "v": 2
+      },
+      {
+        "r": "ACT.12.20",
+        "v": 2
+      },
+      {
+        "r": "EST.7.3-4",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.3-5",
+        "v": 2
+      },
+      {
+        "r": "1TI.6.17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.9": {
@@ -422,7 +2396,36 @@
   "EST.4.11": {
     "text": "Alle kongens tjenere og folket i kongens landskaper vet at hvis nogen, mann eller kvinne, går inn til kongen i den indre gård uten å være kalt, gjelder for enhver sådan samme lov: at han skal late livet, uten så er at kongen rekker ut sin gullstav mot ham, da får han leve; men jeg er nu i tretti dager ikke blitt kalt til å gå inn til kongen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.1-2",
+        "v": 7
+      },
+      {
+        "r": "EST.8.4",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.9",
+        "v": 6
+      },
+      {
+        "r": "EST.2.14",
+        "v": 3
+      },
+      {
+        "r": "EST.1.19",
+        "v": 2
+      },
+      {
+        "r": "EST.6.4",
+        "v": 2
+      },
+      {
+        "r": "1PE.3.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.12": {
@@ -434,13 +2437,131 @@
   "EST.4.13": {
     "text": "sa han at de skulde gi Ester dette svar: Du må ikke tenke at du alene av alle jøder skal slippe unda, fordi du er i kongens hus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.24.10-12",
+        "v": 7
+      },
+      {
+        "r": "JHN.12.25",
+        "v": 4
+      },
+      {
+        "r": "PHP.2.30",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.3",
+        "v": 1
+      },
+      {
+        "r": "MAT.16.24-25",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.14": {
     "text": "For om du tier stille i denne tid, så vil det nok komme utfrielse og redning for jødene fra et annet sted, men du og din fars hus skal omkomme. Og hvem vet om du ikke nettop for en tid som denne er kommet til dronningverdigheten?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.45.4-8",
+        "v": 49
+      },
+      {
+        "r": "1SA.12.22",
+        "v": 44
+      },
+      {
+        "r": "DEU.32.36",
+        "v": 22
+      },
+      {
+        "r": "ISA.54.17",
+        "v": 22
+      },
+      {
+        "r": "JER.30.11",
+        "v": 17
+      },
+      {
+        "r": "MAT.16.18",
+        "v": 16
+      },
+      {
+        "r": "ACT.7.20-25",
+        "v": 14
+      },
+      {
+        "r": "JER.46.28",
+        "v": 12
+      },
+      {
+        "r": "EZR.9.9",
+        "v": 12
+      },
+      {
+        "r": "EST.2.15",
+        "v": 9
+      },
+      {
+        "r": "NUM.23.22-24",
+        "v": 8
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 8
+      },
+      {
+        "r": "MAT.24.22",
+        "v": 8
+      },
+      {
+        "r": "EST.2.7",
+        "v": 6
+      },
+      {
+        "r": "AMO.9.8-9",
+        "v": 5
+      },
+      {
+        "r": "ISA.45.1-5",
+        "v": 4
+      },
+      {
+        "r": "NEH.6.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.26-27",
+        "v": 3
+      },
+      {
+        "r": "GEN.22.14",
+        "v": 3
+      },
+      {
+        "r": "JER.33.24-26",
+        "v": 2
+      },
+      {
+        "r": "2KI.19.3",
+        "v": 2
+      },
+      {
+        "r": "JDG.15.6",
+        "v": 1
+      },
+      {
+        "r": "1SA.17.29",
+        "v": 1
+      },
+      {
+        "r": "JOB.9.18",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.15": {
@@ -452,7 +2573,84 @@
   "EST.4.16": {
     "text": "Gå avsted og få samlet alle jøder som finnes i Susan, og hold faste for min skyld, så I hverken eter eller drikker noget i tre døgn, natt eller dag! Jeg og mine unge piker vil også faste på samme måte. Og så vil jeg gå inn til kongen, enda det ikke er efter loven. Skal jeg da omkomme, så får jeg omkomme.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.20.24",
+        "v": 19
+      },
+      {
+        "r": "2CH.20.3",
+        "v": 17
+      },
+      {
+        "r": "JOL.2.12-17",
+        "v": 13
+      },
+      {
+        "r": "LUK.9.24",
+        "v": 11
+      },
+      {
+        "r": "GEN.18.19",
+        "v": 9
+      },
+      {
+        "r": "JON.3.4-9",
+        "v": 5
+      },
+      {
+        "r": "2SA.10.12",
+        "v": 5
+      },
+      {
+        "r": "JOS.24.15",
+        "v": 5
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 5
+      },
+      {
+        "r": "ISA.22.12",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "ROM.16.4",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.30",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.14-15",
+        "v": 2
+      },
+      {
+        "r": "ACT.9.9",
+        "v": 2
+      },
+      {
+        "r": "ACT.27.33",
+        "v": 1
+      },
+      {
+        "r": "ACT.21.13",
+        "v": 1
+      },
+      {
+        "r": "1SA.19.5",
+        "v": 0
+      },
+      {
+        "r": "MAT.12.40",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.17": {
@@ -464,37 +2662,203 @@
   "EST.5.1": {
     "text": "På den tredje dag klædde Ester sig i kongelig skrud og stilte sig i den indre gård til kongens hus, midt for kongens hus, og kongen satt på sin kongetrone i kongens hus, midt imot døren til huset.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.4",
+        "v": 7
+      },
+      {
+        "r": "EST.4.16",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.3-5",
+        "v": 5
+      },
+      {
+        "r": "REV.3.21",
+        "v": 5
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 4
+      },
+      {
+        "r": "EST.8.15",
+        "v": 4
+      },
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "LUK.22.30",
+        "v": 4
+      },
+      {
+        "r": "EST.1.11",
+        "v": 4
+      },
+      {
+        "r": "MAT.27.64",
+        "v": 4
+      },
+      {
+        "r": "MAT.11.8",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.18-20",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.5.2": {
     "text": "Da nu kongen så dronning Ester stå i gården, fant hun nåde for hans øine; kongen rakte ut gullstaven som han hadde i hånden, mot Ester, og Ester gikk frem og rørte ved enden av staven.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.4",
+        "v": 8
+      },
+      {
+        "r": "EST.4.11",
+        "v": 7
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 6
+      },
+      {
+        "r": "NEH.1.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.116.1",
+        "v": 3
+      },
+      {
+        "r": "EST.2.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.32.28",
+        "v": 3
+      },
+      {
+        "r": "ACT.10.4",
+        "v": 3
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.3": {
     "text": "Og kongen sa til henne: Hvad har du på hjerte, dronning Ester, og hvad er ditt ønske? Var det enn halvdelen av riket, skal du få det.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MRK.6.23",
+        "v": 14
+      },
+      {
+        "r": "EST.7.2",
+        "v": 11
+      },
+      {
+        "r": "EST.9.12",
+        "v": 8
+      },
+      {
+        "r": "EST.5.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.20.20-22",
+        "v": 5
+      },
+      {
+        "r": "1KI.3.5",
+        "v": 5
+      },
+      {
+        "r": "1KI.2.20",
+        "v": 4
+      },
+      {
+        "r": "LUK.18.41",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.5.4": {
     "text": "Ester svarte: Tykkes det kongen godt, vilde jeg gjerne at kongen og Haman idag skulde komme til det gjestebud jeg har stelt til for ham!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.29.11",
+        "v": 4
+      },
+      {
+        "r": "EST.5.8",
+        "v": 4
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.112.5",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.20",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.25",
+        "v": 1
+      },
+      {
+        "r": "GEN.32.20",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.5.5": {
     "text": "Da sa kongen: Skynd eder og hent Haman, så Ester kan få sitt ønske opfylt! Så kom da kongen og Haman til det gjestebud Ester hadde stelt til.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.6": {
     "text": "Mens de satt og drakk vin, sa kongen til Ester: Hvad er din bønn? Den skal tilståes dig. Og hvad er ditt ønske? Var det enn halvdelen av riket, skal det opfylles.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.2",
+        "v": 8
+      },
+      {
+        "r": "EST.5.3",
+        "v": 7
+      },
+      {
+        "r": "EST.9.12",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "EST.5.7": {
@@ -506,67 +2870,510 @@
   "EST.5.8": {
     "text": "Har jeg funnet nåde for kongens øine, og tykkes det kongen godt å tilstå mig min bønn og å opfylle mitt ønske, så må kongen og Haman komme til det gjestebud jeg vil stelle til for dem! Imorgen vil jeg da gjøre som kongen sier.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.9",
+        "v": 5
+      },
+      {
+        "r": "EST.7.3",
+        "v": 4
+      },
+      {
+        "r": "EST.8.5",
+        "v": 3
+      },
+      {
+        "r": "EST.6.1-14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.9": {
     "text": "Haman gikk den dag glad og vel til mote derfra, men da han fikk se Mordekai i kongens port, og at han hverken reiste sig eller rørte sig for ham, blev han full av vrede mot Mordekai.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.5",
+        "v": 6
+      },
+      {
+        "r": "MAT.2.16",
+        "v": 3
+      },
+      {
+        "r": "PSA.27.3",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.5",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.31",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.16-19",
+        "v": 2
+      },
+      {
+        "r": "PSA.15.4",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.13",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 2
+      },
+      {
+        "r": "LUK.6.25",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.12-13",
+        "v": 2
+      },
+      {
+        "r": "JAS.4.9",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.54",
+        "v": 1
+      },
+      {
+        "r": "MAT.10.28",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.5.10": {
     "text": "Men han holdt sig rolig og gikk hjem; så sendte han bud efter sine venner og sin hustru Seres",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.13",
+        "v": 6
+      },
+      {
+        "r": "ECC.7.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.45.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.30-31",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.11": {
     "text": "og fortalte dem om sin rikdom og herlighet og om sine mange sønner og likeledes alt om hvorledes kongen hadde gjort ham stor, og hvorledes han hadde ophøiet ham over fyrstene og kongens tjenere.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.7-10",
+        "v": 6
+      },
+      {
+        "r": "EST.3.1",
+        "v": 4
+      },
+      {
+        "r": "LUK.12.19-20",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.17",
+        "v": 3
+      },
+      {
+        "r": "GEN.31.1",
+        "v": 3
+      },
+      {
+        "r": "EST.1.4",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.13-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.16-17",
+        "v": 2
+      },
+      {
+        "r": "JER.9.23-24",
+        "v": 2
+      },
+      {
+        "r": "EST.9.12-13",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "MRK.10.24",
+        "v": 2
+      },
+      {
+        "r": "JOB.27.14-15",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.24-25",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.12": {
     "text": "Og Haman sa: Heller ikke lot dronning Ester nogen annen enn mig komme med kongen til det gjestebud hun hadde stelt til, og også til imorgen er jeg innbudt av henne sammen med kongen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.27.1",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.35-36",
+        "v": 3
+      },
+      {
+        "r": "1TH.5.3",
+        "v": 2
+      },
+      {
+        "r": "LUK.21.34-35",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.5-8",
+        "v": 2
+      },
+      {
+        "r": "JOB.8.12-13",
+        "v": 2
+      },
+      {
+        "r": "PRO.7.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.13": {
     "text": "Men alt dette er mig ikke nok all den stund jeg ser jøden Mordekai sitte i kongens port.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.15.20",
+        "v": 3
+      },
+      {
+        "r": "JOB.18.4",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.11-12",
+        "v": 3
+      },
+      {
+        "r": "ECC.1.14",
+        "v": 2
+      },
+      {
+        "r": "ECC.1.2",
+        "v": 2
+      },
+      {
+        "r": "EST.5.9",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.14": {
     "text": "Da sa hans hustru Seres og alle hans venner til ham: La dem gjøre en galge i stand; femti alen høi, og be imorgen kongen om at Mordekai må bli hengt i den; så kan du gå glad med kongen til gjestebudet! Dette råd syntes Haman godt om, og han lot gjøre galgen i stand.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.4",
+        "v": 6
+      },
+      {
+        "r": "EST.7.9-10",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.32",
+        "v": 5
+      },
+      {
+        "r": "1KI.21.7",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.14",
+        "v": 5
+      },
+      {
+        "r": "PSA.7.13-16",
+        "v": 3
+      },
+      {
+        "r": "ACT.23.14-15",
+        "v": 3
+      },
+      {
+        "r": "2CH.22.3-4",
+        "v": 2
+      },
+      {
+        "r": "ROM.1.32",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "MRK.6.19-24",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.25",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.4-6",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.16",
+        "v": 2
+      },
+      {
+        "r": "MRK.14.10-11",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.3-5",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.15",
+        "v": 2
+      },
+      {
+        "r": "EST.3.8-15",
+        "v": 2
+      },
+      {
+        "r": "PSA.9.15",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.18",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.21-17.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.1": {
     "text": "Den natt fikk kongen ikke sove; han bød derfor å hente krønikeboken, som de minneverdige hendelser var optegnet i, og den blev oplest for kongen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.2.1",
+        "v": 13
+      },
+      {
+        "r": "DAN.6.18",
+        "v": 12
+      },
+      {
+        "r": "EST.10.2",
+        "v": 8
+      },
+      {
+        "r": "ISA.41.17",
+        "v": 7
+      },
+      {
+        "r": "ROM.11.33",
+        "v": 7
+      },
+      {
+        "r": "EST.2.23",
+        "v": 7
+      },
+      {
+        "r": "EST.5.8",
+        "v": 6
+      },
+      {
+        "r": "1SA.23.26-27",
+        "v": 6
+      },
+      {
+        "r": "MAL.3.16",
+        "v": 5
+      },
+      {
+        "r": "GEN.22.14",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "EST.6.2": {
     "text": "Der fant de optegnet at Mordekai hadde meldt hvorledes Bigtana og Teres, to av de hoffmenn hos kongen som holdt vakt ved dørtreskelen, hadde søkt å legge hånd på kong Ahasverus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.21-22",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.3": {
     "text": "Kongen spurte da: Hvad ære og ophøielse er det blitt Mordekai til del for dette? Kongens tjenere svarte: Han har ikke fått nogen ting.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.9.15",
+        "v": 7
+      },
+      {
+        "r": "GEN.40.23",
+        "v": 4
+      },
+      {
+        "r": "DAN.5.7",
+        "v": 3
+      },
+      {
+        "r": "ACT.28.8-10",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.16",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.29",
+        "v": 3
+      },
+      {
+        "r": "PSA.118.8-9",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.25-26",
+        "v": 3
+      },
+      {
+        "r": "JDG.1.12-13",
+        "v": 3
+      },
+      {
+        "r": "1CH.11.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.4": {
     "text": "Så sa kongen: Hvem er det som er ute i gården? Da var Haman just kommet inn i den ytre gård til kongens hus for å be kongen om at Mordekai måtte bli hengt i den galge han hadde gjort i stand for ham.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.14",
+        "v": 5
+      },
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.2.4",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "EST.3.8-11",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "EST.7.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.33.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.13",
+        "v": 2
+      },
+      {
+        "r": "PRO.3.27-28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.5": {
@@ -578,253 +3385,1627 @@
   "EST.6.6": {
     "text": "Da nu Haman kom inn, spurte kongen ham: Hvad skal det gjøres med den mann kongen har lyst til å ære? Da tenkte Haman ved sig selv: Hvem skulde kongen ha mere lyst til å vise ære enn mig?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.16.18",
+        "v": 5
+      },
+      {
+        "r": "OBA.1.3",
+        "v": 4
+      },
+      {
+        "r": "EST.6.9",
+        "v": 3
+      },
+      {
+        "r": "ISA.42.1",
+        "v": 3
+      },
+      {
+        "r": "MAT.3.17",
+        "v": 3
+      },
+      {
+        "r": "PRO.18.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 3
+      },
+      {
+        "r": "JER.32.41",
+        "v": 3
+      },
+      {
+        "r": "EST.5.11",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.32",
+        "v": 2
+      },
+      {
+        "r": "PSA.35.27",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2-3",
+        "v": 2
+      },
+      {
+        "r": "EST.6.7",
+        "v": 2
+      },
+      {
+        "r": "EST.6.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.23",
+        "v": 1
+      },
+      {
+        "r": "PRO.30.13",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.6.7": {
     "text": "Og han sa til kongen: Er det en mann kongen har lyst til å ære,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.11",
+        "v": 3
+      },
+      {
+        "r": "EST.6.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.8": {
     "text": "så la det bli hentet en kongelig klædning som kongen selv har båret, og en hest som kongen selv har ridd på, og på hvis hode det er satt en kongelig krone,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.1.33",
+        "v": 6
+      },
+      {
+        "r": "EST.2.17",
+        "v": 3
+      },
+      {
+        "r": "1SA.18.4",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 3
+      },
+      {
+        "r": "EST.1.11",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.9": {
     "text": "og la så klædningen og hesten bli overgitt til en av kongens fornemste fyrster, og han skal la den mann kongen har lyst til å ære, få klædningen på og la ham ride på hesten gjennem byens gater og rope foran ham: Således gjøres det med den mann som kongen har lyst til å ære!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.43",
+        "v": 8
+      },
+      {
+        "r": "1KI.1.33-34",
+        "v": 5
+      },
+      {
+        "r": "ZEC.9.9",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.10": {
     "text": "Da sa kongen til Haman: Skynd dig, ta klædningen og hesten, som du har sagt, og gjør således med jøden Mordekai, som sitter i kongens port! La intet bli forsømt av alt det du har sagt!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.4.37",
+        "v": 5
+      },
+      {
+        "r": "2KI.10.10",
+        "v": 4
+      },
+      {
+        "r": "REV.18.7",
+        "v": 4
+      },
+      {
+        "r": "LUK.14.11",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.11": {
     "text": "Haman tok klædningen og hesten og gav Mordekai klædningen på og lot ham ride gjennem byens gater og ropte foran ham: Således gjøres det med den mann som kongen har lyst til å ære!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.3",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.52",
+        "v": 5
+      },
+      {
+        "r": "EZR.6.13",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 4
+      },
+      {
+        "r": "EST.8.15",
+        "v": 4
+      },
+      {
+        "r": "REV.3.9",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.12": {
     "text": "Så vendte Mordekai tilbake til kongens port; men Haman skyndte sig hjem, sorgfull og med tildekket hode.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2SA.15.30",
+        "v": 6
+      },
+      {
+        "r": "JER.14.3-4",
+        "v": 4
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 3
+      },
+      {
+        "r": "JOB.20.5",
+        "v": 3
+      },
+      {
+        "r": "2CH.26.20",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 2
+      },
+      {
+        "r": "PSA.131.1-2",
+        "v": 2
+      },
+      {
+        "r": "2SA.17.23",
+        "v": 2
+      },
+      {
+        "r": "EST.7.8",
+        "v": 2
+      },
+      {
+        "r": "1SA.3.15",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.43",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.13": {
     "text": "Han fortalte sin hustru Seres og alle sine venner alt det som hadde hendt ham; da sa hans vismenn og hans hustru Seres til ham: Hvis Mordekai, som du har begynt å stå tilbake for, er av jødisk ætt, da formår du intet mot ham, men vil komme til å stå aldeles tilbake for ham.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.28.18",
+        "v": 10
+      },
+      {
+        "r": "HOS.14.9",
+        "v": 8
+      },
+      {
+        "r": "GEN.40.19",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 5
+      },
+      {
+        "r": "DAN.5.26-28",
+        "v": 5
+      },
+      {
+        "r": "GEN.41.8",
+        "v": 5
+      },
+      {
+        "r": "JOB.16.2",
+        "v": 4
+      },
+      {
+        "r": "EST.5.10-14",
+        "v": 4
+      },
+      {
+        "r": "1SA.28.19-20",
+        "v": 4
+      },
+      {
+        "r": "JOB.15.24",
+        "v": 3
+      },
+      {
+        "r": "ZEC.12.2-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.14": {
     "text": "Mens de ennu talte med ham, kom kongens hoffmenn for i all hast å føre Haman til det gjestebud Ester hadde stelt til.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.8",
+        "v": 6
+      },
+      {
+        "r": "DEU.32.35-36",
+        "v": 2
+      },
+      {
+        "r": "EST.5.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.1": {
     "text": "Så kom da kongen og Haman til gjestebudet hos dronning Ester.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.8",
+        "v": 4
+      },
+      {
+        "r": "EST.3.15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.7.2": {
     "text": "Mens de satt og drakk vin, sa kongen også denne annen dag til Ester: Hvad er din bønn, dronning Ester? Den skal tilståes dig. Og hvad er ditt ønske? Var det enn halvdelen av riket, skal det opfylles.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.16.24",
+        "v": 6
+      },
+      {
+        "r": "EST.5.3",
+        "v": 5
+      },
+      {
+        "r": "EST.9.12",
+        "v": 4
+      },
+      {
+        "r": "EST.5.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.3": {
     "text": "Da svarte dronning Ester: Har jeg funnet nåde for dine øine, konge, og tykkes det kongen godt, så la mitt liv bli mig gitt på min bønn, og mitt folks liv efter mitt ønske!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.38.26",
+        "v": 6
+      },
+      {
+        "r": "JOB.2.4",
+        "v": 4
+      },
+      {
+        "r": "EST.7.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.6-9",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.31",
+        "v": 2
+      },
+      {
+        "r": "2KI.1.13",
+        "v": 2
+      },
+      {
+        "r": "EST.4.8",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.4": {
     "text": "For vi er solgt, både jeg og mitt folk, til å ødelegges, drepes og utryddes; var det enda bare til å være træler og trælkvinner vi var solgt, da hadde jeg tidd, men nu er vår fiende ikke i stand til å oprette kongens tap.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.9",
+        "v": 7
+      },
+      {
+        "r": "DEU.28.68",
+        "v": 6
+      },
+      {
+        "r": "EST.3.13",
+        "v": 6
+      },
+      {
+        "r": "EST.8.11",
+        "v": 4
+      },
+      {
+        "r": "EST.4.7-8",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.44.22-23",
+        "v": 2
+      },
+      {
+        "r": "GEN.37.26-28",
+        "v": 2
+      },
+      {
+        "r": "1SA.22.23",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.6",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.5.5",
+        "v": 2
+      },
+      {
+        "r": "JOS.9.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.5": {
     "text": "Da sa kong Ahasverus til dronning Ester: Hvem er han, og hvor er han som har dristet sig til å gjøre så?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.27.33",
+        "v": 3
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.6": {
     "text": "Ester svarte: En motstander og fiende, denne onde Haman der! Da blev Haman forferdet for kongens og dronningens åsyn.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.18.5-12",
+        "v": 5
+      },
+      {
+        "r": "PSA.139.19-22",
+        "v": 3
+      },
+      {
+        "r": "1CO.5.13",
+        "v": 3
+      },
+      {
+        "r": "2TH.2.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.27.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.17-20",
+        "v": 2
+      },
+      {
+        "r": "1SA.24.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.5-9",
+        "v": 2
+      },
+      {
+        "r": "NEH.6.16",
+        "v": 2
+      },
+      {
+        "r": "JOB.15.21-22",
+        "v": 2
+      },
+      {
+        "r": "EST.3.10",
+        "v": 2
+      },
+      {
+        "r": "ECC.5.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.21.4",
+        "v": 1
+      },
+      {
+        "r": "DAN.5.5-6",
+        "v": 1
+      },
+      {
+        "r": "PRO.16.14",
+        "v": 1
+      },
+      {
+        "r": "PRO.24.24-25",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.7": {
     "text": "Kongen reiste sig i harme, forlot gjestebudet og gikk ut i slottshaven; men Haman blev tilbake for å be dronning Ester om sitt liv; for han skjønte at kongen hadde fast besluttet hans ulykke.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.3.9",
+        "v": 3
+      },
+      {
+        "r": "EST.1.12",
+        "v": 3
+      },
+      {
+        "r": "PRO.14.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.19.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.112.10",
+        "v": 2
+      },
+      {
+        "r": "EST.1.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.8": {
     "text": "Da så kongen kom tilbake fra slottshaven til huset hvor gjestebudet var blitt holdt, lå Haman bøid over den benk som Ester satt på; da sa kongen: Tør han endog øve vold mot dronningen her i mitt eget hus? Ikke før var dette ord gått ut av kongens munn, før de tildekket Hamans ansikt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.6",
+        "v": 5
+      },
+      {
+        "r": "EST.6.12",
+        "v": 4
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.17",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.9": {
     "text": "Harbona, en av hoffmennene hos kongen, sa: Se, ved Hamans hus står det allerede en galge, femti alen høi, som han selv har latt gjøre i stand for Mordekai, han hvis ord engang var til så stort gagn for kongen. Da sa kongen: Heng ham i den!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.15-16",
+        "v": 11
+      },
+      {
+        "r": "PRO.11.5-6",
+        "v": 8
+      },
+      {
+        "r": "EST.5.14",
+        "v": 6
+      },
+      {
+        "r": "EST.1.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.141.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.35.8",
+        "v": 5
+      },
+      {
+        "r": "DAN.6.24",
+        "v": 4
+      },
+      {
+        "r": "PSA.73.19",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.35-36",
+        "v": 3
+      },
+      {
+        "r": "DAN.6.7",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.51",
+        "v": 3
+      },
+      {
+        "r": "EST.6.14",
+        "v": 3
+      },
+      {
+        "r": "EST.6.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.9.15-16",
+        "v": 3
+      },
+      {
+        "r": "JOB.27.20-23",
+        "v": 3
+      },
+      {
+        "r": "EST.9.25",
+        "v": 3
+      },
+      {
+        "r": "EST.2.21-23",
+        "v": 2
+      },
+      {
+        "r": "2KI.9.32",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.10": {
     "text": "Så hengte de Haman i den galge han hadde gjort i stand for Mordekai, og kongens vrede la sig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.16",
+        "v": 7
+      },
+      {
+        "r": "DAN.6.24",
+        "v": 5
+      },
+      {
+        "r": "JDG.15.7",
+        "v": 4
+      },
+      {
+        "r": "EZK.5.13",
+        "v": 4
+      },
+      {
+        "r": "ZEC.6.8",
+        "v": 3
+      },
+      {
+        "r": "EST.2.1",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.8.1": {
     "text": "Samme dag gav kong Ahasverus dronning Ester det hus som hadde tilhørt Haman, jødenes fiende; og Mordekai fikk komme inn for kongen, for Ester hadde fortalt hvad han var for henne.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.7",
+        "v": 6
+      },
+      {
+        "r": "EST.2.15",
+        "v": 5
+      },
+      {
+        "r": "PRO.13.22",
+        "v": 5
+      },
+      {
+        "r": "PSA.39.6",
+        "v": 4
+      },
+      {
+        "r": "JOB.27.16-17",
+        "v": 4
+      },
+      {
+        "r": "EST.7.6",
+        "v": 3
+      },
+      {
+        "r": "LUK.12.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.28.8",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.6-13",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.18-19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.2": {
     "text": "Kongen trakk av sin signetring, som han hadde tatt fra Haman, og gav den til Mordekai, og Ester satte Mordekai over Hamans hus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.10",
+        "v": 6
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 4
+      },
+      {
+        "r": "DAN.2.48",
+        "v": 4
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.34",
+        "v": 3
+      },
+      {
+        "r": "ECC.5.13-14",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.18-26",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.19-22",
+        "v": 2
+      },
+      {
+        "r": "2SA.9.7-10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.3": {
     "text": "Ester vendte sig atter til kongen, kastet sig ned for hans føtter og gråt og bønnfalt ham om å avvende agagitten Hamans ondskap og det råd han hadde lagt op mot jødene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.8-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.38.2",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.4",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.24",
+        "v": 2
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      },
+      {
+        "r": "2KI.4.27",
+        "v": 2
+      },
+      {
+        "r": "HEB.5.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.4": {
     "text": "Kongen rakte ut gullstaven mot Ester; da reiste Ester sig op og trådte frem for kongen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.2",
+        "v": 8
+      },
+      {
+        "r": "EST.4.11",
+        "v": 7
+      }
+    ],
     "section": null
   },
   "EST.8.5": {
     "text": "Og hun sa: Tykkes det kongen godt, og har jeg funnet nåde for hans åsyn, og synes det kongen å være rett, og er jeg ham til behag, så la det bli utferdiget skrivelser for å tilbakekalle de brev som inneholdt agagitten Hamans, Hammedatas sønns onde råd, de som han skrev for å få utryddet jødene i alle kongens landskaper.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.3",
+        "v": 5
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 3
+      },
+      {
+        "r": "EST.5.8",
+        "v": 3
+      },
+      {
+        "r": "EST.2.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.16",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.13",
+        "v": 2
+      },
+      {
+        "r": "EST.2.17",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.29",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.6": {
     "text": "Hvorledes skulde jeg kunne se på den ulykke som vilde ramme mitt folk, og hvorledes skulde jeg kunne se på min ætts undergang?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.4",
+        "v": 5
+      },
+      {
+        "r": "ROM.9.2-3",
+        "v": 3
+      },
+      {
+        "r": "ROM.10.1",
+        "v": 3
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "LUK.19.41-42",
+        "v": 2
+      },
+      {
+        "r": "JER.9.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.44.34",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.3",
+        "v": 2
+      },
+      {
+        "r": "JER.4.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.7": {
     "text": "Da sa kong Ahasverus til dronning Ester og til jøden Mordekai: Jeg har jo gitt Ester Hamans hus, og han selv er blitt hengt i galgen, fordi han vilde legge hånd på jødene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.10-8.1",
+        "v": 3
+      },
+      {
+        "r": "PRO.13.22",
+        "v": 2
+      },
+      {
+        "r": "GAL.3.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.8": {
     "text": "Så skriv nu I brev om jødene i kongens navn, således som I finner for godt, og forsegl dem med kongens signetring! For en skrivelse som er utferdiget i kongens navn og forseglet med kongens signetring, kan ikke tilbakekalles.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.19",
+        "v": 9
+      },
+      {
+        "r": "EST.3.12",
+        "v": 8
+      },
+      {
+        "r": "EST.8.5",
+        "v": 4
+      },
+      {
+        "r": "HEB.6.17-18",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.8",
+        "v": 4
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.12-15",
+        "v": 4
+      },
+      {
+        "r": "2TI.2.19",
+        "v": 3
+      },
+      {
+        "r": "EST.8.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.9": {
     "text": "Så blev da straks kongens skrivere kalt sammen på den tre og tyvende dag i den tredje måned (det er måneden sivan) og det blev skrevet aldeles som Mordekai bød, til jødene og til stattholderne og landshøvdingene og landskapenes fyrster fra India like til Etiopia, hundre og syv og tyve landskaper, til hvert landskap i dets skrift og til hvert folk på dets tungemål, også til jødene i deres skrift og på deres tungemål.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.22",
+        "v": 9
+      },
+      {
+        "r": "EST.1.1",
+        "v": 7
+      },
+      {
+        "r": "2KI.18.26",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.9-11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.10": {
     "text": "Han skrev i kong Ahasverus'navn og forseglet med kongens signetring. Så sendte han brevene avsted med ilbud, som red på travere fra kongens egne staller,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.4.1",
+        "v": 3
+      },
+      {
+        "r": "JER.51.21",
+        "v": 3
+      },
+      {
+        "r": "ISA.60.6",
+        "v": 3
+      },
+      {
+        "r": "ECC.8.4",
+        "v": 3
+      },
+      {
+        "r": "JER.2.23",
+        "v": 3
+      },
+      {
+        "r": "ISA.66.20",
+        "v": 3
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "1KI.4.28",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.25",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.11": {
     "text": "og i dem stod at kongen gav jødene i hver by lov til å slå sig sammen og verge sitt liv og i hvert folk og landskap å ødelegge, drepe og utrydde alle væbnede skarer som angrep dem, endog små barn og kvinner, og plyndre deres gods,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.37.14-15",
+        "v": 8
+      },
+      {
+        "r": "EST.3.13",
+        "v": 8
+      },
+      {
+        "r": "EZK.39.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.146.6-9",
+        "v": 6
+      },
+      {
+        "r": "EST.9.2-16",
+        "v": 5
+      },
+      {
+        "r": "PSA.137.8",
+        "v": 5
+      },
+      {
+        "r": "PSA.68.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.8.12": {
     "text": "alt på en og samme dag i alle kong Ahasverus'landskaper, på den trettende dag i den tolvte måned, det er måneden adar.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.1",
+        "v": 6
+      },
+      {
+        "r": "EST.3.13-15",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.9-10",
+        "v": 2
+      },
+      {
+        "r": "JDG.1.6-7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.13": {
     "text": "Forat befalingen skulde bli kjent i hvert landskap, blev en avskrift av skrivelsen kunngjort for alle folkene, så jødene kunde holde sig rede til den dag og hevne sig på sine fiender.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.6.10",
+        "v": 4
+      },
+      {
+        "r": "EST.3.14",
+        "v": 4
+      },
+      {
+        "r": "PSA.92.10-11",
+        "v": 3
+      },
+      {
+        "r": "LUK.18.7",
+        "v": 3
+      },
+      {
+        "r": "JDG.16.28",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.6-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.68.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.14-15",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.8.14": {
     "text": "På kongens bud drog ilbudene, som red på de kongelige travere, avsted i største hast så snart befalingen var utferdiget i borgen Susan.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.15",
+        "v": 3
+      },
+      {
+        "r": "DAN.8.2",
+        "v": 3
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.1",
+        "v": 1
+      },
+      {
+        "r": "1SA.21.8",
+        "v": 1
+      },
+      {
+        "r": "EST.1.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.8.15": {
     "text": "Mordekai gikk ut fra kongen i kongelig klædning av blått purpur og hvitt linnet og med en stor gullkrone og en kåpe av hvitt bomullstøi og rødt purpur; og byen Susan jublet høit og gledet sig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.16.19",
+        "v": 7
+      },
+      {
+        "r": "EST.5.1",
+        "v": 6
+      },
+      {
+        "r": "EST.1.6",
+        "v": 6
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 6
+      },
+      {
+        "r": "EST.6.8",
+        "v": 6
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 6
+      },
+      {
+        "r": "EST.3.15",
+        "v": 6
+      },
+      {
+        "r": "MAT.6.29",
+        "v": 6
+      },
+      {
+        "r": "EST.6.11",
+        "v": 5
+      },
+      {
+        "r": "MAT.11.8",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "EST.8.16": {
     "text": "Hos jødene var det nu lys og glede og fryd og ære,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.11.10",
+        "v": 8
+      },
+      {
+        "r": "PSA.97.11",
+        "v": 8
+      },
+      {
+        "r": "PSA.18.28",
+        "v": 7
+      },
+      {
+        "r": "EST.4.1-3",
+        "v": 6
+      },
+      {
+        "r": "PSA.30.5-11",
+        "v": 5
+      },
+      {
+        "r": "ISA.35.10",
+        "v": 4
+      },
+      {
+        "r": "PSA.112.4",
+        "v": 4
+      },
+      {
+        "r": "EST.9.17",
+        "v": 4
+      },
+      {
+        "r": "EST.4.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.29-30",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.18-19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.17": {
     "text": "og i hvert eneste landskap og i hver eneste by, overalt hvor kongens ord og befaling nådde frem, blev det glede og fryd blandt jødene med gjestebud og høitid; og mange av folkene i landet blev jøder, for frykt for jødene var falt på dem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.11.25",
+        "v": 6
+      },
+      {
+        "r": "EST.9.19",
+        "v": 5
+      },
+      {
+        "r": "ZEC.8.20-23",
+        "v": 4
+      },
+      {
+        "r": "PSA.18.43",
+        "v": 4
+      },
+      {
+        "r": "1SA.25.8",
+        "v": 4
+      },
+      {
+        "r": "EST.9.2",
+        "v": 4
+      },
+      {
+        "r": "EST.9.27",
+        "v": 3
+      },
+      {
+        "r": "GEN.35.5",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.16",
+        "v": 3
+      },
+      {
+        "r": "EST.9.22",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.25",
+        "v": 3
+      },
+      {
+        "r": "EST.9.17",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.1": {
     "text": "På den trettende dag i den tolvte måned, det er måneden adar, den dag da kongens ord og bud skulde settes i verk, og jødenes fiender hadde håpet å få dem i sin makt (nu hadde det vendt sig så at jødene fikk sine fiender i sin makt)",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.13",
+        "v": 8
+      },
+      {
+        "r": "EST.8.12",
+        "v": 6
+      },
+      {
+        "r": "PSA.30.11",
+        "v": 5
+      },
+      {
+        "r": "REV.11.18",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.14-16",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.1-2",
+        "v": 3
+      },
+      {
+        "r": "2SA.22.41",
+        "v": 3
+      },
+      {
+        "r": "EST.9.17",
+        "v": 2
+      },
+      {
+        "r": "EST.3.7",
+        "v": 2
+      },
+      {
+        "r": "ACT.12.11",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.36",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.2": {
     "text": "den dag slo jødene sig sammen i sine byer i alle kong Ahasverus'landskaper for å legge hånd på dem som søkte deres ulykke; og ingen kunde stå sig mot dem, for frykt for dem var falt på alle folkene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.17",
+        "v": 6
+      },
+      {
+        "r": "EST.8.11",
+        "v": 5
+      },
+      {
+        "r": "PSA.71.24",
+        "v": 3
+      },
+      {
+        "r": "PSA.71.13",
+        "v": 3
+      },
+      {
+        "r": "JOS.2.9",
+        "v": 2
+      },
+      {
+        "r": "EST.9.15-18",
+        "v": 2
+      },
+      {
+        "r": "DEU.2.30",
+        "v": 2
+      },
+      {
+        "r": "GEN.35.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.27",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.9",
+        "v": 2
+      },
+      {
+        "r": "JOS.11.20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.3": {
     "text": "Alle landskapenes fyrster og stattholderne og landshøvdingene og kongens embedsmenn hjalp jødene, for frykt for Mordekai var falt på dem;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.8.36",
+        "v": 5
+      },
+      {
+        "r": "EST.8.5",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.2",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2-6",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.4": {
     "text": "for Mordekai var nu en stor mann i kongens hus, og hans ry gikk viden om i alle landskapene, for han (Mordekai) blev større og større.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CH.11.9",
+        "v": 6
+      },
+      {
+        "r": "2SA.3.1",
+        "v": 6
+      },
+      {
+        "r": "PSA.1.3",
+        "v": 3
+      },
+      {
+        "r": "1SA.2.30",
+        "v": 3
+      },
+      {
+        "r": "1CH.14.17",
+        "v": 3
+      },
+      {
+        "r": "JOS.6.27",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.43",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.19",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.18",
+        "v": 3
+      },
+      {
+        "r": "MAT.4.24",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.5": {
     "text": "Så slo da jødene alle sine fiender med sverd og død og undergang, og de gjorde som de vilde, mot dem som hatet dem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.18.34-40",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.6-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.47-48",
+        "v": 3
+      },
+      {
+        "r": "PSA.20.7-8",
+        "v": 3
+      },
+      {
+        "r": "JER.18.21",
+        "v": 3
+      },
+      {
+        "r": "2TH.1.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.6": {
     "text": "I borgen Susan drepte og ødela jødene fem hundre mann.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.7": {
@@ -848,7 +5029,68 @@
   "EST.9.10": {
     "text": "de ti sønner til Haman, Hammedatas sønn, jødenes fiende, drepte de; men på byttet la de ikke hånd.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.11",
+        "v": 5
+      },
+      {
+        "r": "EST.8.11",
+        "v": 5
+      },
+      {
+        "r": "GEN.14.23",
+        "v": 4
+      },
+      {
+        "r": "JOB.18.18-19",
+        "v": 3
+      },
+      {
+        "r": "JOB.27.13-15",
+        "v": 3
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.12.17",
+        "v": 2
+      },
+      {
+        "r": "EXO.20.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.21.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.12-13",
+        "v": 2
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 2
+      },
+      {
+        "r": "EST.9.15-16",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.11": {
@@ -860,13 +5102,47 @@
   "EST.9.12": {
     "text": "Da sa kongen til dronning Ester: I borgen Susan har jødene drept og utryddet fem hundre mann og Hamans ti sønner; hvad har de da ikke gjort i kongens andre landskaper? Hvad er nu din bønn? Den skal tilståes dig. Og hvad ønsker du mere? Ditt ønske skal bli opfylt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.2",
+        "v": 6
+      },
+      {
+        "r": "EST.5.6",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "EST.9.13": {
     "text": "Ester svarte: Tykkes det kongen godt, så la jødene i Susan også imorgen få lov til å gjøre likedan som idag, og la Hamans ti sønner bli hengt i galgen!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.11",
+        "v": 4
+      },
+      {
+        "r": "DEU.21.23",
+        "v": 3
+      },
+      {
+        "r": "EST.9.15",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.9",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.6",
+        "v": 2
+      },
+      {
+        "r": "GAL.3.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.14": {
@@ -878,37 +5154,207 @@
   "EST.9.15": {
     "text": "Jødene i Susan slo sig sammen også på den fjortende dag i måneden adar og drepte i Susan tre hundre mann; men på byttet la de ikke hånd.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.11",
+        "v": 3
+      },
+      {
+        "r": "EST.9.10",
+        "v": 3
+      },
+      {
+        "r": "EST.9.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.118.7-12",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.2",
+        "v": 2
+      },
+      {
+        "r": "EST.9.16",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.22",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.16": {
     "text": "De andre jøder i kongens landskaper slo sig også sammen og verget sitt liv og fikk ro for sine fiender; de drepte fem og sytti tusen av dem som hatet dem; men på byttet la de ikke hånd.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.11",
+        "v": 10
+      },
+      {
+        "r": "EST.9.2",
+        "v": 6
+      },
+      {
+        "r": "LEV.26.7-8",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "EST.9.17": {
     "text": "Dette hendte den trettende dag i måneden adar; og på den fjortende dag hvilte de ut, og de gjorde den til en gjestebuds-og gledesdag.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.1",
+        "v": 3
+      },
+      {
+        "r": "EST.9.21",
+        "v": 3
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "EST.9.18",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.18": {
     "text": "Men jødene i Susan slo sig sammen både på den trettende dag og på den fjortende dag i måneden, og på den femtende dag hvilte de ut, og de gjorde den til en gjestebuds-og gledesdag.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.21",
+        "v": 3
+      },
+      {
+        "r": "EST.9.15",
+        "v": 2
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "EST.9.13",
+        "v": 2
+      },
+      {
+        "r": "EST.9.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.19": {
     "text": "Derfor høitideligholder jødene på landet (de som bor i landsbyene) den fjortende dag i måneden adar som en gledesdag med gjestebud og høitid, og på den sender de hverandre gaver av den mat de har laget til.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.17",
+        "v": 5
+      },
+      {
+        "r": "EST.9.22",
+        "v": 4
+      },
+      {
+        "r": "REV.11.10",
+        "v": 4
+      },
+      {
+        "r": "DEU.16.14",
+        "v": 4
+      },
+      {
+        "r": "NEH.8.10-12",
+        "v": 4
+      },
+      {
+        "r": "DEU.16.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.3.5",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.41",
+        "v": 2
+      },
+      {
+        "r": "ZEC.2.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.118.11-16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.20": {
     "text": "Mordekai skrev op disse hendelser og sendte brev til alle jødene i alle kong Ahasverus'landskaper, nær og fjern,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.1.10-11",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.19-22",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.124.1-3",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      },
+      {
+        "r": "EST.1.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.4-12",
+        "v": 2
+      },
+      {
+        "r": "1CH.16.12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.21": {
@@ -920,7 +5366,60 @@
   "EST.9.22": {
     "text": "fordi det var på de dager jødene hadde fatt ro for sine fiender, og fordi det var i den måned deres bedrøvelse hadde vendt sig til glede og deres sorg til høitid; derfor skulde de gjøre disse dager til gjestebuds dager og gledesdager og sende mat til hverandre og gaver til de fattige.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.30.11",
+        "v": 7
+      },
+      {
+        "r": "EST.9.19",
+        "v": 4
+      },
+      {
+        "r": "ISA.14.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.12.1-2",
+        "v": 4
+      },
+      {
+        "r": "GAL.2.10",
+        "v": 3
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 3
+      },
+      {
+        "r": "ACT.2.44-46",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20-22",
+        "v": 2
+      },
+      {
+        "r": "PSA.103.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.5.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.13.3-8",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.10-12",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.41",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.23": {
@@ -932,73 +5431,365 @@
   "EST.9.24": {
     "text": "for agagitten Haman, Hammedatas sønn, alle jøders fiende, hadde lagt råd op mot jødene for å utrydde dem og kastet pur, det er lodd, for å ødelegge og utrydde dem,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.5-13",
+        "v": 3
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.25": {
     "text": "men da det kom kongen for øre, hadde han ved et brev påbudt at det onde råd han hadde lagt op mot jødene, skulde vende tilbake på hans eget hode, så han selv og hans sønner blev hengt i galgen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.7.16",
+        "v": 7
+      },
+      {
+        "r": "EST.7.5-8.14",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.44",
+        "v": 2
+      },
+      {
+        "r": "EST.9.13-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.141.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.17-18",
+        "v": 2
+      },
+      {
+        "r": "PSA.140.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.26": {
     "text": "Derfor kalte de disse dager purim efter ordet pur. Og på grunn av alt det som stod i dette brev, og det som de selv hadde sett, og som hadde hendt dem,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.20",
+        "v": 3
+      },
+      {
+        "r": "NUM.16.40",
+        "v": 2
+      },
+      {
+        "r": "EZK.39.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.27": {
     "text": "fastsatte jødene og vedtok som ubrytelig skikk for sig og sine efterkommere og for alle som gikk over til deres tro, at de år efter år skulde høitideligholde disse to dager efter forskriften om dem og på den for dem fastsatte tid,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.2.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.6",
+        "v": 4
+      },
+      {
+        "r": "EST.8.17",
+        "v": 3
+      },
+      {
+        "r": "ISA.56.3",
+        "v": 3
+      },
+      {
+        "r": "JOS.9.15",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.14-15",
+        "v": 2
+      },
+      {
+        "r": "EST.9.21",
+        "v": 2
+      },
+      {
+        "r": "ZEC.8.23",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.1-2",
+        "v": 2
+      },
+      {
+        "r": "DEU.5.3",
+        "v": 2
+      },
+      {
+        "r": "1SA.30.25",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.28": {
     "text": "og at disse dager skulde ihukommes og høitideligholdes gjennem alle tider, i hver ætt, i hvert landskap og i hver by, og at disse purim-dager ikke skulde falle bort blandt jødene, og minnet om dem aldri ophøre blandt deres efterkommere.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.78.5-7",
+        "v": 3
+      },
+      {
+        "r": "JOS.4.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.103.2",
+        "v": 3
+      },
+      {
+        "r": "EXO.13.8-9",
+        "v": 3
+      },
+      {
+        "r": "EXO.12.17",
+        "v": 2
+      },
+      {
+        "r": "ZEC.6.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.29": {
     "text": "Dronning Ester, Abiha'ls datter, og jøden Mordekai skrev atter et brev med myndige ord for å slå fast som lov det som stod i dette nye brev om purim.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.20",
+        "v": 5
+      },
+      {
+        "r": "EST.2.15",
+        "v": 4
+      },
+      {
+        "r": "EST.8.10",
+        "v": 3
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.30": {
     "text": "Og han sendte skrivelser til alle jødene i de hundre og syv og tyve landskaper i Ahasverus'rike med vennlige og alvorlige ord,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.1",
+        "v": 4
+      },
+      {
+        "r": "ZEC.8.19",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.39.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.31": {
     "text": "for å slå fast som lov at de skulde holde disse purim-dager på de for dem fastsatte tider, således som jøden Mordekai og dronning Ester hadde foreskrevet om dem, og således som de hadde vedtatt det for sig selv og sine efterkommere om fastene og klageropene på dem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.3",
+        "v": 5
+      },
+      {
+        "r": "EST.4.16",
+        "v": 4
+      },
+      {
+        "r": "JON.3.2-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.32": {
     "text": "Således blev disse forskrifter om purim-festen fastsatt som lov ved Esters bud, og det blev opskrevet i en bok.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.26",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.10.1": {
     "text": "Kong Ahasverus la skatt på fastlandet og på øene i havet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.24.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.72.10",
+        "v": 3
+      },
+      {
+        "r": "LUK.2.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.11",
+        "v": 2
+      },
+      {
+        "r": "GEN.10.5",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.11.18",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.10.2": {
     "text": "Men alt det han gjorde i sin makt og velde, og en nøiaktig fremstilling av den høie rang som kongen ophøiet Mordekai til, det er opskrevet i de mediske og persiske kongers krønike.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.15",
+        "v": 6
+      },
+      {
+        "r": "EST.2.23",
+        "v": 5
+      },
+      {
+        "r": "EST.9.4",
+        "v": 5
+      },
+      {
+        "r": "EST.6.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.35",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.41",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.48",
+        "v": 2
+      },
+      {
+        "r": "1KI.14.19",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.39",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.10.3": {
     "text": "For jøden Mordekai var den næste efter kong Ahasverus, og han var høit æret blandt jødene og avholdt av sine mange brødre; han søkte sitt folks vel og talte til beste for hele sin ætt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "NEH.2.10",
+        "v": 8
+      },
+      {
+        "r": "ROM.14.18",
+        "v": 4
+      },
+      {
+        "r": "ROM.10.1",
+        "v": 4
+      },
+      {
+        "r": "DAN.5.29",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.6-9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.43-44",
+        "v": 3
+      },
+      {
+        "r": "2CH.28.7",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.40",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.2-3",
+        "v": 2
+      },
+      {
+        "r": "1SA.23.17",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2",
+        "v": 2
+      }
+    ],
     "section": null
   }
 }

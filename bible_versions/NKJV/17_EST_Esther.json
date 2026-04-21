@@ -4,19 +4,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ezra 4:6; Dan. 9:1",
-        "refs": []
+        "r": "DAN.9.1",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Esth. 8:9",
-        "refs": []
+        "r": "EZR.4.6",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Dan. 6:1",
-        "refs": []
+        "r": "EST.8.9",
+        "v": 4
+      },
+      {
+        "r": "EST.9.30",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 4
+      },
+      {
+        "r": "ISA.37.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.18.1",
+        "v": 2
       }
     ],
     "section": "The King Dethrones Queen Vashti"
@@ -26,14 +39,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kin. 1:46",
-        "refs": []
+        "r": "NEH.1.1",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Neh. 1:1; Dan. 8:2",
-        "refs": []
+        "r": "2SA.7.1",
+        "v": 5
+      },
+      {
+        "r": "DAN.8.2",
+        "v": 4
+      },
+      {
+        "r": "1KI.1.46",
+        "v": 3
+      },
+      {
+        "r": "DAN.4.4",
+        "v": 2
+      },
+      {
+        "r": "EST.4.16",
+        "v": 2
+      },
+      {
+        "r": "EST.9.12-15",
+        "v": 2
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
       }
     ],
     "section": null
@@ -43,9 +82,60 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 40:20; Esth. 2:18",
-        "refs": []
+        "r": "MRK.6.21",
+        "v": 7
+      },
+      {
+        "r": "EST.2.18",
+        "v": 6
+      },
+      {
+        "r": "DAN.5.1",
+        "v": 6
+      },
+      {
+        "r": "1KI.3.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.40.20",
+        "v": 3
+      },
+      {
+        "r": "ISA.21.2",
+        "v": 3
+      },
+      {
+        "r": "JER.51.11",
+        "v": 3
+      },
+      {
+        "r": "DAN.8.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.6-7",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.2-3",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.28",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.2",
+        "v": 1
       }
     ],
     "section": null
@@ -53,13 +143,119 @@
   "EST.1.4": {
     "text": "when he showed the riches of his glorious kingdom and the splendor of his excellent majesty for many days, one hundred and eighty days in all.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.40.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.6.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.28.5",
+        "v": 2
+      },
+      {
+        "r": "MAT.4.8",
+        "v": 2
+      },
+      {
+        "r": "DAN.5.18",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.16-17",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.37-44",
+        "v": 2
+      },
+      {
+        "r": "PSA.93.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.1-4",
+        "v": 2
+      },
+      {
+        "r": "ISA.39.2",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.25",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.18",
+        "v": 2
+      },
+      {
+        "r": "DAN.7.9-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.12-13",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.23",
+        "v": 2
+      },
+      {
+        "r": "COL.1.27",
+        "v": 2
+      },
+      {
+        "r": "REV.4.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.21.5",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.36",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "1CH.29.11-12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.5": {
     "text": "And when these days were completed, the king made a feast lasting seven days for all the people who were present in Shushan the citadel, from great to small, in the court of the garden of the king’s palace.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.7.7-8",
+        "v": 4
+      },
+      {
+        "r": "2CH.30.21-25",
+        "v": 3
+      },
+      {
+        "r": "2CH.7.8-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.6": {
@@ -67,9 +263,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 7:8; Ezek. 23:41; Amos 2:8; 6:4",
-        "refs": []
+        "r": "AMO.6.4",
+        "v": 6
+      },
+      {
+        "r": "EZK.23.41",
+        "v": 4
+      },
+      {
+        "r": "EST.7.8",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.8",
+        "v": 2
+      },
+      {
+        "r": "EST.8.15",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.31-32",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.1",
+        "v": 1
+      },
+      {
+        "r": "EXO.26.36-37",
+        "v": 1
       }
     ],
     "section": null
@@ -79,9 +302,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:18",
-        "refs": []
+        "r": "DAN.5.2-4",
+        "v": 4
+      },
+      {
+        "r": "2CH.9.20",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.21",
+        "v": 3
+      },
+      {
+        "r": "EST.2.18",
+        "v": 3
       }
     ],
     "section": null
@@ -89,13 +323,39 @@
   "EST.1.8": {
     "text": "In accordance with the law, the drinking was not compulsory; for so the king had ordered all the officers of his household, that they should do according to each man’s pleasure.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HAB.2.15-16",
+        "v": 4
+      },
+      {
+        "r": "JER.51.7",
+        "v": 3
+      },
+      {
+        "r": "JER.35.8",
+        "v": 1
+      },
+      {
+        "r": "JHN.2.8",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.1.9": {
     "text": "Queen Vashti also made a feast for the women in the royal palace which belonged to King Ahasuerus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.4",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.10": {
@@ -103,9 +363,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 7:9",
-        "refs": []
+        "r": "EST.7.9",
+        "v": 5
+      },
+      {
+        "r": "JDG.16.25",
+        "v": 5
+      },
+      {
+        "r": "2SA.13.28",
+        "v": 4
+      },
+      {
+        "r": "ECC.7.2-4",
+        "v": 4
+      },
+      {
+        "r": "PRO.20.1",
+        "v": 4
+      },
+      {
+        "r": "DAN.1.18-19",
+        "v": 3
+      },
+      {
+        "r": "GEN.43.34",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.18-19",
+        "v": 3
+      },
+      {
+        "r": "DAN.1.3-5",
+        "v": 2
+      },
+      {
+        "r": "ECC.10.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.36-37",
+        "v": 2
       }
     ],
     "section": null
@@ -113,13 +412,111 @@
   "EST.1.11": {
     "text": "to bring Queen Vashti before the king, wearing her royal crown, in order to show her beauty to the people and the officials, for she was beautiful to behold.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.31.30",
+        "v": 9
+      },
+      {
+        "r": "MRK.6.21-22",
+        "v": 7
+      },
+      {
+        "r": "PRO.16.9",
+        "v": 6
+      },
+      {
+        "r": "2SA.14.25",
+        "v": 5
+      },
+      {
+        "r": "1SA.25.3",
+        "v": 5
+      },
+      {
+        "r": "EST.6.8",
+        "v": 5
+      },
+      {
+        "r": "EST.2.17",
+        "v": 4
+      },
+      {
+        "r": "PRO.23.29-33",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.1.12": {
     "text": "But Queen Vashti refused to come at the king’s command brought by his eunuchs; therefore the king was furious, and his anger burned within him.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.19.12",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.1",
+        "v": 3
+      },
+      {
+        "r": "PRO.20.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.74.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.79.5",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.19",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.24",
+        "v": 2
+      },
+      {
+        "r": "GEN.3.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.20",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.13",
+        "v": 2
+      },
+      {
+        "r": "EXO.32.22",
+        "v": 2
+      },
+      {
+        "r": "NAM.1.6",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.19",
+        "v": 1
+      },
+      {
+        "r": "REV.6.16-17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.13": {
@@ -127,14 +524,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Jer. 10:7; Dan. 2:12; Matt. 2:1",
-        "refs": []
+        "r": "1CH.12.32",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "1 Chr. 12:32",
-        "refs": []
+        "r": "DAN.2.2",
+        "v": 4
+      },
+      {
+        "r": "JER.10.7",
+        "v": 4
+      },
+      {
+        "r": "MAT.16.3",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.7",
+        "v": 3
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 3
+      },
+      {
+        "r": "MAT.2.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.27",
+        "v": 1
+      },
+      {
+        "r": "DAN.4.6-7",
+        "v": 1
       }
     ],
     "section": null
@@ -144,14 +567,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ezra 7:14",
-        "refs": []
+        "r": "2KI.25.19",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "2 Kin. 25:19; (Matt. 18:10)",
-        "refs": []
+        "r": "EZR.7.14",
+        "v": 4
+      },
+      {
+        "r": "MAT.18.10",
+        "v": 4
+      },
+      {
+        "r": "REV.22.4",
+        "v": 2
       }
     ],
     "section": null
@@ -159,13 +588,31 @@
   "EST.1.15": {
     "text": "“What shall we do to Queen Vashti, according to law, because she did not obey the command of King Ahasuerus brought to her by the eunuchs?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.16": {
     "text": "And Memucan answered before the king and the princes: “Queen Vashti has not only wronged the king, but also all the princes, and all the people who are in all the provinces of King Ahasuerus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.6.7-8",
+        "v": 2
+      },
+      {
+        "r": "ACT.18.14",
+        "v": 2
+      },
+      {
+        "r": "ACT.25.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.1.17": {
@@ -173,9 +620,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Eph. 5:33)",
-        "refs": []
+        "r": "EPH.5.33",
+        "v": 3
+      },
+      {
+        "r": "2SA.6.16",
+        "v": 2
       }
     ],
     "section": null
@@ -183,7 +633,16 @@
   "EST.1.18": {
     "text": "This very day the noble ladies of Persia and Media will say to all the king’s officials that they have heard of the behavior of the queen. Thus there will be excessive contempt and wrath.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JDG.5.29",
+        "v": 1
+      },
+      {
+        "r": "1KI.11.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.19": {
@@ -191,9 +650,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:8; Dan. 6:8",
-        "refs": []
+        "r": "1SA.15.28",
+        "v": 6
+      },
+      {
+        "r": "EST.8.8",
+        "v": 5
+      },
+      {
+        "r": "EST.8.5",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.17",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.8-15",
+        "v": 4
+      },
+      {
+        "r": "EST.3.9",
+        "v": 4
+      },
+      {
+        "r": "1KI.3.28",
+        "v": 3
+      },
+      {
+        "r": "EST.1.21",
+        "v": 2
       }
     ],
     "section": null
@@ -203,9 +689,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Eph. 5:33; Col. 3:18; 1 Pet. 3:1)",
-        "refs": []
+        "r": "COL.3.18",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.1-7",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.33",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.22",
+        "v": 5
+      },
+      {
+        "r": "DEU.21.21",
+        "v": 2
+      },
+      {
+        "r": "DEU.17.13",
+        "v": 2
       }
     ],
     "section": null
@@ -213,7 +718,20 @@
   "EST.1.21": {
     "text": "And the reply pleased the king and the princes, and the king did according to the word of Memucan.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.41.37",
+        "v": 2
+      },
+      {
+        "r": "EST.2.4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.1.22": {
@@ -221,14 +739,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:12, 8:9",
-        "refs": []
+        "r": "EST.8.9",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "(Eph. 5:22–24; 1 Tim. 2:12)",
-        "refs": []
+        "r": "EST.3.12",
+        "v": 6
+      },
+      {
+        "r": "EPH.5.22-24",
+        "v": 5
+      },
+      {
+        "r": "1TI.2.12",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.29",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "TIT.2.4-5",
+        "v": 2
+      },
+      {
+        "r": "LUK.16.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.5-11",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.19-20",
+        "v": 2
       }
     ],
     "section": null
@@ -238,9 +786,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 1:19, 20",
-        "refs": []
+        "r": "EST.7.10",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.14-18",
+        "v": 4
+      },
+      {
+        "r": "EST.1.12-21",
+        "v": 3
       }
     ],
     "section": "Esther Becomes Queen"
@@ -248,19 +803,90 @@
   "EST.2.2": {
     "text": "Then the king’s servants who attended him said: “Let beautiful young virgins be sought for the king;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.1.2",
+        "v": 4
+      },
+      {
+        "r": "GEN.12.14",
+        "v": 3
+      },
+      {
+        "r": "EST.6.14",
+        "v": 3
+      },
+      {
+        "r": "EST.1.10",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.3": {
     "text": "and let the king appoint officers in all the provinces of his kingdom, that they may gather all the beautiful young virgins to Shushan the citadel, into the women’s quarters, under the custody of Hegai the king’s eunuch, custodian of the women. And let beauty preparations be given them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.1.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.2.12-15",
+        "v": 2
+      },
+      {
+        "r": "EST.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.18-23",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.4": {
     "text": "Then let the young woman who pleases the king be queen instead of Vashti.” This thing pleased the king, and he did so.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.14.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.20.16",
+        "v": 7
+      },
+      {
+        "r": "2SA.17.4",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.14",
+        "v": 3
+      },
+      {
+        "r": "EST.3.9-10",
+        "v": 3
+      },
+      {
+        "r": "EST.1.21",
+        "v": 3
+      },
+      {
+        "r": "2SA.13.4-6",
+        "v": 1
+      },
+      {
+        "r": "2SA.16.21-23",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.5": {
@@ -268,9 +894,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Sam. 9:1",
-        "refs": []
+        "r": "2SA.16.5",
+        "v": 5
+      },
+      {
+        "r": "EST.2.3",
+        "v": 3
+      },
+      {
+        "r": "EST.10.3",
+        "v": 3
+      },
+      {
+        "r": "EST.3.2-6",
+        "v": 3
+      },
+      {
+        "r": "1SA.9.1",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "EST.1.2",
+        "v": 3
       }
     ],
     "section": null
@@ -280,9 +929,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Kin. 24:14, 15; 2 Chr. 36:10, 20; Jer. 24:1",
-        "refs": []
+        "r": "2KI.24.14-15",
+        "v": 6
+      },
+      {
+        "r": "JER.24.1",
+        "v": 5
+      },
+      {
+        "r": "2CH.36.20",
+        "v": 5
+      },
+      {
+        "r": "2KI.24.6",
+        "v": 4
+      },
+      {
+        "r": "JER.22.24",
+        "v": 3
+      },
+      {
+        "r": "2CH.36.9-10",
+        "v": 3
+      },
+      {
+        "r": "JER.22.28",
+        "v": 1
       }
     ],
     "section": null
@@ -292,9 +964,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:15",
-        "refs": []
+        "r": "EST.2.15",
+        "v": 5
+      },
+      {
+        "r": "EST.1.11",
+        "v": 3
+      },
+      {
+        "r": "2CO.6.18",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.4",
+        "v": 2
+      },
+      {
+        "r": "1JN.3.1",
+        "v": 1
+      },
+      {
+        "r": "JER.32.7-12",
+        "v": 1
+      },
+      {
+        "r": "GEN.48.5",
+        "v": 1
+      },
+      {
+        "r": "DAN.1.6-7",
+        "v": 0
       }
     ],
     "section": null
@@ -304,9 +1003,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:3",
-        "refs": []
+        "r": "EST.2.3",
+        "v": 5
+      },
+      {
+        "r": "EST.2.15",
+        "v": 2
       }
     ],
     "section": null
@@ -316,9 +1018,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:3, 12",
-        "refs": []
+        "r": "PRO.16.7",
+        "v": 9
+      },
+      {
+        "r": "GEN.39.21",
+        "v": 9
+      },
+      {
+        "r": "EST.2.12",
+        "v": 8
+      },
+      {
+        "r": "EST.2.3",
+        "v": 8
+      },
+      {
+        "r": "DAN.1.9",
+        "v": 7
+      },
+      {
+        "r": "EZR.7.6",
+        "v": 6
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.106.46",
+        "v": 5
+      },
+      {
+        "r": "1KI.8.50",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.8",
+        "v": 0
       }
     ],
     "section": null
@@ -328,9 +1065,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:20",
-        "refs": []
+        "r": "EST.2.20",
+        "v": 8
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 6
+      },
+      {
+        "r": "EPH.6.1",
+        "v": 5
+      },
+      {
+        "r": "EST.3.8",
+        "v": 5
+      },
+      {
+        "r": "EST.4.13-14",
+        "v": 4
+      },
+      {
+        "r": "EST.7.4",
+        "v": 3
+      },
+      {
+        "r": "EST.2.7",
+        "v": 3
       }
     ],
     "section": null
@@ -338,13 +1098,51 @@
   "EST.2.11": {
     "text": "And every day Mordecai paced in front of the court of the women’s quarters, to learn of Esther’s welfare and what was happening to her.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1SA.17.18",
+        "v": 4
+      },
+      {
+        "r": "GEN.37.14",
+        "v": 4
+      },
+      {
+        "r": "ACT.15.36",
+        "v": 3
+      },
+      {
+        "r": "EST.2.13-14",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.12": {
     "text": "Each young woman’s turn came to go in to King Ahasuerus after she had completed twelve months’ preparation, according to the regulations for the women, for thus were the days of their preparation apportioned: six months with oil of myrrh, and six months with perfumes and preparations for beautifying women.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.7.17",
+        "v": 5
+      },
+      {
+        "r": "1TH.4.4-5",
+        "v": 5
+      },
+      {
+        "r": "ISA.57.9",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.7.37-38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.13": {
@@ -356,7 +1154,32 @@
   "EST.2.14": {
     "text": "In the evening she went, and in the morning she returned to the second house of the women, to the custody of Shaashgaz, the king’s eunuch who kept the concubines. She would not go in to the king again unless the king delighted in her and called for her by name.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "GEN.34.19",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 1
+      },
+      {
+        "r": "ISA.45.4",
+        "v": 1
+      },
+      {
+        "r": "DEU.21.14",
+        "v": 1
+      },
+      {
+        "r": "ISA.43.1",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.2.15": {
@@ -364,14 +1187,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:7, 9:29",
-        "refs": []
+        "r": "SNG.6.9",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Esth. 5:2, 8",
-        "refs": []
+        "r": "EST.2.3",
+        "v": 6
+      },
+      {
+        "r": "EST.9.29",
+        "v": 5
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 5
+      },
+      {
+        "r": "EST.2.7-8",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.10",
+        "v": 2
       }
     ],
     "section": null
@@ -379,7 +1216,24 @@
   "EST.2.16": {
     "text": "So Esther was taken to King Ahasuerus, into his royal palace, in the tenth month, which is the month of Tebeth, in the seventh year of his reign.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.8.9",
+        "v": 3
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "EST.2.1",
+        "v": 2
+      },
+      {
+        "r": "EZR.7.8",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.17": {
@@ -387,9 +1241,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 1:11",
-        "refs": []
+        "r": "PSA.113.7-8",
+        "v": 13
+      },
+      {
+        "r": "EZK.17.24",
+        "v": 11
+      },
+      {
+        "r": "LUK.1.48-52",
+        "v": 11
+      },
+      {
+        "r": "1SA.2.8",
+        "v": 10
+      },
+      {
+        "r": "PSA.75.6-7",
+        "v": 10
+      },
+      {
+        "r": "EST.1.11",
+        "v": 9
+      },
+      {
+        "r": "EST.4.14",
+        "v": 8
       }
     ],
     "section": null
@@ -399,9 +1276,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 1:3",
-        "refs": []
+        "r": "JDG.14.10-17",
+        "v": 3
+      },
+      {
+        "r": "NEH.8.11",
+        "v": 3
+      },
+      {
+        "r": "EST.1.7",
+        "v": 3
+      },
+      {
+        "r": "1SA.25.8",
+        "v": 3
+      },
+      {
+        "r": "REV.11.10",
+        "v": 3
+      },
+      {
+        "r": "EST.9.22",
+        "v": 3
+      },
+      {
+        "r": "GEN.29.22",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.11",
+        "v": 3
+      },
+      {
+        "r": "LUK.14.8",
+        "v": 3
+      },
+      {
+        "r": "EST.1.3-5",
+        "v": 3
+      },
+      {
+        "r": "REV.19.9",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
       }
     ],
     "section": null
@@ -409,7 +1333,24 @@
   "EST.2.19": {
     "text": "When virgins were gathered together a second time, Mordecai sat within the king’s gate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.21",
+        "v": 5
+      },
+      {
+        "r": "EST.2.3-4",
+        "v": 4
+      },
+      {
+        "r": "EST.3.2-3",
+        "v": 3
+      },
+      {
+        "r": "EST.5.13",
+        "v": 3
+      }
+    ],
     "section": "Mordecai Discovers a Plot"
   },
   "EST.2.20": {
@@ -417,9 +1358,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:10; (Prov. 22:6)",
-        "refs": []
+        "r": "EST.2.10",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.1-3",
+        "v": 3
+      },
+      {
+        "r": "EST.2.7",
+        "v": 2
       }
     ],
     "section": null
@@ -427,7 +1375,44 @@
   "EST.2.21": {
     "text": "In those days, while Mordecai sat within the king’s gate, two of the king’s eunuchs, Bigthan and Teresh, doorkeepers, became furious and sought to lay hands on King Ahasuerus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.2",
+        "v": 9
+      },
+      {
+        "r": "1KI.16.9",
+        "v": 3
+      },
+      {
+        "r": "2KI.12.20",
+        "v": 3
+      },
+      {
+        "r": "2KI.21.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.10",
+        "v": 2
+      },
+      {
+        "r": "2KI.9.22-24",
+        "v": 2
+      },
+      {
+        "r": "2SA.4.5-6",
+        "v": 2
+      },
+      {
+        "r": "1KI.15.25-27",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.2.22": {
@@ -435,9 +1420,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 6:1, 2",
-        "refs": []
+        "r": "EST.6.1-2",
+        "v": 3
+      },
+      {
+        "r": "ECC.10.20",
+        "v": 2
+      },
+      {
+        "r": "ROM.11.33",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.4",
+        "v": 2
+      },
+      {
+        "r": "ACT.23.12-22",
+        "v": 2
       }
     ],
     "section": null
@@ -447,9 +1447,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 6:1",
-        "refs": []
+        "r": "EST.10.2",
+        "v": 3
+      },
+      {
+        "r": "GEN.40.19",
+        "v": 3
+      },
+      {
+        "r": "GEN.40.22",
+        "v": 3
+      },
+      {
+        "r": "JOS.8.29",
+        "v": 2
+      },
+      {
+        "r": "EST.5.14-6.2",
+        "v": 2
+      },
+      {
+        "r": "EST.7.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.21.22-23",
+        "v": 2
+      },
+      {
+        "r": "MAL.3.16",
+        "v": 2
       }
     ],
     "section": null
@@ -459,14 +1486,60 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Num. 24:7; 1 Sam. 15:8",
-        "refs": []
+        "r": "NUM.24.7",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Esth. 5:11",
-        "refs": []
+        "r": "EST.5.11",
+        "v": 7
+      },
+      {
+        "r": "DAN.6.2",
+        "v": 6
+      },
+      {
+        "r": "1SA.15.33",
+        "v": 5
+      },
+      {
+        "r": "EST.3.10",
+        "v": 4
+      },
+      {
+        "r": "GEN.41.40",
+        "v": 3
+      },
+      {
+        "r": "1SA.15.8",
+        "v": 3
+      },
+      {
+        "r": "EZR.7.14",
+        "v": 2
+      },
+      {
+        "r": "GEN.41.55",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.12.8",
+        "v": 2
+      },
+      {
+        "r": "EST.8.3",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
       }
     ],
     "section": "Haman’s Conspiracy Against the Jews"
@@ -476,14 +1549,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:19, 21, 5:9",
-        "refs": []
+        "r": "PSA.15.4",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Esth. 3:5; Ps. 15:4",
-        "refs": []
+        "r": "EST.2.21",
+        "v": 3
+      },
+      {
+        "r": "EST.3.5",
+        "v": 3
+      },
+      {
+        "r": "EST.5.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.43",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.10",
+        "v": 2
+      },
+      {
+        "r": "DEU.25.19",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.14",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "1SA.15.3",
+        "v": 1
       }
     ],
     "section": null
@@ -493,9 +1604,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:2",
-        "refs": []
+        "r": "EST.3.2",
+        "v": 4
+      },
+      {
+        "r": "EXO.1.17",
+        "v": 3
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "MAT.15.2-3",
+        "v": 2
       }
     ],
     "section": null
@@ -503,7 +1625,44 @@
   "EST.3.4": {
     "text": "Now it happened, when they spoke to him daily and he would not listen to them, that they told it to Haman, to see whether Mordecai’s words would stand; for Mordecai had told them that he was a Jew.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.39.10",
+        "v": 5
+      },
+      {
+        "r": "JON.1.9",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.20-28",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.13",
+        "v": 3
+      },
+      {
+        "r": "DAN.3.12",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.16-18",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "EZR.1.3",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.23-30",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.3.5": {
@@ -511,14 +1670,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:2, 5:9",
-        "refs": []
+        "r": "DAN.3.19",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Dan. 3:19",
-        "refs": []
+        "r": "EST.5.9",
+        "v": 4
+      },
+      {
+        "r": "EST.3.2",
+        "v": 3
+      },
+      {
+        "r": "PRO.21.24",
+        "v": 3
+      },
+      {
+        "r": "PRO.19.19",
+        "v": 2
+      },
+      {
+        "r": "PRO.27.3-4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.4.5-6",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.2",
+        "v": 2
+      },
+      {
+        "r": "PRO.12.16",
+        "v": 2
       }
     ],
     "section": null
@@ -528,9 +1717,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ps. 83:4; (Rev. 12:1–17)",
-        "refs": []
+        "r": "PSA.83.4",
+        "v": 5
+      },
+      {
+        "r": "REV.12.12",
+        "v": 1
       }
     ],
     "section": null
@@ -540,9 +1732,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 9:24–26",
-        "refs": []
+        "r": "EZR.6.15",
+        "v": 4
+      },
+      {
+        "r": "PRO.16.33",
+        "v": 3
+      },
+      {
+        "r": "EST.9.24-26",
+        "v": 3
+      },
+      {
+        "r": "EZK.21.21-22",
+        "v": 3
+      },
+      {
+        "r": "NEH.2.1",
+        "v": 2
+      },
+      {
+        "r": "EST.2.16",
+        "v": 2
+      },
+      {
+        "r": "EST.9.17-19",
+        "v": 2
+      },
+      {
+        "r": "EST.1.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.27.35",
+        "v": 2
+      },
+      {
+        "r": "EST.9.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "EST.9.21",
+        "v": 2
       }
     ],
     "section": null
@@ -552,9 +1787,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ezra 4:12–15; Acts 16:20, 21",
-        "refs": []
+        "r": "EZR.4.12-15",
+        "v": 7
+      },
+      {
+        "r": "ACT.16.20-21",
+        "v": 6
+      },
+      {
+        "r": "DEU.4.27",
+        "v": 3
+      },
+      {
+        "r": "LEV.26.33",
+        "v": 3
+      },
+      {
+        "r": "ZEC.7.14",
+        "v": 3
+      },
+      {
+        "r": "JHN.7.35",
+        "v": 3
+      },
+      {
+        "r": "JER.50.17",
+        "v": 3
+      },
+      {
+        "r": "ACT.17.6-7",
+        "v": 2
+      },
+      {
+        "r": "DEU.30.3",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.8",
+        "v": 2
+      },
+      {
+        "r": "EZK.6.8",
+        "v": 2
+      },
+      {
+        "r": "ACT.28.22",
+        "v": 2
+      },
+      {
+        "r": "EZK.11.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.26",
+        "v": 2
+      },
+      {
+        "r": "ACT.24.5",
+        "v": 2
+      },
+      {
+        "r": "JAS.1.1",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.1",
+        "v": 1
       }
     ],
     "section": null
@@ -562,7 +1860,16 @@
   "EST.3.9": {
     "text": "If it pleases the king, let a decree be written that they be destroyed, and I will pay ten thousand talents of silver into the hands of those who do the work, to bring it into the king’s treasuries.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.23.16",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.10": {
@@ -570,19 +1877,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 41:42",
-        "refs": []
+        "r": "GEN.41.42",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Esth. 8:2, 8",
-        "refs": []
+        "r": "EST.8.2",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Esth. 7:6",
-        "refs": []
+        "r": "EST.7.6",
+        "v": 6
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "EST.8.8",
+        "v": 2
       }
     ],
     "section": null
@@ -590,7 +1902,24 @@
   "EST.3.11": {
     "text": "And the king said to Haman, “The money and the people are given to you, to do with them as seems good to you.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.26.14",
+        "v": 3
+      },
+      {
+        "r": "LUK.23.25",
+        "v": 3
+      },
+      {
+        "r": "JER.40.4",
+        "v": 3
+      },
+      {
+        "r": "PSA.73.7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.3.12": {
@@ -598,19 +1927,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:9",
-        "refs": []
+        "r": "1KI.21.8",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Esth. 1:22",
-        "refs": []
+        "r": "EST.1.22",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "1 Kin. 21:8; Esth. 8:8–10",
-        "refs": []
+        "r": "EST.8.2",
+        "v": 2
+      },
+      {
+        "r": "EST.8.8-17",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.12",
+        "v": 2
+      },
+      {
+        "r": "EST.9.27",
+        "v": 2
+      },
+      {
+        "r": "EZR.8.36",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.8",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.15",
+        "v": 2
       }
     ],
     "section": null
@@ -620,19 +1970,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Chr. 30:6; Esth. 8:10, 14",
-        "refs": []
+        "r": "2CH.30.6",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Esth. 8:12",
-        "refs": []
+        "r": "EST.9.10",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Esth. 8:11, 9:10",
-        "refs": []
+        "r": "EST.8.10-14",
+        "v": 3
+      },
+      {
+        "r": "1SA.15.3",
+        "v": 3
+      },
+      {
+        "r": "ROM.3.15",
+        "v": 2
+      },
+      {
+        "r": "1SA.22.19",
+        "v": 2
+      },
+      {
+        "r": "JER.51.31",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.6",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.25",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.13",
+        "v": 2
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
       }
     ],
     "section": null
@@ -642,9 +2021,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:13, 14",
-        "refs": []
+        "r": "EST.8.13-14",
+        "v": 4
       }
     ],
     "section": null
@@ -654,9 +2032,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:15; (Prov. 29:2)",
-        "refs": []
+        "r": "EST.8.15",
+        "v": 6
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.16",
+        "v": 2
+      },
+      {
+        "r": "EST.4.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.7.5",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 2
       }
     ],
     "section": null
@@ -666,19 +2075,88 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Sam. 1:11; Esth. 3:8–10; Jon. 3:5, 6",
-        "refs": []
+        "r": "DAN.9.3",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Josh. 7:6; Ezek. 27:30",
-        "refs": []
+        "r": "2SA.1.11",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Gen. 27:34",
-        "refs": []
+        "r": "EZK.27.30-31",
+        "v": 5
+      },
+      {
+        "r": "2SA.13.19",
+        "v": 5
+      },
+      {
+        "r": "JOB.42.6",
+        "v": 4
+      },
+      {
+        "r": "REV.18.17-19",
+        "v": 3
+      },
+      {
+        "r": "ZEP.1.14",
+        "v": 3
+      },
+      {
+        "r": "MIC.1.8",
+        "v": 3
+      },
+      {
+        "r": "ACT.14.14",
+        "v": 3
+      },
+      {
+        "r": "MAT.11.21",
+        "v": 2
+      },
+      {
+        "r": "JOB.1.20",
+        "v": 2
+      },
+      {
+        "r": "EZK.21.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.15.4",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.34",
+        "v": 2
+      },
+      {
+        "r": "JOS.7.6",
+        "v": 2
+      },
+      {
+        "r": "EST.4.3",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.4",
+        "v": 2
+      },
+      {
+        "r": "JOB.2.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.5",
+        "v": 2
+      },
+      {
+        "r": "JON.3.4-9",
+        "v": 1
+      },
+      {
+        "r": "EST.3.8-13",
+        "v": 1
       }
     ],
     "section": "Esther Agrees to Help the Jews"
@@ -692,25 +2170,149 @@
   "EST.4.3": {
     "text": "And in every province where the king’s command and decree arrived, there was great mourning among the Jews, with fasting, weeping, and wailing; and many lay in sackcloth and ashes.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.22.12",
+        "v": 6
+      },
+      {
+        "r": "DAN.9.3",
+        "v": 4
+      },
+      {
+        "r": "EST.3.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.4",
+        "v": 3
+      },
+      {
+        "r": "ISA.37.1-3",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.5",
+        "v": 3
+      },
+      {
+        "r": "EST.4.16",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.30",
+        "v": 2
+      },
+      {
+        "r": "MAT.13.42",
+        "v": 2
+      },
+      {
+        "r": "1SA.4.13-14",
+        "v": 2
+      },
+      {
+        "r": "MAT.22.13",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 1
+      },
+      {
+        "r": "1SA.11.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.4": {
     "text": "So Esther’s maids and eunuchs came and told her, and the queen was deeply distressed. Then she sent garments to clothe Mordecai and take his sackcloth away from him, but he would not accept them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.77.2",
+        "v": 6
+      },
+      {
+        "r": "JER.31.15",
+        "v": 4
+      },
+      {
+        "r": "GEN.37.35",
+        "v": 4
+      },
+      {
+        "r": "EST.1.12",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.3",
+        "v": 4
+      },
+      {
+        "r": "1SA.8.15",
+        "v": 4
+      },
+      {
+        "r": "2KI.9.32",
+        "v": 4
+      },
+      {
+        "r": "ACT.8.27",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.4.5": {
     "text": "Then Esther called Hathach, one of the king’s eunuchs whom he had appointed to attend her, and she gave him a command concerning Mordecai, to learn what and why this was.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.12.26",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.15",
+        "v": 3
+      },
+      {
+        "r": "HEB.4.15",
+        "v": 2
+      },
+      {
+        "r": "EST.1.10",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.4",
+        "v": 2
+      },
+      {
+        "r": "EST.1.12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.4.6": {
     "text": "So Hathach went out to Mordecai in the city square that was in front of the king’s gate.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.4.3",
+        "v": 6
+      },
+      {
+        "r": "EST.7.2",
+        "v": 3
+      },
+      {
+        "r": "EST.9.12",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.7": {
@@ -718,9 +2320,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:9",
-        "refs": []
+        "r": "EST.3.2-15",
+        "v": 6
       }
     ],
     "section": null
@@ -730,9 +2331,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:14, 15",
-        "refs": []
+        "r": "ECC.10.4",
+        "v": 5
+      },
+      {
+        "r": "JOB.9.15",
+        "v": 4
+      },
+      {
+        "r": "EST.3.14-15",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.13",
+        "v": 3
+      },
+      {
+        "r": "EST.2.20",
+        "v": 3
+      },
+      {
+        "r": "EST.8.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 2
+      },
+      {
+        "r": "PRO.16.14-15",
+        "v": 2
+      },
+      {
+        "r": "ACT.12.20",
+        "v": 2
+      },
+      {
+        "r": "EST.7.3-4",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.3-5",
+        "v": 2
+      },
+      {
+        "r": "1TI.6.17",
+        "v": 1
       }
     ],
     "section": null
@@ -754,24 +2398,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 5:1, 6:4",
-        "refs": []
+        "r": "EST.5.1-2",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Dan. 2:9",
-        "refs": []
+        "r": "EST.8.4",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Esth. 5:2, 8:4",
-        "refs": []
+        "r": "DAN.2.9",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Esth. 2:14",
-        "refs": []
+        "r": "EST.2.14",
+        "v": 3
+      },
+      {
+        "r": "EST.1.19",
+        "v": 2
+      },
+      {
+        "r": "EST.6.4",
+        "v": 2
+      },
+      {
+        "r": "1PE.3.7",
+        "v": 1
       }
     ],
     "section": null
@@ -785,13 +2437,131 @@
   "EST.4.13": {
     "text": "And Mordecai told them to answer Esther: “Do not think in your heart that you will escape in the king’s palace any more than all the other Jews.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.24.10-12",
+        "v": 7
+      },
+      {
+        "r": "JHN.12.25",
+        "v": 4
+      },
+      {
+        "r": "PHP.2.30",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.3",
+        "v": 1
+      },
+      {
+        "r": "MAT.16.24-25",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.14": {
     "text": "For if you remain completely silent at this time, relief and deliverance will arise for the Jews from another place, but you and your father’s house will perish. Yet who knows whether you have come to the kingdom for such a time as this?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.45.4-8",
+        "v": 49
+      },
+      {
+        "r": "1SA.12.22",
+        "v": 44
+      },
+      {
+        "r": "DEU.32.36",
+        "v": 22
+      },
+      {
+        "r": "ISA.54.17",
+        "v": 22
+      },
+      {
+        "r": "JER.30.11",
+        "v": 17
+      },
+      {
+        "r": "MAT.16.18",
+        "v": 16
+      },
+      {
+        "r": "ACT.7.20-25",
+        "v": 14
+      },
+      {
+        "r": "JER.46.28",
+        "v": 12
+      },
+      {
+        "r": "EZR.9.9",
+        "v": 12
+      },
+      {
+        "r": "EST.2.15",
+        "v": 9
+      },
+      {
+        "r": "NUM.23.22-24",
+        "v": 8
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 8
+      },
+      {
+        "r": "MAT.24.22",
+        "v": 8
+      },
+      {
+        "r": "EST.2.7",
+        "v": 6
+      },
+      {
+        "r": "AMO.9.8-9",
+        "v": 5
+      },
+      {
+        "r": "ISA.45.1-5",
+        "v": 4
+      },
+      {
+        "r": "NEH.6.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.32.26-27",
+        "v": 3
+      },
+      {
+        "r": "GEN.22.14",
+        "v": 3
+      },
+      {
+        "r": "JER.33.24-26",
+        "v": 2
+      },
+      {
+        "r": "2KI.19.3",
+        "v": 2
+      },
+      {
+        "r": "JDG.15.6",
+        "v": 1
+      },
+      {
+        "r": "1SA.17.29",
+        "v": 1
+      },
+      {
+        "r": "JOB.9.18",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "EST.4.15": {
@@ -805,14 +2575,80 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 5:1",
-        "refs": []
+        "r": "ACT.20.24",
+        "v": 19
       },
       {
-        "marker": "#",
-        "text": "Gen. 43:14",
-        "refs": []
+        "r": "2CH.20.3",
+        "v": 17
+      },
+      {
+        "r": "JOL.2.12-17",
+        "v": 13
+      },
+      {
+        "r": "LUK.9.24",
+        "v": 11
+      },
+      {
+        "r": "GEN.18.19",
+        "v": 9
+      },
+      {
+        "r": "JON.3.4-9",
+        "v": 5
+      },
+      {
+        "r": "2SA.10.12",
+        "v": 5
+      },
+      {
+        "r": "JOS.24.15",
+        "v": 5
+      },
+      {
+        "r": "GEN.43.14",
+        "v": 5
+      },
+      {
+        "r": "ISA.22.12",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "ROM.16.4",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.30",
+        "v": 2
+      },
+      {
+        "r": "JOL.1.14-15",
+        "v": 2
+      },
+      {
+        "r": "ACT.9.9",
+        "v": 2
+      },
+      {
+        "r": "ACT.27.33",
+        "v": 1
+      },
+      {
+        "r": "ACT.21.13",
+        "v": 1
+      },
+      {
+        "r": "1SA.19.5",
+        "v": 0
+      },
+      {
+        "r": "MAT.12.40",
+        "v": 0
       }
     ],
     "section": null
@@ -828,14 +2664,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 4:16",
-        "refs": []
+        "r": "EST.6.4",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Esth. 4:11, 6:4",
-        "refs": []
+        "r": "EST.4.16",
+        "v": 6
+      },
+      {
+        "r": "1PE.3.3-5",
+        "v": 5
+      },
+      {
+        "r": "REV.3.21",
+        "v": 5
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 4
+      },
+      {
+        "r": "EST.8.15",
+        "v": 4
+      },
+      {
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "LUK.22.30",
+        "v": 4
+      },
+      {
+        "r": "EST.1.11",
+        "v": 4
+      },
+      {
+        "r": "MAT.27.64",
+        "v": 4
+      },
+      {
+        "r": "MAT.11.8",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.18-20",
+        "v": 1
       }
     ],
     "section": "Esther’s Banquet"
@@ -845,14 +2719,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Prov. 21:1)",
-        "refs": []
+        "r": "EST.8.4",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Esth. 4:11, 8:4",
-        "refs": []
+        "r": "EST.4.11",
+        "v": 7
+      },
+      {
+        "r": "PRO.21.1",
+        "v": 6
+      },
+      {
+        "r": "NEH.1.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.116.1",
+        "v": 3
+      },
+      {
+        "r": "EST.2.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.32.28",
+        "v": 3
+      },
+      {
+        "r": "ACT.10.4",
+        "v": 3
+      },
+      {
+        "r": "ACT.7.10",
+        "v": 3
       }
     ],
     "section": null
@@ -862,9 +2762,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 7:2; Mark 6:23",
-        "refs": []
+        "r": "MRK.6.23",
+        "v": 14
+      },
+      {
+        "r": "EST.7.2",
+        "v": 11
+      },
+      {
+        "r": "EST.9.12",
+        "v": 8
+      },
+      {
+        "r": "EST.5.6",
+        "v": 8
+      },
+      {
+        "r": "MAT.20.20-22",
+        "v": 5
+      },
+      {
+        "r": "1KI.3.5",
+        "v": 5
+      },
+      {
+        "r": "1KI.2.20",
+        "v": 4
+      },
+      {
+        "r": "LUK.18.41",
+        "v": 4
       }
     ],
     "section": null
@@ -872,13 +2799,47 @@
   "EST.5.4": {
     "text": "So Esther answered, “If it pleases the king, let the king and Haman come today to the banquet that I have prepared for him.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.29.11",
+        "v": 4
+      },
+      {
+        "r": "EST.5.8",
+        "v": 4
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.112.5",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.20",
+        "v": 2
+      },
+      {
+        "r": "GEN.27.25",
+        "v": 1
+      },
+      {
+        "r": "GEN.32.20",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.5.5": {
     "text": "Then the king said, “Bring Haman quickly, that he may do as Esther has said.” So the king and Haman went to the banquet that Esther had prepared.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.14",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.5.6": {
@@ -886,14 +2847,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 7:2",
-        "refs": []
+        "r": "EST.7.2",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Esth. 9:12",
-        "refs": []
+        "r": "EST.5.3",
+        "v": 7
+      },
+      {
+        "r": "EST.9.12",
+        "v": 6
       }
     ],
     "section": null
@@ -909,9 +2872,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 6:14",
-        "refs": []
+        "r": "PRO.16.9",
+        "v": 5
+      },
+      {
+        "r": "EST.7.3",
+        "v": 4
+      },
+      {
+        "r": "EST.8.5",
+        "v": 3
+      },
+      {
+        "r": "EST.6.1-14",
+        "v": 3
       }
     ],
     "section": null
@@ -921,14 +2895,72 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Job 20:5; Luke 6:25)",
-        "refs": []
+        "r": "EST.3.5",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Esth. 3:5",
-        "refs": []
+        "r": "MAT.2.16",
+        "v": 3
+      },
+      {
+        "r": "PSA.27.3",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.5",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.31",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.16-19",
+        "v": 2
+      },
+      {
+        "r": "PSA.15.4",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.13",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20",
+        "v": 2
+      },
+      {
+        "r": "LUK.6.25",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.12-13",
+        "v": 2
+      },
+      {
+        "r": "JAS.4.9",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.54",
+        "v": 1
+      },
+      {
+        "r": "MAT.10.28",
+        "v": 1
       }
     ],
     "section": "Haman’s Plot Against Mordecai"
@@ -938,9 +2970,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Sam. 13:22",
-        "refs": []
+        "r": "EST.6.13",
+        "v": 6
+      },
+      {
+        "r": "ECC.7.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.45.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.30-31",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.22-23",
+        "v": 2
       }
     ],
     "section": null
@@ -950,14 +2997,68 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 9:7–10",
-        "refs": []
+        "r": "EST.9.7-10",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Esth. 3:1",
-        "refs": []
+        "r": "EST.3.1",
+        "v": 4
+      },
+      {
+        "r": "LUK.12.19-20",
+        "v": 3
+      },
+      {
+        "r": "1TI.6.17",
+        "v": 3
+      },
+      {
+        "r": "GEN.31.1",
+        "v": 3
+      },
+      {
+        "r": "EST.1.4",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.13-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.16-17",
+        "v": 2
+      },
+      {
+        "r": "JER.9.23-24",
+        "v": 2
+      },
+      {
+        "r": "EST.9.12-13",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.30",
+        "v": 2
+      },
+      {
+        "r": "MRK.10.24",
+        "v": 2
+      },
+      {
+        "r": "JOB.27.14-15",
+        "v": 2
+      },
+      {
+        "r": "JOB.31.24-25",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.6",
+        "v": 2
       }
     ],
     "section": null
@@ -965,13 +3066,71 @@
   "EST.5.12": {
     "text": "Moreover Haman said, “Besides, Queen Esther invited no one but me to come in with the king to the banquet that she prepared; and tomorrow I am again invited by her, along with the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.27.1",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.35-36",
+        "v": 3
+      },
+      {
+        "r": "1TH.5.3",
+        "v": 2
+      },
+      {
+        "r": "LUK.21.34-35",
+        "v": 2
+      },
+      {
+        "r": "JOB.20.5-8",
+        "v": 2
+      },
+      {
+        "r": "JOB.8.12-13",
+        "v": 2
+      },
+      {
+        "r": "PRO.7.22-23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.13": {
     "text": "Yet all this avails me nothing, so long as I see Mordecai the Jew sitting at the king’s gate.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JOB.15.20",
+        "v": 3
+      },
+      {
+        "r": "JOB.18.4",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.11-12",
+        "v": 3
+      },
+      {
+        "r": "ECC.1.14",
+        "v": 2
+      },
+      {
+        "r": "ECC.1.2",
+        "v": 2
+      },
+      {
+        "r": "EST.5.9",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.4-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.5.14": {
@@ -979,19 +3138,88 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 7:9",
-        "refs": []
+        "r": "EST.6.4",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Esth. 6:4",
-        "refs": []
+        "r": "EST.7.9-10",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Esth. 7:10",
-        "refs": []
+        "r": "PSA.37.32",
+        "v": 5
+      },
+      {
+        "r": "1KI.21.7",
+        "v": 5
+      },
+      {
+        "r": "PSA.37.14",
+        "v": 5
+      },
+      {
+        "r": "PSA.7.13-16",
+        "v": 3
+      },
+      {
+        "r": "ACT.23.14-15",
+        "v": 3
+      },
+      {
+        "r": "2CH.22.3-4",
+        "v": 2
+      },
+      {
+        "r": "ROM.1.32",
+        "v": 2
+      },
+      {
+        "r": "REV.11.10",
+        "v": 2
+      },
+      {
+        "r": "MRK.6.19-24",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.25",
+        "v": 2
+      },
+      {
+        "r": "AMO.6.4-6",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.16",
+        "v": 2
+      },
+      {
+        "r": "MRK.14.10-11",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.3-5",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.15",
+        "v": 2
+      },
+      {
+        "r": "EST.3.8-15",
+        "v": 2
+      },
+      {
+        "r": "PSA.9.15",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.18",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.21-17.4",
+        "v": 2
       }
     ],
     "section": null
@@ -1001,9 +3229,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:23, 10:2",
-        "refs": []
+        "r": "DAN.2.1",
+        "v": 13
+      },
+      {
+        "r": "DAN.6.18",
+        "v": 12
+      },
+      {
+        "r": "EST.10.2",
+        "v": 8
+      },
+      {
+        "r": "ISA.41.17",
+        "v": 7
+      },
+      {
+        "r": "ROM.11.33",
+        "v": 7
+      },
+      {
+        "r": "EST.2.23",
+        "v": 7
+      },
+      {
+        "r": "EST.5.8",
+        "v": 6
+      },
+      {
+        "r": "1SA.23.26-27",
+        "v": 6
+      },
+      {
+        "r": "MAL.3.16",
+        "v": 5
+      },
+      {
+        "r": "GEN.22.14",
+        "v": 5
       }
     ],
     "section": "The King Honors Mordecai"
@@ -1011,13 +3274,59 @@
   "EST.6.2": {
     "text": "And it was found written that Mordecai had told of Bigthana and Teresh, two of the king’s eunuchs, the doorkeepers who had sought to lay hands on King Ahasuerus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.2.21-22",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.3": {
     "text": "Then the king said, “What honor or dignity has been bestowed on Mordecai for this?” And the king’s servants who attended him said, “Nothing has been done for him.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.9.15",
+        "v": 7
+      },
+      {
+        "r": "GEN.40.23",
+        "v": 4
+      },
+      {
+        "r": "DAN.5.7",
+        "v": 3
+      },
+      {
+        "r": "ACT.28.8-10",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.16",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.29",
+        "v": 3
+      },
+      {
+        "r": "PSA.118.8-9",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.25-26",
+        "v": 3
+      },
+      {
+        "r": "JDG.1.12-13",
+        "v": 3
+      },
+      {
+        "r": "1CH.11.6",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.4": {
@@ -1025,14 +3334,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 5:1",
-        "refs": []
+        "r": "EST.5.14",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Esth. 5:14",
-        "refs": []
+        "r": "EST.4.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.2.4",
+        "v": 3
+      },
+      {
+        "r": "EST.5.1",
+        "v": 3
+      },
+      {
+        "r": "EST.3.8-11",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "EST.7.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.33.19",
+        "v": 2
+      },
+      {
+        "r": "JOB.5.13",
+        "v": 2
+      },
+      {
+        "r": "PRO.3.27-28",
+        "v": 2
       }
     ],
     "section": null
@@ -1048,9 +3387,68 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Prov. 16:18; 18:12)",
-        "refs": []
+        "r": "PRO.16.18",
+        "v": 5
+      },
+      {
+        "r": "OBA.1.3",
+        "v": 4
+      },
+      {
+        "r": "EST.6.9",
+        "v": 3
+      },
+      {
+        "r": "ISA.42.1",
+        "v": 3
+      },
+      {
+        "r": "MAT.3.17",
+        "v": 3
+      },
+      {
+        "r": "PRO.18.12",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 3
+      },
+      {
+        "r": "JER.32.41",
+        "v": 3
+      },
+      {
+        "r": "EST.5.11",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.32",
+        "v": 2
+      },
+      {
+        "r": "PSA.35.27",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2-3",
+        "v": 2
+      },
+      {
+        "r": "EST.6.7",
+        "v": 2
+      },
+      {
+        "r": "EST.6.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.23",
+        "v": 1
+      },
+      {
+        "r": "PRO.30.13",
+        "v": 1
       }
     ],
     "section": null
@@ -1058,7 +3456,16 @@
   "EST.6.7": {
     "text": "And Haman answered the king, “For the man whom the king delights to honor,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.6.11",
+        "v": 3
+      },
+      {
+        "r": "EST.6.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.6.8": {
@@ -1066,9 +3473,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kin. 1:33",
-        "refs": []
+        "r": "1KI.1.33",
+        "v": 6
+      },
+      {
+        "r": "EST.2.17",
+        "v": 3
+      },
+      {
+        "r": "1SA.18.4",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 3
+      },
+      {
+        "r": "EST.1.11",
+        "v": 3
       }
     ],
     "section": null
@@ -1078,9 +3500,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 41:43",
-        "refs": []
+        "r": "GEN.41.43",
+        "v": 8
+      },
+      {
+        "r": "1KI.1.33-34",
+        "v": 5
+      },
+      {
+        "r": "ZEC.9.9",
+        "v": 4
       }
     ],
     "section": null
@@ -1088,13 +3517,55 @@
   "EST.6.10": {
     "text": "Then the king said to Haman, “Hurry, take the robe and the horse, as you have suggested, and do so for Mordecai the Jew who sits within the king’s gate! Leave nothing undone of all that you have spoken.”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.4.37",
+        "v": 5
+      },
+      {
+        "r": "2KI.10.10",
+        "v": 4
+      },
+      {
+        "r": "REV.18.7",
+        "v": 4
+      },
+      {
+        "r": "LUK.14.11",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "EST.6.11": {
     "text": "So Haman took the robe and the horse, arrayed Mordecai and led him on horseback through the city square, and proclaimed before him, “Thus shall it be done to the man whom the king delights to honor!”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.3",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.52",
+        "v": 5
+      },
+      {
+        "r": "EZR.6.13",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 4
+      },
+      {
+        "r": "EST.8.15",
+        "v": 4
+      },
+      {
+        "r": "REV.3.9",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "EST.6.12": {
@@ -1102,14 +3573,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Chr. 26:20",
-        "refs": []
+        "r": "2SA.15.30",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "2 Sam. 15:30; Jer. 14:3, 4",
-        "refs": []
+        "r": "JER.14.3-4",
+        "v": 4
+      },
+      {
+        "r": "1KI.21.4",
+        "v": 3
+      },
+      {
+        "r": "JOB.20.5",
+        "v": 3
+      },
+      {
+        "r": "2CH.26.20",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 2
+      },
+      {
+        "r": "PSA.131.1-2",
+        "v": 2
+      },
+      {
+        "r": "2SA.17.23",
+        "v": 2
+      },
+      {
+        "r": "EST.7.8",
+        "v": 2
+      },
+      {
+        "r": "1SA.3.15",
+        "v": 2
+      },
+      {
+        "r": "1KI.20.43",
+        "v": 2
+      },
+      {
+        "r": "EST.2.19",
+        "v": 2
       }
     ],
     "section": null
@@ -1119,9 +3628,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Gen. 12:3); Zech. 2:8",
-        "refs": []
+        "r": "PRO.28.18",
+        "v": 10
+      },
+      {
+        "r": "HOS.14.9",
+        "v": 8
+      },
+      {
+        "r": "GEN.40.19",
+        "v": 6
+      },
+      {
+        "r": "DAN.2.12",
+        "v": 5
+      },
+      {
+        "r": "DAN.5.26-28",
+        "v": 5
+      },
+      {
+        "r": "GEN.41.8",
+        "v": 5
+      },
+      {
+        "r": "JOB.16.2",
+        "v": 4
+      },
+      {
+        "r": "EST.5.10-14",
+        "v": 4
+      },
+      {
+        "r": "1SA.28.19-20",
+        "v": 4
+      },
+      {
+        "r": "JOB.15.24",
+        "v": 3
+      },
+      {
+        "r": "ZEC.12.2-3",
+        "v": 2
       }
     ],
     "section": null
@@ -1131,9 +3679,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 5:8",
-        "refs": []
+        "r": "EST.5.8",
+        "v": 6
+      },
+      {
+        "r": "DEU.32.35-36",
+        "v": 2
+      },
+      {
+        "r": "EST.5.14",
+        "v": 2
       }
     ],
     "section": null
@@ -1141,7 +3696,16 @@
   "EST.7.1": {
     "text": "So the king and Haman went to dine with Queen Esther.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.5.8",
+        "v": 4
+      },
+      {
+        "r": "EST.3.15",
+        "v": 3
+      }
+    ],
     "section": "Haman Hanged Instead of Mordecai"
   },
   "EST.7.2": {
@@ -1149,9 +3713,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 5:6",
-        "refs": []
+        "r": "JHN.16.24",
+        "v": 6
+      },
+      {
+        "r": "EST.5.3",
+        "v": 5
+      },
+      {
+        "r": "EST.9.12",
+        "v": 4
+      },
+      {
+        "r": "EST.5.6",
+        "v": 2
       }
     ],
     "section": null
@@ -1159,7 +3734,40 @@
   "EST.7.3": {
     "text": "Then Queen Esther answered and said, “If I have found favor in your sight, O king, and if it pleases the king, let my life be given me at my petition, and my people at my request.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JER.38.26",
+        "v": 6
+      },
+      {
+        "r": "JOB.2.4",
+        "v": 4
+      },
+      {
+        "r": "EST.7.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.6-9",
+        "v": 3
+      },
+      {
+        "r": "1KI.20.31",
+        "v": 2
+      },
+      {
+        "r": "2KI.1.13",
+        "v": 2
+      },
+      {
+        "r": "EST.4.8",
+        "v": 2
+      },
+      {
+        "r": "EST.5.8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.4": {
@@ -1167,14 +3775,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:9, 4:7",
-        "refs": []
+        "r": "EST.3.9",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Deut. 28:68",
-        "refs": []
+        "r": "DEU.28.68",
+        "v": 6
+      },
+      {
+        "r": "EST.3.13",
+        "v": 6
+      },
+      {
+        "r": "EST.8.11",
+        "v": 4
+      },
+      {
+        "r": "EST.4.7-8",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.44.22-23",
+        "v": 2
+      },
+      {
+        "r": "GEN.37.26-28",
+        "v": 2
+      },
+      {
+        "r": "1SA.22.23",
+        "v": 2
+      },
+      {
+        "r": "AMO.2.6",
+        "v": 2
+      },
+      {
+        "r": "JOL.3.6",
+        "v": 2
+      },
+      {
+        "r": "NEH.5.5",
+        "v": 2
+      },
+      {
+        "r": "JOS.9.23",
+        "v": 2
       }
     ],
     "section": null
@@ -1182,7 +3832,20 @@
   "EST.7.5": {
     "text": "So King Ahasuerus answered and said to Queen Esther, “Who is he, and where is he, who would dare presume in his heart to do such a thing?”",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.27.33",
+        "v": 3
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.7.6": {
@@ -1190,9 +3853,68 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:10",
-        "refs": []
+        "r": "JOB.18.5-12",
+        "v": 5
+      },
+      {
+        "r": "PSA.139.19-22",
+        "v": 3
+      },
+      {
+        "r": "1CO.5.13",
+        "v": 3
+      },
+      {
+        "r": "2TH.2.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.27.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.17-20",
+        "v": 2
+      },
+      {
+        "r": "1SA.24.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.5-9",
+        "v": 2
+      },
+      {
+        "r": "NEH.6.16",
+        "v": 2
+      },
+      {
+        "r": "JOB.15.21-22",
+        "v": 2
+      },
+      {
+        "r": "EST.3.10",
+        "v": 2
+      },
+      {
+        "r": "ECC.5.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.21.4",
+        "v": 1
+      },
+      {
+        "r": "DAN.5.5-6",
+        "v": 1
+      },
+      {
+        "r": "PRO.16.14",
+        "v": 1
+      },
+      {
+        "r": "PRO.24.24-25",
+        "v": 1
       }
     ],
     "section": null
@@ -1200,7 +3922,52 @@
   "EST.7.7": {
     "text": "Then the king arose in his wrath from the banquet of wine and went into the palace garden; but Haman stood before Queen Esther, pleading for his life, for he saw that evil was determined against him by the king.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.3.9",
+        "v": 3
+      },
+      {
+        "r": "EST.1.12",
+        "v": 3
+      },
+      {
+        "r": "PRO.14.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.19.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.19",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.112.10",
+        "v": 2
+      },
+      {
+        "r": "EST.1.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.7.8": {
@@ -1208,14 +3975,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 1:6",
-        "refs": []
+        "r": "EST.1.6",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Job 9:24",
-        "refs": []
+        "r": "EST.6.12",
+        "v": 4
+      },
+      {
+        "r": "JOB.9.24",
+        "v": 3
+      },
+      {
+        "r": "ISA.22.17",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.23",
+        "v": 2
       }
     ],
     "section": null
@@ -1225,19 +4002,76 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 1:10",
-        "refs": []
+        "r": "PSA.7.15-16",
+        "v": 11
       },
       {
-        "marker": "#",
-        "text": "Esth. 5:14; (Ps. 7:16; Prov. 11:5, 6)",
-        "refs": []
+        "r": "PRO.11.5-6",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Esth. 6:2",
-        "refs": []
+        "r": "EST.5.14",
+        "v": 6
+      },
+      {
+        "r": "EST.1.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.141.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.35.8",
+        "v": 5
+      },
+      {
+        "r": "DAN.6.24",
+        "v": 4
+      },
+      {
+        "r": "PSA.73.19",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.35-36",
+        "v": 3
+      },
+      {
+        "r": "DAN.6.7",
+        "v": 3
+      },
+      {
+        "r": "1SA.17.51",
+        "v": 3
+      },
+      {
+        "r": "EST.6.14",
+        "v": 3
+      },
+      {
+        "r": "EST.6.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.9.15-16",
+        "v": 3
+      },
+      {
+        "r": "JOB.27.20-23",
+        "v": 3
+      },
+      {
+        "r": "EST.9.25",
+        "v": 3
+      },
+      {
+        "r": "EST.2.21-23",
+        "v": 2
+      },
+      {
+        "r": "2KI.9.32",
+        "v": 2
       }
     ],
     "section": null
@@ -1247,14 +4081,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "(Ps. 7:16; 94:23; Prov. 11:5, 6)",
-        "refs": []
+        "r": "PSA.7.16",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Ps. 37:35, 36; Dan. 6:24",
-        "refs": []
+        "r": "DAN.6.24",
+        "v": 5
+      },
+      {
+        "r": "JDG.15.7",
+        "v": 4
+      },
+      {
+        "r": "EZK.5.13",
+        "v": 4
+      },
+      {
+        "r": "ZEC.6.8",
+        "v": 3
+      },
+      {
+        "r": "EST.2.1",
+        "v": 3
       }
     ],
     "section": null
@@ -1264,14 +4112,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 7:6",
-        "refs": []
+        "r": "EST.2.7",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Esth. 2:7, 15",
-        "refs": []
+        "r": "EST.2.15",
+        "v": 5
+      },
+      {
+        "r": "PRO.13.22",
+        "v": 5
+      },
+      {
+        "r": "PSA.39.6",
+        "v": 4
+      },
+      {
+        "r": "JOB.27.16-17",
+        "v": 4
+      },
+      {
+        "r": "EST.7.6",
+        "v": 3
+      },
+      {
+        "r": "LUK.12.20",
+        "v": 3
+      },
+      {
+        "r": "PRO.28.8",
+        "v": 2
+      },
+      {
+        "r": "EST.1.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.49.6-13",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.18-19",
+        "v": 2
       }
     ],
     "section": "Esther Saves the Jews"
@@ -1281,9 +4163,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:10",
-        "refs": []
+        "r": "EST.3.10",
+        "v": 6
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 4
+      },
+      {
+        "r": "DAN.2.48",
+        "v": 4
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.34",
+        "v": 3
+      },
+      {
+        "r": "ECC.5.13-14",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.18-26",
+        "v": 2
+      },
+      {
+        "r": "ISA.22.19-22",
+        "v": 2
+      },
+      {
+        "r": "2SA.9.7-10",
+        "v": 2
       }
     ],
     "section": null
@@ -1291,7 +4204,36 @@
   "EST.8.3": {
     "text": "Now Esther spoke again to the king, fell down at his feet, and implored him with tears to counteract the evil of Haman the Agagite, and the scheme which he had devised against the Jews.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.8-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.38.2",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.4",
+        "v": 2
+      },
+      {
+        "r": "1SA.25.24",
+        "v": 2
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      },
+      {
+        "r": "2KI.4.27",
+        "v": 2
+      },
+      {
+        "r": "HEB.5.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.8.4": {
@@ -1299,9 +4241,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 4:11, 5:2",
-        "refs": []
+        "r": "EST.5.2",
+        "v": 8
+      },
+      {
+        "r": "EST.4.11",
+        "v": 7
       }
     ],
     "section": null
@@ -1311,9 +4256,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:13",
-        "refs": []
+        "r": "EST.7.3",
+        "v": 5
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 3
+      },
+      {
+        "r": "EST.5.8",
+        "v": 3
+      },
+      {
+        "r": "EST.2.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.16",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.13",
+        "v": 2
+      },
+      {
+        "r": "EST.2.17",
+        "v": 2
+      },
+      {
+        "r": "1SA.20.29",
+        "v": 2
       }
     ],
     "section": null
@@ -1323,9 +4295,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 2:3; Esth. 7:4, 9:1",
-        "refs": []
+        "r": "EST.7.4",
+        "v": 5
+      },
+      {
+        "r": "ROM.9.2-3",
+        "v": 3
+      },
+      {
+        "r": "ROM.10.1",
+        "v": 3
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "LUK.19.41-42",
+        "v": 2
+      },
+      {
+        "r": "JER.9.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.44.34",
+        "v": 2
+      },
+      {
+        "r": "NEH.2.3",
+        "v": 2
+      },
+      {
+        "r": "JER.4.19",
+        "v": 2
       }
     ],
     "section": null
@@ -1335,9 +4338,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:1; Prov. 13:22",
-        "refs": []
+        "r": "EST.7.10-8.1",
+        "v": 3
+      },
+      {
+        "r": "PRO.13.22",
+        "v": 2
+      },
+      {
+        "r": "GAL.3.13",
+        "v": 2
       }
     ],
     "section": null
@@ -1347,9 +4357,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 1:19; Dan. 6:8, 12, 15",
-        "refs": []
+        "r": "EST.1.19",
+        "v": 9
+      },
+      {
+        "r": "EST.3.12",
+        "v": 8
+      },
+      {
+        "r": "EST.8.5",
+        "v": 4
+      },
+      {
+        "r": "HEB.6.17-18",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.8",
+        "v": 4
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 4
+      },
+      {
+        "r": "DAN.6.12-15",
+        "v": 4
+      },
+      {
+        "r": "2TI.2.19",
+        "v": 3
+      },
+      {
+        "r": "EST.8.10",
+        "v": 2
       }
     ],
     "section": null
@@ -1359,19 +4400,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:12",
-        "refs": []
+        "r": "EST.1.22",
+        "v": 9
       },
       {
-        "marker": "#",
-        "text": "Esth. 1:1",
-        "refs": []
+        "r": "EST.1.1",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Esth. 1:22, 3:12",
-        "refs": []
+        "r": "2KI.18.26",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1",
+        "v": 2
+      },
+      {
+        "r": "1CO.14.9-11",
+        "v": 2
       }
     ],
     "section": null
@@ -1381,9 +4435,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Kin. 21:8; Esth. 3:12, 13",
-        "refs": []
+        "r": "DAN.4.1",
+        "v": 3
+      },
+      {
+        "r": "JER.51.21",
+        "v": 3
+      },
+      {
+        "r": "ISA.60.6",
+        "v": 3
+      },
+      {
+        "r": "ECC.8.4",
+        "v": 3
+      },
+      {
+        "r": "JER.2.23",
+        "v": 3
+      },
+      {
+        "r": "ISA.66.20",
+        "v": 3
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 2
+      },
+      {
+        "r": "1KI.4.28",
+        "v": 2
+      },
+      {
+        "r": "1KI.21.8",
+        "v": 2
+      },
+      {
+        "r": "JOB.9.25",
+        "v": 2
+      },
+      {
+        "r": "2CH.30.6",
+        "v": 2
       }
     ],
     "section": null
@@ -1393,14 +4486,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 9:2",
-        "refs": []
+        "r": "PSA.37.14-15",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Esth. 9:10, 15, 16",
-        "refs": []
+        "r": "EST.3.13",
+        "v": 8
+      },
+      {
+        "r": "EZK.39.10",
+        "v": 6
+      },
+      {
+        "r": "PSA.146.6-9",
+        "v": 6
+      },
+      {
+        "r": "EST.9.2-16",
+        "v": 5
+      },
+      {
+        "r": "PSA.137.8",
+        "v": 5
+      },
+      {
+        "r": "PSA.68.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.10.6",
+        "v": 3
       }
     ],
     "section": null
@@ -1410,9 +4525,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:13, 9:1",
-        "refs": []
+        "r": "EST.9.1",
+        "v": 6
+      },
+      {
+        "r": "EST.3.13-15",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.9-10",
+        "v": 2
+      },
+      {
+        "r": "JDG.1.6-7",
+        "v": 2
       }
     ],
     "section": null
@@ -1422,9 +4548,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:14, 15",
-        "refs": []
+        "r": "REV.6.10",
+        "v": 4
+      },
+      {
+        "r": "EST.3.14",
+        "v": 4
+      },
+      {
+        "r": "PSA.92.10-11",
+        "v": 3
+      },
+      {
+        "r": "LUK.18.7",
+        "v": 3
+      },
+      {
+        "r": "JDG.16.28",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.6-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.68.23",
+        "v": 3
+      },
+      {
+        "r": "PSA.37.14-15",
+        "v": 3
       }
     ],
     "section": null
@@ -1432,7 +4585,36 @@
   "EST.8.14": {
     "text": "The couriers who rode on royal horses went out, hastened and pressed on by the king’s command. And the decree was issued in Shushan the citadel.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.3.15",
+        "v": 3
+      },
+      {
+        "r": "DAN.8.2",
+        "v": 3
+      },
+      {
+        "r": "EST.2.3",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "NEH.1.1",
+        "v": 1
+      },
+      {
+        "r": "1SA.21.8",
+        "v": 1
+      },
+      {
+        "r": "EST.1.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.8.15": {
@@ -1440,9 +4622,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:15; Prov. 29:2",
-        "refs": []
+        "r": "LUK.16.19",
+        "v": 7
+      },
+      {
+        "r": "EST.5.1",
+        "v": 6
+      },
+      {
+        "r": "EST.1.6",
+        "v": 6
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 6
+      },
+      {
+        "r": "EST.6.8",
+        "v": 6
+      },
+      {
+        "r": "PRO.29.2",
+        "v": 6
+      },
+      {
+        "r": "EST.3.15",
+        "v": 6
+      },
+      {
+        "r": "MAT.6.29",
+        "v": 6
+      },
+      {
+        "r": "EST.6.11",
+        "v": 5
+      },
+      {
+        "r": "MAT.11.8",
+        "v": 5
       }
     ],
     "section": null
@@ -1452,9 +4669,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Ps. 97:11; 112:4",
-        "refs": []
+        "r": "PRO.11.10",
+        "v": 8
+      },
+      {
+        "r": "PSA.97.11",
+        "v": 8
+      },
+      {
+        "r": "PSA.18.28",
+        "v": 7
+      },
+      {
+        "r": "EST.4.1-3",
+        "v": 6
+      },
+      {
+        "r": "PSA.30.5-11",
+        "v": 5
+      },
+      {
+        "r": "ISA.35.10",
+        "v": 4
+      },
+      {
+        "r": "PSA.112.4",
+        "v": 4
+      },
+      {
+        "r": "EST.9.17",
+        "v": 4
+      },
+      {
+        "r": "EST.4.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.30.29-30",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.18-19",
+        "v": 2
       }
     ],
     "section": null
@@ -1464,19 +4720,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Sam. 25:8; Esth. 9:19",
-        "refs": []
+        "r": "DEU.11.25",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Ps. 18:43",
-        "refs": []
+        "r": "EST.9.19",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Gen. 35:5; Ex. 15:16; Deut. 2:25; 11:25; 1 Chr. 14:17; Esth. 9:2",
-        "refs": []
+        "r": "ZEC.8.20-23",
+        "v": 4
+      },
+      {
+        "r": "PSA.18.43",
+        "v": 4
+      },
+      {
+        "r": "1SA.25.8",
+        "v": 4
+      },
+      {
+        "r": "EST.9.2",
+        "v": 4
+      },
+      {
+        "r": "EST.9.27",
+        "v": 3
+      },
+      {
+        "r": "GEN.35.5",
+        "v": 3
+      },
+      {
+        "r": "EXO.15.16",
+        "v": 3
+      },
+      {
+        "r": "EST.9.22",
+        "v": 3
+      },
+      {
+        "r": "DEU.2.25",
+        "v": 3
+      },
+      {
+        "r": "EST.9.17",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.10",
+        "v": 2
       }
     ],
     "section": null
@@ -1486,19 +4779,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:12",
-        "refs": []
+        "r": "EST.3.13",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Esth. 3:13",
-        "refs": []
+        "r": "EST.8.12",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "2 Sam. 22:41",
-        "refs": []
+        "r": "PSA.30.11",
+        "v": 5
+      },
+      {
+        "r": "REV.11.18",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.14-16",
+        "v": 3
+      },
+      {
+        "r": "ISA.14.1-2",
+        "v": 3
+      },
+      {
+        "r": "2SA.22.41",
+        "v": 3
+      },
+      {
+        "r": "EST.9.17",
+        "v": 2
+      },
+      {
+        "r": "EST.3.7",
+        "v": 2
+      },
+      {
+        "r": "ACT.12.11",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.36",
+        "v": 2
       }
     ],
     "section": "The Jews Destroy Their Tormentors"
@@ -1508,19 +4830,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:11; 9:15–18",
-        "refs": []
+        "r": "EST.8.17",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Ps. 71:13, 14",
-        "refs": []
+        "r": "EST.8.11",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Esth. 8:17",
-        "refs": []
+        "r": "PSA.71.24",
+        "v": 3
+      },
+      {
+        "r": "PSA.71.13",
+        "v": 3
+      },
+      {
+        "r": "JOS.2.9",
+        "v": 2
+      },
+      {
+        "r": "EST.9.15-18",
+        "v": 2
+      },
+      {
+        "r": "DEU.2.30",
+        "v": 2
+      },
+      {
+        "r": "GEN.35.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.27",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.9",
+        "v": 2
+      },
+      {
+        "r": "JOS.11.20",
+        "v": 2
       }
     ],
     "section": null
@@ -1528,7 +4883,36 @@
   "EST.9.3": {
     "text": "And all the officials of the provinces, the satraps, the governors, and all those doing the king’s work, helped the Jews, because the fear of Mordecai fell upon them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZR.8.36",
+        "v": 5
+      },
+      {
+        "r": "EST.8.5",
+        "v": 2
+      },
+      {
+        "r": "DAN.3.2",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2-6",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      },
+      {
+        "r": "DAN.6.1-2",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.4": {
@@ -1536,9 +4920,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Sam. 3:1; 1 Chr. 11:9; (Prov. 4:18)",
-        "refs": []
+        "r": "1CH.11.9",
+        "v": 6
+      },
+      {
+        "r": "2SA.3.1",
+        "v": 6
+      },
+      {
+        "r": "PSA.1.3",
+        "v": 3
+      },
+      {
+        "r": "1SA.2.30",
+        "v": 3
+      },
+      {
+        "r": "1CH.14.17",
+        "v": 3
+      },
+      {
+        "r": "JOS.6.27",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.43",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.19",
+        "v": 3
+      },
+      {
+        "r": "PRO.4.18",
+        "v": 3
+      },
+      {
+        "r": "MAT.4.24",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.7",
+        "v": 1
       }
     ],
     "section": null
@@ -1546,7 +4969,32 @@
   "EST.9.5": {
     "text": "Thus the Jews defeated all their enemies with the stroke of the sword, with slaughter and destruction, and did what they pleased with those who hated them.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.18.34-40",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.6-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.47-48",
+        "v": 3
+      },
+      {
+        "r": "PSA.20.7-8",
+        "v": 3
+      },
+      {
+        "r": "JER.18.21",
+        "v": 3
+      },
+      {
+        "r": "2TH.1.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.6": {
@@ -1554,9 +5002,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 1:2; 3:15; 4:16",
-        "refs": []
+        "r": "EST.3.15",
+        "v": 2
       }
     ],
     "section": null
@@ -1584,14 +5031,64 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 5:11; 9:7–10; Job 18:19; 27:13–15; Ps. 21:10",
-        "refs": []
+        "r": "EST.5.11",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Esth. 8:11",
-        "refs": []
+        "r": "EST.8.11",
+        "v": 5
+      },
+      {
+        "r": "GEN.14.23",
+        "v": 4
+      },
+      {
+        "r": "JOB.18.18-19",
+        "v": 3
+      },
+      {
+        "r": "JOB.27.13-15",
+        "v": 3
+      },
+      {
+        "r": "EST.7.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.12.17",
+        "v": 2
+      },
+      {
+        "r": "EXO.20.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.21.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.12-13",
+        "v": 2
+      },
+      {
+        "r": "EST.3.1",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.8",
+        "v": 2
+      },
+      {
+        "r": "EST.9.15-16",
+        "v": 2
+      },
+      {
+        "r": "EST.7.6",
+        "v": 2
       }
     ],
     "section": null
@@ -1607,9 +5104,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 5:6, 7:2",
-        "refs": []
+        "r": "EST.7.2",
+        "v": 6
+      },
+      {
+        "r": "EST.5.6",
+        "v": 6
       }
     ],
     "section": null
@@ -1619,14 +5119,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:11, 9:15",
-        "refs": []
+        "r": "EST.8.11",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "2 Sam. 21:6, 9",
-        "refs": []
+        "r": "DEU.21.23",
+        "v": 3
+      },
+      {
+        "r": "EST.9.15",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.9",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.6",
+        "v": 2
+      },
+      {
+        "r": "GAL.3.13",
+        "v": 2
       }
     ],
     "section": null
@@ -1642,14 +5156,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:11, 9:2",
-        "refs": []
+        "r": "EST.8.11",
+        "v": 3
       },
       {
-        "marker": "#",
-        "text": "Esth. 9:10",
-        "refs": []
+        "r": "EST.9.10",
+        "v": 3
+      },
+      {
+        "r": "EST.9.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.118.7-12",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.5",
+        "v": 2
+      },
+      {
+        "r": "EST.9.2",
+        "v": 2
+      },
+      {
+        "r": "EST.9.16",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.22",
+        "v": 2
       }
     ],
     "section": null
@@ -1659,14 +5195,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 9:2",
-        "refs": []
+        "r": "EST.8.11",
+        "v": 10
       },
       {
-        "marker": "#",
-        "text": "Esth. 8:11",
-        "refs": []
+        "r": "EST.9.2",
+        "v": 6
+      },
+      {
+        "r": "LEV.26.7-8",
+        "v": 5
       }
     ],
     "section": null
@@ -1674,7 +5212,28 @@
   "EST.9.17": {
     "text": "This was on the thirteenth day of the month of Adar. And on the fourteenth of the month they rested and made it a day of feasting and gladness.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.1",
+        "v": 3
+      },
+      {
+        "r": "EST.9.21",
+        "v": 3
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "EST.9.18",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.18": {
@@ -1682,9 +5241,24 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 9:11, 15",
-        "refs": []
+        "r": "EST.9.21",
+        "v": 3
+      },
+      {
+        "r": "EST.9.15",
+        "v": 2
+      },
+      {
+        "r": "EST.9.1",
+        "v": 2
+      },
+      {
+        "r": "EST.9.13",
+        "v": 2
+      },
+      {
+        "r": "EST.9.11",
+        "v": 1
       }
     ],
     "section": "The Feast of Purim"
@@ -1694,19 +5268,44 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Deut. 16:11, 14",
-        "refs": []
+        "r": "EST.8.17",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Esth. 8:16, 17",
-        "refs": []
+        "r": "EST.9.22",
+        "v": 4
       },
       {
-        "marker": "#",
-        "text": "Neh. 8:10, 12; Esth. 9:22",
-        "refs": []
+        "r": "REV.11.10",
+        "v": 4
+      },
+      {
+        "r": "DEU.16.14",
+        "v": 4
+      },
+      {
+        "r": "NEH.8.10-12",
+        "v": 4
+      },
+      {
+        "r": "DEU.16.11",
+        "v": 3
+      },
+      {
+        "r": "DEU.3.5",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.41",
+        "v": 2
+      },
+      {
+        "r": "ZEC.2.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.118.11-16",
+        "v": 2
       }
     ],
     "section": null
@@ -1714,7 +5313,48 @@
   "EST.9.20": {
     "text": "And Mordecai wrote these things and sent letters to all the Jews, near and far, who were in all the provinces of King Ahasuerus,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.1.10-11",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "DEU.31.19-22",
+        "v": 2
+      },
+      {
+        "r": "EXO.17.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.124.1-3",
+        "v": 2
+      },
+      {
+        "r": "EST.3.12",
+        "v": 2
+      },
+      {
+        "r": "EST.1.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.145.4-12",
+        "v": 2
+      },
+      {
+        "r": "1CH.16.12",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "EST.9.21": {
@@ -1728,14 +5368,56 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Neh. 8:10; Esth. 9:19",
-        "refs": []
+        "r": "PSA.30.11",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "(Deut. 15:7–11); Job 29:16",
-        "refs": []
+        "r": "EST.9.19",
+        "v": 4
+      },
+      {
+        "r": "ISA.14.3",
+        "v": 4
+      },
+      {
+        "r": "ISA.12.1-2",
+        "v": 4
+      },
+      {
+        "r": "GAL.2.10",
+        "v": 3
+      },
+      {
+        "r": "EST.3.12-13",
+        "v": 3
+      },
+      {
+        "r": "ACT.2.44-46",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.20-22",
+        "v": 2
+      },
+      {
+        "r": "PSA.103.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.5.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.13.3-8",
+        "v": 2
+      },
+      {
+        "r": "NEH.8.10-12",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.41",
+        "v": 1
       }
     ],
     "section": null
@@ -1751,9 +5433,12 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 3:6, 7, 9:26",
-        "refs": []
+        "r": "EST.3.5-13",
+        "v": 3
+      },
+      {
+        "r": "EST.9.10",
+        "v": 2
       }
     ],
     "section": null
@@ -1763,14 +5448,32 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 7:4–10; 8:3; 9:13, 14",
-        "refs": []
+        "r": "PSA.7.16",
+        "v": 7
       },
       {
-        "marker": "#",
-        "text": "Esth. 7:10",
-        "refs": []
+        "r": "EST.7.5-8.14",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.44",
+        "v": 2
+      },
+      {
+        "r": "EST.9.13-14",
+        "v": 2
+      },
+      {
+        "r": "PSA.141.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.109.17-18",
+        "v": 2
+      },
+      {
+        "r": "PSA.140.9",
+        "v": 2
       }
     ],
     "section": null
@@ -1780,9 +5483,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 9:20",
-        "refs": []
+        "r": "EST.9.20",
+        "v": 3
+      },
+      {
+        "r": "NUM.16.40",
+        "v": 2
+      },
+      {
+        "r": "EZK.39.11",
+        "v": 2
       }
     ],
     "section": null
@@ -1792,9 +5502,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:17; (Is. 56:3, 6); Zech. 2:11",
-        "refs": []
+        "r": "ZEC.2.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.56.6",
+        "v": 4
+      },
+      {
+        "r": "EST.8.17",
+        "v": 3
+      },
+      {
+        "r": "ISA.56.3",
+        "v": 3
+      },
+      {
+        "r": "JOS.9.15",
+        "v": 2
+      },
+      {
+        "r": "DEU.29.14-15",
+        "v": 2
+      },
+      {
+        "r": "EST.9.21",
+        "v": 2
+      },
+      {
+        "r": "ZEC.8.23",
+        "v": 2
+      },
+      {
+        "r": "2SA.21.1-2",
+        "v": 2
+      },
+      {
+        "r": "DEU.5.3",
+        "v": 2
+      },
+      {
+        "r": "1SA.30.25",
+        "v": 2
       }
     ],
     "section": null
@@ -1802,7 +5551,32 @@
   "EST.9.28": {
     "text": "that these days should be remembered and kept throughout every generation, every family, every province, and every city, that these days of Purim should not fail to be observed among the Jews, and that the memory of them should not perish among their descendants.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.78.5-7",
+        "v": 3
+      },
+      {
+        "r": "JOS.4.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.103.2",
+        "v": 3
+      },
+      {
+        "r": "EXO.13.8-9",
+        "v": 3
+      },
+      {
+        "r": "EXO.12.17",
+        "v": 2
+      },
+      {
+        "r": "ZEC.6.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.9.29": {
@@ -1810,14 +5584,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 2:15",
-        "refs": []
+        "r": "EST.9.20",
+        "v": 5
       },
       {
-        "marker": "#",
-        "text": "Esth. 8:10; 9, 21",
-        "refs": []
+        "r": "EST.2.15",
+        "v": 4
+      },
+      {
+        "r": "EST.8.10",
+        "v": 3
+      },
+      {
+        "r": "EST.3.15",
+        "v": 2
       }
     ],
     "section": null
@@ -1827,9 +5607,20 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 1:1",
-        "refs": []
+        "r": "EST.1.1",
+        "v": 4
+      },
+      {
+        "r": "ZEC.8.19",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.39.8",
+        "v": 2
       }
     ],
     "section": null
@@ -1839,9 +5630,16 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 4:3, 16",
-        "refs": []
+        "r": "EST.4.3",
+        "v": 5
+      },
+      {
+        "r": "EST.4.16",
+        "v": 4
+      },
+      {
+        "r": "JON.3.2-9",
+        "v": 2
       }
     ],
     "section": null
@@ -1849,7 +5647,12 @@
   "EST.9.32": {
     "text": "So the decree of Esther confirmed these matters of Purim, and it was written in the book.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EST.9.26",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "EST.10.1": {
@@ -1857,9 +5660,36 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 10:5; Ps. 72:10; Is. 11:11; 24:15",
-        "refs": []
+        "r": "ISA.24.15",
+        "v": 5
+      },
+      {
+        "r": "PSA.72.10",
+        "v": 3
+      },
+      {
+        "r": "LUK.2.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.11.11",
+        "v": 2
+      },
+      {
+        "r": "GEN.10.5",
+        "v": 2
+      },
+      {
+        "r": "EST.8.9",
+        "v": 2
+      },
+      {
+        "r": "DAN.11.18",
+        "v": 2
+      },
+      {
+        "r": "EST.1.1",
+        "v": 2
       }
     ],
     "section": "Mordecai’s Advancement"
@@ -1869,14 +5699,40 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Esth. 8:15, 9:4",
-        "refs": []
+        "r": "EST.8.15",
+        "v": 6
       },
       {
-        "marker": "#",
-        "text": "Esth. 6:1",
-        "refs": []
+        "r": "EST.2.23",
+        "v": 5
+      },
+      {
+        "r": "EST.9.4",
+        "v": 5
+      },
+      {
+        "r": "EST.6.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.18.35",
+        "v": 2
+      },
+      {
+        "r": "1KI.11.41",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.48",
+        "v": 2
+      },
+      {
+        "r": "1KI.14.19",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.39",
+        "v": 2
       }
     ],
     "section": null
@@ -1886,14 +5742,52 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Gen. 41:40, 43, 44; 2 Chr. 28:7",
-        "refs": []
+        "r": "NEH.2.10",
+        "v": 8
       },
       {
-        "marker": "#",
-        "text": "Neh. 2:10; Ps. 122:8, 9",
-        "refs": []
+        "r": "ROM.14.18",
+        "v": 4
+      },
+      {
+        "r": "ROM.10.1",
+        "v": 4
+      },
+      {
+        "r": "DAN.5.29",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.6-9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.43-44",
+        "v": 3
+      },
+      {
+        "r": "2CH.28.7",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.40",
+        "v": 3
+      },
+      {
+        "r": "DAN.5.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.9.2-3",
+        "v": 2
+      },
+      {
+        "r": "1SA.23.17",
+        "v": 2
+      },
+      {
+        "r": "EST.3.2",
+        "v": 2
       }
     ],
     "section": null

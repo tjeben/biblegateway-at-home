@@ -8,697 +8,7461 @@
   "SNG.1.2": {
     "text": "Han kysser mig med kyss av sin munn! For din kjærlighet er bedre enn vin.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.10",
+        "v": 6
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 5
+      },
+      {
+        "r": "PSA.36.7",
+        "v": 5
+      },
+      {
+        "r": "ISA.55.1-2",
+        "v": 4
+      },
+      {
+        "r": "PSA.63.3-5",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.20",
+        "v": 3
+      },
+      {
+        "r": "MAT.26.26",
+        "v": 3
+      },
+      {
+        "r": "SNG.8.1-2",
+        "v": 2
+      },
+      {
+        "r": "ISA.25.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.4",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.12",
+        "v": 2
+      },
+      {
+        "r": "PSA.2.12",
+        "v": 2
+      },
+      {
+        "r": "ACT.21.7",
+        "v": 1
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 1
+      },
+      {
+        "r": "SNG.7.6",
+        "v": 1
+      },
+      {
+        "r": "GEN.45.15",
+        "v": 0
+      },
+      {
+        "r": "1PE.5.14",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "SNG.1.3": {
     "text": "Liflig er duften av dine salver, ditt navn er en utgytt salve; derfor elsker jomfruene dig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.7.1",
+        "v": 9
+      },
+      {
+        "r": "JHN.12.3",
+        "v": 8
+      },
+      {
+        "r": "EXO.30.23-28",
+        "v": 8
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 8
+      },
+      {
+        "r": "PHP.2.9-10",
+        "v": 7
+      },
+      {
+        "r": "PSA.45.7-8",
+        "v": 7
+      },
+      {
+        "r": "REV.14.4",
+        "v": 6
+      },
+      {
+        "r": "PSA.45.14",
+        "v": 5
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 5
+      },
+      {
+        "r": "PSA.133.2",
+        "v": 5
+      },
+      {
+        "r": "2CO.2.14-16",
+        "v": 5
+      },
+      {
+        "r": "ISA.9.6-7",
+        "v": 4
+      },
+      {
+        "r": "MAT.25.1",
+        "v": 4
+      },
+      {
+        "r": "ISA.61.3",
+        "v": 4
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 4
+      },
+      {
+        "r": "MAT.1.21-23",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 3
+      },
+      {
+        "r": "EXO.34.5-7",
+        "v": 3
+      },
+      {
+        "r": "PRO.27.9",
+        "v": 3
+      },
+      {
+        "r": "JER.23.5-6",
+        "v": 3
+      },
+      {
+        "r": "PSA.89.15-16",
+        "v": 3
+      },
+      {
+        "r": "2CO.11.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "EXO.33.12",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.8",
+        "v": 1
+      },
+      {
+        "r": "EXO.33.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.1.4": {
     "text": "Drag mig! Vi vil løpe efter dig. Kongen har ført mig inn i sine kammer; vi vil fryde og glede oss i dig, vi vil prise din kjærlighet mere enn vin; opriktig elsker de dig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.6.44",
+        "v": 8
+      },
+      {
+        "r": "HOS.11.4",
+        "v": 8
+      },
+      {
+        "r": "PSA.45.14-15",
+        "v": 7
+      },
+      {
+        "r": "JHN.12.32",
+        "v": 5
+      },
+      {
+        "r": "JER.31.3",
+        "v": 4
+      },
+      {
+        "r": "HEB.12.1",
+        "v": 3
+      },
+      {
+        "r": "ISA.61.3",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.45.25",
+        "v": 3
+      },
+      {
+        "r": "JHN.14.2-3",
+        "v": 3
+      },
+      {
+        "r": "LUK.2.10",
+        "v": 3
+      },
+      {
+        "r": "ZEC.9.9",
+        "v": 3
+      },
+      {
+        "r": "LUK.22.19",
+        "v": 3
+      },
+      {
+        "r": "ISA.63.7",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.4",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.10",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.2-3",
+        "v": 3
+      },
+      {
+        "r": "ISA.25.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.119.32",
+        "v": 2
+      },
+      {
+        "r": "ZEP.3.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.5",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.111.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.103.1-2",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3-5",
+        "v": 2
+      },
+      {
+        "r": "1CO.11.23-26",
+        "v": 2
+      },
+      {
+        "r": "PSA.42.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.48.9",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.60",
+        "v": 2
+      },
+      {
+        "r": "JHN.21.15-17",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.4",
+        "v": 1
+      },
+      {
+        "r": "1PE.1.8",
+        "v": 1
+      },
+      {
+        "r": "PHP.2.12-13",
+        "v": 1
+      },
+      {
+        "r": "EPH.6.24",
+        "v": 1
+      },
+      {
+        "r": "PHP.3.3",
+        "v": 1
+      },
+      {
+        "r": "PSA.98.4-9",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.1.5": {
     "text": "Sort er jeg, men yndig, I Jerusalems døtre, som Kedars telter, som Salomos telttepper.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.15.22",
+        "v": 7
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 7
+      },
+      {
+        "r": "PSA.120.5",
+        "v": 6
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 6
+      },
+      {
+        "r": "2CO.5.21",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.7",
+        "v": 6
+      },
+      {
+        "r": "SNG.5.8",
+        "v": 6
+      },
+      {
+        "r": "MAT.10.25",
+        "v": 5
+      },
+      {
+        "r": "ISA.61.10",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.3",
+        "v": 5
+      },
+      {
+        "r": "EZK.16.14",
+        "v": 5
+      },
+      {
+        "r": "LUK.13.34",
+        "v": 5
+      },
+      {
+        "r": "MAT.22.11",
+        "v": 5
+      },
+      {
+        "r": "ROM.13.14",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 5
+      },
+      {
+        "r": "ISA.60.7",
+        "v": 5
+      },
+      {
+        "r": "1CO.4.10-13",
+        "v": 5
+      },
+      {
+        "r": "1JN.3.1",
+        "v": 4
+      },
+      {
+        "r": "EPH.5.26",
+        "v": 4
+      },
+      {
+        "r": "SNG.8.4",
+        "v": 4
+      },
+      {
+        "r": "ISA.53.2",
+        "v": 4
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 4
+      },
+      {
+        "r": "PSA.90.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.5",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.10",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.9",
+        "v": 3
+      },
+      {
+        "r": "PSA.149.4",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.1.6": {
     "text": "Se ikke på mig, fordi jeg er så sort, fordi solen har brent mig! Min mors sønner blev vrede på mig, de satte mig til å vokte vingårdene; min egen vingård har jeg ikke voktet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.8.11-12",
+        "v": 6
+      },
+      {
+        "r": "LUK.12.51-53",
+        "v": 5
+      },
+      {
+        "r": "JER.12.6",
+        "v": 4
+      },
+      {
+        "r": "MRK.4.6",
+        "v": 4
+      },
+      {
+        "r": "JOB.30.30",
+        "v": 4
+      },
+      {
+        "r": "PSA.69.8",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.35-36",
+        "v": 3
+      },
+      {
+        "r": "LAM.4.8",
+        "v": 3
+      },
+      {
+        "r": "ACT.14.22",
+        "v": 3
+      },
+      {
+        "r": "GAL.4.29",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.6",
+        "v": 3
+      },
+      {
+        "r": "MAT.10.25",
+        "v": 3
+      },
+      {
+        "r": "MAT.10.22",
+        "v": 3
+      },
+      {
+        "r": "RUT.1.19-21",
+        "v": 3
+      },
+      {
+        "r": "JER.8.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.7": {
     "text": "Si mig, du som min sjel elsker: Hvor vokter du hjorden? Hvor lar du den hvile om middagen? For hvorfor skal jeg være lik en kvinne som går tilsløret ved dine stallbrødres hjorder?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.1-4",
+        "v": 8
+      },
+      {
+        "r": "ISA.13.20",
+        "v": 5
+      },
+      {
+        "r": "PSA.23.1-2",
+        "v": 4
+      },
+      {
+        "r": "PSA.28.1",
+        "v": 3
+      },
+      {
+        "r": "GEN.37.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.26.9",
+        "v": 2
+      },
+      {
+        "r": "MIC.5.4",
+        "v": 2
+      },
+      {
+        "r": "COL.3.14-18",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 2
+      },
+      {
+        "r": "JHN.6.67-69",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.8",
+        "v": 2
+      },
+      {
+        "r": "JER.33.12",
+        "v": 2
+      },
+      {
+        "r": "MAT.10.37",
+        "v": 2
+      },
+      {
+        "r": "JHN.10.28-29",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 2
+      },
+      {
+        "r": "1JN.2.19",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.13",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.7",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.10.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.18.1",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.116.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.10",
+        "v": 2
+      },
+      {
+        "r": "1SA.12.20-21",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 2
+      },
+      {
+        "r": "REV.7.17",
+        "v": 2
+      },
+      {
+        "r": "PSA.80.1",
+        "v": 2
+      },
+      {
+        "r": "JHN.21.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.8": {
     "text": "Vet du det ikke, du fagreste blandt kvinner, så gå ut i fårenes spor og vokt dine kje ved hyrdenes hytter!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.1",
+        "v": 6
+      },
+      {
+        "r": "SNG.5.9",
+        "v": 5
+      },
+      {
+        "r": "HEB.11.4-40",
+        "v": 3
+      },
+      {
+        "r": "JAS.5.10",
+        "v": 3
+      },
+      {
+        "r": "JAS.2.21",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.27",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.7",
+        "v": 2
+      },
+      {
+        "r": "REV.19.7-8",
+        "v": 2
+      },
+      {
+        "r": "1CO.11.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.4-10",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 2
+      },
+      {
+        "r": "JHN.21.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 2
+      },
+      {
+        "r": "1PE.3.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.1-13",
+        "v": 2
+      },
+      {
+        "r": "HEB.6.12",
+        "v": 2
+      },
+      {
+        "r": "PSA.16.3",
+        "v": 2
+      },
+      {
+        "r": "JER.6.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.34",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.25",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.1.9": {
     "text": "Med gangerne foran Faraos vogner ligner jeg dig, min venninne!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.13",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 5
+      },
+      {
+        "r": "JHN.15.14-15",
+        "v": 4
+      },
+      {
+        "r": "ISA.31.1",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.1.14-17",
+        "v": 2
+      },
+      {
+        "r": "1KI.10.28",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.10": {
     "text": "Yndige er dine kinner mellem kjedene, din hals i perleradene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.16.11-13",
+        "v": 12
+      },
+      {
+        "r": "1PE.3.4",
+        "v": 5
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 4
+      },
+      {
+        "r": "GEN.24.47",
+        "v": 4
+      },
+      {
+        "r": "SNG.4.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 3
+      },
+      {
+        "r": "NUM.31.50",
+        "v": 3
+      },
+      {
+        "r": "2PE.1.3-4",
+        "v": 3
+      },
+      {
+        "r": "GEN.24.22",
+        "v": 3
+      },
+      {
+        "r": "ISA.3.18-21",
+        "v": 3
+      },
+      {
+        "r": "PRO.1.9",
+        "v": 3
+      },
+      {
+        "r": "ISA.61.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.11": {
     "text": "Gullkjeder vil vi gjøre dig med sølvprikker på.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.149.4",
+        "v": 4
+      },
+      {
+        "r": "PHP.3.21",
+        "v": 4
+      },
+      {
+        "r": "GEN.1.26",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.25-27",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.12": {
     "text": "Så lenge kongen satt ved sitt bord, gav min nardus sin duft.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.12.3",
+        "v": 7
+      },
+      {
+        "r": "REV.3.20",
+        "v": 5
+      },
+      {
+        "r": "MRK.14.3",
+        "v": 4
+      },
+      {
+        "r": "PSA.45.1",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.11",
+        "v": 3
+      },
+      {
+        "r": "REV.8.3-4",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.13-16",
+        "v": 3
+      },
+      {
+        "r": "MAT.26.26-28",
+        "v": 3
+      },
+      {
+        "r": "MAT.25.34",
+        "v": 3
+      },
+      {
+        "r": "LUK.24.30-32",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 3
+      },
+      {
+        "r": "MAT.22.4",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.1.13": {
     "text": "Min elskede er mig en myrrakule, som hviler mellem mine bryster.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.19.39",
+        "v": 5
+      },
+      {
+        "r": "PSA.45.8",
+        "v": 4
+      },
+      {
+        "r": "EPH.3.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.7",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.14",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.3-4",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.14": {
     "text": "Min elskede er mig en cyperdrue i En-Gedis vingårder.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.3",
+        "v": 3
+      },
+      {
+        "r": "JOS.15.62",
+        "v": 3
+      },
+      {
+        "r": "1SA.23.29-24.1",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.15": {
     "text": "Hvor fager du er, min venninne, hvor fager du er! Dine øine er duer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.1",
+        "v": 12
+      },
+      {
+        "r": "SNG.5.12",
+        "v": 8
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 4
+      },
+      {
+        "r": "EPH.1.17-18",
+        "v": 3
+      },
+      {
+        "r": "2CO.11.2-3",
+        "v": 3
+      },
+      {
+        "r": "MAL.2.14",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.16": {
     "text": "Hvor du er vakker, min elskede, hvor skjønn du er! Og vårt leie er grønt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.3",
+        "v": 5
+      },
+      {
+        "r": "PSA.45.2",
+        "v": 4
+      },
+      {
+        "r": "ZEC.9.17",
+        "v": 3
+      },
+      {
+        "r": "PHP.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "REV.5.11-13",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.7",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.10-16",
+        "v": 2
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.1.17": {
     "text": "Sedrer er bjelkene i vårt hus, cypresser er vårt tavlede loft.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HEB.11.10",
+        "v": 5
+      },
+      {
+        "r": "PSA.92.12",
+        "v": 3
+      },
+      {
+        "r": "SNG.8.9",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 2
+      },
+      {
+        "r": "1KI.6.9",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.4-5",
+        "v": 2
+      },
+      {
+        "r": "1TI.3.15-16",
+        "v": 2
+      },
+      {
+        "r": "EZK.42.3",
+        "v": 2
+      },
+      {
+        "r": "2CH.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "EZK.41.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.1": {
     "text": "Jeg er Sarons blomst, dalenes lilje.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.57.15",
+        "v": 9
+      },
+      {
+        "r": "HOS.14.5",
+        "v": 8
+      },
+      {
+        "r": "ISA.35.1-2",
+        "v": 7
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 3
+      },
+      {
+        "r": "PSA.85.11",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.2.2": {
     "text": "Som en lilje blandt torner, så er min venninne blandt de unge kvinner.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1PE.2.12",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.15-16",
+        "v": 2
+      },
+      {
+        "r": "ISA.55.13",
+        "v": 2
+      },
+      {
+        "r": "MAT.6.28-29",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.3": {
     "text": "Som et epletre blandt skogens trær, så er min elskede blandt de unge menn; i hans skygge lyster det mig å sitte, og hans frukt er søt for min gane.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.8.5",
+        "v": 7
+      },
+      {
+        "r": "ISA.25.4",
+        "v": 6
+      },
+      {
+        "r": "HEB.1.1-6",
+        "v": 6
+      },
+      {
+        "r": "ISA.32.2",
+        "v": 6
+      },
+      {
+        "r": "HEB.12.2",
+        "v": 5
+      },
+      {
+        "r": "JHN.1.14-18",
+        "v": 4
+      },
+      {
+        "r": "1JN.1.3-4",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.9-10",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.16",
+        "v": 3
+      },
+      {
+        "r": "HEB.7.23-26",
+        "v": 3
+      },
+      {
+        "r": "EZK.47.12",
+        "v": 3
+      },
+      {
+        "r": "PSA.91.1",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.29-31",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 3
+      },
+      {
+        "r": "ISA.4.6",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.1-8",
+        "v": 3
+      },
+      {
+        "r": "ISA.4.2",
+        "v": 3
+      },
+      {
+        "r": "HEB.3.1-6",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.5",
+        "v": 3
+      },
+      {
+        "r": "PSA.57.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.3.22-24",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.89.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.2",
+        "v": 2
+      },
+      {
+        "r": "JDG.9.19-20",
+        "v": 2
+      },
+      {
+        "r": "REV.22.1-2",
+        "v": 1
+      },
+      {
+        "r": "EZK.17.23-24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.4": {
     "text": "Han har ført mig til vinhuset, og hans banner over mig er kjærlighet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.4",
+        "v": 11
+      },
+      {
+        "r": "ROM.5.8-10",
+        "v": 11
+      },
+      {
+        "r": "ROM.8.28-39",
+        "v": 11
+      },
+      {
+        "r": "JHN.15.9-15",
+        "v": 11
+      },
+      {
+        "r": "REV.3.20",
+        "v": 10
+      },
+      {
+        "r": "PSA.84.10",
+        "v": 8
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 7
+      },
+      {
+        "r": "ISA.11.10",
+        "v": 7
+      },
+      {
+        "r": "PSA.20.5",
+        "v": 6
+      },
+      {
+        "r": "PSA.60.4",
+        "v": 6
+      },
+      {
+        "r": "JHN.14.21-23",
+        "v": 6
+      },
+      {
+        "r": "PSA.63.2-5",
+        "v": 6
+      },
+      {
+        "r": "SNG.1.1",
+        "v": 5
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 4
+      },
+      {
+        "r": "EST.7.7",
+        "v": 4
+      },
+      {
+        "r": "JOB.1.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.2.5": {
     "text": "Styrk mig med druekaker, kveg mig med epler! For jeg er syk av kjærlighet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.8",
+        "v": 5
+      },
+      {
+        "r": "2SA.6.19",
+        "v": 4
+      },
+      {
+        "r": "HOS.3.1",
+        "v": 4
+      },
+      {
+        "r": "PSA.42.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.4.6-7",
+        "v": 2
+      },
+      {
+        "r": "2SA.13.1-2",
+        "v": 2
+      },
+      {
+        "r": "ISA.26.8-9",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.23",
+        "v": 2
+      },
+      {
+        "r": "LUK.24.32",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.130-131",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.1-3",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.8",
+        "v": 2
+      },
+      {
+        "r": "1CH.16.3",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.6": {
     "text": "Hans venstre hånd er under mitt hode, og hans høire favner mig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEP.3.17",
+        "v": 6
+      },
+      {
+        "r": "ISA.54.5-10",
+        "v": 5
+      },
+      {
+        "r": "SNG.8.3-5",
+        "v": 3
+      },
+      {
+        "r": "JER.32.41",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.25-29",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.7": {
     "text": "Jeg ber eder inderlig, I Jerusalems døtre, ved rådyrene eller ved hindene på marken, at I ikke vekker og ikke egger kjærligheten, før den selv vil!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.5",
+        "v": 9
+      },
+      {
+        "r": "SNG.8.4",
+        "v": 7
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 3
+      },
+      {
+        "r": "PRO.5.19",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.8-9",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.22-33",
+        "v": 1
+      },
+      {
+        "r": "SNG.2.9",
+        "v": 1
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 1
+      },
+      {
+        "r": "MAT.26.63",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "SNG.2.8": {
     "text": "Hør, der er min elskede! Se, der kommer han springende over fjellene, hoppende over haugene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.10.27",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.17",
+        "v": 4
+      },
+      {
+        "r": "REV.3.20",
+        "v": 4
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 4
+      },
+      {
+        "r": "ISA.52.7",
+        "v": 4
+      },
+      {
+        "r": "2SA.6.16",
+        "v": 3
+      },
+      {
+        "r": "ACT.14.10",
+        "v": 3
+      },
+      {
+        "r": "ISA.40.3-4",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.11-13",
+        "v": 3
+      },
+      {
+        "r": "ISA.55.12-13",
+        "v": 3
+      },
+      {
+        "r": "ISA.44.23",
+        "v": 3
+      },
+      {
+        "r": "ISA.35.6",
+        "v": 3
+      },
+      {
+        "r": "JHN.10.4-5",
+        "v": 3
+      },
+      {
+        "r": "LUK.3.4-6",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 3
+      },
+      {
+        "r": "ACT.3.8",
+        "v": 3
+      },
+      {
+        "r": "JER.48.27",
+        "v": 3
+      },
+      {
+        "r": "LUK.6.23",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.9": {
     "text": "Min elskede ligner et rådyr eller en ung hjort. Se, der står han bak vår vegg; han kikker gjennem vinduene, gjennem gitteret ser han inn.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.8.14",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.17",
+        "v": 5
+      },
+      {
+        "r": "2SA.2.18",
+        "v": 2
+      },
+      {
+        "r": "HEB.10.19-20",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.39",
+        "v": 2
+      },
+      {
+        "r": "LUK.24.35",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.10-12",
+        "v": 2
+      },
+      {
+        "r": "HEB.10.1",
+        "v": 2
+      },
+      {
+        "r": "COL.2.17",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.46",
+        "v": 2
+      },
+      {
+        "r": "2CO.3.13-18",
+        "v": 2
+      },
+      {
+        "r": "REV.19.10",
+        "v": 2
+      },
+      {
+        "r": "1CO.13.12",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.14-15",
+        "v": 2
+      },
+      {
+        "r": "JHN.12.41",
+        "v": 2
+      },
+      {
+        "r": "HEB.9.8-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.2.10": {
     "text": "Min elskede tar til orde og sier til mig: Stå op, min venninne, du min fagre, og kom ut!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.7-8",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 5
+      },
+      {
+        "r": "REV.22.17",
+        "v": 4
+      },
+      {
+        "r": "2CO.6.17-18",
+        "v": 3
+      },
+      {
+        "r": "REV.19.7-9",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.8",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.10-11",
+        "v": 3
+      },
+      {
+        "r": "2CO.11.2",
+        "v": 3
+      },
+      {
+        "r": "2SA.23.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.4.19-22",
+        "v": 2
+      },
+      {
+        "r": "PSA.85.8",
+        "v": 2
+      },
+      {
+        "r": "GEN.12.1-3",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "JER.31.3",
+        "v": 2
+      },
+      {
+        "r": "MAT.9.9",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.11": {
     "text": "For se, nu er vinteren omme, regnet har draget forbi og er borte;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.60.1-2",
+        "v": 6
+      },
+      {
+        "r": "ECC.3.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.54.6-8",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.8",
+        "v": 3
+      },
+      {
+        "r": "REV.11.14-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.2",
+        "v": 2
+      },
+      {
+        "r": "ECC.3.4",
+        "v": 2
+      },
+      {
+        "r": "MAT.5.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.12.1-2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.12": {
     "text": "blomstene kommer til syne i landet, sangens tid er inne, og turtelduens røst har latt sig høre i vårt land;",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.55.12",
+        "v": 5
+      },
+      {
+        "r": "COL.3.16",
+        "v": 4
+      },
+      {
+        "r": "PSA.148.7-13",
+        "v": 4
+      },
+      {
+        "r": "JER.8.7",
+        "v": 4
+      },
+      {
+        "r": "PSA.89.15",
+        "v": 4
+      },
+      {
+        "r": "PSA.40.1-3",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.42.10-12",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.9-13",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.18-20",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.13-14",
+        "v": 2
+      },
+      {
+        "r": "ISA.35.1-2",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.5-7",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.13": {
     "text": "fikentreets frukter tar til å rødme, og vintrærnes blomster dufter. Stå op, kom, min venninne, du min fagre, så kom da!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.10",
+        "v": 4
+      },
+      {
+        "r": "LUK.13.6-7",
+        "v": 3
+      },
+      {
+        "r": "ISA.61.11",
+        "v": 3
+      },
+      {
+        "r": "ISA.55.10-11",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.11-13",
+        "v": 3
+      },
+      {
+        "r": "2CO.6.1-2",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.8",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.18.5",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.19",
+        "v": 2
+      },
+      {
+        "r": "MAT.24.32",
+        "v": 2
+      },
+      {
+        "r": "2CO.5.20",
+        "v": 2
+      },
+      {
+        "r": "LUK.19.42",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.14": {
     "text": "Du min due i bergrevnene, i fjellveggens ly! La mig se din skikkelse, la mig høre din røst! For din røst er blid og din skikkelse fager.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.2",
+        "v": 5
+      },
+      {
+        "r": "EZR.9.5-6",
+        "v": 5
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 5
+      },
+      {
+        "r": "EXO.3.6",
+        "v": 4
+      },
+      {
+        "r": "SNG.8.13",
+        "v": 4
+      },
+      {
+        "r": "EXO.33.22-23",
+        "v": 3
+      },
+      {
+        "r": "JER.48.28",
+        "v": 2
+      },
+      {
+        "r": "OBA.1.3",
+        "v": 2
+      },
+      {
+        "r": "ISA.51.3",
+        "v": 2
+      },
+      {
+        "r": "REV.5.8",
+        "v": 2
+      },
+      {
+        "r": "EXO.4.11-13",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 2
+      },
+      {
+        "r": "JER.49.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.9-10",
+        "v": 2
+      },
+      {
+        "r": "LUK.8.47-48",
+        "v": 2
+      },
+      {
+        "r": "EZK.7.16",
+        "v": 2
+      },
+      {
+        "r": "HEB.4.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.8",
+        "v": 2
+      },
+      {
+        "r": "1PE.3.4",
+        "v": 1
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 1
+      },
+      {
+        "r": "PRO.15.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.6.5",
+        "v": 1
+      },
+      {
+        "r": "HEB.10.22",
+        "v": 1
+      },
+      {
+        "r": "MAT.10.16",
+        "v": 1
+      },
+      {
+        "r": "REV.7.9-10",
+        "v": 1
+      },
+      {
+        "r": "DAN.9.7",
+        "v": 1
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 1
+      },
+      {
+        "r": "JUD.1.24",
+        "v": 1
+      },
+      {
+        "r": "COL.1.22",
+        "v": 1
+      },
+      {
+        "r": "ISA.2.21",
+        "v": 1
+      },
+      {
+        "r": "PSA.50.23",
+        "v": 1
+      },
+      {
+        "r": "EPH.5.27",
+        "v": 1
+      },
+      {
+        "r": "PSA.74.19",
+        "v": 1
+      },
+      {
+        "r": "JOB.9.16",
+        "v": 1
+      },
+      {
+        "r": "REV.4.8-10",
+        "v": 1
+      },
+      {
+        "r": "MAT.3.16",
+        "v": 1
+      },
+      {
+        "r": "PSA.22.3",
+        "v": 1
+      },
+      {
+        "r": "SNG.1.8",
+        "v": 1
+      },
+      {
+        "r": "PSA.68.13",
+        "v": 1
+      },
+      {
+        "r": "PSA.50.14-15",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.15": {
     "text": "Fang revene for oss, de små rever som ødelegger vingårdene! Våre vingårder står jo i blomst.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.13.32",
+        "v": 12
+      },
+      {
+        "r": "2PE.2.1-3",
+        "v": 10
+      },
+      {
+        "r": "SNG.7.12",
+        "v": 8
+      },
+      {
+        "r": "PSA.80.13",
+        "v": 6
+      },
+      {
+        "r": "EZK.13.4-16",
+        "v": 5
+      },
+      {
+        "r": "REV.2.2",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "SNG.2.16": {
     "text": "Min elskede er min, og jeg er hans, han som vokter sin hjord blandt liljene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.3",
+        "v": 12
+      },
+      {
+        "r": "SNG.7.10",
+        "v": 7
+      },
+      {
+        "r": "PSA.48.14",
+        "v": 3
+      },
+      {
+        "r": "PSA.63.1",
+        "v": 3
+      },
+      {
+        "r": "JER.31.33",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.7",
+        "v": 2
+      },
+      {
+        "r": "GAL.2.20",
+        "v": 2
+      },
+      {
+        "r": "REV.21.2-3",
+        "v": 2
+      },
+      {
+        "r": "1CO.3.21-23",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.2.17": {
     "text": "Innen dagen blir sval og skyggene flyr, vend om, min elskede, lik et rådyr eller en ung hjort på de kløftede fjell!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.6",
+        "v": 5
+      },
+      {
+        "r": "LUK.1.78",
+        "v": 2
+      },
+      {
+        "r": "HEB.10.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.8-9",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.19",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.14",
+        "v": 2
+      },
+      {
+        "r": "ROM.13.12",
+        "v": 2
+      },
+      {
+        "r": "HEB.8.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.1": {
     "text": "På mitt leie lette jeg om natten efter ham som min sjel elsker; jeg lette efter ham, men jeg fant ham ikke.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1PE.1.8",
+        "v": 10
+      },
+      {
+        "r": "SNG.5.6",
+        "v": 9
+      },
+      {
+        "r": "SNG.1.7",
+        "v": 9
+      },
+      {
+        "r": "ISA.55.6",
+        "v": 8
+      },
+      {
+        "r": "ISA.26.9",
+        "v": 7
+      },
+      {
+        "r": "PSA.130.1-2",
+        "v": 5
+      },
+      {
+        "r": "PSA.22.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.5.8",
+        "v": 4
+      },
+      {
+        "r": "PSA.63.6-8",
+        "v": 3
+      },
+      {
+        "r": "PSA.4.4",
+        "v": 2
+      },
+      {
+        "r": "LUK.13.24",
+        "v": 2
+      },
+      {
+        "r": "JHN.21.17",
+        "v": 2
+      },
+      {
+        "r": "JOB.23.8-9",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.2-4",
+        "v": 2
+      },
+      {
+        "r": "PSA.6.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.2": {
     "text": "Da sa jeg: Jeg vil stå op og gå omkring i byen, på gatene og på torvene; jeg vil lete efter ham som min sjel elsker. Jeg lette efter ham, men jeg fant ham ikke.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.5.14",
+        "v": 3
+      },
+      {
+        "r": "ROM.13.11",
+        "v": 3
+      },
+      {
+        "r": "LUK.14.21-23",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.20-21",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "PSA.43.2-5",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.7-10",
+        "v": 2
+      },
+      {
+        "r": "1CO.15.34",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.2-3",
+        "v": 2
+      },
+      {
+        "r": "JER.5.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.42.7-9",
+        "v": 2
+      },
+      {
+        "r": "ISA.64.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.34",
+        "v": 2
+      },
+      {
+        "r": "PSA.22.1-2",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.40-41",
+        "v": 2
+      },
+      {
+        "r": "JHN.1.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.3": {
     "text": "Vekterne, som går omkring i byen, møtte mig. Jeg sa til dem: Har I sett ham som min sjel elsker?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.7",
+        "v": 5
+      },
+      {
+        "r": "ISA.21.11-12",
+        "v": 3
+      },
+      {
+        "r": "EZK.33.2-9",
+        "v": 3
+      },
+      {
+        "r": "ISA.21.6-8",
+        "v": 3
+      },
+      {
+        "r": "JHN.20.15",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.6",
+        "v": 2
+      },
+      {
+        "r": "EZK.3.17",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.56.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.4": {
     "text": "Ikke før var jeg gått fra dem, før jeg fant ham som min sjel elsker; jeg tok fatt i ham, og jeg slipper ham ikke før jeg har ført ham til min mors hus, til hennes kammer som har født mig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.8.17",
+        "v": 5
+      },
+      {
+        "r": "MAT.7.7",
+        "v": 4
+      },
+      {
+        "r": "PRO.4.13",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.12",
+        "v": 4
+      },
+      {
+        "r": "SNG.8.2",
+        "v": 4
+      },
+      {
+        "r": "ISA.45.19",
+        "v": 3
+      },
+      {
+        "r": "ISA.55.6-7",
+        "v": 3
+      },
+      {
+        "r": "JER.29.13",
+        "v": 3
+      },
+      {
+        "r": "LAM.3.25",
+        "v": 3
+      },
+      {
+        "r": "ISA.49.14-18",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.54.1-3",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.3-4",
+        "v": 2
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 2
+      },
+      {
+        "r": "GEN.32.26",
+        "v": 2
+      },
+      {
+        "r": "JHN.20.16-17",
+        "v": 2
+      },
+      {
+        "r": "REV.3.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.5": {
     "text": "Jeg ber eder inderlig, I Jerusalems døtre, ved rådyrene eller ved hindene på marken, at I ikke vekker og ikke egger kjærligheten, før den selv vil!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.7",
+        "v": 9
+      },
+      {
+        "r": "SNG.8.4",
+        "v": 7
+      },
+      {
+        "r": "MIC.4.8",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.3.6": {
     "text": "Hvem er hun som kommer op fra ørkenen, som det var røkstøtter, omduftet av myrra og virak, av alle kremmerens krydderier?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.8.5",
+        "v": 6
+      },
+      {
+        "r": "REV.12.14",
+        "v": 4
+      },
+      {
+        "r": "SNG.4.6",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.13",
+        "v": 4
+      },
+      {
+        "r": "JER.2.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.43.19",
+        "v": 3
+      },
+      {
+        "r": "JOL.2.29-31",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.3",
+        "v": 3
+      },
+      {
+        "r": "REV.12.6",
+        "v": 3
+      },
+      {
+        "r": "JER.31.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.12-14",
+        "v": 3
+      },
+      {
+        "r": "DEU.8.2",
+        "v": 3
+      },
+      {
+        "r": "2CO.2.14-16",
+        "v": 2
+      },
+      {
+        "r": "REV.5.8",
+        "v": 2
+      },
+      {
+        "r": "EXO.30.34",
+        "v": 2
+      },
+      {
+        "r": "EXO.13.21-22",
+        "v": 2
+      },
+      {
+        "r": "COL.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.18-21",
+        "v": 2
+      },
+      {
+        "r": "MAT.2.11",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.7": {
     "text": "Se, her er Salomos seng med seksti krigsmenn omkring, av Israels krigsmenn,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.9.22",
+        "v": 2
+      },
+      {
+        "r": "1SA.14.52",
+        "v": 2
+      },
+      {
+        "r": "HEB.1.14",
+        "v": 2
+      },
+      {
+        "r": "1SA.8.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.16",
+        "v": 2
+      },
+      {
+        "r": "1SA.28.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.9",
+        "v": 2
+      },
+      {
+        "r": "2KI.6.17",
+        "v": 2
+      },
+      {
+        "r": "1KI.14.27",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.8": {
     "text": "alle væbnet med sverd, opøvet i krig, hver med sverdet ved lend til vern mot nattens farer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.3",
+        "v": 4
+      },
+      {
+        "r": "EPH.6.16-18",
+        "v": 2
+      },
+      {
+        "r": "PSA.91.5",
+        "v": 2
+      },
+      {
+        "r": "1TH.5.6-8",
+        "v": 2
+      },
+      {
+        "r": "NEH.4.21-22",
+        "v": 2
+      },
+      {
+        "r": "ISA.27.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.149.5-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.9": {
     "text": "En bæreseng gjorde kong Salomo sig av Libanons trær.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.7",
+        "v": 2
+      },
+      {
+        "r": "REV.14.6",
+        "v": 1
+      },
+      {
+        "r": "2SA.23.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.3.10": {
     "text": "Dens stolper gjorde han av sølv, dens ryggstø av gull, dens pute av purpur; innvendig er den smykket i kjærlighet av Jerusalems døtre.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.3.18-19",
+        "v": 2
+      },
+      {
+        "r": "REV.3.12",
+        "v": 2
+      },
+      {
+        "r": "ROM.5.8",
+        "v": 2
+      },
+      {
+        "r": "1TI.3.15-16",
+        "v": 2
+      },
+      {
+        "r": "PSA.87.3",
+        "v": 2
+      },
+      {
+        "r": "REV.1.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.3.11": {
     "text": "Gå ut, I Sions døtre, og se på kong Salomo med den krone hans mor har kronet ham med på hans bryllupsdag, på hans hjertegledes dag!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.62.5",
+        "v": 6
+      },
+      {
+        "r": "HOS.2.19-20",
+        "v": 4
+      },
+      {
+        "r": "JER.2.2",
+        "v": 4
+      },
+      {
+        "r": "REV.1.7",
+        "v": 3
+      },
+      {
+        "r": "MAT.12.42",
+        "v": 3
+      },
+      {
+        "r": "HEB.13.13",
+        "v": 3
+      },
+      {
+        "r": "PSA.9.14",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.17",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 2
+      },
+      {
+        "r": "REV.5.9-10",
+        "v": 2
+      },
+      {
+        "r": "JER.32.41",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.5",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.23-24",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.7",
+        "v": 2
+      },
+      {
+        "r": "ISA.53.11",
+        "v": 2
+      },
+      {
+        "r": "REV.19.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.32",
+        "v": 2
+      },
+      {
+        "r": "COL.1.18",
+        "v": 2
+      },
+      {
+        "r": "ISA.4.4",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.6-7",
+        "v": 2
+      },
+      {
+        "r": "ISA.3.16-17",
+        "v": 2
+      },
+      {
+        "r": "PSA.48.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.11",
+        "v": 2
+      },
+      {
+        "r": "REV.19.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.6",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.9",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.9-11",
+        "v": 2
+      },
+      {
+        "r": "REV.22.9-10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.1": {
     "text": "Hvor fager du er, min venninne, hvor fager du er! Dine øine er duer bak ditt slør; ditt hår er som en hjord av gjeter som leirer sig nedover Gilead-fjellet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.15",
+        "v": 7
+      },
+      {
+        "r": "SNG.6.5",
+        "v": 7
+      },
+      {
+        "r": "SNG.6.7",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.9-10",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 3
+      },
+      {
+        "r": "MIC.7.14",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 3
+      },
+      {
+        "r": "PHP.2.3-5",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 2
+      },
+      {
+        "r": "NUM.32.40",
+        "v": 2
+      },
+      {
+        "r": "NUM.32.1",
+        "v": 2
+      },
+      {
+        "r": "MAT.11.29",
+        "v": 2
+      },
+      {
+        "r": "2CO.3.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.11-12",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.2": {
     "text": "Dine tenner er som en hjord av klippede får som stiger op av badet; alle har de tvillinger, og intet blandt dem er uten lam.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.6",
+        "v": 5
+      },
+      {
+        "r": "JER.15.16",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.7",
+        "v": 2
+      },
+      {
+        "r": "COL.1.4-6",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.13",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.5-8",
+        "v": 2
+      },
+      {
+        "r": "EXO.23.26",
+        "v": 2
+      },
+      {
+        "r": "DEU.7.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.3": {
     "text": "Dine leber er som en skarlagensnor, og din munn er yndig; som et stykke granateple er din tinning bak ditt slør.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.7",
+        "v": 5
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 4
+      },
+      {
+        "r": "JOS.2.18",
+        "v": 4
+      },
+      {
+        "r": "2CO.5.18-21",
+        "v": 2
+      },
+      {
+        "r": "LEV.14.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.16.21-24",
+        "v": 2
+      },
+      {
+        "r": "NUM.4.8",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.29",
+        "v": 2
+      },
+      {
+        "r": "NUM.19.6",
+        "v": 2
+      },
+      {
+        "r": "PRO.10.20-21",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 2
+      },
+      {
+        "r": "COL.3.16-17",
+        "v": 2
+      },
+      {
+        "r": "COL.4.6",
+        "v": 2
+      },
+      {
+        "r": "MAT.12.35",
+        "v": 2
+      },
+      {
+        "r": "PSA.37.30",
+        "v": 2
+      },
+      {
+        "r": "PRO.31.26",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 2
+      },
+      {
+        "r": "EZR.9.6",
+        "v": 2
+      },
+      {
+        "r": "LEV.14.49-52",
+        "v": 2
+      },
+      {
+        "r": "HEB.9.19",
+        "v": 2
+      },
+      {
+        "r": "LUK.4.22",
+        "v": 2
+      },
+      {
+        "r": "GEN.32.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.2",
+        "v": 2
+      },
+      {
+        "r": "LEV.14.4",
+        "v": 2
+      },
+      {
+        "r": "PRO.10.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.63",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.4": {
     "text": "Din hals er som Davids tårn, bygget til våbenhus; tusen skjold henger på det, alle krigsmennenes skjold.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.7.4",
+        "v": 6
+      },
+      {
+        "r": "EPH.4.15-16",
+        "v": 4
+      },
+      {
+        "r": "1PE.1.5",
+        "v": 4
+      },
+      {
+        "r": "NEH.3.19",
+        "v": 4
+      },
+      {
+        "r": "EZK.27.10-11",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.10",
+        "v": 3
+      },
+      {
+        "r": "2SA.22.51",
+        "v": 3
+      },
+      {
+        "r": "2CH.12.9-11",
+        "v": 3
+      },
+      {
+        "r": "COL.2.19",
+        "v": 3
+      },
+      {
+        "r": "2SA.1.21",
+        "v": 2
+      },
+      {
+        "r": "2CH.9.15-16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.5": {
     "text": "Dine bryster er som to rådyrkalver, tvillinger av et rådyr, som beiter blandt liljer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.7.3",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 4
+      },
+      {
+        "r": "PRO.5.19",
+        "v": 3
+      },
+      {
+        "r": "1PE.2.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.8.10",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.13",
+        "v": 2
+      },
+      {
+        "r": "ISA.66.10-12",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.7",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.6": {
     "text": "Når dagen blir sval og skyggene flyr, vil jeg gå til Myrra-åsen og til Virak-haugen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.17",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.14",
+        "v": 4
+      },
+      {
+        "r": "LUK.1.78",
+        "v": 3
+      },
+      {
+        "r": "ISA.2.2",
+        "v": 2
+      },
+      {
+        "r": "EXO.20.24",
+        "v": 2
+      },
+      {
+        "r": "PSA.66.15",
+        "v": 2
+      },
+      {
+        "r": "EXO.37.29",
+        "v": 2
+      },
+      {
+        "r": "LUK.1.9-10",
+        "v": 2
+      },
+      {
+        "r": "EXO.30.23-26",
+        "v": 2
+      },
+      {
+        "r": "MAL.4.2",
+        "v": 2
+      },
+      {
+        "r": "EXO.30.8",
+        "v": 2
+      },
+      {
+        "r": "REV.22.16",
+        "v": 2
+      },
+      {
+        "r": "DEU.12.5-6",
+        "v": 2
+      },
+      {
+        "r": "2PE.1.19",
+        "v": 2
+      },
+      {
+        "r": "REV.5.8",
+        "v": 2
+      },
+      {
+        "r": "1JN.2.8",
+        "v": 2
+      },
+      {
+        "r": "MAL.1.11",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.7": {
     "text": "Alt er fagert ved dig, min venninne, og det er intet lyte på dig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.15",
+        "v": 12
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 6
+      },
+      {
+        "r": "JUD.1.24",
+        "v": 5
+      },
+      {
+        "r": "EPH.5.25-27",
+        "v": 5
+      },
+      {
+        "r": "COL.1.22",
+        "v": 5
+      },
+      {
+        "r": "2PE.3.14",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.16",
+        "v": 2
+      },
+      {
+        "r": "NUM.24.5",
+        "v": 2
+      },
+      {
+        "r": "REV.21.2",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "SNG.4.8": {
     "text": "Kom med mig fra Libanon, min brud, kom med mig fra Libanon! Sku ut fra Amanas topp, fra toppen av Senir og Hermon, fra løvenes boliger, fra panternes fjell!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DEU.3.9",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 5
+      },
+      {
+        "r": "PSA.45.10",
+        "v": 4
+      },
+      {
+        "r": "1CH.5.23",
+        "v": 4
+      },
+      {
+        "r": "ISA.62.5",
+        "v": 3
+      },
+      {
+        "r": "DEU.3.25",
+        "v": 2
+      },
+      {
+        "r": "COL.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.4",
+        "v": 2
+      },
+      {
+        "r": "1KI.4.33",
+        "v": 2
+      },
+      {
+        "r": "JHN.12.26",
+        "v": 2
+      },
+      {
+        "r": "PRO.9.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.11",
+        "v": 2
+      },
+      {
+        "r": "JOS.12.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.9": {
     "text": "Du har vunnet mitt hjerte, min søster, min brud! Du har vunnet mitt hjerte med et eneste øiekast, med en av kjedene om din hals.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.12",
+        "v": 5
+      },
+      {
+        "r": "PRO.5.19-20",
+        "v": 5
+      },
+      {
+        "r": "SNG.5.1-2",
+        "v": 5
+      },
+      {
+        "r": "SNG.7.5-6",
+        "v": 4
+      },
+      {
+        "r": "2CO.11.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.10",
+        "v": 4
+      },
+      {
+        "r": "HOS.2.19-20",
+        "v": 4
+      },
+      {
+        "r": "PSA.45.9",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 3
+      },
+      {
+        "r": "EZK.16.8",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.5",
+        "v": 3
+      },
+      {
+        "r": "ZEP.3.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.5",
+        "v": 3
+      },
+      {
+        "r": "REV.21.9-10",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.11",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.12",
+        "v": 3
+      },
+      {
+        "r": "REV.21.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.10",
+        "v": 3
+      },
+      {
+        "r": "ISA.54.5",
+        "v": 3
+      },
+      {
+        "r": "REV.19.7-8",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.11-14",
+        "v": 2
+      },
+      {
+        "r": "MAT.12.50",
+        "v": 2
+      },
+      {
+        "r": "GEN.20.12",
+        "v": 2
+      },
+      {
+        "r": "1CO.9.5",
+        "v": 2
+      },
+      {
+        "r": "GEN.41.42",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.10": {
     "text": "Hvor liflig din kjærlighet er, min søster, min brud! Hvor meget bedre er ikke din kjærlighet enn vin, og duften av dine salver bedre enn alle velluktende urter!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.2-4",
+        "v": 5
+      },
+      {
+        "r": "GAL.5.22",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.6",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "PHP.4.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.12",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "REV.5.8",
+        "v": 1
+      },
+      {
+        "r": "2CO.1.21-22",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.4.11": {
     "text": "Av honning drypper dine leber, min brud! Honning og melk er under din tunge, og duften av dine klær er som duften av Libanon.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.1",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 3
+      },
+      {
+        "r": "GEN.27.27",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.13",
+        "v": 3
+      },
+      {
+        "r": "HOS.14.6-7",
+        "v": 3
+      },
+      {
+        "r": "PRO.24.13-14",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.15",
+        "v": 2
+      },
+      {
+        "r": "PRO.16.24",
+        "v": 2
+      },
+      {
+        "r": "PRO.5.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.71.23-24",
+        "v": 2
+      },
+      {
+        "r": "PSA.71.14-15",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.8",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.19.10",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.10",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.4.12": {
     "text": "En lukket have er min søster, min brud, et avstengt vell, en forseglet kilde.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.5.15-18",
+        "v": 7
+      },
+      {
+        "r": "REV.21.27",
+        "v": 6
+      },
+      {
+        "r": "1CO.6.13",
+        "v": 4
+      },
+      {
+        "r": "ISA.61.10-11",
+        "v": 4
+      },
+      {
+        "r": "1CO.7.34",
+        "v": 3
+      },
+      {
+        "r": "REV.7.3",
+        "v": 3
+      },
+      {
+        "r": "1CO.6.19-20",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "2CO.1.22",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.11",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.30",
+        "v": 2
+      },
+      {
+        "r": "HOS.6.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 2
+      },
+      {
+        "r": "GEN.29.3",
+        "v": 2
+      },
+      {
+        "r": "JER.31.12",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.13": {
     "text": "Du skyter op som en lysthave av granatepletrær med sin kostelige frukt, som cyperbusker og narder,",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.14",
+        "v": 6
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 5
+      },
+      {
+        "r": "ECC.2.5",
+        "v": 5
+      },
+      {
+        "r": "SNG.1.12",
+        "v": 4
+      },
+      {
+        "r": "PHP.1.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.21",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.1-3",
+        "v": 2
+      },
+      {
+        "r": "MRK.14.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.61.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.2",
+        "v": 2
+      },
+      {
+        "r": "JHN.12.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.12-13",
+        "v": 2
+      },
+      {
+        "r": "PSA.92.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.14": {
     "text": "nardus og safran, kalmus og kanel med alle slags viraktrær, myrra og aloètrær og alle de beste velluktende urter.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.30.23",
+        "v": 6
+      },
+      {
+        "r": "SNG.4.6",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.12",
+        "v": 3
+      },
+      {
+        "r": "EZK.27.19",
+        "v": 3
+      },
+      {
+        "r": "PRO.7.17",
+        "v": 3
+      },
+      {
+        "r": "1KI.10.10",
+        "v": 2
+      },
+      {
+        "r": "MRK.16.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.9.9",
+        "v": 2
+      },
+      {
+        "r": "REV.18.13",
+        "v": 2
+      },
+      {
+        "r": "JHN.19.39",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.11",
+        "v": 2
+      },
+      {
+        "r": "NUM.24.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.15": {
     "text": "En kilde i havene er du, en brønn med levende vann og strømmer fra Libanon.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.4.10",
+        "v": 5
+      },
+      {
+        "r": "JHN.4.14",
+        "v": 4
+      },
+      {
+        "r": "JHN.7.38",
+        "v": 4
+      },
+      {
+        "r": "JER.2.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.12",
+        "v": 2
+      },
+      {
+        "r": "REV.22.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.36.8-9",
+        "v": 2
+      },
+      {
+        "r": "JER.18.13-14",
+        "v": 2
+      },
+      {
+        "r": "JER.17.13",
+        "v": 2
+      },
+      {
+        "r": "ECC.2.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.46.4",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.4.16": {
     "text": "Våkn op, nordenvind, og kom, sønnenvind! Blås gjennem min have, så dens duft kan strømme ut! Gid min elskede vilde komme til sin have og ete dens kostelige frukt!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.2",
+        "v": 6
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 5
+      },
+      {
+        "r": "EZK.37.9",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.13-14",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.12-13",
+        "v": 3
+      },
+      {
+        "r": "1PE.2.5",
+        "v": 3
+      },
+      {
+        "r": "ACT.2.1-2",
+        "v": 3
+      },
+      {
+        "r": "ISA.64.1",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.28",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.9-11",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 2
+      },
+      {
+        "r": "ACT.4.31",
+        "v": 2
+      },
+      {
+        "r": "2CO.9.10-15",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.20-21",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.8",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.12",
+        "v": 2
+      },
+      {
+        "r": "JHN.3.8",
+        "v": 2
+      },
+      {
+        "r": "COL.1.9-12",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.12-13",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.12",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.10",
+        "v": 2
+      },
+      {
+        "r": "ECC.1.6",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.51.9-11",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.9-10",
+        "v": 1
+      },
+      {
+        "r": "2PE.3.18",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.1": {
     "text": "Jeg er kommet til min have, min søster, min brud! Jeg har plukket min myrra og min balsam, jeg har ett min honningkake og min honning, jeg har drukket min vin og min melk. Et, venner, og drikk! Drikk eder lystige, mine elskede!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.2",
+        "v": 8
+      },
+      {
+        "r": "SNG.4.16",
+        "v": 6
+      },
+      {
+        "r": "SNG.4.9-14",
+        "v": 5
+      },
+      {
+        "r": "REV.22.17",
+        "v": 5
+      },
+      {
+        "r": "ISA.55.1-2",
+        "v": 4
+      },
+      {
+        "r": "PRO.9.5",
+        "v": 4
+      },
+      {
+        "r": "ISA.66.14",
+        "v": 4
+      },
+      {
+        "r": "ISA.51.3",
+        "v": 4
+      },
+      {
+        "r": "SNG.8.13",
+        "v": 4
+      },
+      {
+        "r": "ISA.58.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.61.11",
+        "v": 4
+      },
+      {
+        "r": "ISA.65.13",
+        "v": 3
+      },
+      {
+        "r": "LUK.12.4",
+        "v": 3
+      },
+      {
+        "r": "JHN.15.14-15",
+        "v": 3
+      },
+      {
+        "r": "ACT.11.29",
+        "v": 3
+      },
+      {
+        "r": "JHN.3.29",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.9-10",
+        "v": 3
+      },
+      {
+        "r": "ISA.62.8-9",
+        "v": 3
+      },
+      {
+        "r": "2CH.31.6-10",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.1",
+        "v": 2
+      },
+      {
+        "r": "1TH.3.8-9",
+        "v": 2
+      },
+      {
+        "r": "MAT.25.40",
+        "v": 2
+      },
+      {
+        "r": "ISA.53.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.23.18",
+        "v": 2
+      },
+      {
+        "r": "PSA.16.3",
+        "v": 2
+      },
+      {
+        "r": "JHN.14.21-23",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.18",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.1",
+        "v": 2
+      },
+      {
+        "r": "DEU.26.10-14",
+        "v": 2
+      },
+      {
+        "r": "DEU.16.13-17",
+        "v": 2
+      },
+      {
+        "r": "2CO.9.11-15",
+        "v": 2
+      },
+      {
+        "r": "ZEC.9.15-17",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.12-14",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.6-7",
+        "v": 2
+      },
+      {
+        "r": "PSA.147.11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.2": {
     "text": "Jeg sover, men mitt hjerte våker; da lyder min elskedes røst(-)han banker på: Lukk op for mig, min søster, min venninne, min due, du rene! For mitt hode er fullt av dugg, mine lokker av nattens dråper.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.3.20",
+        "v": 7
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 6
+      },
+      {
+        "r": "ZEC.4.1",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.9",
+        "v": 4
+      },
+      {
+        "r": "PSA.119.1",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 2
+      },
+      {
+        "r": "GEN.29.20",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 2
+      },
+      {
+        "r": "PSA.81.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.7",
+        "v": 2
+      },
+      {
+        "r": "PRO.23.26",
+        "v": 2
+      },
+      {
+        "r": "GEN.31.40-41",
+        "v": 2
+      },
+      {
+        "r": "MAT.8.17",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.53.3-5",
+        "v": 2
+      },
+      {
+        "r": "PSA.24.7-10",
+        "v": 2
+      },
+      {
+        "r": "ISA.52.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.50.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.1",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.40-41",
+        "v": 1
+      },
+      {
+        "r": "DAN.8.18",
+        "v": 1
+      },
+      {
+        "r": "MAT.25.4-5",
+        "v": 1
+      },
+      {
+        "r": "2CO.5.14-15",
+        "v": 1
+      },
+      {
+        "r": "MAT.25.35-45",
+        "v": 1
+      },
+      {
+        "r": "JHN.10.4",
+        "v": 1
+      },
+      {
+        "r": "MRK.1.35",
+        "v": 1
+      },
+      {
+        "r": "EPH.5.14",
+        "v": 1
+      },
+      {
+        "r": "LUK.22.44",
+        "v": 1
+      },
+      {
+        "r": "LUK.6.12",
+        "v": 1
+      },
+      {
+        "r": "REV.3.4",
+        "v": 1
+      },
+      {
+        "r": "GAL.2.20",
+        "v": 1
+      },
+      {
+        "r": "LUK.9.32",
+        "v": 1
+      },
+      {
+        "r": "REV.14.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.3": {
     "text": "Jeg sa: Jeg har tatt av mig min kjortel, skulde jeg da ta den på igjen? Jeg har tvettet mine føtter, skulde jeg da skitne dem til?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "LUK.11.7",
+        "v": 4
+      },
+      {
+        "r": "ROM.7.22-23",
+        "v": 2
+      },
+      {
+        "r": "PRO.13.4",
+        "v": 2
+      },
+      {
+        "r": "PRO.3.28",
+        "v": 2
+      },
+      {
+        "r": "MAT.25.5",
+        "v": 2
+      },
+      {
+        "r": "PRO.22.13",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.38-43",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.4": {
     "text": "Min elskede rakte sin hånd inn gjennem luken; da blev mitt hjerte rørt for hans skyld.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ACT.16.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.110.3",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 2
+      },
+      {
+        "r": "2CO.8.1-2",
+        "v": 2
+      },
+      {
+        "r": "1KI.3.26",
+        "v": 2
+      },
+      {
+        "r": "PHP.2.13",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.30",
+        "v": 2
+      },
+      {
+        "r": "ISA.26.8-9",
+        "v": 1
+      },
+      {
+        "r": "1JN.3.16-17",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.5": {
     "text": "Jeg stod op for å lukke op for min elskede, og mine hender dryppet av myrra, mine fingrer av flytende myrra, som vætte låsens håndtak.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.13",
+        "v": 5
+      },
+      {
+        "r": "EPH.3.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "REV.3.20",
+        "v": 2
+      },
+      {
+        "r": "2CO.7.9-11",
+        "v": 2
+      },
+      {
+        "r": "2CO.7.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.12.36",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.6": {
     "text": "Jeg lukket op for min elskede, men min elskede hadde vendt om og gått bort; min sjel var ute av sig selv over hans ord; jeg lette efter ham, men fant ham ikke; jeg ropte på ham, men han svarte mig ikke.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.2",
+        "v": 5
+      },
+      {
+        "r": "HOS.5.15",
+        "v": 3
+      },
+      {
+        "r": "REV.3.19",
+        "v": 3
+      },
+      {
+        "r": "PSA.69.3",
+        "v": 2
+      },
+      {
+        "r": "LAM.3.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.88.9-14",
+        "v": 2
+      },
+      {
+        "r": "MAT.26.75",
+        "v": 2
+      },
+      {
+        "r": "ISA.12.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.54.6-8",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.3",
+        "v": 2
+      },
+      {
+        "r": "ZEC.7.13",
+        "v": 2
+      },
+      {
+        "r": "HOS.5.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.28.1",
+        "v": 2
+      },
+      {
+        "r": "PRO.1.28",
+        "v": 2
+      },
+      {
+        "r": "1SA.28.6",
+        "v": 2
+      },
+      {
+        "r": "PSA.30.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.22.61-62",
+        "v": 2
+      },
+      {
+        "r": "2SA.16.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.80.4",
+        "v": 2
+      },
+      {
+        "r": "ISA.57.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.1",
+        "v": 2
+      },
+      {
+        "r": "MRK.14.72",
+        "v": 2
+      },
+      {
+        "r": "MAT.15.22-28",
+        "v": 2
+      },
+      {
+        "r": "GEN.42.28",
+        "v": 2
+      },
+      {
+        "r": "ISA.50.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.22.1-2",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.7": {
     "text": "Vekterne, som går omkring i byen, møtte mig, de slo mig, de såret mig; de tok mitt slør fra mig, vekterne på murene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.3",
+        "v": 6
+      },
+      {
+        "r": "ACT.26.9-10",
+        "v": 2
+      },
+      {
+        "r": "ISA.6.10-11",
+        "v": 2
+      },
+      {
+        "r": "ACT.20.29-30",
+        "v": 2
+      },
+      {
+        "r": "2CO.11.13",
+        "v": 2
+      },
+      {
+        "r": "HOS.6.5",
+        "v": 2
+      },
+      {
+        "r": "1PE.4.14-16",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.29-36",
+        "v": 2
+      },
+      {
+        "r": "ACT.5.40-41",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.11",
+        "v": 2
+      },
+      {
+        "r": "PHP.3.6",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.6.22",
+        "v": 2
+      },
+      {
+        "r": "HEB.12.2",
+        "v": 2
+      },
+      {
+        "r": "JHN.16.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.141.5",
+        "v": 2
+      },
+      {
+        "r": "MAT.23.2",
+        "v": 2
+      },
+      {
+        "r": "REV.17.5-6",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.33-41",
+        "v": 2
+      },
+      {
+        "r": "HOS.9.7-8",
+        "v": 2
+      },
+      {
+        "r": "HEB.11.36-37",
+        "v": 2
+      },
+      {
+        "r": "1CO.4.10-13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.8": {
     "text": "Jeg ber eder inderlig, I Jerusalems døtre! Om I finner min elskede, hvad skal I si ham? (-)At jeg er syk av kjærlighet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.7",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.5",
+        "v": 6
+      },
+      {
+        "r": "PSA.42.1-3",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.5",
+        "v": 3
+      },
+      {
+        "r": "PSA.119.81-83",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.30",
+        "v": 2
+      },
+      {
+        "r": "GAL.6.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.77.1-3",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.1-3",
+        "v": 2
+      },
+      {
+        "r": "JAS.5.16",
+        "v": 1
+      },
+      {
+        "r": "SNG.8.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.9": {
     "text": "Hvad er din elskede fremfor andre elskede, du fagreste blandt kvinner, hvad er din elskede fremfor andre elskede, siden du ber oss så inderlig?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.8",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.1",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.9-10",
+        "v": 4
+      },
+      {
+        "r": "MAT.16.13-17",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.13",
+        "v": 3
+      },
+      {
+        "r": "ISA.53.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.87.3",
+        "v": 3
+      },
+      {
+        "r": "MAT.21.10",
+        "v": 2
+      },
+      {
+        "r": "JHN.1.14",
+        "v": 2
+      },
+      {
+        "r": "2CO.4.3-6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.10": {
     "text": "Min elskede er hvit og rød, utmerket fremfor ti tusen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.2",
+        "v": 4
+      },
+      {
+        "r": "PHP.2.9-11",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.17",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.1",
+        "v": 3
+      },
+      {
+        "r": "1SA.16.12",
+        "v": 2
+      },
+      {
+        "r": "COL.1.18",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.10",
+        "v": 2
+      },
+      {
+        "r": "HEB.7.26",
+        "v": 2
+      },
+      {
+        "r": "DEU.32.31",
+        "v": 2
+      },
+      {
+        "r": "ISA.10.18",
+        "v": 1
+      },
+      {
+        "r": "ISA.59.19",
+        "v": 1
+      },
+      {
+        "r": "ROM.9.5",
+        "v": 1
+      },
+      {
+        "r": "ISA.66.19",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.11": {
     "text": "Hans hode er som det fineste gull; hans lokker er kruset, sorte som ravnen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EPH.1.21-22",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.5",
+        "v": 3
+      },
+      {
+        "r": "REV.1.14",
+        "v": 3
+      },
+      {
+        "r": "DAN.7.9",
+        "v": 3
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 3
+      },
+      {
+        "r": "DAN.2.37-38",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.12": {
     "text": "Hans øine er som duer ved rinnende bekker; de bader sig i melk, de hviler i sin ramme.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.15",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 5
+      },
+      {
+        "r": "HEB.4.13",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.5.13": {
     "text": "Hans kinner er som velluktende blomstersenger, som det vokser krydderurter i; hans leber er som liljer, de drypper av flytende myrra.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.10",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.1",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.2",
+        "v": 2
+      },
+      {
+        "r": "LUK.4.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.27.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.4.6-7",
+        "v": 2
+      },
+      {
+        "r": "PSA.89.15",
+        "v": 2
+      },
+      {
+        "r": "ISA.50.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 2
+      },
+      {
+        "r": "REV.21.23",
+        "v": 2
+      },
+      {
+        "r": "ISA.50.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.14": {
     "text": "Hans hender er gullringer med innlagte krysolitter, hans midje er et kunstverk av elfenben, dekket med safirer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EXO.24.10",
+        "v": 4
+      },
+      {
+        "r": "ISA.54.11",
+        "v": 3
+      },
+      {
+        "r": "PSA.99.4",
+        "v": 2
+      },
+      {
+        "r": "EXO.39.13",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.7",
+        "v": 2
+      },
+      {
+        "r": "EXO.28.20",
+        "v": 2
+      },
+      {
+        "r": "ISA.52.13",
+        "v": 2
+      },
+      {
+        "r": "EZK.1.16",
+        "v": 2
+      },
+      {
+        "r": "EZK.1.26-28",
+        "v": 2
+      },
+      {
+        "r": "EXO.15.6",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.44.4-7",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.5.15": {
     "text": "Hans ben er marmorstøtter, som står på fotstykker av fineste gull; hans skikkelse er som Libanon, herlig som sedrene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1KI.4.33",
+        "v": 3
+      },
+      {
+        "r": "REV.1.15-16",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.4",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.7",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 2
+      },
+      {
+        "r": "PSA.92.12",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.28",
+        "v": 2
+      },
+      {
+        "r": "MAT.17.2",
+        "v": 2
+      },
+      {
+        "r": "1TI.3.16",
+        "v": 2
+      },
+      {
+        "r": "JDG.13.6",
+        "v": 2
+      },
+      {
+        "r": "EXO.26.19",
+        "v": 2
+      },
+      {
+        "r": "ZEC.9.17",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.11",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.5.16": {
     "text": "Hans gane er sødme, og alt ved ham er liflighet. Slik er min elskede, slik er min venn, I Jerusalems døtre!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.16",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 2
+      },
+      {
+        "r": "HOS.3.1",
+        "v": 2
+      },
+      {
+        "r": "PHP.3.8",
+        "v": 2
+      },
+      {
+        "r": "PSA.148.13",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.6-7",
+        "v": 2
+      },
+      {
+        "r": "JAS.4.4",
+        "v": 2
+      },
+      {
+        "r": "GAL.2.20",
+        "v": 2
+      },
+      {
+        "r": "PSA.19.10",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.6-7",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 2
+      },
+      {
+        "r": "PSA.119.103",
+        "v": 2
+      },
+      {
+        "r": "JER.3.20",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.1",
+        "v": 2
+      },
+      {
+        "r": "JAS.2.23",
+        "v": 2
+      },
+      {
+        "r": "PSA.89.6",
+        "v": 2
+      },
+      {
+        "r": "JER.15.16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.1": {
     "text": "Hvor er din elskede gått hen, du fagreste blandt kvinner, hvor har din elskede tatt veien, så vi kan lete efter ham sammen med dig?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.8",
+        "v": 9
+      },
+      {
+        "r": "SNG.5.9",
+        "v": 9
+      },
+      {
+        "r": "JER.14.8",
+        "v": 6
+      },
+      {
+        "r": "RUT.2.12",
+        "v": 5
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 4
+      },
+      {
+        "r": "RUT.1.16-17",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.2",
+        "v": 4
+      },
+      {
+        "r": "ISA.2.5",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.9-10",
+        "v": 4
+      },
+      {
+        "r": "SNG.6.4",
+        "v": 4
+      },
+      {
+        "r": "SNG.5.6",
+        "v": 3
+      },
+      {
+        "r": "ZEC.8.21-23",
+        "v": 3
+      },
+      {
+        "r": "ACT.5.11-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.2": {
     "text": "Min elskede er gått ned til sin have, til de velluktende blomstersenger, for å vokte sin hjord i havene og for å sanke liljer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.13",
+        "v": 7
+      },
+      {
+        "r": "PHP.1.21-23",
+        "v": 2
+      },
+      {
+        "r": "EZK.34.23",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "ISA.40.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.14.3",
+        "v": 2
+      },
+      {
+        "r": "JHN.17.24",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.20",
+        "v": 2
+      },
+      {
+        "r": "ZEP.3.17",
+        "v": 2
+      },
+      {
+        "r": "ISA.57.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.4.34-35",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 2
+      },
+      {
+        "r": "ISA.61.11",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.7-8",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.1-2",
+        "v": 2
+      },
+      {
+        "r": "REV.7.17",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.12-5.1",
+        "v": 2
+      },
+      {
+        "r": "1TH.4.13-14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.3": {
     "text": "Jeg tilhører min elskede, og min elskede tilhører mig, han som vokter sin hjord blandt liljene.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.16",
+        "v": 12
+      },
+      {
+        "r": "SNG.7.10",
+        "v": 10
+      },
+      {
+        "r": "HEB.8.10",
+        "v": 5
+      },
+      {
+        "r": "REV.21.2-4",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "SNG.6.4": {
     "text": "Du er fager som Tirsa, min venninne, skjønn som Jerusalem, fryktelig som hærskarer med sine banner.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.10",
+        "v": 8
+      },
+      {
+        "r": "PSA.48.2",
+        "v": 5
+      },
+      {
+        "r": "1KI.14.17",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 3
+      },
+      {
+        "r": "PSA.50.2",
+        "v": 3
+      },
+      {
+        "r": "LAM.2.15",
+        "v": 3
+      },
+      {
+        "r": "REV.21.2",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.4-8",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.27",
+        "v": 2
+      },
+      {
+        "r": "1KI.15.21",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.13-14",
+        "v": 2
+      },
+      {
+        "r": "2CO.10.4",
+        "v": 2
+      },
+      {
+        "r": "1KI.15.33",
+        "v": 2
+      },
+      {
+        "r": "ZEC.12.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.5",
+        "v": 2
+      },
+      {
+        "r": "NUM.24.5-9",
+        "v": 2
+      },
+      {
+        "r": "REV.19.14-16",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.5": {
     "text": "Vend dine øine bort fra mig for de forferder mig! Ditt hår er som en hjord av gjeter som leirer sig nedover Gilead.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "MAT.15.27-28",
+        "v": 4
+      },
+      {
+        "r": "EXO.32.10",
+        "v": 4
+      },
+      {
+        "r": "JER.15.1",
+        "v": 4
+      },
+      {
+        "r": "GEN.32.26-28",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.1-3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.6": {
     "text": "Dine tenner er som en hjord av får som stiger op av badet; alle har de tvillinger, og intet blandt dem er uten lam.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.2",
+        "v": 5
+      },
+      {
+        "r": "MAT.25.30",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.19",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.7": {
     "text": "Som et stykke granateple er din tinning bak ditt slør.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.3",
+        "v": 5
+      }
+    ],
     "section": null
   },
   "SNG.6.8": {
     "text": "Seksti dronninger har jeg og åtti medhustruer og unge piker uten tall.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.14",
+        "v": 12
+      },
+      {
+        "r": "1KI.11.3",
+        "v": 9
+      },
+      {
+        "r": "1KI.11.1",
+        "v": 8
+      },
+      {
+        "r": "PSA.45.9",
+        "v": 7
+      },
+      {
+        "r": "2CH.11.21",
+        "v": 7
+      },
+      {
+        "r": "REV.7.9",
+        "v": 6
+      }
+    ],
     "section": null
   },
   "SNG.6.9": {
     "text": "Men én er min due, min rene, hun, sin mors eneste, hennes utkårede som fødte henne; jomfruer så henne og priste henne lykkelig, dronninger og medhustruer så henne og hyldet henne.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.14",
+        "v": 9
+      },
+      {
+        "r": "PSA.45.9",
+        "v": 7
+      },
+      {
+        "r": "GEN.30.13",
+        "v": 7
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 6
+      },
+      {
+        "r": "REV.21.9-10",
+        "v": 6
+      },
+      {
+        "r": "PRO.31.28-29",
+        "v": 6
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 5
+      },
+      {
+        "r": "PSA.126.2",
+        "v": 5
+      },
+      {
+        "r": "DEU.4.6-7",
+        "v": 4
+      },
+      {
+        "r": "NUM.23.9",
+        "v": 4
+      },
+      {
+        "r": "DEU.33.29",
+        "v": 4
+      },
+      {
+        "r": "EPH.4.3-6",
+        "v": 3
+      },
+      {
+        "r": "2TH.1.10",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.6.10": {
     "text": "Hvem er hun som stråler frem som morgenrøden, fager som månen, ren som solen, fryktelig som hærskarer med sine banner?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.4",
+        "v": 6
+      },
+      {
+        "r": "REV.12.1",
+        "v": 4
+      },
+      {
+        "r": "JOB.31.26",
+        "v": 4
+      },
+      {
+        "r": "SNG.3.6",
+        "v": 3
+      },
+      {
+        "r": "2SA.23.4",
+        "v": 3
+      },
+      {
+        "r": "EPH.5.27",
+        "v": 3
+      },
+      {
+        "r": "MAT.17.2",
+        "v": 3
+      },
+      {
+        "r": "ISA.58.8",
+        "v": 3
+      },
+      {
+        "r": "REV.22.5",
+        "v": 3
+      },
+      {
+        "r": "REV.10.1",
+        "v": 3
+      },
+      {
+        "r": "HOS.6.5",
+        "v": 2
+      },
+      {
+        "r": "MAT.13.43",
+        "v": 2
+      },
+      {
+        "r": "REV.21.23",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.18",
+        "v": 2
+      },
+      {
+        "r": "ROM.8.37",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.5",
+        "v": 2
+      },
+      {
+        "r": "REV.21.10-11",
+        "v": 2
+      },
+      {
+        "r": "MAL.4.2",
+        "v": 2
+      },
+      {
+        "r": "REV.22.16",
+        "v": 2
+      },
+      {
+        "r": "PSA.14.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.63.1",
+        "v": 2
+      },
+      {
+        "r": "JOB.11.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.11": {
     "text": "Jeg gikk ned i nøttehaven for å se på dalens grønnende spirer, for å se om vintreet hadde satt skudd, om granatepletrærne stod i blomst.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.7.12",
+        "v": 6
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.1",
+        "v": 2
+      },
+      {
+        "r": "PSA.92.12-15",
+        "v": 2
+      },
+      {
+        "r": "GEN.2.9",
+        "v": 2
+      },
+      {
+        "r": "MRK.11.13",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.36",
+        "v": 2
+      },
+      {
+        "r": "ISA.5.2-4",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.12-15",
+        "v": 2
+      },
+      {
+        "r": "LUK.13.7",
+        "v": 1
+      },
+      {
+        "r": "JHN.15.16",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.6.12": {
     "text": "Før jeg visste av det, førte min sjel mig op på mitt gjæve folks vogner.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "HOS.11.8-9",
+        "v": 3
+      },
+      {
+        "r": "LUK.15.20",
+        "v": 3
+      },
+      {
+        "r": "JER.31.18-20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.6.13": {
     "text": "Vend om, vend om, Sulammit! Vend om, vend om, så vi får se på dig! (-)Hvad vil I se på Sulammit? (-)En dans som i Mahana'm!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.32.2",
+        "v": 5
+      },
+      {
+        "r": "HEB.7.2",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.29",
+        "v": 2
+      },
+      {
+        "r": "JDG.21.21",
+        "v": 2
+      },
+      {
+        "r": "2SA.17.24",
+        "v": 2
+      },
+      {
+        "r": "PSA.76.2",
+        "v": 2
+      },
+      {
+        "r": "HOS.14.1-4",
+        "v": 2
+      },
+      {
+        "r": "ISA.8.6",
+        "v": 2
+      },
+      {
+        "r": "ROM.7.23",
+        "v": 2
+      },
+      {
+        "r": "2TH.1.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.6",
+        "v": 2
+      },
+      {
+        "r": "JER.3.22",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.10-19",
+        "v": 2
+      },
+      {
+        "r": "GAL.5.17",
+        "v": 2
+      },
+      {
+        "r": "LUK.7.44",
+        "v": 2
+      },
+      {
+        "r": "JER.3.12-14",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.14-17",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.10",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 2
+      },
+      {
+        "r": "JHN.9.7",
+        "v": 2
+      },
+      {
+        "r": "JHN.10.16",
+        "v": 2
+      },
+      {
+        "r": "GEN.49.10",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.1": {
     "text": "Hvor fagert du skrider frem i dine sko, du høvdingdatter! Dine lenders rundinger er som smykker, et verk av kunstnerhånd.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.13",
+        "v": 7
+      },
+      {
+        "r": "COL.2.19",
+        "v": 2
+      },
+      {
+        "r": "EXO.35.35",
+        "v": 2
+      },
+      {
+        "r": "LUK.15.22",
+        "v": 2
+      },
+      {
+        "r": "DAN.2.32",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.15",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.27",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.15-16",
+        "v": 2
+      },
+      {
+        "r": "2CO.6.18",
+        "v": 2
+      },
+      {
+        "r": "EXO.28.15",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.2": {
     "text": "Ditt liv er som et rundt beger; gid det aldri må være uten vin! Din midje er som en hvetedynge, omhegnet av liljer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ROM.7.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.16",
+        "v": 2
+      },
+      {
+        "r": "PRO.3.8",
+        "v": 2
+      },
+      {
+        "r": "JER.1.5",
+        "v": 2
+      },
+      {
+        "r": "ISA.46.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.14",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.3": {
     "text": "Dine bryster er som to rådyrkalver, tvillinger av et rådyr.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.5",
+        "v": 5
+      },
+      {
+        "r": "SNG.6.6",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.4": {
     "text": "Din hals er som elfenbenstårnet, dine øine som vanndammene i Hesbon ved Batrabbims port, din nese som Libanon-tårnet, som skuer ut mot Damaskus.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.4",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.8-9",
+        "v": 3
+      },
+      {
+        "r": "PSA.144.12",
+        "v": 3
+      },
+      {
+        "r": "1KI.7.2",
+        "v": 2
+      },
+      {
+        "r": "1KI.9.19",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.10",
+        "v": 2
+      },
+      {
+        "r": "EPH.3.18-19",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.14-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.54.4",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.9-10",
+        "v": 2
+      },
+      {
+        "r": "2SA.8.6",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.17-18",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.8",
+        "v": 2
+      },
+      {
+        "r": "HEB.5.14",
+        "v": 2
+      },
+      {
+        "r": "1KI.22.39",
+        "v": 2
+      },
+      {
+        "r": "GEN.15.2",
+        "v": 2
+      },
+      {
+        "r": "1KI.10.18",
+        "v": 2
+      },
+      {
+        "r": "1KI.10.22",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.5",
+        "v": 2
+      },
+      {
+        "r": "2CH.8.6",
+        "v": 2
+      },
+      {
+        "r": "NUM.21.25-26",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.5": {
     "text": "Ditt hode hever sig likesom Karmel; ditt bølgende hår er som purpur; kongen er fanget i dine lokker.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.35.2",
+        "v": 4
+      },
+      {
+        "r": "SNG.4.1",
+        "v": 3
+      },
+      {
+        "r": "GEN.32.26",
+        "v": 2
+      },
+      {
+        "r": "PSA.68.24",
+        "v": 2
+      },
+      {
+        "r": "REV.1.14",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.22",
+        "v": 2
+      },
+      {
+        "r": "PSA.87.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.15-16",
+        "v": 2
+      },
+      {
+        "r": "COL.1.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.11",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.20",
+        "v": 2
+      },
+      {
+        "r": "MIC.7.14",
+        "v": 2
+      },
+      {
+        "r": "COL.2.19",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.6": {
     "text": "Hvor fager du er, og hvor herlig du kjærlighet i din fryd!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.10",
+        "v": 7
+      },
+      {
+        "r": "SNG.1.15-16",
+        "v": 7
+      },
+      {
+        "r": "PSA.45.11",
+        "v": 7
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 5
+      },
+      {
+        "r": "SNG.4.7",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 5
+      },
+      {
+        "r": "SNG.7.10",
+        "v": 5
+      },
+      {
+        "r": "ZEP.3.17",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.7.7": {
     "text": "Med din ranke vekst ligner du en palme, og dine bryster er som druer.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.5",
+        "v": 4
+      },
+      {
+        "r": "EPH.3.17",
+        "v": 3
+      },
+      {
+        "r": "PSA.92.12",
+        "v": 3
+      },
+      {
+        "r": "EPH.4.13",
+        "v": 3
+      },
+      {
+        "r": "ISA.66.10",
+        "v": 3
+      },
+      {
+        "r": "SNG.1.13",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.3",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.8",
+        "v": 2
+      },
+      {
+        "r": "JER.10.5",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.7.8": {
     "text": "Jeg sier: Jeg vil stige op i palmetreet, ta fatt i dets grener. Måtte dine bryster være som vintreets druer, din ånde som duften av epler",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.2.14",
+        "v": 3
+      },
+      {
+        "r": "JHN.14.21-23",
+        "v": 3
+      },
+      {
+        "r": "SNG.2.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 2
+      },
+      {
+        "r": "JER.32.41",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.16-5.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.9": {
     "text": "og din gane som edel vin! (-){brudens ord.} Den som glir lett ned for min elskede, som får sovendes leber til å tale.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.5.16",
+        "v": 5
+      },
+      {
+        "r": "PRO.16.24",
+        "v": 2
+      },
+      {
+        "r": "COL.3.16-17",
+        "v": 2
+      },
+      {
+        "r": "COL.4.6",
+        "v": 2
+      },
+      {
+        "r": "HEB.13.15",
+        "v": 2
+      },
+      {
+        "r": "ROM.13.11",
+        "v": 2
+      },
+      {
+        "r": "ZEC.9.15-17",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.14",
+        "v": 2
+      },
+      {
+        "r": "ACT.4.31-32",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.2",
+        "v": 2
+      },
+      {
+        "r": "ISA.62.8-9",
+        "v": 2
+      },
+      {
+        "r": "ACT.2.11-13",
+        "v": 2
+      },
+      {
+        "r": "ACT.16.30-34",
+        "v": 2
+      },
+      {
+        "r": "EPH.4.29",
+        "v": 2
+      },
+      {
+        "r": "1TH.4.13-14",
+        "v": 2
+      },
+      {
+        "r": "REV.14.13",
+        "v": 1
+      },
+      {
+        "r": "ACT.2.46-47",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.7.10": {
     "text": "Jeg hører min elskede til, og til mig står hans attrå.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PSA.45.11",
+        "v": 9
+      },
+      {
+        "r": "SNG.6.3",
+        "v": 6
+      },
+      {
+        "r": "SNG.2.16",
+        "v": 6
+      },
+      {
+        "r": "GAL.2.20",
+        "v": 4
+      },
+      {
+        "r": "PSA.147.11",
+        "v": 3
+      },
+      {
+        "r": "JHN.17.24",
+        "v": 3
+      },
+      {
+        "r": "ACT.27.23",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.5-6",
+        "v": 3
+      },
+      {
+        "r": "JOB.14.15",
+        "v": 3
+      },
+      {
+        "r": "1CO.6.19-20",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.11": {
     "text": "Kom, min elskede, la oss gå ut på marken, la oss bli natten over i landsbyene!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.8",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.10-13",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.4",
+        "v": 3
+      }
+    ],
     "section": null
   },
   "SNG.7.12": {
     "text": "La oss årle gå til vingårdene, la oss se om vintreet har satt skudd, om blomstene er sprunget ut, om granatepletrærne blomstrer! Der vil jeg gi dig min kjærlighet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.6.11",
+        "v": 5
+      },
+      {
+        "r": "1TH.3.5-6",
+        "v": 3
+      },
+      {
+        "r": "EPH.6.24",
+        "v": 3
+      },
+      {
+        "r": "PSA.122.5",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.6",
+        "v": 3
+      },
+      {
+        "r": "2CO.13.5",
+        "v": 3
+      },
+      {
+        "r": "PSA.43.4",
+        "v": 2
+      },
+      {
+        "r": "2CO.5.14-15",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.13",
+        "v": 2
+      },
+      {
+        "r": "PSA.73.25",
+        "v": 2
+      },
+      {
+        "r": "HEB.4.16",
+        "v": 2
+      },
+      {
+        "r": "ISA.18.5",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.16",
+        "v": 2
+      },
+      {
+        "r": "ROM.5.11",
+        "v": 2
+      },
+      {
+        "r": "PRO.24.30-31",
+        "v": 2
+      },
+      {
+        "r": "EZK.20.40-41",
+        "v": 2
+      },
+      {
+        "r": "ECC.9.10",
+        "v": 2
+      },
+      {
+        "r": "HEB.12.15",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.36",
+        "v": 2
+      },
+      {
+        "r": "HEB.2.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.63.3-8",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.15",
+        "v": 2
+      },
+      {
+        "r": "EXO.25.22",
+        "v": 2
+      },
+      {
+        "r": "PRO.8.17",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.13",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.7.13": {
     "text": "Alrunene dufter, og over våre dører er alle slags kostelige frukter, både nye og gamle. Min elskede! Jeg har gjemt dem til dig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GEN.30.14",
+        "v": 5
+      },
+      {
+        "r": "MAT.13.52",
+        "v": 4
+      },
+      {
+        "r": "1CO.16.2",
+        "v": 2
+      },
+      {
+        "r": "GAL.5.22-23",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.16-5.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.23.18",
+        "v": 2
+      },
+      {
+        "r": "1PE.4.11",
+        "v": 2
+      },
+      {
+        "r": "EPH.5.9",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.25-27",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.6-7",
+        "v": 2
+      },
+      {
+        "r": "1CO.8.8-9",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.13",
+        "v": 2
+      },
+      {
+        "r": "1CO.2.9",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.8",
+        "v": 2
+      },
+      {
+        "r": "MAT.25.40",
+        "v": 2
+      },
+      {
+        "r": "COL.3.17",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.1": {
     "text": "Gid du var mig som en bror, ammet ved min mors bryst! Om jeg da fant dig der ute, skulde jeg kysse dig, og ingen skulde forakte mig for det.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ZEC.9.9",
+        "v": 3
+      },
+      {
+        "r": "PSA.45.10-11",
+        "v": 3
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 3
+      },
+      {
+        "r": "ISA.60.14",
+        "v": 2
+      },
+      {
+        "r": "ISA.66.11-12",
+        "v": 2
+      },
+      {
+        "r": "ISA.7.14",
+        "v": 2
+      },
+      {
+        "r": "MAL.3.1",
+        "v": 2
+      },
+      {
+        "r": "ISA.9.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.2.38",
+        "v": 2
+      },
+      {
+        "r": "PSA.102.16-17",
+        "v": 2
+      },
+      {
+        "r": "HAG.2.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.10.16",
+        "v": 1
+      },
+      {
+        "r": "PHP.3.3",
+        "v": 1
+      },
+      {
+        "r": "SNG.1.2",
+        "v": 1
+      },
+      {
+        "r": "LUK.2.26-32",
+        "v": 1
+      },
+      {
+        "r": "PSA.51.17",
+        "v": 1
+      },
+      {
+        "r": "JHN.16.28",
+        "v": 1
+      },
+      {
+        "r": "PHP.3.7-8",
+        "v": 1
+      },
+      {
+        "r": "JHN.7.46-52",
+        "v": 1
+      },
+      {
+        "r": "JHN.3.13",
+        "v": 1
+      },
+      {
+        "r": "LUK.9.26",
+        "v": 1
+      },
+      {
+        "r": "PSA.2.12",
+        "v": 1
+      },
+      {
+        "r": "JHN.9.25-38",
+        "v": 1
+      },
+      {
+        "r": "MRK.12.42-44",
+        "v": 1
+      },
+      {
+        "r": "JHN.1.14",
+        "v": 1
+      },
+      {
+        "r": "HEB.9.26-28",
+        "v": 1
+      },
+      {
+        "r": "LUK.7.45-48",
+        "v": 1
+      },
+      {
+        "r": "GAL.6.14",
+        "v": 1
+      },
+      {
+        "r": "MAT.13.16-17",
+        "v": 1
+      },
+      {
+        "r": "1CO.1.28",
+        "v": 1
+      },
+      {
+        "r": "JHN.8.42",
+        "v": 1
+      },
+      {
+        "r": "LUK.12.8",
+        "v": 1
+      },
+      {
+        "r": "JHN.13.3",
+        "v": 1
+      },
+      {
+        "r": "LUK.10.23-24",
+        "v": 1
+      },
+      {
+        "r": "HEB.2.9-14",
+        "v": 1
+      },
+      {
+        "r": "MRK.14.6-9",
+        "v": 1
+      },
+      {
+        "r": "1TI.3.16",
+        "v": 1
+      },
+      {
+        "r": "LUK.18.9",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.2": {
     "text": "Jeg skulde lede dig, jeg skulde føre dig til min mors hus, du skulde lære mig; jeg skulde skjenke dig den krydrede vin, mosten av mitt granatepletre.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.4",
+        "v": 6
+      },
+      {
+        "r": "SNG.4.10-5.1",
+        "v": 4
+      },
+      {
+        "r": "SNG.7.12",
+        "v": 4
+      },
+      {
+        "r": "GAL.4.26",
+        "v": 3
+      },
+      {
+        "r": "PRO.9.2",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.9",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.46-47",
+        "v": 2
+      },
+      {
+        "r": "2TI.3.15",
+        "v": 2
+      },
+      {
+        "r": "JHN.5.39",
+        "v": 2
+      },
+      {
+        "r": "1PE.1.10-12",
+        "v": 2
+      },
+      {
+        "r": "LUK.16.29-31",
+        "v": 1
+      },
+      {
+        "r": "REV.19.10",
+        "v": 0
+      },
+      {
+        "r": "2PE.1.19",
+        "v": 0
+      },
+      {
+        "r": "ACT.17.11-12",
+        "v": 0
+      }
+    ],
     "section": null
   },
   "SNG.8.3": {
     "text": "Hans venstre hånd er under mitt hode, og hans høire hånd favner mig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.6",
+        "v": 6
+      },
+      {
+        "r": "ISA.62.4-5",
+        "v": 1
+      },
+      {
+        "r": "2CO.12.9",
+        "v": 1
+      },
+      {
+        "r": "DEU.33.27",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.4": {
     "text": "Jeg ber eder inderlig, I Jerusalems døtre! Hvorfor vil I vekke, og hvorfor vil I egge kjærligheten, før den selv vil?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.7",
+        "v": 10
+      },
+      {
+        "r": "SNG.3.5",
+        "v": 9
+      }
+    ],
     "section": null
   },
   "SNG.8.5": {
     "text": "Hvem er hun som kommer op fra ørkenen, støttende sig på sin elskede? (-)Under epletreet vekket jeg dig; der blev din mor forløst med dig, der blev hun forløst, hun som fødte dig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.3.6",
+        "v": 8
+      },
+      {
+        "r": "ISA.40.3",
+        "v": 5
+      },
+      {
+        "r": "SNG.2.3",
+        "v": 4
+      },
+      {
+        "r": "PSA.63.8",
+        "v": 4
+      },
+      {
+        "r": "MIC.3.11",
+        "v": 3
+      },
+      {
+        "r": "SNG.3.4",
+        "v": 3
+      },
+      {
+        "r": "SNG.6.10",
+        "v": 3
+      },
+      {
+        "r": "ISA.26.3-4",
+        "v": 3
+      },
+      {
+        "r": "1PE.1.21",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.11",
+        "v": 2
+      },
+      {
+        "r": "HOS.12.4",
+        "v": 2
+      },
+      {
+        "r": "PSA.107.2-8",
+        "v": 2
+      },
+      {
+        "r": "ISA.43.19",
+        "v": 2
+      },
+      {
+        "r": "JER.2.2",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.10-11",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.1",
+        "v": 2
+      },
+      {
+        "r": "2CH.32.8",
+        "v": 2
+      },
+      {
+        "r": "JHN.1.48-51",
+        "v": 2
+      },
+      {
+        "r": "EPH.1.12-13",
+        "v": 2
+      },
+      {
+        "r": "JHN.13.23",
+        "v": 2
+      },
+      {
+        "r": "REV.12.6",
+        "v": 1
+      },
+      {
+        "r": "SNG.4.8",
+        "v": 1
+      },
+      {
+        "r": "ISA.49.20-23",
+        "v": 1
+      },
+      {
+        "r": "2CO.12.9-10",
+        "v": 1
+      },
+      {
+        "r": "GAL.4.19",
+        "v": 1
+      },
+      {
+        "r": "ACT.27.23-25",
+        "v": 1
+      },
+      {
+        "r": "ROM.7.4",
+        "v": 1
+      },
+      {
+        "r": "ISA.36.6",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.6": {
     "text": "Sett mig som et segl på ditt hjerte, som et segl på din arm; for sterk som døden er kjærligheten, hård som dødsriket er dens nidkjærhet; dens glød er som ildens glød, en Herrens lue.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "REV.12.11",
+        "v": 11
+      },
+      {
+        "r": "ISA.49.16",
+        "v": 9
+      },
+      {
+        "r": "PHP.1.20-23",
+        "v": 8
+      },
+      {
+        "r": "SNG.5.8",
+        "v": 7
+      },
+      {
+        "r": "HAG.2.23",
+        "v": 7
+      },
+      {
+        "r": "JER.22.24",
+        "v": 7
+      },
+      {
+        "r": "JHN.21.15-19",
+        "v": 7
+      },
+      {
+        "r": "PRO.6.34",
+        "v": 7
+      },
+      {
+        "r": "PSA.84.2",
+        "v": 6
+      },
+      {
+        "r": "2CO.5.14-15",
+        "v": 6
+      },
+      {
+        "r": "NUM.5.14",
+        "v": 6
+      },
+      {
+        "r": "ACT.21.13",
+        "v": 5
+      },
+      {
+        "r": "PSA.120.4",
+        "v": 5
+      },
+      {
+        "r": "DEU.32.21",
+        "v": 5
+      },
+      {
+        "r": "PRO.25.22",
+        "v": 4
+      },
+      {
+        "r": "EXO.28.9-12",
+        "v": 4
+      },
+      {
+        "r": "ROM.12.20",
+        "v": 4
+      },
+      {
+        "r": "2TI.2.19",
+        "v": 4
+      },
+      {
+        "r": "NUM.25.11",
+        "v": 4
+      },
+      {
+        "r": "PSA.42.1-2",
+        "v": 4
+      },
+      {
+        "r": "2CO.11.2",
+        "v": 4
+      },
+      {
+        "r": "EXO.28.21",
+        "v": 4
+      },
+      {
+        "r": "ZEC.3.9",
+        "v": 4
+      },
+      {
+        "r": "EXO.28.29-30",
+        "v": 4
+      },
+      {
+        "r": "ACT.20.24",
+        "v": 4
+      },
+      {
+        "r": "PSA.63.1",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.7": {
     "text": "Mange vann kan ikke utslukke kjærligheten, og strømmer ikke overskylle den; om nogen vilde gi alt han har i sitt hus, for kjærligheten, vilde han bare bli foraktet.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "PRO.6.35",
+        "v": 8
+      },
+      {
+        "r": "ISA.43.2",
+        "v": 6
+      },
+      {
+        "r": "ROM.13.8-10",
+        "v": 6
+      },
+      {
+        "r": "PRO.6.31",
+        "v": 6
+      },
+      {
+        "r": "ROM.8.28-39",
+        "v": 4
+      },
+      {
+        "r": "MAT.7.24-25",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "SNG.8.8": {
     "text": "Vi har en liten søster, hun har ennu ikke bryster. Hvad skal vi gjøre med vår søster når den tid kommer at hun får beilere?",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1PE.2.12",
+        "v": 4
+      },
+      {
+        "r": "PSA.2.8",
+        "v": 3
+      },
+      {
+        "r": "EZK.16.55-56",
+        "v": 3
+      },
+      {
+        "r": "ROM.10.12-15",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.7",
+        "v": 2
+      },
+      {
+        "r": "LUK.19.44",
+        "v": 2
+      },
+      {
+        "r": "ACT.10.1-11.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.3",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.19-22",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.5",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.12-15",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.1-5",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.14-17",
+        "v": 2
+      },
+      {
+        "r": "ROM.3.1-2",
+        "v": 2
+      },
+      {
+        "r": "PSA.147.19-20",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.46",
+        "v": 2
+      },
+      {
+        "r": "EZK.23.33",
+        "v": 2
+      },
+      {
+        "r": "EZK.16.61",
+        "v": 2
+      },
+      {
+        "r": "JHN.10.16",
+        "v": 2
+      },
+      {
+        "r": "ACT.16.9",
+        "v": 2
+      },
+      {
+        "r": "ISA.49.6",
+        "v": 2
+      },
+      {
+        "r": "ACT.7.38",
+        "v": 2
+      },
+      {
+        "r": "ACT.26.17-18",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.10-11",
+        "v": 2
+      },
+      {
+        "r": "SNG.8.10",
+        "v": 2
+      },
+      {
+        "r": "PSA.72.17-19",
+        "v": 2
+      },
+      {
+        "r": "ROM.15.9-12",
+        "v": 2
+      },
+      {
+        "r": "ACT.22.21",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.9": {
     "text": "Er hun en mur, vil vi bygge på den tinder av sølv; er hun en dør, vil vi stenge den med en sederplanke.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1CO.3.10-12",
+        "v": 2
+      },
+      {
+        "r": "ISA.61.4",
+        "v": 2
+      },
+      {
+        "r": "ZEC.6.12-15",
+        "v": 2
+      },
+      {
+        "r": "REV.21.12-19",
+        "v": 2
+      },
+      {
+        "r": "ISA.58.12",
+        "v": 2
+      },
+      {
+        "r": "ISA.60.17",
+        "v": 2
+      },
+      {
+        "r": "EPH.2.20-22",
+        "v": 2
+      },
+      {
+        "r": "1KI.6.15",
+        "v": 2
+      },
+      {
+        "r": "ACT.15.16",
+        "v": 2
+      },
+      {
+        "r": "MAT.16.18",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.9",
+        "v": 2
+      },
+      {
+        "r": "ACT.14.27",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.10": {
     "text": "Jeg var en mur, og mine bryster som tårner; da vant jeg yndest for hans øine og fikk fred.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "EZK.16.7",
+        "v": 4
+      },
+      {
+        "r": "ISA.60.10",
+        "v": 4
+      },
+      {
+        "r": "LUK.1.30",
+        "v": 4
+      },
+      {
+        "r": "EPH.1.6",
+        "v": 3
+      },
+      {
+        "r": "SNG.4.5",
+        "v": 3
+      },
+      {
+        "r": "SNG.7.7-8",
+        "v": 3
+      },
+      {
+        "r": "1TI.1.16",
+        "v": 3
+      },
+      {
+        "r": "GEN.6.8",
+        "v": 3
+      },
+      {
+        "r": "PRO.3.4",
+        "v": 3
+      },
+      {
+        "r": "DEU.7.7-8",
+        "v": 3
+      },
+      {
+        "r": "EPH.1.8",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.3-4",
+        "v": 2
+      },
+      {
+        "r": "ROM.5.1-10",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.11": {
     "text": "En vingård hadde Salomo i Ba'l-Hamon, han overgav vingården til voktere; hver skulde gi tusen sekel sølv for dens frukt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ECC.2.4",
+        "v": 6
+      },
+      {
+        "r": "ISA.7.23",
+        "v": 5
+      },
+      {
+        "r": "ISA.5.1-7",
+        "v": 2
+      },
+      {
+        "r": "MAT.21.33-43",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.12",
+        "v": 2
+      },
+      {
+        "r": "GEN.20.16",
+        "v": 2
+      },
+      {
+        "r": "MRK.12.1",
+        "v": 2
+      },
+      {
+        "r": "SNG.1.6",
+        "v": 2
+      },
+      {
+        "r": "LUK.20.9-18",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.12": {
     "text": "Over min vingård råder jeg selv; de tusen sekel tilhører dig, Salomo, og to hundre dem som vokter dens frukt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.1.6",
+        "v": 4
+      },
+      {
+        "r": "1TI.5.17-18",
+        "v": 2
+      },
+      {
+        "r": "PRO.4.23",
+        "v": 2
+      },
+      {
+        "r": "2CO.5.15",
+        "v": 2
+      },
+      {
+        "r": "1TH.2.19",
+        "v": 2
+      },
+      {
+        "r": "ACT.20.28",
+        "v": 2
+      },
+      {
+        "r": "PSA.72.17-19",
+        "v": 2
+      },
+      {
+        "r": "1TI.4.15-16",
+        "v": 2
+      },
+      {
+        "r": "1CO.6.20",
+        "v": 2
+      },
+      {
+        "r": "ROM.14.7-9",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "SNG.8.13": {
     "text": "Du som bor i havene! Venner lytter til din røst; la mig høre den!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.4.16",
+        "v": 4
+      },
+      {
+        "r": "SNG.1.7",
+        "v": 3
+      },
+      {
+        "r": "JHN.14.13-14",
+        "v": 2
+      },
+      {
+        "r": "JDG.14.11",
+        "v": 2
+      },
+      {
+        "r": "PSA.50.15",
+        "v": 2
+      },
+      {
+        "r": "PSA.45.14",
+        "v": 2
+      },
+      {
+        "r": "SNG.7.11-12",
+        "v": 2
+      },
+      {
+        "r": "JDG.11.38",
+        "v": 2
+      },
+      {
+        "r": "SNG.2.13-14",
+        "v": 2
+      },
+      {
+        "r": "JHN.14.21-23",
+        "v": 2
+      },
+      {
+        "r": "MAT.28.20",
+        "v": 2
+      },
+      {
+        "r": "SNG.3.7-11",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.2",
+        "v": 2
+      },
+      {
+        "r": "MAT.18.20",
+        "v": 2
+      },
+      {
+        "r": "SNG.5.9-16",
+        "v": 2
+      },
+      {
+        "r": "SNG.6.11",
+        "v": 2
+      },
+      {
+        "r": "JHN.15.7",
+        "v": 1
+      },
+      {
+        "r": "JHN.16.24",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "SNG.8.14": {
     "text": "Fly, min elskede! Vær som et rådyr eller en ung hjort på fjell med duftende urter!",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "SNG.2.17",
+        "v": 5
+      },
+      {
+        "r": "REV.22.20",
+        "v": 4
+      },
+      {
+        "r": "SNG.2.9",
+        "v": 3
+      },
+      {
+        "r": "REV.22.17",
+        "v": 3
+      },
+      {
+        "r": "LUK.19.12",
+        "v": 2
+      },
+      {
+        "r": "PHP.1.23",
+        "v": 2
+      },
+      {
+        "r": "SNG.4.6",
+        "v": 2
+      }
+    ],
     "section": null
   }
 }
