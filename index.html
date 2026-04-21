@@ -169,10 +169,16 @@
             font-size: 0.9rem;
             border-radius: 999px;  /* pilleformet som søkefeltet */
         }
-        /* Mobil-versjonsvelger — bare synlig på mobil */
-        .mobile-version-select { display: none; }
-        @media (max-width: 700px) {
-            .mobile-version-select { display: block; flex: 1; min-width: 100px; }
+        /* Browser-bar aktiv-indikator (når bok/kapittel er valgt) */
+        .browser-bar.active {
+            border: 2px solid var(--accent);
+            border-radius: 999px;
+            padding: 8px 20px;
+            box-shadow: 0 0 10px rgba(168, 50, 50, 0.25);
+            transition: all 0.3s ease;
+        }
+        [data-theme="dark"] .browser-bar.active {
+            box-shadow: 0 0 10px rgba(201, 68, 68, 0.35);
         }
 
         /* Toggles */
@@ -1014,7 +1020,6 @@
     <label>Sorter:</label>
     <select id="bookSelect" style="width:230px"><option value="">-- Bok --</option></select>
     <select id="chapterSelect" disabled><option value="">-- Kap --</option></select>
-    <select id="versionSelectMobile" class="mobile-version-select"></select>
 </div>
 
 <div class="toggles">
@@ -1040,6 +1045,7 @@
             <span class="ai-badge" title="Reformulert av KI">✨</span>
             <div class="search-ce" id="searchInputMobile" contenteditable="true" spellcheck="false"
                  data-placeholder="Søk i Bibelen…"></div>
+            <select id="versionSelectMobile" class="search-version-select"></select>
             <button class="search-btn-inline" id="searchBtnMobile">Søk</button>
         </div>
         <div class="suggestions" id="suggestionsMobile"></div>
@@ -1336,16 +1342,31 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (lastQuery) doSearch();
     });
 
+    function updateSortActiveState() {
+        const bar = document.getElementById('browserBar');
+        if (!bar) return;
+        const hasSelection = !!bookSelect.value;
+        bar.classList.toggle('active', hasSelection);
+    }
+
     bookSelect.addEventListener('change', () => {
         const code = bookSelect.value;
         chapterSelect.innerHTML = '<option value="">-- Kap --</option>';
-        if (!code) { chapterSelect.disabled = true; return; }
+        if (!code) {
+            chapterSelect.disabled = true;
+            updateSortActiveState();
+            return;
+        }
         const book = booksData.find(b => b.code === code);
         if (!book) return;
         for (let i = 1; i <= book.chapters; i++) {
             chapterSelect.add(new Option(i, i));
         }
         chapterSelect.disabled = false;
+        updateSortActiveState();
+        // Når bare en bok er valgt (uten kapittel), hopp til kapittel 1 automatisk
+        searchInput.value = `${book.name} 1`;
+        doSearch();
     });
 
     chapterSelect.addEventListener('change', () => {
@@ -1355,6 +1376,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const book = booksData.find(b => b.code === code);
         if (!book) return;
         searchInput.value = `${book.name} ${ch}`;
+        updateSortActiveState();
         doSearch();
     });
 
@@ -1817,6 +1839,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             addRecentSearch(query);
             closeSuggestions();
             clearAiReformulated();  // nytt bruker-initiert søk → fjern gammel KI-indikator
+            // Hvis søket ikke kom fra sort-dropdowns, fjern aktiv-state
+            const fromSort = query && bookSelect.value && booksData.find(b => b.code === bookSelect.value) &&
+                             (query.toLowerCase().startsWith(booksData.find(b => b.code === bookSelect.value).name.toLowerCase()));
+            if (!fromSort) {
+                bookSelect.value = '';
+                chapterSelect.innerHTML = '<option value="">-- Kap --</option>';
+                chapterSelect.disabled = true;
+                updateSortActiveState();
+            }
             pushHistoryState({
                 view: 'normal', query, version: versionSelect.value,
             });
