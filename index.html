@@ -734,6 +734,45 @@
         .search-result-item:nth-child(6),
         .book-group:nth-child(6) { animation-delay: 150ms; }
 
+        /* Forrige/neste kapittel-knapper */
+        .nav-btn {
+            position: fixed;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: var(--card-bg);
+            border: 1.5px solid var(--border);
+            color: var(--accent);
+            font-size: 1.9rem;
+            font-weight: 600;
+            line-height: 1;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+            z-index: 90;
+            user-select: none;
+            transition: background 0.15s, color 0.15s, border-color 0.15s, opacity 0.2s;
+        }
+        .nav-btn.visible { display: flex; }
+        .nav-btn:hover:not(:disabled) { background: var(--accent); color: white; border-color: var(--accent); }
+        .nav-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+        .nav-btn:active:not(:disabled) { transform: scale(0.94); }
+        @media (min-width: 701px) {
+            .nav-prev { left: max(16px, calc(50% - 500px)); top: 50%; transform: translateY(-50%); }
+            .nav-next { right: max(16px, calc(50% - 500px)); top: 50%; transform: translateY(-50%); }
+            .nav-prev:active:not(:disabled),
+            .nav-next:active:not(:disabled) { transform: translateY(-50%) scale(0.94); }
+            body.compare-active .nav-prev { left: max(16px, calc(50% - 700px)); }
+            body.compare-active .nav-next { right: max(16px, calc(50% - 700px)); }
+        }
+        @media (max-width: 700px) {
+            .nav-prev { left: 14px; bottom: 92px; }
+            .nav-next { right: 14px; bottom: 92px; }
+            .nav-btn { width: 48px; height: 48px; font-size: 1.7rem; box-shadow: 0 4px 14px rgba(0,0,0,0.18); }
+        }
+
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
                 animation-duration: 0.01ms !important;
@@ -1233,6 +1272,8 @@
 
 <div class="toast" id="toast"></div>
 <div class="version-picker-panel" id="versionPickerPanel"></div>
+<button class="nav-btn nav-prev" id="navPrev" onclick="navPrev()" title="Forrige kapittel" aria-label="Forrige">&#8249;</button>
+<button class="nav-btn nav-next" id="navNext" onclick="navNext()" title="Neste kapittel" aria-label="Neste">&#8250;</button>
 
 <script>
     // ── State ──
@@ -2295,6 +2336,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     function renderAll() {
         if (!mainData || mainData.length === 0) {
             resultsWrapper.innerHTML = emptyStateHtml;
+            updateNavButtons();
             return;
         }
         // Layout: enkelt vers holder sentrert; større resultater flytter til toppen
@@ -2346,6 +2388,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         resultsWrapper.innerHTML = html;
+        updateNavButtons();
     }
 
     function buildCardHtml(block, idx, isCompare) {
@@ -2775,6 +2818,72 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
     };
 
+    // ── Forrige/neste kapittel-navigasjon ──
+    function getNavContext() {
+        if (currentView !== 'normal' || !mainData || !mainData[0] || mainData[0].error) return null;
+        const block = mainData[0];
+        if (!block.book || !block.verses || !block.verses.length) return null;
+        const chapter = block.verses[0].chapter;
+        const sameChapter = block.verses.every(v => v.chapter === chapter);
+        if (!sameChapter) return null;
+        const bookIdx = booksData.findIndex(b => b.code === block.book);
+        if (bookIdx < 0) return null;
+        return { book: block.book, bookInfo: booksData[bookIdx], chapter, bookIdx };
+    }
+
+    function updateNavButtons() {
+        const prev = document.getElementById('navPrev');
+        const next = document.getElementById('navNext');
+        if (!prev || !next) return;
+        const ctx = getNavContext();
+        if (!ctx) {
+            prev.classList.remove('visible');
+            next.classList.remove('visible');
+            return;
+        }
+        prev.classList.add('visible');
+        next.classList.add('visible');
+        prev.disabled = ctx.bookIdx === 0 && ctx.chapter === 1;
+        next.disabled = ctx.bookIdx === booksData.length - 1 && ctx.chapter === ctx.bookInfo.chapters;
+    }
+
+    function navigateToChapter(bookCode, chapter) {
+        const b = booksData.find(x => x.code === bookCode);
+        const name = b ? b.name : bookCode;
+        searchInput.value = `${name} ${chapter}`;
+        lastQuery = searchInput.value;
+        highlightVerse = null;
+        doSearch();
+    }
+
+    window.navPrev = function() {
+        const ctx = getNavContext();
+        if (!ctx) return;
+        let chapter = ctx.chapter - 1;
+        let book = ctx.book;
+        if (chapter < 1) {
+            if (ctx.bookIdx === 0) return;
+            const prev = booksData[ctx.bookIdx - 1];
+            book = prev.code;
+            chapter = prev.chapters;
+        }
+        navigateToChapter(book, chapter);
+    };
+
+    window.navNext = function() {
+        const ctx = getNavContext();
+        if (!ctx) return;
+        let chapter = ctx.chapter + 1;
+        let book = ctx.book;
+        if (chapter > ctx.bookInfo.chapters) {
+            if (ctx.bookIdx >= booksData.length - 1) return;
+            const nxt = booksData[ctx.bookIdx + 1];
+            book = nxt.code;
+            chapter = 1;
+        }
+        navigateToChapter(book, chapter);
+    };
+
     // Naviger til vers + aktiver vanlig sammenlign-modus (per-kort)
     window.goToVerseAndCompare = async function(ref) {
         searchInput.value = ref;
@@ -2889,6 +2998,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         html += '</div>';
         resultsWrapper.innerHTML = html;
+        updateNavButtons();
     }
 
     window.goHome = function() {
@@ -2905,6 +3015,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         compareBtn.hide();
         searchInput.value = '';
         resultsWrapper.innerHTML = emptyStateHtml;
+        updateNavButtons();
     };
 
 
