@@ -739,8 +739,26 @@ def resolve_block(bible_data, version, block):
     return {"label": block.get("label", "?"), "error": "Unknown block type", "verses": []}
 
 
+def extract_book_prefix(query):
+    """Hvis query starter med 'Bokenavn: resten', returner (book_code, rest).
+    Ellers (None, query)."""
+    m = re.match(r'^([^:"]+?):\s*(.*)$', query)
+    if not m:
+        return None, query
+    prefix = m.group(1).strip().lower()
+    rest = m.group(2).strip()
+    for alias in SORTED_ALIASES:
+        if alias == prefix:
+            return ALIAS_MAP[alias], rest
+    return None, query
+
+
 def is_reference_query(query):
     """Check if the query looks like a Bible reference (vs free text search)."""
+    # Bok-prefiks → alltid tekstsøk (filtrert)
+    pb, _ = extract_book_prefix(query)
+    if pb:
+        return False
     # Operators → always text search
     if '"' in query:
         return False
@@ -908,13 +926,27 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                 self._send_json({"type": "reference", "results": results, "version": version})
             else:
                 book_filter = params.get("book", [""])[0] or None
-                results, book_totals = search_text(bible_data, version, query, book_filter=book_filter)
-                total = sum(book_totals.values())
-                self._send_json({
-                    "type": "text_search", "results": results, "book_totals": book_totals,
-                    "total": total, "query": query, "version": version,
-                    "book_filter": book_filter, "has_operators": has_search_operators(query),
-                })
+                search_query = query
+                # "Bokenavn:"-prefiks overstyrer/aktiverer book-filter
+                prefix_book, rest = extract_book_prefix(query)
+                if prefix_book and not book_filter:
+                    book_filter = prefix_book
+                    search_query = rest
+                if not search_query.strip():
+                    # Kun bok-prefiks uten søkeord → vis bok tomt
+                    self._send_json({
+                        "type": "text_search", "results": [], "book_totals": {},
+                        "total": 0, "query": query, "version": version,
+                        "book_filter": book_filter, "has_operators": False,
+                    })
+                else:
+                    results, book_totals = search_text(bible_data, version, search_query, book_filter=book_filter)
+                    total = sum(book_totals.values())
+                    self._send_json({
+                        "type": "text_search", "results": results, "book_totals": book_totals,
+                        "total": total, "query": query, "version": version,
+                        "book_filter": book_filter, "has_operators": has_search_operators(search_query),
+                    })
 
         elif path == "/api/all_versions":
             query = params.get("q", [""])[0]

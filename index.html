@@ -1256,7 +1256,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         q = q.trim();
         let recent = getRecentSearches().filter(x => x !== q);
         recent.unshift(q);
-        recent = recent.slice(0, 5);
+        recent = recent.slice(0, 3);
         try { localStorage.setItem(RECENT_KEY, JSON.stringify(recent)); } catch {}
     }
 
@@ -1310,133 +1310,178 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return book ? { bookCode: book.code, chapter } : null;
     }
 
+    // Finn bøker som matcher input (prefix-match på navn)
+    function findMatchingBooks(input) {
+        const q = input.toLowerCase().trim();
+        if (q.length < 2) return [];
+        return booksData
+            .map(b => {
+                const lower = b.name.toLowerCase();
+                const startsWith = lower.startsWith(q);
+                const contains = !startsWith && lower.includes(q);
+                return { book: b, startsWith, contains };
+            })
+            .filter(x => x.startsWith || x.contains)
+            .sort((a, b) => (a.startsWith === b.startsWith ? a.book.name.length - b.book.name.length : (a.startsWith ? -1 : 1)))
+            .slice(0, 2)
+            .map(x => x.book);
+    }
+
     function buildSuggestions(query) {
-        const suggestions = [];
         const q = query.trim();
+        const candidates = [];  // { priority, suggestion } — høy prioritet = nederst (best)
         const versions = Array.from(versionSelectDesktop.options).map(o => o.value);
         const currentVer = versionSelect.value;
 
-        // Grupper: nylige søk (når feltet er tomt eller kun få tegn)
+        // Når feltet er tomt: bare nylige søk (maks 3, nyeste nederst)
         if (q.length < 2) {
-            const recent = getRecentSearches();
-            if (recent.length) {
-                suggestions.push({ groupLabel: 'Nylige søk' });
-                recent.forEach(r => {
-                    suggestions.push({
+            const recent = getRecentSearches().slice(0, 3);
+            // Reverse så nyeste er nederst (nærmest søkefeltet)
+            recent.slice().reverse().forEach((r, idx) => {
+                candidates.push({
+                    priority: idx + 1,
+                    suggestion: {
                         icon: '🕘',
                         html: escHtml(r),
                         onClick: () => { searchInput.value = r; doSearch(); closeSuggestions(); }
-                    });
+                    }
                 });
-            }
-            return suggestions;
+            });
+            return finalizeSuggestions(candidates);
         }
 
         const wordCount = q.split(/\s+/).filter(Boolean).length;
         const hasOperators = q.indexOf('"') !== -1 || /\s-\S/.test(' ' + q);
+        const hasBookPrefix = /^[^:]+:\s*/.test(q) && !q.startsWith('"');
 
-        // ── Søke-forslag ──
-        // 1) Eksakt søk: ≥3 ord og ikke allerede kvotert
+        // ── HØY PRIORITET: Bok-match (brukerens hovedforespørsel) ──
+        if (!hasBookPrefix && !hasOperators) {
+            const matched = findMatchingBooks(q);
+            matched.forEach((book, i) => {
+                candidates.push({
+                    priority: 100 - i,  // første match er mest relevant
+                    suggestion: {
+                        icon: '🎯',
+                        html: `Søk bare i <strong>${escHtml(book.name)}</strong>`,
+                        hint: '(filter-prefiks)',
+                        onClick: () => {
+                            searchInput.value = `${book.name}: `;
+                            const input = getSearchInput();
+                            input.focus();
+                            formatSearchInputCE(input);
+                            setCursorOffset(input, input.textContent.length);
+                            updateSuggestions();
+                        }
+                    }
+                });
+            });
+        }
+
+        // ── Eksakt søk: ≥3 ord, ingen anførselstegn ──
         if (wordCount >= 3 && q.indexOf('"') === -1) {
-            const quoted = `"${q}"`;
-            suggestions.push({
-                icon: '🔍',
-                html: `Søk eksakt: <strong>${escHtml(quoted)}</strong>`,
-                onClick: () => { searchInput.value = quoted; doSearch(); closeSuggestions(); }
-            });
-        }
-
-        // 2) Tekstsøk-variant: hvis input matcher et boknavn, tilby å søke etter ordet i stedet
-        if (wordCount === 1 && !hasOperators) {
-            const matchingBook = booksData.find(b =>
-                b.name.toLowerCase().startsWith(q.toLowerCase()) && q.length >= 3
-            );
-            if (matchingBook) {
-                suggestions.push({
-                    icon: '🔤',
-                    html: `Søk etter ordet <strong>${escHtml(q)}</strong> i Bibelen`,
-                    hint: '(tekstsøk, ikke bok)',
+            candidates.push({
+                priority: 80,
+                suggestion: {
+                    icon: '🔍',
+                    html: `Søk eksakt: <strong>${escHtml('"' + q + '"')}</strong>`,
                     onClick: () => { searchInput.value = `"${q}"`; doSearch(); closeSuggestions(); }
-                });
-            }
-        }
-
-        // 3) Ekskluder ord: etter tekstsøk, vis topp-hyppige ord som kan ekskluderes
-        if (textSearchCache && textSearchCache.results && textSearchCache.query === q && !hasOperators) {
-            const commonWords = topWordsInResults(textSearchCache.results, q);
-            commonWords.slice(0, 2).forEach(w => {
-                suggestions.push({
-                    icon: '➖',
-                    html: `Ekskluder: <strong>${escHtml(w)}</strong>`,
-                    hint: '(smalere søk)',
-                    onClick: () => { searchInput.value = `${q} -${w}`; doSearch(); closeSuggestions(); }
-                });
+                }
             });
         }
 
-        // 4) Begrens til bok: hvis vi har tekstsøkresultater med en tydelig bok på topp
+        // ── Begrens til bok (etter tekstsøk med treff) ──
         if (textSearchCache && textSearchCache.bookTotals && textSearchCache.query === q && !hasOperators) {
-            const totals = textSearchCache.bookTotals;
-            const topBooks = Object.entries(totals).sort((a, b) => b[1] - a[1]).slice(0, 2);
+            const topBooks = Object.entries(textSearchCache.bookTotals)
+                .sort((a, b) => b[1] - a[1]).slice(0, 1);
             topBooks.forEach(([code, count]) => {
-                const bn = bookName(code);
-                suggestions.push({
-                    icon: '🎯',
-                    html: `Søk kun i <strong>${escHtml(bn)}</strong>`,
-                    hint: `(${count} treff)`,
-                    onClick: () => { searchOnlyInBook(code); closeSuggestions(); }
+                candidates.push({
+                    priority: 75,
+                    suggestion: {
+                        icon: '🎯',
+                        html: `Søk kun i <strong>${escHtml(bookName(code))}</strong>`,
+                        hint: `(${count} treff)`,
+                        onClick: () => { searchOnlyInBook(code); closeSuggestions(); }
+                    }
                 });
             });
         }
 
-        // ── Kontekst-forslag ──
-        // 5) Bytt versjon: hvis søk ser engelsk ut og det finnes engelske versjoner
-        if (looksEnglish(q) && currentVer === 'NB88') {
-            const engVer = versions.find(v => ['ESV','KJV','NIV','NKJV','NASB1995'].includes(v));
-            if (engVer) {
-                suggestions.push({
-                    icon: '🌍',
-                    html: `Søk i <strong>${escHtml(versionLabel(engVer))}</strong>`,
-                    hint: '(engelsk versjon)',
-                    onClick: () => {
-                        versionSelect.value = engVer;
-                        doSearch();
-                        closeSuggestions();
+        // ── Parallellsteder (kjent referanse) ──
+        const ref = parseSimpleReference(q);
+        if (ref) {
+            const parallels = PARALLELS[`${ref.bookCode}:${ref.chapter}`];
+            if (parallels && parallels[0]) {
+                candidates.push({
+                    priority: 70,
+                    suggestion: {
+                        icon: '🔗',
+                        html: `Parallellsted: <strong>${escHtml(parallels[0].label)}</strong>`,
+                        hint: parallels[0].ref,
+                        onClick: () => { searchInput.value = parallels[0].ref; doSearch(); closeSuggestions(); }
                     }
                 });
             }
         }
 
-        // 6) Testament-filter: tilby NT / GT filter
-        suggestions.push({
-            icon: '✝️',
-            html: `Søk kun i <strong>Det nye testamentet</strong>`,
-            onClick: () => { searchInTestament(q, 'NT'); closeSuggestions(); }
-        });
-        suggestions.push({
-            icon: '📜',
-            html: `Søk kun i <strong>Det gamle testamentet</strong>`,
-            onClick: () => { searchInTestament(q, 'GT'); closeSuggestions(); }
-        });
-
-        // 7) Parallellsteder: hvis input parses til en kjent referanse-nøkkel
-        const ref = parseSimpleReference(q);
-        if (ref) {
-            const key = `${ref.bookCode}:${ref.chapter}`;
-            const parallels = PARALLELS[key];
-            if (parallels) {
-                parallels.forEach(p => {
-                    suggestions.push({
-                        icon: '🔗',
-                        html: `Parallellsted: <strong>${escHtml(p.label)}</strong>`,
-                        hint: p.ref,
-                        onClick: () => { searchInput.value = p.ref; doSearch(); closeSuggestions(); }
-                    });
+        // ── Ekskluder ord (etter tekstsøk) ──
+        if (textSearchCache && textSearchCache.results && textSearchCache.query === q && !hasOperators) {
+            const commonWords = topWordsInResults(textSearchCache.results, q);
+            if (commonWords[0]) {
+                candidates.push({
+                    priority: 60,
+                    suggestion: {
+                        icon: '➖',
+                        html: `Ekskluder: <strong>${escHtml(commonWords[0])}</strong>`,
+                        hint: '(smalere søk)',
+                        onClick: () => { searchInput.value = `${q} -${commonWords[0]}`; doSearch(); closeSuggestions(); }
+                    }
                 });
             }
         }
 
-        return suggestions;
+        // ── Tekstsøk-variant: hvis input ligner et boknavn (allerede dekket av bok-forslag over) ──
+
+        // ── Engelsk versjon-bytte ──
+        if (looksEnglish(q) && currentVer === 'Bibel2011') {
+            const engVer = versions.find(v => ['ESV','KJV','NIV','NKJV','NASB1995'].includes(v));
+            if (engVer) {
+                candidates.push({
+                    priority: 40,
+                    suggestion: {
+                        icon: '🌍',
+                        html: `Søk i <strong>${escHtml(versionLabel(engVer))}</strong>`,
+                        hint: '(engelsk)',
+                        onClick: () => { versionSelect.value = engVer; doSearch(); closeSuggestions(); }
+                    }
+                });
+            }
+        }
+
+        // ── NT / GT filter ──
+        candidates.push({
+            priority: 20,
+            suggestion: {
+                icon: '✝️',
+                html: `Søk kun i <strong>Det nye testamentet</strong>`,
+                onClick: () => { searchInTestament(q, 'NT'); closeSuggestions(); }
+            }
+        });
+        candidates.push({
+            priority: 15,
+            suggestion: {
+                icon: '📜',
+                html: `Søk kun i <strong>Det gamle testamentet</strong>`,
+                onClick: () => { searchInTestament(q, 'GT'); closeSuggestions(); }
+            }
+        });
+
+        return finalizeSuggestions(candidates);
+    }
+
+    // Sortér etter prioritet stigende, ta toppen-4, behold rekkefølgen så best er nederst
+    function finalizeSuggestions(candidates) {
+        candidates.sort((a, b) => a.priority - b.priority);
+        return candidates.slice(-4).map(c => c.suggestion);
     }
 
     function topWordsInResults(results, query) {
@@ -2125,9 +2170,35 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         expand.className = 'inline-verse-expand';
         expand.innerHTML = `<div class="inline-verse-expand-actions">
             <button class="card-action-btn" onclick="event.stopPropagation(); goToVerseFromExpand('${escAttr(ref)}', '${escAttr(bookCode)}', ${ch}, '${escAttr(bName)}', ${verseNum})">Les i kapittelet</button>
-            <button class="card-action-btn" onclick="event.stopPropagation(); showAllVersions('${escAttr(ref)}')">Sammenlign versjoner</button>
+            <button class="card-action-btn" onclick="event.stopPropagation(); goToVerseAndCompare('${escAttr(ref)}')">Sammenlign versjoner</button>
         </div>`;
         el.appendChild(expand);
+    };
+
+    // Naviger til vers + aktiver vanlig sammenlign-modus (per-kort)
+    window.goToVerseAndCompare = async function(ref) {
+        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
+        searchInput.value = ref;
+        lastQuery = ref;
+        highlightVerse = null;
+        currentView = 'normal';
+        const version = versionSelect.value;
+        setSearchLoading(true);
+        try {
+            const resp = await fetchWithRetry(`/api/search?q=${encodeURIComponent(ref)}&version=${encodeURIComponent(version)}`);
+            const data = await resp.json();
+            if (data.type === 'reference' && !data.error) {
+                mainData = data.results;
+                compareData = null;
+                compareMode = true;
+                aiDiffState = null;
+                await fetchCompareData(ref);
+                renderAll();
+                pushHistoryState({ view: 'normal', query: ref, version });
+            }
+        } finally {
+            setSearchLoading(false);
+        }
     };
 
     window.goToVerseFromExpand = function(ref, bookCode, chapter, bName, verseNum) {
