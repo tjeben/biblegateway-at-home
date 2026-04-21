@@ -555,11 +555,7 @@
             font-size: 0.9em;
             margin-left: 6px;
         }
-        .book-group-items {
-            display: none;
-            border-top: 1px solid var(--border);
-        }
-        .book-group-items.open { display: block; }
+        /* .book-group-items-overrides er definert lengre ned (grid-animert) */
         .book-group-item {
             padding: 12px 18px;
             cursor: pointer;
@@ -1005,11 +1001,26 @@
         }
 
         /* Bibel-tidslinje (SVG-buer) */
+        .bible-timeline-wrap {
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            border-radius: 12px;
+        }
         .bible-timeline {
             width: 100%;
             height: auto;
             max-height: 260px;
             display: block;
+        }
+        @media (max-width: 700px) {
+            .bible-timeline { min-width: 920px; max-height: none; height: 220px; }
+            .bible-timeline-wrap {
+                background:
+                    linear-gradient(90deg, var(--card-bg), transparent 8px) right center / 40px 100% no-repeat,
+                    linear-gradient(270deg, var(--card-bg), transparent 8px) left center / 40px 100% no-repeat;
+                margin: 0 -4px;
+            }
         }
         .bible-timeline .arc {
             cursor: pointer;
@@ -1022,6 +1033,29 @@
         }
         .bible-timeline .target-dot:hover { r: 5.5; }
         .bible-timeline .source-dot { pointer-events: none; }
+
+        /* Lukke-animasjon for viz-hosts (Kart, Tidslinje, Kontekst, Tema-kart, Generer refs) */
+        .bible-map-wrap.closing {
+            animation: vizFadeOut 220ms cubic-bezier(.4, 0, .2, 1) forwards;
+            pointer-events: none;
+        }
+        @keyframes vizFadeOut {
+            from { opacity: 1; transform: translateY(0); max-height: 800px; }
+            to   { opacity: 0; transform: translateY(-8px); max-height: 0; margin: 0; padding: 0; }
+        }
+
+        /* Myk åpne/lukk-animasjon for bok-grupper (søkeresultater gruppert etter bok) */
+        .book-group-items {
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.3s cubic-bezier(.2, .8, .2, 1);
+            border-top: 1px solid transparent;
+        }
+        .book-group-items-inner { overflow: hidden; min-height: 0; }
+        .book-group-items.open {
+            grid-template-rows: 1fr;
+            border-top-color: var(--border);
+        }
 
         /* Forrige/neste kapittel-knapper */
         .nav-btn {
@@ -2050,17 +2084,25 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return svg;
     }
 
+    // Generell: lukk en viz-host med fade-ut animasjon
+    window.closeVizHost = function(id) {
+        const el = document.getElementById(id);
+        if (!el || el.classList.contains('closing')) return;
+        el.classList.add('closing');
+        setTimeout(() => { if (el.parentNode) el.remove(); }, 220);
+    };
+
     // Felles: render en viz-host (kart eller tidslinje) nederst. Toggler hvis allerede åpen.
     function renderXrefViz(hostId, titleHtml, innerHtml) {
         const existing = document.getElementById(hostId);
-        if (existing) { existing.remove(); return; }
+        if (existing) { closeVizHost(hostId); return; }
         const host = document.createElement('div');
         host.id = hostId;
         host.className = 'bible-map-wrap';
         host.style.marginTop = '20px';
         host.innerHTML = `<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:8px;">
                 <span style="font-size:0.85rem;font-weight:600;color:var(--text-muted);">${titleHtml}</span>
-                <button class="card-action-btn" onclick="document.getElementById('${hostId}').remove()">Lukk</button>
+                <button class="card-action-btn" onclick="closeVizHost('${hostId}')">Lukk</button>
             </div>
             <div class="bible-map open"><div class="bible-map-inner">${innerHtml}</div></div>`;
         resultsWrapper.appendChild(host);
@@ -2077,7 +2119,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const svg = buildBibleTimelineSvg(source, items);
         if (!svg) return;
         renderXrefViz('xrefTimelineHost', '📈 Tidslinje: hvor peker kryssreferansene?',
-            `<div class="bible-map-body" style="padding:18px 14px 14px;">${svg}</div>`);
+            `<div class="bible-map-body" style="padding:18px 14px 14px;"><div class="bible-timeline-wrap">${svg}</div></div>`);
     }
 
     window.openXrefMap = function(btn) {
@@ -2090,7 +2132,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ── AI: Kontekst-panel ──
     window.openContextPanel = async function(btn) {
         const existing = document.getElementById('aiContextHost');
-        if (existing) { existing.remove(); return; }
+        if (existing) { closeVizHost('aiContextHost'); return; }
         const label = btn.getAttribute('data-label') || '';
         const text = btn.getAttribute('data-text') || '';
         if (!text) return;
@@ -2114,7 +2156,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             host.innerHTML = `<div class="ai-panel">
                 <div class="ai-panel-header">
                     <span class="ai-panel-title">💭 Kontekst — ${escHtml(label)}</span>
-                    <button class="card-action-btn" onclick="document.getElementById('aiContextHost').remove()">Lukk</button>
+                    <button class="card-action-btn" onclick="closeVizHost('aiContextHost')">Lukk</button>
                 </div>
                 <div class="ai-panel-body">${content}</div>
             </div>`;
@@ -2159,7 +2201,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     window.openThemeMap = async function(btn) {
         const existing = document.getElementById('aiThemeHost');
-        if (existing) { existing.remove(); return; }
+        if (existing) { closeVizHost('aiThemeHost'); return; }
         const label = btn.getAttribute('data-label') || '';
         const text = btn.getAttribute('data-text') || '';
         if (!text) return;
@@ -2174,7 +2216,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         host.style.marginTop = '20px';
         host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header">
             <span class="ai-panel-title">🎨 Tema-kart</span>
-            <button class="card-action-btn" onclick="document.getElementById('aiThemeHost').remove()">Lukk</button>
+            <button class="card-action-btn" onclick="closeVizHost('aiThemeHost')">Lukk</button>
         </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer tema…</div></div></div>`;
         resultsWrapper.appendChild(host);
         setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
@@ -2239,7 +2281,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ── AI: Generer kryssreferanser ──
     window.generateRefs = async function(btn) {
         const existing = document.getElementById('aiGenRefsHost');
-        if (existing) { existing.remove(); return; }
+        if (existing) { closeVizHost('aiGenRefsHost'); return; }
         const label = btn.getAttribute('data-label') || '';
         const text = btn.getAttribute('data-text') || '';
         const sourceUsfm = btn.getAttribute('data-source') || '';
@@ -2255,7 +2297,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         host.style.marginTop = '20px';
         host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header">
             <span class="ai-panel-title">🔗 KI-genererte referanser — ${escHtml(label)}</span>
-            <button class="card-action-btn" onclick="document.getElementById('aiGenRefsHost').remove()">Lukk</button>
+            <button class="card-action-btn" onclick="closeVizHost('aiGenRefsHost')">Lukk</button>
         </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer verset…</div></div></div>`;
         resultsWrapper.appendChild(host);
         setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
@@ -3043,14 +3085,14 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                             <span>${escHtml(bName)}<span class="book-group-count">(${countLabel})</span></span>
                             <span class="chevron">&#9654;</span>
                         </div>
-                        <div class="book-group-items">`;
+                        <div class="book-group-items"><div class="book-group-items-inner">`;
                     items.forEach(r => {
                         html += `<div class="book-group-item">
                             <div class="search-result-ref">${escHtml(r.ref)}</div>
                             <div class="search-result-text">${highlightWords(escHtml(r.text), query)}</div>
                         </div>`;
                     });
-                    html += '</div></div>';
+                    html += '</div></div></div>';
                 });
             });
             resultsWrapper.innerHTML = html;
@@ -3666,7 +3708,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                         <span>${escHtml(bName)}<span class="book-group-count">(${countLabel})</span></span>
                         <span class="chevron">&#9654;</span>
                     </div>
-                    <div class="book-group-items">`;
+                    <div class="book-group-items"><div class="book-group-items-inner">`;
                 items.forEach(r => {
                     html += `<div class="book-group-item" onclick="expandVerse(this, '${escAttr(r.ref)}', '${escAttr(r.book)}')">
                         <div class="search-result-ref">${escHtml(r.ref)}</div>
@@ -3683,7 +3725,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                         <button class="card-action-btn" onclick="event.stopPropagation(); searchOnlyInBook('${escAttr(code)}')">Søk bare i ${escHtml(bName)}</button>
                     </div>`;
                 }
-                html += '</div></div>';
+                html += '</div></div></div>';
             });
         } else {
             results.forEach(r => {
@@ -3710,7 +3752,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const data = await resp.json();
             if (!data.results) return;
             const group = btnEl.closest('.book-group');
-            const itemsDiv = group.querySelector('.book-group-items');
+            const itemsDiv = group.querySelector('.book-group-items-inner') || group.querySelector('.book-group-items');
             const bName = bookName(bookCode);
             let itemsHtml = '';
             data.results.forEach(r => {
