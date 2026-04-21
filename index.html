@@ -619,18 +619,11 @@
 
         /* Inline verse expansion in text search */
         .inline-verse-expand {
-            background: var(--bg);
-            border-left: 3px solid var(--accent);
-            border-radius: 0 6px 6px 0;
-            padding: 12px 16px;
-            margin-top: 8px;
-            font-family: 'Georgia', 'Times New Roman', serif;
-            font-size: 1rem;
-            line-height: 1.7;
-            color: var(--text);
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px dashed var(--border);
         }
         .inline-verse-expand-actions {
-            margin-top: 8px;
             display: flex;
             gap: 8px;
             flex-wrap: wrap;
@@ -1346,8 +1339,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return htmlText;
     }
 
-    // Inline expansion in grouped/flat text search
-    window.expandVerse = async function(el, ref, bookCode) {
+    // Inline expansion in grouped/flat text search — viser kun handlingsknapper
+    window.expandVerse = function(el, ref, bookCode) {
         // If already expanded, toggle off
         const existing = el.querySelector('.inline-verse-expand');
         if (existing) {
@@ -1361,29 +1354,21 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             item.classList.remove('expanded');
         });
 
+        // Parse ref — format: "Bokname K:V" (f.eks. "Matteus 3:16")
+        const match = ref.match(/(\d+):(\d+)\s*$/);
+        if (!match) return;
+        const ch = parseInt(match[1], 10);
+        const verseNum = parseInt(match[2], 10);
+        const bName = bookName(bookCode);
+
         el.classList.add('expanded');
-        const version = versionSelect.value;
-        try {
-            const resp = await fetch(`/api/search?q=${encodeURIComponent(ref)}&version=${encodeURIComponent(version)}`);
-            const data = await resp.json();
-            if (data.type === 'reference' && data.results && data.results[0]) {
-                const block = data.results[0];
-                const verseNum = block.verses && block.verses.length === 1 ? block.verses[0].num : null;
-                const ch = block.verses && block.verses[0] ? block.verses[0].chapter : null;
-                const bName = bookName(bookCode);
-                let actionsHtml = '';
-                if (ch) {
-                    actionsHtml = `<div class="inline-verse-expand-actions">
-                        <button class="card-action-btn" onclick="goToVerseFromExpand('${escAttr(ref)}', '${escAttr(bookCode)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Les ${escHtml(bName)} ${ch}</button>
-                    </div>`;
-                }
-                const verseHtml = renderVerseTextHtml(block.verses);
-                const expand = document.createElement('div');
-                expand.className = 'inline-verse-expand';
-                expand.innerHTML = verseHtml + actionsHtml;
-                el.appendChild(expand);
-            }
-        } catch {}
+        const expand = document.createElement('div');
+        expand.className = 'inline-verse-expand';
+        expand.innerHTML = `<div class="inline-verse-expand-actions">
+            <button class="card-action-btn" onclick="event.stopPropagation(); goToVerseFromExpand('${escAttr(ref)}', '${escAttr(bookCode)}', ${ch}, '${escAttr(bName)}', ${verseNum})">Les i kapittelet</button>
+            <button class="card-action-btn" onclick="event.stopPropagation(); showAllVersions('${escAttr(ref)}')">Sammenlign versjoner</button>
+        </div>`;
+        el.appendChild(expand);
     };
 
     window.goToVerseFromExpand = function(ref, bookCode, chapter, bName, verseNum) {
@@ -1435,7 +1420,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ── All versions ──
     window.showAllVersions = async function(label) {
-        previousState = { query: lastQuery, mainData, compareData, view: currentView };
+        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         currentView = 'all_versions';
 
         try {
