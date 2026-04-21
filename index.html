@@ -1105,6 +1105,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             compareVersionSelect.value = data.versions.find(v => v !== defaultV) || data.versions[1];
         }
         loadBooks();
+        // Hvis URL har søkeparametre, restaurér tilstand
+        restoreFromUrl();
     }
     init();
 
@@ -1169,6 +1171,78 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ── Heartbeat ──
     setInterval(() => fetch('/api/heartbeat').catch(() => {}), 3000);
+
+    // ── Browser history (fram/tilbake-knapper) ──
+    let isRestoringHistory = false;
+
+    function buildUrl(state) {
+        const url = new URL(window.location.origin + window.location.pathname);
+        if (!state || state.view === 'home') return url.toString();
+        if (state.query) url.searchParams.set('q', state.query);
+        if (state.version) url.searchParams.set('v', state.version);
+        if (state.view && state.view !== 'normal') url.searchParams.set('view', state.view);
+        if (state.highlightVerse) url.searchParams.set('hv', state.highlightVerse);
+        if (state.label) url.searchParams.set('label', state.label);
+        if (state.bookFilter) url.searchParams.set('book', state.bookFilter);
+        return url.toString();
+    }
+
+    function pushHistoryState(state) {
+        if (isRestoringHistory) return;
+        history.pushState(state, '', buildUrl(state));
+    }
+
+    function replaceHistoryState(state) {
+        if (isRestoringHistory) return;
+        history.replaceState(state, '', buildUrl(state));
+    }
+
+    async function restoreFromState(state) {
+        isRestoringHistory = true;
+        try {
+            if (!state || state.view === 'home') {
+                goHome();
+                return;
+            }
+            if (state.version && versionSelect.value !== state.version) {
+                versionSelect.value = state.version;
+            }
+            if (state.view === 'all_versions' && state.label) {
+                await showAllVersions(state.label);
+                return;
+            }
+            searchInput.value = state.query || '';
+            lastQuery = state.query || '';
+            highlightVerse = state.highlightVerse || null;
+            previousState = null;
+            await doSearch();
+        } finally {
+            isRestoringHistory = false;
+        }
+    }
+
+    window.addEventListener('popstate', e => {
+        restoreFromState(e.state);
+    });
+
+    // På første sidelast: hvis URL har ?q= osv., restaurér
+    function restoreFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        const q = params.get('q');
+        if (!q) return false;
+        const state = {
+            query: q,
+            version: params.get('v') || null,
+            view: params.get('view') || 'normal',
+            highlightVerse: params.get('hv') ? parseInt(params.get('hv'), 10) : null,
+            label: params.get('label') || null,
+            bookFilter: params.get('book') || null,
+        };
+        history.replaceState(state, '', window.location.href);
+        // Vent til init er ferdig (versjoner lastet)
+        setTimeout(() => restoreFromState(state), 50);
+        return true;
+    }
 
     // ── Recent searches (localStorage) ──
     const RECENT_KEY = 'recentSearches';
@@ -1508,6 +1582,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             setSearchLoading(true);
             addRecentSearch(query);
             closeSuggestions();
+            pushHistoryState({
+                view: 'normal', query, version: versionSelect.value,
+            });
         }
         currentView = 'normal';
         aiDiffState = null;
@@ -2038,6 +2115,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         lastQuery = searchInput.value;
         highlightVerse = verseNum;
         currentView = 'normal';
+        pushHistoryState({ view: 'normal', query: lastQuery, version: versionSelect.value, highlightVerse });
         const version = versionSelect.value;
         fetch(`/api/search?q=${encodeURIComponent(lastQuery)}&version=${encodeURIComponent(version)}`)
             .then(r => r.json()).then(data => {
@@ -2064,6 +2142,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         lastQuery = query;
         highlightVerse = verseNum != null ? verseNum : null;
         currentView = 'normal';
+        pushHistoryState({ view: 'normal', query, version: versionSelect.value, highlightVerse });
 
         const version = versionSelect.value;
         try {
@@ -2083,6 +2162,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     window.showAllVersions = async function(label) {
         previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         currentView = 'all_versions';
+        pushHistoryState({ view: 'all_versions', label, version: versionSelect.value });
 
         try {
             const resp = await fetch(`/api/all_versions?q=${encodeURIComponent(label)}`);
@@ -2125,6 +2205,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     window.goHome = function() {
+        pushHistoryState({ view: 'home' });
         lastQuery = '';
         mainData = null;
         compareData = null;
