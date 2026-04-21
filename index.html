@@ -45,14 +45,14 @@
             min-height: 100vh;
         }
 
-        .header {
+        .app-header {
             background: var(--accent);
             color: white;
-            padding: 12px 24px;
+            padding: 10px 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+            border-radius: 0;
         }
         .header-left {
             display: flex;
@@ -61,21 +61,17 @@
             cursor: pointer;
         }
         .header-logo {
-            height: 40px;
+            height: 36px;
             width: auto;
             display: block;
         }
-        .header h1 { font-size: 1.4rem; font-weight: 600; letter-spacing: 0.5px; }
-        @media (max-width: 480px) {
-            .header { padding: 10px 16px; }
-            .header-logo { height: 30px; }
-            .header h1 { font-size: 1.1rem; }
+        .app-header h1 { font-size: 1.2rem; font-weight: 600; letter-spacing: 0.5px; }
+
+        .search-area {
+            padding: 0;
         }
 
         .controls {
-            max-width: 1400px;
-            margin: 20px auto 0;
-            padding: 0 24px;
             display: flex;
             gap: 12px;
             align-items: center;
@@ -228,21 +224,6 @@
             font-weight: 400;
         }
 
-        /* Back button */
-        .back-bar {
-            margin-bottom: 16px;
-        }
-        .back-btn {
-            padding: 6px 16px;
-            font-size: 0.85rem;
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 999px;
-            cursor: pointer;
-            color: var(--text-muted);
-            transition: all 0.2s;
-        }
-        .back-btn:hover { border-color: var(--accent); color: var(--accent); }
 
         /* Verse card */
         .verse-card {
@@ -362,8 +343,7 @@
             display: block;
             background: var(--card-bg);
             border: 1px solid var(--border);
-            border-left: 3px solid var(--accent);
-            border-radius: 6px;
+            border-radius: 24px;
             padding: 10px 36px 10px 14px;
             margin: 8px 0;
             font-family: 'Segoe UI', system-ui, sans-serif;
@@ -652,26 +632,92 @@
         [data-theme="dark"] .btn-ai { background: #3a3010; color: #d4a84b; border-color: #6b5520; }
         [data-theme="dark"] .btn-ai:hover { background: #4a3e14; }
 
-        /* Compare card (stacked directly below main card) */
+        /* Compare card (side by side on PC, stacked on mobil) */
         .verse-card.compare-card {
-            margin-top: -10px;  /* knytt nærmere hovedkortet */
             border-top: 3px solid var(--accent);
         }
-        .compare-card-header {
-            flex-wrap: wrap;
-            gap: 10px;
+        @media (min-width: 701px) {
+            .verse-card.compare-card { border-top: none; border-left: 3px solid var(--accent); }
         }
-        .compare-card-header .compare-version-inline {
-            padding: 5px 10px;
-            font-size: 0.9rem;
-            border: 1px solid var(--border);
-            border-radius: 6px;
+        .compare-card-header { flex-wrap: wrap; gap: 10px; }
+
+        /* Compare version bar */
+        .compare-version-bar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        .compare-version-bar-label {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+        .compare-version-btn {
+            padding: 4px 14px;
+            border-radius: 999px;
+            border: 1.5px solid var(--border);
             background: var(--card-bg);
             color: var(--text);
             cursor: pointer;
-            flex: 1;
-            min-width: 100px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            transition: all 0.15s;
         }
+        .compare-version-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+        .compare-version-btn:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
+
+        /* Custom version picker */
+        .version-picker { position: relative; flex-shrink: 0; display: flex; }
+        .version-picker-trigger {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 0 14px;
+            background: transparent;
+            border: none;
+            border-left: 1px solid var(--border);
+            color: var(--text);
+            cursor: pointer;
+            font-size: 0.88rem;
+            font-weight: 600;
+            white-space: nowrap;
+            height: 100%;
+            transition: background 0.15s;
+        }
+        .version-picker-trigger:hover { background: rgba(0,0,0,0.04); }
+        [data-theme="dark"] .version-picker-trigger:hover { background: rgba(255,255,255,0.06); }
+        .version-picker-arrow { font-size: 0.72rem; color: var(--text-muted); transition: transform 0.2s; }
+        .version-picker.open .version-picker-arrow { transform: rotate(180deg); }
+        .version-picker-panel {
+            display: none;
+            position: absolute;
+            top: calc(100% + 10px);
+            right: 0;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.14);
+            min-width: 210px;
+            z-index: 300;
+            padding: 6px;
+        }
+        .version-picker.open .version-picker-panel { display: block; }
+        .version-option {
+            display: flex;
+            flex-direction: column;
+            padding: 9px 14px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: background 0.1s;
+        }
+        .version-option:hover { background: rgba(168,50,50,0.07); }
+        .version-option.selected { background: rgba(168,50,50,0.12); }
+        [data-theme="dark"] .version-option:hover { background: rgba(201,68,68,0.1); }
+        [data-theme="dark"] .version-option.selected { background: rgba(201,68,68,0.16); }
+        .version-option-name { font-weight: 700; font-size: 0.9rem; color: var(--text); }
+        .version-option-desc { font-size: 0.75rem; color: var(--text-muted); margin-top: 1px; }
         .ai-diff-section {
             margin: -4px 0 16px;
             display: flex;
@@ -963,10 +1009,17 @@
         @media (min-width: 701px) {
             .search-bottom-bar { display: none; }
 
-            /* Sentrert oppstart: søkefelt + smale svar er midt på skjermen */
-            .page-center-mode .controls {
-                margin-top: 22vh;
+            .app-header {
+                border-radius: 24px;
+                box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+                margin-bottom: 8px;
+            }
+
+            /* Sentrert oppstart: header + søkefelt sentrert midt på skjermen */
+            .search-area {
                 max-width: 640px;
+                margin: 22vh auto 0;
+                padding: 0 24px;
                 transition: margin-top 0.6s cubic-bezier(.4, 0, .2, 1), max-width 0.4s ease;
             }
             .page-center-mode .results-wrapper {
@@ -974,42 +1027,56 @@
                 transition: max-width 0.4s ease;
             }
 
-            /* Toppstilling: etter mange resultater glir søkefeltet opp og forblir der */
-            .page-top-mode .controls {
+            /* Toppstilling: etter mange resultater glir alt opp og forblir der */
+            .page-top-mode .search-area {
                 margin-top: 20px;
-                max-width: 1400px;
-                transition: margin-top 0.6s cubic-bezier(.4, 0, .2, 1), max-width 0.4s ease;
+                max-width: 880px;
             }
             .page-top-mode .results-wrapper {
-                max-width: 1400px;
+                max-width: 880px;
                 transition: max-width 0.4s ease;
             }
+            /* Sammenligningsvisning trenger bredere layout */
+            .page-top-mode.compare-active .search-area { max-width: 1300px; }
+            .page-top-mode.compare-active .results-wrapper { max-width: 1300px; }
+        }
+        @media (max-width: 700px) {
+            .app-header { padding: 10px 16px; }
+            .app-header h1 { font-size: 1.1rem; }
+            .header-logo { height: 30px; }
         }
     </style>
 </head>
 <body class="page-center-mode">
 
-<div class="header">
-    <div class="header-left" onclick="goHome()">
-        <img src="/logo_biblegateway.png" alt="BibleGateway logo" class="header-logo">
-        <h1>Bibelsøk</h1>
-    </div>
-    <div style="display:flex;gap:8px;align-items:center;">
+<div class="search-area">
+    <div class="app-header">
+        <div class="header-left" onclick="goHome()">
+            <img src="/logo_biblegateway.png" alt="BibleGateway logo" class="header-logo">
+            <h1>Bibelsøk</h1>
+        </div>
         <button class="dark-toggle" id="darkToggle" title="Mørk modus">&#9790;</button>
     </div>
-</div>
 
-<!-- Desktop search controls -->
-<div class="controls desktop-only">
-    <div class="suggestions-wrap" style="flex:1;min-width:250px;">
-        <div class="search-bar-wrap" id="searchBarWrapDesktop">
-            <span class="ai-badge" title="Reformulert av KI">✨</span>
-            <div class="search-ce" id="searchInput" contenteditable="true" spellcheck="false"
-                 data-placeholder="Søk i Bibelen…"></div>
-            <select id="versionSelect" class="search-version-select"></select>
-            <button class="search-btn-inline" id="searchBtn">Søk</button>
+    <!-- Desktop search controls -->
+    <div class="controls desktop-only">
+        <div class="suggestions-wrap" style="flex:1;min-width:250px;">
+            <div class="search-bar-wrap" id="searchBarWrapDesktop">
+                <span class="ai-badge" title="Reformulert av KI">✨</span>
+                <div class="search-ce" id="searchInput" contenteditable="true" spellcheck="false"
+                     data-placeholder="Søk i Bibelen…"></div>
+                <select id="versionSelect" class="search-version-select" style="display:none;"></select>
+                <div class="version-picker" id="versionPickerDesktop">
+                    <button class="version-picker-trigger" id="versionPickerTrigger" type="button">
+                        <span id="versionPickerLabel">…</span>
+                        <span class="version-picker-arrow">▾</span>
+                    </button>
+                    <div class="version-picker-panel" id="versionPickerPanel"></div>
+                </div>
+                <button class="search-btn-inline" id="searchBtn">Søk</button>
+            </div>
+            <div class="suggestions" id="suggestionsDesktop"></div>
         </div>
-        <div class="suggestions" id="suggestionsDesktop"></div>
     </div>
 </div>
 
@@ -1055,7 +1122,6 @@
     let compareData = null;
     let currentView = 'normal'; // 'normal', 'text_search', 'all_versions'
     let booksData = [];
-    let previousState = null; // for back button
     let allVersionsCache = null; // {results, label} for re-rendering
     let textSearchCache = null; // {results, query} for re-rendering
     let collapsed = true; // default: search results grouped by book
@@ -1073,6 +1139,7 @@
             document.body.classList.add('page-center-mode');
             document.body.classList.remove('page-top-mode');
         }
+        document.body.classList.toggle('compare-active', compareMode && !!compareData);
     }
 
     // ── BibleHub interlinear URL mapping ──
@@ -1256,7 +1323,55 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     const VERSION_DISPLAY = {
         'NB88': 'NB88/07',
     };
+    const VERSION_DESC = {
+        'NB88':     'Norsk Bibel 1988/2007',
+        'Bibel2011':'Bibelen 2011',
+        'Bibel1930':'Bibelen 1930',
+        'BGO':      'Bibelen Guds Ord',
+        'ESV':      'English Standard Version',
+        'KJV':      'King James Version',
+        'NASB1995': 'New American Standard Bible',
+        'NIV':      'New International Version',
+        'NKJV':     'New King James Version',
+    };
     function versionLabel(v) { return VERSION_DISPLAY[v] || v; }
+
+    // ── Custom version picker (desktop) ──
+    const versionPickerDesktop = document.getElementById('versionPickerDesktop');
+    const versionPickerTrigger = document.getElementById('versionPickerTrigger');
+    const versionPickerLabel  = document.getElementById('versionPickerLabel');
+    const versionPickerPanel  = document.getElementById('versionPickerPanel');
+    const versionSelectEl     = document.getElementById('versionSelect');
+
+    function buildVersionPickerPanel() {
+        if (!versionPickerPanel) return;
+        const selected = versionSelectEl.value;
+        versionPickerLabel.textContent = versionLabel(selected);
+        versionPickerPanel.innerHTML = Array.from(versionSelectEl.options).map(o =>
+            `<div class="version-option${o.value === selected ? ' selected' : ''}" onclick="pickVersion('${o.value}')">
+                <span class="version-option-name">${escHtml(versionLabel(o.value))}</span>
+                <span class="version-option-desc">${escHtml(VERSION_DESC[o.value] || o.text)}</span>
+            </div>`
+        ).join('');
+    }
+
+    if (versionPickerTrigger) {
+        versionPickerTrigger.addEventListener('click', e => {
+            e.stopPropagation();
+            versionPickerDesktop.classList.toggle('open');
+            if (versionPickerDesktop.classList.contains('open')) buildVersionPickerPanel();
+        });
+    }
+    document.addEventListener('click', () => {
+        if (versionPickerDesktop) versionPickerDesktop.classList.remove('open');
+    });
+
+    window.pickVersion = function(v) {
+        versionSelect.value = v;
+        versionSelectEl.dispatchEvent(new Event('change'));
+        versionPickerLabel.textContent = versionLabel(v);
+        if (versionPickerDesktop) versionPickerDesktop.classList.remove('open');
+    };
 
     // Sort/browse er nå alltid synlig — ingen toggle
 
@@ -1293,6 +1408,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             compareVersionSelect.value = data.versions.find(v => v !== defaultV) || data.versions[1];
         }
         loadBooks();
+        buildVersionPickerPanel();
         // Hvis URL har søkeparametre, restaurér tilstand
         restoreFromUrl();
     }
@@ -1319,6 +1435,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     versionSelectDesktop.addEventListener('change', () => {
         versionSelectMobile.value = versionSelectDesktop.value;
+        if (versionPickerLabel) versionPickerLabel.textContent = versionLabel(versionSelectDesktop.value);
         loadBooks();
         if (lastQuery) doSearch();
     });
@@ -1376,7 +1493,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             searchInput.value = state.query || '';
             lastQuery = state.query || '';
             highlightVerse = state.highlightVerse || null;
-            previousState = null;
             await doSearch();
         } finally {
             isRestoringHistory = false;
@@ -1663,7 +1779,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     async function searchInTestament(query, testament) {
         const targetBooks = booksData.map(b => b.code).filter(c => testament === 'NT' ? isNtBook(c) : !isNtBook(c));
         if (!targetBooks.length) return;
-        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         setSearchLoading(true);
         const version = versionSelect.value;
         try {
@@ -1784,7 +1899,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (searchInFlight && !isAiRetry) return;  // Prevent overlapping searches
         if (!isAiRetry) {
             lastQuery = query;
-            previousState = null;
             highlightVerse = null;
             setSearchLoading(true);
             addRecentSearch(query);
@@ -2026,6 +2140,16 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 })
             });
             const data = await resp.json();
+            if (!data.error) {
+                // Finn hvilken kjent versjon som er nevnt i svaret og bytt til den
+                const allVersions = Array.from(document.getElementById('versionSelect').options).map(o => o.value);
+                const found = allVersions.find(v => data.result.includes(v) || data.result.includes(versionLabel(v)));
+                if (found && found !== versionSelect.value) {
+                    compareVersionSelect.value = found;
+                    if (!compareMode) { compareMode = true; }
+                    await fetchCompareData(lastQuery);
+                }
+            }
             aiDiffState = data.error ? { error: data.error } : { text: data.result };
         } catch {
             aiDiffState = { error: 'Kunne ikke koble til serveren.' };
@@ -2052,22 +2176,34 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const showCompare = compareMode && compareData;
         let html = '';
 
-        if (previousState) {
-            html += '<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Tilbake</button></div>';
+        // Compare version bar øverst
+        if (showCompare) {
+            const mainV = versionSelect.value;
+            const allV = Array.from(document.getElementById('versionSelect').options).map(o => o.value);
+            html += `<div class="compare-version-bar"><span class="compare-version-bar-label">Sammenligner med:</span>`;
+            allV.filter(v => v !== mainV).forEach(v => {
+                const active = v === compareVersionSelect.value ? ' active' : '';
+                html += `<button class="compare-version-btn${active}" onclick="setCompareVersion('${escAttr(v)}')">${escHtml(versionLabel(v))}</button>`;
+            });
+            html += `</div>`;
         }
 
-        // Stack: for hver blokk, render hovedkort → evt. sammenligningskort rett under
+        // Side by side (PC) / stablet (mobil)
         for (let idx = 0; idx < mainData.length; idx++) {
             const mainBlock = mainData[idx];
             const compBlock = showCompare && idx < compareData.length ? compareData[idx] : null;
 
-            html += buildCardHtml(mainBlock, idx, false);
-            if (showCompare && compBlock) {
+            if (showCompare) {
+                html += '<div class="verse-row">';
+                html += buildCardHtml(mainBlock, idx, false);
                 html += buildCompareCardHtml(compBlock, idx);
+                html += '</div>';
+            } else {
+                html += buildCardHtml(mainBlock, idx, false);
             }
         }
 
-        // Bunnseksjon: KI-sammenligning (kun synlig når compare er aktiv)
+        // Bunnseksjon: KI-sammenligning
         if (showCompare) {
             html += '<div class="ai-diff-section">';
             if (aiDiffState && aiDiffState.text) {
@@ -2089,20 +2225,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         resultsWrapper.innerHTML = html;
-
-        // Koble opp versjonsvelger inne i sammenligningskortene
-        if (showCompare) {
-            document.querySelectorAll('.compare-version-inline').forEach(sel => {
-                Array.from(compareVersionSelect.options).forEach(o => {
-                    sel.add(new Option(o.text, o.value));
-                });
-                sel.value = compareVersionSelect.value;
-                sel.addEventListener('change', () => {
-                    compareVersionSelect.value = sel.value;
-                    compareVersionSelect.dispatchEvent(new Event('change'));
-                });
-            });
-        }
     }
 
     function buildCardHtml(block, idx, isCompare) {
@@ -2151,19 +2273,18 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     function buildCompareCardHtml(block, idx) {
+        const vLabel = escHtml(versionLabel(compareVersionSelect.value));
         if (!block) {
             return `<div class="verse-card compare-card">
-                <div class="verse-card-header compare-card-header">
-                    <span class="verse-card-label">Sammenlign med:</span>
-                    <select class="compare-version-inline"></select>
+                <div class="verse-card-header">
+                    <span class="verse-card-label">${vLabel}</span>
                 </div>
                 <div class="verse-text" style="color:var(--text-muted);font-style:italic;">Ikke tilgjengelig i denne versjonen.</div>
             </div>`;
         }
         let html = `<div class="verse-card compare-card" id="compare-card-${idx}">
-            <div class="verse-card-header compare-card-header">
-                <span class="verse-card-label">Sammenlign med:</span>
-                <select class="compare-version-inline"></select>
+            <div class="verse-card-header">
+                <span class="verse-card-label">${vLabel}</span>
                 <button class="copy-btn" onclick="copyBlock(${idx}, true)">Kopier</button>
             </div>
             <div class="verse-text">`;
@@ -2247,9 +2368,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             });
             content += `</div>`;
             if (count > initial) {
-                const rest = JSON.stringify(items.slice(initial));
-                const restAttr = escAttr(rest);
-                content += `<button class="xref-showmore" onclick="event.stopPropagation(); showMoreXrefs(this, '${restAttr}')">Vis alle ${count} →</button>`;
+                const restEncoded = JSON.stringify(items.slice(initial)).replace(/"/g, '&quot;');
+                content += `<button class="xref-showmore" data-rest="${restEncoded}" onclick="event.stopPropagation(); showMoreXrefs(this)">Vis alle ${count} →</button>`;
             }
         }
         pop.innerHTML = content + `<button class="note-popover-close" onclick="event.stopPropagation(); this.parentNode.remove(); document.querySelectorAll('.note-marker.active').forEach(n=>n.classList.remove('active'));">×</button>`;
@@ -2283,8 +2403,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     // Vis resterende xrefs (når det er >10)
-    window.showMoreXrefs = function(btnEl, restJson) {
-        const rest = JSON.parse(restJson);
+    window.showMoreXrefs = function(btnEl) {
+        const rest = JSON.parse(btnEl.getAttribute('data-rest'));
         const refsDiv = btnEl.previousElementSibling;
         rest.forEach(item => {
             const display = formatUsfmRef(item.r);
@@ -2383,10 +2503,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         resultsWrapper.innerHTML = html;
-        if (previousState) {
-            // Add back button at top when drilling back from text search
-            resultsWrapper.insertAdjacentHTML('afterbegin', '<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Tilbake</button></div>');
-        }
+
     }
 
     // Last inn flere treff i en spesifikk bok (inline, behold andre bøker)
@@ -2428,7 +2545,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     window.searchOnlyInBook = async function(bookCode) {
         const query = (textSearchCache && textSearchCache.query) || lastQuery;
         if (!query) return;
-        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         const version = versionSelect.value;
         setSearchLoading(true);
         try {
@@ -2512,9 +2628,17 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         el.appendChild(expand);
     };
 
+    window.setCompareVersion = async function(v) {
+        compareVersionSelect.value = v;
+        aiDiffState = null;
+        if (compareMode && lastQuery && currentView === 'normal') {
+            await fetchCompareData(lastQuery);
+            renderAll();
+        }
+    };
+
     // Naviger til vers + aktiver vanlig sammenlign-modus (per-kort)
     window.goToVerseAndCompare = async function(ref) {
-        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         searchInput.value = ref;
         lastQuery = ref;
         highlightVerse = null;
@@ -2539,7 +2663,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     window.goToVerseFromExpand = function(ref, bookCode, chapter, bName, verseNum) {
-        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         searchInput.value = bName + ' ' + chapter;
         lastQuery = searchInput.value;
         highlightVerse = verseNum;
@@ -2558,14 +2681,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     window.goToVerse = function(ref) {
-        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         searchInput.value = ref;
         doSearch();
     };
 
     // ── Read chapter ──
     window.readChapter = async function(bookCode, chapter, bName, verseNum) {
-        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         const query = `${bName} ${chapter}`;
         searchInput.value = query;
         lastQuery = query;
@@ -2589,7 +2710,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ── All versions ──
     window.showAllVersions = async function(label) {
-        previousState = { query: lastQuery, mainData, compareData, view: currentView, textSearch: textSearchCache };
         currentView = 'all_versions';
         pushHistoryState({ view: 'all_versions', label, version: versionSelect.value });
 
@@ -2614,8 +2734,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const bCode = firstBlocks[0]?.book;
         const displayLabel = bCode ? translateLabel(label, bCode) : label;
 
-        let html = `<div class="back-bar"><button class="back-btn" onclick="goBack()">&larr; Tilbake</button></div>`;
-        html += `<div class="all-versions-block">
+        let html = `<div class="all-versions-block">
             <div class="verse-card-header" style="border-bottom:none;padding-bottom:0;margin-bottom:4px;">
                 <span class="verse-card-label" style="font-size:1.15rem;">${escHtml(displayLabel)}</span>
             </div>`;
@@ -2639,7 +2758,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         lastQuery = '';
         mainData = null;
         compareData = null;
-        previousState = null;
         currentView = 'normal';
         textSearchCache = null;
         allVersionsCache = null;
@@ -2651,25 +2769,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         resultsWrapper.innerHTML = emptyStateHtml;
     };
 
-    window.goBack = function() {
-        if (!previousState) return;
-        const ps = previousState;
-        previousState = null;
-        lastQuery = ps.query;
-        mainData = ps.mainData;
-        compareData = ps.compareData;
-        currentView = ps.view || 'normal';
-        searchInput.value = lastQuery;
-        highlightVerse = null;
-        if (currentView === 'text_search' && ps.textSearch) {
-            textSearchCache = ps.textSearch;
-            renderTextSearch(ps.textSearch.results, ps.textSearch.query, ps.textSearch.bookTotals, ps.textSearch.totalMatches);
-        } else if (currentView === 'all_versions' && allVersionsCache) {
-            renderAllVersions(allVersionsCache.results, allVersionsCache.label);
-        } else {
-            renderAll();
-        }
-    };
+
 
     // ── Copy ──
     window.copyBlock = function(blockIdx, isCompare) {
