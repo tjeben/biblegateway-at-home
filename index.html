@@ -1638,6 +1638,7 @@
     let lastQuery = '';
     let aiDiffState = null; // null | {loading:true} | {text:'...'} | {error:'...'}
     let aiHighlights = null; // null | {loading:true} | {v1:[], v2:[]} | {error:'...'}
+    let alleMainVersion = 'BGO'; // Effektiv hoved-versjon når versionSelect er 'Alle' (i sammenligningsmodus)
     let mainData = null;
     let compareData = null;
     let currentView = 'normal'; // 'normal', 'text_search', 'all_versions'
@@ -2450,18 +2451,87 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // Sort/browse er nå alltid synlig — ingen toggle
 
+    // Henter main + compare i parallell når i "Alle"-sammenligning
+    async function fetchAlleMainAndCompare(query) {
+        const mainV = alleMainVersion;
+        const compV = compareVersionSelect.value;
+        try {
+            const [mainR, compR] = await Promise.all([
+                fetch(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(mainV)}`).then(r => r.json()),
+                fetch(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(compV)}`).then(r => r.json()),
+            ]);
+            if (mainR.type === 'reference' && !mainR.error) mainData = mainR.results;
+            if (compR.type === 'reference' && !compR.error) compareData = compR.results;
+        } catch {
+            showToast('Kunne ikke hente data');
+        }
+    }
+
+    function pickOtherVersion(excluded) {
+        const real = Array.from(document.getElementById('versionSelect').options)
+            .map(o => o.value).filter(v => v !== 'Alle' && v !== excluded);
+        return real[0];
+    }
+
     // ── Toggle compare mode (per-card Sammenlign-knapp kaller denne) ──
     window.toggleCompareMode = async function() {
+        const isAlle = versionSelect.value === 'Alle';
+
+        // Alle-modus: spesiell flyt — BGO som main, en annen som compare
+        if (isAlle) {
+            // Bytt på compareMode
+            if (currentView === 'all_versions' || (currentView === 'normal' && mainData)) {
+                compareMode = !compareMode;
+                aiDiffState = null;
+                aiHighlights = null;
+                if (compareMode && lastQuery) {
+                    if (compareVersionSelect.value === alleMainVersion) {
+                        compareVersionSelect.value = pickOtherVersion(alleMainVersion) || compareVersionSelect.value;
+                    }
+                    currentView = 'normal';
+                    setSearchLoading(true);
+                    try { await fetchAlleMainAndCompare(lastQuery); } finally { setSearchLoading(false); }
+                    renderAll();
+                } else {
+                    // Forlater sammenligning → gå tilbake til alle-versjoner-visning
+                    compareData = null;
+                    if (lastQuery) {
+                        await showAllVersions(lastQuery);
+                    } else {
+                        renderAll();
+                    }
+                }
+            }
+            return;
+        }
+
+        // Standard (ikke-Alle) flyt
         if (currentView !== 'normal' || !mainData) return;
-        if (versionSelect.value === 'Alle') { showToast('Velg en spesifikk versjon for å sammenligne'); return; }
         compareMode = !compareMode;
         aiDiffState = null;
+        aiHighlights = null;
         if (compareMode && lastQuery) {
             await fetchCompareData(lastQuery);
         } else {
             compareData = null;
         }
         renderAll();
+    };
+
+    // Sett hoved-versjonen for 'Alle'-modus (fra main-card dropdown)
+    window.setAlleMainVersion = async function(v) {
+        alleMainVersion = v;
+        aiDiffState = null;
+        aiHighlights = null;
+        // Ikke la main og compare være samme
+        if (compareVersionSelect.value === v) {
+            compareVersionSelect.value = pickOtherVersion(v) || compareVersionSelect.value;
+        }
+        if (compareMode && lastQuery) {
+            setSearchLoading(true);
+            try { await fetchAlleMainAndCompare(lastQuery); } finally { setSearchLoading(false); }
+            renderAll();
+        }
     };
 
     // ── Init ──
@@ -3404,9 +3474,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         const displayLabel = block.label;
+        // I Alle-sammenligning: vis versjonvelger for main-kortet
+        const showMainVersionSelect = versionSelect.value === 'Alle' && compareMode && currentView === 'normal';
+        let mainVerSelHtml = '';
+        if (showMainVersionSelect) {
+            const allV = Array.from(document.getElementById('versionSelect').options).map(o => o.value).filter(v => v !== 'Alle');
+            const opts = allV.map(v =>
+                `<option value="${escAttr(v)}"${v === alleMainVersion ? ' selected' : ''}>${escHtml(versionLabel(v))}</option>`
+            ).join('');
+            mainVerSelHtml = `<select class="compare-version-inline" onchange="setAlleMainVersion(this.value)">${opts}</select>`;
+        }
         let html = `<div class="verse-card" id="card-${idx}">
-            <div class="verse-card-header">
+            <div class="verse-card-header${showMainVersionSelect ? ' compare-card-header' : ''}">
                 <span class="verse-card-label">${escHtml(displayLabel)}</span>
+                ${mainVerSelHtml}
                 <button class="copy-btn" onclick="copyBlock(${idx}, false)">Kopier</button>
             </div>
             <div class="verse-text">`;
@@ -3448,7 +3529,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     function buildCompareVersionSelectHtml() {
-        const allV = Array.from(document.getElementById('versionSelect').options).map(o => o.value);
+        const allV = Array.from(document.getElementById('versionSelect').options).map(o => o.value).filter(v => v !== 'Alle');
         const cur = compareVersionSelect.value;
         let opts = allV.map(v =>
             `<option value="${escAttr(v)}"${v === cur ? ' selected' : ''}>${escHtml(versionLabel(v))}</option>`
@@ -3875,8 +3956,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     window.setCompareVersion = async function(v) {
         compareVersionSelect.value = v;
         aiDiffState = null;
+        aiHighlights = null;
         if (compareMode && lastQuery && currentView === 'normal') {
-            await fetchCompareData(lastQuery);
+            if (versionSelect.value === 'Alle') {
+                // Alle-modus: hent både main (BGO) og compare på nytt
+                setSearchLoading(true);
+                try { await fetchAlleMainAndCompare(lastQuery); } finally { setSearchLoading(false); }
+            } else {
+                await fetchCompareData(lastQuery);
+            }
             renderAll();
         }
     };
