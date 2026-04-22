@@ -451,7 +451,16 @@
         }
         .xref-showmore:hover, .xref-showmore:active { background: var(--accent-hover); }
 
-        /* Card footer buttons */
+        /* Verktøy-rad under hvert vers-kort (utenfor kortet for å gi ro til teksten) */
+        .verse-card-toolbar {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            padding: 0 8px;
+            margin: 10px 0 22px;
+        }
+
+        /* Card footer buttons (behold CSS for bakoverkompatibilitet hvis brukt andre steder) */
         .verse-card-footer {
             display: flex;
             gap: 8px;
@@ -3749,9 +3758,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 html += buildCardHtml(mainBlock, idx, false);
                 html += buildCompareCardHtml(compBlock, idx);
                 html += '</div>';
+                html += buildToolbarHtml(mainBlock);
                 if (idx === 0) html += aiSection;
             } else {
                 html += buildCardHtml(mainBlock, idx, false);
+                html += buildToolbarHtml(mainBlock);
             }
         }
 
@@ -3801,37 +3812,35 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         html += renderVerseTextHtml(block.verses, highlightVerse, block.book, aiHighlights && aiHighlights.v1 ? aiHighlights.v1 : null);
         html += '</div>';
-
-        // Footer buttons
-        if (block.book && block.verses.length > 0) {
-            const ch = block.verses[0].chapter;
-            const bName = bookName(block.book);
-            const isSingleVerse = block.verses.length === 1;
-            const ilUrl = interlinearUrl(block.book, ch, isSingleVerse ? block.verses[0].num : null);
-            const verseNum = isSingleVerse ? block.verses[0].num : null;
-
-            const cardText = (block.verses || []).map(v => v.text).join(' ').trim();
-            const cardLabel = block.label || '';
-            // Generer referanser: bare når singleverse uten eksisterende xrefs
-            const singleV = isSingleVerse ? block.verses[0] : null;
-            const hasNoXrefs = singleV && (!singleV.xrefs || singleV.xrefs.length === 0);
-            const genRefsBtn = hasNoXrefs
-                ? `<button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" data-source="${escAttr(block.book + '.' + singleV.chapter + '.' + singleV.num)}" onclick="generateRefs(this)">🔗 Generer referanser</button>`
-                : '';
-            html += `<div class="verse-card-footer">
-                <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Hele kapittelet</button>
-                <button class="card-action-btn" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
-                <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>
-                <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
-                <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
-                ${genRefsBtn}`;
-            if (ilUrl) {
-                html += `<a class="card-action-btn" href="${ilUrl}" target="_blank" rel="noopener" style="text-decoration:none;">biblehub</a>`;
-            }
-            html += `</div>`;
-        }
-
         html += '</div>';
+        return html;
+    }
+
+    function buildToolbarHtml(block) {
+        if (!block || block.error || !block.book || !block.verses || block.verses.length === 0) return '';
+        const ch = block.verses[0].chapter;
+        const bName = bookName(block.book);
+        const isSingleVerse = block.verses.length === 1;
+        const ilUrl = interlinearUrl(block.book, ch, isSingleVerse ? block.verses[0].num : null);
+        const verseNum = isSingleVerse ? block.verses[0].num : null;
+        const cardText = (block.verses || []).map(v => v.text).join(' ').trim();
+        const cardLabel = block.label || '';
+        const singleV = isSingleVerse ? block.verses[0] : null;
+        const hasNoXrefs = singleV && (!singleV.xrefs || singleV.xrefs.length === 0);
+        const genRefsBtn = hasNoXrefs
+            ? `<button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" data-source="${escAttr(block.book + '.' + singleV.chapter + '.' + singleV.num)}" onclick="generateRefs(this)">🔗 Generer referanser</button>`
+            : '';
+        let html = `<div class="verse-card-toolbar">
+            <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Hele kapittelet</button>
+            <button class="card-action-btn" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
+            <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>
+            <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
+            <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
+            ${genRefsBtn}`;
+        if (ilUrl) {
+            html += `<a class="card-action-btn" href="${ilUrl}" target="_blank" rel="noopener" style="text-decoration:none;">biblehub</a>`;
+        }
+        html += `</div>`;
         return html;
     }
 
