@@ -3870,7 +3870,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return result;
     }
 
-    function renderVerseTextHtml(verses, hlVerse, bookCode, hlPhrases) {
+    function renderVerseTextHtml(verses, hlVerse, bookCode, hlPhrases, versionForClick) {
         let html = '';
         let lastChapter = null;
         const isMultiChapter = verses.some(x => x.chapter !== verses[0]?.chapter);
@@ -3890,7 +3890,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
             const bName = bookCode ? bookName(bookCode) : '';
             const vrefAttr = bookCode ? escAttr(`${bName} ${v.chapter}:${v.num}`) : '';
-            const vnumClick = vrefAttr ? ` onclick="navigateToRef('${vrefAttr}')" title="Se bare dette verset"` : '';
+            let vnumClick = '';
+            if (vrefAttr) {
+                vnumClick = versionForClick
+                    ? ` onclick="navigateToRefInVersion('${vrefAttr}', '${escAttr(versionForClick)}')" title="Se bare dette verset i ${escAttr(versionForClick)}"`
+                    : ` onclick="navigateToRef('${vrefAttr}')" title="Se bare dette verset"`;
+            }
             html += `<span class="verse-num"${vnumClick}>${v.num}</span>`;
             let txt = escHtml(v.text);
             if (hlPhrases && hlPhrases.length) txt = applyPhraseHighlights(txt, hlPhrases);
@@ -4040,6 +4045,21 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     window.navigateToRef = function(display) {
         document.querySelectorAll('.note-popover').forEach(p => p.remove());
         document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
+        searchInput.value = display;
+        doSearch();
+    };
+
+    // Naviger til en referanse og bytt til en spesifikk versjon (fra Alle-visning)
+    window.navigateToRefInVersion = async function(display, version) {
+        document.querySelectorAll('.note-popover').forEach(p => p.remove());
+        document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
+        if (version && version !== 'Alle' && version !== versionSelect.value) {
+            versionSelect.value = version;
+            try { localStorage.setItem(PREF_VERSION_KEY, version); } catch {}
+            const label = document.getElementById('versionPickerLabel');
+            if (label) label.textContent = (typeof versionLabel === 'function' ? versionLabel(version) : version);
+            try { await loadBooks(); } catch {}
+        }
         searchInput.value = display;
         doSearch();
     };
@@ -4530,7 +4550,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
             html += `<div style="margin-bottom:18px;">
                 <div class="version-label">${escHtml(versionName)}</div>
-                <div class="verse-text">${renderVerseTextHtml(verses, null, versionBook)}</div>
+                <div class="verse-text">${renderVerseTextHtml(verses, null, versionBook, null, versionName)}</div>
             </div>`;
         }
 
