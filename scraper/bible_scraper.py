@@ -186,13 +186,16 @@ def fetch_chapter(book: str, chapter: int, translation_id: int) -> Dict[str, Dic
             if not isinstance(node, Tag):
                 continue
             classes = node.get("class") or []
-            # Seksjonsoverskrifter: <div class="s">, <div class="s1">, <h3>, <div class="r"> (parallell-referanser)
-            if node.name == "div" and any(c in classes for c in ("s", "s1", "s2", "ms", "mr", "r")):
-                # Bruk hele divens tekst slik at parallell-refs i <div class="r"> fanger
-                # både parenteser og ref-tekster (bible.com splitter dem i mange <span class="heading">)
+            # Seksjonsoverskrifter: <div class="s">, <div class="s1">, <div class="s2">, <div class="ms">
+            # Parallell-refs: <div class="r">, <div class="mr"> — disse SKAL ikke overskrive,
+            # men vanligvis ignoreres (de viser hvilke parallelle steder samme hendelse står).
+            if node.name == "div" and any(c in classes for c in ("s", "s1", "s2", "ms")):
                 text = _collapse(node.get_text())
                 if text:
                     pending_section = text
+            elif node.name == "div" and any(c in classes for c in ("r", "mr")):
+                # Hopp over: parallell-refs-listene er ikke selve seksjonstittelen
+                pass
             elif "verse" in classes:
                 usfm = node.get("data-usfm")
                 if not usfm:
