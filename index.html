@@ -2491,13 +2491,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 label, text,
                 useAllVersions: false,
                 themes: rawThemes.map((t, i) => ({
-                    name: t.name, search: t.search, active: true,
+                    name: t.name, search: t.search, active: false,
                     color: THEME_COLORS[i % THEME_COLORS.length],
                     counts: null, results: null, total: null,
                 })),
             };
-            renderThemeMap();
-            await runActiveThemeSearches();
             renderThemeMap();
         } catch {
             host.querySelector('.ai-panel-body').innerHTML = `<div style="color:var(--error);">Kunne ikke koble til serveren.</div>`;
