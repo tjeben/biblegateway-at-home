@@ -3979,7 +3979,49 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (!sameChapter) return null;
         const bookIdx = booksData.findIndex(b => b.code === block.book);
         if (bookIdx < 0) return null;
-        return { book: block.book, bookInfo: booksData[bookIdx], chapter, bookIdx };
+        const isSingleVerse = block.verses.length === 1;
+        const verseNum = block.verses[0].num;
+        return { book: block.book, bookInfo: booksData[bookIdx], chapter, bookIdx, isSingleVerse, verseNum };
+    }
+
+    // Henter ett vers; returnerer true hvis eksisterer, ellers false
+    async function verseExists(bookCode, chapter, verseNum) {
+        const b = booksData.find(x => x.code === bookCode);
+        if (!b) return false;
+        const version = versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value;
+        try {
+            const ref = `${b.name} ${chapter}:${verseNum}`;
+            const resp = await fetch(`/api/search?q=${encodeURIComponent(ref)}&version=${encodeURIComponent(version)}`);
+            const data = await resp.json();
+            return data.type === 'reference' && data.results && data.results[0]
+                && !data.results[0].error && data.results[0].verses && data.results[0].verses.length > 0;
+        } catch { return false; }
+    }
+
+    // Finn siste vers i et kapittel ved å hente hele kapittelet
+    async function getLastVerseNum(bookCode, chapter) {
+        const b = booksData.find(x => x.code === bookCode);
+        if (!b) return null;
+        const version = versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value;
+        try {
+            const ref = `${b.name} ${chapter}`;
+            const resp = await fetch(`/api/search?q=${encodeURIComponent(ref)}&version=${encodeURIComponent(version)}`);
+            const data = await resp.json();
+            if (data.type === 'reference' && data.results && data.results[0] && data.results[0].verses) {
+                const verses = data.results[0].verses;
+                return verses[verses.length - 1].num;
+            }
+        } catch {}
+        return null;
+    }
+
+    function navigateToVerse(bookCode, chapter, verseNum) {
+        const b = booksData.find(x => x.code === bookCode);
+        const name = b ? b.name : bookCode;
+        searchInput.value = `${name} ${chapter}:${verseNum}`;
+        lastQuery = searchInput.value;
+        highlightVerse = null;
+        doSearch();
     }
 
     function updateNavButtons() {
@@ -4007,9 +4049,30 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         doSearch();
     }
 
-    window.navPrev = function() {
+    window.navPrev = async function() {
         const ctx = getNavContext();
         if (!ctx) return;
+
+        // Enkelt vers → gå til forrige vers
+        if (ctx.isSingleVerse) {
+            if (ctx.verseNum > 1) {
+                navigateToVerse(ctx.book, ctx.chapter, ctx.verseNum - 1);
+                return;
+            }
+            // Starten av kapittelet — gå til siste vers i forrige kapittel
+            let prevBook = ctx.book, prevChapter = ctx.chapter - 1;
+            if (prevChapter < 1) {
+                if (ctx.bookIdx === 0) return;
+                prevBook = booksData[ctx.bookIdx - 1].code;
+                prevChapter = booksData[ctx.bookIdx - 1].chapters;
+            }
+            const lastV = await getLastVerseNum(prevBook, prevChapter);
+            if (lastV) navigateToVerse(prevBook, prevChapter, lastV);
+            else navigateToChapter(prevBook, prevChapter);
+            return;
+        }
+
+        // Kapittel / flere vers → gå til forrige kapittel
         let chapter = ctx.chapter - 1;
         let book = ctx.book;
         if (chapter < 1) {
@@ -4021,9 +4084,29 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         navigateToChapter(book, chapter);
     };
 
-    window.navNext = function() {
+    window.navNext = async function() {
         const ctx = getNavContext();
         if (!ctx) return;
+
+        // Enkelt vers → gå til neste vers
+        if (ctx.isSingleVerse) {
+            const nextVerseNum = ctx.verseNum + 1;
+            if (await verseExists(ctx.book, ctx.chapter, nextVerseNum)) {
+                navigateToVerse(ctx.book, ctx.chapter, nextVerseNum);
+                return;
+            }
+            // Slutten av kapittelet — gå til vers 1 i neste kapittel
+            let nextBook = ctx.book, nextChapter = ctx.chapter + 1;
+            if (nextChapter > ctx.bookInfo.chapters) {
+                if (ctx.bookIdx >= booksData.length - 1) return;
+                nextBook = booksData[ctx.bookIdx + 1].code;
+                nextChapter = 1;
+            }
+            navigateToVerse(nextBook, nextChapter, 1);
+            return;
+        }
+
+        // Kapittel / flere vers → gå til neste kapittel
         let chapter = ctx.chapter + 1;
         let book = ctx.book;
         if (chapter > ctx.bookInfo.chapters) {
