@@ -9,9 +9,28 @@
     ],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Joh 1",
-        "refs": []
+        "r": "1JN.3.18",
+        "v": 10
+      },
+      {
+        "r": "1CO.1.14",
+        "v": 8
+      },
+      {
+        "r": "ROM.16.23",
+        "v": 8
+      },
+      {
+        "r": "2JN.1.1-13",
+        "v": 7
+      },
+      {
+        "r": "ACT.19.29",
+        "v": 7
+      },
+      {
+        "r": "ACT.20.4",
+        "v": 6
       }
     ],
     "section": "Hilsen"
@@ -19,7 +38,76 @@
   "3JN.1.2": {
     "text": "Min kjære, jeg ønsker at du på alle vis får være frisk og ha det godt, like godt som du har det åndelig.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2PE.1.3-9",
+        "v": 52
+      },
+      {
+        "r": "2PE.3.18",
+        "v": 46
+      },
+      {
+        "r": "COL.1.4-6",
+        "v": 25
+      },
+      {
+        "r": "1PE.4.8",
+        "v": 24
+      },
+      {
+        "r": "1TH.2.13-14",
+        "v": 20
+      },
+      {
+        "r": "PSA.20.1-5",
+        "v": 20
+      },
+      {
+        "r": "2TH.1.3",
+        "v": 16
+      },
+      {
+        "r": "1TH.1.3-10",
+        "v": 14
+      },
+      {
+        "r": "PHM.1.5-7",
+        "v": 14
+      },
+      {
+        "r": "PHP.2.4",
+        "v": 12
+      },
+      {
+        "r": "JAS.5.12",
+        "v": 8
+      },
+      {
+        "r": "REV.2.9",
+        "v": 8
+      },
+      {
+        "r": "1TH.3.6-9",
+        "v": 7
+      },
+      {
+        "r": "PHP.2.27",
+        "v": 7
+      },
+      {
+        "r": "1TH.2.19-20",
+        "v": 7
+      },
+      {
+        "r": "3JN.1.3-6",
+        "v": 7
+      },
+      {
+        "r": "2TH.2.13",
+        "v": 4
+      }
+    ],
     "section": null
   },
   "3JN.1.3": {
@@ -27,9 +115,48 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Joh 4",
-        "refs": []
+        "r": "2JN.1.4",
+        "v": 10
+      },
+      {
+        "r": "2JN.1.2",
+        "v": 6
+      },
+      {
+        "r": "1TH.3.6-9",
+        "v": 6
+      },
+      {
+        "r": "3JN.1.4",
+        "v": 5
+      },
+      {
+        "r": "1TH.2.19-20",
+        "v": 5
+      },
+      {
+        "r": "ROM.1.8-9",
+        "v": 5
+      },
+      {
+        "r": "PSA.119.11",
+        "v": 5
+      },
+      {
+        "r": "2CO.7.6-7",
+        "v": 5
+      },
+      {
+        "r": "EPH.1.15-16",
+        "v": 4
+      },
+      {
+        "r": "COL.1.7-8",
+        "v": 4
+      },
+      {
+        "r": "PHP.1.4",
+        "v": 4
       }
     ],
     "section": "Hjelp til utsendingene"
@@ -37,19 +164,166 @@
   "3JN.1.4": {
     "text": "Ikke noe gleder meg mer enn å høre at mine barn lever i sannheten.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GAL.4.19",
+        "v": 13
+      },
+      {
+        "r": "PRO.23.24",
+        "v": 10
+      },
+      {
+        "r": "2TI.1.2",
+        "v": 10
+      },
+      {
+        "r": "1TI.1.2",
+        "v": 10
+      },
+      {
+        "r": "2KI.20.3",
+        "v": 8
+      },
+      {
+        "r": "1KI.2.4",
+        "v": 7
+      },
+      {
+        "r": "GAL.2.14",
+        "v": 7
+      },
+      {
+        "r": "PHM.1.10",
+        "v": 6
+      },
+      {
+        "r": "1KI.3.6",
+        "v": 6
+      },
+      {
+        "r": "JHN.12.35-36",
+        "v": 6
+      },
+      {
+        "r": "ISA.8.18",
+        "v": 5
+      },
+      {
+        "r": "PSA.26.1-3",
+        "v": 5
+      },
+      {
+        "r": "1CO.4.14-15",
+        "v": 3
+      },
+      {
+        "r": "ISA.38.3",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "3JN.1.5": {
     "text": "Min kjære, du er trofast i alt du gjør for våre søsken, også de som er fremmede.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "GAL.6.10",
+        "v": 8
+      },
+      {
+        "r": "LUK.12.42",
+        "v": 4
+      },
+      {
+        "r": "LUK.16.10-12",
+        "v": 4
+      },
+      {
+        "r": "COL.3.17",
+        "v": 4
+      },
+      {
+        "r": "2CO.4.1-3",
+        "v": 3
+      },
+      {
+        "r": "MAT.24.45",
+        "v": 3
+      },
+      {
+        "r": "1PE.4.10-11",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "3JN.1.6": {
     "text": "De har vitnet her i menigheten om din kjærlighet. Du gjør en velgjerning, verdifull for Gud, om du hjelper dem videre på reisen.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "1TH.2.12",
+        "v": 7
+      },
+      {
+        "r": "TIT.3.13",
+        "v": 6
+      },
+      {
+        "r": "ACT.15.3",
+        "v": 6
+      },
+      {
+        "r": "PHM.1.5-7",
+        "v": 5
+      },
+      {
+        "r": "COL.1.10",
+        "v": 4
+      },
+      {
+        "r": "ROM.15.24",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.14",
+        "v": 3
+      },
+      {
+        "r": "ACT.15.29",
+        "v": 2
+      },
+      {
+        "r": "GEN.4.7",
+        "v": 2
+      },
+      {
+        "r": "2CO.1.16",
+        "v": 2
+      },
+      {
+        "r": "MAT.25.21-23",
+        "v": 2
+      },
+      {
+        "r": "ACT.21.5",
+        "v": 2
+      },
+      {
+        "r": "1PE.2.20",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.12",
+        "v": 2
+      },
+      {
+        "r": "JON.4.4",
+        "v": 1
+      }
+    ],
     "section": null
   },
   "3JN.1.7": {
@@ -60,7 +334,56 @@
         "text": "Navnet Jesus."
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "2CO.4.5",
+        "v": 5
+      },
+      {
+        "r": "REV.2.3",
+        "v": 4
+      },
+      {
+        "r": "2KI.5.15-16",
+        "v": 4
+      },
+      {
+        "r": "1CO.9.18",
+        "v": 3
+      },
+      {
+        "r": "2CO.11.7-9",
+        "v": 3
+      },
+      {
+        "r": "2CO.12.13",
+        "v": 3
+      },
+      {
+        "r": "COL.1.24",
+        "v": 3
+      },
+      {
+        "r": "ACT.8.4",
+        "v": 2
+      },
+      {
+        "r": "2KI.5.20-27",
+        "v": 2
+      },
+      {
+        "r": "1CO.9.12-15",
+        "v": 2
+      },
+      {
+        "r": "ACT.9.16",
+        "v": 2
+      },
+      {
+        "r": "ACT.5.41",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "3JN.1.8": {
@@ -68,9 +391,60 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Matt 10,10 . 41 ; Hebr 13,2",
-        "refs": []
+        "r": "1CO.16.10-11",
+        "v": 4
+      },
+      {
+        "r": "1CO.3.5-9",
+        "v": 4
+      },
+      {
+        "r": "PHM.1.24",
+        "v": 3
+      },
+      {
+        "r": "1TH.3.2",
+        "v": 3
+      },
+      {
+        "r": "COL.4.11",
+        "v": 3
+      },
+      {
+        "r": "PHP.4.3",
+        "v": 3
+      },
+      {
+        "r": "2CO.8.23",
+        "v": 3
+      },
+      {
+        "r": "2CO.6.1",
+        "v": 3
+      },
+      {
+        "r": "2CO.7.2-3",
+        "v": 3
+      },
+      {
+        "r": "PHM.1.2",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.10",
+        "v": 2
+      },
+      {
+        "r": "LUK.11.7",
+        "v": 1
+      },
+      {
+        "r": "MAT.10.40",
+        "v": 1
+      },
+      {
+        "r": "MAT.10.14",
+        "v": 1
       }
     ],
     "section": null
@@ -83,13 +457,103 @@
         "text": "noen ord til menigheten et tidligere brev, enten 2 Joh eller et som er gått tapt."
       }
     ],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "TIT.1.7-16",
+        "v": 7
+      },
+      {
+        "r": "LUK.22.24-27",
+        "v": 6
+      },
+      {
+        "r": "LUK.9.48",
+        "v": 5
+      },
+      {
+        "r": "MAT.23.4-8",
+        "v": 5
+      },
+      {
+        "r": "MRK.9.34",
+        "v": 4
+      },
+      {
+        "r": "MAT.10.40-42",
+        "v": 4
+      },
+      {
+        "r": "PHP.2.3-5",
+        "v": 3
+      },
+      {
+        "r": "ROM.12.10",
+        "v": 3
+      },
+      {
+        "r": "MAT.20.20-28",
+        "v": 2
+      },
+      {
+        "r": "MRK.9.37",
+        "v": 2
+      },
+      {
+        "r": "3JN.1.8",
+        "v": 2
+      },
+      {
+        "r": "MRK.10.35-45",
+        "v": 2
+      }
+    ],
     "section": "Diotrefes og Demetrios"
   },
   "3JN.1.10": {
     "text": "Når jeg kommer, skal jeg sørge for at han blir minnet om hva han har gjort! For det onde han sier om oss, er tåpelig. Men han nøyer seg ikke med det. Selv nekter han å ta imot våre søsken, og når andre vil gjøre det, hindrer han dem og støter dem ut av menigheten.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "ISA.66.5",
+        "v": 5
+      },
+      {
+        "r": "PRO.10.10",
+        "v": 4
+      },
+      {
+        "r": "2CO.13.2",
+        "v": 4
+      },
+      {
+        "r": "PRO.10.8",
+        "v": 4
+      },
+      {
+        "r": "LUK.6.22",
+        "v": 4
+      },
+      {
+        "r": "3JN.1.5",
+        "v": 2
+      },
+      {
+        "r": "JHN.9.34-35",
+        "v": 2
+      },
+      {
+        "r": "2CO.10.1-11",
+        "v": 2
+      },
+      {
+        "r": "JHN.9.22",
+        "v": 2
+      },
+      {
+        "r": "1CO.5.1-5",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "3JN.1.11": {
@@ -97,9 +561,84 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "1 Joh 3,6 . 9 f",
-        "refs": []
+        "r": "ISA.1.16-17",
+        "v": 27
+      },
+      {
+        "r": "PSA.37.27",
+        "v": 26
+      },
+      {
+        "r": "EPH.5.1",
+        "v": 25
+      },
+      {
+        "r": "1PE.3.11",
+        "v": 22
+      },
+      {
+        "r": "1PE.3.13",
+        "v": 17
+      },
+      {
+        "r": "JHN.3.20",
+        "v": 17
+      },
+      {
+        "r": "PSA.34.14",
+        "v": 16
+      },
+      {
+        "r": "2TI.3.10",
+        "v": 13
+      },
+      {
+        "r": "1JN.2.29",
+        "v": 13
+      },
+      {
+        "r": "1JN.3.6-9",
+        "v": 13
+      },
+      {
+        "r": "EXO.23.2",
+        "v": 12
+      },
+      {
+        "r": "JHN.10.27",
+        "v": 12
+      },
+      {
+        "r": "JHN.12.26",
+        "v": 12
+      },
+      {
+        "r": "1TH.2.14",
+        "v": 11
+      },
+      {
+        "r": "HEB.6.12",
+        "v": 11
+      },
+      {
+        "r": "1TH.1.6",
+        "v": 11
+      },
+      {
+        "r": "PRO.12.11",
+        "v": 10
+      },
+      {
+        "r": "1CO.4.16",
+        "v": 10
+      },
+      {
+        "r": "1CO.11.1",
+        "v": 9
+      },
+      {
+        "r": "PHP.3.17",
+        "v": 8
       }
     ],
     "section": null
@@ -109,9 +648,28 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "Joh 19,35",
-        "refs": []
+        "r": "1TI.3.7",
+        "v": 9
+      },
+      {
+        "r": "JHN.21.24",
+        "v": 8
+      },
+      {
+        "r": "ACT.22.12",
+        "v": 7
+      },
+      {
+        "r": "ACT.10.22",
+        "v": 7
+      },
+      {
+        "r": "JHN.19.35",
+        "v": 6
+      },
+      {
+        "r": "1TH.4.12",
+        "v": 4
       }
     ],
     "section": null
@@ -121,9 +679,8 @@
     "footnotes": [],
     "xrefs": [
       {
-        "marker": "#",
-        "text": "2 Joh 12",
-        "refs": []
+        "r": "2JN.1.12",
+        "v": 6
       }
     ],
     "section": "Sluttord"
@@ -131,13 +688,43 @@
   "3JN.1.14": {
     "text": "For jeg håper å besøke deg snart, så vi kan snakke sammen ansikt til ansikt.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "DAN.4.1",
+        "v": 2
+      },
+      {
+        "r": "GEN.43.23",
+        "v": 2
+      },
+      {
+        "r": "1PE.5.14",
+        "v": 2
+      },
+      {
+        "r": "GAL.5.16",
+        "v": 2
+      },
+      {
+        "r": "EPH.6.23",
+        "v": 2
+      },
+      {
+        "r": "ROM.16.1-16",
+        "v": 2
+      }
+    ],
     "section": null
   },
   "3JN.1.15": {
     "text": "Fred være med deg! Vennene her sender deg sin hilsen. Hils selv vennene, hver enkelt av dem.",
     "footnotes": [],
-    "xrefs": [],
+    "xrefs": [
+      {
+        "r": "JHN.10.3",
+        "v": 2
+      }
+    ],
     "section": null
   }
 }
