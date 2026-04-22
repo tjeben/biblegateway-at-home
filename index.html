@@ -3598,17 +3598,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (aiDiffState && (aiDiffState.loading || aiDiffState.findingMostDifferent)) return;
         const label = (mainData && mainData[0] && mainData[0].label) || lastQuery;
         if (!label) { showToast('Ingen referanse å sammenligne'); return; }
+        // Nullstill tidligere markeringer og diff-tekst
         aiDiffState = { findingMostDifferent: true };
         aiHighlights = null;
         renderAll();
+
+        // Den aktive versjonen er "main" — håndterer også Alle-modus
+        const mainV = versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value;
+
         try {
             const resp = await fetch('/api/ai_most_different', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    label,
-                    current_version: versionLabel(versionSelect.value),
-                })
+                body: JSON.stringify({ label, current_version: mainV })
             });
             const data = await resp.json();
             if (data.error) {
@@ -3616,20 +3618,26 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 renderAll();
                 return;
             }
-            // Finn versjonen KI nevner, bytt og hent data
-            const allVersions = Array.from(document.getElementById('versionSelect').options).map(o => o.value);
-            const found = allVersions.find(v => data.result.includes(v) || data.result.includes(versionLabel(v)));
-            if (found && found !== versionSelect.value) {
-                compareVersionSelect.value = found;
+
+            // Bytt til den anbefalte sammenligningsversjonen
+            const targetVersion = data.version;
+            if (targetVersion && targetVersion !== mainV) {
+                compareVersionSelect.value = targetVersion;
                 if (!compareMode) compareMode = true;
-                await fetchCompareData(lastQuery);
+                if (versionSelect.value === 'Alle') {
+                    await fetchAlleMainAndCompare(lastQuery);
+                } else {
+                    await fetchCompareData(lastQuery);
+                }
             }
-            aiDiffState = { text: data.result };
-            // Automatisk hent frase-markeringer for den nye sammenligningen
-            aiHighlights = { loading: true };
-            renderAll();
-            const hl = await fetchHighlightsFor(mainData, compareData);
-            aiHighlights = hl && (hl.v1.length || hl.v2.length) ? hl : null;
+
+            // Sett forklaring + anvend KI-uthevinger direkte (ingen ekstra kall)
+            aiDiffState = { text: data.explanation || '' };
+            const v1 = data.current_highlights || [];
+            const v2 = data.other_highlights || [];
+            if (v1.length || v2.length) {
+                aiHighlights = { v1, v2 };
+            }
         } catch {
             aiDiffState = { error: 'Kunne ikke koble til serveren.' };
         }

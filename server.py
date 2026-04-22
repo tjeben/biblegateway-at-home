@@ -1159,26 +1159,62 @@ Regler:
                 return
 
             current_text = all_texts[current]
-            others_list = [f"{k}: {v}" for k, v in all_texts.items() if k != current]
+            other_versions = [k for k in all_texts if k != current]
+            others_list = [f"{k}: {all_texts[k]}" for k in other_versions]
             user_prompt = (
                 f"REFERANSE: {label}\n\n"
                 f"VALGT VERSJON ({current}): {current_text}\n\n"
                 f"ANDRE VERSJONER:\n" + "\n".join(others_list)
             )
             system_prompt = (
-                f"Du er en bibelforsker. Sammenlign teksten i den valgte versjonen "
-                f"({current}) med alle andre versjoner, og identifiser hvilken "
-                f"versjon som er MEST ULIK.\n\n"
-                f"Returner svaret EKSAKT på dette formatet (én sammenhengende setning):\n"
-                f"Versjonen med de største ulikhetene fra {current} er {{versjonsnavn}}: "
-                f"{{kort beskrivelse av hovedforskjellene i 1-2 setninger, nevn konkrete ord eller uttrykk}}.\n\n"
-                f"Ikke skriv noe annet. Ingen innledning, ingen etterord. Bare denne ene setningen."
+                "Du er en bibelforsker. Sammenlign den valgte versjonen med alle andre, "
+                "og identifiser hvilken versjon som er MEST ULIK fra den valgte.\n\n"
+                "Returner KUN gyldig JSON på dette formatet:\n"
+                '{"version": "VERSJONSNAVN", "explanation": "kort forklaring 1-2 setninger", '
+                '"current_highlights": ["frase i valgt versjon", ...], '
+                '"other_highlights": ["frase i den ulike versjonen", ...]}\n\n'
+                f"- version MÅ være EKSAKT en av: {', '.join(other_versions)}\n"
+                "- current_highlights: 1-3 korte fraser (1-4 ord) fra den VALGTE versjonen "
+                "som er meningsforskjellige. Frasene MÅ stå eksakt slik i teksten.\n"
+                "- other_highlights: tilsvarende 1-3 korte fraser fra den ulike versjonen.\n"
+                "- Hopp over synonymer og stilforskjeller — kun meningsforskjell.\n\n"
+                "Ingen innledning, ingen etterord. Bare JSON."
             )
             sys.stderr.write(f"[{self.log_date_time_string()}] ai_most_different: {label} (current={current})\n")
             sys.stderr.flush()
             try:
-                result = gemini_request(api_key, user_prompt, system_prompt, max_tokens=400)
-                self._send_json({"result": result})
+                raw = gemini_request(api_key, user_prompt, system_prompt, max_tokens=500)
+                cleaned = raw.strip()
+                if cleaned.startswith("```"):
+                    cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else cleaned
+                    if cleaned.endswith("```"):
+                        cleaned = cleaned.rsplit("\n", 1)[0]
+                    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+                try:
+                    parsed = json.loads(cleaned)
+                    version = parsed.get("version", "").strip()
+                    # Valider at version er i listen
+                    if version not in other_versions:
+                        # Forsøk å matche via case-insensitive
+                        version_lc = version.lower()
+                        match = next((v for v in other_versions if v.lower() == version_lc), None)
+                        if match:
+                            version = match
+                        else:
+                            sys.stderr.write(f"[{self.log_date_time_string()}] ai_most_different: ukjent versjon '{version}' — rå: {raw[:200]}\n")
+                            sys.stderr.flush()
+                    self._send_json({
+                        "version": version,
+                        "explanation": parsed.get("explanation", ""),
+                        "current_highlights": parsed.get("current_highlights", []),
+                        "other_highlights": parsed.get("other_highlights", []),
+                        # Behold 'result' for bakoverkompatibilitet
+                        "result": parsed.get("explanation", ""),
+                    })
+                except Exception as parse_err:
+                    sys.stderr.write(f"[{self.log_date_time_string()}] ai_most_different parse-feil: {parse_err} — rå: {raw[:200]}\n")
+                    sys.stderr.flush()
+                    self._send_json({"error": "KI returnerte ugyldig format", "raw": raw}, 500)
             except Exception as e:
                 sys.stderr.write(f"[{self.log_date_time_string()}] ai_most_different FEIL: {e}\n")
                 sys.stderr.flush()
