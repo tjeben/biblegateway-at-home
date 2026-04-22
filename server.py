@@ -1359,12 +1359,13 @@ Regler:
                 result = gemini_request(
                     api_key,
                     f"Vers: {label}\nTekst: {text}",
-                    "Du er en bibelforsker. Identifiser 3 sentrale tema i dette bibelverset. "
-                    "For hvert tema, gi et kort tema-navn (1-3 ord) og et PRESIST norsk søkeord "
+                    "Du er en bibelforsker. Identifiser 5 sentrale tema/nøkkelbegreper i dette bibelverset. "
+                    "For hvert tema, gi et kort tema-navn (1-3 ord) og et PRESIST norsk søkeord/frase "
                     "(1-3 ord, bøyd form som faktisk finnes i norske bibeloversettelser) som vil finne "
-                    "andre vers med samme tema.\n\n"
-                    "Returner KUN gyldig JSON på denne formen, uten kommentarer:\n"
-                    '[{"name": "Tema 1", "search": "søkeord"}, {"name": "Tema 2", "search": "søkeord"}, {"name": "Tema 3", "search": "søkeord"}]\n\n'
+                    "andre vers med samme tema. Ikke inkluder anførselstegn rundt søkeordet — "
+                    "bare selve ordene, klienten legger til anførselstegn selv.\n\n"
+                    "Returner KUN gyldig JSON-array med 5 elementer, uten kommentarer:\n"
+                    '[{"name": "Tema 1", "search": "søkeord"}, {"name": "Tema 2", "search": "søkeord"}, ...]\n\n'
                     "Ingen innledning, ingen etterord. Bare JSON-arrayet.",
                     max_tokens=300,
                 )

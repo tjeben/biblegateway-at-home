@@ -514,10 +514,18 @@
             font-weight: 700;
             font-size: 0.95rem;
             color: var(--accent);
-            margin-bottom: 6px;
+            margin-bottom: 8px;
+            padding-top: 14px;
+            border-top: 1px solid var(--border);
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+        }
+        .all-versions-block .version-label:first-child {
+            padding-top: 0;
+            border-top: none;
         }
         .all-versions-block .verse-text {
-            margin-bottom: 16px;
+            margin-bottom: 18px;
         }
         .all-versions-block .verse-text:last-child { margin-bottom: 0; }
 
@@ -943,6 +951,145 @@
         .theme-section-meta {
             font-size: 0.78rem;
             color: var(--text-muted);
+        }
+
+        /* Tema-modus-velger */
+        .theme-mode-bar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+        .theme-mode-label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+        .theme-mode-btn {
+            padding: 5px 12px;
+            border-radius: 999px;
+            border: 1.5px solid var(--border);
+            background: var(--card-bg);
+            color: var(--text);
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .theme-mode-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        .theme-mode-btn:hover:not(.active) {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* Tema-piller (toggleable) */
+        .theme-pills {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+        .theme-pill {
+            padding: 6px 14px;
+            border-radius: 999px;
+            border: 1.5px solid rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.45);
+            background: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.05);
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 0.86rem;
+            font-weight: 600;
+            transition: all 0.18s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .theme-pill-dot {
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.35);
+            transition: background 0.18s;
+        }
+        .theme-pill:hover {
+            border-color: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.7);
+        }
+        .theme-pill.active {
+            background: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.85);
+            color: white;
+            border-color: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.95);
+        }
+        .theme-pill.active .theme-pill-dot {
+            background: white;
+        }
+        .theme-pill:active { transform: scale(0.96); }
+
+        /* Popover: vers i en bok for et tema */
+        .theme-verse-popover {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+            padding: 10px;
+            z-index: 400;
+            width: 300px;
+            max-width: calc(100vw - 20px);
+            max-height: 320px;
+            overflow-y: auto;
+            animation: popoverOpen 170ms cubic-bezier(.2, .8, .2, 1);
+            transform-origin: top center;
+        }
+        .theme-verse-popover-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            padding: 4px 4px 10px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 6px;
+        }
+        .theme-verse-popover-title {
+            padding-left: 8px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--text);
+            letter-spacing: 0.2px;
+        }
+        .theme-verse-popover-close {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.4rem;
+            cursor: pointer;
+            padding: 0 8px;
+            line-height: 1;
+        }
+        .theme-verse-popover-list {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .theme-verse-item {
+            padding: 8px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .theme-verse-item:hover { background: rgba(168,50,50,0.07); }
+        .theme-verse-item-ref {
+            font-weight: 700;
+            color: var(--accent);
+            font-size: 0.82rem;
+            margin-bottom: 3px;
+        }
+        .theme-verse-item-text {
+            font-size: 0.85rem;
+            color: var(--text);
+            line-height: 1.4;
         }
 
         /* AI-genererte referanser */
@@ -2183,12 +2330,45 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ── AI: Tema-kart ──
     const THEME_COLORS = [
-        { base: '168, 50, 50',  name: 'rød' },   // accent
-        { base: '201, 151, 46', name: 'gyllen' }, // gold
-        { base: '70, 120, 130', name: 'teal' },   // muted teal
+        { base: '168, 50, 50',  name: 'rød' },
+        { base: '201, 151, 46', name: 'gyllen' },
+        { base: '70, 120, 130', name: 'teal' },
+        { base: '110, 70, 130', name: 'lilla' },
+        { base: '85, 120, 60',  name: 'oliven' },
     ];
 
-    function buildThemeMapHtml(counts, colorRgb) {
+    let themeMapState = null;
+
+    function themeSearchVersion() {
+        if (!themeMapState) return versionSelect.value;
+        if (themeMapState.useAllVersions) return 'Alle';
+        const v = versionSelect.value;
+        return v === 'Alle' ? (alleMainVersion || 'NB88') : v;
+    }
+
+    async function runActiveThemeSearches() {
+        if (!themeMapState) return;
+        const version = themeSearchVersion();
+        const active = themeMapState.themes.filter(t => t.active && !t.counts);
+        if (active.length === 0) return;
+        const responses = await Promise.all(active.map(t => {
+            const q = `"${t.search}"`;
+            return fetch(`/api/search?q=${encodeURIComponent(q)}&version=${encodeURIComponent(version)}`)
+                .then(r => r.json()).catch(() => ({ results: [] }));
+        }));
+        active.forEach((t, i) => {
+            const s = responses[i];
+            const counts = s.book_totals || {};
+            if (Object.keys(counts).length === 0 && s.results) {
+                s.results.forEach(r => { counts[r.book] = (counts[r.book] || 0) + 1; });
+            }
+            t.counts = counts;
+            t.results = s.results || [];
+            t.total = Object.values(counts).reduce((a, b) => a + b, 0);
+        });
+    }
+
+    function buildThemeMapCellsHtml(counts, colorRgb, themeIdx) {
         const values = Object.values(counts).filter(v => v > 0);
         if (values.length === 0) return '<div style="font-size:0.85rem;color:var(--text-muted);padding:6px 2px;">Ingen treff.</div>';
         const maxCount = Math.max(...values);
@@ -2201,13 +2381,65 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const strong = intensity > 0.55 ? ' strong' : '';
             const name = (booksData.find(b=>b.code===code)||{}).name || code;
             return `<div class="bible-map-cell${strong}" style="background:rgba(${colorRgb},${alpha.toFixed(2)});"
-                onclick="mapJumpToBook('${escAttr(code)}')" title="${escAttr(name)}: ${c}">
+                onclick="event.stopPropagation(); showThemeVerseList(${themeIdx}, '${escAttr(code)}', this)"
+                title="${escAttr(name)}: ${c}">
                 <span>${escHtml(short)}</span>
                 <span class="bible-map-cell-count">${c}</span>
             </div>`;
         }
         return `<div class="bible-map-grid ot">${OT_CODES.map(cell).join('')}</div>
                 <div class="bible-map-grid nt" style="margin-top:6px;">${NT_CODES.map(cell).join('')}</div>`;
+    }
+
+    function renderThemeMap() {
+        const host = document.getElementById('aiThemeHost');
+        if (!host || !themeMapState) return;
+        const body = host.querySelector('.ai-panel-body');
+        const currentLabel = versionLabel(versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value);
+
+        let html = `<div class="theme-mode-bar">
+            <span class="theme-mode-label">Søk i:</span>
+            <button class="theme-mode-btn${!themeMapState.useAllVersions ? ' active' : ''}" onclick="setThemeMode(false)">${escHtml(currentLabel)}</button>
+            <button class="theme-mode-btn${themeMapState.useAllVersions ? ' active' : ''}" onclick="setThemeMode(true)">Alle versjoner</button>
+        </div>`;
+
+        html += `<div class="theme-pills">`;
+        themeMapState.themes.forEach((t, i) => {
+            const total = t.total != null ? ` (${t.total})` : '';
+            html += `<button class="theme-pill${t.active ? ' active' : ''}"
+                style="--pill-r:${t.color.base.split(',')[0].trim()};--pill-g:${t.color.base.split(',')[1].trim()};--pill-b:${t.color.base.split(',')[2].trim()};"
+                onclick="toggleTheme(${i})">
+                <span class="theme-pill-dot"></span>${escHtml(t.name)}${total}
+            </button>`;
+        });
+        html += `</div>`;
+
+        html += `<div class="theme-maps">`;
+        let anyActive = false;
+        themeMapState.themes.forEach((t, i) => {
+            if (!t.active) return;
+            anyActive = true;
+            if (t.counts == null) {
+                html += `<div class="theme-section">
+                    <div class="theme-section-header" style="border-left:4px solid rgba(${t.color.base},0.85);">
+                        <span class="theme-section-name">${escHtml(t.name)}</span>
+                        <span class="theme-section-meta">Laster…</span>
+                    </div></div>`;
+                return;
+            }
+            html += `<div class="theme-section">
+                <div class="theme-section-header" style="border-left:4px solid rgba(${t.color.base},0.85);">
+                    <span class="theme-section-name">${escHtml(t.name)}</span>
+                    <span class="theme-section-meta">«${escHtml(t.search)}» — ${t.total} treff</span>
+                </div>
+                <div class="theme-section-map">${buildThemeMapCellsHtml(t.counts, t.color.base, i)}</div>
+            </div>`;
+        });
+        if (!anyActive) {
+            html += `<div style="color:var(--text-muted);padding:12px 2px;font-size:0.9rem;">Ingen tema valgt — klikk en pille over for å aktivere.</div>`;
+        }
+        html += `</div>`;
+        body.innerHTML = html;
     }
 
     window.openThemeMap = async function(btn) {
@@ -2220,13 +2452,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const origLabel = btn.textContent;
         btn.textContent = '🎨 Analyserer…';
 
-        // Placeholder-host så bruker ser at det skjer noe
         const host = document.createElement('div');
         host.id = 'aiThemeHost';
         host.className = 'bible-map-wrap';
         host.style.marginTop = '20px';
         host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header">
-            <span class="ai-panel-title">🎨 Tema-kart</span>
+            <span class="ai-panel-title">🎨 Tema-kart — ${escHtml(label)}</span>
             <button class="card-action-btn" onclick="closeVizHost('aiThemeHost')">Lukk</button>
         </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer tema…</div></div></div>`;
         resultsWrapper.appendChild(host);
@@ -2243,50 +2474,103 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 host.querySelector('.ai-panel-body').innerHTML = `<div style="color:var(--error);">${escHtml(data.error)}</div>`;
                 return;
             }
-            const themes = (data.themes || []).slice(0, 3);
-            if (themes.length === 0) {
+            const rawThemes = (data.themes || []).slice(0, 5);
+            if (rawThemes.length === 0) {
                 host.querySelector('.ai-panel-body').innerHTML = `<div style="color:var(--text-muted);">Fant ingen tema.</div>`;
                 return;
             }
 
-            // Kjør tekstsøk for hvert tema i parallell
-            const version = versionSelect.value;
-            const searches = await Promise.all(themes.map(t =>
-                fetch(`/api/search?q=${encodeURIComponent(t.search)}&version=${encodeURIComponent(version)}`)
-                    .then(r => r.json()).catch(() => ({ results: [] }))
-            ));
-
-            // Bygg bookTotals per tema
-            const themeResults = themes.map((t, i) => {
-                const s = searches[i];
-                const counts = s.book_totals || {};
-                // Fallback: hvis ingen book_totals, beregn fra results
-                if (Object.keys(counts).length === 0 && s.results) {
-                    s.results.forEach(r => { counts[r.book] = (counts[r.book] || 0) + 1; });
-                }
-                const total = Object.values(counts).reduce((a,b) => a + b, 0);
-                return { ...t, counts, total, color: THEME_COLORS[i % THEME_COLORS.length] };
-            });
-
-            // Render
-            let body = `<div style="display:flex;flex-direction:column;gap:14px;">`;
-            themeResults.forEach((tr, i) => {
-                body += `<div class="theme-section">
-                    <div class="theme-section-header" style="border-left:4px solid rgba(${tr.color.base},0.85);">
-                        <span class="theme-section-name">${escHtml(tr.name)}</span>
-                        <span class="theme-section-meta">«${escHtml(tr.search)}» — ${tr.total} treff</span>
-                    </div>
-                    <div class="theme-section-map">${buildThemeMapHtml(tr.counts, tr.color.base)}</div>
-                </div>`;
-            });
-            body += `</div>`;
-            host.querySelector('.ai-panel-body').innerHTML = body;
+            themeMapState = {
+                label, text,
+                useAllVersions: false,
+                themes: rawThemes.map((t, i) => ({
+                    name: t.name, search: t.search, active: true,
+                    color: THEME_COLORS[i % THEME_COLORS.length],
+                    counts: null, results: null, total: null,
+                })),
+            };
+            renderThemeMap();
+            await runActiveThemeSearches();
+            renderThemeMap();
         } catch {
             host.querySelector('.ai-panel-body').innerHTML = `<div style="color:var(--error);">Kunne ikke koble til serveren.</div>`;
         } finally {
             btn.disabled = false;
             btn.textContent = origLabel;
         }
+    };
+
+    window.toggleTheme = async function(idx) {
+        if (!themeMapState) return;
+        const t = themeMapState.themes[idx];
+        t.active = !t.active;
+        renderThemeMap();
+        if (t.active && t.counts == null) {
+            await runActiveThemeSearches();
+            renderThemeMap();
+        }
+    };
+
+    window.setThemeMode = async function(useAll) {
+        if (!themeMapState || themeMapState.useAllVersions === useAll) return;
+        themeMapState.useAllVersions = useAll;
+        // Tøm cache — refetche for aktive tema
+        themeMapState.themes.forEach(t => { t.counts = null; t.results = null; t.total = null; });
+        renderThemeMap();
+        await runActiveThemeSearches();
+        renderThemeMap();
+    };
+
+    window.showThemeVerseList = function(themeIdx, bookCode, anchorEl) {
+        if (!themeMapState) return;
+        const theme = themeMapState.themes[themeIdx];
+        if (!theme || !theme.results) return;
+        const verses = theme.results.filter(r => r.book === bookCode);
+        if (verses.length === 0) return;
+
+        document.querySelectorAll('.theme-verse-popover').forEach(p => p.remove());
+
+        const pop = document.createElement('div');
+        pop.className = 'theme-verse-popover';
+        pop.style.setProperty('--theme-color', theme.color.base);
+        const bName = (booksData.find(b => b.code === bookCode) || {}).name || bookCode;
+        let html = `<div class="theme-verse-popover-header">
+            <span class="theme-verse-popover-title" style="border-left:3px solid rgba(${theme.color.base},0.85);">${escHtml(bName)} — ${verses.length} treff</span>
+            <button class="theme-verse-popover-close" onclick="this.closest('.theme-verse-popover').remove()">×</button>
+        </div>
+        <div class="theme-verse-popover-list">`;
+        verses.forEach(v => {
+            html += `<div class="theme-verse-item" onclick="navigateToRef('${escAttr(v.ref)}'); document.querySelectorAll('.theme-verse-popover').forEach(p=>p.remove());">
+                <div class="theme-verse-item-ref">${escHtml(v.ref)}</div>
+                <div class="theme-verse-item-text">${highlightWords(escHtml(v.text), theme.search)}</div>
+            </div>`;
+        });
+        html += `</div>`;
+        pop.innerHTML = html;
+
+        // Midlertidig på document.body for å kunne måle bredden
+        pop.style.position = 'fixed';
+        pop.style.visibility = 'hidden';
+        document.body.appendChild(pop);
+        const popRect = pop.getBoundingClientRect();
+        const rect = anchorEl.getBoundingClientRect();
+        const idealLeft = rect.left + rect.width / 2 - popRect.width / 2;
+        const left = Math.max(10, Math.min(window.innerWidth - popRect.width - 10, idealLeft));
+        let top = rect.top - popRect.height - 10;
+        if (top < 10) top = rect.bottom + 10;  // flip under hvis ikke plass over
+        pop.style.left = left + 'px';
+        pop.style.top = top + 'px';
+        pop.style.visibility = '';
+
+        setTimeout(() => {
+            const handler = (e) => {
+                if (!pop.contains(e.target) && !anchorEl.contains(e.target)) {
+                    pop.remove();
+                    document.removeEventListener('click', handler);
+                }
+            };
+            document.addEventListener('click', handler);
+        }, 50);
     };
 
     // ── AI: Generer kryssreferanser ──
