@@ -9,116 +9,9 @@
     ],
     "xrefs": [
       {
-        "r": "EZR.2.2",
-        "v": 6
-      },
-      {
-        "r": "EZR.3.8",
-        "v": 5
-      },
-      {
-        "r": "EZR.3.2",
-        "v": 5
-      },
-      {
-        "r": "HAG.2.10",
-        "v": 4
-      },
-      {
-        "r": "HAG.1.12",
-        "v": 4
-      },
-      {
-        "r": "NEH.7.7",
-        "v": 4
-      },
-      {
-        "r": "EZR.6.14",
-        "v": 3
-      },
-      {
-        "r": "HAG.1.14",
-        "v": 3
-      },
-      {
-        "r": "MAT.1.12-13",
-        "v": 3
-      },
-      {
-        "r": "HAG.2.20-ZEC.1.1",
-        "v": 2
-      },
-      {
-        "r": "1CH.3.19",
-        "v": 2
-      },
-      {
-        "r": "1CH.3.17",
-        "v": 2
-      },
-      {
-        "r": "NEH.8.9",
-        "v": 2
-      },
-      {
-        "r": "EZR.2.63",
-        "v": 2
-      },
-      {
-        "r": "HAG.2.1-2",
-        "v": 2
-      },
-      {
-        "r": "NEH.5.14",
-        "v": 2
-      },
-      {
-        "r": "NEH.12.10",
-        "v": 2
-      },
-      {
-        "r": "1CH.6.14-15",
-        "v": 2
-      },
-      {
-        "r": "EZR.4.2",
-        "v": 2
-      },
-      {
-        "r": "2KI.14.25",
-        "v": 2
-      },
-      {
-        "r": "NEH.12.1",
-        "v": 2
-      },
-      {
-        "r": "EZR.4.24-5.3",
-        "v": 2
-      },
-      {
-        "r": "EZR.1.8",
-        "v": 2
-      },
-      {
-        "r": "ZEC.4.6-10",
-        "v": 2
-      },
-      {
-        "r": "1KI.14.18",
-        "v": 2
-      },
-      {
-        "r": "HAG.2.4",
-        "v": 2
-      },
-      {
-        "r": "LUK.3.27",
-        "v": 1
-      },
-      {
-        "r": "EXO.4.13",
-        "v": 0
+        "marker": "#",
+        "text": "Esra 5,1 f; 6,14 ; Sak 1,1",
+        "refs": []
       }
     ],
     "section": "Tempelet skal bygges opp"
@@ -126,59 +19,13 @@
   "HAG.1.2": {
     "text": "Så sier Herren over hærskarene: Dette folket sier: «Tiden er ikke kommet, tiden for å bygge Herrens hus.»",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "EZR.4.23-5.2",
-        "v": 6
-      },
-      {
-        "r": "NEH.4.10",
-        "v": 5
-      },
-      {
-        "r": "ECC.9.10",
-        "v": 3
-      },
-      {
-        "r": "SNG.5.2-3",
-        "v": 2
-      },
-      {
-        "r": "NUM.13.31",
-        "v": 2
-      },
-      {
-        "r": "ECC.11.4",
-        "v": 2
-      },
-      {
-        "r": "PRO.26.13-16",
-        "v": 1
-      },
-      {
-        "r": "PRO.29.25",
-        "v": 1
-      },
-      {
-        "r": "PRO.22.13",
-        "v": 0
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.1.3": {
     "text": "Da kom Herrens ord gjennom profeten Haggai:",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "EZR.5.1",
-        "v": 4
-      },
-      {
-        "r": "ZEC.1.1",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.1.4": {
@@ -186,80 +33,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "2SA.7.2",
-        "v": 13
-      },
-      {
-        "r": "PSA.132.3-5",
-        "v": 10
-      },
-      {
-        "r": "PHP.2.21",
-        "v": 7
-      },
-      {
-        "r": "HAG.1.9",
-        "v": 6
-      },
-      {
-        "r": "MAT.6.33",
-        "v": 5
-      },
-      {
-        "r": "JER.52.13",
-        "v": 4
-      },
-      {
-        "r": "LAM.4.1",
-        "v": 4
-      },
-      {
-        "r": "DAN.9.17-18",
-        "v": 3
-      },
-      {
-        "r": "MIC.3.12",
-        "v": 3
-      },
-      {
-        "r": "JER.26.18",
-        "v": 2
-      },
-      {
-        "r": "JER.33.12",
-        "v": 2
-      },
-      {
-        "r": "JER.26.6",
-        "v": 2
-      },
-      {
-        "r": "JER.33.10",
-        "v": 2
-      },
-      {
-        "r": "PSA.102.14",
-        "v": 2
-      },
-      {
-        "r": "LAM.2.7",
-        "v": 2
-      },
-      {
-        "r": "PSA.74.7",
-        "v": 2
-      },
-      {
-        "r": "EZK.24.21",
-        "v": 1
-      },
-      {
-        "r": "MAT.24.1-2",
-        "v": 1
-      },
-      {
-        "r": "DAN.9.26-27",
-        "v": 1
+        "marker": "#",
+        "text": "2 Sam 7,2 ; 2 Kong 25,8 ff",
+        "refs": []
       }
     ],
     "section": null
@@ -267,60 +43,7 @@
   "HAG.1.5": {
     "text": "Men nå sier Herren over hærskarene: Gi akt på deres veier!",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "LAM.3.40",
-        "v": 12
-      },
-      {
-        "r": "2CO.13.5",
-        "v": 10
-      },
-      {
-        "r": "HAG.1.7",
-        "v": 6
-      },
-      {
-        "r": "HAG.2.15-18",
-        "v": 6
-      },
-      {
-        "r": "LUK.15.17",
-        "v": 4
-      },
-      {
-        "r": "GAL.6.4",
-        "v": 2
-      },
-      {
-        "r": "EXO.9.21",
-        "v": 2
-      },
-      {
-        "r": "EZK.18.28",
-        "v": 1
-      },
-      {
-        "r": "EZK.40.4",
-        "v": 1
-      },
-      {
-        "r": "EXO.7.23",
-        "v": 1
-      },
-      {
-        "r": "DAN.10.12",
-        "v": 1
-      },
-      {
-        "r": "DAN.6.14",
-        "v": 1
-      },
-      {
-        "r": "PSA.48.13",
-        "v": 1
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.1.6": {
@@ -328,96 +51,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "HAG.1.9",
-        "v": 19
-      },
-      {
-        "r": "DEU.28.38-40",
-        "v": 15
-      },
-      {
-        "r": "HOS.4.10",
-        "v": 15
-      },
-      {
-        "r": "MAL.3.9-11",
-        "v": 12
-      },
-      {
-        "r": "HOS.8.7",
-        "v": 12
-      },
-      {
-        "r": "HAG.2.16",
-        "v": 12
-      },
-      {
-        "r": "MAL.2.2",
-        "v": 11
-      },
-      {
-        "r": "ISA.5.10",
-        "v": 8
-      },
-      {
-        "r": "ZEC.8.10",
-        "v": 7
-      },
-      {
-        "r": "ZEC.5.4",
-        "v": 7
-      },
-      {
-        "r": "PSA.107.34",
-        "v": 6
-      },
-      {
-        "r": "JOL.1.10-13",
-        "v": 6
-      },
-      {
-        "r": "JER.14.4",
-        "v": 6
-      },
-      {
-        "r": "LEV.26.26",
-        "v": 6
-      },
-      {
-        "r": "2SA.21.1",
-        "v": 6
-      },
-      {
-        "r": "JER.44.18",
-        "v": 5
-      },
-      {
-        "r": "MIC.6.14-15",
-        "v": 5
-      },
-      {
-        "r": "EZK.4.16-17",
-        "v": 5
-      },
-      {
-        "r": "1KI.17.12",
-        "v": 5
-      },
-      {
-        "r": "JOB.20.28",
-        "v": 5
-      },
-      {
-        "r": "LEV.26.20",
-        "v": 5
-      },
-      {
-        "r": "JOB.20.22",
-        "v": 5
-      },
-      {
-        "r": "AMO.4.6-9",
-        "v": 3
+        "marker": "#",
+        "text": "5 Mos 28,38 ff; Hos 4,10 ; Mi 6,14 f",
+        "refs": []
       }
     ],
     "section": null
@@ -425,178 +61,19 @@
   "HAG.1.7": {
     "text": "Så sier Herren over hærskarene: Gi akt på deres veier!",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "PSA.119.59-60",
-        "v": 11
-      },
-      {
-        "r": "HAG.1.5",
-        "v": 8
-      },
-      {
-        "r": "PHP.3.1",
-        "v": 4
-      },
-      {
-        "r": "ISA.28.10",
-        "v": 0
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.1.8": {
     "text": "Dra opp i fjellet og hent tømmer! Bygg huset, så vil jeg ha glede i det og bli æret, sier Herren.",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "PSA.132.13-14",
-        "v": 9
-      },
-      {
-        "r": "2CH.7.16",
-        "v": 5
-      },
-      {
-        "r": "HAG.2.7",
-        "v": 4
-      },
-      {
-        "r": "2CH.2.8-10",
-        "v": 4
-      },
-      {
-        "r": "HAG.1.2-4",
-        "v": 3
-      },
-      {
-        "r": "EZR.3.7",
-        "v": 3
-      },
-      {
-        "r": "JON.3.1-2",
-        "v": 3
-      },
-      {
-        "r": "1KI.9.3",
-        "v": 3
-      },
-      {
-        "r": "EXO.29.43",
-        "v": 3
-      },
-      {
-        "r": "PSA.87.2-3",
-        "v": 2
-      },
-      {
-        "r": "ZEC.11.1-2",
-        "v": 2
-      },
-      {
-        "r": "ISA.66.11",
-        "v": 2
-      },
-      {
-        "r": "JHN.13.31-32",
-        "v": 2
-      },
-      {
-        "r": "ISA.60.13",
-        "v": 2
-      },
-      {
-        "r": "EZR.6.4",
-        "v": 2
-      },
-      {
-        "r": "MAT.3.8-9",
-        "v": 2
-      },
-      {
-        "r": "ISA.60.7",
-        "v": 2
-      },
-      {
-        "r": "HAG.2.9",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.1.9": {
     "text": "Dere venter mye, men se, det blir lite. Dere får avlingen i hus, men jeg blåser den bort. Hvorfor? sier Herren over hærskarene. Fordi mitt hus ligger i ruiner mens dere har det travelt med deres egne hus.",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "HAG.1.4",
-        "v": 6
-      },
-      {
-        "r": "MAL.2.2",
-        "v": 4
-      },
-      {
-        "r": "REV.3.19",
-        "v": 4
-      },
-      {
-        "r": "HAG.2.16-17",
-        "v": 4
-      },
-      {
-        "r": "ISA.40.7",
-        "v": 3
-      },
-      {
-        "r": "HAG.1.6",
-        "v": 3
-      },
-      {
-        "r": "PSA.77.5-10",
-        "v": 3
-      },
-      {
-        "r": "JOS.7.10-15",
-        "v": 2
-      },
-      {
-        "r": "JOB.10.2",
-        "v": 2
-      },
-      {
-        "r": "1CO.11.30-32",
-        "v": 2
-      },
-      {
-        "r": "2SA.21.1",
-        "v": 2
-      },
-      {
-        "r": "ISA.17.10-11",
-        "v": 2
-      },
-      {
-        "r": "2SA.22.16",
-        "v": 2
-      },
-      {
-        "r": "MAT.10.37-38",
-        "v": 2
-      },
-      {
-        "r": "MAL.3.8-11",
-        "v": 2
-      },
-      {
-        "r": "2KI.19.7",
-        "v": 2
-      },
-      {
-        "r": "REV.2.4",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.1.10": {
@@ -604,32 +81,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "1KI.8.35",
-        "v": 6
-      },
-      {
-        "r": "LEV.26.19",
-        "v": 5
-      },
-      {
-        "r": "DEU.28.23-24",
-        "v": 4
-      },
-      {
-        "r": "1KI.17.1",
-        "v": 4
-      },
-      {
-        "r": "JOL.1.18-20",
-        "v": 3
-      },
-      {
-        "r": "JER.14.1-6",
-        "v": 2
-      },
-      {
-        "r": "HOS.2.9",
-        "v": 2
+        "marker": "#",
+        "text": "3 Mos 26,19 ff; 1 Kong 17,1",
+        "refs": []
       }
     ],
     "section": null
@@ -639,40 +93,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "HAG.2.17",
-        "v": 5
-      },
-      {
-        "r": "DEU.28.22",
-        "v": 4
-      },
-      {
-        "r": "2KI.8.1",
-        "v": 3
-      },
-      {
-        "r": "1KI.17.1",
-        "v": 3
-      },
-      {
-        "r": "JOB.34.29",
-        "v": 2
-      },
-      {
-        "r": "AMO.9.6",
-        "v": 2
-      },
-      {
-        "r": "AMO.5.8",
-        "v": 2
-      },
-      {
-        "r": "LAM.1.21",
-        "v": 2
-      },
-      {
-        "r": "AMO.7.4",
-        "v": 2
+        "marker": "#",
+        "text": "Am 4,9",
+        "refs": []
       }
     ],
     "section": null
@@ -680,72 +103,7 @@
   "HAG.1.12": {
     "text": "Serubabel, Sjealtiels sønn, og øverstepresten Josva, Jehosadaks sønn, og alle som var igjen av folket, hørte på Herren sin Guds røst og på profeten Haggais ord, for Herren deres Gud hadde sendt ham. Og folket fryktet Herren.",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "ISA.50.10",
-        "v": 7
-      },
-      {
-        "r": "EZR.5.2",
-        "v": 5
-      },
-      {
-        "r": "PSA.112.1",
-        "v": 5
-      },
-      {
-        "r": "HAG.1.14",
-        "v": 5
-      },
-      {
-        "r": "PRO.1.7",
-        "v": 4
-      },
-      {
-        "r": "ECC.12.13",
-        "v": 4
-      },
-      {
-        "r": "GEN.22.12",
-        "v": 3
-      },
-      {
-        "r": "HAG.1.1",
-        "v": 3
-      },
-      {
-        "r": "HAG.2.2",
-        "v": 3
-      },
-      {
-        "r": "1TH.1.5-6",
-        "v": 2
-      },
-      {
-        "r": "COL.1.6",
-        "v": 2
-      },
-      {
-        "r": "ISA.55.10-11",
-        "v": 2
-      },
-      {
-        "r": "1TH.2.13-14",
-        "v": 2
-      },
-      {
-        "r": "ACT.9.31",
-        "v": 2
-      },
-      {
-        "r": "HEB.12.28",
-        "v": 2
-      },
-      {
-        "r": "DEU.31.12",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.1.13": {
@@ -753,108 +111,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "ISA.43.2",
-        "v": 7
-      },
-      {
-        "r": "MAT.28.20",
-        "v": 6
-      },
-      {
-        "r": "ROM.8.31",
-        "v": 5
-      },
-      {
-        "r": "ACT.18.9-10",
-        "v": 4
-      },
-      {
-        "r": "HAG.2.4",
-        "v": 4
-      },
-      {
-        "r": "MAL.3.1",
-        "v": 4
-      },
-      {
-        "r": "ISA.41.10",
-        "v": 4
-      },
-      {
-        "r": "PSA.46.11",
-        "v": 4
-      },
-      {
-        "r": "JER.30.11",
-        "v": 3
-      },
-      {
-        "r": "2CH.32.8",
-        "v": 3
-      },
-      {
-        "r": "MAT.1.23",
-        "v": 3
-      },
-      {
-        "r": "PSA.46.7",
-        "v": 3
-      },
-      {
-        "r": "MAL.2.7",
-        "v": 3
-      },
-      {
-        "r": "2CH.20.17",
-        "v": 3
-      },
-      {
-        "r": "JER.20.11",
-        "v": 3
-      },
-      {
-        "r": "JER.15.20",
-        "v": 3
-      },
-      {
-        "r": "MAT.18.20",
-        "v": 3
-      },
-      {
-        "r": "2TI.4.17",
-        "v": 3
-      },
-      {
-        "r": "ISA.44.26",
-        "v": 2
-      },
-      {
-        "r": "EZK.3.17",
-        "v": 2
-      },
-      {
-        "r": "ISA.42.19",
-        "v": 1
-      },
-      {
-        "r": "2CH.15.2",
-        "v": 1
-      },
-      {
-        "r": "ISA.8.8-10",
-        "v": 1
-      },
-      {
-        "r": "2CO.5.20",
-        "v": 1
-      },
-      {
-        "r": "JDG.2.1",
-        "v": 1
-      },
-      {
-        "r": "2TI.4.22",
-        "v": 1
+        "marker": "#",
+        "text": "2,4",
+        "refs": []
       }
     ],
     "section": null
@@ -862,80 +121,7 @@
   "HAG.1.14": {
     "text": "Herren vakte en tanke hos Serubabel, Sjealtiels sønn, stattholderen i Juda, og hos øverstepresten Josva, Jehosadaks sønn, og hos alle som var igjen av folket. Og de kom og arbeidet på huset til Herren over hærskarene, deres Gud,",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "HEB.13.21",
-        "v": 6
-      },
-      {
-        "r": "2CH.36.22",
-        "v": 6
-      },
-      {
-        "r": "EZR.1.1",
-        "v": 5
-      },
-      {
-        "r": "EZR.1.5",
-        "v": 5
-      },
-      {
-        "r": "HAG.1.1",
-        "v": 5
-      },
-      {
-        "r": "HAG.2.21",
-        "v": 5
-      },
-      {
-        "r": "PHP.2.12-13",
-        "v": 4
-      },
-      {
-        "r": "1CH.5.26",
-        "v": 4
-      },
-      {
-        "r": "HAG.2.2",
-        "v": 4
-      },
-      {
-        "r": "EZR.5.2",
-        "v": 4
-      },
-      {
-        "r": "NEH.4.6",
-        "v": 4
-      },
-      {
-        "r": "EZR.5.8",
-        "v": 4
-      },
-      {
-        "r": "PSA.110.3",
-        "v": 3
-      },
-      {
-        "r": "HAG.1.12",
-        "v": 3
-      },
-      {
-        "r": "1CO.15.58",
-        "v": 3
-      },
-      {
-        "r": "2CO.8.16",
-        "v": 3
-      },
-      {
-        "r": "1CO.12.4-11",
-        "v": 3
-      },
-      {
-        "r": "EZR.7.27-28",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.1.15": {
@@ -946,24 +132,7 @@
         "text": "i … regjeringsåret >v. 1."
       }
     ],
-    "xrefs": [
-      {
-        "r": "HAG.1.1",
-        "v": 4
-      },
-      {
-        "r": "HAG.2.10",
-        "v": 2
-      },
-      {
-        "r": "HAG.2.1",
-        "v": 2
-      },
-      {
-        "r": "HAG.2.20",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.1": {
@@ -974,55 +143,13 @@
         "text": "den … dagen mens folket var samlet på den siste dagen av løvhyttefesten. Jf. 3 Mos 23,33 ff. =fester og høytider."
       }
     ],
-    "xrefs": [
-      {
-        "r": "2PE.1.21",
-        "v": 4
-      },
-      {
-        "r": "HAG.2.20",
-        "v": 2
-      },
-      {
-        "r": "HAG.1.1",
-        "v": 2
-      },
-      {
-        "r": "HAG.2.10",
-        "v": 1
-      },
-      {
-        "r": "HAG.1.15",
-        "v": 1
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.2": {
     "text": "Si til Serubabel, Sjealtiels sønn, stattholderen i Juda, og til øverstepresten Josva, Jehosadaks sønn, og til dem som er igjen av folket:",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "HAG.1.1",
-        "v": 4
-      },
-      {
-        "r": "EZR.2.63",
-        "v": 2
-      },
-      {
-        "r": "HAG.1.14",
-        "v": 2
-      },
-      {
-        "r": "EZR.1.8",
-        "v": 2
-      },
-      {
-        "r": "NEH.8.9",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.3": {
@@ -1030,24 +157,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "EZR.3.12",
-        "v": 6
-      },
-      {
-        "r": "LUK.21.5-6",
-        "v": 3
-      },
-      {
-        "r": "HAG.2.9",
-        "v": 2
-      },
-      {
-        "r": "ZEC.4.9-10",
-        "v": 2
-      },
-      {
-        "r": "EZK.7.20",
-        "v": 2
+        "marker": "#",
+        "text": "Esra 3,12",
+        "refs": []
       }
     ],
     "section": null
@@ -1057,72 +169,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "1CH.28.20",
-        "v": 14
-      },
-      {
-        "r": "ZEC.8.9",
-        "v": 8
-      },
-      {
-        "r": "JOS.1.9",
-        "v": 8
-      },
-      {
-        "r": "DEU.31.23",
-        "v": 8
-      },
-      {
-        "r": "2TI.2.1",
-        "v": 6
-      },
-      {
-        "r": "2SA.5.10",
-        "v": 6
-      },
-      {
-        "r": "1CH.22.13",
-        "v": 5
-      },
-      {
-        "r": "HAG.1.13",
-        "v": 4
-      },
-      {
-        "r": "2TI.4.17",
-        "v": 4
-      },
-      {
-        "r": "1CO.16.13",
-        "v": 4
-      },
-      {
-        "r": "EPH.6.10",
-        "v": 4
-      },
-      {
-        "r": "EXO.3.12",
-        "v": 3
-      },
-      {
-        "r": "ACT.7.9",
-        "v": 3
-      },
-      {
-        "r": "MRK.16.20",
-        "v": 3
-      },
-      {
-        "r": "JOS.1.6",
-        "v": 3
-      },
-      {
-        "r": "1SA.16.18",
-        "v": 2
-      },
-      {
-        "r": "JDG.2.18",
-        "v": 2
+        "marker": "#",
+        "text": "1 Krøn 28,10 . 20 ; Hag 1,13",
+        "refs": []
       }
     ],
     "section": null
@@ -1132,84 +181,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "EXO.29.45-46",
-        "v": 10
-      },
-      {
-        "r": "EXO.34.10",
-        "v": 9
-      },
-      {
-        "r": "ISA.41.13",
-        "v": 9
-      },
-      {
-        "r": "NEH.9.20",
-        "v": 8
-      },
-      {
-        "r": "ZEC.8.15",
-        "v": 6
-      },
-      {
-        "r": "EXO.33.12-14",
-        "v": 6
-      },
-      {
-        "r": "ZEC.8.13",
-        "v": 6
-      },
-      {
-        "r": "ACT.27.24",
-        "v": 5
-      },
-      {
-        "r": "REV.1.17",
-        "v": 4
-      },
-      {
-        "r": "PSA.51.11-12",
-        "v": 4
-      },
-      {
-        "r": "ISA.41.10",
-        "v": 4
-      },
-      {
-        "r": "NEH.9.30",
-        "v": 3
-      },
-      {
-        "r": "ZEC.4.6",
-        "v": 3
-      },
-      {
-        "r": "2CH.20.17",
-        "v": 3
-      },
-      {
-        "r": "MAT.28.5",
-        "v": 3
-      },
-      {
-        "r": "ISA.63.11-14",
-        "v": 3
-      },
-      {
-        "r": "NUM.11.25-29",
-        "v": 3
-      },
-      {
-        "r": "EXO.34.8",
-        "v": 3
-      },
-      {
-        "r": "JOS.8.1",
-        "v": 3
-      },
-      {
-        "r": "JHN.14.16-17",
-        "v": 3
+        "marker": "#",
+        "text": "2 Mos 19,5 f; Jes 63,11",
+        "refs": []
       }
     ],
     "section": null
@@ -1219,80 +193,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "HEB.12.26-28",
-        "v": 12
-      },
-      {
-        "r": "ISA.10.25",
-        "v": 8
-      },
-      {
-        "r": "ACT.2.19",
-        "v": 6
-      },
-      {
-        "r": "LUK.21.25-27",
-        "v": 6
-      },
-      {
-        "r": "MRK.13.24-26",
-        "v": 6
-      },
-      {
-        "r": "JOL.2.30-32",
-        "v": 5
-      },
-      {
-        "r": "HAG.2.21-22",
-        "v": 5
-      },
-      {
-        "r": "JOL.3.16",
-        "v": 5
-      },
-      {
-        "r": "EZK.38.20",
-        "v": 4
-      },
-      {
-        "r": "JER.4.23-26",
-        "v": 4
-      },
-      {
-        "r": "MAT.24.29-30",
-        "v": 4
-      },
-      {
-        "r": "ISA.29.17",
-        "v": 4
-      },
-      {
-        "r": "JER.51.33",
-        "v": 3
-      },
-      {
-        "r": "ISA.34.4",
-        "v": 3
-      },
-      {
-        "r": "REV.8.5-12",
-        "v": 3
-      },
-      {
-        "r": "HEB.10.37",
-        "v": 3
-      },
-      {
-        "r": "REV.6.2-17",
-        "v": 2
-      },
-      {
-        "r": "PSA.37.10",
-        "v": 2
-      },
-      {
-        "r": "REV.11.9",
-        "v": 1
+        "marker": "#",
+        "text": "Hebr 12,26 f",
+        "refs": []
       }
     ],
     "section": null
@@ -1302,116 +205,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "MAL.3.1",
-        "v": 12
-      },
-      {
-        "r": "1KI.8.11",
-        "v": 6
-      },
-      {
-        "r": "JHN.7.37-39",
-        "v": 5
-      },
-      {
-        "r": "DAN.2.44-45",
-        "v": 4
-      },
-      {
-        "r": "LUK.2.10-11",
-        "v": 4
-      },
-      {
-        "r": "GEN.49.10",
-        "v": 4
-      },
-      {
-        "r": "LUK.2.46",
-        "v": 3
-      },
-      {
-        "r": "EZK.21.27",
-        "v": 3
-      },
-      {
-        "r": "LUK.2.27",
-        "v": 3
-      },
-      {
-        "r": "GEN.22.18",
-        "v": 3
-      },
-      {
-        "r": "ZEC.9.9-10",
-        "v": 3
-      },
-      {
-        "r": "ISA.60.7",
-        "v": 3
-      },
-      {
-        "r": "PSA.80.1",
-        "v": 2
-      },
-      {
-        "r": "LUK.21.38",
-        "v": 2
-      },
-      {
-        "r": "DAN.7.20-25",
-        "v": 2
-      },
-      {
-        "r": "JHN.2.13-17",
-        "v": 2
-      },
-      {
-        "r": "GAL.3.8",
-        "v": 2
-      },
-      {
-        "r": "JHN.10.23-38",
-        "v": 2
-      },
-      {
-        "r": "LUK.21.10-11",
-        "v": 2
-      },
-      {
-        "r": "ROM.15.9-15",
-        "v": 2
-      },
-      {
-        "r": "JHN.1.14",
-        "v": 2
-      },
-      {
-        "r": "2CH.5.14",
-        "v": 2
-      },
-      {
-        "r": "JOL.3.9-16",
-        "v": 2
-      },
-      {
-        "r": "EXO.40.34-35",
-        "v": 2
-      },
-      {
-        "r": "LUK.19.47",
-        "v": 1
-      },
-      {
-        "r": "LUK.20.1",
-        "v": 1
-      },
-      {
-        "r": "GEN.3.15",
-        "v": 1
-      },
-      {
-        "r": "COL.2.9",
-        "v": 0
+        "marker": "#",
+        "text": "Jes 60,5 ff",
+        "refs": []
       }
     ],
     "section": null
@@ -1419,176 +215,31 @@
   "HAG.2.8": {
     "text": "Mitt er sølvet, mitt er gullet, sier Herren over hærskarene.",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "PSA.50.10-12",
-        "v": 25
-      },
-      {
-        "r": "PSA.24.1",
-        "v": 21
-      },
-      {
-        "r": "ISA.60.17",
-        "v": 12
-      },
-      {
-        "r": "1CH.29.14-16",
-        "v": 12
-      },
-      {
-        "r": "ISA.60.13",
-        "v": 9
-      },
-      {
-        "r": "1KI.6.20-35",
-        "v": 4
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.9": {
     "text": "Dette nye huset skal bli herligere enn det første, sier Herren over hærskarene. På dette stedet skal jeg gi fred, sier Herren over hærskarene.",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "PSA.85.8-9",
-        "v": 18
-      },
-      {
-        "r": "COL.1.19-21",
-        "v": 11
-      },
-      {
-        "r": "2CO.3.9-10",
-        "v": 11
-      },
-      {
-        "r": "PSA.24.7-10",
-        "v": 8
-      },
-      {
-        "r": "ISA.9.6-7",
-        "v": 7
-      },
-      {
-        "r": "1TI.3.16",
-        "v": 7
-      },
-      {
-        "r": "MIC.5.5",
-        "v": 6
-      },
-      {
-        "r": "JHN.14.27",
-        "v": 5
-      },
-      {
-        "r": "ACT.10.36",
-        "v": 5
-      },
-      {
-        "r": "LUK.2.14",
-        "v": 5
-      },
-      {
-        "r": "ISA.57.18-21",
-        "v": 4
-      },
-      {
-        "r": "JAS.2.1",
-        "v": 4
-      },
-      {
-        "r": "JHN.1.14",
-        "v": 4
-      },
-      {
-        "r": "EPH.2.14-17",
-        "v": 3
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.10": {
     "text": "På den tjuefjerde dagen i den niende måneden i det andre regjeringsåret til Dareios kom Herrens ord til profeten Haggai:",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "HAG.2.20",
-        "v": 4
-      },
-      {
-        "r": "HAG.1.1",
-        "v": 3
-      },
-      {
-        "r": "HAG.1.15-2.1",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": "Ny velsignelse fra Herren"
   },
   "HAG.2.11": {
     "text": "Så sier Herren over hærskarene: Spør prestene om veiledning:",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "LEV.10.10-11",
-        "v": 4
-      },
-      {
-        "r": "MAL.2.7",
-        "v": 4
-      },
-      {
-        "r": "DEU.33.10",
-        "v": 3
-      },
-      {
-        "r": "TIT.1.9",
-        "v": 2
-      },
-      {
-        "r": "EZK.44.23-24",
-        "v": 2
-      },
-      {
-        "r": "DEU.17.8-11",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.12": {
     "text": "«Om noen bærer hellig kjøtt i kappefliken og fliken kommer borti brød, kokt mat, vin, olje eller annen føde, blir da dette hellig?» Prestene svarte: «Nei.»",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "LEV.6.27",
-        "v": 5
-      },
-      {
-        "r": "MAT.23.19",
-        "v": 5
-      },
-      {
-        "r": "EZK.44.19",
-        "v": 3
-      },
-      {
-        "r": "LEV.6.29",
-        "v": 3
-      },
-      {
-        "r": "EXO.29.37",
-        "v": 3
-      },
-      {
-        "r": "LEV.7.6",
-        "v": 3
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.13": {
@@ -1596,20 +247,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "NUM.19.11-22",
-        "v": 3
-      },
-      {
-        "r": "NUM.5.2-3",
-        "v": 3
-      },
-      {
-        "r": "NUM.9.6-10",
-        "v": 3
-      },
-      {
-        "r": "LEV.22.4-6",
-        "v": 3
+        "marker": "#",
+        "text": "4 Mos 19,11",
+        "refs": []
       }
     ],
     "section": null
@@ -1617,122 +257,19 @@
   "HAG.2.14": {
     "text": "Haggai tok til orde og sa: Slik er dette folket, og slik er dette folkeslaget for mitt ansikt, sier Herren. Slik er alt de gjør med hendene, og det de bærer fram der: Det er urent.",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "TIT.1.15",
-        "v": 4
-      },
-      {
-        "r": "PRO.28.9",
-        "v": 4
-      },
-      {
-        "r": "HAG.1.4-11",
-        "v": 3
-      },
-      {
-        "r": "ISA.1.11-15",
-        "v": 3
-      },
-      {
-        "r": "PRO.15.8",
-        "v": 3
-      },
-      {
-        "r": "PRO.21.27",
-        "v": 2
-      },
-      {
-        "r": "EZR.3.2-3",
-        "v": 2
-      },
-      {
-        "r": "PRO.21.4",
-        "v": 2
-      },
-      {
-        "r": "JUD.1.23",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.15": {
     "text": "Men nå, gi akt på det som skjer fra og med i dag! Før stein ble lagt på stein i Herrens tempel,",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "HAG.1.5",
-        "v": 6
-      },
-      {
-        "r": "EZR.4.24",
-        "v": 4
-      },
-      {
-        "r": "EZR.3.10",
-        "v": 4
-      },
-      {
-        "r": "HAG.1.7",
-        "v": 4
-      },
-      {
-        "r": "HAG.2.18",
-        "v": 3
-      },
-      {
-        "r": "PSA.107.43",
-        "v": 2
-      },
-      {
-        "r": "MAL.3.8-11",
-        "v": 2
-      },
-      {
-        "r": "ISA.5.12",
-        "v": 2
-      },
-      {
-        "r": "HOS.14.9",
-        "v": 2
-      },
-      {
-        "r": "ROM.6.21",
-        "v": 2
-      },
-      {
-        "r": "1CO.11.31",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.16": {
     "text": "hvordan gikk det dere da? En som kom til en kornbinge på tjue mål, fant bare ti. En som kom for å øse opp femti spann fra en vinpresse, fant bare tjue.",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "HAG.1.6",
-        "v": 4
-      },
-      {
-        "r": "PRO.3.9-10",
-        "v": 3
-      },
-      {
-        "r": "HAG.1.9-11",
-        "v": 2
-      },
-      {
-        "r": "ZEC.8.10-12",
-        "v": 2
-      },
-      {
-        "r": "MAL.2.2",
-        "v": 2
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.17": {
@@ -1745,116 +282,9 @@
     ],
     "xrefs": [
       {
-        "r": "DEU.28.22",
-        "v": 6
-      },
-      {
-        "r": "HAG.1.9",
-        "v": 5
-      },
-      {
-        "r": "HAG.1.11",
-        "v": 5
-      },
-      {
-        "r": "1KI.8.37",
-        "v": 4
-      },
-      {
-        "r": "AMO.4.8-11",
-        "v": 4
-      },
-      {
-        "r": "JER.5.3",
-        "v": 3
-      },
-      {
-        "r": "ISA.9.13",
-        "v": 2
-      },
-      {
-        "r": "HOS.7.9-10",
-        "v": 2
-      },
-      {
-        "r": "EXO.9.18-29",
-        "v": 2
-      },
-      {
-        "r": "PSA.78.46",
-        "v": 2
-      },
-      {
-        "r": "JER.6.16-17",
-        "v": 2
-      },
-      {
-        "r": "AMO.4.6",
-        "v": 2
-      },
-      {
-        "r": "ZEC.7.9-13",
-        "v": 2
-      },
-      {
-        "r": "JOB.36.13",
-        "v": 2
-      },
-      {
-        "r": "JER.3.24",
-        "v": 2
-      },
-      {
-        "r": "ISA.42.25",
-        "v": 2
-      },
-      {
-        "r": "REV.2.21",
-        "v": 2
-      },
-      {
-        "r": "ISA.62.8",
-        "v": 2
-      },
-      {
-        "r": "GEN.42.27",
-        "v": 2
-      },
-      {
-        "r": "2CH.6.28",
-        "v": 2
-      },
-      {
-        "r": "REV.9.20-21",
-        "v": 2
-      },
-      {
-        "r": "GEN.42.6",
-        "v": 2
-      },
-      {
-        "r": "ISA.37.27",
-        "v": 2
-      },
-      {
-        "r": "2CH.28.22",
-        "v": 2
-      },
-      {
-        "r": "ZEC.1.2-4",
-        "v": 2
-      },
-      {
-        "r": "GEN.42.23",
-        "v": 2
-      },
-      {
-        "r": "JER.8.4-7",
-        "v": 2
-      },
-      {
-        "r": "ISA.28.2",
-        "v": 1
+        "marker": "#",
+        "text": "5 Mos 28,22 ; Hos 7,10 ; Am 4,6 ff",
+        "refs": []
       }
     ],
     "section": null
@@ -1864,36 +294,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "ZEC.8.9",
-        "v": 6
-      },
-      {
-        "r": "EZR.5.1-2",
-        "v": 4
-      },
-      {
-        "r": "HAG.2.15",
-        "v": 4
-      },
-      {
-        "r": "ZEC.8.12",
-        "v": 3
-      },
-      {
-        "r": "HAG.1.14-15",
-        "v": 2
-      },
-      {
-        "r": "DEU.32.29",
-        "v": 2
-      },
-      {
-        "r": "HAG.2.10",
-        "v": 2
-      },
-      {
-        "r": "LUK.15.17-20",
-        "v": 1
+        "marker": "#",
+        "text": "Esra 3,10 ; Sak 4,9 ; 8,9",
+        "refs": []
       }
     ],
     "section": null
@@ -1901,56 +304,7 @@
   "HAG.2.19": {
     "text": "Ligger såkornet ennå i kornkummen, står vinstokken og fikentreet, granatepletreet og oliventreet fremdeles uten frukt? Fra og med i dag vil jeg velsigne.",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "MAL.3.10",
-        "v": 19
-      },
-      {
-        "r": "HAB.3.17-18",
-        "v": 18
-      },
-      {
-        "r": "PRO.3.9-10",
-        "v": 16
-      },
-      {
-        "r": "MAT.6.33",
-        "v": 15
-      },
-      {
-        "r": "ZEC.8.11-15",
-        "v": 14
-      },
-      {
-        "r": "GEN.26.12",
-        "v": 14
-      },
-      {
-        "r": "PSA.84.12",
-        "v": 13
-      },
-      {
-        "r": "PSA.128.1-5",
-        "v": 13
-      },
-      {
-        "r": "DEU.15.10",
-        "v": 13
-      },
-      {
-        "r": "LEV.26.3-13",
-        "v": 10
-      },
-      {
-        "r": "DEU.28.2-15",
-        "v": 9
-      },
-      {
-        "r": "PSA.133.3",
-        "v": 8
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.20": {
@@ -1964,56 +318,9 @@
     "footnotes": [],
     "xrefs": [
       {
-        "r": "HAG.2.6-7",
-        "v": 5
-      },
-      {
-        "r": "ZEC.4.6-10",
-        "v": 5
-      },
-      {
-        "r": "HEB.12.26-27",
-        "v": 4
-      },
-      {
-        "r": "HAG.1.1",
-        "v": 4
-      },
-      {
-        "r": "EZR.5.2",
-        "v": 4
-      },
-      {
-        "r": "REV.16.17-19",
-        "v": 3
-      },
-      {
-        "r": "PSA.46.6",
-        "v": 3
-      },
-      {
-        "r": "HAG.1.14",
-        "v": 2
-      },
-      {
-        "r": "JOL.3.16",
-        "v": 2
-      },
-      {
-        "r": "EZK.38.19-20",
-        "v": 2
-      },
-      {
-        "r": "1CH.3.19",
-        "v": 2
-      },
-      {
-        "r": "EZK.26.15",
-        "v": 2
-      },
-      {
-        "r": "EZR.2.2",
-        "v": 2
+        "marker": "#",
+        "text": "2,6",
+        "refs": []
       }
     ],
     "section": null
@@ -2021,124 +328,7 @@
   "HAG.2.22": {
     "text": "Jeg styrter kongetroner og gjør ende på mektige riker blant folkeslagene. Jeg velter stridsvogn og mannskap. Hester og ryttere skal stupe, den ene falle for den andres sverd.",
     "footnotes": [],
-    "xrefs": [
-      {
-        "r": "MIC.5.10",
-        "v": 6
-      },
-      {
-        "r": "JDG.7.22",
-        "v": 5
-      },
-      {
-        "r": "ZEC.10.11",
-        "v": 4
-      },
-      {
-        "r": "ZEP.3.8",
-        "v": 4
-      },
-      {
-        "r": "MIC.5.15",
-        "v": 4
-      },
-      {
-        "r": "PSA.46.9",
-        "v": 4
-      },
-      {
-        "r": "EZK.39.20",
-        "v": 4
-      },
-      {
-        "r": "MAT.24.7",
-        "v": 4
-      },
-      {
-        "r": "ZEC.4.6",
-        "v": 4
-      },
-      {
-        "r": "PSA.76.6",
-        "v": 3
-      },
-      {
-        "r": "DAN.8.25",
-        "v": 3
-      },
-      {
-        "r": "1SA.14.16",
-        "v": 2
-      },
-      {
-        "r": "ZEC.14.3",
-        "v": 2
-      },
-      {
-        "r": "DAN.7.25-27",
-        "v": 2
-      },
-      {
-        "r": "REV.11.15",
-        "v": 2
-      },
-      {
-        "r": "ISA.60.12",
-        "v": 2
-      },
-      {
-        "r": "DAN.2.44-45",
-        "v": 2
-      },
-      {
-        "r": "EZK.21.27",
-        "v": 2
-      },
-      {
-        "r": "EXO.14.28",
-        "v": 2
-      },
-      {
-        "r": "EXO.14.17",
-        "v": 2
-      },
-      {
-        "r": "ZEC.9.10",
-        "v": 2
-      },
-      {
-        "r": "ZEC.12.2-5",
-        "v": 2
-      },
-      {
-        "r": "ISA.19.2",
-        "v": 2
-      },
-      {
-        "r": "EXO.15.19",
-        "v": 2
-      },
-      {
-        "r": "ISA.9.19",
-        "v": 2
-      },
-      {
-        "r": "DAN.2.34-35",
-        "v": 2
-      },
-      {
-        "r": "MIC.5.8",
-        "v": 2
-      },
-      {
-        "r": "2CH.20.22",
-        "v": 2
-      },
-      {
-        "r": "EXO.15.4",
-        "v": 1
-      }
-    ],
+    "xrefs": [],
     "section": null
   },
   "HAG.2.23": {
@@ -2151,44 +341,9 @@
     ],
     "xrefs": [
       {
-        "r": "ISA.43.10",
-        "v": 14
-      },
-      {
-        "r": "ISA.42.1",
-        "v": 10
-      },
-      {
-        "r": "JER.22.24",
-        "v": 7
-      },
-      {
-        "r": "SNG.8.6",
-        "v": 7
-      },
-      {
-        "r": "ZEC.4.6-14",
-        "v": 7
-      },
-      {
-        "r": "MAT.12.18",
-        "v": 6
-      },
-      {
-        "r": "1PE.2.4",
-        "v": 6
-      },
-      {
-        "r": "JHN.6.27",
-        "v": 4
-      },
-      {
-        "r": "2TI.2.19",
-        "v": 4
-      },
-      {
-        "r": "ISA.49.1-3",
-        "v": 3
+        "marker": "#",
+        "text": "Høys 8,6 ; Jer 22,24 ; Matt 3,17",
+        "refs": []
       }
     ],
     "section": null
