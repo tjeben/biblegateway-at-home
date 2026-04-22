@@ -1849,53 +1849,63 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     const compareVersionSelect = document.getElementById('compareVersionSelect');
     const emptyState = document.getElementById('emptyState');
 
-    // ── Dagens vers ── (kuratert liste, samme vers per dato)
-    const DAILY_VERSES = [
-        { text: 'Ditt ord er en lykt for min fot og et lys på min sti.', ref: 'Salme 119:105' },
-        { text: 'Jeg har gjemt ditt ord i mitt hjerte, for at jeg ikke skal synde mot deg.', ref: 'Salme 119:11' },
-        { text: 'Åpne mine øyne, så jeg kan se de underfulle ting i din lov.', ref: 'Salme 119:18' },
-        { text: 'Frykten for Herren er begynnelsen til visdom, og å kjenne Den Hellige er forstand.', ref: 'Ordspråkene 9:10' },
-        { text: 'Dere skal lete etter meg og finne meg når dere søker meg av hele deres hjerte.', ref: 'Jeremia 29:13' },
-        { text: 'Himmel og jord skal forgå, men mine ord skal aldri forgå.', ref: 'Matteus 24:35' },
-        { text: 'Hele Skriften er innåndet av Gud og nyttig til lærdom, til overbevisning, til rettledning, til opptuktelse i rettferdighet.', ref: '2. Timoteus 3:16' },
-        { text: 'Jeg gleder meg over ditt ord som én som finner stort bytte.', ref: 'Salme 119:162' },
-        { text: 'Og Ordet ble kjød og tok bolig iblant oss, og vi så hans herlighet.', ref: 'Johannes 1:14' },
-        { text: 'Salige er de som hører Guds ord og tar vare på det.', ref: 'Lukas 11:28' },
-        { text: 'Kom til meg, alle dere som strever og bærer tunge byrder, og jeg vil gi dere hvile.', ref: 'Matteus 11:28' },
-        { text: 'Herren er nær hos alle som kaller på ham, hos alle som kaller på ham i sannhet.', ref: 'Salme 145:18' },
-        { text: 'Vent på Herren! Vær frimodig, og ditt hjerte være sterkt! Ja, vent på Herren!', ref: 'Salme 27:14' },
-        { text: 'Stol på Herren av hele ditt hjerte, og sett ikke lit til din forstand.', ref: 'Ordspråkene 3:5' },
-        { text: 'Lovet være Herren dag for dag! Han bærer oss, Gud er vår frelse.', ref: 'Salme 68:20' },
-        { text: 'Søk først Guds rike og hans rettferdighet, så skal alt dette tilføyes dere.', ref: 'Matteus 6:33' },
-        { text: 'Gresset visner, blomsten falmer, men vår Guds ord står fast til evig tid.', ref: 'Jesaja 40:8' },
-        { text: 'For så høyt har Gud elsket verden, at han gav sin Sønn, den enbårne, for at hver den som tror på ham, ikke skal gå fortapt, men ha evig liv.', ref: 'Johannes 3:16' },
-        { text: 'Vær stille, og kjenn at jeg er Gud!', ref: 'Salme 46:11' },
-        { text: 'Herrens navn er et fast tårn. Dit løper den rettferdige og blir berget.', ref: 'Ordspråkene 18:10' },
+    // ── Dagens vers ── (kuratert liste av referanser, tekst hentes direkte fra bibeldata)
+    const DAILY_VERSE_REFS = [
+        'Salme 119:105', 'Salme 119:11', 'Salme 119:18', 'Ordspråkene 9:10',
+        'Jeremia 29:13', 'Matteus 24:35', '2. Timoteus 3:16', 'Salme 119:162',
+        'Johannes 1:14', 'Lukas 11:28', 'Matteus 11:28', 'Salme 145:18',
+        'Salme 27:14', 'Ordspråkene 3:5', 'Salme 68:20', 'Matteus 6:33',
+        'Jesaja 40:8', 'Johannes 3:16', 'Salme 46:11', 'Ordspråkene 18:10',
+        'Salme 23:1', 'Romerne 8:28', 'Filipperne 4:13', 'Jesaja 41:10',
+        '1. Johannesbrev 4:19', 'Hebreerne 11:1', 'Galaterne 5:22',
+        'Salme 34:9', 'Efeserne 2:8', 'Markus 12:30',
     ];
-    function getTodaysVerse() {
+    function getTodaysVerseRef() {
         const now = new Date();
         const seed = now.getFullYear() * 372 + (now.getMonth() + 1) * 31 + now.getDate();
-        return DAILY_VERSES[seed % DAILY_VERSES.length];
+        return DAILY_VERSE_REFS[seed % DAILY_VERSE_REFS.length];
     }
     window.openDailyVerse = function(ref) {
         searchInput.value = ref;
         doSearch();
     };
-    function renderDailyVerse() {
+
+    let emptyStateHtml = emptyState.outerHTML;
+
+    function escapeForAttr(s) { return (s || '').replace(/'/g, "\\'").replace(/"/g, '&quot;'); }
+
+    async function renderDailyVerse() {
         const host = document.getElementById('dailyVerse');
         if (!host) return;
-        const v = getTodaysVerse();
+        const ref = getTodaysVerseRef();
+        const esc = s => (s || '').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/&/g,'&amp;');
+        // Vis placeholder mens vi laster
         host.style.cursor = 'pointer';
         host.title = 'Klikk for å lese verset';
-        host.setAttribute('onclick', `openDailyVerse('${v.ref.replace(/'/g, "\\'")}')`);
+        host.setAttribute('onclick', `openDailyVerse('${escapeForAttr(ref)}')`);
         host.innerHTML = `
             <div class="daily-verse-mark">✦ ✦ ✦</div>
-            <div class="daily-verse-text">«${(v.text || '').replace(/</g,'&lt;').replace(/>/g,'&gt;')}»</div>
-            <div class="daily-verse-ref">${(v.ref || '').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</div>`;
+            <div class="daily-verse-ref">${esc(ref)}</div>`;
+        try {
+            const resp = await fetch(`/api/search?q=${encodeURIComponent(ref)}&version=NB88`);
+            const data = await resp.json();
+            if (data.type === 'reference' && data.results && data.results.length > 0) {
+                const block = data.results[0];
+                if (!block.error && block.verses && block.verses.length > 0) {
+                    const text = block.verses.map(v => (v.text || '').trim()).filter(Boolean).join(' ');
+                    const actualRef = block.label || ref;
+                    host.setAttribute('onclick', `openDailyVerse('${escapeForAttr(actualRef)}')`);
+                    host.innerHTML = `
+                        <div class="daily-verse-mark">✦ ✦ ✦</div>
+                        <div class="daily-verse-text">«${esc(text)}»</div>
+                        <div class="daily-verse-ref">${esc(actualRef)}</div>`;
+                    // Re-capture empty state HTML så verset viser korrekt ved goHome
+                    emptyStateHtml = emptyState.outerHTML;
+                }
+            }
+        } catch { /* fallback: beholde placeholder */ }
     }
     renderDailyVerse();
-
-    const emptyStateHtml = emptyState.outerHTML;
     const toast = document.getElementById('toast');
     // bookSelect/chapterSelect ble fjernet — bruk kolon-prefix (Johannes:) eller referanse (Johannes 3) i stedet
     const bookSelect = null;
