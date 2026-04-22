@@ -451,6 +451,19 @@
         }
         .xref-showmore:hover, .xref-showmore:active { background: var(--accent-hover); }
 
+        /* Fotnote om KI-bruk nederst på siden */
+        .ai-footer-note {
+            text-align: center;
+            padding: 24px 20px 120px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            opacity: 0.7;
+            letter-spacing: 0.2px;
+        }
+        @media (max-width: 700px) {
+            .ai-footer-note { padding-bottom: 140px; }
+        }
+
         /* Verktøy-rad under hvert vers-kort (utenfor kortet for å gi ro til teksten) */
         .verse-card-toolbar {
             display: flex;
@@ -470,17 +483,46 @@
             flex-wrap: wrap;
         }
         .card-action-btn {
-            padding: 6px 14px;
-            font-size: 0.8rem;
+            padding: 8px 18px;
+            font-size: 0.88rem;
             background: transparent;
             border: 1px solid var(--border);
             border-radius: 999px;
             cursor: pointer;
             color: var(--text-muted);
-            transition: all 0.2s;
+            font-weight: 600;
+            letter-spacing: 0.1px;
+            transition: all 0.18s;
             white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
         }
-        .card-action-btn:hover { border-color: var(--accent); color: var(--accent); }
+        .card-action-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+        .card-action-btn:active:not(:disabled) { transform: translateY(0); }
+
+        /* KI-knapper i verktøylinjen: samme gyldne stil som btn-diff */
+        .card-action-btn.ai-btn {
+            background: linear-gradient(180deg, #fff4c7, #fde199);
+            color: #7a5b1a;
+            border: 1px solid rgba(217, 158, 10, 0.55);
+            box-shadow: 0 1px 2px rgba(180, 130, 20, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+        }
+        .card-action-btn.ai-btn:hover:not(:disabled) {
+            background: linear-gradient(180deg, #fff8d8, #fbd27d);
+            color: #7a5b1a;
+            border-color: rgba(217, 158, 10, 0.8);
+            box-shadow: 0 3px 10px rgba(217, 158, 10, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+        }
+        [data-theme="dark"] .card-action-btn.ai-btn {
+            background: linear-gradient(180deg, #3a2c10, #2a1f08);
+            color: #fbbf24;
+            border-color: rgba(217, 158, 10, 0.45);
+        }
+        [data-theme="dark"] .card-action-btn.ai-btn:hover:not(:disabled) {
+            background: linear-gradient(180deg, #4a3a14, #342408);
+            color: #fbbf24;
+        }
 
         /* Error */
         .error-card { background: var(--error-bg); border-left: 4px solid var(--error); }
@@ -926,14 +968,23 @@
             to   { background: rgba(251, 191, 36, 0.42); }
         }
 
-        /* AI-paneler (Kontekst, Tema-kart) */
+        /* AI-paneler (Kontekst, Tema-kart) — gul nyanse så det er tydelig KI-innhold */
         .ai-panel {
             padding: 16px 18px;
-            background: var(--card-bg);
-            border: 1px solid var(--border);
+            background: linear-gradient(180deg, #fffbe6, #fff5cc);
+            border: 1px solid rgba(217, 158, 10, 0.35);
             border-radius: 24px;
             animation: fadeInUp 220ms cubic-bezier(.2, .8, .2, 1);
+            color: #6b4e0f;
         }
+        [data-theme="dark"] .ai-panel {
+            background: linear-gradient(180deg, #2a2110, #241c08);
+            border-color: rgba(217, 158, 10, 0.35);
+            color: #f2dc9a;
+        }
+        .ai-panel .ai-panel-title { color: #8b6914; }
+        [data-theme="dark"] .ai-panel .ai-panel-title { color: #d4a84b; }
+        .ai-panel .ai-panel-body { color: inherit; }
         .ai-panel-header {
             display: flex;
             align-items: center;
@@ -948,7 +999,6 @@
             color: var(--text-muted);
         }
         .ai-panel-body { font-size: 0.95rem; }
-        .card-action-btn.ai-btn { background: linear-gradient(180deg, rgba(168,50,50,0.04), rgba(201,151,46,0.04)); }
 
         .theme-section-header {
             display: flex;
@@ -1794,6 +1844,10 @@
 <div class="version-picker-panel" id="versionPickerPanel"></div>
 <button class="nav-btn nav-prev" id="navPrev" onclick="navPrev()" title="Forrige kapittel" aria-label="Forrige">&#8249;</button>
 <button class="nav-btn nav-next" id="navNext" onclick="navNext()" title="Neste kapittel" aria-label="Neste">&#8250;</button>
+
+<div class="ai-footer-note">
+    Alle KI-funksjoner er merket med gult — bruk dem med omhu.
+</div>
 
 <script>
     // ── State ──
