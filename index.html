@@ -280,7 +280,13 @@
             font-weight: 700;
             margin-right: 2px;
             font-family: 'Segoe UI', system-ui, sans-serif;
+            cursor: pointer;
+            padding: 0 3px;
+            border-radius: 4px;
+            transition: background 0.15s;
         }
+        .verse-num:hover { background: rgba(168, 50, 50, 0.15); }
+        [data-theme="dark"] .verse-num:hover { background: rgba(201, 68, 68, 0.2); }
         .chapter-heading {
             font-weight: 700;
             font-size: 0.9rem;
@@ -3874,7 +3880,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 html += `<div class="section-heading">${escHtml(v.section)}</div>`;
             }
 
-            html += `<span class="verse-num">${v.num}</span>`;
+            const bName = bookCode ? bookName(bookCode) : '';
+            const vrefAttr = bookCode ? escAttr(`${bName} ${v.chapter}:${v.num}`) : '';
+            const vnumClick = vrefAttr ? ` onclick="navigateToRef('${vrefAttr}')" title="Se bare dette verset"` : '';
+            html += `<span class="verse-num"${vnumClick}>${v.num}</span>`;
             let txt = escHtml(v.text);
             if (hlPhrases && hlPhrases.length) txt = applyPhraseHighlights(txt, hlPhrases);
             txt += ' ';
@@ -4509,10 +4518,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         for (const [versionName, blocks] of Object.entries(allResults)) {
             const verses = blocks.flatMap(b => b.verses || []);
             if (verses.length === 0) continue;
+            const versionBook = blocks[0]?.book || bCode;
 
             html += `<div style="margin-bottom:18px;">
                 <div class="version-label">${escHtml(versionName)}</div>
-                <div class="verse-text">${renderVerseTextHtml(verses)}</div>
+                <div class="verse-text">${renderVerseTextHtml(verses, null, versionBook)}</div>
             </div>`;
         }
 
