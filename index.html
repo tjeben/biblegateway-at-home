@@ -1544,6 +1544,7 @@
 
         /* Highlighted verse when reading chapter */
         .highlighted-verse {
+            scroll-margin-top: 140px;
             background: rgba(168, 50, 50, 0.15);
             border-radius: 3px;
             padding: 1px 3px;
@@ -3750,6 +3751,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         resultsWrapper.innerHTML = html;
         updateNavButtons();
+        // Scroll til uthevet vers hvis relevant
+        if (highlightVerse != null) {
+            const el = document.getElementById('hlVerseMark');
+            if (el) {
+                requestAnimationFrame(() => {
+                    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                });
+            }
+        }
     }
 
     function buildCardHtml(block, idx, isCompare) {
@@ -3888,7 +3898,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (hlPhrases && hlPhrases.length) txt = applyPhraseHighlights(txt, hlPhrases);
             txt += ' ';
             if (hlVerse != null && v.num === hlVerse) {
-                html += `<mark class="highlighted-verse">${txt}</mark>`;
+                html += `<mark class="highlighted-verse" id="hlVerseMark">${txt}</mark>`;
             } else {
                 html += txt;
             }
