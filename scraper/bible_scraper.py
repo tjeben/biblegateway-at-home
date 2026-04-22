@@ -130,6 +130,9 @@ def _extract_verse_content(verse_span: Tag) -> Tuple[str, List[Dict], List[Dict]
 
     text = _collapse("".join(text_parts))
     text = text.replace("*", "").strip()
+    # Fjern bible.com sine {{...}}-markører (indikerer manuskriptvarianter;
+    # informasjonen finnes uansett i fotnotene)
+    text = text.replace("{{", "").replace("}}", "")
     return text, footnotes, xrefs
 
 
@@ -183,10 +186,11 @@ def fetch_chapter(book: str, chapter: int, translation_id: int) -> Dict[str, Dic
             if not isinstance(node, Tag):
                 continue
             classes = node.get("class") or []
-            # Seksjonsoverskrifter: <div class="s">, <div class="s1">, <h3>
+            # Seksjonsoverskrifter: <div class="s">, <div class="s1">, <h3>, <div class="r"> (parallell-referanser)
             if node.name == "div" and any(c in classes for c in ("s", "s1", "s2", "ms", "mr", "r")):
-                heading = node.find(class_="heading") or node
-                text = _collapse(heading.get_text())
+                # Bruk hele divens tekst slik at parallell-refs i <div class="r"> fanger
+                # både parenteser og ref-tekster (bible.com splitter dem i mange <span class="heading">)
+                text = _collapse(node.get_text())
                 if text:
                     pending_section = text
             elif "verse" in classes:
