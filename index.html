@@ -2016,15 +2016,15 @@
         sel.addRange(range);
     }
     function buildFormattedHtml(text) {
-        // Finn testament-prefikser (NT:/GT: på starten, case-insensitiv, fulgt av mellomrom eller tegn)
-        const testamentMatch = /^(NT|GT|nt|gt)(\s*:)/i.exec(text);
+        // Testament-prefikser (NT/GT) på starten, case-insensitiv, standalone (ikke del av et lengre ord)
+        // Uthever så fort bokstavene er skrevet — : settes separat av rutinen under.
+        const testamentMatch = /^\s*(nt|gt)(?![a-z])/i.exec(text);
         const testamentEnd = testamentMatch ? testamentMatch[0].length : 0;
 
         let html = '';
         let inQuote = false;
         let i = 0;
 
-        // Uthev testament-prefiks hvis det finnes
         if (testamentEnd > 0) {
             const pre = text.slice(0, testamentEnd);
             html += '<b>' + pre.replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/&/g,'&amp;') + '</b>';
