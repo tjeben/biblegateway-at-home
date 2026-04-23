@@ -411,10 +411,17 @@ class BibleData:
                     with open(book_file, "r", encoding="utf-8") as f:
                         self.versions[vname][code] = json.load(f)
                     codes.append(code)
-                    # Compute max chapter
+                    # Compute max chapter — defensivt mot bro-nøkler og andre edge cases
                     max_ch = 0
                     for key in self.versions[vname][code]:
-                        ch = int(key.split(".")[1])
+                        key_parts = key.split(".")
+                        if len(key_parts) < 2:
+                            continue
+                        ch_str = key_parts[1].split("+")[0]
+                        try:
+                            ch = int(ch_str)
+                        except ValueError:
+                            continue
                         if ch > max_ch:
                             max_ch = ch
                     self.book_chapters[vname][code] = max_ch
@@ -438,7 +445,12 @@ class BibleData:
             prefix = f"{book_code}.{chapter}."
             for key, value in data.items():
                 if key.startswith(prefix):
-                    vs_num = int(key.split(".")[-1])
+                    # Håndter vers-broer som "EPH.1.15+EPH.1.16" → bruk første vers
+                    first_parts = key.split("+")[0].split(".")
+                    try:
+                        vs_num = int(first_parts[-1])
+                    except ValueError:
+                        continue
                     results.append((vs_num, _entry_text(value), _entry_meta(value)))
             if not results:
                 return None, f"Chapter {chapter} not found in {USFM_TO_NAME.get(book_code, book_code)}"
@@ -470,7 +482,11 @@ class BibleData:
             chapter_verses = []
             for key, value in data.items():
                 if key.startswith(prefix):
-                    vs_num = int(key.split(".")[-1])
+                    first_parts = key.split("+")[0].split(".")
+                    try:
+                        vs_num = int(first_parts[-1])
+                    except ValueError:
+                        continue
                     chapter_verses.append((vs_num, _entry_text(value), ch, _entry_meta(value)))
 
             chapter_verses.sort(key=lambda x: x[0])
@@ -501,7 +517,11 @@ class BibleData:
             prefix = f"{book_code}.{ch}."
             for key, value in data.items():
                 if key.startswith(prefix):
-                    vs_num = int(key.split(".")[-1])
+                    first_parts = key.split("+")[0].split(".")
+                    try:
+                        vs_num = int(first_parts[-1])
+                    except ValueError:
+                        continue
                     results.append((vs_num, _entry_text(value), ch, _entry_meta(value)))
 
         if not results:
@@ -872,8 +892,18 @@ def search_text(bible_data, version, query, per_book=10, book_filter=None):
             total += 1
             if total <= effective_per_book:
                 parts = key.split(".")
-                ch = int(parts[1])
-                vs = int(parts[2])
+                if len(parts) < 3:
+                    continue  # hopp over ugyldige nøkler (f.eks. intro-keys)
+                # Håndter vers-bro-nøkler som "EPH.1.15+EPH.1.16" (splittet blir parts[2]="15+EPH")
+                ch_str = parts[1].split("+")[0]
+                vs_str = parts[2].split("+")[0]
+                try:
+                    ch = int(ch_str)
+                    vs = int(vs_str)
+                except ValueError:
+                    sys.stderr.write(f"[search_text] hopper over ugyldig nøkkel: {key!r} i {version}/{book_code}\n")
+                    sys.stderr.flush()
+                    continue
                 results.append({
                     "ref": f"{book_name} {ch}:{vs}",
                     "book": book_code,
