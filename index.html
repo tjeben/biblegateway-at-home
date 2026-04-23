@@ -3411,13 +3411,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     searchInputDesktop.addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
     searchInputMobile.addEventListener('keydown', e => { if (e.key === 'Enter') doSearch(); });
 
-    async function doSearch(isAiRetry = false) {
+    async function doSearch(isAiRetry = false, opts = {}) {
         const query = searchInput.value.trim();
         if (!query) return;
         if (searchInFlight && !isAiRetry) return;  // Prevent overlapping searches
         if (!isAiRetry) {
             lastQuery = query;
-            highlightVerse = null;
+            highlightVerse = opts.highlightVerse != null ? opts.highlightVerse : null;
             setSearchLoading(true);
             addRecentSearch(query);
             closeSuggestions();
@@ -4542,46 +4542,21 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // Naviger til vers + aktiver vanlig sammenlign-modus (per-kort)
     window.goToVerseAndCompare = async function(ref) {
-        searchInput.value = ref;
-        lastQuery = ref;
-        highlightVerse = null;
-        currentView = 'normal';
-        const version = versionSelect.value;
-        setSearchLoading(true);
-        try {
-            const resp = await fetchWithRetry(`/api/search?q=${encodeURIComponent(ref)}&version=${encodeURIComponent(version)}`);
-            const data = await resp.json();
-            if (data.type === 'reference' && !data.error) {
-                mainData = data.results;
-                compareData = null;
-                compareMode = true;
-                aiDiffState = null;
-                aiHighlights = null;
-                await fetchCompareData(ref);
-                renderAll();
-                pushHistoryState({ view: 'normal', query: ref, version });
-            }
-        } finally {
-            setSearchLoading(false);
+        // Hvis bruker er i 'Alle'-modus, bytt til vanlig versjon — sammenlign krever ekte versjon
+        if (versionSelect.value === 'Alle') {
+            versionSelect.value = alleMainVersion || 'NB88';
         }
+        searchInput.value = ref;
+        highlightVerse = null;
+        compareMode = true;
+        aiDiffState = null;
+        aiHighlights = null;
+        await doSearch();
     };
 
     window.goToVerseFromExpand = function(ref, bookCode, chapter, bName, verseNum) {
         searchInput.value = bName + ' ' + chapter;
-        lastQuery = searchInput.value;
-        highlightVerse = verseNum;
-        currentView = 'normal';
-        pushHistoryState({ view: 'normal', query: lastQuery, version: versionSelect.value, highlightVerse });
-        const version = versionSelect.value;
-        fetch(`/api/search?q=${encodeURIComponent(lastQuery)}&version=${encodeURIComponent(version)}`)
-            .then(r => r.json()).then(data => {
-                if (data.type === 'reference' && !data.error) {
-                    mainData = data.results;
-                    compareData = null;
-                    renderAll();
-                    compareBtn.show();
-                }
-            }).catch(() => {});
+        doSearch(false, { highlightVerse: verseNum });
     };
 
     window.goToVerse = function(ref) {
@@ -4591,25 +4566,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ── Read chapter ──
     window.readChapter = async function(bookCode, chapter, bName, verseNum) {
-        const query = `${bName} ${chapter}`;
-        searchInput.value = query;
-        lastQuery = query;
-        highlightVerse = verseNum != null ? verseNum : null;
-        currentView = 'normal';
-        pushHistoryState({ view: 'normal', query, version: versionSelect.value, highlightVerse });
-
-        const version = versionSelect.value;
-        try {
-            const resp = await fetch(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}`);
-            const data = await resp.json();
-            if (data.type === 'reference' && !data.error) {
-                mainData = data.results;
-                compareData = null;
-                if (compareMode) await fetchCompareData(query);
-                renderAll();
-                compareBtn.show();
-            }
-        } catch {}
+        searchInput.value = `${bName} ${chapter}`;
+        await doSearch(false, { highlightVerse: verseNum != null ? verseNum : null });
     };
 
     // ── All versions ──
