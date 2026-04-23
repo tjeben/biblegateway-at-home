@@ -458,6 +458,18 @@
         }
         .xref-showmore:hover, .xref-showmore:active { background: var(--accent-hover); }
 
+        /* Viz-hosts-wrapper (Bibelkart, Tidslinje, Kontekst, Tema-kart, Generer referanser) */
+        .viz-hosts-wrap {
+            max-width: 880px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .page-top-mode.compare-active .viz-hosts-wrap { max-width: 1300px; }
+        @media (max-width: 700px) {
+            .viz-hosts-wrap { padding: 0 14px; max-width: 100%; }
+        }
+        .viz-hosts-wrap:empty { display: none; }
+
         /* Fotnote om KI-bruk nederst på siden */
         .ai-footer-note {
             text-align: center;
@@ -1877,6 +1889,10 @@
     </div>
 </div>
 
+<!-- Viz-paneler (Bibelkart, Tidslinje, Kontekst, Tema-kart, Generer referanser)
+     plasseres her så de overlever navigering mellom søk. -->
+<div id="vizHosts" class="viz-hosts-wrap"></div>
+
 <!-- Mobile sticky bottom search bar -->
 <div class="search-bottom-bar" id="searchBottomBar">
     <div class="suggestions-wrap">
@@ -2139,6 +2155,7 @@
     const compareBtn = { classList: { toggle() {} }, show() {}, hide() {} };
 
 const resultsWrapper = document.getElementById('resultsWrapper');
+    const vizHosts = document.getElementById('vizHosts');
     const compareVersionSelect = document.getElementById('compareVersionSelect');
     const emptyState = document.getElementById('emptyState');
 
@@ -2435,7 +2452,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 <button class="card-action-btn" onclick="closeVizHost('${hostId}')">Lukk</button>
             </div>
             <div class="bible-map open"><div class="bible-map-inner">${innerHtml}</div></div>`;
-        resultsWrapper.appendChild(host);
+        vizHosts.appendChild(host);
         setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
     }
 
@@ -2446,7 +2463,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const counts = countXrefsPerBook(items);
         const mapHtml = buildBibleMapHtml(counts, 'showXrefBookPopover');
         if (!mapHtml) return;
-        renderXrefViz('xrefMapHost', '🗺️ Kryssreferanser fordelt i Bibelen', mapHtml);
+        const hint = '<div style="font-size:0.78rem;color:var(--text-muted);margin-bottom:8px;padding:0 4px;">Klikk en bok for å se referansene</div>';
+        renderXrefViz('xrefMapHost', '🗺️ Kryssreferanser fordelt i Bibelen', hint + mapHtml);
     }
 
     function showXrefTimeline(source, items) {
@@ -2622,7 +2640,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 </div>
                 <div class="ai-panel-body">${content}</div>
             </div>`;
-            resultsWrapper.appendChild(host);
+            vizHosts.appendChild(host);
             setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
         } catch {
             showToast('Kunne ikke koble til serveren');
@@ -2783,7 +2801,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <span class="ai-panel-title">🎨 Tema-kart — ${escHtml(label)}</span>
             <button class="card-action-btn" onclick="closeVizHost('aiThemeHost')">Lukk</button>
         </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer tema…</div></div></div>`;
-        resultsWrapper.appendChild(host);
+        vizHosts.appendChild(host);
         setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
 
         try {
@@ -2924,7 +2942,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <span class="ai-panel-title">🔗 KI-genererte referanser — ${escHtml(label)}</span>
             <button class="card-action-btn" onclick="closeVizHost('aiGenRefsHost')">Lukk</button>
         </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer verset…</div></div></div>`;
-        resultsWrapper.appendChild(host);
+        vizHosts.appendChild(host);
         setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
         const body = host.querySelector('.ai-panel-body');
 
@@ -4903,6 +4921,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         compareBtn.classList.toggle('active', false);
         compareBtn.hide();
         searchInput.value = '';
+        if (vizHosts) vizHosts.innerHTML = '';  // rydd alle viz-paneler
         resultsWrapper.innerHTML = emptyStateHtml;
         updateNavButtons();
     };
