@@ -18,6 +18,14 @@ Opens `http://127.0.0.1:8421` in your browser automatically. The server shuts do
 - `Joh 3:16;17` — multiple passages (semicolon-separated, context carries over)
 - `nåde` — full-text search across the entire Bible
 
+### Text search operators
+
+- `"frykt ikke"` — exact phrase match
+- `nåde -lov` — verses containing "nåde" but NOT "lov"
+- `"frykt ikke" + "vær ikke redd"` — OR: verses containing either phrase
+- `Johannes: nåde` — restrict text search to a specific book
+- `NT: jesus` / `GT: jesus` — restrict to the New or Old Testament
+
 Abbreviations and English book names work too: `joh`, `1. mos`, `rom`, `genesis`.
 
 ## Adding a Bible version
