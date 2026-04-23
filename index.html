@@ -307,24 +307,32 @@
             border-bottom-right-radius: 0;
         }
 
-        /* Chevron-knapp for å åpne hele kapittelet */
+        /* Chevron-knapp for å åpne/lukke hele kapittelet (utenfor kortet) */
+        .chevron-wrap {
+            display: flex;
+            justify-content: center;
+            margin: -6px 0 14px;
+        }
         .expand-chapter-btn {
-            display: block;
-            width: 100%;
-            margin-top: 10px;
-            padding: 6px 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 40px;
             background: transparent;
             border: none;
-            border-top: 1px dashed var(--border);
             color: var(--text-muted);
-            font-size: 1.6rem;
-            line-height: 1;
             cursor: pointer;
-            transition: color 0.2s, border-color 0.2s, transform 0.2s;
+            border-radius: 999px;
+            transition: color 0.2s, background 0.2s;
         }
-        .expand-chapter-btn span { display: inline-block; transition: transform 0.25s cubic-bezier(.2,.8,.2,1); }
-        .expand-chapter-btn:hover { color: var(--accent); border-top-color: var(--accent); }
-        .expand-chapter-btn:hover span { transform: translateY(2px); }
+        .expand-chapter-btn:hover { color: var(--accent); background: rgba(168, 50, 50, 0.06); }
+        [data-theme="dark"] .expand-chapter-btn:hover { background: rgba(201, 68, 68, 0.1); }
+        .chevron-svg {
+            display: block;
+            transition: transform 0.22s cubic-bezier(.2, .8, .2, 1);
+        }
+        .expand-chapter-btn:hover .chevron-svg { transform: translateY(2px); }
+        .expand-chapter-btn.collapse:hover .chevron-svg { transform: translateY(-2px); }
 
         /* Inline 'Alle versjoner' — glir ut mellom hoved-kort og verktøylinjen */
         .all-versions-inline {
@@ -2072,7 +2080,7 @@
             <p>Sett <code>-</code> foran et ord for å utelukke det fra søket: <code>nåde -lov</code></p>
             <p>Bruk <code>+</code> for å finne vers som inneholder <em>enten</em> den ene eller andre frasen: <code>"frykt ikke" + "vær ikke redd"</code></p>
             <p>Søk treffer kun hele ord — <code>Peter</code> finner ikke <em>trompeter</em>.</p>
-            <p>På PC kan du bla mellom kapitler/vers med <code>←</code> og <code>→</code>, og bruke <code>↑</code>/<code>↓</code>/<code>Enter</code> i søkeforslag.</p>
+            <p>På PC: <code>←</code>/<code>→</code> blar mellom kapitler/vers, <code>↓</code> utvider ett vers til hele kapittelet, <code>↑</code> går tilbake til det ene verset, og <code>↑</code>/<code>↓</code>/<code>Enter</code> fungerer i søkeforslag.</p>
             <p>Du kan også søke muntlig og på alle ord i Bibelen.</p>
             <div class="modal-links">
                 <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="competitor-link">Konkurrerende tjeneste</a>
@@ -2341,7 +2349,7 @@
     setupSearchCE(searchInputDesktop);
     setupSearchCE(searchInputMobile);
 
-    // Globale tastatursnarveier på PC: ← → for forrige/neste (kapittel eller vers)
+    // Globale tastatursnarveier på PC: ← → for forrige/neste, ↑ ↓ for kapittel/vers
     document.addEventListener('keydown', (e) => {
         // Ikke forstyrr når bruker skriver i inputs/contenteditable eller modifier-taster er nede
         if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return;
@@ -2354,6 +2362,13 @@
         } else if (e.key === 'ArrowRight' && typeof navNext === 'function') {
             e.preventDefault();
             navNext();
+        } else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+            // Utvid/kollaps: klikk den synlige chevron-knappen hvis den finnes
+            const btn = document.querySelector('.expand-chapter-btn' + (e.key === 'ArrowUp' ? '.collapse' : ':not(.collapse)'));
+            if (btn) {
+                e.preventDefault();
+                btn.click();
+            }
         }
     });
 
@@ -4381,6 +4396,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 if (idx === 0) html += aiSection;
             } else {
                 html += buildCardHtml(mainBlock, idx, false);
+                html += buildChevronHtml(mainBlock);
                 // Inline-utvidelse for 'Alle versjoner' — under hoved-kortet, over verktøylinjen
                 if (inlineAllVersionsData && idx === 0) {
                     html += buildInlineAllVersionsHtml(inlineAllVersionsData.results);
@@ -4448,11 +4464,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const srcBtn = srcUrl ? `<a class="copy-btn" href="${srcUrl}" target="_blank" rel="noopener" title="Åpne kilde (bible.com)">Kilde</a>` : '';
         const allVersionsActive = !!inlineAllVersionsData;
         const allVersionsBtn = `<button class="copy-btn${allVersionsActive ? ' active' : ''}" onclick="toggleAllVersionsInline('${escAttr(block.label)}', this)" title="Vis samme vers i alle versjoner">Alle versjoner</button>`;
-        // Chevron for å utvide til hele kapittelet (kun når kortet viser mindre enn hele kapittelet)
-        const isSingleVerse = block.verses.length === 1;
-        const chaptersOnly = !isSingleVerse && block.verses.every(v => v.chapter === block.verses[0].chapter);
-        const chapterExpanded = !isSingleVerse && chaptersOnly && block.verses.length > 5;  // heuristikk: alt over ~5 vers antas å være kapittel
-        const showExpandChevron = isSingleVerse && block.book && block.verses[0]?.chapter;
         let html = `<div class="verse-card" id="card-${idx}">
             <div class="verse-card-header${showMainVersionSelect ? ' compare-card-header' : ''}">
                 <span class="verse-card-label">${escHtml(displayLabel)}</span>
@@ -4469,14 +4480,31 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         html += renderVerseTextHtml(block.verses, highlightVerse, block.book, aiHighlights && aiHighlights.v1 ? aiHighlights.v1 : null);
         html += '</div>';
-        if (showExpandChevron) {
-            const ch = block.verses[0].chapter;
-            const bName = bookName(block.book);
-            const vnum = block.verses[0].num;
-            html += `<button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${vnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet"><span>⌄</span></button>`;
-        }
         html += '</div>';
         return html;
+    }
+
+    const CHEVRON_DOWN_SVG = '<svg class="chevron-svg" viewBox="0 0 24 8" width="28" height="10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,2 12,6 22,2"/></svg>';
+    const CHEVRON_UP_SVG   = '<svg class="chevron-svg" viewBox="0 0 24 8" width="28" height="10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 12,2 22,6"/></svg>';
+
+    function buildChevronHtml(block) {
+        if (!block || !block.book || !block.verses || block.verses.length === 0) return '';
+        const ch = block.verses[0].chapter;
+        const bName = bookName(block.book);
+        // Samme kapittel på alle vers?
+        const sameChapter = block.verses.every(v => v.chapter === ch);
+        if (!sameChapter) return '';
+        const isSingleVerse = block.verses.length === 1;
+        if (isSingleVerse) {
+            // Utvid til hele kapittelet
+            const vnum = block.verses[0].num;
+            return `<div class="chevron-wrap"><button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${vnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet">${CHEVRON_DOWN_SVG}</button></div>`;
+        }
+        // Fullt kapittel (eller nesten): tilby å gå tilbake til highlight-verset
+        if (block.verses.length >= 5 && highlightVerse != null) {
+            return `<div class="chevron-wrap"><button class="expand-chapter-btn collapse" onclick="navigateToRef('${escAttr(bName)} ${ch}:${highlightVerse}')" title="Tilbake til ett vers" aria-label="Tilbake til ett vers">${CHEVRON_UP_SVG}</button></div>`;
+        }
+        return '';
     }
 
     function buildToolbarHtml(block) {
