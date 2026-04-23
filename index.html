@@ -285,9 +285,85 @@
             align-items: center;
             margin-left: 6px;
         }
-        .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
-        /* Kopier + Kilde rett inntil hverandre */
-        .copy-btn + .copy-btn { margin-left: 2px; }
+        .copy-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+        .copy-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        .copy-btn.active:hover { background: var(--accent-hover); color: white; }
+
+        /* Handlinger til høyre i header */
+        .card-head-actions { display: flex; gap: 6px; align-items: center; }
+        .copy-btn-pair { display: inline-flex; }
+        .copy-btn-pair > .copy-btn { margin-left: 0; }
+        .copy-btn-pair > .copy-btn + .copy-btn {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-left: none;
+        }
+        .copy-btn-pair > .copy-btn:first-child {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        /* Chevron-knapp for å åpne hele kapittelet */
+        .expand-chapter-btn {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            padding: 6px 0;
+            background: transparent;
+            border: none;
+            border-top: 1px dashed var(--border);
+            color: var(--text-muted);
+            font-size: 1.6rem;
+            line-height: 1;
+            cursor: pointer;
+            transition: color 0.2s, border-color 0.2s, transform 0.2s;
+        }
+        .expand-chapter-btn span { display: inline-block; transition: transform 0.25s cubic-bezier(.2,.8,.2,1); }
+        .expand-chapter-btn:hover { color: var(--accent); border-top-color: var(--accent); }
+        .expand-chapter-btn:hover span { transform: translateY(2px); }
+
+        /* Inline 'Alle versjoner' — glir ut mellom hoved-kort og verktøylinjen */
+        .all-versions-inline {
+            display: grid;
+            grid-template-rows: 1fr;
+            transition: grid-template-rows 0.35s cubic-bezier(.2, .8, .2, 1);
+            margin-top: 8px;
+        }
+        .all-versions-inline-inner {
+            overflow: hidden;
+            min-height: 0;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 14px 20px;
+            animation: fadeInUp 300ms cubic-bezier(.2, .8, .2, 1);
+        }
+        .all-versions-row {
+            margin-bottom: 14px;
+        }
+        .all-versions-row:last-child { margin-bottom: 0; }
+        .all-versions-row .version-label {
+            font-weight: 700;
+            font-size: 0.85rem;
+            color: var(--accent);
+            margin-bottom: 4px;
+            padding-top: 10px;
+            border-top: 1px solid var(--border);
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        .all-versions-row:first-child .version-label {
+            padding-top: 0;
+            border-top: none;
+        }
+        .all-versions-row .verse-text {
+            font-size: 0.95rem;
+            line-height: 1.55;
+        }
         .copy-btn:hover { background: var(--accent); color: white; border-color: var(--accent); }
 
         .verse-text {
@@ -2039,6 +2115,7 @@
     let aiDiffState = null; // null | {loading:true} | {text:'...'} | {error:'...'}
     let aiHighlights = null; // null | {loading:true} | {v1:[], v2:[]} | {error:'...'}
     let alleMainVersion = 'BGO'; // Effektiv hoved-versjon når versionSelect er 'Alle' (i sammenligningsmodus)
+    let inlineAllVersionsData = null; // null | {label, results} — inline-utvidelse under verset
     let mainData = null;
     let compareData = null;
     let currentView = 'normal'; // 'normal', 'text_search', 'all_versions'
@@ -2337,6 +2414,28 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     window.openDailyVerse = function(ref) {
         searchInput.value = ref;
         doSearch();
+    };
+
+    window.toggleAllVersionsInline = async function(label, btn) {
+        if (inlineAllVersionsData) {
+            inlineAllVersionsData = null;
+            renderAll();
+            return;
+        }
+        if (btn) {
+            btn.disabled = true;
+            btn.textContent = 'Laster…';
+        }
+        try {
+            const resp = await fetch(`/api/all_versions?q=${encodeURIComponent(label)}`);
+            const data = await resp.json();
+            if (!data.error) {
+                inlineAllVersionsData = { label, results: data.results };
+            } else {
+                showToast(data.error);
+            }
+        } catch { showToast('Kunne ikke hente alle versjoner'); }
+        renderAll();
     };
 
     window.showSearchInfo = function() {
@@ -4282,6 +4381,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 if (idx === 0) html += aiSection;
             } else {
                 html += buildCardHtml(mainBlock, idx, false);
+                // Inline-utvidelse for 'Alle versjoner' — under hoved-kortet, over verktøylinjen
+                if (inlineAllVersionsData && idx === 0) {
+                    html += buildInlineAllVersionsHtml(inlineAllVersionsData.results);
+                }
                 html += buildToolbarHtml(mainBlock);
             }
         }
@@ -4297,6 +4400,21 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 });
             }
         }
+    }
+
+    function buildInlineAllVersionsHtml(allResults) {
+        let html = `<div class="all-versions-inline"><div class="all-versions-inline-inner">`;
+        for (const [versionName, blocks] of Object.entries(allResults)) {
+            const verses = blocks.flatMap(b => b.verses || []);
+            if (verses.length === 0) continue;
+            const versionBook = blocks[0]?.book;
+            html += `<div class="all-versions-row">
+                <div class="version-label">${escHtml(versionName)}</div>
+                <div class="verse-text">${renderVerseTextHtml(verses, null, versionBook, null, versionName)}</div>
+            </div>`;
+        }
+        html += `</div></div>`;
+        return html;
     }
 
     function buildCardHtml(block, idx, isCompare) {
@@ -4328,17 +4446,35 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const srcCh = block.verses && block.verses[0] ? block.verses[0].chapter : null;
         const srcUrl = sourceUrlForBlock(block.book, srcCh, mainVersionForSrc, srcVerseNum);
         const srcBtn = srcUrl ? `<a class="copy-btn" href="${srcUrl}" target="_blank" rel="noopener" title="Åpne kilde (bible.com)">Kilde</a>` : '';
+        const allVersionsActive = !!inlineAllVersionsData;
+        const allVersionsBtn = `<button class="copy-btn${allVersionsActive ? ' active' : ''}" onclick="toggleAllVersionsInline('${escAttr(block.label)}', this)" title="Vis samme vers i alle versjoner">Alle versjoner</button>`;
+        // Chevron for å utvide til hele kapittelet (kun når kortet viser mindre enn hele kapittelet)
+        const isSingleVerse = block.verses.length === 1;
+        const chaptersOnly = !isSingleVerse && block.verses.every(v => v.chapter === block.verses[0].chapter);
+        const chapterExpanded = !isSingleVerse && chaptersOnly && block.verses.length > 5;  // heuristikk: alt over ~5 vers antas å være kapittel
+        const showExpandChevron = isSingleVerse && block.book && block.verses[0]?.chapter;
         let html = `<div class="verse-card" id="card-${idx}">
             <div class="verse-card-header${showMainVersionSelect ? ' compare-card-header' : ''}">
                 <span class="verse-card-label">${escHtml(displayLabel)}</span>
                 ${mainVerSelHtml}
-                <button class="copy-btn" onclick="copyBlock(${idx}, false)">Kopier</button>
-                ${srcBtn}
+                <div class="card-head-actions">
+                    ${allVersionsBtn}
+                    <div class="copy-btn-pair">
+                        <button class="copy-btn" onclick="copyBlock(${idx}, false)">Kopier</button>
+                        ${srcBtn}
+                    </div>
+                </div>
             </div>
             <div class="verse-text">`;
 
         html += renderVerseTextHtml(block.verses, highlightVerse, block.book, aiHighlights && aiHighlights.v1 ? aiHighlights.v1 : null);
         html += '</div>';
+        if (showExpandChevron) {
+            const ch = block.verses[0].chapter;
+            const bName = bookName(block.book);
+            const vnum = block.verses[0].num;
+            html += `<button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${vnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet"><span>⌄</span></button>`;
+        }
         html += '</div>';
         return html;
     }
@@ -4379,9 +4515,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         let html = `<div class="verse-card-toolbar">
-            <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Hele kapittelet</button>
             <button class="card-action-btn" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
-            <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
             ${genRefsBtn}

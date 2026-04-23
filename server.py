@@ -1492,14 +1492,31 @@ Regler:
             sys.stderr.write(f"[{self.log_date_time_string()}] ai_context: {label}\n")
             sys.stderr.flush()
             try:
+                # Bestem om dette er ett vers eller et større utsnitt (kapittel/avsnitt)
+                is_longer = len(text) > 250
+                if is_longer:
+                    sys_prompt = (
+                        "Du er en bibelforsker. Gi en bred kontekst for denne bibeltekst-delen "
+                        "(typisk et helt kapittel eller flere vers): 5-7 setninger som dekker "
+                        "hvor i bokens narrativ det er, hvem som snakker og til hvem, hva som "
+                        "skjer rett før og etter, tekstens struktur, og hovedpoenget. "
+                        "Skriv på norsk, enkelt og presist. Ikke tolk teologisk — kun litterær "
+                        "og historisk kontekst. Ingen innledning, bare selve konteksten."
+                    )
+                    max_toks = 500
+                else:
+                    sys_prompt = (
+                        "Du er en bibelforsker. Gi en kort kontekst for verset på 2-3 setninger: "
+                        "hvem som snakker, til hvem, hva som skjer rett før og hva verset handler om. "
+                        "Skriv på norsk, enkelt og presist. Ikke tolk teologisk — bare gi litterær/historisk kontekst. "
+                        "Ingen innledning, bare selve konteksten."
+                    )
+                    max_toks = 250
                 result = gemini_request(
                     api_key,
-                    f"Vers: {label}\nTekst: {text}",
-                    "Du er en bibelforsker. Gi en kort kontekst for verset på 2-3 setninger: "
-                    "hvem som snakker, til hvem, hva som skjer rett før og hva verset handler om. "
-                    "Skriv på norsk, enkelt og presist. Ikke tolk teologisk — bare gi litterær/historisk kontekst. "
-                    "Ingen innledning, bare selve konteksten.",
-                    max_tokens=250,
+                    f"Referanse: {label}\nTekst: {text}",
+                    sys_prompt,
+                    max_tokens=max_toks,
                 )
                 self._send_json({"result": result})
             except Exception as e:
