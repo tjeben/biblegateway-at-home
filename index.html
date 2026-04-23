@@ -3639,6 +3639,23 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         throw lastErr;
     }
 
+    // Robust JSON-parser: fanger opp HTML-feilsider (f.eks. fra proxy/Cloudflare)
+    async function safeJson(resp) {
+        const text = await resp.text();
+        try {
+            return JSON.parse(text);
+        } catch (err) {
+            // Responsen var ikke JSON — sannsynligvis en HTML-feilside
+            const firstLine = text.split('\n').slice(0, 3).join(' ').slice(0, 200);
+            console.error(`Ikke-JSON respons (HTTP ${resp.status}):`, firstLine);
+            return {
+                error: resp.status >= 500
+                    ? `Serveren svarte med feilside (HTTP ${resp.status}). Prøv igjen om litt.`
+                    : `Uventet svar fra server (HTTP ${resp.status}).`
+            };
+        }
+    }
+
     // ── Search in-flight tracking to prevent overlapping requests ──
     let searchInFlight = false;
     function setSearchLoading(loading) {
@@ -3688,7 +3705,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const version = versionSelect.value;
         try {
             const resp = await fetchWithRetry(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}`);
-            const data = await resp.json();
+            const data = await safeJson(resp);
             if (data.error) {
                 resultsWrapper.innerHTML = errorCardHtml('Feil', data.error);
                 return;

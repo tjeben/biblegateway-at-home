@@ -921,6 +921,22 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
         self.wfile.write(body)
 
     def do_GET(self):
+        try:
+            self._do_GET_inner()
+        except Exception as e:
+            import traceback
+            tb = traceback.format_exc()
+            sys.stderr.write(f"[{self.log_date_time_string()}] do_GET UNHÅNDTERT FEIL: {e}\n{tb}\n")
+            sys.stderr.flush()
+            try:
+                if self.path.startswith("/api/"):
+                    self._send_json({"error": f"Intern serverfeil: {type(e).__name__}: {e}"}, 500)
+                else:
+                    self._send_html(f"<h1>Serverfeil</h1><pre>{type(e).__name__}: {e}</pre>")
+            except Exception:
+                pass
+
+    def _do_GET_inner(self):
         global last_heartbeat
         parsed = urllib.parse.urlparse(self.path)
         path = parsed.path
@@ -1133,6 +1149,19 @@ Regler:
             self.send_error(404)
 
     def do_POST(self):
+        try:
+            self._do_POST_inner()
+        except Exception as e:
+            import traceback
+            tb = traceback.format_exc()
+            sys.stderr.write(f"[{self.log_date_time_string()}] do_POST UNHÅNDTERT FEIL: {e}\n{tb}\n")
+            sys.stderr.flush()
+            try:
+                self._send_json({"error": f"Intern serverfeil: {type(e).__name__}: {e}"}, 500)
+            except Exception:
+                pass
+
+    def _do_POST_inner(self):
         parsed = urllib.parse.urlparse(self.path)
         path = parsed.path
         length = int(self.headers.get("Content-Length", 0))
