@@ -265,7 +265,12 @@
             color: var(--text-muted);
             transition: all 0.2s;
             white-space: nowrap;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            margin-left: 6px;
         }
+        .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
         .copy-btn:hover { background: var(--accent); color: white; border-color: var(--accent); }
 
         .verse-text {
@@ -2217,6 +2222,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
     function versionLabel(v) { return VERSION_DISPLAY[v] || v; }
 
+    // bible.com translation-IDs (må stemme med scraper/book_maps.py TRANSLATION_IDS)
+    const BIBLE_COM_IDS = {
+        'NB88': 102, 'Bibel2011': 29, 'Bibel1930': 121, 'BGO': 2216,
+        'NASB1995': 100, 'ESV': 59, 'KJV': 1, 'NIV': 111, 'NKJV': 114,
+    };
+    function sourceUrlForBlock(bookCode, chapter, versionName, verseNum) {
+        const id = BIBLE_COM_IDS[versionName];
+        if (!id || !bookCode || !chapter) return null;
+        // Format: https://www.bible.com/bible/29/JHN.3.NB
+        // Bible.com støtter også ...JHN.3.16.NB — henger ved versnummer når tilgjengelig
+        const base = `https://www.bible.com/bible/${id}/${bookCode}.${chapter}`;
+        return verseNum ? `${base}.${verseNum}` : base;
+    }
+
     // ── Bibelkart (heatmap over 66 bøker) ──
     const OT_CODES = ['GEN','EXO','LEV','NUM','DEU','JOS','JDG','RUT','1SA','2SA','1KI','2KI','1CH','2CH','EZR','NEH','EST','JOB','PSA','PRO','ECC','SNG','ISA','JER','LAM','EZK','DAN','HOS','JOL','AMO','OBA','JON','MIC','NAM','HAB','ZEP','HAG','ZEC','MAL'];
     const NT_CODES = ['MAT','MRK','LUK','JHN','ACT','ROM','1CO','2CO','GAL','EPH','PHP','COL','1TH','2TH','1TI','2TI','TIT','PHM','HEB','JAS','1PE','2PE','1JN','2JN','3JN','JUD','REV'];
@@ -4110,11 +4129,18 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             ).join('');
             mainVerSelHtml = `<select class="compare-version-inline" onchange="setAlleMainVersion(this.value)">${opts}</select>`;
         }
+        // Kilde-URL basert på hovedversjon (eller alleMainVersion i Alle-modus)
+        const mainVersionForSrc = versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value;
+        const srcVerseNum = (block.verses && block.verses.length === 1) ? block.verses[0].num : null;
+        const srcCh = block.verses && block.verses[0] ? block.verses[0].chapter : null;
+        const srcUrl = sourceUrlForBlock(block.book, srcCh, mainVersionForSrc, srcVerseNum);
+        const srcBtn = srcUrl ? `<a class="copy-btn" href="${srcUrl}" target="_blank" rel="noopener" title="Åpne kilde (bible.com)">Kilde</a>` : '';
         let html = `<div class="verse-card" id="card-${idx}">
             <div class="verse-card-header${showMainVersionSelect ? ' compare-card-header' : ''}">
                 <span class="verse-card-label">${escHtml(displayLabel)}</span>
                 ${mainVerSelHtml}
                 <button class="copy-btn" onclick="copyBlock(${idx}, false)">Kopier</button>
+                ${srcBtn}
             </div>
             <div class="verse-text">`;
 
@@ -4171,10 +4197,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 <div class="verse-text" style="color:var(--text-muted);font-style:italic;">Ikke tilgjengelig i denne versjonen.</div>
             </div>`;
         }
+        const compVerseNum = (block.verses && block.verses.length === 1) ? block.verses[0].num : null;
+        const compCh = block.verses && block.verses[0] ? block.verses[0].chapter : null;
+        const compSrcUrl = sourceUrlForBlock(block.book, compCh, compareVersionSelect.value, compVerseNum);
+        const compSrcBtn = compSrcUrl ? `<a class="copy-btn" href="${compSrcUrl}" target="_blank" rel="noopener" title="Åpne kilde (bible.com)">Kilde</a>` : '';
         let html = `<div class="verse-card compare-card" id="compare-card-${idx}">
             <div class="verse-card-header compare-card-header">
                 ${selHtml}
                 <button class="copy-btn" onclick="copyBlock(${idx}, true)">Kopier</button>
+                ${compSrcBtn}
             </div>
             <div class="verse-text">`;
         html += renderVerseTextHtml(block.verses, null, block.book, aiHighlights && aiHighlights.v2 ? aiHighlights.v2 : null);
