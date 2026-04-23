@@ -898,6 +898,19 @@ def has_search_operators(query):
     return False
 
 
+_word_re_cache = {}
+
+
+def _word_match(term, text_lower):
+    """Ordgrense-match for et ord/frase. Bruker \\b-grenser så 'peter' ikke
+    matcher 'trompeter'. Støtter Unicode (norske tegn)."""
+    pat = _word_re_cache.get(term)
+    if pat is None:
+        pat = re.compile(r'\b' + re.escape(term) + r'\b', re.UNICODE)
+        _word_re_cache[term] = pat
+    return bool(pat.search(text_lower))
+
+
 def search_text(bible_data, version, query, per_book=10, book_filter=None):
     """Full-text search with operator support.
     Returns (results, book_totals)."""
@@ -909,9 +922,9 @@ def search_text(bible_data, version, query, per_book=10, book_filter=None):
 
     def matches_any_group(text_lower):
         for phrases, words, excluded in groups:
-            if all(p in text_lower for p in phrases) \
-                    and all(w in text_lower for w in words) \
-                    and not any(w in text_lower for w in excluded):
+            if all(_word_match(p, text_lower) for p in phrases) \
+                    and all(_word_match(w, text_lower) for w in words) \
+                    and not any(_word_match(w, text_lower) for w in excluded):
                 return True
         return False
 

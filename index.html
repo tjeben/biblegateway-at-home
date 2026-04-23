@@ -75,6 +75,21 @@
             display: block;
         }
         .app-header h1 { font-size: 1.2rem; font-weight: 600; letter-spacing: 0.5px; }
+        .header-actions { display: flex; gap: 6px; align-items: center; }
+        .header-icon-btn {
+            background: transparent;
+            border: 2px solid rgba(255,255,255,0.3);
+            color: white;
+            width: 38px; height: 38px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1.05rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: border-color 0.2s;
+        }
+        .header-icon-btn:hover { border-color: rgba(255,255,255,0.6); }
         body { padding-top: 60px; }
 
         .search-area {
@@ -1927,7 +1942,10 @@
             <img src="/logo_biblegateway.png" alt="BibleGateway logo" class="header-logo">
             <h1>Bibelsøk</h1>
         </div>
-        <button class="dark-toggle" id="darkToggle" title="Mørk modus">&#9790;</button>
+        <div class="header-actions">
+            <button class="header-icon-btn" onclick="showSearchInfo()" title="Hvordan søke" aria-label="Info">ℹ️</button>
+            <button class="dark-toggle" id="darkToggle" title="Mørk modus">&#9790;</button>
+        </div>
     </div>
 </div>
 
@@ -1963,7 +1981,6 @@
         <div class="daily-verse" id="dailyVerse"></div>
         <div class="daily-verse-divider"></div>
         <h2>Søk i Bibelen</h2>
-        <button type="button" class="competitor-link" onclick="showSearchInfo()">ℹ️ Info</button>
     </div>
 </div>
 
@@ -1978,6 +1995,8 @@
             <p>Bruk <code>;</code> for flere steder på en gang: <code>John 3:16;18</code></p>
             <p>Sett <code>-</code> foran et ord for å utelukke det fra søket: <code>nåde -lov</code></p>
             <p>Bruk <code>+</code> for å finne vers som inneholder <em>enten</em> den ene eller andre frasen: <code>"frykt ikke" + "vær ikke redd"</code></p>
+            <p>Søk treffer kun hele ord — <code>Peter</code> finner ikke <em>trompeter</em>.</p>
+            <p>På PC kan du bla mellom kapitler/vers med <code>←</code> og <code>→</code>, og bruke <code>↑</code>/<code>↓</code>/<code>Enter</code> i søkeforslag.</p>
             <p>Du kan også søke muntlig og på alle ord i Bibelen.</p>
             <div class="modal-links">
                 <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="competitor-link">Konkurrerende tjeneste</a>
@@ -2207,9 +2226,22 @@
     function setupSearchCE(el) {
         el.addEventListener('input', () => formatSearchInputCE(el));
         el.addEventListener('keydown', e => {
+            const visibleSugg = document.querySelector('.desktop-only .suggestions.open, #searchBottomBar .suggestions.open');
+            if (visibleSugg && (e.key === 'ArrowDown' || e.key === 'ArrowUp')) {
+                e.preventDefault();
+                moveSuggestionHover(visibleSugg, e.key === 'ArrowDown' ? 1 : -1);
+                return;
+            }
             if (e.key === 'Enter') {
                 e.preventDefault();
+                // Velg et eventuelt hovret forslag, ellers vanlig søk
+                if (visibleSugg) {
+                    const active = visibleSugg.querySelector('.suggestion-item.hover');
+                    if (active) { active.click(); return; }
+                }
                 doSearch();
+            } else if (e.key === 'Escape' && visibleSugg) {
+                closeSuggestions();
             }
         });
         el.addEventListener('paste', e => {
@@ -2218,8 +2250,35 @@
             document.execCommand('insertText', false, text.replace(/\n/g, ' '));
         });
     }
+    function moveSuggestionHover(container, dir) {
+        const items = Array.from(container.querySelectorAll('.suggestion-item'));
+        if (!items.length) return;
+        const cur = items.findIndex(x => x.classList.contains('hover'));
+        items.forEach(x => x.classList.remove('hover'));
+        let next = cur + dir;
+        if (next < 0) next = items.length - 1;
+        if (next >= items.length) next = 0;
+        items[next].classList.add('hover');
+        items[next].scrollIntoView({ block: 'nearest' });
+    }
     setupSearchCE(searchInputDesktop);
     setupSearchCE(searchInputMobile);
+
+    // Globale tastatursnarveier på PC: ← → for forrige/neste (kapittel eller vers)
+    document.addEventListener('keydown', (e) => {
+        // Ikke forstyrr når bruker skriver i inputs/contenteditable eller modifier-taster er nede
+        if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return;
+        const tgt = e.target;
+        if (tgt && (tgt.matches && tgt.matches('input, textarea, select, [contenteditable="true"]'))) return;
+        if (document.querySelector('.modal-backdrop.open')) return;  // ikke når modal er åpen
+        if (e.key === 'ArrowLeft' && typeof navPrev === 'function') {
+            e.preventDefault();
+            navPrev();
+        } else if (e.key === 'ArrowRight' && typeof navNext === 'function') {
+            e.preventDefault();
+            navNext();
+        }
+    });
 
     // iOS/mobil: flytt bunn-søkefeltet over virtuelt tastatur via visualViewport
     (function setupKeyboardAwareBar() {
