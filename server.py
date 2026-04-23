@@ -834,17 +834,32 @@ def is_reference_query(query):
     return False
 
 
-def parse_search_query(query):
-    """Parse query into (required_phrases, required_words, excluded_words).
-    - "quoted phrases" → exact substring match
-    - word → AND-match single word
-    - -word → must NOT contain
-    """
+def _split_on_plus_outside_quotes(query):
+    """Del en query på '+' som OR-separator, men kun når + er UTENFOR anførselstegn."""
+    parts = []
+    buf = []
+    in_quote = False
+    for ch in query:
+        if ch == '"':
+            in_quote = not in_quote
+            buf.append(ch)
+        elif ch == '+' and not in_quote:
+            parts.append("".join(buf).strip())
+            buf = []
+        else:
+            buf.append(ch)
+    if buf:
+        parts.append("".join(buf).strip())
+    return [p for p in parts if p]
+
+
+def _parse_single_group(group):
+    """Parse én gruppe (AND-logikk) til (phrases, words, excluded)."""
     required_phrases = []
     phrase_pat = re.compile(r'"([^"]+)"')
-    for m in phrase_pat.finditer(query):
+    for m in phrase_pat.finditer(group):
         required_phrases.append(m.group(1).lower())
-    remainder = phrase_pat.sub(' ', query)
+    remainder = phrase_pat.sub(' ', group)
 
     required_words = []
     excluded_words = []
@@ -856,18 +871,49 @@ def parse_search_query(query):
     return required_phrases, required_words, excluded_words
 
 
+def parse_search_query(query):
+    """Parse query til liste av OR-grupper (hver gruppe = AND-logikk).
+    Operatorer:
+    - "quoted phrases" → eksakt substring match
+    - word → AND-match enkeltord
+    - -word → må IKKE inneholde
+    - + → OR mellom grupper (f.eks. "frykt ikke" + "vær ikke redd")
+
+    Returnerer: list of (phrases, words, excluded) — vers matcher hvis ANY gruppe matcher.
+    """
+    groups = _split_on_plus_outside_quotes(query)
+    if not groups:
+        return []
+    return [_parse_single_group(g) for g in groups]
+
+
 def has_search_operators(query):
-    """Returns True if query uses " or -word operators."""
-    phrases, _, excl = parse_search_query(query)
-    return bool(phrases) or bool(excl)
+    """Returns True if query uses ", -word, or + operators."""
+    if '+' in query and _split_on_plus_outside_quotes(query) and len(_split_on_plus_outside_quotes(query)) > 1:
+        return True
+    for group in parse_search_query(query):
+        phrases, _, excl = group
+        if phrases or excl:
+            return True
+    return False
 
 
 def search_text(bible_data, version, query, per_book=10, book_filter=None):
     """Full-text search with operator support.
     Returns (results, book_totals)."""
-    phrases, words, excluded = parse_search_query(query)
-    if not phrases and not words and not excluded:
+    groups = parse_search_query(query)
+    # Filtrer bort tomme grupper
+    groups = [g for g in groups if g[0] or g[1] or g[2]]
+    if not groups:
         return [], {}
+
+    def matches_any_group(text_lower):
+        for phrases, words, excluded in groups:
+            if all(p in text_lower for p in phrases) \
+                    and all(w in text_lower for w in words) \
+                    and not any(w in text_lower for w in excluded):
+                return True
+        return False
 
     results = []
     book_totals = {}
@@ -883,11 +929,7 @@ def search_text(bible_data, version, query, per_book=10, book_filter=None):
         for key, value in data.items():
             text = _entry_text(value)
             text_lower = text.lower()
-            if not all(p in text_lower for p in phrases):
-                continue
-            if not all(w in text_lower for w in words):
-                continue
-            if any(w in text_lower for w in excluded):
+            if not matches_any_group(text_lower):
                 continue
             total += 1
             if total <= effective_per_book:

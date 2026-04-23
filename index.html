@@ -1977,6 +1977,7 @@
             <p>Slå opp vers med referanse: <code>Johannes 3:16</code></p>
             <p>Bruk <code>;</code> for flere steder på en gang: <code>John 3:16;18</code></p>
             <p>Sett <code>-</code> foran et ord for å utelukke det fra søket: <code>nåde -lov</code></p>
+            <p>Bruk <code>+</code> for å finne vers som inneholder <em>enten</em> den ene eller andre frasen: <code>"frykt ikke" + "vær ikke redd"</code></p>
             <p>Du kan også søke muntlig og på alle ord i Bibelen.</p>
             <div class="modal-links">
                 <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="competitor-link">Konkurrerende tjeneste</a>
@@ -2186,6 +2187,8 @@
                 html += '<b>-</b>';
             } else if ((c === ':' || c === ';') && !inQuote) {
                 html += '<b>' + c + '</b>';
+            } else if (c === '+' && !inQuote) {
+                html += '<b>+</b>';
             } else if (c === '<') html += '&lt;';
             else if (c === '>') html += '&gt;';
             else if (c === '&') html += '&amp;';
@@ -2245,6 +2248,7 @@
     // Hjelper: har søket operatorer (bypass KI)?
     function queryHasOperators(q) {
         if (q.indexOf('"') !== -1) return true;
+        if (q.indexOf('+') !== -1) return true;
         return q.split(/\s+/).some(t => t.startsWith('-') && t.length > 1);
     }
     // Legacy no-op proxy (compare is now per-card, ikke en global knapp)
