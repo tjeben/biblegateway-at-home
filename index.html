@@ -521,27 +521,32 @@
         .card-action-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
         .card-action-btn:active:not(:disabled) { transform: translateY(0); }
 
-        /* KI-knapper i verktøylinjen: samme gyldne stil som btn-diff */
-        .card-action-btn.ai-btn {
-            background: linear-gradient(180deg, #fff4c7, #fde199);
-            color: #7a5b1a;
-            border: 1px solid rgba(217, 158, 10, 0.55);
-            box-shadow: 0 1px 2px rgba(180, 130, 20, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.7);
-        }
+        /* KI-knapper i verktøylinjen: nøytrale som standard, gul tint ved hover, gul glow når aktiv */
+        .card-action-btn.ai-btn { /* arver nøytral stil fra .card-action-btn */ }
         .card-action-btn.ai-btn:hover:not(:disabled) {
             background: linear-gradient(180deg, #fff8d8, #fbd27d);
             color: #7a5b1a;
-            border-color: rgba(217, 158, 10, 0.8);
-            box-shadow: 0 3px 10px rgba(217, 158, 10, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            border-color: rgba(217, 158, 10, 0.75);
+            box-shadow: 0 3px 10px rgba(217, 158, 10, 0.2);
         }
-        [data-theme="dark"] .card-action-btn.ai-btn {
-            background: linear-gradient(180deg, #3a2c10, #2a1f08);
-            color: #fbbf24;
-            border-color: rgba(217, 158, 10, 0.45);
+        .card-action-btn.ai-btn.active {
+            background: transparent;
+            color: #7a5b1a;
+            border-color: rgba(217, 158, 10, 0.9);
+            box-shadow: 0 0 0 2px rgba(217, 158, 10, 0.28), 0 0 10px rgba(217, 158, 10, 0.35);
+        }
+        .card-action-btn.ai-btn.active:hover:not(:disabled) {
+            background: linear-gradient(180deg, #fff8d8, #fbd27d);
         }
         [data-theme="dark"] .card-action-btn.ai-btn:hover:not(:disabled) {
             background: linear-gradient(180deg, #4a3a14, #342408);
             color: #fbbf24;
+            border-color: rgba(217, 158, 10, 0.6);
+        }
+        [data-theme="dark"] .card-action-btn.ai-btn.active {
+            color: #fbbf24;
+            border-color: rgba(217, 158, 10, 0.9);
+            box-shadow: 0 0 0 2px rgba(217, 158, 10, 0.32), 0 0 12px rgba(217, 158, 10, 0.45);
         }
 
         /* Error */
@@ -4082,32 +4087,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         let html = '';
 
 
-        // Bygg KI-sammenligningsseksjonen én gang — knappene er alltid synlige
+        // KI-sammenligningsknappene ligger nå i verktøylinjen (buildToolbarHtml).
+        // Her bygger vi bare resultat-kortet (tekst/feilmelding) når det finnes.
         let aiSection = '';
         if (showCompare) {
-            const diffLoading = aiDiffState && aiDiffState.loading;
-            const diffActive = aiDiffState && aiDiffState.text;
-            const hlLoading = aiHighlights && aiHighlights.loading;
-            const hlActive = aiHighlights && (aiHighlights.v1 || aiHighlights.v2);
-            const mostDiffLoading = aiDiffState && aiDiffState.findingMostDifferent;
-            aiSection = `<div class="ai-diff-section">
-                <div class="ai-diff-buttons">
-                    <button class="btn-diff${diffActive ? ' active' : ''}" onclick="toggleDiff()" ${diffLoading ? 'disabled' : ''}>
-                        ${diffLoading ? '⏳ Analyserer…' : '✨ Sammenlign'}
-                    </button>
-                    <button class="btn-diff${hlActive ? ' active' : ''}" onclick="toggleHighlights()" ${hlLoading ? 'disabled' : ''}>
-                        ${hlLoading ? '⏳ Markerer…' : '🖍️ Marker forskjeller'}
-                    </button>
-                    <button class="btn-diff" onclick="findMostDifferent()" ${mostDiffLoading ? 'disabled' : ''}>
-                        ${mostDiffLoading ? '⏳ Leter…' : '🔍 Finn største ulikhet'}
-                    </button>
-                </div>`;
             if (aiDiffState && aiDiffState.text) {
-                aiSection += `<div class="diff-result-card">${escHtml(aiDiffState.text)}</div>`;
+                aiSection = `<div class="ai-diff-section"><div class="diff-result-card">${escHtml(aiDiffState.text)}</div></div>`;
             } else if (aiDiffState && aiDiffState.error) {
-                aiSection += `<div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div>`;
+                aiSection = `<div class="ai-diff-section"><div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div></div>`;
             }
-            aiSection += '</div>';
         }
 
         // Side by side (PC) / stablet (mobil) — KI-seksjonen plasseres rett etter første blokk
@@ -4199,13 +4187,35 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const genRefsBtn = hasNoXrefs
             ? `<button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" data-source="${escAttr(block.book + '.' + singleV.chapter + '.' + singleV.num)}" onclick="generateRefs(this)">🔗 Generer referanser</button>`
             : '';
+
+        // KI-sammenligningsknapper: vises bare i sammenligningsmodus
+        let compareAiBtns = '';
+        if (compareMode && compareData) {
+            const diffLoading = aiDiffState && aiDiffState.loading;
+            const diffActive = aiDiffState && aiDiffState.text;
+            const hlLoading = aiHighlights && aiHighlights.loading;
+            const hlActive = aiHighlights && (aiHighlights.v1 || aiHighlights.v2);
+            const mostDiffLoading = aiDiffState && aiDiffState.findingMostDifferent;
+            compareAiBtns = `
+                <button class="card-action-btn ai-btn${diffActive ? ' active' : ''}" onclick="toggleDiff()" ${diffLoading ? 'disabled' : ''}>
+                    ${diffLoading ? '⏳ Analyserer…' : '✨ Oppsummer forskjell'}
+                </button>
+                <button class="card-action-btn ai-btn${hlActive ? ' active' : ''}" onclick="toggleHighlights()" ${hlLoading ? 'disabled' : ''}>
+                    ${hlLoading ? '⏳ Markerer…' : '🖍️ Marker forskjeller'}
+                </button>
+                <button class="card-action-btn ai-btn" onclick="findMostDifferent()" ${mostDiffLoading ? 'disabled' : ''}>
+                    ${mostDiffLoading ? '⏳ Leter…' : '🔍 Finn største ulikhet'}
+                </button>`;
+        }
+
         let html = `<div class="verse-card-toolbar">
             <button class="card-action-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${verseNum || 'null'})">Hele kapittelet</button>
             <button class="card-action-btn" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
             <button class="card-action-btn" onclick="showAllVersions('${escAttr(block.label)}')">Alle versjoner</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
-            ${genRefsBtn}`;
+            ${genRefsBtn}
+            ${compareAiBtns}`;
         if (ilUrl) {
             html += `<a class="card-action-btn" href="${ilUrl}" target="_blank" rel="noopener" style="text-decoration:none;">biblehub</a>`;
         }
