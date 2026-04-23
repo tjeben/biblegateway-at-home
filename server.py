@@ -978,6 +978,73 @@ def search_text(bible_data, version, query, per_book=10, book_filter=None):
 bible_data = None
 last_heartbeat = time.time()
 
+# ──────────────────────────────────────────────
+# Rate limiting for KI-endepunkter (beskytt API-nøkkel mot misbruk)
+# ──────────────────────────────────────────────
+import threading
+from collections import deque
+
+_ai_rate_lock = threading.Lock()
+_ai_calls_per_ip = {}        # ip -> deque[(timestamp, endpoint)]
+_ai_global_day = deque()     # timestamps for alle KI-kall i løpet av 24t
+
+# Konfigurasjon (kan overstyres via miljøvariabler)
+AI_RATE_WINDOW_SEC = int(os.environ.get("AI_RATE_WINDOW_SEC", "600"))      # 10 min
+AI_RATE_PER_WINDOW = int(os.environ.get("AI_RATE_PER_WINDOW", "30"))       # max 30 kall per 10 min
+AI_DAILY_PER_IP    = int(os.environ.get("AI_DAILY_PER_IP",    "200"))      # max 200 kall per IP per dag
+AI_DAILY_GLOBAL    = int(os.environ.get("AI_DAILY_GLOBAL",    "2000"))     # max 2000 totalt per dag
+
+
+def _get_client_ip(handler):
+    """Finn ekte klient-IP: Cloudflare > X-Forwarded-For > remote_addr."""
+    cf = handler.headers.get("CF-Connecting-IP")
+    if cf:
+        return cf.strip()
+    xff = handler.headers.get("X-Forwarded-For")
+    if xff:
+        return xff.split(",")[0].strip()
+    return handler.client_address[0]
+
+
+def check_ai_rate_limit(ip, endpoint):
+    """Returnerer (allowed: bool, reason_if_blocked: str|None)."""
+    with _ai_rate_lock:
+        now = time.time()
+        day_start = now - 86400
+        window_start = now - AI_RATE_WINDOW_SEC
+
+        # Rydd globalt
+        while _ai_global_day and _ai_global_day[0] < day_start:
+            _ai_global_day.popleft()
+
+        # Rydd per-IP kø
+        q = _ai_calls_per_ip.setdefault(ip, deque())
+        while q and q[0][0] < day_start:
+            q.popleft()
+
+        # Hvis køen er tom etter rydding, fjern entry for å spare minne
+        if not q and ip in _ai_calls_per_ip:
+            # (la stå for nå — vi rydder ved periodisk vedlikehold)
+            pass
+
+        # Vindu-begrensning
+        in_window = sum(1 for t, _ in q if t >= window_start)
+        if in_window >= AI_RATE_PER_WINDOW:
+            return False, "For mange KI-spørringer i kort tid. Prøv igjen om noen minutter."
+
+        # Dags-begrensning per IP
+        if len(q) >= AI_DAILY_PER_IP:
+            return False, "Dagens KI-kvote er brukt opp. Prøv igjen i morgen."
+
+        # Global dags-begrensning
+        if len(_ai_global_day) >= AI_DAILY_GLOBAL:
+            return False, "KI-tjenesten er midlertidig utilgjengelig pga. høy trafikk. Prøv igjen senere."
+
+        # Alt OK — registrer
+        q.append((now, endpoint))
+        _ai_global_day.append(now)
+        return True, None
+
 
 class BibleHandler(http.server.BaseHTTPRequestHandler):
     def log_message(self, format, *args):
@@ -1173,6 +1240,14 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                 self._send_json({"error": str(e)}, 500)
 
         elif path == "/api/ai_parse":
+            # Rate-limit før vi treffer KI-API
+            ip = _get_client_ip(self)
+            allowed, reason = check_ai_rate_limit(ip, path)
+            if not allowed:
+                sys.stderr.write(f"[{self.log_date_time_string()}] RATE-LIMIT {path} fra {ip}: {reason}\n")
+                sys.stderr.flush()
+                self._send_json({"error": reason}, 429)
+                return
             query = params.get("q", [""])[0]
             if not query:
                 self._send_json({"error": "No query"}, 400)
@@ -1255,6 +1330,16 @@ Regler:
         except Exception:
             self._send_json({"error": "Ugyldig JSON"}, 400)
             return
+
+        # Rate-limit for alle KI-endepunkter (POST)
+        if path.startswith("/api/ai_"):
+            ip = _get_client_ip(self)
+            allowed, reason = check_ai_rate_limit(ip, path)
+            if not allowed:
+                sys.stderr.write(f"[{self.log_date_time_string()}] RATE-LIMIT {path} fra {ip}: {reason}\n")
+                sys.stderr.flush()
+                self._send_json({"error": reason}, 429)
+                return
 
         if path == "/api/ai_most_different":
             api_key = os.environ.get("GEMINI_API_KEY", "")

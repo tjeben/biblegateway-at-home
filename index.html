@@ -3980,13 +3980,18 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     async function safeJson(resp) {
         const text = await resp.text();
         try {
-            return JSON.parse(text);
+            const data = JSON.parse(text);
+            // Bevar HTTP-status så kallestedet kan skille 429 fra 500
+            if (data && typeof data === 'object') data._status = resp.status;
+            return data;
         } catch (err) {
-            // Responsen var ikke JSON — sannsynligvis en HTML-feilside
             const firstLine = text.split('\n').slice(0, 3).join(' ').slice(0, 200);
             console.error(`Ikke-JSON respons (HTTP ${resp.status}):`, firstLine);
             return {
-                error: resp.status >= 500
+                _status: resp.status,
+                error: resp.status === 429
+                    ? 'For mange KI-spørringer. Prøv igjen om litt.'
+                    : resp.status >= 500
                     ? `Serveren svarte med feilside (HTTP ${resp.status}). Prøv igjen om litt.`
                     : `Uventet svar fra server (HTTP ${resp.status}).`
             };
