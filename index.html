@@ -673,6 +673,23 @@
             color: var(--text-muted);
         }
         .empty-state h2 { font-size: 1.3rem; margin-bottom: 10px; color: var(--text); }
+        .competitor-link {
+            display: inline-block;
+            margin: 0 auto 14px;
+            padding: 6px 14px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: all 0.18s;
+        }
+        .competitor-link:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            transform: translateY(-1px);
+        }
         .empty-state p { font-size: 0.95rem; line-height: 1.6; }
 
         /* Dagens vers — stille påminnelse om at Guds ord er sentralt */
@@ -1818,6 +1835,7 @@
         <div class="daily-verse" id="dailyVerse"></div>
         <div class="daily-verse-divider"></div>
         <h2>Søk i Bibelen</h2>
+        <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="competitor-link">Konkurrerende tjeneste</a>
         <p>
             Slå opp vers med referanse: <code>Johannes 3:16</code><br>
             Bruk <code>;</code> for flere steder på en gang: <code>John 3:16;18</code><br>
