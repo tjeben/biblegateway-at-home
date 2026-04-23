@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>BibleGateway at home</title>
     <link rel="icon" href="/logo_biblegateway.png" type="image/png" sizes="any">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -1343,8 +1345,8 @@
             body.compare-active .nav-next { right: max(16px, calc(50% - 700px)); }
         }
         @media (max-width: 700px) {
-            .nav-prev { left: 14px; bottom: 92px; }
-            .nav-next { right: 14px; bottom: 92px; }
+            .nav-prev { left: 14px; bottom: calc(env(safe-area-inset-bottom, 0px) + 108px); }
+            .nav-next { right: 14px; bottom: calc(env(safe-area-inset-bottom, 0px) + 108px); }
             .nav-btn { width: 48px; height: 48px; font-size: 1.7rem; box-shadow: 0 4px 14px rgba(0,0,0,0.18); }
         }
 
@@ -1754,7 +1756,10 @@
             /* Sticky bottom search bar on mobile */
             .search-bottom-bar {
                 position: fixed;
-                bottom: 0; left: 0; right: 0;
+                left: 0; right: 0;
+                /* Plassert litt over bunnen + respekter safe-area (iOS home indicator).
+                   Dynamisk justert via JS når tastaturet er fremme (visualViewport). */
+                bottom: calc(env(safe-area-inset-bottom, 0px) + 12px);
                 background: var(--bg);
                 border-top: 1px solid var(--border);
                 padding: 10px 14px;
@@ -1763,6 +1768,7 @@
                 flex-direction: column;
                 gap: 8px;
                 box-shadow: 0 -2px 12px rgba(0,0,0,0.1);
+                transition: bottom 0.18s ease;
             }
             .search-bottom-bar .search-bar-wrap { min-width: 0; }
             .search-bottom-bar .controls-actions-row {
@@ -1771,7 +1777,7 @@
                 align-items: center;
             }
             .controls.desktop-only { display: none; }
-            .results-wrapper { padding-bottom: 110px; }
+            .results-wrapper { padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 130px); }
         }
         @media (min-width: 701px) {
             .search-bottom-bar { display: none; }
@@ -2094,6 +2100,30 @@
     }
     setupSearchCE(searchInputDesktop);
     setupSearchCE(searchInputMobile);
+
+    // iOS/mobil: flytt bunn-søkefeltet over virtuelt tastatur via visualViewport
+    (function setupKeyboardAwareBar() {
+        if (!('visualViewport' in window)) return;
+        const bar = document.getElementById('searchBottomBar');
+        if (!bar) return;
+        const update = () => {
+            const vv = window.visualViewport;
+            const offset = Math.max(0, window.innerHeight - vv.height - vv.offsetTop);
+            // Når tastaturet er synlig, sett bottom til offset (dynamisk).
+            // Ellers tilbake til CSS-default (safe-area + 12px buffer).
+            if (offset > 40) {
+                bar.style.bottom = (offset + 6) + 'px';
+            } else {
+                bar.style.bottom = '';
+            }
+        };
+        window.visualViewport.addEventListener('resize', update);
+        window.visualViewport.addEventListener('scroll', update);
+        // Sett riktig ved første fokusering
+        [searchInputDesktop, searchInputMobile].forEach(el => {
+            if (el) el.addEventListener('focus', () => setTimeout(update, 100));
+        });
+    })();
 
     // Hjelper: har søket operatorer (bypass KI)?
     function queryHasOperators(q) {
