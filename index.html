@@ -1035,6 +1035,23 @@
             font-size: 0.78rem;
             color: var(--text-muted);
         }
+        .theme-section-searches {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            padding: 0 10px 8px;
+            margin-top: -2px;
+        }
+        .theme-search-pill {
+            padding: 2px 9px;
+            font-size: 0.72rem;
+            border-radius: 999px;
+            background: rgba(168, 50, 50, 0.06);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+        [data-theme="dark"] .theme-search-pill { background: rgba(201, 68, 68, 0.08); }
 
         /* Tema-modus-velger */
         .theme-mode-bar {
@@ -2439,20 +2456,37 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const version = themeSearchVersion();
         const active = themeMapState.themes.filter(t => t.active && !t.counts);
         if (active.length === 0) return;
-        const responses = await Promise.all(active.map(t => {
-            const q = `"${t.search}"`;
-            return fetch(`/api/search?q=${encodeURIComponent(q)}&version=${encodeURIComponent(version)}`)
-                .then(r => r.json()).catch(() => ({ results: [] }));
-        }));
-        active.forEach((t, i) => {
-            const s = responses[i];
-            const counts = s.book_totals || {};
-            if (Object.keys(counts).length === 0 && s.results) {
-                s.results.forEach(r => { counts[r.book] = (counts[r.book] || 0) + 1; });
-            }
+        // Kjør alle søk for alle aktive tema parallelt, men hold oversikt over hvilket tema de tilhører
+        const flat = [];
+        active.forEach(t => {
+            t.searches.forEach(q => flat.push({ theme: t, q }));
+        });
+        const responses = await Promise.all(flat.map(f =>
+            fetch(`/api/search?q=${encodeURIComponent(f.q)}&version=${encodeURIComponent(version)}`)
+                .then(r => r.json()).catch(() => ({ results: [] }))
+        ));
+        // Samle unike vers per tema
+        const perTheme = new Map();
+        active.forEach(t => perTheme.set(t, new Map()));
+        flat.forEach((f, i) => {
+            const uniqueMap = perTheme.get(f.theme);
+            (responses[i].results || []).forEach(r => {
+                const key = `${r.book}.${r.chapter}.${r.verse}`;
+                if (!uniqueMap.has(key)) uniqueMap.set(key, { ...r, matchedQueries: [f.q] });
+                else uniqueMap.get(key).matchedQueries.push(f.q);
+            });
+        });
+        active.forEach(t => {
+            const uniqueMap = perTheme.get(t);
+            const counts = {};
+            const results = [];
+            uniqueMap.forEach(v => {
+                counts[v.book] = (counts[v.book] || 0) + 1;
+                results.push(v);
+            });
             t.counts = counts;
-            t.results = s.results || [];
-            t.total = Object.values(counts).reduce((a, b) => a + b, 0);
+            t.results = results;
+            t.total = results.length;
         });
     }
 
@@ -2515,11 +2549,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     </div></div>`;
                 return;
             }
+            const searchPills = (t.searches || []).map(q => `<span class="theme-search-pill">${escHtml(q)}</span>`).join('');
             html += `<div class="theme-section">
                 <div class="theme-section-header" style="border-left:4px solid rgba(${t.color.base},0.85);">
                     <span class="theme-section-name">${escHtml(t.name)}</span>
-                    <span class="theme-section-meta">«${escHtml(t.search)}» — ${t.total} treff</span>
+                    <span class="theme-section-meta">${t.total} treff</span>
                 </div>
+                <div class="theme-section-searches">${searchPills}</div>
                 <div class="theme-section-map">${buildThemeMapCellsHtml(t.counts, t.color.base, i)}</div>
             </div>`;
         });
@@ -2568,14 +2604,21 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 return;
             }
 
+            // Normaliser: støtt både nytt format (searches-array) og gammelt (search-streng)
             themeMapState = {
                 label, text,
                 useAllVersions: false,
-                themes: rawThemes.map((t, i) => ({
-                    name: t.name, search: t.search, active: false,
-                    color: THEME_COLORS[i % THEME_COLORS.length],
-                    counts: null, results: null, total: null,
-                })),
+                themes: rawThemes.slice(0, 3).map((t, i) => {
+                    let searches = Array.isArray(t.searches) ? t.searches.filter(s => s && s.trim()) : [];
+                    if (searches.length === 0 && t.search) searches = [`"${t.search}"`];
+                    return {
+                        name: t.name,
+                        searches,
+                        active: false,
+                        color: THEME_COLORS[i % THEME_COLORS.length],
+                        counts: null, results: null, total: null,
+                    };
+                }),
             };
             renderThemeMap();
         } catch {
@@ -2625,10 +2668,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <button class="theme-verse-popover-close" onclick="this.closest('.theme-verse-popover').remove()">×</button>
         </div>
         <div class="theme-verse-popover-list">`;
+        // Alle søkeord/fraser rengjort (fjern anførselstegn) for utheving
+        const highlightTerms = (theme.searches || []).map(s => s.replace(/^"|"$/g, '').trim()).filter(Boolean).join(' ');
         verses.forEach(v => {
             html += `<div class="theme-verse-item" onclick="navigateToRef('${escAttr(v.ref)}'); document.querySelectorAll('.theme-verse-popover').forEach(p=>p.remove());">
                 <div class="theme-verse-item-ref">${escHtml(v.ref)}</div>
-                <div class="theme-verse-item-text">${highlightWords(escHtml(v.text), theme.search)}</div>
+                <div class="theme-verse-item-text">${highlightWords(escHtml(v.text), highlightTerms)}</div>
             </div>`;
         });
         html += `</div>`;

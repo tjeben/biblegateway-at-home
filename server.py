@@ -1409,13 +1409,21 @@ Regler:
                 result = gemini_request(
                     api_key,
                     f"Vers: {label}\nTekst: {text}",
-                    "Du er en bibelforsker. Identifiser 5 sentrale tema/nøkkelbegreper i dette bibelverset. "
-                    "For hvert tema, gi et kort tema-navn (1-3 ord) og et PRESIST norsk søkeord/frase "
-                    "(1-3 ord, bøyd form som faktisk finnes i norske bibeloversettelser) som vil finne "
-                    "andre vers med samme tema. Ikke inkluder anførselstegn rundt søkeordet — "
-                    "bare selve ordene, klienten legger til anførselstegn selv.\n\n"
-                    "Returner KUN gyldig JSON-array med 5 elementer, uten kommentarer:\n"
-                    '[{"name": "Tema 1", "search": "søkeord"}, {"name": "Tema 2", "search": "søkeord"}, ...]\n\n'
+                    "Du er en bibelforsker. Identifiser 3 sentrale tema i dette bibelverset. "
+                    "For hvert tema, gi et kort navn (1-3 ord) og en liste med 6-10 presise "
+                    "søkestrenger som til sammen finner de stedene i Bibelen hvor samme tema "
+                    "faktisk behandles. Kvaliteten på dekningen er viktigere enn antall.\n\n"
+                    "Søkestrengene skal være en MIKS av:\n"
+                    '- Eksakte fraser i anførselstegn, f.eks. "\\"frykt for Herren\\"" — disse MÅ '
+                    "være ordkombinasjoner som faktisk står i norske bibeloversettelser\n"
+                    "- Enkelt-ord uten anførselstegn, f.eks. \"lydig\", \"nåde\", \"rettferdig\" — "
+                    "disse finner alle bøyde former\n\n"
+                    "Varier bøyninger (entall/flertall, bestemt/ubestemt), synonymer og relaterte "
+                    "begreper for å få bred dekning. Unngå for vanlige småord (og, i, det). "
+                    "Eksempel for tema 'Lov og orden': [\"\\\"Herrens lov\\\"\", \"\\\"budene\\\"\", "
+                    "\"forskrifter\", \"rettferdighet\", \"lydighet\", \"\\\"hans bud\\\"\"]\n\n"
+                    "Returner KUN gyldig JSON-array med 3 elementer:\n"
+                    '[{"name": "Tema", "searches": ["søk1", "søk2", ...]}, ...]\n\n'
                     "Ingen innledning, ingen etterord. Bare JSON-arrayet.",
                     max_tokens=300,
                 )
