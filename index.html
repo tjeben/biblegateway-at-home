@@ -285,13 +285,24 @@
             align-items: center;
             margin-left: 6px;
         }
-        .copy-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+        .copy-btn:hover:not(:disabled) {
+            border-color: var(--accent);
+            color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(168, 50, 50, 0.22), 0 0 10px rgba(168, 50, 50, 0.25);
+        }
+        [data-theme="dark"] .copy-btn:hover:not(:disabled) {
+            box-shadow: 0 0 0 2px rgba(201, 68, 68, 0.3), 0 0 12px rgba(201, 68, 68, 0.35);
+        }
         .copy-btn.active {
             background: var(--accent);
             color: white;
             border-color: var(--accent);
         }
-        .copy-btn.active:hover { background: var(--accent-hover); color: white; }
+        .copy-btn.active:hover:not(:disabled) {
+            background: var(--accent-hover);
+            color: white;
+            box-shadow: 0 0 0 2px rgba(168, 50, 50, 0.3), 0 0 12px rgba(168, 50, 50, 0.4);
+        }
 
         /* Handlinger til høyre i header */
         .card-head-actions { display: flex; gap: 6px; align-items: center; }
@@ -619,8 +630,27 @@
             align-items: center;
             gap: 5px;
         }
-        .card-action-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+        .card-action-btn:hover:not(:disabled) {
+            border-color: var(--accent);
+            color: var(--accent);
+            transform: translateY(-1px);
+            box-shadow: 0 0 0 2px rgba(168, 50, 50, 0.22), 0 0 10px rgba(168, 50, 50, 0.25);
+        }
+        [data-theme="dark"] .card-action-btn:hover:not(:disabled) {
+            box-shadow: 0 0 0 2px rgba(201, 68, 68, 0.3), 0 0 12px rgba(201, 68, 68, 0.35);
+        }
         .card-action-btn:active:not(:disabled) { transform: translateY(0); }
+        /* Aktiv (valgt) stil for ikke-KI-knapper: rødt fylt, hvit tekst — samme som .copy-btn.active */
+        .card-action-btn.active:not(.ai-btn) {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        .card-action-btn.active:not(.ai-btn):hover:not(:disabled) {
+            background: var(--accent-hover);
+            color: white;
+            box-shadow: 0 0 0 2px rgba(168, 50, 50, 0.3), 0 0 12px rgba(168, 50, 50, 0.4);
+        }
 
         /* KI-knapper i verktøylinjen: nøytrale som standard, gul tint ved hover, gul glow når aktiv */
         .card-action-btn.ai-btn { /* arver nøytral stil fra .card-action-btn */ }
@@ -4543,7 +4573,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         let html = `<div class="verse-card-toolbar">
-            <button class="card-action-btn" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
+            <button class="card-action-btn${compareMode ? ' active' : ''}" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
             ${genRefsBtn}
