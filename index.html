@@ -3802,7 +3802,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     const items = groups[code];
                     const bName = bookName(code);
                     const totalInBook = h.bookTotals[code] || items.length;
-                    const countLabel = totalInBook > items.length ? `${items.length}+` : `${items.length}`;
+                    const countLabel = `${totalInBook}`;
                     html += `<div class="book-group" data-book="${escAttr(code)}">
                         <div class="book-group-header" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
                             <span>${escHtml(bName)}<span class="book-group-count">(${countLabel})</span></span>
@@ -4488,7 +4488,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 const items = groupMap[code];
                 const bName = bookName(code);
                 const totalInBook = bookTotals[code] || items.length;
-                const countLabel = totalInBook > items.length ? `${items.length}+` : `${items.length}`;
+                const countLabel = `${totalInBook}`;
                 html += `<div class="book-group" data-book="${escAttr(code)}">
                     <div class="book-group-header" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
                         <span>${escHtml(bName)}<span class="book-group-count">(${countLabel})</span></span>
