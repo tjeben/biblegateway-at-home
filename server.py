@@ -529,12 +529,24 @@ def identify_book(text):
     return None, text
 
 
+_DASH_CHARS = "\u2010\u2011\u2012\u2013\u2014\u2015\u2212"  # ulike typer streker brukeren kan skrive
+
+
+def normalize_dashes(s):
+    """Erstatter alle dashe-varianter med standard ASCII-hyphen og fullbredde-kolon/semikolon."""
+    if not s:
+        return s
+    for ch in _DASH_CHARS:
+        s = s.replace(ch, "-")
+    return s.replace("\uff1a", ":").replace("\uff1b", ";")
+
+
 def parse_reference(ref_str):
     """
     Parse a reference string like "3:16", "3:16-18", "3:16-4:2", "3", "3-5".
     Returns a dict with parsing results.
     """
-    ref_str = ref_str.strip()
+    ref_str = normalize_dashes(ref_str).strip()
     if not ref_str:
         return None
 
@@ -594,6 +606,7 @@ def parse_query(query):
     Each block = { book, label, ref_info }
     Semicolons separate blocks. Context is inherited across blocks.
     """
+    query = normalize_dashes(query)
     parts = [p.strip() for p in query.split(";") if p.strip()]
     blocks = []
 
@@ -783,6 +796,7 @@ def extract_book_prefix(query):
 
 def is_reference_query(query):
     """Check if the query looks like a Bible reference (vs free text search)."""
+    query = normalize_dashes(query)
     # Bok-prefiks → alltid tekstsøk (filtrert)
     pb, _ = extract_book_prefix(query)
     if pb:

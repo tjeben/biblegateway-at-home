@@ -3430,6 +3430,17 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         aiDiffState = null;
         aiHighlights = null;
 
+        // NT:/GT:-prefiks → filtrert testament-søk (kjør direkte, ikke via KI-fallback)
+        const tMatch = /^(nt|gt)\s*:\s*(.+)$/i.exec(query);
+        if (tMatch) {
+            const testament = tMatch[1].toUpperCase();
+            const rest = tMatch[2].trim();
+            if (rest) {
+                await searchInTestament(rest, testament);
+                return;
+            }
+        }
+
         const version = versionSelect.value;
         try {
             const resp = await fetchWithRetry(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}`);
