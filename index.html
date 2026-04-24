@@ -3490,28 +3490,47 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         });
     })();
 
-    // Fjern en uthevning fra DOM + localStorage
+    // Fjern en uthevning fra DOM + localStorage. Hvis mark tilhører en gruppe
+    // (data-hlg), slettes alle mark-elementer i samme gruppe, i alle synlige vers
+    // og versjoner — så en markering på tvers av vers/versjoner forsvinner helt.
     function deleteHighlight(mark) {
         if (!mark || !mark.classList.contains('user-highlight')) return;
-        const vspan = mark.closest('[data-vref]');
-        const text = mark.textContent || '';
-        // Unwrap: erstatt mark med barn-nodene
-        const parent = mark.parentNode;
-        while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
-        parent.removeChild(mark);
-        parent.normalize(); // slå sammen tilstøtende tekstnoder
-        // Fjern fra localStorage
-        if (vspan) {
-            const vref = vspan.getAttribute('data-vref');
-            const version = vspan.getAttribute('data-version') || '';
-            const all = loadHighlights();
-            const key = highlightKey(version, vref);
-            if (all[key]) {
-                all[key] = all[key].filter(t => t !== text);
-                if (all[key].length === 0) delete all[key];
-                try { localStorage.setItem('userHighlights', JSON.stringify(all)); } catch {}
+        const group = mark.getAttribute('data-hlg') || '';
+        const marks = group
+            ? Array.from(document.querySelectorAll(`mark.user-highlight[data-hlg="${CSS.escape(group)}"]`))
+            : [mark];
+
+        // Samle (key, text, group) per mark før vi fjerner dem
+        const toRemove = [];
+        marks.forEach(m => {
+            const vspan = m.closest('[data-vref]');
+            if (vspan) {
+                toRemove.push({
+                    key: highlightKey(vspan.getAttribute('data-version') || '', vspan.getAttribute('data-vref')),
+                    text: m.textContent || '',
+                    group: group,
+                });
             }
-        }
+            const parent = m.parentNode;
+            while (m.firstChild) parent.insertBefore(m.firstChild, m);
+            parent.removeChild(m);
+            parent.normalize();
+        });
+
+        // Fjern tilsvarende entries i localStorage
+        const all = loadHighlights();
+        toRemove.forEach(r => {
+            const list = all[r.key];
+            if (!list) return;
+            all[r.key] = list.filter(e => {
+                const t = entryText(e), g = entryGroup(e);
+                // Hvis vi har en gruppe, match på gruppe; ellers bare tekst (legacy)
+                if (r.group) return !(g === r.group && t === r.text);
+                return t !== r.text;
+            });
+            if (all[r.key].length === 0) delete all[r.key];
+        });
+        try { localStorage.setItem('userHighlights', JSON.stringify(all)); } catch {}
     }
 
     // ── Persistent user-highlights (localStorage), scoped per versjon|vref ──
@@ -3520,21 +3539,25 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         catch { return {}; }
     }
     function highlightKey(version, vref) { return (version || '') + '|' + vref; }
-    function saveHighlight(version, vref, text) {
+    function entryText(e) { return typeof e === 'string' ? e : (e && e.text) || ''; }
+    function entryGroup(e) { return typeof e === 'string' ? '' : ((e && e.group) || ''); }
+    function saveHighlight(version, vref, text, group) {
         if (!vref || !text) return;
         const all = loadHighlights();
         const key = highlightKey(version, vref);
         const list = all[key] || [];
-        if (!list.includes(text)) list.push(text);
+        // Unngå duplikater basert på tekst + gruppe
+        const dup = list.some(e => entryText(e) === text && entryGroup(e) === (group || ''));
+        if (!dup) list.push({ text, group: group || '' });
         all[key] = list;
         try { localStorage.setItem('userHighlights', JSON.stringify(all)); } catch {}
     }
-    function wrapFirstTextMatch(root, needle) {
+    function wrapFirstTextMatch(root, needle, group) {
         if (!needle) return false;
         const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
             acceptNode: n => {
                 if (!n.nodeValue || n.nodeValue.indexOf(needle) < 0) return NodeFilter.FILTER_REJECT;
-                if (n.parentElement && n.parentElement.closest('.user-highlight')) return NodeFilter.FILTER_REJECT;
+                if (n.parentElement && n.parentElement.closest('.user-highlight, .verse-num, .note-marker')) return NodeFilter.FILTER_REJECT;
                 return NodeFilter.FILTER_ACCEPT;
             }
         });
@@ -3546,10 +3569,17 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         range.setEnd(node, idx + needle.length);
         const mark = document.createElement('mark');
         mark.className = 'user-highlight';
+        if (group) mark.setAttribute('data-hlg', group);
         try { range.surroundContents(mark); return true; } catch { return false; }
     }
+    // Generer en unik gruppe-id for ett brukerinitiert uthev (kan spenne flere vers)
+    let _hlGroupCounter = 0;
+    function newHighlightGroup() {
+        return 'g' + Date.now().toString(36) + '-' + (_hlGroupCounter++);
+    }
+
     // Wrap en Range i <mark class="user-highlight">, også når den krysser element-grenser.
-    // Returnerer [{vref, text}, ...] for hvert segment som ligger i et vers, så de kan lagres.
+    // Returnerer [{vref, version, text, group}, ...] for hvert segment som ligger i et vers.
     function wrapRangeAsHighlight(range) {
         if (!range || range.collapsed) return [];
         // Samle tekstnoder som faktisk overlapper med range-en
@@ -3561,7 +3591,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const walker = document.createTreeWalker(rootEl, NodeFilter.SHOW_TEXT, {
             acceptNode: n => {
                 if (!n.nodeValue) return NodeFilter.FILTER_REJECT;
-                if (n.parentElement && n.parentElement.closest('.user-highlight')) return NodeFilter.FILTER_REJECT;
+                // Hopp over tekst som ligger inni uthev, vers-tall eller note-markører (fotnote/†)
+                if (n.parentElement && n.parentElement.closest('.user-highlight, .verse-num, .note-marker')) return NodeFilter.FILTER_REJECT;
                 try { return range.intersectsNode(n) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT; }
                 catch { return NodeFilter.FILTER_REJECT; }
             }
@@ -3569,6 +3600,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         let n;
         while ((n = walker.nextNode())) textNodes.push(n);
 
+        const groupId = newHighlightGroup();
         const segments = [];
         textNodes.forEach(node => {
             const len = node.nodeValue.length;
@@ -3585,6 +3617,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
             const mark = document.createElement('mark');
             mark.className = 'user-highlight';
+            mark.setAttribute('data-hlg', groupId);
             target.parentNode.insertBefore(mark, target);
             mark.appendChild(target);
 
@@ -3592,7 +3625,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (vspan) segments.push({
                 vref: vspan.getAttribute('data-vref'),
                 version: vspan.getAttribute('data-version') || '',
-                text: target.nodeValue
+                text: target.nodeValue,
+                group: groupId
             });
         });
         return segments;
@@ -3608,19 +3642,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const mainVersion = versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value;
         if (cmpVersion === mainVersion) return;
 
-        // Grupper segmenter per vref
+        // Grupper segmenter per vref (tar også med gruppe-id per segment)
         const byVref = {};
         segments.forEach(s => {
-            if (!byVref[s.vref]) byVref[s.vref] = [];
-            byVref[s.vref].push(s.text);
+            if (!byVref[s.vref]) byVref[s.vref] = { texts: [], group: s.group };
+            byVref[s.vref].texts.push(s.text);
         });
 
         for (const vref of Object.keys(byVref)) {
-            // Finn main- og compare-verset
             const mainVerse = findVerseByVref(mainData, vref);
             const cmpVerse = findVerseByVref(compareData, vref);
             if (!mainVerse || !cmpVerse) continue;
-            const phrase = byVref[vref].join(' … ');
+            const { texts, group } = byVref[vref];
+            const phrase = texts.join(' … ');
             try {
                 const resp = await fetch('/api/ai_match_phrase', {
                     method: 'POST',
@@ -3637,10 +3671,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 const data = await resp.json();
                 const match = (data && data.match) ? data.match.trim() : '';
                 if (!match) continue;
-                // Finn compare-versets verse-span i DOM (data-vref + data-version)
                 const cmpSpan = document.querySelector(`[data-vref="${CSS.escape(vref)}"][data-version="${CSS.escape(cmpVersion)}"]`);
-                if (cmpSpan) wrapFirstTextMatch(cmpSpan, match);
-                saveHighlight(cmpVersion, vref, match);
+                if (cmpSpan) wrapFirstTextMatch(cmpSpan, match, group);
+                saveHighlight(cmpVersion, vref, match, group);
             } catch { /* stille */ }
         }
     }
@@ -3681,12 +3714,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const mainHl = all[mainKey];
             if (!mainHl || mainHl.length === 0) continue;
 
+            // Bruk gruppen til første entry (eller generer en ny hvis legacy-format uten gruppe)
+            const mainGroup = entryGroup(mainHl[0]) || newHighlightGroup();
+            const phrase = mainHl.map(entryText).join(' … ');
+
             for (const ver of otherVersions) {
                 const verKey = highlightKey(ver, vref);
-                if (all[verKey] && all[verKey].length > 0) continue; // allerede speilet
+                if (all[verKey] && all[verKey].length > 0) continue;
                 const targetText = versionsText[ver][vref];
                 if (!targetText) continue;
-                const phrase = mainHl.join(' … ');
                 try {
                     const resp = await fetch('/api/ai_match_phrase', {
                         method: 'POST',
@@ -3703,9 +3739,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     const data = await resp.json();
                     const match = (data && data.match) ? data.match.trim() : '';
                     if (!match) continue;
-                    saveHighlight(ver, vref, match);
+                    saveHighlight(ver, vref, match, mainGroup);
                     const span = document.querySelector(`[data-vref="${CSS.escape(vref)}"][data-version="${CSS.escape(ver)}"]`);
-                    if (span) wrapFirstTextMatch(span, match);
+                    if (span) wrapFirstTextMatch(span, match, mainGroup);
                 } catch { /* stille */ }
             }
         }
@@ -3739,7 +3775,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const version = span.getAttribute('data-version') || '';
             const list = all[highlightKey(version, vref)];
             if (!list) return;
-            list.forEach(text => wrapFirstTextMatch(span, text));
+            list.forEach(entry => wrapFirstTextMatch(span, entryText(entry), entryGroup(entry)));
         });
     }
 
@@ -3818,7 +3854,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     if (segments.length === 0) {
                         showToast('Kan ikke utheve denne seksjonen');
                     } else {
-                        segments.forEach(s => saveHighlight(s.version, s.vref, s.text));
+                        segments.forEach(s => saveHighlight(s.version, s.vref, s.text, s.group));
                         // Speile markering til sammenligningsvers via KI hvis aktivt
                         mirrorHighlightToCompareAsync(segments);
                     }
