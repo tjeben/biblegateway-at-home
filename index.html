@@ -607,10 +607,13 @@
         /* ── Split-modus: studieelementer flyttet til høyre panel ── */
         :root { --side-panel-width: 40vw; }
         .viz-hosts-side { display: none; }
+        .viz-side-title { display: none; }
+        body.split-active .viz-side-title { display: block; }
         @media (min-width: 1100px) {
             body.split-active { padding-right: var(--side-panel-width); transition: padding-right 0.3s ease; }
             body.split-active .viz-hosts-side {
-                display: block;
+                display: flex;
+                flex-direction: column;
                 position: fixed;
                 top: 60px;
                 right: 0;
@@ -621,8 +624,19 @@
                 z-index: 120;
                 box-shadow: -2px 0 12px rgba(0,0,0,0.06);
             }
+            .viz-side-title {
+                flex: 0 0 auto;
+                font-size: 0.78rem;
+                font-weight: 600;
+                letter-spacing: 0.8px;
+                text-transform: uppercase;
+                color: var(--text-muted);
+                padding: 14px 20px 8px;
+                border-bottom: 1px solid var(--border);
+            }
             .viz-side-inner {
-                height: 100%;
+                flex: 1 1 auto;
+                min-height: 0;
                 overflow-y: auto;
                 padding: 18px 20px 40px;
                 display: flex;
@@ -2362,6 +2376,7 @@
 <div id="vizHosts" class="viz-hosts-wrap"></div>
 <div id="vizHostsSide" class="viz-hosts-side" aria-label="Studieelementer i sidepanel">
     <div id="vizSideResizer" class="viz-side-resizer" title="Dra for å endre bredde" aria-hidden="true"></div>
+    <div class="viz-side-title">Studieelementer</div>
     <div id="vizSideInner" class="viz-side-inner"></div>
 </div>
 
@@ -2369,6 +2384,11 @@
     <button type="button" data-action="highlight" title="Uthev">🖍 Uthev</button>
     <button type="button" data-action="copy" title="Kopier markert tekst">📋 Kopier</button>
     <button type="button" data-action="lookup" title="Slå opp denne teksten">🔍 Slå opp</button>
+</div>
+
+<div id="highlightPopup" class="selection-popup highlight-popup" role="toolbar" aria-label="Handlinger for uthevning">
+    <button type="button" data-action="search-highlight" title="Søk på denne teksten">🔍 Søk</button>
+    <button type="button" data-action="delete-highlight" title="Slett uthevning">🗑 Slett</button>
 </div>
 
 <!-- Mobile sticky bottom search bar -->
@@ -3078,8 +3098,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     const studyObserver = new MutationObserver(muts => {
         for (const m of muts) {
             m.addedNodes.forEach(n => {
-                if (n.nodeType === 1 && n.id) {
-                    injectMoveOverBtn(n);
+                if (n.nodeType !== 1 || !n.id) return;
+                injectMoveOverBtn(n);
+                // Hvis sidepanelet allerede er åpent og elementet nettopp ble lagt i vizHosts,
+                // flytt det automatisk til sidepanelet
+                if (m.target === vizHosts && document.body.classList.contains('split-active')) {
+                    vizSideInner.appendChild(n);
+                } else {
                     refreshMoveBtnState(n);
                 }
             });
@@ -3120,6 +3145,78 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (r) localStorage.setItem('sidePanelRatio', r.toFixed(3));
         });
     })();
+
+    // ── Klikk-på-uthevning: popup med Søk / Slett ──
+    (function setupHighlightPopup() {
+        const popup = document.getElementById('highlightPopup');
+        if (!popup) return;
+        let activeMark = null;
+
+        function hidePopup() { popup.classList.remove('visible'); activeMark = null; }
+
+        function showFor(mark) {
+            activeMark = mark;
+            popup.classList.add('visible');
+            const pw = popup.offsetWidth, ph = popup.offsetHeight;
+            const rect = mark.getBoundingClientRect();
+            let left = rect.left + rect.width / 2 - pw / 2 + window.scrollX;
+            left = Math.max(8, Math.min(window.innerWidth - pw - 8, left));
+            let top = rect.top + window.scrollY - ph - 8;
+            if (top < window.scrollY + 8) top = rect.bottom + window.scrollY + 8;
+            popup.style.left = left + 'px';
+            popup.style.top = top + 'px';
+        }
+
+        document.addEventListener('click', e => {
+            const mark = e.target.closest('.user-highlight');
+            if (mark) {
+                e.stopPropagation();
+                showFor(mark);
+            } else if (!popup.contains(e.target)) {
+                hidePopup();
+            }
+        }, true);
+        window.addEventListener('scroll', hidePopup, true);
+
+        popup.addEventListener('click', e => {
+            e.stopPropagation();
+            const btn = e.target.closest('button[data-action]');
+            if (!btn || !activeMark) return;
+            const action = btn.getAttribute('data-action');
+            const text = activeMark.textContent || '';
+            if (action === 'search-highlight') {
+                hidePopup();
+                if (text.trim()) { searchInput.value = text.trim(); doSearch(); }
+            } else if (action === 'delete-highlight') {
+                deleteHighlight(activeMark);
+                hidePopup();
+            }
+        });
+    })();
+
+    // Fjern en uthevning fra DOM + localStorage
+    function deleteHighlight(mark) {
+        if (!mark || !mark.classList.contains('user-highlight')) return;
+        const vspan = mark.closest('[data-vref]');
+        const text = mark.textContent || '';
+        // Unwrap: erstatt mark med barn-nodene
+        const parent = mark.parentNode;
+        while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+        parent.removeChild(mark);
+        parent.normalize(); // slå sammen tilstøtende tekstnoder
+        // Fjern fra localStorage
+        if (vspan) {
+            const vref = vspan.getAttribute('data-vref');
+            const version = vspan.getAttribute('data-version') || '';
+            const all = loadHighlights();
+            const key = highlightKey(version, vref);
+            if (all[key]) {
+                all[key] = all[key].filter(t => t !== text);
+                if (all[key].length === 0) delete all[key];
+                try { localStorage.setItem('userHighlights', JSON.stringify(all)); } catch {}
+            }
+        }
+    }
 
     // ── Persistent user-highlights (localStorage), scoped per versjon|vref ──
     function loadHighlights() {
