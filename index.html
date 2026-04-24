@@ -1321,6 +1321,34 @@
         .stats-tl-axis { fill: var(--text-muted); font-size: 9px; font-family: inherit; }
         .stats-tl-divider { stroke: var(--border); stroke-width: 1; }
 
+        /* Segmented toggle for xref-kartets fargemodus */
+        .xref-mode-toggle {
+            display: inline-flex;
+            gap: 0;
+            padding: 2px;
+            background: var(--border);
+            border-radius: 999px;
+            margin-bottom: 8px;
+        }
+        .xref-mode-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            font-weight: 600;
+            padding: 5px 14px;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s;
+            letter-spacing: 0.2px;
+        }
+        .xref-mode-btn:hover:not(.active) { color: var(--text); }
+        .xref-mode-btn.active {
+            background: var(--accent);
+            color: white;
+        }
+        [data-theme="dark"] .xref-mode-btn.active { background: var(--accent); color: white; }
+
         /* ── Bibelkart ── */
         .bible-map-wrap {
             margin-top: 12px;
@@ -3020,6 +3048,17 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         });
         return counts;
     }
+    // Maks relevans (vote) blant refs i hver bok — ikke kumulativt
+    function maxRelevancePerBook(xrefs) {
+        const out = {};
+        (xrefs || []).forEach(x => {
+            const code = extractBookFromRef(x.r);
+            if (!code) return;
+            const v = (typeof x.v === 'number') ? x.v : 0;
+            if (!out[code] || v > out[code]) out[code] = v;
+        });
+        return out;
+    }
 
     // Bygg HTML for Bibelkartet
     function buildBibleMapHtml(counts, onClickFn) {
@@ -3890,15 +3929,36 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     let currentXrefMapItems = null;
+    let xrefMapMode = 'count'; // 'count' | 'relevance'
+
+    function buildXrefMapBodyHtml(items, mode) {
+        const data = mode === 'relevance' ? maxRelevancePerBook(items) : countXrefsPerBook(items);
+        const mapHtml = buildBibleMapHtml(data, 'showXrefBookPopover');
+        const toggleHtml = `<div class="xref-mode-toggle" role="tablist" aria-label="Fargemodus">
+            <button type="button" class="xref-mode-btn${mode === 'count' ? ' active' : ''}" data-mode="count" onclick="setXrefMapMode('count')">Antall</button>
+            <button type="button" class="xref-mode-btn${mode === 'relevance' ? ' active' : ''}" data-mode="relevance" onclick="setXrefMapMode('relevance')">Relevans</button>
+        </div>`;
+        const hint = `<div style="font-size:0.78rem;color:var(--text-muted);margin:4px 0 8px;padding:0 4px;">${mode === 'relevance'
+            ? 'Fargen viser den mest relevante referansen i hver bok. Klikk en bok for å se referansene.'
+            : 'Fargen viser antall referanser per bok. Klikk en bok for å se referansene.'}</div>`;
+        return toggleHtml + hint + mapHtml;
+    }
 
     function showXrefMap(items) {
         currentXrefMapItems = items;
-        const counts = countXrefsPerBook(items);
-        const mapHtml = buildBibleMapHtml(counts, 'showXrefBookPopover');
-        if (!mapHtml) return;
-        const hint = '<div style="font-size:0.78rem;color:var(--text-muted);margin-bottom:8px;padding:0 4px;">Klikk en bok for å se referansene</div>';
-        renderXrefViz('xrefMapHost', '🗺️ Kryssreferanser fordelt i Bibelen', hint + mapHtml);
+        const body = buildXrefMapBodyHtml(items, xrefMapMode);
+        if (!body) return;
+        renderXrefViz('xrefMapHost', '🗺️ Kryssreferanser fordelt i Bibelen', body);
     }
+
+    window.setXrefMapMode = function(mode) {
+        if (mode !== 'count' && mode !== 'relevance') return;
+        xrefMapMode = mode;
+        const host = document.getElementById('xrefMapHost');
+        if (!host || !currentXrefMapItems) return;
+        const inner = host.querySelector('.bible-map-inner');
+        if (inner) inner.innerHTML = buildXrefMapBodyHtml(currentXrefMapItems, mode);
+    };
 
     function showXrefTimeline(source, items) {
         const svg = buildBibleTimelineSvg(source, items);
@@ -5700,18 +5760,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const items = v.xrefs || [];
         const label = block.label || '';
 
-        // Xref-kart: oppdater inline hvis åpent
+        // Xref-kart: oppdater inline hvis åpent (behold valgt modus)
         const mapHost = document.getElementById('xrefMapHost');
         if (mapHost) {
             if (items.length > 0) {
                 currentXrefMapItems = items;
-                const counts = countXrefsPerBook(items);
-                const mapHtml = buildBibleMapHtml(counts, 'showXrefBookPopover');
                 const inner = mapHost.querySelector('.bible-map-inner');
-                if (inner && mapHtml) {
-                    const hint = '<div style="font-size:0.78rem;color:var(--text-muted);margin-bottom:8px;padding:0 4px;">Klikk en bok for å se referansene</div>';
-                    inner.innerHTML = hint + mapHtml;
-                }
+                if (inner) inner.innerHTML = buildXrefMapBodyHtml(items, xrefMapMode);
             } else {
                 closeVizHost('xrefMapHost');
             }
