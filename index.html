@@ -268,28 +268,42 @@
             margin-bottom: 12px;
             padding-bottom: 10px;
             border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .verse-card-header .verse-card-label {
+            flex: 0 1 auto;
+            min-width: 0;
         }
         .verse-card-label { font-weight: 700; font-size: 1rem; color: var(--accent); }
         .copy-btn {
             padding: 5px 14px;
             font-size: 0.8rem;
+            line-height: 1.4;
             background: transparent;
             border: 1px solid var(--border);
             border-radius: 999px;
             cursor: pointer;
             color: var(--text-muted);
+            font-family: inherit;
+            font-weight: 600;
             transition: all 0.2s;
             white-space: nowrap;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            height: 28px;
             margin-left: 6px;
         }
         .copy-btn:hover:not(:disabled) {
             border-color: var(--accent);
             color: var(--accent);
+            transform: translateY(-1px);
             box-shadow: 0 0 0 2px rgba(168, 50, 50, 0.22), 0 0 10px rgba(168, 50, 50, 0.25);
         }
+        .copy-btn:active:not(:disabled) { transform: translateY(0); }
         [data-theme="dark"] .copy-btn:hover:not(:disabled) {
             box-shadow: 0 0 0 2px rgba(201, 68, 68, 0.3), 0 0 12px rgba(201, 68, 68, 0.35);
         }
@@ -305,18 +319,27 @@
         }
 
         /* Handlinger til høyre i header */
-        .card-head-actions { display: flex; gap: 6px; align-items: center; }
+        .card-head-actions {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            margin-left: auto;  /* alltid til høyre, faller ikke utenfor */
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
         .copy-btn-pair { display: inline-flex; }
         .copy-btn-pair > .copy-btn { margin-left: 0; }
         .copy-btn-pair > .copy-btn + .copy-btn {
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
-            border-left: none;
+            margin-left: -1px;
         }
         .copy-btn-pair > .copy-btn:first-child {
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
         }
+        .copy-btn-pair > .copy-btn:hover,
+        .copy-btn-pair > .copy-btn:focus { z-index: 1; position: relative; }
 
         /* Chevron-knapp for å åpne/lukke hele kapittelet (utenfor kortet) */
         .chevron-wrap {
