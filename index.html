@@ -973,11 +973,20 @@
         .modal-card {
             background: var(--card-bg);
             border-radius: 24px;
-            max-width: 460px;
+            max-width: 680px;
             width: 100%;
+            max-height: 85vh;
+            display: flex;
+            flex-direction: column;
             box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
             animation: modalPop 200ms cubic-bezier(.2, .8, .2, 1);
             overflow: hidden;
+        }
+        .modal-card-head { flex: 0 0 auto; }
+        .modal-card .modal-card-body {
+            flex: 1 1 auto;
+            overflow-y: auto;
+            min-height: 0;
         }
         @keyframes modalPop {
             from { opacity: 0; transform: translateY(10px) scale(0.96); }
@@ -1043,11 +1052,29 @@
         .modal-links {
             display: flex;
             justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
             margin-top: 16px;
             padding-top: 14px;
             border-top: 1px solid var(--border);
         }
-        .modal-links .competitor-link { margin: 0; }
+        .modal-links .competitor-link,
+        .modal-links .feedback-link { margin: 0; }
+        .feedback-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            border-radius: 999px;
+            background: var(--accent);
+            color: white !important;
+            border: 1px solid var(--accent) !important;
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 600;
+            transition: background 0.15s, transform 0.15s;
+        }
+        .feedback-link:hover { background: var(--accent-hover); transform: translateY(-1px); }
         .empty-state p { font-size: 0.95rem; line-height: 1.6; }
 
         /* Dagens vers — stille påminnelse om at Guds ord er sentralt */
@@ -2565,6 +2592,7 @@
             <p>Jeg heter <strong>Benjamin Tjelle</strong>. Jeg er student og driver med webutvikling ved siden av studiene, og som kristen ønsker jeg å lage gratis verktøy som gjør det enklere å bli bedre kjent med Gud og hans ord.</p>
             <p>Se flere prosjekter på <a href="https://tjelle.net" target="_blank" rel="noopener">tjelle.net</a>. Har du funnet feil eller har forslag? Ta gjerne kontakt.</p>
             <div class="modal-links">
+                <a href="mailto:benjamin.tjelle@ttas.no?subject=Tilbakemelding%20%E2%80%94%20Bibels%C3%B8k&body=Hei%20Benjamin%2C%0A%0A(skriv%20din%20tilbakemelding%20eller%20feilmelding%20her)%0A%0A---%0ANettleser%3A%20" class="feedback-link" onclick="appendFeedbackContext(this)">✉️ Send tilbakemelding</a>
                 <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="competitor-link">En annen god tjeneste</a>
             </div>
         </div>
@@ -2957,6 +2985,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         } catch { showToast('Kunne ikke hente alle versjoner'); }
         renderAll();
         mirrorExistingHighlightsToOtherVersions();
+    };
+
+    // Legg til nettleser-kontekst i mailto-lenken rett før bruker klikker seg videre
+    window.appendFeedbackContext = function(link) {
+        try {
+            const base = link.getAttribute('href').split('%0A---%0ANettleser%3A%20')[0];
+            const ctx = encodeURIComponent(`\n---\nNettleser: ${navigator.userAgent}\nVersjon: ${versionSelect.value || '-'}`);
+            link.setAttribute('href', base + ctx);
+        } catch { /* la standard mailto stå hvis noe feiler */ }
     };
 
     window.showSearchInfo = function() {
