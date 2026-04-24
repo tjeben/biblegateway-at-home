@@ -628,10 +628,13 @@
         :root { --side-panel-width: 40vw; }
         .viz-hosts-side { display: none; }
         .viz-side-title { display: none; }
-        body.split-active .viz-side-title { display: block; }
+        body.split-active .viz-side-title,
+        body.split-preview .viz-side-title { display: block; }
         @media (min-width: 1100px) {
-            body.split-active { padding-right: var(--side-panel-width); transition: padding-right 0.3s ease; }
-            body.split-active .viz-hosts-side {
+            body.split-active,
+            body.split-preview { padding-right: var(--side-panel-width); transition: padding-right 0.3s ease; }
+            body.split-active .viz-hosts-side,
+            body.split-preview .viz-hosts-side {
                 display: flex;
                 flex-direction: column;
                 position: fixed;
@@ -3610,40 +3613,74 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     window.toggleMoveOver = function(hostId) {
         const host = document.getElementById(hostId);
-        if (!host) return;
-        const inSide = host.parentNode === vizSideInner;
-        // FLIP: mål gammel rect → flytt → mål ny rect → animer fra gammel til ny
-        const firstRect = host.getBoundingClientRect();
-        if (inSide) {
-            vizHosts.appendChild(host);
-        } else {
-            vizSideInner.appendChild(host);
-        }
-        // split-active må oppdateres først så layout er ferdig beregnet
-        updateSplitActive();
-        const lastRect = host.getBoundingClientRect();
-        const dx = firstRect.left - lastRect.left;
-        const dy = firstRect.top - lastRect.top;
-        const sx = Math.max(0.6, firstRect.width / Math.max(1, lastRect.width));
-        const sy = Math.max(0.6, firstRect.height / Math.max(1, lastRect.height));
-        // Respekter reduced-motion
-        const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        if (!reduce && (Math.abs(dx) > 4 || Math.abs(dy) > 4)) {
-            host.style.transformOrigin = 'top left';
-            host.style.transform = `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`;
-            host.style.transition = 'none';
-            host.style.opacity = '0.85';
-            // Trigger reflow, så start transition
-            host.getBoundingClientRect();
-            host.style.transition = 'transform 360ms var(--ease-out), opacity 360ms var(--ease-out)';
-            host.style.transform = '';
-            host.style.opacity = '';
-            setTimeout(() => {
+        if (!host || host.dataset.moving === '1') return;
+        host.dataset.moving = '1';
+        const done = () => { delete host.dataset.moving; };
+        const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+        const run = async () => {
+            const inSide = host.parentNode === vizSideInner;
+            const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const openingPanelFirst = !inSide && !document.body.classList.contains('split-active');
+            if (openingPanelFirst && !reduce) {
+                document.body.classList.add('split-preview');
+                // Trinn 1: Gi sidepanelet tid til å komme inn før kortet flyttes.
+                await wait(120);
+            }
+            // FLIP: mål gammel rect -> flytt -> mål ny rect -> animer fra gammel til ny
+            const firstRect = host.getBoundingClientRect();
+            if (inSide) {
+                vizHosts.appendChild(host);
+            } else {
+                vizSideInner.appendChild(host);
+            }
+            if (openingPanelFirst) {
+                document.body.classList.remove('split-preview');
+            }
+            // split-active må oppdateres først så layout er ferdig beregnet
+            updateSplitActive();
+            const lastRect = host.getBoundingClientRect();
+            const dx = firstRect.left - lastRect.left;
+            const dy = firstRect.top - lastRect.top;
+            const sx = Math.max(0.64, firstRect.width / Math.max(1, lastRect.width));
+            const sy = Math.max(0.64, firstRect.height / Math.max(1, lastRect.height));
+            if (!reduce && (Math.abs(dx) > 4 || Math.abs(dy) > 4)) {
+                host.style.transformOrigin = 'top left';
+                host.style.willChange = 'transform, opacity';
+                if (typeof host.animate === 'function') {
+                    // Trinn 2: subtil spring-lignende landing med minimal overshoot.
+                    const bumpX = -dx * 0.035;
+                    const bumpY = -dy * 0.02;
+                    const bumpSX = 1 + (1 - sx) * 0.04;
+                    const bumpSY = 1 + (1 - sy) * 0.04;
+                    const anim = host.animate(
+                        [
+                            { transform: `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`, opacity: 0.9, offset: 0 },
+                            { transform: `translate(${bumpX}px, ${bumpY}px) scale(${bumpSX}, ${bumpSY})`, opacity: 1, offset: 0.72 },
+                            { transform: 'translate(0px, 0px) scale(1, 1)', opacity: 1, offset: 1 }
+                        ],
+                        { duration: 320, easing: 'cubic-bezier(.22,.86,.24,1)', fill: 'both' }
+                    );
+                    await anim.finished.catch(() => {});
+                } else {
+                    host.style.transform = `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`;
+                    host.style.transition = 'none';
+                    host.style.opacity = '0.9';
+                    host.getBoundingClientRect();
+                    host.style.transition = 'transform 320ms cubic-bezier(.22,.86,.24,1), opacity 320ms cubic-bezier(.22,.86,.24,1)';
+                    host.style.transform = '';
+                    host.style.opacity = '';
+                    await wait(360);
+                }
                 host.style.transition = '';
+                host.style.transform = '';
+                host.style.opacity = '';
+                host.style.willChange = '';
                 host.style.transformOrigin = '';
-            }, 420);
-        }
-        refreshMoveBtnState(host);
+            }
+            refreshMoveBtnState(host);
+        };
+        run().finally(done);
+        return;
     };
 
     // Injiser "Flytt over"-knapp i et nytt studieelement, rett til høyre for Lukk
