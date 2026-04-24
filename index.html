@@ -22,7 +22,16 @@
             --error-bg: #fdf0f0;
             --verse-num: #a83232;
             --shadow: 0 2px 8px rgba(0,0,0,0.08);
+            /* Motion-tokens */
+            --ease-out: cubic-bezier(.16, 1, .3, 1);
+            --ease-in-out: cubic-bezier(.4, 0, .2, 1);
+            --dur-fast: 150ms;
+            --dur-med: 260ms;
+            --dur-slow: 420ms;
         }
+
+        html { scroll-behavior: smooth; }
+        @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
         [data-theme="dark"] {
             --bg: #1a1a1e;
@@ -260,6 +269,17 @@
             position: relative;
             display: flex;
             flex-direction: column;
+            transition: transform var(--dur-fast) var(--ease-out),
+                        box-shadow var(--dur-fast) var(--ease-out);
+        }
+        @media (hover: hover) {
+            .verse-card:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+            }
+            [data-theme="dark"] .verse-card:hover {
+                box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+            }
         }
         .verse-card-header {
             display: flex;
@@ -1175,6 +1195,35 @@
         .compare-card-header { flex-wrap: wrap; gap: 10px; }
 
         /* ── Animasjoner ── */
+        /* Skeleton-loader: pulserende grå linjer mens KI analyserer */
+        .skeleton-block { display: flex; flex-direction: column; gap: 8px; padding: 6px 0; }
+        .skeleton-line {
+            height: 12px;
+            border-radius: 4px;
+            background: linear-gradient(90deg,
+                var(--border) 0%,
+                rgba(255,255,255,0.4) 50%,
+                var(--border) 100%);
+            background-size: 200% 100%;
+            animation: skeletonShimmer 1.4s var(--ease-in-out) infinite;
+        }
+        [data-theme="dark"] .skeleton-line {
+            background: linear-gradient(90deg,
+                var(--border) 0%,
+                rgba(255,255,255,0.08) 50%,
+                var(--border) 100%);
+            background-size: 200% 100%;
+        }
+        .skeleton-line.short { width: 62%; }
+        .skeleton-line.medium { width: 85%; }
+        @keyframes skeletonShimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .skeleton-line { animation: none; }
+        }
+
         @keyframes fadeInUp {
             from { opacity: 0; transform: translateY(8px); }
             to   { opacity: 1; transform: translateY(0); }
@@ -1236,23 +1285,19 @@
         .search-result-item,
         .all-versions-block,
         .book-group {
-            animation: fadeInUp 220ms cubic-bezier(.2, .8, .2, 1) both;
+            animation: fadeInUp var(--dur-med) var(--ease-out) both;
+            /* Stagger via --i CSS-variabel satt fra JS (cap: 14 × 24ms = 336ms) */
+            animation-delay: calc(min(var(--i, 0), 14) * 24ms);
         }
-        .verse-card:not(.compare-card):nth-child(2),
-        .search-result-item:nth-child(2),
-        .book-group:nth-child(2) { animation-delay: 30ms; }
-        .verse-card:not(.compare-card):nth-child(3),
-        .search-result-item:nth-child(3),
-        .book-group:nth-child(3) { animation-delay: 60ms; }
-        .verse-card:not(.compare-card):nth-child(4),
-        .search-result-item:nth-child(4),
-        .book-group:nth-child(4) { animation-delay: 90ms; }
-        .verse-card:not(.compare-card):nth-child(5),
-        .search-result-item:nth-child(5),
-        .book-group:nth-child(5) { animation-delay: 120ms; }
-        .verse-card:not(.compare-card):nth-child(6),
-        .search-result-item:nth-child(6),
-        .book-group:nth-child(6) { animation-delay: 150ms; }
+        /* content-visibility sparer render-kost på store lister */
+        .book-group {
+            content-visibility: auto;
+            contain-intrinsic-size: auto 140px;
+        }
+        .search-result-item {
+            content-visibility: auto;
+            contain-intrinsic-size: auto 64px;
+        }
 
         /* ── Søke-statistikk-panel ── */
         .stats-wrap {
@@ -1793,7 +1838,9 @@
             overflow-y: hidden;
             -webkit-overflow-scrolling: touch;
             border-radius: 12px;
+            scroll-behavior: smooth;
         }
+        @media (prefers-reduced-motion: reduce) { .bible-timeline-wrap { scroll-behavior: auto; } }
         /* Hover-popup med verstekst (på body-nivå med position:fixed så den
            kan flyte fritt utenfor selve studieelementet) */
         .tl-hover-popup {
@@ -3565,13 +3612,38 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const host = document.getElementById(hostId);
         if (!host) return;
         const inSide = host.parentNode === vizSideInner;
+        // FLIP: mål gammel rect → flytt → mål ny rect → animer fra gammel til ny
+        const firstRect = host.getBoundingClientRect();
         if (inSide) {
             vizHosts.appendChild(host);
         } else {
             vizSideInner.appendChild(host);
         }
-        refreshMoveBtnState(host);
+        // split-active må oppdateres først så layout er ferdig beregnet
         updateSplitActive();
+        const lastRect = host.getBoundingClientRect();
+        const dx = firstRect.left - lastRect.left;
+        const dy = firstRect.top - lastRect.top;
+        const sx = Math.max(0.6, firstRect.width / Math.max(1, lastRect.width));
+        const sy = Math.max(0.6, firstRect.height / Math.max(1, lastRect.height));
+        // Respekter reduced-motion
+        const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (!reduce && (Math.abs(dx) > 4 || Math.abs(dy) > 4)) {
+            host.style.transformOrigin = 'top left';
+            host.style.transform = `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})`;
+            host.style.transition = 'none';
+            host.style.opacity = '0.85';
+            // Trigger reflow, så start transition
+            host.getBoundingClientRect();
+            host.style.transition = 'transform 360ms var(--ease-out), opacity 360ms var(--ease-out)';
+            host.style.transform = '';
+            host.style.opacity = '';
+            setTimeout(() => {
+                host.style.transition = '';
+                host.style.transformOrigin = '';
+            }, 420);
+        }
+        refreshMoveBtnState(host);
     };
 
     // Injiser "Flytt over"-knapp i et nytt studieelement, rett til høyre for Lukk
@@ -4612,7 +4684,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <div class="study-panel-actions">
                 <button class="card-action-btn" onclick="closeVizHost('aiThemeHost')">Lukk</button>
             </div>
-        </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer tema…</div></div></div>`;
+        </div><div class="ai-panel-body"><div class="skeleton-block"><div class="skeleton-line"></div><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div></div></div>`;
         host.dataset.forLabel = label;
         vizHosts.appendChild(host);
         setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
@@ -4756,7 +4828,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <div class="study-panel-actions">
                 <button class="card-action-btn" onclick="closeVizHost('aiGenRefsHost')">Lukk</button>
             </div>
-        </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer verset…</div></div></div>`;
+        </div><div class="ai-panel-body"><div class="skeleton-block"><div class="skeleton-line"></div><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div></div></div>`;
         host.dataset.forLabel = label;
         vizHosts.appendChild(host);
         setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
@@ -5986,7 +6058,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             : '✨ Oppsummering av forskjeller';
         let body;
         if (loading) {
-            body = `<div style="color:var(--text-muted);">${aiDiffState.findingMostDifferent ? 'Analyserer alle versjoner…' : 'Analyserer forskjeller…'}</div>`;
+            body = `<div class="skeleton-block"><div class="skeleton-line"></div><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div>`;
         } else if (hasError) {
             body = `<div style="color:var(--error);">${escHtml(aiDiffState.error)}</div>`;
         } else {
@@ -6512,12 +6584,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 groupMap[r.book].push(r);
             });
 
-            bookOrder.forEach(code => {
+            bookOrder.forEach((code, bgIdx) => {
                 const items = groupMap[code];
                 const bName = bookName(code);
                 const totalInBook = bookTotals[code] || items.length;
                 const countLabel = `${totalInBook}`;
-                html += `<div class="book-group" data-book="${escAttr(code)}">
+                html += `<div class="book-group" data-book="${escAttr(code)}" style="--i:${bgIdx};">
                     <div class="book-group-header" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
                         <span>${escHtml(bName)}<span class="book-group-count">(${countLabel})</span></span>
                         <span class="chevron">&#9654;</span>
@@ -6542,8 +6614,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 html += '</div></div></div>';
             });
         } else {
-            results.forEach(r => {
-                html += `<div class="search-result-item" onclick="expandVerse(this, '${escAttr(r.ref)}', '${escAttr(r.book)}')">
+            results.forEach((r, ri) => {
+                html += `<div class="search-result-item" style="--i:${ri};" onclick="expandVerse(this, '${escAttr(r.ref)}', '${escAttr(r.book)}')">
                     <div class="search-result-ref">${escHtml(r.ref)}</div>
                     <div class="search-result-text">${highlightWords(escHtml(r.text), query)}</div>
                 </div>`;
