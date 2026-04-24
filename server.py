@@ -990,7 +990,7 @@ _ai_global_day = deque()     # timestamps for alle KI-kall i løpet av 24t
 
 # Konfigurasjon (kan overstyres via miljøvariabler)
 AI_RATE_WINDOW_SEC = int(os.environ.get("AI_RATE_WINDOW_SEC", "600"))      # 10 min
-AI_RATE_PER_WINDOW = int(os.environ.get("AI_RATE_PER_WINDOW", "30"))       # max 30 kall per 10 min
+AI_RATE_PER_WINDOW = int(os.environ.get("AI_RATE_PER_WINDOW", "20"))       # max 20 kall per 10 min
 AI_DAILY_PER_IP    = int(os.environ.get("AI_DAILY_PER_IP",    "200"))      # max 200 kall per IP per dag
 AI_DAILY_GLOBAL    = int(os.environ.get("AI_DAILY_GLOBAL",    "2000"))     # max 2000 totalt per dag
 
