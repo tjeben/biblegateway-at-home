@@ -3466,6 +3466,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ── Bibel-tidslinje (SVG-buer fra kildeverset til refererte punkter) ──
     function buildBibleTimelineSvg(sourceUsfm, xrefs, options) {
         const colorMode = (options && options.colorMode) || 'testament';
+        const dotScaleByCount = !!(options && options.dotScaleByCount);
         const srcMatch = /^([A-Z0-9]+)\.(\d+)(?:\.(\d+))?$/.exec(sourceUsfm);
         if (!srcMatch) return '';
         const srcBook = srcMatch[1];
@@ -3494,9 +3495,17 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (!m) return;
             const tx = posX(m[1], parseInt(m[2]));
             if (tx == null) return;
-            targets.push({ x: tx, ref: x.r, votes: x.v || 0, isNT: isNT(m[1]), book: m[1] });
+            targets.push({
+                x: tx,
+                ref: x.r,
+                votes: x.v || 0,
+                count: x.c || 1,
+                isNT: isNT(m[1]),
+                book: m[1]
+            });
         });
         const maxVotes = Math.max(1, ...targets.map(t => t.votes));
+        const maxCount = Math.max(1, ...targets.map(t => t.count || 1));
 
         let svg = `<svg class="bible-timeline" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">`;
         // Bok-tinter (annenhver grå, synlige kun ved zoom via CSS)
@@ -3554,9 +3563,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         targets.forEach(t => {
             const color = colorMode === 'perBook' ? pastelForBook(t.book).medium : (t.isNT ? '#c9972e' : '#a83232');
             const display = formatUsfmRef(t.ref) || t.ref;
+            const relCount = (t.count || 1) / maxCount;
+            const dotRadius = dotScaleByCount ? (3.2 + relCount * 5.6) : 3.2;
             svg += `<g class="dot-group" data-ref="${escAttr(t.ref)}" data-display="${escAttr(display)}">
                 <circle class="dot-hit" cx="${t.x.toFixed(1)}" cy="${timelineY}" r="11" fill="transparent"/>
-                <circle class="target-dot${t.isNT ? ' nt' : ''}" cx="${t.x.toFixed(1)}" cy="${timelineY}" r="3.2" fill="${color}"/>
+                <circle class="target-dot${t.isNT ? ' nt' : ''}" cx="${t.x.toFixed(1)}" cy="${timelineY}" r="${dotRadius.toFixed(2)}" fill="${color}"/>
             </g>`;
         });
 
@@ -3567,6 +3578,40 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         svg += `</svg>`;
         return svg;
+    }
+
+    function buildChapterXrefAggregate(block) {
+        if (!block || !block.book || !block.verses || block.verses.length < 2) return null;
+        const chapter = block.verses[0].chapter;
+        if (!block.verses.every(v => v.chapter === chapter)) return null;
+        const sortedNums = block.verses.map(v => v.num).sort((a, b) => a - b);
+        if (sortedNums[0] !== 1) return null;
+        for (let i = 1; i < sortedNums.length; i++) {
+            if (sortedNums[i] !== sortedNums[i - 1] + 1) return null;
+        }
+        const byRef = new Map();
+        (block.verses || []).forEach(v => {
+            (v.xrefs || []).forEach(x => {
+                if (!x || !x.r) return;
+                const prev = byRef.get(x.r) || { r: x.r, v: 0, c: 0 };
+                prev.v += Number(x.v || 0);
+                prev.c += 1;
+                byRef.set(x.r, prev);
+            });
+        });
+        const items = Array.from(byRef.values()).sort((a, b) => {
+            if (b.c !== a.c) return b.c - a.c;
+            if (b.v !== a.v) return b.v - a.v;
+            return a.r.localeCompare(b.r);
+        });
+        if (items.length === 0) return null;
+        return {
+            source: `${block.book}.${chapter}`,
+            chapter,
+            book: block.book,
+            items,
+            totalRefs: block.verses.reduce((sum, v) => sum + ((v.xrefs && v.xrefs.length) || 0), 0)
+        };
     }
 
     // Generell: lukk en viz-host med fade-ut animasjon
@@ -4237,6 +4282,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ── Xref-tidslinje: farge-modus + verstekst-cache ──
     let xrefTimelineState = { source: null, items: null, colorMode: 'testament', texts: {} };
+    let chapterTimelineState = { source: null, items: null, colorMode: 'testament', texts: {}, chapter: null, book: null, totalRefs: 0 };
 
     function pastelForBook(code) {
         const idx = Math.max(0, booksData.findIndex(b => b.code === code));
@@ -4247,7 +4293,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     function showXrefTimeline(source, items) {
         xrefTimelineState = { source, items, colorMode: xrefTimelineState.colorMode || 'testament', texts: {} };
         renderXrefTimelineHost();
-        prefetchTimelineVerseTexts(items);
+        prefetchTimelineVerseTexts(items, xrefTimelineState);
     }
 
     function renderXrefTimelineHost() {
@@ -4279,7 +4325,57 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         renderXrefTimelineHost();
     };
 
-    async function prefetchTimelineVerseTexts(items) {
+    function showChapterTimeline(info) {
+        if (!info || !info.source || !info.items || info.items.length === 0) return;
+        chapterTimelineState = {
+            source: info.source,
+            items: info.items,
+            colorMode: chapterTimelineState.colorMode || 'testament',
+            texts: {},
+            chapter: info.chapter,
+            book: info.book,
+            totalRefs: info.totalRefs || info.items.reduce((s, it) => s + (it.c || 1), 0)
+        };
+        renderChapterTimelineHost();
+        prefetchTimelineVerseTexts(info.items, chapterTimelineState);
+    }
+
+    function renderChapterTimelineHost() {
+        const { source, items, colorMode, chapter, book, totalRefs } = chapterTimelineState;
+        const svg = buildBibleTimelineSvg(source, items, { colorMode, dotScaleByCount: true });
+        if (!svg) return;
+        const toggleHtml = `<div class="xref-mode-toggle" role="tablist" aria-label="Fargemodus">
+            <button type="button" class="xref-mode-btn${colorMode === 'testament' ? ' active' : ''}" onclick="setChapterTimelineColorMode('testament')">GT / NT</button>
+            <button type="button" class="xref-mode-btn${colorMode === 'perBook' ? ' active' : ''}" onclick="setChapterTimelineColorMode('perBook')">Farge per bok</button>
+        </div>`;
+        const unique = items.length;
+        const body = `<div class="bible-map-body" style="padding:18px 14px 14px;">
+            ${toggleHtml}
+            <div style="font-size:0.78rem;color:var(--text-muted);margin:4px 0 10px;padding:0 4px;">
+                ${totalRefs} referanser i kapittelet, aggregert til ${unique} unike målvers. Prikkstørrelse viser antall referanser per målvers.
+            </div>
+            <div class="bible-timeline-wrap" data-zoom="1">${svg}</div>
+        </div>`;
+        const existing = document.getElementById('chapterTimelineHost');
+        const title = `📚 Kapittelets referanser — ${bookName(book)} ${chapter}`;
+        if (existing) {
+            const titleEl = existing.querySelector('.study-panel-title');
+            if (titleEl) titleEl.textContent = title;
+            const inner = existing.querySelector('.bible-map-inner');
+            if (inner) inner.innerHTML = body;
+        } else {
+            renderXrefViz('chapterTimelineHost', title, body);
+        }
+        setTimeout(() => setupTimelineInteractions(document.getElementById('chapterTimelineHost')), 80);
+    }
+
+    window.setChapterTimelineColorMode = function(mode) {
+        if (mode !== 'testament' && mode !== 'perBook') return;
+        chapterTimelineState.colorMode = mode;
+        renderChapterTimelineHost();
+    };
+
+    async function prefetchTimelineVerseTexts(items, stateRef) {
         if (!items || items.length === 0) return;
         const refs = items.map(x => ({ r: x.r, display: formatUsfmRef(x.r) })).filter(o => o.display);
         if (refs.length === 0) return;
@@ -4294,7 +4390,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     if (!block || !block.verses) return;
                     block.verses.forEach(v => {
                         const key = `${block.book}.${v.chapter}.${v.num}`;
-                        xrefTimelineState.texts[key] = v.text;
+                        stateRef.texts[key] = v.text;
                     });
                 });
             }
@@ -4304,6 +4400,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // Setup zoom + auto-scroll to source verse for a timeline
     function setupTimelineInteractions(host) {
         if (!host) return;
+        const stateRef = host.id === 'chapterTimelineHost' ? chapterTimelineState : xrefTimelineState;
         const wrap = host.querySelector('.bible-timeline-wrap');
         const svg = wrap && wrap.querySelector('.bible-timeline');
         if (!wrap || !svg) return;
@@ -4332,8 +4429,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         // Initial: sett min-width + auto-scroll til kildeverset bare når kilden endres
         // (ikke ved toggle av farge-modus)
         svg.style.minWidth = baseWidth + 'px';
-        const curSource = xrefTimelineState && xrefTimelineState.source;
-        if (curSource && xrefTimelineState.autoScrolledFor !== curSource) {
+        const curSource = stateRef && stateRef.source;
+        if (curSource && stateRef.autoScrolledFor !== curSource) {
             requestAnimationFrame(() => {
                 const srcDot = svg.querySelector('.source-dot');
                 if (srcDot) {
@@ -4342,7 +4439,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     const targetScroll = wrap.scrollLeft + (dotRect.left - wrapRect.left) - wrap.clientWidth / 2 + dotRect.width / 2;
                     wrap.scrollLeft = Math.max(0, targetScroll);
                 }
-                xrefTimelineState.autoScrolledFor = curSource;
+                stateRef.autoScrolledFor = curSource;
             });
         }
 
@@ -4397,7 +4494,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 const display = group.getAttribute('data-display') || ref;
                 refEl.textContent = display;
                 const key = ref.split('-')[0];
-                const text = xrefTimelineState.texts[key];
+                const text = stateRef.texts[key];
                 textEl.textContent = text || 'Henter…';
                 group.classList.add('hovered');
                 popup.hidden = false;
@@ -4935,6 +5032,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         let info;
         try { info = JSON.parse(encoded); } catch { return; }
         showXrefTimeline(info.source, info.items);
+    };
+
+    window.openChapterTimeline = function(btn) {
+        const encoded = btn.getAttribute('data-chapter-xref-info');
+        let info;
+        try { info = JSON.parse(encoded); } catch { return; }
+        showChapterTimeline(info);
     };
 
     // Hopp til en bok fra kartet (xref-kontext: søk på første vers)
@@ -6139,10 +6243,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     function refreshOpenStudyHosts() {
         if (currentView !== 'normal' || !mainData || mainData.length !== 1) return;
         const block = mainData[0];
-        if (!block || block.error || !block.verses || block.verses.length !== 1) return;
-        const v = block.verses[0];
-        const source = block.book ? `${block.book}.${v.chapter}.${v.num}` : '';
-        const items = v.xrefs || [];
+        if (!block || block.error || !block.verses || block.verses.length === 0) return;
+        const isSingleVerse = block.verses.length === 1;
+        const v = isSingleVerse ? block.verses[0] : null;
+        const source = (isSingleVerse && block.book) ? `${block.book}.${v.chapter}.${v.num}` : '';
+        const items = isSingleVerse ? (v.xrefs || []) : [];
+        const chapterInfo = buildChapterXrefAggregate(block);
         const label = block.label || '';
 
         // Xref-kart: oppdater inline hvis åpent (behold valgt modus)
@@ -6169,9 +6275,29 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     texts: {}
                 };
                 renderXrefTimelineHost();
-                prefetchTimelineVerseTexts(items);
+                prefetchTimelineVerseTexts(items, xrefTimelineState);
             } else {
                 closeVizHost('xrefTimelineHost');
+            }
+        }
+
+        // Kapittel-tidslinje: oppdater når vi står i kapittelvisning, ellers lukk
+        const chapterTlHost = document.getElementById('chapterTimelineHost');
+        if (chapterTlHost) {
+            if (chapterInfo && chapterInfo.source) {
+                chapterTimelineState = {
+                    source: chapterInfo.source,
+                    items: chapterInfo.items,
+                    colorMode: (chapterTimelineState && chapterTimelineState.colorMode) || 'testament',
+                    texts: {},
+                    chapter: chapterInfo.chapter,
+                    book: chapterInfo.book,
+                    totalRefs: chapterInfo.totalRefs || 0
+                };
+                renderChapterTimelineHost();
+                prefetchTimelineVerseTexts(chapterInfo.items, chapterTimelineState);
+            } else {
+                closeVizHost('chapterTimelineHost');
             }
         }
 
@@ -6286,6 +6412,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const cardLabel = block.label || '';
         const singleV = isSingleVerse ? block.verses[0] : null;
         const hasNoXrefs = singleV && (!singleV.xrefs || singleV.xrefs.length === 0);
+        const chapterXrefInfo = buildChapterXrefAggregate(block);
+        const chapterXrefBtn = chapterXrefInfo
+            ? `<button class="card-action-btn ai-btn" data-chapter-xref-info="${escAttr(JSON.stringify(chapterXrefInfo))}" onclick="openChapterTimeline(this)">📚 Kapittelets referanser</button>`
+            : '';
         const genRefsBtn = hasNoXrefs
             ? `<button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" data-source="${escAttr(block.book + '.' + singleV.chapter + '.' + singleV.num)}" onclick="generateRefs(this)">🔗 Generer referanser</button>`
             : '';
@@ -6314,6 +6444,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <button class="card-action-btn${compareMode ? ' active' : ''}" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
+            ${chapterXrefBtn}
             ${genRefsBtn}
             ${compareAiBtns}`;
         if (ilUrl) {
