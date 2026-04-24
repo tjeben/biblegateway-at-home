@@ -1446,10 +1446,33 @@
             color: white;
         }
         [data-theme="dark"] .xref-mode-btn.active { background: var(--accent); color: white; }
+        .timeline-controls-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+        .timeline-zoom-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.78rem;
+            font-weight: 600;
+            padding: 5px 12px;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s, border-color 0.15s;
+            letter-spacing: 0.2px;
+        }
+        .timeline-zoom-btn:hover {
+            color: var(--text);
+            border-color: var(--accent);
+        }
 
         /* ── Bibelkart ── */
         .bible-map-wrap {
-            margin-top: 12px;
+            margin-top: 8px;
             padding: 16px 18px;
             background: var(--card-bg);
             border: 1px solid var(--border);
@@ -1457,6 +1480,11 @@
             animation: fadeInUp 220ms cubic-bezier(.2, .8, .2, 1);
         }
         .bible-map-wrap .bible-map { margin-top: 0; }
+        .bible-map-wrap.ai-host-wrap {
+            padding: 0;
+            background: transparent;
+            border: none;
+        }
         .bible-map-toggle {
             display: inline-flex;
             align-items: center;
@@ -1869,6 +1897,22 @@
             font-size: 0.78rem;
             letter-spacing: 0.4px;
             margin-bottom: 3px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .tl-hover-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: transparent;
+            border: 1px solid rgba(0,0,0,0.18);
+            flex: 0 0 8px;
+            display: none;
+        }
+        .tl-hover-dot.show { display: inline-block; }
+        [data-theme="dark"] .tl-hover-dot {
+            border-color: rgba(255,255,255,0.28);
         }
         .tl-hover-text {
             color: var(--text);
@@ -1909,10 +1953,8 @@
         .bible-timeline .target-dot:hover { r: 5.5; }
         .bible-timeline .source-dot { pointer-events: none; }
         .bible-timeline .book-tint { opacity: 0; transition: opacity 0.25s; pointer-events: none; }
-        .bible-timeline .book-label { transition: opacity 0.25s; pointer-events: none; }
         .bible-timeline-wrap.zoomed-1 .book-tint { opacity: 0.5; }
         .bible-timeline-wrap.zoomed-2 .book-tint { opacity: 1; }
-        .bible-timeline-wrap.zoomed-2 .book-label { opacity: 1 !important; }
 
         /* Lukke-animasjon for viz-hosts (Kart, Tidslinje, Kontekst, Tema-kart, Generer refs) */
         .bible-map-wrap.closing {
@@ -2715,7 +2757,7 @@
 </div>
 
 <div id="timelineHoverPopup" class="tl-hover-popup" hidden>
-    <div class="tl-hover-ref"></div>
+    <div class="tl-hover-ref"><span class="tl-hover-dot"></span><span class="tl-hover-ref-text"></span></div>
     <div class="tl-hover-text">Henter…</div>
 </div>
 
@@ -3516,10 +3558,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const x2 = padding + ((start + b.chapters) / totalChapters) * usable;
             const fill = i % 2 === 0 ? 'rgba(80,80,80,0.06)' : 'rgba(80,80,80,0.14)';
             svg += `<rect class="book-tint" x="${x1.toFixed(1)}" y="0" width="${(x2 - x1).toFixed(1)}" height="${H - 30}" fill="${fill}"/>`;
-            // Bok-label (vises kun ved zoom)
-            const mid = (x1 + x2) / 2;
-            const shortName = (BOOK_SHORT[b.code] || b.code);
-            svg += `<text class="book-label" x="${mid.toFixed(1)}" y="14" text-anchor="middle" fill="var(--text-muted)" font-size="9" font-weight="600" opacity="0">${escHtml(shortName)}</text>`;
         });
         // Timeline base
         svg += `<rect x="${padding}" y="${timelineY - 3}" width="${boundaryX - padding}" height="6" rx="3" fill="var(--border)" opacity="0.55"/>`;
@@ -4235,8 +4273,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (existing) { closeVizHost(hostId); return; }
         const host = document.createElement('div');
         host.id = hostId;
-        host.className = 'bible-map-wrap';
-        host.style.marginTop = '20px';
+        host.className = 'bible-map-wrap ai-host-wrap';
+        host.style.marginTop = '10px';
         host.innerHTML = `<div class="study-panel-header">
                 <span class="study-panel-title">${titleHtml}</span>
                 <div class="study-panel-actions">
@@ -4304,8 +4342,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <button type="button" class="xref-mode-btn${colorMode === 'testament' ? ' active' : ''}" onclick="setXrefTimelineColorMode('testament')">GT / NT</button>
             <button type="button" class="xref-mode-btn${colorMode === 'perBook' ? ' active' : ''}" onclick="setXrefTimelineColorMode('perBook')">Farge per bok</button>
         </div>`;
-        const body = `<div class="bible-map-body" style="padding:18px 14px 14px;">
-            ${toggleHtml}
+        const controlsHtml = `<div class="timeline-controls-row">${toggleHtml}<button type="button" class="timeline-zoom-btn" onclick="bumpTimelineZoom('xrefTimelineHost')">🔍 Zoom +</button></div>`;
+        const body = `<div class="bible-map-body" style="padding:10px 14px 12px;">
+            ${controlsHtml}
             <div class="bible-timeline-wrap" data-zoom="1">${svg}</div>
         </div>`;
 
@@ -4348,10 +4387,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <button type="button" class="xref-mode-btn${colorMode === 'testament' ? ' active' : ''}" onclick="setChapterTimelineColorMode('testament')">GT / NT</button>
             <button type="button" class="xref-mode-btn${colorMode === 'perBook' ? ' active' : ''}" onclick="setChapterTimelineColorMode('perBook')">Farge per bok</button>
         </div>`;
+        const controlsHtml = `<div class="timeline-controls-row">${toggleHtml}<button type="button" class="timeline-zoom-btn" onclick="bumpTimelineZoom('chapterTimelineHost')">🔍 Zoom +</button></div>`;
         const unique = items.length;
-        const body = `<div class="bible-map-body" style="padding:18px 14px 14px;">
-            ${toggleHtml}
-            <div style="font-size:0.78rem;color:var(--text-muted);margin:4px 0 10px;padding:0 4px;">
+        const body = `<div class="bible-map-body" style="padding:10px 14px 12px;">
+            ${controlsHtml}
+            <div style="font-size:0.78rem;color:var(--text-muted);margin:2px 0 8px;padding:0 4px;">
                 ${totalRefs} referanser i kapittelet, aggregert til ${unique} unike målvers. Prikkstørrelse viser antall referanser per målvers.
             </div>
             <div class="bible-timeline-wrap" data-zoom="1">${svg}</div>
@@ -4409,6 +4449,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const isMobile = window.matchMedia('(max-width: 700px)').matches;
         const baseWidth = isMobile ? 920 : Math.max(wrap.clientWidth, 600);
         let zoom = 1;
+        let zoomAnimRaf = null;
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const setZoomClasses = (z) => {
+            wrap.classList.toggle('zoomed-1', z >= 1.3);
+            wrap.classList.toggle('zoomed-2', z >= 2);
+        };
         const setZoom = (newZoom, focalClientX) => {
             newZoom = Math.max(1, Math.min(5, newZoom));
             if (Math.abs(newZoom - zoom) < 0.01) return;
@@ -4417,13 +4463,37 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const focalX = (focalClientX != null ? focalClientX : wrapRect.left + wrapRect.width / 2) - wrapRect.left;
             const contentX = wrap.scrollLeft + focalX;
             const ratio = newZoom / zoom;
-            zoom = newZoom;
-            svg.style.minWidth = (baseWidth * zoom) + 'px';
-            // Juster scroll slik at focal-point forblir på samme skjermposisjon
-            wrap.scrollLeft = contentX * ratio - focalX;
-            // Oppdater zoomed-klasser (tinter/labels)
-            wrap.classList.toggle('zoomed-1', zoom >= 1.3);
-            wrap.classList.toggle('zoomed-2', zoom >= 2);
+            const targetWidth = baseWidth * newZoom;
+            const targetScroll = Math.max(0, contentX * ratio - focalX);
+            if (reduceMotion) {
+                zoom = newZoom;
+                svg.style.minWidth = targetWidth + 'px';
+                wrap.scrollLeft = targetScroll;
+                setZoomClasses(zoom);
+                return;
+            }
+            const startZoom = zoom;
+            const startWidth = baseWidth * zoom;
+            const startScroll = wrap.scrollLeft;
+            const startAt = performance.now();
+            const duration = 170;
+            if (zoomAnimRaf) cancelAnimationFrame(zoomAnimRaf);
+            const step = (now) => {
+                const t = Math.min(1, (now - startAt) / duration);
+                const eased = 1 - Math.pow(1 - t, 3);
+                zoom = startZoom + (newZoom - startZoom) * eased;
+                const width = startWidth + (targetWidth - startWidth) * eased;
+                const scroll = startScroll + (targetScroll - startScroll) * eased;
+                svg.style.minWidth = width + 'px';
+                wrap.scrollLeft = scroll;
+                setZoomClasses(zoom);
+                if (t < 1) zoomAnimRaf = requestAnimationFrame(step);
+            };
+            zoomAnimRaf = requestAnimationFrame(step);
+        };
+        wrap._timelineZoom = {
+            getZoom: () => zoom,
+            setZoom: (nextZoom) => setZoom(nextZoom)
         };
 
         // Initial: sett min-width + auto-scroll til kildeverset bare når kilden endres
@@ -4482,17 +4552,60 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const popup = document.getElementById('timelineHoverPopup');
         if (popup) {
             const refEl = popup.querySelector('.tl-hover-ref');
+            const refTextEl = popup.querySelector('.tl-hover-ref-text');
             const textEl = popup.querySelector('.tl-hover-text');
+            const dotEl = popup.querySelector('.tl-hover-dot');
+            const W = 1000, H = 200, padding = 14, tintBottomY = H - 30;
+            const totalChapters = booksData.reduce((s, b) => s + b.chapters, 0);
+            const usable = W - 2 * padding;
+            let chapterCursor = 0;
+            const bookRanges = booksData.map(b => {
+                const start = chapterCursor;
+                chapterCursor += b.chapters;
+                return {
+                    code: b.code,
+                    x1: padding + (start / totalChapters) * usable,
+                    x2: padding + (chapterCursor / totalChapters) * usable
+                };
+            });
             function positionPopupAt(clientX, clientY) {
                 popup.style.left = clientX + 'px';
                 popup.style.top = clientY + 'px';
+            }
+            function hidePopup() {
+                if (dotEl) {
+                    dotEl.classList.remove('show');
+                    dotEl.style.background = 'transparent';
+                }
+                popup.hidden = true;
+            }
+            function getBookCodeFromClientPoint(clientX, clientY) {
+                const ctm = svg.getScreenCTM();
+                if (!ctm) return null;
+                const pt = svg.createSVGPoint();
+                pt.x = clientX;
+                pt.y = clientY;
+                const local = pt.matrixTransform(ctm.inverse());
+                if (local.y < 0 || local.y > tintBottomY) return null;
+                const hit = bookRanges.find(r => local.x >= r.x1 && local.x <= r.x2);
+                return hit ? hit.code : null;
             }
             function handleEnter(e) {
                 const group = e.target.closest('.arc-group, .dot-group');
                 if (!group) return;
                 const ref = group.getAttribute('data-ref');
                 const display = group.getAttribute('data-display') || ref;
-                refEl.textContent = display;
+                if (refTextEl) refTextEl.textContent = display;
+                else if (refEl) refEl.textContent = display;
+                const bookCodeMatch = /^([A-Z0-9]+)\./.exec(ref || '');
+                const refBookCode = bookCodeMatch ? bookCodeMatch[1] : null;
+                if (dotEl && refBookCode && stateRef && stateRef.colorMode === 'perBook') {
+                    dotEl.style.background = pastelForBook(refBookCode).medium;
+                    dotEl.classList.add('show');
+                } else if (dotEl) {
+                    dotEl.classList.remove('show');
+                    dotEl.style.background = 'transparent';
+                }
                 const key = ref.split('-')[0];
                 const text = stateRef.texts[key];
                 textEl.textContent = text || 'Henter…';
@@ -4501,19 +4614,40 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 positionPopupAt(e.clientX, e.clientY);
             }
             function handleMove(e) {
+                const group = e.target.closest('.arc-group, .dot-group');
+                if (!group) {
+                    const hoverBook = getBookCodeFromClientPoint(e.clientX, e.clientY);
+                    if (hoverBook) {
+                        if (refTextEl) refTextEl.textContent = bookName(hoverBook);
+                        else if (refEl) refEl.textContent = bookName(hoverBook);
+                        textEl.textContent = 'Bok';
+                        if (dotEl) {
+                            dotEl.classList.remove('show');
+                            dotEl.style.background = 'transparent';
+                        }
+                        popup.hidden = false;
+                        positionPopupAt(e.clientX, e.clientY);
+                    } else if (!popup.hidden) {
+                        hidePopup();
+                    }
+                    return;
+                }
                 if (popup.hidden) return;
                 positionPopupAt(e.clientX, e.clientY);
             }
             function handleLeave(e) {
                 const group = e.target.closest('.arc-group, .dot-group');
                 if (group) group.classList.remove('hovered');
-                popup.hidden = true;
+                const related = e.relatedTarget;
+                if (related && svg.contains(related)) return;
+                hidePopup();
             }
             svg.addEventListener('mouseover', handleEnter);
             svg.addEventListener('mousemove', handleMove);
             svg.addEventListener('mouseout', handleLeave);
+            svg.addEventListener('mouseleave', hidePopup);
             // Skjul popup ved scroll eller zoom (koords er ikke lenger gyldige)
-            wrap.addEventListener('scroll', () => { popup.hidden = true; }, { passive: true });
+            wrap.addEventListener('scroll', hidePopup, { passive: true });
             // Klikk-navigasjon (siden vi ikke har onclick på path/circle lenger)
             svg.addEventListener('click', e => {
                 const group = e.target.closest('.arc-group, .dot-group');
@@ -4523,6 +4657,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             });
         }
     }
+
+    window.bumpTimelineZoom = function(hostId) {
+        const host = document.getElementById(hostId);
+        const wrap = host && host.querySelector('.bible-timeline-wrap');
+        if (!wrap || !wrap._timelineZoom) return;
+        const current = wrap._timelineZoom.getZoom();
+        const next = current >= 4.9 ? 1 : Math.min(5, current + 0.5);
+        wrap._timelineZoom.setZoom(next);
+    };
 
     window.openXrefMap = function(btn) {
         const encoded = btn.getAttribute('data-xref-items');
@@ -4616,8 +4759,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     function renderContextHost(label, data) {
         const host = document.createElement('div');
         host.id = 'aiContextHost';
-        host.className = 'bible-map-wrap';
-        host.style.marginTop = '20px';
+        host.className = 'bible-map-wrap ai-host-wrap';
+        host.style.marginTop = '10px';
         const content = data.error
             ? `<div style="color:var(--error);">${escHtml(data.error)}</div>`
             : `<div style="font-size:0.98rem;line-height:1.6;color:var(--text);">${escHtml(data.result || '')}</div>`;
@@ -4811,8 +4954,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         const host = document.createElement('div');
         host.id = 'aiThemeHost';
-        host.className = 'bible-map-wrap';
-        host.style.marginTop = '20px';
+        host.className = 'bible-map-wrap ai-host-wrap';
+        host.style.marginTop = '10px';
         host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header study-panel-header">
             <span class="ai-panel-title study-panel-title">🎨 Tema-kart — ${escHtml(label)}</span>
             <div class="study-panel-actions">
@@ -4956,7 +5099,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const host = document.createElement('div');
         host.id = 'aiGenRefsHost';
         host.className = 'bible-map-wrap';
-        host.style.marginTop = '20px';
+        host.style.marginTop = '10px';
         host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header study-panel-header">
             <span class="ai-panel-title study-panel-title">🔗 KI-genererte referanser — ${escHtml(label)}</span>
             <div class="study-panel-actions">
@@ -5038,8 +5181,27 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const encoded = btn.getAttribute('data-chapter-xref-info');
         let info;
         try { info = JSON.parse(decodeURIComponent(encoded || '')); } catch { return; }
+        const host = document.getElementById('chapterTimelineHost');
+        const sameOpen = host && chapterTimelineState && chapterTimelineState.source === info.source;
+        if (sameOpen) {
+            closeVizHost('chapterTimelineHost');
+            setTimeout(() => refreshChapterRefBtnState(), 230);
+            return;
+        }
         showChapterTimeline(info);
+        refreshChapterRefBtnState();
     };
+
+    function refreshChapterRefBtnState() {
+        const hostOpen = !!document.getElementById('chapterTimelineHost');
+        const activeSource = chapterTimelineState && chapterTimelineState.source;
+        document.querySelectorAll('button[data-chapter-xref-info]').forEach(btn => {
+            let info;
+            try { info = JSON.parse(decodeURIComponent(btn.getAttribute('data-chapter-xref-info') || '')); } catch { return; }
+            const active = !!(hostOpen && activeSource && info && info.source === activeSource);
+            btn.classList.toggle('active', active);
+        });
+    }
 
     // Hopp til en bok fra kartet (xref-kontext: søk på første vers)
     window.mapJumpToBook = function(bookCode) {
@@ -6166,6 +6328,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         resultsWrapper.innerHTML = html;
         updateNavButtons();
         refreshOpenStudyHosts();
+        refreshChapterRefBtnState();
         ensureAiDiffHost();
         applyStoredHighlights();
         // Scroll til uthevet vers etter at alt annet er rendret, så layout er stabil
@@ -6222,8 +6385,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         } else {
             const h = document.createElement('div');
             h.id = 'aiDiffHost';
-            h.className = 'bible-map-wrap';
-            h.style.marginTop = '20px';
+            h.className = 'bible-map-wrap ai-host-wrap';
+            h.style.marginTop = '10px';
             h.style.padding = '0';
             h.style.background = 'transparent';
             h.style.border = 'none';
@@ -6414,8 +6577,14 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const hasNoXrefs = singleV && (!singleV.xrefs || singleV.xrefs.length === 0);
         const chapterXrefInfo = buildChapterXrefAggregate(block);
         const chapterXrefEncoded = chapterXrefInfo ? encodeURIComponent(JSON.stringify(chapterXrefInfo)) : '';
+        const chapterTimelineActive = !!(
+            chapterXrefInfo &&
+            document.getElementById('chapterTimelineHost') &&
+            chapterTimelineState &&
+            chapterTimelineState.source === chapterXrefInfo.source
+        );
         const chapterXrefBtn = chapterXrefInfo
-            ? `<button class="card-action-btn ai-btn" data-chapter-xref-info="${chapterXrefEncoded}" onclick="openChapterTimeline(this)">📚 Kapittelets referanser</button>`
+            ? `<button class="card-action-btn${chapterTimelineActive ? ' active' : ''}" data-chapter-xref-info="${chapterXrefEncoded}" onclick="openChapterTimeline(this)">📚 Kapittelets referanser</button>`
             : '';
         const genRefsBtn = hasNoXrefs
             ? `<button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" data-source="${escAttr(block.book + '.' + singleV.chapter + '.' + singleV.num)}" onclick="generateRefs(this)">🔗 Generer referanser</button>`
