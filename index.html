@@ -1588,12 +1588,77 @@
         .nav-btn:disabled { opacity: 0.35; cursor: not-allowed; }
         .nav-btn:active:not(:disabled) { transform: scale(0.94); }
         @media (min-width: 701px) {
-            .nav-prev { left: max(16px, calc(50% - 500px)); top: 50%; transform: translateY(-50%); }
-            .nav-next { right: max(16px, calc(50% - 500px)); top: 50%; transform: translateY(-50%); }
-            .nav-prev:active:not(:disabled),
-            .nav-next:active:not(:disabled) { transform: translateY(-50%) scale(0.94); }
-            body.compare-active .nav-prev { left: max(16px, calc(50% - 700px)); }
-            body.compare-active .nav-next { right: max(16px, calc(50% - 700px)); }
+            /* PC: knappen dekker hele sidebandet ved siden av hovedinnholdet.
+               Selve det synlige sirkel-elementet tegnes via ::before, holdt på plass
+               midt på sidebandet. Hover/klikk-flaten er hele stripen. */
+            .nav-prev, .nav-next {
+                position: fixed;
+                top: 60px;
+                bottom: 0;
+                width: auto;
+                height: auto;
+                background: transparent;
+                border: none;
+                border-radius: 0;
+                box-shadow: none;
+                padding: 0;
+                font-size: 0;   /* skjul tekst-innholdet (‹ / ›), vises via ::before */
+                display: none;
+                align-items: center;
+                cursor: pointer;
+                transition: none;
+                z-index: 60;
+            }
+            .nav-prev { left: 0; right: calc(50% + 440px); justify-content: flex-end; padding-right: 18px; }
+            .nav-next { right: 0; left: calc(50% + 440px); justify-content: flex-start; padding-left: 18px; }
+            body.compare-active .nav-prev { right: calc(50% + 650px); }
+            body.compare-active .nav-next { left: calc(50% + 650px); }
+
+            .nav-btn.visible { display: flex; }
+
+            .nav-prev::before, .nav-next::before {
+                content: '\2039';
+                display: flex;
+                width: 52px;
+                height: 52px;
+                border-radius: 50%;
+                background: var(--card-bg);
+                border: 1.5px solid var(--border);
+                color: var(--accent);
+                font-size: 1.9rem;
+                font-weight: 600;
+                line-height: 1;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+                transition: background 0.18s, color 0.18s, border-color 0.18s, transform 0.15s, box-shadow 0.18s;
+            }
+            .nav-next::before { content: '\203A'; }
+
+            .nav-prev:hover:not(:disabled)::before,
+            .nav-next:hover:not(:disabled)::before {
+                background: var(--accent);
+                color: white;
+                border-color: var(--accent);
+                transform: scale(1.08);
+                box-shadow: 0 6px 22px rgba(168, 50, 50, 0.3);
+            }
+            .nav-prev:active:not(:disabled)::before,
+            .nav-next:active:not(:disabled)::before {
+                transform: scale(0.94);
+            }
+            .nav-prev:disabled, .nav-next:disabled { cursor: not-allowed; }
+            .nav-prev:disabled::before, .nav-next:disabled::before { opacity: 0.35; }
+
+            /* Siden button-selv er font-size: 0 på PC, overstyr den vanlige
+               .nav-btn:hover-regelen slik at det ikke blir hele stripen med
+               rød bakgrunn. */
+            .nav-prev:hover:not(:disabled),
+            .nav-next:hover:not(:disabled) {
+                background: transparent;
+                color: transparent;
+                border: none;
+            }
         }
         @media (max-width: 700px) {
             .nav-prev { left: 14px; bottom: calc(env(safe-area-inset-bottom, 0px) + 108px); }
