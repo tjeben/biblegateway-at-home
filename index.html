@@ -3141,6 +3141,52 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         mark.className = 'user-highlight';
         try { range.surroundContents(mark); return true; } catch { return false; }
     }
+    // Wrap en Range i <mark class="user-highlight">, også når den krysser element-grenser.
+    // Returnerer [{vref, text}, ...] for hvert segment som ligger i et vers, så de kan lagres.
+    function wrapRangeAsHighlight(range) {
+        if (!range || range.collapsed) return [];
+        // Samle tekstnoder som faktisk overlapper med range-en
+        const rootEl = range.commonAncestorContainer.nodeType === 1
+            ? range.commonAncestorContainer
+            : range.commonAncestorContainer.parentElement;
+        if (!rootEl) return [];
+        const textNodes = [];
+        const walker = document.createTreeWalker(rootEl, NodeFilter.SHOW_TEXT, {
+            acceptNode: n => {
+                if (!n.nodeValue) return NodeFilter.FILTER_REJECT;
+                if (n.parentElement && n.parentElement.closest('.user-highlight')) return NodeFilter.FILTER_REJECT;
+                try { return range.intersectsNode(n) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT; }
+                catch { return NodeFilter.FILTER_REJECT; }
+            }
+        });
+        let n;
+        while ((n = walker.nextNode())) textNodes.push(n);
+
+        const segments = [];
+        textNodes.forEach(node => {
+            const len = node.nodeValue.length;
+            let start = 0, end = len;
+            if (node === range.startContainer) start = Math.max(start, range.startOffset);
+            if (node === range.endContainer) end = Math.min(end, range.endOffset);
+            if (end <= start) return;
+            if (!node.nodeValue.slice(start, end).trim()) return;
+
+            // Splitt tekstnoden så 'target' inneholder akkurat [start..end)
+            let target = node;
+            if (end < len) target.splitText(end); // target beholder [0..end)
+            if (start > 0) target = target.splitText(start); // target blir [start..end)
+
+            const mark = document.createElement('mark');
+            mark.className = 'user-highlight';
+            target.parentNode.insertBefore(mark, target);
+            mark.appendChild(target);
+
+            const vspan = mark.closest('[data-vref]');
+            if (vspan) segments.push({ vref: vspan.getAttribute('data-vref'), text: target.nodeValue });
+        });
+        return segments;
+    }
+
     function applyStoredHighlights() {
         const all = loadHighlights();
         if (!all || Object.keys(all).length === 0) return;
@@ -3223,12 +3269,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             } else if (action === 'highlight') {
                 try {
                     const range = sel.getRangeAt(0);
-                    const mark = document.createElement('mark');
-                    mark.className = 'user-highlight';
-                    range.surroundContents(mark);
-                    // Lagre til localStorage hvis vi kan finne vers-ref
-                    const vspan = mark.closest('[data-vref]');
-                    if (vspan) saveHighlight(vspan.getAttribute('data-vref'), text);
+                    const segments = wrapRangeAsHighlight(range);
+                    if (segments.length === 0) {
+                        showToast('Kan ikke utheve denne seksjonen');
+                    } else {
+                        segments.forEach(s => saveHighlight(s.vref, s.text));
+                    }
                     sel.removeAllRanges();
                 } catch {
                     showToast('Kan ikke utheve denne seksjonen');
