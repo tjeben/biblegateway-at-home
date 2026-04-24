@@ -3109,17 +3109,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         });
     })();
 
-    // ── Persistent user-highlights (localStorage) ──
+    // ── Persistent user-highlights (localStorage), scoped per versjon|vref ──
     function loadHighlights() {
         try { return JSON.parse(localStorage.getItem('userHighlights') || '{}'); }
         catch { return {}; }
     }
-    function saveHighlight(vref, text) {
+    function highlightKey(version, vref) { return (version || '') + '|' + vref; }
+    function saveHighlight(version, vref, text) {
         if (!vref || !text) return;
         const all = loadHighlights();
-        const list = all[vref] || [];
+        const key = highlightKey(version, vref);
+        const list = all[key] || [];
         if (!list.includes(text)) list.push(text);
-        all[vref] = list;
+        all[key] = list;
         try { localStorage.setItem('userHighlights', JSON.stringify(all)); } catch {}
     }
     function wrapFirstTextMatch(root, needle) {
@@ -3182,9 +3184,80 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             mark.appendChild(target);
 
             const vspan = mark.closest('[data-vref]');
-            if (vspan) segments.push({ vref: vspan.getAttribute('data-vref'), text: target.nodeValue });
+            if (vspan) segments.push({
+                vref: vspan.getAttribute('data-vref'),
+                version: vspan.getAttribute('data-version') || '',
+                text: target.nodeValue
+            });
         });
         return segments;
+    }
+
+    // Speil en brukermarkering til compare-verset via KI (finn tilsvarende frase)
+    async function mirrorHighlightToCompareAsync(segments) {
+        if (!segments || segments.length === 0) return;
+        if (!compareMode || !compareData || !mainData) return;
+        if (!compareVersionSelect || compareVersionSelect.value === versionSelect.value) return;
+
+        const cmpVersion = compareVersionSelect.value;
+        const mainVersion = versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value;
+        if (cmpVersion === mainVersion) return;
+
+        // Grupper segmenter per vref
+        const byVref = {};
+        segments.forEach(s => {
+            if (!byVref[s.vref]) byVref[s.vref] = [];
+            byVref[s.vref].push(s.text);
+        });
+
+        for (const vref of Object.keys(byVref)) {
+            // Finn main- og compare-verset
+            const mainVerse = findVerseByVref(mainData, vref);
+            const cmpVerse = findVerseByVref(compareData, vref);
+            if (!mainVerse || !cmpVerse) continue;
+            const phrase = byVref[vref].join(' … ');
+            try {
+                const resp = await fetch('/api/ai_match_phrase', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        text1: mainVerse.text,
+                        text2: cmpVerse.text,
+                        phrase,
+                        version1: versionLabel(mainVersion),
+                        version2: versionLabel(cmpVersion),
+                        label: formatVrefToLabel(vref),
+                    })
+                });
+                const data = await resp.json();
+                const match = (data && data.match) ? data.match.trim() : '';
+                if (!match) continue;
+                // Finn compare-versets verse-span i DOM (data-vref + data-version)
+                const cmpSpan = document.querySelector(`[data-vref="${CSS.escape(vref)}"][data-version="${CSS.escape(cmpVersion)}"]`);
+                if (cmpSpan) wrapFirstTextMatch(cmpSpan, match);
+                saveHighlight(cmpVersion, vref, match);
+            } catch { /* stille */ }
+        }
+    }
+
+    function findVerseByVref(blocks, vref) {
+        if (!blocks) return null;
+        const m = /^([A-Z0-9]+)\.(\d+)\.(\d+)$/.exec(vref);
+        if (!m) return null;
+        const [, book, ch, vn] = m;
+        for (const b of blocks) {
+            if (!b || b.book !== book || !b.verses) continue;
+            for (const v of b.verses) {
+                if (v.chapter === parseInt(ch, 10) && v.num === parseInt(vn, 10)) return v;
+            }
+        }
+        return null;
+    }
+    function formatVrefToLabel(vref) {
+        const m = /^([A-Z0-9]+)\.(\d+)\.(\d+)$/.exec(vref);
+        if (!m) return vref;
+        const bn = (typeof bookName === 'function') ? bookName(m[1]) : m[1];
+        return `${bn} ${m[2]}:${m[3]}`;
     }
 
     function applyStoredHighlights() {
@@ -3192,7 +3265,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (!all || Object.keys(all).length === 0) return;
         document.querySelectorAll('[data-vref]').forEach(span => {
             const vref = span.getAttribute('data-vref');
-            const list = all[vref];
+            const version = span.getAttribute('data-version') || '';
+            const list = all[highlightKey(version, vref)];
             if (!list) return;
             list.forEach(text => wrapFirstTextMatch(span, text));
         });
@@ -3273,7 +3347,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     if (segments.length === 0) {
                         showToast('Kan ikke utheve denne seksjonen');
                     } else {
-                        segments.forEach(s => saveHighlight(s.vref, s.text));
+                        segments.forEach(s => saveHighlight(s.version, s.vref, s.text));
+                        // Speile markering til sammenligningsvers via KI hvis aktivt
+                        mirrorHighlightToCompareAsync(segments);
                     }
                     sel.removeAllRanges();
                 } catch {
@@ -5133,7 +5209,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             </div>
             <div class="verse-text">`;
 
-        html += renderVerseTextHtml(block.verses, highlightVerse, block.book, aiHighlights && aiHighlights.v1 ? aiHighlights.v1 : null);
+        const mainVerKey = versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value;
+        html += renderVerseTextHtml(block.verses, highlightVerse, block.book, aiHighlights && aiHighlights.v1 ? aiHighlights.v1 : null, null, mainVerKey);
         html += '</div>';
         html += '</div>';
         return html;
@@ -5240,7 +5317,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 ${compSrcBtn}
             </div>
             <div class="verse-text">`;
-        html += renderVerseTextHtml(block.verses, null, block.book, aiHighlights && aiHighlights.v2 ? aiHighlights.v2 : null);
+        html += renderVerseTextHtml(block.verses, null, block.book, aiHighlights && aiHighlights.v2 ? aiHighlights.v2 : null, null, compareVersionSelect.value);
         html += '</div></div>';
         return html;
     }
@@ -5258,7 +5335,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return result;
     }
 
-    function renderVerseTextHtml(verses, hlVerse, bookCode, hlPhrases, versionForClick) {
+    function renderVerseTextHtml(verses, hlVerse, bookCode, hlPhrases, versionForClick, versionKey) {
+        const verKey = versionKey || versionForClick || '';
         let html = '';
         let lastChapter = null;
         const isMultiChapter = verses.some(x => x.chapter !== verses[0]?.chapter);
@@ -5285,7 +5363,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     ? ` onclick="navigateToRefInVersion('${vrefAttr}', '${escAttr(versionForClick)}')" title="Se bare dette verset i ${escAttr(versionForClick)}"`
                     : ` onclick="navigateToRef('${vrefAttr}')" title="Se bare dette verset"`;
             }
-            if (vrefKey) html += `<span class="verse-span" data-vref="${escAttr(vrefKey)}">`;
+            if (vrefKey) html += `<span class="verse-span" data-vref="${escAttr(vrefKey)}"${verKey ? ` data-version="${escAttr(verKey)}"` : ''}>`;
             html += `<span class="verse-num"${vnumClick}>${v.num}</span>`;
             let txt = escHtml(v.text);
             if (hlPhrases && hlPhrases.length) txt = applyPhraseHighlights(txt, hlPhrases);

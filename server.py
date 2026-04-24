@@ -1564,6 +1564,67 @@ Regler:
                 sys.stderr.flush()
                 self._send_json({"error": str(e)}, 500)
 
+        elif path == "/api/ai_match_phrase":
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            text1 = body.get("text1", "")
+            text2 = body.get("text2", "")
+            phrase = body.get("phrase", "")
+            v1 = body.get("version1", "Versjon 1")
+            v2 = body.get("version2", "Versjon 2")
+            label = body.get("label", "")
+            if not text1 or not text2 or not phrase:
+                self._send_json({"error": "Mangler tekst eller frase"}, 400)
+                return
+            sys.stderr.write(f"[{self.log_date_time_string()}] ai_match_phrase: {label} {v1}→{v2} frase='{phrase}'\n")
+            sys.stderr.flush()
+            try:
+                result = gemini_request(
+                    api_key,
+                    f"Vers: {label}\n\n"
+                    f"Versjon A ({v1}):\n{text1}\n\n"
+                    f"Brukerens markering i Versjon A: \"{phrase}\"\n\n"
+                    f"Versjon B ({v2}):\n{text2}",
+                    "Du er en erfaren bibeloversetter. Brukeren har markert en frase i Versjon A "
+                    "og vil se den tilsvarende frasen (samme mening, samme rolle i setningen) i Versjon B.\n\n"
+                    "Regler:\n"
+                    "1. Frasen du returnerer MÅ stå EKSAKT slik den er i Versjon B — samme bokstaver, "
+                    "samme bøyning, samme tegnsetting. Ikke oppdikt, ikke parafraser.\n"
+                    "2. Den skal være kortest mulig men dekke hele meningen — typisk 1-8 ord.\n"
+                    "3. Det er OK om ordlyden er helt ulik, så lenge betydningen er den samme "
+                    "(f.eks. 'kjærlighet' ↔ 'elsket', 'evig liv' ↔ 'uendelig livet').\n"
+                    "4. Hvis ingen rimelig ekvivalent finnes, eller brukerens frase er for vag, "
+                    "returner tom streng.\n\n"
+                    "Returner KUN gyldig JSON:\n"
+                    '{"match": "eksakt frase fra Versjon B"}\n\n'
+                    "Ingen innledning, ingen etterord, ingen forklaring.",
+                    max_tokens=120,
+                )
+                cleaned = result.strip()
+                if cleaned.startswith("```"):
+                    cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else cleaned
+                    if cleaned.endswith("```"):
+                        cleaned = cleaned.rsplit("\n", 1)[0]
+                    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+                try:
+                    parsed = json.loads(cleaned)
+                    match = (parsed.get("match") or "").strip()
+                    # Verifiser at KI-et faktisk returnerte noe som finnes i text2
+                    if match and match in text2:
+                        self._send_json({"match": match})
+                    else:
+                        self._send_json({"match": ""})
+                except Exception as parse_err:
+                    sys.stderr.write(f"[{self.log_date_time_string()}] ai_match_phrase parse-feil: {parse_err} — rå: {result[:200]}\n")
+                    sys.stderr.flush()
+                    self._send_json({"match": ""})
+            except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_match_phrase FEIL: {e}\n")
+                sys.stderr.flush()
+                self._send_json({"error": str(e)}, 500)
+
         elif path == "/api/ai_context":
             api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
