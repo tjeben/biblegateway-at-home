@@ -747,13 +747,16 @@
             box-shadow: 0 3px 10px rgba(217, 158, 10, 0.2);
         }
         .card-action-btn.ai-btn.active {
-            background: transparent;
-            color: #7a5b1a;
-            border-color: rgba(217, 158, 10, 0.9);
-            box-shadow: 0 0 0 2px rgba(217, 158, 10, 0.28), 0 0 10px rgba(217, 158, 10, 0.35);
+            background: linear-gradient(180deg, #e9a10c, #c08400);
+            color: #fff;
+            border-color: #9a6a00;
+            box-shadow: none;
         }
         .card-action-btn.ai-btn.active:hover:not(:disabled) {
-            background: linear-gradient(180deg, #fff8d8, #fbd27d);
+            background: linear-gradient(180deg, #f2ab12, #cc8e00);
+            color: #fff;
+            border-color: #9a6a00;
+            box-shadow: none;
         }
         [data-theme="dark"] .card-action-btn.ai-btn:hover:not(:disabled) {
             background: linear-gradient(180deg, #4a3a14, #342408);
@@ -761,9 +764,10 @@
             border-color: rgba(217, 158, 10, 0.6);
         }
         [data-theme="dark"] .card-action-btn.ai-btn.active {
-            color: #fbbf24;
-            border-color: rgba(217, 158, 10, 0.9);
-            box-shadow: 0 0 0 2px rgba(217, 158, 10, 0.32), 0 0 12px rgba(217, 158, 10, 0.45);
+            background: linear-gradient(180deg, #c08400, #9a6a00);
+            color: #fff7d6;
+            border-color: #6b4900;
+            box-shadow: none;
         }
 
         /* Error */
@@ -1186,7 +1190,15 @@
         .book-group:nth-child(6) { animation-delay: 150ms; }
 
         /* ── Bibelkart ── */
-        .bible-map-wrap { margin-top: 12px; }
+        .bible-map-wrap {
+            margin-top: 12px;
+            padding: 16px 18px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            animation: fadeInUp 220ms cubic-bezier(.2, .8, .2, 1);
+        }
+        .bible-map-wrap .bible-map { margin-top: 0; }
         .bible-map-toggle {
             display: inline-flex;
             align-items: center;
@@ -5049,16 +5061,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         let html = '';
 
 
-        // KI-sammenligningsknappene ligger nå i verktøylinjen (buildToolbarHtml).
-        // Her bygger vi bare resultat-kortet (tekst/feilmelding) når det finnes.
+        // KI-sammenligningsresultatet rendres nå i et viz-host (aiDiffHost) nederst,
+        // ikke lenger inline. Se ensureAiDiffHost() kalt etter rendering.
         let aiSection = '';
-        if (showCompare) {
-            if (aiDiffState && aiDiffState.text) {
-                aiSection = `<div class="ai-diff-section"><div class="diff-result-card">${escHtml(aiDiffState.text)}</div></div>`;
-            } else if (aiDiffState && aiDiffState.error) {
-                aiSection = `<div class="ai-diff-section"><div class="diff-result-card" style="color:var(--error);border-color:var(--error);background:var(--error-bg);">${escHtml(aiDiffState.error)}</div></div>`;
-            }
-        }
 
         // Side by side (PC) / stablet (mobil) — KI-seksjonen plasseres rett etter første blokk
         for (let idx = 0; idx < mainData.length; idx++) {
@@ -5095,8 +5100,67 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
         }
         refreshOpenStudyHosts();
+        ensureAiDiffHost();
         applyStoredHighlights();
     }
+
+    // Opprett/oppdater/lukk aiDiffHost basert på aiDiffState
+    function ensureAiDiffHost() {
+        const host = document.getElementById('aiDiffHost');
+        const loading = aiDiffState && (aiDiffState.loading || aiDiffState.findingMostDifferent);
+        const hasText = aiDiffState && aiDiffState.text;
+        const hasError = aiDiffState && aiDiffState.error;
+        const label = (mainData && mainData[0] && mainData[0].label) || '';
+
+        if (!loading && !hasText && !hasError) {
+            if (host) closeVizHost('aiDiffHost');
+            return;
+        }
+
+        const title = aiDiffState && aiDiffState.findingMostDifferent
+            ? '🔬 Finner største forskjell…'
+            : '✨ Oppsummering av forskjeller';
+        let body;
+        if (loading) {
+            body = `<div style="color:var(--text-muted);">${aiDiffState.findingMostDifferent ? 'Analyserer alle versjoner…' : 'Analyserer forskjeller…'}</div>`;
+        } else if (hasError) {
+            body = `<div style="color:var(--error);">${escHtml(aiDiffState.error)}</div>`;
+        } else {
+            body = `<div style="font-size:0.98rem;line-height:1.6;color:var(--text);">${escHtml(aiDiffState.text)}</div>`;
+        }
+
+        const innerHtml = `<div class="ai-panel">
+                <div class="ai-panel-header study-panel-header">
+                    <span class="ai-panel-title study-panel-title">${title}</span>
+                    <div class="study-panel-actions">
+                        <button class="card-action-btn" onclick="closeAiDiff()">Lukk</button>
+                    </div>
+                </div>
+                <div class="ai-panel-body">${body}</div>
+            </div>`;
+
+        if (host) {
+            host.innerHTML = innerHtml;
+            host.dataset.forLabel = label;
+        } else {
+            const h = document.createElement('div');
+            h.id = 'aiDiffHost';
+            h.className = 'bible-map-wrap';
+            h.style.marginTop = '20px';
+            h.style.padding = '0';
+            h.style.background = 'transparent';
+            h.style.border = 'none';
+            h.innerHTML = innerHtml;
+            h.dataset.forLabel = label;
+            vizHosts.appendChild(h);
+        }
+    }
+
+    window.closeAiDiff = function() {
+        aiDiffState = null;
+        closeVizHost('aiDiffHost');
+        renderAll();
+    };
 
     // Oppdater åpne studieelementer når aktivt vers endres
     function refreshOpenStudyHosts() {
@@ -5141,9 +5205,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         // AI-paneler: lukk hvis label har endret (API-tunge — bruker åpner på nytt bevisst)
-        ['aiContextHost', 'aiThemeHost', 'aiGenRefsHost'].forEach(id => {
+        ['aiContextHost', 'aiThemeHost', 'aiGenRefsHost', 'aiDiffHost'].forEach(id => {
             const h = document.getElementById(id);
             if (h && h.dataset.forLabel && h.dataset.forLabel !== label) {
+                if (id === 'aiDiffHost') aiDiffState = null;
                 closeVizHost(id);
             }
         });
