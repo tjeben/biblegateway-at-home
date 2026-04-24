@@ -1788,11 +1788,49 @@
 
         /* Bibel-tidslinje (SVG-buer) */
         .bible-timeline-wrap {
+            position: relative;
             overflow-x: auto;
             overflow-y: hidden;
             -webkit-overflow-scrolling: touch;
             border-radius: 12px;
         }
+        /* Hover-popup med verstekst (plasseres i wrap, inni scroll-området) */
+        .tl-hover-popup {
+            position: absolute;
+            pointer-events: none;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 8px 12px;
+            font-size: 0.85rem;
+            line-height: 1.45;
+            max-width: 320px;
+            min-width: 160px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+            z-index: 20;
+            transform: translate(-50%, calc(-100% - 14px));
+            animation: fadeInUp 120ms ease-out;
+        }
+        .tl-hover-popup[hidden] { display: none; }
+        .tl-hover-ref {
+            font-weight: 700;
+            color: var(--accent);
+            font-size: 0.78rem;
+            letter-spacing: 0.4px;
+            margin-bottom: 3px;
+        }
+        .tl-hover-text {
+            color: var(--text);
+        }
+        /* Hit-targets: usynlige men klikkbare/hoverbare */
+        .bible-timeline .arc-hit,
+        .bible-timeline .dot-hit { pointer-events: stroke; cursor: pointer; }
+        .bible-timeline .dot-hit { pointer-events: all; }
+        .bible-timeline .arc-group .arc,
+        .bible-timeline .dot-group .target-dot { pointer-events: none; transition: stroke-opacity 0.15s, stroke-width 0.15s, r 0.15s; }
+        /* Visuell hover-feedback når hit-target er hoveret */
+        .bible-timeline .arc-group.hovered .arc { stroke-opacity: 1 !important; stroke-width: 3.2 !important; }
+        .bible-timeline .dot-group.hovered .target-dot { r: 6; }
         .bible-timeline {
             width: 100%;
             height: auto;
@@ -3370,7 +3408,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     // ── Bibel-tidslinje (SVG-buer fra kildeverset til refererte punkter) ──
-    function buildBibleTimelineSvg(sourceUsfm, xrefs) {
+    function buildBibleTimelineSvg(sourceUsfm, xrefs, options) {
+        const colorMode = (options && options.colorMode) || 'testament';
         const srcMatch = /^([A-Z0-9]+)\.(\d+)(?:\.(\d+))?$/.exec(sourceUsfm);
         if (!srcMatch) return '';
         const srcBook = srcMatch[1];
@@ -3399,7 +3438,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (!m) return;
             const tx = posX(m[1], parseInt(m[2]));
             if (tx == null) return;
-            targets.push({ x: tx, ref: x.r, votes: x.v || 0, isNT: isNT(m[1]) });
+            targets.push({ x: tx, ref: x.r, votes: x.v || 0, isNT: isNT(m[1]), book: m[1] });
         });
         const maxVotes = Math.max(1, ...targets.map(t => t.votes));
 
@@ -3424,9 +3463,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         svg += `<text x="${(padding + boundaryX) / 2}" y="${timelineY + 22}" text-anchor="middle" fill="var(--text-muted)" font-size="11" font-weight="600" letter-spacing="0.5">GAMLE TESTAMENTET</text>`;
         svg += `<text x="${(boundaryX + W - padding) / 2}" y="${timelineY + 22}" text-anchor="middle" fill="#b58730" font-size="11" font-weight="600" letter-spacing="0.5">NYE TESTAMENTET</text>`;
 
+        // Hjelper: velg farge avhengig av modus
+        function colorFor(t, rel) {
+            if (colorMode === 'perBook') {
+                const p = pastelForBook(t.book);
+                // Relevans justerer hvor mørk/mettet pastellen er
+                return rel > 0.6 ? p.dark : rel > 0.25 ? p.medium : p.light;
+            }
+            const hue = t.isNT ? 38 : 0;
+            const sat = Math.round(28 + rel * 50);
+            const light = Math.round(60 - rel * 22);
+            return `hsl(${hue}, ${sat}%, ${light}%)`;
+        }
+
         // Arcs (sortert: lave stemmer først, høye sist slik at viktige buer ligger over)
-        // Farge, bredde og opasitet reflekterer alle relevans (v-verdien):
-        //   lav relevans → blass og tynn; høy relevans → mettet, mørk og tykk.
         const sorted = [...targets].sort((a, b) => a.votes - b.votes);
         sorted.forEach(t => {
             const cx = (srcX + t.x) / 2;
@@ -3435,20 +3485,23 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const rel = t.votes / maxVotes;
             const opacity = (0.28 + rel * 0.62).toFixed(2);
             const width = (1.0 + rel * 2.0).toFixed(2);
-            // HSL: behold testament-fargetone, men variér metning og lyshet med relevans
-            const hue = t.isNT ? 38 : 0;
-            const sat = Math.round(28 + rel * 50);   // 28 → 78 %
-            const light = Math.round(60 - rel * 22); // 60 → 38 % (mørkere = viktigere)
-            const color = `hsl(${hue}, ${sat}%, ${light}%)`;
+            const color = colorFor(t, rel);
             const display = formatUsfmRef(t.ref) || t.ref;
-            svg += `<path class="arc${t.isNT ? ' nt' : ''}" d="M${srcX.toFixed(1)},${timelineY - 4} Q${cx.toFixed(1)},${cy.toFixed(1)} ${t.x.toFixed(1)},${timelineY - 4}" stroke="${color}" stroke-opacity="${opacity}" stroke-width="${width}" fill="none" onclick="navigateToRef('${escAttr(display)}')"><title>${escAttr(display)} — ${t.votes} stemmer</title></path>`;
+            const pathD = `M${srcX.toFixed(1)},${timelineY - 4} Q${cx.toFixed(1)},${cy.toFixed(1)} ${t.x.toFixed(1)},${timelineY - 4}`;
+            svg += `<g class="arc-group" data-ref="${escAttr(t.ref)}" data-display="${escAttr(display)}">
+                <path class="arc-hit" d="${pathD}" stroke="transparent" stroke-width="14" fill="none" stroke-linecap="round"/>
+                <path class="arc${t.isNT ? ' nt' : ''}" d="${pathD}" stroke="${color}" stroke-opacity="${opacity}" stroke-width="${width}" fill="none"/>
+            </g>`;
         });
 
-        // Målpunkter
+        // Målpunkter (usynlig større hit-area + synlig prikk)
         targets.forEach(t => {
-            const color = t.isNT ? '#c9972e' : '#a83232';
+            const color = colorMode === 'perBook' ? pastelForBook(t.book).medium : (t.isNT ? '#c9972e' : '#a83232');
             const display = formatUsfmRef(t.ref) || t.ref;
-            svg += `<circle class="target-dot${t.isNT ? ' nt' : ''}" cx="${t.x.toFixed(1)}" cy="${timelineY}" r="3.2" fill="${color}" onclick="navigateToRef('${escAttr(display)}')"><title>${escAttr(display)}</title></circle>`;
+            svg += `<g class="dot-group" data-ref="${escAttr(t.ref)}" data-display="${escAttr(display)}">
+                <circle class="dot-hit" cx="${t.x.toFixed(1)}" cy="${timelineY}" r="11" fill="transparent"/>
+                <circle class="target-dot${t.isNT ? ' nt' : ''}" cx="${t.x.toFixed(1)}" cy="${timelineY}" r="3.2" fill="${color}"/>
+            </g>`;
         });
 
         // Kilde-punkt + label
@@ -4067,12 +4120,76 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (inner) inner.innerHTML = buildXrefMapBodyHtml(currentXrefMapItems, mode);
     };
 
+    // ── Xref-tidslinje: farge-modus + verstekst-cache ──
+    let xrefTimelineState = { source: null, items: null, colorMode: 'testament', texts: {} };
+
+    function pastelForBook(code) {
+        const idx = Math.max(0, booksData.findIndex(b => b.code === code));
+        const hue = Math.round((idx * 137.508) % 360);
+        return { light: `hsl(${hue}, 58%, 78%)`, medium: `hsl(${hue}, 58%, 62%)`, dark: `hsl(${hue}, 58%, 46%)` };
+    }
+
     function showXrefTimeline(source, items) {
-        const svg = buildBibleTimelineSvg(source, items);
+        xrefTimelineState = { source, items, colorMode: xrefTimelineState.colorMode || 'testament', texts: {} };
+        renderXrefTimelineHost();
+        prefetchTimelineVerseTexts(items);
+    }
+
+    function renderXrefTimelineHost() {
+        const { source, items, colorMode } = xrefTimelineState;
+        const svg = buildBibleTimelineSvg(source, items, { colorMode });
         if (!svg) return;
-        renderXrefViz('xrefTimelineHost', '📈 Tidslinje: hvor peker kryssreferansene?',
-            `<div class="bible-map-body" style="padding:18px 14px 14px;"><div class="bible-timeline-wrap" data-zoom="1">${svg}</div></div>`);
+        const toggleHtml = `<div class="xref-mode-toggle" role="tablist" aria-label="Fargemodus">
+            <button type="button" class="xref-mode-btn${colorMode === 'testament' ? ' active' : ''}" onclick="setXrefTimelineColorMode('testament')">GT / NT</button>
+            <button type="button" class="xref-mode-btn${colorMode === 'perBook' ? ' active' : ''}" onclick="setXrefTimelineColorMode('perBook')">Farge per bok</button>
+        </div>`;
+        const body = `<div class="bible-map-body" style="padding:18px 14px 14px;">
+            ${toggleHtml}
+            <div class="bible-timeline-wrap" data-zoom="1">
+                ${svg}
+                <div class="tl-hover-popup" hidden>
+                    <div class="tl-hover-ref"></div>
+                    <div class="tl-hover-text">Henter…</div>
+                </div>
+            </div>
+        </div>`;
+
+        const existing = document.getElementById('xrefTimelineHost');
+        if (existing) {
+            const inner = existing.querySelector('.bible-map-inner');
+            if (inner) inner.innerHTML = body;
+        } else {
+            renderXrefViz('xrefTimelineHost', '📈 Tidslinje: hvor peker kryssreferansene?', body);
+        }
         setTimeout(() => setupTimelineInteractions(document.getElementById('xrefTimelineHost')), 80);
+    }
+
+    window.setXrefTimelineColorMode = function(mode) {
+        if (mode !== 'testament' && mode !== 'perBook') return;
+        xrefTimelineState.colorMode = mode;
+        renderXrefTimelineHost();
+    };
+
+    async function prefetchTimelineVerseTexts(items) {
+        if (!items || items.length === 0) return;
+        const refs = items.map(x => ({ r: x.r, display: formatUsfmRef(x.r) })).filter(o => o.display);
+        if (refs.length === 0) return;
+        const query = refs.map(o => o.display).join(';');
+        const version = (typeof versionSelect !== 'undefined' && versionSelect.value && versionSelect.value !== 'Alle')
+            ? versionSelect.value : (alleMainVersion || 'NB88');
+        try {
+            const resp = await fetch(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}`);
+            const data = await resp.json();
+            if (data && data.type === 'reference' && Array.isArray(data.results)) {
+                data.results.forEach(block => {
+                    if (!block || !block.verses) return;
+                    block.verses.forEach(v => {
+                        const key = `${block.book}.${v.chapter}.${v.num}`;
+                        xrefTimelineState.texts[key] = v.text;
+                    });
+                });
+            }
+        } catch {}
     }
 
     // Setup zoom + auto-scroll to source verse for a timeline
@@ -4103,17 +4220,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             wrap.classList.toggle('zoomed-2', zoom >= 2);
         };
 
-        // Initial: sett min-width + auto-scroll til kildeverset
+        // Initial: sett min-width + auto-scroll til kildeverset (bare første gang per host)
         svg.style.minWidth = baseWidth + 'px';
-        requestAnimationFrame(() => {
-            const srcDot = svg.querySelector('.source-dot');
-            if (srcDot) {
-                const dotRect = srcDot.getBoundingClientRect();
-                const wrapRect = wrap.getBoundingClientRect();
-                const targetScroll = wrap.scrollLeft + (dotRect.left - wrapRect.left) - wrap.clientWidth / 2 + dotRect.width / 2;
-                wrap.scrollLeft = Math.max(0, targetScroll);
-            }
-        });
+        if (wrap.dataset.autoScrolled !== '1') {
+            requestAnimationFrame(() => {
+                const srcDot = svg.querySelector('.source-dot');
+                if (srcDot) {
+                    const dotRect = srcDot.getBoundingClientRect();
+                    const wrapRect = wrap.getBoundingClientRect();
+                    const targetScroll = wrap.scrollLeft + (dotRect.left - wrapRect.left) - wrap.clientWidth / 2 + dotRect.width / 2;
+                    wrap.scrollLeft = Math.max(0, targetScroll);
+                }
+                wrap.dataset.autoScrolled = '1';
+            });
+        }
 
         // PC: ctrl+wheel zoom (også mange touchpads sender ctrl+wheel for pinch)
         wrap.addEventListener('wheel', (e) => {
@@ -4149,6 +4269,52 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         wrap.addEventListener('touchend', (e) => {
             if (e.touches.length < 2) pinchStart = null;
         });
+
+        // ── Hover-popup med verstekst ──
+        const popup = wrap.querySelector('.tl-hover-popup');
+        if (popup) {
+            const refEl = popup.querySelector('.tl-hover-ref');
+            const textEl = popup.querySelector('.tl-hover-text');
+            function positionPopupAt(clientX, clientY) {
+                const wrapRect = wrap.getBoundingClientRect();
+                const x = clientX - wrapRect.left + wrap.scrollLeft;
+                const y = clientY - wrapRect.top + wrap.scrollTop;
+                popup.style.left = x + 'px';
+                popup.style.top = y + 'px';
+            }
+            function handleEnter(e) {
+                const group = e.target.closest('.arc-group, .dot-group');
+                if (!group) return;
+                const ref = group.getAttribute('data-ref');
+                const display = group.getAttribute('data-display') || ref;
+                refEl.textContent = display;
+                const key = ref.split('-')[0];
+                const text = xrefTimelineState.texts[key];
+                textEl.textContent = text || 'Henter…';
+                group.classList.add('hovered');
+                popup.hidden = false;
+                positionPopupAt(e.clientX, e.clientY);
+            }
+            function handleMove(e) {
+                if (popup.hidden) return;
+                positionPopupAt(e.clientX, e.clientY);
+            }
+            function handleLeave(e) {
+                const group = e.target.closest('.arc-group, .dot-group');
+                if (group) group.classList.remove('hovered');
+                popup.hidden = true;
+            }
+            svg.addEventListener('mouseover', handleEnter);
+            svg.addEventListener('mousemove', handleMove);
+            svg.addEventListener('mouseout', handleLeave);
+            // Klikk-navigasjon (siden vi ikke har onclick på path/circle lenger)
+            svg.addEventListener('click', e => {
+                const group = e.target.closest('.arc-group, .dot-group');
+                if (!group) return;
+                const display = group.getAttribute('data-display');
+                if (display) navigateToRef(display);
+            });
+        }
     }
 
     window.openXrefMap = function(btn) {
