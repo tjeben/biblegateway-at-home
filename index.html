@@ -2341,11 +2341,30 @@
         /* Highlighted verse when reading chapter */
         .highlighted-verse {
             scroll-margin-top: 140px;
-            background: rgba(168, 50, 50, 0.15);
-            border-radius: 3px;
-            padding: 1px 3px;
+            background: rgba(168, 50, 50, 0.22);
+            border-radius: 4px;
+            padding: 2px 5px;
+            box-shadow: inset 3px 0 0 var(--accent);
+            animation: hlVersePulse 1.6s cubic-bezier(.4, 0, .2, 1) 1;
         }
-        [data-theme="dark"] .highlighted-verse { background: rgba(201, 68, 68, 0.2); }
+        [data-theme="dark"] .highlighted-verse {
+            background: rgba(201, 68, 68, 0.28);
+            box-shadow: inset 3px 0 0 var(--accent);
+        }
+        @keyframes hlVersePulse {
+            0%   { background: rgba(168, 50, 50, 0.55); }
+            100% { background: rgba(168, 50, 50, 0.22); }
+        }
+        [data-theme="dark"] .highlighted-verse {
+            animation-name: hlVersePulseDark;
+        }
+        @keyframes hlVersePulseDark {
+            0%   { background: rgba(201, 68, 68, 0.55); }
+            100% { background: rgba(201, 68, 68, 0.28); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .highlighted-verse { animation: none; }
+        }
 
         /* Inline verse expansion in text search */
         .inline-verse-expand {
@@ -5768,18 +5787,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         resultsWrapper.innerHTML = html;
         updateNavButtons();
-        // Scroll til uthevet vers hvis relevant
+        refreshOpenStudyHosts();
+        ensureAiDiffHost();
+        applyStoredHighlights();
+        // Scroll til uthevet vers etter at alt annet er rendret, så layout er stabil
         if (highlightVerse != null) {
             const el = document.getElementById('hlVerseMark');
             if (el) {
                 requestAnimationFrame(() => {
-                    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    requestAnimationFrame(() => {
+                        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    });
                 });
             }
         }
-        refreshOpenStudyHosts();
-        ensureAiDiffHost();
-        applyStoredHighlights();
     }
 
     // Opprett/oppdater/lukk aiDiffHost basert på aiDiffState
