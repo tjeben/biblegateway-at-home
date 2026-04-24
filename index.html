@@ -5037,7 +5037,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     window.openChapterTimeline = function(btn) {
         const encoded = btn.getAttribute('data-chapter-xref-info');
         let info;
-        try { info = JSON.parse(encoded); } catch { return; }
+        try { info = JSON.parse(decodeURIComponent(encoded || '')); } catch { return; }
         showChapterTimeline(info);
     };
 
@@ -6413,8 +6413,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const singleV = isSingleVerse ? block.verses[0] : null;
         const hasNoXrefs = singleV && (!singleV.xrefs || singleV.xrefs.length === 0);
         const chapterXrefInfo = buildChapterXrefAggregate(block);
+        const chapterXrefEncoded = chapterXrefInfo ? encodeURIComponent(JSON.stringify(chapterXrefInfo)) : '';
         const chapterXrefBtn = chapterXrefInfo
-            ? `<button class="card-action-btn ai-btn" data-chapter-xref-info="${escAttr(JSON.stringify(chapterXrefInfo))}" onclick="openChapterTimeline(this)">📚 Kapittelets referanser</button>`
+            ? `<button class="card-action-btn ai-btn" data-chapter-xref-info="${chapterXrefEncoded}" onclick="openChapterTimeline(this)">📚 Kapittelets referanser</button>`
             : '';
         const genRefsBtn = hasNoXrefs
             ? `<button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" data-source="${escAttr(block.book + '.' + singleV.chapter + '.' + singleV.num)}" onclick="generateRefs(this)">🔗 Generer referanser</button>`
