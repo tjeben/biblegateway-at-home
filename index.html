@@ -602,7 +602,7 @@
             gap: 8px;
             flex-wrap: wrap;
             padding: 0 8px;
-            margin: 10px 0 22px;
+            margin: 10px 0 6px;
         }
 
         /* Card footer buttons (behold CSS for bakoverkompatibilitet hvis brukt andre steder) */
@@ -5105,12 +5105,43 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return null;
     }
 
-    function navigateToVerse(bookCode, chapter, verseNum) {
+    // Side-flipp-animasjon: glir ut i én retning, nytt innhold kommer inn fra motsatt side
+    async function animatedNavigate(direction, doChange) {
+        const wrap = resultsWrapper;
+        const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (reduced || !wrap || !wrap.firstElementChild) {
+            await doChange();
+            return;
+        }
+        const outDx = direction === 'next' ? -24 : 24;
+        const inDx  = direction === 'next' ?  24 : -24;
+        let outAnim;
+        try {
+            outAnim = wrap.animate([
+                { opacity: 1, transform: 'translateX(0)' },
+                { opacity: 0, transform: `translateX(${outDx}px)` }
+            ], { duration: 140, easing: 'cubic-bezier(.4, 0, .2, 1)', fill: 'forwards' });
+            await outAnim.finished;
+        } catch {}
+        await doChange();
+        try {
+            if (outAnim) outAnim.cancel();
+            wrap.animate([
+                { opacity: 0, transform: `translateX(${inDx}px)` },
+                { opacity: 1, transform: 'translateX(0)' }
+            ], { duration: 220, easing: 'cubic-bezier(.2, .8, .2, 1)' });
+        } catch {}
+    }
+
+    function navigateToVerse(bookCode, chapter, verseNum, direction) {
         const b = booksData.find(x => x.code === bookCode);
         const name = b ? b.name : bookCode;
         searchInput.value = `${name} ${chapter}:${verseNum}`;
         lastQuery = searchInput.value;
         highlightVerse = null;
+        if (direction) {
+            return animatedNavigate(direction, () => doSearch());
+        }
         doSearch();
     }
 
@@ -5130,12 +5161,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         next.disabled = ctx.bookIdx === booksData.length - 1 && ctx.chapter === ctx.bookInfo.chapters;
     }
 
-    function navigateToChapter(bookCode, chapter) {
+    function navigateToChapter(bookCode, chapter, direction) {
         const b = booksData.find(x => x.code === bookCode);
         const name = b ? b.name : bookCode;
         searchInput.value = `${name} ${chapter}`;
         lastQuery = searchInput.value;
         highlightVerse = null;
+        if (direction) {
+            return animatedNavigate(direction, () => doSearch());
+        }
         doSearch();
     }
 
@@ -5146,7 +5180,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         // Enkelt vers → gå til forrige vers
         if (ctx.isSingleVerse) {
             if (ctx.verseNum > 1) {
-                navigateToVerse(ctx.book, ctx.chapter, ctx.verseNum - 1);
+                navigateToVerse(ctx.book, ctx.chapter, ctx.verseNum - 1, 'prev');
                 return;
             }
             // Starten av kapittelet — gå til siste vers i forrige kapittel
@@ -5157,8 +5191,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 prevChapter = booksData[ctx.bookIdx - 1].chapters;
             }
             const lastV = await getLastVerseNum(prevBook, prevChapter);
-            if (lastV) navigateToVerse(prevBook, prevChapter, lastV);
-            else navigateToChapter(prevBook, prevChapter);
+            if (lastV) navigateToVerse(prevBook, prevChapter, lastV, 'prev');
+            else navigateToChapter(prevBook, prevChapter, 'prev');
             return;
         }
 
@@ -5171,7 +5205,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             book = prev.code;
             chapter = prev.chapters;
         }
-        navigateToChapter(book, chapter);
+        navigateToChapter(book, chapter, 'prev');
     };
 
     window.navNext = async function() {
@@ -5182,7 +5216,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (ctx.isSingleVerse) {
             const nextVerseNum = ctx.verseNum + 1;
             if (await verseExists(ctx.book, ctx.chapter, nextVerseNum)) {
-                navigateToVerse(ctx.book, ctx.chapter, nextVerseNum);
+                navigateToVerse(ctx.book, ctx.chapter, nextVerseNum, 'next');
                 return;
             }
             // Slutten av kapittelet — gå til vers 1 i neste kapittel
@@ -5192,7 +5226,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 nextBook = booksData[ctx.bookIdx + 1].code;
                 nextChapter = 1;
             }
-            navigateToVerse(nextBook, nextChapter, 1);
+            navigateToVerse(nextBook, nextChapter, 1, 'next');
             return;
         }
 
@@ -5205,7 +5239,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             book = nxt.code;
             chapter = 1;
         }
-        navigateToChapter(book, chapter);
+        navigateToChapter(book, chapter, 'next');
     };
 
     // Naviger til vers + aktiver vanlig sammenlign-modus (per-kort)
