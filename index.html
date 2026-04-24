@@ -1794,9 +1794,10 @@
             -webkit-overflow-scrolling: touch;
             border-radius: 12px;
         }
-        /* Hover-popup med verstekst (plasseres i wrap, inni scroll-området) */
+        /* Hover-popup med verstekst (på body-nivå med position:fixed så den
+           kan flyte fritt utenfor selve studieelementet) */
         .tl-hover-popup {
-            position: absolute;
+            position: fixed;
             pointer-events: none;
             background: var(--card-bg);
             border: 1px solid var(--border);
@@ -1804,10 +1805,10 @@
             padding: 8px 12px;
             font-size: 0.85rem;
             line-height: 1.45;
-            max-width: 320px;
+            max-width: 340px;
             min-width: 160px;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.18);
-            z-index: 20;
+            box-shadow: 0 8px 28px rgba(0,0,0,0.22);
+            z-index: 400;
             transform: translate(-50%, calc(-100% - 14px));
             animation: fadeInUp 120ms ease-out;
         }
@@ -2661,6 +2662,11 @@
     <div id="vizSideResizer" class="viz-side-resizer" title="Dra for å endre bredde" aria-hidden="true"></div>
     <div class="viz-side-title">Studieelementer</div>
     <div id="vizSideInner" class="viz-side-inner"></div>
+</div>
+
+<div id="timelineHoverPopup" class="tl-hover-popup" hidden>
+    <div class="tl-hover-ref"></div>
+    <div class="tl-hover-text">Henter…</div>
 </div>
 
 <div id="selectionPopup" class="selection-popup" role="toolbar" aria-label="Handlinger for markert tekst">
@@ -4145,13 +4151,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         </div>`;
         const body = `<div class="bible-map-body" style="padding:18px 14px 14px;">
             ${toggleHtml}
-            <div class="bible-timeline-wrap" data-zoom="1">
-                ${svg}
-                <div class="tl-hover-popup" hidden>
-                    <div class="tl-hover-ref"></div>
-                    <div class="tl-hover-text">Henter…</div>
-                </div>
-            </div>
+            <div class="bible-timeline-wrap" data-zoom="1">${svg}</div>
         </div>`;
 
         const existing = document.getElementById('xrefTimelineHost');
@@ -4220,9 +4220,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             wrap.classList.toggle('zoomed-2', zoom >= 2);
         };
 
-        // Initial: sett min-width + auto-scroll til kildeverset (bare første gang per host)
+        // Initial: sett min-width + auto-scroll til kildeverset bare når kilden endres
+        // (ikke ved toggle av farge-modus)
         svg.style.minWidth = baseWidth + 'px';
-        if (wrap.dataset.autoScrolled !== '1') {
+        const curSource = xrefTimelineState && xrefTimelineState.source;
+        if (curSource && xrefTimelineState.autoScrolledFor !== curSource) {
             requestAnimationFrame(() => {
                 const srcDot = svg.querySelector('.source-dot');
                 if (srcDot) {
@@ -4231,7 +4233,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     const targetScroll = wrap.scrollLeft + (dotRect.left - wrapRect.left) - wrap.clientWidth / 2 + dotRect.width / 2;
                     wrap.scrollLeft = Math.max(0, targetScroll);
                 }
-                wrap.dataset.autoScrolled = '1';
+                xrefTimelineState.autoScrolledFor = curSource;
             });
         }
 
@@ -4270,17 +4272,14 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (e.touches.length < 2) pinchStart = null;
         });
 
-        // ── Hover-popup med verstekst ──
-        const popup = wrap.querySelector('.tl-hover-popup');
+        // ── Hover-popup med verstekst (body-nivå, position:fixed) ──
+        const popup = document.getElementById('timelineHoverPopup');
         if (popup) {
             const refEl = popup.querySelector('.tl-hover-ref');
             const textEl = popup.querySelector('.tl-hover-text');
             function positionPopupAt(clientX, clientY) {
-                const wrapRect = wrap.getBoundingClientRect();
-                const x = clientX - wrapRect.left + wrap.scrollLeft;
-                const y = clientY - wrapRect.top + wrap.scrollTop;
-                popup.style.left = x + 'px';
-                popup.style.top = y + 'px';
+                popup.style.left = clientX + 'px';
+                popup.style.top = clientY + 'px';
             }
             function handleEnter(e) {
                 const group = e.target.closest('.arc-group, .dot-group');
@@ -4307,6 +4306,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             svg.addEventListener('mouseover', handleEnter);
             svg.addEventListener('mousemove', handleMove);
             svg.addEventListener('mouseout', handleLeave);
+            // Skjul popup ved scroll eller zoom (koords er ikke lenger gyldige)
+            wrap.addEventListener('scroll', () => { popup.hidden = true; }, { passive: true });
             // Klikk-navigasjon (siden vi ikke har onclick på path/circle lenger)
             svg.addEventListener('click', e => {
                 const group = e.target.closest('.arc-group, .dot-group');
@@ -6047,16 +6048,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
         }
 
-        // Xref-tidslinje
+        // Xref-tidslinje: oppdater items + texts, og re-bygg med gjeldende colorMode
         const tlHost = document.getElementById('xrefTimelineHost');
         if (tlHost) {
             if (items.length > 0 && source) {
-                const svg = buildBibleTimelineSvg(source, items);
-                const inner = tlHost.querySelector('.bible-map-inner');
-                if (inner && svg) {
-                    inner.innerHTML = `<div class="bible-map-body" style="padding:18px 14px 14px;"><div class="bible-timeline-wrap" data-zoom="1">${svg}</div></div>`;
-                    setTimeout(() => setupTimelineInteractions(tlHost), 80);
-                }
+                // Behold valgt colorMode, nullstill tekst-cache for nye refs
+                xrefTimelineState = {
+                    source,
+                    items,
+                    colorMode: (xrefTimelineState && xrefTimelineState.colorMode) || 'testament',
+                    texts: {}
+                };
+                renderXrefTimelineHost();
+                prefetchTimelineVerseTexts(items);
             } else {
                 closeVizHost('xrefTimelineHost');
             }
