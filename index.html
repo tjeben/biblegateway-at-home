@@ -643,15 +643,29 @@
                 background: linear-gradient(to right, transparent 2px, var(--accent) 3px, var(--accent) 5px, transparent 6px);
             }
         }
-        /* Moved-state-indikator på studieelement-knappen */
-        .card-action-btn.move-over-btn {
-            padding: 4px 8px;
-            font-size: 1rem;
-            line-height: 1;
-        }
-        .card-action-btn.move-over-btn[data-moved="1"] { color: var(--accent); }
+        /* Move-over-knapp: identisk stil som Lukk (card-action-btn) */
+        .card-action-btn.move-over-btn[data-moved="1"] { color: var(--accent); border-color: var(--accent); }
         @media (max-width: 1099px) {
             .card-action-btn.move-over-btn { display: none; }
+        }
+        /* Felles header for alle studieelementer (xref-kart/tidslinje + AI-paneler) */
+        .study-panel-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+        .study-panel-header .study-panel-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+        .study-panel-header .study-panel-actions {
+            display: inline-flex;
+            gap: 6px;
+            align-items: center;
         }
 
         /* Fotnote om KI-bruk nederst på siden */
@@ -1664,10 +1678,35 @@
             body.compare-active .nav-prev { right: calc(50% + 650px); }
             body.compare-active .nav-next { left: calc(50% + 650px); }
             /* Split-modus: piler flankerer tekstkolonnen (som er sentrert i venstre del av viewport) */
-            body.split-active .nav-prev { right: calc((100vw - var(--side-panel-width)) / 2 + 440px); }
-            body.split-active .nav-next { right: var(--side-panel-width); left: calc((100vw - var(--side-panel-width)) / 2 + 440px); }
-            body.split-active.compare-active .nav-prev { right: calc((100vw - var(--side-panel-width)) / 2 + 650px); }
-            body.split-active.compare-active .nav-next { right: var(--side-panel-width); left: calc((100vw - var(--side-panel-width)) / 2 + 650px); }
+            /* Split-modus: piler blir kompakte sirkler rett ved siden av tekstkolonnen.
+               --col-left-px og --col-right-px oppdateres fra JS basert på faktisk kolonnebredde. */
+            body.split-active .nav-prev,
+            body.split-active .nav-next {
+                top: 50%;
+                bottom: auto;
+                width: 52px;
+                height: 52px;
+                font-size: 1.9rem;
+                padding: 0;
+                background: var(--card-bg);
+                border: 1.5px solid var(--border);
+                color: var(--accent);
+                border-radius: 50%;
+                box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+                transform: translateY(-50%);
+                transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.15s;
+            }
+            body.split-active .nav-prev::before,
+            body.split-active .nav-next::before { display: none; }
+            body.split-active .nav-prev { left: calc(var(--col-left-px, 0px) - 68px); right: auto; }
+            body.split-active .nav-next { right: calc(var(--col-right-px, 0px) - 68px); left: auto; }
+            body.split-active .nav-prev:hover:not(:disabled),
+            body.split-active .nav-next:hover:not(:disabled) {
+                background: var(--accent);
+                color: white;
+                border-color: var(--accent);
+                transform: translateY(-50%) scale(1.05);
+            }
 
             .nav-btn.visible { display: flex; }
 
@@ -2966,7 +3005,18 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     function updateSplitActive() {
         const hasSideChildren = vizSideInner && vizSideInner.children.length > 0;
         document.body.classList.toggle('split-active', hasSideChildren);
+        updateColumnEdges();
     }
+
+    // Mål kolonnebredden og eksponér via CSS-vars så pilene kan plasseres rett ved
+    function updateColumnEdges() {
+        const wrap = document.getElementById('resultsWrapper');
+        if (!wrap) return;
+        const rect = wrap.getBoundingClientRect();
+        document.documentElement.style.setProperty('--col-left-px', Math.max(0, rect.left) + 'px');
+        document.documentElement.style.setProperty('--col-right-px', Math.max(0, window.innerWidth - rect.right) + 'px');
+    }
+    window.addEventListener('resize', updateColumnEdges);
 
     // Oppdater "Flytt over"-knappens utseende basert på hvor elementet ligger
     function refreshMoveBtnState(host) {
@@ -2991,10 +3041,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         updateSplitActive();
     };
 
-    // Injiser "Flytt over"-knapp i et nytt studieelement
+    // Injiser "Flytt over"-knapp i et nytt studieelement, rett til høyre for Lukk
     function injectMoveOverBtn(host) {
         if (!host || host.dataset.moveBtnInjected === '1') return;
-        // Finn den eksisterende Lukk-knappen (card-action-btn som kaller closeVizHost)
         const closeBtn = host.querySelector('.card-action-btn');
         if (!closeBtn) return;
         const moveBtn = document.createElement('button');
@@ -3003,7 +3052,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         moveBtn.setAttribute('title', 'Flytt over til høyre side');
         moveBtn.innerHTML = '⇥';
         moveBtn.onclick = () => toggleMoveOver(host.id);
-        closeBtn.parentNode.insertBefore(moveBtn, closeBtn);
+        // Hvis den nye felles strukturen finnes, plasser inni actions etter Lukk
+        const actions = host.querySelector('.study-panel-actions');
+        if (actions) {
+            actions.appendChild(moveBtn);
+        } else {
+            closeBtn.parentNode.insertBefore(moveBtn, closeBtn.nextSibling);
+        }
         host.dataset.moveBtnInjected = '1';
     }
 
@@ -3041,6 +3096,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (!dragging) return;
             const ratio = Math.min(MAX_RATIO, Math.max(MIN_RATIO, (window.innerWidth - e.clientX) / window.innerWidth));
             document.documentElement.style.setProperty('--side-panel-width', (ratio * 100) + 'vw');
+            updateColumnEdges();
         });
         window.addEventListener('mouseup', () => {
             if (!dragging) return;
@@ -3052,6 +3108,49 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (r) localStorage.setItem('sidePanelRatio', r.toFixed(3));
         });
     })();
+
+    // ── Persistent user-highlights (localStorage) ──
+    function loadHighlights() {
+        try { return JSON.parse(localStorage.getItem('userHighlights') || '{}'); }
+        catch { return {}; }
+    }
+    function saveHighlight(vref, text) {
+        if (!vref || !text) return;
+        const all = loadHighlights();
+        const list = all[vref] || [];
+        if (!list.includes(text)) list.push(text);
+        all[vref] = list;
+        try { localStorage.setItem('userHighlights', JSON.stringify(all)); } catch {}
+    }
+    function wrapFirstTextMatch(root, needle) {
+        if (!needle) return false;
+        const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+            acceptNode: n => {
+                if (!n.nodeValue || n.nodeValue.indexOf(needle) < 0) return NodeFilter.FILTER_REJECT;
+                if (n.parentElement && n.parentElement.closest('.user-highlight')) return NodeFilter.FILTER_REJECT;
+                return NodeFilter.FILTER_ACCEPT;
+            }
+        });
+        const node = walker.nextNode();
+        if (!node) return false;
+        const idx = node.nodeValue.indexOf(needle);
+        const range = document.createRange();
+        range.setStart(node, idx);
+        range.setEnd(node, idx + needle.length);
+        const mark = document.createElement('mark');
+        mark.className = 'user-highlight';
+        try { range.surroundContents(mark); return true; } catch { return false; }
+    }
+    function applyStoredHighlights() {
+        const all = loadHighlights();
+        if (!all || Object.keys(all).length === 0) return;
+        document.querySelectorAll('[data-vref]').forEach(span => {
+            const vref = span.getAttribute('data-vref');
+            const list = all[vref];
+            if (!list) return;
+            list.forEach(text => wrapFirstTextMatch(span, text));
+        });
+    }
 
     // ── Selection-popup: tilbyr handlinger når brukeren markerer tekst ──
     (function setupSelectionPopup() {
@@ -3124,10 +3223,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             } else if (action === 'highlight') {
                 try {
                     const range = sel.getRangeAt(0);
-                    // Bare marker hvis hele utvalget ligger innenfor én tekstnode-kontekst vi kan wrappe
                     const mark = document.createElement('mark');
                     mark.className = 'user-highlight';
                     range.surroundContents(mark);
+                    // Lagre til localStorage hvis vi kan finne vers-ref
+                    const vspan = mark.closest('[data-vref]');
+                    if (vspan) saveHighlight(vspan.getAttribute('data-vref'), text);
                     sel.removeAllRanges();
                 } catch {
                     showToast('Kan ikke utheve denne seksjonen');
@@ -3145,9 +3246,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         host.id = hostId;
         host.className = 'bible-map-wrap';
         host.style.marginTop = '20px';
-        host.innerHTML = `<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;gap:8px;">
-                <span style="font-size:0.85rem;font-weight:600;color:var(--text-muted);">${titleHtml}</span>
-                <button class="card-action-btn" onclick="closeVizHost('${hostId}')">Lukk</button>
+        host.innerHTML = `<div class="study-panel-header">
+                <span class="study-panel-title">${titleHtml}</span>
+                <div class="study-panel-actions">
+                    <button class="card-action-btn" onclick="closeVizHost('${hostId}')">Lukk</button>
+                </div>
             </div>
             <div class="bible-map open"><div class="bible-map-inner">${innerHtml}</div></div>`;
         vizHosts.appendChild(host);
@@ -3257,7 +3360,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     // Popover ved klikk på bok-celle i xref-kartet: viser alle referanser til boken
-    window.showXrefBookPopover = function(bookCode, anchorEl) {
+    // med vers-tekst (samme modul som tema-kart-popover)
+    window.showXrefBookPopover = async function(bookCode, anchorEl) {
         if (!currentXrefMapItems) return;
         const refs = currentXrefMapItems.filter(x => {
             const m = /^([A-Z0-9]+)\./.exec(x.r);
@@ -3269,24 +3373,53 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const pop = document.createElement('div');
         pop.className = 'theme-verse-popover';
         const bName = (booksData.find(b => b.code === bookCode) || {}).name || bookCode;
-        let html = `<div class="theme-verse-popover-header">
+        const headerHtml = `<div class="theme-verse-popover-header">
             <span class="theme-verse-popover-title" style="border-left:3px solid var(--accent);">${escHtml(bName)} — ${refs.length} referanser</span>
             <button class="theme-verse-popover-close" onclick="this.closest('.theme-verse-popover').remove()">×</button>
-        </div>
-        <div class="theme-verse-popover-list">`;
-        refs.forEach(x => {
-            const display = formatUsfmRef(x.r);
-            if (!display) return;
-            const votes = x.v ? ` <span style="opacity:0.5;font-size:0.7rem;">(${x.v})</span>` : '';
-            html += `<div class="theme-verse-item" onclick="navigateToRef('${escAttr(display)}'); document.querySelectorAll('.theme-verse-popover').forEach(p=>p.remove());">
-                <div class="theme-verse-item-ref">${escHtml(display)}${votes}</div>
-            </div>`;
-        });
-        html += `</div>`;
-        pop.innerHTML = html;
+        </div>`;
+        pop.innerHTML = headerHtml + `<div class="theme-verse-popover-list"><div style="padding:14px;color:var(--text-muted);font-size:0.85rem;">Henter vers…</div></div>`;
         pop.style.position = 'fixed';
         pop.style.visibility = 'hidden';
         document.body.appendChild(pop);
+
+        // Hent vers-tekst for alle refs i én forespørsel (server-parser støtter semikolon-kjede)
+        const displays = refs.map(x => ({ x, display: formatUsfmRef(x.r) })).filter(o => !!o.display);
+        const query = displays.map(o => o.display).join(';');
+        const version = (typeof versionSelect !== 'undefined' && versionSelect.value && versionSelect.value !== 'Alle')
+            ? versionSelect.value
+            : (alleMainVersion || 'NB88');
+        const textByRef = {};
+        try {
+            const resp = await fetch(`/api/search?q=${encodeURIComponent(query)}&version=${encodeURIComponent(version)}`);
+            const data = await resp.json();
+            if (data && data.type === 'reference' && Array.isArray(data.results)) {
+                data.results.forEach(block => {
+                    if (!block || !block.verses) return;
+                    (block.verses || []).forEach(v => {
+                        const key = `${block.book}.${v.chapter}.${v.num}`;
+                        textByRef[key] = v.text;
+                    });
+                });
+            }
+        } catch {}
+
+        // Bygg listen på nytt, nå med vers-tekst
+        let listHtml = '';
+        displays.forEach(o => {
+            const x = o.x;
+            const display = o.display;
+            const votes = x.v ? ` <span style="opacity:0.5;font-size:0.7rem;">(${x.v})</span>` : '';
+            // Slå opp tekst på første vers i referansen (håndterer range som JHN.3.16-18 → første nøkkel)
+            const firstKey = x.r.split('-')[0];
+            const text = textByRef[firstKey] || '';
+            listHtml += `<div class="theme-verse-item" onclick="navigateToRef('${escAttr(display)}'); document.querySelectorAll('.theme-verse-popover').forEach(p=>p.remove());">
+                <div class="theme-verse-item-ref">${escHtml(display)}${votes}</div>
+                ${text ? `<div class="theme-verse-item-text">${escHtml(text)}</div>` : ''}
+            </div>`;
+        });
+        pop.querySelector('.theme-verse-popover-list').innerHTML = listHtml;
+
+        // Reposisjoner etter at innholdet har full bredde/høyde
         const popRect = pop.getBoundingClientRect();
         const rect = anchorEl.getBoundingClientRect();
         const idealLeft = rect.left + rect.width / 2 - popRect.width / 2;
@@ -3332,12 +3465,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 ? `<div style="color:var(--error);">${escHtml(data.error)}</div>`
                 : `<div style="font-size:0.98rem;line-height:1.6;color:var(--text);">${escHtml(data.result || '')}</div>`;
             host.innerHTML = `<div class="ai-panel">
-                <div class="ai-panel-header">
-                    <span class="ai-panel-title">💭 Kontekst — ${escHtml(label)}</span>
-                    <button class="card-action-btn" onclick="closeVizHost('aiContextHost')">Lukk</button>
+                <div class="ai-panel-header study-panel-header">
+                    <span class="ai-panel-title study-panel-title">💭 Kontekst — ${escHtml(label)}</span>
+                    <div class="study-panel-actions">
+                        <button class="card-action-btn" onclick="closeVizHost('aiContextHost')">Lukk</button>
+                    </div>
                 </div>
                 <div class="ai-panel-body">${content}</div>
             </div>`;
+            host.dataset.forLabel = label;
             vizHosts.appendChild(host);
             setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
         } catch {
@@ -3495,10 +3631,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         host.id = 'aiThemeHost';
         host.className = 'bible-map-wrap';
         host.style.marginTop = '20px';
-        host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header">
-            <span class="ai-panel-title">🎨 Tema-kart — ${escHtml(label)}</span>
-            <button class="card-action-btn" onclick="closeVizHost('aiThemeHost')">Lukk</button>
+        host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header study-panel-header">
+            <span class="ai-panel-title study-panel-title">🎨 Tema-kart — ${escHtml(label)}</span>
+            <div class="study-panel-actions">
+                <button class="card-action-btn" onclick="closeVizHost('aiThemeHost')">Lukk</button>
+            </div>
         </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer tema…</div></div></div>`;
+        host.dataset.forLabel = label;
         vizHosts.appendChild(host);
         setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
 
@@ -3636,10 +3775,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         host.id = 'aiGenRefsHost';
         host.className = 'bible-map-wrap';
         host.style.marginTop = '20px';
-        host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header">
-            <span class="ai-panel-title">🔗 KI-genererte referanser — ${escHtml(label)}</span>
-            <button class="card-action-btn" onclick="closeVizHost('aiGenRefsHost')">Lukk</button>
+        host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header study-panel-header">
+            <span class="ai-panel-title study-panel-title">🔗 KI-genererte referanser — ${escHtml(label)}</span>
+            <div class="study-panel-actions">
+                <button class="card-action-btn" onclick="closeVizHost('aiGenRefsHost')">Lukk</button>
+            </div>
         </div><div class="ai-panel-body"><div style="color:var(--text-muted);">Analyserer verset…</div></div></div>`;
+        host.dataset.forLabel = label;
         vizHosts.appendChild(host);
         setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
         const body = host.querySelector('.ai-panel-body');
@@ -4830,6 +4972,59 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 });
             }
         }
+        refreshOpenStudyHosts();
+        applyStoredHighlights();
+    }
+
+    // Oppdater åpne studieelementer når aktivt vers endres
+    function refreshOpenStudyHosts() {
+        if (currentView !== 'normal' || !mainData || mainData.length !== 1) return;
+        const block = mainData[0];
+        if (!block || block.error || !block.verses || block.verses.length !== 1) return;
+        const v = block.verses[0];
+        const source = block.book ? `${block.book}.${v.chapter}.${v.num}` : '';
+        const items = v.xrefs || [];
+        const label = block.label || '';
+
+        // Xref-kart: oppdater inline hvis åpent
+        const mapHost = document.getElementById('xrefMapHost');
+        if (mapHost) {
+            if (items.length > 0) {
+                currentXrefMapItems = items;
+                const counts = countXrefsPerBook(items);
+                const mapHtml = buildBibleMapHtml(counts, 'showXrefBookPopover');
+                const inner = mapHost.querySelector('.bible-map-inner');
+                if (inner && mapHtml) {
+                    const hint = '<div style="font-size:0.78rem;color:var(--text-muted);margin-bottom:8px;padding:0 4px;">Klikk en bok for å se referansene</div>';
+                    inner.innerHTML = hint + mapHtml;
+                }
+            } else {
+                closeVizHost('xrefMapHost');
+            }
+        }
+
+        // Xref-tidslinje
+        const tlHost = document.getElementById('xrefTimelineHost');
+        if (tlHost) {
+            if (items.length > 0 && source) {
+                const svg = buildBibleTimelineSvg(source, items);
+                const inner = tlHost.querySelector('.bible-map-inner');
+                if (inner && svg) {
+                    inner.innerHTML = `<div class="bible-map-body" style="padding:18px 14px 14px;"><div class="bible-timeline-wrap" data-zoom="1">${svg}</div></div>`;
+                    setTimeout(() => setupTimelineInteractions(tlHost), 80);
+                }
+            } else {
+                closeVizHost('xrefTimelineHost');
+            }
+        }
+
+        // AI-paneler: lukk hvis label har endret (API-tunge — bruker åpner på nytt bevisst)
+        ['aiContextHost', 'aiThemeHost', 'aiGenRefsHost'].forEach(id => {
+            const h = document.getElementById(id);
+            if (h && h.dataset.forLabel && h.dataset.forLabel !== label) {
+                closeVizHost(id);
+            }
+        });
     }
 
     function buildInlineAllVersionsHtml(allResults) {
@@ -5037,12 +5232,14 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
             const bName = bookCode ? bookName(bookCode) : '';
             const vrefAttr = bookCode ? escAttr(`${bName} ${v.chapter}:${v.num}`) : '';
+            const vrefKey = bookCode ? `${bookCode}.${v.chapter}.${v.num}` : '';
             let vnumClick = '';
             if (vrefAttr) {
                 vnumClick = versionForClick
                     ? ` onclick="navigateToRefInVersion('${vrefAttr}', '${escAttr(versionForClick)}')" title="Se bare dette verset i ${escAttr(versionForClick)}"`
                     : ` onclick="navigateToRef('${vrefAttr}')" title="Se bare dette verset"`;
             }
+            if (vrefKey) html += `<span class="verse-span" data-vref="${escAttr(vrefKey)}">`;
             html += `<span class="verse-num"${vnumClick}>${v.num}</span>`;
             let txt = escHtml(v.text);
             if (hlPhrases && hlPhrases.length) txt = applyPhraseHighlights(txt, hlPhrases);
@@ -5066,6 +5263,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 const dataAttr = escAttr(JSON.stringify({type: 'xref', items: v.xrefs, source}));
                 html += `<sup class="note-marker note-xref" data-note='${dataAttr}' onclick="toggleNotePopover(this, event)" title="${v.xrefs.length} kryssreferanser">†</sup>`;
             }
+            if (vrefKey) html += `</span>`;
 
             lastChapter = v.chapter;
         });
