@@ -1017,6 +1017,29 @@
             border-radius: 4px;
             font-size: 0.88em;
         }
+        .modal-card-body h3 {
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin: 22px 0 8px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--border);
+        }
+        .modal-card-body h3:first-child { margin-top: 0; }
+        .modal-card-body ul {
+            margin: 0 0 10px;
+            padding-left: 22px;
+        }
+        .modal-card-body ul li { margin-bottom: 4px; }
+        .modal-card-body a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(168, 50, 50, 0.4);
+        }
+        .modal-card-body a:hover { border-bottom-color: var(--accent); }
+        [data-theme="dark"] .modal-card-body a { border-bottom-color: rgba(201, 68, 68, 0.5); }
         .modal-links {
             display: flex;
             justify-content: center;
@@ -2517,19 +2540,32 @@
 <div class="modal-backdrop" id="searchInfoModal" onclick="if(event.target===this)hideSearchInfo()">
     <div class="modal-card" role="dialog" aria-labelledby="searchInfoTitle">
         <div class="modal-card-head">
-            <span id="searchInfoTitle">Slik søker du</span>
+            <span id="searchInfoTitle">Om bibelsøk</span>
             <button class="modal-close" onclick="hideSearchInfo()" aria-label="Lukk">×</button>
         </div>
         <div class="modal-card-body">
-            <p>Slå opp vers med referanse: <code>Johannes 3:16</code></p>
-            <p>Bruk <code>;</code> for flere steder på en gang: <code>John 3:16;18</code></p>
-            <p>Sett <code>-</code> foran et ord for å utelukke det fra søket: <code>nåde -lov</code></p>
-            <p>Bruk <code>+</code> for å finne vers som inneholder <em>enten</em> den ene eller andre frasen: <code>"frykt ikke" + "vær ikke redd"</code></p>
-            <p>Søk treffer kun hele ord — <code>Peter</code> finner ikke <em>trompeter</em>.</p>
-            <p>På PC: <code>←</code>/<code>→</code> blar mellom kapitler/vers, <code>↓</code> utvider ett vers til hele kapittelet, <code>↑</code> går tilbake til det ene verset, og <code>↑</code>/<code>↓</code>/<code>Enter</code> fungerer i søkeforslag.</p>
-            <p>Du kan også søke muntlig og på alle ord i Bibelen.</p>
+            <h3>Hvordan bruke bibelsøk</h3>
+            <ul>
+                <li>Slå opp vers med referanse: <code>Johannes 3:16</code></li>
+                <li>Flere steder samtidig med <code>;</code>: <code>Joh 3:16;18</code></li>
+                <li>Utelukk ord med <code>-</code>: <code>nåde -lov</code></li>
+                <li>Finn enten/eller-treff med <code>+</code>: <code>"frykt ikke" + "vær ikke redd"</code></li>
+                <li>Søk treffer bare hele ord — <code>Peter</code> finner ikke <em>trompeter</em>.</li>
+                <li>Du kan også spørre med naturlig språk — KI-en prøver å finne riktig vers.</li>
+            </ul>
+            <p>Marker tekst i et vers for å <strong>uthev</strong>, <strong>kopier</strong> eller <strong>slå opp</strong>. Klikk på en uthevning for å slette eller søke på den.</p>
+            <p>Klikk 🗺️ Bibelkart eller 📊 Statistikk under søket for å se treffene visuelt. Studieelementer som kontekst, kryssreferanser og tema kan flyttes ut til høyre side på PC for en studiebenk-opplevelse.</p>
+            <p>Tastatur på PC: <code>←</code>/<code>→</code> blar mellom kapitler, <code>↓</code> utvider ett vers til hele kapittelet, <code>↑</code> går tilbake.</p>
+
+            <h3>Kilder til bibelversjoner</h3>
+            <p>Bibeltekstene er hentet fra <a href="https://www.bible.com" target="_blank" rel="noopener">bible.com</a> (YouVersion) og lagres lokalt i appen så oppslagene er raske og kan brukes uten internett. All rett til oversettelsene tilhører deres respektive rettighetshavere — blant annet Bibelselskapet (Norsk Bibel), NLM og Bibelen på hverdagsnorsk. Denne appen er ment som et verktøy for personlig bibelstudie.</p>
+            <p>Kryssreferanser er basert på åpent tilgjengelige verk, inkludert <em>Treasury of Scripture Knowledge</em> og andre historiske samlinger, sammenstilt og stemmerangert for relevans.</p>
+
+            <h3>Laget av</h3>
+            <p>Jeg heter <strong>Benjamin Tjelle</strong>. Jeg er student og driver med webutvikling ved siden av studiene, og som kristen ønsker jeg å lage gratis verktøy som gjør det enklere å bli bedre kjent med Gud og hans ord.</p>
+            <p>Se flere prosjekter på <a href="https://tjelle.net" target="_blank" rel="noopener">tjelle.net</a>. Har du funnet feil eller har forslag? Ta gjerne kontakt.</p>
             <div class="modal-links">
-                <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="competitor-link">Konkurrerende tjeneste</a>
+                <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="competitor-link">En annen god tjeneste</a>
             </div>
         </div>
     </div>
