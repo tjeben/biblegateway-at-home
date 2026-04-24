@@ -99,6 +99,17 @@
             transition: background-color 0.2s;
         }
         .header-icon-btn:hover { background-color: rgba(255,255,255,0.1); }
+        .header-icon-btn svg,
+        .dark-toggle svg {
+            width: 19px;
+            height: 19px;
+            display: block;
+            stroke: currentColor;
+            fill: none;
+            stroke-width: 1.9;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
         body { padding-top: 60px; }
 
         .search-area {
@@ -448,6 +459,14 @@
         }
         .verse-num:hover { background: rgba(168, 50, 50, 0.15); }
         [data-theme="dark"] .verse-num:hover { background: rgba(201, 68, 68, 0.2); }
+        .verse-span:hover .verse-num {
+            background: rgba(168, 50, 50, 0.16);
+            box-shadow: 0 0 0 2px rgba(168, 50, 50, 0.18);
+        }
+        [data-theme="dark"] .verse-span:hover .verse-num {
+            background: rgba(201, 68, 68, 0.22);
+            box-shadow: 0 0 0 2px rgba(201, 68, 68, 0.28);
+        }
         .chapter-heading {
             font-weight: 700;
             font-size: 0.9rem;
@@ -546,8 +565,6 @@
             padding-right: 24px;
         }
         .note-popover-header .note-popover-label { margin-bottom: 0; }
-        .note-popover-header-btns { display: flex; gap: 6px; flex-shrink: 0; flex-wrap: wrap; }
-        .note-popover-header .bible-map-toggle { padding: 4px 10px; font-size: 0.72rem; }
         .note-popover-text {
             color: var(--text);
         }
@@ -555,7 +572,16 @@
             display: flex;
             gap: 6px;
             flex-wrap: wrap;
-            margin-top: 8px;
+            margin-top: 4px;
+            overflow: visible;
+        }
+        .note-popover-refs.collapsed {
+            max-height: 74px; /* ca 2 rader på desktop */
+            overflow: hidden;
+        }
+        .note-popover-refs.expanding {
+            overflow: hidden;
+            transition: max-height 260ms cubic-bezier(.2, .8, .2, 1);
         }
         .note-popover-refs .xref-btn {
             padding: 8px 14px;
@@ -575,8 +601,43 @@
             color: white;
             border-color: var(--accent);
         }
+        .note-popover-actions {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 8px;
+            padding-right: 24px;
+        }
+        .note-popover-actions-right {
+            margin-left: auto;
+            display: flex;
+            gap: 6px;
+        }
+        .xref-action-btn {
+            padding: 8px 14px;
+            background: var(--card-bg);
+            color: var(--accent);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 0.88rem;
+            font-weight: 600;
+            min-height: 34px;
+            transition: all 0.15s;
+        }
+        .xref-action-btn:hover, .xref-action-btn:active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
         @media (max-width: 700px) {
             .note-popover-refs .xref-btn {
+                padding: 10px 16px;
+                font-size: 0.95rem;
+                min-height: 40px;
+            }
+            .note-popover-refs.collapsed { max-height: 86px; } /* ca 2 rader på mobil */
+            .xref-action-btn {
                 padding: 10px 16px;
                 font-size: 0.95rem;
                 min-height: 40px;
@@ -598,20 +659,6 @@
             border-radius: 4px;
         }
         .note-popover-close:hover { background: rgba(0,0,0,0.08); color: var(--text); }
-        .xref-showmore {
-            margin-top: 10px;
-            padding: 8px 14px;
-            background: var(--accent);
-            color: white;
-            border: none;
-            border-radius: 999px;
-            cursor: pointer;
-            font-size: 0.88rem;
-            font-weight: 600;
-            transition: background 0.15s;
-        }
-        .xref-showmore:hover, .xref-showmore:active { background: var(--accent-hover); }
-
         /* Viz-hosts-wrapper (Bibelkart, Tidslinje, Kontekst, Tema-kart, Generer referanser) */
         .viz-hosts-wrap {
             max-width: 880px;
@@ -1424,12 +1471,13 @@
             display: inline-flex;
             gap: 0;
             padding: 2px;
-            background: var(--border);
+            background: var(--card-bg);
+            border: 1px solid var(--border);
             border-radius: 999px;
             margin-bottom: 8px;
         }
         .xref-mode-btn {
-            background: transparent;
+            background: var(--card-bg);
             border: none;
             color: var(--text-muted);
             font-size: 0.78rem;
@@ -1472,7 +1520,7 @@
 
         /* ── Bibelkart ── */
         .bible-map-wrap {
-            margin-top: 8px;
+            margin-top: 6px;
             padding: 16px 18px;
             background: var(--card-bg);
             border: 1px solid var(--border);
@@ -1668,80 +1716,38 @@
         }
         [data-theme="dark"] .theme-search-pill { background: rgba(201, 68, 68, 0.08); }
 
-        /* Tema-modus-velger */
-        .theme-mode-bar {
+        .theme-mode-bar { margin-bottom: 10px; }
+        .theme-mode-bar .xref-mode-toggle { margin-bottom: 0; }
+        .theme-topic-toggle {
             display: flex;
-            align-items: center;
-            gap: 8px;
             flex-wrap: wrap;
-            margin-bottom: 12px;
+            gap: 6px;
+            margin-bottom: 14px;
         }
-        .theme-mode-label {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            font-weight: 500;
-        }
-        .theme-mode-btn {
-            padding: 5px 12px;
-            border-radius: 999px;
-            border: 1.5px solid var(--border);
-            background: var(--card-bg);
-            color: var(--text);
-            cursor: pointer;
-            font-size: 0.8rem;
-            font-weight: 600;
-            transition: all 0.15s;
-        }
-        .theme-mode-btn.active {
-            background: var(--accent);
-            color: white;
-            border-color: var(--accent);
-        }
-        .theme-mode-btn:hover:not(.active) {
-            border-color: var(--accent);
-            color: var(--accent);
-        }
-
-        /* Tema-piller (toggleable) */
-        .theme-pills {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin-bottom: 16px;
-        }
-        .theme-pill {
-            padding: 6px 14px;
-            border-radius: 999px;
-            border: 1.5px solid rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.45);
-            background: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.05);
-            color: var(--text-muted);
-            cursor: pointer;
-            font-size: 0.86rem;
-            font-weight: 600;
-            transition: all 0.18s;
+        .theme-topic-toggle .xref-mode-btn {
+            border: 1px solid rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.42);
+            color: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.95);
+            background: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.06);
             display: inline-flex;
             align-items: center;
             gap: 6px;
         }
-        .theme-pill-dot {
-            width: 9px;
-            height: 9px;
-            border-radius: 50%;
-            background: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.35);
-            transition: background 0.18s;
+        .theme-topic-toggle .xref-mode-btn:hover:not(.active) {
+            border-color: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.68);
+            color: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 1);
         }
-        .theme-pill:hover {
-            border-color: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.7);
-        }
-        .theme-pill.active {
-            background: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.85);
+        .theme-topic-toggle .xref-mode-btn.active {
             color: white;
+            background: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.88);
             border-color: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.95);
         }
-        .theme-pill.active .theme-pill-dot {
-            background: white;
+        .theme-topic-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(var(--pill-r), var(--pill-g), var(--pill-b), 0.35);
         }
-        .theme-pill:active { transform: scale(0.96); }
+        .theme-topic-toggle .xref-mode-btn.active .theme-topic-dot { background: #fff; }
 
         /* Popover: vers i en bok for et tema */
         .theme-verse-popover {
@@ -2598,22 +2604,19 @@
             .verse-row { flex-direction: column; }
             .compare-columns-header { flex-direction: column; gap: 6px; }
 
-            /* Sticky bottom search bar on mobile */
+            /* Sticky top search bar on mobile */
             .search-bottom-bar {
                 position: fixed;
                 left: 0; right: 0;
-                /* Plassert litt over bunnen + respekter safe-area (iOS home indicator).
-                   Dynamisk justert via JS når tastaturet er fremme (visualViewport). */
-                bottom: calc(env(safe-area-inset-bottom, 0px) + 12px);
+                top: calc(54px + env(safe-area-inset-top, 0px));
                 background: var(--bg);
-                border-top: 1px solid var(--border);
+                border-bottom: 1px solid var(--border);
                 padding: 10px 14px;
                 z-index: 100;
                 display: flex;
                 flex-direction: column;
                 gap: 8px;
-                box-shadow: 0 -2px 12px rgba(0,0,0,0.1);
-                transition: bottom 0.18s ease;
+                box-shadow: 0 2px 12px rgba(0,0,0,0.1);
             }
             .search-bottom-bar .search-bar-wrap { min-width: 0; }
             .search-bottom-bar .controls-actions-row {
@@ -2622,7 +2625,7 @@
                 align-items: center;
             }
             .controls.desktop-only { display: none; }
-            .results-wrapper { padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 130px); }
+            .results-wrapper { padding-top: 122px; padding-bottom: 24px; }
         }
         @media (min-width: 701px) {
             .search-bottom-bar { display: none; }
@@ -2673,8 +2676,10 @@
             <h1>Bibelsøk</h1>
         </div>
         <div class="header-actions">
-            <button class="header-icon-btn" onclick="showSearchInfo()" title="Hvordan søke" aria-label="Info">ℹ️</button>
-            <button class="dark-toggle" id="darkToggle" title="Mørk modus">&#9790;</button>
+            <button class="header-icon-btn" onclick="showSearchInfo()" title="Hvordan søke" aria-label="Info">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 10v6"></path><path d="M12 7h.01"></path></svg>
+            </button>
+            <button class="dark-toggle" id="darkToggle" title="Mørk modus" aria-label="Bytt tema"></button>
         </div>
     </div>
 </div>
@@ -2770,6 +2775,9 @@
 <div id="highlightPopup" class="selection-popup highlight-popup" role="toolbar" aria-label="Handlinger for uthevning">
     <button type="button" data-action="search-highlight" title="Søk på denne teksten">🔍 Søk</button>
     <button type="button" data-action="delete-highlight" title="Slett uthevning">🗑 Slett</button>
+</div>
+<div id="verseOpenPopup" class="selection-popup" role="toolbar" aria-label="Handlinger for vers">
+    <button type="button" data-action="open-verse" title="Åpne dette verset">📖 Åpne vers</button>
 </div>
 
 <!-- Mobile sticky bottom search bar -->
@@ -3051,28 +3059,9 @@
         }
     });
 
-    // iOS/mobil: flytt bunn-søkefeltet over virtuelt tastatur via visualViewport
+    // Mobil-søkefeltet ligger nå i toppen; ingen dynamisk bottom-justering ved tastatur.
     (function setupKeyboardAwareBar() {
-        if (!('visualViewport' in window)) return;
-        const bar = document.getElementById('searchBottomBar');
-        if (!bar) return;
-        const update = () => {
-            const vv = window.visualViewport;
-            const offset = Math.max(0, window.innerHeight - vv.height - vv.offsetTop);
-            // Når tastaturet er synlig, sett bottom til offset (dynamisk).
-            // Ellers tilbake til CSS-default (safe-area + 12px buffer).
-            if (offset > 40) {
-                bar.style.bottom = (offset + 6) + 'px';
-            } else {
-                bar.style.bottom = '';
-            }
-        };
-        window.visualViewport.addEventListener('resize', update);
-        window.visualViewport.addEventListener('scroll', update);
-        // Sett riktig ved første fokusering
-        [searchInputDesktop, searchInputMobile].forEach(el => {
-            if (el) el.addEventListener('focus', () => setTimeout(update, 100));
-        });
+        return;
     })();
 
     // Hjelper: har søket operatorer (bypass KI)?
@@ -4264,6 +4253,62 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         });
     })();
 
+    // ── Vers-popup: klikk på verstekst (ikke versnummer) for "Åpne vers" ──
+    (function setupVerseOpenPopup() {
+        const popup = document.getElementById('verseOpenPopup');
+        if (!popup) return;
+        let activeRef = '';
+        let activeVersion = '';
+
+        function hidePopup() {
+            popup.classList.remove('visible');
+            activeRef = '';
+            activeVersion = '';
+        }
+
+        function positionPopup(rect) {
+            popup.classList.add('visible');
+            const pw = popup.offsetWidth;
+            const ph = popup.offsetHeight;
+            let left = rect.left + rect.width / 2 - pw / 2 + window.scrollX;
+            left = Math.max(8, Math.min(window.innerWidth - pw - 8, left));
+            let top = rect.top + window.scrollY - ph - 8;
+            if (top < window.scrollY + 8) top = rect.bottom + window.scrollY + 8;
+            popup.style.left = left + 'px';
+            popup.style.top = top + 'px';
+        }
+
+        document.addEventListener('click', e => {
+            const inPopup = e.target.closest('#verseOpenPopup');
+            if (inPopup) return;
+            const span = e.target.closest('.verse-span');
+            if (!span) { hidePopup(); return; }
+            if (e.target.closest('.verse-num, .note-marker, .user-highlight')) { hidePopup(); return; }
+            const sel = window.getSelection();
+            if (sel && !sel.isCollapsed) { hidePopup(); return; }
+            const vref = span.getAttribute('data-vref');
+            if (!vref) { hidePopup(); return; }
+            activeRef = formatVrefToLabel(vref);
+            activeVersion = span.getAttribute('data-version') || '';
+            const rect = span.getBoundingClientRect();
+            if (!rect || (!rect.width && !rect.height)) { hidePopup(); return; }
+            positionPopup(rect);
+            e.stopPropagation();
+        }, true);
+
+        popup.addEventListener('click', e => {
+            e.stopPropagation();
+            const btn = e.target.closest('button[data-action="open-verse"]');
+            if (!btn || !activeRef) return;
+            hidePopup();
+            if (activeVersion) navigateToRefInVersion(activeRef, activeVersion);
+            else navigateToRef(activeRef);
+        });
+
+        window.addEventListener('scroll', hidePopup, true);
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') hidePopup(); }, true);
+    })();
+
     // ── AI-resultat-cache: unngå ny analyse når bruker lukker og åpner på nytt
     const aiCache = { context: {}, genRefs: {}, diff: {} };
 
@@ -4273,8 +4318,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (existing) { closeVizHost(hostId); return; }
         const host = document.createElement('div');
         host.id = hostId;
-        host.className = 'bible-map-wrap ai-host-wrap';
-        host.style.marginTop = '10px';
+        host.className = 'bible-map-wrap';
+        host.style.marginTop = '6px';
         host.innerHTML = `<div class="study-panel-header">
                 <span class="study-panel-title">${titleHtml}</span>
                 <div class="study-panel-actions">
@@ -4360,6 +4405,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     window.setXrefTimelineColorMode = function(mode) {
         if (mode !== 'testament' && mode !== 'perBook') return;
+        const wrap = document.querySelector('#xrefTimelineHost .bible-timeline-wrap');
+        if (wrap && wrap._timelineZoom) {
+            xrefTimelineState.zoom = wrap._timelineZoom.getZoom();
+            xrefTimelineState.scrollLeft = wrap.scrollLeft;
+        }
         xrefTimelineState.colorMode = mode;
         renderXrefTimelineHost();
     };
@@ -4411,6 +4461,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     window.setChapterTimelineColorMode = function(mode) {
         if (mode !== 'testament' && mode !== 'perBook') return;
+        const wrap = document.querySelector('#chapterTimelineHost .bible-timeline-wrap');
+        if (wrap && wrap._timelineZoom) {
+            chapterTimelineState.zoom = wrap._timelineZoom.getZoom();
+            chapterTimelineState.scrollLeft = wrap.scrollLeft;
+        }
         chapterTimelineState.colorMode = mode;
         renderChapterTimelineHost();
     };
@@ -4448,7 +4503,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         // Base min-width: mobile 920, desktop 100% (bruk clientWidth hvis større)
         const isMobile = window.matchMedia('(max-width: 700px)').matches;
         const baseWidth = isMobile ? 920 : Math.max(wrap.clientWidth, 600);
-        let zoom = 1;
+        let zoom = Math.max(1, Math.min(5, stateRef.zoom || 1));
         let zoomAnimRaf = null;
         const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         const setZoomClasses = (z) => {
@@ -4470,6 +4525,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 svg.style.minWidth = targetWidth + 'px';
                 wrap.scrollLeft = targetScroll;
                 setZoomClasses(zoom);
+                stateRef.zoom = zoom;
+                stateRef.scrollLeft = wrap.scrollLeft;
                 return;
             }
             const startZoom = zoom;
@@ -4487,6 +4544,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 svg.style.minWidth = width + 'px';
                 wrap.scrollLeft = scroll;
                 setZoomClasses(zoom);
+                stateRef.zoom = zoom;
+                stateRef.scrollLeft = wrap.scrollLeft;
                 if (t < 1) zoomAnimRaf = requestAnimationFrame(step);
             };
             zoomAnimRaf = requestAnimationFrame(step);
@@ -4498,7 +4557,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         // Initial: sett min-width + auto-scroll til kildeverset bare når kilden endres
         // (ikke ved toggle av farge-modus)
-        svg.style.minWidth = baseWidth + 'px';
+        svg.style.minWidth = (baseWidth * zoom) + 'px';
+        setZoomClasses(zoom);
+        if (stateRef.scrollLeft != null) {
+            wrap.scrollLeft = Math.max(0, stateRef.scrollLeft);
+        }
         const curSource = stateRef && stateRef.source;
         if (curSource && stateRef.autoScrolledFor !== curSource) {
             requestAnimationFrame(() => {
@@ -4647,7 +4710,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             svg.addEventListener('mouseout', handleLeave);
             svg.addEventListener('mouseleave', hidePopup);
             // Skjul popup ved scroll eller zoom (koords er ikke lenger gyldige)
-            wrap.addEventListener('scroll', hidePopup, { passive: true });
+            wrap.addEventListener('scroll', () => {
+                hidePopup();
+                stateRef.scrollLeft = wrap.scrollLeft;
+            }, { passive: true });
             // Klikk-navigasjon (siden vi ikke har onclick på path/circle lenger)
             svg.addEventListener('click', e => {
                 const group = e.target.closest('.arc-group, .dot-group');
@@ -4760,7 +4826,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const host = document.createElement('div');
         host.id = 'aiContextHost';
         host.className = 'bible-map-wrap ai-host-wrap';
-        host.style.marginTop = '10px';
+        host.style.marginTop = '6px';
         const content = data.error
             ? `<div style="color:var(--error);">${escHtml(data.error)}</div>`
             : `<div style="font-size:0.98rem;line-height:1.6;color:var(--text);">${escHtml(data.result || '')}</div>`;
@@ -4896,27 +4962,27 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const currentLabel = versionLabel(versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value);
 
         let html = `<div class="theme-mode-bar">
-            <span class="theme-mode-label">Søk i:</span>
-            <button class="theme-mode-btn${!themeMapState.useAllVersions ? ' active' : ''}" onclick="setThemeMode(false)">${escHtml(currentLabel)}</button>
-            <button class="theme-mode-btn${themeMapState.useAllVersions ? ' active' : ''}" onclick="setThemeMode(true)">Alle versjoner</button>
+            <div class="xref-mode-toggle" role="tablist" aria-label="Søkemodus for tema">
+                <button type="button" class="xref-mode-btn${!themeMapState.useAllVersions ? ' active' : ''}" onclick="setThemeMode(false)">${escHtml(currentLabel)}</button>
+                <button type="button" class="xref-mode-btn${themeMapState.useAllVersions ? ' active' : ''}" onclick="setThemeMode(true)">Alle versjoner</button>
+            </div>
         </div>`;
 
-        html += `<div class="theme-pills">`;
+        html += `<div class="theme-topic-toggle" role="tablist" aria-label="Velg tema">`;
         themeMapState.themes.forEach((t, i) => {
             const total = t.total != null ? ` (${t.total})` : '';
-            html += `<button class="theme-pill${t.active ? ' active' : ''}"
+            html += `<button type="button" class="xref-mode-btn${t.active ? ' active' : ''}"
                 style="--pill-r:${t.color.base.split(',')[0].trim()};--pill-g:${t.color.base.split(',')[1].trim()};--pill-b:${t.color.base.split(',')[2].trim()};"
-                onclick="toggleTheme(${i})">
-                <span class="theme-pill-dot"></span>${escHtml(t.name)}${total}
+                onclick="toggleTheme(${i})"
+                aria-pressed="${t.active ? 'true' : 'false'}">
+                <span class="theme-topic-dot"></span>${escHtml(t.name)}${total}
             </button>`;
         });
         html += `</div>`;
 
         html += `<div class="theme-maps">`;
-        let anyActive = false;
         themeMapState.themes.forEach((t, i) => {
             if (!t.active) return;
-            anyActive = true;
             if (t.counts == null) {
                 html += `<div class="theme-section">
                     <div class="theme-section-header" style="border-left:4px solid rgba(${t.color.base},0.85);">
@@ -4935,9 +5001,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 <div class="theme-section-map">${buildThemeMapCellsHtml(t.counts, t.color.base, i)}</div>
             </div>`;
         });
-        if (!anyActive) {
-            html += `<div style="color:var(--text-muted);padding:12px 2px;font-size:0.9rem;">Ingen tema valgt — klikk en pille over for å aktivere.</div>`;
-        }
         html += `</div>`;
         body.innerHTML = html;
     }
@@ -4955,7 +5018,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const host = document.createElement('div');
         host.id = 'aiThemeHost';
         host.className = 'bible-map-wrap ai-host-wrap';
-        host.style.marginTop = '10px';
+        host.style.marginTop = '6px';
         host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header study-panel-header">
             <span class="ai-panel-title study-panel-title">🎨 Tema-kart — ${escHtml(label)}</span>
             <div class="study-panel-actions">
@@ -4993,12 +5056,14 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     return {
                         name: t.name,
                         searches,
-                        active: false,
+                        active: i === 0,
                         color: THEME_COLORS[i % THEME_COLORS.length],
                         counts: null, results: null, total: null,
                     };
                 }),
             };
+            renderThemeMap();
+            await runActiveThemeSearches();
             renderThemeMap();
         } catch {
             host.querySelector('.ai-panel-body').innerHTML = `<div style="color:var(--error);">Kunne ikke koble til serveren.</div>`;
@@ -5010,10 +5075,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     window.toggleTheme = async function(idx) {
         if (!themeMapState) return;
+        themeMapState.themes.forEach((t, i) => { t.active = i === idx; });
         const t = themeMapState.themes[idx];
-        t.active = !t.active;
         renderThemeMap();
-        if (t.active && t.counts == null) {
+        if (t && t.counts == null) {
             await runActiveThemeSearches();
             renderThemeMap();
         }
@@ -5099,7 +5164,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const host = document.createElement('div');
         host.id = 'aiGenRefsHost';
         host.className = 'bible-map-wrap';
-        host.style.marginTop = '10px';
+        host.style.marginTop = '6px';
         host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header study-panel-header">
             <span class="ai-panel-title study-panel-title">🔗 KI-genererte referanser — ${escHtml(label)}</span>
             <div class="study-panel-actions">
@@ -6386,7 +6451,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const h = document.createElement('div');
             h.id = 'aiDiffHost';
             h.className = 'bible-map-wrap ai-host-wrap';
-            h.style.marginTop = '10px';
+            h.style.marginTop = '6px';
             h.style.padding = '0';
             h.style.background = 'transparent';
             h.style.border = 'none';
@@ -6760,39 +6825,43 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         } else if (data.type === 'xref') {
             const items = data.items || [];
             const count = items.length;
-            const initial = Math.min(count, 10);
             const source = data.source;
-            // Header m/ label til venstre og evt. visualiseringsknapper til høyre
-            let headerBtns = '';
+            let actionRightBtns = '';
             if (count >= 3) {
                 const perBook = countXrefsPerBook(items);
                 if (Object.keys(perBook).length >= 2) {
                     const encoded = JSON.stringify(items).replace(/"/g, '&quot;');
-                    headerBtns += `<button class="bible-map-toggle" data-xref-items="${encoded}" onclick="event.stopPropagation(); openXrefMap(this)">🗺️ Kart</button>`;
+                    actionRightBtns += `<button class="xref-action-btn" data-xref-items="${encoded}" onclick="event.stopPropagation(); openXrefMap(this)">🗺️ Kart</button>`;
                 }
                 if (source) {
                     const info = JSON.stringify({ source, items }).replace(/"/g, '&quot;');
-                    headerBtns += `<button class="bible-map-toggle" data-xref-info="${info}" onclick="event.stopPropagation(); openXrefTimeline(this)">📈 Tidslinje</button>`;
+                    actionRightBtns += `<button class="xref-action-btn" data-xref-info="${info}" onclick="event.stopPropagation(); openXrefTimeline(this)">📈 Tidslinje</button>`;
                 }
             }
-            content = `<div class="note-popover-header">
-                <div class="note-popover-label">Kryssreferanser (${count})</div>
-                <div class="note-popover-header-btns">${headerBtns}</div>
-            </div>`;
-            content += `<div class="note-popover-refs" data-showing="${initial}" data-total="${count}">`;
-            items.slice(0, initial).forEach(item => {
+            content = `<div class="note-popover-refs collapsed" data-total="${count}">`;
+            items.forEach(item => {
                 const display = formatUsfmRef(item.r);
                 if (!display) return;
                 content += `<button class="xref-btn" onclick="event.stopPropagation(); navigateToRef('${escAttr(display)}')" title="${item.v} stemmer">${escHtml(display)}</button>`;
             });
             content += `</div>`;
-            if (count > initial) {
-                const restEncoded = JSON.stringify(items.slice(initial)).replace(/"/g, '&quot;');
-                content += `<button class="xref-showmore" data-rest="${restEncoded}" onclick="event.stopPropagation(); showMoreXrefs(this)">Vis alle ${count} →</button>`;
-            }
+            content += `<div class="note-popover-actions">
+                <button class="xref-action-btn xref-showmore" onclick="event.stopPropagation(); showMoreXrefs(this)">Vis alle ${count}</button>
+                <div class="note-popover-actions-right">${actionRightBtns}</div>
+            </div>`;
         }
         pop.innerHTML = content + `<button class="note-popover-close" onclick="event.stopPropagation(); closePopoverAnimated(this.parentNode); document.querySelectorAll('.note-marker.active').forEach(n=>n.classList.remove('active'));">×</button>`;
         el.parentNode.insertBefore(pop, el.nextSibling);
+        const refsDiv = pop.querySelector('.note-popover-refs.collapsed');
+        const showMoreBtn = pop.querySelector('.xref-showmore');
+        if (refsDiv && showMoreBtn) {
+            requestAnimationFrame(() => {
+                if (refsDiv.scrollHeight <= refsDiv.clientHeight + 1) {
+                    refsDiv.classList.remove('collapsed');
+                    showMoreBtn.remove();
+                }
+            });
+        }
 
         // Auto-åpne tidslinje når visning er ett enkelt vers
         if (data.type === 'xref' && data.source && data.items &&
@@ -6830,20 +6899,24 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return startDisplay;
     }
 
-    // Vis resterende xrefs (når det er >10)
+    // Utvid xref-listen fra 2 rader til full visning med smooth animasjon
     window.showMoreXrefs = function(btnEl) {
-        const rest = JSON.parse(btnEl.getAttribute('data-rest'));
-        const refsDiv = btnEl.previousElementSibling;
-        rest.forEach(item => {
-            const display = formatUsfmRef(item.r);
-            if (!display) return;
-            const b = document.createElement('button');
-            b.className = 'xref-btn';
-            b.title = `${item.v} stemmer`;
-            b.textContent = display;
-            b.onclick = (e) => { e.stopPropagation(); navigateToRef(display); };
-            refsDiv.appendChild(b);
-        });
+        const pop = btnEl.closest('.note-popover');
+        const refsDiv = pop && pop.querySelector('.note-popover-refs');
+        if (!refsDiv || !refsDiv.classList.contains('collapsed')) { btnEl.remove(); return; }
+        const startH = refsDiv.getBoundingClientRect().height;
+        refsDiv.classList.remove('collapsed');
+        const targetH = refsDiv.scrollHeight;
+        refsDiv.style.maxHeight = `${startH}px`;
+        refsDiv.classList.add('expanding');
+        refsDiv.getBoundingClientRect();
+        refsDiv.style.maxHeight = `${targetH}px`;
+        const done = () => {
+            refsDiv.classList.remove('expanding');
+            refsDiv.style.maxHeight = '';
+            refsDiv.removeEventListener('transitionend', done);
+        };
+        refsDiv.addEventListener('transitionend', done);
         btnEl.remove();
     };
 
@@ -7402,9 +7475,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ── Dark mode ──
     const darkToggle = document.getElementById('darkToggle');
+    const MOON_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 14.1A8.8 8.8 0 1 1 9.9 3.7a7 7 0 0 0 10.4 10.4z"></path></svg>';
+    const SUN_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"></circle><path d="M12 2.8v2.2M12 19v2.2M4.8 12H2.6M21.4 12h-2.2M5.8 5.8l1.6 1.6M16.6 16.6l1.6 1.6M18.2 5.8l-1.6 1.6M7.4 16.6l-1.6 1.6"></path></svg>';
     function applyTheme(dark) {
         document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
-        darkToggle.innerHTML = dark ? '&#9788;' : '&#9790;';
+        darkToggle.innerHTML = dark ? SUN_ICON : MOON_ICON;
         localStorage.setItem('theme', dark ? 'dark' : 'light');
     }
     darkToggle.addEventListener('click', () => {
