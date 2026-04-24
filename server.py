@@ -1155,10 +1155,13 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                         "book_filter": book_filter, "has_operators": False,
                     })
                     return
+                # Hent ALLE treff (ingen per-bok-cap) per versjon så dedup blir riktig.
+                # Uten dette: BGO 871 treff → Alle rapporterer 293 fordi hver versjon er
+                # kappet til 10 per bok FØR dedup.
                 merged = {}
                 book_totals = {}
                 for vname in bible_data.versions:
-                    results, bt = search_text(bible_data, vname, search_query, book_filter=book_filter)
+                    results, _bt = search_text(bible_data, vname, search_query, per_book=10**9, book_filter=book_filter)
                     for r in results:
                         key = f"{r['book']}.{r['chapter']}.{r['verse']}"
                         if key not in merged:
