@@ -576,7 +576,7 @@
             overflow: visible;
         }
         .note-popover-refs.collapsed {
-            max-height: 74px; /* ca 2 rader på desktop */
+            max-height: 80px; /* ca 2 rader på desktop (2×36 + 6 gap + margin) */
             overflow: hidden;
         }
         .note-popover-refs.expanding {
@@ -636,7 +636,7 @@
                 font-size: 0.95rem;
                 min-height: 40px;
             }
-            .note-popover-refs.collapsed { max-height: 86px; } /* ca 2 rader på mobil */
+            .note-popover-refs.collapsed { max-height: 92px; } /* ca 2 rader på mobil (2×42 + 6 gap) */
             .xref-action-btn {
                 padding: 10px 16px;
                 font-size: 0.95rem;
@@ -6787,7 +6787,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (v.xrefs && v.xrefs.length) {
                 const source = bookCode ? `${bookCode}.${v.chapter}.${v.num}` : '';
                 const dataAttr = escAttr(JSON.stringify({type: 'xref', items: v.xrefs, source}));
-                html += `<sup class="note-marker note-xref" data-note='${dataAttr}' onclick="toggleNotePopover(this, event)" title="${v.xrefs.length} kryssreferanser">†</sup>`;
+                html += `<sup class="note-marker note-xref" data-note='${dataAttr}' onclick="toggleNotePopover(this, event)" title="${v.xrefs.length} kryssreferanser">§</sup>`;
             }
             if (vrefKey) html += `</span>`;
 

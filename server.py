@@ -921,10 +921,13 @@ def search_text(bible_data, version, query, per_book=10, book_filter=None):
         return [], {}
 
     def matches_any_group(text_lower):
+        # Quoted phrases ("peter") → ordgrense-match (eksakt ord).
+        # Bare ord (peter) → substring-match (finner også 'trompeter').
+        # -word → substring-eksklusjon.
         for phrases, words, excluded in groups:
             if all(_word_match(p, text_lower) for p in phrases) \
-                    and all(_word_match(w, text_lower) for w in words) \
-                    and not any(_word_match(w, text_lower) for w in excluded):
+                    and all(w in text_lower for w in words) \
+                    and not any(w in text_lower for w in excluded):
                 return True
         return False
 
