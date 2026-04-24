@@ -1138,12 +1138,13 @@
             to   { opacity: 1; transform: translateY(0); }
         }
         @keyframes popoverOpen {
-            from { opacity: 0; transform: translateY(-4px) scaleY(0.96); }
-            to   { opacity: 1; transform: translateY(0) scaleY(1); }
+            0%   { opacity: 0; transform: translateY(10px) scale(0.94); }
+            60%  { opacity: 1; }
+            100% { opacity: 1; transform: translateY(0) scale(1); }
         }
         @keyframes popoverClose {
-            from { opacity: 1; transform: translateY(0) scaleY(1); }
-            to   { opacity: 0; transform: translateY(-4px) scaleY(0.96); }
+            from { opacity: 1; transform: translateY(0) scale(1); }
+            to   { opacity: 0; transform: translateY(6px) scale(0.96); }
         }
         @keyframes expandOpen {
             from { opacity: 0; transform: scaleY(0.92); }
@@ -1720,19 +1721,37 @@
                 border-radius: 50%;
                 box-shadow: 0 4px 16px rgba(0,0,0,0.12);
                 transform: translateY(-50%);
-                transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.15s;
+                transition: background 0.18s, color 0.18s, border-color 0.18s, transform 0.18s, box-shadow 0.18s;
+                justify-content: center;
+                align-items: center;
+                line-height: 1;
             }
             body.split-active .nav-prev::before,
             body.split-active .nav-next::before { display: none; }
-            body.split-active .nav-prev { left: calc(var(--col-left-px, 0px) - 68px); right: auto; }
-            body.split-active .nav-next { right: calc(var(--col-right-px, 0px) - 68px); left: auto; }
+            /* Klemme piler slik at de alltid er synlige: minimum 8px fra viewport-kant,
+               maksimum 68px utenfor tekstkolonnen */
+            body.split-active .nav-prev {
+                left: max(8px, calc(var(--col-left-px, 68px) - 68px));
+                right: auto;
+            }
+            body.split-active .nav-next {
+                right: max(calc(var(--side-panel-width) + 8px), calc(var(--col-right-px, 68px) - 68px));
+                left: auto;
+            }
             body.split-active .nav-prev:hover:not(:disabled),
             body.split-active .nav-next:hover:not(:disabled) {
                 background: var(--accent);
                 color: white;
                 border-color: var(--accent);
-                transform: translateY(-50%) scale(1.05);
+                transform: translateY(-50%) scale(1.08);
+                box-shadow: 0 6px 22px rgba(168, 50, 50, 0.3);
             }
+            body.split-active .nav-prev:active:not(:disabled),
+            body.split-active .nav-next:active:not(:disabled) {
+                transform: translateY(-50%) scale(0.94);
+            }
+            body.split-active .nav-prev:disabled,
+            body.split-active .nav-next:disabled { opacity: 0.35; }
 
             .nav-btn.visible { display: flex; }
 
@@ -2735,6 +2754,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             renderAll();
             return;
         }
+        // Slå av sammenligning: 'Alle versjoner' tar over plassen under verset
+        if (compareMode) {
+            compareMode = false;
+            compareData = null;
+            aiDiffState = null;
+            aiHighlights = null;
+        }
         if (btn) {
             btn.disabled = true;
             btn.textContent = 'Laster…';
@@ -2749,6 +2775,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
         } catch { showToast('Kunne ikke hente alle versjoner'); }
         renderAll();
+        mirrorExistingHighlightsToOtherVersions();
     };
 
     window.showSearchInfo = function() {
@@ -3349,6 +3376,72 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
     }
 
+    // Speil eksisterende uthevninger i hoved-versjonen til alle andre versjoner
+    // som er synlige akkurat nå (compare + inline "Alle versjoner"). Hopper over
+    // versjoner som allerede har en lagret speiling for samme vref.
+    async function mirrorExistingHighlightsToOtherVersions() {
+        const all = loadHighlights();
+        const mainV = versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value;
+        if (!mainV) return;
+
+        // Bygg { version: { vref: text } } fra gjeldende tilstand
+        const versionsText = {};
+        function ingest(version, blocks) {
+            if (!version || !blocks) return;
+            versionsText[version] = versionsText[version] || {};
+            blocks.forEach(b => {
+                if (!b || !b.verses || !b.book) return;
+                b.verses.forEach(v => {
+                    const vref = `${b.book}.${v.chapter}.${v.num}`;
+                    versionsText[version][vref] = v.text;
+                });
+            });
+        }
+        ingest(mainV, mainData);
+        if (compareMode && compareData) ingest(compareVersionSelect.value, compareData);
+        if (inlineAllVersionsData && inlineAllVersionsData.results) {
+            Object.entries(inlineAllVersionsData.results).forEach(([ver, blocks]) => ingest(ver, blocks));
+        }
+
+        const mainTexts = versionsText[mainV] || {};
+        const otherVersions = Object.keys(versionsText).filter(v => v !== mainV);
+        if (otherVersions.length === 0) return;
+
+        for (const vref of Object.keys(mainTexts)) {
+            const mainKey = highlightKey(mainV, vref);
+            const mainHl = all[mainKey];
+            if (!mainHl || mainHl.length === 0) continue;
+
+            for (const ver of otherVersions) {
+                const verKey = highlightKey(ver, vref);
+                if (all[verKey] && all[verKey].length > 0) continue; // allerede speilet
+                const targetText = versionsText[ver][vref];
+                if (!targetText) continue;
+                const phrase = mainHl.join(' … ');
+                try {
+                    const resp = await fetch('/api/ai_match_phrase', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            text1: mainTexts[vref],
+                            text2: targetText,
+                            phrase,
+                            version1: versionLabel(mainV),
+                            version2: versionLabel(ver),
+                            label: formatVrefToLabel(vref),
+                        })
+                    });
+                    const data = await resp.json();
+                    const match = (data && data.match) ? data.match.trim() : '';
+                    if (!match) continue;
+                    saveHighlight(ver, vref, match);
+                    const span = document.querySelector(`[data-vref="${CSS.escape(vref)}"][data-version="${CSS.escape(ver)}"]`);
+                    if (span) wrapFirstTextMatch(span, match);
+                } catch { /* stille */ }
+            }
+        }
+    }
+
     function findVerseByVref(blocks, vref) {
         if (!blocks) return null;
         const m = /^([A-Z0-9]+)\.(\d+)\.(\d+)$/.exec(vref);
@@ -3468,6 +3561,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
         });
     })();
+
+    // ── AI-resultat-cache: unngå ny analyse når bruker lukker og åpner på nytt
+    const aiCache = { context: {}, genRefs: {}, diff: {} };
 
     // Felles: render en viz-host (kart eller tidslinje) nederst. Toggler hvis allerede åpen.
     function renderXrefViz(hostId, titleHtml, innerHtml) {
@@ -3672,12 +3768,39 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     // ── AI: Kontekst-panel ──
+    function renderContextHost(label, data) {
+        const host = document.createElement('div');
+        host.id = 'aiContextHost';
+        host.className = 'bible-map-wrap';
+        host.style.marginTop = '20px';
+        const content = data.error
+            ? `<div style="color:var(--error);">${escHtml(data.error)}</div>`
+            : `<div style="font-size:0.98rem;line-height:1.6;color:var(--text);">${escHtml(data.result || '')}</div>`;
+        host.innerHTML = `<div class="ai-panel">
+            <div class="ai-panel-header study-panel-header">
+                <span class="ai-panel-title study-panel-title">💭 Kontekst — ${escHtml(label)}</span>
+                <div class="study-panel-actions">
+                    <button class="card-action-btn" onclick="closeVizHost('aiContextHost')">Lukk</button>
+                </div>
+            </div>
+            <div class="ai-panel-body">${content}</div>
+        </div>`;
+        host.dataset.forLabel = label;
+        vizHosts.appendChild(host);
+        setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
+    }
+
     window.openContextPanel = async function(btn) {
         const existing = document.getElementById('aiContextHost');
         if (existing) { closeVizHost('aiContextHost'); return; }
         const label = btn.getAttribute('data-label') || '';
         const text = btn.getAttribute('data-text') || '';
         if (!text) return;
+
+        // Cache: hvis vi allerede har analysert dette verset, bare vis det på nytt
+        const cached = aiCache.context[label];
+        if (cached) { renderContextHost(label, cached); return; }
+
         btn.disabled = true;
         const origLabel = btn.textContent;
         btn.textContent = '💭 Henter…';
@@ -3688,25 +3811,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 body: JSON.stringify({ label, text })
             });
             const data = await resp.json();
-            const host = document.createElement('div');
-            host.id = 'aiContextHost';
-            host.className = 'bible-map-wrap';
-            host.style.marginTop = '20px';
-            const content = data.error
-                ? `<div style="color:var(--error);">${escHtml(data.error)}</div>`
-                : `<div style="font-size:0.98rem;line-height:1.6;color:var(--text);">${escHtml(data.result || '')}</div>`;
-            host.innerHTML = `<div class="ai-panel">
-                <div class="ai-panel-header study-panel-header">
-                    <span class="ai-panel-title study-panel-title">💭 Kontekst — ${escHtml(label)}</span>
-                    <div class="study-panel-actions">
-                        <button class="card-action-btn" onclick="closeVizHost('aiContextHost')">Lukk</button>
-                    </div>
-                </div>
-                <div class="ai-panel-body">${content}</div>
-            </div>`;
-            host.dataset.forLabel = label;
-            vizHosts.appendChild(host);
-            setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
+            if (!data.error) aiCache.context[label] = data;
+            renderContextHost(label, data);
         } catch {
             showToast('Kunne ikke koble til serveren');
         } finally {
@@ -4219,6 +4325,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             compareData = null;
         }
         renderAll();
+        if (compareMode) mirrorExistingHighlightsToOtherVersions();
     };
 
     // Sett hoved-versjonen for 'Alle'-modus (fra main-card dropdown)
@@ -4980,6 +5087,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (compareMode && lastQuery && currentView === 'normal') {
             await fetchCompareData(lastQuery);
             renderAll();
+            mirrorExistingHighlightsToOtherVersions();
         }
     });
 
@@ -4991,6 +5099,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             return;
         }
         if (aiDiffState && aiDiffState.loading) return;
+
+        const label = (mainData && mainData[0] && mainData[0].label) || lastQuery;
+        const cmpV = compareVersionSelect.value;
+        const mainV = versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value;
+        const cacheKey = `${label}|${mainV}|${cmpV}`;
+
+        // Cache: hvis vi har analysert dette paret før, bare vis det igjen
+        const cached = aiCache.diff[cacheKey];
+        if (cached) {
+            aiDiffState = { text: cached };
+            renderAll();
+            return;
+        }
 
         const text1 = (mainData || []).flatMap(b => b.verses || []).map(v => v.text).join(' ');
         const text2 = (compareData || []).flatMap(b => b.verses || []).map(v => v.text).join(' ');
@@ -5005,13 +5126,18 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     text1, text2,
-                    label: (mainData[0] && mainData[0].label) || lastQuery,
+                    label,
                     version1: versionLabel(versionSelect.value),
-                    version2: versionLabel(compareVersionSelect.value),
+                    version2: versionLabel(cmpV),
                 })
             });
             const data = await resp.json();
-            aiDiffState = data.error ? { error: data.error } : { text: data.result };
+            if (data.error) {
+                aiDiffState = { error: data.error };
+            } else {
+                aiCache.diff[cacheKey] = data.result;
+                aiDiffState = { text: data.result };
+            }
         } catch {
             aiDiffState = { error: 'Kunne ikke koble til serveren.' };
         }
