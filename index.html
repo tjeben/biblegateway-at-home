@@ -78,18 +78,18 @@
         .header-actions { display: flex; gap: 6px; align-items: center; }
         .header-icon-btn {
             background: transparent;
-            border: 2px solid rgba(255,255,255,0.3);
+            border: none;
             color: white;
             width: 38px; height: 38px;
             border-radius: 6px;
             cursor: pointer;
-            font-size: 1.05rem;
+            font-size: 1.15rem;
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            transition: border-color 0.2s;
+            transition: background-color 0.2s;
         }
-        .header-icon-btn:hover { border-color: rgba(255,255,255,0.6); }
+        .header-icon-btn:hover { background-color: rgba(255,255,255,0.1); }
         body { padding-top: 60px; }
 
         .search-area {
@@ -153,19 +153,19 @@
 
         .dark-toggle {
             background: transparent;
-            border: 2px solid rgba(255,255,255,0.3);
+            border: none;
             color: white;
             width: 38px; height: 38px;
             border-radius: 6px;
             cursor: pointer;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             line-height: 1;
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            transition: border-color 0.2s;
+            transition: background-color 0.2s;
         }
-        .dark-toggle:hover { border-color: rgba(255,255,255,0.6); }
+        .dark-toggle:hover { background-color: rgba(255,255,255,0.1); }
 
         /* Book browser / sorter — fjernet. Bruk 'Johannes:' prefix eller referanse-søk i stedet. */
 
@@ -598,11 +598,61 @@
             margin: 0 auto;
             padding: 0 24px;
         }
-        .page-top-mode.compare-active .viz-hosts-wrap { max-width: 1300px; }
+        .compare-active .viz-hosts-wrap { max-width: 1300px; }
         @media (max-width: 700px) {
             .viz-hosts-wrap { padding: 0 14px; max-width: 100%; }
         }
         .viz-hosts-wrap:empty { display: none; }
+
+        /* ── Split-modus: studieelementer flyttet til høyre panel ── */
+        :root { --side-panel-width: 40vw; }
+        .viz-hosts-side { display: none; }
+        @media (min-width: 1100px) {
+            body.split-active { padding-right: var(--side-panel-width); transition: padding-right 0.3s ease; }
+            body.split-active .viz-hosts-side {
+                display: block;
+                position: fixed;
+                top: 60px;
+                right: 0;
+                bottom: 0;
+                width: var(--side-panel-width);
+                background: var(--bg);
+                border-left: 1px solid var(--border);
+                z-index: 120;
+                box-shadow: -2px 0 12px rgba(0,0,0,0.06);
+            }
+            .viz-side-inner {
+                height: 100%;
+                overflow-y: auto;
+                padding: 18px 20px 40px;
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+            }
+            .viz-side-inner > .bible-map-wrap { margin-top: 0 !important; width: 100%; }
+            .viz-side-resizer {
+                position: absolute;
+                top: 0; bottom: 0;
+                left: -4px;
+                width: 8px;
+                cursor: col-resize;
+                z-index: 2;
+                background: transparent;
+            }
+            .viz-side-resizer:hover, .viz-side-resizer.dragging {
+                background: linear-gradient(to right, transparent 2px, var(--accent) 3px, var(--accent) 5px, transparent 6px);
+            }
+        }
+        /* Moved-state-indikator på studieelement-knappen */
+        .card-action-btn.move-over-btn {
+            padding: 4px 8px;
+            font-size: 1rem;
+            line-height: 1;
+        }
+        .card-action-btn.move-over-btn[data-moved="1"] { color: var(--accent); }
+        @media (max-width: 1099px) {
+            .card-action-btn.move-over-btn { display: none; }
+        }
 
         /* Fotnote om KI-bruk nederst på siden */
         .ai-footer-note {
@@ -1613,6 +1663,11 @@
             .nav-next { right: 0; left: calc(50% + 440px); justify-content: flex-start; padding-left: 18px; }
             body.compare-active .nav-prev { right: calc(50% + 650px); }
             body.compare-active .nav-next { left: calc(50% + 650px); }
+            /* Split-modus: piler flankerer tekstkolonnen (som er sentrert i venstre del av viewport) */
+            body.split-active .nav-prev { right: calc((100vw - var(--side-panel-width)) / 2 + 440px); }
+            body.split-active .nav-next { right: var(--side-panel-width); left: calc((100vw - var(--side-panel-width)) / 2 + 440px); }
+            body.split-active.compare-active .nav-prev { right: calc((100vw - var(--side-panel-width)) / 2 + 650px); }
+            body.split-active.compare-active .nav-next { right: var(--side-panel-width); left: calc((100vw - var(--side-panel-width)) / 2 + 650px); }
 
             .nav-btn.visible { display: flex; }
 
@@ -1665,6 +1720,51 @@
             .nav-next { right: 14px; bottom: calc(env(safe-area-inset-bottom, 0px) + 108px); }
             .nav-btn { width: 48px; height: 48px; font-size: 1.7rem; box-shadow: 0 4px 14px rgba(0,0,0,0.18); }
         }
+
+        /* ── Selection-popup (flyter over markert tekst) ── */
+        .selection-popup {
+            position: absolute;
+            z-index: 300;
+            display: flex;
+            gap: 2px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+            padding: 4px;
+            opacity: 0;
+            transform: translateY(4px);
+            transition: opacity 0.12s ease, transform 0.12s ease;
+            pointer-events: none;
+            font-size: 0.85rem;
+        }
+        .selection-popup.visible {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+        .selection-popup button {
+            background: transparent;
+            border: none;
+            color: var(--text);
+            padding: 6px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: background 0.15s;
+        }
+        .selection-popup button:hover { background: var(--bg-subtle, rgba(0,0,0,0.06)); }
+        [data-theme="dark"] .selection-popup button:hover { background: rgba(255,255,255,0.08); }
+        .user-highlight {
+            background: rgba(255, 220, 80, 0.55);
+            border-radius: 2px;
+            padding: 0 1px;
+            cursor: pointer;
+        }
+        [data-theme="dark"] .user-highlight { background: rgba(220, 175, 50, 0.4); }
 
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
@@ -2124,8 +2224,8 @@
                 transition: max-width 0.4s ease;
             }
             /* Sammenligningsvisning trenger bredere layout */
-            .page-top-mode.compare-active .search-area { max-width: 1300px; }
-            .page-top-mode.compare-active .results-wrapper { max-width: 1300px; }
+            .compare-active .search-area { max-width: 1300px; }
+            .compare-active .results-wrapper { max-width: 1300px; }
         }
         @media (max-width: 700px) {
             .app-header-inner { padding: 10px 16px; }
@@ -2209,6 +2309,16 @@
 <!-- Viz-paneler (Bibelkart, Tidslinje, Kontekst, Tema-kart, Generer referanser)
      plasseres her så de overlever navigering mellom søk. -->
 <div id="vizHosts" class="viz-hosts-wrap"></div>
+<div id="vizHostsSide" class="viz-hosts-side" aria-label="Studieelementer i sidepanel">
+    <div id="vizSideResizer" class="viz-side-resizer" title="Dra for å endre bredde" aria-hidden="true"></div>
+    <div id="vizSideInner" class="viz-side-inner"></div>
+</div>
+
+<div id="selectionPopup" class="selection-popup" role="toolbar" aria-label="Handlinger for markert tekst">
+    <button type="button" data-action="highlight" title="Uthev">🖍 Uthev</button>
+    <button type="button" data-action="copy" title="Kopier markert tekst">📋 Kopier</button>
+    <button type="button" data-action="lookup" title="Slå opp denne teksten">🔍 Slå opp</button>
+</div>
 
 <!-- Mobile sticky bottom search bar -->
 <div class="search-bottom-bar" id="searchBottomBar">
@@ -2714,7 +2824,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const strong = intensity > 0.55 ? ' strong' : '';
             const name = (booksData.find(b=>b.code===code)||{}).name || code;
             return `<div class="bible-map-cell${strong}" style="background:rgba(168,50,50,${alpha.toFixed(2)});"
-                onclick="${onClickFn}('${escAttr(code)}')" title="${escAttr(name)}: ${c}">
+                onclick="${onClickFn}('${escAttr(code)}', this)" title="${escAttr(name)}: ${c}">
                 <span>${escHtml(short)}</span>
                 <span class="bible-map-cell-count">${c}</span>
             </div>`;
@@ -2842,8 +2952,190 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const el = document.getElementById(id);
         if (!el || el.classList.contains('closing')) return;
         el.classList.add('closing');
-        setTimeout(() => { if (el.parentNode) el.remove(); }, 220);
+        setTimeout(() => {
+            if (el.parentNode) el.remove();
+            updateSplitActive();
+        }, 220);
     };
+
+    // ── Studieelement-sidepanel (Flytt over) ──
+    const vizHostsSide = document.getElementById('vizHostsSide');
+    const vizSideInner = document.getElementById('vizSideInner');
+    const vizSideResizer = document.getElementById('vizSideResizer');
+
+    function updateSplitActive() {
+        const hasSideChildren = vizSideInner && vizSideInner.children.length > 0;
+        document.body.classList.toggle('split-active', hasSideChildren);
+    }
+
+    // Oppdater "Flytt over"-knappens utseende basert på hvor elementet ligger
+    function refreshMoveBtnState(host) {
+        const btn = host.querySelector('.move-over-btn');
+        if (!btn) return;
+        const inSide = host.parentNode === vizSideInner;
+        btn.setAttribute('data-moved', inSide ? '1' : '0');
+        btn.setAttribute('title', inSide ? 'Flytt tilbake under' : 'Flytt over til høyre side');
+        btn.innerHTML = inSide ? '⇤' : '⇥';
+    }
+
+    window.toggleMoveOver = function(hostId) {
+        const host = document.getElementById(hostId);
+        if (!host) return;
+        const inSide = host.parentNode === vizSideInner;
+        if (inSide) {
+            vizHosts.appendChild(host);
+        } else {
+            vizSideInner.appendChild(host);
+        }
+        refreshMoveBtnState(host);
+        updateSplitActive();
+    };
+
+    // Injiser "Flytt over"-knapp i et nytt studieelement
+    function injectMoveOverBtn(host) {
+        if (!host || host.dataset.moveBtnInjected === '1') return;
+        // Finn den eksisterende Lukk-knappen (card-action-btn som kaller closeVizHost)
+        const closeBtn = host.querySelector('.card-action-btn');
+        if (!closeBtn) return;
+        const moveBtn = document.createElement('button');
+        moveBtn.className = 'card-action-btn move-over-btn';
+        moveBtn.setAttribute('data-moved', '0');
+        moveBtn.setAttribute('title', 'Flytt over til høyre side');
+        moveBtn.innerHTML = '⇥';
+        moveBtn.onclick = () => toggleMoveOver(host.id);
+        closeBtn.parentNode.insertBefore(moveBtn, closeBtn);
+        host.dataset.moveBtnInjected = '1';
+    }
+
+    // Observer nye studieelementer i begge containere
+    const studyObserver = new MutationObserver(muts => {
+        for (const m of muts) {
+            m.addedNodes.forEach(n => {
+                if (n.nodeType === 1 && n.id) {
+                    injectMoveOverBtn(n);
+                    refreshMoveBtnState(n);
+                }
+            });
+        }
+        updateSplitActive();
+    });
+    studyObserver.observe(vizHosts, { childList: true });
+    studyObserver.observe(vizSideInner, { childList: true });
+
+    // ── Drag-resizer for sidepanel ──
+    (function setupSideResizer() {
+        if (!vizSideResizer) return;
+        let dragging = false;
+        const MIN_RATIO = 0.25, MAX_RATIO = 0.55;
+        const saved = parseFloat(localStorage.getItem('sidePanelRatio'));
+        if (saved >= MIN_RATIO && saved <= MAX_RATIO) {
+            document.documentElement.style.setProperty('--side-panel-width', (saved * 100) + 'vw');
+        }
+        vizSideResizer.addEventListener('mousedown', e => {
+            dragging = true;
+            vizSideResizer.classList.add('dragging');
+            document.body.style.userSelect = 'none';
+            e.preventDefault();
+        });
+        window.addEventListener('mousemove', e => {
+            if (!dragging) return;
+            const ratio = Math.min(MAX_RATIO, Math.max(MIN_RATIO, (window.innerWidth - e.clientX) / window.innerWidth));
+            document.documentElement.style.setProperty('--side-panel-width', (ratio * 100) + 'vw');
+        });
+        window.addEventListener('mouseup', () => {
+            if (!dragging) return;
+            dragging = false;
+            vizSideResizer.classList.remove('dragging');
+            document.body.style.userSelect = '';
+            const cur = document.documentElement.style.getPropertyValue('--side-panel-width');
+            const r = parseFloat(cur) / 100;
+            if (r) localStorage.setItem('sidePanelRatio', r.toFixed(3));
+        });
+    })();
+
+    // ── Selection-popup: tilbyr handlinger når brukeren markerer tekst ──
+    (function setupSelectionPopup() {
+        const popup = document.getElementById('selectionPopup');
+        if (!popup) return;
+
+        function hidePopup() { popup.classList.remove('visible'); }
+
+        function isInSelectableArea(node) {
+            if (!node) return false;
+            const el = node.nodeType === 1 ? node : node.parentElement;
+            return !!el && !!el.closest('.results-wrapper, .viz-hosts-side, .viz-hosts-wrap');
+        }
+
+        function positionPopup(rect) {
+            popup.classList.add('visible');
+            const pw = popup.offsetWidth;
+            const ph = popup.offsetHeight;
+            let left = rect.left + rect.width / 2 - pw / 2 + window.scrollX;
+            left = Math.max(8, Math.min(window.innerWidth - pw - 8, left));
+            let top = rect.top + window.scrollY - ph - 8;
+            if (top < window.scrollY + 8) top = rect.bottom + window.scrollY + 8;
+            popup.style.left = left + 'px';
+            popup.style.top = top + 'px';
+        }
+
+        function maybeShow() {
+            const sel = window.getSelection();
+            if (!sel || sel.isCollapsed || sel.rangeCount === 0) { hidePopup(); return; }
+            const text = sel.toString().trim();
+            if (text.length < 2) { hidePopup(); return; }
+            const range = sel.getRangeAt(0);
+            if (!isInSelectableArea(range.startContainer) || !isInSelectableArea(range.endContainer)) { hidePopup(); return; }
+            const rect = range.getBoundingClientRect();
+            if (!rect || (!rect.width && !rect.height)) { hidePopup(); return; }
+            positionPopup(rect);
+        }
+
+        document.addEventListener('mouseup', () => setTimeout(maybeShow, 0));
+        document.addEventListener('keyup', e => {
+            if (e.shiftKey || ['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(e.key)) {
+                setTimeout(maybeShow, 0);
+            }
+        });
+        document.addEventListener('selectionchange', () => {
+            const sel = window.getSelection();
+            if (!sel || sel.isCollapsed) hidePopup();
+        });
+        document.addEventListener('mousedown', e => {
+            if (!popup.contains(e.target)) hidePopup();
+        });
+        window.addEventListener('scroll', hidePopup, true);
+
+        popup.addEventListener('click', async e => {
+            const btn = e.target.closest('button[data-action]');
+            if (!btn) return;
+            const sel = window.getSelection();
+            const text = sel ? sel.toString().trim() : '';
+            if (!text) { hidePopup(); return; }
+            const action = btn.getAttribute('data-action');
+
+            if (action === 'copy') {
+                try { await navigator.clipboard.writeText(text); showToast('Kopiert'); }
+                catch { showToast('Kunne ikke kopiere'); }
+                hidePopup();
+            } else if (action === 'lookup') {
+                hidePopup();
+                searchInput.value = text;
+                doSearch();
+            } else if (action === 'highlight') {
+                try {
+                    const range = sel.getRangeAt(0);
+                    // Bare marker hvis hele utvalget ligger innenfor én tekstnode-kontekst vi kan wrappe
+                    const mark = document.createElement('mark');
+                    mark.className = 'user-highlight';
+                    range.surroundContents(mark);
+                    sel.removeAllRanges();
+                } catch {
+                    showToast('Kan ikke utheve denne seksjonen');
+                }
+                hidePopup();
+            }
+        });
+    })();
 
     // Felles: render en viz-host (kart eller tidslinje) nederst. Toggler hvis allerede åpen.
     function renderXrefViz(hostId, titleHtml, innerHtml) {
@@ -5100,34 +5392,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // Inline expansion in grouped/flat text search — viser kun handlingsknapper
     window.expandVerse = function(el, ref, bookCode) {
-        // If already expanded, toggle off
-        const existing = el.querySelector('.inline-verse-expand');
-        if (existing) {
-            existing.remove();
-            el.classList.remove('expanded');
-            return;
-        }
-        // Collapse any other expanded items (both flat and grouped view)
-        document.querySelectorAll('.search-result-item.expanded, .book-group-item.expanded').forEach(item => {
-            item.querySelector('.inline-verse-expand')?.remove();
-            item.classList.remove('expanded');
-        });
-
-        // Parse ref — format: "Bokname K:V" (f.eks. "Matteus 3:16")
+        // Direkte navigasjon: hopp rett til kapittelet og highlight verset
         const match = ref.match(/(\d+):(\d+)\s*$/);
         if (!match) return;
         const ch = parseInt(match[1], 10);
         const verseNum = parseInt(match[2], 10);
         const bName = bookName(bookCode);
-
-        el.classList.add('expanded');
-        const expand = document.createElement('div');
-        expand.className = 'inline-verse-expand';
-        expand.innerHTML = `<div class="inline-verse-expand-actions">
-            <button class="card-action-btn" onclick="event.stopPropagation(); goToVerseFromExpand('${escAttr(ref)}', '${escAttr(bookCode)}', ${ch}, '${escAttr(bName)}', ${verseNum})">Les i kapittelet</button>
-            <button class="card-action-btn" onclick="event.stopPropagation(); goToVerseAndCompare('${escAttr(ref)}')">Sammenlign versjoner</button>
-        </div>`;
-        el.appendChild(expand);
+        goToVerseFromExpand(ref, bookCode, ch, bName, verseNum);
     };
 
     window.setCompareVersion = async function(v) {
