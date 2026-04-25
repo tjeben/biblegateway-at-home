@@ -2625,7 +2625,7 @@
                 align-items: center;
             }
             .controls.desktop-only { display: none; }
-            .results-wrapper { padding-top: 122px; padding-bottom: 24px; }
+            .results-wrapper { padding-top: calc(100px + env(safe-area-inset-top, 0px)); padding-bottom: 24px; }
         }
         @media (min-width: 701px) {
             .search-bottom-bar { display: none; }
