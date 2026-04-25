@@ -4281,6 +4281,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         document.addEventListener('click', e => {
             const inPopup = e.target.closest('#verseOpenPopup');
             if (inPopup) return;
+            // Klikk inni en note-popover (xref-knapper, "Vis alle", "Kart", "Tidslinje", lukk-X) skal
+            // ikke oppfanges her — la knappenes egne onclick-handlere kjøre fritt.
+            if (e.target.closest('.note-popover')) return;
             const span = e.target.closest('.verse-span');
             if (!span) { hidePopup(); return; }
             if (e.target.closest('.verse-num, .note-marker, .user-highlight')) { hidePopup(); return; }

@@ -17,10 +17,13 @@ Starts an HTTP server at `http://127.0.0.1:8421`, auto-opens the browser, and sh
 ### server.py
 
 - HTTP server on port 8421 using `http.server`
-- Loads all Bible versions from `bible_versions/` into memory at startup (`BibleData` class)
+- **Data backend: SQLite (`bible.db`).** `BibleData` opens the database once with `check_same_thread=False` and WAL mode; verse text is queried on-demand, only metadata (translations, version_books, book_chapters, book_groups) is cached in memory. The 91 MB `bible.db` file is gitignored — fetch separately. Old `bible_versions/` JSON folders + `cross_references_openbible.txt` are no longer used.
+- **Version names**: frontend keeps using folder-style names (`NB88`, `Bibel2011`); `VERSION_NAME_MAP` in `server.py` maps these to `translations.name` rows in the DB.
 - **Book alias system**: `BOOKS` list defines USFM codes, Norwegian names, and aliases (Norwegian, English, abbreviations). `ALIAS_MAP` provides case-insensitive lookup, `SORTED_ALIASES` enables longest-match-first parsing. `USFM_TO_ENG` maps codes to English display names.
 - **Query parser**: `parse_query()` splits on `;` into blocks. Context carries across blocks: a bare number after a `chapter:verse` block becomes a verse in the same chapter (e.g., `Joh 3:16;17` → John 3:16 and John 3:17); a bare number without prior verse context becomes a chapter. `identify_book()` uses longest-match-first against `SORTED_ALIASES`. `is_reference_query()` returns true if the first semicolon-part resolves to a known book.
-- **Text search** (`search_text()`): case-insensitive substring AND-match across all words, hard-capped at 150 results.
+- **Text search** (`search_text()`): quoted phrases use FTS5 (word-boundary match), bare words use SQL `LIKE` (substring), `-word` excludes via `NOT LIKE`, `+` between groups runs OR (union). Capped at `per_book` per book.
+- **Cross-references**: served from the `cross_references` table (~345k OpenBible TSK rows), version-independent, formatted to USFM strings (`JHN.3.16`, `JHN.3.16-18`, `JHN.3.16-4.5`).
+- **Section headings & footnotes**: fetched per chapter from the `headings` and `footnotes` tables and merged into verse objects (`section`, `footnotes` fields). Footnotes use a synthetic `#` marker since the DB doesn't store inline positions.
 - **Shutdown watchdog**: frontend pings `/api/heartbeat` every 3 seconds; a daemon thread calls `os._exit(0)` after 10 seconds without a ping.
 - **API endpoints**:
   - `/api/versions` → `{versions: [...]}`
@@ -39,22 +42,23 @@ Starts an HTTP server at `http://127.0.0.1:8421`, auto-opens the browser, and sh
 - `translateLabel(label, bookCode)` swaps Norwegian book names in server labels for the currently selected language (`bookLang`: `"no"` or `"en"`).
 - Dark mode is toggled via `data-theme="dark"` on the `<html>` element.
 
-## Bible Data Format
+## Bible Data Format (`bible.db`, SQLite + FTS5)
 
-Each version is a folder under `bible_versions/` containing 66 JSON files named `NN_USFM_BookName.json` (e.g., `43_JHN_Johannes.json`). The USFM code in the filename is what the server uses as the book identifier.
+| Table | Description |
+|-------|-------------|
+| `translations` | `(id, name, full_name, language)` — Bible versions. `id` matches bible.com IDs. |
+| `books` | `(usfm, order_num, name_no, name_en, testament)` — 66 books. |
+| `verses` | `(id, translation_id, book_usfm, chapter, verse, text)`, indexed `(translation_id, book_usfm, chapter)`. |
+| `headings` | `(translation_id, book_usfm, chapter, verse, text)` — section headings. |
+| `footnotes` | `(translation_id, book_usfm, chapter, verse, text)` — translation footnotes. |
+| `cross_references` | `(from_book, from_chapter, from_verse, to_book, to_chapter, to_verse_start, to_verse_end, to_chapter_end, votes)` — ~345k OpenBible TSK rows, version-independent. |
+| `verses_fts` | FTS5 virtual table (content=verses, tokenize=unicode61). |
+| `book_groups` + `book_group_members` | Named groups like `gt`, `nt`, `paulusbrevene`, `evangeliene`. Available in `BibleData.book_groups`; not yet wired into the search prefix parser. |
 
-```json
-{
-  "JHN.1.1": "In the beginning was the Word...",
-  "JHN.1.2": "He was in the beginning with God."
-}
-```
-
-Keys are `BOOK.CHAPTER.VERSE`. All data is loaded into memory at startup.
+`bible.db` is ~91 MB and is **not** committed to git (see `.gitignore`). Fetch it separately and place in project root.
 
 ## Key Patterns
 
-- **Adding a new Bible version**: Drop a folder with correctly-named JSON files into `bible_versions/`. The server auto-discovers it. Add a display name entry to `VERSION_DISPLAY` in index.html if the folder name isn't presentation-ready.
+- **Adding a new Bible version**: insert a row in `translations` and import verses/headings/footnotes. The `id` should match bible.com's translation ID. Add a display name entry to `VERSION_DISPLAY` in index.html, and a `VERSION_NAME_MAP` entry in server.py if the frontend name differs from the DB name.
 - **Adding a new book alias**: Add to the relevant tuple in the `BOOKS` list in server.py. Aliases are lowercase.
-- **Adding a new USFM book code**: If a scraped Bible uses a non-standard USFM code (like `NAM` instead of `NAH` for Nahum), the `BOOKS` entry must match the code used in the JSON filenames.
 - **Theming**: CSS variables in `:root` and `[data-theme="dark"]` control all colors. Accent color is red (`#a83232` light / `#c94444` dark). The `data-theme` attribute is set on `<html>`.

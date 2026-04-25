@@ -4,3 +4,9 @@ __pycache__/
 
 # Scraper output logs
 scraper/scrape_*.log
+
+# Bible database (~91 MB, ikke commit til git — last ned separat)
+bible.db
+bible.db-wal
+bible.db-shm
+bible.db-journal

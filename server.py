@@ -7,6 +7,7 @@ import http.server
 import json
 import os
 import re
+import sqlite3
 import sys
 import webbrowser
 import urllib.parse
@@ -24,7 +25,24 @@ from pathlib import Path
 
 PORT = 8421
 BASE_DIR = Path(__file__).parent
-BIBLE_DIR = BASE_DIR / "bible_versions"
+BIBLE_DB = BASE_DIR / "bible.db"
+
+# Mapping mellom URL-/frontend-versjonsnavn (gammelt mappe-navn) og translations.name i bible.db.
+# Holder API-kontrakten stabil: frontend fortsetter å sende "NB88", "Bibel2011" osv.
+VERSION_NAME_MAP = {
+    # frontend-navn → DB translations.name
+    "NB88":      "NB88/07",
+    "BGO":       "BGO",
+    "Bibel2011": "Bibel 2011",
+    "Bibel1930": "Bibel 1930",
+    "KJV":       "KJV",
+    "ESV":       "ESV",
+    "NIV":       "NIV",
+    "NKJV":      "NKJV",
+    "NASB1995":  "NASB 1995",
+}
+# Reverse: DB-navn → frontend-navn (det vi returnerer i /api/versions)
+DB_TO_FRONTEND_NAME = {v: k for k, v in VERSION_NAME_MAP.items()}
 
 # ──────────────────────────────────────────────
 # Book alias mapping: alias → USFM code
@@ -363,172 +381,291 @@ SORTED_ALIASES = sorted(ALIAS_MAP.keys(), key=len, reverse=True)
 
 
 # ──────────────────────────────────────────────
-# Bible data loading
+# Bible data — SQLite-backed
 # ──────────────────────────────────────────────
 
-def _entry_text(value):
-    """Hent verstekst uansett om verdien er en string (gammelt format) eller et dict (nytt)."""
-    if isinstance(value, dict):
-        return value.get("text", "")
-    return value or ""
 
-
-def _entry_meta(value):
-    """Hent fotnoter/xrefs/seksjon fra et vers. Tomme lister/None for gammelt format."""
-    if isinstance(value, dict):
-        return {
-            "footnotes": value.get("footnotes") or [],
-            "xrefs": value.get("xrefs") or [],
-            "section": value.get("section"),
-        }
-    return {"footnotes": [], "xrefs": [], "section": None}
+def _format_xref_ref(to_book, to_chapter, to_verse_start, to_verse_end, to_chapter_end):
+    """Bygg USFM-strenger som frontend forventer fra cross_references-rader.
+    Eksempler:
+      single:           JHN.3.16
+      verse range:      JHN.3.16-18
+      cross-chapter:    JHN.3.16-4.5
+    """
+    base = f"{to_book}.{to_chapter}.{to_verse_start}"
+    if to_chapter_end and to_chapter_end != to_chapter:
+        end_v = to_verse_end if to_verse_end else to_verse_start
+        return f"{base}-{to_chapter_end}.{end_v}"
+    if to_verse_end and to_verse_end != to_verse_start:
+        return f"{base}-{to_verse_end}"
+    return base
 
 
 class BibleData:
+    """SQLite-backed Bible data. Åpner bible.db én gang og lar tråder dele connection
+    via check_same_thread=False (WAL-modus gjør samtidige lesninger trygt)."""
+
     def __init__(self):
-        self.versions = {}  # version_name → { usfm_code → { "BOOK.CH.VS": text } }
-        self.version_books = {}  # version_name → [usfm_codes in order]
-        self.book_chapters = {}  # version_name → { usfm_code → max_chapter }
-        self._load_all()
+        if not BIBLE_DB.exists():
+            raise FileNotFoundError(
+                f"bible.db not found at {BIBLE_DB}. "
+                "Last ned databasen før du starter serveren."
+            )
+        self._conn = sqlite3.connect(
+            str(BIBLE_DB), check_same_thread=False, isolation_level=None
+        )
+        self._conn.row_factory = sqlite3.Row
+        self._conn.execute("PRAGMA journal_mode=WAL")
+        self._conn.execute("PRAGMA query_only=1")
+        self._lock = threading.Lock()  # serialiser SQL-kall — sqlite3-modulen er ikke fully reentrant
 
-    def _load_all(self):
-        if not BIBLE_DIR.exists():
-            print(f"Warning: {BIBLE_DIR} not found")
-            return
-        for version_dir in sorted(BIBLE_DIR.iterdir()):
-            if not version_dir.is_dir():
-                continue
-            vname = version_dir.name
-            self.versions[vname] = {}
-            self.book_chapters[vname] = {}
-            codes = []
-            for book_file in sorted(version_dir.glob("*.json")):
-                parts = book_file.stem.split("_", 2)
-                if len(parts) < 2:
-                    continue
-                code = parts[1]
-                try:
-                    with open(book_file, "r", encoding="utf-8") as f:
-                        self.versions[vname][code] = json.load(f)
-                    codes.append(code)
-                    # Compute max chapter — defensivt mot bro-nøkler og andre edge cases
-                    max_ch = 0
-                    for key in self.versions[vname][code]:
-                        key_parts = key.split(".")
-                        if len(key_parts) < 2:
-                            continue
-                        ch_str = key_parts[1].split("+")[0]
-                        try:
-                            ch = int(ch_str)
-                        except ValueError:
-                            continue
-                        if ch > max_ch:
-                            max_ch = ch
-                    self.book_chapters[vname][code] = max_ch
-                except Exception as e:
-                    print(f"Warning: Failed to load {book_file}: {e}")
-            self.version_books[vname] = codes
-        print(f"Loaded {len(self.versions)} Bible version(s): {', '.join(self.versions.keys())}")
+        # Metadata — caches
+        self.translations = {}      # frontend_name → {id, db_name, full_name, language}
+        self.version_books = {}     # frontend_name → [usfm_codes in canonical order]
+        self.book_chapters = {}     # frontend_name → {usfm_code → max_chapter}
+        self.book_groups = {}       # group_key (lowercase) → [usfm_codes]
+        self._load_metadata()
 
-    def get_verses(self, version, book_code, chapter, verse_start=None, verse_end=None):
-        """Get verses from a specific book/chapter/verse range."""
-        if version not in self.versions:
-            return None, f"Version '{version}' not found"
-        if book_code not in self.versions[version]:
-            return None, f"Book '{book_code}' not found in {version}"
+    # ── intern: trådsikker spørring ──
+    def _query(self, sql, params=()):
+        with self._lock:
+            return self._conn.execute(sql, params).fetchall()
 
-        data = self.versions[version][book_code]
+    def _query_one(self, sql, params=()):
+        with self._lock:
+            return self._conn.execute(sql, params).fetchone()
+
+    # ── oppstart ──
+    def _load_metadata(self):
+        # Translations
+        for row in self._query(
+            "SELECT id, name, full_name, language FROM translations"
+        ):
+            db_name = row["name"]
+            frontend_name = DB_TO_FRONTEND_NAME.get(db_name, db_name)
+            self.translations[frontend_name] = {
+                "id": row["id"],
+                "db_name": db_name,
+                "full_name": row["full_name"],
+                "language": row["language"],
+            }
+
+        # version_books + book_chapters per oversettelse
+        for fname, meta in self.translations.items():
+            tid = meta["id"]
+            rows = self._query(
+                """
+                SELECT v.book_usfm AS usfm, MAX(v.chapter) AS max_ch
+                FROM verses v
+                JOIN books b ON b.usfm = v.book_usfm
+                WHERE v.translation_id = ?
+                GROUP BY v.book_usfm
+                ORDER BY b.order_num
+                """,
+                (tid,),
+            )
+            self.version_books[fname] = [r["usfm"] for r in rows]
+            self.book_chapters[fname] = {r["usfm"]: r["max_ch"] for r in rows}
+
+        # book_groups (nøkkel → bok-koder)
+        for grow in self._query("SELECT id, key FROM book_groups"):
+            members = self._query(
+                "SELECT book_usfm FROM book_group_members WHERE group_id=?",
+                (grow["id"],),
+            )
+            self.book_groups[grow["key"].lower()] = [r["book_usfm"] for r in members]
+
+        print(
+            f"Loaded {len(self.translations)} Bible version(s) from bible.db: "
+            f"{', '.join(self.translations.keys())}"
+        )
+
+    # ── oppslag av oversettelses-id, med tilbakefall til DB-navn ──
+    def _resolve_tid(self, version):
+        meta = self.translations.get(version)
+        if meta:
+            return meta["id"], None
+        # Tilbakefall: prøv DB-navnet direkte (i tilfelle frontend sender 'NB88/07' osv.)
+        for fname, m in self.translations.items():
+            if m["db_name"] == version:
+                return m["id"], None
+        return None, f"Version '{version}' not found"
+
+    # ── intern: hent rader for et span og bygg meta (footnotes + headings) ──
+    def _fetch_span(self, tid, book, ch_start, vs_start, ch_end, vs_end):
+        """Returner rader (chapter, verse, text) for et span, sortert."""
+        # Bygg WHERE-klausul som dekker både ett-kapittel- og kryss-kapittel-span
+        if ch_start == ch_end:
+            return self._query(
+                """
+                SELECT chapter, verse, text FROM verses
+                WHERE translation_id=? AND book_usfm=? AND chapter=?
+                  AND verse BETWEEN ? AND ?
+                ORDER BY verse
+                """,
+                (tid, book, ch_start, vs_start, vs_end),
+            )
+        # Kryss-kapittel: første kapittel fra vs_start, siste til vs_end, mellomliggende komplette
+        rows = self._query(
+            """
+            SELECT chapter, verse, text FROM verses
+            WHERE translation_id=? AND book_usfm=?
+              AND (
+                (chapter = ? AND verse >= ?)
+                OR (chapter > ? AND chapter < ?)
+                OR (chapter = ? AND verse <= ?)
+              )
+            ORDER BY chapter, verse
+            """,
+            (tid, book, ch_start, vs_start, ch_start, ch_end, ch_end, vs_end),
+        )
+        return rows
+
+    def _fetch_headings(self, tid, book, ch_start, ch_end):
+        rows = self._query(
+            """
+            SELECT chapter, verse, text FROM headings
+            WHERE translation_id=? AND book_usfm=? AND chapter BETWEEN ? AND ?
+            """,
+            (tid, book, ch_start, ch_end),
+        )
+        return {(r["chapter"], r["verse"]): r["text"] for r in rows}
+
+    def _fetch_footnotes(self, tid, book, ch_start, ch_end):
+        """Returner {(ch, vs): [{marker, text}, ...]} med syntetiske markører."""
+        rows = self._query(
+            """
+            SELECT chapter, verse, text FROM footnotes
+            WHERE translation_id=? AND book_usfm=? AND chapter BETWEEN ? AND ?
+            ORDER BY id
+            """,
+            (tid, book, ch_start, ch_end),
+        )
+        out = {}
+        for r in rows:
+            key = (r["chapter"], r["verse"])
+            out.setdefault(key, []).append({"marker": "#", "text": r["text"]})
+        return out
+
+    def _fetch_xrefs(self, book, ch_start, ch_end):
+        """Returner {(ch, vs): [{r, v}, ...]} sortert på votes desc.
+        Versjonsuavhengig — samme xrefs for alle oversettelser."""
+        rows = self._query(
+            """
+            SELECT from_chapter, from_verse,
+                   to_book, to_chapter, to_verse_start, to_verse_end, to_chapter_end, votes
+            FROM cross_references
+            WHERE from_book=? AND from_chapter BETWEEN ? AND ?
+            ORDER BY from_chapter, from_verse, votes DESC
+            """,
+            (book, ch_start, ch_end),
+        )
+        out = {}
+        for r in rows:
+            key = (r["from_chapter"], r["from_verse"])
+            ref = _format_xref_ref(
+                r["to_book"], r["to_chapter"], r["to_verse_start"],
+                r["to_verse_end"], r["to_chapter_end"],
+            )
+            out.setdefault(key, []).append({"r": ref, "v": r["votes"]})
+        return out
+
+    def _build_verse_results(self, tid, book, rows, ch_start, ch_end, want_meta=True):
+        """Bygg liste av (vs, text, chapter, meta) fra rader + meta-tabeller."""
+        if not rows:
+            return []
+        headings = self._fetch_headings(tid, book, ch_start, ch_end) if want_meta else {}
+        footnotes = self._fetch_footnotes(tid, book, ch_start, ch_end) if want_meta else {}
+        xrefs = self._fetch_xrefs(book, ch_start, ch_end) if want_meta else {}
         results = []
+        for r in rows:
+            key = (r["chapter"], r["verse"])
+            meta = {
+                "footnotes": footnotes.get(key, []),
+                "xrefs": xrefs.get(key, []),
+                "section": headings.get(key),
+            }
+            results.append((r["verse"], r["text"], r["chapter"], meta))
+        return results
+
+    # ── offentlig API: samme signatur som før ──
+    def get_verses(self, version, book_code, chapter, verse_start=None, verse_end=None):
+        tid, err = self._resolve_tid(version)
+        if err:
+            return None, err
+        if book_code not in self.book_chapters.get(version, {}):
+            return None, f"Book '{book_code}' not found in {version}"
 
         if verse_start is None:
-            # Whole chapter
-            prefix = f"{book_code}.{chapter}."
-            for key, value in data.items():
-                if key.startswith(prefix):
-                    # Håndter vers-broer som "EPH.1.15+EPH.1.16" → bruk første vers
-                    first_parts = key.split("+")[0].split(".")
-                    try:
-                        vs_num = int(first_parts[-1])
-                    except ValueError:
-                        continue
-                    results.append((vs_num, _entry_text(value), _entry_meta(value)))
-            if not results:
+            rows = self._query(
+                """
+                SELECT chapter, verse, text FROM verses
+                WHERE translation_id=? AND book_usfm=? AND chapter=?
+                ORDER BY verse
+                """,
+                (tid, book_code, chapter),
+            )
+            if not rows:
                 return None, f"Chapter {chapter} not found in {USFM_TO_NAME.get(book_code, book_code)}"
-            results.sort(key=lambda x: x[0])
-        else:
-            end = verse_end if verse_end is not None else verse_start
-            for v in range(verse_start, end + 1):
-                key = f"{book_code}.{chapter}.{v}"
-                if key in data:
-                    results.append((v, _entry_text(data[key]), _entry_meta(data[key])))
-            if not results:
-                ref = f"{chapter}:{verse_start}" + (f"-{verse_end}" if verse_end and verse_end != verse_start else "")
-                return None, f"Verses {ref} not found in {USFM_TO_NAME.get(book_code, book_code)}"
+            results = self._build_verse_results(tid, book_code, rows, chapter, chapter)
+            # get_verses (whole chapter) returnerer (vs, text, meta) — uten kapittel
+            return [(v, t, m) for v, t, _ch, m in results], None
 
-        return results, None
+        end = verse_end if verse_end is not None else verse_start
+        rows = self._query(
+            """
+            SELECT chapter, verse, text FROM verses
+            WHERE translation_id=? AND book_usfm=? AND chapter=?
+              AND verse BETWEEN ? AND ?
+            ORDER BY verse
+            """,
+            (tid, book_code, chapter, verse_start, end),
+        )
+        if not rows:
+            ref = f"{chapter}:{verse_start}" + (f"-{verse_end}" if verse_end and verse_end != verse_start else "")
+            return None, f"Verses {ref} not found in {USFM_TO_NAME.get(book_code, book_code)}"
+        results = self._build_verse_results(tid, book_code, rows, chapter, chapter)
+        return [(v, t, m) for v, t, _ch, m in results], None
 
     def get_verses_cross_chapter(self, version, book_code, ch_start, vs_start, ch_end, vs_end):
-        """Get verses spanning multiple chapters."""
-        if version not in self.versions:
-            return None, f"Version '{version}' not found"
-        if book_code not in self.versions[version]:
+        tid, err = self._resolve_tid(version)
+        if err:
+            return None, err
+        if book_code not in self.book_chapters.get(version, {}):
             return None, f"Book '{book_code}' not found in {version}"
 
-        data = self.versions[version][book_code]
-        results = []
-
-        for ch in range(ch_start, ch_end + 1):
-            prefix = f"{book_code}.{ch}."
-            chapter_verses = []
-            for key, value in data.items():
-                if key.startswith(prefix):
-                    first_parts = key.split("+")[0].split(".")
-                    try:
-                        vs_num = int(first_parts[-1])
-                    except ValueError:
-                        continue
-                    chapter_verses.append((vs_num, _entry_text(value), ch, _entry_meta(value)))
-
-            chapter_verses.sort(key=lambda x: x[0])
-
-            for vs_num, text, ch_num, meta in chapter_verses:
-                if ch_num == ch_start and vs_num < vs_start:
-                    continue
-                if ch_num == ch_end and vs_num > vs_end:
-                    continue
-                results.append((vs_num, text, ch_num, meta))
-
-        if not results:
+        rows = self._fetch_span(tid, book_code, ch_start, vs_start, ch_end, vs_end)
+        if not rows:
             return None, f"Verses {ch_start}:{vs_start}-{ch_end}:{vs_end} not found"
-
-        return results, None
+        results = self._build_verse_results(tid, book_code, rows, ch_start, ch_end)
+        # get_verses_cross_chapter returnerer (vs, text, ch, meta)
+        return [(v, t, ch, m) for v, t, ch, m in results], None
 
     def get_chapter_range(self, version, book_code, ch_start, ch_end):
-        """Get all verses from a range of chapters."""
-        if version not in self.versions:
-            return None, f"Version '{version}' not found"
-        if book_code not in self.versions[version]:
+        tid, err = self._resolve_tid(version)
+        if err:
+            return None, err
+        if book_code not in self.book_chapters.get(version, {}):
             return None, f"Book '{book_code}' not found in {version}"
 
-        data = self.versions[version][book_code]
-        results = []
-
-        for ch in range(ch_start, ch_end + 1):
-            prefix = f"{book_code}.{ch}."
-            for key, value in data.items():
-                if key.startswith(prefix):
-                    first_parts = key.split("+")[0].split(".")
-                    try:
-                        vs_num = int(first_parts[-1])
-                    except ValueError:
-                        continue
-                    results.append((vs_num, _entry_text(value), ch, _entry_meta(value)))
-
-        if not results:
+        rows = self._query(
+            """
+            SELECT chapter, verse, text FROM verses
+            WHERE translation_id=? AND book_usfm=? AND chapter BETWEEN ? AND ?
+            ORDER BY chapter, verse
+            """,
+            (tid, book_code, ch_start, ch_end),
+        )
+        if not rows:
             return None, f"Chapters {ch_start}-{ch_end} not found in {USFM_TO_NAME.get(book_code, book_code)}"
+        results = self._build_verse_results(tid, book_code, rows, ch_start, ch_end)
+        return [(v, t, ch, m) for v, t, ch, m in results], None
 
-        results.sort(key=lambda x: (x[2], x[0]))
-        return results, None
+    # ── kompatibilitetsegenskap brukt enkelte steder i koden ──
+    @property
+    def versions(self):
+        """Liste over versjonsnavn (frontend-navn). Kompat: gammel kode bruker `bible_data.versions`."""
+        return self.translations
 
 
 # ──────────────────────────────────────────────
@@ -898,79 +1035,93 @@ def has_search_operators(query):
     return False
 
 
-_word_re_cache = {}
+def _fts_escape_phrase(term):
+    """Escape \" inside an FTS5 phrase literal so 'foo"bar' blir trygt sitert."""
+    return term.replace('"', '""')
 
 
-def _word_match(term, text_lower):
-    """Ordgrense-match for et ord/frase. Bruker \\b-grenser så 'peter' ikke
-    matcher 'trompeter'. Støtter Unicode (norske tegn)."""
-    pat = _word_re_cache.get(term)
-    if pat is None:
-        pat = re.compile(r'\b' + re.escape(term) + r'\b', re.UNICODE)
-        _word_re_cache[term] = pat
-    return bool(pat.search(text_lower))
+def _build_search_sql(group, tid, book_filter):
+    """Bygg (sql, params) for én OR-gruppe.
+    Quoted phrases bruker FTS5 (ordgrense). Bare ord og eksklusjon bruker LIKE (substring)."""
+    phrases, words, excluded = group
+    where = ["v.translation_id = ?"]
+    params = [tid]
+
+    join = ""
+    if phrases:
+        join = "JOIN verses_fts fts ON fts.rowid = v.id"
+        # FTS5 MATCH: AND mellom flere fraser kan uttrykkes som mellomrom-separert kjede
+        match = " ".join(f'"{_fts_escape_phrase(p)}"' for p in phrases)
+        where.append("verses_fts MATCH ?")
+        params.append(match)
+
+    for w in words:
+        where.append("LOWER(v.text) LIKE ? ESCAPE '\\'")
+        params.append(f"%{_like_escape(w)}%")
+    for w in excluded:
+        where.append("LOWER(v.text) NOT LIKE ? ESCAPE '\\'")
+        params.append(f"%{_like_escape(w)}%")
+    if book_filter:
+        where.append("v.book_usfm = ?")
+        params.append(book_filter)
+
+    sql = f"""
+        SELECT v.book_usfm, v.chapter, v.verse, v.text
+        FROM verses v {join}
+        WHERE {' AND '.join(where)}
+    """
+    return sql, params
+
+
+def _like_escape(s):
+    """Escape % og _ i LIKE-mønster."""
+    return s.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
 
 
 def search_text(bible_data, version, query, per_book=10, book_filter=None):
-    """Full-text search with operator support.
+    """Full-text search via SQLite (FTS5 for fraser, LIKE for ord).
     Returns (results, book_totals)."""
     groups = parse_search_query(query)
-    # Filtrer bort tomme grupper
     groups = [g for g in groups if g[0] or g[1] or g[2]]
     if not groups:
         return [], {}
 
-    def matches_any_group(text_lower):
-        # Quoted phrases ("peter") → ordgrense-match (eksakt ord).
-        # Bare ord (peter) → substring-match (finner også 'trompeter').
-        # -word → substring-eksklusjon.
-        for phrases, words, excluded in groups:
-            if all(_word_match(p, text_lower) for p in phrases) \
-                    and all(w in text_lower for w in words) \
-                    and not any(w in text_lower for w in excluded):
-                return True
-        return False
+    tid, err = bible_data._resolve_tid(version)
+    if err:
+        return [], {}
 
+    # Kjør hver gruppe og union resultater (de-duplicate på (book, ch, vs))
+    seen = set()
+    rows_by_book = {}
+    for grp in groups:
+        sql, params = _build_search_sql(grp, tid, book_filter)
+        for r in bible_data._query(sql, tuple(params)):
+            key = (r["book_usfm"], r["chapter"], r["verse"])
+            if key in seen:
+                continue
+            seen.add(key)
+            rows_by_book.setdefault(r["book_usfm"], []).append(r)
+
+    # Sortér per bok i bibelsk rekkefølge (kapittel/vers-stigende), respektér per_book-grense
+    book_order = bible_data.version_books.get(version, [])
+    order_idx = {b: i for i, b in enumerate(book_order)}
+    sorted_books = sorted(rows_by_book.keys(), key=lambda b: order_idx.get(b, 999))
+
+    effective_per_book = 999999 if book_filter else per_book
     results = []
     book_totals = {}
-    books_to_search = [book_filter] if book_filter else bible_data.version_books.get(version, [])
-    effective_per_book = 999999 if book_filter else per_book
-
-    for book_code in books_to_search:
-        if book_code not in bible_data.versions.get(version, {}):
-            continue
+    for book_code in sorted_books:
+        rows = sorted(rows_by_book[book_code], key=lambda r: (r["chapter"], r["verse"]))
         book_name = USFM_TO_NAME.get(book_code, book_code)
-        data = bible_data.versions[version][book_code]
-        total = 0
-        for key, value in data.items():
-            text = _entry_text(value)
-            text_lower = text.lower()
-            if not matches_any_group(text_lower):
-                continue
-            total += 1
-            if total <= effective_per_book:
-                parts = key.split(".")
-                if len(parts) < 3:
-                    continue  # hopp over ugyldige nøkler (f.eks. intro-keys)
-                # Håndter vers-bro-nøkler som "EPH.1.15+EPH.1.16" (splittet blir parts[2]="15+EPH")
-                ch_str = parts[1].split("+")[0]
-                vs_str = parts[2].split("+")[0]
-                try:
-                    ch = int(ch_str)
-                    vs = int(vs_str)
-                except ValueError:
-                    sys.stderr.write(f"[search_text] hopper over ugyldig nøkkel: {key!r} i {version}/{book_code}\n")
-                    sys.stderr.flush()
-                    continue
-                results.append({
-                    "ref": f"{book_name} {ch}:{vs}",
-                    "book": book_code,
-                    "chapter": ch,
-                    "verse": vs,
-                    "text": text,
-                })
-        if total > 0:
-            book_totals[book_code] = total
+        book_totals[book_code] = len(rows)
+        for r in rows[:effective_per_book]:
+            results.append({
+                "ref": f"{book_name} {r['chapter']}:{r['verse']}",
+                "book": book_code,
+                "chapter": r["chapter"],
+                "verse": r["verse"],
+                "text": r["text"],
+            })
     return results, book_totals
 
 

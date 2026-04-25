@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyd
+.git/
+.claude/
+
+# bible.db hentes via curl i Dockerfile — ikke ta med fra build-kontekst
+bible.db
+bible.db-wal
+bible.db-shm
+bible.db-journal
+
+# Gammel JSON-data og xref-tekstfil — ikke lenger brukt av server.py
+bible_versions/
+cross_references_openbible.txt
+
+# Scraper og dokumentasjon trengs ikke i imaget
+scraper/
+*.log
