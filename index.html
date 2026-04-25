@@ -4303,9 +4303,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             e.stopPropagation();
             const btn = e.target.closest('button[data-action="open-verse"]');
             if (!btn || !activeRef) return;
+            // Snapshot før hidePopup nullstiller activeRef/activeVersion.
+            const ref = activeRef;
+            const version = activeVersion;
             hidePopup();
-            if (activeVersion) navigateToRefInVersion(activeRef, activeVersion);
-            else navigateToRef(activeRef);
+            if (version) navigateToRefInVersion(ref, version);
+            else navigateToRef(ref);
         });
 
         window.addEventListener('scroll', hidePopup, true);
