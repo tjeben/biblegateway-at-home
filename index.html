@@ -1349,6 +1349,33 @@
             contain-intrinsic-size: auto 64px;
         }
 
+        /* ── Felles slide-down/up for bibelkart + statistikk ── */
+        .search-viz-collapse {
+            display: grid;
+            grid-template-rows: 0fr;
+            opacity: 0;
+            margin-top: 0;
+            transition: grid-template-rows 0.32s cubic-bezier(.2, .8, .2, 1),
+                        opacity 0.22s ease,
+                        margin-top 0.32s cubic-bezier(.2, .8, .2, 1);
+        }
+        .search-viz-collapse.open {
+            grid-template-rows: 1fr;
+            opacity: 1;
+            margin-top: 6px;
+        }
+        .search-viz-collapse > .search-viz-inner {
+            overflow: hidden;
+            min-height: 0;
+        }
+        /* Inni search-viz: drep doble animasjoner og fjern toppmargin —
+           parent .search-viz-collapse styrer slide-down/up alene. */
+        .search-viz-collapse .bible-map-wrap,
+        .search-viz-collapse .stats-wrap {
+            animation: none;
+            margin-top: 0;
+        }
+
         /* ── Søke-statistikk-panel ── */
         .stats-wrap {
             background: var(--card-bg);
@@ -3313,43 +3340,77 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     // Toggle åpning av kartet (fra knapp)
+    // ── Felles toggle for bibelkart + statistikk ─────────────────────────
+    // Begge åpner og lukker med samme slide-down/up-animasjon, og er helt
+    // borte fra DOM når de er lukket — så ingen tom boks ligger etter søk.
+    function _findVizHost(btn) {
+        const controls = btn.closest('.search-controls');
+        if (!controls) return null;
+        let sib = controls.nextElementSibling;
+        while (sib) {
+            if (sib.classList && sib.classList.contains('search-viz-host')) return sib;
+            sib = sib.nextElementSibling;
+        }
+        return null;
+    }
+
+    function _closeVizPanel(host, onDone) {
+        const panel = host.firstElementChild;
+        if (!panel) { if (onDone) onDone(); return; }
+        panel.classList.remove('open');
+        // Vent på transition-end (eller fallback-timer) før vi fjerner fra DOM
+        let done = false;
+        const finish = () => {
+            if (done) return;
+            done = true;
+            panel.removeEventListener('transitionend', finish);
+            host.innerHTML = '';
+            if (onDone) onDone();
+        };
+        panel.addEventListener('transitionend', finish);
+        setTimeout(finish, 380);
+    }
+
+    function _openVizPanel(host, innerHtml, kind) {
+        host.innerHTML = `<div class="search-viz-collapse" data-kind="${kind}"><div class="search-viz-inner">${innerHtml}</div></div>`;
+        const panel = host.firstElementChild;
+        // Trigger animasjon i neste frame så transition fra 0fr → 1fr fyrer
+        requestAnimationFrame(() => requestAnimationFrame(() => panel.classList.add('open')));
+    }
+
+    function _resetSiblingButton(controls, selector, label) {
+        const b = controls && controls.querySelector(selector);
+        if (b) { b.classList.remove('active'); b.innerHTML = label; }
+    }
+
     window.toggleBibleMap = function(btn) {
-        let wrap = btn.closest('.bible-map-wrap');
-        if (!wrap) {
-            const allWraps = document.querySelectorAll('.search-controls ~ .bible-map-wrap, .search-controls + .bible-map-wrap');
-            for (const w of allWraps) {
-                if (btn.compareDocumentPosition(w) & Node.DOCUMENT_POSITION_FOLLOWING) {
-                    wrap = w;
-                    break;
-                }
-            }
-            if (!wrap) {
-                // Fallback: første bible-map-wrap som følger knappen i DOM
-                const all = document.querySelectorAll('.bible-map-wrap');
-                for (const w of all) {
-                    if (btn.compareDocumentPosition(w) & Node.DOCUMENT_POSITION_FOLLOWING) { wrap = w; break; }
-                }
-            }
+        const host = _findVizHost(btn);
+        if (!host) return;
+        const controls = btn.closest('.search-controls');
+        const existing = host.firstElementChild;
+
+        // Klikk på samme knapp igjen → lukk
+        if (existing && existing.dataset.kind === 'map') {
+            _closeVizPanel(host);
+            btn.classList.remove('active');
+            btn.innerHTML = '🗺️ Bibelkart';
+            return;
         }
-        if (!wrap) return;
-        const map = wrap.querySelector('.bible-map');
-        const isOpen = map.classList.toggle('open');
-        btn.classList.toggle('active', isOpen);
-        btn.innerHTML = isOpen ? '🗺️ Skjul bibelkart' : '🗺️ Bibelkart';
-        // Lukk statistikk-panelet hvis kartet åpnes
-        if (isOpen) {
-            const controls = btn.closest('.search-controls');
-            const statsWrap = controls && controls.parentNode.querySelector('.stats-wrap[data-open="1"]');
-            if (statsWrap) {
-                statsWrap.style.display = 'none';
-                statsWrap.setAttribute('data-open', '0');
-                const statsBtn = controls.querySelector('.stats-toggle-inline');
-                if (statsBtn) {
-                    statsBtn.classList.remove('active');
-                    statsBtn.innerHTML = '📊 Statistikk';
-                }
-            }
-        }
+
+        const cache = textSearchCache;
+        if (!cache || !cache.bookTotals) return;
+        const mapHtml = buildBibleMapHtml(cache.bookTotals, 'mapJumpToSearchBook');
+        const inner = `<div class="bible-map-wrap"><div class="bible-map open"><div class="bible-map-inner">${mapHtml}</div></div></div>`;
+
+        const showMap = () => {
+            _openVizPanel(host, inner, 'map');
+            btn.classList.add('active');
+            btn.innerHTML = '🗺️ Skjul bibelkart';
+            _resetSiblingButton(controls, '.stats-toggle-inline', '📊 Statistikk');
+        };
+        // Hvis statistikk er åpen: animer den ut først, så åpne kartet
+        if (existing) _closeVizPanel(host, showMap);
+        else showMap();
     };
 
     // Kjør samme tekstsøk, men i 'Alle versjoner'-modus
@@ -3365,41 +3426,30 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ── Statistikk-panel for tekstsøk ──
     window.toggleStatsPanel = function(btn) {
+        const host = _findVizHost(btn);
+        if (!host) return;
         const controls = btn.closest('.search-controls');
-        if (!controls) return;
-        // Finn stats-wrap rett etter search-controls (ev. forbi bible-map-wrap)
-        let statsWrap = null;
-        let sib = controls.nextElementSibling;
-        while (sib) {
-            if (sib.classList && sib.classList.contains('stats-wrap')) { statsWrap = sib; break; }
-            sib = sib.nextElementSibling;
-        }
-        if (!statsWrap) return;
-        const isOpen = statsWrap.getAttribute('data-open') === '1';
-        if (isOpen) {
-            statsWrap.style.display = 'none';
-            statsWrap.setAttribute('data-open', '0');
+        const existing = host.firstElementChild;
+
+        if (existing && existing.dataset.kind === 'stats') {
+            _closeVizPanel(host);
             btn.classList.remove('active');
             btn.innerHTML = '📊 Statistikk';
-        } else {
-            // Lukk bibelkartet hvis åpent (mutually eksklusivt)
-            const mapBtn = controls.querySelector('.bible-map-toggle-inline');
-            const mapWrap = controls.parentNode.querySelector('.bible-map-wrap');
-            if (mapWrap) {
-                const map = mapWrap.querySelector('.bible-map');
-                if (map && map.classList.contains('open')) {
-                    map.classList.remove('open');
-                    if (mapBtn) {
-                        mapBtn.classList.remove('active');
-                        mapBtn.innerHTML = '🗺️ Bibelkart';
-                    }
-                }
-            }
-            statsWrap.style.display = '';
-            statsWrap.setAttribute('data-open', '1');
+            return;
+        }
+
+        const cache = textSearchCache;
+        if (!cache) return;
+        const inner = `<div class="stats-wrap" data-open="1">${buildSearchStatsHtml(cache.bookTotals, cache.totalMatches != null ? cache.totalMatches : (cache.results || []).length, cache.query)}</div>`;
+
+        const showStats = () => {
+            _openVizPanel(host, inner, 'stats');
             btn.classList.add('active');
             btn.innerHTML = '📊 Skjul statistikk';
-        }
+            _resetSiblingButton(controls, '.bible-map-toggle-inline', '🗺️ Bibelkart');
+        };
+        if (existing) _closeVizPanel(host, showStats);
+        else showStats();
     };
 
     function buildSearchStatsHtml(bookTotals, totalHits, query) {
@@ -5431,9 +5481,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ── Init ──
     const PREF_VERSION_KEY = 'preferredVersion';
+    let BOOK_GROUPS = [];  // Lastes fra /api/book_groups: [{key, name_no, name_en, books}]
     async function init() {
         const resp = await fetch('/api/versions');
         const data = await resp.json();
+        // Last book-grupper i bakgrunnen — ikke-blokkende.
+        fetch('/api/book_groups')
+            .then(r => r.ok ? r.json() : null)
+            .then(d => { if (d && d.groups) BOOK_GROUPS = d.groups; })
+            .catch(() => {});
         data.versions.forEach(v => {
             versionSelect.add(new Option(versionLabel(v), v));
             // "Alle" gir ikke mening som sammenligningsversjon — kun ekte versjoner
@@ -5694,6 +5750,36 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     }
                 });
             });
+
+            // Bok-grupper (Mosebøkene, Evangeliene, Paulusbrevene, GT, NT, …)
+            // Match siste ord i query mot starten av gruppenavn — viser maks 2 forslag.
+            const lastWord = q.split(/\s+/).pop().toLowerCase();
+            if (lastWord.length >= 2) {
+                const groupHits = BOOK_GROUPS.filter(g => {
+                    const n = (g.name_no || '').toLowerCase();
+                    const k = (g.key || '').toLowerCase();
+                    return n.startsWith(lastWord) || k.startsWith(lastWord)
+                        || n.includes(' ' + lastWord);
+                }).slice(0, 2);
+                groupHits.forEach((g, i) => {
+                    candidates.push({
+                        priority: 90 - i,
+                        suggestion: {
+                            icon: '📚',
+                            html: `Søk i <strong>${escHtml(g.name_no)}</strong>`,
+                            hint: `(${g.books.length} bøker)`,
+                            onClick: () => {
+                                searchInput.value = `${g.key}: `;
+                                const input = getSearchInput();
+                                input.focus();
+                                formatSearchInputCE(input);
+                                setCursorOffset(input, input.textContent.length);
+                                updateSuggestions();
+                            }
+                        }
+                    });
+                });
+            }
         }
 
         // ── Eksakt søk: ≥3 ord, ingen anførselstegn ──
@@ -5867,8 +5953,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         el.classList.add('open');
         el.querySelectorAll('.suggestion-item').forEach(item => {
             const i = parseInt(item.getAttribute('data-idx'), 10);
-            item.addEventListener('mousedown', e => {
-                e.preventDefault();  // unngå blur på input før click kjøres
+            // mousedown kun for å hindre at inputfeltet mister focus før click kjøres.
+            // Selve handlingen kjøres på 'click' så Enter-tasten (active.click()) også virker.
+            item.addEventListener('mousedown', e => e.preventDefault());
+            item.addEventListener('click', () => {
                 suggestions[i].onClick && suggestions[i].onClick();
             });
         });
@@ -6983,12 +7071,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 <button class="card-action-btn stats-toggle-inline" onclick="toggleStatsPanel(this)">📊 Statistikk</button>
             </div>
         </div>`;
-        if (showMapBtn) {
-            const mapHtml = buildBibleMapHtml(bookTotals, 'mapJumpToSearchBook');
-            html += `<div class="bible-map-wrap" style="margin-top:-4px;margin-bottom:12px;"><div class="bible-map"><div class="bible-map-inner">${mapHtml}</div></div></div>`;
-        }
-        // Statistikk-panelet: skjult til brukeren åpner det (buildSearchStatsHtml leser bookTotals + total)
-        html += `<div class="stats-wrap" data-open="0" style="display:none;margin-top:-4px;margin-bottom:12px;">${buildSearchStatsHtml(bookTotals, total, query)}</div>`;
+        // Bibelkart og statistikk fylles INN av toggleBibleMap / toggleStatsPanel kun når
+        // brukeren trykker knappen. Slik ligger ingen tomme bokser igjen etter søk.
+        html += `<div class="search-viz-host"></div>`;
 
         if (collapsed) {
             const bookOrder = [];

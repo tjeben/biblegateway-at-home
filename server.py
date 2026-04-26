@@ -467,13 +467,22 @@ class BibleData:
             self.version_books[fname] = [r["usfm"] for r in rows]
             self.book_chapters[fname] = {r["usfm"]: r["max_ch"] for r in rows}
 
-        # book_groups (nøkkel → bok-koder)
-        for grow in self._query("SELECT id, key FROM book_groups"):
+        # book_groups (nøkkel → bok-koder) + visningsnavn
+        self.book_groups_meta = {}  # key → {name_no, name_en, books}
+        for grow in self._query("SELECT id, key, name_no, name_en FROM book_groups"):
             members = self._query(
                 "SELECT book_usfm FROM book_group_members WHERE group_id=?",
                 (grow["id"],),
             )
-            self.book_groups[grow["key"].lower()] = [r["book_usfm"] for r in members]
+            books = [r["book_usfm"] for r in members]
+            key = grow["key"].lower()
+            self.book_groups[key] = books
+            self.book_groups_meta[key] = {
+                "key": key,
+                "name_no": grow["name_no"],
+                "name_en": grow["name_en"],
+                "books": books,
+            }
 
         print(
             f"Loaded {len(self.translations)} Bible version(s) from bible.db: "
@@ -938,16 +947,22 @@ def resolve_block(bible_data, version, block):
 
 
 def extract_book_prefix(query):
-    """Hvis query starter med 'Bokenavn: resten', returner (book_code, rest).
-    Ellers (None, query)."""
+    """Hvis query starter med 'Bokenavn: resten' eller 'Gruppenavn: resten',
+    returner (book_codes_list, rest). Returnerer (None, query) ellers.
+
+    Bok → liste med ett USFM-kode.
+    Gruppe → liste med alle medlemmer (f.eks. 'paulusbrevene' → 13 brev).
+    """
     m = re.match(r'^([^:"]+?):\s*(.*)$', query)
     if not m:
         return None, query
     prefix = m.group(1).strip().lower()
     rest = m.group(2).strip()
-    for alias in SORTED_ALIASES:
-        if alias == prefix:
-            return ALIAS_MAP[alias], rest
+    if prefix in ALIAS_MAP:
+        return [ALIAS_MAP[prefix]], rest
+    # Bok-grupper (paulusbrevene, evangeliene, mosebøkene, gt, nt, ...) — fra bible.db.
+    if bible_data is not None and prefix in bible_data.book_groups:
+        return list(bible_data.book_groups[prefix]), rest
     return None, query
 
 
@@ -1042,7 +1057,8 @@ def _fts_escape_phrase(term):
 
 def _build_search_sql(group, tid, book_filter):
     """Bygg (sql, params) for én OR-gruppe.
-    Quoted phrases bruker FTS5 (ordgrense). Bare ord og eksklusjon bruker LIKE (substring)."""
+    Quoted phrases bruker FTS5 (ordgrense). Bare ord og eksklusjon bruker LIKE (substring).
+    book_filter kan være None, en USFM-streng, eller en liste av USFM-koder (gruppe)."""
     phrases, words, excluded = group
     where = ["v.translation_id = ?"]
     params = [tid]
@@ -1061,9 +1077,15 @@ def _build_search_sql(group, tid, book_filter):
     for w in excluded:
         where.append("LOWER(v.text) NOT LIKE ? ESCAPE '\\'")
         params.append(f"%{_like_escape(w)}%")
+
     if book_filter:
-        where.append("v.book_usfm = ?")
-        params.append(book_filter)
+        if isinstance(book_filter, str):
+            where.append("v.book_usfm = ?")
+            params.append(book_filter)
+        else:
+            placeholders = ",".join("?" for _ in book_filter)
+            where.append(f"v.book_usfm IN ({placeholders})")
+            params.extend(book_filter)
 
     sql = f"""
         SELECT v.book_usfm, v.chapter, v.verse, v.text
@@ -1323,7 +1345,25 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                             book_totals[r['book']] = book_totals.get(r['book'], 0) + 1
                         else:
                             merged[key]["matched_versions"].append(vname)
-                merged_list = list(merged.values())[:150]
+
+                # Sortér i bibelsk rekkefølge (bruk første versjons bok-orden) og bruk
+                # per-bok-cap (10) i stedet for et hardt totalcap, så svaret reflekterer
+                # alle bøker — ikke bare den første sett under iterasjonen.
+                first_vname = next(iter(bible_data.versions), None)
+                book_order = bible_data.version_books.get(first_vname, []) if first_vname else []
+                order_idx = {b: i for i, b in enumerate(book_order)}
+                all_results = sorted(
+                    merged.values(),
+                    key=lambda r: (order_idx.get(r["book"], 999), r["chapter"], r["verse"]),
+                )
+                per_book_cap = 10
+                merged_list = []
+                book_seen_count = {}
+                for r in all_results:
+                    n = book_seen_count.get(r["book"], 0)
+                    if n < per_book_cap:
+                        merged_list.append(r)
+                        book_seen_count[r["book"]] = n + 1
                 self._send_json({
                     "type": "text_search", "results": merged_list, "book_totals": book_totals,
                     "total": len(merged), "query": query, "version": "Alle",
@@ -1375,6 +1415,11 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                 resolved = [resolve_block(bible_data, vname, b) for b in blocks]
                 all_results[vname] = resolved
             self._send_json({"results": all_results, "query": query})
+
+        elif path == "/api/book_groups":
+            # Eksponer book_groups (Mosebøkene, Evangeliene, Paulusbrevene osv.) til frontend.
+            groups = list(bible_data.book_groups_meta.values())
+            self._send_json({"groups": groups})
 
         elif path == "/api/heartbeat":
             last_heartbeat = time.time()
