@@ -1229,6 +1229,62 @@
             transition: background 0.15s, transform 0.15s;
         }
         .feedback-link:hover { background: var(--accent-hover); transform: translateY(-1px); }
+        .feedback-link:disabled { opacity: 0.5; cursor: progress; transform: none; }
+
+        /* ── Tilbakemeldings-skjema ── */
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .feedback-field {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+        .feedback-field span { letter-spacing: 0.2px; }
+        .feedback-field select,
+        .feedback-field input[type="email"],
+        .feedback-field textarea {
+            font-family: inherit;
+            font-size: 0.95rem;
+            font-weight: 400;
+            padding: 10px 12px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            background: var(--card-bg);
+            color: var(--text);
+            outline: none;
+            transition: border-color 0.15s, box-shadow 0.15s;
+        }
+        .feedback-field select:focus,
+        .feedback-field input:focus,
+        .feedback-field textarea:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(168, 50, 50, 0.15);
+        }
+        .feedback-field textarea {
+            resize: vertical;
+            min-height: 110px;
+            line-height: 1.5;
+        }
+        .feedback-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 8px;
+            margin-top: 4px;
+        }
+        .feedback-status {
+            font-size: 0.85rem;
+            min-height: 1.2em;
+            color: var(--text-muted);
+        }
+        .feedback-status.error { color: var(--error, #c0392b); }
+        .feedback-status.ok { color: #2e7d32; }
+        [data-theme="dark"] .feedback-status.ok { color: #5fbf6a; }
         .empty-state p { font-size: 0.95rem; line-height: 1.6; }
 
         /* Dagens vers — stille påminnelse om at Guds ord er sentralt */
@@ -2850,9 +2906,47 @@
             <p>Jeg heter <strong>Benjamin Tjelle</strong>. Jeg er student og driver med webutvikling ved siden av studiene, og som kristen ønsker jeg å lage gratis verktøy som gjør det enklere å bli bedre kjent med Gud og hans ord.</p>
             <p>Se flere prosjekter på <a href="https://tjelle.net" target="_blank" rel="noopener">tjelle.net</a>. Har du funnet feil eller har forslag? Ta gjerne kontakt.</p>
             <div class="modal-links">
-                <a href="mailto:benjamin@tjelle.net?subject=Tilbakemelding%20%E2%80%94%20Bibels%C3%B8k&body=Hei%20Benjamin%2C%0A%0A(skriv%20din%20tilbakemelding%20eller%20feilmelding%20her)%0A%0A---%0ANettleser%3A%20" class="feedback-link" onclick="appendFeedbackContext(this)">✉️ Send tilbakemelding</a>
+                <button type="button" class="feedback-link" onclick="openFeedbackForm()">✉️ Send tilbakemelding</button>
                 <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="competitor-link">En annen god tjeneste</a>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tilbakemeldings-modal — sender til tjelle.net/api/feedback/ingest -->
+<div class="modal-backdrop" id="feedbackModal" onclick="if(event.target===this)closeFeedbackForm()">
+    <div class="modal-card" role="dialog" aria-labelledby="feedbackTitle">
+        <div class="modal-card-head">
+            <span id="feedbackTitle">Send tilbakemelding</span>
+            <button class="modal-close" onclick="closeFeedbackForm()" aria-label="Lukk">×</button>
+        </div>
+        <div class="modal-card-body">
+            <p style="margin-top:0;">Har du funnet en feil, et forslag eller en kommentar? Send den rett til Benjamin.</p>
+            <form id="feedbackForm" class="feedback-form" onsubmit="submitFeedback(event)">
+                <label class="feedback-field">
+                    <span>Kategori</span>
+                    <select id="feedbackCategory" required>
+                        <option value="bug">🐛 Feil / bug</option>
+                        <option value="feature">✨ Ønske om funksjon</option>
+                        <option value="design">🎨 Design / layout</option>
+                        <option value="performance">⚡ Hastighet</option>
+                        <option value="general" selected>💬 Generelt</option>
+                    </select>
+                </label>
+                <label class="feedback-field">
+                    <span>Melding</span>
+                    <textarea id="feedbackMessage" rows="6" required maxlength="4000" placeholder="Beskriv det du har på hjertet…"></textarea>
+                </label>
+                <label class="feedback-field">
+                    <span>E-post <em style="font-weight:400;color:var(--text-muted);">(valgfritt — hvis du ønsker svar)</em></span>
+                    <input type="email" id="feedbackEmail" placeholder="din@epost.no" maxlength="200">
+                </label>
+                <div class="feedback-status" id="feedbackStatus" role="status" aria-live="polite"></div>
+                <div class="feedback-actions">
+                    <button type="button" class="card-action-btn" onclick="closeFeedbackForm()">Avbryt</button>
+                    <button type="submit" class="feedback-link" id="feedbackSubmitBtn">Send</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -3344,13 +3438,85 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         mirrorExistingHighlightsToOtherVersions();
     };
 
-    // Legg til nettleser-kontekst i mailto-lenken rett før bruker klikker seg videre
-    window.appendFeedbackContext = function(link) {
+    // ── Tilbakemelding ──────────────────────────────────────────────
+    // POSTer til tjelle.net sin feedback-API. Nøkkelen er en publikt
+    // synlig "innslipp"-nøkkel; verste tilfelle er spam og rate-limiting
+    // på serverside, ikke et hemmelig token.
+    const FEEDBACK_API = 'https://tjelle.net/api/feedback/ingest';
+    const FEEDBACK_KEY = 'fb_903dd020f2a175e54648bad65136927f4c381bda806d989cc9f6d2919812136a';
+
+    window.openFeedbackForm = function() {
+        // Lukk info-modalen hvis den er åpen
+        const info = document.getElementById('searchInfoModal');
+        if (info && info.classList.contains('open')) info.classList.remove('open');
+        const m = document.getElementById('feedbackModal');
+        if (!m) return;
+        m.classList.add('open');
+        const status = document.getElementById('feedbackStatus');
+        if (status) { status.textContent = ''; status.className = 'feedback-status'; }
+        const submit = document.getElementById('feedbackSubmitBtn');
+        if (submit) { submit.disabled = false; submit.textContent = 'Send'; }
+        setTimeout(() => {
+            const ta = document.getElementById('feedbackMessage');
+            if (ta) ta.focus();
+        }, 50);
+    };
+
+    window.closeFeedbackForm = function() {
+        const m = document.getElementById('feedbackModal');
+        if (m) m.classList.remove('open');
+    };
+
+    window.submitFeedback = async function(ev) {
+        if (ev) ev.preventDefault();
+        const msgEl = document.getElementById('feedbackMessage');
+        const catEl = document.getElementById('feedbackCategory');
+        const emailEl = document.getElementById('feedbackEmail');
+        const status = document.getElementById('feedbackStatus');
+        const submit = document.getElementById('feedbackSubmitBtn');
+        const message = (msgEl && msgEl.value || '').trim();
+        if (!message) {
+            if (status) { status.textContent = 'Skriv en melding først.'; status.className = 'feedback-status error'; }
+            return;
+        }
+        const category = (catEl && catEl.value) || 'general';
+        const contactEmail = (emailEl && emailEl.value || '').trim() || undefined;
+
+        if (submit) { submit.disabled = true; submit.textContent = 'Sender…'; }
+        if (status) { status.textContent = ''; status.className = 'feedback-status'; }
+
         try {
-            const base = link.getAttribute('href').split('%0A---%0ANettleser%3A%20')[0];
-            const ctx = encodeURIComponent(`\n---\nNettleser: ${navigator.userAgent}\nVersjon: ${versionSelect.value || '-'}`);
-            link.setAttribute('href', base + ctx);
-        } catch { /* la standard mailto stå hvis noe feiler */ }
+            const versionMeta = document.querySelector('meta[name="version"]');
+            const resp = await fetch(FEEDBACK_API, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    Authorization: `Bearer ${FEEDBACK_KEY}`,
+                },
+                body: JSON.stringify({
+                    message,
+                    category,
+                    contactEmail,
+                    pageUrl: window.location.href,
+                    userAgent: navigator.userAgent,
+                    screenWidth: window.innerWidth,
+                    screenHeight: window.innerHeight,
+                    appVersion: versionMeta ? versionMeta.getAttribute('content') : undefined,
+                }),
+            });
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+            if (status) { status.textContent = 'Takk! Tilbakemeldingen er sendt.'; status.className = 'feedback-status ok'; }
+            if (msgEl) msgEl.value = '';
+            if (emailEl) emailEl.value = '';
+            if (submit) submit.textContent = 'Sendt ✓';
+            setTimeout(() => closeFeedbackForm(), 1400);
+        } catch (e) {
+            if (status) {
+                status.textContent = 'Kunne ikke sende — prøv igjen senere eller ta kontakt på benjamin@tjelle.net.';
+                status.className = 'feedback-status error';
+            }
+            if (submit) { submit.disabled = false; submit.textContent = 'Prøv igjen'; }
+        }
     };
 
     window.showSearchInfo = function() {
@@ -3361,12 +3527,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const modal = document.getElementById('searchInfoModal');
         if (modal) modal.classList.remove('open');
     };
-    // Escape-tast lukker modal
+    // Escape-tast lukker åpne modaler
     document.addEventListener('keydown', e => {
-        if (e.key === 'Escape') {
-            const modal = document.getElementById('searchInfoModal');
-            if (modal && modal.classList.contains('open')) hideSearchInfo();
-        }
+        if (e.key !== 'Escape') return;
+        const fb = document.getElementById('feedbackModal');
+        if (fb && fb.classList.contains('open')) { closeFeedbackForm(); return; }
+        const modal = document.getElementById('searchInfoModal');
+        if (modal && modal.classList.contains('open')) hideSearchInfo();
     });
 
     let emptyStateHtml = emptyState.outerHTML;
