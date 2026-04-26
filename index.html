@@ -3268,7 +3268,9 @@
     // motstand inntil terskel, så committes bla til forrige/neste — ellers
     // springer det tilbake til startposisjon.
     (function setupSwipeNav() {
-        const wrap = resultsWrapper;
+        // Hent direkte fra DOM — `resultsWrapper`-bindingen deklareres senere
+        // (TDZ ville krasjet hele scriptet hvis vi refererte til den her).
+        const wrap = document.getElementById('resultsWrapper');
         if (!wrap) return;
         let startX = 0, startY = 0, lastX = 0, lastT = 0;
         let dragging = false, decided = false, locked = false;
