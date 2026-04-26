@@ -524,105 +524,159 @@
             background: rgba(212, 180, 74, 0.4);
         }
         .note-xref {
-            color: var(--accent);
-            background: rgba(168, 50, 50, 0.1);
+            color: var(--text-muted);
+            background: transparent;
+            border-color: transparent !important;
+            opacity: 0.65;
+            transition: color 0.15s, opacity 0.15s, text-shadow 0.15s;
         }
         .note-xref:hover, .note-xref.active {
-            background: rgba(168, 50, 50, 0.25);
+            color: var(--accent);
+            background: transparent;
+            opacity: 1;
+            text-shadow: 0 0 6px rgba(168, 50, 50, 0.35);
         }
         [data-theme="dark"] .note-footnote { color: #d4a84b; }
 
-        /* Popover */
+        /* ── Popover (kryssreferanser + fotnoter) ── */
+        /* Collapse-wrapper styrer slide-down/up animasjon */
+        .note-popover-collapse {
+            display: grid;
+            grid-template-rows: 0fr;
+            opacity: 0;
+            margin: 0;
+            transition: grid-template-rows 0.32s cubic-bezier(.2, .8, .2, 1),
+                        opacity 0.22s ease,
+                        margin 0.32s cubic-bezier(.2, .8, .2, 1);
+        }
+        .note-popover-collapse.open {
+            grid-template-rows: 1fr;
+            opacity: 1;
+            margin: 8px 0;
+        }
+        .note-popover-collapse > .note-popover-shell {
+            overflow: hidden;
+            min-height: 0;
+        }
         .note-popover {
-            display: block;
             background: var(--card-bg);
             border: 1px solid var(--border);
-            border-radius: 24px;
-            padding: 10px 36px 10px 14px;
-            margin: 8px 0;
+            border-radius: 20px;
             font-family: 'Segoe UI', system-ui, sans-serif;
             font-size: 0.92rem;
             line-height: 1.5;
             box-shadow: var(--shadow);
             position: relative;
-            max-height: 320px;
-            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            max-height: 50vh;
+            min-height: 80px;
         }
         .note-popover-label {
-            font-size: 0.72rem;
+            font-size: 0.7rem;
             font-weight: 700;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 0.6px;
-            margin-bottom: 4px;
+            padding: 12px 14px 6px;
         }
-        .note-popover-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 10px;
-            margin-bottom: 6px;
-            padding-right: 24px;
-        }
-        .note-popover-header .note-popover-label { margin-bottom: 0; }
         .note-popover-text {
             color: var(--text);
+            padding: 0 14px 14px;
         }
-        .note-popover-refs {
-            display: flex;
-            gap: 6px;
-            flex-wrap: wrap;
-            margin-top: 4px;
-            overflow: visible;
+        /* Liste over xref-treff (scrollbart område) */
+        .note-popover-list-wrap {
+            position: relative;
+            flex: 1 1 auto;
+            min-height: 0;
         }
-        .note-popover-refs.collapsed {
-            max-height: 80px; /* ca 2 rader på desktop (2×36 + 6 gap + margin) */
-            overflow: hidden;
+        .note-popover-list {
+            overflow-y: auto;
+            max-height: 100%;
+            padding: 4px 12px;
+            box-sizing: border-box;
         }
-        .note-popover-refs.expanding {
-            overflow: hidden;
-            transition: max-height 260ms cubic-bezier(.2, .8, .2, 1);
+        /* Scroll-skygger over og under listen */
+        .popover-fade-top, .popover-fade-bot {
+            position: absolute;
+            left: 0; right: 0;
+            height: 18px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.18s;
+            z-index: 2;
         }
-        .note-popover-refs .xref-btn {
-            padding: 8px 14px;
+        .popover-fade-top {
+            top: 0;
+            background: linear-gradient(to bottom, var(--card-bg) 30%, transparent);
+            border-radius: 20px 20px 0 0;
+        }
+        .popover-fade-bot {
+            bottom: 0;
+            background: linear-gradient(to top, var(--card-bg) 30%, transparent);
+        }
+        .note-popover.scroll-top .popover-fade-top { opacity: 1; }
+        .note-popover.scroll-bot .popover-fade-bot { opacity: 1; }
+
+        /* Hver xref-rad: tittel + verstekst */
+        .xref-entry {
+            display: block;
+            width: 100%;
+            text-align: left;
             background: transparent;
-            border: 1px solid var(--border);
-            border-radius: 999px;
-            color: var(--accent);
+            border: none;
+            border-radius: 8px;
+            padding: 10px 10px;
             cursor: pointer;
-            font-size: 0.9rem;
-            font-weight: 600;
-            transition: all 0.15s;
-            min-height: 34px;
+            transition: background 0.15s;
+            font-family: inherit;
         }
-        .note-popover-refs .xref-btn:hover,
-        .note-popover-refs .xref-btn:active {
-            background: var(--accent);
-            color: white;
-            border-color: var(--accent);
+        .xref-entry + .xref-entry { border-top: 1px solid var(--border); }
+        .xref-entry:hover, .xref-entry:focus-visible {
+            background: rgba(168, 50, 50, 0.06);
+            outline: none;
         }
-        .note-popover-actions {
+        [data-theme="dark"] .xref-entry:hover,
+        [data-theme="dark"] .xref-entry:focus-visible {
+            background: rgba(201, 68, 68, 0.10);
+        }
+        .xref-entry-ref {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            margin-bottom: 4px;
+            letter-spacing: 0.15px;
+        }
+        .xref-entry-text {
+            color: var(--text);
+            font-size: 0.82rem;
+            line-height: 1.45;
+        }
+        .xref-entry-text.loading {
+            color: var(--text-muted);
+            font-style: italic;
+            opacity: 0.7;
+        }
+
+        /* Bunnrad med Kart/Tidslinje + tynn skillestrek */
+        .note-popover-footer {
+            flex: 0 0 auto;
             display: flex;
-            align-items: center;
-            gap: 6px;
-            margin-top: 8px;
-            padding-right: 24px;
-        }
-        .note-popover-actions-right {
-            margin-left: auto;
-            display: flex;
-            gap: 6px;
+            gap: 8px;
+            padding: 10px 14px;
+            border-top: 1px solid var(--border);
+            background: var(--card-bg);
+            border-radius: 0 0 20px 20px;
         }
         .xref-action-btn {
-            padding: 8px 14px;
-            background: var(--card-bg);
+            padding: 7px 14px;
+            background: transparent;
             color: var(--accent);
             border: 1px solid var(--border);
             border-radius: 999px;
             cursor: pointer;
-            font-size: 0.88rem;
+            font-size: 0.85rem;
             font-weight: 600;
-            min-height: 34px;
             transition: all 0.15s;
         }
         .xref-action-btn:hover, .xref-action-btn:active {
@@ -630,21 +684,8 @@
             color: white;
             border-color: var(--accent);
         }
-        @media (max-width: 700px) {
-            .note-popover-refs .xref-btn {
-                padding: 10px 16px;
-                font-size: 0.95rem;
-                min-height: 40px;
-            }
-            .note-popover-refs.collapsed { max-height: 92px; } /* ca 2 rader på mobil (2×42 + 6 gap) */
-            .xref-action-btn {
-                padding: 10px 16px;
-                font-size: 0.95rem;
-                min-height: 40px;
-            }
-            .note-popover { padding: 14px 44px 14px 16px; }
-            .note-popover-close { font-size: 1.5rem; padding: 6px 10px; }
-        }
+
+        /* Lukke-knapp */
         .note-popover-close {
             position: absolute;
             top: 6px;
@@ -652,13 +693,22 @@
             background: transparent;
             border: none;
             color: var(--text-muted);
-            font-size: 1.2rem;
+            font-size: 1.25rem;
             cursor: pointer;
             line-height: 1;
-            padding: 2px 6px;
-            border-radius: 4px;
+            padding: 4px 8px;
+            border-radius: 6px;
+            z-index: 3;
         }
         .note-popover-close:hover { background: rgba(0,0,0,0.08); color: var(--text); }
+        [data-theme="dark"] .note-popover-close:hover { background: rgba(255,255,255,0.08); }
+
+        @media (max-width: 700px) {
+            .note-popover { font-size: 0.96rem; max-height: 60vh; }
+            .xref-entry-text { font-size: 0.86rem; }
+            .xref-action-btn { padding: 9px 16px; font-size: 0.92rem; }
+            .note-popover-close { font-size: 1.5rem; padding: 6px 10px; }
+        }
         /* Viz-hosts-wrapper (Bibelkart, Tidslinje, Kontekst, Tema-kart, Generer referanser) */
         .viz-hosts-wrap {
             max-width: 880px;
@@ -1303,14 +1353,8 @@
             from { opacity: 0; transform: translateY(-6px) scale(0.97); }
             to   { opacity: 1; transform: translateY(0) scale(1); }
         }
-        .note-popover {
-            animation: popoverOpen 160ms cubic-bezier(.2, .8, .2, 1);
-            transform-origin: top;
-        }
-        .note-popover.closing {
-            animation: popoverClose 140ms cubic-bezier(.4, 0, .2, 1) forwards;
-            pointer-events: none;
-        }
+        /* note-popover åpne/lukke-animasjon styres av .note-popover-collapse-wrapperen */
+        .note-popover-collapse.closing { pointer-events: none; }
         .inline-verse-expand {
             animation: expandOpen 240ms cubic-bezier(.2, .8, .2, 1);
             transform-origin: top;
@@ -5329,7 +5373,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const b = booksData.find(x => x.code === bookCode);
         if (!b) return;
         // Lukk popovers og naviger til bokens første kapittel
-        document.querySelectorAll('.note-popover:not(.closing)').forEach(p => closePopoverAnimated(p));
+        document.querySelectorAll('.note-popover-collapse:not(.closing)').forEach(p => closePopoverAnimated(p));
         searchInput.value = `${b.name} 1`;
         doSearch();
     };
@@ -6890,19 +6934,70 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return html;
     }
 
-    // Animert lukking av en popover
+    // ── Popover for fotnoter og kryssreferanser ────────────────────────
+    // Strukturen er .note-popover-collapse > .note-popover-shell > .note-popover.
+    // Wrapperen styrer slide-down/up via grid-template-rows: 0fr ↔ 1fr.
+
     function closePopoverAnimated(pop) {
-        if (!pop || pop.classList.contains('closing')) return;
-        pop.classList.add('closing');
-        setTimeout(() => pop.remove(), 140);
+        // Aksepterer både collapse-wrapperen og .note-popover (finn nærmeste collapse)
+        const wrap = pop && (pop.classList.contains('note-popover-collapse')
+            ? pop : pop.closest('.note-popover-collapse'));
+        if (!wrap || wrap.classList.contains('closing')) return;
+        wrap.classList.add('closing');
+        wrap.classList.remove('open');
+        let done = false;
+        const finish = () => {
+            if (done) return;
+            done = true;
+            wrap.removeEventListener('transitionend', finish);
+            wrap.remove();
+        };
+        wrap.addEventListener('transitionend', finish);
+        setTimeout(finish, 420);
     }
     window.closePopoverAnimated = closePopoverAnimated;
 
-    // Popover for fotnoter og kryssreferanser
+    function _setupScrollShadows(pop, listEl) {
+        const update = () => {
+            const top = listEl.scrollTop > 4;
+            const bot = listEl.scrollTop + listEl.clientHeight < listEl.scrollHeight - 4;
+            pop.classList.toggle('scroll-top', top);
+            pop.classList.toggle('scroll-bot', bot);
+        };
+        listEl.addEventListener('scroll', update, { passive: true });
+        // Kjør en gang etter layout
+        requestAnimationFrame(update);
+    }
+
+    function _fetchXrefPreviews(items, listEl) {
+        if (!items || !items.length) return;
+        const refs = items.slice(0, 60).map(it => it.r).join(',');
+        const ver = (typeof versionSelect !== 'undefined' && versionSelect.value && versionSelect.value !== 'Alle')
+            ? versionSelect.value : 'NB88';
+        const url = `/api/xref_previews?version=${encodeURIComponent(ver)}&refs=${encodeURIComponent(refs)}`;
+        fetch(url).then(r => r.ok ? r.json() : null).then(d => {
+            if (!d || !d.previews) return;
+            listEl.querySelectorAll('.xref-entry').forEach(el => {
+                const ref = el.getAttribute('data-usfm');
+                const txt = d.previews[ref];
+                const target = el.querySelector('.xref-entry-text');
+                if (target) {
+                    if (txt) {
+                        target.textContent = txt;
+                        target.classList.remove('loading');
+                    } else {
+                        target.textContent = '(ingen forhåndsvisning)';
+                        target.classList.add('loading');
+                    }
+                }
+            });
+        }).catch(() => {});
+    }
+
     window.toggleNotePopover = function(el, event) {
         if (event) event.stopPropagation();
         // Lukk eksisterende popovers (animert)
-        document.querySelectorAll('.note-popover:not(.closing)').forEach(p => closePopoverAnimated(p));
+        document.querySelectorAll('.note-popover-collapse:not(.closing)').forEach(p => closePopoverAnimated(p));
         if (el.classList.contains('active')) {
             el.classList.remove('active');
             return;
@@ -6911,58 +7006,108 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         el.classList.add('active');
 
         const data = JSON.parse(el.getAttribute('data-note'));
+        const wrap = document.createElement('div');
+        wrap.className = 'note-popover-collapse';
+        const shell = document.createElement('div');
+        shell.className = 'note-popover-shell';
         const pop = document.createElement('div');
         pop.className = 'note-popover';
-        let content = '';
+
         if (data.type === 'footnote') {
-            content = `<div class="note-popover-label">Fotnote</div><div class="note-popover-text">${escHtml(data.text)}</div>`;
+            pop.innerHTML = `
+                <button class="note-popover-close" aria-label="Lukk">×</button>
+                <div class="note-popover-label">Fotnote</div>
+                <div class="note-popover-text">${escHtml(data.text)}</div>
+            `;
+            // Footnote har ikke scrollbar liste — fjern høy min-height for kompakt visning
+            pop.style.minHeight = '0';
         } else if (data.type === 'xref') {
-            const items = data.items || [];
-            const count = items.length;
+            const items = (data.items || []).filter(it => formatUsfmRef(it.r));
             const source = data.source;
-            let actionRightBtns = '';
+            const count = items.length;
+
+            // Footer: Kart + Tidslinje (kun når relevant)
+            let footerBtns = '';
             if (count >= 3) {
                 const perBook = countXrefsPerBook(items);
                 if (Object.keys(perBook).length >= 2) {
                     const encoded = JSON.stringify(items).replace(/"/g, '&quot;');
-                    actionRightBtns += `<button class="xref-action-btn" data-xref-items="${encoded}" onclick="event.stopPropagation(); openXrefMap(this)">🗺️ Kart</button>`;
+                    footerBtns += `<button class="xref-action-btn" data-xref-items="${encoded}">🗺️ Kart</button>`;
                 }
                 if (source) {
                     const info = JSON.stringify({ source, items }).replace(/"/g, '&quot;');
-                    actionRightBtns += `<button class="xref-action-btn" data-xref-info="${info}" onclick="event.stopPropagation(); openXrefTimeline(this)">📈 Tidslinje</button>`;
+                    footerBtns += `<button class="xref-action-btn" data-xref-info="${info}" data-action="timeline">📈 Tidslinje</button>`;
                 }
             }
-            content = `<div class="note-popover-refs collapsed" data-total="${count}">`;
-            items.forEach(item => {
+            const footerHtml = footerBtns
+                ? `<div class="note-popover-footer">${footerBtns}</div>`
+                : '';
+
+            const entries = items.map(item => {
                 const display = formatUsfmRef(item.r);
-                if (!display) return;
-                content += `<button class="xref-btn" onclick="event.stopPropagation(); navigateToRef('${escAttr(display)}')" title="${item.v} stemmer">${escHtml(display)}</button>`;
-            });
-            content += `</div>`;
-            content += `<div class="note-popover-actions">
-                <button class="xref-action-btn xref-showmore" onclick="event.stopPropagation(); showMoreXrefs(this)">Vis alle ${count}</button>
-                <div class="note-popover-actions-right">${actionRightBtns}</div>
-            </div>`;
-        }
-        pop.innerHTML = content + `<button class="note-popover-close" onclick="event.stopPropagation(); closePopoverAnimated(this.parentNode); document.querySelectorAll('.note-marker.active').forEach(n=>n.classList.remove('active'));">×</button>`;
-        el.parentNode.insertBefore(pop, el.nextSibling);
-        const refsDiv = pop.querySelector('.note-popover-refs.collapsed');
-        const showMoreBtn = pop.querySelector('.xref-showmore');
-        if (refsDiv && showMoreBtn) {
-            requestAnimationFrame(() => {
-                if (refsDiv.scrollHeight <= refsDiv.clientHeight + 1) {
-                    refsDiv.classList.remove('collapsed');
-                    showMoreBtn.remove();
-                }
-            });
+                return `<button class="xref-entry" data-display="${escAttr(display)}" data-usfm="${escAttr(item.r)}" title="${item.v} stemmer">
+                    <div class="xref-entry-ref">${escHtml(display)}</div>
+                    <div class="xref-entry-text loading">Laster …</div>
+                </button>`;
+            }).join('');
+
+            pop.innerHTML = `
+                <button class="note-popover-close" aria-label="Lukk">×</button>
+                <div class="note-popover-list-wrap">
+                    <div class="popover-fade-top"></div>
+                    <div class="note-popover-list">${entries}</div>
+                    <div class="popover-fade-bot"></div>
+                </div>
+                ${footerHtml}
+            `;
         }
 
-        // Auto-åpne tidslinje når visning er ett enkelt vers
-        if (data.type === 'xref' && data.source && data.items &&
-            mainData && mainData.length === 1 && mainData[0].verses && mainData[0].verses.length === 1) {
-            // Bare auto-åpne hvis ingen tidslinje allerede finnes
-            if (!document.getElementById('xrefTimelineHost')) {
-                showXrefTimeline(data.source, data.items);
+        // Bind handlers
+        const closeBtn = pop.querySelector('.note-popover-close');
+        if (closeBtn) closeBtn.addEventListener('click', e => {
+            e.stopPropagation();
+            closePopoverAnimated(wrap);
+            document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
+        });
+        pop.querySelectorAll('.xref-entry').forEach(btn => {
+            btn.addEventListener('click', e => {
+                e.stopPropagation();
+                const display = btn.getAttribute('data-display');
+                if (display) navigateToRef(display);
+            });
+        });
+        const mapBtn = pop.querySelector('.xref-action-btn[data-xref-items]');
+        if (mapBtn) mapBtn.addEventListener('click', e => {
+            e.stopPropagation();
+            openXrefMap(mapBtn);
+        });
+        const tlBtn = pop.querySelector('.xref-action-btn[data-action="timeline"]');
+        if (tlBtn) tlBtn.addEventListener('click', e => {
+            e.stopPropagation();
+            openXrefTimeline(tlBtn);
+        });
+
+        shell.appendChild(pop);
+        wrap.appendChild(shell);
+        el.parentNode.insertBefore(wrap, el.nextSibling);
+
+        // Trigger åpne-animasjon i neste frame
+        requestAnimationFrame(() => requestAnimationFrame(() => wrap.classList.add('open')));
+
+        // Scroll-skygger + last preview-tekst for xref
+        if (data.type === 'xref') {
+            const listEl = pop.querySelector('.note-popover-list');
+            if (listEl) {
+                _setupScrollShadows(pop, listEl);
+                _fetchXrefPreviews(data.items || [], listEl);
+            }
+
+            // Auto-åpne tidslinje når visning er ett enkelt vers
+            if (data.source && data.items &&
+                mainData && mainData.length === 1 && mainData[0].verses && mainData[0].verses.length === 1) {
+                if (!document.getElementById('xrefTimelineHost')) {
+                    showXrefTimeline(data.source, data.items);
+                }
             }
         }
     };
@@ -6993,30 +7138,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return startDisplay;
     }
 
-    // Utvid xref-listen fra 2 rader til full visning med smooth animasjon
-    window.showMoreXrefs = function(btnEl) {
-        const pop = btnEl.closest('.note-popover');
-        const refsDiv = pop && pop.querySelector('.note-popover-refs');
-        if (!refsDiv || !refsDiv.classList.contains('collapsed')) { btnEl.remove(); return; }
-        const startH = refsDiv.getBoundingClientRect().height;
-        refsDiv.classList.remove('collapsed');
-        const targetH = refsDiv.scrollHeight;
-        refsDiv.style.maxHeight = `${startH}px`;
-        refsDiv.classList.add('expanding');
-        refsDiv.getBoundingClientRect();
-        refsDiv.style.maxHeight = `${targetH}px`;
-        const done = () => {
-            refsDiv.classList.remove('expanding');
-            refsDiv.style.maxHeight = '';
-            refsDiv.removeEventListener('transitionend', done);
-        };
-        refsDiv.addEventListener('transitionend', done);
-        btnEl.remove();
-    };
-
     // Naviger til en referanse fra xref-klikk
     window.navigateToRef = function(display) {
-        document.querySelectorAll('.note-popover').forEach(p => p.remove());
+        document.querySelectorAll('.note-popover-collapse').forEach(p => p.remove());
         document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
         searchInput.value = display;
         doSearch();
@@ -7024,7 +7148,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // Naviger til en referanse og bytt til en spesifikk versjon (fra Alle-visning)
     window.navigateToRefInVersion = async function(display, version) {
-        document.querySelectorAll('.note-popover').forEach(p => p.remove());
+        document.querySelectorAll('.note-popover-collapse').forEach(p => p.remove());
         document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
         if (version && version !== 'Alle' && version !== versionSelect.value) {
             versionSelect.value = version;
@@ -7040,7 +7164,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // Lukk popover ved klikk utenfor
     document.addEventListener('click', e => {
         if (!e.target.closest('.note-popover') && !e.target.closest('.note-marker')) {
-            document.querySelectorAll('.note-popover:not(.closing)').forEach(p => closePopoverAnimated(p));
+            document.querySelectorAll('.note-popover-collapse:not(.closing)').forEach(p => closePopoverAnimated(p));
             document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
         }
     });

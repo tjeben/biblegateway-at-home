@@ -385,6 +385,57 @@ SORTED_ALIASES = sorted(ALIAS_MAP.keys(), key=len, reverse=True)
 # ──────────────────────────────────────────────
 
 
+def _parse_usfm_ref(ref):
+    """Parse USFM-ref til (book, ch_start, vs_start, ch_end, vs_end). None ved feil.
+    Eksempler:
+      JHN.3.16              → ('JHN', 3, 16, 3, 16)
+      JHN.3.16-18           → ('JHN', 3, 16, 3, 18)
+      JHN.3.16-4.5          → ('JHN', 3, 16, 4, 5)
+    """
+    if "-" in ref:
+        a, b = ref.split("-", 1)
+    else:
+        a, b = ref, None
+    m = re.match(r"^([A-Z0-9]+)\.(\d+)\.(\d+)$", a)
+    if not m:
+        return None
+    book = m.group(1)
+    ch_s = int(m.group(2))
+    vs_s = int(m.group(3))
+    if b is None:
+        return book, ch_s, vs_s, ch_s, vs_s
+    mb_full = re.match(r"^([A-Z0-9]+)\.(\d+)\.(\d+)$", b)  # kryss-bok (sjelden)
+    mb_mid = re.match(r"^(\d+)\.(\d+)$", b)                # kryss-kapittel: 4.5
+    mb_v = re.match(r"^(\d+)$", b)                         # samme kapittel: 18
+    if mb_full:
+        return book, ch_s, vs_s, int(mb_full.group(2)), int(mb_full.group(3))
+    if mb_mid:
+        return book, ch_s, vs_s, int(mb_mid.group(1)), int(mb_mid.group(2))
+    if mb_v:
+        return book, ch_s, vs_s, ch_s, int(mb_v.group(1))
+    return book, ch_s, vs_s, ch_s, vs_s
+
+
+def _xref_preview_text(bible_data, version, ref):
+    """Returner sammenkjedet verstekst for en USFM-ref-streng (single eller range)."""
+    parsed = _parse_usfm_ref(ref)
+    if not parsed:
+        return None
+    book, ch_s, vs_s, ch_e, vs_e = parsed
+    try:
+        if ch_s == ch_e:
+            verses, err = bible_data.get_verses(version, book, ch_s, vs_s, vs_e)
+        else:
+            verses, err = bible_data.get_verses_cross_chapter(version, book, ch_s, vs_s, ch_e, vs_e)
+    except Exception:
+        return None
+    if err or not verses:
+        return None
+    # Format: bare tekst, mellomrom-separert.
+    parts = [v[1] for v in verses]
+    return " ".join(p.strip() for p in parts if p)
+
+
 def _format_xref_ref(to_book, to_chapter, to_verse_start, to_verse_end, to_chapter_end):
     """Bygg USFM-strenger som frontend forventer fra cross_references-rader.
     Eksempler:
@@ -1420,6 +1471,27 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             # Eksponer book_groups (Mosebøkene, Evangeliene, Paulusbrevene osv.) til frontend.
             groups = list(bible_data.book_groups_meta.values())
             self._send_json({"groups": groups})
+
+        elif path == "/api/xref_previews":
+            # Hent verstekst for en liste av kryssreferanser (USFM-form).
+            # Brukes av popoveren til å vise forhåndsvisning under hver ref.
+            version = params.get("version", [""])[0]
+            refs_param = params.get("refs", [""])[0]
+            if not refs_param:
+                self._send_json({"previews": {}})
+                return
+            if version == "Alle" or not version:
+                version = list(bible_data.versions.keys())[0] if bible_data.versions else ""
+            if version not in bible_data.versions:
+                self._send_json({"previews": {}})
+                return
+            refs = [r.strip() for r in refs_param.split(",") if r.strip()]
+            previews = {}
+            for ref in refs[:60]:  # rimelig grense
+                preview = _xref_preview_text(bible_data, version, ref)
+                if preview:
+                    previews[ref] = preview
+            self._send_json({"previews": previews, "version": version})
 
         elif path == "/api/heartbeat":
             last_heartbeat = time.time()
