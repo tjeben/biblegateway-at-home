@@ -571,6 +571,8 @@
             flex-direction: column;
             max-height: 50vh;
             min-height: 80px;
+            overflow: hidden;        /* sørger for at listen klippes ved popover-grensen,
+                                        ikke renner ut over footeren */
         }
         .note-popover-label {
             font-size: 0.7rem;
@@ -587,16 +589,43 @@
         /* Liste over xref-treff (scrollbart område) */
         .note-popover-list-wrap {
             position: relative;
+            display: flex;
+            flex-direction: column;
             flex: 1 1 auto;
             min-height: 0;
         }
         .note-popover-list {
-            overflow-y: auto;
-            max-height: 100%;
+            flex: 1 1 auto;
+            min-height: 0;
+            overflow-y: hidden;     /* kollapset modus: ingen scroll, viser bare topp-3 */
             padding: 4px 12px;
             box-sizing: border-box;
         }
-        /* Scroll-skygger over og under listen */
+        .note-popover-list.expanded {
+            overflow-y: auto;       /* utvidet modus: rull for å se resten */
+        }
+        /* "Vis alle"-rad over footeren — vises bare i kollapset modus */
+        .note-popover-showmore {
+            flex: 0 0 auto;
+            padding: 8px 14px 4px;
+            text-align: center;
+        }
+        .note-popover-showmore button {
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 6px 14px;
+            transition: all 0.15s;
+        }
+        .note-popover-showmore button:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+        /* Scroll-skygger over og under listen — overlay som ikke deltar i flex-flowen */
         .popover-fade-top, .popover-fade-bot {
             position: absolute;
             left: 0; right: 0;
@@ -606,11 +635,16 @@
             transition: opacity 0.18s;
             z-index: 2;
         }
+        .note-popover-list-wrap > .popover-fade-top,
+        .note-popover-list-wrap > .popover-fade-bot {
+            flex: 0 0 0;
+        }
         .popover-fade-top {
             top: 0;
             background: linear-gradient(to bottom, var(--card-bg) 30%, transparent);
-            border-radius: 20px 20px 0 0;
         }
+        /* Fade-bot ligger inne i .note-popover-list-wrap, RETT over .note-popover-list
+           sin nedre kant (dvs. like over footer-skillestreken). */
         .popover-fade-bot {
             bottom: 0;
             background: linear-gradient(to top, var(--card-bg) 30%, transparent);
@@ -6969,28 +7003,34 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         requestAnimationFrame(update);
     }
 
-    function _fetchXrefPreviews(items, listEl) {
-        if (!items || !items.length) return;
+    function _applyPreviews(previews, listEl) {
+        listEl.querySelectorAll('.xref-entry').forEach(el => {
+            const target = el.querySelector('.xref-entry-text');
+            if (!target || !target.classList.contains('loading')) return;
+            const ref = el.getAttribute('data-usfm');
+            const txt = previews[ref];
+            if (txt) {
+                target.textContent = txt;
+                target.classList.remove('loading');
+            }
+        });
+    }
+
+    function _fetchXrefPreviews(items, listEl, popEl) {
+        if (!items || !items.length || !listEl) return;
+        // Hvis vi allerede har hentet previews for denne popoveren — gjenbruk dem
+        if (popEl && popEl._previews) {
+            _applyPreviews(popEl._previews, listEl);
+            return;
+        }
         const refs = items.slice(0, 60).map(it => it.r).join(',');
         const ver = (typeof versionSelect !== 'undefined' && versionSelect.value && versionSelect.value !== 'Alle')
             ? versionSelect.value : 'NB88';
         const url = `/api/xref_previews?version=${encodeURIComponent(ver)}&refs=${encodeURIComponent(refs)}`;
         fetch(url).then(r => r.ok ? r.json() : null).then(d => {
             if (!d || !d.previews) return;
-            listEl.querySelectorAll('.xref-entry').forEach(el => {
-                const ref = el.getAttribute('data-usfm');
-                const txt = d.previews[ref];
-                const target = el.querySelector('.xref-entry-text');
-                if (target) {
-                    if (txt) {
-                        target.textContent = txt;
-                        target.classList.remove('loading');
-                    } else {
-                        target.textContent = '(ingen forhåndsvisning)';
-                        target.classList.add('loading');
-                    }
-                }
-            });
+            if (popEl) popEl._previews = d.previews;
+            _applyPreviews(d.previews, listEl);
         }).catch(() => {});
     }
 
@@ -7025,6 +7065,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const items = (data.items || []).filter(it => formatUsfmRef(it.r));
             const source = data.source;
             const count = items.length;
+            const SHOW_INITIAL = 3;
+            const collapsed = count > SHOW_INITIAL;
 
             // Footer: Kart + Tidslinje (kun når relevant)
             let footerBtns = '';
@@ -7043,23 +7085,57 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 ? `<div class="note-popover-footer">${footerBtns}</div>`
                 : '';
 
-            const entries = items.map(item => {
+            const renderEntry = (item) => {
                 const display = formatUsfmRef(item.r);
                 return `<button class="xref-entry" data-display="${escAttr(display)}" data-usfm="${escAttr(item.r)}" title="${item.v} stemmer">
                     <div class="xref-entry-ref">${escHtml(display)}</div>
                     <div class="xref-entry-text loading">Laster …</div>
                 </button>`;
-            }).join('');
+            };
+            const visible = collapsed ? items.slice(0, SHOW_INITIAL) : items;
+            const entriesHtml = visible.map(renderEntry).join('');
+            const showMoreHtml = collapsed
+                ? `<div class="note-popover-showmore"><button type="button">Vis alle (${count})</button></div>`
+                : '';
 
             pop.innerHTML = `
                 <button class="note-popover-close" aria-label="Lukk">×</button>
                 <div class="note-popover-list-wrap">
                     <div class="popover-fade-top"></div>
-                    <div class="note-popover-list">${entries}</div>
+                    <div class="note-popover-list${collapsed ? '' : ' expanded'}">${entriesHtml}</div>
                     <div class="popover-fade-bot"></div>
                 </div>
+                ${showMoreHtml}
                 ${footerHtml}
             `;
+
+            // "Vis alle"-knapp: render resten + skift til scrollbar modus
+            const showMoreEl = pop.querySelector('.note-popover-showmore button');
+            if (showMoreEl) {
+                showMoreEl.addEventListener('click', e => {
+                    e.stopPropagation();
+                    const listEl = pop.querySelector('.note-popover-list');
+                    if (!listEl) return;
+                    const restHtml = items.slice(SHOW_INITIAL).map(renderEntry).join('');
+                    listEl.insertAdjacentHTML('beforeend', restHtml);
+                    listEl.classList.add('expanded');
+                    pop.querySelector('.note-popover-showmore').remove();
+                    // Bind klikk på de nye entries
+                    listEl.querySelectorAll('.xref-entry').forEach(btn => {
+                        if (btn._bound) return;
+                        btn._bound = true;
+                        btn.addEventListener('click', evt => {
+                            evt.stopPropagation();
+                            const display = btn.getAttribute('data-display');
+                            if (display) navigateToRef(display);
+                        });
+                    });
+                    // Hent forhåndsvisning for hele listen — bruker pop._previews-cache
+                    _fetchXrefPreviews(items, listEl, pop);
+                    // Re-evaluer scroll-skygger
+                    requestAnimationFrame(() => listEl.dispatchEvent(new Event('scroll')));
+                });
+            }
         }
 
         // Bind handlers
@@ -7070,6 +7146,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
         });
         pop.querySelectorAll('.xref-entry').forEach(btn => {
+            if (btn._bound) return;
+            btn._bound = true;
             btn.addEventListener('click', e => {
                 e.stopPropagation();
                 const display = btn.getAttribute('data-display');
@@ -7099,7 +7177,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const listEl = pop.querySelector('.note-popover-list');
             if (listEl) {
                 _setupScrollShadows(pop, listEl);
-                _fetchXrefPreviews(data.items || [], listEl);
+                _fetchXrefPreviews(data.items || [], listEl, pop);
             }
 
             // Auto-åpne tidslinje når visning er ett enkelt vers
