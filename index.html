@@ -485,6 +485,12 @@
         .verse-span:hover .note-marker {
             text-decoration: none;
         }
+        /* Popoveren rendres inne i .verse-span (ved siden av §-markøren),
+           så hover-understreket lekker inn. Stopp arven her. */
+        .verse-span .note-popover-collapse,
+        .verse-span .note-popover-collapse * {
+            text-decoration: none;
+        }
         .chapter-heading {
             font-weight: 700;
             font-size: 0.9rem;
