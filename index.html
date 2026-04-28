@@ -244,6 +244,10 @@
             min-width: 0;
             margin-bottom: 0;
         }
+        .verse-row.with-chevron > .verse-card {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
         .compare-columns-header {
             display: flex;
             gap: 20px;
@@ -282,6 +286,10 @@
             flex-direction: column;
             transition: transform var(--dur-fast) var(--ease-out),
                         box-shadow var(--dur-fast) var(--ease-out);
+        }
+        .verse-card.with-chevron {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
         }
         @media (hover: hover) {
             .verse-card:hover {
@@ -374,24 +382,34 @@
 
         /* Chevron-knapp for å åpne/lukke hele kapittelet (utenfor kortet) */
         .chevron-wrap {
-            display: flex;
-            justify-content: center;
-            margin: -6px 0 14px;
+            display: block;
+            margin: -14px 0 14px;
+            overflow: hidden;
+            border-radius: 0 0 24px 24px;
+            background: var(--card-bg);
+            transition: background 0.2s;
+        }
+        .chevron-wrap.compare { width: 100%; }
+        .chevron-wrap:hover {
+            background: linear-gradient(180deg, rgba(168, 50, 50, 0.04), rgba(168, 50, 50, 0.13));
+        }
+        [data-theme="dark"] .chevron-wrap:hover {
+            background: linear-gradient(180deg, rgba(201, 68, 68, 0.08), rgba(201, 68, 68, 0.16));
         }
         .expand-chapter-btn {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            padding: 8px 40px;
+            width: 100%;
+            padding: 10px 0 8px;
             background: transparent;
             border: none;
             color: var(--text-muted);
             cursor: pointer;
-            border-radius: 999px;
-            transition: color 0.2s, background 0.2s;
+            border-radius: 0;
+            transition: color 0.2s;
         }
-        .expand-chapter-btn:hover { color: var(--accent); background: rgba(168, 50, 50, 0.06); }
-        [data-theme="dark"] .expand-chapter-btn:hover { background: rgba(201, 68, 68, 0.1); }
+        .expand-chapter-btn:hover { color: var(--accent); }
         .chevron-svg {
             display: block;
             transition: transform 0.22s cubic-bezier(.2, .8, .2, 1);
@@ -907,7 +925,6 @@
         }
 
         /* KI-knapper i verktøylinjen: nøytrale som standard, gul tint ved hover, gul glow når aktiv */
-        .card-action-btn.ai-btn { /* arver nøytral stil fra .card-action-btn */ }
         .card-action-btn.ai-btn:hover:not(:disabled) {
             background: linear-gradient(180deg, #fff8d8, #fbd27d);
             color: #7a5b1a;
@@ -2123,6 +2140,67 @@
         .bible-timeline-wrap.zoomed-1 .book-tint { opacity: 0.5; }
         .bible-timeline-wrap.zoomed-2 .book-tint { opacity: 1; }
 
+        /* Stedskart (Leaflet) — chips + kartcontainer */
+        .place-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 0 0 10px;
+        }
+        .place-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 10px;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 0.82rem;
+            font-weight: 600;
+            font-family: inherit;
+            transition: all 0.15s;
+        }
+        .place-chip.active {
+            background: var(--card-bg);
+            color: var(--text);
+            border-color: var(--accent);
+        }
+        .place-chip:hover { color: var(--accent); border-color: var(--accent); }
+        .place-chip-dot {
+            display: inline-block;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+        .place-chip-dot.place-kind-landpoint  { background: #a83232; }
+        .place-chip-dot.place-kind-waterpoint { background: #1f6feb; }
+        .place-chip-dot.place-kind-water      { background: #1f6feb; border-radius: 0; height: 3px; width: 14px; }
+        .place-chip-dot.place-kind-path       { background: linear-gradient(90deg, #666 50%, transparent 50%); border-radius: 0; height: 3px; width: 14px; background-size: 6px 3px; }
+        .place-chip-dot.place-kind-region     { background: rgba(122, 76, 179, 0.3); border: 1.5px solid #7a4cb3; }
+        .place-chip-verses {
+            font-weight: 500;
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            opacity: 0.85;
+        }
+        .place-chip.active .place-chip-verses { opacity: 0.7; }
+        .place-chip-x {
+            opacity: 0;
+            transition: opacity 0.12s;
+            font-weight: 400;
+            margin-left: 2px;
+        }
+        .place-chip.active:hover .place-chip-x { opacity: 0.7; }
+        .place-leaflet { width: 100%; }
+        /* Leaflet popup-tema tilpasset app-stil (lyst og mørkt) */
+        .leaflet-popup-content { font-family: inherit; font-size: 0.85rem; }
+        [data-theme="dark"] .leaflet-popup-content-wrapper,
+        [data-theme="dark"] .leaflet-popup-tip { background: var(--card-bg); color: var(--text); }
+        [data-theme="dark"] .leaflet-tile-pane { filter: brightness(0.85) invert(0.95) hue-rotate(180deg) saturate(0.7); }
+
         /* Lukke-animasjon for viz-hosts (Kart, Tidslinje, Kontekst, Tema-kart, Generer refs) */
         .bible-map-wrap.closing {
             animation: vizFadeOut 220ms cubic-bezier(.4, 0, .2, 1) forwards;
@@ -2827,6 +2905,10 @@
             body { padding-top: 54px; }
         }
     </style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
 </head>
 <body class="page-center-mode">
 
@@ -4052,6 +4134,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     window.closeVizHost = function(id) {
         const el = document.getElementById(id);
         if (!el || el.classList.contains('closing')) return;
+        // Rydd opp Leaflet-kartet og ResizeObserver om vi lukker en place-map host
+        if (typeof placeMapHosts !== 'undefined' && placeMapHosts[id]) {
+            const st = placeMapHosts[id];
+            if (st.map) { try { st.map.remove(); } catch {} }
+            if (el._placeResizeObserver) { try { el._placeResizeObserver.disconnect(); } catch {} }
+            delete placeMapHosts[id];
+        }
         el.classList.add('closing');
         setTimeout(() => {
             if (el.parentNode) el.remove();
@@ -5153,6 +5242,186 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         showXrefMap(items);
     };
 
+    // ── Geografisk kart (Leaflet) over steder knyttet til et vers eller kapittel ──
+    const PLACE_KIND_STYLE = {
+        landpoint:  { color: '#a83232', fillColor: '#a83232', radius: 7, weight: 2,  fillOpacity: 0.9 },
+        waterpoint: { color: '#1f6feb', fillColor: '#1f6feb', radius: 7, weight: 2,  fillOpacity: 0.9 },
+        water:      { color: '#1f6feb', weight: 3, opacity: 0.85 },
+        path:       { color: '#666',    weight: 2, opacity: 0.85, dashArray: '6 6' },
+        region:     { color: '#7a4cb3', weight: 1.5, opacity: 0.7, fillColor: '#7a4cb3', fillOpacity: 0.18 },
+    };
+
+    // Per-host tilstand: {scope, key, places: [...], visible: Set<id>, map, layers: {id: layer}}
+    const placeMapHosts = {};
+
+    function _refreshPlaceMapBtn(btn, scope, source) {
+        if (!PLACES_HAS.loaded) {
+            btn.setAttribute('data-pending', '1');
+            btn.disabled = false; // ikke utgrå før vi vet
+            return;
+        }
+        btn.removeAttribute('data-pending');
+        const has = scope === 'verse'
+            ? PLACES_HAS.verses.has(source)
+            : PLACES_HAS.chapters.has(source);
+        btn.disabled = !has;
+        if (!has) {
+            btn.setAttribute('title', 'Ingen registrerte steder for dette ' + (scope === 'verse' ? 'verset' : 'kapittelet'));
+        } else {
+            btn.removeAttribute('title');
+        }
+    }
+
+    window.openVersePlaceMap = function(btn) {
+        const source = btn.getAttribute('data-source');     // "JHN.1.28" eller "JHN.1"
+        const scope  = btn.getAttribute('data-scope');      // "verse" | "chapter"
+        if (!source || !scope) return;
+        const hostId = 'placeMapHost';
+        // Toggle: hvis allerede åpen for samme source, lukk
+        const existing = document.getElementById(hostId);
+        if (existing && placeMapHosts[hostId] && placeMapHosts[hostId].key === source) {
+            closeVizHost(hostId);
+            return;
+        }
+        if (existing) closeVizHost(hostId);
+
+        const url = scope === 'verse'
+            ? `/api/places?usfm=${encodeURIComponent(source)}`
+            : `/api/places?book=${encodeURIComponent(source.split('.')[0])}&chapter=${encodeURIComponent(source.split('.')[1])}`;
+
+        fetch(url).then(r => r.json()).then(data => {
+            const places = data.places || [];
+            if (!places.length) return;
+            _renderPlaceMapHost(hostId, scope, source, places);
+        }).catch(() => {});
+    };
+
+    function _renderPlaceMapHost(hostId, scope, source, places) {
+        let titleSuffix;
+        if (scope === 'verse') {
+            titleSuffix = formatUsfmRef(source) || source;
+        } else {
+            const [b, c] = source.split('.');
+            titleSuffix = `${bookName(b)} ${c}`;
+        }
+        const titleHtml = `📍 Steder — ${escHtml(titleSuffix || source)}`;
+        const innerHtml = `
+            <div class="place-chips" data-host="${hostId}"></div>
+            <div class="place-leaflet" id="${hostId}_map" style="height:380px;border-radius:10px;overflow:hidden;"></div>
+            <div class="place-hint" style="font-size:0.78rem;color:var(--text-muted);margin-top:6px;">
+                Klikk en stedsknapp for å skjule/vise på kartet. Klikk en pin på kartet for detaljer.
+            </div>
+        `;
+        renderXrefViz(hostId, titleHtml, innerHtml);
+
+        const state = {
+            scope, key: source, places,
+            visible: new Set(places.map(p => p.id)),
+            map: null, layers: {},
+        };
+        placeMapHosts[hostId] = state;
+
+        // Bygg chips
+        const chipWrap = document.querySelector(`.place-chips[data-host="${hostId}"]`);
+        if (chipWrap) {
+            chipWrap.innerHTML = places.map(p => {
+                const verseInfo = (scope === 'chapter' && p.verses && p.verses.length)
+                    ? ` <span class="place-chip-verses">v${p.verses.join(', ')}</span>`
+                    : '';
+                return `<button type="button" class="place-chip active" data-place-id="${p.id}" data-host="${hostId}">
+                    <span class="place-chip-dot place-kind-${escAttr(p.kind)}"></span>${escHtml(p.name)}${verseInfo}<span class="place-chip-x">×</span>
+                </button>`;
+            }).join('');
+            chipWrap.querySelectorAll('.place-chip').forEach(chip => {
+                chip.addEventListener('click', () => {
+                    const id = parseInt(chip.getAttribute('data-place-id'), 10);
+                    _togglePlaceVisibility(hostId, id, chip);
+                });
+            });
+        }
+
+        // Init Leaflet (etter at DOM er på plass)
+        if (typeof L === 'undefined') {
+            // Leaflet ikke lastet ennå — prøv igjen kort etter
+            setTimeout(() => _initPlaceMap(hostId), 200);
+        } else {
+            _initPlaceMap(hostId);
+        }
+    }
+
+    function _initPlaceMap(hostId) {
+        const state = placeMapHosts[hostId];
+        if (!state || typeof L === 'undefined') return;
+        const mapEl = document.getElementById(hostId + '_map');
+        if (!mapEl) return;
+        const map = L.map(mapEl, { scrollWheelZoom: true });
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        }).addTo(map);
+
+        state.map = map;
+        state.places.forEach(p => {
+            const layer = _buildPlaceLayer(p);
+            if (layer) {
+                layer.addTo(map);
+                state.layers[p.id] = layer;
+            }
+        });
+        _fitVisibleBounds(hostId);
+
+        // Ved flytting til sidepanel/tilbake: invalider størrelse så kartet rendrer riktig
+        const host = document.getElementById(hostId);
+        if (host) {
+            const ro = new ResizeObserver(() => map.invalidateSize());
+            ro.observe(host);
+            host._placeResizeObserver = ro;
+        }
+    }
+
+    function _buildPlaceLayer(place) {
+        if (!place.geometry) return null;
+        const style = PLACE_KIND_STYLE[place.kind] || PLACE_KIND_STYLE.landpoint;
+        const popupHtml = `<div style="font-weight:700;margin-bottom:2px;">${escHtml(place.name)}</div>`
+            + (place.placemark ? `<div style="color:#555;font-size:0.85em;">${escHtml(place.placemark)}</div>` : '')
+            + (place.verses && place.verses.length
+                ? `<div style="margin-top:4px;font-size:0.8em;color:#888;">Vers: ${place.verses.join(', ')}</div>`
+                : '');
+        const layer = L.geoJSON(place.geometry, {
+            pointToLayer: (_, latlng) => L.circleMarker(latlng, style),
+            style: () => style,
+        }).bindPopup(popupHtml);
+        return layer;
+    }
+
+    function _togglePlaceVisibility(hostId, placeId, chipEl) {
+        const state = placeMapHosts[hostId];
+        if (!state) return;
+        const layer = state.layers[placeId];
+        if (state.visible.has(placeId)) {
+            state.visible.delete(placeId);
+            chipEl.classList.remove('active');
+            if (layer && state.map) state.map.removeLayer(layer);
+        } else {
+            state.visible.add(placeId);
+            chipEl.classList.add('active');
+            if (layer && state.map) layer.addTo(state.map);
+        }
+        _fitVisibleBounds(hostId);
+    }
+
+    function _fitVisibleBounds(hostId) {
+        const state = placeMapHosts[hostId];
+        if (!state || !state.map) return;
+        const visibleLayers = [...state.visible].map(id => state.layers[id]).filter(Boolean);
+        if (!visibleLayers.length) return;
+        const group = L.featureGroup(visibleLayers);
+        const bounds = group.getBounds();
+        if (bounds.isValid()) {
+            state.map.fitBounds(bounds, { padding: [24, 24], maxZoom: 12 });
+        }
+    }
+
     // Popover ved klikk på bok-celle i xref-kartet: viser alle referanser til boken
     // med vers-tekst (samme modul som tema-kart-popover)
     window.showXrefBookPopover = async function(bookCode, anchorEl) {
@@ -5839,6 +6108,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ── Init ──
     const PREF_VERSION_KEY = 'preferredVersion';
     let BOOK_GROUPS = [];  // Lastes fra /api/book_groups: [{key, name_no, name_en, books}]
+    // Sett over USFM-koder + kapitler som har registrerte steder (for å utgrå "📍 Kart")
+    const PLACES_HAS = { verses: new Set(), chapters: new Set(), loaded: false };
     async function init() {
         const resp = await fetch('/api/versions');
         const data = await resp.json();
@@ -5847,6 +6118,23 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             .then(r => r.ok ? r.json() : null)
             .then(d => { if (d && d.groups) BOOK_GROUPS = d.groups; })
             .catch(() => {});
+        // Last places-indeks i bakgrunnen — brukes til å utgrå "📍 Kart"-knappen
+        fetch('/api/places/has')
+            .then(r => r.ok ? r.json() : null)
+            .then(d => {
+                if (d) {
+                    PLACES_HAS.verses = new Set(d.verses || []);
+                    PLACES_HAS.chapters = new Set(d.chapters || []);
+                }
+                PLACES_HAS.loaded = true;
+                // Re-render åpne kort så "📍 Kart"-knappen oppdaterer enabled-state
+                document.querySelectorAll('.place-map-btn[data-pending="1"]').forEach(btn => {
+                    const usfm = btn.getAttribute('data-source');
+                    const scope = btn.getAttribute('data-scope');
+                    _refreshPlaceMapBtn(btn, scope, usfm);
+                });
+            })
+            .catch(() => { PLACES_HAS.loaded = true; });
         data.versions.forEach(v => {
             versionSelect.add(new Option(versionLabel(v), v));
             // "Alle" gir ikke mening som sammenligningsversjon — kun ekte versjoner
@@ -6822,16 +7110,18 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         for (let idx = 0; idx < mainData.length; idx++) {
             const mainBlock = mainData[idx];
             const compBlock = showCompare && idx < compareData.length ? compareData[idx] : null;
+            const hasChevron = hasExpandableChevron(mainBlock);
 
             if (showCompare) {
-                html += '<div class="verse-row">';
-                html += buildCardHtml(mainBlock, idx, false);
+                html += `<div class="verse-row${hasChevron ? ' with-chevron' : ''}">`;
+                html += buildCardHtml(mainBlock, idx, false, hasChevron);
                 html += buildCompareCardHtml(compBlock, idx);
                 html += '</div>';
+                html += buildChevronHtml(mainBlock, true);
                 html += buildToolbarHtml(mainBlock);
                 if (idx === 0) html += aiSection;
             } else {
-                html += buildCardHtml(mainBlock, idx, false);
+                html += buildCardHtml(mainBlock, idx, false, hasChevron);
                 html += buildChevronHtml(mainBlock);
                 // Inline-utvidelse for 'Alle versjoner' — under hoved-kortet, over verktøylinjen
                 if (inlineAllVersionsData && idx === 0) {
@@ -7005,7 +7295,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return html;
     }
 
-    function buildCardHtml(block, idx, isCompare) {
+    function buildCardHtml(block, idx, isCompare, withChevron = false) {
         if (!block) return '';
         if (block.error) {
             const lbl = block.label || 'Feil';
@@ -7036,7 +7326,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const srcBtn = srcUrl ? `<a class="copy-btn" href="${srcUrl}" target="_blank" rel="noopener" title="Åpne kilde (bible.com)">Kilde</a>` : '';
         const allVersionsActive = !!inlineAllVersionsData;
         const allVersionsBtn = `<button class="copy-btn${allVersionsActive ? ' active' : ''}" onclick="toggleAllVersionsInline('${escAttr(block.label)}', this)" title="Vis samme vers i alle versjoner">Alle versjoner</button>`;
-        let html = `<div class="verse-card" id="card-${idx}">
+        let html = `<div class="verse-card${withChevron ? ' with-chevron' : ''}" id="card-${idx}">
             <div class="verse-card-header${showMainVersionSelect ? ' compare-card-header' : ''}">
                 <span class="verse-card-label">${escHtml(displayLabel)}</span>
                 ${mainVerSelHtml}
@@ -7060,24 +7350,29 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     const CHEVRON_DOWN_SVG = '<svg class="chevron-svg" viewBox="0 0 24 8" width="28" height="10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,2 12,6 22,2"/></svg>';
     const CHEVRON_UP_SVG   = '<svg class="chevron-svg" viewBox="0 0 24 8" width="28" height="10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 12,2 22,6"/></svg>';
 
-    function buildChevronHtml(block) {
+    function hasExpandableChevron(block) {
         if (!block || !block.book || !block.verses || block.verses.length === 0) return '';
         const ch = block.verses[0].chapter;
-        const bName = bookName(block.book);
         // Samme kapittel på alle vers?
         const sameChapter = block.verses.every(v => v.chapter === ch);
         if (!sameChapter) return '';
         const isSingleVerse = block.verses.length === 1;
-        if (isSingleVerse) {
-            // Utvid til hele kapittelet
-            const vnum = block.verses[0].num;
-            return `<div class="chevron-wrap"><button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${vnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet">${CHEVRON_DOWN_SVG}</button></div>`;
-        }
+        if (isSingleVerse) return true;
         // Fullt kapittel (eller nesten): tilby å gå tilbake til highlight-verset
-        if (block.verses.length >= 5 && highlightVerse != null) {
-            return `<div class="chevron-wrap"><button class="expand-chapter-btn collapse" onclick="navigateToRef('${escAttr(bName)} ${ch}:${highlightVerse}')" title="Tilbake til ett vers" aria-label="Tilbake til ett vers">${CHEVRON_UP_SVG}</button></div>`;
+        return !!(block.verses.length >= 5 && highlightVerse != null);
+    }
+
+    function buildChevronHtml(block, inCompare = false) {
+        if (!hasExpandableChevron(block)) return '';
+        const ch = block.verses[0].chapter;
+        const bName = bookName(block.book);
+        const wrapClass = inCompare ? 'chevron-wrap compare' : 'chevron-wrap';
+        const isSingleVerse = block.verses.length === 1;
+        if (isSingleVerse) {
+            const vnum = block.verses[0].num;
+            return `<div class="${wrapClass}"><button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${vnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet">${CHEVRON_DOWN_SVG}</button></div>`;
         }
-        return '';
+        return `<div class="${wrapClass}"><button class="expand-chapter-btn collapse" onclick="navigateToRef('${escAttr(bName)} ${ch}:${highlightVerse}')" title="Tilbake til ett vers" aria-label="Tilbake til ett vers">${CHEVRON_UP_SVG}</button></div>`;
     }
 
     function buildToolbarHtml(block) {
@@ -7106,6 +7401,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             ? `<button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" data-source="${escAttr(block.book + '.' + singleV.chapter + '.' + singleV.num)}" onclick="generateRefs(this)">🔗 Generer referanser</button>`
             : '';
 
+        // 📍 Kart: vers-nivå når ett vers vises, ellers kapittel-nivå.
+        const placeScope  = singleV ? 'verse' : 'chapter';
+        const placeSource = singleV
+            ? `${block.book}.${singleV.chapter}.${singleV.num}`
+            : `${block.book}.${ch}`;
+        const placeHas = PLACES_HAS.loaded
+            ? (placeScope === 'verse' ? PLACES_HAS.verses.has(placeSource) : PLACES_HAS.chapters.has(placeSource))
+            : null;
+        const placeDisabledAttr = placeHas === false
+            ? `disabled title="Ingen registrerte steder for dette ${placeScope === 'verse' ? 'verset' : 'kapittelet'}"`
+            : '';
+        const placePendingAttr = placeHas === null ? 'data-pending="1"' : '';
+        const placeBtn = `<button class="card-action-btn place-map-btn" data-source="${escAttr(placeSource)}" data-scope="${placeScope}" ${placeDisabledAttr} ${placePendingAttr} onclick="openVersePlaceMap(this)">📍 Kart</button>`;
+
         // KI-sammenligningsknapper: vises bare i sammenligningsmodus
         let compareAiBtns = '';
         if (compareMode && compareData) {
@@ -7131,6 +7440,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
             ${chapterXrefBtn}
+            ${placeBtn}
             ${genRefsBtn}
             ${compareAiBtns}`;
         if (ilUrl) {
