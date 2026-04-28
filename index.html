@@ -7757,13 +7757,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 _fetchXrefPreviews(data.items || [], listEl, pop);
             }
 
-            // Auto-åpne tidslinje når visning er ett enkelt vers
-            if (data.source && data.items &&
-                mainData && mainData.length === 1 && mainData[0].verses && mainData[0].verses.length === 1) {
-                if (!document.getElementById('xrefTimelineHost')) {
-                    showXrefTimeline(data.source, data.items);
-                }
-            }
+            // Ikke auto-åpne tidslinje ved referanseklikk.
+            // Brukeren åpner den eksplisitt via 📈 Tidslinje-knappen.
         }
     };
 

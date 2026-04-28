@@ -43,6 +43,15 @@ VERSION_NAME_MAP = {
 }
 # Reverse: DB-navn → frontend-navn (det vi returnerer i /api/versions)
 DB_TO_FRONTEND_NAME = {v: k for k, v in VERSION_NAME_MAP.items()}
+# Aliaser: alternative DB-navn som også skal mappes til samme frontend-navn.
+# Trengs fordi tobiashellerslien/bible.db bruker kortere DB-navn enn vi gjorde
+# da vi bygde lokalt (f.eks. "B2011" i stedet for "Bibel 2011"). Frontend
+# (BIBLE_COM_IDS, VERSION_DISPLAY, BIBLEHUB_SLUGS) er hardkodet på langformene.
+DB_TO_FRONTEND_NAME.update({
+    "B2011": "Bibel2011",
+    "B1930": "Bibel1930",
+    "NASB":  "NASB1995",
+})
 
 # ──────────────────────────────────────────────
 # Book alias mapping: alias → USFM code
