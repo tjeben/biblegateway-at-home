@@ -30,6 +30,9 @@ Starts an HTTP server at `http://127.0.0.1:8421`, auto-opens the browser, and sh
   - `/api/books?version=NB88` → `{books: [{code, name, name_en, chapters}, ...]}`
   - `/api/search?q=...&version=NB88` → `{type: "reference"|"text_search", results: [...], version}`
   - `/api/all_versions?q=...` → runs reference parse across every loaded version; `{results: {versionName: [blocks]}}`
+  - `/api/places?usfm=JHN.1.28` → `{places: [{id, name, aliases, placemark, kind, geometry}], scope: "verse", usfm}` (verse-level)
+  - `/api/places?book=JHN&chapter=1` → same shape, but each place also has `verses: [int]`; `scope: "chapter"` (chapter-level)
+  - `/api/places/has` → `{verses: ["JHN.1.28", ...], chapters: ["JHN.1", ...]}` — used by frontend at startup to disable the "📍 Kart"-button on verses/chapters without registered places
   - `/api/heartbeat` → resets shutdown timer
 
 ### index.html
@@ -54,6 +57,8 @@ Starts an HTTP server at `http://127.0.0.1:8421`, auto-opens the browser, and sh
 | `cross_references` | `(from_book, from_chapter, from_verse, to_book, to_chapter, to_verse_start, to_verse_end, to_chapter_end, votes)` — ~345k OpenBible TSK rows, version-independent. |
 | `verses_fts` | FTS5 virtual table (content=verses, tokenize=unicode61). |
 | `book_groups` + `book_group_members` | Named groups like `gt`, `nt`, `paulusbrevene`, `evangeliene`. Available in `BibleData.book_groups`; not yet wired into the search prefix parser. |
+| `places` | `(id, name, aliases JSON, placemark, kind, geometry GeoJSON)` — ~1336 biblical locations. `kind` ∈ {`landpoint`, `region`, `water`, `path`, `waterpoint`}. `geometry` is GeoJSON `Point` / `LineString` / `Polygon`. Optional table; absent in older bible.db builds. |
+| `place_verses` | `(place_id, book_usfm, chapter, verse)` — many-to-many between places and verses (~8700 rows). Indexed on `(book_usfm, chapter, verse)`. Optional table. |
 
 `bible.db` is ~91 MB and is **not** committed to git (see `.gitignore`). Fetch it separately and place in project root.
 

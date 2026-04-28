@@ -572,10 +572,86 @@ class BibleData:
                 "books": books,
             }
 
+        # Places-indeks (valgfritt — kun hvis DB har places/place_verses)
+        self.has_places = self._table_exists("places") and self._table_exists("place_verses")
+        self.places_verse_set = set()    # {"JHN.1.28", ...}
+        self.places_chapter_set = set()  # {"JHN.1", ...}
+        if self.has_places:
+            for r in self._query(
+                "SELECT DISTINCT book_usfm, chapter, verse FROM place_verses"
+            ):
+                self.places_verse_set.add(f"{r['book_usfm']}.{r['chapter']}.{r['verse']}")
+                self.places_chapter_set.add(f"{r['book_usfm']}.{r['chapter']}")
+
         print(
             f"Loaded {len(self.translations)} Bible version(s) from bible.db: "
             f"{', '.join(self.translations.keys())}"
+            + (f" — places: {len(self.places_verse_set)} vers / {len(self.places_chapter_set)} kapitler"
+               if self.has_places else " — places: ikke tilgjengelig")
         )
+
+    def _table_exists(self, name):
+        row = self._query_one(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name=?", (name,)
+        )
+        return row is not None
+
+    # ── places: oppslag på vers- og kapittelnivå ──
+    def _decode_place_row(self, row):
+        try:
+            geometry = json.loads(row["geometry"])
+        except (json.JSONDecodeError, TypeError):
+            geometry = None
+        try:
+            aliases = json.loads(row["aliases"]) if row["aliases"] else []
+        except (json.JSONDecodeError, TypeError):
+            aliases = []
+        return {
+            "id": row["id"],
+            "name": row["name"],
+            "aliases": aliases,
+            "placemark": row["placemark"],
+            "kind": row["kind"],
+            "geometry": geometry,
+        }
+
+    def places_for_verse(self, book_usfm, chapter, verse):
+        if not self.has_places:
+            return []
+        rows = self._query(
+            """
+            SELECT p.id, p.name, p.aliases, p.placemark, p.kind, p.geometry
+            FROM place_verses pv
+            JOIN places p ON p.id = pv.place_id
+            WHERE pv.book_usfm=? AND pv.chapter=? AND pv.verse=?
+            ORDER BY p.name
+            """,
+            (book_usfm, chapter, verse),
+        )
+        return [self._decode_place_row(r) for r in rows]
+
+    def places_for_chapter(self, book_usfm, chapter):
+        """Returner unike steder i kapittelet, hvert med liste over vers det er nevnt i."""
+        if not self.has_places:
+            return []
+        rows = self._query(
+            """
+            SELECT p.id, p.name, p.aliases, p.placemark, p.kind, p.geometry, pv.verse
+            FROM place_verses pv
+            JOIN places p ON p.id = pv.place_id
+            WHERE pv.book_usfm=? AND pv.chapter=?
+            ORDER BY p.name, pv.verse
+            """,
+            (book_usfm, chapter),
+        )
+        by_id = {}
+        for r in rows:
+            pid = r["id"]
+            if pid not in by_id:
+                by_id[pid] = self._decode_place_row(r)
+                by_id[pid]["verses"] = []
+            by_id[pid]["verses"].append(r["verse"])
+        return list(by_id.values())
 
     # ── oppslag av oversettelses-id, med tilbakefall til DB-navn ──
     def _resolve_tid(self, version):
@@ -1508,6 +1584,45 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             # Eksponer book_groups (Mosebøkene, Evangeliene, Paulusbrevene osv.) til frontend.
             groups = list(bible_data.book_groups_meta.values())
             self._send_json({"groups": groups})
+
+        elif path == "/api/places":
+            # Geografiske steder knyttet til ett vers eller et helt kapittel.
+            # Vers-nivå: ?usfm=JHN.1.28
+            # Kapittel-nivå: ?book=JHN&chapter=1
+            if not bible_data.has_places:
+                self._send_json({"places": [], "scope": None})
+                return
+            usfm = params.get("usfm", [""])[0].strip()
+            book = params.get("book", [""])[0].strip().upper()
+            ch_str = params.get("chapter", [""])[0].strip()
+            if usfm:
+                parts = usfm.split(".")
+                if len(parts) != 3:
+                    self._send_json({"error": "Forventet format USFM.CH.VS"}, 400)
+                    return
+                try:
+                    places = bible_data.places_for_verse(parts[0].upper(), int(parts[1]), int(parts[2]))
+                except ValueError:
+                    self._send_json({"error": "Ugyldig USFM"}, 400)
+                    return
+                self._send_json({"places": places, "scope": "verse", "usfm": usfm})
+            elif book and ch_str:
+                try:
+                    places = bible_data.places_for_chapter(book, int(ch_str))
+                except ValueError:
+                    self._send_json({"error": "Ugyldig kapittel"}, 400)
+                    return
+                self._send_json({"places": places, "scope": "chapter", "book": book, "chapter": int(ch_str)})
+            else:
+                self._send_json({"error": "Mangler ?usfm=... eller ?book=...&chapter=..."}, 400)
+
+        elif path == "/api/places/has":
+            # Returner alle USFM-koder med steder, så frontend kan utgrå "📍 Kart"-knappen
+            # når et vers/kapittel ikke har registrerte steder. Cacheable.
+            self._send_json({
+                "verses": sorted(bible_data.places_verse_set),
+                "chapters": sorted(bible_data.places_chapter_set),
+            })
 
         elif path == "/api/xref_previews":
             # Hent verstekst for en liste av kryssreferanser (USFM-form).
