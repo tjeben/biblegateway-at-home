@@ -42,6 +42,8 @@ Starts an HTTP server at `http://127.0.0.1:8421`, auto-opens the browser, and sh
 - **Compare mode**: calls `/api/search` twice (once per version) and renders results side-by-side. **All versions mode**: calls `/api/all_versions` and renders a column per version.
 - `VERSION_DISPLAY` maps folder names to display names (e.g., `NB88` → `NB88/07`). Falls back to the raw folder name if no entry.
 - `BIBLEHUB_SLUGS` and `ENG_NAMES` provide client-side book code mappings for interlinear links and language toggle.
+- **`📍 Kart` study element**: opens a Leaflet-based geographic map of biblical locations tied to the verse (or chapter, when not viewing a single verse). Backed by `/api/places` and `places` / `place_verses` tables. Button auto-disables when `PLACES_HAS` set (loaded from `/api/places/has` at startup) doesn't contain the relevant USFM-key. Chips above the map let the user toggle individual places on/off; map auto-fits remaining bounds. Cleanup (Leaflet `map.remove()` + ResizeObserver) happens in `closeVizHost`.
+- **xref popover footer**: contains `Vis alle (N)`, `🗺️ Oversikt` (book heatmap of cross-references — formerly named `🗺️ Kart`), and `📈 Tidslinje`. Each button only renders when relevant (e.g., `Vis alle` only when collapsed; `Oversikt` only when refs span ≥2 books).
 - `translateLabel(label, bookCode)` swaps Norwegian book names in server labels for the currently selected language (`bookLang`: `"no"` or `"en"`).
 - Dark mode is toggled via `data-theme="dark"` on the `<html>` element.
 

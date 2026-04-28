@@ -387,26 +387,42 @@
             overflow: hidden;
             border-radius: 0 0 24px 24px;
             background: var(--card-bg);
+            box-shadow: none;
+            position: relative;
             transition: background 0.2s;
+        }
+        .chevron-wrap::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: var(--border);
+            z-index: 2;
+            pointer-events: none;
         }
         .chevron-wrap.compare { width: 100%; }
         .chevron-wrap:hover {
-            background: linear-gradient(180deg, rgba(168, 50, 50, 0.04), rgba(168, 50, 50, 0.13));
+            background: rgba(168, 50, 50, 0.10);
         }
         [data-theme="dark"] .chevron-wrap:hover {
-            background: linear-gradient(180deg, rgba(201, 68, 68, 0.08), rgba(201, 68, 68, 0.16));
+            background: rgba(201, 68, 68, 0.14);
         }
         .expand-chapter-btn {
             display: inline-flex;
             align-items: center;
             justify-content: center;
             width: 100%;
-            padding: 10px 0 8px;
+            padding: 11px 0 8px;
             background: transparent;
             border: none;
             color: var(--text-muted);
             cursor: pointer;
             border-radius: 0;
+            box-shadow: none;
+            position: relative;
+            z-index: 1;
             transition: color 0.2s;
         }
         .expand-chapter-btn:hover { color: var(--accent); }
@@ -621,27 +637,6 @@
         }
         .note-popover-list.expanded {
             overflow-y: auto;       /* utvidet modus: rull for å se resten */
-        }
-        /* "Vis alle"-rad over footeren — vises bare i kollapset modus */
-        .note-popover-showmore {
-            flex: 0 0 auto;
-            padding: 8px 14px 4px;
-            text-align: center;
-        }
-        .note-popover-showmore button {
-            background: transparent;
-            border: 1px solid var(--border);
-            border-radius: 999px;
-            color: var(--text-muted);
-            cursor: pointer;
-            font-size: 0.82rem;
-            font-weight: 600;
-            padding: 6px 14px;
-            transition: all 0.15s;
-        }
-        .note-popover-showmore button:hover {
-            color: var(--accent);
-            border-color: var(--accent);
         }
         /* Scroll-skygger over og under listen — overlay som ikke deltar i flex-flowen */
         .popover-fade-top, .popover-fade-bot {
@@ -7657,13 +7652,16 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const SHOW_INITIAL = 3;
             const collapsed = count > SHOW_INITIAL;
 
-            // Footer: Kart + Tidslinje (kun når relevant)
+            // Footer: Vis alle + Oversikt + Tidslinje (kun knapper som er relevante)
             let footerBtns = '';
+            if (collapsed) {
+                footerBtns += `<button class="xref-action-btn xref-action-showmore" type="button">Vis alle (${count})</button>`;
+            }
             if (count >= 3) {
                 const perBook = countXrefsPerBook(items);
                 if (Object.keys(perBook).length >= 2) {
                     const encoded = JSON.stringify(items).replace(/"/g, '&quot;');
-                    footerBtns += `<button class="xref-action-btn" data-xref-items="${encoded}">🗺️ Kart</button>`;
+                    footerBtns += `<button class="xref-action-btn" data-xref-items="${encoded}">🗺️ Oversikt</button>`;
                 }
                 if (source) {
                     const info = JSON.stringify({ source, items }).replace(/"/g, '&quot;');
@@ -7683,9 +7681,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             };
             const visible = collapsed ? items.slice(0, SHOW_INITIAL) : items;
             const entriesHtml = visible.map(renderEntry).join('');
-            const showMoreHtml = collapsed
-                ? `<div class="note-popover-showmore"><button type="button">Vis alle (${count})</button></div>`
-                : '';
 
             pop.innerHTML = `
                 <button class="note-popover-close" aria-label="Lukk">×</button>
@@ -7694,12 +7689,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     <div class="note-popover-list${collapsed ? '' : ' expanded'}">${entriesHtml}</div>
                     <div class="popover-fade-bot"></div>
                 </div>
-                ${showMoreHtml}
                 ${footerHtml}
             `;
 
-            // "Vis alle"-knapp: render resten + skift til scrollbar modus
-            const showMoreEl = pop.querySelector('.note-popover-showmore button');
+            // "Vis alle"-knapp i footer: render resten + skift til scrollbar modus
+            const showMoreEl = pop.querySelector('.xref-action-showmore');
             if (showMoreEl) {
                 showMoreEl.addEventListener('click', e => {
                     e.stopPropagation();
@@ -7708,7 +7702,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     const restHtml = items.slice(SHOW_INITIAL).map(renderEntry).join('');
                     listEl.insertAdjacentHTML('beforeend', restHtml);
                     listEl.classList.add('expanded');
-                    pop.querySelector('.note-popover-showmore').remove();
+                    showMoreEl.remove();
                     // Bind klikk på de nye entries
                     listEl.querySelectorAll('.xref-entry').forEach(btn => {
                         if (btn._bound) return;
