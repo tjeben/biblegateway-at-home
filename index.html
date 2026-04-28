@@ -3060,10 +3060,10 @@
     <button type="button" data-action="delete-highlight" title="Slett uthevning">🗑 Slett</button>
 </div>
 <div id="verseOpenPopup" class="selection-popup" role="toolbar" aria-label="Handlinger for vers">
-    <span class="vop-label">Åpne:</span>
-    <button type="button" data-action="open-verse" title="Åpne dette verset">vers</button>
-    <button type="button" data-action="open-ref"   title="Vis kryssreferanser">ref</button>
-    <button type="button" data-action="open-map"   title="Vis steder på kart">kart</button>
+    <button type="button" data-action="open-verse" title="Åpne dette verset">📖</button>
+    <button type="button" data-action="open-ref"   title="Vis kryssreferanser">§</button>
+    <button type="button" data-action="open-map"   title="Vis steder på kart">📍</button>
+    <button type="button" data-action="open-comment" title="Vis kommentar">💬</button>
 </div>
 
 <!-- Mobile sticky bottom search bar -->
@@ -4758,9 +4758,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     (function setupVerseOpenPopup() {
         const popup = document.getElementById('verseOpenPopup');
         if (!popup) return;
-        const btnVers = popup.querySelector('button[data-action="open-verse"]');
-        const btnRef  = popup.querySelector('button[data-action="open-ref"]');
-        const btnMap  = popup.querySelector('button[data-action="open-map"]');
+        const btnVers    = popup.querySelector('button[data-action="open-verse"]');
+        const btnRef     = popup.querySelector('button[data-action="open-ref"]');
+        const btnMap     = popup.querySelector('button[data-action="open-map"]');
+        const btnComment = popup.querySelector('button[data-action="open-comment"]');
 
         let active = null; // {ref, version, usfm, xrefMarker}
 
@@ -4802,6 +4803,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             // Vis bare knapper som er relevante for dette verset
             btnRef.hidden = !xrefMarker;
             btnMap.hidden = !hasPlaces;
+            btnComment.hidden = true;  // TODO: vises når kommentar finnes for verset
 
             active = {
                 ref: formatVrefToLabel(vref),
