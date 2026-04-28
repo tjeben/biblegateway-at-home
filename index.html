@@ -470,26 +470,16 @@
         }
         .verse-num:hover { background: rgba(168, 50, 50, 0.15); }
         [data-theme="dark"] .verse-num:hover { background: rgba(201, 68, 68, 0.2); }
-        /* Hover på verset: understrek versteksten for å vise treff,
-           men ikke versenummer eller xref/fotnote-markører. */
-        .verse-span:hover {
+        /* Hover på verset: understrek kun selve versteksten (.verse-content).
+           Markører og popover er søsken, ikke barn — slipper unna lekkasje. */
+        .verse-span:hover .verse-content {
             text-decoration: underline;
             text-decoration-color: rgba(168, 50, 50, 0.45);
             text-decoration-thickness: 1px;
             text-underline-offset: 3px;
         }
-        [data-theme="dark"] .verse-span:hover {
+        [data-theme="dark"] .verse-span:hover .verse-content {
             text-decoration-color: rgba(201, 68, 68, 0.55);
-        }
-        .verse-span:hover .verse-num,
-        .verse-span:hover .note-marker {
-            text-decoration: none;
-        }
-        /* Popoveren rendres inne i .verse-span (ved siden av §-markøren),
-           så hover-understreket lekker inn. Stopp arven her. */
-        .verse-span .note-popover-collapse,
-        .verse-span .note-popover-collapse * {
-            text-decoration: none;
         }
         .chapter-heading {
             font-weight: 700;
@@ -7415,7 +7405,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const vnum = block.verses[0].num;
             return `<div class="${wrapClass}"><button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${vnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet">${CHEVRON_DOWN_SVG}</button></div>`;
         }
-        return `<div class="${wrapClass}"><button class="expand-chapter-btn collapse" onclick="navigateToRef('${escAttr(bName)} ${ch}:${highlightVerse}')" title="Tilbake til ett vers" aria-label="Tilbake til ett vers">${CHEVRON_UP_SVG}</button></div>`;
+        return `<div class="${wrapClass}"><button class="expand-chapter-btn collapse" onclick="collapseChapterToVerse('${escAttr(bName)} ${ch}:${highlightVerse}')" title="Tilbake til ett vers" aria-label="Tilbake til ett vers">${CHEVRON_UP_SVG}</button></div>`;
     }
 
     function buildToolbarHtml(block) {
@@ -7574,10 +7564,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             html += `<span class="verse-num"${vnumClick}>${v.num}</span>`;
             let txt = escHtml(v.text);
             if (hlPhrases && hlPhrases.length) txt = applyPhraseHighlights(txt, hlPhrases);
+            // Selve versteksten wrapppes i .verse-content så hover-understreket
+            // kun gjelder den, ikke markører eller popover som er søsken.
             if (hlVerse != null && v.num === hlVerse) {
-                html += `<mark class="highlighted-verse" id="hlVerseMark">${txt}</mark>`;
+                html += `<span class="verse-content"><mark class="highlighted-verse" id="hlVerseMark">${txt}</mark></span>`;
             } else {
-                html += txt;
+                html += `<span class="verse-content">${txt}</span>`;
             }
 
             // Fotnote-markører etter versteksten
@@ -7848,6 +7840,14 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         document.querySelectorAll('.note-marker.active').forEach(n => n.classList.remove('active'));
         searchInput.value = display;
         doSearch();
+    };
+
+    // Lukk hele kapittelet og gå tilbake til enkeltverset. Scroller til topp
+    // så brukeren ser verset, ikke ender på samme scroll-Y som de var på i
+    // det lange kapittelet.
+    window.collapseChapterToVerse = function(display) {
+        navigateToRef(display);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     // Naviger til en referanse og bytt til en spesifikk versjon (fra Alle-visning)
