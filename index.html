@@ -244,10 +244,6 @@
             min-width: 0;
             margin-bottom: 0;
         }
-        .verse-row.with-chevron > .verse-card {
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
-        }
         .compare-columns-header {
             display: flex;
             gap: 20px;
@@ -286,10 +282,6 @@
             flex-direction: column;
             transition: transform var(--dur-fast) var(--ease-out),
                         box-shadow var(--dur-fast) var(--ease-out);
-        }
-        .verse-card.with-chevron {
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
         }
         @media (hover: hover) {
             .verse-card:hover {
@@ -383,24 +375,11 @@
         /* Chevron-knapp for å åpne/lukke hele kapittelet (utenfor kortet) */
         .chevron-wrap {
             display: block;
-            margin: -14px 0 14px;
+            margin: 4px 0 14px;
             overflow: hidden;
-            border-radius: 0 0 24px 24px;
-            background: var(--card-bg);
-            box-shadow: none;
-            position: relative;
+            border-radius: 12px;
+            background: transparent;
             transition: background 0.2s;
-        }
-        .chevron-wrap::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 1px;
-            background: var(--border);
-            z-index: 2;
-            pointer-events: none;
         }
         .chevron-wrap.compare { width: 100%; }
         .chevron-wrap:hover {
@@ -414,15 +393,12 @@
             align-items: center;
             justify-content: center;
             width: 100%;
-            padding: 11px 0 8px;
+            padding: 8px 0;
             background: transparent;
             border: none;
             color: var(--text-muted);
             cursor: pointer;
-            border-radius: 0;
-            box-shadow: none;
-            position: relative;
-            z-index: 1;
+            border-radius: 12px;
             transition: color 0.2s;
         }
         .expand-chapter-btn:hover { color: var(--accent); }
@@ -2134,6 +2110,13 @@
         .bible-timeline .book-tint { opacity: 0; transition: opacity 0.25s; pointer-events: none; }
         .bible-timeline-wrap.zoomed-1 .book-tint { opacity: 0.5; }
         .bible-timeline-wrap.zoomed-2 .book-tint { opacity: 1; }
+
+        /* "📍 Kart"-knapp i tom-tilstand: dempet, men fortsatt klikkbar (viser toast) */
+        .card-action-btn.place-map-btn-empty {
+            opacity: 0.45;
+            cursor: help;
+        }
+        .card-action-btn.place-map-btn-empty:hover { opacity: 0.65; }
 
         /* Stedskart (Leaflet) — chips + kartcontainer */
         .place-chips {
@@ -5252,14 +5235,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     function _refreshPlaceMapBtn(btn, scope, source) {
         if (!PLACES_HAS.loaded) {
             btn.setAttribute('data-pending', '1');
-            btn.disabled = false; // ikke utgrå før vi vet
+            btn.classList.remove('place-map-btn-empty');
+            btn.removeAttribute('title');
             return;
         }
         btn.removeAttribute('data-pending');
         const has = scope === 'verse'
             ? PLACES_HAS.verses.has(source)
             : PLACES_HAS.chapters.has(source);
-        btn.disabled = !has;
+        btn.classList.toggle('place-map-btn-empty', !has);
         if (!has) {
             btn.setAttribute('title', 'Ingen registrerte steder for dette ' + (scope === 'verse' ? 'verset' : 'kapittelet'));
         } else {
@@ -5271,6 +5255,16 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const source = btn.getAttribute('data-source');     // "JHN.1.28" eller "JHN.1"
         const scope  = btn.getAttribute('data-scope');      // "verse" | "chapter"
         if (!source || !scope) return;
+
+        const noPlacesMsg = 'Ingen tilhørende plasseringer for dette ' + (scope === 'verse' ? 'verset' : 'kapittelet');
+        // Sjekk indeksen først så vi slipper unødvendig nettverkskall
+        if (PLACES_HAS.loaded) {
+            const has = scope === 'verse'
+                ? PLACES_HAS.verses.has(source)
+                : PLACES_HAS.chapters.has(source);
+            if (!has) { showToast(noPlacesMsg); return; }
+        }
+
         const hostId = 'placeMapHost';
         // Toggle: hvis allerede åpen for samme source, lukk
         const existing = document.getElementById(hostId);
@@ -5286,9 +5280,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         fetch(url).then(r => r.json()).then(data => {
             const places = data.places || [];
-            if (!places.length) return;
+            if (!places.length) { showToast(noPlacesMsg); return; }
             _renderPlaceMapHost(hostId, scope, source, places);
-        }).catch(() => {});
+        }).catch(() => showToast('Kunne ikke hente steder'));
     };
 
     function _renderPlaceMapHost(hostId, scope, source, places) {
@@ -7105,18 +7099,17 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         for (let idx = 0; idx < mainData.length; idx++) {
             const mainBlock = mainData[idx];
             const compBlock = showCompare && idx < compareData.length ? compareData[idx] : null;
-            const hasChevron = hasExpandableChevron(mainBlock);
 
             if (showCompare) {
-                html += `<div class="verse-row${hasChevron ? ' with-chevron' : ''}">`;
-                html += buildCardHtml(mainBlock, idx, false, hasChevron);
+                html += '<div class="verse-row">';
+                html += buildCardHtml(mainBlock, idx, false);
                 html += buildCompareCardHtml(compBlock, idx);
                 html += '</div>';
                 html += buildChevronHtml(mainBlock, true);
                 html += buildToolbarHtml(mainBlock);
                 if (idx === 0) html += aiSection;
             } else {
-                html += buildCardHtml(mainBlock, idx, false, hasChevron);
+                html += buildCardHtml(mainBlock, idx, false);
                 html += buildChevronHtml(mainBlock);
                 // Inline-utvidelse for 'Alle versjoner' — under hoved-kortet, over verktøylinjen
                 if (inlineAllVersionsData && idx === 0) {
@@ -7290,7 +7283,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return html;
     }
 
-    function buildCardHtml(block, idx, isCompare, withChevron = false) {
+    function buildCardHtml(block, idx, isCompare) {
         if (!block) return '';
         if (block.error) {
             const lbl = block.label || 'Feil';
@@ -7321,7 +7314,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const srcBtn = srcUrl ? `<a class="copy-btn" href="${srcUrl}" target="_blank" rel="noopener" title="Åpne kilde (bible.com)">Kilde</a>` : '';
         const allVersionsActive = !!inlineAllVersionsData;
         const allVersionsBtn = `<button class="copy-btn${allVersionsActive ? ' active' : ''}" onclick="toggleAllVersionsInline('${escAttr(block.label)}', this)" title="Vis samme vers i alle versjoner">Alle versjoner</button>`;
-        let html = `<div class="verse-card${withChevron ? ' with-chevron' : ''}" id="card-${idx}">
+        let html = `<div class="verse-card" id="card-${idx}">
             <div class="verse-card-header${showMainVersionSelect ? ' compare-card-header' : ''}">
                 <span class="verse-card-label">${escHtml(displayLabel)}</span>
                 ${mainVerSelHtml}
@@ -7404,11 +7397,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const placeHas = PLACES_HAS.loaded
             ? (placeScope === 'verse' ? PLACES_HAS.verses.has(placeSource) : PLACES_HAS.chapters.has(placeSource))
             : null;
-        const placeDisabledAttr = placeHas === false
-            ? `disabled title="Ingen registrerte steder for dette ${placeScope === 'verse' ? 'verset' : 'kapittelet'}"`
+        const placeEmptyClass = placeHas === false ? ' place-map-btn-empty' : '';
+        const placeTitleAttr = placeHas === false
+            ? `title="Ingen registrerte steder for dette ${placeScope === 'verse' ? 'verset' : 'kapittelet'}"`
             : '';
         const placePendingAttr = placeHas === null ? 'data-pending="1"' : '';
-        const placeBtn = `<button class="card-action-btn place-map-btn" data-source="${escAttr(placeSource)}" data-scope="${placeScope}" ${placeDisabledAttr} ${placePendingAttr} onclick="openVersePlaceMap(this)">📍 Kart</button>`;
+        const placeBtn = `<button class="card-action-btn place-map-btn${placeEmptyClass}" data-source="${escAttr(placeSource)}" data-scope="${placeScope}" ${placeTitleAttr} ${placePendingAttr} onclick="openVersePlaceMap(this)">📍 Kart</button>`;
 
         // KI-sammenligningsknapper: vises bare i sammenligningsmodus
         let compareAiBtns = '';
