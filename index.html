@@ -498,7 +498,7 @@
         /* Note markers (footnotes, cross-references) */
         .note-marker {
             display: inline-block;
-            margin-left: 3px;
+            margin-left: 0;
             padding: 2px 7px;
             font-size: 0.75em;
             font-weight: 700;
@@ -2391,6 +2391,16 @@
         }
         .selection-popup button:hover { background: var(--bg-subtle, rgba(0,0,0,0.06)); }
         [data-theme="dark"] .selection-popup button:hover { background: rgba(255,255,255,0.08); }
+        .selection-popup .vop-label {
+            display: inline-flex;
+            align-items: center;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 0 4px 0 6px;
+            user-select: none;
+        }
+        .selection-popup button[hidden] { display: none; }
         .user-highlight {
             background: rgba(255, 220, 80, 0.55);
             border-radius: 2px;
@@ -3036,7 +3046,10 @@
     <button type="button" data-action="delete-highlight" title="Slett uthevning">🗑 Slett</button>
 </div>
 <div id="verseOpenPopup" class="selection-popup" role="toolbar" aria-label="Handlinger for vers">
-    <button type="button" data-action="open-verse" title="Åpne dette verset">📖 Åpne vers</button>
+    <span class="vop-label">Åpne:</span>
+    <button type="button" data-action="open-verse" title="Åpne dette verset">vers</button>
+    <button type="button" data-action="open-ref"   title="Vis kryssreferanser">ref</button>
+    <button type="button" data-action="open-map"   title="Vis steder på kart">kart</button>
 </div>
 
 <!-- Mobile sticky bottom search bar -->
@@ -4727,36 +4740,38 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         });
     })();
 
-    // ── Vers-popup: klikk på verstekst (ikke versnummer) for "Åpne vers" ──
+    // ── Vers-popup: klikk på verstekst → "Åpne: vers / ref / kart" ved klikk-koordinat ──
     (function setupVerseOpenPopup() {
         const popup = document.getElementById('verseOpenPopup');
         if (!popup) return;
-        let activeRef = '';
-        let activeVersion = '';
+        const btnVers = popup.querySelector('button[data-action="open-verse"]');
+        const btnRef  = popup.querySelector('button[data-action="open-ref"]');
+        const btnMap  = popup.querySelector('button[data-action="open-map"]');
+
+        let active = null; // {ref, version, usfm, xrefMarker}
 
         function hidePopup() {
             popup.classList.remove('visible');
-            activeRef = '';
-            activeVersion = '';
+            active = null;
         }
 
-        function positionPopup(rect) {
+        // Plasser popupen ved klikk-koordinatet (clientX/Y), klemt innenfor viewporten.
+        function positionPopupAtPoint(clientX, clientY) {
             popup.classList.add('visible');
             const pw = popup.offsetWidth;
             const ph = popup.offsetHeight;
-            let left = rect.left + rect.width / 2 - pw / 2 + window.scrollX;
+            // Standard: over og litt til venstre for klikk-punktet.
+            let left = clientX - pw / 2 + window.scrollX;
             left = Math.max(8, Math.min(window.innerWidth - pw - 8, left));
-            let top = rect.top + window.scrollY - ph - 8;
-            if (top < window.scrollY + 8) top = rect.bottom + window.scrollY + 8;
+            let top = clientY + window.scrollY - ph - 12;
+            if (top < window.scrollY + 8) top = clientY + window.scrollY + 14;
             popup.style.left = left + 'px';
             popup.style.top = top + 'px';
         }
 
         document.addEventListener('click', e => {
-            const inPopup = e.target.closest('#verseOpenPopup');
-            if (inPopup) return;
-            // Klikk inni en note-popover (xref-knapper, "Vis alle", "Kart", "Tidslinje", lukk-X) skal
-            // ikke oppfanges her — la knappenes egne onclick-handlere kjøre fritt.
+            if (e.target.closest('#verseOpenPopup')) return;
+            // Klikk inni en note-popover skal ikke oppfanges her.
             if (e.target.closest('.note-popover')) return;
             const span = e.target.closest('.verse-span');
             if (!span) { hidePopup(); return; }
@@ -4765,24 +4780,39 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (sel && !sel.isCollapsed) { hidePopup(); return; }
             const vref = span.getAttribute('data-vref');
             if (!vref) { hidePopup(); return; }
-            activeRef = formatVrefToLabel(vref);
-            activeVersion = span.getAttribute('data-version') || '';
-            const rect = span.getBoundingClientRect();
-            if (!rect || (!rect.width && !rect.height)) { hidePopup(); return; }
-            positionPopup(rect);
+
+            const xrefMarker = span.querySelector('.note-marker.note-xref');
+            const hasPlaces = PLACES_HAS.loaded && PLACES_HAS.verses.has(vref);
+
+            // Vis bare knapper som er relevante for dette verset
+            btnRef.hidden = !xrefMarker;
+            btnMap.hidden = !hasPlaces;
+
+            active = {
+                ref: formatVrefToLabel(vref),
+                version: span.getAttribute('data-version') || '',
+                usfm: vref,
+                xrefMarker,
+            };
+            positionPopupAtPoint(e.clientX, e.clientY);
             e.stopPropagation();
         }, true);
 
         popup.addEventListener('click', e => {
             e.stopPropagation();
-            const btn = e.target.closest('button[data-action="open-verse"]');
-            if (!btn || !activeRef) return;
-            // Snapshot før hidePopup nullstiller activeRef/activeVersion.
-            const ref = activeRef;
-            const version = activeVersion;
+            const btn = e.target.closest('button[data-action]');
+            if (!btn || !active) return;
+            const action = btn.getAttribute('data-action');
+            const a = active;
             hidePopup();
-            if (version) navigateToRefInVersion(ref, version);
-            else navigateToRef(ref);
+            if (action === 'open-verse') {
+                if (a.version) navigateToRefInVersion(a.ref, a.version);
+                else navigateToRef(a.ref);
+            } else if (action === 'open-ref') {
+                if (a.xrefMarker) toggleNotePopover(a.xrefMarker, e);
+            } else if (action === 'open-map') {
+                openPlaceMapBySource('verse', a.usfm);
+            }
         });
 
         window.addEventListener('scroll', hidePopup, true);
@@ -5252,8 +5282,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     window.openVersePlaceMap = function(btn) {
-        const source = btn.getAttribute('data-source');     // "JHN.1.28" eller "JHN.1"
-        const scope  = btn.getAttribute('data-scope');      // "verse" | "chapter"
+        openPlaceMapBySource(btn.getAttribute('data-scope'), btn.getAttribute('data-source'));
+    };
+
+    function openPlaceMapBySource(scope, source) {
         if (!source || !scope) return;
 
         const noPlacesMsg = 'Ingen tilhørende plasseringer for dette ' + (scope === 'verse' ? 'verset' : 'kapittelet');
@@ -5283,7 +5315,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (!places.length) { showToast(noPlacesMsg); return; }
             _renderPlaceMapHost(hostId, scope, source, places);
         }).catch(() => showToast('Kunne ikke hente steder'));
-    };
+    }
 
     function _renderPlaceMapHost(hostId, scope, source, places) {
         let titleSuffix;
@@ -7519,7 +7551,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             html += `<span class="verse-num"${vnumClick}>${v.num}</span>`;
             let txt = escHtml(v.text);
             if (hlPhrases && hlPhrases.length) txt = applyPhraseHighlights(txt, hlPhrases);
-            txt += ' ';
             if (hlVerse != null && v.num === hlVerse) {
                 html += `<mark class="highlighted-verse" id="hlVerseMark">${txt}</mark>`;
             } else {
