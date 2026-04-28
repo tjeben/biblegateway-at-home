@@ -3063,7 +3063,7 @@
     <button type="button" data-action="open-verse" title="Åpne dette verset">📖</button>
     <button type="button" data-action="open-ref"   title="Vis kryssreferanser">§</button>
     <button type="button" data-action="open-map"   title="Vis steder på kart">📍</button>
-    <button type="button" data-action="open-comment" title="Vis kommentar">💬</button>
+    <button type="button" data-action="open-comment" title="Vis fotnote">💬</button>
 </div>
 
 <!-- Mobile sticky bottom search bar -->
@@ -4798,18 +4798,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             if (!vref) { hidePopup(); return; }
 
             const xrefMarker = span.querySelector('.note-marker.note-xref');
-            const hasPlaces = PLACES_HAS.loaded && PLACES_HAS.verses.has(vref);
+            const fnMarker   = span.querySelector('.note-marker.note-footnote');
+            const hasPlaces  = PLACES_HAS.loaded && PLACES_HAS.verses.has(vref);
 
             // Vis bare knapper som er relevante for dette verset
-            btnRef.hidden = !xrefMarker;
-            btnMap.hidden = !hasPlaces;
-            btnComment.hidden = true;  // TODO: vises når kommentar finnes for verset
+            btnRef.hidden     = !xrefMarker;
+            btnMap.hidden     = !hasPlaces;
+            btnComment.hidden = !fnMarker;
 
             active = {
                 ref: formatVrefToLabel(vref),
                 version: span.getAttribute('data-version') || '',
                 usfm: vref,
                 xrefMarker,
+                fnMarker,
             };
             const rect = span.getBoundingClientRect();
             if (!rect || (!rect.width && !rect.height)) { hidePopup(); return; }
@@ -4831,6 +4833,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 if (a.xrefMarker) toggleNotePopover(a.xrefMarker, e);
             } else if (action === 'open-map') {
                 openPlaceMapBySource('verse', a.usfm);
+            } else if (action === 'open-comment') {
+                if (a.fnMarker) toggleNotePopover(a.fnMarker, e);
             }
         });
 
