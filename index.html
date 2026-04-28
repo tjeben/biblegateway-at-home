@@ -460,22 +460,30 @@
             font-size: 0.75em;
             vertical-align: super;
             font-weight: 700;
-            margin-right: 2px;
+            margin-right: 1px;
             font-family: 'Segoe UI', system-ui, sans-serif;
             cursor: pointer;
-            padding: 0 3px;
+            padding: 0 1px;
             border-radius: 4px;
+            display: inline-block;
             transition: background 0.15s;
         }
         .verse-num:hover { background: rgba(168, 50, 50, 0.15); }
         [data-theme="dark"] .verse-num:hover { background: rgba(201, 68, 68, 0.2); }
-        .verse-span:hover .verse-num {
-            background: rgba(168, 50, 50, 0.16);
-            box-shadow: 0 0 0 2px rgba(168, 50, 50, 0.18);
+        /* Hover på verset: understrek versteksten for å vise treff,
+           men ikke versenummer eller xref/fotnote-markører. */
+        .verse-span:hover {
+            text-decoration: underline;
+            text-decoration-color: rgba(168, 50, 50, 0.45);
+            text-decoration-thickness: 1px;
+            text-underline-offset: 3px;
         }
-        [data-theme="dark"] .verse-span:hover .verse-num {
-            background: rgba(201, 68, 68, 0.22);
-            box-shadow: 0 0 0 2px rgba(201, 68, 68, 0.28);
+        [data-theme="dark"] .verse-span:hover {
+            text-decoration-color: rgba(201, 68, 68, 0.55);
+        }
+        .verse-span:hover .verse-num,
+        .verse-span:hover .note-marker {
+            text-decoration: none;
         }
         .chapter-heading {
             font-weight: 700;
@@ -499,7 +507,7 @@
         .note-marker {
             display: inline-block;
             margin-left: 0;
-            padding: 2px 7px;
+            padding: 2px 2px;
             font-size: 0.75em;
             font-weight: 700;
             cursor: pointer;
@@ -509,7 +517,7 @@
             transition: background 0.15s, transform 0.1s;
             font-family: 'Segoe UI', system-ui, sans-serif;
             user-select: none;
-            min-width: 20px;
+            min-width: 12px;
             text-align: center;
         }
         .note-marker:active { transform: scale(0.92); }
