@@ -736,7 +736,7 @@
             .xref-action-btn { padding: 9px 16px; font-size: 0.92rem; }
             .note-popover-close { font-size: 1.5rem; padding: 6px 10px; }
         }
-        /* Viz-hosts-wrapper (Bibelkart, Tidslinje, Kontekst, Tema-kart, Generer referanser) */
+        /* Viz-hosts-wrapper (Bibelkart, Tidslinje, Kontekst, Tema-kart) */
         .viz-hosts-wrap {
             max-width: 880px;
             margin: 0 auto;
@@ -1966,61 +1966,6 @@
             line-height: 1.4;
         }
 
-        /* AI-genererte referanser */
-        .ai-gen-queries {
-            font-size: 0.78rem;
-            color: var(--text-muted);
-            margin-bottom: 12px;
-            line-height: 1.8;
-        }
-        .query-pill {
-            display: inline-block;
-            padding: 2px 10px;
-            margin: 0 3px;
-            background: rgba(168,50,50,0.08);
-            border: 1px solid var(--border);
-            border-radius: 999px;
-            font-size: 0.72rem;
-            color: var(--text);
-        }
-        .ai-refs-list { display: flex; flex-direction: column; gap: 6px; }
-        .ai-ref-item {
-            padding: 10px 14px;
-            border-radius: 14px;
-            background: rgba(168,50,50,0.04);
-            cursor: pointer;
-            transition: background 0.15s, transform 0.1s;
-        }
-        .ai-ref-item:hover { background: rgba(168,50,50,0.1); }
-        .ai-ref-item:active { transform: scale(0.98); }
-        [data-theme="dark"] .ai-ref-item { background: rgba(201,68,68,0.05); }
-        [data-theme="dark"] .ai-ref-item:hover { background: rgba(201,68,68,0.12); }
-        .ai-ref-head {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 4px;
-        }
-        .ai-ref-ref {
-            font-weight: 700;
-            font-size: 0.88rem;
-            color: var(--accent);
-        }
-        .ref-match-badge {
-            font-size: 0.7rem;
-            padding: 1px 7px;
-            border-radius: 999px;
-            background: rgba(201, 151, 46, 0.2);
-            color: #8b6914;
-            font-weight: 700;
-        }
-        [data-theme="dark"] .ref-match-badge { color: #d4a84b; background: rgba(201, 151, 46, 0.12); }
-        .ai-ref-text {
-            font-size: 0.9rem;
-            color: var(--text);
-            line-height: 1.45;
-        }
-
         /* Bibel-tidslinje (SVG-buer) */
         .bible-timeline-wrap {
             position: relative;
@@ -2183,7 +2128,7 @@
         [data-theme="dark"] .leaflet-popup-tip { background: var(--card-bg); color: var(--text); }
         [data-theme="dark"] .leaflet-tile-pane { filter: brightness(0.85) invert(0.95) hue-rotate(180deg) saturate(0.7); }
 
-        /* Lukke-animasjon for viz-hosts (Kart, Tidslinje, Kontekst, Tema-kart, Generer refs) */
+        /* Lukke-animasjon for viz-hosts (Kart, Tidslinje, Kontekst, Tema-kart) */
         .bible-map-wrap.closing {
             animation: vizFadeOut 220ms cubic-bezier(.4, 0, .2, 1) forwards;
             pointer-events: none;
@@ -3025,7 +2970,7 @@
     </div>
 </div>
 
-<!-- Viz-paneler (Bibelkart, Tidslinje, Kontekst, Tema-kart, Generer referanser)
+<!-- Viz-paneler (Bibelkart, Tidslinje, Kontekst, Tema-kart, stedskart)
      plasseres her så de overlever navigering mellom søk. -->
 <div id="vizHosts" class="viz-hosts-wrap"></div>
 <div id="vizHostsSide" class="viz-hosts-side" aria-label="Studieelementer i sidepanel">
@@ -4833,7 +4778,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     })();
 
     // ── AI-resultat-cache: unngå ny analyse når bruker lukker og åpner på nytt
-    const aiCache = { context: {}, genRefs: {}, diff: {} };
+    const aiCache = { context: {}, diff: {} };
 
     // Felles: render en viz-host (kart eller tidslinje) nederst. Toggler hvis allerede åpen.
     function renderXrefViz(hostId, titleHtml, innerHtml) {
@@ -5862,93 +5807,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             };
             document.addEventListener('click', handler);
         }, 50);
-    };
-
-    // ── AI: Generer kryssreferanser ──
-    window.generateRefs = async function(btn) {
-        const existing = document.getElementById('aiGenRefsHost');
-        if (existing) { closeVizHost('aiGenRefsHost'); return; }
-        const label = btn.getAttribute('data-label') || '';
-        const text = btn.getAttribute('data-text') || '';
-        const sourceUsfm = btn.getAttribute('data-source') || '';
-        if (!text) return;
-
-        btn.disabled = true;
-        const origLabel = btn.textContent;
-        btn.textContent = '🔗 Genererer…';
-
-        const host = document.createElement('div');
-        host.id = 'aiGenRefsHost';
-        host.className = 'bible-map-wrap';
-        host.style.marginTop = '6px';
-        host.innerHTML = `<div class="ai-panel"><div class="ai-panel-header study-panel-header">
-            <span class="ai-panel-title study-panel-title">🔗 KI-genererte referanser — ${escHtml(label)}</span>
-            <div class="study-panel-actions">
-                <button class="card-action-btn" onclick="closeVizHost('aiGenRefsHost')">Lukk</button>
-            </div>
-        </div><div class="ai-panel-body"><div class="skeleton-block"><div class="skeleton-line"></div><div class="skeleton-line medium"></div><div class="skeleton-line short"></div></div></div></div>`;
-        host.dataset.forLabel = label;
-        vizHosts.appendChild(host);
-        setTimeout(() => host.scrollIntoView({ behavior: 'smooth', block: 'end' }), 60);
-        const body = host.querySelector('.ai-panel-body');
-
-        try {
-            const resp = await fetch('/api/ai_gen_refs', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ label, text })
-            });
-            const data = await resp.json();
-            if (data.error) { body.innerHTML = `<div style="color:var(--error);">${escHtml(data.error)}</div>`; return; }
-            const queries = data.queries || [];
-            if (queries.length === 0) { body.innerHTML = `<div style="color:var(--text-muted);">KI fant ingen gode søk.</div>`; return; }
-
-            body.innerHTML = `<div style="color:var(--text-muted);">Søker etter ${queries.length} begreper…</div>`;
-
-            // Parallell-søk
-            const version = versionSelect.value;
-            const responses = await Promise.all(queries.map(q =>
-                fetch(`/api/search?q=${encodeURIComponent(q)}&version=${encodeURIComponent(version)}`)
-                    .then(r => r.json()).catch(() => ({ results: [] }))
-            ));
-
-            // Merge og tell match per vers
-            const byRef = {};
-            responses.forEach((r, i) => {
-                const q = queries[i];
-                (r.results || []).forEach(v => {
-                    if (!v.book) return;
-                    const usfm = `${v.book}.${v.chapter}.${v.verse}`;
-                    if (usfm === sourceUsfm) return;
-                    if (!byRef[usfm]) byRef[usfm] = { ...v, matches: 0, queries: [] };
-                    byRef[usfm].matches++;
-                    byRef[usfm].queries.push(q);
-                });
-            });
-
-            const sorted = Object.values(byRef).sort((a, b) => b.matches - a.matches).slice(0, 20);
-            if (sorted.length === 0) {
-                body.innerHTML = `<div style="color:var(--text-muted);">Fant ingen andre vers med lignende tema.</div>`;
-                return;
-            }
-
-            let html = `<div class="ai-gen-queries">Søkte etter: ${queries.map(q => `<span class="query-pill">${escHtml(q)}</span>`).join('')}</div>
-                <div class="ai-refs-list">`;
-            sorted.forEach(v => {
-                const matchBadge = v.matches > 1 ? `<span class="ref-match-badge">${v.matches}×</span>` : '';
-                html += `<div class="ai-ref-item" onclick="navigateToRef('${escAttr(v.ref)}')">
-                    <div class="ai-ref-head"><span class="ai-ref-ref">${escHtml(v.ref)}</span>${matchBadge}</div>
-                    <div class="ai-ref-text">${escHtml(v.text)}</div>
-                </div>`;
-            });
-            html += `</div>`;
-            body.innerHTML = html;
-        } catch {
-            body.innerHTML = `<div style="color:var(--error);">Kunne ikke koble til serveren.</div>`;
-        } finally {
-            btn.disabled = false;
-            btn.textContent = origLabel;
-        }
     };
 
     window.openXrefTimeline = function(btn) {
@@ -7304,7 +7162,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         // AI-paneler: lukk hvis label har endret (API-tunge — bruker åpner på nytt bevisst)
-        ['aiContextHost', 'aiThemeHost', 'aiGenRefsHost', 'aiDiffHost'].forEach(id => {
+        ['aiContextHost', 'aiThemeHost', 'aiDiffHost'].forEach(id => {
             const h = document.getElementById(id);
             if (h && h.dataset.forLabel && h.dataset.forLabel !== label) {
                 if (id === 'aiDiffHost') aiDiffState = null;
@@ -7418,7 +7276,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const cardText = (block.verses || []).map(v => v.text).join(' ').trim();
         const cardLabel = block.label || '';
         const singleV = isSingleVerse ? block.verses[0] : null;
-        const hasNoXrefs = singleV && (!singleV.xrefs || singleV.xrefs.length === 0);
         const chapterXrefInfo = buildChapterXrefAggregate(block);
         const chapterXrefEncoded = chapterXrefInfo ? encodeURIComponent(JSON.stringify(chapterXrefInfo)) : '';
         const chapterTimelineActive = !!(
@@ -7430,10 +7287,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const chapterXrefBtn = chapterXrefInfo
             ? `<button class="card-action-btn${chapterTimelineActive ? ' active' : ''}" data-chapter-xref-info="${chapterXrefEncoded}" onclick="openChapterTimeline(this)">📚 Kapittelets referanser</button>`
             : '';
-        const genRefsBtn = hasNoXrefs
-            ? `<button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" data-source="${escAttr(block.book + '.' + singleV.chapter + '.' + singleV.num)}" onclick="generateRefs(this)">🔗 Generer referanser</button>`
-            : '';
-
         // 📍 Kart: vers-nivå når ett vers vises, ellers kapittel-nivå.
         const placeScope  = singleV ? 'verse' : 'chapter';
         const placeSource = singleV
@@ -7475,7 +7328,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
             ${chapterXrefBtn}
             ${placeBtn}
-            ${genRefsBtn}
             ${compareAiBtns}`;
         if (ilUrl) {
             html += `<a class="card-action-btn" href="${ilUrl}" target="_blank" rel="noopener" style="text-decoration:none;">biblehub</a>`;
