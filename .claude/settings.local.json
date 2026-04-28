@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/dev/server/biblegateway-at-home-main add index.html)",
+      "Bash(git -C /c/dev/server/biblegateway-at-home-main commit -m ' *)",
+      "Bash(git -C /c/dev/server/biblegateway-at-home-main push)"
+    ]
+  }
+}
