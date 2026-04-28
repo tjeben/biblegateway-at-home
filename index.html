@@ -4769,16 +4769,17 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             active = null;
         }
 
-        // Plasser popupen ved klikk-koordinatet (clientX/Y), klemt innenfor viewporten.
-        function positionPopupAtPoint(clientX, clientY) {
+        // Plasser popupen horisontalt ved klikk-koordinatet, men vertikalt
+        // alltid over hele verset (uavhengig av hvilken linje musen traff).
+        function positionPopup(clientX, spanRect) {
             popup.classList.add('visible');
             const pw = popup.offsetWidth;
             const ph = popup.offsetHeight;
-            // Standard: over og litt til venstre for klikk-punktet.
             let left = clientX - pw / 2 + window.scrollX;
             left = Math.max(8, Math.min(window.innerWidth - pw - 8, left));
-            let top = clientY + window.scrollY - ph - 12;
-            if (top < window.scrollY + 8) top = clientY + window.scrollY + 14;
+            let top = spanRect.top + window.scrollY - ph - 8;
+            // Hvis det ikke er plass over verset, fall under hele verset i stedet.
+            if (top < window.scrollY + 8) top = spanRect.bottom + window.scrollY + 8;
             popup.style.left = left + 'px';
             popup.style.top = top + 'px';
         }
@@ -4808,7 +4809,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 usfm: vref,
                 xrefMarker,
             };
-            positionPopupAtPoint(e.clientX, e.clientY);
+            const rect = span.getBoundingClientRect();
+            if (!rect || (!rect.width && !rect.height)) { hidePopup(); return; }
+            positionPopup(e.clientX, rect);
             e.stopPropagation();
         }, true);
 
