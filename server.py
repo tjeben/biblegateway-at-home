@@ -467,8 +467,13 @@ class BibleData:
         )
         self._conn.row_factory = sqlite3.Row
         self._conn.execute("PRAGMA journal_mode=WAL")
-        self._conn.execute("PRAGMA query_only=1")
         self._lock = threading.Lock()  # serialiser SQL-kall — sqlite3-modulen er ikke fully reentrant
+
+        # Sørg for at valgfrie tabeller finnes (DB-en kan komme fra ekstern kilde uten dem).
+        self._ensure_optional_tables()
+
+        # query_only settes ETTER ensure_optional_tables (som skriver hvis nødvendig).
+        self._conn.execute("PRAGMA query_only=1")
 
         # Metadata — caches
         self.translations = {}      # frontend_name → {id, db_name, full_name, language}
@@ -476,6 +481,38 @@ class BibleData:
         self.book_chapters = {}     # frontend_name → {usfm_code → max_chapter}
         self.book_groups = {}       # group_key (lowercase) → [usfm_codes]
         self._load_metadata()
+
+    def _ensure_optional_tables(self):
+        """Eksterne bible.db-filer kan mangle book_groups og verses_fts.
+        Opprett tomme strukturer / FTS-indeks så serveren fungerer uansett."""
+        cur = self._conn.cursor()
+        existing = {
+            r[0] for r in cur.execute(
+                "SELECT name FROM sqlite_master WHERE type IN ('table','view')"
+            )
+        }
+        if "book_groups" not in existing:
+            cur.executescript("""
+                CREATE TABLE book_groups (
+                    id INTEGER PRIMARY KEY,
+                    key TEXT NOT NULL UNIQUE,
+                    name_no TEXT,
+                    name_en TEXT
+                );
+                CREATE TABLE book_group_members (
+                    group_id INTEGER NOT NULL REFERENCES book_groups(id),
+                    book_usfm TEXT NOT NULL
+                );
+            """)
+        if "verses_fts" not in existing:
+            print("Bygger verses_fts (FTS5) — engangsoperasjon...")
+            cur.executescript("""
+                CREATE VIRTUAL TABLE verses_fts USING fts5(
+                    text, content='verses', content_rowid='id', tokenize='unicode61'
+                );
+                INSERT INTO verses_fts(verses_fts) VALUES('rebuild');
+            """)
+        self._conn.commit()
 
     # ── intern: trådsikker spørring ──
     def _query(self, sql, params=()):
