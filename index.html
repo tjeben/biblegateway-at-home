@@ -9402,12 +9402,22 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             } else if (lastChapter === null) {
                 lastChapter = v.chapter;
             }
-            text += `${v.num} `;
-            text += v.text + ' ';
+            // Versetall i parentes for tydelig skille fra teksten
+            text += `(${v.num}) ${v.text} `;
             lastChapter = v.chapter;
         });
 
-        navigator.clipboard.writeText(text.trim()).then(() => showToast('Kopiert!'));
+        // Hale med versjon + bok-referanse, f.eks. "— Bibel 2011, Joh 3:16-17"
+        const ver = isCompare
+            ? (compareVersionSelect && compareVersionSelect.value)
+            : (versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value);
+        const verLabelText = ver ? (typeof versionLabel === 'function' ? versionLabel(ver) : ver) : '';
+        const refLabel = block.label || '';
+        const tail = (verLabelText || refLabel)
+            ? `\n\n— ${[verLabelText, refLabel].filter(Boolean).join(', ')}`
+            : '';
+
+        navigator.clipboard.writeText(text.trim() + tail).then(() => showToast('Kopiert!'));
     };
 
     function errorCardHtml(label, message) {
