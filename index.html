@@ -54,6 +54,19 @@
             background: var(--bg);
             color: var(--text);
             min-height: 100vh;
+            /* Slå av tekst-utheving overalt som standard. Bare bibelvers og
+               input-felter skal være selectable — overstyres under. */
+            -webkit-user-select: none;
+            user-select: none;
+        }
+        /* Tillat utheving på faktisk bibeltekst og i alle input-felter / contenteditable. */
+        .verse-content,
+        .verse-text,
+        input,
+        textarea,
+        [contenteditable="true"] {
+            -webkit-user-select: text;
+            user-select: text;
         }
 
         .app-header {
@@ -2145,6 +2158,39 @@
             color: inherit;
             padding: 0 1px;
             border-radius: 2px;
+        }
+
+        /* Pin-glow når en chip hovres */
+        .leaflet-marker-icon.place-pin.glow svg {
+            filter:
+                drop-shadow(0 0 6px var(--accent))
+                drop-shadow(0 0 14px var(--accent))
+                drop-shadow(0 1.5px 1.5px rgba(0,0,0,0.35));
+            transform: scale(1.12);
+            transition: filter 140ms ease, transform 140ms ease;
+        }
+        .leaflet-marker-icon.place-pin svg {
+            transition: filter 140ms ease, transform 140ms ease;
+        }
+
+        /* "Vis alle / Vis færre"-pille i chip-listen */
+        .place-chip.place-chip-more {
+            background: transparent;
+            border: 1px dashed var(--border);
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        .place-chip.place-chip-more:hover { background: var(--bg-subtle, rgba(0,0,0,0.04)); }
+
+        /* Marker-knapp i place-map header — toggle-tilstand når aktiv */
+        .place-mark-btn[aria-pressed="true"] {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+        .place-mark-btn[data-busy="1"] {
+            opacity: 0.75;
+            pointer-events: none;
         }
 
         /* Lukke-animasjon for viz-hosts (Kart, Tidslinje, Kontekst, Tema-kart) */
@@ -5334,8 +5380,14 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         });
     }
 
-    // Per-host tilstand: {scope, key, places: [...], visible: Set<id>, map, layers: {id: layer}}
+    // Per-host tilstand: {scope, key, places: [...], visible: Set<id>, map, layers: {id: layer},
+    //                     marks: Map<vref, Map<placeId, {phrase, color, source}>>,
+    //                     markActive: bool, expandedChips: bool, markRunId: number}
     const placeMapHosts = {};
+    // Modul-cache for KI-svar slik at av-på-toggle på Marker-knappen ikke koster nye API-kall.
+    // Nøkkel: `${placeId}|${vref}`. Verdi: '' eller den eksakte frasen som finnes i versteksten.
+    const placeAiCache = new Map();
+    const PLACE_CHIP_OVERFLOW = 10;
 
     function _refreshPlaceMapBtn(btn, scope, source) {
         if (!PLACES_HAS.loaded) {
@@ -5414,37 +5466,128 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             scope, key: source, places,
             visible: new Set(places.map(p => p.id)),
             map: null, layers: {},
+            marks: new Map(),       // vref → Map<placeId, {phrase, color, source}>
+            markActive: false,
+            expandedChips: false,
+            markRunId: 0,           // brukes til å avbryte pågående markeringsjobber
         };
         placeMapHosts[hostId] = state;
 
-        // Bygg chips — fargepunktet henter samme pastel som pinen på kartet
-        const chipWrap = document.querySelector(`.place-chips[data-host="${hostId}"]`);
-        if (chipWrap) {
-            chipWrap.innerHTML = places.map(p => {
-                const c = _colorForPlace(p);
-                const verseInfo = (scope === 'chapter' && p.verses && p.verses.length)
-                    ? ` <span class="place-chip-verses">v${p.verses.join(', ')}</span>`
-                    : '';
-                const dotStyle = `background:${c.fill};border:1.5px solid ${c.border};`;
-                return `<button type="button" class="place-chip active" data-place-id="${p.id}" data-host="${hostId}">
-                    <span class="place-chip-dot place-kind-${escAttr(p.kind)}" style="${dotStyle}"></span>${escHtml(p.name)}${verseInfo}<span class="place-chip-x">×</span>
-                </button>`;
-            }).join('');
-            chipWrap.querySelectorAll('.place-chip').forEach(chip => {
-                chip.addEventListener('click', () => {
-                    const id = parseInt(chip.getAttribute('data-place-id'), 10);
-                    _togglePlaceVisibility(hostId, id, chip);
-                });
-            });
+        _renderChips(hostId);
+
+        // Injiser "Marker"-knapp i panel-headeren, før "Lukk"
+        const host = document.getElementById(hostId);
+        const actions = host && host.querySelector('.study-panel-actions');
+        if (actions) {
+            const markBtn = document.createElement('button');
+            markBtn.className = 'card-action-btn place-mark-btn';
+            markBtn.type = 'button';
+            markBtn.setAttribute('aria-pressed', 'false');
+            markBtn.title = 'Marker stedord i alle vers (KI)';
+            markBtn.textContent = 'Marker';
+            markBtn.addEventListener('click', () => _togglePlaceMarkAll(hostId, markBtn));
+            actions.insertBefore(markBtn, actions.firstChild);
         }
 
         // Init Leaflet (etter at DOM er på plass)
         if (typeof L === 'undefined') {
-            // Leaflet ikke lastet ennå — prøv igjen kort etter
             setTimeout(() => _initPlaceMap(hostId), 200);
         } else {
             _initPlaceMap(hostId);
         }
+    }
+
+    function _renderChips(hostId) {
+        const state = placeMapHosts[hostId]; if (!state) return;
+        const wrap = document.querySelector(`.place-chips[data-host="${hostId}"]`);
+        if (!wrap) return;
+        // Sortér: flest versforekomster først (chapter-scope), så alfabetisk
+        const sorted = state.places.slice().sort((a, b) => {
+            const av = (a.verses || []).length, bv = (b.verses || []).length;
+            if (av !== bv) return bv - av;
+            return (a.name || '').localeCompare(b.name || '', 'no');
+        });
+        const total = sorted.length;
+        const showAll = state.expandedChips || total <= PLACE_CHIP_OVERFLOW;
+        const visibleSlice = showAll ? sorted : sorted.slice(0, PLACE_CHIP_OVERFLOW);
+        let html = visibleSlice.map(p => _buildChipHtml(p, state.scope, state.visible.has(p.id))).join('');
+        if (!showAll) {
+            html += `<button type="button" class="place-chip place-chip-more" data-host="${escAttr(hostId)}" data-action="expand">Vis alle (${total})</button>`;
+        } else if (total > PLACE_CHIP_OVERFLOW) {
+            html += `<button type="button" class="place-chip place-chip-more" data-host="${escAttr(hostId)}" data-action="collapse">Vis færre</button>`;
+        }
+        wrap.innerHTML = html;
+        wrap.querySelectorAll('.place-chip').forEach(chip => {
+            const action = chip.getAttribute('data-action');
+            if (action === 'expand' || action === 'collapse') {
+                chip.addEventListener('click', () => {
+                    state.expandedChips = (action === 'expand');
+                    _renderChips(hostId);
+                });
+                return;
+            }
+            const idAttr = chip.getAttribute('data-place-id');
+            if (!idAttr) return;
+            const id = parseInt(idAttr, 10);
+            chip.addEventListener('click', () => _togglePlaceVisibility(hostId, id, chip));
+            chip.addEventListener('mouseenter', () => _placeChipHoverEffect(hostId, id, true));
+            chip.addEventListener('mouseleave', () => _placeChipHoverEffect(hostId, id, false));
+        });
+    }
+
+    function _buildChipHtml(p, scope, isActive) {
+        const c = _colorForPlace(p);
+        const verseInfo = (scope === 'chapter' && p.verses && p.verses.length)
+            ? ` <span class="place-chip-verses">v${p.verses.join(', ')}</span>` : '';
+        const dotStyle = `background:${c.fill};border:1.5px solid ${c.border};`;
+        return `<button type="button" class="place-chip${isActive ? ' active' : ''}" data-place-id="${p.id}">
+            <span class="place-chip-dot place-kind-${escAttr(p.kind)}" style="${dotStyle}"></span>${escHtml(p.name)}${verseInfo}<span class="place-chip-x">×</span>
+        </button>`;
+    }
+
+    // Hover-effekt fra chip: pin-glow + uthev alle vers i kapittelet der stedet forekommer.
+    function _placeChipHoverEffect(hostId, placeId, on) {
+        const state = placeMapHosts[hostId]; if (!state) return;
+        _setPinGlow(state, placeId, on);
+        _setVerseHighlightForPlace(state, placeId, on);
+    }
+
+    function _setPinGlow(state, placeId, on) {
+        const layer = state.layers[placeId]; if (!layer) return;
+        const place = state.places.find(p => p.id === placeId);
+        if (!place) return;
+        const isPolygon = place.kind === 'region';
+        const isLine = place.kind === 'water' || place.kind === 'path';
+        layer.eachLayer(l => {
+            if (typeof l.getElement === 'function') {
+                const el = l.getElement();
+                if (el) el.classList.toggle('glow', !!on);
+            }
+            if (typeof l.setStyle === 'function') {
+                if (isPolygon) {
+                    l.setStyle(on
+                        ? { weight: 3, opacity: 1, fillOpacity: 0.5 }
+                        : { weight: 1.5, opacity: 0.85, fillOpacity: 0.32 });
+                } else if (isLine) {
+                    const c = _colorForPlace(place);
+                    l.setStyle(on ? { weight: 5, opacity: 1, color: c.line }
+                                  : { weight: 3, opacity: 0.9, color: c.line });
+                }
+            }
+        });
+    }
+
+    function _setVerseHighlightForPlace(state, placeId, on) {
+        const place = state.places.find(p => p.id === placeId); if (!place) return;
+        const c = _colorForPlace(place);
+        const parts = (state.key || '').split('.');
+        const bookCode = parts[0];
+        const chapter = parts[1] ? parseInt(parts[1], 10) : null;
+        if (!bookCode || chapter == null) return;
+        const verseNums = (state.scope === 'verse' && parts[2])
+            ? [parseInt(parts[2], 10)]
+            : (Array.isArray(place.verses) ? place.verses : []);
+        verseNums.forEach(v => _hoverHighlightMainVerse(bookCode, chapter, v, on, c));
     }
 
     function _initPlaceMap(hostId) {
@@ -5563,11 +5706,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         });
     }
 
-    // Klikk på vers i pop-up: naviger til verset, og marker selve stedordet
-    // (via /api/ai_place_in_verse) når visningen er rendret.
-    // Hvis kapittelet allerede er åpent i hovedvisningen, beholder vi
-    // kapittelvisningen (og åpne studieelementer) — vi setter bare highlight
-    // på det aktuelle verset så brukeren ser konteksten.
+    // Klikk på vers i pop-up: naviger til verset, marker selve stedordet
+    // og lagre markeringen i hosten sin state slik at den persisterer på tvers
+    // av re-rendringer i kapittelet.
     function _onPlaceVerseClick(place, bookCode, chapter, verseNum, color) {
         pendingPlaceHighlight = {
             placeName: place.name,
@@ -5577,6 +5718,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             bookCode,
             chapter,
             verseNum,
+            source: 'manual',
         };
         _hoverHighlightMainVerse(bookCode, chapter, verseNum, false, color);
 
@@ -5591,7 +5733,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (chapterAlreadyOpen) {
             const bName = bookName(bookCode);
             searchInput.value = `${bName} ${chapter}`;
-            // Behold kapittelvisning + åpne studieelementer; kun highlightVerse oppdateres.
             doSearch(false, { highlightVerse: verseNum });
             return;
         }
@@ -5600,46 +5741,192 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
     }
 
-    // Etter render: hvis vi har en ventende stedordmarkering, hent fra KI og uthev.
-    async function applyPendingPlaceHighlight() {
-        const pp = pendingPlaceHighlight;
-        if (!pp) return;
-        pendingPlaceHighlight = null; // forbruk uansett — unngå dobbel-trigger
-        const vref = `${pp.bookCode}.${pp.chapter}.${pp.verseNum}`;
-        const verseSpan = document.querySelector(`.verse-span[data-vref="${vref}"]`);
-        if (!verseSpan) return;
-        const contentEl = verseSpan.querySelector('.verse-content');
-        if (!contentEl) return;
-        const verseText = contentEl.textContent || '';
-        if (!verseText.trim()) return;
+    // ── Persistent stedord-markering (Marker-knapp + manuelle marks) ──
+
+    function _markKey(placeId, vref) { return placeId + '|' + vref; }
+
+    async function _fetchPlacePhrase(place, bookCode, chapter, verseNum, verseText) {
+        const vref = `${bookCode}.${chapter}.${verseNum}`;
+        const key = _markKey(place.id, vref);
+        if (placeAiCache.has(key)) return placeAiCache.get(key);
         try {
             const resp = await fetch('/api/ai_place_in_verse', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    place_name: pp.placeName,
-                    place_aliases: pp.placeAliases || [],
+                    place_name: place.name,
+                    place_aliases: Array.isArray(place.aliases) ? place.aliases : [],
                     verse_text: verseText,
-                    label: `${bookName(pp.bookCode)} ${pp.chapter}:${pp.verseNum}`,
+                    label: `${bookName(bookCode)} ${chapter}:${verseNum}`,
                 }),
             });
-            if (!resp.ok) return;
+            if (!resp.ok) { placeAiCache.set(key, ''); return ''; }
             const data = await resp.json();
             const phrase = (data && data.phrase || '').trim();
-            if (!phrase) return;
-            // Marker første forekomst i .verse-content uten å rive resten av strukturen.
-            _applyPlaceWordMark(contentEl, phrase, pp.color);
-        } catch (e) {
-            // Stille feil — markering er kun et hjelpemiddel.
+            placeAiCache.set(key, phrase);
+            return phrase;
+        } catch {
+            placeAiCache.set(key, '');
+            return '';
         }
     }
 
-    function _applyPlaceWordMark(rootEl, phrase, color) {
+    function _addMarkToState(state, placeId, vref, phrase, color, source) {
+        if (!state.marks.has(vref)) state.marks.set(vref, new Map());
+        const inner = state.marks.get(vref);
+        // 'manual' overskriver aldri 'manual'; 'auto' overskriver ikke 'manual'
+        const existing = inner.get(placeId);
+        if (existing && existing.source === 'manual' && source === 'auto') return;
+        inner.set(placeId, { phrase, color, source });
+    }
+
+    function _removeAutoMarksFromState(state) {
+        state.marks.forEach((inner, vref) => {
+            const toDel = [];
+            inner.forEach((info, placeId) => { if (info.source === 'auto') toDel.push(placeId); });
+            toDel.forEach(id => inner.delete(id));
+            if (inner.size === 0) state.marks.delete(vref);
+        });
+    }
+
+    // Tegn alle persisterte marks i staten på DOM-en (kalles etter hver render).
+    function applyAllPlaceMarks() {
+        // Først fjern eksisterende DOM-marks så vi ikke stabler duplikater
+        document.querySelectorAll('mark.place-word-highlight').forEach(m => {
+            const txt = document.createTextNode(m.textContent || '');
+            m.parentNode && m.parentNode.replaceChild(txt, m);
+            // Slå sammen påfølgende tekstnoder (renser DOM-en)
+        });
+        const host = placeMapHosts['placeMapHost']; if (!host) return;
+        host.marks.forEach((inner, vref) => {
+            const verseSpan = document.querySelector(`.verse-span[data-vref="${vref}"]`);
+            const contentEl = verseSpan && verseSpan.querySelector('.verse-content');
+            if (!contentEl) return;
+            inner.forEach((info, placeId) => {
+                if (!info.phrase) return;
+                _applyPlaceWordMark(contentEl, info.phrase, info.color, placeId);
+            });
+        });
+    }
+
+    async function _togglePlaceMarkAll(hostId, btn) {
+        const state = placeMapHosts[hostId]; if (!state) return;
+        if (state.markActive) {
+            // Skru av: fjern auto-marks fra state og DOM, behold manuelle
+            state.markActive = false;
+            btn.setAttribute('aria-pressed', 'false');
+            _removeAutoMarksFromState(state);
+            applyAllPlaceMarks();
+            return;
+        }
+        // Skru på: itererer (place, verse), henter (eller bruker cache) AI-frase
+        if (state.scope !== 'chapter') {
+            // Verse-scope: én place×ett vers — gjør raskt på samme måte
+        }
+        state.markActive = true;
+        btn.setAttribute('aria-pressed', 'true');
+        btn.dataset.busy = '1';
+        const runId = ++state.markRunId;
+
+        // Bygg jobblisten: (place, vref, verseText) for alle places i chapter-scope
+        const jobs = [];
+        const parts = (state.key || '').split('.');
+        const bookCode = parts[0];
+        const chapter = parts[1] ? parseInt(parts[1], 10) : null;
+        if (!bookCode || chapter == null) { btn.dataset.busy = ''; return; }
+
+        const verseTextOf = (vNum) => {
+            const span = document.querySelector(`.verse-span[data-vref="${bookCode}.${chapter}.${vNum}"]`);
+            const c = span && span.querySelector('.verse-content');
+            return c ? (c.textContent || '').trim() : '';
+        };
+
+        state.places.forEach(p => {
+            const c = _colorForPlace(p);
+            const verseNums = (state.scope === 'verse' && parts[2])
+                ? [parseInt(parts[2], 10)]
+                : (Array.isArray(p.verses) ? p.verses : []);
+            verseNums.forEach(vNum => {
+                const txt = verseTextOf(vNum);
+                if (!txt) return;
+                jobs.push({ place: p, color: c, vNum, txt, vref: `${bookCode}.${chapter}.${vNum}` });
+            });
+        });
+
+        if (!jobs.length) {
+            btn.dataset.busy = '';
+            return;
+        }
+
+        // Kjør med begrenset parallellitet (4 av gangen) for å holde Gemini rolig
+        const PARALLEL = 4;
+        let cursor = 0;
+        let done = 0;
+        const total = jobs.length;
+        const updateLabel = () => {
+            if (state.markRunId !== runId) return;
+            btn.textContent = done >= total ? 'Marker' : `Markerer ${done}/${total}…`;
+        };
+        updateLabel();
+
+        const worker = async () => {
+            while (state.markRunId === runId) {
+                const i = cursor++;
+                if (i >= jobs.length) return;
+                const job = jobs[i];
+                const phrase = await _fetchPlacePhrase(job.place, bookCode, chapter, job.vNum, job.txt);
+                if (state.markRunId !== runId) return;
+                if (phrase) {
+                    _addMarkToState(state, job.place.id, job.vref, phrase, job.color, 'auto');
+                }
+                done++;
+                updateLabel();
+                // Anvend underveis så brukeren ser fremdrift
+                applyAllPlaceMarks();
+            }
+        };
+        await Promise.all(Array.from({ length: PARALLEL }, () => worker()));
+        if (state.markRunId === runId) {
+            btn.dataset.busy = '';
+            btn.textContent = 'Marker';
+        }
+    }
+
+    // Etter render: tegn alle persisterte marks først (synkront, så de ikke flimrer),
+    // og håndter eventuell ventende manuell markering i bakgrunnen.
+    function applyPendingPlaceHighlight() {
+        // 1) Tegn alle eksisterende persistent marks med en gang
+        applyAllPlaceMarks();
+        // 2) Håndter pending (manuell) — kjør async, oppdater når svaret kommer
+        const pp = pendingPlaceHighlight;
+        if (!pp) return;
+        pendingPlaceHighlight = null;
+        (async () => {
+            const vref = `${pp.bookCode}.${pp.chapter}.${pp.verseNum}`;
+            const verseSpan = document.querySelector(`.verse-span[data-vref="${vref}"]`);
+            const contentEl = verseSpan && verseSpan.querySelector('.verse-content');
+            if (!contentEl) return;
+            const verseText = (contentEl.textContent || '').trim();
+            if (!verseText) return;
+            const placeLike = { id: pp.placeId, name: pp.placeName, aliases: pp.placeAliases };
+            const phrase = await _fetchPlacePhrase(placeLike, pp.bookCode, pp.chapter, pp.verseNum, verseText);
+            const host = placeMapHosts['placeMapHost'];
+            if (host && phrase) {
+                _addMarkToState(host, pp.placeId, vref, phrase, pp.color, pp.source || 'manual');
+                applyAllPlaceMarks();
+            }
+        })();
+    }
+
+    function _applyPlaceWordMark(rootEl, phrase, color, placeId) {
         if (!phrase) return;
         const walker = document.createTreeWalker(rootEl, NodeFilter.SHOW_TEXT, null);
         const nodes = [];
         let n; while ((n = walker.nextNode())) nodes.push(n);
         for (const node of nodes) {
+            // Hopp over tekstnoder som ligger inni en eksisterende mark — flere marks kan
+            // ellers stable seg over samme ord
+            if (node.parentNode && node.parentNode.classList && node.parentNode.classList.contains('place-word-highlight')) continue;
             const idx = node.nodeValue.indexOf(phrase);
             if (idx === -1) continue;
             const before = node.nodeValue.slice(0, idx);
@@ -5647,6 +5934,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const after = node.nodeValue.slice(idx + phrase.length);
             const mark = document.createElement('mark');
             mark.className = 'place-word-highlight';
+            if (placeId != null) mark.setAttribute('data-place-id', String(placeId));
             if (color && color.fill) mark.style.setProperty('--place-mark-color', color.fill);
             mark.textContent = match;
             const parent = node.parentNode;
@@ -5654,7 +5942,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             parent.insertBefore(mark, node);
             if (after) parent.insertBefore(document.createTextNode(after), node);
             parent.removeChild(node);
-            return; // én markering er nok
+            return;
         }
     }
 
