@@ -3832,42 +3832,71 @@
     // motstand inntil terskel, så committes bla til forrige/neste — ellers
     // springer det tilbake til startposisjon.
     (function setupSwipeNav() {
-        // Hent direkte fra DOM — `resultsWrapper`-bindingen deklareres senere
-        // (TDZ ville krasjet hele scriptet hvis vi refererte til den her).
         const wrap = document.getElementById('resultsWrapper');
         if (!wrap) return;
         let startX = 0, startY = 0, lastX = 0, lastT = 0;
+        let curDx = 0;
+        let velSamples = [];           // {t, x} — siste 5 samples for jevn velocity
         let dragging = false, decided = false, locked = false;
+        let rafPending = false;
         const SLOP = 8;
-        const HOR_DOMINANCE = 1.3;  // |dx| må overstige |dy| × ratio for å låse horisontalt
-        const RESISTANCE = 0.85;
-        const COMMIT_RATIO = 0.22;  // % av viewport-bredde
-        const FLING_PX_PER_MS = 0.6;
+        const HOR_DOMINANCE = 1.3;
+        const RESISTANCE = 0.92;       // litt løsere — føles mindre "tregt"
+        const COMMIT_RATIO = 0.18;     // litt lettere å committe
+        const FLING_PX_PER_MS = 0.45;  // lavere fling-terskel
         const SAFE_TARGET_SEL = 'button, a, input, textarea, select, [contenteditable], .note-popover, #verseOpenPopup, .selection-popup, .modal-backdrop, .suggestions, .compare-version-inline';
 
         function reset() {
             wrap.style.transition = '';
             wrap.style.transform = '';
             wrap.style.opacity = '';
+            wrap.style.willChange = '';
         }
 
         function springBack() {
-            wrap.style.transition = 'transform 0.24s cubic-bezier(.2,.8,.2,1), opacity 0.24s';
+            wrap.style.transition = 'transform 0.34s cubic-bezier(.18,.89,.28,1.05), opacity 0.34s';
             wrap.style.transform = 'translateX(0)';
             wrap.style.opacity = '1';
-            setTimeout(reset, 260);
+            setTimeout(reset, 380);
         }
 
-        function commit(direction) {
-            const offX = direction === 'next' ? -window.innerWidth : window.innerWidth;
-            wrap.style.transition = 'transform 0.18s cubic-bezier(.4,0,.2,1), opacity 0.18s';
+        // Helt-overgang: følger fra fingerens slipp-posisjon helt ut, gjør ny-render,
+        // og glir nytt innhold inn fra motsatt side med samme spring-curve.
+        async function commitWithFollowThrough(direction, startDx) {
+            const vw = window.innerWidth;
+            const offX = direction === 'next' ? -vw : vw;
+            // Beregn target før vi rykker innhold ut, så vi kan avbryte hvis ingen ref
+            const target = (typeof _swipeComputeTarget === 'function')
+                ? _swipeComputeTarget(direction)
+                : null;
+            if (!target) { springBack(); return; }
+
+            // Fortsett ut fra der fingeren sluppet. Distanse igjen → kortere duration.
+            const remaining = vw - Math.abs(startDx);
+            const outDuration = Math.max(110, Math.min(220, Math.round(remaining * 0.45)));
+            wrap.style.transition = `transform ${outDuration}ms cubic-bezier(.22,.86,.24,1), opacity ${outDuration}ms ease`;
             wrap.style.transform = `translateX(${offX}px)`;
             wrap.style.opacity = '0';
-            setTimeout(() => {
-                reset();
-                if (direction === 'next' && typeof navNext === 'function') navNext();
-                else if (direction === 'prev' && typeof navPrev === 'function') navPrev();
-            }, 180);
+
+            await new Promise(r => setTimeout(r, outDuration + 10));
+
+            // Kjør navigasjonen uten egen animasjon
+            const prevSearchVal = searchInput.value;
+            searchInput.value = target.ref;
+            lastQuery = target.ref;
+            highlightVerse = null;
+            try { await doSearch(); } catch {}
+
+            // Plasser nytt innhold off-screen på motsatt side, så animer inn
+            wrap.style.transition = 'none';
+            wrap.style.transform = `translateX(${-offX * 0.5}px)`;
+            wrap.style.opacity = '0';
+            // Force reflow
+            void wrap.offsetWidth;
+            wrap.style.transition = 'transform 0.34s cubic-bezier(.18,.89,.28,1.05), opacity 0.34s ease';
+            wrap.style.transform = 'translateX(0)';
+            wrap.style.opacity = '1';
+            setTimeout(reset, 380);
         }
 
         wrap.addEventListener('touchstart', e => {
@@ -3878,6 +3907,8 @@
             startX = lastX = e.touches[0].clientX;
             startY = e.touches[0].clientY;
             lastT = performance.now();
+            curDx = 0;
+            velSamples = [{ t: lastT, x: startX }];
             dragging = true;
             decided = false;
             locked = false;
@@ -3892,39 +3923,54 @@
             if (!decided) {
                 if (Math.abs(dx) < SLOP && Math.abs(dy) < SLOP) return;
                 if (Math.abs(dx) < Math.abs(dy) * HOR_DOMINANCE) {
-                    // Vertikal scroll dominerer — gi opp swipe, la siden scrolle
                     dragging = false;
                     return;
                 }
                 decided = true;
                 locked = true;
-                wrap.style.willChange = 'transform';
+                wrap.style.willChange = 'transform, opacity';
+                wrap.style.transition = 'none';
             }
             if (locked) {
                 e.preventDefault();
-                wrap.style.transition = 'none';
-                wrap.style.transform = `translateX(${dx * RESISTANCE}px)`;
-                wrap.style.opacity = String(Math.max(0.45, 1 - Math.abs(dx) / 700));
+                curDx = dx * RESISTANCE;
                 lastX = x;
-                lastT = performance.now();
+                const now = performance.now();
+                lastT = now;
+                velSamples.push({ t: now, x });
+                while (velSamples.length > 6) velSamples.shift();
+                if (!rafPending) {
+                    rafPending = true;
+                    requestAnimationFrame(() => {
+                        rafPending = false;
+                        wrap.style.transform = `translateX(${curDx}px)`;
+                        wrap.style.opacity = String(Math.max(0.55, 1 - Math.abs(curDx) / 900));
+                    });
+                }
             }
         }, { passive: false });
+
+        function avgVelocity() {
+            if (velSamples.length < 2) return 0;
+            const first = velSamples[0];
+            const last = velSamples[velSamples.length - 1];
+            const dt = Math.max(1, last.t - first.t);
+            return (last.x - first.x) / dt;   // px/ms
+        }
 
         function endHandler(e) {
             if (!dragging) return;
             const wasLocked = locked;
             dragging = false; decided = false; locked = false;
-            wrap.style.willChange = '';
-            if (!wasLocked) return;
+            if (!wasLocked) { wrap.style.willChange = ''; return; }
             const finalX = (e.changedTouches && e.changedTouches[0])
                 ? e.changedTouches[0].clientX : lastX;
             const dx = finalX - startX;
-            const dt = Math.max(1, performance.now() - lastT);
-            const velocity = (finalX - lastX) / dt;  // px/ms
+            const velocity = avgVelocity();
             const threshold = window.innerWidth * COMMIT_RATIO;
             const flung = Math.abs(velocity) > FLING_PX_PER_MS && Math.sign(velocity) === Math.sign(dx);
             if (Math.abs(dx) >= threshold || flung) {
-                commit(dx < 0 ? 'next' : 'prev');
+                commitWithFollowThrough(dx < 0 ? 'next' : 'prev', curDx);
             } else {
                 springBack();
             }
@@ -3934,10 +3980,49 @@
         wrap.addEventListener('touchcancel', () => {
             if (!dragging) return;
             dragging = false; decided = false; locked = false;
-            wrap.style.willChange = '';
             springBack();
         });
     })();
+
+    // Beregn neste/forrige ref (samme logikk som navNext/navPrev, men returnerer
+    // en {ref}-streng i stedet for å trigge animatedNavigate). Brukes av swipe-
+    // komponenten så vi kan styre overgangen helt selv.
+    function _swipeComputeTarget(direction) {
+        if (typeof getNavContext !== 'function') return null;
+        const ctx = getNavContext(); if (!ctx) return null;
+        const bName = (booksData.find(b => b.code === ctx.book) || {}).name || ctx.book;
+        const next = direction === 'next';
+        if (ctx.isSingleVerse) {
+            const targetV = ctx.verseNum + (next ? 1 : -1);
+            if (targetV >= 1) {
+                return { ref: `${bName} ${ctx.chapter}:${targetV}` };
+            }
+            // Over kant — gå til neste/forrige kapittel
+            let nb = ctx.book, nc = ctx.chapter + (next ? 1 : -1);
+            if (next && nc > ctx.bookInfo.chapters) {
+                if (ctx.bookIdx >= booksData.length - 1) return null;
+                nb = booksData[ctx.bookIdx + 1].code; nc = 1;
+            } else if (!next && nc < 1) {
+                if (ctx.bookIdx <= 0) return null;
+                nb = booksData[ctx.bookIdx - 1].code;
+                nc = (booksData[ctx.bookIdx - 1].chapters) || 1;
+            }
+            const nbName = (booksData.find(b => b.code === nb) || {}).name || nb;
+            return { ref: `${nbName} ${nc}:1` };
+        }
+        // Kapittel-modus
+        let nb = ctx.book, nc = ctx.chapter + (next ? 1 : -1);
+        if (next && nc > ctx.bookInfo.chapters) {
+            if (ctx.bookIdx >= booksData.length - 1) return null;
+            nb = booksData[ctx.bookIdx + 1].code; nc = 1;
+        } else if (!next && nc < 1) {
+            if (ctx.bookIdx <= 0) return null;
+            nb = booksData[ctx.bookIdx - 1].code;
+            nc = (booksData[ctx.bookIdx - 1].chapters) || 1;
+        }
+        const nbName = (booksData.find(b => b.code === nb) || {}).name || nb;
+        return { ref: `${nbName} ${nc}` };
+    }
 
     // Hjelper: har søket operatorer (bypass KI)?
     function queryHasOperators(q) {
