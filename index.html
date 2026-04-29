@@ -892,25 +892,12 @@
             .ai-footer-note { padding-bottom: 100px; }
         }
 
-        /* Verktøy-rad under hvert vers-kort (utenfor kortet for å gi ro til teksten).
-           Default skjult; vises kun via hover-popout eller låst-modus styrt av ⚙️. */
-        .verse-card-toolbar {
-            display: none;
-            gap: 8px;
-            flex-wrap: wrap;
-            padding: 0 8px;
-            margin: 10px 0 6px;
-        }
-        /* Låst (klikk-toggle): vises i flow under chevron-raden */
-        .verse-card-toolbar[data-state="locked"] {
-            display: flex;
-            animation: vtSlideDown 180ms cubic-bezier(.22,.86,.24,1);
-        }
-        /* Hover-popout: starter rett til høyre for 🎓 (samme vertikale start som
-           chevron-raden), strekker seg utover og vokser nedover hvis knappene ikke
-           får plass. Ingen scrollebar — knappene wrapper i stedet. Pille-radius
-           (999px) matcher systemets øvrige knappformer. */
-        .chevron-and-tools .verse-card-toolbar[data-state="hover"] {
+        /* Verktøy-rad under hvert vers-kort. Default: hover-popout-stilet
+           absolutt-posisjonert, men usynlig (opacity:0) — slik at både åpning OG
+           lukking kan ha glatt CSS-transition i stedet for harde display-skifter.
+           Origin er ved 🎓-knappen så popouten "vokser ut" av den ved åpning og
+           "trekkes tilbake" mot den ved lukking. */
+        .chevron-and-tools .verse-card-toolbar {
             display: flex;
             align-items: center;
             flex-wrap: wrap;
@@ -923,18 +910,48 @@
             gap: 6px;
             background: var(--card-bg);
             border: 1px solid var(--border);
-            border-radius: 24px;     /* matcher .verse-card */
+            border-radius: 24px;
             box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
             z-index: 6;
-            animation: vtFadeRight 160ms cubic-bezier(.22,.86,.24,1);
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transform: translateX(-8px) scale(0.92);
+            transform-origin: 0 50%;
+            transition: opacity 180ms cubic-bezier(.22,.86,.24,1),
+                        transform 200ms cubic-bezier(.22,.86,.24,1),
+                        visibility 0s linear 200ms;
+        }
+        /* Hover-popout synlig — overgang inn (smooth pop-out fra 🎓) */
+        .chevron-and-tools .verse-card-toolbar[data-state="hover"] {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+            transform: translateX(0) scale(1);
+            transition: opacity 160ms cubic-bezier(.22,.86,.24,1),
+                        transform 200ms cubic-bezier(.22,.86,.24,1),
+                        visibility 0s;
+        }
+        /* Låst: i flow under chevron-raden (overstyrer popout-posisjonen) */
+        .chevron-and-tools .verse-card-toolbar[data-state="locked"] {
+            position: static;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+            transform: none;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+            border-radius: 0;
+            padding: 0 8px;
+            margin: 10px 0 6px;
+            gap: 8px;
+            transition: opacity 160ms ease;
+            animation: vtSlideDown 180ms cubic-bezier(.22,.86,.24,1);
         }
         @keyframes vtSlideDown {
             from { opacity: 0; transform: translateY(-6px); }
             to   { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes vtFadeRight {
-            from { opacity: 0; transform: translateX(-6px); }
-            to   { opacity: 1; transform: translateX(0); }
         }
 
         /* Card footer buttons (behold CSS for bakoverkompatibilitet hvis brukt andre steder) */
