@@ -2182,14 +2182,19 @@
         }
         .place-chip.place-chip-more:hover { background: var(--bg-subtle, rgba(0,0,0,0.04)); }
 
-        /* Marker-knapp i place-map header — toggle-tilstand når aktiv */
-        .place-mark-btn[aria-pressed="true"],
+        /* Toggle-tilstand på panel-knapper når aktiv (Følg ferden) */
         .place-journey-btn[aria-pressed="true"] {
             background: var(--accent);
             color: white;
             border-color: var(--accent);
         }
-        .place-mark-btn[data-busy="1"] {
+        /* Marker-knapp i pin-popup — aktiv tilstand + busy */
+        .place-popup-mark-btn[aria-pressed="true"] {
+            background: var(--accent) !important;
+            color: white !important;
+            border-color: var(--accent) !important;
+        }
+        .place-popup-mark-btn[data-busy="1"] {
             opacity: 0.75;
             pointer-events: none;
         }
@@ -5467,41 +5472,28 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             scope, key: source, places,
             visible: new Set(places.map(p => p.id)),
             map: null, layers: {},
-            marks: new Map(),       // vref → Map<placeId, {phrase, color, source}>
-            markActive: false,
+            marks: new Map(),         // vref → Map<placeId, {phrase, color, source}>
+            markedPlaces: new Set(),  // hvilke place-id-er som er auto-markert
+            markRunIds: new Map(),    // placeId → runId (gjør at toggle off avbryter pågående jobb)
             expandedChips: false,
-            markRunId: 0,           // brukes til å avbryte pågående markeringsjobber
         };
         placeMapHosts[hostId] = state;
 
         _renderChips(hostId);
 
-        // Injiser knapper i panel-headeren, før "Lukk":
-        //   "Følg ferden" (toggle) — tegner reise-linjer mellom punkt-pins i versrekkefølge
-        //   "Marker" (toggle)      — KI-marker stedord i alle vers
+        // Injiser "Følg ferden"-toggle i panel-headeren før Lukk
+        // (kun meningsfullt i chapter-scope med flere punkt-pins).
         const host = document.getElementById(hostId);
         const actions = host && host.querySelector('.study-panel-actions');
-        if (actions) {
-            const markBtn = document.createElement('button');
-            markBtn.className = 'card-action-btn place-mark-btn';
-            markBtn.type = 'button';
-            markBtn.setAttribute('aria-pressed', 'false');
-            markBtn.title = 'Marker stedord i alle vers (KI)';
-            markBtn.textContent = 'Marker';
-            markBtn.addEventListener('click', () => _togglePlaceMarkAll(hostId, markBtn));
-            actions.insertBefore(markBtn, actions.firstChild);
-
-            // "Følg ferden": kun meningsfullt i chapter-scope med flere punkt-pins
-            if (scope === 'chapter') {
-                const journeyBtn = document.createElement('button');
-                journeyBtn.className = 'card-action-btn place-journey-btn';
-                journeyBtn.type = 'button';
-                journeyBtn.setAttribute('aria-pressed', 'false');
-                journeyBtn.title = 'Tegn reise-linjer mellom stedene i versrekkefølge';
-                journeyBtn.textContent = 'Følg ferden';
-                journeyBtn.addEventListener('click', () => _togglePlaceJourney(hostId, journeyBtn));
-                actions.insertBefore(journeyBtn, actions.firstChild);
-            }
+        if (actions && scope === 'chapter') {
+            const journeyBtn = document.createElement('button');
+            journeyBtn.className = 'card-action-btn place-journey-btn';
+            journeyBtn.type = 'button';
+            journeyBtn.setAttribute('aria-pressed', 'false');
+            journeyBtn.title = 'Tegn reise-linjer mellom stedene i versrekkefølge';
+            journeyBtn.textContent = 'Følg ferden';
+            journeyBtn.addEventListener('click', () => _togglePlaceJourney(hostId, journeyBtn));
+            actions.insertBefore(journeyBtn, actions.firstChild);
         }
 
         // Init Leaflet (etter at DOM er på plass)
@@ -5819,6 +5811,17 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             b.addEventListener('click', (ev) => { ev.preventDefault(); ev.stopPropagation(); handler(); });
             return b;
         };
+        // Marker-knapp er per-sted nå (toggle: KI-marker stedordet i alle relevante vers
+        // for nettopp dette stedet). Refleksjonen "aktiv" hentes fra state ved hver
+        // popup-åpning siden popup-innholdet kan rebygges.
+        const markAllBtn = mkActionBtn('✨ Marker alle vers', 'KI-marker stedordet i hvert vers som nevner dette stedet', () => _togglePlaceMarkSingle(place, c, markAllBtn));
+        markAllBtn.classList.add('place-popup-mark-btn');
+        const stateNow = placeMapHosts['placeMapHost'];
+        if (stateNow && stateNow.markedPlaces && stateNow.markedPlaces.has(place.id)) {
+            markAllBtn.setAttribute('aria-pressed', 'true');
+            markAllBtn.textContent = '✓ Markert';
+        }
+        actionsRow.appendChild(markAllBtn);
         actionsRow.appendChild(mkActionBtn('🔍 Andre forekomster', 'Vis alle vers i bibelen som nevner dette stedet', () => _openPlaceCrossRefPanel(place, c)));
         actionsRow.appendChild(mkActionBtn('📊 Heatmap', 'Vis hvilke bøker som nevner dette stedet mest', () => _openPlaceHeatmapPanel(place, c)));
         popupEl.appendChild(actionsRow);
@@ -5948,86 +5951,97 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         });
     }
 
-    async function _togglePlaceMarkAll(hostId, btn) {
-        const state = placeMapHosts[hostId]; if (!state) return;
-        if (state.markActive) {
-            // Skru av: fjern auto-marks fra state og DOM, behold manuelle
-            state.markActive = false;
-            btn.setAttribute('aria-pressed', 'false');
-            _removeAutoMarksFromState(state);
+    // Per-sted toggle: KI-marker stedordet i alle vers som nevner nettopp dette stedet.
+    // Kalles fra "✨ Marker alle vers"-knappen i pin-popupen.
+    async function _togglePlaceMarkSingle(place, color, btn) {
+        const state = placeMapHosts['placeMapHost']; if (!state) return;
+        const placeId = place.id;
+        const isActive = state.markedPlaces.has(placeId);
+
+        if (isActive) {
+            // Skru av: fjern auto-marks for kun dette stedet (manuelle marks beholdes)
+            state.markedPlaces.delete(placeId);
+            // Avbryt eventuell pågående jobb for stedet
+            state.markRunIds.delete(placeId);
+            state.marks.forEach((inner, vref) => {
+                const info = inner.get(placeId);
+                if (info && info.source === 'auto') inner.delete(placeId);
+                if (inner.size === 0) state.marks.delete(vref);
+            });
             applyAllPlaceMarks();
+            if (btn) {
+                btn.setAttribute('aria-pressed', 'false');
+                btn.textContent = '✨ Marker alle vers';
+                btn.dataset.busy = '';
+            }
             return;
         }
-        // Skru på: itererer (place, verse), henter (eller bruker cache) AI-frase
-        if (state.scope !== 'chapter') {
-            // Verse-scope: én place×ett vers — gjør raskt på samme måte
-        }
-        state.markActive = true;
-        btn.setAttribute('aria-pressed', 'true');
-        btn.dataset.busy = '1';
-        const runId = ++state.markRunId;
 
-        // Bygg jobblisten: (place, vref, verseText) for alle places i chapter-scope
-        const jobs = [];
+        // Skru på
+        state.markedPlaces.add(placeId);
+        const runId = (state.markRunIds.get(placeId) || 0) + 1;
+        state.markRunIds.set(placeId, runId);
+
+        if (btn) {
+            btn.setAttribute('aria-pressed', 'true');
+            btn.dataset.busy = '1';
+        }
+
         const parts = (state.key || '').split('.');
         const bookCode = parts[0];
         const chapter = parts[1] ? parseInt(parts[1], 10) : null;
-        if (!bookCode || chapter == null) { btn.dataset.busy = ''; return; }
-
-        const verseTextOf = (vNum) => {
-            const span = document.querySelector(`.verse-span[data-vref="${bookCode}.${chapter}.${vNum}"]`);
-            const c = span && span.querySelector('.verse-content');
-            return c ? (c.textContent || '').trim() : '';
-        };
-
-        state.places.forEach(p => {
-            const c = _colorForPlace(p);
-            const verseNums = (state.scope === 'verse' && parts[2])
-                ? [parseInt(parts[2], 10)]
-                : (Array.isArray(p.verses) ? p.verses : []);
-            verseNums.forEach(vNum => {
-                const txt = verseTextOf(vNum);
-                if (!txt) return;
-                jobs.push({ place: p, color: c, vNum, txt, vref: `${bookCode}.${chapter}.${vNum}` });
-            });
-        });
-
-        if (!jobs.length) {
-            btn.dataset.busy = '';
+        if (!bookCode || chapter == null) {
+            if (btn) { btn.dataset.busy = ''; btn.textContent = '✓ Markert'; }
             return;
         }
 
-        // Kjør med begrenset parallellitet (4 av gangen) for å holde Gemini rolig
-        const PARALLEL = 4;
-        let cursor = 0;
+        const verseTextOf = (vNum) => {
+            const span = document.querySelector(`.verse-span[data-vref="${bookCode}.${chapter}.${vNum}"]`);
+            const ce = span && span.querySelector('.verse-content');
+            return ce ? (ce.textContent || '').trim() : '';
+        };
+
+        const verseNums = (state.scope === 'verse' && parts[2])
+            ? [parseInt(parts[2], 10)]
+            : (Array.isArray(place.verses) ? place.verses.slice() : []);
+
+        const jobs = verseNums.map(vNum => ({
+            vNum, txt: verseTextOf(vNum), vref: `${bookCode}.${chapter}.${vNum}`,
+        })).filter(j => j.txt);
+
+        if (!jobs.length) {
+            if (btn) { btn.dataset.busy = ''; btn.textContent = '✓ Markert'; }
+            return;
+        }
+
         let done = 0;
         const total = jobs.length;
         const updateLabel = () => {
-            if (state.markRunId !== runId) return;
-            btn.textContent = done >= total ? 'Marker' : `Markerer ${done}/${total}…`;
+            if (!btn || state.markRunIds.get(placeId) !== runId) return;
+            btn.textContent = done >= total ? '✓ Markert' : `Markerer ${done}/${total}…`;
         };
         updateLabel();
 
+        // Lite kapittel-omfang per sted, så 3 parallelle holder
+        const PARALLEL = 3;
+        let cursor = 0;
         const worker = async () => {
-            while (state.markRunId === runId) {
+            while (state.markRunIds.get(placeId) === runId) {
                 const i = cursor++;
                 if (i >= jobs.length) return;
                 const job = jobs[i];
-                const phrase = await _fetchPlacePhrase(job.place, bookCode, chapter, job.vNum, job.txt);
-                if (state.markRunId !== runId) return;
-                if (phrase) {
-                    _addMarkToState(state, job.place.id, job.vref, phrase, job.color, 'auto');
-                }
+                const phrase = await _fetchPlacePhrase(place, bookCode, chapter, job.vNum, job.txt);
+                if (state.markRunIds.get(placeId) !== runId) return;
+                if (phrase) _addMarkToState(state, placeId, job.vref, phrase, color, 'auto');
                 done++;
                 updateLabel();
-                // Anvend underveis så brukeren ser fremdrift
                 applyAllPlaceMarks();
             }
         };
         await Promise.all(Array.from({ length: PARALLEL }, () => worker()));
-        if (state.markRunId === runId) {
+        if (state.markRunIds.get(placeId) === runId && btn) {
             btn.dataset.busy = '';
-            btn.textContent = 'Marker';
+            btn.textContent = '✓ Markert';
         }
     }
 
