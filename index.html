@@ -2340,7 +2340,15 @@
                 cursor: pointer;
                 transition: none;
                 z-index: 60;
+                outline: none;
             }
+            /* Fjern svart focus-outline ved klikk/programmatic focus, behold ved
+               keyboard-tab. Pile-tastene trigger nav, men ved rask blaing fikk
+               knappen kortvarig focus og en stygg sort strek. */
+            .nav-prev:focus:not(:focus-visible),
+            .nav-next:focus:not(:focus-visible),
+            .expand-chapter-btn:focus:not(:focus-visible),
+            .verse-tools-btn:focus:not(:focus-visible) { outline: none; }
             .nav-prev { left: 0; right: calc(50% + 440px); justify-content: flex-end; padding-right: 18px; }
             .nav-next { right: 0; left: calc(50% + 440px); justify-content: flex-start; padding-left: 18px; }
             body.compare-active .nav-prev { right: calc(50% + 650px); }
