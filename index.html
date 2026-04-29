@@ -3639,32 +3639,47 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     window.toggleAllVersionsInline = async function(label, btn) {
-        if (inlineAllVersionsData) {
+        const hostId = 'allVersionsHost';
+        // Toggle off hvis allerede åpen
+        const existing = document.getElementById(hostId);
+        if (existing) {
+            closeVizHost(hostId);
             inlineAllVersionsData = null;
-            renderAll();
             return;
         }
-        // Slå av sammenligning: 'Alle versjoner' tar over plassen under verset
+        // Slå av sammenligning så vi ikke har to "side ved side"-modus aktive
         if (compareMode) {
             compareMode = false;
             compareData = null;
             aiDiffState = null;
             aiHighlights = null;
+            renderAll();
         }
         if (btn) {
             btn.disabled = true;
-            btn.textContent = 'Laster…';
+            const orig = btn.textContent;
+            btn.dataset.origText = orig;
+            btn.textContent = '⏳ Laster…';
         }
         try {
             const resp = await fetch(`/api/all_versions?q=${encodeURIComponent(label)}`);
             const data = await resp.json();
             if (!data.error) {
                 inlineAllVersionsData = { label, results: data.results };
+                const titleHtml = `📖 Alle versjoner — ${escHtml(label)}`;
+                const innerHtml = `<div class="all-versions-inline"><div class="all-versions-inline-inner">${_buildAllVersionsBodyHtml(data.results)}</div></div>`;
+                renderXrefViz(hostId, titleHtml, innerHtml);
+                // Tag host med label så refreshOpenStudyHosts kan auto-lukke ved navigering
+                const host = document.getElementById(hostId);
+                if (host) host.dataset.forLabel = label;
             } else {
                 showToast(data.error);
             }
         } catch { showToast('Kunne ikke hente alle versjoner'); }
-        renderAll();
+        if (btn) {
+            btn.disabled = false;
+            if (btn.dataset.origText) { btn.textContent = btn.dataset.origText; delete btn.dataset.origText; }
+        }
         mirrorExistingHighlightsToOtherVersions();
     };
 
@@ -8114,10 +8129,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 if (idx === 0) html += aiSection;
             } else {
                 html += buildCardHtml(mainBlock, idx, false);
-                // Inline-utvidelse for 'Alle versjoner' — under hoved-kortet, før chevron+verktøy
-                if (inlineAllVersionsData && idx === 0) {
-                    html += buildInlineAllVersionsHtml(inlineAllVersionsData.results);
-                }
                 html += `<div class="chevron-and-tools">${buildChevronHtml(mainBlock)}${buildToolbarHtml(mainBlock)}</div>`;
             }
         }
@@ -8262,11 +8273,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
         }
 
-        // AI-paneler: lukk hvis label har endret (API-tunge — bruker åpner på nytt bevisst)
-        ['aiContextHost', 'aiThemeHost', 'aiDiffHost'].forEach(id => {
+        // AI-paneler + Alle versjoner: lukk hvis label har endret
+        ['aiContextHost', 'aiThemeHost', 'aiDiffHost', 'allVersionsHost'].forEach(id => {
             const h = document.getElementById(id);
             if (h && h.dataset.forLabel && h.dataset.forLabel !== label) {
                 if (id === 'aiDiffHost') aiDiffState = null;
+                if (id === 'allVersionsHost') inlineAllVersionsData = null;
                 closeVizHost(id);
             }
         });
@@ -8304,8 +8316,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
     }
 
-    function buildInlineAllVersionsHtml(allResults) {
-        let html = `<div class="all-versions-inline"><div class="all-versions-inline-inner">`;
+    function _buildAllVersionsBodyHtml(allResults) {
+        let html = '';
         for (const [versionName, blocks] of Object.entries(allResults)) {
             const verses = blocks.flatMap(b => b.verses || []);
             if (verses.length === 0) continue;
@@ -8315,7 +8327,6 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 <div class="verse-text">${renderVerseTextHtml(verses, null, versionBook, null, versionName)}</div>
             </div>`;
         }
-        html += `</div></div>`;
         return html;
     }
 
@@ -8348,14 +8359,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const srcCh = block.verses && block.verses[0] ? block.verses[0].chapter : null;
         const srcUrl = sourceUrlForBlock(block.book, srcCh, mainVersionForSrc, srcVerseNum);
         const srcBtn = srcUrl ? `<a class="copy-btn" href="${srcUrl}" target="_blank" rel="noopener" title="Åpne kilde (bible.com)">Kilde</a>` : '';
-        const allVersionsActive = !!inlineAllVersionsData;
-        const allVersionsBtn = `<button class="copy-btn${allVersionsActive ? ' active' : ''}" onclick="toggleAllVersionsInline('${escAttr(block.label)}', this)" title="Vis samme vers i alle versjoner">Alle versjoner</button>`;
         let html = `<div class="verse-card" id="card-${idx}">
             <div class="verse-card-header${showMainVersionSelect ? ' compare-card-header' : ''}">
                 <span class="verse-card-label">${escHtml(displayLabel)}</span>
                 ${mainVerSelHtml}
                 <div class="card-head-actions">
-                    ${allVersionsBtn}
                     <div class="copy-btn-pair">
                         <button class="copy-btn" onclick="copyBlock(${idx}, false)">Kopier</button>
                         ${srcBtn}
@@ -8474,8 +8482,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
 
         const initialState = verseToolsLocked ? 'locked' : 'hidden';
+        const allVersionsActive = !!inlineAllVersionsData;
         let html = `<div class="verse-card-toolbar" data-state="${initialState}">
             <button class="card-action-btn${compareMode ? ' active' : ''}" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
+            <button class="card-action-btn${allVersionsActive ? ' active' : ''}" onclick="toggleAllVersionsInline('${escAttr(cardLabel)}', this)" title="Vis samme vers i alle versjoner">📖 Alle versjoner</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
             ${chapterXrefBtn}
