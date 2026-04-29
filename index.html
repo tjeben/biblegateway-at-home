@@ -926,11 +926,14 @@
         body.split-active .viz-side-title,
         body.split-preview .viz-side-title { display: block; }
         @media (min-width: 1100px) {
+            body { transition: padding-right 0.42s cubic-bezier(.22,.86,.24,1); }
             body.split-active,
-            body.split-preview { padding-right: var(--side-panel-width); transition: padding-right 0.42s cubic-bezier(.22,.86,.24,1); }
-            body.split-active .viz-hosts-side,
-            body.split-preview .viz-hosts-side {
-                display: flex;
+            body.split-preview { padding-right: var(--side-panel-width); }
+            /* Sidemenyen ligger alltid i DOM på desktop, transform-flyttet ut av syn
+               når den ikke er aktiv. Dermed kan både body-padding og sidemenyen gli
+               i synkron — verse-card bredde og sidebarens posisjon endrer seg jevnt. */
+            .viz-hosts-side {
+                display: flex !important;
                 flex-direction: column;
                 position: fixed;
                 top: 60px;
@@ -941,6 +944,17 @@
                 border-left: 1px solid var(--border);
                 z-index: 120;
                 box-shadow: -2px 0 12px rgba(0,0,0,0.06);
+                transform: translateX(100%);
+                opacity: 0;
+                pointer-events: none;
+                transition: transform 0.42s cubic-bezier(.22,.86,.24,1),
+                            opacity 0.32s ease;
+            }
+            body.split-active .viz-hosts-side,
+            body.split-preview .viz-hosts-side {
+                transform: translateX(0);
+                opacity: 1;
+                pointer-events: auto;
             }
             .viz-side-title {
                 flex: 0 0 auto;
@@ -9337,27 +9351,34 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             await doChange();
             return;
         }
+        // Horisontale retninger (forrige/neste vers): glidende sideveis bevegelse.
+        // Vertikale retninger (åpne/lukke kapittel): ren scale + fade — ingen
+        // sideveis sklid, så det føles som at innholdet "vokser ut" eller
+        // "trekker seg sammen" på stedet.
         const isVertical = direction === 'expand' || direction === 'collapse';
         const outDx = direction === 'next' ? -28 : (direction === 'prev' ? 28 : 0);
-        const outDy = direction === 'expand' ? -10 : (direction === 'collapse' ? 10 : 0);
         const inDx  = direction === 'next' ?  28 : (direction === 'prev' ? -28 : 0);
-        const inDy  = direction === 'expand' ?  10 : (direction === 'collapse' ? -10 : 0);
-        const inScale = isVertical ? 0.985 : 1;
+        const outScale = direction === 'expand' ? 1.04 : (direction === 'collapse' ? 0.96 : 1);
+        const inScale  = direction === 'expand' ? 0.96 : (direction === 'collapse' ? 1.04 : 1);
+        const outDuration = isVertical ? 140 : 170;
+        const inDuration  = isVertical ? 280 : 300;
+        const wrapEl = wrap;
+        wrapEl.style.transformOrigin = 'top center';
         let outAnim;
         try {
             outAnim = wrap.animate([
                 { opacity: 1, transform: 'translate(0, 0) scale(1)' },
-                { opacity: 0, transform: `translate(${outDx}px, ${outDy}px) scale(${isVertical ? 0.985 : 1})` }
-            ], { duration: 170, easing: 'cubic-bezier(.32, .72, .35, 1)', fill: 'forwards' });
+                { opacity: 0, transform: `translate(${outDx}px, 0) scale(${outScale})` }
+            ], { duration: outDuration, easing: 'cubic-bezier(.32, .72, .35, 1)', fill: 'forwards' });
             await outAnim.finished;
         } catch {}
         await doChange();
         try {
             if (outAnim) outAnim.cancel();
             wrap.animate([
-                { opacity: 0, transform: `translate(${inDx}px, ${inDy}px) scale(${inScale})` },
+                { opacity: 0, transform: `translate(${inDx}px, 0) scale(${inScale})` },
                 { opacity: 1, transform: 'translate(0, 0) scale(1)' }
-            ], { duration: 280, easing: 'cubic-bezier(.18, .89, .28, 1.05)' });
+            ], { duration: inDuration, easing: 'cubic-bezier(.22, .9, .28, 1.02)' });
         } catch {}
     }
 
