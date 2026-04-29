@@ -1273,6 +1273,55 @@ def _like_escape(s):
     return s.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
 
 
+def quick_search(bible_data, version, query, limit=5):
+    """Topp-N mest relevante vers via FTS5 BM25, for live søkeforslag.
+    Holder seg til ord/fraser — ekskluderinger og bok-prefiks droppes
+    bevisst for hastighet og enkelhet."""
+    groups = parse_search_query(query)
+    groups = [g for g in groups if g[0] or g[1] or g[2]]
+    if not groups:
+        return []
+    tid, err = bible_data._resolve_tid(version)
+    if err:
+        return []
+
+    # Slå sammen fraser + bare-ord til én OR-MATCH for FTS5 (ranking via bm25).
+    terms = []
+    for phrases, words, _excl in groups:
+        terms.extend(phrases)
+        terms.extend(words)
+    terms = [t for t in terms if t]
+    if not terms:
+        return []
+    # Hver term som FTS5-frase ("…"); sammenkjedet med OR for å finne hvilket som
+    # helst treff. bm25 favoriserer vers med flere termer pluss kortere lengde.
+    match_expr = " OR ".join(f'"{_fts_escape_phrase(t)}"' for t in terms)
+
+    sql = """
+        SELECT v.book_usfm, v.chapter, v.verse, v.text
+        FROM verses_fts fts
+        JOIN verses v ON v.id = fts.rowid
+        WHERE verses_fts MATCH ? AND v.translation_id = ?
+        ORDER BY bm25(verses_fts)
+        LIMIT ?
+    """
+    try:
+        rows = bible_data._query(sql, (match_expr, tid, int(limit)))
+    except Exception:
+        return []
+    results = []
+    for r in rows:
+        book_name = USFM_TO_NAME.get(r["book_usfm"], r["book_usfm"])
+        results.append({
+            "ref": f"{book_name} {r['chapter']}:{r['verse']}",
+            "book": r["book_usfm"],
+            "chapter": r["chapter"],
+            "verse": r["verse"],
+            "text": r["text"],
+        })
+    return results
+
+
 def search_text(bible_data, version, query, per_book=10, book_filter=None):
     """Full-text search via SQLite (FTS5 for fraser, LIKE for ord).
     Returns (results, book_totals)."""
@@ -1576,6 +1625,28 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
                         "total": total, "query": query, "version": version,
                         "book_filter": book_filter, "has_operators": has_search_operators(search_query),
                     })
+
+        elif path == "/api/quick_search":
+            # Live søkeforslag — topp-N relevante vers via FTS5 BM25.
+            # Holder seg bevisst enkelt: ingen ekskluderinger, ingen bok-prefiks-håndtering.
+            query = params.get("q", [""])[0].strip()
+            version = params.get("version", [""])[0]
+            try:
+                limit = max(1, min(10, int(params.get("limit", ["5"])[0])))
+            except ValueError:
+                limit = 5
+            if not query or len(query) < 2:
+                self._send_json({"results": [], "version": version, "query": query})
+                return
+            # "Alle": kjør på første tilgjengelige versjon (typisk NB88) for hastighet.
+            # Klikk på et forslag åpner uansett verset i den aktive versjonen.
+            if version == "Alle" or not version:
+                version = next(iter(bible_data.versions), None)
+                if not version:
+                    self._send_json({"results": [], "version": "", "query": query})
+                    return
+            results = quick_search(bible_data, version, query, limit=limit)
+            self._send_json({"results": results, "version": version, "query": query})
 
         elif path == "/api/all_versions":
             query = params.get("q", [""])[0]
