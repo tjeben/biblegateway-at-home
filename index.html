@@ -49,6 +49,12 @@
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
+        html {
+            /* Reservér plass til scrollbaren også når innholdet ikke trenger den,
+               så sidens vannrette layout ikke "hopper" når man bytter mellom kort
+               og lengre kapitler. */
+            scrollbar-gutter: stable;
+        }
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             background: var(--bg);
@@ -120,7 +126,7 @@
             opacity: 0;
             visibility: hidden;
             transition: opacity 220ms ease, visibility 0s linear 220ms;
-            z-index: 95;
+            z-index: 200;
         }
         .nav-backdrop.open {
             opacity: 1;
@@ -137,7 +143,7 @@
             box-shadow: -8px 0 24px rgba(0, 0, 0, 0.18);
             transform: translateX(100%);
             transition: transform 260ms cubic-bezier(.22,.86,.24,1);
-            z-index: 100;
+            z-index: 210;       /* over sidemeny (z-index 120) */
             display: flex; flex-direction: column;
             overflow: hidden;
         }
@@ -215,6 +221,19 @@
         @media (max-width: 700px) {
             .nav-chapter-grid { grid-template-columns: repeat(4, 1fr); }
         }
+        /* Footer i drawer — viser KI-notatet kun når man IKKE er på landingssiden.
+           Bruker body.is-home som settes i renderAll. */
+        .nav-drawer-footer {
+            flex: 0 0 auto;
+            border-top: 1px solid var(--border);
+            padding: 12px 16px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+            display: none;
+        }
+        body:not(.is-home) .nav-drawer-footer { display: block; }
+        body:not(.is-home) .ai-footer-note { display: none; }
         .header-icon-btn svg,
         .dark-toggle svg {
             width: 19px;
@@ -3168,7 +3187,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
 </head>
-<body class="page-center-mode">
+<body class="page-center-mode is-home">
 
 <div class="app-header">
     <div class="app-header-inner">
@@ -3200,6 +3219,9 @@
         </button>
     </div>
     <nav class="nav-drawer-tree" id="navDrawerTree" aria-label="Bibelnavigasjon"></nav>
+    <div class="nav-drawer-footer">
+        Alle KI-funksjoner er merket med gult — bruk dem med omhu.
+    </div>
 </aside>
 
 <div class="search-area">
@@ -8253,10 +8275,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ── Render reference results ──
     function renderAll() {
         if (!mainData || mainData.length === 0) {
+            document.body.classList.add('is-home');
             resultsWrapper.innerHTML = emptyStateHtml;
             updateNavButtons();
             return;
         }
+        document.body.classList.remove('is-home');
         // Layout: enkelt vers holder sentrert; større resultater flytter til toppen
         const isSingleVerse = mainData.length === 1
             && mainData[0].verses && mainData[0].verses.length === 1
@@ -9516,6 +9540,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const b = document.getElementById('navBackdrop');
         if (!d || !b) return;
         if (d.classList.contains('open')) { closeNavDrawer(); return; }
+        // Fjern fokus fra søkefeltet så :focus-within-uthevingen forsvinner
+        if (document.activeElement && document.activeElement.blur) {
+            try { document.activeElement.blur(); } catch {}
+        }
+        if (typeof closeSuggestions === 'function') closeSuggestions();
         _buildNavDrawerTree();
         d.classList.add('open');
         b.classList.add('open');
