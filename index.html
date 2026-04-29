@@ -1143,26 +1143,45 @@
                         transform 200ms cubic-bezier(.22,.86,.24,1),
                         visibility 0s;
         }
-        /* Låst: i flow under chevron-raden (overstyrer popout-posisjonen) */
-        .chevron-and-tools .verse-card-toolbar[data-state="locked"] {
+        /* Låst: i flow under chevron-raden (overstyrer popout-posisjonen).
+           Bruker max-height + margin-animasjon så chevron-raden ovenfor glir
+           naturlig mens verktøyraden brettes ut/inn — viktig på mobil der det
+           ikke finnes en hover-tilstand som forhåndsviser knappene. */
+        .chevron-and-tools .verse-card-toolbar[data-state="locked"],
+        .chevron-and-tools .verse-card-toolbar[data-state="closing"] {
             position: static;
-            opacity: 1;
             visibility: visible;
-            pointer-events: auto;
             transform: none;
             background: transparent;
             border: none;
             box-shadow: none;
             border-radius: 0;
-            padding: 0 8px;
-            margin: 10px 0 6px;
             gap: 8px;
-            transition: opacity 160ms ease;
-            animation: vtSlideDown 180ms cubic-bezier(.22,.86,.24,1);
+            padding: 0 8px;
+            overflow: hidden;
+            transition: none;
         }
-        @keyframes vtSlideDown {
-            from { opacity: 0; transform: translateY(-6px); }
-            to   { opacity: 1; transform: translateY(0); }
+        .chevron-and-tools .verse-card-toolbar[data-state="locked"] {
+            opacity: 1;
+            pointer-events: auto;
+            margin: 10px 0 6px;
+            max-height: 600px;
+            animation: vtSlideOpen 320ms cubic-bezier(.22,.86,.24,1);
+        }
+        .chevron-and-tools .verse-card-toolbar[data-state="closing"] {
+            pointer-events: none;
+            margin: 10px 0 6px;
+            max-height: 600px;
+            animation: vtSlideClose 260ms cubic-bezier(.4, 0, .35, 1) forwards;
+        }
+        @keyframes vtSlideOpen {
+            0%   { opacity: 0; max-height: 0;   margin-top: 0;    padding-top: 0; padding-bottom: 0; transform: translateY(-4px); }
+            60%  { opacity: 1; }
+            100% { opacity: 1; max-height: 600px; margin-top: 10px; padding-top: 0; padding-bottom: 0; transform: translateY(0); }
+        }
+        @keyframes vtSlideClose {
+            0%   { opacity: 1; max-height: 600px; margin-top: 10px; transform: translateY(0); }
+            100% { opacity: 0; max-height: 0;   margin-top: 0;    transform: translateY(-4px); }
         }
 
         /* Card footer buttons (behold CSS for bakoverkompatibilitet hvis brukt andre steder) */
@@ -4785,10 +4804,23 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     window.toggleVerseTools = function(btn) {
         const next = !verseToolsLocked;
         _setVerseToolsLocked(next);
-        // Oppdater alle synlige verktøyrader + knapper i ett (det finnes normalt én,
-        // men i compare-modus kan det være flere).
         document.querySelectorAll('.verse-card-toolbar').forEach(tb => {
-            tb.setAttribute('data-state', next ? 'locked' : 'hidden');
+            const cur = tb.getAttribute('data-state');
+            if (next) {
+                tb.setAttribute('data-state', 'locked');
+                return;
+            }
+            if (cur === 'locked') {
+                // Mellomtilstand med slide-opp animasjon før vi setter den til hidden
+                tb.setAttribute('data-state', 'closing');
+                setTimeout(() => {
+                    if (tb.getAttribute('data-state') === 'closing') {
+                        tb.setAttribute('data-state', 'hidden');
+                    }
+                }, 260);
+            } else {
+                tb.setAttribute('data-state', 'hidden');
+            }
         });
         document.querySelectorAll('.verse-tools-btn').forEach(b => {
             b.setAttribute('aria-pressed', next ? 'true' : 'false');
