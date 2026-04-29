@@ -112,6 +112,109 @@
             transition: background-color 0.2s;
         }
         .header-icon-btn:hover { background-color: rgba(255,255,255,0.1); }
+
+        /* ── Hovedmeny (hamburger) ── */
+        .nav-backdrop {
+            position: fixed; inset: 0;
+            background: rgba(0, 0, 0, 0.42);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 220ms ease, visibility 0s linear 220ms;
+            z-index: 95;
+        }
+        .nav-backdrop.open {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 220ms ease, visibility 0s;
+        }
+        .nav-drawer {
+            position: fixed;
+            top: 0; right: 0;
+            width: 320px; max-width: 92vw;
+            height: 100vh;
+            background: var(--card-bg);
+            color: var(--text);
+            box-shadow: -8px 0 24px rgba(0, 0, 0, 0.18);
+            transform: translateX(100%);
+            transition: transform 260ms cubic-bezier(.22,.86,.24,1);
+            z-index: 100;
+            display: flex; flex-direction: column;
+            overflow: hidden;
+        }
+        .nav-drawer.open { transform: translateX(0); }
+        .nav-drawer-top {
+            display: flex; align-items: center; gap: 8px;
+            padding: 12px 14px;
+            border-bottom: 1px solid var(--border);
+            background: var(--accent);
+            color: white;
+        }
+        .nav-drawer-top .header-icon-btn,
+        .nav-drawer-top .dark-toggle { color: white; }
+        .nav-drawer-tree {
+            flex: 1 1 auto;
+            overflow-y: auto;
+            padding: 6px 0;
+        }
+        .nav-tree-section { border-bottom: 1px solid var(--border); }
+        .nav-tree-section:last-child { border-bottom: none; }
+        .nav-tree-row {
+            display: flex; align-items: center; gap: 8px;
+            padding: 12px 16px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            user-select: none;
+            background: transparent;
+            border: none;
+            width: 100%;
+            text-align: left;
+            color: inherit;
+            transition: background 120ms ease;
+        }
+        .nav-tree-row:hover { background: rgba(168, 50, 50, 0.06); }
+        [data-theme="dark"] .nav-tree-row:hover { background: rgba(201, 68, 68, 0.10); }
+        .nav-tree-row.section-head { font-weight: 700; font-size: 0.92rem; letter-spacing: 0.3px; }
+        .nav-tree-row.book-head { padding-left: 28px; font-size: 0.9rem; color: var(--text-muted); }
+        .nav-tree-row.book-head[aria-expanded="true"] { color: var(--text); font-weight: 600; }
+        .nav-tree-row .nav-caret {
+            width: 14px; flex: 0 0 auto;
+            transition: transform 160ms ease;
+            color: var(--text-muted);
+        }
+        .nav-tree-row[aria-expanded="true"] .nav-caret { transform: rotate(90deg); color: var(--accent); }
+        .nav-tree-children { display: none; }
+        .nav-tree-children.open { display: block; animation: navExpand 180ms cubic-bezier(.22,.86,.24,1); }
+        @keyframes navExpand {
+            from { opacity: 0; transform: translateY(-4px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        .nav-chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 6px;
+            padding: 8px 16px 14px 44px;
+        }
+        .nav-chapter-pill {
+            display: inline-flex; align-items: center; justify-content: center;
+            min-height: 32px;
+            padding: 4px 8px;
+            border: 1px solid var(--border);
+            background: transparent;
+            border-radius: 999px;
+            font-size: 0.82rem;
+            color: var(--text);
+            cursor: pointer;
+            font-family: inherit;
+            transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
+        }
+        .nav-chapter-pill:hover {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+        @media (max-width: 700px) {
+            .nav-chapter-grid { grid-template-columns: repeat(4, 1fr); }
+        }
         .header-icon-btn svg,
         .dark-toggle svg {
             width: 19px;
@@ -3074,13 +3177,30 @@
             <h1>Bibelsøk</h1>
         </div>
         <div class="header-actions">
-            <button class="header-icon-btn" onclick="showSearchInfo()" title="Hvordan søke" aria-label="Info">
-                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 10v6"></path><path d="M12 7h.01"></path></svg>
+            <button class="header-icon-btn hamburger-btn" onclick="toggleNavDrawer()" title="Meny" aria-label="Meny">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path></svg>
             </button>
-            <button class="dark-toggle" id="darkToggle" title="Mørk modus" aria-label="Bytt tema"></button>
         </div>
     </div>
 </div>
+
+<!-- Hovedmeny til høyre — inneholder mørk modus, info og en hierarkisk
+     bok-/kapittelnavigator. Drawer + backdrop er position:fixed; toggles
+     via .open på navDrawer / navBackdrop. -->
+<div class="nav-backdrop" id="navBackdrop" onclick="closeNavDrawer()"></div>
+<aside class="nav-drawer" id="navDrawer" aria-hidden="true" aria-label="Meny">
+    <div class="nav-drawer-top">
+        <button class="header-icon-btn" onclick="showSearchInfo()" title="Hvordan søke" aria-label="Info">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 10v6"></path><path d="M12 7h.01"></path></svg>
+        </button>
+        <button class="dark-toggle" id="darkToggle" title="Mørk modus" aria-label="Bytt tema"></button>
+        <div style="flex:1;"></div>
+        <button class="header-icon-btn nav-drawer-close" onclick="closeNavDrawer()" title="Lukk" aria-label="Lukk meny">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12"></path><path d="M18 6l-12 12"></path></svg>
+        </button>
+    </div>
+    <nav class="nav-drawer-tree" id="navDrawerTree" aria-label="Bibelnavigasjon"></nav>
+</aside>
 
 <div class="search-area">
     <!-- Desktop search controls -->
@@ -9388,6 +9508,103 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         html += '</div>';
         resultsWrapper.innerHTML = html;
         updateNavButtons();
+    }
+
+    // ── Hovedmeny / hamburger-drawer ──
+    window.toggleNavDrawer = function() {
+        const d = document.getElementById('navDrawer');
+        const b = document.getElementById('navBackdrop');
+        if (!d || !b) return;
+        if (d.classList.contains('open')) { closeNavDrawer(); return; }
+        _buildNavDrawerTree();
+        d.classList.add('open');
+        b.classList.add('open');
+        d.setAttribute('aria-hidden', 'false');
+    };
+    window.closeNavDrawer = function() {
+        const d = document.getElementById('navDrawer');
+        const b = document.getElementById('navBackdrop');
+        if (d) { d.classList.remove('open'); d.setAttribute('aria-hidden', 'true'); }
+        if (b) b.classList.remove('open');
+    };
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+            const d = document.getElementById('navDrawer');
+            if (d && d.classList.contains('open')) closeNavDrawer();
+        }
+    });
+
+    function _buildNavDrawerTree() {
+        const tree = document.getElementById('navDrawerTree');
+        if (!tree || !Array.isArray(booksData) || !booksData.length) return;
+        // Bygg én gang per oppdatering — overskriver så aktive states tilbakestilles
+        const ot = booksData.filter(b => !isNtBook(b.code));
+        const nt = booksData.filter(b => isNtBook(b.code));
+        const caretSvg = '<svg class="nav-caret" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"></polyline></svg>';
+        const buildSection = (label, books) => {
+            const booksHtml = books.map(b => {
+                const chCount = b.chapters || 0;
+                const chHtml = Array.from({ length: chCount }, (_, i) => {
+                    const num = i + 1;
+                    return `<button type="button" class="nav-chapter-pill" data-book-name="${escAttr(b.name)}" data-chapter="${num}">${num}</button>`;
+                }).join('');
+                return `<div class="nav-tree-book">
+                    <button type="button" class="nav-tree-row book-head" aria-expanded="false" data-book-code="${escAttr(b.code)}">
+                        ${caretSvg}<span>${escHtml(b.name)}</span>
+                    </button>
+                    <div class="nav-tree-children">
+                        <div class="nav-chapter-grid">${chHtml}</div>
+                    </div>
+                </div>`;
+            }).join('');
+            return `<div class="nav-tree-section">
+                <button type="button" class="nav-tree-row section-head" aria-expanded="false">
+                    ${caretSvg}<span>${escHtml(label)}</span>
+                </button>
+                <div class="nav-tree-children">${booksHtml}</div>
+            </div>`;
+        };
+        tree.innerHTML = buildSection('Det gamle testamente', ot) + buildSection('Det nye testamente', nt);
+
+        // Seksjonshoder (GT/NT): toggle
+        tree.querySelectorAll('.section-head').forEach(row => {
+            row.addEventListener('click', () => {
+                const open = row.getAttribute('aria-expanded') === 'true';
+                row.setAttribute('aria-expanded', open ? 'false' : 'true');
+                const next = row.nextElementSibling;
+                if (next) next.classList.toggle('open', !open);
+            });
+        });
+        // Bok-rader: akkordeon (kun én åpen om gangen innenfor samme seksjon)
+        tree.querySelectorAll('.book-head').forEach(row => {
+            row.addEventListener('click', () => {
+                const section = row.closest('.nav-tree-section');
+                const open = row.getAttribute('aria-expanded') === 'true';
+                if (section) {
+                    section.querySelectorAll('.book-head[aria-expanded="true"]').forEach(other => {
+                        other.setAttribute('aria-expanded', 'false');
+                        const ch = other.nextElementSibling;
+                        if (ch) ch.classList.remove('open');
+                    });
+                }
+                if (!open) {
+                    row.setAttribute('aria-expanded', 'true');
+                    const next = row.nextElementSibling;
+                    if (next) next.classList.add('open');
+                }
+            });
+        });
+        // Kapittel-piller: åpne kapittelet i hovedvisningen
+        tree.querySelectorAll('.nav-chapter-pill').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const bn = btn.getAttribute('data-book-name');
+                const ch = btn.getAttribute('data-chapter');
+                if (!bn || !ch) return;
+                searchInput.value = `${bn} ${ch}`;
+                doSearch();
+                closeNavDrawer();
+            });
+        });
     }
 
     window.goHome = function() {
