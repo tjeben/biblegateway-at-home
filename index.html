@@ -2545,11 +2545,14 @@
                 border-radius: 0;
                 box-shadow: none;
                 padding: 0;
-                font-size: 0;   /* skjul tekst-innholdet (‹ / ›), vises via ::before */
+                /* Plasser ikonet på halvveis ned i hovedinnholdet (eller halvveis
+                   ned i viewport, hva som er øverst). --nav-y settes fra JS. */
+                padding-top: max(0px, calc(var(--nav-y, 50vh) - 60px));
+                font-size: 0;
                 display: none;
-                align-items: center;
+                align-items: flex-start;
                 cursor: pointer;
-                transition: none;
+                transition: padding-top 0.32s cubic-bezier(.22,.86,.24,1);
                 z-index: 60;
                 outline: none;
             }
@@ -2569,7 +2572,7 @@
                --col-left-px og --col-right-px oppdateres fra JS basert på faktisk kolonnebredde. */
             body.split-active .nav-prev,
             body.split-active .nav-next {
-                top: 50%;
+                top: var(--nav-y, 50%);
                 bottom: auto;
                 width: 52px;
                 height: 52px;
@@ -2581,7 +2584,9 @@
                 border-radius: 50%;
                 box-shadow: 0 4px 16px rgba(0,0,0,0.12);
                 transform: translateY(-50%);
-                transition: background 0.18s, color 0.18s, border-color 0.18s, transform 0.18s, box-shadow 0.18s;
+                transition: background 0.18s, color 0.18s, border-color 0.18s,
+                            transform 0.18s, box-shadow 0.18s,
+                            top 0.32s cubic-bezier(.22,.86,.24,1);
                 justify-content: center;
                 align-items: center;
                 line-height: 1;
@@ -4657,8 +4662,35 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const rect = wrap.getBoundingClientRect();
         document.documentElement.style.setProperty('--col-left-px', Math.max(0, rect.left) + 'px');
         document.documentElement.style.setProperty('--col-right-px', Math.max(0, window.innerWidth - rect.right) + 'px');
+        updateNavY();
+    }
+    // Plasser nav-pilene halvveis ned i hovedinnholdet, men aldri lenger ned enn
+    // halveis ned i viewport. Korte vers → pilene løftes opp; lange kapittler →
+    // pilene blir kappet ved viewport-midten så de aldri havner langt ned.
+    function updateNavY() {
+        const wrap = document.getElementById('resultsWrapper');
+        const card = wrap && (wrap.querySelector('.verse-row') || wrap.querySelector('.verse-card'));
+        const vh = window.innerHeight;
+        const cap = vh / 2;
+        const headerSafe = 60 + 60;     // header + litt luft
+        let y;
+        if (card) {
+            const r = card.getBoundingClientRect();
+            const mid = r.top + r.height / 2;
+            y = Math.min(mid, cap);
+            y = Math.max(y, headerSafe);
+        } else {
+            y = cap;
+        }
+        document.documentElement.style.setProperty('--nav-y', y + 'px');
+    }
+    let _navYRaf = 0;
+    function _scheduleNavY() {
+        if (_navYRaf) return;
+        _navYRaf = requestAnimationFrame(() => { _navYRaf = 0; updateNavY(); });
     }
     window.addEventListener('resize', updateColumnEdges);
+    window.addEventListener('scroll', _scheduleNavY, { passive: true });
 
     // Oppdater "Flytt over"-knappens utseende basert på hvor elementet ligger
     function refreshMoveBtnState(host) {
@@ -8419,6 +8451,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         ensureAiDiffHost();
         applyStoredHighlights();
         applyPendingPlaceHighlight();
+        // Posisjoner nav-pilene i forhold til det nye innholdet
+        requestAnimationFrame(() => { if (typeof updateNavY === 'function') updateNavY(); });
         // Scroll-justering etter render: hvis vi har et høydepunktsvers, sentrér det.
         // Ellers — det er det vanligste tilfellet ved navigasjon mellom kapittler/vers
         // — scroll til toppen så brukeren ser det nye innholdet, selv hvis det er
