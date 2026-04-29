@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Bibeldykk">
+    <meta name="application-name" content="Bibeldykk">
+    <meta name="theme-color" content="#a83232">
     <title>Bibeldykk</title>
+    <link rel="manifest" href="/manifest.webmanifest">
     <link rel="icon" href="/logo_biblegateway.png" type="image/png" sizes="any">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/logo_biblegateway.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <style>
         :root {
             --bg: #f5f1eb;
@@ -54,6 +59,45 @@
                så sidens vannrette layout ikke "hopper" når man bytter mellom kort
                og lengre kapitler. */
             scrollbar-gutter: stable;
+        }
+
+        /* PWA-splash — rød full-skjerm overlay, vises ved oppstart. */
+        .app-splash {
+            position: fixed; inset: 0;
+            background: #a83232;
+            display: flex; align-items: center; justify-content: center;
+            z-index: 9999;
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 360ms ease, visibility 0s linear 360ms;
+            pointer-events: none;
+        }
+        .app-splash.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+        .app-splash-inner {
+            display: flex; flex-direction: column; align-items: center; gap: 20px;
+            animation: appSplashPulse 1.6s ease-in-out infinite;
+        }
+        .app-splash-logo {
+            width: 96px; height: 96px;
+            border-radius: 22px;
+            background: white;
+            padding: 14px;
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+            object-fit: contain;
+        }
+        .app-splash-name {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            color: white;
+            font-size: 1.4rem;
+            font-weight: 600;
+            letter-spacing: 0.6px;
+        }
+        @keyframes appSplashPulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50%      { transform: scale(1.04); opacity: 0.92; }
         }
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -3266,6 +3310,14 @@
 </head>
 <body class="page-center-mode is-home">
 
+<!-- PWA-splash: rød full-skjerm med logo. Fades ut når appen er klar. -->
+<div id="appSplash" class="app-splash" aria-hidden="true">
+    <div class="app-splash-inner">
+        <img src="/logo_biblegateway.png" alt="Bibeldykk" class="app-splash-logo">
+        <div class="app-splash-name">Bibeldykk</div>
+    </div>
+</div>
+
 <div class="app-header">
     <div class="app-header-inner">
         <div class="header-left" onclick="goHome()">
@@ -3477,6 +3529,32 @@
     let mainData = null;
     let compareData = null;
     let currentView = 'normal'; // 'normal', 'text_search', 'all_versions'
+    // ── PWA: skjul splash når DOM er klar, registrér service worker ──
+    (function _initPWA() {
+        const splash = document.getElementById('appSplash');
+        const hideSplash = () => {
+            if (!splash) return;
+            splash.classList.add('hidden');
+            // Sikkerhetsnett: hvis noe blokkerer fade, fjern etter 1.5 s
+            setTimeout(() => { if (splash.parentNode) splash.parentNode.removeChild(splash); }, 1500);
+        };
+        if (document.readyState === 'complete') {
+            requestAnimationFrame(hideSplash);
+        } else {
+            window.addEventListener('load', () => requestAnimationFrame(hideSplash));
+        }
+        // Fallback: garantert maks 2 s splash
+        setTimeout(hideSplash, 2000);
+
+        // Service worker — kun på HTTPS eller localhost
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js', { scope: '/' })
+                    .catch(() => { /* stille feil — appen fungerer uten SW */ });
+            });
+        }
+    })();
+
     let booksData = [];
     let allVersionsCache = null; // {results, label} for re-rendering
     let textSearchCache = null; // {results, query} for re-rendering

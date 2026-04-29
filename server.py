@@ -1860,17 +1860,92 @@ Regler:
                 sys.stderr.flush()
                 self._send_json({"error": str(e)}, 500)
 
-        elif path in ("/logo_biblegateway.png", "/favicon.ico"):
+        elif path in ("/logo_biblegateway.png", "/favicon.ico",
+                      "/icon-192.png", "/icon-512.png", "/apple-touch-icon.png"):
+            # Alle PWA-ikoner serveres fra samme logo-fil — nettlesere skalerer.
             img_path = BASE_DIR / "logo_biblegateway.png"
             if img_path.exists():
                 body = img_path.read_bytes()
                 self.send_response(200)
                 self.send_header("Content-Type", "image/png")
                 self.send_header("Content-Length", len(body))
+                self.send_header("Cache-Control", "public, max-age=86400")
                 self.end_headers()
                 self.wfile.write(body)
             else:
                 self.send_error(404)
+
+        elif path == "/manifest.webmanifest":
+            manifest = {
+                "name": "Bibeldykk",
+                "short_name": "Bibeldykk",
+                "description": "Norsk bibel-app for søk, sammenligning og fordypning.",
+                "start_url": "/",
+                "scope": "/",
+                "display": "standalone",
+                "orientation": "portrait",
+                "background_color": "#a83232",
+                "theme_color": "#a83232",
+                "lang": "no",
+                "icons": [
+                    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+                    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"},
+                ],
+            }
+            body = json.dumps(manifest, ensure_ascii=False).encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", "application/manifest+json; charset=utf-8")
+            self.send_header("Content-Length", len(body))
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(body)
+
+        elif path == "/sw.js":
+            # Service worker: cache-first for app-shell, network-first for API-kall.
+            sw_js = (
+                "const CACHE = 'bibeldykk-v1';\n"
+                "const SHELL = ['/', '/manifest.webmanifest', '/logo_biblegateway.png',\n"
+                "  '/icon-192.png', '/icon-512.png'];\n"
+                "self.addEventListener('install', e => {\n"
+                "  e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));\n"
+                "});\n"
+                "self.addEventListener('activate', e => {\n"
+                "  e.waitUntil(\n"
+                "    caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))\n"
+                "    .then(() => self.clients.claim())\n"
+                "  );\n"
+                "});\n"
+                "self.addEventListener('fetch', e => {\n"
+                "  const url = new URL(e.request.url);\n"
+                "  if (url.origin !== location.origin) return;  // ekstern (Leaflet-tiles, etc.) — la nett ta\n"
+                "  if (url.pathname.startsWith('/api/')) {\n"
+                "    // API: nettverk først, fall tilbake til cache hvis offline\n"
+                "    e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));\n"
+                "    return;\n"
+                "  }\n"
+                "  // App-shell: cache først, oppdater i bakgrunn\n"
+                "  e.respondWith(\n"
+                "    caches.match(e.request).then(cached => {\n"
+                "      const network = fetch(e.request).then(resp => {\n"
+                "        if (resp && resp.status === 200) {\n"
+                "          const copy = resp.clone();\n"
+                "          caches.open(CACHE).then(c => c.put(e.request, copy)).catch(() => {});\n"
+                "        }\n"
+                "        return resp;\n"
+                "      }).catch(() => cached);\n"
+                "      return cached || network;\n"
+                "    })\n"
+                "  );\n"
+                "});\n"
+            )
+            body = sw_js.encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", "application/javascript; charset=utf-8")
+            self.send_header("Content-Length", len(body))
+            self.send_header("Service-Worker-Allowed", "/")
+            self.send_header("Cache-Control", "no-cache")
+            self.end_headers()
+            self.wfile.write(body)
 
         else:
             sys.stderr.write(f"[{self.log_date_time_string()}] 404 ukjent GET-sti: {path!r}\n")
