@@ -4322,21 +4322,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // State holdes på selve toolbar-elementet via data-state="hidden"|"hover"|"locked".
     // Klikk på ⚙️ veksler mellom locked og hidden. Hover viser popout med mindre den
     // allerede er locked. Click-utenfor lukker locked.
+    // Toggle: kun denne knappen kan slå låst-tilstanden av eller på. Klikk utenfor,
+    // navigering, åpning av studieelementer osv. skal IKKE deaktivere den.
     window.toggleVerseTools = function(btn) {
-        const wrap = btn && btn.closest('.chevron-and-tools');
-        if (!wrap) return;
-        const tb = wrap.querySelector('.verse-card-toolbar');
-        if (!tb) return;
-        const state = tb.getAttribute('data-state');
-        if (state === 'locked') {
-            tb.setAttribute('data-state', 'hidden');
-            btn.setAttribute('aria-pressed', 'false');
-            verseToolsLocked = false;
-        } else {
-            tb.setAttribute('data-state', 'locked');
-            btn.setAttribute('aria-pressed', 'true');
-            verseToolsLocked = true;
-        }
+        const next = !verseToolsLocked;
+        _setVerseToolsLocked(next);
+        // Oppdater alle synlige verktøyrader + knapper i ett (det finnes normalt én,
+        // men i compare-modus kan det være flere).
+        document.querySelectorAll('.verse-card-toolbar').forEach(tb => {
+            tb.setAttribute('data-state', next ? 'locked' : 'hidden');
+        });
+        document.querySelectorAll('.verse-tools-btn').forEach(b => {
+            b.setAttribute('aria-pressed', next ? 'true' : 'false');
+        });
     };
 
     // Hover-håndtering: legges på selve .chevron-and-tools så det også fungerer når
@@ -4363,22 +4361,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         tb.setAttribute('data-state', 'hidden');
     });
 
-    // Klikk-utenfor lukker eventuelle låste verktøyrader.
-    // Vi lar IKKE klikk på en knapp inne i toolbaren lukke den — knapper kan åpne
-    // studieelementer (sidemeny/inline) som sender klikket videre. Bare klikk som
-    // ikke treffer verktøysystemet skal lukke.
-    document.addEventListener('click', e => {
-        if (e.target.closest('.verse-tools-btn') || e.target.closest('.verse-card-toolbar')) return;
-        let didLock = false;
-        document.querySelectorAll('.verse-card-toolbar[data-state="locked"]').forEach(tb => {
-            didLock = true;
-            tb.setAttribute('data-state', 'hidden');
-            const wrap = tb.closest('.chevron-and-tools');
-            const btn = wrap && wrap.querySelector('.verse-tools-btn');
-            if (btn) btn.setAttribute('aria-pressed', 'false');
-        });
-        if (didLock) verseToolsLocked = false;
-    });
+    // (Tidligere lukket vi låste verktøyrader ved klikk-utenfor. Fjernet —
+    // brukeren forventer at toggle-on er permanent til 🎓 klikkes igjen.)
 
     // Mål kolonnebredden og eksponér via CSS-vars så pilene kan plasseres rett ved
     function updateColumnEdges() {
@@ -8401,8 +8385,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ⚙️-knapp som ligger til venstre i chevron-raden — toggler verktøyraden
     // mellom hover-popout og låst-i-flow under chevronen.
     // Modul-state holder låst-tilstanden så den overlever re-rendringer ved
-    // kapittel/vers-navigering.
-    let verseToolsLocked = false;
+    // kapittel/vers-navigering. Persistert i localStorage så den også overlever
+    // sideomlasting — toggles bare av når brukeren eksplisitt klikker 🎓 igjen.
+    let verseToolsLocked = (() => {
+        try { return localStorage.getItem('verseToolsLocked') === '1'; } catch { return false; }
+    })();
+    function _setVerseToolsLocked(v) {
+        verseToolsLocked = !!v;
+        try { localStorage.setItem('verseToolsLocked', verseToolsLocked ? '1' : '0'); } catch {}
+    }
     function _verseToolsBtnHtml() {
         const pressed = verseToolsLocked ? 'true' : 'false';
         return `<button type="button" class="verse-tools-btn" aria-pressed="${pressed}" aria-label="Verktøy" title="Verktøy" onclick="toggleVerseTools(this)"><span class="vtb-icon">🎓</span></button>`;
