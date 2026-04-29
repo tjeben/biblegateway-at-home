@@ -409,28 +409,31 @@
             background: rgba(201, 68, 68, 0.14);
         }
         /* Verktøy-knapp (studiehatt) helt til venstre i chevron-raden.
-           Selve knapp-rammen roterer på hover/toggle for et lite leke-element,
-           men ikonet inne i .vtb-icon mot-roterer like mye så hatten blir stående
-           rett opp og ned uansett. */
+           Plasseres absolutt så den ikke tar plass fra flex-layouten —
+           chevronen kan dermed sentreres relativt til hele vers-kortet
+           selv om 🎓 visuelt "kutter" inn fra venstre. */
         .verse-tools-btn {
-            flex: 0 0 auto;
+            position: absolute;
+            left: 6px;
+            top: 50%;
+            transform: translateY(-50%);
             display: inline-flex; align-items: center; justify-content: center;
             width: 32px; height: 32px;
-            margin-left: 6px;
             border: none; background: transparent;
             color: var(--text-muted);
             cursor: pointer; font-size: 1.05rem;
             border-radius: 999px;
             transition: background 140ms ease, color 140ms ease, transform 220ms cubic-bezier(.22,.86,.24,1);
+            z-index: 1;
         }
         .verse-tools-btn .vtb-icon {
             display: inline-block;
             transition: transform 220ms cubic-bezier(.22,.86,.24,1);
             line-height: 1;
         }
-        .verse-tools-btn:hover { background: rgba(168, 50, 50, 0.12); color: var(--accent); transform: rotate(45deg); }
+        .verse-tools-btn:hover { background: rgba(168, 50, 50, 0.12); color: var(--accent); transform: translateY(-50%) rotate(45deg); }
         .verse-tools-btn:hover .vtb-icon { transform: rotate(-45deg); }
-        .verse-tools-btn[aria-pressed="true"] { background: var(--accent); color: white; transform: rotate(90deg); }
+        .verse-tools-btn[aria-pressed="true"] { background: var(--accent); color: white; transform: translateY(-50%) rotate(90deg); }
         .verse-tools-btn[aria-pressed="true"] .vtb-icon { transform: rotate(-90deg); }
         [data-theme="dark"] .verse-tools-btn:hover { background: rgba(201, 68, 68, 0.18); }
 
