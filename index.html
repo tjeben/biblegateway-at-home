@@ -3165,7 +3165,6 @@
 <div id="vizHosts" class="viz-hosts-wrap"></div>
 <div id="vizHostsSide" class="viz-hosts-side" aria-label="Studieelementer i sidepanel">
     <div id="vizSideResizer" class="viz-side-resizer" title="Dra for å endre bredde" aria-hidden="true"></div>
-    <div class="viz-side-title">Studieelementer</div>
     <div id="vizSideInner" class="viz-side-inner"></div>
 </div>
 
@@ -5986,6 +5985,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             pointToLayer: (_, latlng) => L.marker(latlng, { icon: _buildPinIcon(place) }),
             style: () => isPolygon ? polygonStyle : (isLine ? lineStyle : {}),
         }).bindPopup(popupEl, { minWidth: 180, maxWidth: 280 });
+
+        // Hover på selve kart-laget (pin / polygon / linje) gir samme uthev som
+        // hover på chip-en: glow + uthev av versene i hovedteksten.
+        layer.on('mouseover', () => _placeChipHoverEffect('placeMapHost', place.id, true));
+        layer.on('mouseout',  () => _placeChipHoverEffect('placeMapHost', place.id, false));
         return layer;
     }
 
