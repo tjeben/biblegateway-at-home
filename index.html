@@ -5540,6 +5540,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // Klikk på vers i pop-up: naviger til verset, og marker selve stedordet
     // (via /api/ai_place_in_verse) når visningen er rendret.
+    // Hvis kapittelet allerede er åpent i hovedvisningen, beholder vi
+    // kapittelvisningen (og åpne studieelementer) — vi setter bare highlight
+    // på det aktuelle verset så brukeren ser konteksten.
     function _onPlaceVerseClick(place, bookCode, chapter, verseNum, color) {
         pendingPlaceHighlight = {
             placeName: place.name,
@@ -5550,8 +5553,23 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             chapter,
             verseNum,
         };
-        // Fjern hover-stil før navigering
         _hoverHighlightMainVerse(bookCode, chapter, verseNum, false, color);
+
+        const chapterAlreadyOpen = !!(
+            mainData && mainData.length === 1 && mainData[0]
+            && mainData[0].book === bookCode
+            && Array.isArray(mainData[0].verses) && mainData[0].verses.length >= 5
+            && mainData[0].verses[0].chapter === chapter
+            && mainData[0].verses.some(v => v.num === verseNum)
+        );
+
+        if (chapterAlreadyOpen) {
+            const bName = bookName(bookCode);
+            searchInput.value = `${bName} ${chapter}`;
+            // Behold kapittelvisning + åpne studieelementer; kun highlightVerse oppdateres.
+            doSearch(false, { highlightVerse: verseNum });
+            return;
+        }
         if (typeof navigateToVerse === 'function') {
             navigateToVerse(bookCode, chapter, verseNum);
         }
@@ -7671,13 +7689,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     function hasExpandableChevron(block) {
         if (!block || !block.book || !block.verses || block.verses.length === 0) return '';
         const ch = block.verses[0].chapter;
-        // Samme kapittel på alle vers?
+        // Samme kapittel på alle vers? Ellers gir det ikke mening å åpne "kapittelet".
         const sameChapter = block.verses.every(v => v.chapter === ch);
         if (!sameChapter) return '';
-        const isSingleVerse = block.verses.length === 1;
-        if (isSingleVerse) return true;
-        // Fullt kapittel (eller nesten): tilby å gå tilbake til highlight-verset
-        return !!(block.verses.length >= 5 && highlightVerse != null);
+        return true;
     }
 
     function buildChevronHtml(block, inCompare = false) {
@@ -7686,11 +7701,16 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const bName = bookName(block.book);
         const wrapClass = inCompare ? 'chevron-wrap compare' : 'chevron-wrap';
         const isSingleVerse = block.verses.length === 1;
-        if (isSingleVerse) {
-            const vnum = block.verses[0].num;
-            return `<div class="${wrapClass}"><button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${vnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet">${CHEVRON_DOWN_SVG}</button></div>`;
+        // Kollaps-pil kun når kapittelet åpenbart er åpent (mange vers + et høydepunkt
+        // satt av readChapter/goToVerseFromExpand). En kort range (Luk 11:2-4) regnes
+        // ikke som "åpent kapittel" og får derfor expand-pilen.
+        const isExpandedChapter = !isSingleVerse && highlightVerse != null && block.verses.length >= 5;
+        if (isExpandedChapter) {
+            return `<div class="${wrapClass}"><button class="expand-chapter-btn collapse" onclick="collapseChapterToVerse('${escAttr(bName)} ${ch}:${highlightVerse}')" title="Tilbake til ett vers" aria-label="Tilbake til ett vers">${CHEVRON_UP_SVG}</button></div>`;
         }
-        return `<div class="${wrapClass}"><button class="expand-chapter-btn collapse" onclick="collapseChapterToVerse('${escAttr(bName)} ${ch}:${highlightVerse}')" title="Tilbake til ett vers" aria-label="Tilbake til ett vers">${CHEVRON_UP_SVG}</button></div>`;
+        // Expand: åpne hele kapittelet. Behold første vers i blokken som "tilbake til"-anker.
+        const anchorVnum = isSingleVerse ? block.verses[0].num : block.verses[0].num;
+        return `<div class="${wrapClass}"><button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${anchorVnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet">${CHEVRON_DOWN_SVG}</button></div>`;
     }
 
     function buildToolbarHtml(block) {
