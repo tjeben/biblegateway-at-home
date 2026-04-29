@@ -148,6 +148,9 @@
         }
         .app-header h1 { font-size: 1.2rem; font-weight: 600; letter-spacing: 0.5px; }
         .header-actions { display: flex; gap: 6px; align-items: center; }
+        /* Tom plassholder til høyre, like bred som hamburger-knappen til venstre,
+           så logo+tittel sentreres visuelt mellom dem. */
+        .header-actions-right { width: 38px; }
         .header-icon-btn {
             background: transparent;
             border: none;
@@ -3060,7 +3063,8 @@
             background: var(--accent);
             color: white;
             cursor: pointer;
-            font-weight: 600;
+            font-weight: 800;
+            letter-spacing: 0.3px;
             transition: background 0.2s;
             white-space: nowrap;
         }
@@ -3344,15 +3348,16 @@
 
 <div class="app-header">
     <div class="app-header-inner">
-        <div class="header-left" onclick="goHome()">
-            <img src="/logo_biblegateway.png" alt="Bibeldykk logo" class="header-logo">
-            <h1>Bibeldykk</h1>
-        </div>
-        <div class="header-actions">
+        <div class="header-actions header-actions-left">
             <button class="header-icon-btn hamburger-btn" onclick="toggleNavDrawer()" title="Meny" aria-label="Meny">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path></svg>
             </button>
         </div>
+        <div class="header-left" onclick="goHome()">
+            <img src="/logo_biblegateway.png" alt="Bibeldykk logo" class="header-logo">
+            <h1>Bibeldykk</h1>
+        </div>
+        <div class="header-actions header-actions-right" aria-hidden="true"></div>
     </div>
 </div>
 
@@ -4069,9 +4074,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         'Salme 34:9', 'Efeserne 2:8', 'Markus 12:30',
     ];
     function getTodaysVerseRef() {
-        const now = new Date();
-        const seed = now.getFullYear() * 372 + (now.getMonth() + 1) * 31 + now.getDate();
-        return DAILY_VERSE_REFS[seed % DAILY_VERSE_REFS.length];
+        // Permanent forside-vers: Matteus 6:33
+        return 'Matteus 6:33';
     }
     window.openDailyVerse = function(ref) {
         searchInput.value = ref;
