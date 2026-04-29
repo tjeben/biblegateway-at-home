@@ -4750,13 +4750,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const card = wrap && (wrap.querySelector('.verse-row') || wrap.querySelector('.verse-card'));
         const vh = window.innerHeight;
         const cap = vh / 2;
-        const headerSafe = 60 + 60;     // header + litt luft
+        const headerSafe = 60 + 60;
         let y;
         if (card) {
             const r = card.getBoundingClientRect();
-            const mid = r.top + r.height / 2;
-            y = Math.min(mid, cap);
-            y = Math.max(y, headerSafe);
+            // Bare følg kortets midtpunkt når HELE kortet er synlig i viewporten
+            // (kort vers/lite kapittel). Når kortet er lengre enn skjermen eller
+            // brukeren har bladd så det ikke vises i sin helhet, skal pilene stå
+            // sentrert i viewport.
+            const fullyVisible = r.top >= 0 && r.bottom <= vh;
+            if (fullyVisible) {
+                y = Math.max(headerSafe, Math.min(r.top + r.height / 2, cap));
+            } else {
+                y = cap;
+            }
         } else {
             y = cap;
         }
