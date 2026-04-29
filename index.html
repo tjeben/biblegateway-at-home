@@ -2128,6 +2128,25 @@
         [data-theme="dark"] .leaflet-popup-tip { background: var(--card-bg); color: var(--text); }
         [data-theme="dark"] .leaflet-tile-pane { filter: brightness(0.85) invert(0.95) hue-rotate(180deg) saturate(0.7); }
 
+        /* Place-popup vers-knapper */
+        .place-popup-verse-btn { transition: transform 120ms ease, box-shadow 120ms ease; }
+        .place-popup-verse-btn:hover { transform: translateY(-1px); box-shadow: 0 2px 4px rgba(0,0,0,0.18); }
+        .place-popup-verse-btn:active { transform: translateY(0); }
+
+        /* Hover-uthev av vers i hovedteksten når man holder over en vers-knapp i place-popup */
+        .verse-span.place-hover-highlight .verse-content {
+            background: var(--place-hover-color, rgba(255, 220, 120, 0.45));
+            border-radius: 3px;
+            transition: background 140ms ease;
+        }
+        /* AI-markering av selve stedordet (samme stil som AI-diff-highlights) */
+        mark.place-word-highlight {
+            background: var(--place-mark-color, rgba(168, 50, 50, 0.22));
+            color: inherit;
+            padding: 0 1px;
+            border-radius: 2px;
+        }
+
         /* Lukke-animasjon for viz-hosts (Kart, Tidslinje, Kontekst, Tema-kart) */
         .bible-map-wrap.closing {
             animation: vizFadeOut 220ms cubic-bezier(.4, 0, .2, 1) forwards;
@@ -3040,6 +3059,7 @@
     let textSearchCache = null; // {results, query} for re-rendering
     let collapsed = true; // default: search results grouped by book
     let highlightVerse = null; // verse number to highlight when reading chapter
+    let pendingPlaceHighlight = null; // {placeName, placeAliases, color, bookCode, chapter, verseNum} — anvendes etter neste render
     let sessionForcedTop = false;  // når satt til true, forblir søkefeltet på toppen hele økten
 
     function updatePageLayoutMode(isSingleVerse) {
@@ -5222,24 +5242,29 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     // Bygg en SVG-pin for punktsteder (landpoint/waterpoint).
-    // Vannpunkter får en bølge inni, landpunkter en sirkel.
+    // Klassisk kart-pin med rundt hode, smal hals og spiss nederst.
+    // Vannpunkter får en bølge inni hodet, landpunkter en liten sirkel.
     function _buildPinIcon(place) {
         const c = _colorForPlace(place);
         const isWater = place.kind === 'waterpoint';
+        // Hodet er sentrert ved (15,14) med radius ~10. Tippen peker ned til (15,40).
         const inner = isWater
-            ? `<path d="M9 14 q1.5 -1.5 3 0 t3 0 t3 0" stroke="${c.border}" stroke-width="1.4" fill="none" stroke-linecap="round"/>`
-            : `<circle cx="13" cy="11" r="3.2" fill="${c.border}"/>`;
-        const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 36" width="26" height="36">
-            <path d="M13 1 C6 1 1 6 1 13 c0 9 12 22 12 22 s12 -13 12 -22 c0 -7 -5 -12 -12 -12 z"
-                  fill="${c.fill}" stroke="${c.border}" stroke-width="1.6"/>
+            ? `<path d="M9 14 q2 -2 3 0 t3 0 t3 0" stroke="${c.border}" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`
+            : `<circle cx="15" cy="13" r="3.4" fill="${c.border}"/>`;
+        // Pin-silhuett: sirkulært hode + sammenvokst spiss (en path)
+        const pinPath = 'M15 1 C8.4 1 3 6.4 3 13 c0 5.0 3.0 9.0 6.5 12.0 c2.5 2.2 4.3 4.5 5.0 8.0 c0.2 1.0 0.8 1.0 1.0 0 c0.7 -3.5 2.5 -5.8 5.0 -8.0 c3.5 -3.0 6.5 -7.0 6.5 -12.0 c0 -6.6 -5.4 -12 -12 -12 z';
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 42" width="30" height="42" style="filter:drop-shadow(0 1.5px 1.5px rgba(0,0,0,0.35));">
+            <path d="${pinPath}"
+                  fill="${c.fill}" stroke="${c.border}" stroke-width="1.8" stroke-linejoin="round"/>
+            <ellipse cx="15" cy="13" rx="6.5" ry="5.5" fill="rgba(255,255,255,0.18)"/>
             ${inner}
         </svg>`;
         return L.divIcon({
             className: 'place-pin',
             html: svg,
-            iconSize: [26, 36],
-            iconAnchor: [13, 35],
-            popupAnchor: [0, -30],
+            iconSize: [30, 42],
+            iconAnchor: [15, 41],
+            popupAnchor: [0, -34],
         });
     }
 
@@ -5369,7 +5394,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         state.map = map;
         state.places.forEach(p => {
-            const layer = _buildPlaceLayer(p);
+            const layer = _buildPlaceLayer(p, state.scope, state.key);
             if (layer) {
                 layer.addTo(map);
                 state.layers[p.id] = layer;
@@ -5386,25 +5411,167 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         }
     }
 
-    function _buildPlaceLayer(place) {
+    function _buildPlaceLayer(place, scope, sourceKey) {
         if (!place.geometry) return null;
         const c = _colorForPlace(place);
-        const popupHtml = `<div style="font-weight:700;margin-bottom:2px;">${escHtml(place.name)}</div>`
-            + (place.placemark ? `<div style="color:#555;font-size:0.85em;">${escHtml(place.placemark)}</div>` : '')
-            + (place.verses && place.verses.length
-                ? `<div style="margin-top:4px;font-size:0.8em;color:#888;">Vers: ${place.verses.join(', ')}</div>`
-                : '');
+
+        // Avled bok + kapittel + relevante vers fra source/place
+        let bookCode = '', chapter = null, verseList = [];
+        if (sourceKey) {
+            const parts = sourceKey.split('.');
+            bookCode = parts[0] || '';
+            chapter = parts[1] ? parseInt(parts[1], 10) : null;
+            if (scope === 'verse' && parts[2]) {
+                verseList = [parseInt(parts[2], 10)];
+            } else if (Array.isArray(place.verses) && place.verses.length) {
+                verseList = place.verses.slice();
+            }
+        }
+
         const isPolygon = place.kind === 'region';
         const isLine = place.kind === 'water' || place.kind === 'path';
         const polygonStyle = { color: c.border, weight: 1.5, opacity: 0.85, fillColor: c.fill, fillOpacity: 0.32 };
         const lineStyle    = { color: c.line, weight: 3, opacity: 0.9 };
         if (place.kind === 'path') lineStyle.dashArray = '6 6';
+
+        // Bygg popup som DOM-element så vi kan binde hover/klikk-handlere direkte.
+        const popupEl = document.createElement('div');
+        popupEl.className = 'place-popup';
+        const titleEl = document.createElement('div');
+        titleEl.className = 'place-popup-title';
+        titleEl.style.cssText = 'font-weight:700;font-size:0.95rem;margin-bottom:6px;color:' + c.border + ';';
+        titleEl.textContent = place.name;
+        popupEl.appendChild(titleEl);
+
+        if (verseList.length && bookCode && chapter != null) {
+            const versesWrap = document.createElement('div');
+            versesWrap.className = 'place-popup-verses';
+            versesWrap.style.cssText = 'display:flex;flex-wrap:wrap;gap:4px;';
+            const bName = bookName(bookCode);
+            verseList.forEach(vNum => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'place-popup-verse-btn';
+                btn.textContent = `${bName} ${chapter}:${vNum}`;
+                btn.style.cssText =
+                    `border:1px solid ${c.border};background:${c.fill};color:#222;` +
+                    'font-size:0.78rem;padding:3px 8px;border-radius:999px;cursor:pointer;' +
+                    'font-family:inherit;line-height:1.2;';
+                btn.dataset.book = bookCode;
+                btn.dataset.chapter = String(chapter);
+                btn.dataset.verse = String(vNum);
+                btn.dataset.placeId = String(place.id);
+                btn.dataset.placeName = place.name;
+                // Hover → uthev verset i hovedteksten
+                btn.addEventListener('mouseenter', () => _hoverHighlightMainVerse(bookCode, chapter, vNum, true, c));
+                btn.addEventListener('mouseleave', () => _hoverHighlightMainVerse(bookCode, chapter, vNum, false, c));
+                // Klikk → naviger + AI-marker stedord i verset
+                btn.addEventListener('click', (ev) => {
+                    ev.preventDefault(); ev.stopPropagation();
+                    _onPlaceVerseClick(place, bookCode, chapter, vNum, c);
+                });
+                versesWrap.appendChild(btn);
+            });
+            popupEl.appendChild(versesWrap);
+        }
+
         const layer = L.geoJSON(place.geometry, {
             // Punktsteder: SVG-pin via divIcon (penere enn standard sirkel-markør)
             pointToLayer: (_, latlng) => L.marker(latlng, { icon: _buildPinIcon(place) }),
             style: () => isPolygon ? polygonStyle : (isLine ? lineStyle : {}),
-        }).bindPopup(popupHtml);
+        }).bindPopup(popupEl, { minWidth: 180, maxWidth: 280 });
         return layer;
+    }
+
+    // Hover-uthev (eller fjern uthev) på et vers i hovedteksten basert på USFM-ref.
+    function _hoverHighlightMainVerse(bookCode, chapter, verseNum, on, color) {
+        const vref = `${bookCode}.${chapter}.${verseNum}`;
+        document.querySelectorAll(`.verse-span[data-vref="${vref}"]`).forEach(el => {
+            if (on) {
+                el.classList.add('place-hover-highlight');
+                if (color) el.style.setProperty('--place-hover-color', color.fill);
+            } else {
+                el.classList.remove('place-hover-highlight');
+                el.style.removeProperty('--place-hover-color');
+            }
+        });
+    }
+
+    // Klikk på vers i pop-up: naviger til verset, og marker selve stedordet
+    // (via /api/ai_place_in_verse) når visningen er rendret.
+    function _onPlaceVerseClick(place, bookCode, chapter, verseNum, color) {
+        pendingPlaceHighlight = {
+            placeName: place.name,
+            placeAliases: Array.isArray(place.aliases) ? place.aliases : [],
+            placeId: place.id,
+            color,
+            bookCode,
+            chapter,
+            verseNum,
+        };
+        // Fjern hover-stil før navigering
+        _hoverHighlightMainVerse(bookCode, chapter, verseNum, false, color);
+        if (typeof navigateToVerse === 'function') {
+            navigateToVerse(bookCode, chapter, verseNum);
+        }
+    }
+
+    // Etter render: hvis vi har en ventende stedordmarkering, hent fra KI og uthev.
+    async function applyPendingPlaceHighlight() {
+        const pp = pendingPlaceHighlight;
+        if (!pp) return;
+        pendingPlaceHighlight = null; // forbruk uansett — unngå dobbel-trigger
+        const vref = `${pp.bookCode}.${pp.chapter}.${pp.verseNum}`;
+        const verseSpan = document.querySelector(`.verse-span[data-vref="${vref}"]`);
+        if (!verseSpan) return;
+        const contentEl = verseSpan.querySelector('.verse-content');
+        if (!contentEl) return;
+        const verseText = contentEl.textContent || '';
+        if (!verseText.trim()) return;
+        try {
+            const resp = await fetch('/api/ai_place_in_verse', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    place_name: pp.placeName,
+                    place_aliases: pp.placeAliases || [],
+                    verse_text: verseText,
+                    label: `${bookName(pp.bookCode)} ${pp.chapter}:${pp.verseNum}`,
+                }),
+            });
+            if (!resp.ok) return;
+            const data = await resp.json();
+            const phrase = (data && data.phrase || '').trim();
+            if (!phrase) return;
+            // Marker første forekomst i .verse-content uten å rive resten av strukturen.
+            _applyPlaceWordMark(contentEl, phrase, pp.color);
+        } catch (e) {
+            // Stille feil — markering er kun et hjelpemiddel.
+        }
+    }
+
+    function _applyPlaceWordMark(rootEl, phrase, color) {
+        if (!phrase) return;
+        const walker = document.createTreeWalker(rootEl, NodeFilter.SHOW_TEXT, null);
+        const nodes = [];
+        let n; while ((n = walker.nextNode())) nodes.push(n);
+        for (const node of nodes) {
+            const idx = node.nodeValue.indexOf(phrase);
+            if (idx === -1) continue;
+            const before = node.nodeValue.slice(0, idx);
+            const match = node.nodeValue.slice(idx, idx + phrase.length);
+            const after = node.nodeValue.slice(idx + phrase.length);
+            const mark = document.createElement('mark');
+            mark.className = 'place-word-highlight';
+            if (color && color.fill) mark.style.setProperty('--place-mark-color', color.fill);
+            mark.textContent = match;
+            const parent = node.parentNode;
+            if (before) parent.insertBefore(document.createTextNode(before), node);
+            parent.insertBefore(mark, node);
+            if (after) parent.insertBefore(document.createTextNode(after), node);
+            parent.removeChild(node);
+            return; // én markering er nok
+        }
     }
 
     function _togglePlaceVisibility(hostId, placeId, chipEl) {
@@ -7062,6 +7229,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         refreshChapterRefBtnState();
         ensureAiDiffHost();
         applyStoredHighlights();
+        applyPendingPlaceHighlight();
         // Scroll til uthevet vers etter at alt annet er rendret, så layout er stabil
         if (highlightVerse != null) {
             const el = document.getElementById('hlVerseMark');

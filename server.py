@@ -2009,6 +2009,74 @@ Regler:
                 sys.stderr.flush()
                 self._send_json({"error": str(e)}, 500)
 
+        elif path == "/api/ai_place_in_verse":
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            place_name = (body.get("place_name") or "").strip()
+            place_aliases = body.get("place_aliases") or []
+            verse_text = (body.get("verse_text") or "").strip()
+            label = (body.get("label") or "").strip()
+            if not place_name or not verse_text:
+                self._send_json({"error": "Mangler stedsnavn eller verstekst"}, 400)
+                return
+            aliases_str = ""
+            if isinstance(place_aliases, list) and place_aliases:
+                # Begrens for å holde prompten kort
+                aliases_str = ", ".join(str(a) for a in place_aliases[:8] if a)
+            sys.stderr.write(
+                f"[{self.log_date_time_string()}] ai_place_in_verse: {label} sted='{place_name}'\n"
+            )
+            sys.stderr.flush()
+            try:
+                user_prompt = (
+                    f"Vers ({label}):\n{verse_text}\n\n"
+                    f"Sted: {place_name}"
+                    + (f"\nAndre kjente navn: {aliases_str}" if aliases_str else "")
+                )
+                system_prompt = (
+                    "Du får et bibelvers og navnet på et geografisk sted som verset omtaler. "
+                    "Finn ordene i versteksten som faktisk refererer til dette stedet — "
+                    "det kan være et egennavn, en omskrivning ('byen', 'fjellet', 'elven') "
+                    "eller et stedsadverb knyttet til stedet i denne setningen.\n\n"
+                    "Regler:\n"
+                    "1. Frasen du returnerer MÅ stå EKSAKT slik den er i versteksten — "
+                    "samme bokstaver, bøyning og tegnsetting. Ikke oppdikt, ikke parafraser.\n"
+                    "2. Velg kortest mulig sammenhengende frase som dekker stedsreferansen "
+                    "(typisk 1–4 ord).\n"
+                    "3. Hvis stedet ikke nevnes eksplisitt eller via klar omskrivning i "
+                    "versteksten, returner tom streng.\n\n"
+                    "Returner KUN gyldig JSON:\n"
+                    '{"phrase": "eksakt frase fra verset"}\n\n'
+                    "Ingen innledning, ingen etterord, ingen forklaring."
+                )
+                result = gemini_request(api_key, user_prompt, system_prompt, max_tokens=80)
+                cleaned = result.strip()
+                if cleaned.startswith("```"):
+                    cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else cleaned
+                    if cleaned.endswith("```"):
+                        cleaned = cleaned.rsplit("\n", 1)[0]
+                    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+                try:
+                    parsed = json.loads(cleaned)
+                    phrase = (parsed.get("phrase") or "").strip()
+                    if phrase and phrase in verse_text:
+                        self._send_json({"phrase": phrase})
+                    else:
+                        self._send_json({"phrase": ""})
+                except Exception as parse_err:
+                    sys.stderr.write(
+                        f"[{self.log_date_time_string()}] ai_place_in_verse parse-feil: "
+                        f"{parse_err} — rå: {result[:200]}\n"
+                    )
+                    sys.stderr.flush()
+                    self._send_json({"phrase": ""})
+            except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_place_in_verse FEIL: {e}\n")
+                sys.stderr.flush()
+                self._send_json({"error": str(e)}, 500)
+
         elif path == "/api/ai_context":
             api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
