@@ -927,7 +927,7 @@
         body.split-preview .viz-side-title { display: block; }
         @media (min-width: 1100px) {
             body.split-active,
-            body.split-preview { padding-right: var(--side-panel-width); transition: padding-right 0.3s ease; }
+            body.split-preview { padding-right: var(--side-panel-width); transition: padding-right 0.42s cubic-bezier(.22,.86,.24,1); }
             body.split-active .viz-hosts-side,
             body.split-preview .viz-hosts-side {
                 display: flex;
@@ -1902,7 +1902,13 @@
             background: var(--card-bg);
             border: 1px solid var(--border);
             border-radius: 24px;
-            animation: fadeInUp 220ms cubic-bezier(.2, .8, .2, 1);
+            animation: vizSpringIn 320ms cubic-bezier(.2, .85, .32, 1.05);
+            transform-origin: top center;
+        }
+        @keyframes vizSpringIn {
+            0%   { opacity: 0; transform: translateY(-10px) scale(0.97); }
+            70%  { opacity: 1; transform: translateY(2px)   scale(1.005); }
+            100% { opacity: 1; transform: translateY(0)     scale(1); }
         }
         .bible-map-wrap .bible-map { margin-top: 0; }
         .bible-map-wrap.ai-host-wrap {
@@ -2412,12 +2418,13 @@
 
         /* Lukke-animasjon for viz-hosts (Kart, Tidslinje, Kontekst, Tema-kart) */
         .bible-map-wrap.closing {
-            animation: vizFadeOut 220ms cubic-bezier(.4, 0, .2, 1) forwards;
+            animation: vizSpringOut 260ms cubic-bezier(.4, 0, .35, 1) forwards;
             pointer-events: none;
+            transform-origin: top center;
         }
-        @keyframes vizFadeOut {
-            from { opacity: 1; transform: translateY(0); max-height: 800px; }
-            to   { opacity: 0; transform: translateY(-8px); max-height: 0; margin: 0; padding: 0; }
+        @keyframes vizSpringOut {
+            0%   { opacity: 1; transform: translateY(0)    scale(1);     max-height: 800px; }
+            100% { opacity: 0; transform: translateY(-6px) scale(0.985); max-height: 0; margin: 0; padding: 0; }
         }
 
         /* Myk åpne/lukk-animasjon for bok-grupper (søkeresultater gruppert etter bok) */
@@ -9047,7 +9054,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // så brukeren ser verset, ikke ender på samme scroll-Y som de var på i
     // det lange kapittelet.
     window.collapseChapterToVerse = function(display) {
-        navigateToRef(display);
+        animatedNavigate('collapse', async () => {
+            navigateToRef(display);
+        });
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
@@ -9328,23 +9337,27 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             await doChange();
             return;
         }
-        const outDx = direction === 'next' ? -24 : 24;
-        const inDx  = direction === 'next' ?  24 : -24;
+        const isVertical = direction === 'expand' || direction === 'collapse';
+        const outDx = direction === 'next' ? -28 : (direction === 'prev' ? 28 : 0);
+        const outDy = direction === 'expand' ? -10 : (direction === 'collapse' ? 10 : 0);
+        const inDx  = direction === 'next' ?  28 : (direction === 'prev' ? -28 : 0);
+        const inDy  = direction === 'expand' ?  10 : (direction === 'collapse' ? -10 : 0);
+        const inScale = isVertical ? 0.985 : 1;
         let outAnim;
         try {
             outAnim = wrap.animate([
-                { opacity: 1, transform: 'translateX(0)' },
-                { opacity: 0, transform: `translateX(${outDx}px)` }
-            ], { duration: 140, easing: 'cubic-bezier(.4, 0, .2, 1)', fill: 'forwards' });
+                { opacity: 1, transform: 'translate(0, 0) scale(1)' },
+                { opacity: 0, transform: `translate(${outDx}px, ${outDy}px) scale(${isVertical ? 0.985 : 1})` }
+            ], { duration: 170, easing: 'cubic-bezier(.32, .72, .35, 1)', fill: 'forwards' });
             await outAnim.finished;
         } catch {}
         await doChange();
         try {
             if (outAnim) outAnim.cancel();
             wrap.animate([
-                { opacity: 0, transform: `translateX(${inDx}px)` },
-                { opacity: 1, transform: 'translateX(0)' }
-            ], { duration: 220, easing: 'cubic-bezier(.2, .8, .2, 1)' });
+                { opacity: 0, transform: `translate(${inDx}px, ${inDy}px) scale(${inScale})` },
+                { opacity: 1, transform: 'translate(0, 0) scale(1)' }
+            ], { duration: 280, easing: 'cubic-bezier(.18, .89, .28, 1.05)' });
         } catch {}
     }
 
@@ -9484,7 +9497,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     // ── Read chapter ──
     window.readChapter = async function(bookCode, chapter, bName, verseNum) {
         searchInput.value = `${bName} ${chapter}`;
-        await doSearch(false, { highlightVerse: verseNum != null ? verseNum : null });
+        await animatedNavigate('expand', async () => {
+            await doSearch(false, { highlightVerse: verseNum != null ? verseNum : null });
+        });
     };
 
     // ── All versions ──
