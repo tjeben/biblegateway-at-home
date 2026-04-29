@@ -2741,19 +2741,44 @@
             overflow-y: auto;
             z-index: 110;
             display: none;
+            /* Tynn, avrundet scrollbar som ikke bryter de runde hjørnene */
+            scrollbar-width: thin;
+            scrollbar-color: rgba(168, 50, 50, 0.28) transparent;
         }
+        .suggestions::-webkit-scrollbar { width: 8px; }
+        .suggestions::-webkit-scrollbar-track { background: transparent; margin: 14px 0; }
+        .suggestions::-webkit-scrollbar-thumb {
+            background: rgba(168, 50, 50, 0.28);
+            border-radius: 999px;
+            border: 2px solid transparent;
+            background-clip: padding-box;
+        }
+        .suggestions::-webkit-scrollbar-thumb:hover { background: rgba(168, 50, 50, 0.5); background-clip: padding-box; }
+        [data-theme="dark"] .suggestions { scrollbar-color: rgba(201, 68, 68, 0.32) transparent; }
+        [data-theme="dark"] .suggestions::-webkit-scrollbar-thumb { background: rgba(201, 68, 68, 0.32); background-clip: padding-box; }
+        [data-theme="dark"] .suggestions::-webkit-scrollbar-thumb:hover { background: rgba(201, 68, 68, 0.55); background-clip: padding-box; }
         /* Første og siste item-rad skal også rundes av */
         .suggestions .suggestion-item:first-child { border-top-left-radius: 22px; border-top-right-radius: 22px; }
         .suggestions .suggestion-item:last-child { border-bottom-left-radius: 22px; border-bottom-right-radius: 22px; }
         .suggestions.open { display: block; }
-        .suggestions-group-label {
-            font-size: 0.7rem;
-            font-weight: 700;
+        /* Skjuler de gamle gruppe-overskriftene; gruppene merkes nå med
+           en liten hjørne-merkelapp på første rad i hver gruppe. */
+        .suggestions-group-label { display: none; }
+        .suggestion-corner-label {
+            font-size: 0.62rem;
+            font-weight: 600;
             color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 0.6px;
-            padding: 8px 14px 4px;
+            letter-spacing: 0.5px;
+            opacity: 0.55;
+            margin-left: 10px;
+            flex: 0 0 auto;
+            align-self: center;
+            white-space: nowrap;
         }
+        /* Tynn separator mellom grupper, men ikke før første rad. */
+        .suggestion-item.group-start { border-top: 1px solid var(--border); }
+        .suggestion-item.group-start:first-child { border-top: none; }
         .suggestion-item {
             display: flex;
             align-items: center;
@@ -6800,12 +6825,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return _flattenSections(sections, /*max=*/8);
     }
 
-    // Slå seksjoner ut til en flat liste med groupLabel-headers, og kapp totalen.
-    // Beholder seksjonsrekkefølge; reduserer fra slutten av hver seksjon hvis vi går over.
+    // Slå seksjoner ut til en flat liste. Første rad i hver seksjon får
+    // _cornerLabel (vises som liten merkelapp helt til høyre) og _groupStart
+    // (gir tynn separator-strek på toppen). Ingen egne header-rader lenger.
     function _flattenSections(sections, max) {
         const totalItems = sections.reduce((s, sec) => s + sec.items.length, 0);
         if (totalItems > max) {
-            // Trim siste seksjoner først
             let need = totalItems - max;
             for (let i = sections.length - 1; i >= 0 && need > 0; i--) {
                 const sec = sections[i];
@@ -6817,8 +6842,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const flat = [];
         sections.forEach(sec => {
             if (!sec.items.length) return;
-            flat.push({ groupLabel: sec.label });
-            sec.items.forEach(it => flat.push(it));
+            sec.items.forEach((it, idx) => {
+                if (idx === 0) {
+                    flat.push({ ...it, _cornerLabel: sec.label, _groupStart: true });
+                } else {
+                    flat.push(it);
+                }
+            });
         });
         return flat;
     }
@@ -6873,17 +6903,19 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (!suggestions.length) { el.classList.remove('open'); el.innerHTML = ''; return; }
         let html = '';
         suggestions.forEach((s, i) => {
-            if (s.groupLabel) {
-                html += `<div class="suggestions-group-label">${escHtml(s.groupLabel)}</div>`;
-                return;
-            }
+            if (s.groupLabel) return; // ignored; corner-labels brukes nå
             const subTextHtml = s.subText
                 ? `<span class="suggestion-subtext">${s.subText}</span>` : '';
-            const cls = s.tip ? 'suggestion-item suggestion-tip' : 'suggestion-item';
-            html += `<div class="${cls}" data-idx="${i}">
+            const cornerHtml = s._cornerLabel
+                ? `<span class="suggestion-corner-label">${escHtml(s._cornerLabel)}</span>` : '';
+            const classes = ['suggestion-item'];
+            if (s.tip) classes.push('suggestion-tip');
+            if (s._groupStart) classes.push('group-start');
+            html += `<div class="${classes.join(' ')}" data-idx="${i}">
                 <span class="suggestion-icon">${s.icon || ''}</span>
                 <span class="suggestion-text">${s.html}${subTextHtml}</span>
                 ${s.hint ? `<span class="suggestion-hint">${escHtml(s.hint)}</span>` : ''}
+                ${cornerHtml}
             </div>`;
         });
         el.innerHTML = html;

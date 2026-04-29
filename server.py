@@ -1638,10 +1638,16 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             if not query or len(query) < 2:
                 self._send_json({"results": [], "version": version, "query": query})
                 return
-            # "Alle": kjør på første tilgjengelige versjon (typisk NB88) for hastighet.
-            # Klikk på et forslag åpner uansett verset i den aktive versjonen.
+            # "Alle"/tom: foretrekk norske oversettelser før vi faller tilbake til den
+            # første tilfeldige translation_id i DB-en (som ofte er KJV i bible.com-
+            # eksporten). Klikk på et forslag åpner uansett verset i den aktive
+            # versjonen brukeren har valgt.
             if version == "Alle" or not version:
-                version = next(iter(bible_data.versions), None)
+                preferred = ("Bibel2011", "NB88", "Bibel1930", "BGO")
+                resolved = next((p for p in preferred if p in bible_data.translations), None)
+                if not resolved:
+                    resolved = next(iter(bible_data.versions), None)
+                version = resolved
                 if not version:
                     self._send_json({"results": [], "version": "", "query": query})
                     return
