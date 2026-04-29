@@ -5209,13 +5209,39 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     // ── Geografisk kart (Leaflet) over steder knyttet til et vers eller kapittel ──
-    const PLACE_KIND_STYLE = {
-        landpoint:  { color: '#a83232', fillColor: '#a83232', radius: 7, weight: 2,  fillOpacity: 0.9 },
-        waterpoint: { color: '#1f6feb', fillColor: '#1f6feb', radius: 7, weight: 2,  fillOpacity: 0.9 },
-        water:      { color: '#1f6feb', weight: 3, opacity: 0.85 },
-        path:       { color: '#666',    weight: 2, opacity: 0.85, dashArray: '6 6' },
-        region:     { color: '#7a4cb3', weight: 1.5, opacity: 0.7, fillColor: '#7a4cb3', fillOpacity: 0.18 },
-    };
+    // Pastel-farger genereres per place.id via golden-angle-rotasjon i hue-rommet,
+    // så vi får god spredning og konsistente farger mellom åpninger av samme sted.
+    function _colorForPlace(place) {
+        const id = (place && typeof place.id === 'number') ? place.id : 0;
+        const hue = Math.round((id * 137.508) % 360);
+        return {
+            fill:   `hsl(${hue}, 65%, 72%)`,   // pastell — for pin-flater og polygon-fyll
+            border: `hsl(${hue}, 60%, 38%)`,   // mørkere kant for kontrast
+            line:   `hsl(${hue}, 55%, 50%)`,   // for vannveier/stier (linjer)
+        };
+    }
+
+    // Bygg en SVG-pin for punktsteder (landpoint/waterpoint).
+    // Vannpunkter får en bølge inni, landpunkter en sirkel.
+    function _buildPinIcon(place) {
+        const c = _colorForPlace(place);
+        const isWater = place.kind === 'waterpoint';
+        const inner = isWater
+            ? `<path d="M9 14 q1.5 -1.5 3 0 t3 0 t3 0" stroke="${c.border}" stroke-width="1.4" fill="none" stroke-linecap="round"/>`
+            : `<circle cx="13" cy="11" r="3.2" fill="${c.border}"/>`;
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 36" width="26" height="36">
+            <path d="M13 1 C6 1 1 6 1 13 c0 9 12 22 12 22 s12 -13 12 -22 c0 -7 -5 -12 -12 -12 z"
+                  fill="${c.fill}" stroke="${c.border}" stroke-width="1.6"/>
+            ${inner}
+        </svg>`;
+        return L.divIcon({
+            className: 'place-pin',
+            html: svg,
+            iconSize: [26, 36],
+            iconAnchor: [13, 35],
+            popupAnchor: [0, -30],
+        });
+    }
 
     // Per-host tilstand: {scope, key, places: [...], visible: Set<id>, map, layers: {id: layer}}
     const placeMapHosts = {};
@@ -5300,15 +5326,17 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         };
         placeMapHosts[hostId] = state;
 
-        // Bygg chips
+        // Bygg chips — fargepunktet henter samme pastel som pinen på kartet
         const chipWrap = document.querySelector(`.place-chips[data-host="${hostId}"]`);
         if (chipWrap) {
             chipWrap.innerHTML = places.map(p => {
+                const c = _colorForPlace(p);
                 const verseInfo = (scope === 'chapter' && p.verses && p.verses.length)
                     ? ` <span class="place-chip-verses">v${p.verses.join(', ')}</span>`
                     : '';
+                const dotStyle = `background:${c.fill};border:1.5px solid ${c.border};`;
                 return `<button type="button" class="place-chip active" data-place-id="${p.id}" data-host="${hostId}">
-                    <span class="place-chip-dot place-kind-${escAttr(p.kind)}"></span>${escHtml(p.name)}${verseInfo}<span class="place-chip-x">×</span>
+                    <span class="place-chip-dot place-kind-${escAttr(p.kind)}" style="${dotStyle}"></span>${escHtml(p.name)}${verseInfo}<span class="place-chip-x">×</span>
                 </button>`;
             }).join('');
             chipWrap.querySelectorAll('.place-chip').forEach(chip => {
@@ -5360,15 +5388,21 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     function _buildPlaceLayer(place) {
         if (!place.geometry) return null;
-        const style = PLACE_KIND_STYLE[place.kind] || PLACE_KIND_STYLE.landpoint;
+        const c = _colorForPlace(place);
         const popupHtml = `<div style="font-weight:700;margin-bottom:2px;">${escHtml(place.name)}</div>`
             + (place.placemark ? `<div style="color:#555;font-size:0.85em;">${escHtml(place.placemark)}</div>` : '')
             + (place.verses && place.verses.length
                 ? `<div style="margin-top:4px;font-size:0.8em;color:#888;">Vers: ${place.verses.join(', ')}</div>`
                 : '');
+        const isPolygon = place.kind === 'region';
+        const isLine = place.kind === 'water' || place.kind === 'path';
+        const polygonStyle = { color: c.border, weight: 1.5, opacity: 0.85, fillColor: c.fill, fillOpacity: 0.32 };
+        const lineStyle    = { color: c.line, weight: 3, opacity: 0.9 };
+        if (place.kind === 'path') lineStyle.dashArray = '6 6';
         const layer = L.geoJSON(place.geometry, {
-            pointToLayer: (_, latlng) => L.circleMarker(latlng, style),
-            style: () => style,
+            // Punktsteder: SVG-pin via divIcon (penere enn standard sirkel-markør)
+            pointToLayer: (_, latlng) => L.marker(latlng, { icon: _buildPinIcon(place) }),
+            style: () => isPolygon ? polygonStyle : (isLine ? lineStyle : {}),
         }).bindPopup(popupHtml);
         return layer;
     }
@@ -7169,6 +7203,38 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 closeVizHost(id);
             }
         });
+
+        // Stedskart: oppdater til nytt vers/kapittel-scope hvis det er åpent
+        const placeHost = document.getElementById('placeMapHost');
+        if (placeHost) {
+            const newScope  = isSingleVerse ? 'verse' : 'chapter';
+            const newSource = isSingleVerse
+                ? source
+                : (block.book && block.verses[0] ? `${block.book}.${block.verses[0].chapter}` : '');
+            const cur = placeMapHosts['placeMapHost'];
+            if (newSource && (!cur || cur.key !== newSource || cur.scope !== newScope)) {
+                // Sjekk indeks først så vi unngår fetch når vi vet det er tomt
+                const has = PLACES_HAS.loaded
+                    ? (newScope === 'verse' ? PLACES_HAS.verses.has(newSource) : PLACES_HAS.chapters.has(newSource))
+                    : true;
+                if (!has) {
+                    closeVizHost('placeMapHost');
+                } else {
+                    const url = newScope === 'verse'
+                        ? `/api/places?usfm=${encodeURIComponent(newSource)}`
+                        : `/api/places?book=${encodeURIComponent(newSource.split('.')[0])}&chapter=${encodeURIComponent(newSource.split('.')[1])}`;
+                    fetch(url).then(r => r.json()).then(data => {
+                        const places = (data && data.places) || [];
+                        // Sjekk at host fortsatt er åpen og at scope ikke har endret seg igjen i mellomtiden
+                        if (!document.getElementById('placeMapHost')) return;
+                        if (!places.length) { closeVizHost('placeMapHost'); return; }
+                        // Lukk og åpne på nytt — enkelt og robust (Leaflet trenger ny init)
+                        closeVizHost('placeMapHost');
+                        setTimeout(() => _renderPlaceMapHost('placeMapHost', newScope, newSource, places), 240);
+                    }).catch(() => {});
+                }
+            }
+        }
     }
 
     function buildInlineAllVersionsHtml(allResults) {
