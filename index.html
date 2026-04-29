@@ -387,7 +387,7 @@
 
         /* Chevron-knapp for å åpne/lukke hele kapittelet (utenfor kortet) */
         /* Wrapper rundt chevron-rad + (skjult/lokket) toolbar — gir posisjons-anker
-           for hover-popout som flyter over chevron-raden. */
+           for hover-popout som flyter på chevron-radens høyde. */
         .chevron-and-tools { position: relative; }
         .chevron-wrap {
             display: flex;
@@ -395,14 +395,16 @@
             margin: 4px 0 14px;
             border-radius: 12px;
             background: transparent;
-            transition: background 0.2s;
             position: relative;
         }
         .chevron-wrap.compare { width: 100%; }
-        .chevron-wrap:hover {
+        /* Hover-effekten ligger nå kun på selve chevron-knappen, så hover på ⚙️
+           ikke aktiverer chevron-bakgrunnen. */
+        .expand-chapter-btn:hover {
             background: rgba(168, 50, 50, 0.10);
+            border-radius: 10px;
         }
-        [data-theme="dark"] .chevron-wrap:hover {
+        [data-theme="dark"] .expand-chapter-btn:hover {
             background: rgba(201, 68, 68, 0.14);
         }
         /* Verktøy-knapp (⚙️) helt til venstre i chevron-raden */
@@ -890,29 +892,34 @@
             display: flex;
             animation: vtSlideDown 180ms cubic-bezier(.22,.86,.24,1);
         }
-        /* Hover-popout: flyter over chevron-raden, til høyre for ⚙️ */
-        .verse-card-toolbar[data-state="hover"] {
+        /* Hover-popout: legger seg på selve chevron-radens høyde, rett til høyre for
+           ⚙️-knappen. Da kan brukeren skli musen rett mot høyre uten å miste hover. */
+        .chevron-and-tools .verse-card-toolbar[data-state="hover"] {
             display: flex;
+            align-items: center;
             position: absolute;
-            left: 44px;            /* klar av ⚙️-knappen */
-            right: 8px;
-            bottom: calc(100% - 6px);  /* litt opp fra chevron-raden */
+            left: 38px;             /* slutt-kant av ⚙️ (32px) + 6px luft */
+            right: 0;
+            top: 4px;
+            bottom: 14px;            /* matcher chevron-wrap-marginen */
             margin: 0;
-            padding: 8px 10px;
+            padding: 4px 10px;
             background: var(--card-bg);
             border: 1px solid var(--border);
             border-radius: 12px;
-            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
             z-index: 6;
-            animation: vtFadeUp 160ms cubic-bezier(.22,.86,.24,1);
+            animation: vtFadeRight 160ms cubic-bezier(.22,.86,.24,1);
+            overflow-x: auto;
+            flex-wrap: nowrap;
         }
         @keyframes vtSlideDown {
             from { opacity: 0; transform: translateY(-6px); }
             to   { opacity: 1; transform: translateY(0); }
         }
-        @keyframes vtFadeUp {
-            from { opacity: 0; transform: translateY(6px); }
-            to   { opacity: 1; transform: translateY(0); }
+        @keyframes vtFadeRight {
+            from { opacity: 0; transform: translateX(-6px); }
+            to   { opacity: 1; transform: translateX(0); }
         }
 
         /* Card footer buttons (behold CSS for bakoverkompatibilitet hvis brukt andre steder) */
@@ -4314,9 +4321,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         if (state === 'locked') {
             tb.setAttribute('data-state', 'hidden');
             btn.setAttribute('aria-pressed', 'false');
+            verseToolsLocked = false;
         } else {
             tb.setAttribute('data-state', 'locked');
             btn.setAttribute('aria-pressed', 'true');
+            verseToolsLocked = true;
         }
     };
 
@@ -4344,15 +4353,21 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         tb.setAttribute('data-state', 'hidden');
     });
 
-    // Klikk-utenfor lukker eventuelle låste verktøyrader
+    // Klikk-utenfor lukker eventuelle låste verktøyrader.
+    // Vi lar IKKE klikk på en knapp inne i toolbaren lukke den — knapper kan åpne
+    // studieelementer (sidemeny/inline) som sender klikket videre. Bare klikk som
+    // ikke treffer verktøysystemet skal lukke.
     document.addEventListener('click', e => {
         if (e.target.closest('.verse-tools-btn') || e.target.closest('.verse-card-toolbar')) return;
+        let didLock = false;
         document.querySelectorAll('.verse-card-toolbar[data-state="locked"]').forEach(tb => {
+            didLock = true;
             tb.setAttribute('data-state', 'hidden');
             const wrap = tb.closest('.chevron-and-tools');
             const btn = wrap && wrap.querySelector('.verse-tools-btn');
             if (btn) btn.setAttribute('aria-pressed', 'false');
         });
+        if (didLock) verseToolsLocked = false;
     });
 
     // Mål kolonnebredden og eksponér via CSS-vars så pilene kan plasseres rett ved
@@ -8375,9 +8390,13 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
     // ⚙️-knapp som ligger til venstre i chevron-raden — toggler verktøyraden
     // mellom hover-popout og låst-i-flow under chevronen.
-    const VERSE_TOOLS_BTN_HTML =
-        '<button type="button" class="verse-tools-btn" aria-pressed="false" ' +
-        'aria-label="Verktøy" title="Verktøy" onclick="toggleVerseTools(this)">⚙️</button>';
+    // Modul-state holder låst-tilstanden så den overlever re-rendringer ved
+    // kapittel/vers-navigering.
+    let verseToolsLocked = false;
+    function _verseToolsBtnHtml() {
+        const pressed = verseToolsLocked ? 'true' : 'false';
+        return `<button type="button" class="verse-tools-btn" aria-pressed="${pressed}" aria-label="Verktøy" title="Verktøy" onclick="toggleVerseTools(this)">⚙️</button>`;
+    }
 
     function buildChevronHtml(block, inCompare = false) {
         if (!hasExpandableChevron(block)) return '';
@@ -8393,7 +8412,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             const anchorVnum = block.verses[0].num;
             chevronBtn = `<button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${anchorVnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet">${CHEVRON_DOWN_SVG}</button>`;
         }
-        return `<div class="${wrapClass}">${VERSE_TOOLS_BTN_HTML}${chevronBtn}</div>`;
+        return `<div class="${wrapClass}">${_verseToolsBtnHtml()}${chevronBtn}</div>`;
     }
 
     function buildToolbarHtml(block) {
@@ -8452,7 +8471,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 </button>`;
         }
 
-        let html = `<div class="verse-card-toolbar" data-state="hidden">
+        const initialState = verseToolsLocked ? 'locked' : 'hidden';
+        let html = `<div class="verse-card-toolbar" data-state="${initialState}">
             <button class="card-action-btn${compareMode ? ' active' : ''}" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
