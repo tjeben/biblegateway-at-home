@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <title>Søk Gud</title>
+    <title>Bibeldykk</title>
     <link rel="icon" href="/logo_biblegateway.png" type="image/png" sizes="any">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/logo_biblegateway.png">
@@ -3173,8 +3173,8 @@
 <div class="app-header">
     <div class="app-header-inner">
         <div class="header-left" onclick="goHome()">
-            <img src="/logo_biblegateway.png" alt="BibleGateway logo" class="header-logo">
-            <h1>Bibelsøk</h1>
+            <img src="/logo_biblegateway.png" alt="Bibeldykk logo" class="header-logo">
+            <h1>Bibeldykk</h1>
         </div>
         <div class="header-actions">
             <button class="header-icon-btn hamburger-btn" onclick="toggleNavDrawer()" title="Meny" aria-label="Meny">
@@ -9632,34 +9632,50 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const source = isCompare ? compareData : mainData;
         if (!source || !source[blockIdx]) return;
         const block = source[blockIdx];
+
+        // Selve teksten — ren, uten versetall
         let text = '';
         let lastChapter = null;
         const isMultiChapter = block.verses.some(x => x.chapter !== block.verses[0]?.chapter);
-
         block.verses.forEach((v, vi) => {
-            if (isMultiChapter && v.chapter !== lastChapter) {
-                if (vi > 0) text += '\n';
-                text += `Kapittel ${v.chapter}\n`;
-                lastChapter = v.chapter;
-            } else if (lastChapter === null) {
-                lastChapter = v.chapter;
+            if (isMultiChapter && v.chapter !== lastChapter && vi > 0) {
+                text += '\n';
             }
-            // Versetall i parentes for tydelig skille fra teksten
-            text += `(${v.num}) ${v.text} `;
+            text += v.text + ' ';
             lastChapter = v.chapter;
         });
+        text = text.trim();
 
-        // Hale med versjon + bok-referanse, f.eks. "— Bibel 2011, Joh 3:16-17"
+        // Bygg referanse-haleformatet "(Bok 6:33-34, Bibel2011)" eller
+        // "(Bok 6, Bibel2011)" hvis hele kapittelet er kopiert.
+        const verses = block.verses || [];
+        const bName = bookName(block.book) || block.book || '';
+        const firstCh = verses[0] ? verses[0].chapter : null;
+        const lastCh = verses.length ? verses[verses.length - 1].chapter : null;
+        let refStr = bName;
+        if (firstCh != null) {
+            refStr += ' ' + firstCh;
+            if (lastCh != null && lastCh !== firstCh) refStr += '-' + lastCh;
+            // Hvis det ikke er hele kapittelet (bare et utvalg vers), legg til vers-nr.
+            // Heuristikk: hvis verses.length < 5 ELLER verseene ikke starter på 1,
+            // vises versnumre. Ellers behandles det som "kapittel".
+            const sameChapter = lastCh === firstCh;
+            const startsAtOne = sameChapter && verses[0] && verses[0].num === 1;
+            const seemsFullChapter = sameChapter && verses.length >= 5 && startsAtOne;
+            if (sameChapter && !seemsFullChapter) {
+                const firstV = verses[0].num;
+                const lastV = verses[verses.length - 1].num;
+                refStr += ':' + firstV;
+                if (lastV !== firstV) refStr += '-' + lastV;
+            }
+        }
         const ver = isCompare
             ? (compareVersionSelect && compareVersionSelect.value)
             : (versionSelect.value === 'Alle' ? (alleMainVersion || 'NB88') : versionSelect.value);
         const verLabelText = ver ? (typeof versionLabel === 'function' ? versionLabel(ver) : ver) : '';
-        const refLabel = block.label || '';
-        const tail = (verLabelText || refLabel)
-            ? `\n\n— ${[verLabelText, refLabel].filter(Boolean).join(', ')}`
-            : '';
+        const tail = `\n(${[refStr, verLabelText].filter(Boolean).join(', ')})`;
 
-        navigator.clipboard.writeText(text.trim() + tail).then(() => showToast('Kopiert!'));
+        navigator.clipboard.writeText(text + tail).then(() => showToast('Kopiert!'));
     };
 
     function errorCardHtml(label, message) {
