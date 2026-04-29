@@ -903,23 +903,24 @@
             display: flex;
             animation: vtSlideDown 180ms cubic-bezier(.22,.86,.24,1);
         }
-        /* Hover-popout: starter rett til høyre for ⚙️ (samme vertikale start som
+        /* Hover-popout: starter rett til høyre for 🎓 (samme vertikale start som
            chevron-raden), strekker seg utover og vokser nedover hvis knappene ikke
-           får plass. Ingen scrollebar — knappene wrapper i stedet. */
+           får plass. Ingen scrollebar — knappene wrapper i stedet. Pille-radius
+           (999px) matcher systemets øvrige knappformer. */
         .chevron-and-tools .verse-card-toolbar[data-state="hover"] {
             display: flex;
             align-items: center;
             flex-wrap: wrap;
             position: absolute;
-            left: 38px;             /* slutt-kant av ⚙️ (32px) + 6px luft */
+            left: 38px;
             right: 0;
-            top: 4px;                /* matcher chevron-wrap-marginen */
+            top: 4px;
             margin: 0;
-            padding: 6px 10px;
+            padding: 6px 14px;
             gap: 6px;
             background: var(--card-bg);
             border: 1px solid var(--border);
-            border-radius: 12px;
+            border-radius: 999px;
             box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
             z-index: 6;
             animation: vtFadeRight 160ms cubic-bezier(.22,.86,.24,1);
@@ -8142,7 +8143,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         ensureAiDiffHost();
         applyStoredHighlights();
         applyPendingPlaceHighlight();
-        // Scroll til uthevet vers etter at alt annet er rendret, så layout er stabil
+        // Scroll-justering etter render: hvis vi har et høydepunktsvers, sentrér det.
+        // Ellers — det er det vanligste tilfellet ved navigasjon mellom kapittler/vers
+        // — scroll til toppen så brukeren ser det nye innholdet, selv hvis det er
+        // kortere enn der vi sto før.
         if (highlightVerse != null) {
             const el = document.getElementById('hlVerseMark');
             if (el) {
@@ -8152,6 +8156,10 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                     });
                 });
             }
+        } else {
+            requestAnimationFrame(() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
         }
     }
 
