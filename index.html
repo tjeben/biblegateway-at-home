@@ -386,13 +386,17 @@
         .copy-btn-pair > .copy-btn:focus { z-index: 1; position: relative; }
 
         /* Chevron-knapp for å åpne/lukke hele kapittelet (utenfor kortet) */
+        /* Wrapper rundt chevron-rad + (skjult/lokket) toolbar — gir posisjons-anker
+           for hover-popout som flyter over chevron-raden. */
+        .chevron-and-tools { position: relative; }
         .chevron-wrap {
-            display: block;
+            display: flex;
+            align-items: center;
             margin: 4px 0 14px;
-            overflow: hidden;
             border-radius: 12px;
             background: transparent;
             transition: background 0.2s;
+            position: relative;
         }
         .chevron-wrap.compare { width: 100%; }
         .chevron-wrap:hover {
@@ -401,11 +405,27 @@
         [data-theme="dark"] .chevron-wrap:hover {
             background: rgba(201, 68, 68, 0.14);
         }
+        /* Verktøy-knapp (⚙️) helt til venstre i chevron-raden */
+        .verse-tools-btn {
+            flex: 0 0 auto;
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 32px; height: 32px;
+            margin-left: 6px;
+            border: none; background: transparent;
+            color: var(--text-muted);
+            cursor: pointer; font-size: 1.05rem;
+            border-radius: 8px;
+            transition: background 140ms ease, color 140ms ease, transform 140ms ease;
+        }
+        .verse-tools-btn:hover { background: rgba(168, 50, 50, 0.12); color: var(--accent); transform: rotate(20deg); }
+        .verse-tools-btn[aria-pressed="true"] { background: var(--accent); color: white; transform: rotate(45deg); }
+        [data-theme="dark"] .verse-tools-btn:hover { background: rgba(201, 68, 68, 0.18); }
+
         .expand-chapter-btn {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 100%;
+            flex: 1 1 auto;
             padding: 8px 0;
             background: transparent;
             border: none;
@@ -856,13 +876,43 @@
             .ai-footer-note { padding-bottom: 100px; }
         }
 
-        /* Verktøy-rad under hvert vers-kort (utenfor kortet for å gi ro til teksten) */
+        /* Verktøy-rad under hvert vers-kort (utenfor kortet for å gi ro til teksten).
+           Default skjult; vises kun via hover-popout eller låst-modus styrt av ⚙️. */
         .verse-card-toolbar {
-            display: flex;
+            display: none;
             gap: 8px;
             flex-wrap: wrap;
             padding: 0 8px;
             margin: 10px 0 6px;
+        }
+        /* Låst (klikk-toggle): vises i flow under chevron-raden */
+        .verse-card-toolbar[data-state="locked"] {
+            display: flex;
+            animation: vtSlideDown 180ms cubic-bezier(.22,.86,.24,1);
+        }
+        /* Hover-popout: flyter over chevron-raden, til høyre for ⚙️ */
+        .verse-card-toolbar[data-state="hover"] {
+            display: flex;
+            position: absolute;
+            left: 44px;            /* klar av ⚙️-knappen */
+            right: 8px;
+            bottom: calc(100% - 6px);  /* litt opp fra chevron-raden */
+            margin: 0;
+            padding: 8px 10px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14);
+            z-index: 6;
+            animation: vtFadeUp 160ms cubic-bezier(.22,.86,.24,1);
+        }
+        @keyframes vtSlideDown {
+            from { opacity: 0; transform: translateY(-6px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes vtFadeUp {
+            from { opacity: 0; transform: translateY(6px); }
+            to   { opacity: 1; transform: translateY(0); }
         }
 
         /* Card footer buttons (behold CSS for bakoverkompatibilitet hvis brukt andre steder) */
@@ -4237,6 +4287,74 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         updateColumnEdges();
     }
 
+    // ── Sidemeny som standard på store skjermer ──
+    // body.prefer-side får MutationObserver til å auto-flytte nye studieelementer
+    // til sidemenyen, slik at de ikke åpnes under verset først.
+    function _refreshPreferSide() {
+        const stored = localStorage.getItem('preferSide');
+        let prefer;
+        if (stored === '1') prefer = true;
+        else if (stored === '0') prefer = false;
+        else prefer = window.innerWidth >= 1100;  // default for store skjermer
+        document.body.classList.toggle('prefer-side', !!prefer);
+    }
+    _refreshPreferSide();
+    window.addEventListener('resize', _refreshPreferSide);
+
+    // ── Verktøy-knapp (⚙️) i chevron-raden: hover-popout / klikk-låst toolbar ──
+    // State holdes på selve toolbar-elementet via data-state="hidden"|"hover"|"locked".
+    // Klikk på ⚙️ veksler mellom locked og hidden. Hover viser popout med mindre den
+    // allerede er locked. Click-utenfor lukker locked.
+    window.toggleVerseTools = function(btn) {
+        const wrap = btn && btn.closest('.chevron-and-tools');
+        if (!wrap) return;
+        const tb = wrap.querySelector('.verse-card-toolbar');
+        if (!tb) return;
+        const state = tb.getAttribute('data-state');
+        if (state === 'locked') {
+            tb.setAttribute('data-state', 'hidden');
+            btn.setAttribute('aria-pressed', 'false');
+        } else {
+            tb.setAttribute('data-state', 'locked');
+            btn.setAttribute('aria-pressed', 'true');
+        }
+    };
+
+    // Hover-håndtering: legges på selve .chevron-and-tools så det også fungerer når
+    // brukeren beveger musen fra ⚙️-knappen og bort i popouten uten å miste hover.
+    document.addEventListener('mouseover', e => {
+        const wrap = e.target.closest('.chevron-and-tools');
+        if (!wrap) return;
+        const tb = wrap.querySelector('.verse-card-toolbar');
+        if (!tb) return;
+        if (tb.getAttribute('data-state') === 'locked') return;
+        // Vis kun popout når bruker faktisk er over ⚙️-knappen eller toolbaren — ikke
+        // hele chevron-raden — ellers ville chevron-hover også åpne popouten.
+        const onTrigger = !!e.target.closest('.verse-tools-btn, .verse-card-toolbar');
+        if (onTrigger) tb.setAttribute('data-state', 'hover');
+    });
+    document.addEventListener('mouseout', e => {
+        const wrap = e.target.closest('.chevron-and-tools');
+        if (!wrap) return;
+        const tb = wrap.querySelector('.verse-card-toolbar');
+        if (!tb || tb.getAttribute('data-state') !== 'hover') return;
+        // Bare lukk hvis brukeren faktisk forlater både ⚙️ OG toolbaren
+        const to = e.relatedTarget;
+        if (to && (to.closest('.verse-tools-btn') || to.closest('.verse-card-toolbar'))) return;
+        tb.setAttribute('data-state', 'hidden');
+    });
+
+    // Klikk-utenfor lukker eventuelle låste verktøyrader
+    document.addEventListener('click', e => {
+        if (e.target.closest('.verse-tools-btn') || e.target.closest('.verse-card-toolbar')) return;
+        document.querySelectorAll('.verse-card-toolbar[data-state="locked"]').forEach(tb => {
+            tb.setAttribute('data-state', 'hidden');
+            const wrap = tb.closest('.chevron-and-tools');
+            const btn = wrap && wrap.querySelector('.verse-tools-btn');
+            if (btn) btn.setAttribute('aria-pressed', 'false');
+        });
+    });
+
     // Mål kolonnebredden og eksponér via CSS-vars så pilene kan plasseres rett ved
     function updateColumnEdges() {
         const wrap = document.getElementById('resultsWrapper');
@@ -4274,6 +4392,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
             // FLIP: mål gammel rect -> flytt -> mål ny rect -> animer fra gammel til ny
             const firstRect = host.getBoundingClientRect();
+            // Husk brukerens preferanse så vi følger den i resten av økten + ved oppstart
+            try {
+                localStorage.setItem('preferSide', inSide ? '0' : '1');
+            } catch {}
+            _refreshPreferSide();
             if (inSide) {
                 vizHosts.appendChild(host);
             } else {
@@ -4358,7 +4481,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 injectMoveOverBtn(n);
                 // Hvis sidepanelet allerede er åpent og elementet nettopp ble lagt i vizHosts,
                 // flytt det automatisk til sidepanelet
-                if (m.target === vizHosts && document.body.classList.contains('split-active')) {
+                const shouldRouteToSide =
+                    m.target === vizHosts &&
+                    (document.body.classList.contains('split-active') ||
+                     document.body.classList.contains('prefer-side'));
+                if (shouldRouteToSide) {
                     vizSideInner.appendChild(n);
                 } else {
                     refreshMoveBtnState(n);
@@ -7973,17 +8100,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 html += buildCardHtml(mainBlock, idx, false);
                 html += buildCompareCardHtml(compBlock, idx);
                 html += '</div>';
-                html += buildChevronHtml(mainBlock, true);
-                html += buildToolbarHtml(mainBlock);
+                html += `<div class="chevron-and-tools">${buildChevronHtml(mainBlock, true)}${buildToolbarHtml(mainBlock)}</div>`;
                 if (idx === 0) html += aiSection;
             } else {
                 html += buildCardHtml(mainBlock, idx, false);
-                html += buildChevronHtml(mainBlock);
-                // Inline-utvidelse for 'Alle versjoner' — under hoved-kortet, over verktøylinjen
+                // Inline-utvidelse for 'Alle versjoner' — under hoved-kortet, før chevron+verktøy
                 if (inlineAllVersionsData && idx === 0) {
                     html += buildInlineAllVersionsHtml(inlineAllVersionsData.results);
                 }
-                html += buildToolbarHtml(mainBlock);
+                html += `<div class="chevron-and-tools">${buildChevronHtml(mainBlock)}${buildToolbarHtml(mainBlock)}</div>`;
             }
         }
 
@@ -8248,22 +8373,27 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         return true;
     }
 
+    // ⚙️-knapp som ligger til venstre i chevron-raden — toggler verktøyraden
+    // mellom hover-popout og låst-i-flow under chevronen.
+    const VERSE_TOOLS_BTN_HTML =
+        '<button type="button" class="verse-tools-btn" aria-pressed="false" ' +
+        'aria-label="Verktøy" title="Verktøy" onclick="toggleVerseTools(this)">⚙️</button>';
+
     function buildChevronHtml(block, inCompare = false) {
         if (!hasExpandableChevron(block)) return '';
         const ch = block.verses[0].chapter;
         const bName = bookName(block.book);
         const wrapClass = inCompare ? 'chevron-wrap compare' : 'chevron-wrap';
         const isSingleVerse = block.verses.length === 1;
-        // Kollaps-pil kun når kapittelet åpenbart er åpent (mange vers + et høydepunkt
-        // satt av readChapter/goToVerseFromExpand). En kort range (Luk 11:2-4) regnes
-        // ikke som "åpent kapittel" og får derfor expand-pilen.
         const isExpandedChapter = !isSingleVerse && highlightVerse != null && block.verses.length >= 5;
+        let chevronBtn;
         if (isExpandedChapter) {
-            return `<div class="${wrapClass}"><button class="expand-chapter-btn collapse" onclick="collapseChapterToVerse('${escAttr(bName)} ${ch}:${highlightVerse}')" title="Tilbake til ett vers" aria-label="Tilbake til ett vers">${CHEVRON_UP_SVG}</button></div>`;
+            chevronBtn = `<button class="expand-chapter-btn collapse" onclick="collapseChapterToVerse('${escAttr(bName)} ${ch}:${highlightVerse}')" title="Tilbake til ett vers" aria-label="Tilbake til ett vers">${CHEVRON_UP_SVG}</button>`;
+        } else {
+            const anchorVnum = block.verses[0].num;
+            chevronBtn = `<button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${anchorVnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet">${CHEVRON_DOWN_SVG}</button>`;
         }
-        // Expand: åpne hele kapittelet. Behold første vers i blokken som "tilbake til"-anker.
-        const anchorVnum = isSingleVerse ? block.verses[0].num : block.verses[0].num;
-        return `<div class="${wrapClass}"><button class="expand-chapter-btn" onclick="readChapter('${escAttr(block.book)}', ${ch}, '${escAttr(bName)}', ${anchorVnum})" title="Vis hele kapittelet" aria-label="Vis hele kapittelet">${CHEVRON_DOWN_SVG}</button></div>`;
+        return `<div class="${wrapClass}">${VERSE_TOOLS_BTN_HTML}${chevronBtn}</div>`;
     }
 
     function buildToolbarHtml(block) {
@@ -8322,7 +8452,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 </button>`;
         }
 
-        let html = `<div class="verse-card-toolbar">
+        let html = `<div class="verse-card-toolbar" data-state="hidden">
             <button class="card-action-btn${compareMode ? ' active' : ''}" onclick="toggleCompareMode()">${compareMode ? 'Skjul sammenligning' : 'Sammenlign'}</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openContextPanel(this)">💭 Kontekst</button>
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
