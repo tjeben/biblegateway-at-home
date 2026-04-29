@@ -1702,6 +1702,63 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             else:
                 self._send_json({"error": "Mangler ?usfm=... eller ?book=...&chapter=..."}, 400)
 
+        elif path == "/api/place_verses":
+            # Returner alle vers i hele bibelen som nevner et gitt sted, gruppert per bok.
+            # Brukes til "Andre forekomster"-panel og bok-heatmap i stedskart-elementet.
+            try:
+                pid = int(params.get("id", [""])[0])
+            except (TypeError, ValueError):
+                self._send_json({"error": "Ugyldig id"}, 400)
+                return
+            if not bible_data.has_places:
+                self._send_json({"error": "Ingen steds-tabell tilgjengelig"}, 404)
+                return
+            place_rows = bible_data._query(
+                "SELECT id, name, aliases, placemark, kind FROM places WHERE id = ?",
+                (pid,),
+            )
+            if not place_rows:
+                self._send_json({"error": "Sted ikke funnet"}, 404)
+                return
+            r0 = place_rows[0]
+            try:
+                aliases = json.loads(r0["aliases"]) if r0["aliases"] else []
+            except (json.JSONDecodeError, TypeError):
+                aliases = []
+            verse_rows = bible_data._query(
+                "SELECT book_usfm, chapter, verse FROM place_verses WHERE place_id = ? ORDER BY book_usfm, chapter, verse",
+                (pid,),
+            )
+            # Gruppér per bok i bibelsk rekkefølge
+            by_book = {}
+            for vr in verse_rows:
+                by_book.setdefault(vr["book_usfm"], []).append(
+                    {"chapter": vr["chapter"], "verse": vr["verse"]}
+                )
+            ordered_books = sorted(
+                by_book.keys(), key=lambda b: USFM_TO_ORDER.get(b, 999)
+            )
+            books_out = []
+            total = 0
+            for code in ordered_books:
+                refs = by_book[code]
+                total += len(refs)
+                books_out.append({
+                    "book": code,
+                    "name": USFM_TO_NAME.get(code, code),
+                    "count": len(refs),
+                    "refs": refs,
+                })
+            self._send_json({
+                "id": pid,
+                "name": r0["name"],
+                "aliases": aliases,
+                "placemark": r0["placemark"],
+                "kind": r0["kind"],
+                "total": total,
+                "books": books_out,
+            })
+
         elif path == "/api/places/has":
             # Returner alle USFM-koder med steder, så frontend kan utgrå "📍 Kart"-knappen
             # når et vers/kapittel ikke har registrerte steder. Cacheable.

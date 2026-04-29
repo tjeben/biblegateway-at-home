@@ -2183,7 +2183,8 @@
         .place-chip.place-chip-more:hover { background: var(--bg-subtle, rgba(0,0,0,0.04)); }
 
         /* Marker-knapp i place-map header — toggle-tilstand når aktiv */
-        .place-mark-btn[aria-pressed="true"] {
+        .place-mark-btn[aria-pressed="true"],
+        .place-journey-btn[aria-pressed="true"] {
             background: var(--accent);
             color: white;
             border-color: var(--accent);
@@ -5475,7 +5476,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
 
         _renderChips(hostId);
 
-        // Injiser "Marker"-knapp i panel-headeren, før "Lukk"
+        // Injiser knapper i panel-headeren, før "Lukk":
+        //   "Følg ferden" (toggle) — tegner reise-linjer mellom punkt-pins i versrekkefølge
+        //   "Marker" (toggle)      — KI-marker stedord i alle vers
         const host = document.getElementById(hostId);
         const actions = host && host.querySelector('.study-panel-actions');
         if (actions) {
@@ -5487,6 +5490,18 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             markBtn.textContent = 'Marker';
             markBtn.addEventListener('click', () => _togglePlaceMarkAll(hostId, markBtn));
             actions.insertBefore(markBtn, actions.firstChild);
+
+            // "Følg ferden": kun meningsfullt i chapter-scope med flere punkt-pins
+            if (scope === 'chapter') {
+                const journeyBtn = document.createElement('button');
+                journeyBtn.className = 'card-action-btn place-journey-btn';
+                journeyBtn.type = 'button';
+                journeyBtn.setAttribute('aria-pressed', 'false');
+                journeyBtn.title = 'Tegn reise-linjer mellom stedene i versrekkefølge';
+                journeyBtn.textContent = 'Følg ferden';
+                journeyBtn.addEventListener('click', () => _togglePlaceJourney(hostId, journeyBtn));
+                actions.insertBefore(journeyBtn, actions.firstChild);
+            }
         }
 
         // Init Leaflet (etter at DOM er på plass)
@@ -5590,6 +5605,111 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         verseNums.forEach(v => _hoverHighlightMainVerse(bookCode, chapter, v, on, c));
     }
 
+    // ── Kryss-bibel sted-oppslag og heatmap (delt cache per sted-id) ──
+    const placeRefsCache = new Map(); // placeId -> {total, books, name, ...}
+
+    async function _fetchPlaceRefs(placeId) {
+        if (placeRefsCache.has(placeId)) return placeRefsCache.get(placeId);
+        try {
+            const resp = await fetch(`/api/place_verses?id=${encodeURIComponent(placeId)}`);
+            if (!resp.ok) return null;
+            const data = await resp.json();
+            placeRefsCache.set(placeId, data);
+            return data;
+        } catch { return null; }
+    }
+
+    function _ensurePlacePanelHost(hostId) {
+        const host = document.getElementById(hostId);
+        if (!host) return null;
+        let panel = host.querySelector('.place-side-panel');
+        if (!panel) {
+            panel = document.createElement('div');
+            panel.className = 'place-side-panel';
+            panel.style.cssText =
+                'margin-top:10px;padding:10px 12px;border:1px solid var(--border);' +
+                'border-radius:10px;background:var(--card-bg);max-height:260px;overflow-y:auto;';
+            const inner = host.querySelector('.bible-map-inner');
+            (inner || host).appendChild(panel);
+        }
+        return panel;
+    }
+
+    async function _openPlaceCrossRefPanel(place, color) {
+        const panel = _ensurePlacePanelHost('placeMapHost');
+        if (!panel) return;
+        panel.innerHTML = `<div style="color:var(--text-muted);font-size:0.85rem;">Henter forekomster for <strong>${escHtml(place.name)}</strong>…</div>`;
+        const data = await _fetchPlaceRefs(place.id);
+        if (!data || !data.books) {
+            panel.innerHTML = `<div style="color:var(--text-muted);font-size:0.85rem;">Ingen forekomster funnet.</div>`;
+            return;
+        }
+        const headerStyle = `font-weight:700;font-size:0.92rem;margin-bottom:6px;color:${color.border};`;
+        const closeBtn = `<button type="button" class="place-side-panel-close" style="float:right;border:none;background:transparent;color:var(--text-muted);cursor:pointer;font-size:1.1rem;line-height:1;" aria-label="Lukk">×</button>`;
+        let html = `${closeBtn}<div style="${headerStyle}">🔍 Andre forekomster — ${escHtml(place.name)} <span style="font-weight:400;color:var(--text-muted);font-size:0.82rem;">(${data.total} vers i ${data.books.length} bøker)</span></div>`;
+        html += `<div class="place-side-panel-body">`;
+        data.books.forEach(b => {
+            const refsHtml = b.refs.map(r => {
+                const ref = `${b.name} ${r.chapter}:${r.verse}`;
+                return `<button type="button" class="place-cross-ref-btn" data-ref="${escAttr(ref)}" style="border:1px solid var(--border);background:transparent;color:var(--text);font-size:0.78rem;padding:2px 6px;border-radius:6px;margin:2px 2px 2px 0;cursor:pointer;font-family:inherit;">${r.chapter}:${r.verse}</button>`;
+            }).join('');
+            html += `<div style="margin:6px 0;">
+                <div style="font-weight:600;font-size:0.85rem;margin-bottom:2px;">${escHtml(b.name)} <span style="color:var(--text-muted);font-weight:400;">(${b.count})</span></div>
+                <div style="display:flex;flex-wrap:wrap;">${refsHtml}</div>
+            </div>`;
+        });
+        html += `</div>`;
+        panel.innerHTML = html;
+        const close = panel.querySelector('.place-side-panel-close');
+        if (close) close.addEventListener('click', () => panel.remove());
+        panel.querySelectorAll('.place-cross-ref-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                searchInput.value = btn.getAttribute('data-ref');
+                doSearch();
+            });
+        });
+    }
+
+    async function _openPlaceHeatmapPanel(place, color) {
+        const panel = _ensurePlacePanelHost('placeMapHost');
+        if (!panel) return;
+        panel.innerHTML = `<div style="color:var(--text-muted);font-size:0.85rem;">Henter bok-heatmap for <strong>${escHtml(place.name)}</strong>…</div>`;
+        const data = await _fetchPlaceRefs(place.id);
+        if (!data || !data.books || !data.books.length) {
+            panel.innerHTML = `<div style="color:var(--text-muted);font-size:0.85rem;">Ingen data.</div>`;
+            return;
+        }
+        const closeBtn = `<button type="button" class="place-side-panel-close" style="float:right;border:none;background:transparent;color:var(--text-muted);cursor:pointer;font-size:1.1rem;line-height:1;" aria-label="Lukk">×</button>`;
+        const headerStyle = `font-weight:700;font-size:0.92rem;margin-bottom:8px;color:${color.border};`;
+        const max = Math.max(1, ...data.books.map(b => b.count));
+        let html = `${closeBtn}<div style="${headerStyle}">📊 Bok-heatmap — ${escHtml(place.name)} <span style="font-weight:400;color:var(--text-muted);font-size:0.82rem;">(${data.total} totalt)</span></div>`;
+        html += `<div style="display:flex;flex-direction:column;gap:3px;">`;
+        data.books.forEach(b => {
+            const pct = Math.round((b.count / max) * 100);
+            html += `<div class="place-heatmap-row" data-book="${escAttr(b.book)}" style="display:flex;align-items:center;gap:8px;cursor:pointer;padding:2px 4px;border-radius:6px;">
+                <div style="flex:0 0 110px;font-size:0.82rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escHtml(b.name)}</div>
+                <div style="flex:1;height:14px;background:rgba(0,0,0,0.05);border-radius:7px;overflow:hidden;">
+                    <div style="width:${pct}%;height:100%;background:${color.fill};border-right:1.5px solid ${color.border};"></div>
+                </div>
+                <div style="flex:0 0 32px;text-align:right;font-size:0.78rem;color:var(--text-muted);">${b.count}</div>
+            </div>`;
+        });
+        html += `</div>`;
+        panel.innerHTML = html;
+        const close = panel.querySelector('.place-side-panel-close');
+        if (close) close.addEventListener('click', () => panel.remove());
+        panel.querySelectorAll('.place-heatmap-row').forEach(row => {
+            row.addEventListener('click', () => {
+                const code = row.getAttribute('data-book');
+                if (!code) return;
+                searchInput.value = bookName(code);
+                doSearch();
+            });
+            row.addEventListener('mouseenter', () => row.style.background = 'rgba(0,0,0,0.04)');
+            row.addEventListener('mouseleave', () => row.style.background = 'transparent');
+        });
+    }
+
     function _initPlaceMap(hostId) {
         const state = placeMapHosts[hostId];
         if (!state || typeof L === 'undefined') return;
@@ -5671,10 +5791,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 btn.dataset.verse = String(vNum);
                 btn.dataset.placeId = String(place.id);
                 btn.dataset.placeName = place.name;
-                // Hover → uthev verset i hovedteksten
                 btn.addEventListener('mouseenter', () => _hoverHighlightMainVerse(bookCode, chapter, vNum, true, c));
                 btn.addEventListener('mouseleave', () => _hoverHighlightMainVerse(bookCode, chapter, vNum, false, c));
-                // Klikk → naviger + AI-marker stedord i verset
                 btn.addEventListener('click', (ev) => {
                     ev.preventDefault(); ev.stopPropagation();
                     _onPlaceVerseClick(place, bookCode, chapter, vNum, c);
@@ -5683,6 +5801,27 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             });
             popupEl.appendChild(versesWrap);
         }
+
+        // Knapp-rad: "Andre forekomster" + "Heatmap" — åpner panel under kartet
+        const actionsRow = document.createElement('div');
+        actionsRow.className = 'place-popup-actions';
+        actionsRow.style.cssText = 'display:flex;gap:6px;margin-top:8px;flex-wrap:wrap;';
+        const mkActionBtn = (label, title, handler) => {
+            const b = document.createElement('button');
+            b.type = 'button';
+            b.className = 'place-popup-action-btn';
+            b.textContent = label;
+            b.title = title;
+            b.style.cssText =
+                'border:1px solid var(--border);background:var(--card-bg);color:var(--text);' +
+                'font-size:0.74rem;padding:3px 8px;border-radius:8px;cursor:pointer;' +
+                'font-family:inherit;line-height:1.2;';
+            b.addEventListener('click', (ev) => { ev.preventDefault(); ev.stopPropagation(); handler(); });
+            return b;
+        };
+        actionsRow.appendChild(mkActionBtn('🔍 Andre forekomster', 'Vis alle vers i bibelen som nevner dette stedet', () => _openPlaceCrossRefPanel(place, c)));
+        actionsRow.appendChild(mkActionBtn('📊 Heatmap', 'Vis hvilke bøker som nevner dette stedet mest', () => _openPlaceHeatmapPanel(place, c)));
+        popupEl.appendChild(actionsRow);
 
         const layer = L.geoJSON(place.geometry, {
             // Punktsteder: SVG-pin via divIcon (penere enn standard sirkel-markør)
@@ -5890,6 +6029,86 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             btn.dataset.busy = '';
             btn.textContent = 'Marker';
         }
+    }
+
+    // ── "Følg ferden": tegn linjer mellom punkt-pins i versrekkefølge ──
+    function _togglePlaceJourney(hostId, btn) {
+        const state = placeMapHosts[hostId]; if (!state || !state.map) return;
+        if (state.journeyLayer) {
+            try { state.map.removeLayer(state.journeyLayer); } catch {}
+            state.journeyLayer = null;
+            btn.setAttribute('aria-pressed', 'false');
+            return;
+        }
+        // Bygg sekvens: for hvert vers i kapittelet, hent steder som har punkt-geometri
+        // og som er nevnt i det verset. Sortér på versnr stigende.
+        const stops = []; // [{verseNum, place, latlng}]
+        const seenAtVerse = new Set();
+        const allVerseNums = new Set();
+        state.places.forEach(p => (p.verses || []).forEach(v => allVerseNums.add(v)));
+        const ordered = [...allVerseNums].sort((a, b) => a - b);
+        ordered.forEach(vNum => {
+            state.places.forEach(p => {
+                if (!p.geometry || !Array.isArray(p.verses) || !p.verses.includes(vNum)) return;
+                const isPoint = p.kind === 'landpoint' || p.kind === 'waterpoint';
+                if (!isPoint) return;
+                const key = `${vNum}|${p.id}`;
+                if (seenAtVerse.has(key)) return;
+                seenAtVerse.add(key);
+                let coords = null;
+                if (p.geometry.type === 'Point' && Array.isArray(p.geometry.coordinates)) {
+                    // GeoJSON: [lon, lat] → Leaflet: [lat, lon]
+                    coords = [p.geometry.coordinates[1], p.geometry.coordinates[0]];
+                }
+                if (coords) stops.push({ verseNum: vNum, place: p, latlng: coords });
+            });
+        });
+
+        if (stops.length < 2) {
+            showToast('Trenger minst to punkt-steder for å tegne en ferd');
+            return;
+        }
+
+        const group = L.layerGroup();
+        // Tegn segmenter med pilspiss (decorator). Uten Leaflet.PolylineDecorator-plugin
+        // simulerer vi pilen med to korte segmenter ved sluttpunktet i hver lenke.
+        for (let i = 0; i < stops.length - 1; i++) {
+            const a = stops[i].latlng;
+            const b = stops[i + 1].latlng;
+            const segColor = _colorForPlace(stops[i].place).line;
+            const seg = L.polyline([a, b], {
+                color: segColor, weight: 3, opacity: 0.85, dashArray: '6 6',
+            });
+            seg.addTo(group);
+            // Pilspiss: liten trekant ved b
+            const arrowHtml = `<div style="width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:9px solid ${segColor};transform:rotate(${_bearing(a, b)}deg);transform-origin:center;"></div>`;
+            const arrowIcon = L.divIcon({
+                className: 'place-journey-arrow',
+                html: arrowHtml,
+                iconSize: [10, 10],
+                iconAnchor: [5, 5],
+            });
+            // Plasser pil litt inn fra b mot a (75% av veien)
+            const px = a[0] + (b[0] - a[0]) * 0.75;
+            const py = a[1] + (b[1] - a[1]) * 0.75;
+            L.marker([px, py], { icon: arrowIcon, interactive: false }).addTo(group);
+        }
+        group.addTo(state.map);
+        state.journeyLayer = group;
+        btn.setAttribute('aria-pressed', 'true');
+    }
+
+    // Bæring i grader (0 = nord, klokken-rundt). Brukes til pilspiss-rotasjon.
+    function _bearing(a, b) {
+        const lat1 = a[0] * Math.PI / 180, lat2 = b[0] * Math.PI / 180;
+        const dLon = (b[1] - a[1]) * Math.PI / 180;
+        const y = Math.sin(dLon) * Math.cos(lat2);
+        const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(dLon);
+        const bearing = Math.atan2(y, x) * 180 / Math.PI;
+        // CSS-rotasjon: pilen peker oppover som standard, så bearing - 0 (oppover er 0°)
+        // men pilen i HTML peker oppover; rotere med (bearing) gir den vei. SVG/CSS
+        // rotasjon er klokkevis fra positiv y-akse, så vi ønsker (bearing) direkte.
+        return (bearing + 360) % 360;
     }
 
     // Etter render: tegn alle persisterte marks først (synkront, så de ikke flimrer),
