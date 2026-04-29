@@ -3187,7 +3187,7 @@
     <button type="button" data-action="open-verse" title="Åpne dette verset">📖</button>
     <button type="button" data-action="open-ref"   title="Vis kryssreferanser">§</button>
     <button type="button" data-action="open-map"   title="Vis steder på kart">📍</button>
-    <button type="button" data-action="open-comment" title="Vis fotnote">💬</button>
+    <button type="button" data-action="open-comment" title="Vis fotnote">#</button>
 </div>
 
 <!-- Mobile sticky bottom search bar -->
@@ -5860,9 +5860,11 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const mapEl = document.getElementById(hostId + '_map');
         if (!mapEl) return;
         const map = L.map(mapEl, { scrollWheelZoom: true });
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 18,
-            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        // Esri World Street Map har transliteret/engelsk-merkelapper for hele verden,
+        // i motsetning til OSM som bruker lokalspråk (hebraisk/arabisk i Midtøsten).
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+            maxZoom: 19,
+            attribution: 'Tiles © <a href="https://www.esri.com/" target="_blank" rel="noopener">Esri</a>',
         }).addTo(map);
 
         state.map = map;
