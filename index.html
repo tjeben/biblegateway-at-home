@@ -157,6 +157,37 @@
         }
         .nav-drawer-top .header-icon-btn,
         .nav-drawer-top .dark-toggle { color: white; }
+        /* Knapperad rett under topp-fanen — tilbakemelding og lenke til
+           annen søketjeneste. Like styles for begge så de fremstår som "samme" knapp. */
+        .nav-drawer-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border);
+        }
+        .nav-drawer-action-btn {
+            display: flex; align-items: center; gap: 10px;
+            padding: 10px 12px;
+            background: rgba(168, 50, 50, 0.06);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            color: var(--text);
+            font-size: 0.9rem;
+            font-family: inherit;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 140ms ease, border-color 140ms ease, transform 140ms ease;
+        }
+        .nav-drawer-action-btn:hover {
+            background: rgba(168, 50, 50, 0.12);
+            border-color: var(--accent);
+            transform: translateY(-1px);
+        }
+        [data-theme="dark"] .nav-drawer-action-btn { background: rgba(201, 68, 68, 0.10); }
+        [data-theme="dark"] .nav-drawer-action-btn:hover { background: rgba(201, 68, 68, 0.18); }
+        .nav-drawer-action-icon { font-size: 1.05rem; line-height: 1; }
         .nav-drawer-tree {
             flex: 1 1 auto;
             overflow-y: auto;
@@ -2430,6 +2461,26 @@
             pointer-events: none;
         }
 
+        /* "Ingenting å vise"-tilstand for studieelementer — beholder hosten
+           synlig men gråer den ut med en melding, slik at brukeren ikke mister
+           panelet bare fordi neste vers/kap ikke har data. */
+        .bible-map-wrap.is-empty {
+            opacity: 0.55;
+            filter: grayscale(0.6);
+            transition: opacity 220ms ease, filter 220ms ease;
+        }
+        .bible-map-empty {
+            padding: 22px 16px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.92rem;
+            background: rgba(0, 0, 0, 0.03);
+            border-radius: 12px;
+            border: 1px dashed var(--border);
+            line-height: 1.5;
+        }
+        [data-theme="dark"] .bible-map-empty { background: rgba(255, 255, 255, 0.04); }
+
         /* Lukke-animasjon for viz-hosts (Kart, Tidslinje, Kontekst, Tema-kart) */
         .bible-map-wrap.closing {
             animation: vizSpringOut 260ms cubic-bezier(.4, 0, .35, 1) forwards;
@@ -3239,6 +3290,16 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12"></path><path d="M18 6l-12 12"></path></svg>
         </button>
     </div>
+    <div class="nav-drawer-actions">
+        <button type="button" class="nav-drawer-action-btn" onclick="closeNavDrawer(); openFeedbackForm();">
+            <span class="nav-drawer-action-icon">✉️</span>
+            <span>Send tilbakemelding</span>
+        </button>
+        <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="nav-drawer-action-btn">
+            <span class="nav-drawer-action-icon">🔗</span>
+            <span>Annen søketjeneste</span>
+        </a>
+    </div>
     <nav class="nav-drawer-tree" id="navDrawerTree" aria-label="Bibelnavigasjon"></nav>
     <div class="nav-drawer-footer">
         Alle KI-funksjoner er merket med gult — bruk dem med omhu.
@@ -3305,10 +3366,6 @@
             <h3>Laget av</h3>
             <p>Jeg heter <strong>Benjamin Tjelle</strong>. Jeg er student og driver med webutvikling ved siden av studiene, og som kristen ønsker jeg å lage gratis verktøy som gjør det enklere å bli bedre kjent med Gud og hans ord.</p>
             <p>Se flere prosjekter på <a href="https://tjelle.net" target="_blank" rel="noopener">tjelle.net</a>. Har du funnet feil eller har forslag? Ta gjerne kontakt.</p>
-            <div class="modal-links">
-                <button type="button" class="feedback-link" onclick="openFeedbackForm()">✉️ Send tilbakemelding</button>
-                <a href="https://bible.hellerslien.net/" target="_blank" rel="noopener" class="competitor-link">En annen god tjeneste</a>
-            </div>
         </div>
     </div>
 </div>
@@ -4483,6 +4540,27 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     }
 
     // Generell: lukk en viz-host med fade-ut animasjon
+    // Marker en åpen viz-host som "tom" — gråer den ut og viser en melding,
+    // i stedet for å lukke hosten ved navigering til et vers/kap uten data.
+    function _setVizHostEmpty(hostId, message) {
+        const host = document.getElementById(hostId);
+        if (!host) return;
+        // Rens opp Leaflet om dette er stedskartet
+        if (typeof placeMapHosts !== 'undefined' && placeMapHosts[hostId]) {
+            const st = placeMapHosts[hostId];
+            if (st.map) { try { st.map.remove(); } catch {} }
+            if (host._placeResizeObserver) { try { host._placeResizeObserver.disconnect(); } catch {} }
+            delete placeMapHosts[hostId];
+        }
+        host.classList.add('is-empty');
+        const inner = host.querySelector('.bible-map-inner');
+        if (inner) inner.innerHTML = `<div class="bible-map-empty">${escHtml(message)}</div>`;
+    }
+    function _clearVizHostEmpty(hostId) {
+        const host = document.getElementById(hostId);
+        if (host) host.classList.remove('is-empty');
+    }
+
     window.closeVizHost = function(id) {
         const el = document.getElementById(id);
         if (!el || el.classList.contains('closing')) return;
@@ -8435,11 +8513,12 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const mapHost = document.getElementById('xrefMapHost');
         if (mapHost) {
             if (items.length > 0) {
+                _clearVizHostEmpty('xrefMapHost');
                 currentXrefMapItems = items;
                 const inner = mapHost.querySelector('.bible-map-inner');
                 if (inner) inner.innerHTML = buildXrefMapBodyHtml(items, xrefMapMode);
             } else {
-                closeVizHost('xrefMapHost');
+                _setVizHostEmpty('xrefMapHost', 'Dette verset har ingen kryssreferanser.');
             }
         }
 
@@ -8447,7 +8526,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const tlHost = document.getElementById('xrefTimelineHost');
         if (tlHost) {
             if (items.length > 0 && source) {
-                // Behold valgt colorMode, nullstill tekst-cache for nye refs
+                _clearVizHostEmpty('xrefTimelineHost');
                 xrefTimelineState = {
                     source,
                     items,
@@ -8457,14 +8536,15 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 renderXrefTimelineHost();
                 prefetchTimelineVerseTexts(items, xrefTimelineState);
             } else {
-                closeVizHost('xrefTimelineHost');
+                _setVizHostEmpty('xrefTimelineHost', 'Dette verset har ingen kryssreferanser.');
             }
         }
 
-        // Kapittel-tidslinje: oppdater når vi står i kapittelvisning, ellers lukk
+        // Kapittel-tidslinje: oppdater når vi står i kapittelvisning, ellers tøm
         const chapterTlHost = document.getElementById('chapterTimelineHost');
         if (chapterTlHost) {
             if (chapterInfo && chapterInfo.source) {
+                _clearVizHostEmpty('chapterTimelineHost');
                 chapterTimelineState = {
                     source: chapterInfo.source,
                     items: chapterInfo.items,
@@ -8477,7 +8557,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 renderChapterTimelineHost();
                 prefetchTimelineVerseTexts(chapterInfo.items, chapterTimelineState);
             } else {
-                closeVizHost('chapterTimelineHost');
+                _setVizHostEmpty('chapterTimelineHost', 'Dette kapittelet har ingen samlede referanser.');
             }
         }
 
@@ -8491,7 +8571,9 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             }
         });
 
-        // Stedskart: oppdater til nytt vers/kapittel-scope hvis det er åpent
+        // Stedskart: oppdater til nytt vers/kapittel-scope hvis det er åpent.
+        // Hvis det nye verset/kapittelet ikke har steder, beholder vi panelet
+        // synlig og gråer det ut med en melding i stedet for å lukke det.
         const placeHost = document.getElementById('placeMapHost');
         if (placeHost) {
             const newScope  = isSingleVerse ? 'verse' : 'chapter';
@@ -8500,24 +8582,53 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 : (block.book && block.verses[0] ? `${block.book}.${block.verses[0].chapter}` : '');
             const cur = placeMapHosts['placeMapHost'];
             if (newSource && (!cur || cur.key !== newSource || cur.scope !== newScope)) {
-                // Sjekk indeks først så vi unngår fetch når vi vet det er tomt
                 const has = PLACES_HAS.loaded
                     ? (newScope === 'verse' ? PLACES_HAS.verses.has(newSource) : PLACES_HAS.chapters.has(newSource))
                     : true;
+                const emptyMsg = newScope === 'verse'
+                    ? 'Dette verset har ingen registrerte steder.'
+                    : 'Dette kapittelet har ingen registrerte steder.';
                 if (!has) {
-                    closeVizHost('placeMapHost');
+                    _setVizHostEmpty('placeMapHost', emptyMsg);
                 } else {
                     const url = newScope === 'verse'
                         ? `/api/places?usfm=${encodeURIComponent(newSource)}`
                         : `/api/places?book=${encodeURIComponent(newSource.split('.')[0])}&chapter=${encodeURIComponent(newSource.split('.')[1])}`;
                     fetch(url).then(r => r.json()).then(data => {
                         const places = (data && data.places) || [];
-                        // Sjekk at host fortsatt er åpen og at scope ikke har endret seg igjen i mellomtiden
                         if (!document.getElementById('placeMapHost')) return;
-                        if (!places.length) { closeVizHost('placeMapHost'); return; }
-                        // Lukk og åpne på nytt — enkelt og robust (Leaflet trenger ny init)
-                        closeVizHost('placeMapHost');
-                        setTimeout(() => _renderPlaceMapHost('placeMapHost', newScope, newSource, places), 240);
+                        if (!places.length) { _setVizHostEmpty('placeMapHost', emptyMsg); return; }
+                        // Re-render full Leaflet-host: rens først, så bygg på nytt
+                        _setVizHostEmpty('placeMapHost', emptyMsg); // sletter Leaflet-state
+                        _clearVizHostEmpty('placeMapHost');
+                        // Sett innholdet tilbake til standard struktur for stedskart
+                        const inner = document.querySelector('#placeMapHost .bible-map-inner');
+                        if (inner) {
+                            inner.innerHTML = `
+                                <div class="place-chips" data-host="placeMapHost"></div>
+                                <div class="place-leaflet" id="placeMapHost_map" style="height:380px;border-radius:10px;overflow:hidden;"></div>
+                                <div class="place-hint" style="font-size:0.78rem;color:var(--text-muted);margin-top:6px;">
+                                    Klikk en stedsknapp for å skjule/vise på kartet. Klikk en pin på kartet for detaljer.
+                                </div>
+                            `;
+                        }
+                        // Initialiser state og kart på nytt
+                        const state = {
+                            scope: newScope, key: newSource, places,
+                            visible: new Set(places.map(p => p.id)),
+                            map: null, layers: {},
+                            marks: new Map(),
+                            markedPlaces: new Set(),
+                            markRunIds: new Map(),
+                            expandedChips: false,
+                        };
+                        placeMapHosts['placeMapHost'] = state;
+                        _renderChips('placeMapHost');
+                        if (typeof L !== 'undefined') {
+                            setTimeout(() => _initPlaceMap('placeMapHost'), 30);
+                        } else {
+                            setTimeout(() => _initPlaceMap('placeMapHost'), 220);
+                        }
                     }).catch(() => {});
                 }
             }
