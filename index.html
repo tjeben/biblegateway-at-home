@@ -892,26 +892,26 @@
             display: flex;
             animation: vtSlideDown 180ms cubic-bezier(.22,.86,.24,1);
         }
-        /* Hover-popout: legger seg på selve chevron-radens høyde, rett til høyre for
-           ⚙️-knappen. Da kan brukeren skli musen rett mot høyre uten å miste hover. */
+        /* Hover-popout: starter rett til høyre for ⚙️ (samme vertikale start som
+           chevron-raden), strekker seg utover og vokser nedover hvis knappene ikke
+           får plass. Ingen scrollebar — knappene wrapper i stedet. */
         .chevron-and-tools .verse-card-toolbar[data-state="hover"] {
             display: flex;
             align-items: center;
+            flex-wrap: wrap;
             position: absolute;
             left: 38px;             /* slutt-kant av ⚙️ (32px) + 6px luft */
             right: 0;
-            top: 4px;
-            bottom: 14px;            /* matcher chevron-wrap-marginen */
+            top: 4px;                /* matcher chevron-wrap-marginen */
             margin: 0;
-            padding: 4px 10px;
+            padding: 6px 10px;
+            gap: 6px;
             background: var(--card-bg);
             border: 1px solid var(--border);
             border-radius: 12px;
             box-shadow: 0 4px 14px rgba(0, 0, 0, 0.14);
             z-index: 6;
             animation: vtFadeRight 160ms cubic-bezier(.22,.86,.24,1);
-            overflow-x: auto;
-            flex-wrap: nowrap;
         }
         @keyframes vtSlideDown {
             from { opacity: 0; transform: translateY(-6px); }
