@@ -2304,6 +2304,64 @@ Regler:
                 sys.stderr.flush()
                 self._send_json({"error": str(e)}, 500)
 
+        elif path == "/api/ai_commentary_focus":
+            # Marker hvilke setninger/fraser i en kommentar-bolk som handler om
+            # ett bestemt vers brukeren har åpent.
+            api_key = os.environ.get("GEMINI_API_KEY", "")
+            if not api_key:
+                self._send_json({"error": "GEMINI_API_KEY ikke konfigurert"}, 500)
+                return
+            commentary_text = body.get("commentary_text", "")
+            label = body.get("label", "")            # f.eks. "Joh 3:16"
+            target_verse = body.get("target_verse")  # int
+            verse_start = body.get("verse_start")    # int
+            verse_end = body.get("verse_end")        # int
+            if not commentary_text or target_verse is None:
+                self._send_json({"error": "Mangler commentary_text eller target_verse"}, 400)
+                return
+            # Begrens input — Henrys lengste bolker er ~30 KB, men vi capper for sikkerhets skyld
+            commentary_text = commentary_text[:30000]
+            sys.stderr.write(f"[{self.log_date_time_string()}] ai_commentary_focus: {label} (vers {target_verse} av {verse_start}-{verse_end})\n")
+            sys.stderr.flush()
+            try:
+                result = gemini_request(
+                    api_key,
+                    (
+                        f"Mål-vers: {label} (vers {target_verse}). "
+                        f"Kommentaren dekker vers {verse_start}-{verse_end}.\n\n"
+                        f"Kommentar:\n{commentary_text}"
+                    ),
+                    "Du er en bibelforsker. Brukeren leser et bestemt vers og har åpnet en "
+                    "kommentar som dekker en bredere bolk vers. Plukk ut 3-8 KORTE fraser "
+                    "(2-8 ord hver) FRA KOMMENTAREN som spesifikt handler om mål-verset — ikke "
+                    "om de andre versene i bolken.\n\n"
+                    "Frasene MÅ stå EKSAKT slik de er i kommentar-teksten (samme bokstaver, "
+                    "tegnsetting, store/små bokstaver). Velg fraser som er distinkte nok til "
+                    "at de bare finnes ett sted i teksten.\n\n"
+                    "Returner KUN gyldig JSON:\n"
+                    '{"phrases": ["frase 1", "frase 2", ...]}\n\n'
+                    "Hvis kommentaren ikke har spesifikt fokus på mål-verset, returner tom liste. "
+                    "Ingen innledning, ingen etterord.",
+                    max_tokens=400,
+                )
+                cleaned = result.strip()
+                if cleaned.startswith("```"):
+                    cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else cleaned
+                    if cleaned.endswith("```"):
+                        cleaned = cleaned.rsplit("\n", 1)[0]
+                    cleaned = cleaned.replace("```json", "").replace("```", "").strip()
+                try:
+                    parsed = json.loads(cleaned)
+                    self._send_json({"phrases": parsed.get("phrases", [])})
+                except Exception as parse_err:
+                    sys.stderr.write(f"[{self.log_date_time_string()}] ai_commentary_focus parse-feil: {parse_err} — rå: {result[:200]}\n")
+                    sys.stderr.flush()
+                    self._send_json({"error": "KI returnerte ugyldig format"}, 500)
+            except Exception as e:
+                sys.stderr.write(f"[{self.log_date_time_string()}] ai_commentary_focus FEIL: {e}\n")
+                sys.stderr.flush()
+                self._send_json({"error": str(e)}, 500)
+
         elif path == "/api/ai_match_phrase":
             api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:

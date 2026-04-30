@@ -1133,6 +1133,20 @@
             margin: 0.6em 0;
             font-style: italic;
         }
+        /* Skjul bibelteksten (KJV) i kommentaren — bruker har allerede teksten åpen */
+        #commentaryHost[data-show-verse="0"] .commentary-entry-body font[size="+1"] {
+            display: none;
+        }
+        /* KI-marker for setninger i kommentaren som handler om åpent vers */
+        .commentary-entry-body mark.commentary-focus {
+            background: rgba(255, 220, 100, 0.55);
+            padding: 0 2px;
+            border-radius: 2px;
+            color: inherit;
+        }
+        [data-theme="dark"] .commentary-entry-body mark.commentary-focus {
+            background: rgba(220, 180, 60, 0.40);
+        }
 
         /* Fotnote om KI-bruk nederst på siden */
         .ai-footer-note {
@@ -6138,6 +6152,71 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     };
 
     // ── 📖 Kommentar (Matthew Henry m.fl.) ────────────────────────────────
+    // Cache av KI-fraser per kommentar-source så toggle ikke koster nytt API-kall
+    const commentaryFocusCache = new Map();   // source (BOK.K.V) -> string[] phrases
+    let commentaryFocusActive = false;
+
+    function _applyCommentaryFocusMarks(hostEl, phrases) {
+        if (!hostEl || !phrases || !phrases.length) return 0;
+        const bodies = hostEl.querySelectorAll('.commentary-entry-body');
+        // Lengste først så lange fraser ikke spises av kortere overlappende
+        const sorted = phrases.filter(p => p && p.trim().length > 2).sort((a, b) => b.length - a.length);
+        let totalMatches = 0;
+        bodies.forEach(body => {
+            sorted.forEach(phrase => {
+                const escPhrase = phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const re = new RegExp(escPhrase, 'gi');
+                const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT, {
+                    acceptNode: (n) => {
+                        // Hopp over tekst som allerede er inni en mark.commentary-focus,
+                        // og tekst inni font[size="+1"] (bibelsitatet — ikke marker der)
+                        let p = n.parentElement;
+                        while (p && p !== body) {
+                            if (p.tagName === 'MARK' && p.classList.contains('commentary-focus')) return NodeFilter.FILTER_REJECT;
+                            if (p.tagName === 'FONT' && (p.getAttribute('size') === '+1' || p.getAttribute('size') === '1')) return NodeFilter.FILTER_REJECT;
+                            p = p.parentElement;
+                        }
+                        return NodeFilter.FILTER_ACCEPT;
+                    }
+                });
+                const targets = [];
+                let n;
+                while ((n = walker.nextNode())) targets.push(n);
+                targets.forEach(textNode => {
+                    const text = textNode.nodeValue;
+                    re.lastIndex = 0;
+                    if (!re.test(text)) return;
+                    re.lastIndex = 0;
+                    const frag = document.createDocumentFragment();
+                    let last = 0, m;
+                    while ((m = re.exec(text)) !== null) {
+                        if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+                        const mark = document.createElement('mark');
+                        mark.className = 'commentary-focus';
+                        mark.textContent = m[0];
+                        frag.appendChild(mark);
+                        last = m.index + m[0].length;
+                        totalMatches++;
+                        if (m[0].length === 0) re.lastIndex++; // unngå evig løkke
+                    }
+                    if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+                    textNode.parentNode.replaceChild(frag, textNode);
+                });
+            });
+        });
+        return totalMatches;
+    }
+
+    function _clearCommentaryFocusMarks(hostEl) {
+        if (!hostEl) return;
+        hostEl.querySelectorAll('mark.commentary-focus').forEach(mark => {
+            const parent = mark.parentNode;
+            while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+            parent.removeChild(mark);
+            parent.normalize();
+        });
+    }
+
     function _refreshCommentaryBtn(btn) {
         if (!COMMENTARIES_HAS.loaded) {
             btn.setAttribute('data-pending', '1');
@@ -6226,7 +6305,140 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const titleHtml = `📖 Kommentar — ${escHtml(titleSuffix || source)}`;
         renderXrefViz(hostId, titleHtml, inner);
         const host = document.getElementById(hostId);
-        if (host) host.setAttribute('data-source', source);
+        if (host) {
+            host.setAttribute('data-source', source);
+            host.setAttribute('data-scope', scope);
+            host.setAttribute('data-show-verse', '0'); // bibeltekst skjult som default
+            const actions = host.querySelector('.study-panel-actions');
+            if (actions) {
+                // KI-knapp: marker hvilken del av kommentaren som handler om dette spesifikke verset.
+                // Kun meningsfullt når brukeren har ÉT vers åpent (ellers er hele bolken relevant).
+                if (scope === 'verse') {
+                    const focusBtn = document.createElement('button');
+                    focusBtn.className = 'card-action-btn ai-btn';
+                    focusBtn.type = 'button';
+                    focusBtn.setAttribute('aria-pressed', commentaryFocusActive ? 'true' : 'false');
+                    focusBtn.title = 'Fremhev setninger i kommentaren som handler om dette verset';
+                    focusBtn.textContent = commentaryFocusActive ? '⏳ Markerer…' : '✨ Marker relevant';
+                    if (commentaryFocusActive) focusBtn.classList.add('active');
+                    focusBtn.addEventListener('click', () => _toggleCommentaryFocus(focusBtn));
+                    actions.insertBefore(focusBtn, actions.firstChild);
+                }
+                // Toggle bibeltekst (KJV)
+                const toggleBtn = document.createElement('button');
+                toggleBtn.className = 'card-action-btn';
+                toggleBtn.type = 'button';
+                toggleBtn.setAttribute('aria-pressed', 'false');
+                toggleBtn.title = 'Vis/skjul bibelteksten (KJV) som siteres i kommentaren';
+                toggleBtn.textContent = 'Vis bibeltekst';
+                toggleBtn.addEventListener('click', () => {
+                    const showing = host.getAttribute('data-show-verse') === '1';
+                    host.setAttribute('data-show-verse', showing ? '0' : '1');
+                    toggleBtn.setAttribute('aria-pressed', showing ? 'false' : 'true');
+                    toggleBtn.textContent = showing ? 'Vis bibeltekst' : 'Skjul bibeltekst';
+                });
+                actions.insertBefore(toggleBtn, actions.firstChild);
+            }
+            // Hvis brukeren har KI-fokus aktiv fra forrige vers, og dette er et vers-scope,
+            // og vi har cache for det nye verset, påfør markeringen umiddelbart.
+            if (scope === 'verse' && commentaryFocusActive && commentaryFocusCache.has(source)) {
+                _applyCommentaryFocusMarks(host, commentaryFocusCache.get(source));
+            }
+        }
+    }
+
+    async function _toggleCommentaryFocus(btn) {
+        const host = document.getElementById('commentaryHost');
+        if (!host) return;
+        const source = host.getAttribute('data-source');
+        const scope  = host.getAttribute('data-scope');
+        if (!source || scope !== 'verse') return;
+
+        // Toggle av: fjern markeringer, deaktiver
+        if (commentaryFocusActive) {
+            commentaryFocusActive = false;
+            _clearCommentaryFocusMarks(host);
+            btn.classList.remove('active');
+            btn.setAttribute('aria-pressed', 'false');
+            btn.textContent = '✨ Marker relevant';
+            return;
+        }
+
+        // Hvis vi har cache for denne kilden, bruk den
+        if (commentaryFocusCache.has(source)) {
+            commentaryFocusActive = true;
+            const phrases = commentaryFocusCache.get(source);
+            const matches = _applyCommentaryFocusMarks(host, phrases);
+            btn.classList.add('active');
+            btn.setAttribute('aria-pressed', 'true');
+            btn.textContent = matches > 0 ? '✨ Skjul markering' : 'Ingen treff';
+            if (matches === 0) showToast('KI fant ikke konkrete fraser å fremheve.');
+            return;
+        }
+
+        // Hent commentary_text fra DOM (alle entries) — vi sender ren tekst, ikke HTML
+        const bodies = host.querySelectorAll('.commentary-entry-body');
+        let combined = '';
+        bodies.forEach(b => { combined += b.textContent + '\n\n'; });
+        combined = combined.trim();
+        if (!combined) { showToast('Ingen kommentar å analysere.'); return; }
+
+        // Finn vers-bolkens omfang (verse_start/verse_end) fra første relevante entry
+        // — vi har det ikke i DOM, så vi parser fra summary-teksten.
+        let vStart = null, vEnd = null;
+        host.querySelectorAll('.commentary-entry > summary').forEach(s => {
+            const m = s.textContent.match(/vers\s+(\d+)(?:[–-](\d+))?/i);
+            if (m) { vStart = parseInt(m[1], 10); vEnd = m[2] ? parseInt(m[2], 10) : vStart; }
+        });
+        const parts = source.split('.');
+        const targetVerse = parts.length >= 3 ? parseInt(parts[2], 10) : null;
+        if (!targetVerse) { showToast('Kan ikke avgjøre mål-vers.'); return; }
+
+        const labelGuess = (window.bookName ? bookName(parts[0]) : parts[0]) + ' ' + parts[1] + ':' + parts[2];
+
+        commentaryFocusActive = true;
+        btn.classList.add('active');
+        btn.disabled = true;
+        btn.textContent = '⏳ Analyserer…';
+        try {
+            const resp = await fetch('/api/ai_commentary_focus', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    commentary_text: combined,
+                    label: labelGuess,
+                    target_verse: targetVerse,
+                    verse_start: vStart || targetVerse,
+                    verse_end: vEnd || targetVerse,
+                }),
+            });
+            const data = await resp.json();
+            if (!resp.ok) {
+                showToast(data.error || 'KI-feil');
+                commentaryFocusActive = false;
+                btn.classList.remove('active');
+                btn.textContent = '✨ Marker relevant';
+                btn.disabled = false;
+                return;
+            }
+            const phrases = data.phrases || [];
+            commentaryFocusCache.set(source, phrases);
+            // Sjekk at hosten fortsatt er åpen for samme source (bruker kan ha navigert)
+            const stillOpen = document.getElementById('commentaryHost');
+            if (stillOpen && stillOpen.getAttribute('data-source') === source) {
+                const matches = _applyCommentaryFocusMarks(stillOpen, phrases);
+                btn.textContent = matches > 0 ? '✨ Skjul markering' : 'Ingen treff';
+                btn.setAttribute('aria-pressed', 'true');
+                if (matches === 0) showToast('KI fant ikke konkrete fraser å fremheve.');
+            }
+        } catch (e) {
+            showToast('Kunne ikke kontakte KI');
+            commentaryFocusActive = false;
+            btn.classList.remove('active');
+            btn.textContent = '✨ Marker relevant';
+        } finally {
+            btn.disabled = false;
+        }
     }
 
     function _commentaryEntryLabel(entry, scope) {
@@ -9046,6 +9258,38 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                             setTimeout(() => _initPlaceMap('placeMapHost'), 220);
                         }
                     }).catch(() => {});
+                }
+            }
+        }
+
+        // 📖 Kommentar: oppdater til nytt vers/kapittel-scope hvis det er åpent.
+        const commentaryHost = document.getElementById('commentaryHost');
+        if (commentaryHost) {
+            const newScope  = isSingleVerse ? 'verse' : 'chapter';
+            const newSource = isSingleVerse
+                ? source
+                : (block.book && block.verses[0] ? `${block.book}.${block.verses[0].chapter}` : '');
+            const curSource = commentaryHost.getAttribute('data-source');
+            if (newSource && curSource !== newSource) {
+                const chapterKey = newSource.split('.').slice(0, 2).join('.');
+                const has = COMMENTARIES_HAS.loaded
+                    ? (COMMENTARIES_HAS.available && COMMENTARIES_HAS.chapters.has(chapterKey))
+                    : true;
+                const emptyMsg = 'Ingen kommentar tilgjengelig for dette ' + (newScope === 'verse' ? 'verset' : 'kapittelet') + '.';
+                if (!has) {
+                    _setVizHostEmpty('commentaryHost', emptyMsg);
+                } else {
+                    fetch(`/api/commentaries?usfm=${encodeURIComponent(newSource)}`)
+                        .then(r => r.json())
+                        .then(data => {
+                            if (!document.getElementById('commentaryHost')) return;
+                            const entries = (data && data.entries) || [];
+                            if (!entries.length) { _setVizHostEmpty('commentaryHost', emptyMsg); return; }
+                            // Lukk og bygg helt på nytt — bevarer KI-fokus state via cache
+                            closeVizHost('commentaryHost');
+                            _renderCommentaryHost('commentaryHost', newSource, newScope, entries);
+                        })
+                        .catch(() => {});
                 }
             }
         }
