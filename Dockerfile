@@ -12,7 +12,12 @@ RUN test -n "$GITHUB_TOKEN" || (echo "GITHUB_TOKEN build-arg mangler" && exit 1)
        -H "Accept: application/vnd.github.raw" \
        -o bible.db \
        https://api.github.com/repos/tobiashellerslien/bible.db/contents/bible.db?ref=main \
-    && [ -s bible.db ] || (echo "bible.db nedlasting feilet" && exit 1)
+    && [ -s bible.db ] || (echo "bible.db nedlasting feilet" && exit 1) \
+    && curl -fSL -H "Authorization: Bearer $GITHUB_TOKEN" \
+       -H "Accept: application/vnd.github.raw" \
+       -o commentaries.db \
+       https://api.github.com/repos/tjeben/commentaries.db/contents/commentaries.db?ref=main \
+    && [ -s commentaries.db ] || (echo "commentaries.db nedlasting feilet" && exit 1)
 
 COPY . .
 ENV SERVER_MODE=production

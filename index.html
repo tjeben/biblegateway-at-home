@@ -1092,6 +1092,48 @@
             align-items: center;
         }
 
+        /* 📖 Kommentar-visning */
+        .commentary-source { margin-bottom: 14px; }
+        .commentary-entry {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 6px;
+            background: var(--bg);
+        }
+        .commentary-entry > summary {
+            cursor: pointer;
+            padding: 8px 12px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            user-select: none;
+            list-style: none;
+        }
+        .commentary-entry > summary::-webkit-details-marker { display: none; }
+        .commentary-entry > summary::before {
+            content: "▸";
+            display: inline-block;
+            margin-right: 6px;
+            transition: transform 0.15s;
+            color: var(--text-muted);
+        }
+        .commentary-entry[open] > summary::before { transform: rotate(90deg); }
+        .commentary-entry-body {
+            padding: 4px 14px 14px;
+            font-size: 0.93rem;
+            line-height: 1.55;
+            color: var(--text);
+        }
+        .commentary-entry-body p { margin: 0.6em 0; }
+        .commentary-entry-body font[size="+1"] {
+            display: block;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            border-left: 3px solid var(--accent);
+            padding-left: 10px;
+            margin: 0.6em 0;
+            font-style: italic;
+        }
+
         /* Fotnote om KI-bruk nederst på siden */
         .ai-footer-note {
             text-align: center;
@@ -3459,6 +3501,7 @@
             <h3>Kilder til bibelversjoner</h3>
             <p>Bibeltekstene er hentet fra <a href="https://www.bible.com" target="_blank" rel="noopener">bible.com</a> (YouVersion) og lagres lokalt i appen så oppslagene er raske. All rett til oversettelsene tilhører deres respektive rettighetshavere, blant annet Bibelselskapet, Norsk Bibel og Crossway. Denne appen er kun ment som et verktøy for bibelsøk for å dykke dypere i skriftene.</p>
             <p>Kryssreferanser er hentet fra <a href="https://www.openbible.info/labs/cross-references/" target="_blank" rel="noopener">OpenBible.info Labs</a>, et åpent datasett basert på <em>Treasury of Scripture Knowledge</em> og andre historiske samlinger, brukerstemmerangert etter relevans.</p>
+            <p>Selve databasen (sammenstillingen og strukturen som driver appen) er <strong>Copyright &copy; 2026 Tobias Hellerslien</strong>. Dette gjelder databasen som verk — ikke bibeltekstene eller kryssreferansene, som tilhører sine respektive rettighetshavere som beskrevet ovenfor.</p>
 
             <h3>Laget av</h3>
             <p>Jeg heter <strong>Benjamin Tjelle</strong>. Jeg er student og driver med webutvikling ved siden av studiene, og som kristen ønsker jeg å lage gratis verktøy som gjør det enklere å bli bedre kjent med Gud og hans ord.</p>
@@ -6094,6 +6137,107 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         openPlaceMapBySource(btn.getAttribute('data-scope'), btn.getAttribute('data-source'));
     };
 
+    // ── 📖 Kommentar (Matthew Henry m.fl.) ────────────────────────────────
+    function _refreshCommentaryBtn(btn) {
+        if (!COMMENTARIES_HAS.loaded) {
+            btn.setAttribute('data-pending', '1');
+            btn.classList.remove('place-map-btn-empty');
+            return;
+        }
+        btn.removeAttribute('data-pending');
+        const src = btn.getAttribute('data-source') || '';
+        const parts = src.split('.');
+        const chapterKey = parts.length >= 2 ? `${parts[0]}.${parts[1]}` : '';
+        const has = COMMENTARIES_HAS.available && COMMENTARIES_HAS.chapters.has(chapterKey);
+        btn.classList.toggle('place-map-btn-empty', !has);
+        if (!has) {
+            const scope = btn.getAttribute('data-scope') || 'verse';
+            btn.setAttribute('title', 'Ingen kommentar tilgjengelig for dette ' + (scope === 'verse' ? 'verset' : 'kapittelet'));
+        } else {
+            btn.setAttribute('title', 'Vis Matthew Henrys kommentar');
+        }
+    }
+
+    window.openCommentary = function(btn) {
+        const source = btn.getAttribute('data-source');
+        const scope  = btn.getAttribute('data-scope');
+        if (!source || !scope) return;
+
+        const hostId = 'commentaryHost';
+        const existing = document.getElementById(hostId);
+        // Toggle av når samme source er åpen
+        if (existing && existing.getAttribute('data-source') === source) {
+            closeVizHost(hostId);
+            return;
+        }
+        if (existing) closeVizHost(hostId);
+
+        const noMsg = 'Ingen kommentar tilgjengelig for dette ' + (scope === 'verse' ? 'verset' : 'kapittelet');
+        if (COMMENTARIES_HAS.loaded) {
+            const parts = source.split('.');
+            const chapterKey = parts.length >= 2 ? `${parts[0]}.${parts[1]}` : '';
+            if (!COMMENTARIES_HAS.available || !COMMENTARIES_HAS.chapters.has(chapterKey)) {
+                showToast(noMsg);
+                return;
+            }
+        }
+
+        fetch(`/api/commentaries?usfm=${encodeURIComponent(source)}`)
+            .then(r => r.json())
+            .then(data => {
+                const entries = (data && data.entries) || [];
+                if (!entries.length) { showToast(noMsg); return; }
+                _renderCommentaryHost(hostId, source, scope, entries);
+            })
+            .catch(() => showToast('Kunne ikke hente kommentar'));
+    };
+
+    function _renderCommentaryHost(hostId, source, scope, entries) {
+        let titleSuffix;
+        if (scope === 'verse') {
+            titleSuffix = formatUsfmRef(source) || source;
+        } else {
+            const [b, c] = source.split('.');
+            titleSuffix = `${bookName(b)} ${c}`;
+        }
+        // Gruppér etter kommentar-kilde (per nå bare Matthew Henry, men forbered for flere)
+        const bySource = new Map();
+        entries.forEach(e => {
+            if (!bySource.has(e.slug)) bySource.set(e.slug, { name: e.name, author: e.author, items: [] });
+            bySource.get(e.slug).items.push(e);
+        });
+
+        let inner = '';
+        bySource.forEach((grp, slug) => {
+            inner += `<div class="commentary-source" data-slug="${escAttr(slug)}">`;
+            if (bySource.size > 1) {
+                inner += `<div class="commentary-source-name" style="font-weight:600;margin-bottom:6px;">${escHtml(grp.name)}</div>`;
+            }
+            grp.items.forEach(item => {
+                const label = _commentaryEntryLabel(item, scope);
+                inner += `<details class="commentary-entry" ${grp.items.length === 1 ? 'open' : ''}>`;
+                inner += `<summary>${escHtml(label)}</summary>`;
+                inner += `<div class="commentary-entry-body">${item.body_html || ''}</div>`;
+                inner += `</details>`;
+            });
+            inner += `</div>`;
+        });
+
+        const titleHtml = `📖 Kommentar — ${escHtml(titleSuffix || source)}`;
+        renderXrefViz(hostId, titleHtml, inner);
+        const host = document.getElementById(hostId);
+        if (host) host.setAttribute('data-source', source);
+    }
+
+    function _commentaryEntryLabel(entry, scope) {
+        if (entry.scope === 'book_intro') return 'Bok-introduksjon';
+        if (entry.scope === 'chapter_intro') return 'Kapittel-introduksjon';
+        const range = (entry.verse_start === entry.verse_end)
+            ? `vers ${entry.verse_start}`
+            : `vers ${entry.verse_start}–${entry.verse_end}`;
+        return entry.heading ? `${entry.heading} (${range})` : range;
+    }
+
     function openPlaceMapBySource(scope, source) {
         if (!source || !scope) return;
 
@@ -7491,6 +7635,8 @@ const resultsWrapper = document.getElementById('resultsWrapper');
     let BOOK_GROUPS = [];  // Lastes fra /api/book_groups: [{key, name_no, name_en, books}]
     // Sett over USFM-koder + kapitler som har registrerte steder (for å utgrå "📍 Kart")
     const PLACES_HAS = { verses: new Set(), chapters: new Set(), loaded: false };
+    // Sett over (book.chapter) som har kommentar-innhold (for å utgrå "📖 Kommentar")
+    const COMMENTARIES_HAS = { chapters: new Set(), available: false, loaded: false };
     async function init() {
         const resp = await fetch('/api/versions');
         const data = await resp.json();
@@ -7516,6 +7662,20 @@ const resultsWrapper = document.getElementById('resultsWrapper');
                 });
             })
             .catch(() => { PLACES_HAS.loaded = true; });
+        // Last kommentar-indeks i bakgrunnen — brukes til å utgrå "📖 Kommentar"-knappen
+        fetch('/api/commentaries/has')
+            .then(r => r.ok ? r.json() : null)
+            .then(d => {
+                if (d) {
+                    COMMENTARIES_HAS.chapters = new Set(d.chapters || []);
+                    COMMENTARIES_HAS.available = !!d.available;
+                }
+                COMMENTARIES_HAS.loaded = true;
+                document.querySelectorAll('.commentary-btn[data-pending="1"]').forEach(btn => {
+                    _refreshCommentaryBtn(btn);
+                });
+            })
+            .catch(() => { COMMENTARIES_HAS.loaded = true; });
         data.versions.forEach(v => {
             versionSelect.add(new Option(versionLabel(v), v));
             // "Alle" gir ikke mening som sammenligningsversjon — kun ekte versjoner
@@ -9036,6 +9196,22 @@ const resultsWrapper = document.getElementById('resultsWrapper');
         const placePendingAttr = placeHas === null ? 'data-pending="1"' : '';
         const placeBtn = `<button class="card-action-btn place-map-btn${placeEmptyClass}" data-source="${escAttr(placeSource)}" data-scope="${placeScope}" ${placeTitleAttr} ${placePendingAttr} onclick="openVersePlaceMap(this)">📍 Kart</button>`;
 
+        // 📖 Kommentar: vers-nivå når ett vers vises, ellers kapittel-nivå.
+        const commentaryScope  = singleV ? 'verse' : 'chapter';
+        const commentarySource = singleV
+            ? `${block.book}.${singleV.chapter}.${singleV.num}`
+            : `${block.book}.${ch}`;
+        const commentaryChapterKey = `${block.book}.${ch}`;
+        const commentaryHas = COMMENTARIES_HAS.loaded
+            ? (COMMENTARIES_HAS.available && COMMENTARIES_HAS.chapters.has(commentaryChapterKey))
+            : null;
+        const commentaryEmptyClass = commentaryHas === false ? ' place-map-btn-empty' : '';
+        const commentaryTitleAttr = commentaryHas === false
+            ? `title="Ingen kommentar tilgjengelig for dette ${commentaryScope === 'verse' ? 'verset' : 'kapittelet'}"`
+            : 'title="Vis Matthew Henrys kommentar"';
+        const commentaryPendingAttr = commentaryHas === null ? 'data-pending="1"' : '';
+        const commentaryBtn = `<button class="card-action-btn commentary-btn${commentaryEmptyClass}" data-source="${escAttr(commentarySource)}" data-scope="${commentaryScope}" ${commentaryTitleAttr} ${commentaryPendingAttr} onclick="openCommentary(this)">📖 Kommentar</button>`;
+
         // KI-sammenligningsknapper: vises bare i sammenligningsmodus
         let compareAiBtns = '';
         if (compareMode && compareData) {
@@ -9065,6 +9241,7 @@ const resultsWrapper = document.getElementById('resultsWrapper');
             <button class="card-action-btn ai-btn" data-label="${escAttr(cardLabel)}" data-text="${escAttr(cardText)}" onclick="openThemeMap(this)">🎨 Tema-kart</button>
             ${chapterXrefBtn}
             ${placeBtn}
+            ${commentaryBtn}
             ${compareAiBtns}`;
         if (ilUrl) {
             html += `<a class="card-action-btn" href="${ilUrl}" target="_blank" rel="noopener" style="text-decoration:none;">biblehub</a>`;

@@ -26,6 +26,7 @@ from pathlib import Path
 PORT = 8421
 BASE_DIR = Path(__file__).parent
 BIBLE_DB = BASE_DIR / "bible.db"
+COMMENTARIES_DB = BASE_DIR / "commentaries.db"
 
 # Mapping mellom URL-/frontend-versjonsnavn (gammelt mappe-navn) og translations.name i bible.db.
 # Holder API-kontrakten stabil: frontend fortsetter å sende "NB88", "Bibel2011" osv.
@@ -1370,10 +1371,106 @@ def search_text(bible_data, version, query, per_book=10, book_filter=None):
 
 
 # ──────────────────────────────────────────────
+# Kommentarer (Matthew Henry m.fl.) — egen SQLite-DB
+# ──────────────────────────────────────────────
+
+class Commentaries:
+    """Tynn wrapper rundt commentaries.db. Valgfri: hvis filen mangler er
+    `available=False` og endepunktene returnerer tomme svar."""
+
+    def __init__(self, db_path):
+        self.path = Path(db_path)
+        self.available = self.path.exists()
+        if not self.available:
+            self.sources = []
+            self.chapter_set = set()
+            return
+        self._conn = sqlite3.connect(str(self.path), check_same_thread=False, isolation_level=None)
+        self._conn.row_factory = sqlite3.Row
+        self._conn.execute("PRAGMA journal_mode=WAL")
+        self._conn.execute("PRAGMA query_only=1")
+        self._lock = threading.Lock()
+
+        # Cache kommentar-kilder + sett over (book.chapter) som har innhold,
+        # så frontend kan utgrå "📖 Kommentar"-knappen tilsvarende PLACES_HAS.
+        self.sources = [
+            dict(r) for r in self._query(
+                "SELECT id, slug, name, author, year, language, license, source_url "
+                "FROM commentaries ORDER BY id"
+            )
+        ]
+        self.chapter_set = {
+            f"{r['book_usfm']}.{r['chapter']}"
+            for r in self._query(
+                "SELECT DISTINCT book_usfm, chapter FROM commentary_entries "
+                "WHERE chapter > 0"
+            )
+        }
+
+    def _query(self, sql, params=()):
+        with self._lock:
+            return self._conn.execute(sql, params).fetchall()
+
+    def for_verse(self, book_usfm, chapter, verse):
+        if not self.available:
+            return []
+        rows = self._query(
+            """
+            SELECT c.slug, c.name, c.author,
+                   e.scope, e.heading, e.body_html,
+                   e.verse_start, e.verse_end
+              FROM commentary_entries e
+              JOIN commentaries c ON c.id = e.commentary_id
+             WHERE e.book_usfm = ?
+               AND e.chapter   = ?
+               AND e.scope     = 'verses'
+               AND ? BETWEEN e.verse_start AND e.verse_end
+             ORDER BY c.id, e.sort_order
+            """,
+            (book_usfm, chapter, verse),
+        )
+        return [dict(r) for r in rows]
+
+    def for_chapter(self, book_usfm, chapter, include_book_intro=False):
+        if not self.available:
+            return []
+        rows = self._query(
+            """
+            SELECT c.slug, c.name, c.author,
+                   e.scope, e.heading, e.body_html,
+                   e.verse_start, e.verse_end, e.sort_order
+              FROM commentary_entries e
+              JOIN commentaries c ON c.id = e.commentary_id
+             WHERE e.book_usfm = ?
+               AND e.chapter   = ?
+             ORDER BY c.id, e.sort_order
+            """,
+            (book_usfm, chapter),
+        )
+        result = [dict(r) for r in rows]
+        if include_book_intro:
+            intro_rows = self._query(
+                """
+                SELECT c.slug, c.name, c.author,
+                       e.scope, e.heading, e.body_html,
+                       e.verse_start, e.verse_end, e.sort_order
+                  FROM commentary_entries e
+                  JOIN commentaries c ON c.id = e.commentary_id
+                 WHERE e.book_usfm = ?
+                   AND e.scope     = 'book_intro'
+                """,
+                (book_usfm,),
+            )
+            result = [dict(r) for r in intro_rows] + result
+        return result
+
+
+# ──────────────────────────────────────────────
 # HTTP Server
 # ──────────────────────────────────────────────
 
 bible_data = None
+commentaries_data = None
 last_heartbeat = time.time()
 
 # ──────────────────────────────────────────────
@@ -1765,6 +1862,56 @@ class BibleHandler(http.server.BaseHTTPRequestHandler):
             self._send_json({
                 "verses": sorted(bible_data.places_verse_set),
                 "chapters": sorted(bible_data.places_chapter_set),
+            })
+
+        elif path == "/api/commentaries":
+            # Hent kommentarer for ett vers (usfm=BOK.K.V) eller ett kapittel (usfm=BOK.K).
+            usfm = (params.get("usfm", [""])[0] or "").strip()
+            if not usfm:
+                self._send_json({"entries": [], "scope": None, "usfm": ""})
+                return
+            parts = usfm.split(".")
+            if len(parts) < 2:
+                self._send_json({"error": "usfm må være BOK.K eller BOK.K.V"}, 400)
+                return
+            book = parts[0].upper()
+            try:
+                chapter = int(parts[1])
+            except ValueError:
+                self._send_json({"error": "ugyldig kapittel"}, 400)
+                return
+            if len(parts) >= 3:
+                try:
+                    verse = int(parts[2])
+                except ValueError:
+                    self._send_json({"error": "ugyldig vers"}, 400)
+                    return
+                entries = commentaries_data.for_verse(book, chapter, verse)
+                self._send_json({
+                    "entries": entries, "scope": "verse", "usfm": usfm,
+                    "book": book, "chapter": chapter, "verse": verse,
+                })
+            else:
+                entries = commentaries_data.for_chapter(
+                    book, chapter, include_book_intro=(chapter == 1)
+                )
+                self._send_json({
+                    "entries": entries, "scope": "chapter", "usfm": usfm,
+                    "book": book, "chapter": chapter,
+                })
+
+        elif path == "/api/commentaries/has":
+            # Sett over (book.chapter) som har minst én kommentar-entry. Frontend
+            # cacher dette ved oppstart for å utgrå "📖 Kommentar"-knappen.
+            self._send_json({
+                "available": commentaries_data.available,
+                "chapters": sorted(commentaries_data.chapter_set),
+            })
+
+        elif path == "/api/commentaries/sources":
+            self._send_json({
+                "available": commentaries_data.available,
+                "sources": commentaries_data.sources,
             })
 
         elif path == "/api/xref_previews":
@@ -2406,8 +2553,9 @@ def gemini_request(api_key, user_prompt, system_prompt, max_tokens=200):
 
 
 def run_server():
-    global bible_data
+    global bible_data, commentaries_data
     bible_data = BibleData()
+    commentaries_data = Commentaries(COMMENTARIES_DB)
 
     if not bible_data.versions:
         print("Error: No Bible versions found. Make sure bible_versions/ directory has version folders with JSON files.")
@@ -2421,6 +2569,11 @@ def run_server():
     gemini_key = os.environ.get("GEMINI_API_KEY", "")
     print(f"Server running at http://{host}:{PORT}")
     print(f"Versjoner lastet: {list(bible_data.versions.keys())}")
+    if commentaries_data.available:
+        print(f"Kommentarer lastet: {len(commentaries_data.sources)} kilde(r), "
+              f"{len(commentaries_data.chapter_set)} kapitler dekket")
+    else:
+        print("Kommentarer: commentaries.db ikke funnet — kommentar-endepunkt deaktivert")
     print(f"GEMINI_API_KEY: {'satt (' + str(len(gemini_key)) + ' tegn)' if gemini_key else 'MANGLER - KI-funksjoner deaktivert'}")
     print(f"google-genai SDK: {'lastet' if GENAI_AVAILABLE else 'IKKE tilgjengelig - installer med: pip install google-genai'}")
     print(f"Gemini-modell: {GEMINI_MODEL}")

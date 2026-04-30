@@ -10,3 +10,13 @@ bible.db
 bible.db-wal
 bible.db-shm
 bible.db-journal
+
+# Kommentar-database (~62 MB, lastes ned fra privat repo ved Docker build)
+commentaries.db
+commentaries.db-wal
+commentaries.db-shm
+commentaries.db-journal
+
+# Lokale kildedata for kommentar-parsere — store og ikke nødvendig i git
+Ressurser/
+gammel_nanv.txt
